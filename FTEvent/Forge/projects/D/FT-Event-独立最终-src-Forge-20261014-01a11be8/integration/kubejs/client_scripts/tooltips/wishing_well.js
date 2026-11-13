@@ -1,0 +1,22 @@
+ItemEvents.tooltip(event => {
+  event.addAdvanced('farmingtales:wishing_well_core', (item, advanced, text) => {
+    // Use native tooltip strings so JEI can gather them during early startup.
+    text.add('§6§lxyj.nbt 多方块结构核心')
+    text.add('§7• §a把 1 颗绿宝石丢入内圈水中§7许愿')
+    text.add('§7• §a手持绿宝石右键核心§7也可许愿')
+    text.add('§7• §e潜行右键§7查看蓝图搭建方法')
+    text.add('§7• §6金币锅右键捐献 1 个，潜行右键捐献整叠，也可丢入井水')
+    text.add('§7• §e个人累计 1 / 10 / 100 锅升至 1 / 2 / 3 级，永久保存')
+    text.add('§7• §a有用物品概率：31.1% → 45% → 60% → 80%')
+    text.add('§7• §d累计 100 锅后空手右键打开商店')
+    text.add('§7• §6非庄园召唤物：每件 1 金币锅')
+    text.add('§7• §b随机庄园武器：SDM 5000 万，不含万味胚刃')
+    text.add('§7• §b随机法术卷轴：SDM 500 万，随机法术及等级')
+    text.add('§7• §fY-1：§75×5 石砖地基，四边中点外接石砖楼梯')
+    text.add('§7• §fY 0：§7石砖墙/台阶井沿，8 格水源，中央核心')
+    text.add('§7• §fY+1～2：§7四角 2 格高石砖墙立柱')
+    text.add('§7• §fY+3：§7石砖台阶环形屋顶，四边中点放绿宝石块')
+    text.add('§8未升级时大多落空；升级减少沉默、杂物和粪便概率。')
+    text.add('§8商店消费不计入捐献；背包满或余额不足时不会扣款。')
+  })
+})
