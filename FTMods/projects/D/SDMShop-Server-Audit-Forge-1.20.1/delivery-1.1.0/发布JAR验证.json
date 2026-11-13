@@ -1,0 +1,34 @@
+{
+  "jar": "D:\\ft工程文件\\SDMShop-Server-Audit-Forge-1.20.1\\build\\libs\\sdmshop-server-audit-forge-1.20.1-1.1.0.jar",
+  "sha256": "9355eb91358f667352c120bcfeda7eda734363e755f723dadfae924ab484fa9a",
+  "bytes": 133300,
+  "classCount": 25,
+  "bytecodeMajors": [
+    61
+  ],
+  "baselineSha256": "e4f5e1d25d41282b8868f1fab8757452e49c83677d25dbe260a6edc8b9490739",
+  "containsSmokeOrTest": false,
+  "containsBundledDependencyClasses": false,
+  "modVersionCorrect": true,
+  "manifestHasMixin": true,
+  "mixins": {
+    "required": true,
+    "minVersion": "0.8.5",
+    "package": "cn.farmingtales.sdmshopaudit.mixin",
+    "plugin": "cn.farmingtales.sdmshopaudit.mixin.ServerMixinPlugin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+      "EditPacketMixin",
+      "PurchasePacketMixin",
+      "PaymentMixin",
+      "ShopSaveMixin",
+      "ShopErrorMixin",
+      "CommandEntryMixin",
+      "ItemEntryMixin",
+      "LimiterDataMixin"
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    }
+  }
+}

@@ -1,0 +1,77 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+group = 'cn.farmingtales.sdmshopaudit'
+version = '1.1.1'
+base { archivesName = 'sdmshop-server-audit-forge-1.20.1' }
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+sourceSets {
+    smoke {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        gameTestServer {
+            workingDirectory project.file('run-audit-gametest')
+            property 'forge.enabledGameTestNamespaces', 'forge'
+            property 'forge.logging.console.level', 'info'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
+            if (!project.hasProperty('auditJarSmoke')) {
+                args '--mixin', 'sdmshop_audit.mixins.json'
+            } else {
+                property 'sdmaudit.testReleaseJar', 'true'
+            }
+            mods {
+                if (!project.hasProperty('auditJarSmoke')) {
+                    sdmshop_audit { source sourceSets.main }
+                }
+                sdmshop_audit_smoke { source sourceSets.smoke }
+            }
+        }
+    }
+}
+repositories {
+    mavenCentral()
+    flatDir { dirs 'compat-libs' }
+}
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'
+    if (project.hasProperty('auditSmoke')) {
+        smokeCompileOnly fg.deobf('local.audit:sdmshoprework:6.11-pre')
+        smokeCompileOnly fg.deobf('local.audit:ftb-library:2001.2.12')
+        runtimeOnly fg.deobf('local.audit:architectury:9.2.14')
+        runtimeOnly fg.deobf('local.audit:ftb-library:2001.2.12')
+        runtimeOnly fg.deobf('local.audit:sdm-economy:1.7.2')
+        runtimeOnly fg.deobf('local.audit:sdm-ui-lib:1.8.3')
+        runtimeOnly fg.deobf('local.audit:sdmshoprework:6.11-pre')
+        if (project.hasProperty('auditJarSmoke')) {
+            runtimeOnly fg.deobf("local.audit:sdmshop-server-audit-forge-1.20.1:${project.version}")
+        }
+    }
+}
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+    options.compilerArgs += ['-proc:none']
+}
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+jar {
+    manifest { attributes('MixinConfigs': 'sdmshop_audit.mixins.json') }
+    finalizedBy 'reobfJar'
+}
+tasks.register('verifyAudit', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'cn.farmingtales.sdmshopaudit.AuditVerifier'
+}
+check.dependsOn verifyAudit
