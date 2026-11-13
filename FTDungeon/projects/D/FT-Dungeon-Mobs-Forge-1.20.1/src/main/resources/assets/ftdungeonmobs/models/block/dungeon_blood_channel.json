@@ -1,0 +1,241 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "atlas": "ftdungeonmobs:block/dungeon_architecture",
+    "particle": "ftdungeonmobs:block/dungeon_ashlar_tile"
+  },
+  "elements": [
+    {
+      "name": "槽底",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        9,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            0.0,
+            2.0,
+            2.25
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            0.0,
+            2.0,
+            2.25
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            0.0,
+            2.0,
+            2.25
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            0.0,
+            2.0,
+            2.25
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            6.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            0.0,
+            0.0,
+            2.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "左侧压边",
+      "from": [
+        0,
+        9,
+        0
+      ],
+      "to": [
+        5,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.0,
+            8.0,
+            6.625,
+            9.75
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            6.0,
+            8.0,
+            6.625,
+            9.75
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            9.75
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            9.75
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            6.0,
+            8.0,
+            6.625,
+            12.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "右侧压边",
+      "from": [
+        11,
+        9,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.0,
+            8.0,
+            6.625,
+            9.75
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            6.0,
+            8.0,
+            6.625,
+            9.75
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            9.75
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            9.75
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            6.0,
+            8.0,
+            6.625,
+            12.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "血痕凹面",
+      "from": [
+        5,
+        9,
+        0
+      ],
+      "to": [
+        11,
+        10,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.0,
+            4.0,
+            6.75,
+            4.25
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            6.0,
+            4.0,
+            6.75,
+            4.25
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            6.0,
+            4.0,
+            6.75,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    }
+  ]
+}

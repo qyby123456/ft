@@ -1,0 +1,421 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "atlas": "ftdungeonmobs:block/dungeon_architecture",
+    "particle": "ftdungeonmobs:block/dungeon_ashlar_tile"
+  },
+  "elements": [
+    {
+      "name": "石棺足",
+      "from": [
+        1,
+        0,
+        0
+      ],
+      "to": [
+        15,
+        3,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.0,
+            8.0,
+            7.75,
+            8.75
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            6.0,
+            8.0,
+            7.75,
+            8.75
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            8.75
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            8.75
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            6.0,
+            8.0,
+            7.75,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            6.0,
+            8.0,
+            7.75,
+            12.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "方棺身",
+      "from": [
+        2,
+        3,
+        1
+      ],
+      "to": [
+        14,
+        10,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            0.0,
+            1.5,
+            1.75
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            0.0,
+            1.5,
+            1.75
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            0.0,
+            1.75,
+            1.75
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            0.0,
+            1.75,
+            1.75
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "棺盖前段",
+      "from": [
+        1,
+        10,
+        0
+      ],
+      "to": [
+        15,
+        13,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14.0,
+            4.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            15.625,
+            4.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            14.0,
+            4.0,
+            14.375,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            14.0,
+            4.0,
+            16.0,
+            4.75
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            14.0,
+            7.25,
+            16.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "棺盖中段",
+      "from": [
+        1,
+        10,
+        5
+      ],
+      "to": [
+        15,
+        13,
+        11
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            14.625,
+            4.0,
+            15.375,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            14.625,
+            4.0,
+            15.375,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            14.0,
+            5.25,
+            16.0,
+            6.75
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            14.0,
+            5.25,
+            16.0,
+            6.75
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "棺盖后段",
+      "from": [
+        1,
+        10,
+        13
+      ],
+      "to": [
+        15,
+        13,
+        16
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            14.0,
+            4.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            14.0,
+            4.0,
+            14.375,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            15.625,
+            4.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            14.0,
+            7.25,
+            16.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            14.0,
+            4.0,
+            16.0,
+            4.75
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "束铁甲",
+      "from": [
+        1,
+        3,
+        3
+      ],
+      "to": [
+        15,
+        14,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            1.75,
+            6.75
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            1.75,
+            6.75
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            0.25,
+            6.75
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            0.25,
+            6.75
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            1.75,
+            4.5
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "束铁乙",
+      "from": [
+        1,
+        3,
+        11
+      ],
+      "to": [
+        15,
+        14,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            1.75,
+            6.75
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            1.75,
+            6.75
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            0.25,
+            6.75
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            0.25,
+            6.75
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            1.75,
+            4.5
+          ],
+          "texture": "#atlas"
+        }
+      }
+    }
+  ]
+}

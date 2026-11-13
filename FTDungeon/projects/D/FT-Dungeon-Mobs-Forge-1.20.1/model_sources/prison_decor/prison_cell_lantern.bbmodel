@@ -1,0 +1,1815 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "囚室巡夜灯",
+  "model_identifier": "prison_cell_lantern",
+  "resolution": {
+    "width": 32,
+    "height": 32
+  },
+  "elements": [
+    {
+      "name": "front left foot",
+      "type": "cube",
+      "uuid": "e16faa4e-8116-5bff-bc5e-aa435d335fd0",
+      "from": [
+        3,
+        0,
+        4
+      ],
+      "to": [
+        5,
+        1,
+        6
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            22,
+            30,
+            26,
+            32
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            6,
+            30,
+            10,
+            32
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            8,
+            30,
+            12,
+            32
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            20,
+            30,
+            24,
+            32
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            6,
+            20,
+            10,
+            24
+          ],
+          "texture": 0,
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "front right foot",
+      "type": "cube",
+      "uuid": "f834845d-c340-5e93-b9f9-e2e994e44d32",
+      "from": [
+        11,
+        0,
+        4
+      ],
+      "to": [
+        13,
+        1,
+        6
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            30,
+            10,
+            32
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            22,
+            30,
+            26,
+            32
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            8,
+            30,
+            12,
+            32
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            20,
+            30,
+            24,
+            32
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            22,
+            20,
+            26,
+            24
+          ],
+          "texture": 0,
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "rear left foot",
+      "type": "cube",
+      "uuid": "96a28c26-dcbd-5b44-869b-102a32cde3e9",
+      "from": [
+        3,
+        0,
+        10
+      ],
+      "to": [
+        5,
+        1,
+        12
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            22,
+            30,
+            26,
+            32
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            6,
+            30,
+            10,
+            32
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            20,
+            30,
+            24,
+            32
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            8,
+            30,
+            12,
+            32
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            6,
+            8,
+            10,
+            12
+          ],
+          "texture": 0,
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "rear right foot",
+      "type": "cube",
+      "uuid": "153bf2a5-f7f9-5609-bd18-6adef9e1380f",
+      "from": [
+        11,
+        0,
+        10
+      ],
+      "to": [
+        13,
+        1,
+        12
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            30,
+            10,
+            32
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            22,
+            30,
+            26,
+            32
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            20,
+            30,
+            24,
+            32
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            8,
+            30,
+            12,
+            32
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            22,
+            8,
+            26,
+            12
+          ],
+          "texture": 0,
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "raised riveted tray",
+      "type": "cube",
+      "uuid": "0a4c4799-5639-55f7-bf93-0d9fa9af9fb7",
+      "from": [
+        3,
+        1,
+        4
+      ],
+      "to": [
+        13,
+        3,
+        12
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            26,
+            26,
+            30
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            6,
+            26,
+            26,
+            30
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            8,
+            26,
+            24,
+            30
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            8,
+            26,
+            24,
+            30
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            6,
+            8,
+            26,
+            24
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            6,
+            8,
+            26,
+            24
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "front left guard",
+      "type": "cube",
+      "uuid": "97651452-1a42-5465-a446-1bc1aba1bc0e",
+      "from": [
+        3,
+        3,
+        4
+      ],
+      "to": [
+        4,
+        11,
+        5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            24,
+            10,
+            26,
+            26
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            6,
+            10,
+            8,
+            26
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            8,
+            10,
+            10,
+            26
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            10,
+            24,
+            26
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "front right guard",
+      "type": "cube",
+      "uuid": "090226b9-7ac5-5d3e-b75d-e9b199e26a57",
+      "from": [
+        12,
+        3,
+        4
+      ],
+      "to": [
+        13,
+        11,
+        5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            10,
+            8,
+            26
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            24,
+            10,
+            26,
+            26
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            8,
+            10,
+            10,
+            26
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            10,
+            24,
+            26
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "rear left guard",
+      "type": "cube",
+      "uuid": "51280e33-5fed-5aca-a632-039cb1f00035",
+      "from": [
+        3,
+        3,
+        11
+      ],
+      "to": [
+        4,
+        11,
+        12
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            24,
+            10,
+            26,
+            26
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            6,
+            10,
+            8,
+            26
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            22,
+            10,
+            24,
+            26
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            8,
+            10,
+            10,
+            26
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "rear right guard",
+      "type": "cube",
+      "uuid": "8d6a9edc-8ecf-564b-b2ce-db37995a90de",
+      "from": [
+        12,
+        3,
+        11
+      ],
+      "to": [
+        13,
+        11,
+        12
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            10,
+            8,
+            26
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            24,
+            10,
+            26,
+            26
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            22,
+            10,
+            24,
+            26
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            8,
+            10,
+            10,
+            26
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "front offset guard",
+      "type": "cube",
+      "uuid": "8ba9e05a-2388-5b27-9714-6c9d27ae03da",
+      "from": [
+        7,
+        3,
+        4
+      ],
+      "to": [
+        8,
+        11,
+        5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            10,
+            18,
+            26
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            14,
+            10,
+            16,
+            26
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            8,
+            10,
+            10,
+            26
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            10,
+            24,
+            26
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "rear offset guard",
+      "type": "cube",
+      "uuid": "1f88617e-0f01-56e6-9a72-383abae1ee61",
+      "from": [
+        8,
+        3,
+        11
+      ],
+      "to": [
+        9,
+        11,
+        12
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            10,
+            16,
+            26
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            10,
+            18,
+            26
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            22,
+            10,
+            24,
+            26
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            8,
+            10,
+            10,
+            26
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "brass burner",
+      "type": "cube",
+      "uuid": "520ba637-ab64-51c3-af51-262e3a7c5c4c",
+      "from": [
+        6,
+        3,
+        7
+      ],
+      "to": [
+        10,
+        4,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            24,
+            20,
+            26
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            12,
+            24,
+            20,
+            26
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            14,
+            24,
+            18,
+            26
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            14,
+            24,
+            18,
+            26
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            12,
+            14,
+            20,
+            18
+          ],
+          "texture": 3
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "narrow amber chimney",
+      "type": "cube",
+      "uuid": "86492fa4-b5e4-5d51-82f4-f3e466f90a24",
+      "from": [
+        7,
+        4,
+        7
+      ],
+      "to": [
+        9,
+        9,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            14,
+            18,
+            24
+          ],
+          "texture": 4
+        },
+        "south": {
+          "uv": [
+            14,
+            14,
+            18,
+            24
+          ],
+          "texture": 4
+        },
+        "west": {
+          "uv": [
+            14,
+            14,
+            18,
+            24
+          ],
+          "texture": 4
+        },
+        "east": {
+          "uv": [
+            14,
+            14,
+            18,
+            24
+          ],
+          "texture": 4
+        },
+        "up": {
+          "uv": [
+            14,
+            14,
+            18,
+            18
+          ],
+          "texture": 4
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "offset flame tip",
+      "type": "cube",
+      "uuid": "32c54fc2-ccb8-5639-8d9a-2245176443c3",
+      "from": [
+        7,
+        9,
+        7
+      ],
+      "to": [
+        8,
+        10,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            12,
+            18,
+            14
+          ],
+          "texture": 4
+        },
+        "south": {
+          "uv": [
+            14,
+            12,
+            16,
+            14
+          ],
+          "texture": 4
+        },
+        "west": {
+          "uv": [
+            14,
+            12,
+            16,
+            14
+          ],
+          "texture": 4
+        },
+        "east": {
+          "uv": [
+            16,
+            12,
+            18,
+            14
+          ],
+          "texture": 4
+        },
+        "up": {
+          "uv": [
+            14,
+            14,
+            16,
+            16
+          ],
+          "texture": 4
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "flat cage crown",
+      "type": "cube",
+      "uuid": "98093d43-f671-5c44-866c-c72ded52c3eb",
+      "from": [
+        3,
+        11,
+        4
+      ],
+      "to": [
+        13,
+        12,
+        12
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            8,
+            26,
+            10
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            6,
+            8,
+            26,
+            10
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            8,
+            8,
+            24,
+            10
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            8,
+            8,
+            24,
+            10
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            6,
+            8,
+            26,
+            24
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            6,
+            8,
+            26,
+            24
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "stepped brass cap",
+      "type": "cube",
+      "uuid": "3331eccb-4f7d-5f8a-9443-8391606dcc16",
+      "from": [
+        5,
+        12,
+        6
+      ],
+      "to": [
+        11,
+        13,
+        10
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            6,
+            22,
+            8
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            10,
+            6,
+            22,
+            8
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            12,
+            6,
+            20,
+            8
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            12,
+            6,
+            20,
+            8
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            10,
+            12,
+            22,
+            20
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "carry bail left",
+      "type": "cube",
+      "uuid": "0938bcfa-f765-5252-9af7-b422755f247d",
+      "from": [
+        5,
+        13,
+        7
+      ],
+      "to": [
+        6,
+        16,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            20,
+            0,
+            22,
+            6
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            10,
+            0,
+            12,
+            6
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            0,
+            18,
+            6
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            0,
+            18,
+            6
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            10,
+            14,
+            12,
+            18
+          ],
+          "texture": 0,
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "carry bail right",
+      "type": "cube",
+      "uuid": "57d4115c-6434-50fb-9552-45240e681256",
+      "from": [
+        10,
+        13,
+        7
+      ],
+      "to": [
+        11,
+        16,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            0,
+            12,
+            6
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            20,
+            0,
+            22,
+            6
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            0,
+            18,
+            6
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            0,
+            18,
+            6
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            20,
+            14,
+            22,
+            18
+          ],
+          "texture": 0,
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "carry bail bridge",
+      "type": "cube",
+      "uuid": "c81c4c5f-11a7-5007-86e3-e913cc81f623",
+      "from": [
+        6,
+        15,
+        7
+      ],
+      "to": [
+        10,
+        16,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            0,
+            20,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            12,
+            0,
+            20,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "up": {
+          "uv": [
+            12,
+            14,
+            20,
+            18
+          ],
+          "texture": 0,
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            12,
+            14,
+            20,
+            18
+          ],
+          "texture": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "e16faa4e-8116-5bff-bc5e-aa435d335fd0",
+    "f834845d-c340-5e93-b9f9-e2e994e44d32",
+    "96a28c26-dcbd-5b44-869b-102a32cde3e9",
+    "153bf2a5-f7f9-5609-bd18-6adef9e1380f",
+    "0a4c4799-5639-55f7-bf93-0d9fa9af9fb7",
+    "97651452-1a42-5465-a446-1bc1aba1bc0e",
+    "090226b9-7ac5-5d3e-b75d-e9b199e26a57",
+    "51280e33-5fed-5aca-a632-039cb1f00035",
+    "8d6a9edc-8ecf-564b-b2ce-db37995a90de",
+    "8ba9e05a-2388-5b27-9714-6c9d27ae03da",
+    "1f88617e-0f01-56e6-9a72-383abae1ee61",
+    "520ba637-ab64-51c3-af51-262e3a7c5c4c",
+    "86492fa4-b5e4-5d51-82f4-f3e466f90a24",
+    "32c54fc2-ccb8-5639-8d9a-2245176443c3",
+    "98093d43-f671-5c44-866c-c72ded52c3eb",
+    "3331eccb-4f7d-5f8a-9443-8391606dcc16",
+    "0938bcfa-f765-5252-9af7-b422755f247d",
+    "57d4115c-6434-50fb-9552-45240e681256",
+    "c81c4c5f-11a7-5007-86e3-e913cc81f623"
+  ],
+  "textures": [
+    {
+      "name": "lighting_00.png",
+      "id": "0",
+      "uuid": "33731c14-ecf0-5b14-b4c5-1d022dbe2513",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAArklEQVR4nGNU1Tb9z8DAwKCspsaADN6+fQtnf0BiEwt+/P4NZ3OwsuJUx8QwwIBp1AEMAwxYSFEsLi1NUM3Lp0+HcQi8JNF3QyIEmEYdwDAaBQMMmEYdwDDSo4CFkkqIGkUzE8NQCIGXNKiESHIAtYCJuSmcfebk6SEUBZSCYDlGMP1woKNA/vkZOBvGYmIYYMA00A5goUQzMa1kEFj76OkwDYGXeAqo0c4pA5EAAArnJaG7jYcKAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "lighting_01.png",
+      "id": "1",
+      "uuid": "722a85ef-13fb-5fa2-9e0d-51059261f3d2",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA6ElEQVR4nGM0snL5zzCAgAVEqGuoDYjlN2/cYmBiGGDANNAOYAER7z98hAu8evGSpha+fvMGzhYVEcEeAk7e7mD89OlTii0kZBYTw2CIAnSweNY8OPvnjx8MlABks4h2gLS0NNUcICIszMDOwYFTnolhgAHTqAMYRqNgpEcBCymKxSQkiFL36sWLYRoCr0jw2ZAJAaYR7wAWaoSAr/gvrOKbX7IN0ShwomKTzDPYH69ZLIQMwNeYgIFdH7GrYeegQpOMUkBxk4xSQMgsFmTO1StXGegNmBgGGLCACFr3hgg6AAZAXSV6AwCS5j2SkeXMbAAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "lighting_04.png",
+      "id": "2",
+      "uuid": "099a466d-406a-5d4e-92c2-9cf0140ecebb",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAlUlEQVR4nGPszbb5z8DAwGBmqsmADJ48fQlnP3v2joFScPXhNxS+tjwXmGZiGGDANOoAhpEeBSykapCVESVa7eMnr4dhCDwmwlekACaqmjbqADIAE8MAA6ZRBzCM9ChgIVXDaFH8eLQoHrG54Mx3OQwxE85HQz8EmEa8A1iIDQFYfKOWhPgbqKONUmIAE1GqaAgG3AEAHUQgy/WEOqMAAAAASUVORK5CYII="
+    },
+    {
+      "name": "lighting_07.png",
+      "id": "3",
+      "uuid": "c6f3b4b6-c8ab-52e6-8ea3-111d950f7fc3",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAg0lEQVR4nGMUkVX/zzCAgGkgLafIAfHGsmA8IA4wleDGyqabA6gJmBhGugNYsAkK8vFhVfz+06cREgLEgGtP3zGM7BDAB0hJQ0wMAwyYRh3AMBoFAwyYRh3AMBoFw7EueE9Cu4GJYYAB06CMgvc0aHoN2hBgGpK54PSLr8MnBJgG2gEA3aIUqGGFkpEAAAAASUVORK5CYII="
+    },
+    {
+      "name": "lighting_12.png",
+      "id": "4",
+      "uuid": "d582c104-9636-5ba5-9352-19942808c0ac",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAsElEQVR4nGPcm6H7nwEPsArXZiAXHFt5laAaJoYBBkwD7QAWcjVyGEZgFf9xfsXQCgGmIRsFxABsOQg9ZzAxDDBgGlRRYEVBoTNkQ4Bp2OUCDrQCilDBxEKqgcMuCphGvANYyAoBNjns4r8ejUYByYCJYaQ7gIWQAuSSjBaFEhPDYAqBY0itFXpVzSzUNhBb5YOvg8LEMMCAhSxdZJR4gzYEmIZUFPwgsdtFDBjwEAAAwz0g8qRAEe8AAAAASUVORK5CYII="
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.63,
+        0.63,
+        0.63
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  }
+}

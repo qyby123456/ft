@@ -1,0 +1,1057 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "铁栅囚窗",
+  "model_identifier": "prison_barred_window",
+  "resolution": {
+    "width": 32,
+    "height": 32
+  },
+  "elements": [
+    {
+      "name": "stone sill block",
+      "type": "cube",
+      "uuid": "f4ea0d7d-c283-52f1-8198-1f33f602c2e4",
+      "from": [
+        0,
+        0,
+        13
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            26,
+            32,
+            32
+          ],
+          "texture": 3
+        },
+        "south": {
+          "uv": [
+            0,
+            26,
+            32,
+            32
+          ],
+          "texture": 2,
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            26,
+            26,
+            32,
+            32
+          ],
+          "texture": 2,
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            26,
+            6,
+            32
+          ],
+          "texture": 2,
+          "cullface": "east"
+        },
+        "up": {
+          "uv": [
+            0,
+            26,
+            32,
+            32
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            32,
+            6
+          ],
+          "texture": 2,
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "stone lintel block",
+      "type": "cube",
+      "uuid": "a9f47b22-1fc0-5bd1-89a2-a8de2174eef2",
+      "from": [
+        0,
+        13,
+        13
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            32,
+            6
+          ],
+          "texture": 3
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            32,
+            6
+          ],
+          "texture": 2,
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            26,
+            0,
+            32,
+            6
+          ],
+          "texture": 2,
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            6,
+            6
+          ],
+          "texture": 2,
+          "cullface": "east"
+        },
+        "up": {
+          "uv": [
+            0,
+            26,
+            32,
+            32
+          ],
+          "texture": 2,
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            32,
+            6
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "west stone jamb",
+      "type": "cube",
+      "uuid": "51679714-542a-55fb-8ffa-fae7b318965b",
+      "from": [
+        0,
+        3,
+        13
+      ],
+      "to": [
+        3,
+        13,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            26,
+            6,
+            32,
+            26
+          ],
+          "texture": 3
+        },
+        "south": {
+          "uv": [
+            0,
+            6,
+            6,
+            26
+          ],
+          "texture": 2,
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            26,
+            6,
+            32,
+            26
+          ],
+          "texture": 2,
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            6,
+            6,
+            26
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "east stone jamb",
+      "type": "cube",
+      "uuid": "89714f49-ffbf-5654-8d5e-ef923316b172",
+      "from": [
+        13,
+        3,
+        13
+      ],
+      "to": [
+        16,
+        13,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            6,
+            6,
+            26
+          ],
+          "texture": 3
+        },
+        "south": {
+          "uv": [
+            26,
+            6,
+            32,
+            26
+          ],
+          "texture": 2,
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            26,
+            6,
+            32,
+            26
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            0,
+            6,
+            6,
+            26
+          ],
+          "texture": 2,
+          "cullface": "east"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "west forged window bar",
+      "type": "cube",
+      "uuid": "2a3b86b2-30f8-5406-baf0-4f5b3bd2b66a",
+      "from": [
+        4,
+        3,
+        14
+      ],
+      "to": [
+        5,
+        13,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            22,
+            6,
+            24,
+            26
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            8,
+            6,
+            10,
+            26
+          ],
+          "texture": 0,
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            28,
+            6,
+            32,
+            26
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            6,
+            4,
+            26
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "central forged window bar",
+      "type": "cube",
+      "uuid": "64cdcb33-8e87-5b61-b440-c34d48c4c897",
+      "from": [
+        7,
+        3,
+        14
+      ],
+      "to": [
+        8,
+        13,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            6,
+            18,
+            26
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            14,
+            6,
+            16,
+            26
+          ],
+          "texture": 0,
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            28,
+            6,
+            32,
+            26
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            6,
+            4,
+            26
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "east forged window bar",
+      "type": "cube",
+      "uuid": "b2cccb2b-a22c-5375-8457-719b8e8a19fb",
+      "from": [
+        10,
+        3,
+        14
+      ],
+      "to": [
+        11,
+        13,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            6,
+            12,
+            26
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            20,
+            6,
+            22,
+            26
+          ],
+          "texture": 0,
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            28,
+            6,
+            32,
+            26
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            6,
+            4,
+            26
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "front locking cross rail",
+      "type": "cube",
+      "uuid": "e578d00f-f633-5577-a76f-c4b01c979f56",
+      "from": [
+        3,
+        7,
+        13
+      ],
+      "to": [
+        13,
+        8,
+        14
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            16,
+            26,
+            18
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            6,
+            16,
+            26,
+            18
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "up": {
+          "uv": [
+            6,
+            26,
+            26,
+            28
+          ],
+          "texture": 1
+        },
+        "down": {
+          "uv": [
+            6,
+            4,
+            26,
+            6
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "front stone key",
+      "type": "cube",
+      "uuid": "bc341280-dd73-5bf8-ad65-e2c031406cbf",
+      "from": [
+        7,
+        13,
+        12
+      ],
+      "to": [
+        9,
+        16,
+        13
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            0,
+            18,
+            6
+          ],
+          "texture": 3
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            24,
+            0,
+            26,
+            6
+          ],
+          "texture": 3
+        },
+        "east": {
+          "uv": [
+            6,
+            0,
+            8,
+            6
+          ],
+          "texture": 3
+        },
+        "up": {
+          "uv": [
+            14,
+            24,
+            18,
+            26
+          ],
+          "texture": 3,
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            14,
+            6,
+            18,
+            8
+          ],
+          "texture": 3
+        }
+      }
+    },
+    {
+      "name": "projecting stone sill nose",
+      "type": "cube",
+      "uuid": "2c1624b7-3bf1-5fb6-8f67-8831378de081",
+      "from": [
+        1,
+        1,
+        11
+      ],
+      "to": [
+        15,
+        3,
+        13
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            26,
+            30,
+            30
+          ],
+          "texture": 3
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            22,
+            26,
+            26,
+            30
+          ],
+          "texture": 3
+        },
+        "east": {
+          "uv": [
+            6,
+            26,
+            10,
+            30
+          ],
+          "texture": 3
+        },
+        "up": {
+          "uv": [
+            2,
+            22,
+            30,
+            26
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            2,
+            6,
+            30,
+            10
+          ],
+          "texture": 3
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "f4ea0d7d-c283-52f1-8198-1f33f602c2e4",
+    "a9f47b22-1fc0-5bd1-89a2-a8de2174eef2",
+    "51679714-542a-55fb-8ffa-fae7b318965b",
+    "89714f49-ffbf-5654-8d5e-ef923316b172",
+    "2a3b86b2-30f8-5406-baf0-4f5b3bd2b66a",
+    "64cdcb33-8e87-5b61-b440-c34d48c4c897",
+    "b2cccb2b-a22c-5375-8457-719b8e8a19fb",
+    "e578d00f-f633-5577-a76f-c4b01c979f56",
+    "bc341280-dd73-5bf8-ad65-e2c031406cbf",
+    "2c1624b7-3bf1-5fb6-8f67-8831378de081"
+  ],
+  "textures": [
+    {
+      "name": "lighting_00.png",
+      "id": "0",
+      "uuid": "33731c14-ecf0-5b14-b4c5-1d022dbe2513",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAArklEQVR4nGNU1Tb9z8DAwKCspsaADN6+fQtnf0BiEwt+/P4NZ3OwsuJUx8QwwIBp1AEMAwxYSFEsLi1NUM3Lp0+HcQi8JNF3QyIEmEYdwDAaBQMMmEYdwDDSo4CFkkqIGkUzE8NQCIGXNKiESHIAtYCJuSmcfebk6SEUBZSCYDlGMP1woKNA/vkZOBvGYmIYYMA00A5goUQzMa1kEFj76OkwDYGXeAqo0c4pA5EAAArnJaG7jYcKAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "lighting_01.png",
+      "id": "1",
+      "uuid": "722a85ef-13fb-5fa2-9e0d-51059261f3d2",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA6ElEQVR4nGM0snL5zzCAgAVEqGuoDYjlN2/cYmBiGGDANNAOYAER7z98hAu8evGSpha+fvMGzhYVEcEeAk7e7mD89OlTii0kZBYTw2CIAnSweNY8OPvnjx8MlABks4h2gLS0NNUcICIszMDOwYFTnolhgAHTqAMYRqNgpEcBCymKxSQkiFL36sWLYRoCr0jw2ZAJAaYR7wAWaoSAr/gvrOKbX7IN0ShwomKTzDPYH69ZLIQMwNeYgIFdH7GrYeegQpOMUkBxk4xSQMgsFmTO1StXGegNmBgGGLCACFr3hgg6AAZAXSV6AwCS5j2SkeXMbAAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "lighting_02.png",
+      "id": "2",
+      "uuid": "a44f0ce2-a183-5ee7-802e-86e0bfbefc3e",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA9UlEQVR4nGM09Yn8zzCAgIlhgAELjCEpKU5Xi58/f0m7ELh+6QoYkxQCX75+hwvycHPSwl34HYAteCgFIHPsLY0wxA8eP4ffAeSAD69fk6WPBZ8kBydxUfHjOyL6iAHfvn4F01zc3NQLARgQEBUlST0LA40BcnzDfD44CyJy4haWRpDTCnq6IWQGCwOVgIScHFn6mBgGGDCNeAewUBICpBZAo1FAUhT8ICJ4ia0r8AEmik0Y6g5goZZBhNqUuBo5LDDG50+fGAZFCHxAa9mQWr+P3DTwnMyGLAuhhiW5jU18ADlamRgGGDCNeAewIIcArbMcNgAAo7RBuygSQC8AAAAASUVORK5CYII="
+    },
+    {
+      "name": "lighting_03.png",
+      "id": "3",
+      "uuid": "6a9669c2-3823-5459-9c81-4e63553b40ea",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAwElEQVR4nGM09Yn8zzCAgIlhgAELjGFvaURQ8cZNO+Fsfz93ouWwgYPHzw2yEEB3GSGATx0+OfSQZsGm6MPr1wQdgE8NMfphgIlhgAHTQDuAhZACaUUFiiz4+uUr3ihhIWQAHy8PnP3p8xeGYRcFTKMOYBiNggEGTKMOYBiNggEGLIQUIJf/r1++ItkCLm5uvPJMDAMMmAZ9FHz98pXo4KSJAz6Q0L4bklHANNAOYEEXwNdDombPaNCEAOOI7x0DAAcBOCaaCDVLAAAAAElFTkSuQmCC"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.63,
+        0.63,
+        0.63
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  }
+}

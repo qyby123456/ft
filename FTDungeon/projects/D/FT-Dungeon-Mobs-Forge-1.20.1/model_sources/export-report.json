@@ -1,0 +1,102 @@
+[
+  {
+    "id": "skeleton_warrior",
+    "filename": "骷髅战士final.bbmodel",
+    "bones": 55,
+    "cubes": 180,
+    "animations": [
+      "animation.skeleton_warrior.idle",
+      "animation.skeleton_warrior.animation2",
+      "animation.skeleton_warrior.attack",
+      "animation.skeleton_warrior.walk"
+    ],
+    "orphanAnimatorChannels": [
+      {
+        "animation": "animation2",
+        "bone": "group5"
+      }
+    ],
+    "geometryVersion": "1.12.0",
+    "modelHeight": 1.90544875
+  },
+  {
+    "id": "skeleton_archer",
+    "filename": "骷髅弓手final.bbmodel",
+    "bones": 60,
+    "cubes": 172,
+    "animations": [
+      "animation.skeleton_archer.idle",
+      "animation.skeleton_archer.attack",
+      "animation.skeleton_archer.animation2",
+      "animation.skeleton_archer.walk"
+    ],
+    "orphanAnimatorChannels": [],
+    "geometryVersion": "1.12.0",
+    "modelHeight": 2.03957875
+  },
+  {
+    "id": "skeleton_mage",
+    "filename": "骷髅法师final.bbmodel",
+    "bones": 52,
+    "cubes": 134,
+    "animations": [
+      "animation.skeleton_mage.idle",
+      "animation.skeleton_mage.attack",
+      "animation.skeleton_mage.walk",
+      "animation.skeleton_mage.animation2"
+    ],
+    "orphanAnimatorChannels": [
+      {
+        "animation": "idle",
+        "bone": "bone"
+      },
+      {
+        "animation": "idle",
+        "bone": "Right_leg"
+      },
+      {
+        "animation": "idle",
+        "bone": "Right_leg2"
+      },
+      {
+        "animation": "idle",
+        "bone": "Right_foot"
+      },
+      {
+        "animation": "idle",
+        "bone": "Left_leg"
+      },
+      {
+        "animation": "idle",
+        "bone": "Left_leg2"
+      },
+      {
+        "animation": "idle",
+        "bone": "Left_foot"
+      }
+    ],
+    "geometryVersion": "1.12.0",
+    "modelHeight": 1.88982375
+  },
+  {
+    "id": "skeleton_king",
+    "filename": "骷髅王final.bbmodel",
+    "bones": 51,
+    "cubes": 169,
+    "animations": [
+      "animation.skeleton_king.idle",
+      "animation.skeleton_king.attack",
+      "animation.skeleton_king.dash",
+      "animation.skeleton_king.summon",
+      "animation.skeleton_king.walk"
+    ],
+    "orphanAnimatorChannels": [
+      {
+        "animation": "idle",
+        "bone": "group9"
+      }
+    ],
+    "geometryVersion": "1.12.0",
+    "modelHeight": 3.3152325
+  }
+]

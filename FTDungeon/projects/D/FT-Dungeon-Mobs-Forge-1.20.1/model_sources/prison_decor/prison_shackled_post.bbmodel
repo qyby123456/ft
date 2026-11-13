@@ -1,0 +1,1884 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "双镣刑柱",
+  "model_identifier": "prison_shackled_post",
+  "resolution": {
+    "width": 32,
+    "height": 32
+  },
+  "elements": [
+    {
+      "name": "left ground runner",
+      "type": "cube",
+      "uuid": "cf33781f-c7f7-5d61-8bfb-2ba116cf1ae3",
+      "from": [
+        2,
+        0,
+        6
+      ],
+      "to": [
+        5,
+        1,
+        15
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            22,
+            30,
+            28,
+            32
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            4,
+            30,
+            10,
+            32
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            12,
+            30,
+            30,
+            32
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            2,
+            30,
+            20,
+            32
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            4,
+            12,
+            10,
+            30
+          ],
+          "texture": 3
+        },
+        "down": {
+          "uv": [
+            4,
+            2,
+            10,
+            20
+          ],
+          "texture": 1,
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "right ground runner",
+      "type": "cube",
+      "uuid": "7e00fd7f-001e-5c36-ad5c-3a55ee634e1b",
+      "from": [
+        11,
+        0,
+        6
+      ],
+      "to": [
+        14,
+        1,
+        15
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            30,
+            10,
+            32
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            22,
+            30,
+            28,
+            32
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            12,
+            30,
+            30,
+            32
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            2,
+            30,
+            20,
+            32
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            22,
+            12,
+            28,
+            30
+          ],
+          "texture": 3
+        },
+        "down": {
+          "uv": [
+            22,
+            2,
+            28,
+            20
+          ],
+          "texture": 1,
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "wide mortised foot sill",
+      "type": "cube",
+      "uuid": "c0514795-b732-58a5-b464-0378d88244d5",
+      "from": [
+        3,
+        1,
+        8
+      ],
+      "to": [
+        13,
+        2,
+        14
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            28,
+            26,
+            30
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            6,
+            28,
+            26,
+            30
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            16,
+            28,
+            28,
+            30
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            4,
+            28,
+            16,
+            30
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            6,
+            16,
+            26,
+            28
+          ],
+          "texture": 3
+        },
+        "down": {
+          "uv": [
+            6,
+            4,
+            26,
+            16
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "tall restraint mast",
+      "type": "cube",
+      "uuid": "01633acc-7cea-5d16-a041-8ea3b5a359e5",
+      "from": [
+        6,
+        2,
+        11
+      ],
+      "to": [
+        10,
+        15,
+        14
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            2,
+            20,
+            28
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            12,
+            2,
+            20,
+            28
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            22,
+            2,
+            28,
+            28
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            4,
+            2,
+            10,
+            28
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "forward load bearing crossbeam",
+      "type": "cube",
+      "uuid": "e977ec81-35a4-5137-afa9-d8579b34fd86",
+      "from": [
+        1,
+        12,
+        9
+      ],
+      "to": [
+        15,
+        14,
+        11
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            4,
+            30,
+            8
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            30,
+            8
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            18,
+            4,
+            22,
+            8
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            10,
+            4,
+            14,
+            8
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            2,
+            18,
+            30,
+            22
+          ],
+          "texture": 3
+        },
+        "down": {
+          "uv": [
+            2,
+            10,
+            30,
+            14
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "mast iron cap",
+      "type": "cube",
+      "uuid": "d236b8ae-25dd-53f9-983e-ff31ced0487d",
+      "from": [
+        6,
+        15,
+        11
+      ],
+      "to": [
+        10,
+        16,
+        14
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            0,
+            20,
+            2
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            12,
+            0,
+            20,
+            2
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            22,
+            0,
+            28,
+            2
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            4,
+            0,
+            10,
+            2
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            12,
+            22,
+            20,
+            28
+          ],
+          "texture": 2,
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "front mast reinforcement",
+      "type": "cube",
+      "uuid": "5af395f8-7585-534a-9a86-66b4dafc47fc",
+      "from": [
+        6,
+        3,
+        10
+      ],
+      "to": [
+        10,
+        6,
+        11
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            20,
+            20,
+            26
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            20,
+            20,
+            22,
+            26
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            10,
+            20,
+            12,
+            26
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            12,
+            20,
+            20,
+            22
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            12,
+            10,
+            20,
+            12
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "rear fastening plate",
+      "type": "cube",
+      "uuid": "956875b4-116b-57e1-b368-c9c422b0e383",
+      "from": [
+        6,
+        9,
+        14
+      ],
+      "to": [
+        10,
+        13,
+        15
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            12,
+            6,
+            20,
+            14
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            28,
+            6,
+            30,
+            14
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            2,
+            6,
+            4,
+            14
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            12,
+            28,
+            20,
+            30
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            12,
+            2,
+            20,
+            4
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "left cuff outer upright",
+      "type": "cube",
+      "uuid": "c1e2094f-b499-5ad7-b385-c1ddc9aa8446",
+      "from": [
+        1,
+        4,
+        6
+      ],
+      "to": [
+        2,
+        9,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            28,
+            14,
+            30,
+            24
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            2,
+            14,
+            4,
+            24
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            12,
+            14,
+            16,
+            24
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            16,
+            14,
+            20,
+            24
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            2,
+            12,
+            4,
+            16
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            2,
+            16,
+            4,
+            20
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "left cuff inner upright",
+      "type": "cube",
+      "uuid": "19389ce5-ec88-59ff-be27-65a1fd690506",
+      "from": [
+        5,
+        4,
+        6
+      ],
+      "to": [
+        6,
+        9,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            20,
+            14,
+            22,
+            24
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            10,
+            14,
+            12,
+            24
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            12,
+            14,
+            16,
+            24
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            16,
+            14,
+            20,
+            24
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            10,
+            12,
+            12,
+            16
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            10,
+            16,
+            12,
+            20
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "left cuff upper bridge",
+      "type": "cube",
+      "uuid": "65a93b0b-cbe3-5194-b645-2c78b1a0aa0c",
+      "from": [
+        2,
+        8,
+        6
+      ],
+      "to": [
+        5,
+        9,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            22,
+            14,
+            28,
+            16
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            4,
+            14,
+            10,
+            16
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "up": {
+          "uv": [
+            4,
+            12,
+            10,
+            16
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            4,
+            16,
+            10,
+            20
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "left cuff lower bridge",
+      "type": "cube",
+      "uuid": "7ef69940-9a2e-5265-a9b4-b71c853861b3",
+      "from": [
+        2,
+        4,
+        6
+      ],
+      "to": [
+        5,
+        5,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            22,
+            22,
+            28,
+            24
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            4,
+            22,
+            10,
+            24
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "up": {
+          "uv": [
+            4,
+            12,
+            10,
+            16
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            4,
+            16,
+            10,
+            20
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "left suspended chain stem",
+      "type": "cube",
+      "uuid": "de18ae64-82b8-54d5-aa86-27507b0f679a",
+      "from": [
+        3,
+        9,
+        7
+      ],
+      "to": [
+        4,
+        11,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            24,
+            10,
+            26,
+            14
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            6,
+            10,
+            8,
+            14
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            14,
+            10,
+            16,
+            14
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            16,
+            10,
+            18,
+            14
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "left forward anchor arm",
+      "type": "cube",
+      "uuid": "bfd9a3f4-c260-596f-aa70-5ac0f42ec4e8",
+      "from": [
+        3,
+        11,
+        7
+      ],
+      "to": [
+        4,
+        12,
+        11
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            24,
+            8,
+            26,
+            10
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            6,
+            8,
+            8,
+            10
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            14,
+            8,
+            22,
+            10
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            18,
+            10
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            6,
+            14,
+            8,
+            22
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            6,
+            10,
+            8,
+            18
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "right cuff outer upright",
+      "type": "cube",
+      "uuid": "dc4c8c70-1e60-5a42-9b33-ba30e4282bfc",
+      "from": [
+        10,
+        4,
+        6
+      ],
+      "to": [
+        11,
+        9,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            14,
+            12,
+            24
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            20,
+            14,
+            22,
+            24
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            12,
+            14,
+            16,
+            24
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            16,
+            14,
+            20,
+            24
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            20,
+            12,
+            22,
+            16
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            20,
+            16,
+            22,
+            20
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "right cuff inner upright",
+      "type": "cube",
+      "uuid": "5846baf9-fb25-5726-9af0-62806e0c276d",
+      "from": [
+        14,
+        4,
+        6
+      ],
+      "to": [
+        15,
+        9,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            14,
+            4,
+            24
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            28,
+            14,
+            30,
+            24
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            12,
+            14,
+            16,
+            24
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            16,
+            14,
+            20,
+            24
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            28,
+            12,
+            30,
+            16
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            28,
+            16,
+            30,
+            20
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "right cuff upper bridge",
+      "type": "cube",
+      "uuid": "9ad21d50-8d5b-55de-a585-e6a26fa637eb",
+      "from": [
+        11,
+        8,
+        6
+      ],
+      "to": [
+        14,
+        9,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            14,
+            10,
+            16
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            22,
+            14,
+            28,
+            16
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "up": {
+          "uv": [
+            22,
+            12,
+            28,
+            16
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            22,
+            16,
+            28,
+            20
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "right cuff lower bridge",
+      "type": "cube",
+      "uuid": "a5007356-535e-5110-a104-30e65fecb4a4",
+      "from": [
+        11,
+        4,
+        6
+      ],
+      "to": [
+        14,
+        5,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            22,
+            10,
+            24
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            22,
+            22,
+            28,
+            24
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "up": {
+          "uv": [
+            22,
+            12,
+            28,
+            16
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            22,
+            16,
+            28,
+            20
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "right suspended chain stem",
+      "type": "cube",
+      "uuid": "36bdebe3-486a-5f42-bd92-959af4cc789c",
+      "from": [
+        12,
+        9,
+        7
+      ],
+      "to": [
+        13,
+        11,
+        8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            10,
+            8,
+            14
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            24,
+            10,
+            26,
+            14
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            14,
+            10,
+            16,
+            14
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            16,
+            10,
+            18,
+            14
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "right forward anchor arm",
+      "type": "cube",
+      "uuid": "758b4f43-1c90-522d-bcba-a7807abf7f1f",
+      "from": [
+        12,
+        11,
+        7
+      ],
+      "to": [
+        13,
+        12,
+        11
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            8,
+            8,
+            10
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            24,
+            8,
+            26,
+            10
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            14,
+            8,
+            22,
+            10
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            18,
+            10
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            24,
+            14,
+            26,
+            22
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            24,
+            10,
+            26,
+            18
+          ],
+          "texture": 2
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "cf33781f-c7f7-5d61-8bfb-2ba116cf1ae3",
+    "7e00fd7f-001e-5c36-ad5c-3a55ee634e1b",
+    "c0514795-b732-58a5-b464-0378d88244d5",
+    "01633acc-7cea-5d16-a041-8ea3b5a359e5",
+    "e977ec81-35a4-5137-afa9-d8579b34fd86",
+    "d236b8ae-25dd-53f9-983e-ff31ced0487d",
+    "5af395f8-7585-534a-9a86-66b4dafc47fc",
+    "956875b4-116b-57e1-b368-c9c422b0e383",
+    "c1e2094f-b499-5ad7-b385-c1ddc9aa8446",
+    "19389ce5-ec88-59ff-be27-65a1fd690506",
+    "65a93b0b-cbe3-5194-b645-2c78b1a0aa0c",
+    "7ef69940-9a2e-5265-a9b4-b71c853861b3",
+    "de18ae64-82b8-54d5-aa86-27507b0f679a",
+    "bfd9a3f4-c260-596f-aa70-5ac0f42ec4e8",
+    "dc4c8c70-1e60-5a42-9b33-ba30e4282bfc",
+    "5846baf9-fb25-5726-9af0-62806e0c276d",
+    "9ad21d50-8d5b-55de-a585-e6a26fa637eb",
+    "a5007356-535e-5110-a104-30e65fecb4a4",
+    "36bdebe3-486a-5f42-bd92-959af4cc789c",
+    "758b4f43-1c90-522d-bcba-a7807abf7f1f"
+  ],
+  "textures": [
+    {
+      "name": "remake-furnishings_00.png",
+      "id": "0",
+      "uuid": "0f12abeb-cbb1-5782-88b4-8450ff52e0a7",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABM0lEQVR4nGP0NDX6ryUtxIALXHv6jsFeWwqr3OsPP8Dy+nJ8WOV//2UBy7vqS+I0nwlE6GoIM+ADEhLcqI569AqFr6Eqjle/kAgPfgcMJGBCF3j96RNRGnl4WWjjAHoDJmyCirK444wQePb+G+UOoCdgooWhMlICA+sAUgATA5ngy+c/A+cALTkxqlhOtgOoCZiwCd5//IUiQ588+0C+A0T5sFcsxAIpQa7BGwUX7r0eWAdgA0wMdAZsnKwD6wB0wMRAAkBviFADMFHdRFo7gIdKDREYYKGGIftO3Se7LGBhoBJ4jVQ5SQky0N8BomRGDQs1LHcyU2S4cfvlCMkFlIJf338PnAMMlEQxxJgGqilGlgO0qNgUI8sBDDQAYAdcvvEWr6IXL77ilSeUBd+9wd3EAwB8YUOAvp5rNQAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "remake-furnishings_01.png",
+      "id": "1",
+      "uuid": "32cbd10e-078c-5f74-8a92-0335e6c29b8f",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAoklEQVR4nGNcUBH+n2EAARPDAAOWExeeDawDGBgYGAR5mOlu8fsvfwdJFDAguebh269UNVxemJs4B6Br0FYWZiAGXL37loFSwEIrg4kFTHSzadQBgzUKWEDEaEH0frAVRCMqETINtANYKDWA2HoDVxHPQqkDKK03mBgGGDCNeAewgEJgtCh+P5KLYhZSCxNqtxtZqGnYkCwHWKid8EgFAx4CADcxNEMWlKcEAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "remake-furnishings_02.png",
+      "id": "2",
+      "uuid": "d38010ee-3d36-58f8-9905-f5db48ba3bb6",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAxElEQVR4nGMsae3+zzCAgIlhgAHL2WMnKTakWO8Xw5ELL8Dsk0xy9A+BI1DLyQEs1HAAqb4eVGmACV0gJCyA4cmDh2CMD1BLHWNkUhZKNjxz8jScbWJuitNgaqljefHyFU7N+OSopY7R0TtkZBdETCPeASzoRSmlBQtZUXCEgqKUKiFwko4+RgdMA2bzqAOggIlhgAHTqAMY0MBoewAZjLYH6AFYaGk4ei2Lrd5hoqUDiKllWWjpAGJqWRZC7XpagwEvigGslnZ37tON9wAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "remake-furnishings_04.png",
+      "id": "3",
+      "uuid": "60646d22-090a-5276-9827-a8d0d95521f8",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAwklEQVR4nGPsSPL+zzCAgGkgLR91AAiwwILiyasPRAWZjJgAbRwgQ2WDh0wiZDl4+fnAOiDFR3NgHXD7IXGJb/imAQYKAbHZFxkg5zgWSh1AafZloabvyXEMEwOFwNVeFIwHpBxQFudE4ZNjFgsl5cD+0w9Q+OSYxUJpObD74Gs4mxyzWCixnBoVGBPDAAMWahUu5IYMC6UGDP0oODjaHng4wtsDTAPtABZaGEpMOQLL6iy0cAAp5QgTLRxAChhwBwAAhcgxKiL7YE0AAAAASUVORK5CYII="
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.63,
+        0.63,
+        0.63
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  }
+}
