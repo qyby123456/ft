@@ -1,0 +1,131 @@
+{
+  "id": "S2-12",
+  "nbt": "s2-12-prison-block.nbt",
+  "size": [
+    27,
+    12,
+    35
+  ],
+  "reference_observed": "纵向中央走廊，两侧四列分隔牢房、铁栏铁门、成对吊灯、前方看守桌、两端出口。",
+  "ports": [
+    {
+      "side": "south",
+      "feet": [
+        13,
+        2,
+        34
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "north",
+      "feet": [
+        13,
+        2,
+        0
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "north-exit",
+      "position": [
+        13,
+        2,
+        0
+      ]
+    },
+    {
+      "label": "central-corridor",
+      "position": [
+        13,
+        2,
+        15
+      ]
+    },
+    {
+      "label": "guard-desk",
+      "position": [
+        12,
+        2,
+        28
+      ]
+    },
+    {
+      "label": "west-cell-controls",
+      "position": [
+        10,
+        2,
+        4
+      ]
+    },
+    {
+      "label": "east-cell-controls",
+      "position": [
+        16,
+        2,
+        25
+      ]
+    }
+  ],
+  "differences": [
+    "补齐完整墙顶，剖切仅预览。",
+    "铁门默认关闭，走廊侧拉杆改为靠门雕纹砂岩实心支座；隔离ServerLevel中八门均通过Lever.use开关复位。未宣称关闭铁门可穿行或真实玩家牢内路线已验证。",
+    "干草铺位代替定制床垫；无钥匙实体或虚构监禁玩法。",
+    "看守桌略偏西保留右侧三格以上绕行路线。"
+  ],
+  "views": [
+    {
+      "id": "preview-full",
+      "position": [
+        -28,
+        43,
+        60
+      ],
+      "target": [
+        13,
+        4,
+        17
+      ],
+      "fov": 46
+    },
+    {
+      "id": "preview-cutaway",
+      "position": [
+        -27,
+        40,
+        59
+      ],
+      "target": [
+        13,
+        4,
+        17
+      ],
+      "cutaway": true,
+      "cutY": 10,
+      "fov": 46
+    },
+    {
+      "id": "preview-interior",
+      "position": [
+        13.5,
+        4.62,
+        27.5
+      ],
+      "target": [
+        13,
+        5,
+        5
+      ],
+      "fov": 90
+    }
+  ],
+  "revision": "R2 preliminary visual REQUEST_CHANGES remediation; previous evidence in archive-preliminary-v1",
+  "architectural_remediation": [
+    "内侧立体门柱、柱脚柱头、倒置楼梯拱券、半砖分层檐口",
+    "地面周边橙色边框与中央菱形纹样，原尺寸家具与路线目标保留"
+  ]
+}

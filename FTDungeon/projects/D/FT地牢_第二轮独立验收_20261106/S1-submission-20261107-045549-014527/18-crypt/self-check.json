@@ -1,0 +1,63 @@
+{
+  "source_sha256": "3f05b38c1111807a9519fee37dfdc2e1db3b9365144dda0fe0c0eaccf5137071",
+  "status": "maker_static_self_check_pass_not_independent_acceptance",
+  "registry_properties": true,
+  "template_roundtrip": true,
+  "native_fragile_survival": true,
+  "ports_clear": true,
+  "empty_inventories": true,
+  "collision_routes": [
+    {
+      "label": "east-exit",
+      "standing_clear": true,
+      "position": [
+        27,
+        4,
+        15
+      ],
+      "reachable": true
+    },
+    {
+      "label": "altar-front",
+      "standing_clear": true,
+      "position": [
+        15,
+        4,
+        14
+      ],
+      "reachable": true
+    },
+    {
+      "label": "bone-niches",
+      "standing_clear": true,
+      "position": [
+        16,
+        4,
+        5
+      ],
+      "reachable": true
+    },
+    {
+      "label": "between-sarcophagi",
+      "standing_clear": true,
+      "position": [
+        15,
+        4,
+        22
+      ],
+      "reachable": true
+    }
+  ],
+  "not_executed": [
+    "world placement and ticks",
+    "gameplay or combat",
+    "independent visual acceptance"
+  ],
+  "scope_limits": [
+    "Full nonair canSurvive with real tags and brightness 15 is static support only.",
+    "Route shapes use EmptyBlockGetter; no ladder, jump or movement physics certification.",
+    "No actual world lighting, neighbor, fluid, random ticks or interactions."
+  ],
+  "native_all_nonair_survival": true,
+  "nonair_checked": 9266
+}

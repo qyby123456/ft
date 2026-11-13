@@ -1,0 +1,117 @@
+{
+  "id": "S1-17",
+  "size": [
+    27,
+    17,
+    25
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        11
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        26,
+        2,
+        11
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "start": [
+    2,
+    2,
+    11
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        24,
+        2,
+        11
+      ]
+    },
+    {
+      "label": "grindstone",
+      "position": [
+        7,
+        2,
+        5
+      ]
+    },
+    {
+      "label": "workbench",
+      "position": [
+        12,
+        2,
+        15
+      ]
+    },
+    {
+      "label": "furnace",
+      "position": [
+        20,
+        2,
+        5
+      ]
+    }
+  ],
+  "reference_features": [
+    "left grindstone under tool rail",
+    "back material shelf and right furnace",
+    "central unfinished project bench",
+    "front-left pool",
+    "huge root arch and two exits"
+  ],
+  "differences": [
+    "Furnace delivered unlit and empty; warm niche uses shroomlight",
+    "Tools and project use vanilla blocks rather than custom meshes",
+    "Crafting table, furnace and grindstone are vanilla blocks, no automation claims"
+  ],
+  "cutaway": {
+    "removeAbove": 12,
+    "frontDepth": 23,
+    "sideX": 25
+  },
+  "focus_views": [
+    {
+      "id": "focus",
+      "position": [
+        16,
+        9,
+        13
+      ],
+      "target": [
+        7,
+        3,
+        4
+      ],
+      "fov": 53
+    },
+    {
+      "id": "function-detail",
+      "position": [
+        12,
+        7,
+        12
+      ],
+      "target": [
+        7,
+        3,
+        4
+      ],
+      "fov": 48
+    }
+  ],
+  "revision": "R2: independent visual/support changes; targets retained"
+}

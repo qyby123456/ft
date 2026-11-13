@@ -1,0 +1,95 @@
+{
+  "id": "s3-18",
+  "size": [
+    31,
+    14,
+    29
+  ],
+  "title": "霜封墓窖与骨龛",
+  "reference": "S3-18",
+  "features": [
+    "三组双层骨龛",
+    "三具石棺",
+    "中央烛祭台",
+    "灵魂吊灯",
+    "冰池"
+  ],
+  "ports": [
+    {
+      "name": "west",
+      "foot": [
+        0,
+        2,
+        11
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "east",
+      "foot": [
+        30,
+        2,
+        11
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "start": [
+    0,
+    2,
+    11
+  ],
+  "targets": [
+    {
+      "label": "east exit",
+      "position": [
+        30,
+        2,
+        11
+      ]
+    },
+    {
+      "label": "altar",
+      "position": [
+        15,
+        2,
+        10
+      ]
+    },
+    {
+      "label": "bone niches",
+      "position": [
+        15,
+        2,
+        23
+      ]
+    },
+    {
+      "label": "sarcophagi",
+      "position": [
+        21,
+        2,
+        10
+      ]
+    }
+  ],
+  "differences": [
+    "骨龛使用原版骷髅头与骨块，非可刷怪装置",
+    "石棺为实心方块雕塑，无隐藏库存",
+    "烛火仅照明，无祭坛机关"
+  ],
+  "cutY": 12,
+  "architectural_revision": "石木门框、后壁梁柱、连续雪沿、错落收尖冰挂；显式木纹轴向和木桶open=false使原生预览与实际一致"
+}

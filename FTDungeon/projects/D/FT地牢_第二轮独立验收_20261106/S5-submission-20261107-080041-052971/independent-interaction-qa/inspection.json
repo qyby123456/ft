@@ -1,0 +1,58 @@
+{
+  "stage": "INDEPENDENT_FROZEN_INTERACTION_AND_ACCESS_INSPECTION",
+  "source_sha256": "eb8ac4bccc0829e591cd03310cd6bee221321a6724e822c9368e8c303b729bb7",
+  "frozen_files_verified": 743,
+  "prior_same_hash_review": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-065459-179761",
+  "all_ten_rooms_and_merged_hashes_unchanged": true,
+  "all_chest_barrel_lever_targets_accounted_for": 37,
+  "usable_interactions": 35,
+  "failed_interactions": [
+    {
+      "target": [
+        156,
+        14,
+        81
+      ],
+      "block": "minecraft:barrel",
+      "standing_found": false,
+      "passed": false
+    },
+    {
+      "target": [
+        159,
+        14,
+        81
+      ],
+      "block": "minecraft:barrel",
+      "standing_found": false,
+      "passed": false
+    }
+  ],
+  "max_eye_to_hit": 1.822422835841645,
+  "datapack_zip_files_byte_verified": 19,
+  "all_data_including_load_tick_tags_equals_test_resources": true,
+  "producer_access_checks": {
+    "barrier_count_57482": true,
+    "s5a_enter_objective": true,
+    "s5a_exit_objective": true,
+    "entry_trigger_automatically_enabled": true,
+    "non_op_trigger": true,
+    "lobby_to_entry": true,
+    "entry_score_reset": true,
+    "entry_body_clear": true,
+    "exit_trigger_automatically_enabled": true,
+    "finish_to_lobby": true,
+    "lobby_body_clear": true,
+    "wrong_location_rejected": true,
+    "wrong_dimension_rejected": true
+  },
+  "route_targets_prepared_for_independent_run": 70,
+  "limitations": [
+    "Producer worlds independently inspected, no parent world rerun",
+    "Actors positioned at recorded feet; separate route graph is not actual walking",
+    "BlockState.use plus provider.createMenu does not certify network UI",
+    "Two original high barrels explicitly fail and remain required; no retirement or relabeling",
+    "Access automatic tick evidence does not prove full walk from entry to finish"
+  ],
+  "accepted": false
+}

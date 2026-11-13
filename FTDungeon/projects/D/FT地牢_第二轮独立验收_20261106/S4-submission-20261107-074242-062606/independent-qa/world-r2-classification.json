@@ -1,0 +1,74 @@
+{
+  "stage": "INDEPENDENT_S4_R2_STATIC_AND_WORLD_EVIDENCE_CLASSIFICATION",
+  "source_sha256": "b01fdaf300987e299d141f1963530ad2b1861be8fe4c17631cdc879f7c7415d8",
+  "nonair_support_checked": 157430,
+  "static_targets_passed": 112,
+  "post_world_targets_passed": 168,
+  "phases": [
+    {
+      "phase": "after-neighbor-updates",
+      "air_to_vine": 0,
+      "raw_state_changes_classified": {
+        "vanilla_completed_omitted_properties": 620
+      },
+      "default_be_payloads": {
+        "minecraft:skull": 12,
+        "minecraft:lectern": 3,
+        "minecraft:furnace": 6
+      },
+      "armor_stand_positions_and_equipment_preserved": 2,
+      "armor_stack_normalization": "Vanilla adds tag.Damage=0; absent HandItems/Small/Invisible/NoBasePlate compared with explicit vanilla defaults",
+      "captured_entity_kinds": {
+        "minecraft:armor_stand": 2
+      }
+    },
+    {
+      "phase": "after-800-ticks",
+      "air_to_vine": 8,
+      "raw_state_changes_classified": {
+        "persistent_leaf_distance_recalculation": 295,
+        "vanilla_completed_omitted_properties": 620
+      },
+      "default_be_payloads": {
+        "minecraft:skull": 12,
+        "minecraft:lectern": 3,
+        "minecraft:furnace": 6
+      },
+      "armor_stand_positions_and_equipment_preserved": 2,
+      "armor_stack_normalization": "Vanilla adds tag.Damage=0; absent HandItems/Small/Invisible/NoBasePlate compared with explicit vanilla defaults",
+      "captured_entity_kinds": {
+        "minecraft:creeper": 5,
+        "minecraft:armor_stand": 2,
+        "minecraft:skeleton": 4
+      }
+    },
+    {
+      "phase": "after-player-interactions",
+      "air_to_vine": 8,
+      "raw_state_changes_classified": {
+        "persistent_leaf_distance_recalculation": 295,
+        "vanilla_completed_omitted_properties": 620,
+        "door_neighbor_update_after_lever_use": 12,
+        "bar_neighbor_update_after_lever_use": 6
+      },
+      "default_be_payloads": {
+        "minecraft:skull": 12,
+        "minecraft:lectern": 3,
+        "minecraft:furnace": 6
+      },
+      "armor_stand_positions_and_equipment_preserved": 2,
+      "armor_stack_normalization": "Vanilla adds tag.Damage=0; absent HandItems/Small/Invisible/NoBasePlate compared with explicit vanilla defaults",
+      "captured_entity_kinds": {
+        "minecraft:creeper": 5,
+        "minecraft:armor_stand": 2,
+        "minecraft:skeleton": 4
+      }
+    }
+  ],
+  "limitations": [
+    "Producer world run independently inspected, no parent world rerun",
+    "MergedInteraction uses no-gravity FakePlayer and explicit vertical MoverType.SELF displacements; not natural climbing or network client input",
+    "Closed exterior terminal faces still lack installed usable external access"
+  ],
+  "accepted": false
+}

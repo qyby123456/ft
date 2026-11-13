@@ -1,0 +1,66 @@
+{
+  "group": "S2",
+  "verdict": "ACCEPTED",
+  "accepted": true,
+  "reviewed_at": "2026-11-07T09:42:53.454766+08:00",
+  "source_sha256": "33ceb33f633cfa6e797cc184cd3c5ff34ce9f0901e9b909da161782ec5cc0e6c",
+  "base_frozen_files_verified": 499,
+  "interaction_supplement_files": 43,
+  "access_files": 56,
+  "independent_natural_ticks": 15612,
+  "natural_waypoints": 4215,
+  "whole_world_after_payload_equal_prior_classified_capture": true,
+  "empty_inventory_checks": 64,
+  "requirements": [
+    {
+      "requirement": "Ten reference rooms11-20, complete NBT, real previews and reproducible recipes",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-051940-148877\\STATIC-REVIEW.md",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-qa\\static-followup.json"
+      ]
+    },
+    {
+      "requirement": "Native state/support, body connectivity, empty containers and observed world stability",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-qa\\independent-all-support.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-natural-world\\assembly-runtime.json"
+      ]
+    },
+    {
+      "requirement": "Source-preserving merge,15 <=48-axis parts, full reconstruction and barrier enclosure",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-qa\\native-rotation-payload-parts-barrier.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-corridor-qa\\independent-routes.json"
+      ]
+    },
+    {
+      "requirement": "All functional containers/doors reachable and usable with actual eye rays, including hanging barrel native jump",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-supplement-20261107-080712-561936\\REVIEW.md",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-supplement-20261107-080712-561936\\independent-qa\\interaction-inspection.json"
+      ]
+    },
+    {
+      "requirement": "Whole-map natural movement and return, necessary ladder use and current-hash ordinary external access",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-natural-world\\assembly-runtime.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\runtime-qa-r4\\ladder-physics.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-access-20261107-092940-861925\\ACCESS-REVIEW.md"
+      ]
+    }
+  ],
+  "unresolved_required_items": [],
+  "deployment": "NOT_DEPLOYED; formal instance untouched",
+  "limits": [
+    "Vanilla1.20.1 unrotated fixed overworld placement in pre-reserved empty area; no production install or combat pack",
+    "Server FakePlayer/ServerPlayer proof, not human client GUI or damage/survival playthrough",
+    "Ladder top landing and one hanging barrel native jump are scoped observed evidence; full ladder descent/jump arc not certified",
+    "Finite ticks with forced chunks do not certify all random ticks or indefinite lighting/growth",
+    "Configured public trigger entry and fixed return point, not a team or paid-access system"
+  ]
+}

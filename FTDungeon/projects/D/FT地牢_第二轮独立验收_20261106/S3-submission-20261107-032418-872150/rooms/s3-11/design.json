@@ -1,0 +1,96 @@
+{
+  "id": "s3-11",
+  "size": [
+    31,
+    15,
+    27
+  ],
+  "title": "霜穴图书档案室",
+  "reference": "S3-11",
+  "features": [
+    "转角高书架",
+    "三处阅览桌",
+    "梯子",
+    "蓝毯",
+    "骨骸与冰池",
+    "钥匙锁空柜"
+  ],
+  "ports": [
+    {
+      "name": "west",
+      "foot": [
+        0,
+        2,
+        11
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "east",
+      "foot": [
+        30,
+        2,
+        11
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "start": [
+    0,
+    2,
+    11
+  ],
+  "targets": [
+    {
+      "label": "east exit",
+      "position": [
+        30,
+        2,
+        11
+      ]
+    },
+    {
+      "label": "back shelves",
+      "position": [
+        16,
+        2,
+        21
+      ]
+    },
+    {
+      "label": "reading aisle",
+      "position": [
+        12,
+        2,
+        8
+      ]
+    },
+    {
+      "label": "cabinet",
+      "position": [
+        25,
+        2,
+        4
+      ]
+    }
+  ],
+  "differences": [
+    "细霜纹简化为雪块，冰挂为阶梯冰柱",
+    "书以空讲台表现，无可读书籍；无散落物品",
+    "柜有原版Lock标签，库存为空"
+  ],
+  "cutY": 13,
+  "architectural_revision": "石木门框、后壁梁柱、连续雪沿、错落收尖冰挂；显式木纹轴向和木桶open=false使原生预览与实际一致"
+}

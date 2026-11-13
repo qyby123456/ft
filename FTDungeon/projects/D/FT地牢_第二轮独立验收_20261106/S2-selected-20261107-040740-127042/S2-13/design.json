@@ -1,0 +1,131 @@
+{
+  "id": "S2-13",
+  "nbt": "s2-13-kitchen-mess.nbt",
+  "size": [
+    29,
+    13,
+    25
+  ],
+  "reference_observed": "后墙巨型炉灶和锅、右侧分层器皿架、灶前案台、前景两张长餐桌与长凳、两侧拱门。",
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        8
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        28,
+        2,
+        8
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        28,
+        2,
+        8
+      ]
+    },
+    {
+      "label": "hearth",
+      "position": [
+        10,
+        2,
+        6
+      ]
+    },
+    {
+      "label": "storage",
+      "position": [
+        21,
+        2,
+        4
+      ]
+    },
+    {
+      "label": "dining-aisle",
+      "position": [
+        14,
+        2,
+        16
+      ]
+    },
+    {
+      "label": "rear-dining",
+      "position": [
+        14,
+        2,
+        21
+      ]
+    }
+  ],
+  "differences": [
+    "原版二级水炼药锅独立抬高于黑石炉台，前后黑石外圈降半砖露出锅体；菌光体替代火与熔岩，壁炉罩和烟囱完整。",
+    "原版切石机作为切配案工具意象，无自定义肉食或刀具。",
+    "器皿由空花盆与陶罐表达，餐桌没有可拾取餐食。",
+    "恢复完整墙顶，保留剖切展示副本。"
+  ],
+  "views": [
+    {
+      "id": "preview-full",
+      "position": [
+        -31,
+        38,
+        50
+      ],
+      "target": [
+        14,
+        4,
+        12
+      ],
+      "fov": 44
+    },
+    {
+      "id": "preview-cutaway",
+      "position": [
+        -31,
+        35,
+        49
+      ],
+      "target": [
+        14,
+        4,
+        12
+      ],
+      "cutaway": true,
+      "cutY": 11,
+      "fov": 44
+    },
+    {
+      "id": "preview-interior",
+      "position": [
+        14.5,
+        5.62,
+        21.5
+      ],
+      "target": [
+        12,
+        5,
+        3
+      ],
+      "fov": 90
+    }
+  ],
+  "revision": "R2 preliminary visual REQUEST_CHANGES remediation; previous evidence in archive-preliminary-v1",
+  "architectural_remediation": [
+    "内侧立体门柱、柱脚柱头、倒置楼梯拱券、半砖分层檐口",
+    "地面周边橙色边框与中央菱形纹样，原尺寸家具与路线目标保留"
+  ]
+}

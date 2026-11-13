@@ -1,0 +1,68 @@
+{
+  "id": "s3-20",
+  "source_sha256": "beddf317e1c270da0aab9c542bbac446976ae2b4c3d1c93e1a40be713263f4f4",
+  "origin": [
+    960,
+    100,
+    640
+  ],
+  "size": [
+    33,
+    14,
+    25
+  ],
+  "cleared_volume": 11550,
+  "elapsed_ticks": 1200,
+  "state_changes": [],
+  "support_failures": [],
+  "dropped_items": [],
+  "doors_before_interaction": [],
+  "locks": [
+    {
+      "key": "Frost vault key",
+      "position": [
+        22,
+        4,
+        21
+      ],
+      "wrong_name_denied": true,
+      "empty_hand_denied": true,
+      "correct_key_opened_menu": true
+    }
+  ],
+  "walk": {
+    "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification",
+    "visited_nodes": 1753,
+    "targets": [
+      {
+        "collision_move_roundtrip": true,
+        "error": "",
+        "moves": 140,
+        "reachable": true,
+        "label": "east exit"
+      },
+      {
+        "collision_move_roundtrip": true,
+        "error": "",
+        "moves": 52,
+        "reachable": true,
+        "label": "hidden passage"
+      },
+      {
+        "collision_move_roundtrip": true,
+        "error": "",
+        "moves": 104,
+        "reachable": true,
+        "label": "vault chest"
+      },
+      {
+        "collision_move_roundtrip": true,
+        "error": "",
+        "moves": 80,
+        "reachable": true,
+        "label": "lever"
+      }
+    ],
+    "failures": 0
+  }
+}

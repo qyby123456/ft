@@ -1,0 +1,119 @@
+{
+  "id": "S1-11",
+  "size": [
+    31,
+    16,
+    27
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        16
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        30,
+        2,
+        16
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "start": [
+    2,
+    2,
+    16
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        28,
+        2,
+        16
+      ]
+    },
+    {
+      "label": "reading-desk-left",
+      "position": [
+        10,
+        2,
+        10
+      ]
+    },
+    {
+      "label": "reading-desk-right",
+      "position": [
+        20,
+        2,
+        14
+      ]
+    },
+    {
+      "label": "archive-ladder",
+      "position": [
+        23,
+        2,
+        4
+      ]
+    }
+  ],
+  "reference_features": [
+    "back two-storey bookcases",
+    "left low bookshelf under diagonal root",
+    "back ladder beside cabinet",
+    "two separate reading desks",
+    "front-left pond",
+    "two lateral exits"
+  ],
+  "differences": [
+    "Complete enclosed roof and front wall retained in NBT; only display copy cut",
+    "Lecterns and bookcase pixels replace non-vanilla loose books and scroll meshes",
+    "Cabinet is empty barrels with wood front, not a functional locked cabinet",
+    "Small pool one block deep, off route; no survival/gameplay certification"
+  ],
+  "cutaway": {
+    "removeAbove": 13,
+    "frontDepth": 24,
+    "sideX": 28
+  },
+  "focus_views": [
+    {
+      "id": "focus",
+      "position": [
+        27,
+        9,
+        14
+      ],
+      "target": [
+        22,
+        6,
+        3
+      ],
+      "fov": 53
+    },
+    {
+      "id": "function-detail",
+      "position": [
+        27,
+        10,
+        11
+      ],
+      "target": [
+        22,
+        6,
+        3
+      ],
+      "fov": 48
+    }
+  ],
+  "revision": "R2: independent visual/support changes; targets retained"
+}

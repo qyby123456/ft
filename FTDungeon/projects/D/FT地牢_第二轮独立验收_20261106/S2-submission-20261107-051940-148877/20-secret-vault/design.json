@@ -1,0 +1,131 @@
+{
+  "id": "S2-20",
+  "nbt": "s2-20-secret-vault.nbt",
+  "size": [
+    25,
+    12,
+    21
+  ],
+  "reference_observed": "左侧伪装墙窄道、右侧双柱宝龛、台阶上的箱子和金堆、前方低台拉杆、上角蛛网、两端拱门。",
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        9
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        24,
+        2,
+        9
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        24,
+        2,
+        9
+      ]
+    },
+    {
+      "label": "secret-corridor",
+      "position": [
+        8,
+        2,
+        9
+      ]
+    },
+    {
+      "label": "vault-step",
+      "position": [
+        15,
+        3,
+        10
+      ]
+    },
+    {
+      "label": "chest-access",
+      "position": [
+        15,
+        3,
+        8
+      ]
+    },
+    {
+      "label": "lever-approach",
+      "position": [
+        11,
+        2,
+        17
+      ]
+    }
+  ],
+  "differences": [
+    "伪装墙保留三格净宽常开密道；宝龛前隔墙降为一格矮界墙以展示箱子焦点，拉杆未接线。",
+    "箱子为空且没有Lock/LootTable，金堆为金方块，不是掉落金币。",
+    "宝龛使用半格楼梯到一格高平台，蛛网位于高角不堵脚路。",
+    "这张是独立密道藏宝功能房，不是组总览；补齐完整墙顶。"
+  ],
+  "views": [
+    {
+      "id": "preview-full",
+      "position": [
+        -28,
+        35,
+        44
+      ],
+      "target": [
+        12,
+        4,
+        10
+      ],
+      "fov": 43
+    },
+    {
+      "id": "preview-cutaway",
+      "position": [
+        -27,
+        32,
+        43
+      ],
+      "target": [
+        12,
+        4,
+        10
+      ],
+      "cutaway": true,
+      "cutY": 10,
+      "fov": 43
+    },
+    {
+      "id": "preview-interior",
+      "position": [
+        15.5,
+        4.62,
+        12.5
+      ],
+      "target": [
+        15,
+        4,
+        7
+      ],
+      "fov": 86
+    }
+  ],
+  "revision": "R2 preliminary visual REQUEST_CHANGES remediation; previous evidence in archive-preliminary-v1",
+  "architectural_remediation": [
+    "内侧立体门柱、柱脚柱头、倒置楼梯拱券、半砖分层檐口",
+    "地面周边橙色边框与中央菱形纹样，原尺寸家具与路线目标保留"
+  ]
+}

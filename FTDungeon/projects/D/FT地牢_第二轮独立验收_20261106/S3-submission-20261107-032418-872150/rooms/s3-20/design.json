@@ -1,0 +1,96 @@
+{
+  "id": "s3-20",
+  "size": [
+    33,
+    14,
+    25
+  ],
+  "title": "隐墙夹道与霜藏宝室",
+  "reference": "S3-20",
+  "features": [
+    "伪装石墙三格夹道",
+    "转弯进入小金库",
+    "高半砖台阶",
+    "上锁空箱",
+    "金堆雕塑",
+    "墙面拉杆和蛛网角"
+  ],
+  "ports": [
+    {
+      "name": "west",
+      "foot": [
+        0,
+        2,
+        15
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "east",
+      "foot": [
+        32,
+        2,
+        18
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "start": [
+    0,
+    2,
+    15
+  ],
+  "targets": [
+    {
+      "label": "east exit",
+      "position": [
+        32,
+        2,
+        18
+      ]
+    },
+    {
+      "label": "hidden passage",
+      "position": [
+        10,
+        2,
+        18
+      ]
+    },
+    {
+      "label": "vault chest",
+      "position": [
+        22,
+        3,
+        19
+      ]
+    },
+    {
+      "label": "lever",
+      "position": [
+        15,
+        3,
+        20
+      ]
+    }
+  ],
+  "differences": [
+    "拉杆为静态装饰，没有隐门红石；开口保持可通行",
+    "箱子上锁且空，无LootTable；金币用可破坏金块表现，不等于战利品平衡验收",
+    "密道为墙间折线，不是总览场景"
+  ],
+  "cutY": 12,
+  "architectural_revision": "石木门框、后壁梁柱、连续雪沿、错落收尖冰挂；显式木纹轴向和木桶open=false使原生预览与实际一致"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "S1-14",
+  "size": [
+    29,
+    15,
+    27
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        15
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        28,
+        2,
+        15
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "start": [
+    2,
+    2,
+    15
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        26,
+        2,
+        15
+      ]
+    },
+    {
+      "label": "inspection-table",
+      "position": [
+        14,
+        2,
+        15
+      ]
+    },
+    {
+      "label": "anvil",
+      "position": [
+        18,
+        2,
+        8
+      ]
+    },
+    {
+      "label": "rack",
+      "position": [
+        6,
+        2,
+        4
+      ]
+    }
+  ],
+  "reference_features": [
+    "central inspection table",
+    "rear cabinet flanked by racks",
+    "two armor silhouettes",
+    "anvil on right",
+    "front-left pond and supply boxes"
+  ],
+  "differences": [
+    "Iron bars represent weapons; no interactable weapon racks",
+    "Cabinet uses empty barrels, no lock gameplay",
+    "No decorative combat loot supplied",
+    "Two iron-equipped armor_stand entities in NBT, entity preview unsupported by Lodestone; world rendering pending"
+  ],
+  "cutaway": {
+    "removeAbove": 12,
+    "frontDepth": 25,
+    "sideX": 27
+  },
+  "focus_views": [
+    {
+      "id": "focus",
+      "position": [
+        25,
+        10,
+        16
+      ],
+      "target": [
+        18,
+        4,
+        6
+      ],
+      "fov": 53
+    },
+    {
+      "id": "function-detail",
+      "position": [
+        23,
+        8,
+        14
+      ],
+      "target": [
+        18,
+        4,
+        6
+      ],
+      "fov": 48
+    }
+  ],
+  "revision": "R2: independent visual/support changes; targets retained"
+}

@@ -1,0 +1,97 @@
+{
+  "group": "S4",
+  "accepted": true,
+  "verdict": "ACCEPTED",
+  "reviewed_at": "2026-11-07T10:01:05.524833+08:00",
+  "source_sha256": "b01fdaf300987e299d141f1963530ad2b1861be8fe4c17631cdc879f7c7415d8",
+  "frozen_files_verified": 665,
+  "inherited_files_verified": 633,
+  "source_and_previous_world_evidence_unchanged": true,
+  "harmless_changed_metadata": [
+    "ready-for-review.json",
+    "DESIGN-R2.md",
+    "REVIEW_QUEUE.md",
+    "README.md",
+    "progress.json",
+    "qa/worldtest/native-test/build.gradle"
+  ],
+  "native_support_checks": 157430,
+  "static_routes": 112,
+  "post_world_routes": 168,
+  "reconstructed_nbt_outputs": 29,
+  "natural_travel": [
+    {
+      "label": "S411Gravity",
+      "frames": 275,
+      "ticks": 273,
+      "min_y": 4.0,
+      "max_y": 9.0,
+      "max_up_step": 1.0,
+      "endpoint_height_error": 0.0,
+      "endpoint_on_ground": true,
+      "endpoint_scope": "Original controller completion tolerance: horizontal<0.14, vertical<0.09; final completed frame is not sampled; no extra final-settled-standing claim"
+    },
+    {
+      "label": "S419Gravity",
+      "frames": 184,
+      "ticks": 182,
+      "min_y": 4.0,
+      "max_y": 8.0,
+      "max_up_step": 1.0,
+      "endpoint_height_error": 0.03584062504450003,
+      "endpoint_on_ground": false,
+      "endpoint_scope": "Original controller completion tolerance: horizontal<0.14, vertical<0.09; final completed frame is not sampled; no extra final-settled-standing claim"
+    }
+  ],
+  "access_pack_files_actually_installed": 8,
+  "unresolved_required_items": [],
+  "requirements": [
+    {
+      "requirement": "Ten original functional reference rooms, real preview and original recipes",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\REVIEW.md",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-qa\\reproduction.json"
+      ]
+    },
+    {
+      "requirement": "Native state, support, original and post-world routes, source-preserving merge/18 parts/union barrier",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-qa\\payload-entities-parts.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-qa\\independent-all-support.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-posttick-qa\\independent-routes.json"
+      ]
+    },
+    {
+      "requirement": "Current-source world stability and actual functional ray/use evidence",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\REVIEW.md",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-qa\\world-r2-classification.json"
+      ]
+    },
+    {
+      "requirement": "Installable controlled external access with actual isolated validation and reserved-space instructions",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\access\\INSTALL.md",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\independent-access-gravity\\access-gravity-report.json"
+      ]
+    },
+    {
+      "requirement": "Normal gravity Player.travel for necessary room11/19 raised routes and return",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\independent-access-gravity\\access-gravity-report.json"
+      ]
+    }
+  ],
+  "limits": [
+    "No formal deployment; single unrotated overworld instance in reserved empty volume, structure installed before access pack",
+    "Previous 800-tick world and ray/use run were independently inspected producer evidence; new access and gravity tests actually parent-rerun",
+    "Planar target walks use collision Entity.move; new natural gravity proof covers required raised library/outlook routes, not human whole-map keyboard play",
+    "Engine maxUpStep1.0 left unchanged; actual observed rises at most0.5",
+    "8 finite-tick vine growths and vanilla state/BE normalizations retained; no indefinite plant-growth, random-tick, client GUI, combat or rewards guarantee"
+  ]
+}

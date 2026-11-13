@@ -1,0 +1,56 @@
+{
+  "id": "s3-16",
+  "source_sha256": "8a8d44eb44471d62366347cf1d7344ef82ec7dcfd55ebcde64f76a084ab560df",
+  "origin": [
+    512,
+    100,
+    640
+  ],
+  "size": [
+    29,
+    16,
+    29
+  ],
+  "cleared_volume": 13456,
+  "elapsed_ticks": 1200,
+  "state_changes": [],
+  "support_failures": [],
+  "dropped_items": [],
+  "doors_before_interaction": [],
+  "locks": [],
+  "walk": {
+    "targets": [
+      {
+        "reachable": true,
+        "moves": 136,
+        "error": "",
+        "collision_move_roundtrip": true,
+        "label": "east exit"
+      },
+      {
+        "reachable": true,
+        "moves": 44,
+        "error": "",
+        "collision_move_roundtrip": true,
+        "label": "well side"
+      },
+      {
+        "reachable": true,
+        "moves": 36,
+        "error": "",
+        "collision_move_roundtrip": true,
+        "label": "maintenance desk"
+      },
+      {
+        "reachable": true,
+        "moves": 108,
+        "error": "",
+        "collision_move_roundtrip": true,
+        "label": "back ledge"
+      }
+    ],
+    "visited_nodes": 1212,
+    "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification",
+    "failures": 0
+  }
+}

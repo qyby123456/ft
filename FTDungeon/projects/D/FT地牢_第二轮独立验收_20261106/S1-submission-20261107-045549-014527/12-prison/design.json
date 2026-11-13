@@ -1,0 +1,167 @@
+{
+  "id": "S1-12",
+  "size": [
+    29,
+    16,
+    35
+  ],
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        14,
+        2,
+        0
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "south",
+      "feet": [
+        14,
+        2,
+        34
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "start": [
+    14,
+    2,
+    2
+  ],
+  "targets": [
+    {
+      "label": "south-exit",
+      "position": [
+        14,
+        2,
+        32
+      ]
+    },
+    {
+      "label": "guard-desk",
+      "position": [
+        14,
+        2,
+        5
+      ]
+    },
+    {
+      "label": "west-cell",
+      "position": [
+        7,
+        2,
+        11
+      ]
+    },
+    {
+      "label": "east-cell",
+      "position": [
+        22,
+        2,
+        18
+      ]
+    },
+    {
+      "label": "cell-7-11",
+      "position": [
+        7,
+        2,
+        11
+      ]
+    },
+    {
+      "label": "cell-7-18",
+      "position": [
+        7,
+        2,
+        18
+      ]
+    },
+    {
+      "label": "cell-7-25",
+      "position": [
+        7,
+        2,
+        25
+      ]
+    },
+    {
+      "label": "cell-22-11",
+      "position": [
+        22,
+        2,
+        11
+      ]
+    },
+    {
+      "label": "cell-22-18",
+      "position": [
+        22,
+        2,
+        18
+      ]
+    },
+    {
+      "label": "cell-22-25",
+      "position": [
+        22,
+        2,
+        25
+      ]
+    }
+  ],
+  "reference_features": [
+    "two iron-bar cell rows",
+    "long central aisle",
+    "rear guard desk",
+    "roots above cell walls",
+    "right-front water pocket"
+  ],
+  "differences": [
+    "Two end exits follow prompt over perspective side doors",
+    "Iron doors initially open; no lock/key gameplay",
+    "Keys represented by chains rather than custom item meshes",
+    "Complete stone ceiling, display-only cutaway",
+    "Initial route anchors hit empty storage barrels: corrected to free standing cells, geometry unchanged"
+  ],
+  "cutaway": {
+    "removeAbove": 12,
+    "frontDepth": 33,
+    "sideX": 27
+  },
+  "focus_views": [
+    {
+      "id": "focus",
+      "position": [
+        15,
+        10,
+        20
+      ],
+      "target": [
+        9,
+        4,
+        16
+      ],
+      "fov": 53
+    },
+    {
+      "id": "function-detail",
+      "position": [
+        14,
+        8,
+        24
+      ],
+      "target": [
+        9,
+        4,
+        16
+      ],
+      "fov": 48
+    }
+  ],
+  "revision": "R2: independent visual/support changes; targets retained"
+}

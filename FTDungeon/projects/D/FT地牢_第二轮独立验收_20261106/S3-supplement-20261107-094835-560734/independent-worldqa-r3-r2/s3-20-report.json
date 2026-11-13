@@ -1,0 +1,68 @@
+{
+  "id": "s3-20",
+  "source_sha256": "beddf317e1c270da0aab9c542bbac446976ae2b4c3d1c93e1a40be713263f4f4",
+  "origin": [
+    960,
+    100,
+    640
+  ],
+  "size": [
+    33,
+    14,
+    25
+  ],
+  "cleared_volume": 11550,
+  "elapsed_ticks": 1200,
+  "state_changes": [],
+  "support_failures": [],
+  "dropped_items": [],
+  "doors_before_interaction": [],
+  "locks": [
+    {
+      "empty_hand_denied": true,
+      "wrong_name_denied": true,
+      "position": [
+        22,
+        4,
+        21
+      ],
+      "key": "Frost vault key",
+      "correct_key_opened_menu": true
+    }
+  ],
+  "walk": {
+    "targets": [
+      {
+        "reachable": true,
+        "moves": 140,
+        "error": "",
+        "collision_move_roundtrip": true,
+        "label": "east exit"
+      },
+      {
+        "reachable": true,
+        "moves": 52,
+        "error": "",
+        "collision_move_roundtrip": true,
+        "label": "hidden passage"
+      },
+      {
+        "reachable": true,
+        "moves": 104,
+        "error": "",
+        "collision_move_roundtrip": true,
+        "label": "vault chest"
+      },
+      {
+        "reachable": true,
+        "moves": 80,
+        "error": "",
+        "collision_move_roundtrip": true,
+        "label": "lever"
+      }
+    ],
+    "visited_nodes": 1753,
+    "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification",
+    "failures": 0
+  }
+}

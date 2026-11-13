@@ -1,0 +1,151 @@
+{
+  "sha256": "11b256a38f54c5cf14527597bd0ed80042c25ec4ade42056d521f4e46deb3ae6",
+  "size": [
+    27,
+    14,
+    25
+  ],
+  "counts": {
+    "minecraft:smooth_basalt": 683,
+    "minecraft:cobbled_deepslate": 932,
+    "minecraft:polished_deepslate": 516,
+    "minecraft:calcite": 53,
+    "minecraft:amethyst_block": 188,
+    "minecraft:deepslate_tiles": 590,
+    "minecraft:deepslate_tile_slab": 20,
+    "minecraft:air": 24,
+    "minecraft:dark_oak_planks": 108,
+    "minecraft:lever": 4,
+    "minecraft:stone_button": 5,
+    "minecraft:grindstone": 1,
+    "minecraft:furnace": 1,
+    "minecraft:dark_oak_log": 12,
+    "minecraft:white_carpet": 10,
+    "minecraft:amethyst_cluster": 7,
+    "minecraft:dark_oak_stairs": 1,
+    "minecraft:barrel": 3,
+    "minecraft:chain": 3,
+    "minecraft:lantern": 1
+  },
+  "entities": [
+    {
+      "pos": [
+        14,
+        2,
+        3
+      ],
+      "block": "minecraft:furnace",
+      "nbt": "{id:\"minecraft:furnace\",Items:[]}"
+    },
+    {
+      "pos": [
+        22,
+        2,
+        6
+      ],
+      "block": "minecraft:barrel",
+      "nbt": "{id:\"minecraft:barrel\",Items:[]}"
+    },
+    {
+      "pos": [
+        23,
+        2,
+        9
+      ],
+      "block": "minecraft:barrel",
+      "nbt": "{id:\"minecraft:barrel\",Items:[]}"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        19
+      ],
+      "block": "minecraft:barrel",
+      "nbt": "{id:\"minecraft:barrel\",Items:[]}"
+    }
+  ],
+  "hazards": [],
+  "metadata": {
+    "name": "s8-17-workshop",
+    "size": [
+      27,
+      14,
+      25
+    ],
+    "ports": [
+      {
+        "side": "west",
+        "foot": [
+          0,
+          2,
+          13
+        ],
+        "width": 3,
+        "height": 4
+      },
+      {
+        "side": "east",
+        "foot": [
+          26,
+          2,
+          13
+        ],
+        "width": 3,
+        "height": 4
+      }
+    ],
+    "start": [
+      0,
+      2,
+      13
+    ],
+    "targets": [
+      {
+        "label": "east exit",
+        "position": [
+          26,
+          2,
+          13
+        ]
+      },
+      {
+        "label": "tool bench",
+        "position": [
+          10,
+          2,
+          7
+        ]
+      },
+      {
+        "label": "furnace",
+        "position": [
+          14,
+          2,
+          5
+        ]
+      },
+      {
+        "label": "project table",
+        "position": [
+          18,
+          2,
+          16
+        ]
+      }
+    ],
+    "features": [
+      "wall-mounted tool bench",
+      "grinding wheel",
+      "small furnace and chimney",
+      "three-tier raw materials shelf",
+      "central unfinished crystal project",
+      "supply crates"
+    ],
+    "differences": [
+      "Tool silhouettes use levers/buttons, not collectible tools",
+      "Furnace unlit and empty; ordinary vanilla crafting only",
+      "Plan uses white carpet instead of readable diagram"
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "sha256": "e49191031f938e3abc66b9aebd72c73e04f8669ea6caa4049b37e81080d61c3c",
+  "size": [
+    31,
+    16,
+    29
+  ],
+  "counts": {
+    "minecraft:smooth_basalt": 869,
+    "minecraft:amethyst_block": 456,
+    "minecraft:cobbled_deepslate": 1451,
+    "minecraft:polished_deepslate": 750,
+    "minecraft:calcite": 126,
+    "minecraft:purple_stained_glass": 30,
+    "minecraft:deepslate_bricks": 1020,
+    "minecraft:air": 174,
+    "minecraft:deepslate_brick_stairs": 124,
+    "minecraft:deepslate_tile_slab": 108,
+    "minecraft:chiseled_deepslate": 8,
+    "minecraft:skeleton_skull": 12,
+    "minecraft:bone_block": 12,
+    "minecraft:amethyst_cluster": 8,
+    "minecraft:candle": 6,
+    "minecraft:chain": 6,
+    "minecraft:lantern": 2
+  },
+  "entities": [
+    {
+      "pos": [
+        5,
+        3,
+        3
+      ],
+      "block": "minecraft:skeleton_skull",
+      "nbt": "{id:\"minecraft:skull\"}"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        3
+      ],
+      "block": "minecraft:skeleton_skull",
+      "nbt": "{id:\"minecraft:skull\"}"
+    },
+    {
+      "pos": [
+        5,
+        9,
+        3
+      ],
+      "block": "minecraft:skeleton_skull",
+      "nbt": "{id:\"minecraft:skull\"}"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        3
+      ],
+      "block": "minecraft:skeleton_skull",
+      "nbt": "{id:\"minecraft:skull\"}"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        3
+      ],
+      "block": "minecraft:skeleton_skull",
+      "nbt": "{id:\"minecraft:skull\"}"
+    },
+    {
+      "pos": [
+        9,
+        9,
+        3
+      ],
+      "block": "minecraft:skeleton_skull",
+      "nbt": "{id:\"minecraft:skull\"}"
+    },
+    {
+      "pos": [
+        21,
+        3,
+        3
+      ],
+      "block": "minecraft:skeleton_skull",
+      "nbt": "{id:\"minecraft:skull\"}"
+    },
+    {
+      "pos": [
+        21,
+        6,
+        3
+      ],
+      "block": "minecraft:skeleton_skull",
+      "nbt": "{id:\"minecraft:skull\"}"
+    },
+    {
+      "pos": [
+        21,
+        9,
+        3
+      ],
+      "block": "minecraft:skeleton_skull",
+      "nbt": "{id:\"minecraft:skull\"}"
+    },
+    {
+      "pos": [
+        25,
+        3,
+        3
+      ],
+      "block": "minecraft:skeleton_skull",
+      "nbt": "{id:\"minecraft:skull\"}"
+    },
+    {
+      "pos": [
+        25,
+        6,
+        3
+      ],
+      "block": "minecraft:skeleton_skull",
+      "nbt": "{id:\"minecraft:skull\"}"
+    },
+    {
+      "pos": [
+        25,
+        9,
+        3
+      ],
+      "block": "minecraft:skeleton_skull",
+      "nbt": "{id:\"minecraft:skull\"}"
+    }
+  ],
+  "hazards": [],
+  "metadata": {
+    "name": "s8-18-crypt",
+    "size": [
+      31,
+      16,
+      29
+    ],
+    "ports": [
+      {
+        "side": "west",
+        "foot": [
+          0,
+          2,
+          17
+        ],
+        "width": 3,
+        "height": 4
+      },
+      {
+        "side": "east",
+        "foot": [
+          30,
+          2,
+          17
+        ],
+        "width": 3,
+        "height": 4
+      }
+    ],
+    "start": [
+      0,
+      2,
+      17
+    ],
+    "targets": [
+      {
+        "label": "east exit",
+        "position": [
+          30,
+          2,
+          17
+        ]
+      },
+      {
+        "label": "altar approach",
+        "position": [
+          15,
+          2,
+          14
+        ]
+      },
+      {
+        "label": "ossuary rear aisle",
+        "position": [
+          15,
+          2,
+          6
+        ]
+      },
+      {
+        "label": "front crystal aisle",
+        "position": [
+          15,
+          2,
+          24
+        ]
+      }
+    ],
+    "features": [
+      "two tiered skull niches",
+      "two stone sarcophagi",
+      "central crystal altar",
+      "candle plinths",
+      "hanging chains",
+      "glass amethyst inlay"
+    ],
+    "differences": [
+      "Bones represented by supported bone blocks rather than loose item entities",
+      "Sarcophagi are solid decorative masonry, not loot containers",
+      "No undead spawns or ritual function added"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "s3-13",
+  "size": [
+    35,
+    16,
+    31
+  ],
+  "title": "阶台厨房与双长桌食堂",
+  "reference": "S3-13",
+  "features": [
+    "后半厨房高一格",
+    "中心壁炉烟囱和空釜",
+    "双层餐具架",
+    "两张长桌与长凳",
+    "前方冻结池"
+  ],
+  "ports": [
+    {
+      "name": "west",
+      "foot": [
+        0,
+        2,
+        15
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "east",
+      "foot": [
+        34,
+        2,
+        15
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "start": [
+    0,
+    2,
+    15
+  ],
+  "targets": [
+    {
+      "label": "east exit",
+      "position": [
+        34,
+        2,
+        15
+      ]
+    },
+    {
+      "label": "hearth",
+      "position": [
+        9,
+        3,
+        23
+      ]
+    },
+    {
+      "label": "pantry",
+      "position": [
+        25,
+        3,
+        24
+      ]
+    },
+    {
+      "label": "dining",
+      "position": [
+        25,
+        2,
+        9
+      ]
+    }
+  ],
+  "differences": [
+    "火焰用发光菌块模拟暖炉，避免接触火和明火扩散",
+    "空炼药锅和花盆表现炊具，不投放食物",
+    "厨房高差用半砖连续过渡；冻结池无流动水"
+  ],
+  "cutY": 14,
+  "architectural_revision": "石木门框、后壁梁柱、连续雪沿、错落收尖冰挂；显式木纹轴向和木桶open=false使原生预览与实际一致"
+}

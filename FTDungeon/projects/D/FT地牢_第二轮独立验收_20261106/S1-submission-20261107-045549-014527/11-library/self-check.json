@@ -1,0 +1,63 @@
+{
+  "source_sha256": "078862d20e8739081bac992b3b2aef4dbd9434653748028c26179d10b093ff93",
+  "status": "maker_static_self_check_pass_not_independent_acceptance",
+  "registry_properties": true,
+  "template_roundtrip": true,
+  "native_fragile_survival": true,
+  "ports_clear": true,
+  "empty_inventories": true,
+  "collision_routes": [
+    {
+      "position": [
+        28,
+        2,
+        16
+      ],
+      "reachable": true,
+      "label": "east-exit",
+      "standing_clear": true
+    },
+    {
+      "position": [
+        10,
+        2,
+        10
+      ],
+      "reachable": true,
+      "label": "reading-desk-left",
+      "standing_clear": true
+    },
+    {
+      "position": [
+        20,
+        2,
+        14
+      ],
+      "reachable": true,
+      "label": "reading-desk-right",
+      "standing_clear": true
+    },
+    {
+      "position": [
+        23,
+        2,
+        4
+      ],
+      "reachable": true,
+      "label": "archive-ladder",
+      "standing_clear": true
+    }
+  ],
+  "not_executed": [
+    "world placement and ticks",
+    "gameplay or combat",
+    "independent visual acceptance"
+  ],
+  "scope_limits": [
+    "Full nonair canSurvive with real tags and brightness 15 is static support only.",
+    "Route shapes use EmptyBlockGetter; no ladder, jump or movement physics certification.",
+    "No actual world lighting, neighbor, fluid, random ticks or interactions."
+  ],
+  "native_all_nonair_survival": true,
+  "nonair_checked": 5641
+}

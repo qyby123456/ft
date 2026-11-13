@@ -1,0 +1,64 @@
+{
+  "source_sha256": "75448b6f05549d7ed8cdef4b4e52f33bfebfdec15188c0de1b916202849c956f",
+  "status": "maker_static_self_check_pass_not_independent_acceptance",
+  "registry_properties": true,
+  "template_roundtrip": true,
+  "native_fragile_survival": true,
+  "native_all_nonair_survival": true,
+  "nonair_checked": 6016,
+  "ports_clear": true,
+  "empty_inventories": true,
+  "collision_routes": [
+    {
+      "position": [
+        30,
+        2,
+        14
+      ],
+      "standing_clear": true,
+      "label": "east-exit",
+      "reachable": true
+    },
+    {
+      "position": [
+        16,
+        2,
+        7
+      ],
+      "standing_clear": true,
+      "label": "hearth",
+      "reachable": true
+    },
+    {
+      "position": [
+        10,
+        2,
+        10
+      ],
+      "standing_clear": true,
+      "label": "first-table",
+      "reachable": true
+    },
+    {
+      "position": [
+        23,
+        2,
+        15
+      ],
+      "standing_clear": true,
+      "label": "second-table",
+      "reachable": true
+    }
+  ],
+  "not_executed": [
+    "world placement and ticks",
+    "gameplay or combat",
+    "independent visual acceptance",
+    "door/button use and neighbor updates"
+  ],
+  "scope_limits": [
+    "Full nonair canSurvive with real tags and brightness 15 is static support only.",
+    "Route shapes use EmptyBlockGetter; no ladder, jump or movement physics certification.",
+    "No actual world lighting, neighbor, fluid, random ticks or interactions."
+  ]
+}

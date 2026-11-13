@@ -1,0 +1,30 @@
+{
+  "style": "S2",
+  "group": "S2",
+  "source_sha256": "33ceb33f633cfa6e797cc184cd3c5ff34ce9f0901e9b909da161782ec5cc0e6c",
+  "status": "PRODUCER_INSTALL_VALIDATED_PENDING_INDEPENDENT_REVIEW",
+  "archive": {
+    "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S2\\access-install-33ceb33f\\s2_desert_access.zip",
+    "relative_path": "access-install-33ceb33f/s2_desert_access.zip",
+    "sha256": "ae945516119be0f6306793247a442b0ff27f55238d76e32be75aad1e7d3915c4",
+    "bytes": 129401
+  },
+  "runtime_report": {
+    "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S2\\runtime-access-r4\\access-runtime.json",
+    "relative_path": "runtime-access-r4/access-runtime.json",
+    "sha256": "e8396c3b980badfeee3a3f2aea92bf27b565c38dee287ebb17c978bc6bffd063",
+    "bytes": 2062
+  },
+  "original_declared_files_unchanged": 498,
+  "previous_interaction_supplement_files_unchanged": 43,
+  "barriers_preserved": 38872,
+  "ordinary_permission_level": 0,
+  "natural_load_tick": true,
+  "ordinary_trigger_roundtrips": 2,
+  "explicit_admin_install_required": true,
+  "automatic_load_does_not_place_or_clear": true,
+  "full_range_clear_documented": true,
+  "production_instance_touched": false,
+  "actual_player_implementation": "Native ServerPlayer with native ServerGamePacketListenerImpl and unattached Connection; queued packets have no real client. Added to ServerLevel and underlying PlayerList.players via test-only reflection. Permission-0 dispatcher commands; no objective enable, tick or player movement manually invoked after initial external placement.",
+  "scope_correction": "Report scope string retains legacy FakePlayer wording; actual r4 source and test_player_enrollment use native ServerPlayer and native teleport listener, with unattached Connection and no real client. No manual load/tick or player movement after initial setup. Test-only reflection enrolls player for vanilla selectors; not shipped in datapack. Producer isolated test, not parent independent world rerun or human/client survival acceptance."
+}

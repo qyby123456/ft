@@ -1,0 +1,63 @@
+{
+  "source_sha256": "054b6ac9e5b83eff07aa17ded9e29776abc1568db9ea44a4811af425c7f46859",
+  "status": "maker_static_self_check_pass_not_independent_acceptance",
+  "registry_properties": true,
+  "template_roundtrip": true,
+  "native_fragile_survival": true,
+  "ports_clear": true,
+  "empty_inventories": true,
+  "collision_routes": [
+    {
+      "reachable": true,
+      "label": "east-exit",
+      "standing_clear": true,
+      "position": [
+        24,
+        2,
+        11
+      ]
+    },
+    {
+      "reachable": true,
+      "label": "grindstone",
+      "standing_clear": true,
+      "position": [
+        7,
+        2,
+        5
+      ]
+    },
+    {
+      "reachable": true,
+      "label": "workbench",
+      "standing_clear": true,
+      "position": [
+        12,
+        2,
+        15
+      ]
+    },
+    {
+      "reachable": true,
+      "label": "furnace",
+      "standing_clear": true,
+      "position": [
+        20,
+        2,
+        5
+      ]
+    }
+  ],
+  "not_executed": [
+    "world placement and ticks",
+    "gameplay or combat",
+    "independent visual acceptance"
+  ],
+  "scope_limits": [
+    "Full nonair canSurvive with real tags and brightness 15 is static support only.",
+    "Route shapes use EmptyBlockGetter; no ladder, jump or movement physics certification.",
+    "No actual world lighting, neighbor, fluid, random ticks or interactions."
+  ],
+  "native_all_nonair_survival": true,
+  "nonair_checked": 4316
+}

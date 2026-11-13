@@ -1,0 +1,70 @@
+{
+  "stage": "PARENT_INDEPENDENT_FORGE_DATAPACK_INSTALL_ACCESS_REEXECUTION",
+  "status": "PASS_SCOPED",
+  "source_sha256": "33ceb33f633cfa6e797cc184cd3c5ff34ce9f0901e9b909da161782ec5cc0e6c",
+  "zip_sha256": "ae945516119be0f6306793247a442b0ff27f55238d76e32be75aad1e7d3915c4",
+  "frozen_files_unchanged": 56,
+  "report": {
+    "source_sha256": "33ceb33f633cfa6e797cc184cd3c5ff34ce9f0901e9b909da161782ec5cc0e6c",
+    "events": [
+      {
+        "tick": 4,
+        "event": "ordinary_enter_trigger",
+        "command_result": 1,
+        "position_before_tick": [
+          1018.5,
+          128.0,
+          1045.5
+        ]
+      },
+      {
+        "tick": 7,
+        "event": "natural_tick_entered",
+        "position": [
+          1027.5,
+          137.0,
+          1045.5
+        ],
+        "body_clear": true
+      },
+      {
+        "tick": 10,
+        "event": "natural_tick_returned",
+        "position": [
+          1018.5,
+          128.0,
+          1045.5
+        ],
+        "body_clear": true
+      }
+    ],
+    "test_player_enrollment": "Native ServerPlayer with native ServerGamePacketListenerImpl and unattached Connection; queued packets have no real client. Added to ServerLevel and underlying PlayerList.players via test-only reflection. Permission-0 dispatcher commands; no objective enable, tick or player movement manually invoked after initial external placement.",
+    "automatic_load_count": 1,
+    "natural_tick_before_install": 2,
+    "ordinary_permission_level": 0,
+    "ordinary_has_permission_2": false,
+    "ordinary_install_denied": true,
+    "installed_records_checked": 166642,
+    "barriers_preserved": 38872,
+    "block_identity_failures": 0,
+    "repeat_install_no_clear_or_replace": true,
+    "enter_locked_before": false,
+    "entry_observed_position": [
+      1027.5,
+      137.0,
+      1045.5
+    ],
+    "entry_observed_tags": [],
+    "roundtrips": 2,
+    "natural_tick_after": 17,
+    "pass": true,
+    "test_ticks": 16,
+    "scope": "Datapack zip preinstalled in brand new isolated save before server launch. Vanilla load/tick tags execute naturally; never manually called load or tick. Installation tested only through administrator function, ordinary permission-0 survival FakePlayer commands tested through dispatcher. Two ordinary trigger entry/return cycles execute on later natural server ticks, barrier preservation and installed block identities checked. Local automated test, not independent parent rerun or human client survival acceptance."
+  },
+  "accepted": false,
+  "limits": [
+    "Native ServerPlayer without real client; no human network UI certification",
+    "Main complete template packaged intact; fifteen <=48 slices remain separately delivered",
+    "Pre-reserved empty fixed overworld area; no asset-preserving install or arbitrary coordinate support"
+  ]
+}

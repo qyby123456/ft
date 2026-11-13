@@ -1,0 +1,39 @@
+{
+  "candidate_sha256": "8ae1b8a40fa54a12e50bc8ce326d635ba2b919226c50be7cc12ba7a28280d37e",
+  "reference_sha256": "75a0eea2bc2a1e69cec00646fdb38b605e2298ed45484510fa01b4265cf8b92b",
+  "reference_image_viewed": true,
+  "lodestone_cutaway_viewed": true,
+  "self_check": "PASS",
+  "independent_acceptance": "NOT_RUN",
+  "native_report": "qa/independent-native-frozen.json",
+  "route_report": "qa/independent-routes.json",
+  "containers": [
+    {
+      "pos": [
+        29,
+        2,
+        4
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        31,
+        2,
+        4
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    }
+  ],
+  "static_supplement_failures": [],
+  "risks": "No water/lava/fire blocks",
+  "not_run": [
+    "world placement",
+    "neighbor/random/fluid tick simulation",
+    "player gameplay",
+    "independent acceptance"
+  ],
+  "visual_notes": "视觉整改后真实联系图已逐格查看；原家具/原路线目标保留；旧证据qa/visual-r0。"
+}

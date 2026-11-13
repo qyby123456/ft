@@ -1,0 +1,121 @@
+{
+  "id": "S7-11",
+  "title": "图书馆",
+  "reference_observed": "双层后墙书架、上层木栏、攀梯、三个独立阅读位、左右出口、两棵高位红蘑菇、前部水洼与右侧柜",
+  "start": [
+    2,
+    3,
+    16
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "foot": [
+        0,
+        3,
+        16
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    },
+    {
+      "side": "east",
+      "foot": [
+        34,
+        3,
+        16
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "west threshold",
+      "position": [
+        0,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "east threshold",
+      "position": [
+        34,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "left reading desk",
+      "position": [
+        8,
+        3,
+        12
+      ]
+    },
+    {
+      "label": "middle reading desk",
+      "position": [
+        19,
+        3,
+        20
+      ]
+    },
+    {
+      "label": "front reading desk",
+      "position": [
+        27,
+        3,
+        26
+      ]
+    },
+    {
+      "label": "archive cabinet",
+      "position": [
+        29,
+        3,
+        11
+      ]
+    },
+    {
+      "label": "ladder foot",
+      "position": [
+        20,
+        3,
+        7
+      ]
+    }
+  ],
+  "differences": [
+    "原图斜梯改用原版垂直攀梯，攀爬不属于本离线路径验证范围",
+    "青紫发光菌以诡异菌与菌光体代替，不声明粒子或交互",
+    "水洼覆蓝玻璃防流动与跌入；静态液体面检查不等于液体tick测试",
+    "书台使用真实讲台与空白可写书；卷轴与锁柜只作视觉转译，柜中空库存，无锁定机关",
+    "完整NBT保留前墙与屋顶；预览仅剖切显示副本"
+  ],
+  "revision_history": [
+    {
+      "candidate": "initial preview",
+      "issue": "未显式snowy/type/axis/mushroom face states造成渲染缺面",
+      "fix": "common.mjs统一显式原版默认状态，桌面top slab支撑灯笼"
+    }
+  ],
+  "revision_2": {
+    "reason": "Independent visual preliminary REQUEST_CHANGES",
+    "preserved_evidence": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\independent-reproduction\\history\\pre-visual-request-changes\\S7-11",
+    "changes": [
+      "Continuous irregular floor patches replace per-cell checkerboard",
+      "Wave-based clustered cave palette, projecting upper ledges, supported hanging roots and mushrooms",
+      "Stone-and-log layered frames at unchanged clear ports",
+      "Feature-detail render supplements overview; no targets removed"
+    ]
+  },
+  "takeover_source_manifest": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\local-relief-v4\\takeover-source-manifest.json",
+  "revision_4": {
+    "changes": "加厚洞口石土门框、入口基脚，保留书架与攀梯；补上层落脚视图。",
+    "world_evidence": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\local-relief-v4\\worldqa-validated\\world-report.json",
+    "scope": "制作方检查，等待独立复核；服务器模拟交互不等于真人客户端遍历。"
+  },
+  "inherited_reference_scope": "Earlier revision_2 and takeover provenance fields were copied by the revision initializer and may contain relocated historical paths. Authoritative ancestry is revision-parent.json with exact source hashes; do not treat absent relocated history paths as new evidence."
+}

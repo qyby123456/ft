@@ -1,0 +1,102 @@
+{
+  "stage": "INDEPENDENT_PAYLOAD_ENTITY_PARTS_AND_ROUTE_RETENTION_CHECK",
+  "group": "S4",
+  "sha256": "ffa143535d41cfb3f0ad9380e3e4258deea9295a5e695bcc88e0e3452959e949",
+  "rooms": [
+    {
+      "id": "S4-11",
+      "records": 5367,
+      "block_entities": 4,
+      "entities": 0,
+      "added_solids_in_omitted_air": []
+    },
+    {
+      "id": "S4-12",
+      "records": 5510,
+      "block_entities": 4,
+      "entities": 0,
+      "added_solids_in_omitted_air": []
+    },
+    {
+      "id": "S4-13",
+      "records": 7353,
+      "block_entities": 8,
+      "entities": 0,
+      "added_solids_in_omitted_air": []
+    },
+    {
+      "id": "S4-14",
+      "records": 4439,
+      "block_entities": 9,
+      "entities": 2,
+      "added_solids_in_omitted_air": []
+    },
+    {
+      "id": "S4-15",
+      "records": 5523,
+      "block_entities": 0,
+      "entities": 0,
+      "added_solids_in_omitted_air": []
+    },
+    {
+      "id": "S4-16",
+      "records": 4545,
+      "block_entities": 3,
+      "entities": 0,
+      "added_solids_in_omitted_air": []
+    },
+    {
+      "id": "S4-17",
+      "records": 5002,
+      "block_entities": 2,
+      "entities": 0,
+      "added_solids_in_omitted_air": []
+    },
+    {
+      "id": "S4-18",
+      "records": 6370,
+      "block_entities": 0,
+      "entities": 0,
+      "added_solids_in_omitted_air": []
+    },
+    {
+      "id": "S4-19",
+      "records": 6717,
+      "block_entities": 1,
+      "entities": 0,
+      "added_solids_in_omitted_air": []
+    },
+    {
+      "id": "S4-20",
+      "records": 4675,
+      "block_entities": 1,
+      "entities": 0,
+      "added_solids_in_omitted_air": []
+    }
+  ],
+  "room_source_differences": [],
+  "merged_records": 527880,
+  "translated_entities_exact": 2,
+  "part_count": 18,
+  "parts_payload_and_entities_exact": true,
+  "parts_volume": 527880,
+  "full_volume": 527880,
+  "original_targets": 56,
+  "original_target_positions_missing_in_merged": [],
+  "rectangular_boundary_cells": 64494,
+  "rectangular_boundary_nonbarrier_cells": 56493,
+  "limitations": [
+    "Nonrectangular union shell needs separate exterior flood verification if rectangular boundary is incomplete",
+    "Changed source cells need explicit reason and payload classification",
+    "Target retention compares positions; functional meaning and paths need separate review",
+    "No world or visual acceptance"
+  ],
+  "accepted": false,
+  "explicit_terminal_glass_cap_cells_verified": null,
+  "union_barrier_enclosure": {
+    "method": "Padded six-neighbor exterior flood ignoring every block except barriers",
+    "barrier_cells": 32872,
+    "all_room_volume_cells_enclosed": 107373,
+    "all_merged_target_cells_enclosed": 56
+  }
+}
