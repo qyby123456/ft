@@ -1,3 +1,11 @@
+## Stage28 scoped Zicai Curios candidate checkpoint, 2026-11-13
+
+- The original Curios silence helper,rules andChoice are ported as three added classes;all1451existing classes andall resources stay byte-identical to Stage27. Candidate SHA256 c45cc10ffb7b572d876e869b692a75496c88c337434ed7140225df298b7bb65e. NOT-INSTALLABLE andnot deployed;both formal instances remain read-only.
+- Effective unchanged-Stage27 baseline404checks demonstrates two gaps. Candidate basic contract1099checks passes. Valid original boss_relic native death/respawn/pre-expiry logout589checks passes withglobal exactly-one item checks. Invalid gold-nugget head fixture strict failure remains;unchanged Stage27 also reproduces count2. No assertion was relaxed andno failed world was reused.
+- Native new-JVM login remains UNACCEPTED. V7 bounded failure andV8 public read-only screen diagnostics stop before any integrated server/player at experimental-world BackupConfirmScreen. No warning/private callback/data flag was bypassed. Supported UI input is unavailable in this run. Continue independent fresh-world slot-removal/occupied-slot inventory fallback andoriginal owner/eligibility controls;complete actual reload confirmation separately.
+- Local content-addressed archive15497files/2221unique blobs passed complete hash readback;all originals retained. See github-sync/checkpoint-boss-stage28-zicai-20261113.json andwork/session-boss/ZICAI_CURIO_SILENCE_STAGE28.md. Full lifecycle matrix/full Boss/authenticated multiplayer/rewards/battle remain incomplete. Weapons/Session remain paused andthe separate weapon recovery JAR is not installable.
+- Source persistence uses the existing safe branch/subdirectory. Preceding remotely recovered checkpoint head4caf6c1d9799eb443ff0058941bbd38dc7e988ee preserves original main/README. Review,push andfreshly retrieve this bounded source increment;raw binaries/worlds/logs/archives/private state remain local. No large-artifact remote recovery orlocal deletion is authorized by source-only proof.
+
 # Boss 移植部署进度（2026-11-13）
 
 ## 2026-11-13：源码已推送并完成远端恢复校验
