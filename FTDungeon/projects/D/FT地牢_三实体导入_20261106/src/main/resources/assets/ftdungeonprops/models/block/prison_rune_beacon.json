@@ -1,0 +1,1153 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile0": "ftdungeonprops:block/remake-lighting_00",
+    "tile1": "ftdungeonprops:block/remake-lighting_01",
+    "tile2": "ftdungeonprops:block/remake-lighting_02",
+    "tile7": "ftdungeonprops:block/remake-lighting_07",
+    "tile14": "ftdungeonprops:block/remake-lighting_14",
+    "tile15": "ftdungeonprops:block/remake-lighting_15",
+    "tile3": "ftdungeonprops:block/remake-lighting_03",
+    "particle": "ftdungeonprops:block/remake-lighting_00"
+  },
+  "elements": [
+    {
+      "name": "runestone plinth / forged sole",
+      "from": [
+        1,
+        0,
+        2
+      ],
+      "to": [
+        15,
+        1,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            2,
+            15,
+            14,
+            16
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            2,
+            15,
+            14,
+            16
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            1,
+            2,
+            15,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "down": {
+          "uv": [
+            1,
+            2,
+            15,
+            14
+          ],
+          "texture": "#tile2",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "runestone plinth / carved load-bearing block",
+      "from": [
+        2,
+        1,
+        3
+      ],
+      "to": [
+        14,
+        3,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            13,
+            14,
+            15
+          ],
+          "texture": "#tile7"
+        },
+        "south": {
+          "uv": [
+            2,
+            13,
+            14,
+            15
+          ],
+          "texture": "#tile7"
+        },
+        "west": {
+          "uv": [
+            3,
+            13,
+            13,
+            15
+          ],
+          "texture": "#tile7"
+        },
+        "east": {
+          "uv": [
+            3,
+            13,
+            13,
+            15
+          ],
+          "texture": "#tile7"
+        },
+        "up": {
+          "uv": [
+            2,
+            3,
+            14,
+            13
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "runestone / narrow stone socket",
+      "from": [
+        4,
+        3,
+        5
+      ],
+      "to": [
+        12,
+        4,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            12,
+            12,
+            13
+          ],
+          "texture": "#tile7"
+        },
+        "south": {
+          "uv": [
+            4,
+            12,
+            12,
+            13
+          ],
+          "texture": "#tile7"
+        },
+        "west": {
+          "uv": [
+            5,
+            12,
+            11,
+            13
+          ],
+          "texture": "#tile7"
+        },
+        "east": {
+          "uv": [
+            5,
+            12,
+            11,
+            13
+          ],
+          "texture": "#tile7"
+        },
+        "up": {
+          "uv": [
+            4,
+            5,
+            12,
+            11
+          ],
+          "texture": "#tile7"
+        }
+      }
+    },
+    {
+      "name": "runestone / inscribed deep tablet",
+      "from": [
+        5,
+        4,
+        6
+      ],
+      "to": [
+        11,
+        12,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            4,
+            11,
+            12
+          ],
+          "texture": "#tile14"
+        },
+        "south": {
+          "uv": [
+            5,
+            4,
+            11,
+            12
+          ],
+          "texture": "#tile15"
+        },
+        "west": {
+          "uv": [
+            6,
+            4,
+            10,
+            12
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            6,
+            4,
+            10,
+            12
+          ],
+          "texture": "#tile15"
+        },
+        "up": {
+          "uv": [
+            5,
+            6,
+            11,
+            10
+          ],
+          "texture": "#tile15"
+        }
+      }
+    },
+    {
+      "name": "runestone / tapering crown shoulder",
+      "from": [
+        6,
+        12,
+        6
+      ],
+      "to": [
+        10,
+        14,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            2,
+            10,
+            4
+          ],
+          "texture": "#tile7"
+        },
+        "south": {
+          "uv": [
+            6,
+            2,
+            10,
+            4
+          ],
+          "texture": "#tile7"
+        },
+        "west": {
+          "uv": [
+            6,
+            2,
+            10,
+            4
+          ],
+          "texture": "#tile7"
+        },
+        "east": {
+          "uv": [
+            6,
+            2,
+            10,
+            4
+          ],
+          "texture": "#tile7"
+        },
+        "up": {
+          "uv": [
+            6,
+            6,
+            10,
+            10
+          ],
+          "texture": "#tile7"
+        }
+      }
+    },
+    {
+      "name": "runestone / narrow crown peak",
+      "from": [
+        7,
+        14,
+        7
+      ],
+      "to": [
+        9,
+        15,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            1,
+            9,
+            2
+          ],
+          "texture": "#tile7"
+        },
+        "south": {
+          "uv": [
+            7,
+            1,
+            9,
+            2
+          ],
+          "texture": "#tile7"
+        },
+        "west": {
+          "uv": [
+            7,
+            1,
+            9,
+            2
+          ],
+          "texture": "#tile7"
+        },
+        "east": {
+          "uv": [
+            7,
+            1,
+            9,
+            2
+          ],
+          "texture": "#tile7"
+        },
+        "up": {
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ],
+          "texture": "#tile7"
+        }
+      }
+    },
+    {
+      "name": "runestone / west buttress foot",
+      "from": [
+        4,
+        4,
+        6
+      ],
+      "to": [
+        5,
+        7,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            9,
+            12,
+            12
+          ],
+          "texture": "#tile7"
+        },
+        "south": {
+          "uv": [
+            4,
+            9,
+            5,
+            12
+          ],
+          "texture": "#tile7"
+        },
+        "west": {
+          "uv": [
+            6,
+            9,
+            10,
+            12
+          ],
+          "texture": "#tile7"
+        },
+        "up": {
+          "uv": [
+            4,
+            6,
+            5,
+            10
+          ],
+          "texture": "#tile7"
+        }
+      }
+    },
+    {
+      "name": "runestone / east buttress foot",
+      "from": [
+        11,
+        4,
+        6
+      ],
+      "to": [
+        12,
+        7,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            9,
+            5,
+            12
+          ],
+          "texture": "#tile7"
+        },
+        "south": {
+          "uv": [
+            11,
+            9,
+            12,
+            12
+          ],
+          "texture": "#tile7"
+        },
+        "east": {
+          "uv": [
+            6,
+            9,
+            10,
+            12
+          ],
+          "texture": "#tile7"
+        },
+        "up": {
+          "uv": [
+            11,
+            6,
+            12,
+            10
+          ],
+          "texture": "#tile7"
+        }
+      }
+    },
+    {
+      "name": "seal support / west load-bearing post",
+      "from": [
+        2,
+        3,
+        7
+      ],
+      "to": [
+        3,
+        8,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            8,
+            14,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            2,
+            8,
+            3,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            7,
+            8,
+            9,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            7,
+            8,
+            9,
+            13
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "seal support / east load-bearing post",
+      "from": [
+        13,
+        3,
+        7
+      ],
+      "to": [
+        14,
+        8,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            8,
+            3,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            13,
+            8,
+            14,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            7,
+            8,
+            9,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            7,
+            8,
+            9,
+            13
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "iron sealing hoop / front span",
+      "from": [
+        2,
+        8,
+        4
+      ],
+      "to": [
+        14,
+        9,
+        5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            7,
+            14,
+            8
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            2,
+            7,
+            14,
+            8
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            4,
+            7,
+            5,
+            8
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            11,
+            7,
+            12,
+            8
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            2,
+            4,
+            14,
+            5
+          ],
+          "texture": "#tile0"
+        },
+        "down": {
+          "uv": [
+            2,
+            11,
+            14,
+            12
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "iron sealing hoop / rear span",
+      "from": [
+        2,
+        8,
+        11
+      ],
+      "to": [
+        14,
+        9,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            7,
+            14,
+            8
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            2,
+            7,
+            14,
+            8
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            11,
+            7,
+            12,
+            8
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            4,
+            7,
+            5,
+            8
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            2,
+            11,
+            14,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "down": {
+          "uv": [
+            2,
+            4,
+            14,
+            5
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "iron sealing hoop / west return",
+      "from": [
+        2,
+        8,
+        5
+      ],
+      "to": [
+        3,
+        9,
+        11
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            5,
+            7,
+            11,
+            8
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            5,
+            7,
+            11,
+            8
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            2,
+            5,
+            3,
+            11
+          ],
+          "texture": "#tile0"
+        },
+        "down": {
+          "uv": [
+            2,
+            5,
+            3,
+            11
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "iron sealing hoop / east return",
+      "from": [
+        13,
+        8,
+        5
+      ],
+      "to": [
+        14,
+        9,
+        11
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            5,
+            7,
+            11,
+            8
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            5,
+            7,
+            11,
+            8
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            13,
+            5,
+            14,
+            11
+          ],
+          "texture": "#tile0"
+        },
+        "down": {
+          "uv": [
+            13,
+            5,
+            14,
+            11
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "binding / front iron key",
+      "from": [
+        7,
+        8,
+        5
+      ],
+      "to": [
+        9,
+        9,
+        6
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            5,
+            7,
+            6,
+            8
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            10,
+            7,
+            11,
+            8
+          ],
+          "texture": "#tile3"
+        },
+        "up": {
+          "uv": [
+            7,
+            5,
+            9,
+            6
+          ],
+          "texture": "#tile3"
+        },
+        "down": {
+          "uv": [
+            7,
+            10,
+            9,
+            11
+          ],
+          "texture": "#tile3"
+        }
+      }
+    },
+    {
+      "name": "binding / rear iron key",
+      "from": [
+        7,
+        8,
+        10
+      ],
+      "to": [
+        9,
+        9,
+        11
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            10,
+            7,
+            11,
+            8
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            5,
+            7,
+            6,
+            8
+          ],
+          "texture": "#tile3"
+        },
+        "up": {
+          "uv": [
+            7,
+            10,
+            9,
+            11
+          ],
+          "texture": "#tile3"
+        },
+        "down": {
+          "uv": [
+            7,
+            5,
+            9,
+            6
+          ],
+          "texture": "#tile3"
+        }
+      }
+    },
+    {
+      "name": "upper restraint / west rising horn",
+      "from": [
+        2,
+        9,
+        7
+      ],
+      "to": [
+        3,
+        12,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            4,
+            14,
+            7
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            3,
+            7
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            7,
+            4,
+            9,
+            7
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            7,
+            4,
+            9,
+            7
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            2,
+            7,
+            3,
+            9
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "upper restraint / west inward hook",
+      "from": [
+        3,
+        11,
+        7
+      ],
+      "to": [
+        5,
+        12,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            4,
+            13,
+            5
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            3,
+            4,
+            5,
+            5
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            3,
+            7,
+            5,
+            9
+          ],
+          "texture": "#tile0"
+        },
+        "down": {
+          "uv": [
+            3,
+            7,
+            5,
+            9
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "upper restraint / east rising horn",
+      "from": [
+        13,
+        9,
+        7
+      ],
+      "to": [
+        14,
+        12,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            4,
+            3,
+            7
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            13,
+            4,
+            14,
+            7
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            7,
+            4,
+            9,
+            7
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            7,
+            4,
+            9,
+            7
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            13,
+            7,
+            14,
+            9
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "upper restraint / east inward hook",
+      "from": [
+        11,
+        11,
+        7
+      ],
+      "to": [
+        13,
+        12,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            4,
+            5,
+            5
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            11,
+            4,
+            13,
+            5
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            11,
+            7,
+            13,
+            9
+          ],
+          "texture": "#tile0"
+        },
+        "down": {
+          "uv": [
+            11,
+            7,
+            13,
+            9
+          ],
+          "texture": "#tile0"
+        }
+      }
+    }
+  ]
+}

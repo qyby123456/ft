@@ -1,0 +1,1 @@
+execute if block 43 91 137 minecraft:air if block 43 90 137 minecraft:mossy_stone_bricks store success score #v0b272 ftm_brick run setblock 43 91 137 ftdungeonmobs:dungeon_spawn_point[spent=false] keep

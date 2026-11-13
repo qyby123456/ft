@@ -1,0 +1,216 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+group = 'net.farmingtales'
+version = '0.24.0'
+
+base {
+    archivesName = 'ft-dungeon-mobs-forge-1.20.1'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+sourceSets {
+    gateTest {
+        java.srcDirs 'src/gametest/java', 'src/gateTest/java'
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.runtimeClasspath
+    }
+    assetVerification {
+        java {
+            srcDir 'tools'
+            include 'VerifyDungeonGates.java'
+            include 'VerifyBrazierStates.java'
+            include 'VerifyBloodPool.java'
+            include 'VerifyDungeonRooms.java'
+            include 'VerifyDungeonArchitecture.java'
+            include 'VerifyPrisonMerge.java'
+            include 'DungeonRoomsGameTests.java'
+            include 'DungeonRoomGalleryGameTests.java'
+            include 'DungeonSpawnPointsGameTests.java'
+            include 'DungeonRoomRulesGameTests.java'
+        }
+        resources.srcDir 'src/test/resources'
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.runtimeClasspath
+    }
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        configureEach {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', file('build/createSrgToMcp/output.srg').absolutePath
+        }
+        client {
+            workingDirectory project.file('run/client')
+            mods {
+                ftdungeonmobs { source sourceSets.main }
+            }
+        }
+        server {
+            workingDirectory project.file('run/server')
+            args '--nogui'
+            mods {
+                ftdungeonmobs { source sourceSets.main }
+            }
+        }
+        data {
+            workingDirectory project.file('run/data')
+            property 'ftdungeonmobs.verifyResources', file('src/main/resources').absolutePath
+            args '--mod', 'ftdungeonmobs', '--all', '--output', file('build/datagen').absolutePath,
+                 '--existing', file('src/main/resources').absolutePath
+            mods {
+                ftdungeonmobs {
+                    source sourceSets.main
+                    source sourceSets.assetVerification
+                }
+            }
+        }
+        gameTestServer {
+            workingDirectory project.file('run/' + providers.gradleProperty('gateTestDirectory').getOrElse('gate-tests-r1'))
+            property 'forge.enabledGameTestNamespaces', providers.gradleProperty('gameTestNamespaces').getOrElse('fteclipsegen,ftgateintegration,ftdungeoncreaturetests')
+            mods {
+                ftdungeonmobs {
+                    source sourceSets.main
+                    source sourceSets.gateTest
+                }
+            }
+        }
+    }
+}
+
+tasks.matching { it.name == 'runData' }.configureEach {
+    dependsOn 'assetVerificationClasses'
+}
+
+tasks.matching { it.name == 'runGameTestServer' }.configureEach {
+    dependsOn 'gateTestClasses'
+}
+
+processResources {
+    inputs.property 'gateTestMetadata', providers.gradleProperty('gateTestMetadata').getOrElse('false')
+    doLast {
+        if (providers.gradleProperty('gateTestMetadata').getOrElse('false') == 'true') {
+            file(destinationDir.toString() + '/META-INF/mods.toml').append('\n[[mods]]\nmodId="ftgateintegration"\nversion="1.0.0"\ndisplayName="Isolated gate integration tests"\n', 'UTF-8')
+            file(destinationDir.toString() + '/META-INF/mods.toml').append('\n[[mods]]\nmodId="ftdungeoncreaturetests"\nversion="1.0.0"\ndisplayName="Isolated creature integration tests"\n', 'UTF-8')
+        }
+    }
+}
+
+repositories {
+    flatDir { dirs 'libs' }
+    mavenCentral()
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'
+    implementation fg.deobf('compat:geckolib:4.8.4')
+    implementation fg.deobf('local.smoke:irons_spellbooks:1.20.1-3.16.3')
+    runtimeOnly fg.deobf('local.smoke:curios-forge:5.14.1+1.20.1')
+    runtimeOnly fg.deobf('local.smoke:player-animation-lib-forge:1.0.2-rc1+1.20')
+    runtimeOnly fg.deobf('local.smoke:irons_lib:1.20.1-2.1.0')
+    assetVerificationRuntimeOnly fg.deobf('local.smoke:lootr:1.20-0.7.35.94')
+    if (providers.gradleProperty('cataclysmVerification').isPresent()) {
+        assetVerificationRuntimeOnly fg.deobf('local.smoke:cataclysm:3.31')
+        assetVerificationRuntimeOnly fg.deobf('local.smoke:lionfishapi:3.0')
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+
+tasks.register('compileAssetVerifier', JavaCompile) {
+    source = fileTree('tools') { include 'VerifyGeckoAssets.java', 'VerifyArenaAssets.java', 'VerifyBloodthornAssets.java', 'VerifyDungeonGates.java', 'VerifyBrazierStates.java', 'VerifyBloodPool.java', 'VerifyDungeonRooms.java', 'VerifyDungeonArchitecture.java' }
+    classpath = sourceSets.main.compileClasspath + sourceSets.main.output
+    destinationDirectory = layout.buildDirectory.dir('asset-verifier')
+    dependsOn 'classes'
+}
+
+tasks.register('extractVerifierLibraries', Sync) {
+    from(zipTree('libs/geckolib-4.8.4.jar')) {
+        include 'META-INF/jarjar/*.jar'
+        eachFile { details -> details.path = details.name }
+        includeEmptyDirs = false
+    }
+    into layout.buildDirectory.dir('asset-verifier-libs')
+}
+
+tasks.register('verifyAssets', JavaExec) {
+    dependsOn 'compileAssetVerifier', 'classes', 'extractVerifierLibraries'
+    classpath = sourceSets.main.runtimeClasspath + files(layout.buildDirectory.dir('asset-verifier')) +
+            fileTree(layout.buildDirectory.dir('asset-verifier-libs')) { include '*.jar' }
+    mainClass = 'VerifyGeckoAssets'
+    args file('src/main/resources').absolutePath
+}
+
+tasks.named('check') {
+    dependsOn 'verifyAssets'
+    dependsOn 'verifyArenaAssets'
+    dependsOn 'verifyBloodthornAssets'
+    dependsOn 'verifyDungeonGates'
+    dependsOn 'verifyBloodPool'
+    dependsOn 'verifyDungeonRooms'
+    dependsOn 'verifyDungeonArchitecture'
+}
+
+tasks.register('verifyDungeonArchitecture', JavaExec) {
+    dependsOn 'compileAssetVerifier', 'classes'
+    classpath = sourceSets.main.runtimeClasspath + files(layout.buildDirectory.dir('asset-verifier'))
+    mainClass = 'net.farmingtales.ftdungeonmobs.verification.VerifyDungeonArchitecture'
+    args file('src/main/resources').absolutePath
+}
+
+tasks.register('verifyDungeonRooms', JavaExec) {
+    dependsOn 'compileAssetVerifier', 'classes'
+    classpath = sourceSets.main.runtimeClasspath + files(layout.buildDirectory.dir('asset-verifier'))
+    mainClass = 'net.farmingtales.ftdungeonmobs.VerifyDungeonRooms'
+    args file('src/main/resources').absolutePath
+}
+
+tasks.register('verifyBloodPool', JavaExec) {
+    dependsOn 'compileAssetVerifier', 'classes'
+    classpath = sourceSets.main.runtimeClasspath + files(layout.buildDirectory.dir('asset-verifier'))
+    mainClass = 'net.farmingtales.ftdungeonmobs.verification.VerifyBloodPool'
+    args file('src/main/resources').absolutePath
+}
+
+tasks.register('verifyDungeonGates', JavaExec) {
+    dependsOn 'compileAssetVerifier', 'classes'
+    classpath = sourceSets.main.runtimeClasspath + files(layout.buildDirectory.dir('asset-verifier'))
+    mainClass = 'net.farmingtales.ftdungeonmobs.verification.VerifyDungeonGates'
+    args file('src/main/resources').absolutePath
+}
+
+tasks.register('verifyBloodthornAssets', JavaExec) {
+    dependsOn 'compileAssetVerifier', 'classes'
+    classpath = sourceSets.main.runtimeClasspath + files(layout.buildDirectory.dir('asset-verifier'))
+    mainClass = 'VerifyBloodthornAssets'
+    args file('src/main/resources').absolutePath
+}
+
+tasks.register('verifyArenaAssets', JavaExec) {
+    dependsOn 'compileAssetVerifier', 'classes'
+    classpath = sourceSets.main.runtimeClasspath + files(layout.buildDirectory.dir('asset-verifier'))
+    mainClass = 'VerifyArenaAssets'
+    args file('src/main/resources').absolutePath
+}
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'FT Dungeon Mobs',
+                   'Implementation-Version': project.version,
+                   'Model-Provider': '一颗大豆 / bilibili uid355533780'
+    }
+    from('CREDITS.md')
+    finalizedBy 'reobfJar'
+}
