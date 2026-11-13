@@ -1,6 +1,6 @@
 {
   "format": "ftboss-original-curios-lifecycle-evidence-map-v1",
-  "acceptedIncrement": "actual active-pending dimension transition andnative destination expiry/client return sync",
+  "acceptedIncrement": "V13 default death policy drop/respawn/natural pickup/client synchronization;existing dimension/fallback/18controls reused",
   "originalSubscribers": [
     {
       "subscriber": "onDamage",
@@ -21,12 +21,16 @@
       "subscriber": "onDeath",
       "evidence": "V6 validoriginal relic native death withkeepInventory andglobal count1",
       "rerunThisBatch": false,
-      "allDeathPoliciesClaimedAccepted": false
+      "allDeathPoliciesClaimedAccepted": false,
+      "additionalEvidence": "V13 default keepInventory=false actual death->real ItemEntity drop->actual client respawn->natural pickup->120tickstable conservation;V6keepInventory=true reused without rerun",
+      "defaultDeathPolicyAccepted": true
     },
     {
       "subscriber": "onRespawn",
       "evidence": "V6 actualclient respawnpacket andnewServerPlayer restoredrelic",
-      "rerunThisBatch": false
+      "rerunThisBatch": false,
+      "additionalEvidence": "V13 default keepInventory=false actual death->real ItemEntity drop->actual client respawn->natural pickup->120tickstable conservation;V6keepInventory=true reused without rerun",
+      "defaultDeathPolicyAccepted": true
     },
     {
       "subscriber": "onLogout",
@@ -48,7 +52,7 @@
   "remainingExplicitGaps": [
     "actual supported new-JVM confirmation/login persistence",
     "full equip-action UI beyond actual eventqueries",
-    "complete death-policy/lifecycle combinations andmulti-item selection matrix notclaimed",
+    "multi-item original choice andcosmetic exclusion matrix",
     "direct native observer for server-stop dedup state beyond static original graph"
   ],
   "originalSourceRelativePath": "work/session-boss/build/boss-zicai-curio-contract-audit-v1-20261113/original-sources/net/farmingtales/ftboss/boss/ai/ZicaiCurioSilence.java",
