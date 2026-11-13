@@ -1,0 +1,83 @@
+{
+  "id": "S5-13",
+  "size": [
+    33,
+    17,
+    29
+  ],
+  "description": "Monumental chimney hearth, paired storage racks, butcher island and two long mess tables with benches.",
+  "ports": [
+    {
+      "name": "west",
+      "feet": [
+        0,
+        3,
+        12
+      ],
+      "facing": "west",
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "east",
+      "feet": [
+        32,
+        3,
+        12
+      ],
+      "facing": "east",
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "hearth",
+      "position": [
+        8,
+        3,
+        6
+      ]
+    },
+    {
+      "label": "butcher",
+      "position": [
+        15,
+        3,
+        11
+      ]
+    },
+    {
+      "label": "dining-west",
+      "position": [
+        10,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "dining-east",
+      "position": [
+        24,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "storage",
+      "position": [
+        19,
+        3,
+        5
+      ]
+    }
+  ],
+  "differences": [
+    "Underwater open fire replaced with unlit usable vanilla furnaces and water cauldron; no campfire/fire/lava hazard.",
+    "Pottery approximates jars; no decorative food entities or actual inventory.",
+    "Enclosed kitchen with glass roof and capped chimney; atmosphere is shallow-water rather than pressure-safe full-ocean deployment."
+  ],
+  "revision": "visual-r2",
+  "water_policy": "DRY HABITABLE COMPARTMENT, contained wet aquarium planters and shallow pools; not a fully flooded ocean ruin. All route goals remain dry. Glass enclosure for deployment preparation, not certified deep-ocean pressure/oxygen safety.",
+  "cutHeight": 11
+}

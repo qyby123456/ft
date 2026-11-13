@@ -1,0 +1,22 @@
+{
+  "group": 5,
+  "image": 5,
+  "status": "PRODUCER_CHECKS_PASS_PENDING_INDEPENDENT_ACCEPTANCE",
+  "reference": "S5-05-corridor.png",
+  "nbt": "nbt/s5-05-coral-ribbed-corridor.nbt",
+  "nbt_sha256": "f85b42cc6d78b51d656c5829b46803cee6844903461a38b93fe23f290977e5cb",
+  "size": [17,18,39],
+  "data_version": 3465,
+  "block_records": 11934,
+  "composition": "Straight covered narrow corridor; five repeated attached pier pairs and roof ribs with sea lanterns; source-water skylights; eight coral planters, rooted kelp and two axial wet arches. No turn or branch, no free-standing hall columns or central furniture.",
+  "producer_world_test": "Fresh isolated Forge1.20.1-47.4.10 GameTest; four rotations each1200ticks, randomTickSpeed3, natural chunk random ticks activated by non-spectator creative Forge FakePlayer. Both lit wheat probe sections grew. Four JUnit pass and exit0. This is producer evidence, not independent second server execution.",
+  "readback": "12 complete59x30x59 native captures,104430 records each, decoded states and block entities stable. Each rotation11934 source states exactly match native placement, explicit neighbor update diff0 and1200tick diff0; native canSurvive11934 per rotation; zero dropped items, dead coral, coral identity changes, invalid aquatic survival or source-water losses.",
+  "route": "14 target feet positions, two-block collision clearance BFS at Y3;363 reachable cells per rotation. Both gate widths5, heights3, depths3 checked, source-water and solid sills. Not entity AI/oxygen/multiplayer test.",
+  "integration": "Settled captures individually checked in four rotations: outside source ring8, source coverY18..25 eight layers, continuous solid bedY0..2, both gate outside source extensions3deep x5wide x3high with supported sill. Full wet integration only; reject dry corridors.",
+  "visual_limits": "Real vanilla coral colors and branches approximate illustration; sandstone imitates sand patches without falling blocks. Kelp rooted on floor rather than invalid hanging kelp. Full-water Lodestone interior does not reproduce game underwater fog, volumetric rays or bubbles. Geometry-only water-hidden derivative is not candidate.",
+  "previous_four_accepted_nbt_preserved": true,
+  "production_deployment": false,
+  "modified_official_saves_mods_or_configs": false,
+  "image_6_started": false,
+  "requires_independent_acceptance_before_next_image": true
+}

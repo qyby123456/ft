@@ -1,0 +1,23 @@
+{
+  "split": false,
+  "reason": "25x14x25 envelope contains real 456-column L footprint; unused quadrant remains explicit air, not square room; single template",
+  "world_origin": null,
+  "local_origin": [
+    0,
+    0,
+    0
+  ],
+  "assembly_order": [
+    {
+      "step": 1,
+      "id": "S7R2-06",
+      "relative_origin": [
+        0,
+        0,
+        0
+      ],
+      "template": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\06-corner\\incoming\\S7R2-06\\room.nbt"
+    }
+  ],
+  "collision_policy": "Reserve/check full bounding envelope including unused quadrant explicit air; reject conflicts, never unconditional clearing. Air outside L would otherwise erase terrain under vanilla placement."
+}

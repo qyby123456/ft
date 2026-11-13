@@ -1,0 +1,72 @@
+{
+  "candidate": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\assembly\\s4-wetland-connected.nbt",
+  "candidate_sha256": "b01fdaf300987e299d141f1963530ad2b1861be8fe4c17631cdc879f7c7415d8",
+  "dimension": "minecraft:overworld",
+  "origin": [
+    1024,
+    256,
+    1024
+  ],
+  "lobby": [
+    1016.5,
+    260.0,
+    1052.5
+  ],
+  "interior": [
+    1028.5,
+    260,
+    1052.5
+  ],
+  "entry_region": "x=1014,y=259.5,z=1050,dx=5,dy=3,dz=5",
+  "return_region": "x=1024,y=256,z=1024,dx=414,dy=23,dz=66",
+  "platform_write_box": [
+    [
+      1013,
+      259,
+      1049
+    ],
+    [
+      1019,
+      263,
+      1055
+    ]
+  ],
+  "boundary_modified": false,
+  "files": [
+    {
+      "path": "data/fts4_access/functions/enter.mcfunction",
+      "sha256": "3558a415de395c35281e4f5836b11f8c2d572061ac99475d2d6fdb3de187ce3f"
+    },
+    {
+      "path": "data/fts4_access/functions/install.mcfunction",
+      "sha256": "a6a33677828605f7b5ea9b7e92b813b4d2f3d53b371ad5b8ca017b9826808e80"
+    },
+    {
+      "path": "data/fts4_access/functions/load.mcfunction",
+      "sha256": "f184e29c4361f549b3f818d416bada1fc86091d9ce0bf71445a19a08dcca8fdb"
+    },
+    {
+      "path": "data/fts4_access/functions/return.mcfunction",
+      "sha256": "1cbdcf3d0f46993e488414d38d20e08871142ce4b6dcfb6fcfe7d8499effec03"
+    },
+    {
+      "path": "data/fts4_access/functions/tick.mcfunction",
+      "sha256": "2330c836461989d6eacaa84e4726d77d778d97d7cfcbf20267b00e057f277cff"
+    },
+    {
+      "path": "data/minecraft/tags/functions/load.json",
+      "sha256": "60cb7db318b67e71a8255b79c887b011b24f31d3ecd26786e01a77f03124d2f4"
+    },
+    {
+      "path": "data/minecraft/tags/functions/tick.json",
+      "sha256": "3c54632949ab0e608f9b03d20cbb24d06453ad13f57b7461f540900aaafd8e3c"
+    },
+    {
+      "path": "pack.mcmeta",
+      "sha256": "333b65dd985bce4ead1830389e5cdf014631abbb36dadca487425ff8e491ea33"
+    }
+  ],
+  "entry_command": "/trigger fts4_enter set 1",
+  "return_command": "/trigger fts4_exit set 1",
+  "scope": "Installable vanilla 1.20.1 datapack; reserve the lobby write box first. Per-player inside score gates returns. Single configured installation per world."
+}

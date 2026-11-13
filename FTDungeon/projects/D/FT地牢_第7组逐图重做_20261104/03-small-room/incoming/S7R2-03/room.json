@@ -1,0 +1,128 @@
+{
+  "id": "S7R2-03",
+  "name": "菌丝藏宝窟·双门晶簇",
+  "size": [
+    17,
+    13,
+    17
+  ],
+  "facing": "north",
+  "entrance": [
+    8,
+    2,
+    0
+  ],
+  "interior": [
+    8,
+    2,
+    3
+  ],
+  "test_targets": [
+    [
+      8,
+      2,
+      3
+    ],
+    [
+      4,
+      2,
+      2
+    ],
+    [
+      8,
+      2,
+      6
+    ],
+    [
+      10,
+      2,
+      8
+    ],
+    [
+      8,
+      2,
+      10
+    ],
+    [
+      6,
+      2,
+      8
+    ],
+    [
+      16,
+      2,
+      10
+    ],
+    [
+      16,
+      2,
+      11
+    ],
+    [
+      8,
+      2,
+      14
+    ]
+  ],
+  "connections": [
+    {
+      "id": "north-main-arch",
+      "direction": "north",
+      "feet": [
+        8,
+        2,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "outside_feet": [
+        8,
+        2,
+        -1
+      ],
+      "opening": [
+        3,
+        4
+      ],
+      "role": "main entry and return",
+      "source": "rear arch in reference"
+    },
+    {
+      "id": "east-narrow-exit",
+      "direction": "east",
+      "feet": [
+        16,
+        2,
+        10
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "outside_feet": [
+        17,
+        2,
+        10
+      ],
+      "opening": [
+        2,
+        3
+      ],
+      "opening_axis": "z=10..11,y=2..4,x=16",
+      "role": "narrow secondary exit",
+      "source": "right-hand narrow exit in reference"
+    }
+  ],
+  "sha256": "6b3f3b655acdefbd4ffd8c1ab04bb94e3ab280945db25ca5f33f54f9dddf1efd",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-03-small-room.png",
+  "reference_sha256": "7807c9fae5f7dea0e3abe56fe5eca244529e677e4a4291eaf1ac7f0382d933f9",
+  "status": "AWAITING_INDEPENDENT_REGISTRATION_ACCEPTANCE",
+  "runtime_slot": null,
+  "geometry_origin": "Original single-image S7-03 geometry: no table, no U gallery, no stairs; northwest recessed chest and floor crystal",
+  "coordinate_system": "integer feet blocks, +X east +Y up +Z south",
+  "world_placement": "NOT_RUN"
+}

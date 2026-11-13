@@ -1,0 +1,49 @@
+{
+  "id": "S4-01",
+  "reference_order": 1,
+  "group": 4,
+  "recorded_at": "2026-11-04T20:49:35.129380+08:00",
+  "status": "SELF_CHECK_PASS_PENDING_INDEPENDENT_ACCEPTANCE",
+  "minecraft_native_load_roundtrip": "PASS",
+  "vanilla_registry_states": "PASS",
+  "revision": 1,
+  "independent_recheck": "PENDING",
+  "previous_rejected_sha256": "9c8461f6a47a9e66e30e72d9579400daa923de757103e6823a659275b660e353",
+  "fix": "Added persistent oak leaf at (17,20,25), supporting north-facing vine at (17,20,26).",
+  "vine_canSurvive_and_neighbor_shape_fixed_point": {
+    "status": "PASS",
+    "sha256": "9fa8bca1a05e79bb9f2d9f954765ec146f2cc0d8ae56786aded36a5bcc33d106",
+    "vines_checked": 115,
+    "lilies_canSurvive_checked": 51,
+    "neighbor_directions_per_vine_per_pass": 6,
+    "passes_to_fixed_point": 1,
+    "changed_states": 0,
+    "failures": [],
+    "scope": "Vanilla 1.20.1 canSurvive and updateShape on all six neighbors, repeated to a fixed point using in-memory LevelAccessor. No world, random/fluid ticks, propagation scheduler, gameplay or deployment."
+  },
+  "dimensions": [
+    49,
+    31,
+    49
+  ],
+  "connections_5x4_clearance": "PASS",
+  "dry_stair_compatible_routes_to_all_ports_and_dais": "PASS",
+  "water_containment": "PASS",
+  "lily_support": "PASS",
+  "palette": "PASS_VANILLA_ONLY",
+  "lodestone_actual_nbt_webgl": "PASS",
+  "reference_visual_self_check": "Core landmarks and proportions checked; deviations documented in room.json and README.md; independent judgement still pending.",
+  "available_local_repetition_scan": {
+    "unique_nbt": 109,
+    "exact_geometry_duplicates": 0,
+    "highest_coarse_interior_jaccard": 0.3448
+  },
+  "sha256": "9fa8bca1a05e79bb9f2d9f954765ec146f2cc0d8ae56786aded36a5bcc33d106",
+  "old_group4_candidate": "NOT_USED_NOT_MODIFIED",
+  "gameplay": "NOT_RUN",
+  "world_placement": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "next_reference": "S4-02-medium-room.png",
+  "next_started": false,
+  "gate": "Do not start S4-02 until S4-01 independent acceptance is registered. No claim that all 20 group images are complete."
+}

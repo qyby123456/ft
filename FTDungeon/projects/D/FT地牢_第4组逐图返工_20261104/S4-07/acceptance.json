@@ -1,0 +1,424 @@
+{
+  "group": 4,
+  "image": 7,
+  "status": "SELF_CHECK_PASS_PENDING_INDEPENDENT_ACCEPTANCE",
+  "recorded_at": "2026-11-05T14:07:57.464736+08:00",
+  "name": "沼泽双门接引前庭",
+  "size": [
+    29,
+    20,
+    29
+  ],
+  "sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S4-swamp-wetland\\out\\S4-07-entrance.png",
+  "reference_sha256": "479e54e0ddacbac1e4bc7bff8d6302b050c204573eac5d1c5e7d3135fe609c95",
+  "previous_independent_acceptance": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S4-06-independent\\independent-details.json",
+  "accepted_earlier_images_unchanged": {
+    "S4-01": {
+      "sha256": "9fa8bca1a05e79bb9f2d9f954765ec146f2cc0d8ae56786aded36a5bcc33d106",
+      "manifest_entries_verified": 38
+    },
+    "S4-02": {
+      "sha256": "792049b30f24c683e67cd368bf55fab30bd353b3692e5730be72b4570728e889",
+      "manifest_entries_verified": 42
+    },
+    "S4-03": {
+      "sha256": "a0b37f5e493403716ed417c0c8e3cafebb7adc2d17ba31da085fb05643fd45a5",
+      "manifest_entries_verified": 41
+    },
+    "S4-04": {
+      "sha256": "a809502d03ce697502679a9134bb5920aa18bf6826c9b35926968da20cc871cc",
+      "manifest_entries_verified": 86
+    },
+    "S4-05": {
+      "sha256": "0eae8fc3380e1b726a812f8b7f5a64951cc64da583940a629c3572663007a373",
+      "manifest_entries_verified": 42
+    },
+    "S4-06": {
+      "sha256": "0c5f783f22bd6d7f4cf7fcf20a0ea43191839b13ece344108727f167d35cacc0",
+      "manifest_entries_verified": 44
+    }
+  },
+  "geometry_authorship": "New image-specific stepped ruin entrance courtyard, closed native double gate, ascending external stairs, tall rear arch, twin barrel alcoves, framed mosaic notice board and off-route campfire. Earlier geometry not copied; QA harnesses reused.",
+  "native_palette_template_and_entities": "PASS",
+  "north_port_3x4x3": "PASS",
+  "south_gate_and_variable_height_stair_body_route": "PASS",
+  "port_interfaces": [
+    {
+      "facing": "south",
+      "position": [
+        13,
+        3,
+        28
+      ],
+      "width": 2,
+      "height": 2,
+      "inward_depth": 3,
+      "type": "Stair approach rises footY3 to5, then two-wide closed double door atZ25; open gate required. Height2 is minimum gate clearance, not a flat3-deep port."
+    },
+    {
+      "facing": "north",
+      "position": [
+        14,
+        5,
+        0
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3,
+      "type": "Open tall rear arch."
+    }
+  ],
+  "body_route_targets": 15,
+  "body_route_0_6x1_8_half_grid": "PASS",
+  "reachable_half_grid_nodes": 685,
+  "closed_and_open_gate_native_body_scenarios": {
+    "status": "PASS",
+    "sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375",
+    "body": [
+      0.6,
+      1.8
+    ],
+    "grid_and_max_step": 0.5,
+    "reachable_half_grid_nodes": 685,
+    "targets": [
+      {
+        "target": [
+          13,
+          3,
+          28
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          13,
+          4,
+          27
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          13,
+          5,
+          26
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          13,
+          5,
+          25
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          14,
+          5,
+          25
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          13,
+          5,
+          24
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          13,
+          5,
+          22
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          13,
+          5,
+          19
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          13,
+          5,
+          16
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          13,
+          5,
+          13
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          13,
+          5,
+          10
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          14,
+          5,
+          7
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          14,
+          5,
+          4
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          14,
+          5,
+          2
+        ],
+        "reachable": true
+      },
+      {
+        "target": [
+          14,
+          5,
+          0
+        ],
+        "reachable": true
+      }
+    ],
+    "candidate_closed_gate_blocks_dry_body_route": true,
+    "candidate_closed_gate_reachable_nodes": 59,
+    "open_scenario": "Only four existing door-half OPEN properties set true in memory; candidate NBT remains closed and unchanged.",
+    "north_port_3x4x3": "PASS",
+    "descending_return_route_open_gate": true,
+    "template_only_validator_path_disabled": "Generic validator assumes open north entrance/full-block floors. Door/stair/body paths verified here instead.",
+    "scope": "Native vanilla collision AABBs, dry support, body footprint; five horizontal samples per half-step at higher foot plane. No jumping, physics ticks or gameplay."
+  },
+  "neighbor_shape_and_fragile_survival": {
+    "status": "PASS",
+    "sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375",
+    "vines_checked": 96,
+    "total_neighbor_shape_positions": 202,
+    "scheduled_ticks_suppressed_not_executed": 450,
+    "vanilla_tags_bound": 170,
+    "tag_snapshot_sha256": "ed7dd587ed9eef0a7828dd362ab3a08b081f9b2bc32e7469a2e60da8fb15bc7d",
+    "lilies_canSurvive_checked": 26,
+    "pots_canSurvive_checked": 0,
+    "neighbor_directions_per_vine_per_pass": 6,
+    "passes_to_fixed_point": 1,
+    "changed_states": 0,
+    "failures": [],
+    "scope": "Vanilla 1.20.1 canSurvive and six-direction updateShape for wall/ceiling cave vines, waterlogged roots/slabs, fences, chain, lilies and pots using in-memory LevelAccessor. Scheduled fluid ticks are counted and suppressed, not executed. No world, random/fluid ticks, propagation scheduler, gameplay or deployment."
+  },
+  "water_gate_and_architectural_support": {
+    "status": "PASS",
+    "sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375",
+    "water_bottom_side_air_edges": 0,
+    "architectural_solid_components": 1,
+    "empty_barrels": 8,
+    "lit_off_route_campfire": [
+      9,
+      7,
+      17
+    ],
+    "board": "Framed birch/sandstone mosaic atX6..10,Y6..11,Z4",
+    "doors": [
+      [
+        13,
+        5,
+        25
+      ],
+      [
+        13,
+        6,
+        25
+      ],
+      [
+        14,
+        5,
+        25
+      ],
+      [
+        14,
+        6,
+        25
+      ]
+    ],
+    "candidate_door_state": "CLOSED",
+    "stair_rows": [
+      [
+        28,
+        2
+      ],
+      [
+        27,
+        3
+      ],
+      [
+        26,
+        4
+      ]
+    ],
+    "water_surface_columns": 268,
+    "water_dominant": true,
+    "scope": "Static supports, enclosure, entity contents and door pairing. Native body gate/stair routes are separate. World interactions/ticks/campfire damage NOT_RUN."
+  },
+  "actual_full_nbt_interior_exterior_and_cutaway": {
+    "status": "PASS",
+    "sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375",
+    "renderer": "Actual NBT / Lodestone ThreeStructureRenderer / Edge WebGL; camera-only injection, no visual or geometry substitution.",
+    "views": [
+      {
+        "filename": "preview-exterior.png",
+        "camera": {
+          "center": [
+            14.5,
+            7,
+            14.5
+          ],
+          "distance": 41,
+          "pitch": 0.58,
+          "yaw": 0.37
+        },
+        "url": "http://127.0.0.1:5444/?name=S4-07%20FULL%20CANDIDATE%20-%20closed%20gate%20courtyard",
+        "sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375"
+      },
+      {
+        "filename": "preview-interior.png",
+        "camera": {
+          "center": [
+            14,
+            8,
+            8
+          ],
+          "distance": 13,
+          "pitch": 0.17,
+          "yaw": 0.12
+        },
+        "url": "http://127.0.0.1:5444/?name=S4-07%20FULL%20CANDIDATE%20-%20closed%20gate%20courtyard",
+        "sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375"
+      },
+      {
+        "filename": "preview-gate-stairs.png",
+        "camera": {
+          "center": [
+            13.8,
+            5,
+            25
+          ],
+          "distance": 9,
+          "pitch": 0.1,
+          "yaw": 0
+        },
+        "url": "http://127.0.0.1:5444/?name=S4-07%20FULL%20CANDIDATE%20-%20closed%20gate%20courtyard",
+        "sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375"
+      },
+      {
+        "filename": "preview-board-barrels.png",
+        "camera": {
+          "center": [
+            12,
+            8,
+            8
+          ],
+          "distance": 13,
+          "pitch": 0.1,
+          "yaw": 0.35
+        },
+        "url": "http://127.0.0.1:5444/?name=S4-07%20FULL%20CANDIDATE%20-%20closed%20gate%20courtyard",
+        "sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375"
+      },
+      {
+        "filename": "preview-interior-night.png",
+        "camera": {
+          "center": [
+            14,
+            8,
+            8
+          ],
+          "distance": 13,
+          "pitch": 0.17,
+          "yaw": 0.12
+        },
+        "url": "http://127.0.0.1:5444/?name=S4-07%20FULL%20CANDIDATE%20-%20closed%20gate%20courtyard",
+        "sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375"
+      },
+      {
+        "filename": "preview-cutaway.png",
+        "camera": {
+          "center": [
+            14.5,
+            6,
+            14.5
+          ],
+          "distance": 38,
+          "pitch": 0.74,
+          "yaw": 0.37
+        },
+        "url": "http://127.0.0.1:5445/?name=S4-07%20PREVIEW%20ONLY%20-%20Y12%2B%20CUT%20TO%20AIR",
+        "sha256": "9c2c40de097bbd8748072b702d98d09b9c87a5de2e1c20a8e4efe4050d625dda"
+      }
+    ],
+    "errors": []
+  },
+  "cutaway_derivative_rules": {
+    "status": "PASS_AIR_ONLY_DERIVATIVE",
+    "candidate_sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375",
+    "derivative_sha256": "9c2c40de097bbd8748072b702d98d09b9c87a5de2e1c20a8e4efe4050d625dda",
+    "candidate": "D:\\ft工程文件\\FT地牢_第4组逐图返工_20261104\\S4-07\\incoming\\S4-07\\room.nbt",
+    "derivative": "D:\\ft工程文件\\FT地牢_第4组逐图返工_20261104\\S4-07\\preview-only\\upper-cutaway.nbt",
+    "rule": "At original coordinates replace non-air by air iff Y>=12; keep bounding box29x20x29 and all lower positions, including double gate, board, barrels, campfire, courtyard, stairs and water.",
+    "removed_blocks": 792,
+    "no_added_or_material_changed_blocks": true,
+    "deployment": "FORBIDDEN_PREVIEW_ONLY",
+    "scope": "Cut-only visibility aid; not an alternative candidate or survival-valid structure."
+  },
+  "repetition_screen": {
+    "compared_unique_nbt": 323,
+    "exact_geometry_duplicates": 0,
+    "highest_coarse_match": {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-07\\views\\north\\inspection-only-north.nbt",
+      "size": [
+        25,
+        15,
+        27
+      ],
+      "sha256": "c964965bb876d9798cf72db232d186d0d41acf335ee47ad63b21e88e21527131",
+      "same_geometry_ignoring_material": false,
+      "interior_normalized_solid_jaccard_best_y_rotation": 0.8671
+    },
+    "scope": "Available local nature-group NBT snapshot only; normalized interior solid occupancy is a coarse signal, not proof of visual originality. No old file is used as a build input.",
+    "interpretation": "High coarse sealed-room occupancy similarity is not visual equivalence; independent image review still required."
+  },
+  "deviations": [
+    "29x20x29 estimated from reference proportions, not a measured blueprint.",
+    "Candidate has closed native double doors. Offline open-state route test changes only OPEN property in memory, not delivered NBT.",
+    "Map board approximated with framed birch/sandstone mosaic, not an actual filled-map item needing external world map data.",
+    "Froglights approximate framed lanterns. Lit campfire is real and intentionally off-route; damage/fire behavior not tested.",
+    "Central waterlogged top slabs approximate reference partly submerged flagstones; dry body shape verified offline, actual world physics NOT_RUN.",
+    "External swamp forest/water and shader mist/reflections omitted; open courtyard and ruined stepped walls retained."
+  ],
+  "world_placement_ticks_gameplay": "NOT_RUN",
+  "integration": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "independent_acceptance": "PENDING",
+  "next_image_started": false,
+  "gate": "S4-08 and later NOT_AUTHORIZED; do not start or pre-generate."
+}

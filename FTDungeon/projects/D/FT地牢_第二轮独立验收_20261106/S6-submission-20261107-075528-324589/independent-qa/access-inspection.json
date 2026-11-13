@@ -1,0 +1,25 @@
+{
+  "stage": "INDEPENDENT_ACCESS_PACKAGE_AND_PRODUCER_EVIDENCE_INSPECTION",
+  "source_sha256": "5b72d94c89871ebe9c262f92d6c00275ee0c8cfbf32343be96c9cd8e538f1336",
+  "datapack_sha256": "fb3334aadeb07db3c48b643e3b9be63ad4f9598c864a1f9ddb53f7b1b97fb0bf",
+  "frozen_files_verified": 745,
+  "unchanged_ten_room_and_merged_hashes": true,
+  "prior_static_runtime_review": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990",
+  "archive_files_exact": 30,
+  "packaged_slices_exact_and_install_offsets": 20,
+  "packaged_namespace_functions_and_structures_equal_test_resources": true,
+  "minecraft_load_tick_tags": "Statically verified in zip; absent from GameTest resources, harness explicitly invokes load/tick",
+  "external_lobby_floor_cells": 90,
+  "external_south_4wide_opening_verified": true,
+  "authorization_and_distance_guards_source_inspected": true,
+  "producer_native_assertions_inspected": 13,
+  "runtime_source_sha256": "0e61b2ccf4bc251f9c01593f061ffe7344747496bb83619ebfbf0bff6f1bd5f7",
+  "limitations": [
+    "Producer actual GameTest inspected, not independently rerun by parent",
+    "Ordinary datapack reload and automatic tick tag dispatch not exercised by existing harness",
+    "FakePlayer position assertions do not prove network client teleport acknowledgement",
+    "Only empty pre-reserved unrotated overworld single-instance placement is supported",
+    "Full natural movement and container reach/ray coverage still not provided by this access-only change"
+  ],
+  "accepted": false
+}

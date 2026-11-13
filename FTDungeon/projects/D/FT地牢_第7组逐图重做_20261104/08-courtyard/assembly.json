@@ -1,0 +1,24 @@
+{
+  "split": false,
+  "reason": "Single 33x23x33 open courtyard with 17x17 authored skylight",
+  "world_origin": null,
+  "local_origin": [
+    0,
+    0,
+    0
+  ],
+  "assembly_order": [
+    {
+      "step": 1,
+      "id": "S7R2-08",
+      "relative_origin": [
+        0,
+        0,
+        0
+      ],
+      "template": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\08-courtyard\\incoming\\S7R2-08\\room.nbt"
+    }
+  ],
+  "collision_policy": "Reserve/check full envelope including explicit air; reject conflicts. Whether external world above skylight is open remains unknown.",
+  "permanent_S7_06_boundary": "S7-06 rectangular envelope contains explicit air outside L footprint; vanilla placement clears terrain there. Reserve full envelope or implement separately verified quadrant skipping."
+}

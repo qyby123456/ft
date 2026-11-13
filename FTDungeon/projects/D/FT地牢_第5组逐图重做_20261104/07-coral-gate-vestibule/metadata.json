@@ -1,0 +1,67 @@
+{
+  "name": "S5-07 coral gate vestibule",
+  "reference": "reference/S5-07-entrance.png",
+  "candidate": "nbt/s5-07-coral-gate-vestibule.nbt",
+  "nbt_sha256": "b5c2cb4c96f3345ab93f4e609fd5aabc2b5a7061f58b6fbfad742eabe7e8fdf5",
+  "data_version": 3465,
+  "size": [
+    31,
+    22,
+    35
+  ],
+  "records": 23870,
+  "ports": [
+    {
+      "anchor": [
+        15,
+        3,
+        34
+      ],
+      "outward": "south",
+      "width": 7,
+      "height": 3,
+      "internal_depth": 3,
+      "outside_depth_required": 3
+    },
+    {
+      "anchor": [
+        15,
+        3,
+        0
+      ],
+      "outward": "north",
+      "width": 7,
+      "height": 3,
+      "internal_depth": 3,
+      "outside_depth_required": 3
+    }
+  ],
+  "front_gate": {
+    "landing": "X12..18,Z26..28,solid floorY4,bodyfeetY5",
+    "panels": "24 waterlogged warped trapdoors, side-open in stable supplied configuration; not a coupled two-door mechanism",
+    "stairs": "Real waterlogged prismarine-brick stairs; approach rises fromfloorY2 toY4 and falls back toY2 inside"
+  },
+  "rear_arch": {
+    "landing": "X12..18,Z4..6,solid floorY4,bodyfeetY5",
+    "interface": "Returns tofloorY2/feetY3 atZ0..2 for wet integration"
+  },
+  "features": {
+    "guard_alcoves": 4,
+    "empty_barrels": 5,
+    "map": "Sandstone/cyan terracotta mosaic; not functional map entity",
+    "brazier": "Sea-lantern pedestal, no underwater fire"
+  },
+  "integration": {
+    "source_ring": 8,
+    "source_cover_y": [
+      22,
+      29
+    ],
+    "solid_bed_y": [
+      0,
+      2
+    ],
+    "dry_tunnel_allowed": false
+  },
+  "route_scope": "Native six-neighbor3D BFS with two-high exact collision clearance, feetY3..7; extra explicit center axis is pure source water2high. Swimming route, not walking-step pathfinder/player animation/oxygen test."
+}

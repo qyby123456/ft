@@ -1,0 +1,66 @@
+{
+  "stage": "INDEPENDENT_SCOPED_INTERACTION_EVIDENCE_INSPECTION",
+  "source_sha256": "33ceb33f633cfa6e797cc184cd3c5ff34ce9f0901e9b909da161782ec5cc0e6c",
+  "supplement_files_verified": 43,
+  "original_frozen_files_reverified": 499,
+  "runtime_fixtures": 40,
+  "server_menus_opened_empty": 32,
+  "doors_opened_and_restored": 8,
+  "standing_interactions": 39,
+  "native_jump_interactions": 1,
+  "max_eye_hit_distance": 4.334478547166826,
+  "actual_jump_rise_observed": 0.41999998688697815,
+  "runtime_ticks": 640,
+  "geometries": [
+    {
+      "name": "current_source-interactions.json",
+      "sha256": "33ceb33f633cfa6e797cc184cd3c5ff34ce9f0901e9b909da161782ec5cc0e6c",
+      "fixtures": 40
+    },
+    {
+      "name": "real_server_posttick-interactions.json",
+      "sha256": "789daa1d545838854a977f07c24cc931abac66d17bcd739e43a3d91a72a3e406",
+      "fixtures": 40
+    }
+  ],
+  "fine_offsets": [
+    {
+      "geometry": "current_source-interactions.json",
+      "label": "container-197-11-93",
+      "coarse": [
+        197.5,
+        9.0,
+        88.5
+      ],
+      "standing": [
+        197.5,
+        9.0,
+        88.69
+      ],
+      "requires_fine_offset": true
+    },
+    {
+      "geometry": "real_server_posttick-interactions.json",
+      "label": "container-197-11-93",
+      "coarse": [
+        197.5,
+        9.0,
+        88.5
+      ],
+      "standing": [
+        197.5,
+        9.0,
+        88.69
+      ],
+      "requires_fine_offset": true
+    }
+  ],
+  "limitations": [
+    "Producer world independently inspected, not parent world rerun",
+    "Local interactions start with moveTo; full entry paths supplied offline",
+    "Independent route targets are coarse half-grid approach stations; the well's final 0.19 offset uses separate 11-sample and actual-world body evidence",
+    "One successful native jump frame does not establish a complete jump arc or return landing",
+    "No network client UI, survival or external-access acceptance"
+  ],
+  "accepted": false
+}

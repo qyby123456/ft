@@ -1,0 +1,151 @@
+{
+  "id": "S4-07",
+  "name": "沼泽双门接引前庭",
+  "size": [
+    29,
+    20,
+    29
+  ],
+  "sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S4-swamp-wetland\\out\\S4-07-entrance.png",
+  "reference_sha256": "479e54e0ddacbac1e4bc7bff8d6302b050c204573eac5d1c5e7d3135fe609c95",
+  "previous_acceptance": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S4-06-independent\\independent-details.json",
+  "previous_sha256": "0c5f783f22bd6d7f4cf7fcf20a0ea43191839b13ece344108727f167d35cacc0",
+  "entrance": [
+    13,
+    3,
+    28
+  ],
+  "interior": [
+    13,
+    5,
+    19
+  ],
+  "facing": "south",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "axes": {
+    "x": "east",
+    "y": "up",
+    "z": "south"
+  },
+  "connections": [
+    {
+      "facing": "south",
+      "position": [
+        13,
+        3,
+        28
+      ],
+      "width": 2,
+      "height": 2,
+      "inward_depth": 3,
+      "type": "Stair approach rises footY3 to5, then two-wide closed double door atZ25; open gate required. Height2 is minimum gate clearance, not a flat3-deep port."
+    },
+    {
+      "facing": "north",
+      "position": [
+        14,
+        5,
+        0
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3,
+      "type": "Open tall rear arch."
+    }
+  ],
+  "route_waypoints": [
+    [
+      13,
+      3,
+      28
+    ],
+    [
+      13,
+      4,
+      27
+    ],
+    [
+      13,
+      5,
+      26
+    ],
+    [
+      13,
+      5,
+      25
+    ],
+    [
+      14,
+      5,
+      25
+    ],
+    [
+      13,
+      5,
+      24
+    ],
+    [
+      13,
+      5,
+      22
+    ],
+    [
+      13,
+      5,
+      19
+    ],
+    [
+      13,
+      5,
+      16
+    ],
+    [
+      13,
+      5,
+      13
+    ],
+    [
+      13,
+      5,
+      10
+    ],
+    [
+      14,
+      5,
+      7
+    ],
+    [
+      14,
+      5,
+      4
+    ],
+    [
+      14,
+      5,
+      2
+    ],
+    [
+      14,
+      5,
+      0
+    ]
+  ],
+  "runtime_slot": null,
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "world_placement_ticks_gameplay": "NOT_RUN",
+  "integration": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "deviations": [
+    "29x20x29 estimated from reference proportions, not a measured blueprint.",
+    "Candidate has closed native double doors. Offline open-state route test changes only OPEN property in memory, not delivered NBT.",
+    "Map board approximated with framed birch/sandstone mosaic, not an actual filled-map item needing external world map data.",
+    "Froglights approximate framed lanterns. Lit campfire is real and intentionally off-route; damage/fire behavior not tested.",
+    "Central waterlogged top slabs approximate reference partly submerged flagstones; dry body shape verified offline, actual world physics NOT_RUN.",
+    "External swamp forest/water and shader mist/reflections omitted; open courtyard and ruined stepped walls retained."
+  ]
+}

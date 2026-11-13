@@ -1,0 +1,87 @@
+{
+  "group": "S6",
+  "accepted": true,
+  "verdict": "ACCEPTED",
+  "reviewed_at": "2026-11-07T10:26:58.990113+08:00",
+  "source_sha256": "5b72d94c89871ebe9c262f92d6c00275ee0c8cfbf32343be96c9cd8e538f1336",
+  "frozen_files_verified": 763,
+  "inherited_access_files_verified": 754,
+  "inherited_static_files_verified": 675,
+  "harmless_changed_metadata": [
+    "qa/revision-response.md",
+    "qa/delivery-audit.json",
+    "README.md",
+    "ready-for-review.json",
+    "finalize-access.mjs",
+    "progress.json",
+    "finalize-review2.mjs",
+    "finalize.mjs",
+    "status.mjs"
+  ],
+  "independent_room_recipe_outputs": 10,
+  "inherited_independent_merged_reproduction": true,
+  "native_support_checks": 192287,
+  "original_routes": 115,
+  "post_world_routes": 115,
+  "corridor_full_width_air_samples": 2688,
+  "part_count": 20,
+  "barrier_cells": 47553,
+  "natural_movement_ticks": 8466,
+  "original_targets_actually_arrived": 58,
+  "functional_blocks": 36,
+  "eye_ray_use_operations": 48,
+  "unresolved_required_items": [],
+  "requirements": [
+    {
+      "requirement": "Ten distinct reference rooms, real previews and reproducible recipes",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\REVIEW-IN-PROGRESS.md",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\independent-room-reproduction.json"
+      ]
+    },
+    {
+      "requirement": "Native registry/support, original and post-world body routes, current world stability",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\independent-native-frozen.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\independent-all-support.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\runtime-capture-inspection.json"
+      ]
+    },
+    {
+      "requirement": "Source preserving merge, full corridor clearance,20 parts and union barrier",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\payload-entities-parts.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\assembly-reproduction.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\ACCEPTANCE.json"
+      ]
+    },
+    {
+      "requirement": "Actual installed external entry/return, natural hooks/reload and cross-process restart",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-085416-373660\\HOOKS-REVIEW.md",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-085416-373660\\independent-hooks-world-offline\\independent-result.json"
+      ]
+    },
+    {
+      "requirement": "Continuous actual natural travel, all58 targets, original ladder and all36 eye-ray/use targets",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\WALK-REVIEW.md",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\independent-walk-inspection.json",
+        "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\s6-independent-walk-20261107-1015\\assembly\\access\\walk-interaction-result.json"
+      ]
+    }
+  ],
+  "deployment": "NOT_DEPLOYED; formal instance untouched",
+  "limits": [
+    "Fixed overworld unrotated reserved site, no terrain adaptation/multi-instance claim",
+    "Server simulated players, not a connected client GUI, combat, rewards or survival playthrough",
+    "Every20-tick movement trace plus actual operation stops; horizontal job braking preserves vertical velocity",
+    "Ladder returns to original library floor, not an exact initial-entry coordinate loop",
+    "World evidence is finite400-tick per fixture plus8466-tick merged movement; no indefinite growth/random tick coverage"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "S2-15",
+  "nbt": "s2-15-training-yard.nbt",
+  "size": [
+    31,
+    13,
+    27
+  ],
+  "reference_observed": "后墙三个靶、中央三具稻草木人、前景两道矮栏、右侧吊挂障碍框、前墙观众长凳、双侧拱门。",
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        8
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        30,
+        2,
+        8
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        30,
+        2,
+        8
+      ]
+    },
+    {
+      "label": "targets",
+      "position": [
+        15,
+        2,
+        4
+      ]
+    },
+    {
+      "label": "dummy-aisle",
+      "position": [
+        14,
+        2,
+        10
+      ]
+    },
+    {
+      "label": "obstacle-bypass",
+      "position": [
+        16,
+        2,
+        20
+      ]
+    },
+    {
+      "label": "spectators",
+      "position": [
+        15,
+        2,
+        23
+      ]
+    }
+  ],
+  "differences": [
+    "完整围护顶使用大面积淡黄玻璃还原露天采光，不漏顶；庭院开放感以玻璃天井表达。",
+    "三具稻草木人是固定方块，不是战斗实体。",
+    "障碍有独立绕行道；不声明无需跳跃能越过障碍本体。",
+    "靶采用原版target，未安装计分电路；无武器库存或训练战斗逻辑。",
+    "R2补三面橙色菱形原版旗帜；靶为原版六面靶纹，无单独朝向属性。"
+  ],
+  "views": [
+    {
+      "id": "preview-full",
+      "position": [
+        -33,
+        38,
+        51
+      ],
+      "target": [
+        15,
+        4,
+        13
+      ],
+      "fov": 45
+    },
+    {
+      "id": "preview-cutaway",
+      "position": [
+        -32,
+        36,
+        51
+      ],
+      "target": [
+        15,
+        4,
+        13
+      ],
+      "cutaway": true,
+      "cutY": 11,
+      "fov": 45
+    },
+    {
+      "id": "preview-interior",
+      "position": [
+        15.5,
+        5.62,
+        22.5
+      ],
+      "target": [
+        15,
+        4,
+        3
+      ],
+      "fov": 92
+    }
+  ],
+  "revision": "R2 preliminary visual REQUEST_CHANGES remediation; previous evidence in archive-preliminary-v1",
+  "architectural_remediation": [
+    "内侧立体门柱、柱脚柱头、倒置楼梯拱券、半砖分层檐口",
+    "地面周边橙色边框与中央菱形纹样，原尺寸家具与路线目标保留"
+  ]
+}

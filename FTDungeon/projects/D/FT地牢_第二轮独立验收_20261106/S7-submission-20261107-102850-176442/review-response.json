@@ -1,0 +1,29 @@
+{
+  "review": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\REVIEW.md",
+  "closed_visual_scope": "All prior local massing/thickness closed; no redo. Only 4 approach blocks in 15 and 8 service-deck blocks in 16 added after concrete failed access tests. All parent nonair, BE, entities and goals retained.",
+  "v4_independent_reproduction": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\independent-qa\\reproduction.json",
+  "installation": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\install-interact-v6\\worldqa-proof\\installation-report.json",
+  "eye_interactions": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\install-interact-v6\\worldqa-proof\\eye-use-report.json",
+  "natural_motion": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\install-interact-v6\\naturalqa-complete\\natural-motion-report.json",
+  "world_updates": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\install-interact-v6\\worldupdates\\world-report.json",
+  "failures_preserved": {
+    "worldqa/compile-first.log": "Missing import/ambiguous BlockPos getter method reference; fixed before world execution.",
+    "worldqa": "Old suspended barrel had zero reachable first-hit feet; door repeat test mistakenly aimed at lever block center; then unmodifiable PlayerList view raised test setup failure.",
+    "worldqa-final": "New access and all39 eye/use passed; install full-volume/barriers passed; FakePlayerNetHandler teleport no-op prevented entry, not a datapack command failure.",
+    "naturalqa": "Initial watch course started in wall and connector waypoint used wrong intermediate Y; beam/hurdle confirmed 2-block approach problem; fixed starts/Y, retained stair geometry, added four approach blocks.",
+    "worldqa-validated": "First successful install+39 eye-use run, retained.",
+    "naturalqa-final": "First successful10-course tick run; complete13-course run adds down/return/service legs.",
+    "reproduction": "First verify-access postprocess attempt lacked copied design.json; fixed setup and rebuilt only15/16 byte-identically.",
+    "qa_documentation": "Early15/16 QA computed PASS then missing references.json interrupted documentation; copied reference list and reran successfully."
+  },
+  "scope": [
+    "仅Java1.20.1/Forge47.4.10原版方块行为、overworld、零旋转无镜像。",
+    "眼位从起点可达半格集合选取并检查实时体型；每项重设到该站位，真实世界OUTLINE首命中后调用ServerPlayerGameMode.useItemOn，不是客户端网络包或人工输入。",
+    "自然运动每个实际世界刻最多一次Player.aiStep，设置横向/跳跃输入，保留原生速度、重力和跳跃冷却；不手工注入-0.08，不在课程内传送。课程之间重置站位；不声明完整生存客户端连续遍历。",
+    "v4/v5独立已关闭项保留有效，特别是局部视觉厚度和v4独立配方复现；不冒称新v6独立通过。"
+  ],
+  "pending": [
+    "新v6的12块接近设施、新合并/15片、39项眼位交互、13项自然运动刻及安装数据包的独立复核。",
+    "正式安装仍未执行，需世界维护者明确预留固定区域并批准部署；本次仅提供离线包与隔离世界执行证据。"
+  ]
+}

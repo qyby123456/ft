@@ -1,0 +1,2269 @@
+{
+  "status": "EIGHT_GROUPS_SECOND_ROUND_ACCEPTED",
+  "accepted": true,
+  "completed_at": "2026-11-09T09:57:01.759570",
+  "objective": "8个线程地牢生成完成后验收",
+  "scope": "Second-round S1-S8 rooms11-20:80 functional rooms,8 connected builds, recipes/previews/native QA/full parts/barriers and explicitly scoped world/access/interaction/natural-motion followups under original WORK_ORDER; previous01-10 builds remain read-only",
+  "accepted_group_count": 8,
+  "accepted_room_count": 80,
+  "unresolved_required_items": [],
+  "groups": [
+    {
+      "group": "S1",
+      "accepted": true,
+      "source_sha256": "b960960f6cec50c986c7360821408573c0cac7f0c36828073ddeb4d8b9f38553",
+      "merged_source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\merged\\s1-mossy-functional-11-20.nbt",
+      "acceptance": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\ACCEPTANCE.json",
+      "acceptance_sha256": "61dcbc71d9d45188b069c90f693b8eb646ef714da2383e4910b1d7cb4206dfe0",
+      "requirements": [
+        {
+          "requirement": "Ten distinct reference rooms, complete NBT, reproducible recipes and actual previews including room20 secret vault",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\STATIC-REVIEW.md",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\reproduction.json"
+          ]
+        },
+        {
+          "requirement": "Native registry/properties, support, player-size routes, empty inventories and finite liquid/fire observation",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\independent-native-frozen.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\independent-all-support.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\world-classification.json"
+          ]
+        },
+        {
+          "requirement": "Connected merge preserving source payloads, aligned clear ports, glass/seam treatment and external barrier enclosure",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\payload-entities-parts.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\corridor-scenery.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-corridor-qa\\independent-routes.json"
+          ]
+        },
+        {
+          "requirement": "At most48 per-axis parts exactly reconstruct payloads and entities",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\payload-entities-parts.json"
+          ]
+        },
+        {
+          "requirement": "All functional containers and buttons have connected usable stands, actual eye ray first-hit and block.use",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\independent-interaction-world\\interaction-report.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\independent-posttick-interaction-qa\\independent-routes.json"
+          ]
+        },
+        {
+          "requirement": "Installable current-hash access with full clearance, automatic hooks, ordinary entry/return and natural ladder/stair motion",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\independent-natural-world\\independent-result.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\access-package\\installation-plan.json"
+          ]
+        }
+      ],
+      "evidence_files": [
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\STATIC-REVIEW.md",
+          "sha256": "57a42927b031e4d346775444bef1990a915b6a51e09a38b8ddfd53b1f1dfdf7c"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\reproduction.json",
+          "sha256": "aa092b1fec2859adfcd58186f0e0dd42217fb47925a970c7eca8d336156b8a3b"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\independent-native-frozen.json",
+          "sha256": "71809ac87032df9071d3ad7e6dbd1a303a81794b966507f16bccb60a35ab0280"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\independent-all-support.json",
+          "sha256": "ed581d4cc24a6c9bd4d9d511e2561460f8865f67b65ee4aeda43e327eb135e2d"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\world-classification.json",
+          "sha256": "9e627f56b49ba1360039923e3afdfcb53631e78ebf50497ad6c6c72b340f2b78"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\payload-entities-parts.json",
+          "sha256": "40bd8b54aeb967264306770aefa572aa6730583a008d4ded219497726461f3e0"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\corridor-scenery.json",
+          "sha256": "228a93839aee01cda0c9cffea279a6f283b628a01176d6f338d22344668fd490"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-corridor-qa\\independent-routes.json",
+          "sha256": "2b8def25157c548b031560503ea3fd66d27b6076dbf1df4d3b4bad4ef25aaae9"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\payload-entities-parts.json",
+          "sha256": "40bd8b54aeb967264306770aefa572aa6730583a008d4ded219497726461f3e0"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\independent-interaction-world\\interaction-report.json",
+          "sha256": "2d44100984145380aeb1408963fd85ea9afdea0d23241c4515c8d41e691e01ea"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\independent-posttick-interaction-qa\\independent-routes.json",
+          "sha256": "9e98222ec21e2dfa58b7b9498fa6d27b1c06ef950a6693674fb0cdf65abafbe4"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\independent-natural-world\\independent-result.json",
+          "sha256": "11f33f585ea85e5163ccfd7e0245bfeffd69c2d3dd514b80f73147cd117eff39"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\access-package\\installation-plan.json",
+          "sha256": "3641c153dc755505e35853e2206353b6d75e26876f5434406c693464016a1341"
+        }
+      ],
+      "limits": [
+        "Server-side native acceptance; human network client GUI and human playthrough not certified",
+        "No combat/spawn/elite/Boss pack required by this round; handled separately after review",
+        "Unrotated fixed overworld location with reserved empty clearance box; other rotations/multiple instances not certified",
+        "Natural motion probe covers library ladder and watch stair roundtrip; remaining targets verified by collision connectivity and actual native ray/use",
+        "Finite1200tick observation does not certify indefinite growth, all random ticks, damage or drowning",
+        "Raw source fence connections normalize in actual world; two source-shape stands fail but all76 post-world stands pass; exact differences retained"
+      ]
+    },
+    {
+      "group": "S2",
+      "accepted": true,
+      "source_sha256": "33ceb33f633cfa6e797cc184cd3c5ff34ce9f0901e9b909da161782ec5cc0e6c",
+      "merged_source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\assembly\\s2-desert-functional-combined.nbt",
+      "acceptance": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\ACCEPTANCE.json",
+      "acceptance_sha256": "987ad9eb1d51e215ffcf1b04a781a35935102130c722a3121f24827dc91c2611",
+      "requirements": [
+        {
+          "requirement": "Ten reference rooms11-20, complete NBT, real previews and reproducible recipes",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-051940-148877\\STATIC-REVIEW.md",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-qa\\static-followup.json"
+          ]
+        },
+        {
+          "requirement": "Native state/support, body connectivity, empty containers and observed world stability",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-qa\\independent-all-support.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-natural-world\\assembly-runtime.json"
+          ]
+        },
+        {
+          "requirement": "Source-preserving merge,15 <=48-axis parts, full reconstruction and barrier enclosure",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-qa\\native-rotation-payload-parts-barrier.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-corridor-qa\\independent-routes.json"
+          ]
+        },
+        {
+          "requirement": "All functional containers/doors reachable and usable with actual eye rays, including hanging barrel native jump",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-supplement-20261107-080712-561936\\REVIEW.md",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-supplement-20261107-080712-561936\\independent-qa\\interaction-inspection.json"
+          ]
+        },
+        {
+          "requirement": "Whole-map natural movement and return, necessary ladder use and current-hash ordinary external access",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-natural-world\\assembly-runtime.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\runtime-qa-r4\\ladder-physics.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-access-20261107-092940-861925\\ACCESS-REVIEW.md"
+          ]
+        }
+      ],
+      "evidence_files": [
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-051940-148877\\STATIC-REVIEW.md",
+          "sha256": "57683d042f6d548668aeb4d0c8a710d400f65e21d5d97c14f9686cc5cda4f041"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-qa\\static-followup.json",
+          "sha256": "d2f2ee2a5fe653dbf792665f32815eab9a4ffa61a0f2043676a6a4cf696ed184"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-qa\\independent-all-support.json",
+          "sha256": "b4784932f4a5b156e39b60f80e53f2e717d32d5ce16bd91aed6000954309d8cd"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-natural-world\\assembly-runtime.json",
+          "sha256": "851d0c89e934ce6774e2f4be52fa998b634c590d20310563a554c1c17a6f2a48"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-qa\\native-rotation-payload-parts-barrier.json",
+          "sha256": "dec3ffacf0cd10b1d70998e12c6734ee005f59349b0ce5029148c64b39cb3d01"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-corridor-qa\\independent-routes.json",
+          "sha256": "867620a9bcd4b3d19e45638867d709892eb8a93d3c1d03ffceef4121afc74ee8"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-supplement-20261107-080712-561936\\REVIEW.md",
+          "sha256": "21166182f2e8033e9bf8bfd9da9b1357ee645cbfc435d21771619ff83f36d29f"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-supplement-20261107-080712-561936\\independent-qa\\interaction-inspection.json",
+          "sha256": "a6f0191bc1ee12dc0dbe8a5397829d2d80833ed0d396e9ef573fa5f8e7071005"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\independent-natural-world\\assembly-runtime.json",
+          "sha256": "851d0c89e934ce6774e2f4be52fa998b634c590d20310563a554c1c17a6f2a48"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\runtime-qa-r4\\ladder-physics.json",
+          "sha256": "c2665a53ff5df59086f3c370a9c7c02b1d7c946c76a0b40f4c90e89c2a4ab4ab"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-access-20261107-092940-861925\\ACCESS-REVIEW.md",
+          "sha256": "7edf0d4e84051c68595fd7f92c064050a3394bc6fc1fc1bc3b769df971d5e577"
+        }
+      ],
+      "limits": [
+        "Vanilla1.20.1 unrotated fixed overworld placement in pre-reserved empty area; no production install or combat pack",
+        "Server FakePlayer/ServerPlayer proof, not human client GUI or damage/survival playthrough",
+        "Ladder top landing and one hanging barrel native jump are scoped observed evidence; full ladder descent/jump arc not certified",
+        "Finite ticks with forced chunks do not certify all random ticks or indefinite lighting/growth",
+        "Configured public trigger entry and fixed return point, not a team or paid-access system"
+      ]
+    },
+    {
+      "group": "S3",
+      "accepted": true,
+      "source_sha256": "f99d5a2a04a510b8bc46bbe7a0e8b75bc4cea94ee1886aa37f14fdf3eaede1d1",
+      "merged_source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S3-access-revision-20261107-1103\\reproduction\\s3-merged\\s3-merged.nbt",
+      "acceptance": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S3-access-revision-20261107-1103\\ACCEPTANCE.json",
+      "acceptance_sha256": "2ea04a8a07b5bbd4549846a488eb64f6a131bd584a69282392619b3dc4af983b",
+      "requirements": {
+        "visual": "Prior actual ten-room comparison inspection and19/20depth views retained; only3air-to-slab access additions, currentbucket close-up inspected",
+        "source_and_parts": "All ten original nonair/BE/goals retained;25parts full-volume exact reconstruction",
+        "reproduction": "Prior ten-room recipe rebuild inherited for unchanged9; current16,merged and25parts independently rebuilt exact",
+        "native_routes_support": "Prior all11 plus current16/merged native/support/routes pass",
+        "runtime_safety": "Prior parent11world1200tick and360tickladder unchanged9; current full install snapshot classified and27811naturaltravel",
+        "functional_interactions": "44 naturally reached targets,50 actual eye rays/use; original3locks rejectwrong/empty andopencorrectkey",
+        "external_install_access": "Actual packaged clear/install full1572165 plus named-player enter/end-restricted exit;117690barrier preserved",
+        "scope_documented": "Frozen README,QA limitations and reproduction flags retained"
+      },
+      "evidence_files": [],
+      "limits": [
+        "Unrotated finite isolated Forge tests; no production-pack deployment or real TCP client certification",
+        "Prior1200tick evidence binds old hash; inheritance uses exactonly3newslabs and unchanged source payload, current install/travel independently tested",
+        "Optional six-lever overlay inherited only for old hash; current source iron doors intentionally constant-open, no claim new overlay retest",
+        "Well and water channels are frozen blue ice, bucket static; no water collection mechanic",
+        "Combat/spawners/elites/boss/rewards outside current room scope"
+      ]
+    },
+    {
+      "group": "S4",
+      "accepted": true,
+      "source_sha256": "b01fdaf300987e299d141f1963530ad2b1861be8fe4c17631cdc879f7c7415d8",
+      "merged_source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\qa\\reproduced-assembly-r2\\s4-wetland-connected.nbt",
+      "acceptance": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\ACCEPTANCE.json",
+      "acceptance_sha256": "929a4b67f72703e19492dac5585509733934c8f86fdfc124bbf0280000a1778b",
+      "requirements": [
+        {
+          "requirement": "Ten original functional reference rooms, real preview and original recipes",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\REVIEW.md",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-qa\\reproduction.json"
+          ]
+        },
+        {
+          "requirement": "Native state, support, original and post-world routes, source-preserving merge/18 parts/union barrier",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-qa\\payload-entities-parts.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-qa\\independent-all-support.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-posttick-qa\\independent-routes.json"
+          ]
+        },
+        {
+          "requirement": "Current-source world stability and actual functional ray/use evidence",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\REVIEW.md",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-qa\\world-r2-classification.json"
+          ]
+        },
+        {
+          "requirement": "Installable controlled external access with actual isolated validation and reserved-space instructions",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\access\\INSTALL.md",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\independent-access-gravity\\access-gravity-report.json"
+          ]
+        },
+        {
+          "requirement": "Normal gravity Player.travel for necessary room11/19 raised routes and return",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\independent-access-gravity\\access-gravity-report.json"
+          ]
+        }
+      ],
+      "evidence_files": [
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\REVIEW.md",
+          "sha256": "f8759d6534868abad6280bcde7378ead862efcd74326164031f4b5c5a9c99848"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-qa\\reproduction.json",
+          "sha256": "c633ac39c56eb2bb94f851f6e1faca154c77d703f25a584e62ac676677b01654"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-qa\\payload-entities-parts.json",
+          "sha256": "d1f11526cfe765129e49211bb121f2dee679990dc2ed752e1d3ab702c879361c"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-qa\\independent-all-support.json",
+          "sha256": "154348f87059e106d8dc001054854a7054231d12b4e6b8d2039f27be9fe491a2"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-posttick-qa\\independent-routes.json",
+          "sha256": "859a1052e3c253a927fc2b74b8db9582f0cbbb926be3e405585be32b33894832"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\REVIEW.md",
+          "sha256": "f8759d6534868abad6280bcde7378ead862efcd74326164031f4b5c5a9c99848"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\independent-qa\\world-r2-classification.json",
+          "sha256": "132665b115cfaaa565831c73800084c6bef07aff09ff0c73ec6672db2b956e6d"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\access\\INSTALL.md",
+          "sha256": "595089668f78df0797f03711cb2963778b42d84c561f8bf98363662de118d6cd"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\independent-access-gravity\\access-gravity-report.json",
+          "sha256": "fd9e0ccc7ce4269a6056fae4a0504f994297d8d1cf8ce1139fc851574bad0ebf"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\independent-access-gravity\\access-gravity-report.json",
+          "sha256": "fd9e0ccc7ce4269a6056fae4a0504f994297d8d1cf8ce1139fc851574bad0ebf"
+        }
+      ],
+      "limits": [
+        "No formal deployment; single unrotated overworld instance in reserved empty volume, structure installed before access pack",
+        "Previous 800-tick world and ray/use run were independently inspected producer evidence; new access and gravity tests actually parent-rerun",
+        "Planar target walks use collision Entity.move; new natural gravity proof covers required raised library/outlook routes, not human whole-map keyboard play",
+        "Engine maxUpStep1.0 left unchanged; actual observed rises at most0.5",
+        "8 finite-tick vine growths and vanilla state/BE normalizations retained; no indefinite plant-growth, random-tick, client GUI, combat or rewards guarantee"
+      ]
+    },
+    {
+      "group": "S5",
+      "accepted": true,
+      "source_sha256": "e0c71315c81727e81cd15011eda9a0f5da8624387c59b8b9764c42d8d740397e",
+      "merged_source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\qa\\reproduction-storage-fix\\merged\\merged.nbt",
+      "acceptance": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\ACCEPTANCE.json",
+      "acceptance_sha256": "21e6c88a0d23ad0a1b4209588c98d96ad15d6c82f7e8ba927b080f44f5f998cc",
+      "requirements": [
+        {
+          "requirement": "Ten functional reference rooms, real previews and original recipes",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\STORAGE-FIX-REVIEW.md",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-065459-179761\\independent-qa\\reproduction-report.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-qa\\storage-reproduction.json"
+          ]
+        },
+        {
+          "requirement": "Native support/routes, preserved source payload, 10 parts and full barrier shell",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-qa\\native-rotation-payload-parts-barrier.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-qa\\independent-all-support.json"
+          ]
+        },
+        {
+          "requirement": "All37 storage/lever functional targets with real eye ray/use and reachable stands",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-interaction-qa\\storage-fix-inspection.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-interaction-qa\\independent-routes.json"
+          ]
+        },
+        {
+          "requirement": "Current-hash finite world stability and reserved-space installable external access",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\STORAGE-FIX-REVIEW.md",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-080041-052971\\INTERACTION-ACCESS-REVIEW.md"
+          ]
+        },
+        {
+          "requirement": "Continuous native whole-map return, necessary stairs, original ladder and shallow water",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\independent-natural-movement\\qa\\natural-movement\\motion-results.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\independent-natural-detours\\qa\\natural-detours\\motion-results.json"
+          ]
+        }
+      ],
+      "evidence_files": [
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\STORAGE-FIX-REVIEW.md",
+          "sha256": "abeebd09b54e549853d9e78cf821cf663bebe15a93bdfbfed0f6cc7dd7bbc4e3"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-065459-179761\\independent-qa\\reproduction-report.json",
+          "sha256": "0020ec3c04c6055233356bb3bd276fa2845da488299a8ddcfbbc080731d315db"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-qa\\storage-reproduction.json",
+          "sha256": "e114b562efa9f1ad21c1ee72d978d0f85d56895e212c08bff522230271ebd725"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-qa\\native-rotation-payload-parts-barrier.json",
+          "sha256": "1a19d548ff5c0bfad4eb38734f21df0b55bc6863428c3f49aca9867887791d49"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-qa\\independent-all-support.json",
+          "sha256": "7159bd46007556264b0de28187b918bdbc0330229115a0f344d45e5a638c5022"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-interaction-qa\\storage-fix-inspection.json",
+          "sha256": "0cf49a1287e3a3182dc15b7fbe4c7bec03105c92da4f240131aa4014ea820bf8"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-interaction-qa\\independent-routes.json",
+          "sha256": "4ce7ac15fd699d2bd16ca28f0b8356cad57cee16709b0f0537ec8581df0ae514"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\STORAGE-FIX-REVIEW.md",
+          "sha256": "abeebd09b54e549853d9e78cf821cf663bebe15a93bdfbfed0f6cc7dd7bbc4e3"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-080041-052971\\INTERACTION-ACCESS-REVIEW.md",
+          "sha256": "bfbd2fffccd94f5023d182f91afe8aabfe148ba175263607f83d7806b3a8bb9a"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\independent-natural-movement\\qa\\natural-movement\\motion-results.json",
+          "sha256": "fd39eec457195851dd3fe62e78d9d400a8cf2dd8fbfef49e24c911cd62048fdf"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\independent-natural-detours\\qa\\natural-detours\\motion-results.json",
+          "sha256": "3a939dec93c7f6f320f912d056e916ecc8454449f532d20d538405bd81954619"
+        }
+      ],
+      "limits": [
+        "No production deployment, connected client GUI, combat, rewards, oxygen survival or indefinite plant-growth guarantee",
+        "Natural physics tests are actual parent-run server callbacks; source subclass opts into local player physics, not a socket-connected client",
+        "37 eye-ray/use and1200-tick snapshots were independently inspected producer evidence, not falsely claimed as parent world reruns",
+        "Fixed unrotated reserved overworld site with separate access lobby; administrator first brings players to lobby",
+        "Legacy sealed terminal target and expected three-wide training throat remain explicitly recorded"
+      ]
+    },
+    {
+      "group": "S6",
+      "accepted": true,
+      "source_sha256": "5b72d94c89871ebe9c262f92d6c00275ee0c8cfbf32343be96c9cd8e538f1336",
+      "merged_source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\assembly\\qa\\reproduced\\s6-volcanic-connected.nbt",
+      "acceptance": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\ACCEPTANCE.json",
+      "acceptance_sha256": "83e3599d4267b16d3658f5ea8ada9141cea8e2f8546dfe7f99dd8a8f9750061b",
+      "requirements": [
+        {
+          "requirement": "Ten distinct reference rooms, real previews and reproducible recipes",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\REVIEW-IN-PROGRESS.md",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\independent-room-reproduction.json"
+          ]
+        },
+        {
+          "requirement": "Native registry/support, original and post-world body routes, current world stability",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\independent-native-frozen.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\independent-all-support.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\runtime-capture-inspection.json"
+          ]
+        },
+        {
+          "requirement": "Source preserving merge, full corridor clearance,20 parts and union barrier",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\payload-entities-parts.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\assembly-reproduction.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\ACCEPTANCE.json"
+          ]
+        },
+        {
+          "requirement": "Actual installed external entry/return, natural hooks/reload and cross-process restart",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-085416-373660\\HOOKS-REVIEW.md",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-085416-373660\\independent-hooks-world-offline\\independent-result.json"
+          ]
+        },
+        {
+          "requirement": "Continuous actual natural travel, all58 targets, original ladder and all36 eye-ray/use targets",
+          "result": "PASS",
+          "evidence": [
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\WALK-REVIEW.md",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\independent-walk-inspection.json",
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\s6-independent-walk-20261107-1015\\assembly\\access\\walk-interaction-result.json"
+          ]
+        }
+      ],
+      "evidence_files": [
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\REVIEW-IN-PROGRESS.md",
+          "sha256": "7f05332e00f90bcfdf308e576d06b088a9b19c1b1a61bf37d542b0265f4288ad"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\independent-room-reproduction.json",
+          "sha256": "0b0913d47eddace6a116f97c78bd6ed54ec1b7c61691e385a77b17ede2d45872"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\independent-native-frozen.json",
+          "sha256": "73167ec929aa698e6f4474a58684feab820a01deff7aebb6247a102d3de2c22e"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\independent-all-support.json",
+          "sha256": "134993813ad3f0ba3d95fd328080dbe60a4b3ba5eb2ff9d16010eccaf5d7799b"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\runtime-capture-inspection.json",
+          "sha256": "d201a6f0eda6564783e726333e14f34dba28a9f6b7664555d6e96b957d643c86"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\payload-entities-parts.json",
+          "sha256": "67118543239c6a66c83e1798315ea50dda3d274437da3925c5aeea608d4621f2"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\independent-qa\\assembly-reproduction.json",
+          "sha256": "c7a988d1ae44493dcb765da01c59195bef8b138a2ed10fecb6ea5345b939bab8"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\ACCEPTANCE.json",
+          "sha256": "83e3599d4267b16d3658f5ea8ada9141cea8e2f8546dfe7f99dd8a8f9750061b"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-085416-373660\\HOOKS-REVIEW.md",
+          "sha256": "02168921952a42b53cab4a2abfebfa2d89b3bba9aa6c7eb491de75178b058257"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-085416-373660\\independent-hooks-world-offline\\independent-result.json",
+          "sha256": "63aa2a8ea10917ea10054965cfafc9f61f1893cc609c31b49ec087944a0abeb2"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\WALK-REVIEW.md",
+          "sha256": "d36c53d18d9cce6c1babffa2ec9c5e3bc735ff596c58db3ba1ee57e88983075d"
+        },
+        {
+          "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\independent-walk-inspection.json",
+          "sha256": "042af2405e998b01670e39fecab80a8cde1eb0e4724c84b7e4d54efdc9b39396"
+        },
+        {
+          "path": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\s6-independent-walk-20261107-1015\\assembly\\access\\walk-interaction-result.json",
+          "sha256": "f1ebff62d283078c4ae0a489096dd80c87fb7aaa5765df509cfe127dc8d1b7e7"
+        }
+      ],
+      "limits": [
+        "Fixed overworld unrotated reserved site, no terrain adaptation/multi-instance claim",
+        "Server simulated players, not a connected client GUI, combat, rewards or survival playthrough",
+        "Every20-tick movement trace plus actual operation stops; horizontal job braking preserves vertical velocity",
+        "Ladder returns to original library floor, not an exact initial-entry coordinate loop",
+        "World evidence is finite400-tick per fixture plus8466-tick merged movement; no indefinite growth/random tick coverage"
+      ]
+    },
+    {
+      "group": "S7",
+      "accepted": true,
+      "source_sha256": "906e63eea067ab01c4f0df2619102dd17a446b7c6858c732f4f03a6f3582de22",
+      "merged_source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-102850-176442\\assembly\\s7-fungal-functions-connected.nbt",
+      "acceptance": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-102850-176442\\ACCEPTANCE.json",
+      "acceptance_sha256": "0664171a6eb59fdad9bc9f479a6d6e5b5ea0c3ef82bb7e4f4646993871dd8466",
+      "requirements": {
+        "ten_distinct_reference_rooms_and_real_lodestone_views": "Prior actual visual review retained; exact12air-only local access changes and current15/16 images inspected",
+        "complete_payload_recipe_reproduction": "26 exact NBT; ten source payloads and3 entities preserved; ≤48 parts",
+        "registry_support_clearance_routes": "Actual vanilla audits and current pre/post1220 plus direct3x4corridor scan",
+        "world_safety": "Eleven exact1200tick producer captures independently classified; zero type loss, only native face/door/default properties and empty furnace RecipesUsed",
+        "functional_access_and_required_natural_movement": "Parent39actual eyes/use,12door controls,13natural courses",
+        "install_entry_return_barriers": "Parent full1969040clear/place check plus exactZIP natural hooks permission0 delayed enter/return,remote rejection",
+        "delivery_documentation": "Frozen installation README and package; requirements limits recorded"
+      },
+      "evidence_files": [],
+      "limits": [
+        "Unrotated finite Forge1.20.1 isolated server tests; no full production pack or live client/network certification",
+        "Natural movement courses reset between courses; eyes reposition to reachable standing points, not continuous whole-map client play",
+        "Whole1969040placement volume must be cleared even though sparse part envelopes total1324800",
+        "No combat/spawner/boss/reward or production deployment acceptance"
+      ]
+    },
+    {
+      "group": "S8",
+      "accepted": true,
+      "source_sha256": "763608faa6bc65fc85f8483912b7df6aafbbf84ee207a97ec2db0e3795c9775d",
+      "merged_source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\assembly\\s8-functional-vault-shell.nbt",
+      "acceptance": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\ACCEPTANCE.json",
+      "acceptance_sha256": "6397578d22a53d33f601f3bf34046cc8b4832692b17cbb2a1bde9c9f27900c9c",
+      "requirements": [
+        {
+          "requirement": "十个功能房间11至20，20为密道藏宝，原非空气/实体/功能保留",
+          "status": "PASS_WITH_EXPLICIT_CURRENT_DELTA_AND_PRIOR_SCOPE",
+          "evidence": [
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-interaction-revision-20261107-1355\\independent-changes-inspection.json",
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-submission-20261107-104351-507543\\independent-assembly-parts.json"
+          ],
+          "current_delta_evidence": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\independent-delta-parts-dependencies.json"
+        },
+        {
+          "requirement": "十房配方、当前合并及全部分片可重现",
+          "status": "PASS_WITH_EXPLICIT_CURRENT_DELTA_AND_PRIOR_SCOPE",
+          "evidence": [
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-submission-20261107-104351-507543\\independent-reproduction.json",
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-interaction-revision-20261107-1355\\independent-current-reproduction.json"
+          ],
+          "current_delta_evidence": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\independent-delta-parts-dependencies.json"
+        },
+        {
+          "requirement": "原生注册、属性、模板往返、支撑和指定路线",
+          "status": "PASS_WITH_EXPLICIT_CURRENT_DELTA_AND_PRIOR_SCOPE",
+          "evidence": [
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-submission-20261107-104351-507543\\independent-qa",
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-interaction-revision-20261107-1355\\independent-current-qa"
+          ],
+          "scope": "旧全11文件240460支撑/96目标；新13/16及合并184546支撑/66目标，8房字节不变",
+          "current_delta_evidence": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\independent-delta-parts-dependencies.json"
+        },
+        {
+          "requirement": "20个声明接口全宽净空及旧11梯口转换",
+          "status": "PASS_WITH_EXPLICIT_CURRENT_DELTA_AND_PRIOR_SCOPE",
+          "evidence": [
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-submission-20261107-104351-507543\\independent-geometry",
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\s8-independent-runtime-r4-20261107-1345\\ladder-physics.json"
+          ],
+          "scope": "19个3x4及15东口1个5x5，共47原生样本；29新增方块不与原接口矩形相交；11源字节不变，实际280步上下梯",
+          "current_delta_evidence": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\independent-delta-parts-dependencies.json"
+        },
+        {
+          "requirement": "十房合并连通、全图返回、液体及邻居更新安全",
+          "status": "PASS_WITH_EXPLICIT_CURRENT_DELTA_AND_PRIOR_SCOPE",
+          "evidence": [
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-submission-20261107-104351-507543\\independent-world-inspection.json",
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-interaction-revision-20261107-1355\\independent-interaction-inspection.json",
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-followup-20261107-1600\\independent-followup-inspection.json"
+          ],
+          "scope": "旧4d 600自然等待+4413点遍历返回；新6988路线射线及四必要局部往返，不冒称新SHA全图连续自然走",
+          "current_delta_evidence": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\independent-delta-parts-dependencies.json"
+        },
+        {
+          "requirement": "所有功能对象实际眼位首命中/use、门控及容器",
+          "status": "PASS_WITH_EXPLICIT_CURRENT_DELTA_AND_PRIOR_SCOPE",
+          "evidence": [
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-interaction-revision-20261107-1355\\independent-interaction-inspection.json"
+          ],
+          "scope": "105对象168眼位射线、38菜单、6门打开复位；每次use前按已核入口路线重设站位，非全程自然步行",
+          "current_delta_evidence": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\independent-delta-parts-dependencies.json"
+        },
+        {
+          "requirement": "新增厨房梯/平台/灶阶、水井桥/台阶实际自然上下往返",
+          "status": "PASS_WITH_EXPLICIT_CURRENT_DELTA_AND_PRIOR_SCOPE",
+          "evidence": [
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-followup-20261107-1600\\independent-followup-inspection.json"
+          ],
+          "scope": "4课程1082次travel；29格逐项映射，包括背板和叠层支撑，不冒称背板直接行走",
+          "current_delta_evidence": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\independent-delta-parts-dependencies.json"
+        },
+        {
+          "requirement": "完整<=48分片、门缝处理、外围屏障不截断内部连接",
+          "status": "PASS_WITH_EXPLICIT_CURRENT_DELTA_AND_PRIOR_SCOPE",
+          "evidence": [
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-interaction-revision-20261107-1355\\independent-parts-targets.json",
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-interaction-revision-20261107-1355\\independent-current-qa\\independent-routes.json"
+          ],
+          "scope": "20片全体积1009200无重叠无缺口，199790记录与56实体精确反拼，90282外围屏障",
+          "current_delta_evidence": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\independent-delta-parts-dependencies.json"
+        },
+        {
+          "requirement": "全包真实清空/放置、外部进出及落点安全",
+          "status": "PASS_WITH_EXPLICIT_CURRENT_DELTA_AND_PRIOR_SCOPE",
+          "evidence": [
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-followup-20261107-1600\\independent-followup-inspection.json"
+          ],
+          "scope": "新ZIP全体积实心污染后清空安装；具名管理员及非OP访客管理员托管进出，非权限0自动触发系统",
+          "current_delta_evidence": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\independent-delta-parts-dependencies.json"
+        },
+        {
+          "requirement": "服务器关闭后实际存档持久化回读",
+          "status": "PASS_WITH_EXPLICIT_CURRENT_DELTA_AND_PRIOR_SCOPE",
+          "evidence": [
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\s8-independent-saved-readback-20261107-1600\\saved-readback.json"
+          ],
+          "scope": "150区块1009200格，56实体；57合法相邻形状和12床旧color规范化单列",
+          "current_delta_evidence": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\independent-delta-parts-dependencies.json"
+        },
+        {
+          "requirement": "逐图视觉对照、19晶洞纵深、20阶梯岩壳、新13/16设施",
+          "status": "PASS",
+          "evidence": [
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\independent-visual-review.json",
+            "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S8-ACTUAL-VISUAL-REVIEW-20261108.json"
+          ],
+          "scope": "Actual source-bound observations; current20 local correction and byte-identical13/16/19 covered"
+        },
+        {
+          "requirement": "README、哈希、复现及限制完整且不修改正式实例",
+          "status": "PASS_WITH_EXPLICIT_CURRENT_DELTA_AND_PRIOR_SCOPE",
+          "evidence": [
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-interaction-revision-20261107-1355\\access-revision-r4\\README.md",
+            "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-followup-20261107-1600\\access-followup-r1\\README.md"
+          ],
+          "scope": "仍为隔离建筑验收；刷怪/精英/Boss/奖励及现场生成器归另一线程，不声称本轮已完成玩法或正式部署",
+          "current_delta_evidence": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\independent-delta-parts-dependencies.json"
+        }
+      ],
+      "limits": [
+        "Building acceptance only under second-round WORK_ORDER; combat/spawn/elite/Boss and generator owned by separate thread",
+        "Named admin and admin-hosted nonOP guest native enter/return; no autonomous permission0 hook or network client UI certification",
+        "Current7636 full installation and saved readback independently rerun; previous105 interactions/168 eye rays and1082 natural course updates inherited only after actual parent-trace coordinate/swept-body/target/fluid dependencies proved disjoint",
+        "Old4d 600-tick wait and4413-waypoint whole-map traversal retain old source scope; no claim of current7636 whole-map continuous natural walkthrough",
+        "57 lawful neighbor shape changes and12 bed legacy color normalizations retained explicitly; upper roof illumination intentionally changed",
+        "Reference concept contains stylized forms; current voxel adaptation passes feature/proportion scope, not pixel identity; original reference archive retention is separately audited"
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": "S1-11",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\11-library\\s1-11-library.nbt",
+      "sha256": "b7adf67ca02fb7786f494f37f9f0f6af8583998c866feb35cb9fb9325b657cfb",
+      "size": [
+        31,
+        16,
+        27
+      ],
+      "records": 13392,
+      "reference": "0c2199853513319b33173a1b94cf14e9f531c6d33bd4c4316ea872f351ca246a",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\comparison-11-12.jpg",
+        "page_sha256": "24c6fabb87a6dad6dacaf7539ed9064b80a2db106c691ce1fcd0d281687d0b21",
+        "reference_sha256": "0c2199853513319b33173a1b94cf14e9f531c6d33bd4c4316ea872f351ca246a",
+        "comparison_candidate_sha256": "b7adf67ca02fb7786f494f37f9f0f6af8583998c866feb35cb9fb9325b657cfb",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S1-12",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\12-prison\\s1-12-prison.nbt",
+      "sha256": "581ab449f1296d479b6cbc17654700af2354d02f6cce092e41d260e96f4df571",
+      "size": [
+        29,
+        16,
+        35
+      ],
+      "records": 16240,
+      "reference": "ac0306c52f2904569681082556d8940c21c175b29ecbebc8ea86cc399f5b69b0",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\comparison-11-12.jpg",
+        "page_sha256": "24c6fabb87a6dad6dacaf7539ed9064b80a2db106c691ce1fcd0d281687d0b21",
+        "reference_sha256": "ac0306c52f2904569681082556d8940c21c175b29ecbebc8ea86cc399f5b69b0",
+        "comparison_candidate_sha256": "581ab449f1296d479b6cbc17654700af2354d02f6cce092e41d260e96f4df571",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S1-13",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\13-kitchen\\s1-13-kitchen.nbt",
+      "sha256": "75448b6f05549d7ed8cdef4b4e52f33bfebfdec15188c0de1b916202849c956f",
+      "size": [
+        33,
+        17,
+        29
+      ],
+      "records": 16269,
+      "reference": "e0e1d3695cd6e995d7cda9b39946b06ec37a3d4076e7e24fecdcd07f028bd3f3",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\comparison-13-14.jpg",
+        "page_sha256": "4210fd9c16d9a69fdcfca895c422465004b4827d777874ce3f8f486b1bcc7335",
+        "reference_sha256": "e0e1d3695cd6e995d7cda9b39946b06ec37a3d4076e7e24fecdcd07f028bd3f3",
+        "comparison_candidate_sha256": "75448b6f05549d7ed8cdef4b4e52f33bfebfdec15188c0de1b916202849c956f",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S1-14",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\14-armory\\s1-14-armory.nbt",
+      "sha256": "1817e38ff438785fc930518999440b44535747cf45a1bd92ff3d273bbbe4861e",
+      "size": [
+        29,
+        15,
+        27
+      ],
+      "records": 11745,
+      "reference": "23a4bfbfe51c1b0eeb824afef8aedf4978752233688096e6c7e47c2b9753e1a6",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\comparison-13-14.jpg",
+        "page_sha256": "4210fd9c16d9a69fdcfca895c422465004b4827d777874ce3f8f486b1bcc7335",
+        "reference_sha256": "23a4bfbfe51c1b0eeb824afef8aedf4978752233688096e6c7e47c2b9753e1a6",
+        "comparison_candidate_sha256": "1817e38ff438785fc930518999440b44535747cf45a1bd92ff3d273bbbe4861e",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S1-15",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\15-training\\s1-15-training.nbt",
+      "sha256": "de6760c4485588e01844bfb5242b969615a5e13786d98589b481e526d1819906",
+      "size": [
+        35,
+        18,
+        31
+      ],
+      "records": 19530,
+      "reference": "f9928c696abd3131e737c306a64cb03ab058c3c9dc73520e6f4f874569dff137",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\comparison-15-16.jpg",
+        "page_sha256": "aef95f1deb10ac3225bfa5310b250c8b3c62bc38431887f0ec592d9f67bc29d7",
+        "reference_sha256": "f9928c696abd3131e737c306a64cb03ab058c3c9dc73520e6f4f874569dff137",
+        "comparison_candidate_sha256": "de6760c4485588e01844bfb5242b969615a5e13786d98589b481e526d1819906",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S1-16",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\16-cistern\\s1-16-cistern.nbt",
+      "sha256": "c782bfdd28e513ac1b715482fba524d6607d7a18762f98610297185e4c97c846",
+      "size": [
+        29,
+        18,
+        29
+      ],
+      "records": 15138,
+      "reference": "036adf9bb6c9d37c5eb5169601c6aa2f4ce5e8d95b95cf743c0ae1007ac9b891",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\comparison-15-16.jpg",
+        "page_sha256": "aef95f1deb10ac3225bfa5310b250c8b3c62bc38431887f0ec592d9f67bc29d7",
+        "reference_sha256": "036adf9bb6c9d37c5eb5169601c6aa2f4ce5e8d95b95cf743c0ae1007ac9b891",
+        "comparison_candidate_sha256": "c782bfdd28e513ac1b715482fba524d6607d7a18762f98610297185e4c97c846",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S1-17",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\17-workshop\\s1-17-workshop.nbt",
+      "sha256": "054b6ac9e5b83eff07aa17ded9e29776abc1568db9ea44a4811af425c7f46859",
+      "size": [
+        27,
+        17,
+        25
+      ],
+      "records": 11475,
+      "reference": "34233db2a6afd411c3e7139f98eeefa6b78a60e78a4bf3e33e54c8f8386836bc",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\comparison-17-18.jpg",
+        "page_sha256": "2099885d42be35ef97c4dd4fecc0a4e7c0321ff3c336ca8006607ae3e3fec1c7",
+        "reference_sha256": "34233db2a6afd411c3e7139f98eeefa6b78a60e78a4bf3e33e54c8f8386836bc",
+        "comparison_candidate_sha256": "054b6ac9e5b83eff07aa17ded9e29776abc1568db9ea44a4811af425c7f46859",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S1-18",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\18-crypt\\s1-18-crypt.nbt",
+      "sha256": "3f05b38c1111807a9519fee37dfdc2e1db3b9365144dda0fe0c0eaccf5137071",
+      "size": [
+        31,
+        18,
+        31
+      ],
+      "records": 17298,
+      "reference": "bc97b50445ace6a7aeb2d11bb16321d24beae7bec6165e9d0e6dd856ba8673e6",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\comparison-17-18.jpg",
+        "page_sha256": "2099885d42be35ef97c4dd4fecc0a4e7c0321ff3c336ca8006607ae3e3fec1c7",
+        "reference_sha256": "bc97b50445ace6a7aeb2d11bb16321d24beae7bec6165e9d0e6dd856ba8673e6",
+        "comparison_candidate_sha256": "3f05b38c1111807a9519fee37dfdc2e1db3b9365144dda0fe0c0eaccf5137071",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S1-19",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\19-watch\\s1-19-watch.nbt",
+      "sha256": "316c6b442f48db289c0d6fd1d824ddbeb622caf37604070aaa240bb132ba7433",
+      "size": [
+        35,
+        24,
+        33
+      ],
+      "records": 27720,
+      "reference": "829c2ca66a88ec351c38d6aa6aa10c5c0451cb24afa378cd4e739e1c60905f0a",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\comparison-19-20.jpg",
+        "page_sha256": "ec88cabc03aaf64fb6be99e914f1ef9144ad56752f60d5718d96adf6eaa8b55b",
+        "reference_sha256": "829c2ca66a88ec351c38d6aa6aa10c5c0451cb24afa378cd4e739e1c60905f0a",
+        "comparison_candidate_sha256": "316c6b442f48db289c0d6fd1d824ddbeb622caf37604070aaa240bb132ba7433",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S1-20",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\20-vault\\s1-20-vault.nbt",
+      "sha256": "837b1771edb9fd2e5b0629e6e202ae2201681efd7d2d245a971312e4bd1e89b2",
+      "size": [
+        31,
+        16,
+        27
+      ],
+      "records": 13392,
+      "reference": "23ea2af4ed182c27b164106dee588bcc274c7b37b11618d79e066fa604bcef07",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\comparison-19-20.jpg",
+        "page_sha256": "ec88cabc03aaf64fb6be99e914f1ef9144ad56752f60d5718d96adf6eaa8b55b",
+        "reference_sha256": "23ea2af4ed182c27b164106dee588bcc274c7b37b11618d79e066fa604bcef07",
+        "comparison_candidate_sha256": "837b1771edb9fd2e5b0629e6e202ae2201681efd7d2d245a971312e4bd1e89b2",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S2-11",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\11-library\\s2-11-library.nbt",
+      "sha256": "b13b636feb8bcfe128792810131249fea66b656f5b7579fca5c11a199dc8bcf8",
+      "size": [
+        25,
+        13,
+        23
+      ],
+      "records": 7475,
+      "reference": "2796fe49f5ac0df97005af1dccf14d60be588028e46b72a389975574da62229c",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-051940-148877\\comparison-11-12.jpg",
+        "page_sha256": "06a257586067aa13f7eef63616ddf15774dd5f0fc8f8610c5b68f94cb1693b64",
+        "reference_sha256": "2796fe49f5ac0df97005af1dccf14d60be588028e46b72a389975574da62229c",
+        "comparison_candidate_sha256": "b13b636feb8bcfe128792810131249fea66b656f5b7579fca5c11a199dc8bcf8",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S2-12",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\12-prison-block\\s2-12-prison-block.nbt",
+      "sha256": "d019a35d85378e50deb3f2d188149a6d235ab1f63f78448e606deafb1f07201b",
+      "size": [
+        27,
+        12,
+        35
+      ],
+      "records": 11340,
+      "reference": "1981b1f4812d099ab864170813ffa68d884a589d25516a7d48ce9792b9b546b7",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-051940-148877\\comparison-11-12.jpg",
+        "page_sha256": "06a257586067aa13f7eef63616ddf15774dd5f0fc8f8610c5b68f94cb1693b64",
+        "reference_sha256": "1981b1f4812d099ab864170813ffa68d884a589d25516a7d48ce9792b9b546b7",
+        "comparison_candidate_sha256": "d019a35d85378e50deb3f2d188149a6d235ab1f63f78448e606deafb1f07201b",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S2-13",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\13-kitchen-mess\\s2-13-kitchen-mess.nbt",
+      "sha256": "de9a5b1f3bc12791bb23d4b2777bae9b5ba8c98ce9a35fc36f43932ece77b28e",
+      "size": [
+        29,
+        13,
+        25
+      ],
+      "records": 9425,
+      "reference": "4f28de066dc7803111b6cd58a12cf6011ebddd99af20de0ea85b75710aacfb74",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-051940-148877\\comparison-13-14.jpg",
+        "page_sha256": "59d13c394759acd9b1ff6c88e84c9283823e3d1f68df03a8c8fcc81b36347c1e",
+        "reference_sha256": "4f28de066dc7803111b6cd58a12cf6011ebddd99af20de0ea85b75710aacfb74",
+        "comparison_candidate_sha256": "de9a5b1f3bc12791bb23d4b2777bae9b5ba8c98ce9a35fc36f43932ece77b28e",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S2-14",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\14-armory\\s2-14-armory.nbt",
+      "sha256": "eae663b4bec551379ffe0ebf8ebf5ad390bc6b9b5c61948fab80120930e606bb",
+      "size": [
+        27,
+        12,
+        25
+      ],
+      "records": 8100,
+      "reference": "257987ef57720ad34748be0ce923c2a96b3960da2429b8c883b9c8ceae27568c",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-051940-148877\\comparison-13-14.jpg",
+        "page_sha256": "59d13c394759acd9b1ff6c88e84c9283823e3d1f68df03a8c8fcc81b36347c1e",
+        "reference_sha256": "257987ef57720ad34748be0ce923c2a96b3960da2429b8c883b9c8ceae27568c",
+        "comparison_candidate_sha256": "eae663b4bec551379ffe0ebf8ebf5ad390bc6b9b5c61948fab80120930e606bb",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S2-15",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\15-training-yard\\s2-15-training-yard.nbt",
+      "sha256": "e4b2aa3e4b08e56b40cc6683d300542073835df91ae80e030b8620e4146a5d91",
+      "size": [
+        31,
+        13,
+        27
+      ],
+      "records": 10881,
+      "reference": "46f02b30c2eae55d72c27d28734ff15fef4f3b6fb5c46d1b16469cea552453df",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-051940-148877\\comparison-15-16.jpg",
+        "page_sha256": "0237639e008ce810c94d86827783d93ab75fad96d21ccab773c85960593c0e70",
+        "reference_sha256": "46f02b30c2eae55d72c27d28734ff15fef4f3b6fb5c46d1b16469cea552453df",
+        "comparison_candidate_sha256": "e4b2aa3e4b08e56b40cc6683d300542073835df91ae80e030b8620e4146a5d91",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S2-16",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\16-well-cistern\\s2-16-well-cistern.nbt",
+      "sha256": "e77ebc2cdc35d93fa292eba9bc07a54b810100231962d5a1e89ec97811598106",
+      "size": [
+        25,
+        13,
+        25
+      ],
+      "records": 8125,
+      "reference": "aee5ab12093ac763ab4f8e50ba188f0de5018165a8410ca9fb4cd56ade41d7c9",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-051940-148877\\comparison-15-16.jpg",
+        "page_sha256": "0237639e008ce810c94d86827783d93ab75fad96d21ccab773c85960593c0e70",
+        "reference_sha256": "aee5ab12093ac763ab4f8e50ba188f0de5018165a8410ca9fb4cd56ade41d7c9",
+        "comparison_candidate_sha256": "e77ebc2cdc35d93fa292eba9bc07a54b810100231962d5a1e89ec97811598106",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S2-17",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\17-workshop\\s2-17-workshop.nbt",
+      "sha256": "7c2d9685f9af00cbe940eec346edb0e93344f6c38567255ed013a9a5179595af",
+      "size": [
+        25,
+        13,
+        25
+      ],
+      "records": 8125,
+      "reference": "546be7a65a61056269b59539513eefe521c63dfd597a0bc3b8580473b0506dc3",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-051940-148877\\comparison-17-18.jpg",
+        "page_sha256": "3342d9cbd5e4ce07d3598fcefd6ac5d779d307b15a1597225046f83f42e05d9a",
+        "reference_sha256": "546be7a65a61056269b59539513eefe521c63dfd597a0bc3b8580473b0506dc3",
+        "comparison_candidate_sha256": "7c2d9685f9af00cbe940eec346edb0e93344f6c38567255ed013a9a5179595af",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S2-18",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\18-crypt-ossuary\\s2-18-crypt-ossuary.nbt",
+      "sha256": "5e6c9532b1e2f3e1004b45581b7807a37912b8355535c5476da90d561d2900a3",
+      "size": [
+        27,
+        13,
+        27
+      ],
+      "records": 9477,
+      "reference": "2517fbd5473006e5a76ddf5cd3291f60dbebe9ee06a6869bd9f187b890deb0fc",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-051940-148877\\comparison-17-18.jpg",
+        "page_sha256": "3342d9cbd5e4ce07d3598fcefd6ac5d779d307b15a1597225046f83f42e05d9a",
+        "reference_sha256": "2517fbd5473006e5a76ddf5cd3291f60dbebe9ee06a6869bd9f187b890deb0fc",
+        "comparison_candidate_sha256": "5e6c9532b1e2f3e1004b45581b7807a37912b8355535c5476da90d561d2900a3",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S2-19",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\19-watch-balcony\\s2-19-watch-balcony.nbt",
+      "sha256": "92d7d1b056c24ae87ce4d91f56fc0b3a3225ccb73aa0e4e5a03e5f917b77f957",
+      "size": [
+        29,
+        20,
+        29
+      ],
+      "records": 16820,
+      "reference": "b34c4a4e97a51d9b23178b8fedd44c96ef17d1183a069528e0c76c287beada92",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-051940-148877\\comparison-19-20.jpg",
+        "page_sha256": "8e9d1f68d9cdc7f08b354c6da0cdc902c92e2ba19a12ec5555ae3bfadfeeb9b5",
+        "reference_sha256": "b34c4a4e97a51d9b23178b8fedd44c96ef17d1183a069528e0c76c287beada92",
+        "comparison_candidate_sha256": "92d7d1b056c24ae87ce4d91f56fc0b3a3225ccb73aa0e4e5a03e5f917b77f957",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S2-20",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-063435-165422\\20-secret-vault\\s2-20-secret-vault.nbt",
+      "sha256": "9e363db0ad0f5ff6a55de5f891ade2391db1cde55f3d0b4f38d9e0f16200d37f",
+      "size": [
+        25,
+        12,
+        21
+      ],
+      "records": 6300,
+      "reference": "75d04b4979a116478e35dd9e0bd62ce001f5980c506254400e96f59865b00b63",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S2-submission-20261107-051940-148877\\comparison-19-20.jpg",
+        "page_sha256": "8e9d1f68d9cdc7f08b354c6da0cdc902c92e2ba19a12ec5555ae3bfadfeeb9b5",
+        "reference_sha256": "75d04b4979a116478e35dd9e0bd62ce001f5980c506254400e96f59865b00b63",
+        "comparison_candidate_sha256": "9e363db0ad0f5ff6a55de5f891ade2391db1cde55f3d0b4f38d9e0f16200d37f",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S3-11",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S3-access-revision-20261107-1103\\rooms\\s3-11\\s3-11.nbt",
+      "sha256": "d0dfb6e6d2d1d95dec5ae3c20ad170efcadf0713c019d7defa0fa0334c54209f",
+      "size": [
+        31,
+        15,
+        27
+      ],
+      "records": 6853,
+      "reference": "8a3d8e00892f5a1ab54195eb9c9b0ea58fa4312b8190a8d38f2a94825e4309ec",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S3-submission-20261107-072954-274564\\comparison-11-12.jpg",
+        "page_sha256": "433c205d39cae59370c9e1b80b508350375d7d08dd1f0485ee2661c60807e030",
+        "reference_sha256": "8a3d8e00892f5a1ab54195eb9c9b0ea58fa4312b8190a8d38f2a94825e4309ec",
+        "comparison_candidate_sha256": "d0dfb6e6d2d1d95dec5ae3c20ad170efcadf0713c019d7defa0fa0334c54209f",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S3-12",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S3-access-revision-20261107-1103\\rooms\\s3-12\\s3-12.nbt",
+      "sha256": "bd00fb6e0d97e4a90f7ccd31e73c0b04d2721d51b045951a4ca72e74259e2b87",
+      "size": [
+        29,
+        13,
+        33
+      ],
+      "records": 6949,
+      "reference": "521f1ebe70309b84833e2a544bcec30f71f4b968107d3defd6d6dd1b1d77fb93",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S3-submission-20261107-072954-274564\\comparison-11-12.jpg",
+        "page_sha256": "433c205d39cae59370c9e1b80b508350375d7d08dd1f0485ee2661c60807e030",
+        "reference_sha256": "521f1ebe70309b84833e2a544bcec30f71f4b968107d3defd6d6dd1b1d77fb93",
+        "comparison_candidate_sha256": "bd00fb6e0d97e4a90f7ccd31e73c0b04d2721d51b045951a4ca72e74259e2b87",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S3-13",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S3-access-revision-20261107-1103\\rooms\\s3-13\\s3-13.nbt",
+      "sha256": "9f213852f7168f6e33f540fbd09626d1d6dda547eea4022d2f4542ac7b8e4296",
+      "size": [
+        35,
+        16,
+        31
+      ],
+      "records": 8528,
+      "reference": "4e7be95a8cf81f6a30af710cd6ed5ba7017334bac6e5db7fd420c032b96a3fa9",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S3-submission-20261107-072954-274564\\comparison-13-14.jpg",
+        "page_sha256": "e7ec67ebf63ce2abb61347e2b2855c524178b23e0942a08e19057faac0205542",
+        "reference_sha256": "4e7be95a8cf81f6a30af710cd6ed5ba7017334bac6e5db7fd420c032b96a3fa9",
+        "comparison_candidate_sha256": "9f213852f7168f6e33f540fbd09626d1d6dda547eea4022d2f4542ac7b8e4296",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S3-14",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S3-access-revision-20261107-1103\\rooms\\s3-14\\s3-14.nbt",
+      "sha256": "d478ad783e421dec78b28e157f081fe7767fa2541d57c84428bc7de301b9333d",
+      "size": [
+        27,
+        14,
+        25
+      ],
+      "records": 5137,
+      "reference": "8276c57e6c74c323040f058b0416f88ca94fa7211fd49b2b590150aa0b10ca93",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S3-submission-20261107-072954-274564\\comparison-13-14.jpg",
+        "page_sha256": "e7ec67ebf63ce2abb61347e2b2855c524178b23e0942a08e19057faac0205542",
+        "reference_sha256": "8276c57e6c74c323040f058b0416f88ca94fa7211fd49b2b590150aa0b10ca93",
+        "comparison_candidate_sha256": "d478ad783e421dec78b28e157f081fe7767fa2541d57c84428bc7de301b9333d",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S3-15",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S3-access-revision-20261107-1103\\rooms\\s3-15\\s3-15.nbt",
+      "sha256": "4b1c75d094d6aeb7af438eff295c4d25cd178fa6116fc3cb4d97ab3d9603b9cf",
+      "size": [
+        35,
+        14,
+        29
+      ],
+      "records": 6970,
+      "reference": "11feea522f1b45971abc780f6d8d23a5cc4fcab101e0034a533d8af79fe77e62",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S3-submission-20261107-072954-274564\\comparison-15-16.jpg",
+        "page_sha256": "ec9ea134076f4681f59ad94698a219b0b71f8b527070c18264387a3b029d9380",
+        "reference_sha256": "11feea522f1b45971abc780f6d8d23a5cc4fcab101e0034a533d8af79fe77e62",
+        "comparison_candidate_sha256": "4b1c75d094d6aeb7af438eff295c4d25cd178fa6116fc3cb4d97ab3d9603b9cf",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S3-16",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S3-access-revision-20261107-1103\\rooms\\s3-16\\s3-16.nbt",
+      "sha256": "b51428a00afd2bd3bdd5b753d7710d7e5716b4175c1b0051d7ce125c0defb0de",
+      "size": [
+        29,
+        16,
+        29
+      ],
+      "records": 6924,
+      "reference": "a446d27952e1719d930d72f89fb0493a2146890302d21eee271717025cd0bda6",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S3-submission-20261107-072954-274564\\comparison-15-16.jpg",
+        "page_sha256": "ec9ea134076f4681f59ad94698a219b0b71f8b527070c18264387a3b029d9380",
+        "reference_sha256": "a446d27952e1719d930d72f89fb0493a2146890302d21eee271717025cd0bda6",
+        "comparison_candidate_sha256": "8a8d44eb44471d62366347cf1d7344ef82ec7dcfd55ebcde64f76a084ab560df",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S3-17",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S3-access-revision-20261107-1103\\rooms\\s3-17\\s3-17.nbt",
+      "sha256": "6a977e3e2594c386fca79ac14089440bdd7864b46794011a8ac454c4264261cb",
+      "size": [
+        27,
+        13,
+        27
+      ],
+      "records": 5132,
+      "reference": "782d177118efbc61733836eb2bbfeba643d5a47ca3aec0245f1debf8fdab0fc0",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S3-submission-20261107-072954-274564\\comparison-17-18.jpg",
+        "page_sha256": "550bbf5e66adefc01f4a543caa0aecdca046a3d82b0bbbfce7c1e48111a02d85",
+        "reference_sha256": "782d177118efbc61733836eb2bbfeba643d5a47ca3aec0245f1debf8fdab0fc0",
+        "comparison_candidate_sha256": "6a977e3e2594c386fca79ac14089440bdd7864b46794011a8ac454c4264261cb",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S3-18",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S3-access-revision-20261107-1103\\rooms\\s3-18\\s3-18.nbt",
+      "sha256": "1d565935e81fafc79cc2713b95ffc9a3c32231d9595c180b6d01fc4446022cd5",
+      "size": [
+        31,
+        14,
+        29
+      ],
+      "records": 6771,
+      "reference": "23a28f234f7fba47c26990f50704bdd5fba8cbaaf939aabf7cd2ddea69fc2046",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S3-submission-20261107-072954-274564\\comparison-17-18.jpg",
+        "page_sha256": "550bbf5e66adefc01f4a543caa0aecdca046a3d82b0bbbfce7c1e48111a02d85",
+        "reference_sha256": "23a28f234f7fba47c26990f50704bdd5fba8cbaaf939aabf7cd2ddea69fc2046",
+        "comparison_candidate_sha256": "1d565935e81fafc79cc2713b95ffc9a3c32231d9595c180b6d01fc4446022cd5",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S3-19",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S3-access-revision-20261107-1103\\rooms\\s3-19\\s3-19.nbt",
+      "sha256": "d43a1b95db70a453283f15bf269b1909a16a7634695bba8617f219855ebcd408",
+      "size": [
+        35,
+        23,
+        61
+      ],
+      "records": 23633,
+      "reference": "691990d8748822055bec06a29ea54c84236fa16e0391a13a071f6257abf0115f",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S3-submission-20261107-072954-274564\\comparison-19-20.jpg",
+        "page_sha256": "c76f4638742257198fed8f209b9a1b5f3965a07c15e922727af46e6ce2c0e22c",
+        "reference_sha256": "691990d8748822055bec06a29ea54c84236fa16e0391a13a071f6257abf0115f",
+        "comparison_candidate_sha256": "d43a1b95db70a453283f15bf269b1909a16a7634695bba8617f219855ebcd408",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S3-20",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S3-access-revision-20261107-1103\\rooms\\s3-20\\s3-20.nbt",
+      "sha256": "beddf317e1c270da0aab9c542bbac446976ae2b4c3d1c93e1a40be713263f4f4",
+      "size": [
+        33,
+        14,
+        25
+      ],
+      "records": 6447,
+      "reference": "b07cadc396fef062d8e70138346b7d5612480746c3a51e5a1554865d6047e794",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S3-submission-20261107-072954-274564\\comparison-19-20.jpg",
+        "page_sha256": "c76f4638742257198fed8f209b9a1b5f3965a07c15e922727af46e6ce2c0e22c",
+        "reference_sha256": "b07cadc396fef062d8e70138346b7d5612480746c3a51e5a1554865d6047e794",
+        "comparison_candidate_sha256": "beddf317e1c270da0aab9c542bbac446976ae2b4c3d1c93e1a40be713263f4f4",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S4-11",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\qa\\reproduced\\11-library\\s4-11-library.nbt",
+      "sha256": "183831685ce512de318b93dde454b93edbee65f66db63f95d5ce83773ed5d28e",
+      "size": [
+        29,
+        15,
+        25
+      ],
+      "records": 5367,
+      "reference": "0fa7d07a4fe149e6ef1ab7478751bb350e2af6ab5bdeb101788e3016362a8798",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\comparison-11-12.jpg",
+        "page_sha256": "a071bbc6366de5e670890fd88400fd0e90f4ce2cb449cc7c81cd7333954aadfb",
+        "reference_sha256": "0fa7d07a4fe149e6ef1ab7478751bb350e2af6ab5bdeb101788e3016362a8798",
+        "comparison_candidate_sha256": "183831685ce512de318b93dde454b93edbee65f66db63f95d5ce83773ed5d28e",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S4-12",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\qa\\reproduced\\12-prison-block\\s4-12-prison-block.nbt",
+      "sha256": "d0ef7842d41eb3311f4ff62fb2473298b834e39e70be3690b4a618ef897f2bff",
+      "size": [
+        31,
+        13,
+        25
+      ],
+      "records": 5510,
+      "reference": "16a2b7797b7fd4ca6308996ede06846e0d96ce2e4b048f1cea3a1afb5789ada0",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\comparison-11-12.jpg",
+        "page_sha256": "a071bbc6366de5e670890fd88400fd0e90f4ce2cb449cc7c81cd7333954aadfb",
+        "reference_sha256": "16a2b7797b7fd4ca6308996ede06846e0d96ce2e4b048f1cea3a1afb5789ada0",
+        "comparison_candidate_sha256": "d0ef7842d41eb3311f4ff62fb2473298b834e39e70be3690b4a618ef897f2bff",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S4-13",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\qa\\reproduced\\13-kitchen-mess\\s4-13-kitchen-mess.nbt",
+      "sha256": "b0d467372ca1b5fa9a9e508d722435611ac5963167f4d6bc45dc2532d4c36f71",
+      "size": [
+        29,
+        16,
+        27
+      ],
+      "records": 7353,
+      "reference": "5bc0863604f751de6a74e9f1b15bac7b96509b8e56d27aed806b010cb8ef00b5",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\comparison-13-14.jpg",
+        "page_sha256": "f5a96b57241f9295860afaaf8a6345a0b56d4e03d909d880e5e9109352557fbc",
+        "reference_sha256": "5bc0863604f751de6a74e9f1b15bac7b96509b8e56d27aed806b010cb8ef00b5",
+        "comparison_candidate_sha256": "b0d467372ca1b5fa9a9e508d722435611ac5963167f4d6bc45dc2532d4c36f71",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S4-14",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\qa\\reproduced\\14-armory\\s4-14-armory.nbt",
+      "sha256": "029ceeb627a645ee6b3dbcbadffab0e1101cbf7502788fdc0afd6853f6bc9ec8",
+      "size": [
+        27,
+        13,
+        25
+      ],
+      "records": 4439,
+      "reference": "be694b73e864d356bdd9527e4caa428ed7fb4f643e1b9d9b66d649fd83201682",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\comparison-13-14.jpg",
+        "page_sha256": "f5a96b57241f9295860afaaf8a6345a0b56d4e03d909d880e5e9109352557fbc",
+        "reference_sha256": "be694b73e864d356bdd9527e4caa428ed7fb4f643e1b9d9b66d649fd83201682",
+        "comparison_candidate_sha256": "029ceeb627a645ee6b3dbcbadffab0e1101cbf7502788fdc0afd6853f6bc9ec8",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S4-15",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\qa\\reproduced\\15-training-yard\\s4-15-training-yard.nbt",
+      "sha256": "2c01111ba3528f31893eabf115b507f37f4232d74bd2a591d3df4f5045553173",
+      "size": [
+        33,
+        13,
+        27
+      ],
+      "records": 5523,
+      "reference": "7ba09199ff24f47ccd8efd9be0ac53b43c84fdb6767394f0662062ca59a3b8ed",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\comparison-15-16.jpg",
+        "page_sha256": "c44c98d2198e98842c9eb4c05b752b2f5fd0e862fd162baac11307a4582d0925",
+        "reference_sha256": "7ba09199ff24f47ccd8efd9be0ac53b43c84fdb6767394f0662062ca59a3b8ed",
+        "comparison_candidate_sha256": "2c01111ba3528f31893eabf115b507f37f4232d74bd2a591d3df4f5045553173",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S4-16",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\qa\\reproduced\\16-well-cistern\\s4-16-well-cistern.nbt",
+      "sha256": "6281c2b5dbead389206b09f44015884936d5ed04f14f21422c975577ff0a7efc",
+      "size": [
+        25,
+        15,
+        25
+      ],
+      "records": 4545,
+      "reference": "94cb1cdd6224abaadb187c53b3bfc018d2b46f96b948ac7e5ff607bd116fdcf8",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\comparison-15-16.jpg",
+        "page_sha256": "c44c98d2198e98842c9eb4c05b752b2f5fd0e862fd162baac11307a4582d0925",
+        "reference_sha256": "94cb1cdd6224abaadb187c53b3bfc018d2b46f96b948ac7e5ff607bd116fdcf8",
+        "comparison_candidate_sha256": "6281c2b5dbead389206b09f44015884936d5ed04f14f21422c975577ff0a7efc",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S4-17",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\qa\\reproduced\\17-workshop\\s4-17-workshop.nbt",
+      "sha256": "f9dfb4cc11b7f418278837ea2c99f4617b1c1218b12f911134f0bda21ccb9d85",
+      "size": [
+        29,
+        14,
+        25
+      ],
+      "records": 5002,
+      "reference": "50c4f883ed400db204aed71ecbf02e32e89673c6a7f5d52f80712c092c3e7852",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\comparison-17-18.jpg",
+        "page_sha256": "782a9209254ebc8e3ecbcc873fc62e370a7c4759c537f659827243ef41a9cd5b",
+        "reference_sha256": "50c4f883ed400db204aed71ecbf02e32e89673c6a7f5d52f80712c092c3e7852",
+        "comparison_candidate_sha256": "f9dfb4cc11b7f418278837ea2c99f4617b1c1218b12f911134f0bda21ccb9d85",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S4-18",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\qa\\reproduced\\18-crypt-ossuary\\s4-18-crypt-ossuary.nbt",
+      "sha256": "473bedbd9106cb860f637e81ea3558c3d9d096f122405688aa16b1d394cb4893",
+      "size": [
+        29,
+        14,
+        29
+      ],
+      "records": 6370,
+      "reference": "ffb3f9e5fdba8c41c89b2299005644abd22941bd4fa241b48ec6e5a50b1f5408",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\comparison-17-18.jpg",
+        "page_sha256": "782a9209254ebc8e3ecbcc873fc62e370a7c4759c537f659827243ef41a9cd5b",
+        "reference_sha256": "ffb3f9e5fdba8c41c89b2299005644abd22941bd4fa241b48ec6e5a50b1f5408",
+        "comparison_candidate_sha256": "473bedbd9106cb860f637e81ea3558c3d9d096f122405688aa16b1d394cb4893",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S4-19",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\qa\\reproduced\\19-watch-balcony\\s4-19-watch-balcony.nbt",
+      "sha256": "b303a0057b04a0d63cf5eeebf1a425a073580fdc8f58e74d39823ba418dfa235",
+      "size": [
+        29,
+        21,
+        49
+      ],
+      "records": 11116,
+      "reference": "3dc835dad4d20966f380e8f1fda8ef4b517948f660d446cb7b7f10edeea503c8",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\comparison-19-20.jpg",
+        "page_sha256": "3de879d5debf781f5d17c00a5b4c88e37e9bc291a94a8b838fe07ed56ef8bb06",
+        "reference_sha256": "3dc835dad4d20966f380e8f1fda8ef4b517948f660d446cb7b7f10edeea503c8",
+        "comparison_candidate_sha256": "b303a0057b04a0d63cf5eeebf1a425a073580fdc8f58e74d39823ba418dfa235",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S4-20",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-095341-476526\\qa\\reproduced\\20-secret-vault\\s4-20-secret-vault.nbt",
+      "sha256": "4cdd826585b47bf528a75a1c4ab753e6bc9003e64b60db7a6b32f1a07f59d665",
+      "size": [
+        31,
+        13,
+        21
+      ],
+      "records": 4675,
+      "reference": "19e335369313b314d6ac1a424905b72cc1f91383b8c7d5b808f24111fde58300",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S4-submission-20261107-074242-062606\\comparison-19-20.jpg",
+        "page_sha256": "3de879d5debf781f5d17c00a5b4c88e37e9bc291a94a8b838fe07ed56ef8bb06",
+        "reference_sha256": "19e335369313b314d6ac1a424905b72cc1f91383b8c7d5b808f24111fde58300",
+        "comparison_candidate_sha256": "4cdd826585b47bf528a75a1c4ab753e6bc9003e64b60db7a6b32f1a07f59d665",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S5-11",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\qa\\reproduction-final\\S5-11\\s5-11.nbt",
+      "sha256": "2ee2ccec4fed6707b2585bd8130702cc6f9abe3a7f71774f8887f105b65ed421",
+      "size": [
+        29,
+        14,
+        25
+      ],
+      "records": 10150,
+      "reference": "df0061cde7dd1aa9dad102cedf1e991d9db12a80f2a6fdcd0cd01816404b5b51",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-042602-596016\\comparison-11-12.jpg",
+        "page_sha256": "c4ff3fb832abffede998860cedb779524d5cd7e56876fced833ea5bc38c52013",
+        "reference_sha256": "df0061cde7dd1aa9dad102cedf1e991d9db12a80f2a6fdcd0cd01816404b5b51",
+        "comparison_candidate_sha256": "2ee2ccec4fed6707b2585bd8130702cc6f9abe3a7f71774f8887f105b65ed421",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S5-12",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\qa\\reproduction-final\\S5-12\\s5-12.nbt",
+      "sha256": "2e13b34cd46ec975a798d3be68954aecc83e1b2e211f6754a49a6d3ff4001075",
+      "size": [
+        27,
+        12,
+        33
+      ],
+      "records": 10692,
+      "reference": "fe62050fdebbe3f6457a611abf7f0caf34311c7c26745a8f63f7dfe354269822",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-042602-596016\\comparison-11-12.jpg",
+        "page_sha256": "c4ff3fb832abffede998860cedb779524d5cd7e56876fced833ea5bc38c52013",
+        "reference_sha256": "fe62050fdebbe3f6457a611abf7f0caf34311c7c26745a8f63f7dfe354269822",
+        "comparison_candidate_sha256": "2e13b34cd46ec975a798d3be68954aecc83e1b2e211f6754a49a6d3ff4001075",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S5-13",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\qa\\reproduction-final\\S5-13\\s5-13.nbt",
+      "sha256": "b10e818e4fbc582bbc70c2d45d093d8da18c0c1852be648d65f343deb6458f0c",
+      "size": [
+        33,
+        17,
+        29
+      ],
+      "records": 16269,
+      "reference": "cc366b08a61c4899109c7634c69bd759181641448c34f4dacd5da41b323972e2",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-042602-596016\\comparison-13-14.jpg",
+        "page_sha256": "c0d14bc48a2dfb888e9a392de6f7274f99f22173b565f5ccb012a6dbe96559fb",
+        "reference_sha256": "cc366b08a61c4899109c7634c69bd759181641448c34f4dacd5da41b323972e2",
+        "comparison_candidate_sha256": "b10e818e4fbc582bbc70c2d45d093d8da18c0c1852be648d65f343deb6458f0c",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S5-14",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\qa\\reproduction-final\\S5-14\\s5-14.nbt",
+      "sha256": "85238bfe3e4da26d058d9c83d6e290576adb2654af8b9a7fad3d891c4062db39",
+      "size": [
+        31,
+        13,
+        25
+      ],
+      "records": 10075,
+      "reference": "8c010178e73c4d0b71d65e9c368497b0ddbefc918af6be40c299e26db36a077f",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-042602-596016\\comparison-13-14.jpg",
+        "page_sha256": "c0d14bc48a2dfb888e9a392de6f7274f99f22173b565f5ccb012a6dbe96559fb",
+        "reference_sha256": "8c010178e73c4d0b71d65e9c368497b0ddbefc918af6be40c299e26db36a077f",
+        "comparison_candidate_sha256": "85238bfe3e4da26d058d9c83d6e290576adb2654af8b9a7fad3d891c4062db39",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S5-15",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\qa\\reproduction-final\\S5-15\\s5-15.nbt",
+      "sha256": "5a4bfae502b4bd54447723ddca1528fc190d63683cc4eff2a0f50788dafde882",
+      "size": [
+        35,
+        13,
+        31
+      ],
+      "records": 14105,
+      "reference": "e094356e5a3268044ce17236b49b2fbcfe6f6dbd26e73c8a45c4e0cefa8124d8",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-042602-596016\\comparison-15-16.jpg",
+        "page_sha256": "54edfb6b0ebeb752963f869613f2321c073616065d481f5ccd0da7da96418558",
+        "reference_sha256": "e094356e5a3268044ce17236b49b2fbcfe6f6dbd26e73c8a45c4e0cefa8124d8",
+        "comparison_candidate_sha256": "5a4bfae502b4bd54447723ddca1528fc190d63683cc4eff2a0f50788dafde882",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S5-16",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\qa\\reproduction-final\\S5-16\\s5-16.nbt",
+      "sha256": "9800bd938e2cd648758ddd5057b3cb7b48e5a869a6eda2a67b96febcc7b3cb1f",
+      "size": [
+        27,
+        16,
+        27
+      ],
+      "records": 11664,
+      "reference": "f0bede2d34829503214d079d7b7fd876668271ac8463cc9a3b9490235ed83bfe",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-042602-596016\\comparison-15-16.jpg",
+        "page_sha256": "54edfb6b0ebeb752963f869613f2321c073616065d481f5ccd0da7da96418558",
+        "reference_sha256": "f0bede2d34829503214d079d7b7fd876668271ac8463cc9a3b9490235ed83bfe",
+        "comparison_candidate_sha256": "9800bd938e2cd648758ddd5057b3cb7b48e5a869a6eda2a67b96febcc7b3cb1f",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S5-17",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\qa\\reproduction-storage-fix\\S5-17\\s5-17.nbt",
+      "sha256": "5696c74344775e0d95401f3f26bea009df37cbfa62c6e716b0f6e0d0aab77844",
+      "size": [
+        29,
+        15,
+        27
+      ],
+      "records": 11745,
+      "reference": "61f5ebcceda48caf4717802368866d4f89d9a178bd00dfaa065f5b43a49c6218",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-042602-596016\\comparison-17-18.jpg",
+        "page_sha256": "12c3ef84853bd181df96a35f6f5768e59b870c0a6ebce98eeffa69c2cd2e8a97",
+        "reference_sha256": "61f5ebcceda48caf4717802368866d4f89d9a178bd00dfaa065f5b43a49c6218",
+        "comparison_candidate_sha256": "7ade721df187425c8a2f3625dc21c88938b4ec9011866de9630fb04dcf64804d",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S5-18",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\qa\\reproduction-final\\S5-18\\s5-18.nbt",
+      "sha256": "277762e773c91396c050c3fec3ac0c4080d01b0131fa33128bb50844e6eb47dc",
+      "size": [
+        31,
+        15,
+        29
+      ],
+      "records": 13485,
+      "reference": "dc32ab8a7099972fde3e2c7ca7e5291182abc79e1b9737f07e679030af715152",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-042602-596016\\comparison-17-18.jpg",
+        "page_sha256": "12c3ef84853bd181df96a35f6f5768e59b870c0a6ebce98eeffa69c2cd2e8a97",
+        "reference_sha256": "dc32ab8a7099972fde3e2c7ca7e5291182abc79e1b9737f07e679030af715152",
+        "comparison_candidate_sha256": "277762e773c91396c050c3fec3ac0c4080d01b0131fa33128bb50844e6eb47dc",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S5-19",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\qa\\reproduction-final\\S5-19\\s5-19.nbt",
+      "sha256": "0197e8bca0d55534d130586381885bbea565e137d8c7727419b6cb49d1164a99",
+      "size": [
+        31,
+        20,
+        33
+      ],
+      "records": 20460,
+      "reference": "f000e3aa0d1eb0259a1716745b87b72830a3c84200aeb3779d42350ee571436c",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-042602-596016\\comparison-19-20.jpg",
+        "page_sha256": "6b80fc17f456f37a162a1565bd54858cc1ede98bb12faf1794e49f1ebff8f790",
+        "reference_sha256": "f000e3aa0d1eb0259a1716745b87b72830a3c84200aeb3779d42350ee571436c",
+        "comparison_candidate_sha256": "34265a8282dd8c00e98b4cd8d39b6dc7beee230f7d07f3e6d2e1cbf1f3046054",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S5-20",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\qa\\reproduction-final\\S5-20\\s5-20.nbt",
+      "sha256": "f99a78d36527c698a7478be2a42c5e284dfd7e68cfa153b16fe25e6bca960919",
+      "size": [
+        37,
+        13,
+        23
+      ],
+      "records": 11063,
+      "reference": "c47f0cc8084af110ad422a8cdad42e4d246ceb2671ab6c2b7d58625491c444b2",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-042602-596016\\comparison-19-20.jpg",
+        "page_sha256": "6b80fc17f456f37a162a1565bd54858cc1ede98bb12faf1794e49f1ebff8f790",
+        "reference_sha256": "c47f0cc8084af110ad422a8cdad42e4d246ceb2671ab6c2b7d58625491c444b2",
+        "comparison_candidate_sha256": "f99a78d36527c698a7478be2a42c5e284dfd7e68cfa153b16fe25e6bca960919",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S6-11",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\11-library\\qa\\reproduced\\s6-11-library.nbt",
+      "sha256": "bc90da82efccde9097320c9274f90d138f359d48bfe762f87f20e8dffc1f4b90",
+      "size": [
+        29,
+        15,
+        25
+      ],
+      "records": 10875,
+      "reference": "908cbdd183d45a0a93b40bb647b9d79d2c919e7153b0ee96183e8fed698d2014",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\comparison-11-12.jpg",
+        "page_sha256": "b404929c07f0fa12e052626ebd8bce32708b6791c5e35598d1953197cb40a4b9",
+        "reference_sha256": "908cbdd183d45a0a93b40bb647b9d79d2c919e7153b0ee96183e8fed698d2014",
+        "comparison_candidate_sha256": "bc90da82efccde9097320c9274f90d138f359d48bfe762f87f20e8dffc1f4b90",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S6-12",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\12-prison-block\\qa\\reproduced\\s6-12-prison-block.nbt",
+      "sha256": "0ec013ede1b47b3f092b20263de4a5714f923bfc74280f974f2884e0c53686a7",
+      "size": [
+        33,
+        14,
+        31
+      ],
+      "records": 14322,
+      "reference": "5fc16cd5814514c52cc62e6b5b2a1dbbdba2cc45bb9ab52d85b1998a55ae7c5b",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\comparison-11-12.jpg",
+        "page_sha256": "b404929c07f0fa12e052626ebd8bce32708b6791c5e35598d1953197cb40a4b9",
+        "reference_sha256": "5fc16cd5814514c52cc62e6b5b2a1dbbdba2cc45bb9ab52d85b1998a55ae7c5b",
+        "comparison_candidate_sha256": "0ec013ede1b47b3f092b20263de4a5714f923bfc74280f974f2884e0c53686a7",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S6-13",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\13-kitchen-mess\\qa\\reproduced\\s6-13-kitchen-mess.nbt",
+      "sha256": "5537c4723e4053b17087a5f3b59ebc81c8fc5f1c2983ad6a5cdc4272b8f6d66c",
+      "size": [
+        31,
+        16,
+        28
+      ],
+      "records": 13888,
+      "reference": "3d0d070790b726fc6709a4c771c19698ad5eba5a01728eb877d325f9f326e5e7",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\comparison-13-14.jpg",
+        "page_sha256": "1c1c187bfd8887015bf98d396e89139dfeea24d40220eea2c90d9286b8fd1867",
+        "reference_sha256": "3d0d070790b726fc6709a4c771c19698ad5eba5a01728eb877d325f9f326e5e7",
+        "comparison_candidate_sha256": "5537c4723e4053b17087a5f3b59ebc81c8fc5f1c2983ad6a5cdc4272b8f6d66c",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S6-14",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\14-armory\\qa\\reproduced\\s6-14-armory.nbt",
+      "sha256": "3c2eee8bf9cc4a6795964afb44209127881d18ab3d288992bdc57fac13ec9bd6",
+      "size": [
+        27,
+        14,
+        25
+      ],
+      "records": 9450,
+      "reference": "3c36940cd48a8d7f7cacf2085a743554e029586419e2c44a926cbc4df89aac1c",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\comparison-13-14.jpg",
+        "page_sha256": "1c1c187bfd8887015bf98d396e89139dfeea24d40220eea2c90d9286b8fd1867",
+        "reference_sha256": "3c36940cd48a8d7f7cacf2085a743554e029586419e2c44a926cbc4df89aac1c",
+        "comparison_candidate_sha256": "3c2eee8bf9cc4a6795964afb44209127881d18ab3d288992bdc57fac13ec9bd6",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S6-15",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\15-training-yard\\qa\\reproduced\\s6-15-training-yard.nbt",
+      "sha256": "52977ae19af16085cb96e2fd63b435916bb07456c52f7b478bffda1dcbb11587",
+      "size": [
+        35,
+        16,
+        31
+      ],
+      "records": 17360,
+      "reference": "1f0418fc31501fe548d76e97c3617c5bb6b85cc5f30e57d3de68d404c63489a2",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\comparison-15-16.jpg",
+        "page_sha256": "a20c3321457296abd38f8a21f08f2df501eeb4daea40572ab08c5a96b8588f2d",
+        "reference_sha256": "1f0418fc31501fe548d76e97c3617c5bb6b85cc5f30e57d3de68d404c63489a2",
+        "comparison_candidate_sha256": "52977ae19af16085cb96e2fd63b435916bb07456c52f7b478bffda1dcbb11587",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S6-16",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\16-well-cistern\\qa\\reproduced\\s6-16-well-cistern.nbt",
+      "sha256": "315b81bbd725a540a197239cfc3486e5f0e4222ea36baf7a278512f2dfa5e53b",
+      "size": [
+        29,
+        16,
+        29
+      ],
+      "records": 13456,
+      "reference": "a2966de485b952ab36daae56cd376c68993d4549e181d46b5c4618b632820db8",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\comparison-15-16.jpg",
+        "page_sha256": "a20c3321457296abd38f8a21f08f2df501eeb4daea40572ab08c5a96b8588f2d",
+        "reference_sha256": "a2966de485b952ab36daae56cd376c68993d4549e181d46b5c4618b632820db8",
+        "comparison_candidate_sha256": "315b81bbd725a540a197239cfc3486e5f0e4222ea36baf7a278512f2dfa5e53b",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S6-17",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\17-workshop\\qa\\reproduced\\s6-17-workshop.nbt",
+      "sha256": "152a18275dd5feba225f940dd289f93d689f7a94de2296668c1811c8a6bdd000",
+      "size": [
+        29,
+        16,
+        27
+      ],
+      "records": 12528,
+      "reference": "85e80792cc36515c7a8b1957fbc68aa073da4c09b5727fefe370b81e0278f259",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\comparison-17-18.jpg",
+        "page_sha256": "9d85ce6c97add0b043aac1e7d6158918a53078ca3cd07a1efbfeb1dae6824c2c",
+        "reference_sha256": "85e80792cc36515c7a8b1957fbc68aa073da4c09b5727fefe370b81e0278f259",
+        "comparison_candidate_sha256": "152a18275dd5feba225f940dd289f93d689f7a94de2296668c1811c8a6bdd000",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S6-18",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\18-crypt-ossuary\\qa\\reproduced\\s6-18-crypt-ossuary.nbt",
+      "sha256": "e669c24132bc00d2ec6dd59c8cf268e57b67b11e505abe236d374a8e15ef416b",
+      "size": [
+        29,
+        15,
+        29
+      ],
+      "records": 12615,
+      "reference": "ba5a5bd5fa2a96971e37e84660ec7bc3e5d33b7f76c830b86f3082c89b2a9627",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\comparison-17-18.jpg",
+        "page_sha256": "9d85ce6c97add0b043aac1e7d6158918a53078ca3cd07a1efbfeb1dae6824c2c",
+        "reference_sha256": "ba5a5bd5fa2a96971e37e84660ec7bc3e5d33b7f76c830b86f3082c89b2a9627",
+        "comparison_candidate_sha256": "e669c24132bc00d2ec6dd59c8cf268e57b67b11e505abe236d374a8e15ef416b",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S6-19",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\19-watch-balcony\\qa\\reproduced\\s6-19-watch-balcony.nbt",
+      "sha256": "7950bc1604f81cee9a084f79ff405d5ad0c7d6b96ccc1a397b5dd6b41cf39a4b",
+      "size": [
+        31,
+        34,
+        75
+      ],
+      "records": 79050,
+      "reference": "7fd94ac130636ef44436de14204f414a3ef82c0135fc448f3a937e575e1605f1",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\comparison-19-20.jpg",
+        "page_sha256": "a8d0ef043969787ce75c4f97922ac0dbc11184c9248e40c66bd4550c01dec66b",
+        "reference_sha256": "7fd94ac130636ef44436de14204f414a3ef82c0135fc448f3a937e575e1605f1",
+        "comparison_candidate_sha256": "7950bc1604f81cee9a084f79ff405d5ad0c7d6b96ccc1a397b5dd6b41cf39a4b",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S6-20",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-100648-011100\\20-secret-vault\\qa\\reproduced\\s6-20-secret-vault.nbt",
+      "sha256": "6a67bb5dcce602afdb752ae8e7f103b74016cb3c8f05437d77c2fde1a743a9be",
+      "size": [
+        33,
+        16,
+        23
+      ],
+      "records": 12144,
+      "reference": "ba4ade150b998bc62f889aee2a1b9ac0ab869019f301b05cbbf85458812b542f",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S6-submission-20261107-065459-360990\\comparison-19-20.jpg",
+        "page_sha256": "a8d0ef043969787ce75c4f97922ac0dbc11184c9248e40c66bd4550c01dec66b",
+        "reference_sha256": "ba4ade150b998bc62f889aee2a1b9ac0ab869019f301b05cbbf85458812b542f",
+        "comparison_candidate_sha256": "6a67bb5dcce602afdb752ae8e7f103b74016cb3c8f05437d77c2fde1a743a9be",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S7-11",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-102850-176442\\S7-11\\s7-11-library.nbt",
+      "sha256": "ab8f20b6d3f11ef82ad352958fe5b4826e3a6f27ee007acc3142c659d8c34ce3",
+      "size": [
+        35,
+        19,
+        31
+      ],
+      "records": 10292,
+      "reference": "b6c4b78fb4c5ca2604af77aefee0262fdd963ca11c3ca85815834ccfc028b24b",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\comparison-11-12.jpg",
+        "page_sha256": "737c27d5c9c453fb3a80475a26378323665180ac2e5fed3ed910256984102299",
+        "reference_sha256": "b6c4b78fb4c5ca2604af77aefee0262fdd963ca11c3ca85815834ccfc028b24b",
+        "comparison_candidate_sha256": "ab8f20b6d3f11ef82ad352958fe5b4826e3a6f27ee007acc3142c659d8c34ce3",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S7-12",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-102850-176442\\S7-12\\s7-12-prison-block.nbt",
+      "sha256": "2633fe081217d5dcb2b6b8e976663ca6633bbd6acbe485c2f79dfe80db2d0608",
+      "size": [
+        41,
+        16,
+        33
+      ],
+      "records": 10727,
+      "reference": "3975fb7aabc0812af5fd4ab4caf653f77aac4de72f03f4bdcf30b90d3db4ce0a",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\comparison-11-12.jpg",
+        "page_sha256": "737c27d5c9c453fb3a80475a26378323665180ac2e5fed3ed910256984102299",
+        "reference_sha256": "3975fb7aabc0812af5fd4ab4caf653f77aac4de72f03f4bdcf30b90d3db4ce0a",
+        "comparison_candidate_sha256": "2633fe081217d5dcb2b6b8e976663ca6633bbd6acbe485c2f79dfe80db2d0608",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S7-13",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-102850-176442\\S7-13\\s7-13-kitchen-mess.nbt",
+      "sha256": "8a6e49c2be558866f77893bd1ec6dc6dc45ecdeccfb9067529c34941c8aa43f7",
+      "size": [
+        37,
+        19,
+        33
+      ],
+      "records": 11117,
+      "reference": "0fa37863788a88dfd127eb90922247d167dfe6f4f1a65aa526b90efac04c352d",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\comparison-13-14.jpg",
+        "page_sha256": "b411dff3998a4836abea7fef2f76276525ae7b66a08a9d5043467bc356505442",
+        "reference_sha256": "0fa37863788a88dfd127eb90922247d167dfe6f4f1a65aa526b90efac04c352d",
+        "comparison_candidate_sha256": "8a6e49c2be558866f77893bd1ec6dc6dc45ecdeccfb9067529c34941c8aa43f7",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S7-14",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-102850-176442\\S7-14\\s7-14-armory.nbt",
+      "sha256": "5225e51f2d363a2ef0e4a60ecdbc71c58a9ef08002f36fa3415de4ca7b732312",
+      "size": [
+        33,
+        18,
+        31
+      ],
+      "records": 9124,
+      "reference": "cae4a5a1fd215e0c27caee786459b9bacb2802a22c1dd55e8464b259542def86",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\comparison-13-14.jpg",
+        "page_sha256": "b411dff3998a4836abea7fef2f76276525ae7b66a08a9d5043467bc356505442",
+        "reference_sha256": "cae4a5a1fd215e0c27caee786459b9bacb2802a22c1dd55e8464b259542def86",
+        "comparison_candidate_sha256": "5225e51f2d363a2ef0e4a60ecdbc71c58a9ef08002f36fa3415de4ca7b732312",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S7-15",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-102850-176442\\reproduction\\S7-15\\s7-15-training-yard.nbt",
+      "sha256": "810e03f3ebddc314ed11ba37d5c6bd1c4b6130bf75ed47e23f8d4ba671ed9d38",
+      "size": [
+        39,
+        19,
+        35
+      ],
+      "records": 11315,
+      "reference": "ef2b833a70a655c2b2ec25c1ab6fb7baa9056d4432f92cb29f07cc9ab3e8f317",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\comparison-15-16.jpg",
+        "page_sha256": "1c70e94f1ac26cfbb3649ab13f26185dcc1441b2f5b98431e0a9feac7d84addf",
+        "reference_sha256": "ef2b833a70a655c2b2ec25c1ab6fb7baa9056d4432f92cb29f07cc9ab3e8f317",
+        "comparison_candidate_sha256": "2fbd5e920170f35d6c72e62377df938650bc69337dad37c8da834c1aa1b2dca7",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S7-16",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-102850-176442\\reproduction\\S7-16\\s7-16-well-cistern.nbt",
+      "sha256": "8ae108c2dfda7ed2fd86e81c1d8bb33e3c076105314a85ea77620aa2c7a0a3fb",
+      "size": [
+        35,
+        21,
+        33
+      ],
+      "records": 11192,
+      "reference": "51d6d00f240f167453db6e7f110ac5ae96690e9a55b04e6511aee0763d4cff7f",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\comparison-15-16.jpg",
+        "page_sha256": "1c70e94f1ac26cfbb3649ab13f26185dcc1441b2f5b98431e0a9feac7d84addf",
+        "reference_sha256": "51d6d00f240f167453db6e7f110ac5ae96690e9a55b04e6511aee0763d4cff7f",
+        "comparison_candidate_sha256": "f425fb53b7e814f565a11f261f7a43e9ca535a3d48c689b8c7fbba7ae7206b52",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S7-17",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-102850-176442\\S7-17\\s7-17-workshop.nbt",
+      "sha256": "e312d49949ef50319881fa5fb44a6229b25660923464f03995d60f67e06b21bc",
+      "size": [
+        31,
+        18,
+        29
+      ],
+      "records": 8234,
+      "reference": "d8f8d55dae8e1ad64a70ee7630e23f8f45269e3ebd3d7e32e4603679ccc5b60c",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\comparison-17-18.jpg",
+        "page_sha256": "cd44955652491612bb316e99f5f64d2a22d4e332aeb40c0fa7f37080145afefa",
+        "reference_sha256": "d8f8d55dae8e1ad64a70ee7630e23f8f45269e3ebd3d7e32e4603679ccc5b60c",
+        "comparison_candidate_sha256": "e312d49949ef50319881fa5fb44a6229b25660923464f03995d60f67e06b21bc",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S7-18",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-102850-176442\\S7-18\\s7-18-crypt-ossuary.nbt",
+      "sha256": "f1ebd3843daeaf23f881cd1288ad448fa8422bb5d859724607280f08ade463c8",
+      "size": [
+        35,
+        20,
+        33
+      ],
+      "records": 10885,
+      "reference": "f4e8f6bfeb2055e6842642666d6c9fa7f53653136e46732cef247c755feda677",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\comparison-17-18.jpg",
+        "page_sha256": "cd44955652491612bb316e99f5f64d2a22d4e332aeb40c0fa7f37080145afefa",
+        "reference_sha256": "f4e8f6bfeb2055e6842642666d6c9fa7f53653136e46732cef247c755feda677",
+        "comparison_candidate_sha256": "f1ebd3843daeaf23f881cd1288ad448fa8422bb5d859724607280f08ade463c8",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S7-19",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-102850-176442\\S7-19\\s7-19-watch-balcony.nbt",
+      "sha256": "4082e63fcde97a432e70786b2fb32a9460e8da7f24edfb865be777affb1d4505",
+      "size": [
+        57,
+        26,
+        39
+      ],
+      "records": 32570,
+      "reference": "6ba4fa0048c24b4698d143a331d78272f63720ca13a9138301358a89d6ed312d",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\comparison-19-20.jpg",
+        "page_sha256": "a7e3f6004aafa254667dcf978e041f74c0551e9ad45e92ac5426aa757ac27c74",
+        "reference_sha256": "6ba4fa0048c24b4698d143a331d78272f63720ca13a9138301358a89d6ed312d",
+        "comparison_candidate_sha256": "4082e63fcde97a432e70786b2fb32a9460e8da7f24edfb865be777affb1d4505",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S7-20",
+      "source": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-102850-176442\\S7-20\\s7-20-secret-vault.nbt",
+      "sha256": "00fa50ef3af01ffd9e0c870bcd1538f38219dd1ca740d2eebf7a04753b165408",
+      "size": [
+        35,
+        19,
+        29
+      ],
+      "records": 12055,
+      "reference": "7274da17f2fe7f9318d5c5cb604185bdc237b8edd7e6260d7c517cc3a1a37323",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\comparison-19-20.jpg",
+        "page_sha256": "a7e3f6004aafa254667dcf978e041f74c0551e9ad45e92ac5426aa757ac27c74",
+        "reference_sha256": "7274da17f2fe7f9318d5c5cb604185bdc237b8edd7e6260d7c517cc3a1a37323",
+        "comparison_candidate_sha256": "00fa50ef3af01ffd9e0c870bcd1538f38219dd1ca740d2eebf7a04753b165408",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S8-11",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\S8-11\\s8-11-library.nbt",
+      "sha256": "a0e7419ee00e6990d8c89a6b971d9c6cd35d2ba7d4b9d7eaae3e659a7e4c3129",
+      "size": [
+        31,
+        16,
+        29
+      ],
+      "records": 4958,
+      "reference": "c4b33ff0f5f3e7f9d54180b583ff48ec03800939bb56338eeabb7af3f6b39814",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S8-submission-20261107-063251-778225\\comparison-11-12.jpg",
+        "page_sha256": "04ed44511e1095472343fd7f71c967d2c135bf423ce94f8eb6948aae47982c75",
+        "reference_sha256": "c4b33ff0f5f3e7f9d54180b583ff48ec03800939bb56338eeabb7af3f6b39814",
+        "comparison_candidate_sha256": "a0e7419ee00e6990d8c89a6b971d9c6cd35d2ba7d4b9d7eaae3e659a7e4c3129",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S8-12",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\S8-12\\s8-12-prison.nbt",
+      "sha256": "5f5858c6906aa836f0cfc9ba6c83f715f9657eef997f3ce3407a305262b07c1a",
+      "size": [
+        33,
+        15,
+        33
+      ],
+      "records": 6201,
+      "reference": "926ea33bd506572d2134a0423a3d02ba129649b0a4ebc47b9302eaf460d06643",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S8-submission-20261107-063251-778225\\comparison-11-12.jpg",
+        "page_sha256": "04ed44511e1095472343fd7f71c967d2c135bf423ce94f8eb6948aae47982c75",
+        "reference_sha256": "926ea33bd506572d2134a0423a3d02ba129649b0a4ebc47b9302eaf460d06643",
+        "comparison_candidate_sha256": "5f5858c6906aa836f0cfc9ba6c83f715f9657eef997f3ce3407a305262b07c1a",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S8-13",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\S8-13\\s8-13-kitchen.nbt",
+      "sha256": "18ba18feb826d46d00e7b80aaf7e181a883a51a6133dde1a9a3806518429650a",
+      "size": [
+        35,
+        16,
+        29
+      ],
+      "records": 5396,
+      "reference": "3a083a76bbd112782d56c49441ace7e70ff7683013410db1067dec034bcdf8ed",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S8-submission-20261107-063251-778225\\comparison-13-14.jpg",
+        "page_sha256": "255c543ee6aa2e70e240dbcc4859cabcb40fce6748629f8df3d777c41a8bafba",
+        "reference_sha256": "3a083a76bbd112782d56c49441ace7e70ff7683013410db1067dec034bcdf8ed",
+        "comparison_candidate_sha256": "3b702118ab0106bdc304b4ac95d4fd569222065aa25e0be365bf74fdf47a7a58",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S8-14",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\S8-14\\s8-14-armory.nbt",
+      "sha256": "52ec8a8adc8e94914a106f7c293aff8028852da30ffb4c4c99b8fda0a91df109",
+      "size": [
+        29,
+        14,
+        27
+      ],
+      "records": 4066,
+      "reference": "c67b4494cb7b48de67bfe2d4ad007e2d6f407b5adf50b93bb0533d77c992dc64",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S8-submission-20261107-063251-778225\\comparison-13-14.jpg",
+        "page_sha256": "255c543ee6aa2e70e240dbcc4859cabcb40fce6748629f8df3d777c41a8bafba",
+        "reference_sha256": "c67b4494cb7b48de67bfe2d4ad007e2d6f407b5adf50b93bb0533d77c992dc64",
+        "comparison_candidate_sha256": "52ec8a8adc8e94914a106f7c293aff8028852da30ffb4c4c99b8fda0a91df109",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S8-15",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\S8-15\\s8-15-training.nbt",
+      "sha256": "c58a0400a48324e718753fa1a69ca596a73eb22d00554b21233e15f628f69763",
+      "size": [
+        35,
+        16,
+        31
+      ],
+      "records": 5379,
+      "reference": "75a0eea2bc2a1e69cec00646fdb38b605e2298ed45484510fa01b4265cf8b92b",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S8-submission-20261107-063251-778225\\comparison-15-16.jpg",
+        "page_sha256": "e5e2bedd0fbdce3e0786d7e77e399310be56e12163477674a9c50707dcb0ff23",
+        "reference_sha256": "75a0eea2bc2a1e69cec00646fdb38b605e2298ed45484510fa01b4265cf8b92b",
+        "comparison_candidate_sha256": "1d6aba7c28c0b2a814b18c6858573d068682b7afbdf40e6b826c3305580812c5",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S8-16",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\S8-16\\s8-16-cistern.nbt",
+      "sha256": "7e79a1f24870e7904e854f744545cdd061b8b90b254876c2eb9e8b0b802fa8e1",
+      "size": [
+        33,
+        18,
+        31
+      ],
+      "records": 5912,
+      "reference": "58d7c9182a00990d31db1dd169cf6306e22c559a15bc1bda0753a052e3995f0c",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S8-submission-20261107-063251-778225\\comparison-15-16.jpg",
+        "page_sha256": "e5e2bedd0fbdce3e0786d7e77e399310be56e12163477674a9c50707dcb0ff23",
+        "reference_sha256": "58d7c9182a00990d31db1dd169cf6306e22c559a15bc1bda0753a052e3995f0c",
+        "comparison_candidate_sha256": "3ba16b0a461d2b6abb0603448346ff881623a76fb59e04826afc4c003656fd30",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S8-17",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\S8-17\\s8-17-workshop.nbt",
+      "sha256": "f250429323366042bd8f51a13a34476f80c1f805c28fd735b69fe484ecaf692a",
+      "size": [
+        27,
+        14,
+        25
+      ],
+      "records": 3443,
+      "reference": "2f3a557cef6f49f3ef16335a3c7e7148b8836f9acc928454e749c875070f93f5",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S8-submission-20261107-063251-778225\\comparison-17-18.jpg",
+        "page_sha256": "7fd95cb1ea47e03b539a4bd077b0b7f2743f5e9468a777d4ec12807189572fe1",
+        "reference_sha256": "2f3a557cef6f49f3ef16335a3c7e7148b8836f9acc928454e749c875070f93f5",
+        "comparison_candidate_sha256": "f250429323366042bd8f51a13a34476f80c1f805c28fd735b69fe484ecaf692a",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S8-18",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\S8-18\\s8-18-crypt.nbt",
+      "sha256": "e49191031f938e3abc66b9aebd72c73e04f8669ea6caa4049b37e81080d61c3c",
+      "size": [
+        31,
+        16,
+        29
+      ],
+      "records": 5162,
+      "reference": "60f470ac0b06277d1a5df8cdd270d0129004707cb03d1902a68f4dc50fc1402f",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S8-submission-20261107-063251-778225\\comparison-17-18.jpg",
+        "page_sha256": "7fd95cb1ea47e03b539a4bd077b0b7f2743f5e9468a777d4ec12807189572fe1",
+        "reference_sha256": "60f470ac0b06277d1a5df8cdd270d0129004707cb03d1902a68f4dc50fc1402f",
+        "comparison_candidate_sha256": "e49191031f938e3abc66b9aebd72c73e04f8669ea6caa4049b37e81080d61c3c",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S8-19",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\S8-19\\s8-19-watch.nbt",
+      "sha256": "58264f629e45e3c84194966a6e0a1440383b88885809e21bebfef37d1e73e011",
+      "size": [
+        35,
+        24,
+        65
+      ],
+      "records": 34343,
+      "reference": "4b9734417550e0fa4fe9ee6d3b852a25615d1828a67aa68cba7f9048e1373cba",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S8-submission-20261107-063251-778225\\comparison-19-20.jpg",
+        "page_sha256": "a8ff2302dd4d94b3e7ced4a3e0a8f532b5b192af6d7451168db83581db5e01ac",
+        "reference_sha256": "4b9734417550e0fa4fe9ee6d3b852a25615d1828a67aa68cba7f9048e1373cba",
+        "comparison_candidate_sha256": "10a02693bb8d5a0e5e571ffb7be0c637adc74f78869b71e4c1d0bf0a7304405c",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    },
+    {
+      "id": "S8-20",
+      "source": "C:\\Users\\YOUR_USERNAME\\.codex\\visualizations\\2026\\11\\04\\01a1a685-045b-76d2-aa2b-2a3f24520603\\preserved-review-snapshots\\S8-vault-shell-revision-20261108\\S8-20\\s8-20-secret-vault.nbt",
+      "sha256": "9052df497b04aae31d4709b8d5fafcfaea5c927b42421065e0745c97c291e40c",
+      "size": [
+        31,
+        14,
+        23
+      ],
+      "records": 6171,
+      "reference": "a77e3a8f14eb79a2789725745423c6dae0511fb66601b67b298c95e60bdff111",
+      "reference_comparison": {
+        "page": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S8-submission-20261107-063251-778225\\comparison-19-20.jpg",
+        "page_sha256": "a8ff2302dd4d94b3e7ced4a3e0a8f532b5b192af6d7451168db83581db5e01ac",
+        "reference_sha256": "a77e3a8f14eb79a2789725745423c6dae0511fb66601b67b298c95e60bdff111",
+        "comparison_candidate_sha256": "f7a8d6ee86a6199b10598486a605ffc870e80c78a041fd2ad4387e7c62c7bfca",
+        "scope": "Historical source-bound reference/render comparison; later candidate revisions inherit only their explicitly audited scopes, not an unchanged-source claim"
+      }
+    }
+  ],
+  "original_reference_comparisons_verified": 80,
+  "comparison_pages_verified": 40,
+  "reference_retention": {
+    "exact_original_png_bytes_available": 34,
+    "original_png_paths_missing": 46,
+    "all80_original_reference_hash_bindings_and_comparison_images_retained": true,
+    "audit": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\SEVEN-GROUPS-SEAL-RECHECK-20261108.json",
+    "limitation": "Lossless original PNG retention is incomplete. Historical reference/render comparisons, their image hashes, original reference hash bindings and actual visual review records remain readable and verified. Do not claim all80 original PNG bytes were rehashed or restored; this is recorded as an input-archive limitation, not a substitute for missing room/render/recipe/QA deliverables."
+  },
+  "production_deployed": false,
+  "generator_owned_by_other_thread": true
+}

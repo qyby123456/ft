@@ -1,0 +1,23 @@
+{
+  "group": 5,
+  "image": 7,
+  "status": "PRODUCER_CHECKS_PASS_PENDING_INDEPENDENT_ACCEPTANCE",
+  "reference": "S5-07-entrance.png",
+  "nbt": "nbt/s5-07-coral-gate-vestibule.nbt",
+  "nbt_sha256": "b5c2cb4c96f3345ab93f4e609fd5aabc2b5a7061f58b6fbfad742eabe7e8fdf5",
+  "size": [31,22,35],
+  "data_version": 3465,
+  "block_records": 23870,
+  "composition": "Entrance vestibule with front paired side-open wet gate panels and lamp piers, stepped threshold, rear elevated arch and stairs, four side guard alcoves, framed map mosaic, five native empty barrels, sea-lantern brazier substitute and perimeter coral/kelp. Functional wet passage with actual stairs, not a flat entrance facade.",
+  "producer_world_test": "Fresh isolated Forge1.20.1-47.4.10 GameTest; four rotations1200ticks each, randomTickSpeed3; non-spectator creative Forge FakePlayer activates natural chunk ticks and both wheat sections grew. Four JUnit pass, exit0. Producer server execution, not independent second run.",
+  "capture_readback": "12 complete59x30x59 captures104430 records each decoded for states and block entities, zero three-time drift.23870 source states exactly match native placement per rotation;23870 native canSurvive per rotation; zero dead coral, coral identity changes, invalid aquatic survival, original source-water loss or dropped items.",
+  "entrance_checks": "Native49 wet stairs,24 open wet warped trapdoor panels,5 empty supported barrels per rotation. Additional settled-capture readback verifies pure-source two-high center axis42steps rising tofeetY5 and returning tofeetY3 at each boundary. Supplied gate configuration is side-open, not a coupled double-door mechanism; no interactive close/reopen test.",
+  "routes": "14 native three-dimensional six-neighbor BFS targets with two-high exact collision clearance, feetY3..7,3755 reachable positions per rotation. Both external7wide3high3deep wet interfaces. Swimming reachability, not walking steps, mobAI/player oxygen/multiplayer test.",
+  "integration": "Four settled captures individually checked for outside source ring8, source coverY22..29 eight layers, solid bedY0..2 and both7wide3high3deep outward wet interfaces with sills. Raised interior landings descend back before boundary, preserving flat wet interface. Reject dry corridors.",
+  "visual_limits": "Native coral colors/branches approximate illustration; map is durable mosaic, not map entity; barrels replace crates; sea-lantern pedestal replaces underwater fire. Full-water Lodestone lacks game underwater fog/rays/bubbles. Water-hidden derivative is preview-only.",
+  "previous_six_accepted_nbt_preserved": true,
+  "production_deployment": false,
+  "modified_official_saves_mods_or_configs": false,
+  "image_8_started": false,
+  "requires_independent_acceptance_before_next_image": true
+}

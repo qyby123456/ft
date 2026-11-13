@@ -1,0 +1,119 @@
+{
+  "id": "S1-20",
+  "size": [
+    31,
+    16,
+    27
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        17
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        30,
+        2,
+        17
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "start": [
+    2,
+    2,
+    17
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        28,
+        2,
+        17
+      ]
+    },
+    {
+      "label": "disguised-opening",
+      "position": [
+        12,
+        2,
+        17
+      ]
+    },
+    {
+      "label": "vault-chest",
+      "position": [
+        21,
+        2,
+        7
+      ]
+    },
+    {
+      "label": "hidden-lever",
+      "position": [
+        25,
+        2,
+        7
+      ]
+    }
+  ],
+  "reference_features": [
+    "left root-lined narrow approach",
+    "thick disguised partition",
+    "rear vault with chest and gold",
+    "wall lever and cobweb corner",
+    "two front pools"
+  ],
+  "differences": [
+    "No locked-chest logic, chest empty with no loot table",
+    "Gold represented by fixed blocks not dropped currency",
+    "Lever decorative and not wired to moving wall",
+    "Disguised opening delivered open to preserve traversal",
+    "Full front/back walls and roof retained"
+  ],
+  "cutaway": {
+    "removeAbove": 13,
+    "frontDepth": 25,
+    "sideX": 29
+  },
+  "focus_views": [
+    {
+      "id": "focus",
+      "position": [
+        27,
+        10,
+        18
+      ],
+      "target": [
+        21,
+        5,
+        4
+      ],
+      "fov": 53
+    },
+    {
+      "id": "function-detail",
+      "position": [
+        26,
+        9,
+        12
+      ],
+      "target": [
+        21,
+        5,
+        4
+      ],
+      "fov": 48
+    }
+  ],
+  "revision": "R2: independent visual/support changes; targets retained"
+}

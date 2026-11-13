@@ -1,0 +1,132 @@
+{
+  "id": "S2-19",
+  "nbt": "s2-19-watch-balcony.nbt",
+  "size": [
+    29,
+    20,
+    29
+  ],
+  "reference_observed": "有柱支撑的高台、前侧护栏、桌面望远镜意象、后门与兵器架、右侧长下行楼梯。",
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        14,
+        8,
+        0
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        28,
+        2,
+        23
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "lower-exit",
+      "position": [
+        28,
+        2,
+        23
+      ]
+    },
+    {
+      "label": "watch-desk",
+      "position": [
+        8,
+        8,
+        17
+      ]
+    },
+    {
+      "label": "stair-top",
+      "position": [
+        23,
+        8,
+        3
+      ]
+    },
+    {
+      "label": "stair-bottom",
+      "position": [
+        23,
+        2,
+        12
+      ]
+    },
+    {
+      "label": "under-balcony",
+      "position": [
+        12,
+        2,
+        23
+      ]
+    }
+  ],
+  "differences": [
+    "高台保持6格高差，六级原版楼梯实际连接上下；不以传送替代。",
+    "四周完整外壳和深灰玻璃观景窗代替无边界深渊，避免跌落外部。",
+    "桌面避雷针仅表达镜筒轮廓，不声明可用望远镜；无武器库存。",
+    "上层护栏与下层支柱保留，完整顶墙在交付NBT中。",
+    "R2侧阶梯护墙降为随台阶递减护栏，柱间增加倒置楼梯拱形支撑；新增底层支撑近景。"
+  ],
+  "views": [
+    {
+      "id": "preview-full",
+      "position": [
+        -34,
+        41,
+        55
+      ],
+      "target": [
+        14,
+        8,
+        14
+      ],
+      "fov": 45
+    },
+    {
+      "id": "preview-cutaway",
+      "position": [
+        -32,
+        39,
+        53
+      ],
+      "target": [
+        14,
+        7,
+        14
+      ],
+      "cutaway": true,
+      "cutY": 17,
+      "fov": 45
+    },
+    {
+      "id": "preview-interior",
+      "position": [
+        16.5,
+        11.62,
+        18.5
+      ],
+      "target": [
+        8,
+        10,
+        4
+      ],
+      "fov": 88
+    }
+  ],
+  "revision": "R2 preliminary visual REQUEST_CHANGES remediation; previous evidence in archive-preliminary-v1",
+  "architectural_remediation": [
+    "内侧立体门柱、柱脚柱头、倒置楼梯拱券、半砖分层檐口",
+    "地面周边橙色边框与中央菱形纹样，原尺寸家具与路线目标保留"
+  ]
+}

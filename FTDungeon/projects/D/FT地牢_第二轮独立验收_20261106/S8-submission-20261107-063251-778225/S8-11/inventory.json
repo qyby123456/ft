@@ -1,0 +1,118 @@
+{
+  "sha256": "a0e7419ee00e6990d8c89a6b971d9c6cd35d2ba7d4b9d7eaae3e659a7e4c3129",
+  "size": [
+    31,
+    16,
+    29
+  ],
+  "counts": {
+    "minecraft:cobbled_deepslate": 1819,
+    "minecraft:polished_deepslate": 735,
+    "minecraft:calcite": 235,
+    "minecraft:amethyst_block": 387,
+    "minecraft:purple_concrete": 16,
+    "minecraft:smooth_basalt": 899,
+    "minecraft:deepslate_bricks": 48,
+    "minecraft:deepslate_tile_slab": 26,
+    "minecraft:air": 31,
+    "minecraft:deepslate_brick_stairs": 88,
+    "minecraft:chiseled_deepslate": 6,
+    "minecraft:bookshelf": 465,
+    "minecraft:dark_oak_planks": 143,
+    "minecraft:dark_oak_fence": 24,
+    "minecraft:ladder": 6,
+    "minecraft:barrel": 1,
+    "minecraft:chain": 8,
+    "minecraft:lantern": 2,
+    "minecraft:lectern": 2,
+    "minecraft:candle": 2,
+    "minecraft:dark_oak_stairs": 5,
+    "minecraft:amethyst_cluster": 10
+  },
+  "entities": [
+    {
+      "pos": [
+        5,
+        2,
+        7
+      ],
+      "block": "minecraft:barrel",
+      "nbt": "{id:\"minecraft:barrel\",Items:[]}"
+    }
+  ],
+  "hazards": [],
+  "metadata": {
+    "name": "s8-11-library",
+    "reference": "S8-11",
+    "size": [
+      31,
+      16,
+      29
+    ],
+    "ports": [
+      {
+        "side": "west",
+        "foot": [
+          0,
+          2,
+          16
+        ],
+        "width": 3,
+        "height": 4
+      },
+      {
+        "side": "east",
+        "foot": [
+          30,
+          2,
+          16
+        ],
+        "width": 3,
+        "height": 4
+      }
+    ],
+    "start": [
+      0,
+      2,
+      16
+    ],
+    "targets": [
+      {
+        "label": "east exit",
+        "position": [
+          30,
+          2,
+          16
+        ]
+      },
+      {
+        "label": "reading desks",
+        "position": [
+          17,
+          2,
+          14
+        ]
+      },
+      {
+        "label": "ladder base",
+        "position": [
+          16,
+          2,
+          7
+        ]
+      }
+    ],
+    "features": [
+      "two-tier rear archive",
+      "supported ladder to balcony",
+      "two reading desks",
+      "cabinet",
+      "calcite banded geode"
+    ],
+    "differences": [
+      "Concept open books represented by vanilla lecterns without invented book inventory",
+      "Ceiling and front wall restored in exported NBT",
+      "Archive ladder usable but climbing physics not certified by offline walking audit"
+    ]
+  }
+}

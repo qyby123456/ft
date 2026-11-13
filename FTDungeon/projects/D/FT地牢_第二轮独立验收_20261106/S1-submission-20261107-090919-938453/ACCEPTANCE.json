@@ -1,0 +1,72 @@
+{
+  "group": "S1",
+  "verdict": "ACCEPTED",
+  "accepted": true,
+  "reviewed_at": "2026-11-07T09:26:22.551454+08:00",
+  "scope": "Second-round ten-room delivery and connected dungeon under WORK_ORDER.md, with delegated access/interaction/natural ladder-stair follow-ups",
+  "source_sha256": "b960960f6cec50c986c7360821408573c0cac7f0c36828073ddeb4d8b9f38553",
+  "current_frozen_files_verified": 915,
+  "prior_frozen_files_verified": 760,
+  "empty_inventory_checks": 64,
+  "requirements": [
+    {
+      "requirement": "Ten distinct reference rooms, complete NBT, reproducible recipes and actual previews including room20 secret vault",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\STATIC-REVIEW.md",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\reproduction.json"
+      ]
+    },
+    {
+      "requirement": "Native registry/properties, support, player-size routes, empty inventories and finite liquid/fire observation",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\independent-native-frozen.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\independent-all-support.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\world-classification.json"
+      ]
+    },
+    {
+      "requirement": "Connected merge preserving source payloads, aligned clear ports, glass/seam treatment and external barrier enclosure",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\payload-entities-parts.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\corridor-scenery.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-corridor-qa\\independent-routes.json"
+      ]
+    },
+    {
+      "requirement": "At most48 per-axis parts exactly reconstruct payloads and entities",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-081456-028610\\independent-qa\\payload-entities-parts.json"
+      ]
+    },
+    {
+      "requirement": "All functional containers and buttons have connected usable stands, actual eye ray first-hit and block.use",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\independent-interaction-world\\interaction-report.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\independent-posttick-interaction-qa\\independent-routes.json"
+      ]
+    },
+    {
+      "requirement": "Installable current-hash access with full clearance, automatic hooks, ordinary entry/return and natural ladder/stair motion",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\independent-natural-world\\independent-result.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S1-submission-20261107-090919-938453\\access-package\\installation-plan.json"
+      ]
+    }
+  ],
+  "unresolved_required_items": [],
+  "deployment": "NOT_DEPLOYED; no formal saves/mods/config/KubeJS writes",
+  "limits": [
+    "Server-side native acceptance; human network client GUI and human playthrough not certified",
+    "No combat/spawn/elite/Boss pack required by this round; handled separately after review",
+    "Unrotated fixed overworld location with reserved empty clearance box; other rotations/multiple instances not certified",
+    "Natural motion probe covers library ladder and watch stair roundtrip; remaining targets verified by collision connectivity and actual native ray/use",
+    "Finite1200tick observation does not certify indefinite growth, all random ticks, damage or drowning",
+    "Raw source fence connections normalize in actual world; two source-shape stands fail but all76 post-world stands pass; exact differences retained"
+  ]
+}

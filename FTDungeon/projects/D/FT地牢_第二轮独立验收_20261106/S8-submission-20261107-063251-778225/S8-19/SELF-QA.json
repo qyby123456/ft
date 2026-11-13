@@ -1,0 +1,30 @@
+{
+  "candidate_sha256": "10a02693bb8d5a0e5e571ffb7be0c637adc74f78869b71e4c1d0bf0a7304405c",
+  "reference_sha256": "4b9734417550e0fa4fe9ee6d3b852a25615d1828a67aa68cba7f9048e1373cba",
+  "reference_image_viewed": true,
+  "lodestone_cutaway_viewed": true,
+  "self_check": "PASS",
+  "independent_acceptance": "NOT_RUN",
+  "native_report": "qa/independent-native-frozen.json",
+  "route_report": "qa/independent-routes.json",
+  "containers": [
+    {
+      "pos": [
+        31,
+        6,
+        4
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    }
+  ],
+  "static_supplement_failures": [],
+  "risks": "No water/lava/fire blocks",
+  "not_run": [
+    "world placement",
+    "neighbor/random/fluid tick simulation",
+    "player gameplay",
+    "independent acceptance"
+  ],
+  "visual_notes": "实际瞭望站位近景揭示x13双层实栏遮挡，已仅移除上排使其成为一格高实栏，低玻璃保留；原台阶和四目标不变。重验后待独立视觉复核。"
+}

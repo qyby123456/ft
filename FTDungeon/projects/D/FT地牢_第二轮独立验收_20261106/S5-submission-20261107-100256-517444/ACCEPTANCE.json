@@ -1,0 +1,308 @@
+{
+  "group": "S5",
+  "accepted": true,
+  "verdict": "ACCEPTED",
+  "reviewed_at": "2026-11-07T10:13:36.715664+08:00",
+  "source_sha256": "e0c71315c81727e81cd15011eda9a0f5da8624387c59b8b9764c42d8d740397e",
+  "frozen_files_verified": 1016,
+  "inherited_files_verified": 974,
+  "source_and_previous_evidence_unchanged": true,
+  "harmless_changed_metadata": [
+    "ready-for-review.json",
+    "UPPER-BARRELS-FIX.md",
+    "REVISION-REVIEW.md",
+    "progress.json",
+    "delivery.py",
+    "README.md"
+  ],
+  "native_support_checks": 176284,
+  "valid_static_routes": 124,
+  "retained_expected_terminal_failure": [
+    {
+      "standing_clear": false,
+      "position": [
+        12,
+        5,
+        69
+      ],
+      "reachable": false,
+      "label": "S5-20-east"
+    }
+  ],
+  "functional_targets": 37,
+  "functional_approach_routes": 74,
+  "motion": {
+    "natural-movement": {
+      "physics_frames": 4941,
+      "control_ticks": 4942,
+      "max_tick_displacement": 0.5403622616409085,
+      "distance": 970.0372750586607,
+      "final_feet": [
+        10.64454067532506,
+        9.0,
+        23.500000005195034
+      ],
+      "final_error": 0.14454067532506096,
+      "final_on_ground": true,
+      "ladder_ticks": 0,
+      "water_ticks": 0,
+      "jump_intent_ticks": 0,
+      "room_visits": {
+        "outbound": {
+          "S5-11": {
+            "frames": 135,
+            "first_tick": 1,
+            "last_tick": 135
+          },
+          "S5-12": {
+            "frames": 165,
+            "first_tick": 176,
+            "last_tick": 340
+          },
+          "S5-13": {
+            "frames": 165,
+            "first_tick": 381,
+            "last_tick": 545
+          },
+          "S5-14": {
+            "frames": 167,
+            "first_tick": 586,
+            "last_tick": 752
+          },
+          "S5-15": {
+            "frames": 183,
+            "first_tick": 799,
+            "last_tick": 981
+          },
+          "S5-16": {
+            "frames": 245,
+            "first_tick": 1284,
+            "last_tick": 1528
+          },
+          "S5-17": {
+            "frames": 145,
+            "first_tick": 1569,
+            "last_tick": 1713
+          },
+          "S5-18": {
+            "frames": 181,
+            "first_tick": 1754,
+            "last_tick": 1934
+          },
+          "S5-19": {
+            "frames": 220,
+            "first_tick": 1975,
+            "last_tick": 2194
+          },
+          "S5-20": {
+            "frames": 202,
+            "first_tick": 2275,
+            "last_tick": 2476
+          }
+        },
+        "return": {
+          "S5-11": {
+            "frames": 132,
+            "first_tick": 4810,
+            "last_tick": 4941
+          },
+          "S5-12": {
+            "frames": 165,
+            "first_tick": 4605,
+            "last_tick": 4769
+          },
+          "S5-13": {
+            "frames": 165,
+            "first_tick": 4400,
+            "last_tick": 4564
+          },
+          "S5-14": {
+            "frames": 167,
+            "first_tick": 4193,
+            "last_tick": 4359
+          },
+          "S5-15": {
+            "frames": 182,
+            "first_tick": 3964,
+            "last_tick": 4145
+          },
+          "S5-16": {
+            "frames": 244,
+            "first_tick": 3417,
+            "last_tick": 3660
+          },
+          "S5-17": {
+            "frames": 145,
+            "first_tick": 3232,
+            "last_tick": 3376
+          },
+          "S5-18": {
+            "frames": 181,
+            "first_tick": 3011,
+            "last_tick": 3191
+          },
+          "S5-19": {
+            "frames": 211,
+            "first_tick": 2760,
+            "last_tick": 2970
+          },
+          "S5-20": {
+            "frames": 203,
+            "first_tick": 2477,
+            "last_tick": 2679
+          }
+        }
+      },
+      "turnaround_tick": 2477
+    },
+    "natural-detours": {
+      "physics_frames": 588,
+      "control_ticks": 589,
+      "max_tick_displacement": 0.34056448359963737,
+      "distance": 102.35323029928001,
+      "final_feet": [
+        10.644540683108517,
+        9.0,
+        23.499999993698566
+      ],
+      "final_error": 0.14454068310851667,
+      "final_on_ground": true,
+      "ladder_ticks": 89,
+      "water_ticks": 47,
+      "jump_intent_ticks": 22,
+      "events": [
+        {
+          "event": "initial_spawn_only",
+          "feet": [
+            10.5,
+            9.0,
+            23.5
+          ]
+        },
+        {
+          "event": "climb",
+          "tick": 112,
+          "feet": [
+            22.4864858297542,
+            9.0,
+            14.507487716758305
+          ]
+        },
+        {
+          "event": "descend",
+          "tick": 163,
+          "feet": [
+            22.4864858297542,
+            14.056800098418847,
+            13.487500011920929
+          ]
+        },
+        {
+          "event": "return_from_ladder",
+          "tick": 200,
+          "feet": [
+            22.4864858297542,
+            9.021599843502031,
+            13.487500011920929
+          ]
+        },
+        {
+          "event": "to_water",
+          "tick": 316,
+          "feet": [
+            10.599608933239324,
+            9.0,
+            23.598899349992507
+          ]
+        },
+        {
+          "event": "enter_water",
+          "tick": 419,
+          "feet": [
+            28.490429702375422,
+            9.0,
+            21.634094227156993
+          ]
+        },
+        {
+          "event": "water_hold",
+          "tick": 432,
+          "feet": [
+            28.494998502331327,
+            8.0,
+            19.597763270810674
+          ]
+        },
+        {
+          "event": "exit_water",
+          "tick": 452,
+          "feet": [
+            28.494998502331327,
+            8.0,
+            19.180755246428134
+          ]
+        },
+        {
+          "event": "return_from_water",
+          "tick": 487,
+          "feet": [
+            28.497593562396105,
+            9.078331204070764,
+            21.38122484417795
+          ]
+        }
+      ]
+    }
+  },
+  "unresolved_required_items": [],
+  "requirements": [
+    {
+      "requirement": "Ten functional reference rooms, real previews and original recipes",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\STORAGE-FIX-REVIEW.md",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-065459-179761\\independent-qa\\reproduction-report.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-qa\\storage-reproduction.json"
+      ]
+    },
+    {
+      "requirement": "Native support/routes, preserved source payload, 10 parts and full barrier shell",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-qa\\native-rotation-payload-parts-barrier.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-qa\\independent-all-support.json"
+      ]
+    },
+    {
+      "requirement": "All37 storage/lever functional targets with real eye ray/use and reachable stands",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-interaction-qa\\storage-fix-inspection.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\independent-interaction-qa\\independent-routes.json"
+      ]
+    },
+    {
+      "requirement": "Current-hash finite world stability and reserved-space installable external access",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-084436-900626\\STORAGE-FIX-REVIEW.md",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-080041-052971\\INTERACTION-ACCESS-REVIEW.md"
+      ]
+    },
+    {
+      "requirement": "Continuous native whole-map return, necessary stairs, original ladder and shallow water",
+      "result": "PASS",
+      "evidence": [
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\independent-natural-movement\\qa\\natural-movement\\motion-results.json",
+        "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S5-submission-20261107-100256-517444\\independent-natural-detours\\qa\\natural-detours\\motion-results.json"
+      ]
+    }
+  ],
+  "limits": [
+    "No production deployment, connected client GUI, combat, rewards, oxygen survival or indefinite plant-growth guarantee",
+    "Natural physics tests are actual parent-run server callbacks; source subclass opts into local player physics, not a socket-connected client",
+    "37 eye-ray/use and1200-tick snapshots were independently inspected producer evidence, not falsely claimed as parent world reruns",
+    "Fixed unrotated reserved overworld site with separate access lobby; administrator first brings players to lobby",
+    "Legacy sealed terminal target and expected three-wide training throat remain explicitly recorded"
+  ]
+}

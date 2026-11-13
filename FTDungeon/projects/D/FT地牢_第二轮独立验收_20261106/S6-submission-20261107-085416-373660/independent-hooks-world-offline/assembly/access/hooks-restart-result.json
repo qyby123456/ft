@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "phase": "restart",
+  "source_sha256": "5b72d94c89871ebe9c262f92d6c00275ee0c8cfbf32343be96c9cd8e538f1336",
+  "checks": [
+    "load hook created entry trigger objective without explicit function call",
+    "load hook created exit trigger objective without explicit function call",
+    "tick function is present in native tick tag",
+    "restart origin anchor loaded without manual chunk forcing",
+    "restart outside anchor loaded without manual chunk forcing",
+    "restart natural tick enabled entry trigger",
+    "restart permission-zero trigger enters after natural ticks actual\u003d(2050.5, 132.0, 2084.5)",
+    "restart permission-zero trigger returns after natural ticks with authorization revoked actual\u003d(2042.5, 132.0, 2084.5)",
+    "unauthorized forged request rejected by automatic tick actual\u003d(2042.5, 132.0, 2084.5)",
+    "out-of-radius forged entry rejected by automatic tick actual\u003d(2042.5, 132.0, 2089.5)",
+    "native reloadResources completed",
+    "origin and outside anchors remain after reload",
+    "after reload natural tick enabled entry trigger",
+    "after reload permission-zero trigger enters after natural ticks actual\u003d(2050.5, 132.0, 2084.5)",
+    "after reload permission-zero trigger returns after natural ticks with authorization revoked actual\u003d(2042.5, 132.0, 2084.5)"
+  ],
+  "explicit_load_or_tick_calls": 0,
+  "natural_server_ticks_elapsed": 300,
+  "server_start_epoch_ms": 1794013629241,
+  "pid": 63628,
+  "runtime": "Real Forge GameTestServer, actual minecraft:load/tick function tags, permission-zero trigger commands followed by delayed assertions; reload via server reloadResources future; persisted marker lookup after a separate JVM restart",
+  "limits": "Simulated registered player, network sends suppressed; not a real client or complete container/path gameplay test."
+}

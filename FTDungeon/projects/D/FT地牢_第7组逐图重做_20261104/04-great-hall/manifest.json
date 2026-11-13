@@ -1,0 +1,236 @@
+{
+  "status": "AWAITING_INDEPENDENT_REGISTRATION_ACCEPTANCE",
+  "rooms": [
+    {
+      "id": "S7R2-04",
+      "name": "菌庭列柱大殿·六柱长轴",
+      "size": [
+        31,
+        20,
+        35
+      ],
+      "facing": "north",
+      "entrance": [
+        15,
+        2,
+        0
+      ],
+      "interior": [
+        15,
+        2,
+        3
+      ],
+      "test_targets": [
+        [
+          15,
+          2,
+          3
+        ],
+        [
+          15,
+          2,
+          8
+        ],
+        [
+          15,
+          2,
+          17
+        ],
+        [
+          15,
+          2,
+          26
+        ],
+        [
+          15,
+          2,
+          31
+        ],
+        [
+          15,
+          2,
+          34
+        ],
+        [
+          0,
+          2,
+          23
+        ],
+        [
+          30,
+          2,
+          23
+        ],
+        [
+          4,
+          2,
+          23
+        ],
+        [
+          26,
+          2,
+          23
+        ],
+        [
+          11,
+          2,
+          8
+        ],
+        [
+          19,
+          2,
+          8
+        ],
+        [
+          11,
+          2,
+          17
+        ],
+        [
+          19,
+          2,
+          17
+        ],
+        [
+          11,
+          2,
+          26
+        ],
+        [
+          19,
+          2,
+          26
+        ]
+      ],
+      "connections": [
+        {
+          "id": "north-main-arch",
+          "direction": "north",
+          "feet": [
+            15,
+            2,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            15,
+            2,
+            -1
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "visible rear arch"
+        },
+        {
+          "id": "south-main-arch",
+          "direction": "south",
+          "feet": [
+            15,
+            2,
+            34
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            15,
+            2,
+            35
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "prompt specifies both ends; front cut away in reference"
+        },
+        {
+          "id": "west-side-arch",
+          "direction": "west",
+          "feet": [
+            0,
+            2,
+            23
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            -1,
+            2,
+            23
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "visible left side doorway"
+        },
+        {
+          "id": "east-side-arch",
+          "direction": "east",
+          "feet": [
+            30,
+            2,
+            23
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            31,
+            2,
+            23
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "visible right side doorway"
+        }
+      ],
+      "sha256": "1dc48874bc84275ba00b0156c17f7a8b5ff00a08e6cd2e17d7670fb5cca99678",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-04-great-hall.png",
+      "reference_sha256": "fd15298f5740cdbe33d6be5d7394ce6b1085a9a38246426e5296bee45a92c1c2",
+      "status": "AWAITING_INDEPENDENT_REGISTRATION_ACCEPTANCE",
+      "runtime_slot": null,
+      "geometry_origin": "Original single-image S7-04 six-pillar axial hall; six red banners/crystal bases, four exits, no old geometry read or reused",
+      "coordinate_system": "integer feet blocks, +X east +Y up +Z south",
+      "world_placement": "NOT_RUN"
+    }
+  ],
+  "qa": {
+    "status": "PASS_PRODUCER_SELF_CHECK_ONLY",
+    "sha256": "1dc48874bc84275ba00b0156c17f7a8b5ff00a08e6cd2e17d7670fb5cca99678",
+    "static": "PASS",
+    "native_load_block_entities_tags": "PASS (six banner block entities; legacy containers_loaded field is not six loot containers)",
+    "native_survival_points": 102,
+    "native_route_targets": 16,
+    "routes_model": "actual native 0.6x1.8 body, y2 planar half-grid, each edge swept and reversed, dry supported endpoints",
+    "native_run": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\04-great-hall\\qa\\isolated-run-03",
+    "lodestone": "3/3 PASS",
+    "duplicates_compared": 30,
+    "exact_geometry_matches": 0,
+    "world_neighbor_random_fluid_ticks": "NOT_RUN",
+    "registration_accepted": false,
+    "next_image_allowed": false
+  },
+  "geometry_origin": "Original single-image S7-04 six-pillar hall recipe, previous room geometry not reused",
+  "previous_acceptance": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S7-03-ACCEPTANCE.json",
+  "reference_analysis": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\04-great-hall\\REFERENCE_ANALYSIS.md",
+  "assembly": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\04-great-hall\\assembly.json",
+  "connections": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\04-great-hall\\connections.json",
+  "preview_only_derivative": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\04-great-hall\\views\\PREVIEW_ONLY_cutaway.nbt",
+  "next_image_started": false
+}

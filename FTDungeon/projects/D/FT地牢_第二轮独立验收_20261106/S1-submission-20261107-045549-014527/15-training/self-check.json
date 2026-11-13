@@ -1,0 +1,164 @@
+{
+  "source_sha256": "de6760c4485588e01844bfb5242b969615a5e13786d98589b481e526d1819906",
+  "status": "maker_static_self_check_pass_not_independent_acceptance",
+  "registry_properties": true,
+  "template_roundtrip": true,
+  "native_fragile_survival": true,
+  "native_all_nonair_survival": true,
+  "nonair_checked": 6265,
+  "ports_clear": true,
+  "empty_inventories": true,
+  "collision_routes": [
+    {
+      "label": "east-exit",
+      "reachable": true,
+      "position": [
+        32,
+        2,
+        10
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "target-line",
+      "reachable": true,
+      "position": [
+        16,
+        2,
+        6
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "dummy-middle",
+      "reachable": true,
+      "position": [
+        18,
+        2,
+        14
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "bench-aisle",
+      "reachable": true,
+      "position": [
+        12,
+        2,
+        26
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "A-ramp-step-0",
+      "reachable": true,
+      "position": [
+        23,
+        2.5,
+        22
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "A-ramp-step-1",
+      "reachable": true,
+      "position": [
+        23,
+        3.0,
+        23
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "A-ramp-step-2",
+      "reachable": true,
+      "position": [
+        23,
+        3.5,
+        24
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "A-ramp-step-3",
+      "reachable": true,
+      "position": [
+        23,
+        4.0,
+        25
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "A-ramp-step-4",
+      "reachable": true,
+      "position": [
+        23,
+        3.5,
+        26
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "A-ramp-step-5",
+      "reachable": true,
+      "position": [
+        23,
+        3.0,
+        27
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "A-ramp-step-6",
+      "reachable": true,
+      "position": [
+        23,
+        2.5,
+        28
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "hurdle-lane-0",
+      "reachable": true,
+      "position": [
+        27.5,
+        2,
+        11.5
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "hurdle-lane-1",
+      "reachable": true,
+      "position": [
+        27.5,
+        2,
+        15.5
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "hurdle-lane-2",
+      "reachable": true,
+      "position": [
+        27.5,
+        2,
+        19.5
+      ],
+      "standing_clear": true
+    }
+  ],
+  "not_executed": [
+    "world placement and ticks",
+    "gameplay or combat",
+    "independent visual acceptance",
+    "door/button use and neighbor updates"
+  ],
+  "scope_limits": [
+    "Full nonair canSurvive with real tags and brightness 15 is static support only.",
+    "Route shapes use EmptyBlockGetter; no ladder, jump or movement physics certification.",
+    "No actual world lighting, neighbor, fluid, random ticks or interactions."
+  ]
+}

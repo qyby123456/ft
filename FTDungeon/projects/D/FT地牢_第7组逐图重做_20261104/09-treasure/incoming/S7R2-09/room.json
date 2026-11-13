@@ -1,0 +1,329 @@
+{
+  "id": "S7R2-09",
+  "name": "菌窟阶台秘藏",
+  "size": [
+    31,
+    19,
+    29
+  ],
+  "facing": "south",
+  "entrance": [
+    15,
+    2,
+    28
+  ],
+  "interior": [
+    15,
+    2,
+    25
+  ],
+  "test_targets": [
+    [
+      15,
+      2,
+      28
+    ],
+    [
+      15,
+      2,
+      25
+    ],
+    [
+      15,
+      2,
+      20
+    ],
+    [
+      15,
+      2.5,
+      17
+    ],
+    [
+      15,
+      3,
+      16
+    ],
+    [
+      15,
+      3,
+      12
+    ],
+    [
+      0,
+      3,
+      12
+    ],
+    [
+      30,
+      3,
+      12
+    ],
+    [
+      7,
+      3,
+      12
+    ],
+    [
+      23,
+      3,
+      12
+    ],
+    [
+      15,
+      3.5,
+      10
+    ],
+    [
+      15,
+      4,
+      9
+    ],
+    [
+      15,
+      4.5,
+      8
+    ],
+    [
+      15,
+      5,
+      7
+    ],
+    [
+      15,
+      5,
+      6
+    ],
+    [
+      3,
+      3,
+      11
+    ],
+    [
+      4,
+      3,
+      11
+    ],
+    [
+      5,
+      3,
+      11
+    ],
+    [
+      25,
+      3,
+      14
+    ],
+    [
+      26,
+      3,
+      14
+    ],
+    [
+      4,
+      2,
+      20
+    ],
+    [
+      12,
+      2,
+      22
+    ],
+    [
+      18,
+      2,
+      22
+    ],
+    [
+      26,
+      2,
+      20
+    ]
+  ],
+  "connections": [
+    {
+      "id": "south-front-arch",
+      "direction": "south",
+      "feet": [
+        15,
+        2,
+        28
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "outside_feet": [
+        15,
+        2,
+        29
+      ],
+      "opening": [
+        3,
+        4
+      ],
+      "source": "foreground stair arch visible in reference"
+    },
+    {
+      "id": "west-side-arch",
+      "direction": "west",
+      "feet": [
+        0,
+        3,
+        12
+      ],
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "outside_feet": [
+        -1,
+        3,
+        12
+      ],
+      "opening": [
+        3,
+        4
+      ],
+      "source": "left supply-side opening"
+    },
+    {
+      "id": "east-side-arch",
+      "direction": "east",
+      "feet": [
+        30,
+        3,
+        12
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "outside_feet": [
+        31,
+        3,
+        12
+      ],
+      "opening": [
+        3,
+        4
+      ],
+      "source": "right urn-side opening"
+    }
+  ],
+  "interactions": [
+    {
+      "position": [
+        15,
+        5,
+        5
+      ],
+      "kind": "chest",
+      "access_feet": [
+        15,
+        5,
+        6
+      ]
+    },
+    {
+      "position": [
+        3,
+        3,
+        10
+      ],
+      "kind": "barrel",
+      "access_feet": [
+        3,
+        3,
+        11
+      ]
+    },
+    {
+      "position": [
+        4,
+        3,
+        10
+      ],
+      "kind": "barrel",
+      "access_feet": [
+        4,
+        3,
+        11
+      ]
+    },
+    {
+      "position": [
+        5,
+        3,
+        10
+      ],
+      "kind": "barrel",
+      "access_feet": [
+        5,
+        3,
+        11
+      ]
+    },
+    {
+      "position": [
+        3,
+        4,
+        10
+      ],
+      "kind": "barrel",
+      "access_feet": [
+        3,
+        3,
+        11
+      ]
+    },
+    {
+      "position": [
+        25,
+        3,
+        13
+      ],
+      "kind": "barrel",
+      "access_feet": [
+        25,
+        3,
+        14
+      ]
+    },
+    {
+      "position": [
+        26,
+        3,
+        13
+      ],
+      "kind": "barrel",
+      "access_feet": [
+        26,
+        3,
+        14
+      ]
+    }
+  ],
+  "block_entities": {
+    "chest": 1,
+    "barrel": 6,
+    "banner": 4,
+    "automatic_loot": false
+  },
+  "source_roof": {
+    "top_y": 18,
+    "solid_cells": 899,
+    "open_skylight": false
+  },
+  "water_blocks": 18,
+  "sha256": "d90d7a20d9d061cdd5575bacaf1c488cb0235639773ca45f144f1c4b124410b7",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-09-treasure.png",
+  "reference_sha256": "bb596c53fbe75351b7b53a49cba72ac27fbf50f0b2c5541ca8202c29559a484d",
+  "status": "AWAITING_INDEPENDENT_REGISTRATION_ACCEPTANCE",
+  "runtime_slot": null,
+  "geometry_origin": "Original S7-09 stepped chest shrine and raised twin mushroom alcoves, variable elevation ground paths; no old room geometry imported",
+  "coordinate_system": "feet block coordinates may use .5 Y; +X east +Y up +Z south",
+  "world_placement": "NOT_RUN"
+}

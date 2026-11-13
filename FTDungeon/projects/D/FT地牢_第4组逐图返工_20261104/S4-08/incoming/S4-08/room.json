@@ -1,0 +1,242 @@
+{
+  "id": "S4-08",
+  "name": "盘根瀑水回廊庭院",
+  "size": [
+    35,
+    27,
+    35
+  ],
+  "sha256": "e0d77c77057d8587096cd1e36b3ccff7a5b8cb01e33eef977ba24a928b116223",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S4-swamp-wetland\\out\\S4-08-courtyard.png",
+  "reference_sha256": "38ffb17346f72fe84444de26b14b49070d1cb59ed8279afcc30412469aa1d130",
+  "previous_acceptance": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S4-07-independent\\independent-details.json",
+  "previous_sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375",
+  "entrance": [
+    17,
+    5,
+    34
+  ],
+  "interior": [
+    17,
+    5,
+    25
+  ],
+  "facing": "south",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "axes": {
+    "x": "east",
+    "y": "up",
+    "z": "south"
+  },
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        17,
+        5,
+        0
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    },
+    {
+      "facing": "south",
+      "position": [
+        17,
+        5,
+        34
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    },
+    {
+      "facing": "west",
+      "position": [
+        0,
+        5,
+        17
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    },
+    {
+      "facing": "east",
+      "position": [
+        34,
+        5,
+        25
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    }
+  ],
+  "route_waypoints": [
+    [
+      17,
+      5,
+      0
+    ],
+    [
+      17,
+      5,
+      34
+    ],
+    [
+      0,
+      5,
+      17
+    ],
+    [
+      34,
+      5,
+      25
+    ],
+    [
+      17,
+      5,
+      9
+    ],
+    [
+      9,
+      5,
+      9
+    ],
+    [
+      9,
+      5,
+      17
+    ],
+    [
+      9,
+      5,
+      23
+    ],
+    [
+      17,
+      5,
+      25
+    ],
+    [
+      25,
+      5,
+      25
+    ],
+    [
+      25,
+      5,
+      17
+    ],
+    [
+      25,
+      5,
+      9
+    ],
+    [
+      29,
+      5,
+      22
+    ],
+    [
+      29,
+      6,
+      21
+    ],
+    [
+      29,
+      9,
+      18
+    ],
+    [
+      29,
+      12,
+      15
+    ],
+    [
+      29,
+      13,
+      13
+    ],
+    [
+      29,
+      13,
+      6
+    ],
+    [
+      20,
+      13,
+      4
+    ],
+    [
+      10,
+      13,
+      4
+    ],
+    [
+      4,
+      13,
+      4
+    ],
+    [
+      4,
+      13,
+      12
+    ],
+    [
+      4,
+      13,
+      20
+    ],
+    [
+      4,
+      13,
+      29
+    ],
+    [
+      17,
+      5,
+      11
+    ],
+    [
+      11,
+      5,
+      17
+    ],
+    [
+      23,
+      5,
+      17
+    ],
+    [
+      18,
+      5,
+      23
+    ],
+    [
+      10,
+      5,
+      30
+    ]
+  ],
+  "runtime_slot": null,
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "world_placement_ticks_gameplay": "NOT_RUN",
+  "integration": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "deviations": [
+    "35x27x35 estimated from image, not a measured blueprint.",
+    "Upper west/north gallery kept with fences; internal east stair added for walking access instead of an unreachable decorative balcony.",
+    "Four lower supported interfaces added with side/asymmetric east positionZ25 to avoid staircase; outer forest omitted.",
+    "Central raised rooted island and real persistent-leaf tree retained; leaf distance=1 is authored initial state, no world growth/decay test.",
+    "Contained source trough and three-wide falling water column approximate foreground waterfall; intentional exposed falling face precisely recorded, no actual fluid ticks.",
+    "Waterlogged top-slab ring/approaches approximate submerged stones, offline native body shape only.",
+    "Preview cutaway removes only Y>=14 and is never a candidate."
+  ]
+}

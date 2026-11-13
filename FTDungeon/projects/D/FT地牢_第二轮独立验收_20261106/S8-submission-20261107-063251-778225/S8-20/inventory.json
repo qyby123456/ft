@@ -1,0 +1,126 @@
+{
+  "sha256": "f7a8d6ee86a6199b10598486a605ffc870e80c78a041fd2ad4387e7c62c7bfca",
+  "size": [
+    31,
+    14,
+    23
+  ],
+  "counts": {
+    "minecraft:smooth_basalt": 713,
+    "minecraft:cobbled_deepslate": 1953,
+    "minecraft:polished_deepslate": 588,
+    "minecraft:calcite": 158,
+    "minecraft:amethyst_block": 417,
+    "minecraft:deepslate_bricks": 1231,
+    "minecraft:air": 158,
+    "minecraft:deepslate_brick_stairs": 108,
+    "minecraft:deepslate_tile_slab": 58,
+    "minecraft:chiseled_deepslate": 6,
+    "minecraft:cobweb": 1,
+    "minecraft:deepslate_brick_slab": 11,
+    "minecraft:polished_deepslate_slab": 6,
+    "minecraft:chest": 1,
+    "minecraft:gold_block": 2,
+    "minecraft:light_weighted_pressure_plate": 2,
+    "minecraft:amethyst_cluster": 6,
+    "minecraft:lever": 1,
+    "minecraft:chain": 8,
+    "minecraft:lantern": 3
+  },
+  "entities": [
+    {
+      "pos": [
+        15,
+        4,
+        5
+      ],
+      "block": "minecraft:chest",
+      "nbt": "{id:\"minecraft:chest\",Items:[]}"
+    }
+  ],
+  "hazards": [],
+  "metadata": {
+    "name": "s8-20-secret-vault",
+    "size": [
+      31,
+      14,
+      23
+    ],
+    "ports": [
+      {
+        "side": "west",
+        "foot": [
+          0,
+          2,
+          11
+        ],
+        "width": 3,
+        "height": 4
+      },
+      {
+        "side": "east",
+        "foot": [
+          30,
+          2,
+          11
+        ],
+        "width": 3,
+        "height": 4
+      }
+    ],
+    "start": [
+      0,
+      2,
+      11
+    ],
+    "targets": [
+      {
+        "label": "east passage exit",
+        "position": [
+          30,
+          2,
+          11
+        ]
+      },
+      {
+        "label": "vault approach",
+        "position": [
+          15,
+          2,
+          11
+        ]
+      },
+      {
+        "label": "chest dais",
+        "position": [
+          15,
+          4,
+          6
+        ]
+      },
+      {
+        "label": "concealed lever",
+        "position": [
+          10,
+          2,
+          8
+        ]
+      }
+    ],
+    "features": [
+      "bent narrow disguised-wall passage",
+      "small treasure alcove",
+      "raised chest dais",
+      "gold coin sculptures",
+      "concealed lever",
+      "cobweb corner",
+      "two through exits"
+    ],
+    "differences": [
+      "Chest empty and unlocked; no fabricated loot or security mechanism",
+      "Lever decorative, no automatic secret piston door",
+      "Gold blocks/pressure plates stand in for coins",
+      "Hidden passage kept visibly open for traversal"
+    ]
+  }
+}

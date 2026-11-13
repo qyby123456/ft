@@ -1,0 +1,85 @@
+{
+  "group": 4,
+  "image": 2,
+  "status": "SELF_CHECK_PASS_PENDING_INDEPENDENT_ACCEPTANCE",
+  "recorded_at": "2026-11-04T21:34:50.617709+08:00",
+  "name": "浅水遗迹书房与发光石台",
+  "size": [
+    29,
+    18,
+    27
+  ],
+  "sha256": "9a101d563824cca090337068809235d56c1ec9ab22b4067d9956d5148138592b",
+  "previous_image_independent_acceptance": "D:/ft工程文件/FT地牢_独立复核_20261104_01a1a685/S4-01-revision1-independent-final/ACCEPTANCE.json",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S4-swamp-wetland\\out\\S4-02-medium-room.png",
+  "reference_sha256": "9499135dedc8f68ec0b9ef50b2db1c02e0762c6124c2bef5f07144e1c6f23ad5",
+  "new_geometry": "Independent drowned study recipe; no S4-01 tree/dais geometry imported. QA harness reuse only.",
+  "native_template_roundtrip": "PASS",
+  "loaded_empty_decorative_chests": 2,
+  "port_interfaces": [
+    {
+      "facing": "north",
+      "position": [
+        19,
+        4,
+        0
+      ],
+      "width": 5,
+      "height": 4,
+      "position_means": "feet center",
+      "floor_y": 3
+    },
+    {
+      "facing": "south",
+      "position": [
+        13,
+        4,
+        26
+      ],
+      "width": 5,
+      "height": 4,
+      "position_means": "feet center",
+      "floor_y": 3
+    }
+  ],
+  "port_5x4x4_support_clearance": "PASS",
+  "body_route_targets": 12,
+  "body_route_0_6x1_8_half_grid": "PASS",
+  "body_route_half_grid_nodes": 1339,
+  "fragile_survival_and_six_direction_vine_updates": {
+    "status": "PASS",
+    "sha256": "9a101d563824cca090337068809235d56c1ec9ab22b4067d9956d5148138592b",
+    "vines_checked": 39,
+    "vanilla_tags_bound": 170,
+    "tag_snapshot_sha256": "ed7dd587ed9eef0a7828dd362ab3a08b081f9b2bc32e7469a2e60da8fb15bc7d",
+    "lilies_canSurvive_checked": 29,
+    "pots_canSurvive_checked": 3,
+    "neighbor_directions_per_vine_per_pass": 6,
+    "passes_to_fixed_point": 1,
+    "changed_states": 0,
+    "failures": [],
+    "scope": "Vanilla 1.20.1 canSurvive and updateShape on all six neighbors, repeated to a fixed point using in-memory LevelAccessor. No world, random/fluid ticks, propagation scheduler, gameplay or deployment."
+  },
+  "water_lily_furniture_support_boundaries": "PASS",
+  "actual_nbt_lodestone_three_views": "PASS",
+  "repetition_unique_nbt": 126,
+  "repetition_exact_geometry_duplicates": 0,
+  "highest_coarse_interior_similarity": {
+    "path": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-01\\revision-02\\preview-only\\preview-only.nbt",
+    "size": [
+      25,
+      18,
+      31
+    ],
+    "sha256": "9975b7e5c2fa920bbb71d56f6be520ea3b4eeeb7e0350a22bb9909349065f755",
+    "same_geometry_ignoring_material": false,
+    "interior_normalized_solid_jaccard_best_y_rotation": 0.3611
+  },
+  "repetition_scope": "Coarse screen includes unrelated preview cuts; not a universal uniqueness proof. Independent visual review required.",
+  "world_placement_ticks_gameplay": "NOT_RUN",
+  "integration": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "independent_acceptance": "PENDING",
+  "next_image_started": false,
+  "gate": "S4-03 and later NOT_AUTHORIZED; do not start or pre-generate."
+}

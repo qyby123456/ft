@@ -1,0 +1,434 @@
+{
+  "group": 4,
+  "image": 8,
+  "status": "SELF_CHECK_PASS_PENDING_INDEPENDENT_ACCEPTANCE",
+  "recorded_at": "2026-11-05T15:33:01.421780+08:00",
+  "name": "盘根瀑水回廊庭院",
+  "size": [
+    35,
+    27,
+    35
+  ],
+  "sha256": "e0d77c77057d8587096cd1e36b3ccff7a5b8cb01e33eef977ba24a928b116223",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S4-swamp-wetland\\out\\S4-08-courtyard.png",
+  "reference_sha256": "38ffb17346f72fe84444de26b14b49070d1cb59ed8279afcc30412469aa1d130",
+  "previous_independent_acceptance": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S4-07-independent\\independent-details.json",
+  "accepted_earlier_images_unchanged": {
+    "S4-01": {
+      "sha256": "9fa8bca1a05e79bb9f2d9f954765ec146f2cc0d8ae56786aded36a5bcc33d106",
+      "manifest_entries_verified": 38
+    },
+    "S4-02": {
+      "sha256": "792049b30f24c683e67cd368bf55fab30bd353b3692e5730be72b4570728e889",
+      "manifest_entries_verified": 42
+    },
+    "S4-03": {
+      "sha256": "a0b37f5e493403716ed417c0c8e3cafebb7adc2d17ba31da085fb05643fd45a5",
+      "manifest_entries_verified": 41
+    },
+    "S4-04": {
+      "sha256": "a809502d03ce697502679a9134bb5920aa18bf6826c9b35926968da20cc871cc",
+      "manifest_entries_verified": 86
+    },
+    "S4-05": {
+      "sha256": "0eae8fc3380e1b726a812f8b7f5a64951cc64da583940a629c3572663007a373",
+      "manifest_entries_verified": 42
+    },
+    "S4-06": {
+      "sha256": "0c5f783f22bd6d7f4cf7fcf20a0ea43191839b13ece344108727f167d35cacc0",
+      "manifest_entries_verified": 44
+    },
+    "S4-07": {
+      "sha256": "4858ff7525f87762fbc12adbc5bbd668f9f0016d7c9ca7274613b8e06564e375",
+      "manifest_entries_verified": 44
+    }
+  },
+  "geometry_authorship": "New image-specific rooted central tree island, flooded courtyard, upper fenced north/west gallery, internal ascent stair and contained foreground waterfall. Earlier geometry not copied; QA harnesses reused.",
+  "native_palette_template_and_entities": "PASS",
+  "ports_3x4x3_supported_clearance": "PASS",
+  "port_interfaces": [
+    {
+      "facing": "north",
+      "position": [
+        17,
+        5,
+        0
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    },
+    {
+      "facing": "south",
+      "position": [
+        17,
+        5,
+        34
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    },
+    {
+      "facing": "west",
+      "position": [
+        0,
+        5,
+        17
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    },
+    {
+      "facing": "east",
+      "position": [
+        34,
+        5,
+        25
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    }
+  ],
+  "body_route_targets": 29,
+  "body_route_0_6x1_8_half_grid": "PASS",
+  "reachable_half_grid_nodes": 2892,
+  "neighbor_shape_and_fragile_survival": {
+    "status": "PASS",
+    "sha256": "e0d77c77057d8587096cd1e36b3ccff7a5b8cb01e33eef977ba24a928b116223",
+    "vines_checked": 131,
+    "total_neighbor_shape_positions": 488,
+    "scheduled_ticks_suppressed_not_executed": 1608,
+    "vanilla_tags_bound": 170,
+    "tag_snapshot_sha256": "ed7dd587ed9eef0a7828dd362ab3a08b081f9b2bc32e7469a2e60da8fb15bc7d",
+    "lilies_canSurvive_checked": 23,
+    "pots_canSurvive_checked": 0,
+    "neighbor_directions_per_vine_per_pass": 6,
+    "passes_to_fixed_point": 1,
+    "changed_states": 0,
+    "failures": [],
+    "scope": "Vanilla 1.20.1 canSurvive and six-direction updateShape for wall/ceiling cave vines, waterlogged roots/slabs, fences, chain, lilies and pots using in-memory LevelAccessor. Scheduled fluid ticks are counted and suppressed, not executed. No world, random/fluid ticks, propagation scheduler, gameplay or deployment."
+  },
+  "waterfall_roots_gallery_and_architectural_support": {
+    "status": "PASS",
+    "sha256": "e0d77c77057d8587096cd1e36b3ccff7a5b8cb01e33eef977ba24a928b116223",
+    "unexpected_water_bottom_side_air_edges": 0,
+    "intentional_waterfall_faces": [
+      [
+        [
+          6,
+          5,
+          28
+        ],
+        [
+          6,
+          5,
+          29
+        ]
+      ],
+      [
+        [
+          6,
+          6,
+          28
+        ],
+        [
+          6,
+          6,
+          29
+        ]
+      ],
+      [
+        [
+          6,
+          7,
+          28
+        ],
+        [
+          6,
+          7,
+          29
+        ]
+      ],
+      [
+        [
+          7,
+          5,
+          28
+        ],
+        [
+          7,
+          5,
+          29
+        ]
+      ],
+      [
+        [
+          7,
+          6,
+          28
+        ],
+        [
+          7,
+          6,
+          29
+        ]
+      ],
+      [
+        [
+          7,
+          7,
+          28
+        ],
+        [
+          7,
+          7,
+          29
+        ]
+      ],
+      [
+        [
+          8,
+          5,
+          28
+        ],
+        [
+          8,
+          5,
+          29
+        ]
+      ],
+      [
+        [
+          8,
+          6,
+          28
+        ],
+        [
+          8,
+          6,
+          29
+        ]
+      ],
+      [
+        [
+          8,
+          7,
+          28
+        ],
+        [
+          8,
+          7,
+          29
+        ]
+      ]
+    ],
+    "waterfall_scope": "Nine authored south faces of falling water, not containment error; source trough sides/bottom supported; actual world fluid propagation NOT_RUN.",
+    "architectural_solid_components": 1,
+    "supported_lamps": 7,
+    "fern_count": 3,
+    "persistent_leaf_blocks": 457,
+    "trunk_and_roots_wood_component": 245,
+    "root_endpoints": [
+      [
+        12,
+        5,
+        16
+      ],
+      [
+        23,
+        5,
+        19
+      ],
+      [
+        16,
+        5,
+        11
+      ],
+      [
+        17,
+        5,
+        23
+      ]
+    ],
+    "stairs": 24,
+    "gallery_walk_foot_y": 13,
+    "water_surface_columns": 297,
+    "water_dominant": true,
+    "scope": "Static plant/water support, solid architecture/root connections; full half-grid native body routes separately. World ticks/physics NOT_RUN."
+  },
+  "actual_full_nbt_interior_exterior_and_cutaway": {
+    "status": "PASS",
+    "sha256": "e0d77c77057d8587096cd1e36b3ccff7a5b8cb01e33eef977ba24a928b116223",
+    "renderer": "Actual NBT / Lodestone ThreeStructureRenderer / Edge WebGL; camera-only injection, no visual or geometry substitution.",
+    "views": [
+      {
+        "filename": "preview-exterior.png",
+        "camera": {
+          "center": [
+            17.5,
+            10,
+            17.5
+          ],
+          "distance": 51,
+          "pitch": 0.57,
+          "yaw": -0.72
+        },
+        "url": "http://127.0.0.1:5464/?name=S4-08%20FULL%20CANDIDATE%20-%20rooted%20waterfall%20courtyard",
+        "sha256": "e0d77c77057d8587096cd1e36b3ccff7a5b8cb01e33eef977ba24a928b116223"
+      },
+      {
+        "filename": "preview-reverse.png",
+        "camera": {
+          "center": [
+            17.5,
+            10,
+            17.5
+          ],
+          "distance": 51,
+          "pitch": 0.57,
+          "yaw": 2.42
+        },
+        "url": "http://127.0.0.1:5464/?name=S4-08%20FULL%20CANDIDATE%20-%20rooted%20waterfall%20courtyard",
+        "sha256": "e0d77c77057d8587096cd1e36b3ccff7a5b8cb01e33eef977ba24a928b116223"
+      },
+      {
+        "filename": "preview-eye.png",
+        "camera": {
+          "center": [
+            17,
+            8,
+            14
+          ],
+          "distance": 16,
+          "pitch": 0.02,
+          "yaw": 0
+        },
+        "url": "http://127.0.0.1:5464/?name=S4-08%20FULL%20CANDIDATE%20-%20rooted%20waterfall%20courtyard",
+        "sha256": "e0d77c77057d8587096cd1e36b3ccff7a5b8cb01e33eef977ba24a928b116223"
+      },
+      {
+        "filename": "preview-roots.png",
+        "camera": {
+          "center": [
+            17,
+            8,
+            18
+          ],
+          "distance": 12,
+          "pitch": 0.28,
+          "yaw": -0.5
+        },
+        "url": "http://127.0.0.1:5464/?name=S4-08%20FULL%20CANDIDATE%20-%20rooted%20waterfall%20courtyard",
+        "sha256": "e0d77c77057d8587096cd1e36b3ccff7a5b8cb01e33eef977ba24a928b116223"
+      },
+      {
+        "filename": "preview-waterfall.png",
+        "camera": {
+          "center": [
+            7.5,
+            6,
+            27
+          ],
+          "distance": 7,
+          "pitch": 0.45,
+          "yaw": -0.15
+        },
+        "url": "http://127.0.0.1:5464/?name=S4-08%20FULL%20CANDIDATE%20-%20rooted%20waterfall%20courtyard",
+        "sha256": "e0d77c77057d8587096cd1e36b3ccff7a5b8cb01e33eef977ba24a928b116223"
+      },
+      {
+        "filename": "preview-gallery-stairs.png",
+        "camera": {
+          "center": [
+            27,
+            10,
+            15
+          ],
+          "distance": 19,
+          "pitch": 0.48,
+          "yaw": -1
+        },
+        "url": "http://127.0.0.1:5464/?name=S4-08%20FULL%20CANDIDATE%20-%20rooted%20waterfall%20courtyard",
+        "sha256": "e0d77c77057d8587096cd1e36b3ccff7a5b8cb01e33eef977ba24a928b116223"
+      },
+      {
+        "filename": "preview-night.png",
+        "camera": {
+          "center": [
+            17.5,
+            10,
+            17.5
+          ],
+          "distance": 51,
+          "pitch": 0.57,
+          "yaw": -0.72
+        },
+        "url": "http://127.0.0.1:5464/?name=S4-08%20FULL%20CANDIDATE%20-%20rooted%20waterfall%20courtyard",
+        "sha256": "e0d77c77057d8587096cd1e36b3ccff7a5b8cb01e33eef977ba24a928b116223"
+      },
+      {
+        "filename": "preview-cutaway.png",
+        "camera": {
+          "center": [
+            17.5,
+            6,
+            17.5
+          ],
+          "distance": 48,
+          "pitch": 0.85,
+          "yaw": -0.72
+        },
+        "url": "http://127.0.0.1:5465/?name=S4-08%20PREVIEW%20ONLY%20-%20Y14%2B%20CUT%20TO%20AIR",
+        "sha256": "fb7d6d0f291f5e5d033e1fdc3c2abda3b2adaded00c236d2d106e5dad2874027"
+      }
+    ],
+    "errors": []
+  },
+  "cutaway_derivative_rules": {
+    "status": "PASS_AIR_ONLY_DERIVATIVE",
+    "candidate_sha256": "e0d77c77057d8587096cd1e36b3ccff7a5b8cb01e33eef977ba24a928b116223",
+    "derivative_sha256": "fb7d6d0f291f5e5d033e1fdc3c2abda3b2adaded00c236d2d106e5dad2874027",
+    "candidate": "D:\\ft工程文件\\FT地牢_第4组逐图返工_20261104\\S4-08\\incoming\\S4-08\\room.nbt",
+    "derivative": "D:\\ft工程文件\\FT地牢_第4组逐图返工_20261104\\S4-08\\preview-only\\upper-cutaway.nbt",
+    "rule": "At original coordinates replace non-air by air iff Y>=14; keep bounding box35x27x35, original lower stairs, gallery deck/fences atY13, tree roots, waterfall, floor and water.",
+    "removed_blocks": 1771,
+    "no_added_or_material_changed_blocks": true,
+    "deployment": "FORBIDDEN_PREVIEW_ONLY",
+    "scope": "Cut-only visibility aid; not an alternative candidate or survival-valid structure."
+  },
+  "repetition_screen": {
+    "compared_unique_nbt": 356,
+    "exact_geometry_duplicates": 0,
+    "highest_coarse_match": {
+      "path": "D:\\ft工程文件\\FT地牢_第4组逐图返工_20261104\\S4-01\\incoming\\S4-01\\room.nbt",
+      "size": [
+        49,
+        31,
+        49
+      ],
+      "sha256": "9fa8bca1a05e79bb9f2d9f954765ec146f2cc0d8ae56786aded36a5bcc33d106",
+      "same_geometry_ignoring_material": false,
+      "interior_normalized_solid_jaccard_best_y_rotation": 0.4054
+    },
+    "scope": "Available local nature-group NBT snapshot only; normalized interior solid occupancy is a coarse signal, not proof of visual originality. No old file is used as a build input.",
+    "interpretation": "High coarse sealed-room occupancy similarity is not visual equivalence; independent image review still required."
+  },
+  "deviations": [
+    "35x27x35 estimated from image, not a measured blueprint.",
+    "Upper west/north gallery kept with fences; internal east stair added for walking access instead of an unreachable decorative balcony.",
+    "Four lower supported interfaces added with side/asymmetric east positionZ25 to avoid staircase; outer forest omitted.",
+    "Central raised rooted island and real persistent-leaf tree retained; leaf distance=1 is authored initial state, no world growth/decay test.",
+    "Contained source trough and three-wide falling water column approximate foreground waterfall; intentional exposed falling face precisely recorded, no actual fluid ticks.",
+    "Waterlogged top-slab ring/approaches approximate submerged stones, offline native body shape only.",
+    "Preview cutaway removes only Y>=14 and is never a candidate."
+  ],
+  "world_placement_ticks_gameplay": "NOT_RUN",
+  "integration": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "independent_acceptance": "PENDING",
+  "next_image_started": false,
+  "gate": "S4-09 and later NOT_AUTHORIZED; do not start or pre-generate."
+}

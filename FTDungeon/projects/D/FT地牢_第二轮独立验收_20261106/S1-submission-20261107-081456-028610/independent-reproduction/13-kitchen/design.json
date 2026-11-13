@@ -1,0 +1,118 @@
+{
+  "id": "S1-13",
+  "size": [
+    33,
+    17,
+    29
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        14
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        32,
+        2,
+        14
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "start": [
+    2,
+    2,
+    14
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        30,
+        2,
+        14
+      ]
+    },
+    {
+      "label": "hearth",
+      "position": [
+        16,
+        2,
+        7
+      ]
+    },
+    {
+      "label": "first-table",
+      "position": [
+        10,
+        2,
+        10
+      ]
+    },
+    {
+      "label": "second-table",
+      "position": [
+        23,
+        2,
+        15
+      ]
+    }
+  ],
+  "reference_features": [
+    "central chimney hearth and cauldron",
+    "two asymmetrical long mess tables",
+    "jar shelves each side",
+    "front-left pond",
+    "two lateral exits"
+  ],
+  "differences": [
+    "Hearth flame replaced by shroomlight, no damaging fire/lava",
+    "Cauldron supported on luminous hearth base rather than floating",
+    "Vanilla pots and cake replace jars, plates and loose food",
+    "Full ceiling retained; glow and soft sunlight are renderer approximation"
+  ],
+  "cutaway": {
+    "removeAbove": 12,
+    "frontDepth": 27,
+    "sideX": 31
+  },
+  "focus_views": [
+    {
+      "id": "focus",
+      "position": [
+        24,
+        11,
+        18
+      ],
+      "target": [
+        16,
+        5,
+        4
+      ],
+      "fov": 53
+    },
+    {
+      "id": "function-detail",
+      "position": [
+        21,
+        9,
+        12
+      ],
+      "target": [
+        16,
+        5,
+        4
+      ],
+      "fov": 48
+    }
+  ],
+  "revision": "R2: independent visual/support changes; targets retained"
+}

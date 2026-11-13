@@ -1,0 +1,134 @@
+{
+  "id": "S7-15",
+  "title": "训练场",
+  "reference_observed": "大面积砂质训练地、四个草人、后墙靶与器械、前排围栏和双长凳、边沿巨菇台地、左右双出口",
+  "start": [
+    2,
+    3,
+    18
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "foot": [
+        0,
+        3,
+        18
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    },
+    {
+      "side": "east",
+      "foot": [
+        38,
+        3,
+        18
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "west",
+      "position": [
+        0,
+        3,
+        18
+      ]
+    },
+    {
+      "label": "east",
+      "position": [
+        38,
+        3,
+        18
+      ]
+    },
+    {
+      "label": "arena center",
+      "position": [
+        19,
+        3,
+        18
+      ]
+    },
+    {
+      "label": "targets",
+      "position": [
+        19,
+        3,
+        8
+      ]
+    },
+    {
+      "label": "spectators",
+      "position": [
+        19,
+        3,
+        31
+      ]
+    },
+    {
+      "label": "obstacles",
+      "position": [
+        6,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "balance beam approach",
+      "position": [
+        29,
+        3,
+        15
+      ]
+    },
+    {
+      "label": "low hurdle approach",
+      "position": [
+        31,
+        3,
+        23
+      ]
+    },
+    {
+      "label": "stepping stones approach",
+      "position": [
+        35,
+        3,
+        15
+      ]
+    }
+  ],
+  "differences": [
+    "草人使用干草方块，无可攻击实体",
+    "训练地采用砂岩保证不受重力影响；障碍为边路半砖，不作为必须跳跃路径",
+    "靶为原版标靶方块，无红石计分系统",
+    "门统一采用开口接口，不声明机关或战斗关卡"
+  ],
+  "revision_2": {
+    "reason": "Independent visual preliminary REQUEST_CHANGES",
+    "preserved_evidence": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\independent-reproduction\\history\\pre-visual-request-changes\\S7-15",
+    "changes": [
+      "Continuous irregular floor patches replace per-cell checkerboard",
+      "Wave-based clustered cave palette, projecting upper ledges, supported hanging roots and mushrooms",
+      "Stone-and-log layered frames at unchanged clear ports",
+      "Feature-detail render supplements overview; no targets removed"
+    ]
+  },
+  "takeover_source_manifest": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\local-relief-v4\\takeover-source-manifest.json",
+  "revision_3": {
+    "reason": "Explicit obstacle equipment requested in independent 034601 review",
+    "added": [
+      "Raised log balance beam on supports",
+      "Low log hurdle on two posts",
+      "Three half-height stepping stones"
+    ],
+    "preserved": "Original six targets and four dummies, three targets, benches and fence retained",
+    "limits": "Equipment optional side course; no real player jumping certification"
+  },
+  "inherited_reference_scope": "Earlier revision_2 and takeover provenance fields were copied by the revision initializer and may contain relocated historical paths. Authoritative ancestry is revision-parent.json with exact source hashes; do not treat absent relocated history paths as new evidence."
+}

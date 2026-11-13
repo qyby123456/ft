@@ -1,0 +1,50 @@
+{
+  "external_review": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-034601-369679\\REVIEW.md",
+  "priority_updates": {
+    "19": {
+      "source_sha256": "4082e63fcde97a432e70786b2fb32a9460e8da7f24edfb865be777affb1d4505",
+      "changes": "18 extra cells of enclosed viewing depth; near/middle/far fungi at x=19/10/3, stepped cave bed, irregular back projection and supported hanging roots; original functional geometry shifted +18 x, stairs and original target labels retained",
+      "standing_eye": [
+        28.5,
+        10.62,
+        18.5
+      ],
+      "standing_feet": [
+        28.5,
+        9,
+        18.5
+      ],
+      "feet_native_target_added": true,
+      "view": "standing-vista.png; actual source displayed without cutaway",
+      "limits": "Safe closed viewing cave, not infinite landscape; client/player motion not executed"
+    },
+    "20": {
+      "source_sha256": "00fa50ef3af01ffd9e0c870bcd1538f38219dd1ca740d2eebf7a04753b165408",
+      "changes": "Stepped left fungal mass, roof crowns and side buttresses; thick inset frame; chest/gold/lever/secret route retained",
+      "view": "vault-massing.png and vault-detail.png",
+      "lever": "Retained wall/south, backing [29,4,11]; current author support check passed, old independent closure cannot auto-certify new hash"
+    },
+    "15": {
+      "source_sha256": "2fbd5e920170f35d6c72e62377df938650bc69337dad37c8da834c1aa1b2dca7",
+      "changes": "Optional supported balance beam, low log hurdle and three half-height stepping stones; four dummies/targets/benches/fence retained",
+      "view": "obstacle-detail.png",
+      "targets": "Original six plus three approaches all reachable; no jumping certification"
+    },
+    "clearance": "110 nonoverlapping fill cuboids <=32768 each cover full 1969040 block bounds; unexecuted block-only plan, not sparse part footprint"
+  },
+  "group_accepted": false,
+  "remaining": [
+    "Independent review of new 15/19/20 hashes and new merge/parts",
+    "11: thick entry, upper ladder real-player access",
+    "12: thick cell frame and real door control interaction",
+    "13: embedded layered stove and entry structure",
+    "14: weapon rack detail and entry frame",
+    "16: layered stone-soil base, smaller fungi, side access",
+    "17: thick entry and shelf cave relief",
+    "18: thicker niche frames and coffin side relief",
+    "New source world updates for 15/19/20 and merged structure",
+    "Player chest/lever/menu interaction, full traversal and multiple orientations",
+    "Independent coverage proof for continuous width at every turn; sampled native checks alone do not prove continuous global clearance",
+    "Clearance plan independently inspect and authorize before any deployment; not executed"
+  ]
+}

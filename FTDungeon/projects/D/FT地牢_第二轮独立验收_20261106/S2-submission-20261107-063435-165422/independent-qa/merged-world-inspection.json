@@ -1,0 +1,25 @@
+{
+  "stage": "INDEPENDENT_INSPECTION_OF_PRODUCER_MERGED_WORLD_EVIDENCE",
+  "source_sha256": "33ceb33f633cfa6e797cc184cd3c5ff34ce9f0901e9b909da161782ec5cc0e6c",
+  "source_records": 166642,
+  "after_records": 752850,
+  "type_changes": [],
+  "raw_state_changes": 284,
+  "raw_block_entity_changes": 30,
+  "server_ticks": 15612,
+  "natural_wait_ticks": 600,
+  "movement_waypoints": 4215,
+  "trace_records": 751,
+  "return_endpoint_distance": 0.0019154102814542993,
+  "doors_open_restore": 8,
+  "server_menus_opened": 32,
+  "occupied_container_slots": 0,
+  "water_loss_spread_and_drops": 0,
+  "accepted": false,
+  "limitations": [
+    "Producer world output inspected independently; parent has not rerun this server test",
+    "Movement source was inspected: initial moveTo then Player.travel; separate operator moves for containers, so menus do not prove player reach or line of sight",
+    "Raw state changes include omitted default properties and connection updates; raw block entity differences are not fully classified",
+    "No human client, combat, arbitrary rotations, restart or random tick coverage certification"
+  ]
+}

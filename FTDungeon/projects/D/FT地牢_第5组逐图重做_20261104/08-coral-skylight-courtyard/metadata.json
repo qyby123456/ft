@@ -1,0 +1,102 @@
+{
+  "name": "S5-08 coral skylight courtyard",
+  "reference": "reference/S5-08-courtyard.png",
+  "candidate": "nbt/s5-08-coral-skylight-courtyard.nbt",
+  "nbt_sha256": "71c21f20e39462b0cbcb018c4c125d6348e13372ec0cc3a3045d7fabafaf7cea",
+  "size": [
+    35,
+    22,
+    35
+  ],
+  "data_version": 3465,
+  "records": 26950,
+  "ports": [
+    {
+      "anchor": [
+        17,
+        3,
+        0
+      ],
+      "outward": "north",
+      "width": 5
+    },
+    {
+      "anchor": [
+        0,
+        3,
+        18
+      ],
+      "outward": "west",
+      "width": 5
+    },
+    {
+      "anchor": [
+        34,
+        3,
+        18
+      ],
+      "outward": "east",
+      "width": 5
+    }
+  ],
+  "central_feature": {
+    "footprint": [
+      [
+        13,
+        3,
+        13
+      ],
+      [
+        21,
+        3,
+        21
+      ]
+    ],
+    "tiers": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "coral_peak_y": 11,
+    "sea_lantern_base_corners": 4,
+    "jet_or_bubble_effect": false
+  },
+  "upper_gallery": {
+    "shape": "U north/west/east",
+    "floor_y": 12,
+    "feet_y": 13,
+    "railing_y": [
+      13,
+      14
+    ],
+    "waterlogged_iron_bars": 150,
+    "access": "Swim tofeetY16, cross above railing, descend toY13; no stairs, no air or player-physics claim"
+  },
+  "skylight": {
+    "roof_y": 19,
+    "source_aperture_x": [
+      6,
+      28
+    ],
+    "source_aperture_z": [
+      6,
+      28
+    ],
+    "open_above_with_source_water": true
+  },
+  "integration": {
+    "source_ring": 8,
+    "source_cover_y": [
+      22,
+      29
+    ],
+    "solid_bed_y": [
+      0,
+      2
+    ],
+    "wet_gate_outside_depth": 3,
+    "dry_tunnel_allowed": false
+  },
+  "route_scope": "18 native six-neighbor3D collision-clearance targets, feetY3..18. Extra source-only two-high explicit ring and upper routes. No offline body sweep, player movement, AI, breathing or infinite-time certification."
+}

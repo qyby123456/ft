@@ -1,0 +1,96 @@
+{
+  "id": "s3-14",
+  "size": [
+    27,
+    14,
+    25
+  ],
+  "title": "霜兵军械库",
+  "reference": "S3-14",
+  "features": [
+    "壁挂兵器意象架",
+    "两座盔甲雕塑",
+    "上锁空武器柜",
+    "铁砧砂轮",
+    "中央检验台",
+    "灵魂灯冷光"
+  ],
+  "ports": [
+    {
+      "name": "west",
+      "foot": [
+        0,
+        2,
+        14
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "east",
+      "foot": [
+        26,
+        2,
+        14
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "start": [
+    0,
+    2,
+    14
+  ],
+  "targets": [
+    {
+      "label": "east exit",
+      "position": [
+        26,
+        2,
+        14
+      ]
+    },
+    {
+      "label": "inspection",
+      "position": [
+        13,
+        2,
+        7
+      ]
+    },
+    {
+      "label": "locked cabinet",
+      "position": [
+        14,
+        2,
+        18
+      ]
+    },
+    {
+      "label": "anvil",
+      "position": [
+        7,
+        2,
+        7
+      ]
+    }
+  ],
+  "differences": [
+    "无实体盔甲架，使用铁块/钻石块雕塑，非可装备角色",
+    "末地烛表现武器与箭束，无武器物品或补给",
+    "上锁柜库存为空，无掉落表"
+  ],
+  "cutY": 12,
+  "architectural_revision": "石木门框、后壁梁柱、连续雪沿、错落收尖冰挂；显式木纹轴向和木桶open=false使原生预览与实际一致"
+}

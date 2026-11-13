@@ -1,0 +1,183 @@
+{
+  "status": "PASS_EXACT_DENSE_REASSEMBLY",
+  "source_sha256": "476f97c9938a76e45e65d3181e596754c5d4e97bdbdd64cd319c0b411bb58a3d",
+  "source_size": [
+    73,
+    22,
+    73
+  ],
+  "source_explicit_records": 117238,
+  "source_block_entities": 5,
+  "parts": [
+    {
+      "order": 1,
+      "path": "incoming\\S4-10\\parts\\part-01.nbt",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        48,
+        22,
+        48
+      ],
+      "sha256": "0f96cf7c8d7326376634e3eda9dbb2b6a0cdfa273dd1d3e2f0d5f55b8c6eaaa6",
+      "explicit_records": 50688,
+      "explicit_air_records": 38429,
+      "block_entities": [
+        {
+          "local_position": [
+            7,
+            5,
+            22
+          ],
+          "world_relative_position": [
+            7,
+            5,
+            22
+          ],
+          "nbt": {
+            "id": "minecraft:barrel",
+            "Items": []
+          }
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "path": "incoming\\S4-10\\parts\\part-02.nbt",
+      "origin": [
+        48,
+        0,
+        0
+      ],
+      "size": [
+        25,
+        22,
+        48
+      ],
+      "sha256": "7a71c5312a0ae2410ce52e5f22682f4664b1b38ff4c9cb1806e929c5916c527a",
+      "explicit_records": 26400,
+      "explicit_air_records": 20728,
+      "block_entities": [
+        {
+          "local_position": [
+            17,
+            5,
+            42
+          ],
+          "world_relative_position": [
+            65,
+            5,
+            42
+          ],
+          "nbt": {
+            "id": "minecraft:barrel",
+            "Items": []
+          }
+        },
+        {
+          "local_position": [
+            18,
+            5,
+            43
+          ],
+          "world_relative_position": [
+            66,
+            5,
+            43
+          ],
+          "nbt": {
+            "id": "minecraft:barrel",
+            "Items": []
+          }
+        },
+        {
+          "local_position": [
+            14,
+            6,
+            15
+          ],
+          "world_relative_position": [
+            62,
+            6,
+            15
+          ],
+          "nbt": {
+            "id": "minecraft:chest",
+            "Items": []
+          }
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "path": "incoming\\S4-10\\parts\\part-03.nbt",
+      "origin": [
+        0,
+        0,
+        48
+      ],
+      "size": [
+        48,
+        22,
+        25
+      ],
+      "sha256": "4b8bc479dece42919e723026165d1d4c78828db9dab254b578c546629aabde29",
+      "explicit_records": 26400,
+      "explicit_air_records": 21817,
+      "block_entities": []
+    },
+    {
+      "order": 4,
+      "path": "incoming\\S4-10\\parts\\part-04.nbt",
+      "origin": [
+        48,
+        0,
+        48
+      ],
+      "size": [
+        25,
+        22,
+        25
+      ],
+      "sha256": "42054c8b4e0ded037df1f80af7c4ed837fe098ddaa820466db4b41ca66a25f2b",
+      "explicit_records": 13750,
+      "explicit_air_records": 12100,
+      "block_entities": [
+        {
+          "local_position": [
+            7,
+            5,
+            4
+          ],
+          "world_relative_position": [
+            55,
+            5,
+            52
+          ],
+          "nbt": {
+            "id": "minecraft:barrel",
+            "Items": []
+          }
+        }
+      ]
+    }
+  ],
+  "placement": {
+    "world_anchor": "User-chosen [X,Y,Z]; not placed by this task.",
+    "formula": "Place each part at world_anchor + origin, zero rotation, no mirror, integrity1.0.",
+    "order": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "nonoverlapping_volumes": true,
+    "air_strategy": "All source voxels including outside footprints and roof air are explicit. Place air as air (do not ignore air/use structure_void); every part fully overwrites its own box including terrain. No terrain is changed here.",
+    "temporary_boundary_effects": "Install complete set before judging fluid/plant boundary behavior; no game scheduler, placement or update ticks tested."
+  },
+  "all_voxels_including_air_state_properties_and_entity_payloads_equal_source": true,
+  "world_placement_ticks": "NOT_RUN"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "S5-18",
+  "size": [
+    31,
+    15,
+    29
+  ],
+  "description": "Paired bone niches, offset sealed sarcophagi, candle altar, carved rear memorial and chained sea lamps.",
+  "ports": [
+    {
+      "name": "west",
+      "feet": [
+        0,
+        3,
+        12
+      ],
+      "facing": "west",
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "east",
+      "feet": [
+        30,
+        3,
+        12
+      ],
+      "facing": "east",
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "altar-south",
+      "position": [
+        15,
+        3,
+        19
+      ]
+    },
+    {
+      "label": "altar-north",
+      "position": [
+        15,
+        3,
+        9
+      ]
+    },
+    {
+      "label": "west-niches",
+      "position": [
+        6,
+        3,
+        5
+      ]
+    },
+    {
+      "label": "east-niches",
+      "position": [
+        24,
+        3,
+        5
+      ]
+    },
+    {
+      "label": "sarcophagus",
+      "position": [
+        22,
+        3,
+        22
+      ]
+    }
+  ],
+  "differences": [
+    "Vanilla skeleton skull blocks represent ossuary bones; no hostile entity or loot mechanic.",
+    "Each sarcophagus skull rests on a full chiseled support block rather than floating above a lower slab.",
+    "Contained water only at perimeter; candle altar dry, complete memorial roof."
+  ],
+  "revision": "visual-r2",
+  "water_policy": "DRY HABITABLE COMPARTMENT, contained wet aquarium planters and shallow pools; not a fully flooded ocean ruin. All route goals remain dry. Glass enclosure for deployment preparation, not certified deep-ocean pressure/oxygen safety.",
+  "cutHeight": 12
+}

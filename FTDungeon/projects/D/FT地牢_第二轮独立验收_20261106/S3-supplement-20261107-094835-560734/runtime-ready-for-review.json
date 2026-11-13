@@ -1,0 +1,754 @@
+{
+  "status": "MAKER_RUNTIME_SUBSET_PASS_PENDING_INDEPENDENT_REVIEW",
+  "timestamp": "2026-11-07T08:07:36.227244+08:00",
+  "source_sha256": "933a5f44ccc2c84d00b7ec321080068e99989403de35e7ad7aa3e09bc9a569b7",
+  "source_candidates_unchanged": true,
+  "frozen_unique_files_checked": 213,
+  "candidates": 11,
+  "ordinary_server_ticks_after_placement": 1200,
+  "collision_move_roundtrip_targets": 81,
+  "lock_locations": 6,
+  "lock_use_checks": 18,
+  "doors_stable_open_after_ticks": 6,
+  "temporary_lever_control_checks": 12,
+  "ladder_top_and_descent": true,
+  "admin_entry_exit_commands": {
+    "exit_command_result": 1,
+    "outside_local": [
+      -8,
+      3,
+      31
+    ],
+    "entry_clear": true,
+    "entry_command_result": 1,
+    "exit_clear": true,
+    "mechanism": "Admin tp @s from actual player command source; external pad added only in isolated QA; enclosed barrier unchanged",
+    "arrival_local": [
+      10,
+      3,
+      31
+    ],
+    "departure_local": [
+      135,
+      9,
+      157
+    ]
+  },
+  "full_capture_audit": [
+    {
+      "source_sha256": "d0dfb6e6d2d1d95dec5ae3c20ad170efcadf0713c019d7defa0fa0334c54209f",
+      "issues": {
+        "block_type_changes": 0,
+        "added_solids": 0,
+        "lock_changes": 0,
+        "out_of_bounds": 0,
+        "nonempty_or_loot_containers": 0
+      },
+      "source_random_ticking_cells": 0,
+      "capture_sha256": "dcc0d45dde8c8638f6760554aa44389f44f66e867d4b6f5676651be92619baea",
+      "captured_records": 12555,
+      "state_changes": [],
+      "full_volume": 12555,
+      "id": "s3-11"
+    },
+    {
+      "source_sha256": "bd00fb6e0d97e4a90f7ccd31e73c0b04d2721d51b045951a4ca72e74259e2b87",
+      "issues": {
+        "block_type_changes": 0,
+        "added_solids": 0,
+        "lock_changes": 0,
+        "out_of_bounds": 0,
+        "nonempty_or_loot_containers": 0
+      },
+      "source_random_ticking_cells": 0,
+      "capture_sha256": "ba166351163b12dc2dcc66d8eacb1d6f471cc45b79869759b19db2753346c205",
+      "captured_records": 12441,
+      "state_changes": [
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            10,
+            2,
+            16
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            10,
+            2,
+            22
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            10,
+            2,
+            27
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            18,
+            2,
+            16
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            18,
+            2,
+            22
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            18,
+            2,
+            27
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            10,
+            3,
+            16
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            10,
+            3,
+            22
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            10,
+            3,
+            27
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            18,
+            3,
+            16
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            18,
+            3,
+            22
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            18,
+            3,
+            27
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        }
+      ],
+      "full_volume": 12441,
+      "id": "s3-12"
+    },
+    {
+      "source_sha256": "9f213852f7168f6e33f540fbd09626d1d6dda547eea4022d2f4542ac7b8e4296",
+      "issues": {
+        "block_type_changes": 0,
+        "added_solids": 0,
+        "lock_changes": 0,
+        "out_of_bounds": 0,
+        "nonempty_or_loot_containers": 0
+      },
+      "source_random_ticking_cells": 0,
+      "capture_sha256": "71fe6e381a2bf474a2c6631fceffb3d69babad177405499c61c3d8ac9f336061",
+      "captured_records": 17360,
+      "state_changes": [
+        {
+          "before": "Block{minecraft:light_blue_stained_glass_pane}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            28,
+            7,
+            27
+          ],
+          "after": "Block{minecraft:light_blue_stained_glass_pane}[east=false,north=false,south=false,waterlogged=false,west=false]"
+        }
+      ],
+      "full_volume": 17360,
+      "id": "s3-13"
+    },
+    {
+      "source_sha256": "d478ad783e421dec78b28e157f081fe7767fa2541d57c84428bc7de301b9333d",
+      "issues": {
+        "block_type_changes": 0,
+        "added_solids": 0,
+        "lock_changes": 0,
+        "out_of_bounds": 0,
+        "nonempty_or_loot_containers": 0
+      },
+      "source_random_ticking_cells": 0,
+      "capture_sha256": "0de676e6c002b3d8c5f6a0f295546b6023a9b1bcb1ac519a7b875d4ac0771071",
+      "captured_records": 9450,
+      "state_changes": [],
+      "full_volume": 9450,
+      "id": "s3-14"
+    },
+    {
+      "source_sha256": "4b1c75d094d6aeb7af438eff295c4d25cd178fa6116fc3cb4d97ab3d9603b9cf",
+      "issues": {
+        "block_type_changes": 0,
+        "added_solids": 0,
+        "lock_changes": 0,
+        "out_of_bounds": 0,
+        "nonempty_or_loot_containers": 0
+      },
+      "source_random_ticking_cells": 0,
+      "capture_sha256": "79bae6c2ce5e54d19c906295e01ccd6a1167818c851650718c284e9cf2fefa45",
+      "captured_records": 14210,
+      "state_changes": [],
+      "full_volume": 14210,
+      "id": "s3-15"
+    },
+    {
+      "source_sha256": "8a8d44eb44471d62366347cf1d7344ef82ec7dcfd55ebcde64f76a084ab560df",
+      "issues": {
+        "block_type_changes": 0,
+        "added_solids": 0,
+        "lock_changes": 0,
+        "out_of_bounds": 0,
+        "nonempty_or_loot_containers": 0
+      },
+      "source_random_ticking_cells": 0,
+      "capture_sha256": "bb128bcae196b6bba20794f15dc45a1abfe434fcc54a907541e2664d730f71db",
+      "captured_records": 13456,
+      "state_changes": [],
+      "full_volume": 13456,
+      "id": "s3-16"
+    },
+    {
+      "source_sha256": "6a977e3e2594c386fca79ac14089440bdd7864b46794011a8ac454c4264261cb",
+      "issues": {
+        "block_type_changes": 0,
+        "added_solids": 0,
+        "lock_changes": 0,
+        "out_of_bounds": 0,
+        "nonempty_or_loot_containers": 0
+      },
+      "source_random_ticking_cells": 0,
+      "capture_sha256": "0516a2707d1efe6036746e461571fd1a248bff487fa3d7894e8df81c2c23a990",
+      "captured_records": 9477,
+      "state_changes": [],
+      "full_volume": 9477,
+      "id": "s3-17"
+    },
+    {
+      "source_sha256": "1d565935e81fafc79cc2713b95ffc9a3c32231d9595c180b6d01fc4446022cd5",
+      "issues": {
+        "block_type_changes": 0,
+        "added_solids": 0,
+        "lock_changes": 0,
+        "out_of_bounds": 0,
+        "nonempty_or_loot_containers": 0
+      },
+      "source_random_ticking_cells": 0,
+      "capture_sha256": "50f862c311a2d838db9da3c02e7b8c6fa008cce77a4dec8abdfc13cd23d805b7",
+      "captured_records": 12586,
+      "state_changes": [],
+      "full_volume": 12586,
+      "id": "s3-18"
+    },
+    {
+      "source_sha256": "d43a1b95db70a453283f15bf269b1909a16a7634695bba8617f219855ebcd408",
+      "issues": {
+        "block_type_changes": 0,
+        "added_solids": 0,
+        "lock_changes": 0,
+        "out_of_bounds": 0,
+        "nonempty_or_loot_containers": 0
+      },
+      "source_random_ticking_cells": 0,
+      "capture_sha256": "4c4db62bc9dee8d6f71c950efcff4c0992c8b7be8379991b61f6e36c79505a59",
+      "captured_records": 49105,
+      "state_changes": [],
+      "full_volume": 49105,
+      "id": "s3-19"
+    },
+    {
+      "source_sha256": "beddf317e1c270da0aab9c542bbac446976ae2b4c3d1c93e1a40be713263f4f4",
+      "issues": {
+        "block_type_changes": 0,
+        "added_solids": 0,
+        "lock_changes": 0,
+        "out_of_bounds": 0,
+        "nonempty_or_loot_containers": 0
+      },
+      "source_random_ticking_cells": 0,
+      "capture_sha256": "83b67afc3498b8f6834b5ba11a34449a1221021251bee5495b62818a6de2e631",
+      "captured_records": 11550,
+      "state_changes": [],
+      "full_volume": 11550,
+      "id": "s3-20"
+    },
+    {
+      "source_sha256": "933a5f44ccc2c84d00b7ec321080068e99989403de35e7ad7aa3e09bc9a569b7",
+      "issues": {
+        "block_type_changes": 0,
+        "added_solids": 0,
+        "lock_changes": 0,
+        "out_of_bounds": 0,
+        "nonempty_or_loot_containers": 0
+      },
+      "source_random_ticking_cells": 0,
+      "capture_sha256": "deeaee21334531c2bb742020cc015ecc33ccbf9a6e53c503135982ae1c12889a",
+      "captured_records": 1572165,
+      "state_changes": [
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            75,
+            3,
+            38
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            75,
+            3,
+            44
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            75,
+            3,
+            49
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            83,
+            3,
+            38
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            83,
+            3,
+            44
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            83,
+            3,
+            49
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            75,
+            4,
+            38
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            75,
+            4,
+            44
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            75,
+            4,
+            49
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            83,
+            4,
+            38
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            83,
+            4,
+            44
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:iron_bars}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            83,
+            4,
+            49
+          ],
+          "after": "Block{minecraft:iron_bars}[east=false,north=true,south=true,waterlogged=false,west=false]"
+        },
+        {
+          "before": "Block{minecraft:light_blue_stained_glass_pane}[east=false,north=true,south=false,waterlogged=false,west=false]",
+          "pos": [
+            136,
+            8,
+            43
+          ],
+          "after": "Block{minecraft:light_blue_stained_glass_pane}[east=false,north=false,south=false,waterlogged=false,west=false]"
+        }
+      ],
+      "full_volume": 1572165,
+      "id": "s3-merged"
+    }
+  ],
+  "limitations": [
+    "Forge 47.4.10 isolated void-flat world; target modpack not launched",
+    "Walk is Entity.move collision roundtrip; no client keyboard, jumping, gravity or combat certification",
+    "Ladder separately uses Player.travel each server tick; no injected upward velocity",
+    "doMobSpawning disabled for isolated fixture; prior terrain entities/clearing drops removed before placement",
+    "No claim every cell received random ticks; applicability counts are in capture audit",
+    "Source room12 has no controls; lever use tested as temporary overlay, separately packaged optional installer",
+    "Admin-led entry/exit mechanism; packaged complete install/place functions not yet executed as a unit",
+    "Other workstations, full illumination, survival balance and combat not certified"
+  ],
+  "files": [
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\capture-audit.py",
+      "sha256": "844b7838dbb5ee0ded66a53c930b58516e7673111c5dee4edc3c9ddb469a22cc",
+      "bytes": 952
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\CaptureAudit.java",
+      "sha256": "a7843f872226c091556a17f295705a7b5966ecb66870d13167687608752218c3",
+      "bytes": 3880
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\deployment\\package-report.json",
+      "sha256": "d7a785c3f306221e682a7295cff50eda4d30cb40e560e77f6c35ede68ee9860b",
+      "bytes": 4268
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\deployment\\README.md",
+      "sha256": "6eb58854866deea12aaeccd7db1e2ceacc7f4e0281830e1668010d25a1df2f71",
+      "bytes": 2427
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\ladderqa-r2\\console.log",
+      "sha256": "65a789e162906ecd401d663212cd2813b093a80f09b1ba94940f35a6d0bd8d4a",
+      "bytes": 25387
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\ladderqa-r2\\exit.json",
+      "sha256": "2c2c7a80b627a50f529c217e1ccdd19620910bef0a956fef2bcc20a9665c6847",
+      "bytes": 107
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\ladderqa-r2\\inputs.json",
+      "sha256": "09ab7e789b3a4010e3afabb74ce493f7d9727f6654bc1aad87e057d33346d2d3",
+      "bytes": 3959
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\ladderqa-r2\\ladder-physics.json",
+      "sha256": "bfcd1030e062ab665ea4b7507014b3f29d996f898a588f34b73610a12eb01cc1",
+      "bytes": 15828
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\ladderqa-r2\\native-test\\build.gradle",
+      "sha256": "21a9798564622aa61a52228491f1367d44163600bf563b4b42f48b5bea2226c8",
+      "bytes": 703
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\ladderqa-r2\\native-test\\gradle.properties",
+      "sha256": "089fe0ab95db1883bf111839626196fd61f21cd59955cc2c4deff0c5b428dc10",
+      "bytes": 99
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\ladderqa-r2\\native-test\\settings.gradle",
+      "sha256": "44ac8ca70cd050642a020304a919f2c13db10ae9093258695f0a19ee9e204784",
+      "bytes": 150
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\ladderqa-r2\\native-test\\src\\main\\java\\net\\farmingtales\\s3qa\\LadderTest.java",
+      "sha256": "74f6c3291e9997ce8b4493f8dc6f3de173bf09a23b5ee8d347fec34b03aac0aa",
+      "bytes": 4004
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\ladderqa-r2\\native-test\\src\\main\\resources\\data\\fts3qa\\structures\\empty.nbt",
+      "sha256": "6b758ca24c6be982c94f72fda2a204ee827872cc8978f7b7c84add1a067e4185",
+      "bytes": 128
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\ladderqa-r2\\native-test\\src\\main\\resources\\META-INF\\mods.toml",
+      "sha256": "faa13a4fc4db4c2e22f7d4dcd571e67f38b7d728a5b9b84f697cae5f2e1fa23e",
+      "bytes": 139
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\ladderqa-r2\\native-test\\src\\main\\resources\\pack.mcmeta",
+      "sha256": "031dbae9420bcb3a5c70244f8f700b50c1313af555048d1e15097571a7305603",
+      "bytes": 65
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\ladderqa-r2\\run.ps1",
+      "sha256": "e72c81f339a8503cc2e828356abe34f64b4f39548a8e108567102e4b83ec6f73",
+      "bytes": 1688
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\ladderqa-r2\\tests.xml",
+      "sha256": "bc8e9704dd84c7fbfd428a5ac4dc43c32da2527de76d92b79bec01338a364c56",
+      "bytes": 221
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\package-deployment.py",
+      "sha256": "c08c61f16cc268da58c4af6655b8732ede0a53cb631b24886ce9ba14aed01d29",
+      "bytes": 3319
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\seal-runtime.py",
+      "sha256": "7d678862dd7a8d1f2c27523cbc2d578250582aff23291e86842e44b0fe7f1d79",
+      "bytes": 9370
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\capture-audit.json",
+      "sha256": "8b96514910ebc0b00e6841c47e90a45b51008cb9e1293fa5be1d23f05b357fc4",
+      "bytes": 14804
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\capture-audit.log",
+      "sha256": "92cc839e2771fbbafd00f9e724ff26f94ae2c75a248d9110658a0d2f710f71cc",
+      "bytes": 672
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\console.log",
+      "sha256": "ca00376d04d4259d4a688a32b9923a0a90bd34316db9f8b9a5c02dc01b163bc7",
+      "bytes": 14511
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\exit.json",
+      "sha256": "d350a21331e59f585a523377c0ec1131b489354c66f45a03fa584f5223cda13d",
+      "bytes": 107
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\inputs.json",
+      "sha256": "09ab7e789b3a4010e3afabb74ce493f7d9727f6654bc1aad87e057d33346d2d3",
+      "bytes": 3959
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\native-test\\build.gradle",
+      "sha256": "21a9798564622aa61a52228491f1367d44163600bf563b4b42f48b5bea2226c8",
+      "bytes": 703
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\native-test\\gradle.properties",
+      "sha256": "089fe0ab95db1883bf111839626196fd61f21cd59955cc2c4deff0c5b428dc10",
+      "bytes": 99
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\native-test\\settings.gradle",
+      "sha256": "44ac8ca70cd050642a020304a919f2c13db10ae9093258695f0a19ee9e204784",
+      "bytes": 150
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\native-test\\src\\main\\java\\net\\farmingtales\\s3qa\\S3Tests.java",
+      "sha256": "a7e8fa37f5d568ed689dcc7b2b6fee1aeca0e1530bcd92c2874f972651adb1bc",
+      "bytes": 13660
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\native-test\\src\\main\\java\\net\\farmingtales\\s3qa\\Walk.java",
+      "sha256": "6177d885a60d438cfe62d85b43175c337ae074630bd48be121023297fd59ce3b",
+      "bytes": 5300
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\native-test\\src\\main\\resources\\data\\fts3qa\\structures\\empty.nbt",
+      "sha256": "6b758ca24c6be982c94f72fda2a204ee827872cc8978f7b7c84add1a067e4185",
+      "bytes": 128
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\native-test\\src\\main\\resources\\META-INF\\mods.toml",
+      "sha256": "faa13a4fc4db4c2e22f7d4dcd571e67f38b7d728a5b9b84f697cae5f2e1fa23e",
+      "bytes": 139
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\native-test\\src\\main\\resources\\pack.mcmeta",
+      "sha256": "031dbae9420bcb3a5c70244f8f700b50c1313af555048d1e15097571a7305603",
+      "bytes": 65
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\run.ps1",
+      "sha256": "e72c81f339a8503cc2e828356abe34f64b4f39548a8e108567102e4b83ec6f73",
+      "bytes": 1688
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-11-after-1200.nbt",
+      "sha256": "dcc0d45dde8c8638f6760554aa44389f44f66e867d4b6f5676651be92619baea",
+      "bytes": 36324
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-11-report.json",
+      "sha256": "d762c3737131161971a04e42b01c89d9cce17414d23c1493c5e8d75c2ab2461a",
+      "bytes": 1511
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-12-after-1200.nbt",
+      "sha256": "ba166351163b12dc2dcc66d8eacb1d6f471cc45b79869759b19db2753346c205",
+      "bytes": 36855
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-12-report.json",
+      "sha256": "aba6d314685cd94f7a1d60edf30bca9d6db7b690b7edb84082acd62ef699b8da",
+      "bytes": 7936
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-13-after-1200.nbt",
+      "sha256": "71fe6e381a2bf474a2c6631fceffb3d69babad177405499c61c3d8ac9f336061",
+      "bytes": 49130
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-13-report.json",
+      "sha256": "f9efa8d46367b598aac0062f4ddad43efcf2f803fcf3e62451701d5b8cafe78e",
+      "bytes": 1669
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-14-after-1200.nbt",
+      "sha256": "0de676e6c002b3d8c5f6a0f295546b6023a9b1bcb1ac519a7b875d4ac0771071",
+      "bytes": 27734
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-14-report.json",
+      "sha256": "57d6546b349a07cc0bafbf22b59e749bb802d371f72ed6759ea1c2b0202df343",
+      "bytes": 1505
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-15-after-1200.nbt",
+      "sha256": "79bae6c2ce5e54d19c906295e01ccd6a1167818c851650718c284e9cf2fefa45",
+      "bytes": 40600
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-15-report.json",
+      "sha256": "417c5f89cbdfe02e55b62029f36675e1f01bd4f4e01a4addfa3ad3fbee278be2",
+      "bytes": 1415
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-16-after-1200.nbt",
+      "sha256": "bb128bcae196b6bba20794f15dc45a1abfe434fcc54a907541e2664d730f71db",
+      "bytes": 39022
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-16-report.json",
+      "sha256": "29e3061f860f9bd97bd225372fc71ca1cc48c9c03d644251bbb9232985fa661f",
+      "bytes": 1298
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-17-after-1200.nbt",
+      "sha256": "0516a2707d1efe6036746e461571fd1a248bff487fa3d7894e8df81c2c23a990",
+      "bytes": 27747
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-17-report.json",
+      "sha256": "7081cdafe4af935b76da90b1ead5661aebb2a897e0384dba7598d3f25a923171",
+      "bytes": 1289
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-18-after-1200.nbt",
+      "sha256": "50f862c311a2d838db9da3c02e7b8c6fa008cce77a4dec8abdfc13cd23d805b7",
+      "bytes": 36818
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-18-report.json",
+      "sha256": "b5c4ea7b6c113c5787446c3aeb2950f441835399aba1d1042dc3bf34ef5f7655",
+      "bytes": 1289
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-19-after-1200.nbt",
+      "sha256": "4c4db62bc9dee8d6f71c950efcff4c0992c8b7be8379991b61f6e36c79505a59",
+      "bytes": 141783
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-19-report.json",
+      "sha256": "6dd5cfa4f56e1cb5fde16d3543275ce54bed8b136233ade57cd7657d5cba7d07",
+      "bytes": 1295
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-20-after-1200.nbt",
+      "sha256": "83b67afc3498b8f6834b5ba11a34449a1221021251bee5495b62818a6de2e631",
+      "bytes": 33734
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-20-report.json",
+      "sha256": "65747e0473488ec060d1e677b51831d0a98de0e83b60d3c17759faf5addd8eae",
+      "bytes": 1507
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-merged-after-1200.nbt",
+      "sha256": "deeaee21334531c2bb742020cc015ecc33ccbf9a6e53c503135982ae1c12889a",
+      "bytes": 4465784
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\s3-merged-report.json",
+      "sha256": "b6d685dd18c4d05ad0ac3e82c3820fd4c9b9e2e5ba5d370a6fb4d6c767e8f53a",
+      "bytes": 13869
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\server\\server.properties",
+      "sha256": "71f3dbf1cd6aae9d6d5208d98940a840061757173ba820af9beff0b6b6b1a3af",
+      "bytes": 1418
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\tests.xml",
+      "sha256": "759295a75e5078c8bd28be90784514f540bae83bab46d8d8f94d64efa4f14329",
+      "bytes": 224
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S3\\worldqa-r3\\world-report.json",
+      "sha256": "51f1609bf47ce0bdd2faa23f47d459c6e0db63d5d0a70328a95c7cb8bc91c35b",
+      "bytes": 40774
+    }
+  ]
+}

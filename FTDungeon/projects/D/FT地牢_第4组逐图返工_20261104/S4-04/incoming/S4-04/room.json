@@ -1,0 +1,161 @@
+{
+  "id": "S4-04",
+  "name": "沉水双列旗柱大殿",
+  "size": [
+    37,
+    23,
+    49
+  ],
+  "sha256": "a809502d03ce697502679a9134bb5920aa18bf6826c9b35926968da20cc871cc",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S4-swamp-wetland\\out\\S4-04-great-hall.png",
+  "reference_sha256": "5591f1663c9a8da77d98e1b5f1fc88f4ecd86e9e46967ed44ac5fd164bdb02a2",
+  "entrance": [
+    18,
+    5,
+    0
+  ],
+  "interior": [
+    18,
+    5,
+    24
+  ],
+  "facing": "north",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "axes": {
+    "x": "east",
+    "y": "up",
+    "z": "south"
+  },
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        18,
+        5,
+        0
+      ],
+      "width": 5,
+      "height": 4,
+      "inward_depth": 4
+    },
+    {
+      "facing": "south",
+      "position": [
+        18,
+        5,
+        48
+      ],
+      "width": 5,
+      "height": 4,
+      "inward_depth": 4
+    },
+    {
+      "facing": "west",
+      "position": [
+        0,
+        5,
+        30
+      ],
+      "width": 5,
+      "height": 4,
+      "inward_depth": 4
+    },
+    {
+      "facing": "east",
+      "position": [
+        36,
+        5,
+        30
+      ],
+      "width": 5,
+      "height": 4,
+      "inward_depth": 4
+    }
+  ],
+  "route_waypoints": [
+    [
+      18,
+      5,
+      0
+    ],
+    [
+      18,
+      5,
+      48
+    ],
+    [
+      0,
+      5,
+      30
+    ],
+    [
+      36,
+      5,
+      30
+    ],
+    [
+      18,
+      5,
+      6
+    ],
+    [
+      18,
+      5,
+      12
+    ],
+    [
+      18,
+      5,
+      24
+    ],
+    [
+      18,
+      5,
+      36
+    ],
+    [
+      18,
+      5,
+      42
+    ],
+    [
+      6,
+      5,
+      30
+    ],
+    [
+      30,
+      5,
+      30
+    ],
+    [
+      12,
+      5,
+      30
+    ],
+    [
+      24,
+      5,
+      30
+    ]
+  ],
+  "previous_acceptance": "D:/ft工程文件/FT地牢_独立复核_20261104_01a1a685/S4-03-ACCEPTANCE.json",
+  "runtime_slot": null,
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "world_placement_ticks_gameplay": "NOT_RUN",
+  "integration": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "deviations": [
+    "37x23x49 estimated from visible block proportions, not prompt nominal 21x15.",
+    "Longitudinal axis is Z: tall northern arched exit, lower southern entry boundary and two lateral ports at Z30.",
+    "Two rows of three freestanding pillars retained; open roof intentional.",
+    "One narrow waterlogged side connector at Z30 added for dry side-port accessibility; no basin-wide dry platform.",
+    "Vanilla green banners carry yellow border and flower/lozenge patterns as approximation; no custom textures.",
+    "Biome water tint, fog and external swamp forest not reproduced."
+  ],
+  "assembly": "Single vanilla NBT. Size Z49 exceeds default structure-block save limit48: do not resave truncated. Use StructureTemplate import with full-volume occupied-space rejection."
+}

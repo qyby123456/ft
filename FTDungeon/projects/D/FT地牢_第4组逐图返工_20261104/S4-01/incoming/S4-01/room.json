@@ -1,0 +1,156 @@
+{
+  "id": "S4-01",
+  "name": "沼泽古树环水主室",
+  "size": [
+    49,
+    31,
+    49
+  ],
+  "entrance": [
+    24,
+    5,
+    0
+  ],
+  "interior": [
+    24,
+    8,
+    17
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        24,
+        5,
+        0
+      ],
+      "width": 5,
+      "height": 4,
+      "position_means": "feet center",
+      "floor_y": 4
+    },
+    {
+      "facing": "east",
+      "position": [
+        48,
+        5,
+        24
+      ],
+      "width": 5,
+      "height": 4,
+      "position_means": "feet center",
+      "floor_y": 4
+    },
+    {
+      "facing": "south",
+      "position": [
+        24,
+        5,
+        48
+      ],
+      "width": 5,
+      "height": 4,
+      "position_means": "feet center",
+      "floor_y": 4
+    },
+    {
+      "facing": "west",
+      "position": [
+        0,
+        5,
+        24
+      ],
+      "width": 5,
+      "height": 4,
+      "position_means": "feet center",
+      "floor_y": 4
+    }
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "axes": {
+    "x": "east",
+    "y": "up",
+    "z": "south"
+  },
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S4-swamp-wetland\\out\\S4-01-large-chamber.png",
+  "reference_sha256": "13374001a4f8e3bfef87b306971eb8b4f333c718f9ea9a31271a5dff6077ce08",
+  "sha256": "9fa8bca1a05e79bb9f2d9f954765ec146f2cc0d8ae56786aded36a5bcc33d106",
+  "route_waypoints": [
+    [
+      24,
+      5,
+      0
+    ],
+    [
+      48,
+      5,
+      24
+    ],
+    [
+      24,
+      5,
+      48
+    ],
+    [
+      0,
+      5,
+      24
+    ],
+    [
+      24,
+      8,
+      17
+    ],
+    [
+      31,
+      8,
+      24
+    ],
+    [
+      24,
+      8,
+      31
+    ],
+    [
+      17,
+      8,
+      24
+    ],
+    [
+      5,
+      5,
+      24
+    ],
+    [
+      43,
+      5,
+      24
+    ],
+    [
+      24,
+      5,
+      5
+    ],
+    [
+      24,
+      5,
+      43
+    ]
+  ],
+  "runtime_slot": null,
+  "registration": "PENDING_COORDINATOR_ACCEPTANCE",
+  "world_placement": "NOT_RUN",
+  "gameplay": "NOT_RUN",
+  "deviations": [
+    "49x31x49 is estimated from visible block proportions, not the prompt nominal 19x19.",
+    "Water depth is 2 blocks; all mandatory routes are dry.",
+    "South/east ruined walls are intentionally low, north/west are tall; no artificial roof.",
+    "Vanilla daytime preview cannot reproduce shader mist, fireflies or tinted swamp biome water."
+  ],
+  "assembly": "One NBT; command/structure placement must use size 49x31x49, not limited to a 16-block chunk; no world is modified by this delivery."
+}

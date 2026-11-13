@@ -1,0 +1,1 @@
+execute if dimension minecraft:overworld at @e[type=minecraft:marker,tag=fts6_origin,limit=1] positioned ~2.5 ~4 ~36.5 if entity @s[distance=..2] at @e[type=minecraft:marker,tag=fts6_lobby,limit=1] run tp @s ~ ~ ~ 0 0

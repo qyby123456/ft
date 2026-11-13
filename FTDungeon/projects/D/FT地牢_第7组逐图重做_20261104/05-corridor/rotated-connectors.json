@@ -1,0 +1,915 @@
+{
+  "source_sha256": "9fec9e8748b661c56690fe3285aec09d21c8c8021f4f98534b58ac843ee7593a",
+  "rule": "clockwise XZ x=depth-1-z,z=old_x; swap width/depth EACH quarter turn. Normals x=-z,z=old_x; y unchanged; local nonnegative envelope, not world pivot",
+  "rotations": {
+    "0": {
+      "size": [
+        15,
+        12,
+        43
+      ],
+      "ports": [
+        {
+          "id": "north-end-arch",
+          "direction": "north",
+          "feet": [
+            7,
+            2,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            7,
+            2,
+            -1
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "near end specified by prompt; camera cropped in reference",
+          "air_cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              6,
+              3,
+              0
+            ],
+            [
+              6,
+              4,
+              0
+            ],
+            [
+              6,
+              5,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              7,
+              3,
+              0
+            ],
+            [
+              7,
+              4,
+              0
+            ],
+            [
+              7,
+              5,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              8,
+              3,
+              0
+            ],
+            [
+              8,
+              4,
+              0
+            ],
+            [
+              8,
+              5,
+              0
+            ]
+          ],
+          "floor_cells": [
+            [
+              6,
+              1,
+              0
+            ],
+            [
+              7,
+              1,
+              0
+            ],
+            [
+              8,
+              1,
+              0
+            ]
+          ],
+          "player_center": [
+            7.5,
+            2,
+            0.5
+          ],
+          "outside_unknown": true
+        },
+        {
+          "id": "south-end-arch",
+          "direction": "south",
+          "feet": [
+            7,
+            2,
+            42
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            7,
+            2,
+            43
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "visible distant arch in one-point reference",
+          "air_cells": [
+            [
+              6,
+              2,
+              42
+            ],
+            [
+              6,
+              3,
+              42
+            ],
+            [
+              6,
+              4,
+              42
+            ],
+            [
+              6,
+              5,
+              42
+            ],
+            [
+              7,
+              2,
+              42
+            ],
+            [
+              7,
+              3,
+              42
+            ],
+            [
+              7,
+              4,
+              42
+            ],
+            [
+              7,
+              5,
+              42
+            ],
+            [
+              8,
+              2,
+              42
+            ],
+            [
+              8,
+              3,
+              42
+            ],
+            [
+              8,
+              4,
+              42
+            ],
+            [
+              8,
+              5,
+              42
+            ]
+          ],
+          "floor_cells": [
+            [
+              6,
+              1,
+              42
+            ],
+            [
+              7,
+              1,
+              42
+            ],
+            [
+              8,
+              1,
+              42
+            ]
+          ],
+          "player_center": [
+            7.5,
+            2,
+            42.5
+          ],
+          "outside_unknown": true
+        }
+      ]
+    },
+    "90": {
+      "size": [
+        43,
+        12,
+        15
+      ],
+      "ports": [
+        {
+          "id": "north-end-arch",
+          "direction": "east",
+          "feet": [
+            42,
+            2,
+            7
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            43,
+            2,
+            7
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "near end specified by prompt; camera cropped in reference",
+          "air_cells": [
+            [
+              42,
+              2,
+              6
+            ],
+            [
+              42,
+              3,
+              6
+            ],
+            [
+              42,
+              4,
+              6
+            ],
+            [
+              42,
+              5,
+              6
+            ],
+            [
+              42,
+              2,
+              7
+            ],
+            [
+              42,
+              3,
+              7
+            ],
+            [
+              42,
+              4,
+              7
+            ],
+            [
+              42,
+              5,
+              7
+            ],
+            [
+              42,
+              2,
+              8
+            ],
+            [
+              42,
+              3,
+              8
+            ],
+            [
+              42,
+              4,
+              8
+            ],
+            [
+              42,
+              5,
+              8
+            ]
+          ],
+          "floor_cells": [
+            [
+              42,
+              1,
+              6
+            ],
+            [
+              42,
+              1,
+              7
+            ],
+            [
+              42,
+              1,
+              8
+            ]
+          ],
+          "player_center": [
+            42.5,
+            2,
+            7.5
+          ],
+          "outside_unknown": true
+        },
+        {
+          "id": "south-end-arch",
+          "direction": "west",
+          "feet": [
+            0,
+            2,
+            7
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            -1,
+            2,
+            7
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "visible distant arch in one-point reference",
+          "air_cells": [
+            [
+              0,
+              2,
+              6
+            ],
+            [
+              0,
+              3,
+              6
+            ],
+            [
+              0,
+              4,
+              6
+            ],
+            [
+              0,
+              5,
+              6
+            ],
+            [
+              0,
+              2,
+              7
+            ],
+            [
+              0,
+              3,
+              7
+            ],
+            [
+              0,
+              4,
+              7
+            ],
+            [
+              0,
+              5,
+              7
+            ],
+            [
+              0,
+              2,
+              8
+            ],
+            [
+              0,
+              3,
+              8
+            ],
+            [
+              0,
+              4,
+              8
+            ],
+            [
+              0,
+              5,
+              8
+            ]
+          ],
+          "floor_cells": [
+            [
+              0,
+              1,
+              6
+            ],
+            [
+              0,
+              1,
+              7
+            ],
+            [
+              0,
+              1,
+              8
+            ]
+          ],
+          "player_center": [
+            0.5,
+            2,
+            7.5
+          ],
+          "outside_unknown": true
+        }
+      ]
+    },
+    "180": {
+      "size": [
+        15,
+        12,
+        43
+      ],
+      "ports": [
+        {
+          "id": "north-end-arch",
+          "direction": "south",
+          "feet": [
+            7,
+            2,
+            42
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            7,
+            2,
+            43
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "near end specified by prompt; camera cropped in reference",
+          "air_cells": [
+            [
+              8,
+              2,
+              42
+            ],
+            [
+              8,
+              3,
+              42
+            ],
+            [
+              8,
+              4,
+              42
+            ],
+            [
+              8,
+              5,
+              42
+            ],
+            [
+              7,
+              2,
+              42
+            ],
+            [
+              7,
+              3,
+              42
+            ],
+            [
+              7,
+              4,
+              42
+            ],
+            [
+              7,
+              5,
+              42
+            ],
+            [
+              6,
+              2,
+              42
+            ],
+            [
+              6,
+              3,
+              42
+            ],
+            [
+              6,
+              4,
+              42
+            ],
+            [
+              6,
+              5,
+              42
+            ]
+          ],
+          "floor_cells": [
+            [
+              8,
+              1,
+              42
+            ],
+            [
+              7,
+              1,
+              42
+            ],
+            [
+              6,
+              1,
+              42
+            ]
+          ],
+          "player_center": [
+            7.5,
+            2,
+            42.5
+          ],
+          "outside_unknown": true
+        },
+        {
+          "id": "south-end-arch",
+          "direction": "north",
+          "feet": [
+            7,
+            2,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            7,
+            2,
+            -1
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "visible distant arch in one-point reference",
+          "air_cells": [
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              8,
+              3,
+              0
+            ],
+            [
+              8,
+              4,
+              0
+            ],
+            [
+              8,
+              5,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              7,
+              3,
+              0
+            ],
+            [
+              7,
+              4,
+              0
+            ],
+            [
+              7,
+              5,
+              0
+            ],
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              6,
+              3,
+              0
+            ],
+            [
+              6,
+              4,
+              0
+            ],
+            [
+              6,
+              5,
+              0
+            ]
+          ],
+          "floor_cells": [
+            [
+              8,
+              1,
+              0
+            ],
+            [
+              7,
+              1,
+              0
+            ],
+            [
+              6,
+              1,
+              0
+            ]
+          ],
+          "player_center": [
+            7.5,
+            2,
+            0.5
+          ],
+          "outside_unknown": true
+        }
+      ]
+    },
+    "270": {
+      "size": [
+        43,
+        12,
+        15
+      ],
+      "ports": [
+        {
+          "id": "north-end-arch",
+          "direction": "west",
+          "feet": [
+            0,
+            2,
+            7
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            -1,
+            2,
+            7
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "near end specified by prompt; camera cropped in reference",
+          "air_cells": [
+            [
+              0,
+              2,
+              8
+            ],
+            [
+              0,
+              3,
+              8
+            ],
+            [
+              0,
+              4,
+              8
+            ],
+            [
+              0,
+              5,
+              8
+            ],
+            [
+              0,
+              2,
+              7
+            ],
+            [
+              0,
+              3,
+              7
+            ],
+            [
+              0,
+              4,
+              7
+            ],
+            [
+              0,
+              5,
+              7
+            ],
+            [
+              0,
+              2,
+              6
+            ],
+            [
+              0,
+              3,
+              6
+            ],
+            [
+              0,
+              4,
+              6
+            ],
+            [
+              0,
+              5,
+              6
+            ]
+          ],
+          "floor_cells": [
+            [
+              0,
+              1,
+              8
+            ],
+            [
+              0,
+              1,
+              7
+            ],
+            [
+              0,
+              1,
+              6
+            ]
+          ],
+          "player_center": [
+            0.5,
+            2,
+            7.5
+          ],
+          "outside_unknown": true
+        },
+        {
+          "id": "south-end-arch",
+          "direction": "east",
+          "feet": [
+            42,
+            2,
+            7
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            43,
+            2,
+            7
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "visible distant arch in one-point reference",
+          "air_cells": [
+            [
+              42,
+              2,
+              8
+            ],
+            [
+              42,
+              3,
+              8
+            ],
+            [
+              42,
+              4,
+              8
+            ],
+            [
+              42,
+              5,
+              8
+            ],
+            [
+              42,
+              2,
+              7
+            ],
+            [
+              42,
+              3,
+              7
+            ],
+            [
+              42,
+              4,
+              7
+            ],
+            [
+              42,
+              5,
+              7
+            ],
+            [
+              42,
+              2,
+              6
+            ],
+            [
+              42,
+              3,
+              6
+            ],
+            [
+              42,
+              4,
+              6
+            ],
+            [
+              42,
+              5,
+              6
+            ]
+          ],
+          "floor_cells": [
+            [
+              42,
+              1,
+              8
+            ],
+            [
+              42,
+              1,
+              7
+            ],
+            [
+              42,
+              1,
+              6
+            ]
+          ],
+          "player_center": [
+            42.5,
+            2,
+            7.5
+          ],
+          "outside_unknown": true
+        }
+      ]
+    }
+  },
+  "world_rotated_template_placement": "NOT_RUN"
+}

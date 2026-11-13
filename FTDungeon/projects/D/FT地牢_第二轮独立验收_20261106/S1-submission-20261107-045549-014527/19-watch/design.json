@@ -1,0 +1,119 @@
+{
+  "id": "S1-19",
+  "size": [
+    35,
+    24,
+    33
+  ],
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        14,
+        10,
+        0
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "south",
+      "feet": [
+        29,
+        2,
+        32
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "start": [
+    29,
+    2,
+    30
+  ],
+  "targets": [
+    {
+      "label": "upper-back-exit",
+      "position": [
+        14,
+        10,
+        2
+      ]
+    },
+    {
+      "label": "watch-desk",
+      "position": [
+        9,
+        10,
+        20
+      ]
+    },
+    {
+      "label": "stair-top",
+      "position": [
+        29,
+        10,
+        12
+      ]
+    },
+    {
+      "label": "rack",
+      "position": [
+        20,
+        10,
+        5
+      ]
+    }
+  ],
+  "reference_features": [
+    "raised cantilever balcony with parapet",
+    "right descending stone stair",
+    "rear door and weapon rack",
+    "watch desk with spyglass silhouette",
+    "small upper pool and great tree"
+  ],
+  "differences": [
+    "Dark space enclosed by black glass beyond parapet, no unbounded fall",
+    "Spyglass represented by lightning rod; no usable telescope",
+    "Half-step stone stair adds eight blocks of real elevation",
+    "Complete glass canopy retained in source"
+  ],
+  "cutaway": {
+    "removeAbove": 21,
+    "frontDepth": 31,
+    "sideX": 33
+  },
+  "focus_views": [
+    {"id":"watch-desk-detail","position":[18,16,26],"target":[9,12,18],"fov":48},
+    {
+      "id": "focus",
+      "position": [
+        32,
+        16,
+        30
+      ],
+      "target": [
+        20,
+        6,
+        20
+      ],
+      "fov": 53
+    },
+    {
+      "id": "function-detail",
+      "position": [
+        25,
+        10,
+        28
+      ],
+      "target": [
+        20,
+        6,
+        20
+      ],
+      "fov": 48
+    }
+  ],
+  "revision": "R2: independent visual/support changes; targets retained"
+}

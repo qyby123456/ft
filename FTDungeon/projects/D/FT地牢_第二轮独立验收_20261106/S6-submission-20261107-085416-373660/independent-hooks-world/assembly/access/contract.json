@@ -1,0 +1,48 @@
+{
+  "source_sha256": "5b72d94c89871ebe9c262f92d6c00275ee0c8cfbf32343be96c9cd8e538f1336",
+  "method": "Authorized trigger-based teleport through unchanged closed barrier shell",
+  "minecraft": "1.20.1",
+  "pack_format": 15,
+  "dimension": "minecraft:overworld",
+  "single_instance": true,
+  "orientation": "unrotated",
+  "placement_origin": "integer X Y Z",
+  "relative_external_lobby": [
+    -5.5,
+    4,
+    36.5
+  ],
+  "relative_internal_arrival": [
+    2.5,
+    4,
+    36.5
+  ],
+  "activation_radius": 2,
+  "authorization_tag": "fts6_authorized",
+  "enter_command": "/trigger fts6_enter set 1",
+  "exit_command": "/trigger fts6_exit set 1",
+  "outside_platform_bounds": [
+    [
+      -10,
+      0,
+      32
+    ],
+    [
+      -1,
+      7,
+      40
+    ]
+  ],
+  "barrier_cells_expected": 47553,
+  "entry_requires_authorization": true,
+  "exit_requires_authorization": false,
+  "operator_install_required": true,
+  "formal_instance_modified": false,
+  "not_supported": [
+    "Multiple instances per world",
+    "Rotation",
+    "Automatic terrain integration",
+    "Preventing creative/operator commands, other teleport mods or ender-pearl mechanics",
+    "Formal instance deployment or generator edits"
+  ]
+}

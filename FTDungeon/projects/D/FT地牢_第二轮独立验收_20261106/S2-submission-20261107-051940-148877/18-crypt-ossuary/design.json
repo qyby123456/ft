@@ -1,0 +1,131 @@
+{
+  "id": "S2-18",
+  "nbt": "s2-18-crypt-ossuary.nbt",
+  "size": [
+    27,
+    13,
+    27
+  ],
+  "reference_observed": "后墙左右三层骨龛、中央橙色纪念壁、双吊灯、中间祭台、前景左右石棺与蜡烛。",
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        9
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        26,
+        2,
+        9
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        26,
+        2,
+        9
+      ]
+    },
+    {
+      "label": "west-ossuary",
+      "position": [
+        6,
+        2,
+        5
+      ]
+    },
+    {
+      "label": "east-ossuary",
+      "position": [
+        21,
+        2,
+        5
+      ]
+    },
+    {
+      "label": "altar-front",
+      "position": [
+        13,
+        2,
+        16
+      ]
+    },
+    {
+      "label": "sarcophagi-aisle",
+      "position": [
+        13,
+        2,
+        21
+      ]
+    }
+  ],
+  "differences": [
+    "颅骨和骨块使用原版方块；不生成生物或掉落骨头。",
+    "石棺为固定石构而非可开容器，中央祭台没有召唤或战斗功能。",
+    "已补原版橙色菱形纹纪念旗，颅骨与骨块为实际原版方块。",
+    "完整墙顶恢复，通路绕开台基与棺体，无需攀跳。"
+  ],
+  "views": [
+    {
+      "id": "preview-full",
+      "position": [
+        -30,
+        38,
+        51
+      ],
+      "target": [
+        13,
+        4,
+        13
+      ],
+      "fov": 44
+    },
+    {
+      "id": "preview-cutaway",
+      "position": [
+        -29,
+        35,
+        50
+      ],
+      "target": [
+        13,
+        4,
+        13
+      ],
+      "cutaway": true,
+      "cutY": 11,
+      "fov": 44
+    },
+    {
+      "id": "preview-interior",
+      "position": [
+        13.5,
+        5.62,
+        24.5
+      ],
+      "target": [
+        13,
+        5,
+        3
+      ],
+      "fov": 90
+    }
+  ],
+  "revision": "R2 preliminary visual REQUEST_CHANGES remediation; previous evidence in archive-preliminary-v1",
+  "architectural_remediation": [
+    "内侧立体门柱、柱脚柱头、倒置楼梯拱券、半砖分层檐口",
+    "地面周边橙色边框与中央菱形纹样，原尺寸家具与路线目标保留"
+  ]
+}

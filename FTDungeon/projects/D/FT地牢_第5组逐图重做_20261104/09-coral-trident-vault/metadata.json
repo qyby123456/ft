@@ -1,0 +1,89 @@
+{
+  "name": "S5-09 coral trident vault",
+  "nbt_sha256": "57bca6ec9a9cbaac058ef611a9cf518173cb4a6d0549fc3558182d2b38925c11",
+  "size": [
+    31,
+    22,
+    31
+  ],
+  "records": 21142,
+  "data_version": 3465,
+  "reference": {
+    "path": "reference/S5-09-treasure.png",
+    "sha256": "cf6428853325ce31406af41ec50f28a4b5ddc254c02b88f55c5ed2f569c314e9"
+  },
+  "ports": [
+    {
+      "anchor": [
+        0,
+        3,
+        18
+      ],
+      "outward": "west",
+      "width": 5
+    },
+    {
+      "anchor": [
+        30,
+        3,
+        18
+      ],
+      "outward": "east",
+      "width": 5
+    }
+  ],
+  "chest": {
+    "position": [
+      15,
+      6,
+      7
+    ],
+    "facing": "south",
+    "type": "single",
+    "waterlogged": true,
+    "approach": [
+      15,
+      6,
+      8
+    ],
+    "source_lid_clearance_y": [
+      7,
+      9
+    ],
+    "loot_table": null,
+    "contents": []
+  },
+  "guardians": [
+    [
+      8,
+      8,
+      7
+    ],
+    [
+      22,
+      8,
+      7
+    ]
+  ],
+  "features": {
+    "wet_stairs": 15,
+    "empty_barrels": 4,
+    "map_or_banner_entities": false,
+    "urns": "Sandstone and waterlogged sandstone-wall approximations, not decorated-pot entities",
+    "trident": "Prismarine wall mosaic, not collectible weapon"
+  },
+  "integration": {
+    "source_ring": 8,
+    "source_cover_y": [
+      22,
+      29
+    ],
+    "solid_bed_y": [
+      0,
+      2
+    ],
+    "wet_gate_outside_depth": 3,
+    "dry_tunnel_allowed": false
+  },
+  "route_scope": "14native3Dcollision-clearance targets feetY3..9; source-only two-high explicit chest approach; no player physics/half-grid sweep/oxygen/AI/opening animation certification"
+}

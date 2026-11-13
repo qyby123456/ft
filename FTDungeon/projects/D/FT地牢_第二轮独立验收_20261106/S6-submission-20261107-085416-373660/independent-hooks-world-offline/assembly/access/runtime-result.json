@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "source_sha256": "5b72d94c89871ebe9c262f92d6c00275ee0c8cfbf32343be96c9cd8e538f1336",
+  "checks": [
+    "20 native place-template slices installed all 252421 source records",
+    "all 47553 source barrier cells remain intact",
+    "exterior lobby has solid floor and 0.6x1.8 player clearance",
+    "native function command requires more than permission zero",
+    "permission-zero player cannot call privileged entry function actual\u003d(2042.5, 132.0, 2084.5) expected\u003d(2042.5, 132.0, 2084.5)",
+    "unauthorized trigger does not enter actual\u003d(2042.5, 132.0, 2084.5) expected\u003d(2042.5, 132.0, 2084.5)",
+    "authorized permission-zero trigger reaches internal entry actual\u003d(2050.5, 132.0, 2084.5) expected\u003d(2050.5, 132.0, 2084.5)",
+    "internal arrival has player collision clearance",
+    "ordinary movement cannot cross closed west barrier",
+    "exit works after authorization revocation and returns outside actual\u003d(2042.5, 132.0, 2084.5) expected\u003d(2042.5, 132.0, 2084.5)",
+    "forged enter score outside lobby radius rejected actual\u003d(2042.5, 132.0, 2089.5) expected\u003d(2042.5, 132.0, 2089.5)",
+    "forged exit score away from internal return point rejected actual\u003d(2055.5, 132.0, 2084.5) expected\u003d(2055.5, 132.0, 2084.5)",
+    "formal candidate bytes unchanged"
+  ],
+  "placement_origin": [
+    2048,
+    128,
+    2048
+  ],
+  "external_lobby": [
+    2042.5,
+    132,
+    2084.5
+  ],
+  "internal_arrival": [
+    2050.5,
+    132,
+    2084.5
+  ],
+  "runtime": "Actual isolated Forge GameTestServer; packaged native functions and place-template commands; permission-zero FakePlayer trigger dispatcher, selectors and Entity.move collision",
+  "limits": "No real network client, single instance, unrotated overworld only; barrier movement test is ordinary collision, not a proof against every mod or teleport item."
+}

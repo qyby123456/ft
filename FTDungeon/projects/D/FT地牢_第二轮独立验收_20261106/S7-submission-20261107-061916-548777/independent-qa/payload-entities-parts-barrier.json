@@ -1,0 +1,105 @@
+{
+  "stage": "INDEPENDENT_FROZEN_PAYLOAD_ENTITIES_PARTS_BARRIER_STATIC_CHECK",
+  "sha256": "df8c0e02dcd2b362a2c059c39764f43f11c1b3a2bf633b905646a40a47df16d5",
+  "rooms": [
+    {
+      "id": "S7-11",
+      "records_compared": 10160,
+      "block_entities_compared": 4,
+      "entities_compared": 0,
+      "source_payload_exact": true,
+      "omitted_air_has_no_new_solids": true
+    },
+    {
+      "id": "S7-12",
+      "records_compared": 10619,
+      "block_entities_compared": 2,
+      "entities_compared": 0,
+      "source_payload_exact": true,
+      "omitted_air_has_no_new_solids": true
+    },
+    {
+      "id": "S7-13",
+      "records_compared": 10893,
+      "block_entities_compared": 3,
+      "entities_compared": 0,
+      "source_payload_exact": true,
+      "omitted_air_has_no_new_solids": true
+    },
+    {
+      "id": "S7-14",
+      "records_compared": 8993,
+      "block_entities_compared": 6,
+      "entities_compared": 3,
+      "source_payload_exact": true,
+      "omitted_air_has_no_new_solids": true
+    },
+    {
+      "id": "S7-15",
+      "records_compared": 11311,
+      "block_entities_compared": 0,
+      "entities_compared": 0,
+      "source_payload_exact": true,
+      "omitted_air_has_no_new_solids": true
+    },
+    {
+      "id": "S7-16",
+      "records_compared": 10945,
+      "block_entities_compared": 4,
+      "entities_compared": 0,
+      "source_payload_exact": true,
+      "omitted_air_has_no_new_solids": true
+    },
+    {
+      "id": "S7-17",
+      "records_compared": 8118,
+      "block_entities_compared": 5,
+      "entities_compared": 0,
+      "source_payload_exact": true,
+      "omitted_air_has_no_new_solids": true
+    },
+    {
+      "id": "S7-18",
+      "records_compared": 10731,
+      "block_entities_compared": 21,
+      "entities_compared": 0,
+      "source_payload_exact": true,
+      "omitted_air_has_no_new_solids": true
+    },
+    {
+      "id": "S7-19",
+      "records_compared": 32570,
+      "block_entities_compared": 0,
+      "entities_compared": 0,
+      "source_payload_exact": true,
+      "omitted_air_has_no_new_solids": true
+    },
+    {
+      "id": "S7-20",
+      "records_compared": 12055,
+      "block_entities_compared": 1,
+      "entities_compared": 0,
+      "source_payload_exact": true,
+      "omitted_air_has_no_new_solids": true
+    }
+  ],
+  "merged_records": 200624,
+  "entities_exact_translation_and_part_reconstruction": 3,
+  "barrier_cells": 60115,
+  "barrier_enclosure": "All room volume cells and declared route targets unreachable from padded exterior by six-neighbor flood ignoring all blocks except barriers",
+  "room_volume_cells_enclosed": 250431,
+  "part_count": 15,
+  "part_payload_reconstruction": "EXACT",
+  "part_volume_cells": 1324800,
+  "full_structure_volume": 1969040,
+  "original_room_targets": 72,
+  "merged_declared_targets": 99,
+  "merged_full_width_targets": 1134,
+  "native_routes": "PENDING",
+  "accepted": false,
+  "limitations": [
+    "Parts preserve sparse payload but omit empty partition volumes; clear full placement volume separately",
+    "No independent world run, player interaction or full visual acceptance",
+    "Full-width points are maker-generated and independently rerun; geometric completeness needs separate validation"
+  ]
+}

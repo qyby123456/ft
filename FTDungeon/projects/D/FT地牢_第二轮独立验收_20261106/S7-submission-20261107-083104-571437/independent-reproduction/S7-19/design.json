@@ -1,0 +1,132 @@
+{
+  "id": "S7-19",
+  "title": "瞭望台",
+  "reference_observed": "高台三面石护栏、左前观察桌望远镜、后部器械架、右侧向下长阶和后门、左侧大洞景与巨菇",
+  "start": [
+    2,
+    3,
+    32
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "foot": [
+        0,
+        3,
+        32
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    },
+    {
+      "side": "east",
+      "foot": [
+        56,
+        9,
+        15
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "lower entry",
+      "position": [
+        0,
+        3,
+        32
+      ]
+    },
+    {
+      "label": "stair bottom",
+      "position": [
+        48,
+        3.5,
+        36
+      ]
+    },
+    {
+      "label": "stair middle",
+      "position": [
+        48,
+        6,
+        31
+      ]
+    },
+    {
+      "label": "upper landing",
+      "position": [
+        48,
+        9,
+        23
+      ]
+    },
+    {
+      "label": "watch desk",
+      "position": [
+        35,
+        9,
+        22
+      ]
+    },
+    {
+      "label": "upper exit",
+      "position": [
+        56,
+        9,
+        15
+      ]
+    },
+    {
+      "label": "standing vista feet",
+      "position": [
+        28.5,
+        9,
+        18.5
+      ]
+    }
+  ],
+  "differences": [
+    "高台上下差6格，12个半格步级实现不跳跃连通；原图石阶转为原版半砖",
+    "望远镜使用水平末地烛轮廓，非可使用望远镜物品",
+    "下层为实心支撑加安全步道，无虚空坠落",
+    "左侧观察窗清除遮挡平墙，透明玻璃外为有菌菇的封闭景深洞龛；不是无限洞穴。柱间石墙栏杆保留防坠。",
+    "左侧观察窗清除遮挡平墙，透明玻璃外为有菌菇的封闭景深洞龛；不是无限洞穴。柱间石墙栏杆保留防坠。",
+    "左侧观察窗清除遮挡平墙，透明玻璃外为有菌菇的封闭景深洞龛；不是无限洞穴。柱间石墙栏杆保留防坠。",
+    "左侧观察窗清除遮挡平墙，透明玻璃外为有菌菇的封闭景深洞龛；不是无限洞穴。柱间石墙栏杆保留防坠。"
+  ],
+  "revision_2": {
+    "reason": "Independent visual preliminary REQUEST_CHANGES",
+    "preserved_evidence": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-submission-20261107-083104-571437\\independent-reproduction\\history\\pre-visual-request-changes\\S7-19",
+    "changes": [
+      "Continuous irregular floor patches replace per-cell checkerboard",
+      "Wave-based clustered cave palette, projecting upper ledges, supported hanging roots and mushrooms",
+      "Stone-and-log layered frames at unchanged clear ports",
+      "Feature-detail render supplements overview; no targets removed"
+    ]
+  },
+  "takeover_source_manifest": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\local-relief-v4\\takeover-source-manifest.json",
+  "revision_3": {
+    "reason": "Independent 034601 depth review",
+    "near_middle_far_x": [
+      19,
+      10,
+      3
+    ],
+    "standing_eye": [
+      28.5,
+      10.62,
+      18.5
+    ],
+    "standing_feet": [
+      28.5,
+      9,
+      18.5
+    ],
+    "glass_plane_x": 24,
+    "geometry_shift": 18,
+    "preserved_original_target_labels": true
+  },
+  "inherited_reference_scope": "Earlier revision_2 and takeover provenance fields were copied by the revision initializer and may contain relocated historical paths. Authoritative ancestry is revision-parent.json with exact source hashes; do not treat absent relocated history paths as new evidence."
+}

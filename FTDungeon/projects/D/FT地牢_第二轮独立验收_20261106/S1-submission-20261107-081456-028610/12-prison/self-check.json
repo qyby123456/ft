@@ -1,0 +1,125 @@
+{
+  "source_sha256": "581ab449f1296d479b6cbc17654700af2354d02f6cce092e41d260e96f4df571",
+  "status": "maker_static_self_check_pass_not_independent_acceptance",
+  "registry_properties": true,
+  "template_roundtrip": true,
+  "native_fragile_survival": true,
+  "ports_clear": true,
+  "empty_inventories": true,
+  "collision_routes": [
+    {
+      "reachable": true,
+      "position": [
+        14,
+        2,
+        32
+      ],
+      "standing_clear": true,
+      "label": "south-exit"
+    },
+    {
+      "reachable": true,
+      "position": [
+        14,
+        2,
+        5
+      ],
+      "standing_clear": true,
+      "label": "guard-desk"
+    },
+    {
+      "reachable": true,
+      "position": [
+        7,
+        2,
+        11
+      ],
+      "standing_clear": true,
+      "label": "west-cell"
+    },
+    {
+      "reachable": true,
+      "position": [
+        22,
+        2,
+        18
+      ],
+      "standing_clear": true,
+      "label": "east-cell"
+    },
+    {
+      "reachable": true,
+      "position": [
+        7,
+        2,
+        11
+      ],
+      "standing_clear": true,
+      "label": "cell-7-11"
+    },
+    {
+      "reachable": true,
+      "position": [
+        7,
+        2,
+        18
+      ],
+      "standing_clear": true,
+      "label": "cell-7-18"
+    },
+    {
+      "reachable": true,
+      "position": [
+        7,
+        2,
+        25
+      ],
+      "standing_clear": true,
+      "label": "cell-7-25"
+    },
+    {
+      "reachable": true,
+      "position": [
+        22,
+        2,
+        11
+      ],
+      "standing_clear": true,
+      "label": "cell-22-11"
+    },
+    {
+      "reachable": true,
+      "position": [
+        22,
+        2,
+        18
+      ],
+      "standing_clear": true,
+      "label": "cell-22-18"
+    },
+    {
+      "reachable": true,
+      "position": [
+        22,
+        2,
+        25
+      ],
+      "standing_clear": true,
+      "label": "cell-22-25"
+    }
+  ],
+  "not_executed": [
+    "human client GUI and keyboard gameplay",
+    "combat",
+    "independent visual acceptance",
+    "per-cell random tick coverage certification"
+  ],
+  "scope_limits": [
+    "This file is static QA; separate world-report.json records actual ServerLevel ticks and interactions.",
+    "Static routes use EmptyBlockGetter; separate walk-report.json uses actual ServerLevel and Entity.move.",
+    "No client, drowning, jump, ladder or combat certification."
+  ],
+  "native_all_nonair_survival": true,
+  "nonair_checked": 6526,
+  "separate_runtime_evidence": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S1\\worldqa-run4\\world-report.json"
+}
