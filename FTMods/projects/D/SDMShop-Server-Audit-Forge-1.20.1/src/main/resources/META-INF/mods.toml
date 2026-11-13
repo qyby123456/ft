@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="sdmshop_audit"
+version="1.1.1"
+displayName="SDMShop 服务端安全补丁与审计"
+displayTest="IGNORE_ALL_VERSION"
+description='''服务端 SDMShop 编辑鉴权、指令商品白名单、交易边界校验与修改/购买审计。'''
+[[dependencies.sdmshop_audit]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="SERVER"
+[[dependencies.sdmshop_audit]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="SERVER"
+[[dependencies.sdmshop_audit]]
+modId="sdmshoprework"
+mandatory=true
+versionRange="[1.20.1-6.11-pre]"
+ordering="AFTER"
+side="SERVER"

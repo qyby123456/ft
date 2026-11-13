@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "cn.farmingtales.sdmshopaudit.mixin",
+  "plugin": "cn.farmingtales.sdmshopaudit.mixin.ServerMixinPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": ["EditPacketMixin", "PurchasePacketMixin", "PaymentMixin", "ShopSaveMixin", "ShopErrorMixin", "CommandEntryMixin", "ItemEntryMixin", "LimiterDataMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
