@@ -1,0 +1,120 @@
+{
+  "revision": "G2-R2-distinct-sunwell-double-loop",
+  "status": "CONNECTOR_COMPATIBLE_GRAPH_PLAN_NOT_WORLD_PLACED",
+  "nodes": [
+    "NAT1-G2-01",
+    "NAT1-G2-02",
+    "NAT1-G2-03",
+    "NAT1-G2-04",
+    "NAT1-G2-05",
+    "NAT1-G2-06",
+    "NAT1-G2-07",
+    "NAT1-G2-08",
+    "NAT1-G2-09"
+  ],
+  "edges": [
+    {
+      "from": "NAT1-G2-07",
+      "from_port": "south",
+      "to": "NAT1-G2-05",
+      "to_port": "north",
+      "requires_integration_routing_and_rotation": true
+    },
+    {
+      "from": "NAT1-G2-05",
+      "from_port": "south",
+      "to": "NAT1-G2-01",
+      "to_port": "north",
+      "requires_integration_routing_and_rotation": true
+    },
+    {
+      "from": "NAT1-G2-01",
+      "from_port": "east",
+      "to": "NAT1-G2-06",
+      "to_port": "north",
+      "requires_integration_routing_and_rotation": true
+    },
+    {
+      "from": "NAT1-G2-06",
+      "from_port": "east",
+      "to": "NAT1-G2-08",
+      "to_port": "north",
+      "requires_integration_routing_and_rotation": true
+    },
+    {
+      "from": "NAT1-G2-08",
+      "from_port": "south",
+      "to": "NAT1-G2-02",
+      "to_port": "north",
+      "requires_integration_routing_and_rotation": true
+    },
+    {
+      "from": "NAT1-G2-02",
+      "from_port": "south",
+      "to": "NAT1-G2-04",
+      "to_port": "south",
+      "requires_integration_routing_and_rotation": true
+    },
+    {
+      "from": "NAT1-G2-04",
+      "from_port": "north",
+      "to": "NAT1-G2-01",
+      "to_port": "south",
+      "requires_integration_routing_and_rotation": true
+    },
+    {
+      "from": "NAT1-G2-04",
+      "from_port": "east",
+      "to": "NAT1-G2-08",
+      "to_port": "west",
+      "requires_integration_routing_and_rotation": true
+    },
+    {
+      "from": "NAT1-G2-02",
+      "from_port": "east",
+      "to": "NAT1-G2-09",
+      "to_port": "north",
+      "requires_integration_routing_and_rotation": true
+    },
+    {
+      "from": "NAT1-G2-08",
+      "from_port": "east",
+      "to": "NAT1-G2-03",
+      "to_port": "north",
+      "requires_integration_routing_and_rotation": true
+    }
+  ],
+  "cycles": [
+    [
+      "01",
+      "06",
+      "08",
+      "04",
+      "01"
+    ],
+    [
+      "04",
+      "08",
+      "02",
+      "04"
+    ]
+  ],
+  "cycle_rank": 2,
+  "degrees": {
+    "01": 3,
+    "02": 3,
+    "03": 1,
+    "04": 3,
+    "05": 2,
+    "06": 2,
+    "07": 1,
+    "08": 4,
+    "09": 1
+  },
+  "external_entrance": "07 north",
+  "terminal_branches": [
+    "08 east -> 03 storage",
+    "02 east -> 09 vault"
+  ],
+  "geometry_warning": "These edges express adjacency, not direct face-to-face world translations. The three-node loop needs routed connectors and collision-free world layout; integration must allocate corridors, rotations and positions. No connectivity in a deployed world is claimed."
+}

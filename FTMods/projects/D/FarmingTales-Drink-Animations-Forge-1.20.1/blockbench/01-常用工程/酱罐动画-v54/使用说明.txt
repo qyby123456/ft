@@ -1,0 +1,9 @@
+酱罐动画 v54 / MOD 1.8.25
+作者：紫菜；协议：ARR。
+32 种果酱、89 种鱼籽酱（含蟹籽酱）、8 种蛋黄酱，共 129 种单罐。
+每种均提供 Steve 和纤细手臂项目，保留各自原版贴图和内容物纹理。
+全部复用已确认的 v54 动作：抛起接住拿出、抛转接住摇晃检视、双手抓木塞上拔并向前抛出、单手食用和末尾抖出。保持四种食用变化及呼吸；拿出 0.5 秒、收起 0.45 秒，果酱食用声提高 35%。idle 为 4 秒循环，preview_complete 呼吸连续。
+包含 idle、draw、put_away、inspect、drink、walk、sprint、jump、place 和 preview_complete，并增加 drink_variant_2/3/4，共十三条动画。
+第一人称：在 Blockbench 插件页面从文件安装本目录 cameras.js，选择并关联 camera_first_person；每条动画均含 camera 动态轨迹。
+液体沿用黏稠延迟、35° 倾角和罐口约束；Blockbench 使用 6×6 小柱近似游戏连续裁切表面。游戏另有瓶内手部遮挡。
+多罐摆放方块不作为单罐食物播放。V 食用、G 检视，可在游戏按键设置修改；普通右键保持原版。

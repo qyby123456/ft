@@ -1,0 +1,628 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile9": "ftdungeonprops:block/remake-masonry_09",
+    "tile14": "ftdungeonprops:block/remake-masonry_14",
+    "tile13": "ftdungeonprops:block/remake-masonry_13",
+    "tile10": "ftdungeonprops:block/remake-masonry_10",
+    "tile11": "ftdungeonprops:block/remake-masonry_11",
+    "tile15": "ftdungeonprops:block/remake-masonry_15",
+    "tile12": "ftdungeonprops:block/remake-masonry_12",
+    "particle": "ftdungeonprops:block/remake-masonry_09"
+  },
+  "elements": [
+    {
+      "name": "full-width projecting coping",
+      "from": [
+        0,
+        14,
+        2
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#tile9"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#tile14",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            2,
+            0,
+            16,
+            2
+          ],
+          "texture": "#tile9",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            14,
+            2
+          ],
+          "texture": "#tile9",
+          "cullface": "east"
+        },
+        "up": {
+          "uv": [
+            0,
+            2,
+            16,
+            16
+          ],
+          "texture": "#tile13",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            14
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "receding carved moulding",
+      "from": [
+        0,
+        12,
+        4
+      ],
+      "to": [
+        16,
+        14,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            2,
+            16,
+            4
+          ],
+          "texture": "#tile10"
+        },
+        "south": {
+          "uv": [
+            0,
+            2,
+            16,
+            4
+          ],
+          "texture": "#tile14",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            16,
+            4
+          ],
+          "texture": "#tile10",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            12,
+            4
+          ],
+          "texture": "#tile10",
+          "cullface": "east"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            12
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "load-bearing recessed frieze",
+      "from": [
+        0,
+        10,
+        7
+      ],
+      "to": [
+        16,
+        12,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            16,
+            6
+          ],
+          "texture": "#tile11"
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            16,
+            6
+          ],
+          "texture": "#tile14",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            7,
+            4,
+            16,
+            6
+          ],
+          "texture": "#tile11",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            9,
+            6
+          ],
+          "texture": "#tile11",
+          "cullface": "east"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            9
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "left narrow wall heel",
+      "from": [
+        2,
+        0,
+        14
+      ],
+      "to": [
+        5,
+        10,
+        16
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            2,
+            6,
+            5,
+            16
+          ],
+          "texture": "#tile14",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            14,
+            6,
+            16,
+            16
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            0,
+            6,
+            2,
+            16
+          ],
+          "texture": "#tile15"
+        },
+        "down": {
+          "uv": [
+            2,
+            0,
+            5,
+            2
+          ],
+          "texture": "#tile13",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "left corbel foot",
+      "from": [
+        2,
+        0,
+        12
+      ],
+      "to": [
+        5,
+        4,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            12,
+            14,
+            16
+          ],
+          "texture": "#tile12"
+        },
+        "west": {
+          "uv": [
+            12,
+            12,
+            14,
+            16
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            2,
+            12,
+            4,
+            16
+          ],
+          "texture": "#tile15"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            5,
+            4
+          ],
+          "texture": "#tile13",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "left corbel middle shoulder",
+      "from": [
+        2,
+        4,
+        10
+      ],
+      "to": [
+        5,
+        7,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            9,
+            14,
+            12
+          ],
+          "texture": "#tile12"
+        },
+        "west": {
+          "uv": [
+            10,
+            9,
+            14,
+            12
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            2,
+            9,
+            6,
+            12
+          ],
+          "texture": "#tile15"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            5,
+            6
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "left corbel projecting head",
+      "from": [
+        2,
+        7,
+        7
+      ],
+      "to": [
+        5,
+        10,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            6,
+            14,
+            9
+          ],
+          "texture": "#tile12"
+        },
+        "west": {
+          "uv": [
+            7,
+            6,
+            14,
+            9
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            2,
+            6,
+            9,
+            9
+          ],
+          "texture": "#tile15"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            5,
+            9
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "right narrow wall heel",
+      "from": [
+        11,
+        0,
+        14
+      ],
+      "to": [
+        14,
+        10,
+        16
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            11,
+            6,
+            14,
+            16
+          ],
+          "texture": "#tile14",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            14,
+            6,
+            16,
+            16
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            0,
+            6,
+            2,
+            16
+          ],
+          "texture": "#tile15"
+        },
+        "down": {
+          "uv": [
+            11,
+            0,
+            14,
+            2
+          ],
+          "texture": "#tile13",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "right corbel foot",
+      "from": [
+        11,
+        0,
+        12
+      ],
+      "to": [
+        14,
+        4,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            12,
+            5,
+            16
+          ],
+          "texture": "#tile12"
+        },
+        "west": {
+          "uv": [
+            12,
+            12,
+            14,
+            16
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            2,
+            12,
+            4,
+            16
+          ],
+          "texture": "#tile15"
+        },
+        "down": {
+          "uv": [
+            11,
+            2,
+            14,
+            4
+          ],
+          "texture": "#tile13",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "right corbel middle shoulder",
+      "from": [
+        11,
+        4,
+        10
+      ],
+      "to": [
+        14,
+        7,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            9,
+            5,
+            12
+          ],
+          "texture": "#tile12"
+        },
+        "west": {
+          "uv": [
+            10,
+            9,
+            14,
+            12
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            2,
+            9,
+            6,
+            12
+          ],
+          "texture": "#tile15"
+        },
+        "down": {
+          "uv": [
+            11,
+            2,
+            14,
+            6
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "right corbel projecting head",
+      "from": [
+        11,
+        7,
+        7
+      ],
+      "to": [
+        14,
+        10,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            6,
+            5,
+            9
+          ],
+          "texture": "#tile12"
+        },
+        "west": {
+          "uv": [
+            7,
+            6,
+            14,
+            9
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            2,
+            6,
+            9,
+            9
+          ],
+          "texture": "#tile15"
+        },
+        "down": {
+          "uv": [
+            11,
+            2,
+            14,
+            9
+          ],
+          "texture": "#tile13"
+        }
+      }
+    }
+  ]
+}

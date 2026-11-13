@@ -1,0 +1,94 @@
+{
+  "accepted": false,
+  "mustDeclare": "Side double doors cannot seal the central main arch. This is eight original rooms plus one derived architectural candidate, not nine unchanged original rooms.",
+  "roles": {
+    "entrance": "s8_07_widearch_side_doublegate_v5",
+    "mainHall": "s8_04",
+    "terminal": "s8_09"
+  },
+  "originalWidthStripsUnchanged": [
+    {
+      "originalRoomId": "s8_07",
+      "candidateId": "s8_07_widearch_side_doublegate_v5",
+      "xCenters": [
+        11.3,
+        13.7
+      ],
+      "step": 0.05,
+      "startYZ": [
+        2,
+        0.3
+      ],
+      "endYZ": [
+        4,
+        5.7
+      ],
+      "bodyWidth": 0.6,
+      "bodyHeight": 1.8,
+      "headroom": 3,
+      "nativeStep": 0.6,
+      "movementSubdivision": 0.025,
+      "allRotations": true
+    },
+    {
+      "originalRoomId": "s8_07",
+      "candidateId": "s8_07_widearch_side_doublegate_v5",
+      "xCenters": [
+        10.3,
+        14.7
+      ],
+      "startYZ": [
+        4,
+        26.7
+      ],
+      "endYZ": [
+        4,
+        24.3
+      ],
+      "headroom": 3,
+      "allRotations": true
+    }
+  ],
+  "additionalSideGateTests": {
+    "doorLowerCells": [
+      [
+        8,
+        4,
+        4
+      ],
+      [
+        9,
+        4,
+        4
+      ]
+    ],
+    "upperCells": [
+      [
+        8,
+        5,
+        4
+      ],
+      [
+        9,
+        5,
+        4
+      ]
+    ],
+    "originalDoorIdsAndStates": "same adjacent left/right hinge pairing, north facing, open=true initially",
+    "walkSideGate": "body0.6x1.8 native path through 1.625-wide open side gateway, keep 3-high headroom where tested; do not apply central three-wide requirement to original-style two-leaf side portal",
+    "closedBehavior": "side path must be blocked, central arch must remain traversable",
+    "reopenBehavior": "both halves coherent, side path and return pass, source doors open=true restored"
+  },
+  "runtimeRequirements": [
+    "bind new template ID and derivedSHA; do not rewrite original ID/source acceptance",
+    "update hardcoded entrance/role checks and native sweep ID mapping for derived candidate",
+    "load all nine accepted=false only via explicitly isolated experiment fixture; never flip accepted to satisfy production loader",
+    "retain native S8-08 lava/vine verification and all01/07 stairs; no global gamerule disabling",
+    "new artifact/core/runtime/manifest hashes and full original2200 plus48additive checks",
+    "no reuse of oldJAR whole-biome acceptance for changed resource"
+  ],
+  "experimentAuthorization": {
+    "status": "COORDINATOR_AUTHORIZED_ISOLATED_DERIVED_CANDIDATE_DESIGN_ONLY",
+    "acceptedPromotion": false
+  }
+}

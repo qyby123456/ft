@@ -1,0 +1,446 @@
+{
+  "status": "PASS_FINAL_INSTALLED_PAUSE_IO_SIX_EXACT_RECEIPT_REJECTIONS_FOUR_RESTARTS",
+  "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+  "independentExecutor": "core-final-command-gates-not-runtime-maker",
+  "pauseIo": {
+    "status": "PASS_NATIVE_INSTALLED_PAUSE_IO_EXCEPTION_CLEANUP",
+    "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+    "world": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\io-run\\20261106_174551\\world",
+    "mechanism": "Real filesystem .nbt.pending directory makes FileChannel.open fail with IOException; build/pause/status queued in one console flush before level tick",
+    "nativeMethod": "UnifiedEngine.pause on the installed release JAR",
+    "accepted": false,
+    "productionPromotion": false,
+    "process": {
+      "pid": 65716,
+      "parentPid": 43516,
+      "command": [
+        "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+        "-Xmx2G",
+        "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\io-run\\20261106_174551\\world",
+        "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\io-run\\20261106_174551\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+        "nogui"
+      ],
+      "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\io-run\\20261106_174551",
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\io-run\\20261106_174551\\pause-io.log",
+      "exitCode": 0,
+      "logSha256": "205d9ab5a842ad6f35dec19f6c84e175eed08eba67a685c37b14162d28ceef33"
+    },
+    "journalUnchanged": true,
+    "initialStatus": "[17:46:29] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+    "delayedStatus": "[17:46:34] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+    "savedReadback": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\io-run\\20261106_174551\\saved-readback.json",
+    "sourceCells": 127239,
+    "nativePayloads": 24
+  },
+  "invalidReceipts": {
+    "status": "PASS_ALL_INVALID_RECEIPTS_REFUSED",
+    "world": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\receipt-run\\20261106_175133\\world",
+    "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+    "cases": {
+      "missing_receipt": {
+        "status": "PASS_REFUSED_IDLE_NONCOMMITTED",
+        "expectedReason": "Missing/linked acceptance file",
+        "exactReasonVerified": true,
+        "response": [
+          "[17:52:08] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Missing/linked acceptance file",
+          "[17:52:08] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Missing/linked acceptance file"
+        ],
+        "jobStatus": "[17:52:08] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+        "unresolvedBlockerRetained": [
+          "NEGATIVE_RECEIPT_TEST_NEVER_APPROVAL"
+        ]
+      },
+      "wrong_command_hash": {
+        "status": "PASS_REFUSED_IDLE_NONCOMMITTED",
+        "expectedReason": "Evidence hash differs from explicit operator command",
+        "exactReasonVerified": true,
+        "response": [
+          "[17:52:08] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Evidence hash differs from explicit operator command",
+          "[17:52:08] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Evidence hash differs from explicit operator command"
+        ],
+        "jobStatus": "[17:52:08] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+        "unresolvedBlockerRetained": [
+          "NEGATIVE_RECEIPT_TEST_NEVER_APPROVAL"
+        ]
+      },
+      "wrong_binding": {
+        "status": "PASS_REFUSED_IDLE_NONCOMMITTED",
+        "expectedReason": "Acceptance binding mismatch: worldIdentity",
+        "exactReasonVerified": true,
+        "response": [
+          "[17:52:08] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Acceptance binding mismatch: worldIdentity",
+          "[17:52:08] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Acceptance binding mismatch: worldIdentity"
+        ],
+        "jobStatus": "[17:52:09] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+        "unresolvedBlockerRetained": [
+          "NEGATIVE_RECEIPT_TEST_NEVER_APPROVAL"
+        ]
+      },
+      "wrong_challenge": {
+        "status": "PASS_REFUSED_IDLE_NONCOMMITTED",
+        "expectedReason": "Acceptance binding mismatch: commitChallenge",
+        "exactReasonVerified": true,
+        "response": [
+          "[17:52:09] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Acceptance binding mismatch: commitChallenge",
+          "[17:52:09] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Acceptance binding mismatch: commitChallenge"
+        ],
+        "jobStatus": "[17:52:09] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+        "unresolvedBlockerRetained": [
+          "NEGATIVE_RECEIPT_TEST_NEVER_APPROVAL"
+        ]
+      },
+      "missing_gate": {
+        "status": "PASS_REFUSED_IDLE_NONCOMMITTED",
+        "expectedReason": "Every mandatory gate must be independently decided",
+        "exactReasonVerified": true,
+        "response": [
+          "[17:52:09] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Every mandatory gate must be independently decided",
+          "[17:52:09] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Every mandatory gate must be independently decided"
+        ],
+        "jobStatus": "[17:52:09] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+        "unresolvedBlockerRetained": [
+          "NEGATIVE_RECEIPT_TEST_NEVER_APPROVAL"
+        ]
+      },
+      "unknown_field": {
+        "status": "PASS_REFUSED_IDLE_NONCOMMITTED",
+        "expectedReason": "Unknown/missing acceptance field",
+        "exactReasonVerified": true,
+        "response": [
+          "[17:52:10] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Unknown/missing acceptance field",
+          "[17:52:10] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Unknown/missing acceptance field"
+        ],
+        "jobStatus": "[17:52:10] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+        "unresolvedBlockerRetained": [
+          "NEGATIVE_RECEIPT_TEST_NEVER_APPROVAL"
+        ]
+      }
+    },
+    "accepted": false,
+    "productionPromotion": false,
+    "scope": "Deliberately invalid receipts only; no acceptance PASS is created by this test",
+    "process": {
+      "pid": 45588,
+      "parentPid": 8540,
+      "command": [
+        "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+        "-Xmx2G",
+        "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\receipt-run\\20261106_175133\\world",
+        "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\receipt-run\\20261106_175133\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+        "nogui"
+      ],
+      "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\receipt-run\\20261106_175133",
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\receipt-run\\20261106_175133\\receipt-negatives.log",
+      "exitCode": 0,
+      "logSha256": "47097e8f40ad33a7cd9cb5395cf1c96578c6e43c99efb2ef628ed1c1f6e12847"
+    }
+  },
+  "restarts": {
+    "status": "PASS_ALL_FOUR_INSTALLED_SEPARATE_JVM_NATIVE_RESTARTS",
+    "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+    "cases": {
+      "0": {
+        "status": "PASS_SEPARATE_JVM_INSTALLED_RESTART_SOURCE_NATIVE_FLUID_READBACK",
+        "binding": {
+          "instanceId": "ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f",
+          "worldIdentity": "5d37c69af765ccb1a78b57f9009d8853828eff6056553b69da72f514fa1d337b",
+          "worldSeed": "267611119455246637",
+          "dimension": "minecraft:overworld",
+          "runtimeVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+          "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+          "manifestHash": "13dc58d2e9722de047c3144741cbfe449d17fe11eee513e939f0aac1aefa7d24",
+          "operationHash": "5030fb9010d8921646bac78e71ed1a82d0ddb20e579d33ecaccb5ce8da1bba6a",
+          "planSha256": "e4705bc420852defdce57aa0ce347e7cca8c229a0cb55e4fe85992a3ec4b5bef",
+          "commitChallenge": "91177860-2afa-42fd-9bfb-0f3e32ce0802"
+        },
+        "canonicalWorld": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q0\\world",
+        "canonicalWorldIdentityVerified": true,
+        "process": {
+          "pid": 58420,
+          "parentPid": 56268,
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q0\\world",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q0\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q0",
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q0\\independent-restart.log",
+          "exitCode": 0,
+          "logSha256": "8214287be354cbb3ead49d580be83007140df326b536d6d22684cbebcb229235"
+        },
+        "jobStatus": "[17:52:54] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+        "before": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q0\\independent-before-restart.json",
+        "after": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q0\\independent-after-restart.json",
+        "sourceCells": 127239,
+        "nativePayloads": 24,
+        "fluidStates": 9
+      },
+      "1": {
+        "status": "PASS_SEPARATE_JVM_INSTALLED_RESTART_SOURCE_NATIVE_FLUID_READBACK",
+        "binding": {
+          "instanceId": "ftde-8a032ab42645a0ee00bbe59829f02100d96854020de7c8e47ffce5b1630587e6",
+          "worldIdentity": "86ce2c7ab88cd2f2824c263929eed9311e3943eaaf93d2e39905d18bc193e87e",
+          "worldSeed": "267611119455246637",
+          "dimension": "minecraft:overworld",
+          "runtimeVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+          "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+          "manifestHash": "13dc58d2e9722de047c3144741cbfe449d17fe11eee513e939f0aac1aefa7d24",
+          "operationHash": "73a03bcb817c8865ea5c7365f576c9b35e247736d619684a717e82903a1c9f01",
+          "planSha256": "024bdd60c0f62ec054d8f8839abc2e28ce1e86473e7b09d132826de7d99d1410",
+          "commitChallenge": "cd167561-07e4-45b7-bc12-823ae49c580f"
+        },
+        "canonicalWorld": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q1\\world",
+        "canonicalWorldIdentityVerified": true,
+        "process": {
+          "pid": 81472,
+          "parentPid": 56268,
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q1\\world",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q1\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q1",
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q1\\independent-restart.log",
+          "exitCode": 0,
+          "logSha256": "ab8e3bd209a783f0944263770b80ae5aca51b54c4003b6c9ac7173b747b0be50"
+        },
+        "jobStatus": "[17:53:51] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-8a032ab42645a0ee00bbe59829f02100d96854020de7c8e47ffce5b1630587e6 phase=VERIFYING cursor=736064 attempted=736064 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+        "before": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q1\\independent-before-restart.json",
+        "after": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q1\\independent-after-restart.json",
+        "sourceCells": 127239,
+        "nativePayloads": 24,
+        "fluidStates": 9
+      },
+      "2": {
+        "status": "PASS_SEPARATE_JVM_INSTALLED_RESTART_SOURCE_NATIVE_FLUID_READBACK",
+        "binding": {
+          "instanceId": "ftde-19a2bb1a0d1909ae81d70aefb61868bc53430971653b744e08dc6acce9089b3b",
+          "worldIdentity": "7723d5f995c5f54115da349ad965744d1dbf71740bb4fdd9a808e32bdb3192de",
+          "worldSeed": "267611119455246637",
+          "dimension": "minecraft:overworld",
+          "runtimeVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+          "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+          "manifestHash": "13dc58d2e9722de047c3144741cbfe449d17fe11eee513e939f0aac1aefa7d24",
+          "operationHash": "19bebad26c16cb818219f4bdb0f6cd6e58d432c71814e58a385cb825577a6744",
+          "planSha256": "f3e6b333ce1ae1ff72653c53e835a7180c34086ac1fd8b6fed268b9cbed6fd90",
+          "commitChallenge": "421faf15-3dca-43d6-b810-b26b052ce5ef"
+        },
+        "canonicalWorld": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q2\\world",
+        "canonicalWorldIdentityVerified": true,
+        "process": {
+          "pid": 38176,
+          "parentPid": 56268,
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q2\\world",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q2\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q2",
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q2\\independent-restart.log",
+          "exitCode": 0,
+          "logSha256": "c7d497e449edf7ee9fd2e80f6f5297ea45c8772c6d1d21355210483ed59c366f"
+        },
+        "jobStatus": "[17:54:51] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-19a2bb1a0d1909ae81d70aefb61868bc53430971653b744e08dc6acce9089b3b phase=VERIFYING cursor=630315 attempted=630315 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+        "before": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q2\\independent-before-restart.json",
+        "after": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q2\\independent-after-restart.json",
+        "sourceCells": 127239,
+        "nativePayloads": 24,
+        "fluidStates": 9
+      },
+      "3": {
+        "status": "PASS_SEPARATE_JVM_INSTALLED_RESTART_SOURCE_NATIVE_FLUID_READBACK",
+        "binding": {
+          "instanceId": "ftde-934371ef3498a8452fcbbb625202d8dc8a9c99ff0e779dd3591ec31d925fb5ee",
+          "worldIdentity": "0d89ef060432a5b8087db90bd89a31090245973b7a5d1826652f54164f8bc52e",
+          "worldSeed": "267611119455246637",
+          "dimension": "minecraft:overworld",
+          "runtimeVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+          "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+          "manifestHash": "13dc58d2e9722de047c3144741cbfe449d17fe11eee513e939f0aac1aefa7d24",
+          "operationHash": "76b8510c984e24af1c7ba9d57811fe8b756657d92e490436f0eaccebb9529c11",
+          "planSha256": "c8d0c5a286c2bb93ac38f272d009a87af4895f2e6d332524841cf93be074ca85",
+          "commitChallenge": "ff3d93b7-3ac0-496a-a96c-71125414ecf2"
+        },
+        "canonicalWorld": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q3\\world",
+        "canonicalWorldIdentityVerified": true,
+        "process": {
+          "pid": 45536,
+          "parentPid": 56268,
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q3\\world",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q3\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q3",
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q3\\independent-restart.log",
+          "exitCode": 0,
+          "logSha256": "60323cb18a6f84266c3e56706af9f1390dc8aa12b4cadc742b8947a1afde4f04"
+        },
+        "jobStatus": "[17:55:55] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-934371ef3498a8452fcbbb625202d8dc8a9c99ff0e779dd3591ec31d925fb5ee phase=VERIFYING cursor=931364 attempted=931364 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+        "before": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q3\\independent-before-restart.json",
+        "after": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\installed\\q3\\independent-after-restart.json",
+        "sourceCells": 127239,
+        "nativePayloads": 24,
+        "fluidStates": 9
+      }
+    },
+    "accepted": false,
+    "productionPromotion": false
+  },
+  "anchor": [
+    1000,
+    200,
+    1000
+  ],
+  "verifiedSourceRequests": [
+    {
+      "turn": 0,
+      "request": {
+        "worldSeed": 267611119455246637,
+        "dimension": "minecraft:overworld",
+        "anchor": {
+          "x": 1000,
+          "y": 200,
+          "z": 1000
+        },
+        "instanceOrdinal": 0,
+        "generatorVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+        "biome": "s8",
+        "roomCount": 9,
+        "maxAttempts": 50000
+      },
+      "journalSha256": "60aaa0678be200492a6f775be0432553e251cc4b84c15df11d0af25338edae00",
+      "canonicalContext": {
+        "instanceId": "ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f",
+        "worldIdentity": "5d37c69af765ccb1a78b57f9009d8853828eff6056553b69da72f514fa1d337b",
+        "worldSeed": "267611119455246637",
+        "dimension": "minecraft:overworld",
+        "runtimeVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+        "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+        "manifestHash": "13dc58d2e9722de047c3144741cbfe449d17fe11eee513e939f0aac1aefa7d24",
+        "operationHash": "5030fb9010d8921646bac78e71ed1a82d0ddb20e579d33ecaccb5ce8da1bba6a",
+        "planSha256": "e4705bc420852defdce57aa0ce347e7cca8c229a0cb55e4fe85992a3ec4b5bef",
+        "commitChallenge": "91177860-2afa-42fd-9bfb-0f3e32ce0802"
+      }
+    },
+    {
+      "turn": 1,
+      "request": {
+        "worldSeed": 267611119455246637,
+        "dimension": "minecraft:overworld",
+        "anchor": {
+          "x": 1000,
+          "y": 200,
+          "z": 1000
+        },
+        "instanceOrdinal": 1,
+        "generatorVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+        "biome": "s8",
+        "roomCount": 9,
+        "maxAttempts": 50000
+      },
+      "journalSha256": "a718bec9feb04a38889552918ef3c8fa6f7266f3a231588b43f6deaa0521db3b",
+      "canonicalContext": {
+        "instanceId": "ftde-8a032ab42645a0ee00bbe59829f02100d96854020de7c8e47ffce5b1630587e6",
+        "worldIdentity": "86ce2c7ab88cd2f2824c263929eed9311e3943eaaf93d2e39905d18bc193e87e",
+        "worldSeed": "267611119455246637",
+        "dimension": "minecraft:overworld",
+        "runtimeVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+        "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+        "manifestHash": "13dc58d2e9722de047c3144741cbfe449d17fe11eee513e939f0aac1aefa7d24",
+        "operationHash": "73a03bcb817c8865ea5c7365f576c9b35e247736d619684a717e82903a1c9f01",
+        "planSha256": "024bdd60c0f62ec054d8f8839abc2e28ce1e86473e7b09d132826de7d99d1410",
+        "commitChallenge": "cd167561-07e4-45b7-bc12-823ae49c580f"
+      }
+    },
+    {
+      "turn": 2,
+      "request": {
+        "worldSeed": 267611119455246637,
+        "dimension": "minecraft:overworld",
+        "anchor": {
+          "x": 1000,
+          "y": 200,
+          "z": 1000
+        },
+        "instanceOrdinal": 2,
+        "generatorVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+        "biome": "s8",
+        "roomCount": 9,
+        "maxAttempts": 50000
+      },
+      "journalSha256": "7224a3a12956372bc68eecbfe86141a8424ad5b08ab8c85ba251d0319eb852bf",
+      "canonicalContext": {
+        "instanceId": "ftde-19a2bb1a0d1909ae81d70aefb61868bc53430971653b744e08dc6acce9089b3b",
+        "worldIdentity": "7723d5f995c5f54115da349ad965744d1dbf71740bb4fdd9a808e32bdb3192de",
+        "worldSeed": "267611119455246637",
+        "dimension": "minecraft:overworld",
+        "runtimeVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+        "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+        "manifestHash": "13dc58d2e9722de047c3144741cbfe449d17fe11eee513e939f0aac1aefa7d24",
+        "operationHash": "19bebad26c16cb818219f4bdb0f6cd6e58d432c71814e58a385cb825577a6744",
+        "planSha256": "f3e6b333ce1ae1ff72653c53e835a7180c34086ac1fd8b6fed268b9cbed6fd90",
+        "commitChallenge": "421faf15-3dca-43d6-b810-b26b052ce5ef"
+      }
+    },
+    {
+      "turn": 3,
+      "request": {
+        "worldSeed": 267611119455246637,
+        "dimension": "minecraft:overworld",
+        "anchor": {
+          "x": 1000,
+          "y": 200,
+          "z": 1000
+        },
+        "instanceOrdinal": 3,
+        "generatorVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+        "biome": "s8",
+        "roomCount": 9,
+        "maxAttempts": 50000
+      },
+      "journalSha256": "08560e2c8acd26377408c0ff86b3b046ece80ad4279e959b809a5c3449a3599d",
+      "canonicalContext": {
+        "instanceId": "ftde-934371ef3498a8452fcbbb625202d8dc8a9c99ff0e779dd3591ec31d925fb5ee",
+        "worldIdentity": "0d89ef060432a5b8087db90bd89a31090245973b7a5d1826652f54164f8bc52e",
+        "worldSeed": "267611119455246637",
+        "dimension": "minecraft:overworld",
+        "runtimeVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+        "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+        "manifestHash": "13dc58d2e9722de047c3144741cbfe449d17fe11eee513e939f0aac1aefa7d24",
+        "operationHash": "76b8510c984e24af1c7ba9d57811fe8b756657d92e490436f0eaccebb9529c11",
+        "planSha256": "c8d0c5a286c2bb93ac38f272d009a87af4895f2e6d332524841cf93be074ca85",
+        "commitChallenge": "ff3d93b7-3ac0-496a-a96c-71125414ecf2"
+      }
+    }
+  ],
+  "maxOwnedServers": 1,
+  "originalWorldsAndSnapshotUnchanged": true,
+  "readOnlyReferencesChangedByOwnerAfterCopy": [
+    {
+      "path": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v6-final\\pause_io.py",
+      "copiedVersionSha256": "c4a49647ca775c7062410bdce3150933675552e0129d54fbdeea0383f8d398e0",
+      "currentOwnerVersionSha256": "c4ed0a7e20719dc0c30086659911c95e7ccb4dc3d917e3599ef3fbb3c5b488ce",
+      "executedCopiedVersion": true
+    },
+    {
+      "path": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v6-final\\restart_saved.py",
+      "copiedVersionSha256": "6fa828f9b32580483eec8e2123d5549cbbb54a689879d4571bc7106ab3b511e2",
+      "currentOwnerVersionSha256": "da01c3ae1d3060636a1ef5b6ef69751369b6aa3404f62e5c97a947689c8e5d40",
+      "executedCopiedVersion": true
+    }
+  ],
+  "frozen1115Unchanged": true,
+  "powerloss": false,
+  "actualCommitted": false,
+  "productionPromotion": false,
+  "completeGeneratorReady": false
+}

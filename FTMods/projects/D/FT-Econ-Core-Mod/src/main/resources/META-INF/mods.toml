@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
+issueTrackerURL=""
+
+[[mods]]
+modId="ftecon"
+version="1.0.0"
+displayName="qy's progressive taxation"
+description='''Wealth-based progressive pricing engine: item prices scale with a player's cumulative selling income (tiers/bands configurable in config/ftecon-config.json). Data-compatible with the previous KubeJS system (persistentData ftEconTotal).'''
+authors="qy"
+# v145 服务器可用性: 客户端**不需要**安装本模组, 也不做版本比对（纯服务端经济逻辑）
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.ftecon]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ftecon]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

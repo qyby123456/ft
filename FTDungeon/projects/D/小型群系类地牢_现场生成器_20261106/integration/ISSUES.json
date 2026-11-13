@@ -1,0 +1,38 @@
+{
+  "updatedAt": "2026-11-06T13:36:52.325912+08:00",
+  "issues": [
+    {
+      "id": "INDEPENDENT_SUITE_20261106_131217_940590",
+      "severity": "TEST_FAILURE",
+      "status": "RESOLVED_FIXTURE",
+      "detail": "Not a Forge startup failure. Two independent fixture identity assertions omitted occupied reservations from core instance identity. Fixture now consumes exact persisted runtime plan and independently compares room/link/seed layout.",
+      "failures": [
+        "[13:13:45] [Server thread/ERROR] [minecraft/LogTestReporter]: realroomplacementandjournalreload failed! Planner and runtime instance identity differs",
+        "[13:13:46] [Server thread/ERROR] [minecraft/LogTestReporter]: playerblockconflictleavesfulloperationsetunchanged failed! Planner and runtime instance identity differs"
+      ],
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590\\gametest.log",
+      "logSha256": "c985ec23af8034a38d9cb3ac4c1e37c3710f7c12460d6dc130dea80191ab1b41",
+      "resolutionRun": "20261106_132015_129205"
+    },
+    {
+      "id": "INSTALLER_URLLIB_403",
+      "severity": "HISTORY",
+      "status": "RESOLVED_VERIFIED_LOCAL_INSTALLER",
+      "detail": "Original urllib HTTP403 is preserved in run/20261106_131217_940590_installed/result.json. Same official installer independently verified against live official SHA1 and ZIP CRC, then copied into a new integration run and installed successfully.",
+      "evidence": "installed-server-result.json"
+    },
+    {
+      "id": "INSTALLED_CONFLICT_UNLOADED_FIXTURE",
+      "severity": "TEST_FIXTURE",
+      "status": "RESOLVED",
+      "detail": "First injected vanilla setblock refused because the distant chunk was not loaded; no generator build executed in that attempt. Original log/result retained. Revised fixture explicitly forceloads injection chunk, removes test force-load before shutdown, then independently compares saved full envelope.",
+      "evidence": "logs/installed-conflict-first-fixture-failure.json"
+    },
+    {
+      "id": "INCOMPLETE_WORLD_MATRIX",
+      "severity": "LIMITATION",
+      "status": "OPEN",
+      "detail": "Empty pool/corrupt NBT zero-write tests are offline only; forced-kill durability, native payload injections, world-border edge and internal ticket-manager audit remain NOT_RUN"
+    }
+  ]
+}

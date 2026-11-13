@@ -1,0 +1,17 @@
+allprojects { project ->
+    project.pluginManager.withPlugin('net.minecraftforge.gradle') {
+        gradle.projectsEvaluated {
+            def root = new File(project.findProperty('auditSource'))
+            def world = new File(project.findProperty('auditWorld'))
+            project.sourceSets.gameTest.java.srcDir(new File(root, 'world-tests'))
+            project.sourceSets.gameTest.resources.srcDir(new File(root, 'test-resources'))
+            project.minecraft.runs.configureEach {
+                workingDirectory world
+                property 'forge.enabledGameTestNamespaces', project.findProperty('auditNamespace') ?: 'ftbd_independent'
+                property 'ftbd.auditWorld', world.absolutePath
+                property 'ftbd.auditMatrix', project.findProperty('auditMatrix')
+            }
+            project.tasks.withType(JavaExec).configureEach { doFirst { workingDir world } }
+        }
+    }
+}

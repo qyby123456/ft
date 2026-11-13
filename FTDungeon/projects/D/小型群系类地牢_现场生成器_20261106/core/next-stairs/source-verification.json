@@ -1,0 +1,154 @@
+{
+  "requirements": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\catalog\\expansion-v2\\s8-complete-biome-requirements.json",
+  "requirementsSha256": "d6b795a9f151dbace3dcdffa431ca4b24569acded6c509df8aa6f5e6a8993e66",
+  "coreReadySha256": "aa544a048f88c760750f8673fc6a5d33b1c7f8de932abbed7958c96c943e78e7",
+  "baselineInventoryRechecked": 20,
+  "records": [
+    {
+      "id": "S8-01",
+      "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-01\\incoming\\S8R_IMG01\\room.nbt",
+      "sourceSha256": "ee50ce32006d15b24ae2b2932bbf4ebbef6683ae8b9ee33ca4781348ac0fa798",
+      "metadata": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-01\\incoming\\S8R_IMG01\\room.json",
+      "metadataSha256": "17cd41d940ece66882b4676615be5ca652dcf431b44f92f3cc297bbb1dc7432f",
+      "size": [
+        35,
+        21,
+        35
+      ],
+      "portChecks": [
+        {
+          "raw": {
+            "role": "entrance",
+            "facing": "north",
+            "position": [
+              17,
+              1,
+              0
+            ],
+            "width": 3,
+            "height": 3
+          },
+          "strictCatalogReproduction": {
+            "result": "REJECT",
+            "reason": "source aperture obstructed at (16, 1, 1): minecraft:deepslate_brick_stairs"
+          }
+        },
+        {
+          "raw": {
+            "role": "exit",
+            "facing": "south",
+            "position": [
+              17,
+              3,
+              34
+            ],
+            "width": 3,
+            "height": 3
+          },
+          "strictCatalogReproduction": {
+            "result": "PASS",
+            "cellsChecked": 18
+          }
+        },
+        {
+          "raw": {
+            "role": "exit",
+            "facing": "east",
+            "position": [
+              34,
+              3,
+              18
+            ],
+            "width": 3,
+            "height": 3
+          },
+          "strictCatalogReproduction": {
+            "result": "PASS",
+            "cellsChecked": 18
+          }
+        },
+        {
+          "raw": {
+            "role": "exit",
+            "facing": "west",
+            "position": [
+              0,
+              3,
+              18
+            ],
+            "width": 3,
+            "height": 3
+          },
+          "strictCatalogReproduction": {
+            "result": "PASS",
+            "cellsChecked": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "S8-07",
+      "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-07\\incoming\\S8R_IMG07\\room.nbt",
+      "sourceSha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7",
+      "metadata": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-07\\incoming\\S8R_IMG07\\room.json",
+      "metadataSha256": "cf120d37f57f664a486852c0dde76f0bc601a15f589b6de88e68cf5028d36227",
+      "size": [
+        25,
+        15,
+        27
+      ],
+      "portChecks": [
+        {
+          "raw": {
+            "role": "entrance",
+            "facing": "north",
+            "position": [
+              12,
+              2,
+              0
+            ],
+            "width": 3,
+            "minimum_height": 3
+          },
+          "strictCatalogReproduction": {
+            "result": "PASS",
+            "cellsChecked": 18
+          }
+        },
+        {
+          "raw": {
+            "role": "exit",
+            "facing": "south",
+            "position": [
+              12,
+              4,
+              26
+            ],
+            "width": 5,
+            "minimum_height": 3
+          },
+          "strictCatalogReproduction": {
+            "result": "PASS",
+            "cellsChecked": 30
+          }
+        }
+      ]
+    }
+  ],
+  "sourceFilesModified": false,
+  "nativeWorldTest": "NOT_RUN",
+  "readOnlyParserDependencies": [
+    {
+      "path": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\catalog\\nbtio.py",
+      "sha256": "3b1d85f5e032fba12287355b2f9616d8ad5505ae6c7ea97cc06ca74067a34586"
+    },
+    {
+      "path": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\catalog\\freeze_catalog.py",
+      "sha256": "3868fac2744bae2c2078846d64fa1911892d6b7befd92e78ec0c89a6b0f0f851"
+    },
+    {
+      "path": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\catalog\\inspect_sources.py",
+      "sha256": "f1f593bc56cdd8889b459c401712b1bb35034b949353bbc88f53a1b96ffffb97"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+饮用与检视动画 1.8.52
+
+新增以下 12 种酒的拿出、检视、开瓶、饮用和收回兼容：
+kaleidoscope_tavern:carignan（旋转开盖）
+kaleidoscope_tavern:mother_snow（旋转开盖）
+kaleidoscope_tavern:miners_star
+kaleidoscope_tavern:rum
+kaleidoscope_tavern:riesling_dry_white
+kaleidoscope_tavern:madame_shexiang
+kaleidoscope_world_liquor:bamboo_leaf_green_liquor
+kaleidoscope_tavern:sunset_glow
+kaleidoscope_tavern:sweet_berry_wine
+kaleidoscope_tavern:vodka
+kaleidoscope_world_liquor:maotai
+kaleidoscope_tavern:brandy
+
+使用每种酒自己的原模型和贴图，按瓶口尺寸拆分瓶盖、瓶塞及内壁。
+竹叶青保留原装饰叶片，并跟随瓶塞取出；霞光保留原旋转造型的塞头。
+支持 BrewLevel:6，并沿用按物品 ID 匹配、不改变原 BrewLevel 的兼容方式。
+这些不透明酒瓶沿用固定内容物，不增加动态流体。
+现有 293 个配置以及 1.8.51 的瓶口颜色、冰酒与香槟频闪修复保持原样。
+
+验证详情：verification-1.8.52.json；安装记录：installation-1.8.52.json。
+旧版 JAR、配置与源码备份：backups/1.8.51-before-twelve-tavern-bottles。
+安装后完全退出游戏并重启生效，F3+T 不能加载新的模组 JAR。

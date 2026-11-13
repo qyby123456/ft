@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ftmaze_roll:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

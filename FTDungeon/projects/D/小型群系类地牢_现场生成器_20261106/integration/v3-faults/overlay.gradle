@@ -1,0 +1,22 @@
+allprojects { project ->
+    project.pluginManager.withPlugin('net.minecraftforge.gradle') {
+        gradle.projectsEvaluated {
+            def root = new File(project.findProperty('v3Source'))
+            def run = new File(project.findProperty('v3Run'))
+            def scenario = project.findProperty('v3Scenario')
+            def world = new File(run, scenario + '/world-process')
+            project.sourceSets.gameTest.java.srcDir(new File(root, 'world-tests'))
+            project.sourceSets.gameTest.resources.srcDir(new File(root, 'test-resources'))
+            project.minecraft.runs.configureEach {
+                workingDirectory world
+                property 'forge.enabledGameTestNamespaces', 'ftbd_faulttest'
+                property 'ftbd.v3Scenario', scenario
+                property 'ftbd.v3Stage', project.findProperty('v3Stage')
+                property 'ftbd.v3World', world.absolutePath
+            }
+            project.tasks.withType(JavaExec).configureEach {
+                doFirst { workingDir world; workingDir.mkdirs() }
+            }
+        }
+    }
+}

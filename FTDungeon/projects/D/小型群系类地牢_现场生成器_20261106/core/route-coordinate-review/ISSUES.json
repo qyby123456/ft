@@ -1,0 +1,26 @@
+{
+  "component": "route-coordinate-review",
+  "currentFrozenMatrixProvenCoordinateBugs": [],
+  "findings": [
+    {
+      "id": "COORD-001",
+      "status": "PROVED_FOR_CURRENT_SOURCE_DOMAIN",
+      "finding": "Runtime R(q)*(0.5,0,0.5) matches original IndependentRouteAudit Node conversion, and exactly matches placed block centers for all integer real S8 targets; removing it would alter historical body centers."
+    },
+    {
+      "id": "COORD-002",
+      "status": "GENERALIZATION_COUNTEREXAMPLE_NOT_CURRENT_REAL_FAILURE",
+      "finding": "Original Math.round(2*p)/2 quantizes any non-half-grid source coordinate; runtime preserves fractions. Synthetic p=(12.25,4,4.25) produces old centered(13,4,5) vs runtime centered(12.75,4,4.75) at q0. Cannot claim arbitrary-fraction equivalence.",
+      "action": "Integration must domain-check coordinates or explicitly version raw-continuous vs original-half-grid semantics; do not move/round original targets silently. Current selected matrix has zero fractional or off-half-grid occurrences."
+    },
+    {
+      "id": "COORD-003",
+      "status": "COVERAGE_AND_INTERACTION_GATES_REMAIN_OPEN",
+      "finding": "Frozen result reports1100/2200 native checks, all36 independent cases=false; nativeUIAndDoorInteractions and globalEntranceReturnRouteCertificate NOT_RUN; fullDeclaredWidthStairClearance NOT_CERTIFIED.",
+      "action": "Coordinate consistency is not route acceptance. Keep completeGeneratorReady=false and productionPromotion=false; require full native matrix plus interactions and declared-width/headroom verification."
+    }
+  ],
+  "filesModifiedOutsideReview": false,
+  "sourceTargetsMoved": false,
+  "nativeWorldTestsByReview": "NOT_RUN"
+}

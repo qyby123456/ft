@@ -1,0 +1,51 @@
+{
+  "scope": "offline validation, not actual Minecraft gameplay",
+  "steps": [
+    {
+      "name": "geometry-unit-tests",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\geometry-unit-tests.txt"
+    },
+    {
+      "name": "asset-verification",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\asset-verification.txt"
+    },
+    {
+      "name": "recipe-and-reward-mock",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\recipe-and-reward-mock.txt"
+    },
+    {
+      "name": "interaction-mock",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\interaction-mock.txt"
+    },
+    {
+      "name": "command-mock",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\command-mock.txt"
+    },
+    {
+      "name": "nbt-layout-mock",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\nbt-layout-mock.txt"
+    },
+    {
+      "name": "prefixed-web-controls",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\prefixed-web-controls.txt"
+    },
+    {
+      "name": "unified-web-controls",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\unified-web-controls.txt"
+    },
+    {
+      "name": "42-view-visual-regression",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\42-view-visual-regression.txt"
+    }
+  ],
+  "all_passed": true
+}

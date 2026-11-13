@@ -1,0 +1,1030 @@
+{
+  "group": "S7-fungal-grove",
+  "batch": "first 01-10; 09 placeable rooms + 01 reference overview",
+  "thread_id": "01a1a5df-d735-7b43-9d3b-2939bfc6c0ed",
+  "rooms": [
+    {
+      "id": "NAT7-01",
+      "name": "巨菇中枢",
+      "kind": "large-chamber",
+      "size": [
+        19,
+        16,
+        19
+      ],
+      "exits": [
+        "south",
+        "east",
+        "west"
+      ],
+      "facing": "north",
+      "entrance": [
+        9,
+        1,
+        0
+      ],
+      "interior": [
+        9,
+        1,
+        2
+      ],
+      "mod_source": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\junction_md.nbt",
+      "mod_source_sha256": "43dd154c633eeaeea32160917ac5d1826a7e2270c39404c21e47aa5407316da0",
+      "mod_source_size": [
+        19,
+        16,
+        19
+      ],
+      "adaptation": "Preserve exact 19x16x19 junction envelope and four horizontal branches; replace furnishings with supported giant-mushroom focal dais.",
+      "sha256": "7a641d31e419ae246564c43e87e94a8dc35c2c85c615e7b6681cd801ecd9e5d3",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-01-large-chamber.png",
+      "reference_sha256": "f72757bf4a06381d5816c75310804eeb802e322059a336c2f5e93ee9ba3bb97c",
+      "connections": [
+        {
+          "direction": "north",
+          "feet": [
+            9,
+            1,
+            0
+          ],
+          "outward_normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            9,
+            1,
+            -1
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "entrance",
+          "reachable": true
+        },
+        {
+          "direction": "south",
+          "feet": [
+            9,
+            1,
+            18
+          ],
+          "outward_normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            9,
+            1,
+            19
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        },
+        {
+          "direction": "east",
+          "feet": [
+            18,
+            1,
+            9
+          ],
+          "outward_normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            19,
+            1,
+            9
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        },
+        {
+          "direction": "west",
+          "feet": [
+            0,
+            1,
+            9
+          ],
+          "outward_normal": [
+            -1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            -1,
+            1,
+            9
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        }
+      ],
+      "coordinate_system": "+X east, +Y up, +Z south; feet coordinates",
+      "integration_status": "candidate; not deployed; unique slot pending coordinator",
+      "reachable_feet_levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "lodestone_url": "http://127.0.0.1:5277/?nbt=%2F%40fs%2FD%3A%2Fft%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%2FFT%E5%9C%B0%E7%89%A2_%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83%E7%AC%AC7%E7%BB%84_%E8%98%91%E8%8F%87%E7%9C%9F%E8%8F%8C_20261104%2Fincoming%2FNAT7-01%2Froom.nbt&name=NAT7-01"
+    },
+    {
+      "id": "NAT7-02",
+      "name": "菌光议事室",
+      "kind": "medium-room",
+      "size": [
+        17,
+        10,
+        17
+      ],
+      "exits": [
+        "south"
+      ],
+      "facing": "north",
+      "entrance": [
+        8,
+        1,
+        0
+      ],
+      "interior": [
+        8,
+        1,
+        2
+      ],
+      "mod_source": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\armoury_md.nbt",
+      "mod_source_sha256": "e9bdc949c8cae69e130d32ac415b9a7a2976ab00a964e041a67bd41a962412b0",
+      "mod_source_size": [
+        13,
+        8,
+        13
+      ],
+      "adaptation": "13x8x13 to 17x10x17: +4 lateral and +2 headroom for mushroom alcoves, preserve central circulation and functional side storage.",
+      "sha256": "6c043b839ce3017a2590e15db014b58c1f8e614777fee1e0edcaac7ace0ba8ec",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-02-medium-room.png",
+      "reference_sha256": "2fd83b48f23056f31b4d8eb050aefc808fc31e8af7df4fc08fd2b52b1581dabf",
+      "connections": [
+        {
+          "direction": "north",
+          "feet": [
+            8,
+            1,
+            0
+          ],
+          "outward_normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            8,
+            1,
+            -1
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "entrance",
+          "reachable": true
+        },
+        {
+          "direction": "south",
+          "feet": [
+            8,
+            1,
+            16
+          ],
+          "outward_normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            8,
+            1,
+            17
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        }
+      ],
+      "coordinate_system": "+X east, +Y up, +Z south; feet coordinates",
+      "integration_status": "candidate; not deployed; unique slot pending coordinator",
+      "reachable_feet_levels": [
+        1,
+        2,
+        3
+      ],
+      "lodestone_url": "http://127.0.0.1:5277/?nbt=%2F%40fs%2FD%3A%2Fft%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%2FFT%E5%9C%B0%E7%89%A2_%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83%E7%AC%AC7%E7%BB%84_%E8%98%91%E8%8F%87%E7%9C%9F%E8%8F%8C_20261104%2Fincoming%2FNAT7-02%2Froom.nbt&name=NAT7-02"
+    },
+    {
+      "id": "NAT7-03",
+      "name": "孢子储藏室",
+      "kind": "small-room",
+      "size": [
+        11,
+        8,
+        11
+      ],
+      "exits": [
+        "east"
+      ],
+      "facing": "north",
+      "entrance": [
+        5,
+        1,
+        0
+      ],
+      "interior": [
+        5,
+        1,
+        2
+      ],
+      "mod_source": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\storeroom.nbt",
+      "mod_source_sha256": "72bb3e8d83486cdbb320b98fd4dbfee701293b0f63d9669a93903898e2a7add7",
+      "mod_source_size": [
+        7,
+        8,
+        13
+      ],
+      "adaptation": "7x8x13 to 11x8x11: widen 4, shorten 2; retain small storage role with empty containers, add east emergency connector.",
+      "sha256": "aff4ae3cc444f184fea42e31dbc1c7f81f89681a7b2ab1a287de35ee17d904e1",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-03-small-room.png",
+      "reference_sha256": "7807c9fae5f7dea0e3abe56fe5eca244529e677e4a4291eaf1ac7f0382d933f9",
+      "connections": [
+        {
+          "direction": "north",
+          "feet": [
+            5,
+            1,
+            0
+          ],
+          "outward_normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            5,
+            1,
+            -1
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "entrance",
+          "reachable": true
+        },
+        {
+          "direction": "east",
+          "feet": [
+            10,
+            1,
+            5
+          ],
+          "outward_normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            11,
+            1,
+            5
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        }
+      ],
+      "coordinate_system": "+X east, +Y up, +Z south; feet coordinates",
+      "integration_status": "candidate; not deployed; unique slot pending coordinator",
+      "reachable_feet_levels": [
+        1,
+        2
+      ],
+      "lodestone_url": "http://127.0.0.1:5277/?nbt=%2F%40fs%2FD%3A%2Fft%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%2FFT%E5%9C%B0%E7%89%A2_%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83%E7%AC%AC7%E7%BB%84_%E8%98%91%E8%8F%87%E7%9C%9F%E8%8F%8C_20261104%2Fincoming%2FNAT7-03%2Froom.nbt&name=NAT7-03"
+    },
+    {
+      "id": "NAT7-04",
+      "name": "菌柱长厅",
+      "kind": "great-hall",
+      "size": [
+        23,
+        12,
+        17
+      ],
+      "exits": [
+        "south",
+        "east",
+        "west"
+      ],
+      "facing": "north",
+      "entrance": [
+        11,
+        1,
+        0
+      ],
+      "interior": [
+        11,
+        1,
+        2
+      ],
+      "mod_source": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\library_md.nbt",
+      "mod_source_sha256": "f23b2e61b8ffd3891e2f3399c61c00a9e59921970d86fe2ab6e3a43837b3782a",
+      "mod_source_size": [
+        17,
+        8,
+        25
+      ],
+      "adaptation": "17x8x25 rotated to 25x8x17 then width -2 and height +4; replace stacks with two supported mushroom-column rows; preserve longitudinal aisle.",
+      "sha256": "673d05cd5a05432d5b4a6cd235f7456ec71b5e49eb0e7f9e579c236236b334e6",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-04-great-hall.png",
+      "reference_sha256": "fd15298f5740cdbe33d6be5d7394ce6b1085a9a38246426e5296bee45a92c1c2",
+      "connections": [
+        {
+          "direction": "north",
+          "feet": [
+            11,
+            1,
+            0
+          ],
+          "outward_normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            11,
+            1,
+            -1
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "entrance",
+          "reachable": true
+        },
+        {
+          "direction": "south",
+          "feet": [
+            11,
+            1,
+            16
+          ],
+          "outward_normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            11,
+            1,
+            17
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        },
+        {
+          "direction": "east",
+          "feet": [
+            22,
+            1,
+            8
+          ],
+          "outward_normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            23,
+            1,
+            8
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        },
+        {
+          "direction": "west",
+          "feet": [
+            0,
+            1,
+            8
+          ],
+          "outward_normal": [
+            -1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            -1,
+            1,
+            8
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        }
+      ],
+      "coordinate_system": "+X east, +Y up, +Z south; feet coordinates",
+      "integration_status": "candidate; not deployed; unique slot pending coordinator",
+      "reachable_feet_levels": [
+        1,
+        2
+      ],
+      "lodestone_url": "http://127.0.0.1:5277/?nbt=%2F%40fs%2FD%3A%2Fft%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%2FFT%E5%9C%B0%E7%89%A2_%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83%E7%AC%AC7%E7%BB%84_%E8%98%91%E8%8F%87%E7%9C%9F%E8%8F%8C_20261104%2Fincoming%2FNAT7-04%2Froom.nbt&name=NAT7-04"
+    },
+    {
+      "id": "NAT7-05",
+      "name": "菌脉直廊",
+      "kind": "corridor",
+      "size": [
+        7,
+        8,
+        25
+      ],
+      "exits": [
+        "south"
+      ],
+      "facing": "north",
+      "entrance": [
+        3,
+        1,
+        0
+      ],
+      "interior": [
+        3,
+        1,
+        2
+      ],
+      "mod_source": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\stellarity\\data\\stellarity\\structures\\stronghold\\corridors\\straight.nbt",
+      "mod_source_sha256": "df60fd40d81714b0dd98c6a1b4ac1868248b3e6465b33486fea806ee4f1e29d6",
+      "mod_source_size": [
+        25,
+        6,
+        7
+      ],
+      "adaptation": "25x6x7 rotated to 7x6x25, height +2 for fungus caps; preserve endpoint feet y=1, two opposite ports and 25-block run.",
+      "sha256": "3615734fae4daf70da20d10a4effdc0fa0d3fa4adcab65d4c58e2a545b3f8003",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-05-corridor.png",
+      "reference_sha256": "4ed45740b1ca9c76befd79a60c9c36cb3bccc2f31b0f9b5696a90452d768fc7e",
+      "connections": [
+        {
+          "direction": "north",
+          "feet": [
+            3,
+            1,
+            0
+          ],
+          "outward_normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            3,
+            1,
+            -1
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "entrance",
+          "reachable": true
+        },
+        {
+          "direction": "south",
+          "feet": [
+            3,
+            1,
+            24
+          ],
+          "outward_normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            3,
+            1,
+            25
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        }
+      ],
+      "coordinate_system": "+X east, +Y up, +Z south; feet coordinates",
+      "integration_status": "candidate; not deployed; unique slot pending coordinator",
+      "reachable_feet_levels": [
+        1,
+        2,
+        3
+      ],
+      "lodestone_url": "http://127.0.0.1:5277/?nbt=%2F%40fs%2FD%3A%2Fft%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%2FFT%E5%9C%B0%E7%89%A2_%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83%E7%AC%AC7%E7%BB%84_%E8%98%91%E8%8F%87%E7%9C%9F%E8%8F%8C_20261104%2Fincoming%2FNAT7-05%2Froom.nbt&name=NAT7-05"
+    },
+    {
+      "id": "NAT7-06",
+      "name": "菌光折廊",
+      "kind": "corner",
+      "size": [
+        17,
+        8,
+        17
+      ],
+      "exits": [
+        "east"
+      ],
+      "facing": "north",
+      "entrance": [
+        8,
+        1,
+        0
+      ],
+      "interior": [
+        8,
+        1,
+        2
+      ],
+      "mod_source": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\stellarity\\data\\stellarity\\structures\\stronghold\\corridors\\turn_1.nbt",
+      "mod_source_sha256": "77a037ac93ce52036672192cb872c26f7f044b6787726dc4c3635b18093ffb32",
+      "mod_source_size": [
+        17,
+        6,
+        17
+      ],
+      "adaptation": "Preserve exact 17x17 footprint, height 6 to 8; convert source south/east off-centre anchors to north/east centre anchors for FT, retain true L-shaped shell.",
+      "sha256": "8a14ffdd6ef9df372cbe6495aefbfcd3803e39f66830bca56cf6be5f0c181208",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-06-corner.png",
+      "reference_sha256": "3b4ea2b36520fa416a86c361ce994c5a682c9693a4acb1ae36d1738ecbdbc44c",
+      "connections": [
+        {
+          "direction": "north",
+          "feet": [
+            8,
+            1,
+            0
+          ],
+          "outward_normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            8,
+            1,
+            -1
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "entrance",
+          "reachable": true
+        },
+        {
+          "direction": "east",
+          "feet": [
+            16,
+            1,
+            8
+          ],
+          "outward_normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            17,
+            1,
+            8
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        }
+      ],
+      "coordinate_system": "+X east, +Y up, +Z south; feet coordinates",
+      "integration_status": "candidate; not deployed; unique slot pending coordinator",
+      "reachable_feet_levels": [
+        1
+      ],
+      "lodestone_url": "http://127.0.0.1:5277/?nbt=%2F%40fs%2FD%3A%2Fft%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%2FFT%E5%9C%B0%E7%89%A2_%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83%E7%AC%AC7%E7%BB%84_%E8%98%91%E8%8F%87%E7%9C%9F%E8%8F%8C_20261104%2Fincoming%2FNAT7-06%2Froom.nbt&name=NAT7-06"
+    },
+    {
+      "id": "NAT7-07",
+      "name": "菌林门厅",
+      "kind": "entrance",
+      "size": [
+        19,
+        10,
+        17
+      ],
+      "exits": [
+        "south"
+      ],
+      "facing": "north",
+      "entrance": [
+        9,
+        1,
+        0
+      ],
+      "interior": [
+        9,
+        1,
+        2
+      ],
+      "mod_source": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\junction_md.nbt",
+      "mod_source_sha256": "43dd154c633eeaeea32160917ac5d1826a7e2270c39404c21e47aa5407316da0",
+      "mod_source_size": [
+        19,
+        16,
+        19
+      ],
+      "adaptation": "19x16x19 to 19x10x17: keep width, shorten depth 2 and height 6; retain opposing transition ports, use two guard niches.",
+      "sha256": "e396a9e73ddb80b41be9612fb46480f457b13992a7025f312fa70929d7ee0de3",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-07-entrance.png",
+      "reference_sha256": "2f457aeac837ffa552f1c4ac05fffbdcd389d99a089b2102018d319c8fa9e4a9",
+      "connections": [
+        {
+          "direction": "north",
+          "feet": [
+            9,
+            1,
+            0
+          ],
+          "outward_normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            9,
+            1,
+            -1
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "entrance",
+          "reachable": true
+        },
+        {
+          "direction": "south",
+          "feet": [
+            9,
+            1,
+            16
+          ],
+          "outward_normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            9,
+            1,
+            17
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        }
+      ],
+      "coordinate_system": "+X east, +Y up, +Z south; feet coordinates",
+      "integration_status": "candidate; not deployed; unique slot pending coordinator",
+      "reachable_feet_levels": [
+        1,
+        2
+      ],
+      "lodestone_url": "http://127.0.0.1:5277/?nbt=%2F%40fs%2FD%3A%2Fft%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%2FFT%E5%9C%B0%E7%89%A2_%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83%E7%AC%AC7%E7%BB%84_%E8%98%91%E8%8F%87%E7%9C%9F%E8%8F%8C_20261104%2Fincoming%2FNAT7-07%2Froom.nbt&name=NAT7-07"
+    },
+    {
+      "id": "NAT7-08",
+      "name": "孢光天井",
+      "kind": "courtyard",
+      "size": [
+        23,
+        12,
+        23
+      ],
+      "exits": [
+        "south",
+        "east",
+        "west"
+      ],
+      "facing": "north",
+      "entrance": [
+        11,
+        1,
+        0
+      ],
+      "interior": [
+        11,
+        1,
+        2
+      ],
+      "mod_source": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\junction_md.nbt",
+      "mod_source_sha256": "43dd154c633eeaeea32160917ac5d1826a7e2270c39404c21e47aa5407316da0",
+      "mod_source_size": [
+        19,
+        16,
+        19
+      ],
+      "adaptation": "19x16x19 to 23x12x23: widen 4, height -4, open central roof only; preserve four-branch junction and peripheral circulation.",
+      "sha256": "68ae3938cb097539084eb96b9d740dafcd6ffecc4e96a99a77cff4189fd05206",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-08-courtyard.png",
+      "reference_sha256": "3c4d71aeb76e5d23a3427cb48a961a7baa4f1c78b753509e8e3458aaa0841bf8",
+      "connections": [
+        {
+          "direction": "north",
+          "feet": [
+            11,
+            1,
+            0
+          ],
+          "outward_normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            11,
+            1,
+            -1
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "entrance",
+          "reachable": true
+        },
+        {
+          "direction": "south",
+          "feet": [
+            11,
+            1,
+            22
+          ],
+          "outward_normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            11,
+            1,
+            23
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        },
+        {
+          "direction": "east",
+          "feet": [
+            22,
+            1,
+            11
+          ],
+          "outward_normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            23,
+            1,
+            11
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        },
+        {
+          "direction": "west",
+          "feet": [
+            0,
+            1,
+            11
+          ],
+          "outward_normal": [
+            -1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            -1,
+            1,
+            11
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        }
+      ],
+      "coordinate_system": "+X east, +Y up, +Z south; feet coordinates",
+      "integration_status": "candidate; not deployed; unique slot pending coordinator",
+      "reachable_feet_levels": [
+        1,
+        2
+      ],
+      "lodestone_url": "http://127.0.0.1:5277/?nbt=%2F%40fs%2FD%3A%2Fft%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%2FFT%E5%9C%B0%E7%89%A2_%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83%E7%AC%AC7%E7%BB%84_%E8%98%91%E8%8F%87%E7%9C%9F%E8%8F%8C_20261104%2Fincoming%2FNAT7-08%2Froom.nbt&name=NAT7-08"
+    },
+    {
+      "id": "NAT7-09",
+      "name": "菌王宝库",
+      "kind": "treasure",
+      "size": [
+        21,
+        12,
+        19
+      ],
+      "exits": [
+        "east",
+        "west"
+      ],
+      "facing": "north",
+      "entrance": [
+        10,
+        1,
+        0
+      ],
+      "interior": [
+        10,
+        1,
+        2
+      ],
+      "mod_source": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\prison_lg.nbt",
+      "mod_source_sha256": "6acc5a10a095666abd011f6a71267663a4f5cd9889225969a48fbeb74b606b7f",
+      "mod_source_size": [
+        19,
+        8,
+        19
+      ],
+      "adaptation": "19x8x19 to 21x12x19: widen 2, height +4; reuse branch-room envelope, deliberately change function from cells to terminal stepped treasury.",
+      "sha256": "27f1ab2825367b6d4b609114422e1068f82881a05a2b38766fb772ba7be784d9",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-09-treasure.png",
+      "reference_sha256": "bb596c53fbe75351b7b53a49cba72ac27fbf50f0b2c5541ca8202c29559a484d",
+      "connections": [
+        {
+          "direction": "north",
+          "feet": [
+            10,
+            1,
+            0
+          ],
+          "outward_normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            10,
+            1,
+            -1
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "entrance",
+          "reachable": true
+        },
+        {
+          "direction": "east",
+          "feet": [
+            20,
+            1,
+            9
+          ],
+          "outward_normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            21,
+            1,
+            9
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        },
+        {
+          "direction": "west",
+          "feet": [
+            0,
+            1,
+            9
+          ],
+          "outward_normal": [
+            -1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            -1,
+            1,
+            9
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "role": "exit",
+          "reachable": true
+        }
+      ],
+      "coordinate_system": "+X east, +Y up, +Z south; feet coordinates",
+      "integration_status": "candidate; not deployed; unique slot pending coordinator",
+      "reachable_feet_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "lodestone_url": "http://127.0.0.1:5277/?nbt=%2F%40fs%2FD%3A%2Fft%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%2FFT%E5%9C%B0%E7%89%A2_%E8%87%AA%E7%84%B6%E7%8E%AF%E5%A2%83%E7%AC%AC7%E7%BB%84_%E8%98%91%E8%8F%87%E7%9C%9F%E8%8F%8C_20261104%2Fincoming%2FNAT7-09%2Froom.nbt&name=NAT7-09"
+    }
+  ],
+  "reference_overview": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-10-overview.png",
+  "reference_overview_sha256": "def6d7bdf825b931bce5f304cd046f8ca63188ae402ad2bf1052e618d11637f8",
+  "new_image_api_calls": 0,
+  "image_cleanup": "not required; no image generation invoked",
+  "static_qa": "9/9 PASS",
+  "native_qa": "9/9 PASS",
+  "forge_world_placement": "NOT RUN",
+  "deployed": false,
+  "group_fingerprint": "b513dde3f3dd1122a45afa242f1168a6cd3ce4341d2c10faa0a6c62c86d1e985",
+  "source_evidence": "D:\\ft工程文件\\FT地牢_自然环境第7组_蘑菇真菌_20261104\\qa\\source-evidence.json",
+  "revision": "differentiated-v2",
+  "revision_fingerprint": "fb2ca11a8ce768574c5dd28a8dcd8b500119c253c615e7fc909f8fd774d88510",
+  "design_identity": "D:\\ft工程文件\\FT地牢_自然环境第7组_蘑菇真菌_20261104\\DESIGN_IDENTITY.json",
+  "design_audit": "D:\\ft工程文件\\FT地牢_自然环境第7组_蘑菇真菌_20261104\\qa\\design-audit.json"
+}

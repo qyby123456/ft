@@ -1,0 +1,1 @@
+execute if block 836 91 198 minecraft:air if block 836 90 198 minecraft:polished_andesite store success score #v0b361 ftm_brick run setblock 836 91 198 ftdungeonmobs:dungeon_spawn_point[spent=false] keep

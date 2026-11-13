@@ -1,0 +1,30 @@
+{
+  "status": "PREPARED_NO_NATIVE_GEOMETRY_YET",
+  "contractSha256": "e0da619081401afd4a54cf18e0005bb20d3792e18d56df61b3d5593128d1844a",
+  "schemaVersion": 1,
+  "collectionMode": "WORLD_NATIVE_VOXELSHAPE",
+  "coverageComplete": false,
+  "requiredStripCount": 12,
+  "requiredBlockRecords": 4416,
+  "candidateToOriginalId": {
+    "s8_01": "s8_01",
+    "s8_02": "s8_02",
+    "s8_03": "s8_03",
+    "s8_04": "s8_04",
+    "s8_05": "s8_05",
+    "s8_06": "s8_06",
+    "s8_07_widearch_side_doublegate_v5": "s8_07",
+    "s8_08": "s8_08",
+    "s8_09": "s8_09"
+  },
+  "requirements": [
+    "Use CollisionContext.of(native standing FakePlayer), not block default collision context or analytic guessed boxes",
+    "Load actual source/rotated blocks in all36 scenes before collecting12 strips; retain air/empty shapes and fluidEmpty explicitly",
+    "Each block localBlock is original source coordinate; actual world position uses frozen room origin and voxel rotation",
+    "Native box corners rotate back by inverse rigid rotation to original local continuous coordinates before certificate input; preserve exact dyadic values",
+    "Bind every stripId/resource SHA/q/contract hash, no prefix/substring ID inference",
+    "Run original748 swept samples and native step-boundary forward/return separately from finite rational coverage script",
+    "Never certify coverageComplete until all4416 required native block records exist and source/state/rotation are verified"
+  ],
+  "scenes": []
+}

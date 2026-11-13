@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Native shape collection for catalog finite interval verifier",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "collectionMode",
+    "contractSha256",
+    "coverageComplete",
+    "scenes"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "collectionMode": {
+      "const": "WORLD_NATIVE_VOXELSHAPE"
+    },
+    "contractSha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "coverageComplete": {
+      "const": true
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "stripId",
+          "resourceSha256",
+          "nativeContext",
+          "blocks",
+          "quarterTurns"
+        ],
+        "properties": {
+          "stripId": {
+            "type": "string"
+          },
+          "resourceSha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "nativeContext": {
+            "const": "PLAYER_STANDING_COLLISION_CONTEXT"
+          },
+          "blocks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "localBlock",
+                "nativeState",
+                "fluidEmpty",
+                "boxes",
+                "blockName"
+              ],
+              "properties": {
+                "localBlock": {
+                  "type": "array",
+                  "minItems": 3,
+                  "maxItems": 3,
+                  "items": {
+                    "type": "integer"
+                  }
+                },
+                "nativeState": {
+                  "type": "string"
+                },
+                "fluidEmpty": {
+                  "const": true
+                },
+                "boxes": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "minItems": 6,
+                    "maxItems": 6,
+                    "items": {
+                      "type": "number"
+                    }
+                  }
+                },
+                "blockName": {
+                  "type": "string",
+                  "enum": [
+                    "minecraft:air",
+                    "minecraft:amethyst_block",
+                    "minecraft:calcite",
+                    "minecraft:chain",
+                    "minecraft:dark_oak_fence",
+                    "minecraft:dark_oak_fence_gate",
+                    "minecraft:deepslate_brick_stairs",
+                    "minecraft:deepslate_brick_wall",
+                    "minecraft:deepslate_bricks",
+                    "minecraft:deepslate_tiles",
+                    "minecraft:lantern",
+                    "minecraft:oak_fence",
+                    "minecraft:oak_fence_gate",
+                    "minecraft:polished_deepslate",
+                    "minecraft:spruce_fence",
+                    "minecraft:spruce_fence_gate"
+                  ]
+                }
+              }
+            }
+          },
+          "quarterTurns": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          }
+        }
+      }
+    }
+  }
+}

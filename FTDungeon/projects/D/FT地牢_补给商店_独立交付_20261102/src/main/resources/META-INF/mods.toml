@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ftshopqa"
+version="1.0"
+displayName="FT Supply Shop Isolated QA Only"
+description='''Test fixture only. Never install this verification mod into a player instance.'''
+[[dependencies.ftshopqa]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ftshopqa]]
+modId="ftdungeontrading"
+mandatory=true
+versionRange="[1.2.0,1.3.0)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.ftshopqa]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,176 @@
+{
+  "owner": "C",
+  "status": "C_REVISION_FROZEN_AWAITING_HOST_NATIVE_RERUN",
+  "nativeExecution": "HOST_R2_PLANNER_RUNTIME_PASS_PROFILES_FIXTURE_FAILED;Y10_FIX_FROZEN_AWAITING_R3",
+  "gradleExecutedByC": false,
+  "deployed": false,
+  "formalWorldsModsConfigKubeJsModified": false,
+  "files": [
+    {
+      "path": "src/styleTest/java/moss/generator/StylePlannerGameTests.java",
+      "sha256": "3644bf5963851183edff7b8bfc72fc1509d6f5f326b9337e4610f3155bd3c95e",
+      "bytes": 15151
+    },
+    {
+      "path": "src/styleTest/java/moss/generator/StyleProfilesGameTests.java",
+      "sha256": "713ea7a75d2922633d34546d34e2c0169b1619fcb12e11fcbca9c86333ca86bb",
+      "bytes": 7667
+    },
+    {
+      "path": "src/styleTest/java/moss/generator/StyleRuntimeGameTests.java",
+      "sha256": "ed19faa5c50801c356fee878c101e4df9687998c31b581a801e4a11c811d4fd0",
+      "bytes": 27241
+    },
+    {
+      "path": "src/styleTest/resources/data/ftstylesqa/structures/empty.nbt",
+      "sha256": "79a829589b459af48b8dbfc609cbcb4dfce1a94a6d2c6100f1f67b2188cf2b33",
+      "bytes": 291
+    },
+    {
+      "path": "src/styleTest/fixtures/obsidian.json",
+      "sha256": "7901203ae472d28a8cb6d2d99509d315baee499c416218b42dd7e849fb7f49f1",
+      "bytes": 665
+    },
+    {
+      "path": "tools/style-author.py",
+      "sha256": "d1d57bbbb6d8111d98c576c352348705024c1c0e0cfc9ec363c6ee1096b3bcd6",
+      "bytes": 8631
+    },
+    {
+      "path": "verification-style/tests-contract.md",
+      "sha256": "e90b9cffe120f4d0d6035040a61135f8ea87557d44615db06891bd65765b5233",
+      "bytes": 2728
+    },
+    {
+      "path": "verification-style/audit-single-engine.ps1",
+      "sha256": "fffb93d0a2cbd2c67406b898a55af8585da71f7deef7cfa82508d9c9f623b6e8",
+      "bytes": 1715
+    },
+    {
+      "path": "verification-style/single-engine-audit.json",
+      "sha256": "328b1e5219c28f713da72aeff3da7874929b9d1f8fa94872b2e2241bd68ca42a",
+      "bytes": 996
+    },
+    {
+      "path": "verification-style/style-author-checks.json",
+      "sha256": "f199a85c39a44e4b973339263bf916de8142b30cc842f43fbbe5251703ffa8e8",
+      "bytes": 1489
+    },
+    {
+      "path": "通用风格测试说明.md",
+      "sha256": "58783d2c9257cc71dd3913016fc9bd4c89a2ab68bd451d60d69f98c5cd66b9dd",
+      "bytes": 6181
+    }
+  ],
+  "tests": [
+    {
+      "name": "sameSeedStylesAndNativeWalkingGeometry",
+      "status": "HOST_R2_PASS",
+      "scope": "9 plans;3style same-seed identity/determinism;explicit per-profile collision BFS;lowest eligible farthest;graph/distance freeze;occupied geometry differs beyond palette"
+    },
+    {
+      "name": "startupJsonFixtureAndInvalidProfilesFailClosed",
+      "status": "R2_FIXTURE_FAILED_Y6;FIXED_Y10_AWAITING_HOST_R3",
+      "scope": "Fourth startup config and SHA/provider/shared Planner;invalid style/palette including water rejected;cap and barrier AIR/slab/water/BE rejected;valid oak_log[axis=x] decoration passes Profiles.validate;StyleGeometry.process on forest-id detached fixture makes exactly one AIR-only state-preserving delta;no solid/tagged AIR/missing-cell/source mutations;catalog fingerprint includes actual profile bytes"
+    },
+    {
+      "name": "desertFrostRealBuildStoreMenuAndStats",
+      "status": "HOST_R2_PASS_INCLUDING_REAL_BOSS_DEATH_RETURN",
+      "scope": "3 actual full builds:desert+frost+independent desert nonplayer fixture;shared Store profile reload/fingerprint rejection;native FT bindings/menu/entry/leave;profile Boss and room/add stats;matching configured generic Mob UUID/role/type/instance;actual genericKill desert Boss DEAD+LOCKED with no reward/return;actual real ServerPlayer playerAttack desert Boss DEAD+VICTORY with victor/reward;12-part settled return gate opens and profile barriers clear only for winner;nonplayer desert remains LOCKED and frost FIGHTING;Store roundtrip death states;players/owned entities/forced chunks cleanup on success and guarded callback failures"
+    }
+  ],
+  "fixture": {
+    "source": "src/styleTest/fixtures/obsidian.json",
+    "id": "ftmossgen:obsidian",
+    "schema": "Profiles.Style current public JSON",
+    "install": "Host prepareGameTest copies fixture to fresh run/config/ft-dungeon-styles/demo.json before startup;never write formal config",
+    "required": true,
+    "reason": "Test fails explicitly if only classpath fixture exists without actual config loading"
+  },
+  "staticEvidence": {
+    "status": "PASS_STATIC_AUDIT_ONLY",
+    "file": "verification-style/single-engine-audit.json",
+    "scope": "Single shared moss engine;3builtinJSON;no desert/frost/obsidian Java engine or NBT clones",
+    "java": "R2 host compiled all classes;planner and runtime passed including real Boss deaths/return;Profiles synthetic geometry failed walking-layer height;only fixture moved to y10/support11/height14 with explicit AIR below;awaiting R3"
+  },
+  "observedGaps": [
+    "R2 actual host native run:STYLE_PLANNER_PASS and STYLE_RUNTIME_PASS including nonplayer death/player victory/12-part return unlock;Profiles failed Decoration must stay above walking layer.",
+    "Only statefulAirGeometry fixture corrected:from/to y10;top support y11;sizeY14;three explicit AIR cells below y9/8/7;all matching assertions updated;null ports/sockets intentionally exercised.",
+    "Host R3 native rerun required;C did not run Gradle or alter production constraints."
+  ],
+  "realFailures": [
+    {
+      "run": "style-native-r2",
+      "test": "startupJsonFixtureAndInvalidProfilesFailClosed",
+      "error": "Decoration must stay above walking layer",
+      "cause": "Synthetic fixture y6 violated max(8,minimum_y+6)",
+      "fix": "Test fixture y10;support11;height14;explicit AIR below9/8/7;production unchanged",
+      "status": "SOURCE_FIXED_AWAITING_R3"
+    }
+  ],
+  "limitations": [
+    "R2 planner/runtime passed;Profiles height fixture fix has not yet been executed. Do not claim all-required PASS for R2 or corrected revision.",
+    "Fingerprint rejection is in-process persisted fingerprint tamper with valid payload hash plus independent profile-byte fingerprint binding check;not a stop-edit-JSON-restart process test.",
+    "No client visual/UI verification;real server player fixture only.",
+    "Existing eclipse/moss legacy tests untouched;independent ftstylesqa namespace and empty.nbt;host controls isolated sourceSet.",
+    "Static audit checks actual current source layout;does not replace native runtime tests."
+  ],
+  "logs": [
+    {
+      "path": "verification/style-native-r1.log",
+      "sha256": "d433dfbb984cb62840cc9b204cd026d56c0d690f7e506a2f0e477305032a5d47",
+      "evidence": "STYLE_PLANNER_PASS;STYLE_CONFIG_PASS;STYLE_RUNTIME_PASS;All 3 required tests passed",
+      "revision": "Before current C safety/stateful geometry and Boss death/return additions",
+      "executedBy": "Host"
+    },
+    {
+      "path": "verification-style/style-author-checks.json",
+      "scope": "32 Python CLI checks;not native Forge tests",
+      "executedBy": "C"
+    },
+    {
+      "path": "verification/style-native-r2.log",
+      "sha256": "658c826885872d5f2ccddb255e84f33856bbc53069294fb7deee23ed66f60185",
+      "evidence": "STYLE_PLANNER_PASS;STYLE_RUNTIME_PASS including death/return;Profiles failed walking-layer height;1 required failed",
+      "revision": "Before current test-only y10 fixture correction",
+      "executedBy": "Host"
+    }
+  ],
+  "testNamespace": "ftstylesqa",
+  "authorTool": {
+    "path": "tools/style-author.py",
+    "status": "PASS_32_CLI_CHECKS",
+    "python": "3.12.13",
+    "writes": "Explicit --output only;exclusive creation;existing parent required;no automatic formal config installation",
+    "supports": "title/baseStyle/palette/enemy/boss/geometry JSON via --spec or individual CLI options;inline JSON or @file",
+    "geometryRequirement": "Validate actual template bounds, ports and independent collision BFS before deployment"
+  },
+  "frozen": true,
+  "frozenAt": "2026-11-07T11:20:44.6519438+08:00",
+  "bossDeathRegression": {
+    "status": "HOST_R2_NATIVE_PASS",
+    "location": "StyleRuntimeGameTests.bossDeathRules",
+    "profile": "ftmossgen:desert",
+    "fixtures": "Original desert winner,third independent desert nonplayer victim;frost remains fighting",
+    "stateMapping": "Requested CLEARED is implemented as VICTORY;nonplayer death must be LOCKED",
+    "event": "Actual Mob.hurt genericKill and playerAttack(real ServerPlayer);no direct Gameplay.death invocation or state fabrication",
+    "binding": "Intent UUID/role/type and gameplay style/instance plus actual Mob UUID/type/persistent role/instance",
+    "returns": "12 native parts settled OPEN/MOVING;all gameplay barrier cells;isolated per-instance",
+    "cleanup": "Player removed,owned intent entities discarded,all three forced chunk sets released on success and guarded callback failure",
+    "waitBounds": "20000 third-build polls,160 boss polls,70 native motion ticks"
+  },
+  "statefulGeometryFixtureFix": {
+    "status": "FROZEN_AWAITING_HOST_R3",
+    "changedFiles": "StyleProfilesGameTests.java and ready-C.json only",
+    "decorationY": 10,
+    "supportY": 11,
+    "templateHeight": 14,
+    "explicitAirBelow": [
+      9,
+      8,
+      7
+    ],
+    "optionalMetadata": "ports/sockets null;production guards verified",
+    "productionChanged": false
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "scope": "Forge 1.5.2 only",
+  "all_required_checks_passed": true,
+  "neoforge_read_or_written": false,
+  "jvm_asm_and_kubejs_api": {
+    "passed": true,
+    "assertions": 19,
+    "jvm_linkage": true,
+    "asm_runtime_types": true,
+    "oracle_weather_methods_equal": true,
+    "interaction_preserved": true,
+    "kubejs_api_verified": true
+  },
+  "core_callback_cases": {
+    "passed": true,
+    "cases": 29,
+    "registrationPreserved": true,
+    "collisionPreserved": true,
+    "scope": "Callback unit test; does not replace Minecraft placement and structure tests"
+  },
+  "deployment_safety": {
+    "passed": true,
+    "tests": 11,
+    "scope": "Isolated Forge-only fixtures; no real instance files written"
+  },
+  "model_resource_checks": [
+    {
+      "name": "weather_forecaster",
+      "elements": 55,
+      "quads": 330,
+      "bounds": {
+        "minimum": [
+          0,
+          0,
+          0
+        ],
+        "maximum": [
+          16,
+          15.65,
+          16
+        ]
+      },
+      "textures_valid": true,
+      "item_parent_valid": true,
+      "all_exposed_faces_present": true,
+      "hidden_faces_proven_covered": true,
+      "single_block_bounds": true,
+      "minecraft_rotation_constraints": true
+    },
+    {
+      "name": "oracle",
+      "elements": 98,
+      "quads": 588,
+      "bounds": {
+        "minimum": [
+          0,
+          0,
+          0
+        ],
+        "maximum": [
+          16,
+          15.55,
+          16
+        ]
+      },
+      "textures_valid": true,
+      "item_parent_valid": true,
+      "all_exposed_faces_present": true,
+      "hidden_faces_proven_covered": true,
+      "single_block_bounds": true,
+      "minecraft_rotation_constraints": true
+    },
+    {
+      "name": "wishing_well_core",
+      "elements": 57,
+      "quads": 342,
+      "bounds": {
+        "minimum": [
+          0,
+          0,
+          0
+        ],
+        "maximum": [
+          16,
+          7.9574432833120206,
+          16
+        ]
+      },
+      "textures_valid": true,
+      "item_parent_valid": true,
+      "all_exposed_faces_present": true,
+      "hidden_faces_proven_covered": true,
+      "single_block_bounds": true,
+      "minecraft_rotation_constraints": true
+    }
+  ],
+  "interactive_preview": {
+    "models": [
+      {
+        "name": "weather_forecaster",
+        "views": [
+          "perspective",
+          "front",
+          "back",
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ],
+        "elementCount": 55
+      },
+      {
+        "name": "oracle",
+        "views": [
+          "perspective",
+          "front",
+          "back",
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ],
+        "elementCount": 98
+      },
+      {
+        "name": "wishing_well_core",
+        "views": [
+          "perspective",
+          "front",
+          "back",
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ],
+        "elementCount": 57
+      }
+    ],
+    "errors": [],
+    "previewOnly": true,
+    "gameLightingNotSimulated": true,
+    "controls": [
+      "model-switch",
+      "seven-views",
+      "four-way-placement-orientation",
+      "wireframe",
+      "zoom",
+      "orbit",
+      "mobile-layout",
+      "play-pause",
+      "timeline",
+      "speed",
+      "reset",
+      "1.8-block-avatar"
+    ],
+    "placementOrientationCases": 12,
+    "relativeAssetPathsPassed": true,
+    "unifiedEntryUrl": null
+  },
+  "event_regression": "qys-event verified: 19 daily events, 32 special weathers, brown Heavy Snow rain, 9 boss-minion outcomes and 1-3x kitchen yield.",
+  "resource_optimization": [
+    {
+      "state": "assets/qys_event/blockstates/weather_forecaster.json",
+      "old_bytes": 334,
+      "new_bytes": 284,
+      "saved_bytes": 50,
+      "semantic_model_angles_preserved": true
+    },
+    {
+      "state": "assets/farmingtales/blockstates/wishing_well_core.json",
+      "old_bytes": 342,
+      "new_bytes": 292,
+      "saved_bytes": 50,
+      "semantic_model_angles_preserved": true
+    }
+  ],
+  "baseline_files_verified": 26,
+  "payload_sha256": {
+    "assets/farmingtales/blockstates/wishing_well_core.json": "a5efe1c4ccd2ca651b365ae46aa7da788fe2d73dc4b3078d7a4ed9c19b2aebfd",
+    "assets/qys_event/blockstates/weather_forecaster.json": "762fedf785a26e0cef76481740bd5128c54e487f2be985972835dd7dd54766d9",
+    "cn/farmingtales/qysevent/WeatherForecasterBlock.class": "db6cf983ade2231fd01d6cdf3ef15b5872873cb72c095d272313b6eafdd25cd2",
+    "kubejs/startup_scripts/content/wishing_well.js": "67061c4500a18025234fe33f0b9dead47eed18e69796cdc7597c2bc99918546d"
+  },
+  "pending_in_game": [
+    "Restart Forge",
+    "Place all three blocks facing north/east/south/west",
+    "Read old saved states",
+    "Emerald oracle, forecast and wishing-well interaction",
+    "Core multiblock recognition",
+    "Structure rotation and mirror"
+  ],
+  "game_test_completed": false
+}

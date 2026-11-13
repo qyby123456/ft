@@ -1,0 +1,9 @@
+饮用与检视动画 1.8.50
+
+只修正 kaleidoscope_tavern:wine 和 kaleidoscope_world_liquor:lafite_1982 的瓶口颜色。
+把开口处残留的一行红色封口像素替换为相邻原瓶颈的玻璃像素；内壁同步使用修正后的颜色。
+两瓶各修改 2 个贴图像素，模型尺寸、瓶塞、酒标和其他饮品资源不变。
+继续忽略 NBT 进行物品匹配，不渲染动态流体。
+
+验证见 verification-1.8.50.json；安装见 installation-1.8.50.json。
+安装后重启游戏生效。

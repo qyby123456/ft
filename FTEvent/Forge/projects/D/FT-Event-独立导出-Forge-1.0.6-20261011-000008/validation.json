@@ -1,0 +1,34 @@
+{
+  "archive": {
+    "passed": true,
+    "sha256": "9fc66cd0a2cfb7079e0712227385cabd7657cdaa402ab1f143ac56c99ec142f1",
+    "unchangedStandaloneRelease": true,
+    "noDirectBossClassDependency": true,
+    "legacyOracleRemappingPresent": true,
+    "fourWayFacingAndCoreMixinPreserved": true
+  },
+  "runtime": {
+    "passed": true,
+    "eventSha256": "9fc66cd0a2cfb7079e0712227385cabd7657cdaa402ab1f143ac56c99ec142f1",
+    "gameTested": false,
+    "verifiers": [
+      {
+        "verifier": "VerifyCoreFacing",
+        "passed": true,
+        "output": "Core rotation/mirror, scope guards, Forge selectors and ASM: 60 assertions passed"
+      },
+      {
+        "verifier": "VerifyForgeFacing",
+        "passed": true,
+        "output": "Forge Oracle/Weather JVM, ASM and KubeJS callback API checks: 21 assertions passed"
+      },
+      {
+        "verifier": "QysEventVerifier",
+        "passed": true,
+        "output": "qys-event verified: 19 daily events, 32 special weathers, brown Heavy Snow rain, 9 boss-minion outcomes and 1-3x kitchen yield."
+      }
+    ]
+  },
+  "gameTested": false,
+  "exportOnly": true
+}

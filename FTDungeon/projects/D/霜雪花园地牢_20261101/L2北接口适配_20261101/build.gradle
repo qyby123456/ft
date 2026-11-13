@@ -1,0 +1,25 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+group = 'net.farmingtales.verification'
+version = '1.0'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+sourceSets.main {
+    java.srcDirs = ['tools']
+    java.include 'VerifyL2.java'
+    resources.srcDirs = ['tools/verification-resources']
+}
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        data {
+            workingDirectory project.file('qa/forge-run')
+            property 'ftfg.l2project', projectDir.absolutePath
+            args '--mod', 'frostl2verification', '--all', '--output', file('qa/datagen').absolutePath
+            mods { frostl2verification { source sourceSets.main } }
+        }
+    }
+}
+repositories { mavenCentral() }
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

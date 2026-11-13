@@ -1,0 +1,14 @@
+{
+  "component": "runtime",
+  "apiVersion": 1,
+  "blockingBuildIssues": [],
+  "issues": [
+    {"id":"ENTITY_BE_PAYLOAD","status":"UNSUPPORTED_FAIL_CLOSED","severity":"LIMITATION","detail":"Any entity list payload or block entity NBT/state is refused before plan/build. No silent discard, entity duplication, inventory or BE restoration claim."},
+    {"id":"POWERLOSS_FORCED_KILL","status":"NOT_RUN","severity":"LIMITATION","detail":"Actual distinct-process clean interrupted restart passes; forced kill, save-lag fault injection and hardware powerloss remain unverified. Atomic file force does not establish ACID."},
+    {"id":"MODPACK_CLAIMS","status":"UNSUPPORTED_FAIL_CLOSED","severity":"LIMITATION","detail":"Production command gate refuses additional mod IDs beyond Minecraft/Forge/self. No adapter for third-party claims or direct operator commands."},
+    {"id":"ROOM_POOL_SCOPE","status":"LIMITED","severity":"LIMITATION","detail":"Only accepted unchanged s8_05 and s8_06 architectural normal rooms. No entrance/treasure/combat semantics; other biomes deferred. Runtime doorway sealing is an adapted candidate, not an assertion that old room acceptance covers final assembly."},
+    {"id":"CORE_VOXEL_AND_PORT_ADAPTER","status":"RESOLVED","severity":"INFO","detail":"Uses real core blockPosition unit-cube offset and exteriorFeet/worldPort intervals. Forge registry tests cover all4 rotations and actual world test reads all cells, door/collision/floor route for exercised layout."},
+    {"id":"AMETHYST_RANDOM_TICK_FLAG","status":"RESOLVED_NARROW_INERT_EXCEPTION","severity":"INFO","detail":"Real server rejected mature amethyst_cluster inherited randomTick flag although datagen cache did not. javap audit confirms no randomTick override on AmethystClusterBlock/AmethystBlock; narrow mature-cluster exception only, no budding or buds. World tests pass without global gamerule changes."},
+    {"id":"RELEASE_JAR_INSTALL","status":"NOT_RUN","severity":"LIMITATION","detail":"Reobfuscated JAR built and archive audited. Source-run actual Forge tests use the compiled production classes, not installed release artifact. Integration should independently rerun/install only in its isolated test environment."}
+  ]
+}

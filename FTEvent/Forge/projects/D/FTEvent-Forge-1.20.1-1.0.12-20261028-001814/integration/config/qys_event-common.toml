@@ -1,0 +1,37 @@
+
+[general]
+	#Let the 24 solar terms choose season-aware ordinary weather each dawn.
+	controlVanillaWeather = true
+	#Announce each new solar term to all players.
+	announceSolarTerms = true
+	#Daily chance to roll a special weather event after strict season eligibility is checked. Default 15% keeps ordinary weather dominant.
+	#Range: 0.0 ~ 1.0
+	specialEventChance = 0.15
+	#Minimum ordinary days after a random special event. Default 2 prevents special-weather clusters.
+	#Range: 0 ~ 30
+	specialEventCooldownDays = 2
+
+[damage]
+	#Allow storms to break glass/crops and damage farmland/terrain.
+	destructiveWeather = true
+	#Only damage blocks when the mobGriefing gamerule is enabled.
+	requireMobGriefing = true
+	#Random nearby blocks checked per destructive pulse per player. Lower this for servers.
+	#Range: 0 ~ 64
+	terrainSamplesPerPlayer = 12
+	#Approximate local slime cap during slime rain.
+	#Range: 0 ~ 64
+	slimeCapPerPlayer = 16
+	#Very small chance that a meteor impact also drops a falling ore block.
+	#Range: 0.0 ~ 1.0
+	meteorMineralChance = 0.06
+
+[farming]
+	#Apply weather bonuses/penalties to crop growth.
+	cropGrowthEffects = true
+	#Apply weather bonuses/penalties to mature crop loot.
+	cropYieldEffects = true
+	#Consecutive identical ordinary-weather days before the bonus turns into a penalty.
+	#Range: 2 ~ 10
+	diminishingStreakStart = 3
+

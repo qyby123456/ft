@@ -1,0 +1,15 @@
+{
+  "objective": "推进完成小型地牢生成器并实测。另外8个线程地牢生成完成后验收",
+  "scope_reduction_allowed": false,
+  "requirements": [
+    {"id": "PLANNER", "requirement": "可重放房间级随机规划、真实接口及旋转与碰撞", "status": "VERIFIED_WITHIN_V1_SCOPE", "evidence": "core-tests-recheck.log"},
+    {"id": "SOURCE_WORLD", "requirement": "隔离世界实际放置、回读、冲突保护、通路、围护与恢复", "status": "PARTIAL", "evidence": "../integration/INTEGRATION_REPORT.md", "remaining": "完整矩阵及扩展房间载荷/动态行为未验收"},
+    {"id": "INSTALLED_ARTIFACT", "requirement": "实际候选发布JAR安装后的服务端生成与回读验证", "status": "IN_PROGRESS", "evidence": "forge-installer-provenance.json", "remaining": "官方安装器已由PowerShell获取并匹配官方SHA1，需独立安装和运行，不再以旧urllib403当作固定阻塞"},
+    {"id": "FULL_ROOM_GENERATOR", "requirement": "保留真实房间特色和载荷，完成非仅两种廊道的完整群系生成能力", "status": "IN_PROGRESS", "evidence": "../catalog/expansion-v2/s8-complete-biome-requirements.json", "remaining": "BE创建/保存/恢复、入口高差、原生白名单、庭院流体以及角色/通路必须实际实现与验证"},
+    {"id": "EIGHT_GROUP_SUBMISSIONS", "requirement": "八个制作线程各10房及本组新合并完整冻结交付", "status": "IN_PROGRESS", "evidence": "D:/ft工程文件/FT地牢_第二轮独立验收_20261106/inventory.json"},
+    {"id": "EIGHT_GROUP_REVIEW", "requirement": "八组逐房视觉/原生及新合并/分片/屏障独立验收", "status": "NOT_COMPLETE", "evidence": "D:/ft工程文件/FT地牢_第二轮独立验收_20261106/README.md", "remaining": "制作证据一致性不等于独立验收，不提前通过"},
+    {"id": "DELIVERY", "requirement": "准确版本、构建运行说明、限制、哈希及验收索引", "status": "IN_PROGRESS", "remaining": "必须绑定最后实际通过的版本；不得正式安装到现有玩家实例"}
+  ],
+  "overall_complete": false,
+  "note": "本清单为完成审计门槛，不将尚在推进的能力重定义为非目标。固定快照状态不取代各组件最新结果。"
+}

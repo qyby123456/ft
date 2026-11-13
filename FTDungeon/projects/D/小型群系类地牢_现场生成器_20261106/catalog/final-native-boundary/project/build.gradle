@@ -1,0 +1,84 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+group = 'cn.ft.biomedungeon'
+version = '0.5.1-commit-iofix-candidate'
+base { archivesName = 'ft-biome-dungeon-generator-forge-1.20.1' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+def coreSource = providers.gradleProperty('coreSource').getOrElse('core-snapshot')
+sourceSets.main.java.srcDir(coreSource)
+sourceSets {
+    validation {
+        java.srcDir 'src/validation/java'
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.runtimeClasspath
+    }
+    gameTest {
+        java.setSrcDirs(['src/unifiedtest/java'])
+        resources.setSrcDirs(['src/gametest/resources'])
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.runtimeClasspath
+    }
+}
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        server {
+            workingDirectory project.file('run/server')
+            args '--nogui'
+            mods { ft_biome_dungeon_generator { source sourceSets.main } }
+        }
+        data {
+            workingDirectory project.file('run/validation')
+            args '--mod', 'ft_biome_dungeon_generator', '--all', '--output', file('build/datagen').absolutePath
+            mods {
+                ft_biome_dungeon_generator {
+                    source sourceSets.main
+                    source sourceSets.validation
+                }
+            }
+        }
+        gameTestServer {
+            workingDirectory project.file(providers.gradleProperty('gameTestDir').getOrElse('run/gametest'))
+            property 'forge.enabledGameTestNamespaces', providers.gradleProperty('unifiedStage').isPresent() ? 'ftbd_unified' : providers.gradleProperty('fluidStage').isPresent() ? 'ftbd_fluidtest' :
+                    providers.gradleProperty('beRestartStage').isPresent() ? 'ftbd_berestart' :
+                    providers.gradleProperty('payloadTest').isPresent() ? 'ftbd_payloadtest' :
+                    providers.gradleProperty('restartStage').isPresent() ? 'ftbd_restarttest' : 'ft_biome_dungeon_generator,biomedungeon'
+            property 'ftbd.isolatedGameTest', 'true'
+            property 'ftbd.restartStage', providers.gradleProperty('restartStage').getOrElse('none')
+            property 'ftbd.beRestartStage', providers.gradleProperty('beRestartStage').getOrElse('none')
+            property 'ftbd.fluidStage', providers.gradleProperty('fluidStage').getOrElse('none')
+            property 'ftbd.unifiedStage', providers.gradleProperty('unifiedStage').getOrElse('prepare')
+            property 'ftbd.unifiedCount', providers.gradleProperty('unifiedCount').getOrElse('7')
+            property 'ftbd.unifiedOrdinal', providers.gradleProperty('unifiedOrdinal').getOrElse('0')
+            property 'ftbd.unifiedAudit', providers.gradleProperty('unifiedAudit').getOrElse('false')
+            mods {
+                ft_biome_dungeon_generator {
+                    source sourceSets.main
+                    source sourceSets.gameTest
+                }
+            }
+        }
+    }
+}
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('compileJava') {
+    doFirst {
+        if (!file("${coreSource}/cn/ft/biomedungeon/core/DungeonApi.java").isFile()) {
+            throw new GradleException('Real core sources are required; no production stub allowed')
+        }
+    }
+}
+jar {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+    finalizedBy 'reobfJar'
+}
+tasks.matching { it.name == 'runData' }.configureEach { dependsOn 'validationClasses' }
+tasks.matching { it.name == 'runGameTestServer' }.configureEach { dependsOn 'gameTestClasses' }
+tasks.register('runtimeSelfTest', JavaExec) {
+    dependsOn 'testClasses'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'cn.ft.biomedungeon.runtime.RuntimeSelfTest'
+}

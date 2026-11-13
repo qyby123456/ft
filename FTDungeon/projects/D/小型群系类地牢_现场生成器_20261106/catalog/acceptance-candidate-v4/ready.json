@@ -1,0 +1,35 @@
+{
+  "component": "catalog-acceptance-candidate-v4",
+  "apiVersion": 1,
+  "ready": true,
+  "status": "PENDING_RELEASE_GATES_AND_FULL_ROUTE_INPUTS_READY",
+  "productionPromotion": false,
+  "newPromotions": 0,
+  "parentAuthorization": "NOT_GRANTED_BY_CATALOG",
+  "candidates": 9,
+  "allNewCandidateEntriesAccepted": false,
+  "routeCases": 36,
+  "originalTargetsPerRotation": 148,
+  "directedAndReturnCheckInputs": 2200,
+  "routeWorldChecks": "NOT_RUN_BY_CATALOG",
+  "independentV2FilesVerified": 389,
+  "releaseChecklist": "release-gate-candidates.json",
+  "evidenceLayers": "evidence-layers.json",
+  "routeInputs": "rotated-route-inputs.json",
+  "routeInputSha256": "0272572e4494de9e4ceacd27ff0cf04336800a31e466a1651d731d6ac59ad72a",
+  "pathMatrix": "path-check-matrix.json",
+  "pathMatrixSha256": "51e8b3e8cfec2249008d8b37eba1d41c3c4aaa528b0e15f13f8eb99a5f9a6a92",
+  "inventorySha256": "13634fb35bd8a8270ae5e32ec39b08ba2ac6c19da15c49c8db29fd882f6a56bd",
+  "tests": {
+    "command": "python -B test_v4.py",
+    "result": "PASS 5 tests",
+    "logSha256": "ab50f0ef9290ce41ea61de8fa0a14c0cc7fb0918c0bb86e73c239310ed24dcde"
+  },
+  "limitations": [
+    "independent V2 BE capability is not full route/interactions/installed-original approval",
+    "01 native stair path and08 independent fluid validation still required",
+    "new planner/fluid runtime versions need exact-hash independent reruns",
+    "no accepted flag changed; parent explicit scoped authorization required",
+    "no source targets removed; duplicate labels retained with unique target IDs"
+  ]
+}

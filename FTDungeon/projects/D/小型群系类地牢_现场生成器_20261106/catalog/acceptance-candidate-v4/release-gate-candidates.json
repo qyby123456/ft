@@ -1,0 +1,735 @@
+{
+  "schemaVersion": 1,
+  "scope": "Proposed gates only; zero new promotions. Existing accepted baseline is unchanged.",
+  "templates": [
+    {
+      "id": "s8_01",
+      "sourceId": "S8-01",
+      "sourceSha256": "ee50ce32006d15b24ae2b2932bbf4ebbef6683ae8b9ee33ca4781348ac0fa798",
+      "role": "altar_hall",
+      "resource": {
+        "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-01\\incoming\\S8R_IMG01\\room.nbt",
+        "path": "candidate-resources/data/biomedungeon/structures/s8_01.nbt",
+        "sha256": "ee50ce32006d15b24ae2b2932bbf4ebbef6683ae8b9ee33ca4781348ac0fa798"
+      },
+      "evidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\route-input.json",
+          "path": "evidence/s8_01/route-input-original.json",
+          "sha256": "a6b09f40f718bfd6703777b58a35873247896efd56a0256eb07183d5a82e8c4b"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-01\\incoming\\S8R_IMG01\\room.json",
+          "path": "evidence/s8_01/metadata-original.json",
+          "sha256": "17cd41d940ece66882b4676615be5ca652dcf431b44f92f3cc297bbb1dc7432f"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\file-audit.json",
+          "path": "evidence/s8_01/file-audit.json",
+          "sha256": "dbf9be66c3e904618de0c856dba6cadcdd89a6ad759bda318447a36a1c5da648"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-01-ACCEPTANCE.json",
+          "path": "evidence/s8_01/acceptance-0.json",
+          "sha256": "d9715fa6f09045a57bd02f9c043fa467b30c8273b3f54d61ff32f90a673a2649"
+        }
+      ],
+      "accepted": false,
+      "currentBaselineMember": false,
+      "independentV2PayloadCapabilityCovered": false,
+      "originalTargetCount": 13,
+      "routeSelection": "unique original SHA match, preserving duplicates/labels/order and fractional coordinates",
+      "requiredGates": [
+        "SOURCE_HASH_AND_ARCHITECTURAL_EVIDENCE",
+        "INDEPENDENT_V2_NATIVE_PAYLOAD_CAPABILITY",
+        "ALL_ORIGINAL_TARGETS_4_ROTATIONS_NATIVE_ROUTES_AND_RETURN",
+        "ROLE_AND_BE_DOOR_INTERACTIONS",
+        "INSTALLED_CANDIDATE_ARTIFACT_ORIGINAL_ROOM_GENERATION_AND_SAVED_READBACK",
+        "PARENT_EXPLICIT_SCOPED_AUTHORIZATION",
+        "NATIVE_STEP_UP_BODY_SWEEP_AND_LOWER_UPPER_PATH"
+      ],
+      "pendingRouteChecks": "NOT_RUN_BY_CATALOG",
+      "pendingInstalledOriginalRoomEvidence": "NOT_RUN_NOT_PACKAGED_IN_V2",
+      "parentAuthorization": "NOT_GRANTED_BY_THIS_DOCUMENT",
+      "interactions": [],
+      "doorInteractions": []
+    },
+    {
+      "id": "s8_02",
+      "sourceId": "S8-02",
+      "sourceSha256": "475cde56f4a0e3994ed5823f56144476c959c499d0d2e7d745a5aeb59b46b8a7",
+      "role": "library_storage",
+      "resource": {
+        "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-02\\incoming\\S8R_IMG02\\room.nbt",
+        "path": "candidate-resources/data/biomedungeon/structures/s8_02.nbt",
+        "sha256": "475cde56f4a0e3994ed5823f56144476c959c499d0d2e7d745a5aeb59b46b8a7"
+      },
+      "evidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-02-independent\\route-input.json",
+          "path": "evidence/s8_02/route-input-original.json",
+          "sha256": "ddf05a040bc85f04b40da95333e8c291a718d878e5a39e2bb8a0abc0a1a6d051"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-02\\incoming\\S8R_IMG02\\room.json",
+          "path": "evidence/s8_02/metadata-original.json",
+          "sha256": "c81f74b6251f0b1433c8fe4b913e4ab8cdc5693d5d13aef30eee2cb23def5687"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-02-independent\\file-audit.json",
+          "path": "evidence/s8_02/file-audit.json",
+          "sha256": "4b171279bfe5cf0197c000e383772ff804deb88bef2471c5ff5b62bc4595e642"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-02-ACCEPTANCE.json",
+          "path": "evidence/s8_02/acceptance-0.json",
+          "sha256": "cb8bf04da06969d835faaf1f96b489dcde85c893b938dd97748b0eab7772c37b"
+        }
+      ],
+      "accepted": false,
+      "currentBaselineMember": false,
+      "independentV2PayloadCapabilityCovered": true,
+      "originalTargetCount": 11,
+      "routeSelection": "unique original SHA match, preserving duplicates/labels/order and fractional coordinates",
+      "requiredGates": [
+        "SOURCE_HASH_AND_ARCHITECTURAL_EVIDENCE",
+        "INDEPENDENT_V2_NATIVE_PAYLOAD_CAPABILITY",
+        "ALL_ORIGINAL_TARGETS_4_ROTATIONS_NATIVE_ROUTES_AND_RETURN",
+        "ROLE_AND_BE_DOOR_INTERACTIONS",
+        "INSTALLED_CANDIDATE_ARTIFACT_ORIGINAL_ROOM_GENERATION_AND_SAVED_READBACK",
+        "PARENT_EXPLICIT_SCOPED_AUTHORIZATION"
+      ],
+      "pendingRouteChecks": "NOT_RUN_BY_CATALOG",
+      "pendingInstalledOriginalRoomEvidence": "NOT_RUN_NOT_PACKAGED_IN_V2",
+      "parentAuthorization": "NOT_GRANTED_BY_THIS_DOCUMENT",
+      "interactions": [
+        {
+          "localBlock": [
+            7,
+            2,
+            21
+          ],
+          "state": {
+            "Name": "minecraft:chest",
+            "Properties": {
+              "facing": "north",
+              "type": "single",
+              "waterlogged": "false"
+            }
+          },
+          "requiredAction": "open UI, compare empty original/default inventory, close; test mutation quarantine only in separate sacrificial instance"
+        }
+      ],
+      "doorInteractions": [
+        {
+          "localBlock": [
+            4,
+            2,
+            22
+          ],
+          "state": {
+            "Name": "minecraft:dark_oak_door",
+            "Properties": {
+              "facing": "north",
+              "half": "lower",
+              "hinge": "left",
+              "open": "false",
+              "powered": "false"
+            }
+          },
+          "requiredAction": "original open-state path, close/open interaction in sacrificial fixture, restore original and repeat return route"
+        },
+        {
+          "localBlock": [
+            5,
+            2,
+            22
+          ],
+          "state": {
+            "Name": "minecraft:dark_oak_door",
+            "Properties": {
+              "facing": "north",
+              "half": "lower",
+              "hinge": "right",
+              "open": "false",
+              "powered": "false"
+            }
+          },
+          "requiredAction": "original open-state path, close/open interaction in sacrificial fixture, restore original and repeat return route"
+        }
+      ]
+    },
+    {
+      "id": "s8_03",
+      "sourceId": "S8-03",
+      "sourceSha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c",
+      "role": "small_treasure",
+      "resource": {
+        "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-03\\incoming\\S8R_IMG03\\room.nbt",
+        "path": "candidate-resources/data/biomedungeon/structures/s8_03.nbt",
+        "sha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c"
+      },
+      "evidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-03-independent-final\\route-input.json",
+          "path": "evidence/s8_03/route-input-original.json",
+          "sha256": "b5a818878d3319158e47b6d3ffbb3cae95776fae3c692a8db9b3c94caaccd8a8"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-03\\incoming\\S8R_IMG03\\room.json",
+          "path": "evidence/s8_03/metadata-original.json",
+          "sha256": "05738243fa86d07bc4e48daee626429878ac07b68ecda66ef74945956e1db1fb"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-03-independent-final\\file-audit.json",
+          "path": "evidence/s8_03/file-audit.json",
+          "sha256": "e1299ecafe48161a5cf2a977447c109f3754081c59e278ff302f6c7b7a429648"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-03-ACCEPTANCE.json",
+          "path": "evidence/s8_03/acceptance-0.json",
+          "sha256": "0235aa6f589e15ae70aa21985119f0049ab95a41995473868651e06b906edebf"
+        }
+      ],
+      "accepted": false,
+      "currentBaselineMember": false,
+      "independentV2PayloadCapabilityCovered": true,
+      "originalTargetCount": 11,
+      "routeSelection": "unique original SHA match, preserving duplicates/labels/order and fractional coordinates",
+      "requiredGates": [
+        "SOURCE_HASH_AND_ARCHITECTURAL_EVIDENCE",
+        "INDEPENDENT_V2_NATIVE_PAYLOAD_CAPABILITY",
+        "ALL_ORIGINAL_TARGETS_4_ROTATIONS_NATIVE_ROUTES_AND_RETURN",
+        "ROLE_AND_BE_DOOR_INTERACTIONS",
+        "INSTALLED_CANDIDATE_ARTIFACT_ORIGINAL_ROOM_GENERATION_AND_SAVED_READBACK",
+        "PARENT_EXPLICIT_SCOPED_AUTHORIZATION"
+      ],
+      "pendingRouteChecks": "NOT_RUN_BY_CATALOG",
+      "pendingInstalledOriginalRoomEvidence": "NOT_RUN_NOT_PACKAGED_IN_V2",
+      "parentAuthorization": "NOT_GRANTED_BY_THIS_DOCUMENT",
+      "interactions": [
+        {
+          "localBlock": [
+            8,
+            3,
+            9
+          ],
+          "state": {
+            "Name": "minecraft:chest",
+            "Properties": {
+              "facing": "north",
+              "type": "single",
+              "waterlogged": "false"
+            }
+          },
+          "requiredAction": "open UI, compare empty original/default inventory, close; test mutation quarantine only in separate sacrificial instance"
+        }
+      ],
+      "doorInteractions": []
+    },
+    {
+      "id": "s8_04",
+      "sourceId": "S8-04",
+      "sourceSha256": "30e2cb79d231714c9facf8847474db7775a185172d411fc6d04bcd2ac76a1c3b",
+      "role": "main_hall",
+      "resource": {
+        "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-04\\incoming\\S8R_IMG04\\room.nbt",
+        "path": "candidate-resources/data/biomedungeon/structures/s8_04.nbt",
+        "sha256": "30e2cb79d231714c9facf8847474db7775a185172d411fc6d04bcd2ac76a1c3b"
+      },
+      "evidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-04-independent\\route-input.json",
+          "path": "evidence/s8_04/route-input-original.json",
+          "sha256": "4dc757af43b0b242a74e7d5bc9fade3bd6f1a8b3c4a67986d0569d1fb7dbf5bb"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-04\\incoming\\S8R_IMG04\\room.json",
+          "path": "evidence/s8_04/metadata-original.json",
+          "sha256": "58fad7d5687964d60ab162a7992ab6aca383113e75129eca76445f6f56e74a37"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-04-independent\\file-audit.json",
+          "path": "evidence/s8_04/file-audit.json",
+          "sha256": "3f7c1417c318d53bf1b6fd8f819911afb688b6830dde74cda39b57f25579cf8c"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-04-ACCEPTANCE.json",
+          "path": "evidence/s8_04/acceptance-0.json",
+          "sha256": "5dd15ebac8a75da1008d93cf90fffde78b08ba28faf4687e794981960584e8ae"
+        }
+      ],
+      "accepted": false,
+      "currentBaselineMember": false,
+      "independentV2PayloadCapabilityCovered": true,
+      "originalTargetCount": 21,
+      "routeSelection": "unique original SHA match, preserving duplicates/labels/order and fractional coordinates",
+      "requiredGates": [
+        "SOURCE_HASH_AND_ARCHITECTURAL_EVIDENCE",
+        "INDEPENDENT_V2_NATIVE_PAYLOAD_CAPABILITY",
+        "ALL_ORIGINAL_TARGETS_4_ROTATIONS_NATIVE_ROUTES_AND_RETURN",
+        "ROLE_AND_BE_DOOR_INTERACTIONS",
+        "INSTALLED_CANDIDATE_ARTIFACT_ORIGINAL_ROOM_GENERATION_AND_SAVED_READBACK",
+        "PARENT_EXPLICIT_SCOPED_AUTHORIZATION"
+      ],
+      "pendingRouteChecks": "NOT_RUN_BY_CATALOG",
+      "pendingInstalledOriginalRoomEvidence": "NOT_RUN_NOT_PACKAGED_IN_V2",
+      "parentAuthorization": "NOT_GRANTED_BY_THIS_DOCUMENT",
+      "interactions": [],
+      "doorInteractions": []
+    },
+    {
+      "id": "s8_05",
+      "sourceId": "S8-05",
+      "sourceSha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837",
+      "role": "straight_passage",
+      "resource": {
+        "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-05\\incoming\\S8R_IMG05\\room.nbt",
+        "path": "candidate-resources/data/biomedungeon/structures/s8_05.nbt",
+        "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837"
+      },
+      "evidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-05-independent\\route-input.json",
+          "path": "evidence/s8_05/route-input-original.json",
+          "sha256": "ad65374a8e6c616362ecd83a1c86e40fc18ac2fe63048cd64b0bafa5484fa22c"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-05\\incoming\\S8R_IMG05\\room.json",
+          "path": "evidence/s8_05/metadata-original.json",
+          "sha256": "bf972457d7a89b8ece131a48551de2bcb01dc9c88500902ec2e5a598c9811e35"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-05-independent\\file-audit.json",
+          "path": "evidence/s8_05/file-audit.json",
+          "sha256": "de87ec37b5f435caa57054a6dcdd4b07a82fd1d12c707a577ab9363a2ecdf378"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW.md",
+          "path": "evidence/s8_05/acceptance-0.md",
+          "sha256": "ae0f845a59ed4e9dade3201d54b3dfd7fc7df1c326182bfee05280a5dba019d7"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-05-ACCEPTANCE.json",
+          "path": "evidence/s8_05/acceptance-1.json",
+          "sha256": "25040ac30e9d261f999364970838abf3f7b5e875419e27de349a73a939e6623a"
+        }
+      ],
+      "accepted": false,
+      "currentBaselineMember": true,
+      "independentV2PayloadCapabilityCovered": false,
+      "originalTargetCount": 20,
+      "routeSelection": "unique original SHA match, preserving duplicates/labels/order and fractional coordinates",
+      "requiredGates": [
+        "SOURCE_HASH_AND_ARCHITECTURAL_EVIDENCE",
+        "INDEPENDENT_V2_NATIVE_PAYLOAD_CAPABILITY",
+        "ALL_ORIGINAL_TARGETS_4_ROTATIONS_NATIVE_ROUTES_AND_RETURN",
+        "ROLE_AND_BE_DOOR_INTERACTIONS",
+        "INSTALLED_CANDIDATE_ARTIFACT_ORIGINAL_ROOM_GENERATION_AND_SAVED_READBACK",
+        "PARENT_EXPLICIT_SCOPED_AUTHORIZATION"
+      ],
+      "pendingRouteChecks": "NOT_RUN_BY_CATALOG",
+      "pendingInstalledOriginalRoomEvidence": "NOT_RUN_NOT_PACKAGED_IN_V2",
+      "parentAuthorization": "NOT_GRANTED_BY_THIS_DOCUMENT",
+      "interactions": [],
+      "doorInteractions": []
+    },
+    {
+      "id": "s8_06",
+      "sourceId": "S8-06",
+      "sourceSha256": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470",
+      "role": "corner_passage",
+      "resource": {
+        "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-06\\incoming\\S8R_IMG06\\room.nbt",
+        "path": "candidate-resources/data/biomedungeon/structures/s8_06.nbt",
+        "sha256": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470"
+      },
+      "evidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-06-independent\\route-input.json",
+          "path": "evidence/s8_06/route-input-original.json",
+          "sha256": "a0d9da52ee80ef9e9b7e3ad411d4e9711d065214dcb04adca10490969c24f35b"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-06\\incoming\\S8R_IMG06\\room.json",
+          "path": "evidence/s8_06/metadata-original.json",
+          "sha256": "0a024b11b4eb37bc98828c04e19158d6118c2c26c4e34d02ea44dc7e868886a5"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-06-independent\\file-audit.json",
+          "path": "evidence/s8_06/file-audit.json",
+          "sha256": "d122d4bc5786486f591f9f0a3978cf8159a127711a5c89095dffb9ec61fdbfd0"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-06-independent\\independent-details.json",
+          "path": "evidence/s8_06/acceptance-0.json",
+          "sha256": "a382903bb0af55e32cd39935d162bbee9a815c7797be733c18e3130b12c412b4"
+        }
+      ],
+      "accepted": false,
+      "currentBaselineMember": true,
+      "independentV2PayloadCapabilityCovered": false,
+      "originalTargetCount": 18,
+      "routeSelection": "unique original SHA match, preserving duplicates/labels/order and fractional coordinates",
+      "requiredGates": [
+        "SOURCE_HASH_AND_ARCHITECTURAL_EVIDENCE",
+        "INDEPENDENT_V2_NATIVE_PAYLOAD_CAPABILITY",
+        "ALL_ORIGINAL_TARGETS_4_ROTATIONS_NATIVE_ROUTES_AND_RETURN",
+        "ROLE_AND_BE_DOOR_INTERACTIONS",
+        "INSTALLED_CANDIDATE_ARTIFACT_ORIGINAL_ROOM_GENERATION_AND_SAVED_READBACK",
+        "PARENT_EXPLICIT_SCOPED_AUTHORIZATION"
+      ],
+      "pendingRouteChecks": "NOT_RUN_BY_CATALOG",
+      "pendingInstalledOriginalRoomEvidence": "NOT_RUN_NOT_PACKAGED_IN_V2",
+      "parentAuthorization": "NOT_GRANTED_BY_THIS_DOCUMENT",
+      "interactions": [],
+      "doorInteractions": []
+    },
+    {
+      "id": "s8_07",
+      "sourceId": "S8-07",
+      "sourceSha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7",
+      "role": "entrance",
+      "resource": {
+        "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-07\\incoming\\S8R_IMG07\\room.nbt",
+        "path": "candidate-resources/data/biomedungeon/structures/s8_07.nbt",
+        "sha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7"
+      },
+      "evidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-07-independent\\route-input.json",
+          "path": "evidence/s8_07/route-input-original.json",
+          "sha256": "2ae9de66d55e2d9df55f9a352a6792f571ec9919b15160058f23f80f43a85a2e"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-07\\incoming\\S8R_IMG07\\room.json",
+          "path": "evidence/s8_07/metadata-original.json",
+          "sha256": "cf120d37f57f664a486852c0dde76f0bc601a15f589b6de88e68cf5028d36227"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-07-independent\\file-audit.json",
+          "path": "evidence/s8_07/file-audit.json",
+          "sha256": "ab45634bf7df26ea3046768bb9e0f26780fd808e689fd1573a97fcc6bf1969be"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW-20261105-S206-S306-S405-S506-S807.md",
+          "path": "evidence/s8_07/acceptance-0.md",
+          "sha256": "99d7332f041408974447f9305c9c3e6744c2cec4400da38c32c92d5482365066"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-07-independent\\independent-details.json",
+          "path": "evidence/s8_07/acceptance-1.json",
+          "sha256": "626a411d67b308e446d44d6aabb3c0ac8540212a0d676368036ff4981a30c02e"
+        }
+      ],
+      "accepted": false,
+      "currentBaselineMember": false,
+      "independentV2PayloadCapabilityCovered": true,
+      "originalTargetCount": 16,
+      "routeSelection": "unique original SHA match, preserving duplicates/labels/order and fractional coordinates",
+      "requiredGates": [
+        "SOURCE_HASH_AND_ARCHITECTURAL_EVIDENCE",
+        "INDEPENDENT_V2_NATIVE_PAYLOAD_CAPABILITY",
+        "ALL_ORIGINAL_TARGETS_4_ROTATIONS_NATIVE_ROUTES_AND_RETURN",
+        "ROLE_AND_BE_DOOR_INTERACTIONS",
+        "INSTALLED_CANDIDATE_ARTIFACT_ORIGINAL_ROOM_GENERATION_AND_SAVED_READBACK",
+        "PARENT_EXPLICIT_SCOPED_AUTHORIZATION",
+        "NATIVE_STEP_UP_BODY_SWEEP_AND_LOWER_UPPER_PATH"
+      ],
+      "pendingRouteChecks": "NOT_RUN_BY_CATALOG",
+      "pendingInstalledOriginalRoomEvidence": "NOT_RUN_NOT_PACKAGED_IN_V2",
+      "parentAuthorization": "NOT_GRANTED_BY_THIS_DOCUMENT",
+      "interactions": [
+        {
+          "localBlock": [
+            3,
+            4,
+            10
+          ],
+          "state": {
+            "Name": "minecraft:barrel",
+            "Properties": {
+              "facing": "up",
+              "open": "false"
+            }
+          },
+          "requiredAction": "open UI, compare empty original/default inventory, close; test mutation quarantine only in separate sacrificial instance"
+        },
+        {
+          "localBlock": [
+            3,
+            4,
+            14
+          ],
+          "state": {
+            "Name": "minecraft:barrel",
+            "Properties": {
+              "facing": "up",
+              "open": "false"
+            }
+          },
+          "requiredAction": "open UI, compare empty original/default inventory, close; test mutation quarantine only in separate sacrificial instance"
+        },
+        {
+          "localBlock": [
+            4,
+            4,
+            15
+          ],
+          "state": {
+            "Name": "minecraft:barrel",
+            "Properties": {
+              "facing": "up",
+              "open": "false"
+            }
+          },
+          "requiredAction": "open UI, compare empty original/default inventory, close; test mutation quarantine only in separate sacrificial instance"
+        },
+        {
+          "localBlock": [
+            21,
+            4,
+            21
+          ],
+          "state": {
+            "Name": "minecraft:barrel",
+            "Properties": {
+              "facing": "up",
+              "open": "false"
+            }
+          },
+          "requiredAction": "open UI, compare empty original/default inventory, close; test mutation quarantine only in separate sacrificial instance"
+        }
+      ],
+      "doorInteractions": [
+        {
+          "localBlock": [
+            11,
+            4,
+            4
+          ],
+          "state": {
+            "Name": "minecraft:dark_oak_door",
+            "Properties": {
+              "facing": "north",
+              "half": "lower",
+              "hinge": "left",
+              "open": "true",
+              "powered": "false"
+            }
+          },
+          "requiredAction": "original open-state path, close/open interaction in sacrificial fixture, restore original and repeat return route"
+        },
+        {
+          "localBlock": [
+            12,
+            4,
+            4
+          ],
+          "state": {
+            "Name": "minecraft:dark_oak_door",
+            "Properties": {
+              "facing": "north",
+              "half": "lower",
+              "hinge": "right",
+              "open": "true",
+              "powered": "false"
+            }
+          },
+          "requiredAction": "original open-state path, close/open interaction in sacrificial fixture, restore original and repeat return route"
+        }
+      ]
+    },
+    {
+      "id": "s8_08",
+      "sourceId": "S8-08",
+      "sourceSha256": "ce92b84da9a81b0501cffd3779fbfe2f2bfd986bfdb903df505beb650648d9c3",
+      "role": "garden",
+      "resource": {
+        "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-08\\incoming\\S8R_IMG08\\room.nbt",
+        "path": "candidate-resources/data/biomedungeon/structures/s8_08.nbt",
+        "sha256": "ce92b84da9a81b0501cffd3779fbfe2f2bfd986bfdb903df505beb650648d9c3"
+      },
+      "evidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-08-independent-r1\\route-input.json",
+          "path": "evidence/s8_08/route-input-original.json",
+          "sha256": "617cb27fda07e5c6055151317bfbda01b72c5e6bb1df6f03f0fb2d0a5b0654b3"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-08\\incoming\\S8R_IMG08\\room.json",
+          "path": "evidence/s8_08/metadata-original.json",
+          "sha256": "21254d96b365cfd1a6bd20eab5cacde9468fc6cf22a5de63d15af05d85dbae4e"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-08-independent-r1\\file-audit.json",
+          "path": "evidence/s8_08/file-audit.json",
+          "sha256": "b6cbdc163bfab6d0646ae662eb216d2d56cb5b425f07535c8753a6455a3ee1b4"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW-20261105-S104-S708-S808.md",
+          "path": "evidence/s8_08/acceptance-0.md",
+          "sha256": "1f1b8bdbf5e528acd7c4e82559f7c62785b2982148d7d85894cd3967cda9cd51"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-08-independent-r1\\independent-details.json",
+          "path": "evidence/s8_08/acceptance-1.json",
+          "sha256": "a028abc757969d9d39fd19c285f0baff4e429ff246e6baab6710bd53de7970fb"
+        }
+      ],
+      "accepted": false,
+      "currentBaselineMember": false,
+      "independentV2PayloadCapabilityCovered": false,
+      "originalTargetCount": 17,
+      "routeSelection": "unique original SHA match, preserving duplicates/labels/order and fractional coordinates",
+      "requiredGates": [
+        "SOURCE_HASH_AND_ARCHITECTURAL_EVIDENCE",
+        "INDEPENDENT_V2_NATIVE_PAYLOAD_CAPABILITY",
+        "ALL_ORIGINAL_TARGETS_4_ROTATIONS_NATIVE_ROUTES_AND_RETURN",
+        "ROLE_AND_BE_DOOR_INTERACTIONS",
+        "INSTALLED_CANDIDATE_ARTIFACT_ORIGINAL_ROOM_GENERATION_AND_SAVED_READBACK",
+        "PARENT_EXPLICIT_SCOPED_AUTHORIZATION",
+        "INDEPENDENT_ORIGINAL_LAVA_VINE_NATIVE_TICKS_CONTAINMENT_AND_RECOVERY"
+      ],
+      "pendingRouteChecks": "NOT_RUN_BY_CATALOG",
+      "pendingInstalledOriginalRoomEvidence": "NOT_RUN_NOT_PACKAGED_IN_V2",
+      "parentAuthorization": "NOT_GRANTED_BY_THIS_DOCUMENT",
+      "interactions": [],
+      "doorInteractions": []
+    },
+    {
+      "id": "s8_09",
+      "sourceId": "S8-09",
+      "sourceSha256": "17a40ef89e7667c3f1d843763df8ae33d2db1101a590b86da7cf0d3b56a85a0b",
+      "role": "treasury",
+      "resource": {
+        "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-09\\incoming\\S8R_IMG09\\room.nbt",
+        "path": "candidate-resources/data/biomedungeon/structures/s8_09.nbt",
+        "sha256": "17a40ef89e7667c3f1d843763df8ae33d2db1101a590b86da7cf0d3b56a85a0b"
+      },
+      "evidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-09-independent\\route-input.json",
+          "path": "evidence/s8_09/route-input-original.json",
+          "sha256": "c458fa29a77d7dd91c4b78f8f02ffa4bffd9988df6ac5bdfd8ba9ddf5e164577"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-09\\incoming\\S8R_IMG09\\room.json",
+          "path": "evidence/s8_09/metadata-original.json",
+          "sha256": "a90fca05250acee8e7393b9830954de4f5a0d8d01353f3f6f35c36ee40651e65"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-09-independent\\file-audit.json",
+          "path": "evidence/s8_09/file-audit.json",
+          "sha256": "1d5d74a18ff6d574ae3e48027281d86367c03fa175d4cb1bfc2cabb6bd05034a"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW-20261105-S809.md",
+          "path": "evidence/s8_09/acceptance-0.md",
+          "sha256": "94a602467a25b245bc08760605e27d1902958b4d1a6dba0a98dc01309dde7c31"
+        }
+      ],
+      "accepted": false,
+      "currentBaselineMember": false,
+      "independentV2PayloadCapabilityCovered": true,
+      "originalTargetCount": 21,
+      "routeSelection": "unique original SHA match, preserving duplicates/labels/order and fractional coordinates",
+      "requiredGates": [
+        "SOURCE_HASH_AND_ARCHITECTURAL_EVIDENCE",
+        "INDEPENDENT_V2_NATIVE_PAYLOAD_CAPABILITY",
+        "ALL_ORIGINAL_TARGETS_4_ROTATIONS_NATIVE_ROUTES_AND_RETURN",
+        "ROLE_AND_BE_DOOR_INTERACTIONS",
+        "INSTALLED_CANDIDATE_ARTIFACT_ORIGINAL_ROOM_GENERATION_AND_SAVED_READBACK",
+        "PARENT_EXPLICIT_SCOPED_AUTHORIZATION"
+      ],
+      "pendingRouteChecks": "NOT_RUN_BY_CATALOG",
+      "pendingInstalledOriginalRoomEvidence": "NOT_RUN_NOT_PACKAGED_IN_V2",
+      "parentAuthorization": "NOT_GRANTED_BY_THIS_DOCUMENT",
+      "interactions": [
+        {
+          "localBlock": [
+            5,
+            3,
+            20
+          ],
+          "state": {
+            "Name": "minecraft:barrel",
+            "Properties": {
+              "facing": "up",
+              "open": "false"
+            }
+          },
+          "requiredAction": "open UI, compare empty original/default inventory, close; test mutation quarantine only in separate sacrificial instance"
+        },
+        {
+          "localBlock": [
+            5,
+            3,
+            22
+          ],
+          "state": {
+            "Name": "minecraft:barrel",
+            "Properties": {
+              "facing": "up",
+              "open": "false"
+            }
+          },
+          "requiredAction": "open UI, compare empty original/default inventory, close; test mutation quarantine only in separate sacrificial instance"
+        },
+        {
+          "localBlock": [
+            14,
+            5,
+            20
+          ],
+          "state": {
+            "Name": "minecraft:chest",
+            "Properties": {
+              "facing": "north",
+              "type": "single",
+              "waterlogged": "false"
+            }
+          },
+          "requiredAction": "open UI, compare empty original/default inventory, close; test mutation quarantine only in separate sacrificial instance"
+        },
+        {
+          "localBlock": [
+            23,
+            3,
+            20
+          ],
+          "state": {
+            "Name": "minecraft:barrel",
+            "Properties": {
+              "facing": "up",
+              "open": "false"
+            }
+          },
+          "requiredAction": "open UI, compare empty original/default inventory, close; test mutation quarantine only in separate sacrificial instance"
+        },
+        {
+          "localBlock": [
+            23,
+            3,
+            22
+          ],
+          "state": {
+            "Name": "minecraft:barrel",
+            "Properties": {
+              "facing": "up",
+              "open": "false"
+            }
+          },
+          "requiredAction": "open UI, compare empty original/default inventory, close; test mutation quarantine only in separate sacrificial instance"
+        }
+      ],
+      "doorInteractions": []
+    }
+  ],
+  "gateRules": {
+    "experimentalPool": "all required gates explicitly PASS for exact source hashes/artifact/core/manifest, parent signature required",
+    "testOnlyArtifact": "independent tester may assemble accepted=false test fixtures under explicit test authorization; this is not command-pool release",
+    "partialPass": "do not infer whole-biome approval from five-BE capability, three-role assembly or two corridors",
+    "unsupported": "01 and08 remain blocked until their additional native geometry/fluid gates pass"
+  }
+}

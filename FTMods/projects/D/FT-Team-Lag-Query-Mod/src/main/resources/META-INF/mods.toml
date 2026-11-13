@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ftteamlag"
+version="1.0.0"
+displayName="FarmingTales Team Lag Query"
+displayTest="IGNORE_SERVER_VERSION"
+description='''Read-only FTB team lag totals, per-capita queries and Refined Storage/Observable timing compatibility. No restrictions, entity cleanup, economy or saved penalties.'''
+[[dependencies.ftteamlag]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,)"
+ordering="NONE"
+side="SERVER"
+[[dependencies.ftteamlag]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="SERVER"
+[[dependencies.ftteamlag]]
+modId="ftbteams"
+mandatory=true
+versionRange="[2001.3,)"
+ordering="AFTER"
+side="SERVER"
+[[dependencies.ftteamlag]]
+modId="ftbchunks"
+mandatory=true
+versionRange="[2001.3,)"
+ordering="AFTER"
+side="SERVER"
+[[dependencies.ftteamlag]]
+modId="refinedstorage"
+mandatory=false
+versionRange="[1.12.4,1.13)"
+ordering="AFTER"
+side="SERVER"
+[[dependencies.ftteamlag]]
+modId="observable"
+mandatory=false
+versionRange="[4.4.2,4.5)"
+ordering="AFTER"
+side="SERVER"

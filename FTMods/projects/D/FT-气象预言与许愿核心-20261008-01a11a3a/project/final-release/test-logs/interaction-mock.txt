@@ -1,0 +1,13 @@
+[FarmingTales][WishingWell] trigger=right_click detected player=test_player item=minecraft:emerald
+[FarmingTales][WishingWell] trigger=right_click accepted player=test_player core=(0,0,0)
+[FarmingTales][WishingWell] trigger=right_click player=test_player outcome=coin reward=kubejs:coin x10
+[FarmingTales][WishingWell] trigger=right_click detected player=test_player item=minecraft:emerald
+[FarmingTales][WishingWell] trigger=right_click rejected=local_cooldown player=test_player remaining=12
+[FarmingTales][WishingWell] trigger=right_click detected player=broken_player item=minecraft:emerald
+[FarmingTales][WishingWell] trigger=right_click rejected=structure player=broken_player missing=(-3,-1,0) expected=朝向井心的石砖楼梯 found=minecraft:air
+[FarmingTales][WishingWell] trigger=drop queued count=2
+[FarmingTales][WishingWell] trigger=drop accepted player=test_player core=(0,0,0)
+[FarmingTales][WishingWell] trigger=drop player=test_player outcome=coin reward=kubejs:coin x10
+Blueprint blocks in fixture: 79 (78 structural/core + 1 optional light)
+Successful reward: kubejs:coin x10
+Right-click and physical-drop triggers, local cooldown, one-emerald consumption, rewards and structure guard OK

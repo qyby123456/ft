@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "contract": "original-room-stair-transition-draft-v1",
+  "status": "PROPOSED_NOT_RUNTIME_IMPLEMENTED_NOT_ACCEPTED_FOR_PROMOTION",
+  "frozenDungeonApiVersion": 1,
+  "sourceMutationAllowed": false,
+  "baselineMutationAllowed": false,
+  "geometryMode": "rigid-whole-room-Y-translation-with-horizontal-external-link",
+  "alignment": {
+    "originY": "parent.origin.y + parentPort.feet.y - childPort.feet.y",
+    "externalLink": "same world feet Y, opposite facing, identical width/height/medium, gap3..10",
+    "worldBounds": "recompute all eight corners at actual translated origin, not original anchor Y",
+    "rotationVoxelConvention": "frozen DungeonGeometry.blockPosition/blockPlacementOrigin; rotate block states too",
+    "failurePolicy": "reject width mismatch, out-of-region/height, third-party overlap, source hash mismatch or failed native clearance; no flattening or corridor substitution"
+  },
+  "portClasses": {
+    "RECTANGULAR_FLAT": "Existing dry flat full-floor and rectangular empty ingress checks, unchanged baseline semantics",
+    "ORIGINAL_STAIR_TRANSITION": "Boundary plane retains original metadata feet; internal band uses source-bound support profile and native collision verification, not an all-air rectangular prism"
+  },
+  "s8_01_north": {
+    "sourceSha256": "ee50ce32006d15b24ae2b2932bbf4ebbef6683ae8b9ee33ca4781348ac0fa798",
+    "originalFeet": [17, 1, 0],
+    "facing": "north",
+    "width": 3,
+    "height": 3,
+    "medium": "dry",
+    "boundaryPlane": "north face z0, exterior last-block row z-1; source doorway x16..18,y1..3,z0",
+    "protectedOriginalBand": {"min": [16, 0, 0], "maxExclusive": [19, 10, 6]},
+    "innerLanding": {"xInterval": [16, 19], "zInterval": [3, 6], "feetY": 3},
+    "expectedSupportProfile": [
+      {"zInterval": [0, 1], "surfaceY": 1},
+      {"zInterval": [1, 1.5], "surfaceY": 1.5},
+      {"zInterval": [1.5, 2], "surfaceY": 2},
+      {"zInterval": [2, 2.5], "surfaceY": 2.5},
+      {"zInterval": [2.5, 3], "surfaceY": 3},
+      {"zInterval": [3, 6], "surfaceY": 3}
+    ],
+    "expectedStairs": {"name": "minecraft:deepslate_brick_stairs", "facing": "south", "half": "bottom", "shape": "straight", "waterlogged": "false"},
+    "profileAuthority": "Actual source states captured; sub-block shape is analytic expectation pending native getCollisionShape verification"
+  },
+  "s8_07": {
+    "sourceSha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7",
+    "north": {"feet": [12, 2, 0], "width": 3, "height": 3, "strictCatalog": "PASS"},
+    "south": {"feet": [12, 4, 26], "width": 5, "height": 3, "strictCatalog": "PASS"},
+    "internalNavigation": "NOT_CERTIFIED: boundary strips do not establish whole-room north-to-south traversal",
+    "southAttachmentToS8_01": "REJECT width5 vs width3 even after Y translation; requires genuine width5 peer or separately approved outside tapered adapter, not silent width truncation"
+  },
+  "ownershipAndReservations": {
+    "wholeRoom": "Every original explicit block/air/entity payload remains source-owned; no edit inside template to flatten stairs or create a substitute passage",
+    "internalBand": "Owned subset of its parent room: overlay annotation, not a second foreign box. Do not reject expected room-vs-own-band overlap",
+    "externalShell": "Use frozen corridorBounds at translated world feet, including floor/ceiling/side walls; no cap at doorway",
+    "allOthers": "Before writes, test translated full rooms + external shells + any external transition allowance against existing world protected/occupied volumes, other rooms and every prior external reservation in all3axes",
+    "internalEndpoint": "Exterior shell ends outside the true face. It must not overwrite any source stair/support/headroom cell",
+    "persistentRecord": "Store source hash, original metadata, translated origin, q, band/shape verification policy hash, owned boxes and verifier results; fail closed after restart if evidence differs"
+  },
+  "requiredNativePosterior": [
+    "Load exact hash-bound original NBT at translated origin with all four rotations; preserve original BlockState properties and payloads. No promotion from Python air checks or manual geometry alone.",
+    "Read every protected-band state and compare to exact rotated source; re-read after neighbour-shape stabilization. Obtain actual BlockState.getCollisionShape with world, position and player CollisionContext. Do not equate non-air with solid, or stairs with full cubes.",
+    "Resolve support surfaces of both half-steps with native VoxelShape, including boundary neighbour cells. Verify continuous support and maximum riser <= actual player's stepHeight (target vanilla0.6), not arbitrary full-block jumps.",
+    "Verify each stair tread and riser transition with continuous swept AABB, standing player width0.6 and height1.8, not only point centers. Include near-neighbour collision shapes and the entire 3-block declared overhead clearance above the supported path. For full-width claims check full declared opening-width overhead; do not claim3-wide from centerline alone.",
+    "Verify exterior approach -> original boundary -> original stairs -> inner landing and reverse, all three lanes, all four rotations, then a full required-room-port return route. S8-07 north2 to south4 interior route requires its own native sweep; exported boundary columns are not sufficient.",
+    "Repeat source/readback and clearance after tick updates; no global gamerule suppression. Run native player-motion or equivalent collision solver including step-up, descent, ceiling, lane edges and head sweep, not teleport-only samples.",
+    "Before COMMITTED fail on body/head collision, unsupported tread, width mismatch, blocked landing, protected overlap, out-of-world bounds, altered original blocks, fluid/unknown dynamic behavior or native verifier unavailable; preserve persistent failure evidence and use runtime's actual recovery policy."
+  ],
+  "nativeWorldTests": "NOT_RUN",
+  "promotion": "NONE"
+}

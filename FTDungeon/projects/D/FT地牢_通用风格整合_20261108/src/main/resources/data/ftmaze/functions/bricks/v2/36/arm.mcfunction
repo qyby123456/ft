@@ -1,0 +1,1 @@
+execute if block 150 151 95 minecraft:air if block 150 150 95 minecraft:cracked_polished_blackstone_bricks store success score #v2b36 ftm_brick run setblock 150 151 95 ftdungeonmobs:dungeon_spawn_point[spent=false] keep

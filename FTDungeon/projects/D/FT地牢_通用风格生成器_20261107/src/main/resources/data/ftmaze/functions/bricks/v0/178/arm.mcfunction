@@ -1,0 +1,1 @@
+execute if block 634 91 117 minecraft:air if block 634 90 117 minecraft:oxidized_cut_copper store success score #v0b178 ftm_brick run setblock 634 91 117 ftdungeonmobs:dungeon_spawn_point[spent=false] keep

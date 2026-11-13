@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "component": "route-coordinate-review",
+  "artifactSha256": "e6ca2da6399ce75ca3dca73236557d002d3f3584c93a0772602279855894dbdd",
+  "verdict": "CURRENT_SELECTED_S8_MATRIX_CENTER_TRANSFORM_CONSISTENT_WITH_ORIGINAL_AUDIT",
+  "approvalScope": "COORDINATE_SEMANTICS_ONLY_NOT_NATIVE_ROUTE_ACCEPTANCE",
+  "domains": {
+    "rawOriginal": "Source route-input start/target numeric triple p, retained unchanged; not already centered player coordinates",
+    "originalBodyCenter": "C_old(p)=(Math.round(2*px)/2+0.5,Math.round(2*py)/2,Math.round(2*pz)/2+0.5)",
+    "v4Fixture": "f=(0,96,0)+R_q(p); already rotated; never rotate f again",
+    "runtimeBodyCenter": "W=room.origin+(f-(0,96,0))+R_q(0.5,0,0.5)",
+    "provenEqualityDomain": "p in (0.5*Z)^3; all4400 real selected S8 endpoint occurrences are actually integer triples",
+    "inverseRaw": "p=R_-q(W-room.origin)-(0.5,0,0.5) for current half-grid/integer source domain",
+    "arbitraryFraction": "NOT_GENERAL_OLD_QUANTIZATION_EQUIVALENCE: source old round-to-half differs from runtime preserve-fraction on non-half-grid. Do not rewrite targets; separately declare convention/version or reject unsupported inputs."
+  },
+  "placementConsistency": {
+    "sourceBlockIndex": "b in Z^3",
+    "worldBlockMin": "room.origin+R_q(b)+c_q",
+    "c_q": [[0,0,0],[-1,0,0],[-1,0,-1],[0,0,-1]],
+    "centerIdentity": "R_q(0.5,0,0.5)=c_q+(0.5,0,0.5)",
+    "integerEndpointIdentity": "W=blockPosition(p,room.origin,q)+(0.5,0,0.5)",
+    "continuousShapeMap": "T(s)=room.origin+R_q(s); c_q accounts for transformed unit-cube minimum, not an extra continuous-point translation",
+    "forbidden": ["Do not add c_q to centered body again", "Do not substitute unrotated +0.5 for R_q(+0.5)", "Do not normalize to rotated AABB minimum", "Do not rotate already-rotated v4 endpoints twice", "Do not shift Y by0.5"]
+  },
+  "stairsDoorsAndSupport": {
+    "sourceConvention": "Half-block center is already part of original audit Node conversion, including stairs/door-edge targets; it is not a new relocation to find an easier path",
+    "proof": "True source-state lookups and actual reported stair/door path inverses preserved; native support/headroom/door interaction was not reexecuted by review",
+    "nativeRequired": "Actual world blockstates/neighbours/door context, native VoxelShape and player body/head/step-up sweeps; source EmptyBlockGetter audit and runtime solver are not equivalent physical models",
+    "fullWidth": "No full-width3/5 clearance claim from centered endpoint/centerline correctness"
+  },
+  "evidence": {
+    "fullMatrix": "4400 source endpoint occurrences, all four rotations, true raw inverse and actual blockPosition compensation",
+    "reported": "1100 frozen runtime checks /2200 actual reported endpoint coordinates matched placement origins and inverted unchanged",
+    "runtimeBytecode": "evidence/NativeRouteAudit-javap.txt and evidence/Placement-javap.txt from exact frozen artifact; class hashes in evidence/jar-bindings.json",
+    "offGridExamples": "evidence/fraction-domain-counterexamples.json: synthetic examples, not real original target failures"
+  },
+  "releaseGate": {
+    "requiredNativeChecks": 2200,
+    "producerReportedNativeChecks": 1100,
+    "all36IndependentCasesCertified": false,
+    "nativeUIAndDoorInteractions": "NOT_RUN",
+    "globalEntranceReturnRouteCertificate": "NOT_RUN",
+    "fullDeclaredWidthStairClearance": "NOT_CERTIFIED",
+    "reviewNativeWorldExecution": "NOT_RUN",
+    "completeGeneratorReady": false,
+    "productionPromotion": false
+  }
+}

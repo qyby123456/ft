@@ -1,0 +1,44 @@
+{
+  "jars": [
+    {
+      "path": "D:\\ft工程文件\\FarmingTales-Drink-Animations-Forge-1.20.1\\compat-libs\\kaleidoscope-cookery-1.4.1.jar",
+      "sha256": "cf99f12875fee3fa915d06fa8aa62705c2fd55577fd1ddd459350fba1abbff9f"
+    }
+  ],
+  "items": [
+    {
+      "id": "kaleidoscope_cookery:sticky_rice_cake",
+      "source": "assets/kaleidoscope_cookery/textures/block/plate/sticky_rice_cake_plate.png",
+      "sha256": "c70dc041ec81ab8c80a9842d1bec72aa338bc36e3d66e5502a345bc0058e9dd8",
+      "texture": "farmingtales_drink_anim:snacks/sticky_rice_cake",
+      "stages": [
+        "whole",
+        "bite1",
+        "bite2",
+        "bite3"
+      ],
+      "bites": [
+        0.0,
+        0.65,
+        1.45,
+        2.45
+      ]
+    },
+    {
+      "id": "kaleidoscope_cookery:sticky_rice_cake_plate",
+      "source": "assets/kaleidoscope_cookery/models/block/plate/sticky_rice_cake_plate/sticky_rice_cake_plate_5.json",
+      "sha256": "c70dc041ec81ab8c80a9842d1bec72aa338bc36e3d66e5502a345bc0058e9dd8",
+      "texture": "farmingtales_drink_anim:snacks/sticky_rice_cake",
+      "underside": "farmingtales_drink_anim:plates/plate",
+      "underside_sha256": "67cee3ad1bbedd1d0e0400b5d0715b53126e5a6aba352f25521b3e0508677ec7",
+      "stages": [
+        "animation/plates/sticky_rice_cake_plate/level5",
+        "animation/plates/sticky_rice_cake_plate/level4",
+        "animation/plates/sticky_rice_cake_plate/level3",
+        "animation/plates/sticky_rice_cake_plate/level2",
+        "animation/plates/sticky_rice_cake_plate/level1",
+        "animation/plates/sticky_rice_cake_plate/level0"
+      ]
+    }
+  ]
+}

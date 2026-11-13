@@ -1,0 +1,114 @@
+{
+  "status": "READY_0_5_1_COMMAND_IO_CLEANUP_INSTALLED_FORCEKILL_AND_REFUSAL_INDEPENDENT_ACCEPTANCE_PENDING",
+  "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+  "planningVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+  "statePolicy": "command-journal-io-cleanup-v5.1",
+  "frozen": [
+    {
+      "ready": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\ready.json",
+      "sha256": "1e985e5c16562aa3609c84af1b15b81fb394df9185ed22190eaa6617111c84db",
+      "unchangedFiles": 41
+    },
+    {
+      "ready": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\next\\ready.json",
+      "sha256": "33471714e3a4bb51b4378f0516176b20d129b72068b236bcc91ade28f3fb8002",
+      "unchangedFiles": 57
+    },
+    {
+      "ready": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\next-fluid\\ready.json",
+      "sha256": "ccdfe8072d139186d3f74d06939e5bdf20178ac7d8cf654f9a34a8297863595a",
+      "unchangedFiles": 70
+    },
+    {
+      "ready": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\next-unified\\ready.json",
+      "sha256": "47a2b9a60db4a5ce82a4b19f9c44cd44a96b57944684dc3c487d4ba24de60264",
+      "unchangedFiles": 79
+    },
+    {
+      "ready": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\next-commit\\ready.json",
+      "sha256": "2e1b946a022f0f17294885fd4126d68c2f5b8e06ccbd805cc763013fd6ead73a",
+      "unchangedFiles": 95
+    }
+  ],
+  "minimalDiff": "Only pause/commit method bodies changed in runtime Java; all other Java/core/input bytes unchanged",
+  "exactMethodFaultAssertions": 17,
+  "commitIoFaultScope": "Exact extracted actual method with persistent IOException; not manufactured Forge acceptance",
+  "installedPauseIo": {
+    "status": "PASS_ACTUAL_INSTALLED_PAUSE_IO_FAILURE_INACTIVE_ZERO_TICKETS_DISABLED",
+    "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+    "scope": "ACTUAL_INSTALLED_NATIVE_PAUSE_JOURNAL_IO_FAILURE",
+    "world": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\next-commit-iofix\\run\\installed-pause-io\\world",
+    "productionPromotion": false,
+    "pid": 15104,
+    "instanceId": "ftde-9a56f7d68f7d25854508a42a79029b03e59b4b7eefa8cf05a560e4b3369c2039",
+    "failureInjection": "Original AtomicFiles .pending path is an actual directory: FileChannel.open fails; no source instrumentation",
+    "previousJournalUnchanged": true,
+    "zeroCompletedWrites": true,
+    "delayedStatusStillInactive": true,
+    "limitation": "Actual pause IOException/native ticket cleanup observed; commit IOException uses exact-method injection, not fabricated independent admission",
+    "exitCode": 0,
+    "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\next-commit-iofix\\run\\installed-pause-io\\pause-io.log",
+    "logSha256": "8c349f8969e76787b14ff9524dcaff9af7af0c2099ea278f96cf02d65c33978a"
+  },
+  "installedForcekill": {
+    "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+    "ordinal": 3,
+    "worldSeed": 267611119455246637,
+    "run": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\next-commit-iofix\\run\\installed-v5-q3-forcekill",
+    "productionPromotion": false,
+    "completeGeneratorReady": false,
+    "scope": "EIGHT_ORIGINALS_ONE_AUTHORIZED_DERIVED_ENTRANCE_INSTALLED_COMMAND_NOT_INDEPENDENT_ACCEPTANCE",
+    "processes": [
+      {
+        "stage": "forcekill",
+        "pid": 84344,
+        "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\next-commit-iofix\\run\\installed-v5-q3-forcekill\\forcekill.log",
+        "lastDurableCheckpoint": {
+          "completed": 5120,
+          "owned": 5120,
+          "saveMillis": 135
+        },
+        "status": "FORCED_PROCESS_TERMINATION_AFTER_DURABLE_CHECKPOINT_NOT_GRACEFUL",
+        "exitCode": 1,
+        "logSha256": "252c6b218e8d6893a2e6510bf02060230364292a8926d61973b3ceeffbb6c152"
+      },
+      {
+        "stage": "resume",
+        "pid": 12696,
+        "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\next-commit-iofix\\run\\installed-v5-q3-forcekill\\resume.log",
+        "incompleteCommitRefused": true,
+        "status": "INSTALLED_DERIVED_WIDTH_SIDE_DOOR_PAYLOAD_PASS_NOT_COMMITTED",
+        "binding": {
+          "instanceId": "ftde-9a56f7d68f7d25854508a42a79029b03e59b4b7eefa8cf05a560e4b3369c2039",
+          "worldIdentity": "22ed2dfc29b31bdc8fa6618011942a4972638384be15972ec2720f63ff2ae70f",
+          "worldSeed": "267611119455246637",
+          "dimension": "minecraft:overworld",
+          "runtimeVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+          "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+          "manifestHash": "13dc58d2e9722de047c3144741cbfe449d17fe11eee513e939f0aac1aefa7d24",
+          "operationHash": "c2043f372a1a52a348d20351a2756b1eadbc89ede3bf928d96adbc2e499b1e06",
+          "planSha256": "4a8bc99a4e44effdefa5f983b61df42fd4e7eca1689f5d8472d3b9a40d684c26",
+          "commitChallenge": "7c90b5b1-666b-4dc4-b07b-6106bcba17bc"
+        },
+        "exitCode": 0,
+        "logSha256": "1b6be6bf7f798e86bb8c9bbf391d2bc20167402570666ea31393864c1051ac96"
+      }
+    ],
+    "instanceId": "ftde-9a56f7d68f7d25854508a42a79029b03e59b4b7eefa8cf05a560e4b3369c2039",
+    "status": "PASS_INSTALLED_V5_DURABLE_CHECKPOINT_FORCEKILL_RESUME_NOT_POWERLOSS"
+  },
+  "journal": {
+    "phase": "VERIFYING",
+    "stage": "PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING",
+    "completedThrough": 692640,
+    "observedTicks": 2400,
+    "restartValidations": 1
+  },
+  "incompleteEvidenceRefused": true,
+  "actualJobCOMMITTED": false,
+  "acceptedFlagsChanged": false,
+  "independentNewArtifactFullAcceptance": "PENDING",
+  "powerLoss": "NOT_RUN",
+  "completeGeneratorReady": false,
+  "productionPromotion": false
+}

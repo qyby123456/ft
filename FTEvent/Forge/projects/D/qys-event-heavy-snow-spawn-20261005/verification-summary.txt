@@ -1,0 +1,9 @@
+QYS Event Heavy Snow spawn fix 1.0.6 - 2026-10-05
+Root cause: supplemental Heavy Snow mobs were forced to exposed surface positions, so indoor/cave/manor tests spawned out of sight; 30-second single pulses were also easy to miss.
+Fix: pulse every 200 ticks; preview 3 mobs/player at 4-12 blocks; sustained pulse at 8-20 blocks; no sky requirement; 48-block cap remains 6; natural replacement remains 45%.
+Forge build/check: PASS
+NeoForge build/verifier: PASS
+Forge SHA256: 5C2EA6963674B576D4ECE56C52C69CED1B2E835778C9EA9C70832D5620ABE6B3
+NeoForge SHA256: 178F32CFB028D080C9D028D0B5DE27A75C8337C2C4605616A5CEE96961C5CFB7
+Test command: /ftevent trigger heavy_snow
+Runtime log marker: [QysEvent][HeavySnowSpawn] players=... spawned=... capped=...

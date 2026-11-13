@@ -1,0 +1,225 @@
+{
+  "status": "SCOPED_EXACT_V4_FAULT_PROTECTION_PASS",
+  "jarSha256": "e6ca2da6399ce75ca3dca73236557d002d3f3584c93a0772602279855894dbdd",
+  "cases": {
+    "truncated_journal": {
+      "status": "PASS_ACTUAL_COMMAND_CORRUPTION_REFUSAL_UNCHANGED",
+      "processes": [
+        {
+          "pid": 31512,
+          "parentPid": 12792,
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\truncated_journal\\world",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\truncated_journal\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\truncated_journal",
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\truncated_journal\\bad-journal-command.log",
+          "exitCode": 0,
+          "logSha256": "1cc6756753edfba8a4420b4580dcce4d14afc6c148124ab788e921242cdc2fd3"
+        }
+      ],
+      "baselineCursor": 641235,
+      "journalOriginalSha256": "5311a89e1e5c46356886822ddbcfdacbfe7ece2c65dc6a1831bc67b75d7f6ba3",
+      "journalFaultSha256": "e5af954e0203eae13f55d3526a3aedfe3cc6cbec7d3ade2488c728db71de8df6",
+      "refusal": [
+        "[15:58:55] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Journal load failed; runtime disabled: java.io.IOException: Truncated journal"
+      ],
+      "savedOriginalCellsCompared": 127239,
+      "changedOriginalCells": [],
+      "savedRegionHashes": {
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\truncated_journal\\world\\region\\r.1.1.mca": "08cc7087a7b71614c443ffb9fa2adbc8d801d7045b3b1e021a882efb7d6556ee",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\truncated_journal\\world\\region\\r.1.2.mca": "18ec6b498bee891a346b8c5eed163c5ba7f9367b03ca09d9dcb63a97615332cd",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\truncated_journal\\world\\region\\r.2.1.mca": "50a04ddd7b153f471884dc4571f8f682f2ed9866eb45f46cc3f174c2ce490aee",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\truncated_journal\\world\\region\\r.2.2.mca": "ed19eacbb632ccd661bf924758cea86d06fee0dabcf67fd3163af7bfb475d0c4"
+      }
+    },
+    "checksum_journal": {
+      "status": "PASS_ACTUAL_COMMAND_CORRUPTION_REFUSAL_UNCHANGED",
+      "processes": [
+        {
+          "pid": 17780,
+          "parentPid": 12792,
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\checksum_journal\\world",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\checksum_journal\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\checksum_journal",
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\checksum_journal\\bad-journal-command.log",
+          "exitCode": 0,
+          "logSha256": "63e5bf074bcad6cd864eddb86a588c267a06b860b25e27b74e1e413e399cbae1"
+        }
+      ],
+      "baselineCursor": 641235,
+      "journalOriginalSha256": "5311a89e1e5c46356886822ddbcfdacbfe7ece2c65dc6a1831bc67b75d7f6ba3",
+      "journalFaultSha256": "8222895ec5b1e44ba1d7106fc5df7bff7ce959adcfc332cc1914f937b69245ac",
+      "refusal": [
+        "[15:59:24] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Journal load failed; runtime disabled: java.io.IOException: Journal checksum mismatch"
+      ],
+      "savedOriginalCellsCompared": 127239,
+      "changedOriginalCells": [],
+      "savedRegionHashes": {
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\checksum_journal\\world\\region\\r.1.1.mca": "08cc7087a7b71614c443ffb9fa2adbc8d801d7045b3b1e021a882efb7d6556ee",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\checksum_journal\\world\\region\\r.1.2.mca": "18ec6b498bee891a346b8c5eed163c5ba7f9367b03ca09d9dcb63a97615332cd",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\checksum_journal\\world\\region\\r.2.1.mca": "50a04ddd7b153f471884dc4571f8f682f2ed9866eb45f46cc3f174c2ce490aee",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\checksum_journal\\world\\region\\r.2.2.mca": "ed19eacbb632ccd661bf924758cea86d06fee0dabcf67fd3163af7bfb475d0c4"
+      }
+    },
+    "midbuild_forcekill": {
+      "status": "PASS_FORCEKILL_FAIL_CLOSED_SAVED_CHUNKS_UNCHANGED",
+      "processes": [
+        {
+          "pid": 26848,
+          "parentPid": 12792,
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\midbuild_forcekill\\world",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\midbuild_forcekill\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\midbuild_forcekill",
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\midbuild_forcekill\\prepare.log",
+          "exitCode": 4294967295,
+          "forcedTermination": true,
+          "logSha256": "b4507653a00dac4dd1f9a218ac27395a3c928b3a278bdc358733ccef9153b8ab",
+          "powerloss": false
+        },
+        {
+          "pid": 43696,
+          "parentPid": 12792,
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\midbuild_forcekill\\world",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\midbuild_forcekill\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\midbuild_forcekill",
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\midbuild_forcekill\\resume.log",
+          "exitCode": 0,
+          "logSha256": "9799864219e783a0b760255c643888dbc9212633acccd4db6d2d8fa9bdc7e06b"
+        }
+      ],
+      "armedStatus": "[16:00:14] [Server thread/INFO] [minecraft/MinecraftServer]: ftdy-c90f465fd5de5e40d91e48347e6dd2f0f4932783f54bb65e8d792e8e5b31c56c phase=BUILDING cursor=6144 attempted=6144 active=true tickets=108 stage=SOLIDS observedTicks=0 error=",
+      "journalCursorAfterKill": 37888,
+      "loadedStatus": "[16:00:47] [Server thread/INFO] [minecraft/MinecraftServer]: ftdy-c90f465fd5de5e40d91e48347e6dd2f0f4932783f54bb65e8d792e8e5b31c56c phase=BUILDING cursor=37888 attempted=37888 active=false tickets=0 stage=SOLIDS observedTicks=0 error=",
+      "finalStatus": "[16:00:52] [Server thread/INFO] [minecraft/MinecraftServer]: ftdy-c90f465fd5de5e40d91e48347e6dd2f0f4932783f54bb65e8d792e8e5b31c56c phase=ROLLBACK_REQUIRED cursor=37888 attempted=37888 active=false tickets=0 stage=SOLIDS observedTicks=0 error=java.lang.IllegalArgumentException: Completed owned cell changed; never overwrite: BlockPos{x=954, y=196, z=905}",
+      "scope": "Fail-closed status observed; incomplete persistence cannot be equated with successful recovery",
+      "independentSavedWorldAnalysis": {
+        "status": "PASS_FORCEKILL_FAIL_CLOSED_SAVED_CHUNKS_UNCHANGED",
+        "comparedSavedEnvelopeCells": 640584,
+        "absentBeforeResumeChunks": [],
+        "changedCells": [],
+        "beforeSemanticSha256": "17a7496dc81e38f02ff65ed7aad6183a89165dbb4bb33a05d0ec4295f968c660",
+        "afterSemanticSha256": "17a7496dc81e38f02ff65ed7aad6183a89165dbb4bb33a05d0ec4295f968c660",
+        "savedJournalCursor": 37888,
+        "afterJournalCursor": 37888,
+        "afterPhase": "ROLLBACK_REQUIRED",
+        "error": "java.lang.IllegalArgumentException: Completed owned cell changed; never overwrite: BlockPos{x=954, y=196, z=905}",
+        "scope": "Exact V4 ordinary installed JAR; abrupt Java termination left completed journal cells without persisted block writes. Explicit resume preflight quarantined without rewriting any compared saved envelope cell/native entity. Absent chunks are listed, not asserted unchanged. This is fail-closed safety evidence, not successful resume completion or power-loss durability."
+      }
+    },
+    "unknown_inventory_forcekill": {
+      "status": "PASS_FORCEKILL_UNKNOWN_INVENTORY_QUARANTINED_PRESERVED",
+      "processes": [
+        {
+          "pid": 48180,
+          "parentPid": 12792,
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\unknown_inventory_forcekill\\world",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\unknown_inventory_forcekill\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\unknown_inventory_forcekill",
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\unknown_inventory_forcekill\\mutate-and-kill.log",
+          "exitCode": 4294967295,
+          "forcedTermination": true,
+          "logSha256": "de422493cdb9e29b6458ed7180574572447a3f8d06ad00d4d7571578edf22fa2",
+          "powerloss": false
+        },
+        {
+          "pid": 60348,
+          "parentPid": 12792,
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\unknown_inventory_forcekill\\world",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\unknown_inventory_forcekill\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\unknown_inventory_forcekill",
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836\\unknown_inventory_forcekill\\resume-unknown.log",
+          "exitCode": 0,
+          "logSha256": "52ed6a218bd8f8fa084a5eef625db489fadf7706a000223c068bf3e29b4e7138"
+        }
+      ],
+      "baselineCursor": 641235,
+      "unknownInventoryPosition": [
+        1003,
+        204,
+        1010
+      ],
+      "loadedStatus": "[16:02:05] [Server thread/INFO] [minecraft/MinecraftServer]: ftdy-bcf2940ad4078f7a823a97003d88d4263ba0b9f728c43fbe14e321df9c98fb99 phase=VERIFYING cursor=641235 attempted=641235 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+      "finalStatus": "[16:02:10] [Server thread/INFO] [minecraft/MinecraftServer]: ftdy-bcf2940ad4078f7a823a97003d88d4263ba0b9f728c43fbe14e321df9c98fb99 phase=ROLLBACK_REQUIRED cursor=641235 attempted=641235 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=java.lang.IllegalArgumentException: Completed owned cell changed; never overwrite: BlockPos{x=1003, y=204, z=1010}",
+      "savedNativeEntity": {
+        "keepPacked": 0,
+        "x": 1003,
+        "y": 204,
+        "Items": [
+          {
+            "Slot": 0,
+            "id": "minecraft:emerald",
+            "Count": 7
+          }
+        ],
+        "z": 1010,
+        "id": "minecraft:barrel"
+      },
+      "syntheticPlayerInventory": true,
+      "sourceOriginalRichPayloadClaim": false
+    },
+    "foreign_block_preflight": {
+      "status": "PASS_FOREIGN_BLOCK_PREFLIGHT_ZERO_GENERATOR_WRITES",
+      "processes": [
+        {
+          "pid": 22088,
+          "parentPid": 51792,
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_160651\\foreign_block_preflight\\world",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_160651\\foreign_block_preflight\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_160651\\foreign_block_preflight",
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_160651\\foreign_block_preflight\\foreign-block.log",
+          "exitCode": 0,
+          "logSha256": "593350eb6f763443bdaf71186f7a851bffb227694e40238861d2bd3716213cc1"
+        }
+      ],
+      "foreignPosition": [
+        1000,
+        200,
+        1000
+      ],
+      "checkedEnvelopeCells": 640584,
+      "changedCells": [],
+      "finalStatus": "[16:08:10] [Server thread/INFO] [minecraft/MinecraftServer]: ftdy-c90f465fd5de5e40d91e48347e6dd2f0f4932783f54bb65e8d792e8e5b31c56c phase=FAILED cursor=0 attempted=0 active=false tickets=0 stage=PLANNED observedTicks=0 error=java.lang.IllegalArgumentException: Occupied/protected state or BE at BlockPos{x=1000, y=200, z=1000}"
+    }
+  },
+  "inheritedV3FaultPass": false,
+  "powerloss": false,
+  "completeGeneratorReady": false,
+  "sourceRuns": [
+    "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_155836",
+    "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v5-diagnostics\\run\\20261106_160651"
+  ]
+}

@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="ftchunkdrops"
+version="1.0.0"
+displayName="FT Chunk Drops"
+displayTest="IGNORE_ALL_VERSION"
+description='''
+服务端掉落物诊断：按区块统计实体数与物品总数，查询准确坐标，导出全维度 CSV 报告。
+仅按指令查询，不清除实体，不强制加载区块，不需要客户端安装。
+'''
+
+[[dependencies.ftchunkdrops]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,48)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ftchunkdrops]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

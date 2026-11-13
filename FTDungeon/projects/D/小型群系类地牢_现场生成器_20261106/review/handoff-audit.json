@@ -1,0 +1,36 @@
+{
+  "component_handoffs": [
+    {
+      "component": "core",
+      "ready_sha256": "aa544a048f88c760750f8673fc6a5d33b1c7f8de932abbed7958c96c943e78e7",
+      "verified_files": 20
+    },
+    {
+      "component": "catalog",
+      "ready_sha256": "32265573f01532bf3e12244ae933ed7d6928fa91c764986150b84992e814fc18",
+      "verified_files": 56
+    },
+    {
+      "component": "runtime",
+      "ready_sha256": "1e985e5c16562aa3609c84af1b15b81fb394df9185ed22190eaa6617111c84db",
+      "verified_files": 41
+    }
+  ],
+  "candidate_jar": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\build\\libs\\ft-biome-dungeon-generator-forge-1.20.1-0.1.0-candidate.jar",
+  "candidate_sha256": "2648e54f72169f7722852469f3aeaec5861676fe41e61de0f59eb04e90ec200d",
+  "archive_crc": "PASS",
+  "template_ids": [
+    "s8_05",
+    "s8_06"
+  ],
+  "test_classes_excluded": true,
+  "runtime_producer_log_observations": [
+    "RUNTIME_WORLD_PASS occupied_preflight_zero_writes id=ftd-ce57a074a53302a17cc0850804bae3c980c5dcc4fb7ae265b1b0017818d1c313 cells=57190",
+    "RUNTIME_WORLD_PASS real_command_build dry_run operator_only readback pause_revalidation committed_idempotency id=ftd-878155b8b8a53567f9f09406403156ece69398d3fbc9310025f0f04684846a75 cells=56259 operationHash=41f9ea95db98933b1b1340afb383fdb7e90073845bfa2c18ff5710a1a81b20ff physical_flat_return_route=PASS tickets_released=PASS; forced-kill/powerloss NOT_RUN",
+    "RUNTIME_RESTART_LOADED process=71676 ftd-d57a78bd2c66f490d48ed9d42a6cd931d6bef20fdeb3872cce06c7dcc76143c5 phase=BUILDING cursor=128 attempted=128 active=false tickets=0 error=",
+    "RUNTIME_RESTART_PASS process=71676 id=ftd-d57a78bd2c66f490d48ed9d42a6cd931d6bef20fdeb3872cce06c7dcc76143c5 cells=56525 operationHash=5a5bf63af560e314576305ed932be56986f1cc52fb18c92e0de5ea2e4248da2f; distinct process interrupted recovery, forced-kill/powerloss NOT_RUN"
+  ],
+  "independent_world_retest": "DELEGATED_TO_INTEGRATION_NOT_CLAIMED_HERE",
+  "installed_release_artifact_world_test": "NOT_VERIFIED_BY_THIS_AUDIT",
+  "formal_instance_written": false
+}

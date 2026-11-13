@@ -1,0 +1,12 @@
+{
+  "component":"core-envelope-usability-review",
+  "findings":[
+    {"id":"ENVELOPE-001","status":"IMPLEMENTED_NEW_V3_NOT_INTEGRATED","finding":"Frozen v2 may return geometrically valid nine-room plan exceeding actual runtime operation envelope. Exact first ordinary q3 refused innerX271>256 despite cells832939<1500000.","action":"New envelope-aware DFS uses same input, global bounded multi-pass attempts; no fewer rooms, seed substitution or widened region."},
+    {"id":"ENVELOPE-002","status":"PROTECTED_IN_NEW_V3","finding":"Runtime writes AIR into full enclosure gaps, so occupied checks restricted to room+connector boxes are insufficient to guarantee operation-range clearance.","action":"New v3 compares whole envelope with occupied and actual absoluteY bounds. Caller must supply prior operation envelopes; runtime actual block/protection preflight remains mandatory."},
+    {"id":"SEARCH-003","status":"SCOPED_REGRESSION_PASS_NOT_UNIVERSAL_COMPLETENESS","finding":"352 old requests had9 returned-envelope refusals and4 search exhaustions. Initial unsliced v3 also had4 exhaustions; final same-budget deterministic multi-pass v3 passed352/352.","action":"Preserve original Request and total attempt cap. Arbitrary future seeds/occupied may still safely exhaust; do not silently reduce roomCount or replace seed."},
+    {"id":"WORLD-004","status":"OWNER_BLOCKER_UNCHANGED","finding":"Latest integration full2200 independent routes does not eliminate112 S8-07 full-width sampled-lane failures; new planner has no world acceptance.","action":"Catalog/runtime own original doorway/full-width resolution and independent validation. No core geometry/seed manipulation to hide lanes."}
+  ],
+  "productionPromotion":false,
+  "worldExecutionByCore":"NOT_RUN",
+  "frozenFilesModified":false
+}

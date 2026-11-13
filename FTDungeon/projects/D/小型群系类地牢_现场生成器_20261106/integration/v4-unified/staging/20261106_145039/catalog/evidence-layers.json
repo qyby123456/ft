@@ -1,0 +1,1622 @@
+{
+  "architecture": "Independent base-room acceptance from original index, source hash bound; not runtime promotion",
+  "independentV2Capability": {
+    "artifactSha256": "f7d73680b20d390a6f08a090fea66b66000deb33bc0a6556ad282340035c6188",
+    "status": "SCOPED_CAPABILITY_PASS",
+    "scope": "Five BE original rooms x four rotations, 237000 cells / 96 native BE / 184 original fields; 44 committed container mutation refusals; role assembly and clean separate-process BE recovery, saved native 22 BE readback",
+    "notCovered": [
+      "complete room routes/return paths and live player interactions",
+      "installed-JAR original BE rooms: NOT_RUN_NOT_PACKAGED",
+      "force kill/power loss",
+      "nine-room original whole biome",
+      "nonempty-original rich item/pattern payloads"
+    ],
+    "verifiedFileCount": 389,
+    "verifiedFiles": [
+      {
+        "path": "final-evidence.json",
+        "sha256": "fe6f56c6a201467e90c2c44300ce99f562df4edbbe97a9218e8e4fd1a6da4cc8"
+      },
+      {
+        "path": "finalize.py",
+        "sha256": "1edba8436c6419e80c77c2233e29ee4baf6a8570695cf4de81180564a21268ae"
+      },
+      {
+        "path": "installed-result.json",
+        "sha256": "e6b989726e2ac08745d1000453db3411fedbc4ff8a9e2491f387fa447018a775"
+      },
+      {
+        "path": "install_experimental.py",
+        "sha256": "227be1ddb711083b873b220ef62176c5ed0c0b7b7fe5dda14b48d3e7b6db2f81"
+      },
+      {
+        "path": "ISSUES.json",
+        "sha256": "4dda0b53f6b4d319a24180d66f306e9543c9f03918eb8f20647282048edce86f"
+      },
+      {
+        "path": "native-be-readback.json",
+        "sha256": "28a7e6fcf60481cd049f46f75ee61f1a3737302d6cae835ad80038874c65ed1d"
+      },
+      {
+        "path": "native-reader-tests.json",
+        "sha256": "5f107e295bef28eb2bd4d2e839fa992cccde2556608998233214848ecdb5fab8"
+      },
+      {
+        "path": "native-reader-tests.log",
+        "sha256": "cff0c5053cd5e441b683a3e05bad02396a2422ddd52ca5e2cdf32958d651c679"
+      },
+      {
+        "path": "overlay.gradle",
+        "sha256": "578d55fd8c259c4ebeae34acaed22f7baf17e7667891c4e0ac824097cf023254"
+      },
+      {
+        "path": "progress.json",
+        "sha256": "2647bf7bbf5ad23a679a2dc63b1331ea8692e618de64030cd14ee1f074e62fb8"
+      },
+      {
+        "path": "README.md",
+        "sha256": "1d4c126b279d08d054f881cd86094c996f4445ad0e613557207950f5e74176c0"
+      },
+      {
+        "path": "read_native_be.py",
+        "sha256": "9c599ba4eaa1ebd30fa80e3101701018bb36bc3fc44d05901f4303912f92109b"
+      },
+      {
+        "path": "run_v2.py",
+        "sha256": "3a54cc3a5cfcbfa25e2f8c2d02ccffad9b30399f53754d899dcf56d54df6a902"
+      },
+      {
+        "path": "test_native_reader.py",
+        "sha256": "e6eb9d40892360c530ba92aa5142d2ed7bd224b78c10dd06a19dec3b21710624"
+      },
+      {
+        "path": "v1-ready-sealed.json",
+        "sha256": "25d60c7e0f879f637b88f711366697966f202cd0ef69c56122dbefbebf48e160"
+      },
+      {
+        "path": "v1-seal.json",
+        "sha256": "3075eeeeaf2321ae81617584bc71c974c40f2a38918dfe55aeef830b069342b1"
+      },
+      {
+        "path": "run/20261106_134241/payload.json",
+        "sha256": "f9e20fa1bad0946a3229f2f46c29c1992f6a821f25400df70b8a9b2cfdc8d2d4"
+      },
+      {
+        "path": "run/20261106_134241/payload.log",
+        "sha256": "c8c74365378e3a64b3392ff9dc6a9ee199daf20f925559659cbc983a262de577"
+      },
+      {
+        "path": "run/20261106_134241/verification-lock.json",
+        "sha256": "e3e239cc08c6693349afbc933b1ef8a58c33c5b8c5a7680589138165c1b886d6"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-prepare.json",
+        "sha256": "cc028f0ca2cb8ffa0d41e48e7abda1360021795afd208632256706f1c8eef3a9"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-prepare.log",
+        "sha256": "d7b878727a76059de11c2869d45aaf6d7a7df96bbf8601a8e6fbdeeb007075cf"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-resume.json",
+        "sha256": "85b73e8f293a20599b9014a8086e16378660cc092e82320c89cb5cadab14b943"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-resume.log",
+        "sha256": "b6b301a3112dc86e37cd711a94bea1697d42db796d4caac8e10ef5898afde26d"
+      },
+      {
+        "path": "run/20261106_134313/payload.json",
+        "sha256": "67cad59a948034bcf29d40125463271a224bc5e08e1947f93566acefe5f63398"
+      },
+      {
+        "path": "run/20261106_134313/payload.log",
+        "sha256": "e0ebc47a32b73c02ab48b3cc56abfa79590d16e8bd1d79a718338e4357258ebb"
+      },
+      {
+        "path": "run/20261106_134313/verification-lock.json",
+        "sha256": "86b5f9d1ccdb5bc8b224f428913ac872b8b8c4a55edd2250109957864379c924"
+      },
+      {
+        "path": "run/20261106_134313_installed/banned-ips.json",
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "run/20261106_134313_installed/banned-players.json",
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "run/20261106_134313_installed/normal-v2-server.log",
+        "sha256": "de5a2fee2dba78653fb4ba73a54e12785c3ae7bcceca7ad36a4c1078f255e18f"
+      },
+      {
+        "path": "run/20261106_134313_installed/ops.json",
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "run/20261106_134313_installed/result.json",
+        "sha256": "8234a984127a024d63257a23f8722a1afed058473e5b7981ec09cd203333674d"
+      },
+      {
+        "path": "run/20261106_134313_installed/usercache.json",
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "run/20261106_134313_installed/whitelist.json",
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/banned-ips.json",
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/banned-players.json",
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/normal-v2-server.log",
+        "sha256": "f6b8891e856974b617d72ae9fddbe4e31a2c6ab5685a2535d7fc6721ed153474"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/ops.json",
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/result.json",
+        "sha256": "e6b989726e2ac08745d1000453db3411fedbc4ff8a9e2491f387fa447018a775"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/usercache.json",
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/whitelist.json",
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "run/20261106_134241/verification/overlay.gradle",
+        "sha256": "f9103ba63ade0e976b23718dc8f541ef2fd766ce4bcbefaa7fdf8498ee62af5e"
+      },
+      {
+        "path": "run/20261106_134241/verification/world-tests/cn/ft/biomedungeon/runtime/IndependentBeTests.java",
+        "sha256": "de9fb90c0847d3b0d8d4d751a5774bcc245e6390782e8a23805474631b54a37b"
+      },
+      {
+        "path": "run/20261106_134313/verification/overlay.gradle",
+        "sha256": "578d55fd8c259c4ebeae34acaed22f7baf17e7667891c4e0ac824097cf023254"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/logs/debug.log",
+        "sha256": "d9ba009189be4ba4271d471c1da1ba687f1cbee0796e482bee05fa260e3db7da"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/logs/latest.log",
+        "sha256": "e5546043fb049358476cd9d764a6ade6dafbfcf573acdc657a2fe856675eb5af"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/entities/r.-1.-1.mca",
+        "sha256": "e5b45b2024794c7bef3156174ce548527e8743107e571f9a972288fdf9c4c16c"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/entities/r.-1.0.mca",
+        "sha256": "992c32629af4e10cea1bad8d49a01cc08b204957f009ddb3a26f74b5655c9d57"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/entities/r.0.-1.mca",
+        "sha256": "d5def0ef3933337ae28ff714161548898e25c47bda9817346191567e834c265a"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/entities/r.0.0.mca",
+        "sha256": "c168c2888722258d408ea9e2255d568f80b73f53866a88a3edf4716443736fb7"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/entities/r.13.13.mca",
+        "sha256": "a43baab2bfa73528845561423112e7b3d9c3f08e27b6064bd83cb3d6224c6b6a"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/poi/r.-1.-1.mca",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/poi/r.-1.0.mca",
+        "sha256": "d6b94434ef36e3b25da9351f8db49e81ddf2d82b94907081fc12562ac985cefe"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/poi/r.0.-1.mca",
+        "sha256": "4b85dd2922efa889e4a2658ec8614445636e4181e46498466c7b617c1606261f"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/poi/r.0.0.mca",
+        "sha256": "5c0aa1039e9d8819997627d2e1166511574ee4d2c5b0e7c68d8dfdb5bad1361c"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/poi/r.13.13.mca",
+        "sha256": "3ef9e5d3213d086ba1941664f4a00a3e6070201e6cd0b5ac2bda50929a0bf7ea"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/poi/r.14.13.mca",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/region/r.-1.-1.mca",
+        "sha256": "ebf3ffe0b4f45dedaa272e3c51a42524aa9ebfd96e3a23573b452a1c2ac24857"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/region/r.-1.0.mca",
+        "sha256": "06c39382314d022a03fdd403de032e7e5545341868ea8f8825f8c0e1cd6d9b5c"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/region/r.0.-1.mca",
+        "sha256": "3af9f0003c796e931fe14caa04871c3288796946daf6831ba264aad4e6d52a0c"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/region/r.0.0.mca",
+        "sha256": "84f05e976e502463145ad0876167d181acf5b07af88aac93271ab929267b22a8"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/region/r.13.13.mca",
+        "sha256": "636073626d57f4bf70ad4076b69562d668880fdabfaf6f51145a674e42958284"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/region/r.13.14.mca",
+        "sha256": "0e4ee15646210b1c6e0c40b714ce66c6e7f67c30c5cb1019ae6d1821629bd027"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/region/r.14.13.mca",
+        "sha256": "aefe68909bce666174b137c132f15ec1460c7b130d2c87073db86147eed72c8f"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/region/r.14.14.mca",
+        "sha256": "12dcb8daaa3b4eee0259713844e17b2469e6ad940ee68ed654b2359d7116c9ba"
+      },
+      {
+        "path": "run/20261106_134313/be-restart-world/world/ft_biome_dungeon_generator_v2/minecraft/overworld/ftd-9d56e21b4f62f247a06e4c0418597d056308464f5d536c973fe8de1a21dd1c8b.nbt",
+        "sha256": "8219e505330e6b696cbc94fca05d7a1303ea488b123e0e9d700bf733e97abbec"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/logs/debug.log",
+        "sha256": "bb8bdbf241785a9d19c41fa2d230d278d472b32c5010b5ab6be443abfc62b75c"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/logs/latest.log",
+        "sha256": "b60e66d91a805e7820ef65355b6491810fe97f2071d95cf8ecc6675bba7221f5"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.-1.-1.mca",
+        "sha256": "0884dce30fdca2732fc36205e2e101677bf97091fd118cc009ce901b39cfc176"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.-1.0.mca",
+        "sha256": "a7e074597fb23532005bf761c61d2b72871a1fbbd6a5555307f6eccf79d8821e"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.0.-1.mca",
+        "sha256": "139b9247abd03602a6a5cc23639d0a054d1d8b8231b073ce1d4b4e7646482125"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.0.0.mca",
+        "sha256": "811d9130ac5e5ad741c0b7d31bd5803d80f44a9987759a7c3fbb164e22a5ab58"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.11.11.mca",
+        "sha256": "379c2c6af0bf825fbf077e540e9b0865c6795123df5a67d874a68804a51aa1b5"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.11.12.mca",
+        "sha256": "2ec15cbea51dee0c64e1ed8333fc1e312a463637eb4cf48f90973ede110c3230"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.19.19.mca",
+        "sha256": "66b90409c91ab9849ece68e28f8575801f87200d83245b21df0d6a6736003097"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.19.20.mca",
+        "sha256": "f7eae2e90b53c9de7073b2c33ec661adf1b410eb92ddaa69918fdffdb62af557"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.20.19.mca",
+        "sha256": "640f4793d4a8fd03e03227e758e39c0c6ae96f0950d8cbe69caf5c80ba52dfa3"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.20.20.mca",
+        "sha256": "dd7b99203e5c82ec8ca4ff505a301073329d91f9e87ac764bf0077f63139021c"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.7.7.mca",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.7.8.mca",
+        "sha256": "824382bc7d2bc85293340bb92a27008b781d79c7ed69ea3b7114d9f055fd4a27"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.8.7.mca",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.8.8.mca",
+        "sha256": "e3a7af2c449728ad9514958dc75c0156145a866d44b9a5dd9822da267fb8980e"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/entities/r.9.9.mca",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/poi/r.11.11.mca",
+        "sha256": "f793d0c275ff638897300843b3622ce9698950778411e39edb0655b65b615e5a"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/poi/r.19.19.mca",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/poi/r.19.20.mca",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/poi/r.20.19.mca",
+        "sha256": "357b0e8bb577f4bc12438e73182e111d3c2ace75cc2accf6cfeeb846d2ad8262"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/poi/r.20.20.mca",
+        "sha256": "b7c62ea970b54494d949812882cbb1d4ee461fcb4989e8935823502030b81cec"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/poi/r.21.19.mca",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/poi/r.21.20.mca",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/poi/r.7.7.mca",
+        "sha256": "c515cb6524bc52316d2b9d36d1445a211b0732453cbf9ff2a0e3dce6cee8a3c7"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/poi/r.7.8.mca",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/poi/r.8.7.mca",
+        "sha256": "f0b121baab91bb05f68efed828b8580ef489db7868de3683c57fd14b39ec9f4a"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/poi/r.8.8.mca",
+        "sha256": "cd13ac196bbad4a5b9e084f59fb80083cace2ff194d495d6f99fa76c135179f9"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/poi/r.9.9.mca",
+        "sha256": "a64626a32696c384b98bcbbaaae8b0543e040953d39b95f23cb087350c9ec155"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.-1.-1.mca",
+        "sha256": "1e157069bea813ddec96b0685352820e3e14cc9063e7fb9c07c80b3cf24425f6"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.-1.0.mca",
+        "sha256": "05ae3bae1fb51f674fc6b3c1575ee6bea34d80ff4c2da772b41e06f63114276b"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.0.-1.mca",
+        "sha256": "faa170ea579c44fea00d18cc148e00768ee9f2e592f296adb7823759b7a6ad85"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.0.0.mca",
+        "sha256": "ab7bd8c0a58750f5ff1bb7a18b5c9bc9f784fe8b78f89d7af847b05bb89204b9"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.1.-1.mca",
+        "sha256": "76441d1321af0695c3bfa0796bfef056252e7f94bb56d9db60d7897b9c559b0c"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.1.0.mca",
+        "sha256": "8db1f61c2086b7ed3bb26a4835be6c16a18a35530778c37b3511bf9b87725edb"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.10.10.mca",
+        "sha256": "27a7fcec2730570d1690f801cb22dffa08f7fff646a899d766e810a8ef7e95c0"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.10.9.mca",
+        "sha256": "fa55f8f428df95ed51dab3f2434c2f5c4198c8a4ee64360112b4f9e27553b359"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.11.11.mca",
+        "sha256": "96b04b287c0f622545c196c9f9f853ce8ec820453d0ca274c6990fc9ca1c68f3"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.11.12.mca",
+        "sha256": "bb03cbd51285db84237c24458c6eb363460f5129a6620601a7002ee8c0a8bb6e"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.12.11.mca",
+        "sha256": "16117e02d811e0afbc12a45a65d3d50923284a4995c86f1ea4edd69ca59da617"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.12.12.mca",
+        "sha256": "9caedc2ebb0dd2969b034f6c465d8364934eb2deed4e82918685c1d51a127429"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.19.19.mca",
+        "sha256": "71c0727d127bf49b6ce70e6e2c6fa4d5313caade8700c9b9cf217db4c4b80569"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.19.20.mca",
+        "sha256": "005c2ccabef48019f344e2e98bdbf611f81fdfbe5f27adaa0ce899bf768d63bd"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.20.19.mca",
+        "sha256": "a0f4bdea49bb35ebc538c1aa8c578d96a44e55f64228dd0f789cec922685fb6b"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.20.20.mca",
+        "sha256": "43adca15b32e7a79edc939563ea824c2ca2b90d7d5f3fc54cfc6394275116a91"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.21.19.mca",
+        "sha256": "64ad7270c4962d865dae77257d5e996960da2940ed561a8fb9300a6cb2169a72"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.21.20.mca",
+        "sha256": "8ffba67d31f51949a73a6fe21dd88e4658289b444e1a1cf194d6ddbcc2f6ca02"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.7.7.mca",
+        "sha256": "a84f3bb26c8be4d4f690183e26379093a84c112c0ceafbc043b8884488fa7e1d"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.7.8.mca",
+        "sha256": "06b7961deaca6d5b9c00c3ee4fd2a217b45665511b5a16c9f6e5453a06f16311"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.8.7.mca",
+        "sha256": "be1bfb03ede82a6b4bcb75e0ac97f916a39fc237d008b26da2aab43c243e20c9"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.8.8.mca",
+        "sha256": "e872f5c715da5f3297bbc7160383574ce388d79734a449a8393b996f63ca8809"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.9.10.mca",
+        "sha256": "866f7f6020af5df5deab8ab326e3e3107c86451bc94f94fe62aa3772bc7e2550"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/region/r.9.9.mca",
+        "sha256": "5826fad9320630af3e4ffebcdeb4bfdf26dac64fba2ee2036805662c61081778"
+      },
+      {
+        "path": "run/20261106_134313/payload-world/world/ft_biome_dungeon_generator_v2/minecraft/overworld/ftd-52988db0ebe82df26facb90874e9c0060a96d552de465e5789ab68d2ebb8cad8.nbt",
+        "sha256": "59c63dcfd4720876efe655cc827bae0548960aadf48261bbb6196d6e5f6e2c87"
+      },
+      {
+        "path": "run/20261106_134313/verification/world-tests/cn/ft/biomedungeon/runtime/IndependentBeTests.java",
+        "sha256": "de9fb90c0847d3b0d8d4d751a5774bcc245e6390782e8a23805474631b54a37b"
+      },
+      {
+        "path": "run/20261106_134313_installed/logs/debug.log",
+        "sha256": "a7090dc0c325fbc57fefe062df8de7892daebc6df9820bd579e5bedf9e676322"
+      },
+      {
+        "path": "run/20261106_134313_installed/logs/latest.log",
+        "sha256": "7a0e4f844bffb0103dea7b09ac96d4f3a2f1fe90ae9dce46b8f32ad515b47888"
+      },
+      {
+        "path": "run/20261106_134313_installed/mods/ft-biome-dungeon-generator-forge-1.20.1-0.2.0-experimental.jar",
+        "sha256": "f7d73680b20d390a6f08a090fea66b66000deb33bc0a6556ad282340035c6188"
+      },
+      {
+        "path": "run/20261106_134313_installed/world/entities/r.-1.-1.mca",
+        "sha256": "b55d2cd23072e5d4b02b4d2eb403633256bae5c5926ab9344f230b7d0e8e9701"
+      },
+      {
+        "path": "run/20261106_134313_installed/world/entities/r.-1.0.mca",
+        "sha256": "d094b600559f86a030b15a20b40721e48cafdabae5c0f0a2b54c9537b2226d5e"
+      },
+      {
+        "path": "run/20261106_134313_installed/world/entities/r.0.-1.mca",
+        "sha256": "2cbffee52a7ce449daca0a5ebee2f7289ea38c124880fcd25e61289cc17613c1"
+      },
+      {
+        "path": "run/20261106_134313_installed/world/entities/r.0.0.mca",
+        "sha256": "5915adc9ce11b1743c9f1731f9175fce0b0cd70e37580ff754cf8403554ddbd0"
+      },
+      {
+        "path": "run/20261106_134313_installed/world/region/r.-1.-1.mca",
+        "sha256": "1978c7923250da2d414200313d546c0dd53bbde775a61220e2c60ceaf028c4bd"
+      },
+      {
+        "path": "run/20261106_134313_installed/world/region/r.-1.0.mca",
+        "sha256": "88e4f8d1209bd282df849f7efd697fe2e5aa21eeb287b6c33ede564a818a6e53"
+      },
+      {
+        "path": "run/20261106_134313_installed/world/region/r.0.-1.mca",
+        "sha256": "b311900e5e4e587d959574a0bf0a4bf84f074104c3ded5697b8df2d52504da54"
+      },
+      {
+        "path": "run/20261106_134313_installed/world/region/r.0.0.mca",
+        "sha256": "ab7edc07d1fa00b2b235d8ce100b6554cc90f6baa38bff0aec22d9dc99a77898"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/logs/debug.log",
+        "sha256": "83505ec1b19792fc024491d437c16487d589bad8bddfc61f660591f7a842b837"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/logs/latest.log",
+        "sha256": "c045afa1370056d4e5cc8527835bdfa7081e3e0d1703bfa08f95adcd36cc897f"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/mods/ft-biome-dungeon-generator-forge-1.20.1-0.2.0-experimental.jar",
+        "sha256": "f7d73680b20d390a6f08a090fea66b66000deb33bc0a6556ad282340035c6188"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/entities/r.-1.-1.mca",
+        "sha256": "31a89e20c19c0ed095d3cdff3036054c57f08f776cea6fbb1a0a7fd830d6c6b8"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/entities/r.-1.0.mca",
+        "sha256": "ffd898850e1f80bd19bee11cabb5fa18ddb3474e1bbf7980f7bd05defeedc706"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/entities/r.0.-1.mca",
+        "sha256": "4e0d3f8be084b97b8a2672499c9b938c8da4e55c1655aea411dcadad3146848d"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/entities/r.0.0.mca",
+        "sha256": "23b72c7589fdafe59c7c2ddcdff45579e2b41ad085d65dc8dd7f98d14928a3fb"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/entities/r.1.1.mca",
+        "sha256": "6e09b9e58f0f0b4ae0f4664873ad9ae99ea99bb85754646984c8b2f2cffbe0d3"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/entities/r.1.2.mca",
+        "sha256": "eaa97a4ce9c8f823fe4a64a630b45ac6158e95229679385764cc7673f0aba2ed"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/entities/r.2.1.mca",
+        "sha256": "1544333fbc18dd9037de4be7ccebb6437285e243b27bc39930133bda590a60b9"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/entities/r.2.2.mca",
+        "sha256": "e14daf20994c6990136de4fb59455da7aafdd5ca40dff4abe7ceefc098041d25"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/poi/r.-1.-1.mca",
+        "sha256": "b48f241260208de9f1232f19c4435b1ec6afea071e703eeefa58e06432aa82da"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/poi/r.0.-1.mca",
+        "sha256": "1999648da2f9ca8478fe5000b213d7a751d8872d4f96bb27d8469e977a498743"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/poi/r.0.0.mca",
+        "sha256": "426a5f9cd3693998bbeea849c44c0cbcf4b23c886b49d3f237fe20212478ffef"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/region/r.-1.-1.mca",
+        "sha256": "99892ae4c4ec14535c60ce6de48fb630ee268314c0252a1f5eaa96278ea3cb8f"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/region/r.-1.0.mca",
+        "sha256": "3f1b540e4531217b87830aca430f4ec01ced690ab16cf03f001e4c762a954d4e"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/region/r.0.-1.mca",
+        "sha256": "65562af6e5f42e44975b847f8e36752a0d063305c363677992d699ea4f9985c8"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/region/r.0.0.mca",
+        "sha256": "b06a9c127de14324e21c4c761ff15cb824609ba696f606908a5146ce5970d011"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/region/r.1.1.mca",
+        "sha256": "6e9d2b8a0c2164188d30e459e3eb9f4a20cb470caf82cdd265217fcafedd97dd"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/region/r.1.2.mca",
+        "sha256": "d326e8f8a0928d3c248234fa6ece3d12e83dc2ff148463f5a8b1917df51bc56e"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/region/r.2.1.mca",
+        "sha256": "e080eea090b6aa3025f2bfaa1240843991513d7f8b53d9ec3383c3305b01ec29"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/region/r.2.2.mca",
+        "sha256": "7177e55364dfe74ed964582d47930e02418c33de18ebc7e3d09b344dfff950ba"
+      },
+      {
+        "path": "run/20261106_134313_installed_134650/world/ft_biome_dungeon_generator_v2/minecraft/overworld/ftd-39de0ae564ab5c3bb160ec2ddf5ee8bab581df7738eeaab22a1fccefbb8f10d4.nbt",
+        "sha256": "f9cc4cf3abe9a772e617bb7c97738d7292622cdbe12abfdc5512d3eb479e4490"
+      },
+      {
+        "path": "staging/20261106_134241/snapshot-lock.json",
+        "sha256": "9ff2dd3928365bd33af8561344e329d112d9f98f6e457ebac6b934a09e287124"
+      },
+      {
+        "path": "staging/20261106_134313/snapshot-lock.json",
+        "sha256": "48e35602c9b59f7d155e1efe058ffdbf387f7e06f8d89a012d42f92a817bb4b8"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/all-72-expansion-audit.json",
+        "sha256": "74b5efa2966f230ee8ed89f6cd4b15527c629b55512fbc88a67fc8b48fec6c62"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/audit.log",
+        "sha256": "03736b435dcfa2babaf236f61b8687c4dc414087142252d7eef9a224c29e81d7"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/audit_expansion.py",
+        "sha256": "f69bc040962bb8e4d2a8af77efb9ab0420acc08a7e9e28063309c34954fbab1b"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/block-entity-support-request.json",
+        "sha256": "6b3d58ffc3508d17bccff321b07e91f4c60300a4965d50980d73c98519679b79"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/candidate-manifest.json",
+        "sha256": "64b44c1acabcfd1a3bd797a9a51650e1e2c31d20971d5301c27a81caadc31205"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/candidates.log",
+        "sha256": "baccbdff0133a0dd7e5760335405630a848e4a3f5de140aad2efd81a54b6b216"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/CatalogCoreSmoke.java",
+        "sha256": "40a46af26f7f351267b2edcce211286f34a9bb696d7e24824a92ac1c3771e49d"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/compatibility-summary.json",
+        "sha256": "8e88191ac571cdcf9aa8e02b0e9718661745dd8b4dab13ec1efcf55a311819aa"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/core-smoke-java17.log",
+        "sha256": "653c34d9b34619c6d21d4ea1349f3d28b3b0ed4bbe17037fa3b0b03ddbb232e0"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/finalize_expansion.py",
+        "sha256": "d2351acdf81691e250ef693e785bd142580fdbbab25aab82b1132bee2346c647"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/prepare_candidates.py",
+        "sha256": "36dfb000e49dae66e3101b59849d5787381701542aa8dbd519e52cb635b42e45"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/README.md",
+        "sha256": "5c804ecc98ef2d67d229dd98911caf990599a55d4ec91e1068effeeab65fefcf"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/s8-complete-biome-requirements.json",
+        "sha256": "d6b795a9f151dbace3dcdffa431ca4b24569acded6c509df8aa6f5e6a8993e66"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/SHA256SUMS.json",
+        "sha256": "36e464bcefcecbb2ac4cca77ab9b1b0c2ddae65fc58db81c398ee7df17b370ae"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/snapshot-lock.json",
+        "sha256": "b4d4019ba02973e640bd9d04f01a25e2c94a0de0002f5410f24af40d27baf32a"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/tests.log",
+        "sha256": "ed64a56b01bedd6a8a91e38a6edf6e9cf9d76c3b4c201094d3a4281e82b7ca42"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/test_expansion.py",
+        "sha256": "15d77c68497c560e150a8bca172704a8a2fb30539b0aaf7b3b6209a9ee1fc18c"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/baseline-lock.json",
+        "sha256": "af5b5d5f8c893acda84c33334bb4a85540e1cfeecc54b3c7d4111c30420b8f4b"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/be-restart-prepare.log",
+        "sha256": "3ad56b986dc749ee6d89f30c6606481ea7a46c3467518b7732f9d2046b9fcdfd"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/be-restart-resume.log",
+        "sha256": "d803e546fce0424bae7e1d46f8b9dad94e6e1a4b7e43b81c5b6170d0b582f504"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/build-v2-final.log",
+        "sha256": "d756ac61fd0a8e1aeb44d7b0f5fba2ce01854ad0daac873a2d7baf30306dd0ec"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/build.gradle",
+        "sha256": "92fc1260931672c6aa06b29019127e65a6bc3d35334938a9d634b5d97d21a18b"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/core-snapshot-ready.json",
+        "sha256": "aa544a048f88c760750f8673fc6a5d33b1c7f8de932abbed7958c96c943e78e7"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/fixtures.json",
+        "sha256": "f4d444781d35183ff75bc7cc786a6a220ebc22579d28e0b7ee292761900b1917"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/freeze-fixtures.py",
+        "sha256": "bd4b5bbf895cecd8bb42338449c1e651303a7f2e980386470d89a733c3fea428"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/ISSUES.json",
+        "sha256": "51080525e19f95978c7e552f5a963c7727ff9d0e68f1c52fee69af9c32fe6873"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/jar-audit.json",
+        "sha256": "68fdd3f7f3d9379248a760dd06440ac16f58c7822a2efdae8ed931e38b7444dd"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/payload-world-final.log",
+        "sha256": "fba6f247e3435d68f100beacfbec08b865f5b800d6c0437868b0e36ccd3f62c1"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/progress.json",
+        "sha256": "2b55c38ff0329150274e89ca881b2211ad87d303294a07669239932f1dda1d21"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/README.md",
+        "sha256": "cbca2cc4811e50bfe16ffa3e73e0391efef59e777e4946f681fcb30380621467"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/selftest-v2.log",
+        "sha256": "9f8e21004fc81ed0ed996e1f1b0925a3f671ac865dc2340e717a4b62d603b80d"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/settings.gradle",
+        "sha256": "217b838524615901fe9d8ef4c58821a3251b04843594e36e96211715b73616e8"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/world-evidence.json",
+        "sha256": "5fe5b1a8c652d7b29e3c8eeef9955789683a59eaeade32ddb901235ff80f15ee"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/core-snapshot/DungeonApi.java",
+        "sha256": "6b15c91913bf88dec8aa2b7a5ea40891aee57ac64d6b444322bd640996f94b86"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/core-snapshot/DungeonGeometry.java",
+        "sha256": "0d6d5ee0ead5f9903fddb1b4c43b3d05a630beaa698d02a15d4c58b2280b2c41"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/core-snapshot/DungeonPlanner.java",
+        "sha256": "faec694e20f280bfd6a2951922110e840136268f1cacbfe775ee1319dbc5abad"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/FINAL-80-SOURCE-INDEX.json",
+        "sha256": "ed83728a485952fba1a282089f38ca0a691e11579232a83fa525461cbb8c4ee6"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/runtime-snapshot/TemplateCatalog.java",
+        "sha256": "6444bd3b7e046d91d04df75eeecc660502e1f19f008f1bd96bb84a69a1257c0a"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/candidate-resources/data/biomedungeon/structures/s8_02.nbt",
+        "sha256": "475cde56f4a0e3994ed5823f56144476c959c499d0d2e7d745a5aeb59b46b8a7"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/candidate-resources/data/biomedungeon/structures/s8_03.nbt",
+        "sha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/candidate-resources/data/biomedungeon/structures/s8_04.nbt",
+        "sha256": "30e2cb79d231714c9facf8847474db7775a185172d411fc6d04bcd2ac76a1c3b"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/candidate-resources/data/biomedungeon/structures/s8_05.nbt",
+        "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/candidate-resources/data/biomedungeon/structures/s8_06.nbt",
+        "sha256": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/candidate-resources/data/biomedungeon/structures/s8_07.nbt",
+        "sha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/candidate-resources/data/biomedungeon/structures/s8_09.nbt",
+        "sha256": "17a40ef89e7667c3f1d843763df8ae33d2db1101a590b86da7cf0d3b56a85a0b"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_01/acceptance-0.json",
+        "sha256": "d9715fa6f09045a57bd02f9c043fa467b30c8273b3f54d61ff32f90a673a2649"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_01/file-audit.json",
+        "sha256": "dbf9be66c3e904618de0c856dba6cadcdd89a6ad759bda318447a36a1c5da648"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_01/original-metadata.json",
+        "sha256": "17cd41d940ece66882b4676615be5ca652dcf431b44f92f3cc297bbb1dc7432f"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_02/acceptance-0.json",
+        "sha256": "cb8bf04da06969d835faaf1f96b489dcde85c893b938dd97748b0eab7772c37b"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_02/file-audit.json",
+        "sha256": "4b171279bfe5cf0197c000e383772ff804deb88bef2471c5ff5b62bc4595e642"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_02/original-metadata.json",
+        "sha256": "c81f74b6251f0b1433c8fe4b913e4ab8cdc5693d5d13aef30eee2cb23def5687"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_03/acceptance-0.json",
+        "sha256": "0235aa6f589e15ae70aa21985119f0049ab95a41995473868651e06b906edebf"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_03/file-audit.json",
+        "sha256": "e1299ecafe48161a5cf2a977447c109f3754081c59e278ff302f6c7b7a429648"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_03/original-metadata.json",
+        "sha256": "05738243fa86d07bc4e48daee626429878ac07b68ecda66ef74945956e1db1fb"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_04/acceptance-0.json",
+        "sha256": "5dd15ebac8a75da1008d93cf90fffde78b08ba28faf4687e794981960584e8ae"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_04/file-audit.json",
+        "sha256": "3f7c1417c318d53bf1b6fd8f819911afb688b6830dde74cda39b57f25579cf8c"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_04/original-metadata.json",
+        "sha256": "58fad7d5687964d60ab162a7992ab6aca383113e75129eca76445f6f56e74a37"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_05/acceptance-0.md",
+        "sha256": "ae0f845a59ed4e9dade3201d54b3dfd7fc7df1c326182bfee05280a5dba019d7"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_05/acceptance-1.json",
+        "sha256": "25040ac30e9d261f999364970838abf3f7b5e875419e27de349a73a939e6623a"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_05/file-audit.json",
+        "sha256": "de87ec37b5f435caa57054a6dcdd4b07a82fd1d12c707a577ab9363a2ecdf378"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_05/original-metadata.json",
+        "sha256": "bf972457d7a89b8ece131a48551de2bcb01dc9c88500902ec2e5a598c9811e35"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_06/acceptance-0.json",
+        "sha256": "a382903bb0af55e32cd39935d162bbee9a815c7797be733c18e3130b12c412b4"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_06/file-audit.json",
+        "sha256": "d122d4bc5786486f591f9f0a3978cf8159a127711a5c89095dffb9ec61fdbfd0"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_06/original-metadata.json",
+        "sha256": "0a024b11b4eb37bc98828c04e19158d6118c2c26c4e34d02ea44dc7e868886a5"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_07/acceptance-0.md",
+        "sha256": "99d7332f041408974447f9305c9c3e6744c2cec4400da38c32c92d5482365066"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_07/acceptance-1.json",
+        "sha256": "626a411d67b308e446d44d6aabb3c0ac8540212a0d676368036ff4981a30c02e"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_07/file-audit.json",
+        "sha256": "ab45634bf7df26ea3046768bb9e0f26780fd808e689fd1573a97fcc6bf1969be"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_07/original-metadata.json",
+        "sha256": "cf120d37f57f664a486852c0dde76f0bc601a15f589b6de88e68cf5028d36227"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_08/acceptance-0.md",
+        "sha256": "1f1b8bdbf5e528acd7c4e82559f7c62785b2982148d7d85894cd3967cda9cd51"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_08/acceptance-1.json",
+        "sha256": "a028abc757969d9d39fd19c285f0baff4e429ff246e6baab6710bd53de7970fb"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_08/file-audit.json",
+        "sha256": "b6cbdc163bfab6d0646ae662eb216d2d56cb5b425f07535c8753a6455a3ee1b4"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_08/original-metadata.json",
+        "sha256": "21254d96b365cfd1a6bd20eab5cacde9468fc6cf22a5de63d15af05d85dbae4e"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_09/acceptance-0.md",
+        "sha256": "94a602467a25b245bc08760605e27d1902958b4d1a6dba0a98dc01309dde7c31"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_09/file-audit.json",
+        "sha256": "1d5d74a18ff6d574ae3e48027281d86367c03fa175d4cb1bfc2cabb6bd05034a"
+      },
+      {
+        "path": "staging/20261106_134241/catalog/evidence/s8_09/original-metadata.json",
+        "sha256": "a90fca05250acee8e7393b9830954de4f5a0d8d01353f3f6f35c36ee40651e65"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/build/libs/ft-biome-dungeon-generator-forge-1.20.1-0.2.0-experimental.jar",
+        "sha256": "f7d73680b20d390a6f08a090fea66b66000deb33bc0a6556ad282340035c6188"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/core-snapshot/cn/ft/biomedungeon/core/DungeonApi.java",
+        "sha256": "6b15c91913bf88dec8aa2b7a5ea40891aee57ac64d6b444322bd640996f94b86"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/core-snapshot/cn/ft/biomedungeon/core/DungeonGeometry.java",
+        "sha256": "0d6d5ee0ead5f9903fddb1b4c43b3d05a630beaa698d02a15d4c58b2280b2c41"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/core-snapshot/cn/ft/biomedungeon/core/DungeonPlanner.java",
+        "sha256": "faec694e20f280bfd6a2951922110e840136268f1cacbfe775ee1319dbc5abad"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/java/cn/ft/biomedungeon/runtime/BeRestartGameTests.java",
+        "sha256": "7508e531a8e810f0919ba22d4492397531e31a327c30c50e5d16a639dbbbba21"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/java/cn/ft/biomedungeon/runtime/CandidateFixtures.java",
+        "sha256": "b0e745885dafdbe08a2153792fb58def7245eac946f93aee30faadc2c1e7957b"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/java/cn/ft/biomedungeon/runtime/PayloadGameTests.java",
+        "sha256": "e4489514f7fd9482d1cf85690bdd9278cd432bcddbed1a22b8cfd4e155139b30"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/java/cn/ft/biomedungeon/runtime/RolePayloadGameTests.java",
+        "sha256": "dcd1d676713b19f50430c0f0e68bcba228633389cc025dbd5e1cb15c6df8162a"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/java/cn/ft/biomedungeon/runtime/RuntimeGameTests.java",
+        "sha256": "c731fb1939d713c9c60dae8b53e3fbff57f026b9651ccb19a5fefe775e49b4bf"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/java/cn/ft/biomedungeon/runtime/RuntimeRestartGameTests.java",
+        "sha256": "d9476b10f2b5f0a65919b799754d5f64559fc59624ec608058bbf1e69622c802"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/resources/data/ftbd_payloadtest/candidate-manifest.json",
+        "sha256": "64b44c1acabcfd1a3bd797a9a51650e1e2c31d20971d5301c27a81caadc31205"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/resources/data/ftbd_berestart/structures/s8_03.nbt",
+        "sha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_02.nbt",
+        "sha256": "475cde56f4a0e3994ed5823f56144476c959c499d0d2e7d745a5aeb59b46b8a7"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_03.nbt",
+        "sha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_04.nbt",
+        "sha256": "30e2cb79d231714c9facf8847474db7775a185172d411fc6d04bcd2ac76a1c3b"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_05.nbt",
+        "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_06.nbt",
+        "sha256": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_07.nbt",
+        "sha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_09.nbt",
+        "sha256": "17a40ef89e7667c3f1d843763df8ae33d2db1101a590b86da7cf0d3b56a85a0b"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/gametest/resources/data/ftbd_restarttest/structures/s8_05.nbt",
+        "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/main/java/cn/ft/biomedungeon/runtime/AtomicFiles.java",
+        "sha256": "a7efccccf70fa6229d7d0aed6111b28fa7737f92c598e7fd3cbf13d214cf1613"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/main/java/cn/ft/biomedungeon/runtime/DungeonMod.java",
+        "sha256": "8e79f929582e496e375efae407173e6502a8d157540a91b0ee20425ae04b9b53"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/main/java/cn/ft/biomedungeon/runtime/JournalFile.java",
+        "sha256": "491a3ca57e79b0fafb8c0b57e26dc462f488077d46907c255e64428c791776b1"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/main/java/cn/ft/biomedungeon/runtime/PayloadPolicy.java",
+        "sha256": "f8539eb65ad9c10059e428eed69ccef4dd98cf0779d09220a9d62f80527fec27"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/main/java/cn/ft/biomedungeon/runtime/PayloadWorld.java",
+        "sha256": "5a87d7a89e1cdb7815044061e03f7890f4f6c2342d21842670139e54a4aeea7d"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/main/java/cn/ft/biomedungeon/runtime/Placement.java",
+        "sha256": "2a8114c31a74a4ca7b009851f6976637f42db55d9c462113da5b0f74836b2c9f"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/main/java/cn/ft/biomedungeon/runtime/RecoveryPolicy.java",
+        "sha256": "8efc4d20f9f08ac50ad5533806987fbecd19b3fb4ed53c2f13b65b3cb4113824"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/main/java/cn/ft/biomedungeon/runtime/RuntimeEngine.java",
+        "sha256": "6875a33479c3a5421fa43878eda09b623d8cc69c147411c95d12c626f33b3d69"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/main/java/cn/ft/biomedungeon/runtime/TemplateCatalog.java",
+        "sha256": "cf76b0d5bf0183fd45db5cd0ac2405ed03909938f85cb2166015d0ccc51c2a22"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/main/resources/data/biomedungeon/manifest.json",
+        "sha256": "b753af29992cedcc59f8accfd0daf472d0f731ac0bce39b0f4a93383fb14d934"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/main/resources/data/biomedungeon/structures/s8_05.nbt",
+        "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/main/resources/data/biomedungeon/structures/s8_06.nbt",
+        "sha256": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/test/java/cn/ft/biomedungeon/runtime/RuntimeSelfTest.java",
+        "sha256": "6a7bcee318db8b5c09f7e431ef2004ca7ec6b58290e4960f25d66647f00cf382"
+      },
+      {
+        "path": "staging/20261106_134241/runtime/src/validation/java/cn/ft/biomedungeon/runtime/RuntimeValidation.java",
+        "sha256": "0312237e38443587342b5a603c2f6f91cff798bdef10de2dd71a3dcc3b6d5f2a"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/all-72-expansion-audit.json",
+        "sha256": "74b5efa2966f230ee8ed89f6cd4b15527c629b55512fbc88a67fc8b48fec6c62"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/audit.log",
+        "sha256": "03736b435dcfa2babaf236f61b8687c4dc414087142252d7eef9a224c29e81d7"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/audit_expansion.py",
+        "sha256": "f69bc040962bb8e4d2a8af77efb9ab0420acc08a7e9e28063309c34954fbab1b"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/block-entity-support-request.json",
+        "sha256": "6b3d58ffc3508d17bccff321b07e91f4c60300a4965d50980d73c98519679b79"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/candidate-manifest.json",
+        "sha256": "64b44c1acabcfd1a3bd797a9a51650e1e2c31d20971d5301c27a81caadc31205"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/candidates.log",
+        "sha256": "baccbdff0133a0dd7e5760335405630a848e4a3f5de140aad2efd81a54b6b216"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/CatalogCoreSmoke.java",
+        "sha256": "40a46af26f7f351267b2edcce211286f34a9bb696d7e24824a92ac1c3771e49d"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/compatibility-summary.json",
+        "sha256": "8e88191ac571cdcf9aa8e02b0e9718661745dd8b4dab13ec1efcf55a311819aa"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/core-smoke-java17.log",
+        "sha256": "653c34d9b34619c6d21d4ea1349f3d28b3b0ed4bbe17037fa3b0b03ddbb232e0"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/finalize_expansion.py",
+        "sha256": "d2351acdf81691e250ef693e785bd142580fdbbab25aab82b1132bee2346c647"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/prepare_candidates.py",
+        "sha256": "36dfb000e49dae66e3101b59849d5787381701542aa8dbd519e52cb635b42e45"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/README.md",
+        "sha256": "5c804ecc98ef2d67d229dd98911caf990599a55d4ec91e1068effeeab65fefcf"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/s8-complete-biome-requirements.json",
+        "sha256": "d6b795a9f151dbace3dcdffa431ca4b24569acded6c509df8aa6f5e6a8993e66"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/SHA256SUMS.json",
+        "sha256": "36e464bcefcecbb2ac4cca77ab9b1b0c2ddae65fc58db81c398ee7df17b370ae"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/snapshot-lock.json",
+        "sha256": "b4d4019ba02973e640bd9d04f01a25e2c94a0de0002f5410f24af40d27baf32a"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/tests.log",
+        "sha256": "ed64a56b01bedd6a8a91e38a6edf6e9cf9d76c3b4c201094d3a4281e82b7ca42"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/test_expansion.py",
+        "sha256": "15d77c68497c560e150a8bca172704a8a2fb30539b0aaf7b3b6209a9ee1fc18c"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/baseline-lock.json",
+        "sha256": "af5b5d5f8c893acda84c33334bb4a85540e1cfeecc54b3c7d4111c30420b8f4b"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/be-restart-prepare.log",
+        "sha256": "3ad56b986dc749ee6d89f30c6606481ea7a46c3467518b7732f9d2046b9fcdfd"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/be-restart-resume.log",
+        "sha256": "d803e546fce0424bae7e1d46f8b9dad94e6e1a4b7e43b81c5b6170d0b582f504"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build-v2-final.log",
+        "sha256": "d756ac61fd0a8e1aeb44d7b0f5fba2ce01854ad0daac873a2d7baf30306dd0ec"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build.gradle",
+        "sha256": "92fc1260931672c6aa06b29019127e65a6bc3d35334938a9d634b5d97d21a18b"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/core-snapshot-ready.json",
+        "sha256": "aa544a048f88c760750f8673fc6a5d33b1c7f8de932abbed7958c96c943e78e7"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/fixtures.json",
+        "sha256": "f4d444781d35183ff75bc7cc786a6a220ebc22579d28e0b7ee292761900b1917"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/freeze-fixtures.py",
+        "sha256": "bd4b5bbf895cecd8bb42338449c1e651303a7f2e980386470d89a733c3fea428"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/ISSUES.json",
+        "sha256": "51080525e19f95978c7e552f5a963c7727ff9d0e68f1c52fee69af9c32fe6873"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/jar-audit.json",
+        "sha256": "68fdd3f7f3d9379248a760dd06440ac16f58c7822a2efdae8ed931e38b7444dd"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/payload-world-final.log",
+        "sha256": "fba6f247e3435d68f100beacfbec08b865f5b800d6c0437868b0e36ccd3f62c1"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/progress.json",
+        "sha256": "2b55c38ff0329150274e89ca881b2211ad87d303294a07669239932f1dda1d21"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/README.md",
+        "sha256": "cbca2cc4811e50bfe16ffa3e73e0391efef59e777e4946f681fcb30380621467"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/selftest-v2.log",
+        "sha256": "9f8e21004fc81ed0ed996e1f1b0925a3f671ac865dc2340e717a4b62d603b80d"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/settings.gradle",
+        "sha256": "217b838524615901fe9d8ef4c58821a3251b04843594e36e96211715b73616e8"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/world-evidence.json",
+        "sha256": "5fe5b1a8c652d7b29e3c8eeef9955789683a59eaeade32ddb901235ff80f15ee"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/core-snapshot/DungeonApi.java",
+        "sha256": "6b15c91913bf88dec8aa2b7a5ea40891aee57ac64d6b444322bd640996f94b86"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/core-snapshot/DungeonGeometry.java",
+        "sha256": "0d6d5ee0ead5f9903fddb1b4c43b3d05a630beaa698d02a15d4c58b2280b2c41"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/core-snapshot/DungeonPlanner.java",
+        "sha256": "faec694e20f280bfd6a2951922110e840136268f1cacbfe775ee1319dbc5abad"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/FINAL-80-SOURCE-INDEX.json",
+        "sha256": "ed83728a485952fba1a282089f38ca0a691e11579232a83fa525461cbb8c4ee6"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/runtime-snapshot/TemplateCatalog.java",
+        "sha256": "6444bd3b7e046d91d04df75eeecc660502e1f19f008f1bd96bb84a69a1257c0a"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/candidate-resources/data/biomedungeon/structures/s8_02.nbt",
+        "sha256": "475cde56f4a0e3994ed5823f56144476c959c499d0d2e7d745a5aeb59b46b8a7"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/candidate-resources/data/biomedungeon/structures/s8_03.nbt",
+        "sha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/candidate-resources/data/biomedungeon/structures/s8_04.nbt",
+        "sha256": "30e2cb79d231714c9facf8847474db7775a185172d411fc6d04bcd2ac76a1c3b"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/candidate-resources/data/biomedungeon/structures/s8_05.nbt",
+        "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/candidate-resources/data/biomedungeon/structures/s8_06.nbt",
+        "sha256": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/candidate-resources/data/biomedungeon/structures/s8_07.nbt",
+        "sha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/candidate-resources/data/biomedungeon/structures/s8_09.nbt",
+        "sha256": "17a40ef89e7667c3f1d843763df8ae33d2db1101a590b86da7cf0d3b56a85a0b"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_01/acceptance-0.json",
+        "sha256": "d9715fa6f09045a57bd02f9c043fa467b30c8273b3f54d61ff32f90a673a2649"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_01/file-audit.json",
+        "sha256": "dbf9be66c3e904618de0c856dba6cadcdd89a6ad759bda318447a36a1c5da648"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_01/original-metadata.json",
+        "sha256": "17cd41d940ece66882b4676615be5ca652dcf431b44f92f3cc297bbb1dc7432f"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_02/acceptance-0.json",
+        "sha256": "cb8bf04da06969d835faaf1f96b489dcde85c893b938dd97748b0eab7772c37b"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_02/file-audit.json",
+        "sha256": "4b171279bfe5cf0197c000e383772ff804deb88bef2471c5ff5b62bc4595e642"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_02/original-metadata.json",
+        "sha256": "c81f74b6251f0b1433c8fe4b913e4ab8cdc5693d5d13aef30eee2cb23def5687"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_03/acceptance-0.json",
+        "sha256": "0235aa6f589e15ae70aa21985119f0049ab95a41995473868651e06b906edebf"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_03/file-audit.json",
+        "sha256": "e1299ecafe48161a5cf2a977447c109f3754081c59e278ff302f6c7b7a429648"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_03/original-metadata.json",
+        "sha256": "05738243fa86d07bc4e48daee626429878ac07b68ecda66ef74945956e1db1fb"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_04/acceptance-0.json",
+        "sha256": "5dd15ebac8a75da1008d93cf90fffde78b08ba28faf4687e794981960584e8ae"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_04/file-audit.json",
+        "sha256": "3f7c1417c318d53bf1b6fd8f819911afb688b6830dde74cda39b57f25579cf8c"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_04/original-metadata.json",
+        "sha256": "58fad7d5687964d60ab162a7992ab6aca383113e75129eca76445f6f56e74a37"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_05/acceptance-0.md",
+        "sha256": "ae0f845a59ed4e9dade3201d54b3dfd7fc7df1c326182bfee05280a5dba019d7"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_05/acceptance-1.json",
+        "sha256": "25040ac30e9d261f999364970838abf3f7b5e875419e27de349a73a939e6623a"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_05/file-audit.json",
+        "sha256": "de87ec37b5f435caa57054a6dcdd4b07a82fd1d12c707a577ab9363a2ecdf378"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_05/original-metadata.json",
+        "sha256": "bf972457d7a89b8ece131a48551de2bcb01dc9c88500902ec2e5a598c9811e35"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_06/acceptance-0.json",
+        "sha256": "a382903bb0af55e32cd39935d162bbee9a815c7797be733c18e3130b12c412b4"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_06/file-audit.json",
+        "sha256": "d122d4bc5786486f591f9f0a3978cf8159a127711a5c89095dffb9ec61fdbfd0"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_06/original-metadata.json",
+        "sha256": "0a024b11b4eb37bc98828c04e19158d6118c2c26c4e34d02ea44dc7e868886a5"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_07/acceptance-0.md",
+        "sha256": "99d7332f041408974447f9305c9c3e6744c2cec4400da38c32c92d5482365066"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_07/acceptance-1.json",
+        "sha256": "626a411d67b308e446d44d6aabb3c0ac8540212a0d676368036ff4981a30c02e"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_07/file-audit.json",
+        "sha256": "ab45634bf7df26ea3046768bb9e0f26780fd808e689fd1573a97fcc6bf1969be"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_07/original-metadata.json",
+        "sha256": "cf120d37f57f664a486852c0dde76f0bc601a15f589b6de88e68cf5028d36227"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_08/acceptance-0.md",
+        "sha256": "1f1b8bdbf5e528acd7c4e82559f7c62785b2982148d7d85894cd3967cda9cd51"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_08/acceptance-1.json",
+        "sha256": "a028abc757969d9d39fd19c285f0baff4e429ff246e6baab6710bd53de7970fb"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_08/file-audit.json",
+        "sha256": "b6cbdc163bfab6d0646ae662eb216d2d56cb5b425f07535c8753a6455a3ee1b4"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_08/original-metadata.json",
+        "sha256": "21254d96b365cfd1a6bd20eab5cacde9468fc6cf22a5de63d15af05d85dbae4e"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_09/acceptance-0.md",
+        "sha256": "94a602467a25b245bc08760605e27d1902958b4d1a6dba0a98dc01309dde7c31"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_09/file-audit.json",
+        "sha256": "1d5d74a18ff6d574ae3e48027281d86367c03fa175d4cb1bfc2cabb6bd05034a"
+      },
+      {
+        "path": "staging/20261106_134313/catalog/evidence/s8_09/original-metadata.json",
+        "sha256": "a90fca05250acee8e7393b9830954de4f5a0d8d01353f3f6f35c36ee40651e65"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/downloadMCMeta/version.json",
+        "sha256": "c966587c030c0c1ccfd60af3188be9a6b9b1aeb8299a0da0666fffd3d995e351"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/libs/ft-biome-dungeon-generator-forge-1.20.1-0.2.0-experimental.jar",
+        "sha256": "f7d73680b20d390a6f08a090fea66b66000deb33bc0a6556ad282340035c6188"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/resources/gameTest/data/ftbd_payloadtest/candidate-manifest.json",
+        "sha256": "64b44c1acabcfd1a3bd797a9a51650e1e2c31d20971d5301c27a81caadc31205"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/resources/gameTest/data/ftbd_berestart/structures/s8_03.nbt",
+        "sha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/resources/gameTest/data/ftbd_payloadtest/structures/s8_02.nbt",
+        "sha256": "475cde56f4a0e3994ed5823f56144476c959c499d0d2e7d745a5aeb59b46b8a7"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/resources/gameTest/data/ftbd_payloadtest/structures/s8_03.nbt",
+        "sha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/resources/gameTest/data/ftbd_payloadtest/structures/s8_04.nbt",
+        "sha256": "30e2cb79d231714c9facf8847474db7775a185172d411fc6d04bcd2ac76a1c3b"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/resources/gameTest/data/ftbd_payloadtest/structures/s8_05.nbt",
+        "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/resources/gameTest/data/ftbd_payloadtest/structures/s8_06.nbt",
+        "sha256": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/resources/gameTest/data/ftbd_payloadtest/structures/s8_07.nbt",
+        "sha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/resources/gameTest/data/ftbd_payloadtest/structures/s8_09.nbt",
+        "sha256": "17a40ef89e7667c3f1d843763df8ae33d2db1101a590b86da7cf0d3b56a85a0b"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/resources/gameTest/data/ftbd_restarttest/structures/s8_05.nbt",
+        "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/resources/main/data/biomedungeon/manifest.json",
+        "sha256": "b753af29992cedcc59f8accfd0daf472d0f731ac0bce39b0f4a93383fb14d934"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/resources/main/data/biomedungeon/structures/s8_05.nbt",
+        "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/build/resources/main/data/biomedungeon/structures/s8_06.nbt",
+        "sha256": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/core-snapshot/cn/ft/biomedungeon/core/DungeonApi.java",
+        "sha256": "6b15c91913bf88dec8aa2b7a5ea40891aee57ac64d6b444322bd640996f94b86"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/core-snapshot/cn/ft/biomedungeon/core/DungeonGeometry.java",
+        "sha256": "0d6d5ee0ead5f9903fddb1b4c43b3d05a630beaa698d02a15d4c58b2280b2c41"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/core-snapshot/cn/ft/biomedungeon/core/DungeonPlanner.java",
+        "sha256": "faec694e20f280bfd6a2951922110e840136268f1cacbfe775ee1319dbc5abad"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/java/cn/ft/biomedungeon/runtime/BeRestartGameTests.java",
+        "sha256": "7508e531a8e810f0919ba22d4492397531e31a327c30c50e5d16a639dbbbba21"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/java/cn/ft/biomedungeon/runtime/CandidateFixtures.java",
+        "sha256": "b0e745885dafdbe08a2153792fb58def7245eac946f93aee30faadc2c1e7957b"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/java/cn/ft/biomedungeon/runtime/PayloadGameTests.java",
+        "sha256": "e4489514f7fd9482d1cf85690bdd9278cd432bcddbed1a22b8cfd4e155139b30"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/java/cn/ft/biomedungeon/runtime/RolePayloadGameTests.java",
+        "sha256": "dcd1d676713b19f50430c0f0e68bcba228633389cc025dbd5e1cb15c6df8162a"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/java/cn/ft/biomedungeon/runtime/RuntimeGameTests.java",
+        "sha256": "c731fb1939d713c9c60dae8b53e3fbff57f026b9651ccb19a5fefe775e49b4bf"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/java/cn/ft/biomedungeon/runtime/RuntimeRestartGameTests.java",
+        "sha256": "d9476b10f2b5f0a65919b799754d5f64559fc59624ec608058bbf1e69622c802"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/resources/data/ftbd_payloadtest/candidate-manifest.json",
+        "sha256": "64b44c1acabcfd1a3bd797a9a51650e1e2c31d20971d5301c27a81caadc31205"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/resources/data/ftbd_berestart/structures/s8_03.nbt",
+        "sha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_02.nbt",
+        "sha256": "475cde56f4a0e3994ed5823f56144476c959c499d0d2e7d745a5aeb59b46b8a7"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_03.nbt",
+        "sha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_04.nbt",
+        "sha256": "30e2cb79d231714c9facf8847474db7775a185172d411fc6d04bcd2ac76a1c3b"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_05.nbt",
+        "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_06.nbt",
+        "sha256": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_07.nbt",
+        "sha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/resources/data/ftbd_payloadtest/structures/s8_09.nbt",
+        "sha256": "17a40ef89e7667c3f1d843763df8ae33d2db1101a590b86da7cf0d3b56a85a0b"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/gametest/resources/data/ftbd_restarttest/structures/s8_05.nbt",
+        "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/main/java/cn/ft/biomedungeon/runtime/AtomicFiles.java",
+        "sha256": "a7efccccf70fa6229d7d0aed6111b28fa7737f92c598e7fd3cbf13d214cf1613"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/main/java/cn/ft/biomedungeon/runtime/DungeonMod.java",
+        "sha256": "8e79f929582e496e375efae407173e6502a8d157540a91b0ee20425ae04b9b53"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/main/java/cn/ft/biomedungeon/runtime/JournalFile.java",
+        "sha256": "491a3ca57e79b0fafb8c0b57e26dc462f488077d46907c255e64428c791776b1"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/main/java/cn/ft/biomedungeon/runtime/PayloadPolicy.java",
+        "sha256": "f8539eb65ad9c10059e428eed69ccef4dd98cf0779d09220a9d62f80527fec27"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/main/java/cn/ft/biomedungeon/runtime/PayloadWorld.java",
+        "sha256": "5a87d7a89e1cdb7815044061e03f7890f4f6c2342d21842670139e54a4aeea7d"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/main/java/cn/ft/biomedungeon/runtime/Placement.java",
+        "sha256": "2a8114c31a74a4ca7b009851f6976637f42db55d9c462113da5b0f74836b2c9f"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/main/java/cn/ft/biomedungeon/runtime/RecoveryPolicy.java",
+        "sha256": "8efc4d20f9f08ac50ad5533806987fbecd19b3fb4ed53c2f13b65b3cb4113824"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/main/java/cn/ft/biomedungeon/runtime/RuntimeEngine.java",
+        "sha256": "6875a33479c3a5421fa43878eda09b623d8cc69c147411c95d12c626f33b3d69"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/main/java/cn/ft/biomedungeon/runtime/TemplateCatalog.java",
+        "sha256": "cf76b0d5bf0183fd45db5cd0ac2405ed03909938f85cb2166015d0ccc51c2a22"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/main/resources/data/biomedungeon/manifest.json",
+        "sha256": "b753af29992cedcc59f8accfd0daf472d0f731ac0bce39b0f4a93383fb14d934"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/main/resources/data/biomedungeon/structures/s8_05.nbt",
+        "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/main/resources/data/biomedungeon/structures/s8_06.nbt",
+        "sha256": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/test/java/cn/ft/biomedungeon/runtime/RuntimeSelfTest.java",
+        "sha256": "6a7bcee318db8b5c09f7e431ef2004ca7ec6b58290e4960f25d66647f00cf382"
+      },
+      {
+        "path": "staging/20261106_134313/runtime/src/validation/java/cn/ft/biomedungeon/runtime/RuntimeValidation.java",
+        "sha256": "0312237e38443587342b5a603c2f6f91cff798bdef10de2dd71a3dcc3b6d5f2a"
+      },
+      {
+        "path": "world-tests/cn/ft/biomedungeon/runtime/IndependentBeTests.java",
+        "sha256": "de9fb90c0847d3b0d8d4d751a5774bcc245e6390782e8a23805474631b54a37b"
+      }
+    ],
+    "snapshots": [
+      {
+        "source": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\ready.json",
+        "path": "integration-v2-evidence/ready.json",
+        "sha256": "75e46e40aefac24848863a62ae66e394f5e318f3b7976665834ae2dce3a14c9c"
+      },
+      {
+        "source": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\final-evidence.json",
+        "path": "integration-v2-evidence/final-evidence.json",
+        "sha256": "fe6f56c6a201467e90c2c44300ce99f562df4edbbe97a9218e8e4fd1a6da4cc8"
+      },
+      {
+        "source": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\installed-result.json",
+        "path": "integration-v2-evidence/installed-result.json",
+        "sha256": "e6b989726e2ac08745d1000453db3411fedbc4ff8a9e2491f387fa447018a775"
+      },
+      {
+        "source": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\native-be-readback.json",
+        "path": "integration-v2-evidence/native-be-readback.json",
+        "sha256": "28a7e6fcf60481cd049f46f75ee61f1a3737302d6cae835ad80038874c65ed1d"
+      },
+      {
+        "source": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\README.md",
+        "path": "integration-v2-evidence/README.md",
+        "sha256": "1d4c126b279d08d054f881cd86094c996f4445ad0e613557207950f5e74176c0"
+      },
+      {
+        "source": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\run\\20261106_134313\\payload.log",
+        "path": "integration-v2-evidence/suite-0.log",
+        "sha256": "e0ebc47a32b73c02ab48b3cc56abfa79590d16e8bd1d79a718338e4357258ebb"
+      },
+      {
+        "source": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\run\\20261106_134313\\be-restart-prepare.log",
+        "path": "integration-v2-evidence/suite-1.log",
+        "sha256": "d7b878727a76059de11c2869d45aaf6d7a7df96bbf8601a8e6fbdeeb007075cf"
+      },
+      {
+        "source": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\run\\20261106_134313\\be-restart-resume.log",
+        "path": "integration-v2-evidence/suite-2.log",
+        "sha256": "b6b301a3112dc86e37cd711a94bea1697d42db796d4caac8e10ef5898afde26d"
+      }
+    ]
+  },
+  "remainingStages": [
+    "independent native route matrix and interactions",
+    "test-only installed candidate artifact containing original room bytes",
+    "parent explicit bounded experimental command-pool authorization"
+  ],
+  "noPromotion": true
+}

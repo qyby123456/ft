@@ -1,0 +1,87 @@
+{
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "1": "farmingtales_drink_anim:snacks/sticky_rice_cake",
+    "particle": "farmingtales_drink_anim:plates/plate"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0.75,
+        1
+      ],
+      "to": [
+        15,
+        2.75,
+        15
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          1.75,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            8.5,
+            16,
+            7.5
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            9,
+            8.5,
+            16,
+            7.5
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            16,
+            8.5,
+            9,
+            7.5
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            9,
+            8.5,
+            16,
+            7.5
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            9,
+            9,
+            16,
+            16
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#particle",
+          "cullface": "down"
+        }
+      }
+    }
+  ]
+}

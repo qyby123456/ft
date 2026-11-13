@@ -1,0 +1,444 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile2": "ftdungeonprops:block/furnishings_02",
+    "tile6": "ftdungeonprops:block/furnishings_06",
+    "tile15": "ftdungeonprops:block/furnishings_15",
+    "particle": "ftdungeonprops:block/furnishings_02"
+  },
+  "elements": [
+    {
+      "name": "left wall anchor",
+      "from": [
+        3,
+        12,
+        14
+      ],
+      "to": [
+        5,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            0,
+            13,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            3,
+            0,
+            5,
+            4
+          ],
+          "texture": "#tile2",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            14,
+            0,
+            16,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            3,
+            14,
+            5,
+            16
+          ],
+          "texture": "#tile2",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            3,
+            0,
+            5,
+            2
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "right wall anchor",
+      "from": [
+        11,
+        12,
+        14
+      ],
+      "to": [
+        13,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            0,
+            5,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            11,
+            0,
+            13,
+            4
+          ],
+          "texture": "#tile2",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            14,
+            0,
+            16,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            11,
+            14,
+            13,
+            16
+          ],
+          "texture": "#tile2",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            11,
+            0,
+            13,
+            2
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "iron hanging rod",
+      "from": [
+        2,
+        13,
+        12
+      ],
+      "to": [
+        14,
+        15,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            1,
+            14,
+            3
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            2,
+            1,
+            14,
+            3
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            12,
+            1,
+            14,
+            3
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            2,
+            1,
+            4,
+            3
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            2,
+            12,
+            14,
+            14
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            14,
+            4
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "broad heraldic cloth",
+      "from": [
+        4,
+        6,
+        12
+      ],
+      "to": [
+        12,
+        13,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            3,
+            12,
+            10
+          ],
+          "texture": "#tile6"
+        },
+        "south": {
+          "uv": [
+            4,
+            3,
+            12,
+            10
+          ],
+          "texture": "#tile15"
+        },
+        "west": {
+          "uv": [
+            12,
+            3,
+            13,
+            10
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            3,
+            3,
+            4,
+            10
+          ],
+          "texture": "#tile15"
+        },
+        "down": {
+          "uv": [
+            4,
+            3,
+            12,
+            4
+          ],
+          "texture": "#tile15"
+        }
+      }
+    },
+    {
+      "name": "short left torn lobe",
+      "from": [
+        4,
+        2,
+        12
+      ],
+      "to": [
+        6,
+        6,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            10,
+            12,
+            14
+          ],
+          "texture": "#tile15"
+        },
+        "south": {
+          "uv": [
+            4,
+            10,
+            6,
+            14
+          ],
+          "texture": "#tile15"
+        },
+        "west": {
+          "uv": [
+            12,
+            10,
+            13,
+            14
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            3,
+            10,
+            4,
+            14
+          ],
+          "texture": "#tile15"
+        },
+        "down": {
+          "uv": [
+            4,
+            3,
+            6,
+            4
+          ],
+          "texture": "#tile15"
+        }
+      }
+    },
+    {
+      "name": "receded central torn lobe",
+      "from": [
+        6,
+        4,
+        12
+      ],
+      "to": [
+        9,
+        6,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            10,
+            10,
+            12
+          ],
+          "texture": "#tile15"
+        },
+        "south": {
+          "uv": [
+            6,
+            10,
+            9,
+            12
+          ],
+          "texture": "#tile15"
+        },
+        "down": {
+          "uv": [
+            6,
+            3,
+            9,
+            4
+          ],
+          "texture": "#tile15"
+        }
+      }
+    },
+    {
+      "name": "long right torn lobe",
+      "from": [
+        9,
+        1,
+        12
+      ],
+      "to": [
+        11,
+        6,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            10,
+            7,
+            15
+          ],
+          "texture": "#tile15"
+        },
+        "south": {
+          "uv": [
+            9,
+            10,
+            11,
+            15
+          ],
+          "texture": "#tile15"
+        },
+        "west": {
+          "uv": [
+            12,
+            10,
+            13,
+            15
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            3,
+            10,
+            4,
+            15
+          ],
+          "texture": "#tile15"
+        },
+        "down": {
+          "uv": [
+            9,
+            3,
+            11,
+            4
+          ],
+          "texture": "#tile15"
+        }
+      }
+    }
+  ]
+}

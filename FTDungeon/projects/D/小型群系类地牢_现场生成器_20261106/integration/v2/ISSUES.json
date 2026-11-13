@@ -1,0 +1,35 @@
+{
+  "updatedAt": "2026-11-06T13:49:35.040592+08:00",
+  "issues": [
+    {
+      "id": "V2_TEST_ONLY_POOL",
+      "severity": "BLOCKER_FOR_FULL_BIOME",
+      "status": "OPEN",
+      "detail": "Five original BE rooms remain unaccepted, test-only; installed JAR contains only s8_05/s8_06"
+    },
+    {
+      "id": "NONEMPTY_ORIGINAL_PAYLOAD_NOT_PRESENT",
+      "severity": "COVERAGE_LIMIT",
+      "status": "OPEN",
+      "detail": "Original Items/Patterns in current fixtures are empty; no rich nonempty-original-item/pattern preservation claim"
+    },
+    {
+      "id": "INSTALLED_FIVE_ORIGINAL_BE_NOT_RUN",
+      "severity": "COVERAGE_LIMIT",
+      "status": "OPEN",
+      "detail": "Clean interrupted source-process BE recovery, not force kill/powerloss; installed original-five BE recovery NOT_RUN_NOT_PACKAGED"
+    },
+    {
+      "id": "V2_OVERLAY_ORDER",
+      "severity": "FIXTURE_HISTORY",
+      "status": "RESOLVED",
+      "detail": "First attempt failed before startup: overlay referenced gameTest before build declared source set. Only integration overlay changed; original log retained under v2/run/20261106_134241/payload.log."
+    },
+    {
+      "id": "V2_INSTALLED_WORLD_MARKER",
+      "severity": "FIXTURE_HISTORY",
+      "status": "RESOLVED",
+      "detail": "First normal-server attempt correctly refused v1 world marker; integration fixture now uses explicit V2 marker and separate timestamp directory. No producer source changed."
+    }
+  ]
+}

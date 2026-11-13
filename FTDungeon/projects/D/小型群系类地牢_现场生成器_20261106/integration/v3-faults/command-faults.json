@@ -1,0 +1,49 @@
+{
+  "status": "PASS_SCOPED",
+  "sourceArtifactSha256": "f7d73680b20d390a6f08a090fea66b66000deb33bc0a6556ad282340035c6188",
+  "root": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_144229",
+  "cases": {
+    "wrong_template_hash": {
+      "status": "PASS_REJECTED_ZERO_WRITES",
+      "injectedCase": "wrong_template_hash",
+      "jarSha256": "815e60633fff372681a9afbfb8ae75af91b7fb77b856f3528f9ef2b749a53991",
+      "derivedArtifactNotRelease": true,
+      "processes": [
+        {
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_144229\\wrong_template_hash\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_144229\\wrong_template_hash",
+          "pid": 59520,
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_144229\\wrong_template_hash\\fault-command.log",
+          "exitCode": 0,
+          "logSha256": "da97ce163a2ab0b762156b3caf49b99779b101180c1b39c8d1169df6fffa41f6"
+        }
+      ],
+      "refusals": [
+        "[14:43:22] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: NBT SHA256 mismatch: s8_05",
+        "[14:43:22] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: NBT SHA256 mismatch: s8_05"
+      ],
+      "checkedTargetCells": 565794,
+      "targetBounds": [
+        960,
+        190,
+        960,
+        1089,
+        224,
+        1089
+      ],
+      "airVolumeSha256": "0e6bcda574ea81a3342942882b457697351d8589c0bd067ee8fb80b28ef96d2e",
+      "regionHashes": {
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_144229\\wrong_template_hash\\world\\region\\r.1.1.mca": "5187c5c02c56c757be20766d7bfb3805fc6f80f0503d095fc3272c52466e9ad8",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_144229\\wrong_template_hash\\world\\region\\r.1.2.mca": "11fce5ab6aeb696ab926e28311c656e27006e20ed3a0236bd3abd9a95d15cbfb",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_144229\\wrong_template_hash\\world\\region\\r.2.1.mca": "a75726bcd3e4482ad529977392877d2fecbf89a2b45ee5039703f19e64900e43",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_144229\\wrong_template_hash\\world\\region\\r.2.2.mca": "4e6d4b0f2576eb56370ca03b87c303421b18be41bc9254d71e9ecd65c5217e70"
+      },
+      "scope": "Actual command refusal plus saved high-altitude target readback; unrelated spawn/world-generation writes not counted as generator writes"
+    }
+  }
+}

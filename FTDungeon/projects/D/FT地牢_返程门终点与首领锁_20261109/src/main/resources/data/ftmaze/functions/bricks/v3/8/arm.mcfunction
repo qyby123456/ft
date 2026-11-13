@@ -1,0 +1,1 @@
+execute if block 127 211 102 minecraft:air if block 127 210 102 minecraft:spruce_planks store success score #v3b8 ftm_brick run setblock 127 211 102 ftdungeonmobs:dungeon_spawn_point[spent=false] keep

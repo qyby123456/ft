@@ -1,0 +1,185 @@
+{
+  "status": "FAILED_OR_INCOMPLETE",
+  "sourceArtifactSha256": "f7d73680b20d390a6f08a090fea66b66000deb33bc0a6556ad282340035c6188",
+  "root": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713",
+  "cases": {
+    "empty_pool": {
+      "status": "PASS_REJECTED_ZERO_WRITES",
+      "injectedCase": "empty_pool",
+      "jarSha256": "8bdb1bd70665df9ecc0b7562dda2f544349acc076738d655bd68407ec68dff95",
+      "derivedArtifactNotRelease": true,
+      "processes": [
+        {
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\empty_pool\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\empty_pool",
+          "pid": 36304,
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\empty_pool\\fault-command.log",
+          "exitCode": 0,
+          "logSha256": "9b2c4603f60457b31c2a9d9c2693d799216f073736cbccb212ab6119e09bcb9f"
+        }
+      ],
+      "refusals": [
+        "[13:57:46] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Empty/oversized manifest",
+        "[13:57:46] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Empty/oversized manifest"
+      ],
+      "checkedTargetCells": 565794,
+      "targetBounds": [
+        960,
+        190,
+        960,
+        1089,
+        224,
+        1089
+      ],
+      "airVolumeSha256": "0e6bcda574ea81a3342942882b457697351d8589c0bd067ee8fb80b28ef96d2e",
+      "regionHashes": {
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\empty_pool\\world\\region\\r.1.1.mca": "fdb2b4c1a60ae61286d44ca80f5ea672676958a622349519d2b954a6e999cb7e",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\empty_pool\\world\\region\\r.1.2.mca": "d6b6da36bfb1559d6d85a40859f83e966f6206a2b597af5da2954f9df7dd14f2",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\empty_pool\\world\\region\\r.2.1.mca": "3dc81d5cc3316dd1bea6bd9ffdda7886742f31cc75fdae6039204a173117d626",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\empty_pool\\world\\region\\r.2.2.mca": "05e19e8957b8b16b4bb62b62238926b06d95e871e7b5f4e782ff1e5cc573521a"
+      },
+      "scope": "Actual command refusal plus saved high-altitude target readback; unrelated spawn/world-generation writes not counted as generator writes"
+    },
+    "wrong_template_hash": {
+      "status": "FAIL",
+      "injectedCase": "wrong_template_hash",
+      "jarSha256": "815e60633fff372681a9afbfb8ae75af91b7fb77b856f3528f9ef2b749a53991",
+      "derivedArtifactNotRelease": true,
+      "processes": [
+        {
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\wrong_template_hash\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\wrong_template_hash",
+          "pid": 24064,
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\wrong_template_hash\\fault-command.log",
+          "exitCode": 0,
+          "logSha256": "6d29775f5061df4ce332d2eb75da5aca64b20bb6b9421e3541820dba688b4099"
+        }
+      ],
+      "reason": "Unexpected refusal cause: ['[13:58:55] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: NBT SHA256 mismatch: s8_05', '[13:58:55] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: NBT SHA256 mismatch: s8_05']"
+    },
+    "truncated_journal": {
+      "status": "PASS_REJECTED_ZERO_WRITES",
+      "injectedCase": "truncated_journal",
+      "jarSha256": "f7d73680b20d390a6f08a090fea66b66000deb33bc0a6556ad282340035c6188",
+      "derivedArtifactNotRelease": false,
+      "processes": [
+        {
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\truncated_journal\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\truncated_journal",
+          "pid": 13872,
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\truncated_journal\\journal-plan.log",
+          "exitCode": 0,
+          "logSha256": "6c06152cdef778a176e29cc7ccdc4d25820c84c38cc8f62f43862e2f82c19c8a"
+        },
+        {
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\truncated_journal\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\truncated_journal",
+          "pid": 5648,
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\truncated_journal\\fault-command.log",
+          "exitCode": 0,
+          "logSha256": "163bb2e8aaa6662bd340da2486ea302244806279182075cf886501742b2b5c5e"
+        }
+      ],
+      "journalOriginalSha256": "665d7de60b33189dfc0f3f1e76d711b9702ef9b263d6c035de0cb6ad3e49b467",
+      "journalFaultSha256": "e48e3fb8e4d72acc9f9766f93637474aa88cfa482ed66728903efa712a8dd37f",
+      "refusals": [
+        "[14:00:12] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Journal load failed; runtime disabled: java.io.IOException: Truncated journal",
+        "[14:00:12] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Journal load failed; runtime disabled: java.io.IOException: Truncated journal"
+      ],
+      "checkedTargetCells": 565794,
+      "targetBounds": [
+        960,
+        190,
+        960,
+        1089,
+        224,
+        1089
+      ],
+      "airVolumeSha256": "0e6bcda574ea81a3342942882b457697351d8589c0bd067ee8fb80b28ef96d2e",
+      "regionHashes": {
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\truncated_journal\\world\\region\\r.1.1.mca": "ac5dbf73b1da714e5e045a388b227cccb5625c02c763a7e53b054c3959c3b395",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\truncated_journal\\world\\region\\r.1.2.mca": "27c0ea56af86abc03b843448b4b9f8a59b2a01814af501571b8e617afbd9721f",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\truncated_journal\\world\\region\\r.2.1.mca": "0891d31b659a9d67bd049e0b9bb2891a9b4f93e30d22a13cea7b593f4938c7f4",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\truncated_journal\\world\\region\\r.2.2.mca": "954f67376c748e902b1838b12ead03295d406e0ea161f1a40d2004991e3ad36c"
+      },
+      "scope": "Actual command refusal plus saved high-altitude target readback; unrelated spawn/world-generation writes not counted as generator writes"
+    },
+    "checksum_journal": {
+      "status": "PASS_REJECTED_ZERO_WRITES",
+      "injectedCase": "checksum_journal",
+      "jarSha256": "f7d73680b20d390a6f08a090fea66b66000deb33bc0a6556ad282340035c6188",
+      "derivedArtifactNotRelease": false,
+      "processes": [
+        {
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\checksum_journal\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\checksum_journal",
+          "pid": 11296,
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\checksum_journal\\journal-plan.log",
+          "exitCode": 0,
+          "logSha256": "7b72ec13438a55adf8fac0c45e693eae02fda90dd1bfe51f5d6c92536a2e9e47"
+        },
+        {
+          "command": [
+            "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+            "-Xmx2G",
+            "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\checksum_journal\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+            "nogui"
+          ],
+          "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\checksum_journal",
+          "pid": 4944,
+          "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\checksum_journal\\fault-command.log",
+          "exitCode": 0,
+          "logSha256": "f471f8a5dde248a45dced106144867797b91b7350e1c49fc7a7ddc2c3d2b023a"
+        }
+      ],
+      "journalOriginalSha256": "5f0f080430d11635a802a4da8f4d60525f6806b8f0741dd0026b853488b70432",
+      "journalFaultSha256": "b23e930aad274fef17e496fb01080cc86379ef748493f53b62d35f26dd7980a9",
+      "refusals": [
+        "[14:01:46] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Journal load failed; runtime disabled: java.io.IOException: Journal checksum mismatch",
+        "[14:01:46] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Journal load failed; runtime disabled: java.io.IOException: Journal checksum mismatch"
+      ],
+      "checkedTargetCells": 565794,
+      "targetBounds": [
+        960,
+        190,
+        960,
+        1089,
+        224,
+        1089
+      ],
+      "airVolumeSha256": "0e6bcda574ea81a3342942882b457697351d8589c0bd067ee8fb80b28ef96d2e",
+      "regionHashes": {
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\checksum_journal\\world\\region\\r.1.1.mca": "30e86681992ecce5ea86e4cbb6d48c1a51f59e20b8471c7fa0499b77d50cabe4",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\checksum_journal\\world\\region\\r.1.2.mca": "e5a69d8189769413b98fd752100e259606c17a3aa68d61d7875ab6c37ae6e59f",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\checksum_journal\\world\\region\\r.2.1.mca": "6424e07d4e192c770a2bab06fbc1dd07d360e5b97f1cf201f29a2fe3e8e9de72",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v3-faults\\run\\commands_20261106_135713\\checksum_journal\\world\\region\\r.2.2.mca": "d5ef0575a9e6f30ef9abe387f1ed8e7d9c4dce887fbeb7e21346193621e72c5b"
+      },
+      "scope": "Actual command refusal plus saved high-altitude target readback; unrelated spawn/world-generation writes not counted as generator writes"
+    }
+  }
+}

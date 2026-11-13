@@ -1,0 +1,50 @@
+{
+  "version": "1.8.73",
+  "sha256": "b6d3647a27750a42969061b1a988b23c38b5d0facd3cca68544055de336faa1d",
+  "previous_sha256": "6e691adde2cf0545b27aec21db8321f6c6966dd37e26d25ec0c849cc4c875fa0",
+  "configuration_sha256": "78f27845cbc3e667450852f57bb5a55eb85f7ee784baca8faa7aa80f1b88c211",
+  "unit_tests": 200,
+  "changed_jar_entries": [
+    "META-INF/mods.toml",
+    "com/farmingtales/drinkanim/client/BottleRenderer.class",
+    "com/farmingtales/drinkanim/math/BottleRig.class",
+    "com/farmingtales/drinkanim/math/CoconutAnimations.class",
+    "com/farmingtales/drinkanim/math/DecorationMotion$2.class",
+    "com/farmingtales/drinkanim/math/DecorationMotion$State.class",
+    "com/farmingtales/drinkanim/math/DecorationMotion.class",
+    "com/farmingtales/drinkanim/math/DrinkMotion.class"
+  ],
+  "client_logs": [
+    "\\\\?\\E:\\zhuomian\\农场物语1.4.3懒人包\\.minecraft\\versions\\FarmingTales_ForgeⅡ v1.4.8\\workspace\\projects\\FarmingTales-Drink-Animations-Forge-1.20.1\\preview\\verify-coconut-live-slim-1.8.73.log",
+    "\\\\?\\E:\\zhuomian\\农场物语1.4.3懒人包\\.minecraft\\versions\\FarmingTales_ForgeⅡ v1.4.8\\workspace\\projects\\FarmingTales-Drink-Animations-Forge-1.20.1\\preview\\verify-coconut-live-left-1.8.73.log"
+  ],
+  "rendered_motion": {
+    "SlimSteve29": {
+      "render_frames": 118,
+      "captures": 40,
+      "ranges": {
+        "handX": 0.030319259999999987,
+        "handY": 0.04402454,
+        "handZ": 0.030512280000000003,
+        "cameraPitch": 0.8858722149999999,
+        "cameraYaw": 0.30357360499999997,
+        "strawX": 0.04782475,
+        "strawZ": 0.037676969000000005
+      }
+    },
+    "CoconutLeft": {
+      "render_frames": 115,
+      "captures": 39,
+      "ranges": {
+        "handX": 0.010648979999999975,
+        "handY": 0.04975921,
+        "handZ": 0.02995027,
+        "cameraPitch": 0.88409141,
+        "cameraYaw": 0.30621338,
+        "strawX": 0.05214878,
+        "strawZ": 0.037384321
+      }
+    }
+  },
+  "scope": "Ferry whiskey: four sound-aligned suction/recovery gestures with wrist, coconut and subtle camera response. Restore straw spring during carry/inspect; during sipping rotate the exposed straw around its mouth opening with bounded spring and authored flex. Keep close mouth distance and shell/sleeve clearance; verify every sip in rendered frame traces for both hands. All production models/textures, flesh interior, sound assets, user metadata and configuration remain unchanged. 200 tests and both independent Forge replays passed. Full modpack shader replay was not performed."
+}

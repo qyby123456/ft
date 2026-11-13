@@ -1,0 +1,12 @@
+饮用与检视动画 1.8.51
+
+仅修改以下四种酒的第一人称动画资源：
+1. kaleidoscope_tavern:wine、kaleidoscope_world_liquor:lafite_1982：整个露出的瓶颈与瓶口内壁使用各自瓶身玻璃的原色，保留拔出的瓶塞颜色。
+2. kaleidoscope_tavern:ice_wine、kaleidoscope_tavern:champagne：裁掉瓶肩与瓶内底面重叠的中心区域，以及内部重复底面，消除同平面争抢深度导致的穿模频闪。瓶肩外围及贴图坐标保留。
+
+其他饮品、运行时代码、动作、声音、配置和 BrewLevel 数据不变。
+验证：161 项单元测试；几何与取色检查；隔离 Forge 客户端四种 BrewLevel:6 酒瓶的完整流程和俯视开口截图。未验证完整整合包及光影。
+详情：verification-1.8.51.json；安装：installation-1.8.51.json。
+旧 JAR 与源码：backups/1.8.50-before-targeted-bottle-fixes。
+
+安装后需完全退出游戏并重新启动。正在运行的客户端仍使用启动时加载的旧 JAR，仅 F3+T 不能加载新的模组 JAR。

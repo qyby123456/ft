@@ -1,0 +1,57 @@
+{
+  "status": "PASS_PREVIOUS_P2_CLOSED_AT_SOURCE_CONTROL_FLOW_LEVEL",
+  "runtimeVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+  "changedFiles": [
+    "snapshot/main/java/cn/ft/biomedungeon/runtime/UnifiedEngine.java"
+  ],
+  "onlyPauseAndCommitChanged": true,
+  "sourceDriftAtEnd": false,
+  "probeCases": 7,
+  "probeAssertions": 41,
+  "java": "17.0.8",
+  "newFindings": 0,
+  "geometryVersionManifestResourcesAndCoreUnchanged": true,
+  "geometry129RerunRequired": false,
+  "frozenEvidenceVerified": [
+    {
+      "path": "D:\\ft\u5de5\u7a0b\u6587\u4ef6\\\u5c0f\u578b\u7fa4\u7cfb\u7c7b\u5730\u7262_\u73b0\u573a\u751f\u6210\u5668_20261106\\core\\commit-safety-readonly-review\\ready.json",
+      "sha256": "55d28d991234bc7c2c51d5281ec63497f959b59d3943911c0bcfce5840c30818",
+      "verifiedFiles": 42
+    },
+    {
+      "path": "D:\\ft\u5de5\u7a0b\u6587\u4ef6\\\u5c0f\u578b\u7fa4\u7cfb\u7c7b\u5730\u7262_\u73b0\u573a\u751f\u6210\u5668_20261106\\core\\v5-template-usability-review\\ready.json",
+      "sha256": "7d5b318988f122b2c2937eb932c9c2ae84c5773caaf19c681e7a5513471edead",
+      "verifiedFiles": 149
+    },
+    {
+      "path": "D:\\ft\u5de5\u7a0b\u6587\u4ef6\\\u5c0f\u578b\u7fa4\u7cfb\u7c7b\u5730\u7262_\u73b0\u573a\u751f\u6210\u5668_20261106\\runtime\\next-commit\\ready.json",
+      "sha256": "2e1b946a022f0f17294885fd4126d68c2f5b8e06ccbd805cc763013fd6ead73a",
+      "verifiedFiles": 95
+    }
+  ],
+  "unchangedCoreSnapshots": [
+    {
+      "path": "cn/ft/biomedungeon/core/DungeonApi.java",
+      "sha256": "6b15c91913bf88dec8aa2b7a5ea40891aee57ac64d6b444322bd640996f94b86"
+    },
+    {
+      "path": "cn/ft/biomedungeon/core/DungeonGeometry.java",
+      "sha256": "0d6d5ee0ead5f9903fddb1b4c43b3d05a630beaa698d02a15d4c58b2280b2c41"
+    },
+    {
+      "path": "cn/ft/biomedungeon/core/DungeonPlanner.java",
+      "sha256": "faec694e20f280bfd6a2951922110e840136268f1cacbfe775ee1319dbc5abad"
+    },
+    {
+      "path": "cn/ft/biomedungeon/core/next/DungeonEnvelopePlanner.java",
+      "sha256": "5558555f526d5eaa8e9efe2a0a18316fd425080dfb7a68750db55780479fbfcc"
+    },
+    {
+      "path": "cn/ft/biomedungeon/core/next/DungeonYPlanner.java",
+      "sha256": "cee610e5581d7c5dceb0f4b85ebfefc67f5fe6ae7665045f1e2ff009244fd817"
+    }
+  ],
+  "worldTests": "NOT_RUN",
+  "actualCommitted": "NOT_EXECUTED",
+  "runtimeModified": false
+}

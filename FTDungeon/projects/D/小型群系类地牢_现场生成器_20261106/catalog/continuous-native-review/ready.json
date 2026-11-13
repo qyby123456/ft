@@ -1,0 +1,18 @@
+{
+  "component": "catalog-continuous-native-review",
+  "ready": true,
+  "status": "REAL_NATIVE_STATIC_RECOMPUTATION_COMPLETE",
+  "resultStatus": "CONDITIONAL_FINITE_COVERAGE_PASS",
+  "accepted": false,
+  "runtimeJarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+  "nativeInputSha256": "df0770327b8ac7e4385e2ad863654669d0e363d09bada926c8bf433712887b79",
+  "summary": "review-summary.json",
+  "summarySha256": "8250d08379496f734a6799badba14de2fd05ca4ab8f9cbe5058966a8a8428c5a",
+  "certificateSha256": "57db8767a727367c2172df9df1d3831baa16ce7359cf79986d550e41b5be1abd",
+  "inventorySha256": "cc31e033734a0d7a3a97110353012773b4396453b306060070fd1b36479dfe52",
+  "limitations": [
+    "static native box finite coverage only; no independent motion step execution",
+    "one-context state equality not a whole-route invariant or tick proof",
+    "not a generator release or promotion; integration owns final acceptance"
+  ]
+}

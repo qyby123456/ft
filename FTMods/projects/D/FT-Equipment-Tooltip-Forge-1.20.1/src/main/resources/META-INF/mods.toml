@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "ft_equipment_tooltip"
+version = "1.0.0"
+displayName = "Farming Tales Equipment Tooltip"
+authors = "Farming Tales"
+displayTest = "IGNORE_ALL_VERSION"
+description = '''Combines equipment attribute modifiers by slot. Hold Shift to keep the original attribute details. Client-side display only.'''
+
+[[dependencies.ft_equipment_tooltip]]
+modId = "forge"
+mandatory = true
+versionRange = "[47.2.30,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ft_equipment_tooltip]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.20.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ft_equipment_tooltip]]
+modId = "obscure_api"
+mandatory = false
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "CLIENT"

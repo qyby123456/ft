@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Native shape collection for catalog finite interval verifier",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "collectionMode",
+    "contractSha256",
+    "coverageComplete",
+    "scenes"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "collectionMode": {
+      "const": "WORLD_NATIVE_VOXELSHAPE"
+    },
+    "contractSha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "coverageComplete": {
+      "const": true
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "stripId",
+          "resourceSha256",
+          "nativeContext",
+          "blocks",
+          "quarterTurns"
+        ],
+        "properties": {
+          "stripId": {
+            "type": "string"
+          },
+          "resourceSha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "nativeContext": {
+            "const": "PLAYER_STANDING_COLLISION_CONTEXT"
+          },
+          "blocks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "localBlock",
+                "nativeState",
+                "fluidEmpty",
+                "boxes"
+              ],
+              "properties": {
+                "localBlock": {
+                  "type": "array",
+                  "minItems": 3,
+                  "maxItems": 3,
+                  "items": {
+                    "type": "integer"
+                  }
+                },
+                "nativeState": {
+                  "type": "string"
+                },
+                "fluidEmpty": {
+                  "const": true
+                },
+                "boxes": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "minItems": 6,
+                    "maxItems": 6,
+                    "items": {
+                      "type": "number"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "quarterTurns": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          }
+        }
+      }
+    }
+  }
+}

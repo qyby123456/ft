@@ -1,0 +1,76 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+group = 'cn.ft.biomedungeon'
+version = '0.1.0-candidate'
+base { archivesName = 'ft-biome-dungeon-generator-forge-1.20.1' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+def coreSource = providers.gradleProperty('coreSource').getOrElse('../core/src/main/java')
+sourceSets.main.java.srcDir(coreSource)
+sourceSets {
+    validation {
+        java.srcDir 'src/validation/java'
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.runtimeClasspath
+    }
+    gameTest {
+        java.setSrcDirs(['src/gametest/java'])
+        resources.setSrcDirs(['src/gametest/resources'])
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.runtimeClasspath
+    }
+}
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        server {
+            workingDirectory project.file('run/server')
+            args '--nogui'
+            mods { ft_biome_dungeon_generator { source sourceSets.main } }
+        }
+        data {
+            workingDirectory project.file('run/validation')
+            args '--mod', 'ft_biome_dungeon_generator', '--all', '--output', file('build/datagen').absolutePath
+            mods {
+                ft_biome_dungeon_generator {
+                    source sourceSets.main
+                    source sourceSets.validation
+                }
+            }
+        }
+        gameTestServer {
+            workingDirectory project.file(providers.gradleProperty('gameTestDir').getOrElse('run/gametest'))
+            property 'forge.enabledGameTestNamespaces', providers.gradleProperty('restartStage').isPresent()
+                    ? 'ftbd_restarttest' : 'ft_biome_dungeon_generator,biomedungeon'
+            property 'ftbd.isolatedGameTest', 'true'
+            property 'ftbd.restartStage', providers.gradleProperty('restartStage').getOrElse('none')
+            mods {
+                ft_biome_dungeon_generator {
+                    source sourceSets.main
+                    source sourceSets.gameTest
+                }
+            }
+        }
+    }
+}
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('compileJava') {
+    doFirst {
+        if (!file("${coreSource}/cn/ft/biomedungeon/core/DungeonApi.java").isFile()) {
+            throw new GradleException('Real core sources are required; no production stub allowed')
+        }
+    }
+}
+jar {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+    finalizedBy 'reobfJar'
+}
+tasks.matching { it.name == 'runData' }.configureEach { dependsOn 'validationClasses' }
+tasks.matching { it.name == 'runGameTestServer' }.configureEach { dependsOn 'gameTestClasses' }
+tasks.register('runtimeSelfTest', JavaExec) {
+    dependsOn 'testClasses'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'cn.ft.biomedungeon.runtime.RuntimeSelfTest'
+}

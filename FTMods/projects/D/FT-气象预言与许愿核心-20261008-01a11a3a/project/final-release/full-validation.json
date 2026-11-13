@@ -1,0 +1,67 @@
+{
+  "scope": "offline validation, not actual Minecraft gameplay",
+  "steps": [
+    {
+      "name": "geometry-unit-tests",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\geometry-unit-tests.txt"
+    },
+    {
+      "name": "asset-verification",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\asset-verification.txt"
+    },
+    {
+      "name": "recipe-and-reward-mock",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\recipe-and-reward-mock.txt"
+    },
+    {
+      "name": "interaction-mock",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\interaction-mock.txt"
+    },
+    {
+      "name": "command-mock",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\command-mock.txt"
+    },
+    {
+      "name": "nbt-layout-mock",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\nbt-layout-mock.txt"
+    },
+    {
+      "name": "prefixed-web-controls",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\prefixed-web-controls.txt"
+    },
+    {
+      "name": "unified-web-controls",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\unified-web-controls.txt"
+    },
+    {
+      "name": "42-view-visual-regression",
+      "exit_code": 0,
+      "log": "final-release\\test-logs\\42-view-visual-regression.txt"
+    }
+  ],
+  "all_passed": true,
+  "resource_sha256": {
+    "assets/farmingtales/models/block/wishing_well_core.json": "b9328f8b2f051641ed834551de8cb5b3de0eeb1bd6ab4dc209bb19331bff9ace",
+    "assets/farmingtales/models/item/wishing_well_core.json": "78afafd9d4f308a3e7df1b76a571db3066aee34d3b450089c90bd652554357ee",
+    "assets/farmingtales/textures/block/wishing_well_core_atlas.png": "b4e5758de96d916c84c1db36eaef871d82b167f227d394495c5a5993e2d50411",
+    "assets/farmingtales/textures/block/wishing_well_core_particle.png": "1409aee980df3a0f7000ab5b9d4da4f2ce84898d7140c664d02f71509a4df3c3",
+    "assets/ftboss/models/block/oracle.json": "4201facd65ba32cf6ff09b45f8953da1f868e5d7456c680612a373b2d860d593",
+    "assets/ftboss/models/item/oracle.json": "4201facd65ba32cf6ff09b45f8953da1f868e5d7456c680612a373b2d860d593",
+    "assets/qys_event/models/block/oracle.json": "3322427832d62aa19a311979766a30dd5b511e3744af6444993d2391d2e1d1c8",
+    "assets/qys_event/models/block/weather_forecaster.json": "37f3cf6d5a90deae77893b5fa6189113529cbdde9b371352c9d1d07687653564",
+    "assets/qys_event/models/item/oracle.json": "4201facd65ba32cf6ff09b45f8953da1f868e5d7456c680612a373b2d860d593",
+    "assets/qys_event/models/item/weather_forecaster.json": "ada09a4c6d62609db9d372dcc60db8a91c73bb9eb881a5e82788726c5b4d470d",
+    "assets/qys_event/textures/block/oracle_atlas.png": "7718d5b0e1276ce9bb17124f139da64011e6d2e504182658fe254a3b1c29b10f",
+    "assets/qys_event/textures/block/oracle_particle.png": "a1ba81d23f17833a797438c057310d5b58518aec0b4f046a1f425f1131483ce0",
+    "assets/qys_event/textures/block/weather_forecaster_atlas.png": "6700861bcb37260a609ebd775d4595c1644784793a1fac0136cf825c75883c27",
+    "assets/qys_event/textures/block/weather_forecaster_particle.png": "493aecbb565313de4099585e08d96a5af3d68e61c1ed1a18d0ae15e8281daf38"
+  }
+}

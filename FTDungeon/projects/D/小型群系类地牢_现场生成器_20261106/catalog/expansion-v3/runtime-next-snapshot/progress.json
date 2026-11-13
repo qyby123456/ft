@@ -1,0 +1,13 @@
+{
+  "component": "runtime-next",
+  "apiVersion": 1,
+  "runtimeJournalVersion": 2,
+  "status": "READY_CAPABILITY_ONLY_FULL_BIOME_BLOCKED",
+  "baselineModified": false,
+  "catalogProductionPromotion": false,
+  "scope": "Real original BE furniture and role capability; NOT whole generator completion",
+  "worldTests": "PASS 2/2 actual Forge world tests: five complete original rooms x4 rotations,237000 cells,96 native BEs; native canSurvive and delayed readback. Actual original entrance07+hall04+treasury09:146150 cells22BEs, preserved furniture/BE and same-process journal reload, committed replay rejects modified inventory without overwrite.",
+  "beRestart": "PASS two actual JVMs41500 then7776: interruption cursor50432 with4 saved native BEs, resume loads same FTD2 instance/operation hash then143175-cell exact readback with22BEs; clean interrupted shutdown, not forced kill/powerloss",
+  "implementation": ["Validated original chest/barrel/banner NBT; defaults for implicit chest BE", "Canonical native serialization, rotated block-state and unit-cube positions", "Full Items/Patterns equality, permitted literal-name/Lock semantics", "Unknown fields/loot table/nested item NBT/unsupported BE types fail closed", "Owned attempted/completed prefixes distinguish default interrupted BE from post-completion inventory edits", "V2 FTD2 magic/schema2, separate journal path and v2 authorization marker", "Original templates not modified or furniture deleted"],
+  "limits": ["Catalog v2 candidates remain accepted=false; only injected into test source-set fixtures", "S8-01 stair interface and S8-08 lava/vine remain blocked", "Paired/double chests rejected pending semantics test", "V2 forced-kill/powerloss and preexisting-BE restoration NOT_RUN/unsupported", "Full nine-room and all-eight-biome generator incomplete", "Delayed fixture readback does not prove all far-away chunks random-ticked"]
+}

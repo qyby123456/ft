@@ -1,0 +1,1651 @@
+{
+  "biome": "s8",
+  "target": "all nine architectural roles including true entrance/main hall/treasury; no furniture deletion",
+  "templates": [
+    {
+      "id": "S8-01",
+      "group": 8,
+      "image": 1,
+      "intendedRole": "altar_hall",
+      "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-01\\incoming\\S8R_IMG01\\room.nbt",
+      "sha256": "ee50ce32006d15b24ae2b2932bbf4ebbef6683ae8b9ee33ca4781348ac0fa798",
+      "size": [
+        35,
+        21,
+        35
+      ],
+      "dataVersion": 3465,
+      "explicitCellCount": 25725,
+      "blockEntities": [],
+      "blockEntityBlocks": [],
+      "entities": [],
+      "fluidsAndFire": [],
+      "waterloggedCells": 0,
+      "dynamicScreen": [],
+      "outsideCurrentRuntimeAllowlist": [],
+      "originalMetadata": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-01\\incoming\\S8R_IMG01\\room.json",
+      "originalMetadataSha256": "17cd41d940ece66882b4676615be5ca652dcf431b44f92f3cc297bbb1dc7432f",
+      "rawOriginalPorts": [
+        {
+          "role": "entrance",
+          "facing": "north",
+          "position": [
+            17,
+            1,
+            0
+          ],
+          "width": 3,
+          "height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "south",
+          "position": [
+            17,
+            3,
+            34
+          ],
+          "width": 3,
+          "height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "east",
+          "position": [
+            34,
+            3,
+            18
+          ],
+          "width": 3,
+          "height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "west",
+          "position": [
+            0,
+            3,
+            18
+          ],
+          "width": 3,
+          "height": 3
+        }
+      ],
+      "strictMvpPortChecks": [
+        {
+          "raw": {
+            "role": "entrance",
+            "facing": "north",
+            "position": [
+              17,
+              1,
+              0
+            ],
+            "width": 3,
+            "height": 3
+          },
+          "strictExistingMvpAperture": "REJECT",
+          "reason": "source aperture obstructed at (16, 1, 1): minecraft:deepslate_brick_stairs"
+        },
+        {
+          "port": {
+            "id": "p1_south",
+            "feet": {
+              "x": 17,
+              "y": 3,
+              "z": 34
+            },
+            "facing": "south",
+            "width": 3,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 18
+        },
+        {
+          "port": {
+            "id": "p2_east",
+            "feet": {
+              "x": 34,
+              "y": 3,
+              "z": 18
+            },
+            "facing": "east",
+            "width": 3,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 18
+        },
+        {
+          "port": {
+            "id": "p3_west",
+            "feet": {
+              "x": 0,
+              "y": 3,
+              "z": 18
+            },
+            "facing": "west",
+            "width": 3,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 18
+        }
+      ],
+      "requirements": [
+        "ORIGINAL_INTERFACE_GEOMETRY_OR_SUPPORT_REVIEW"
+      ],
+      "compatibleWithUnchangedCurrentMvpStaticScreen": false,
+      "independentFileAudit": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\file-audit.json",
+      "acceptanceRecords": [
+        "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-01-ACCEPTANCE.json"
+      ],
+      "acceptedForExpansionRuntime": false,
+      "frozenEvidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\file-audit.json",
+          "path": "evidence/s8_01/file-audit.json",
+          "sha256": "dbf9be66c3e904618de0c856dba6cadcdd89a6ad759bda318447a36a1c5da648"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-01-ACCEPTANCE.json",
+          "path": "evidence/s8_01/acceptance-0.json",
+          "sha256": "d9715fa6f09045a57bd02f9c043fa467b30c8273b3f54d61ff32f90a673a2649"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-01\\incoming\\S8R_IMG01\\room.json",
+          "path": "evidence/s8_01/original-metadata.json",
+          "sha256": "17cd41d940ece66882b4676615be5ca652dcf431b44f92f3cc297bbb1dc7432f"
+        }
+      ]
+    },
+    {
+      "id": "S8-02",
+      "group": 8,
+      "image": 2,
+      "intendedRole": "library_storage",
+      "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-02\\incoming\\S8R_IMG02\\room.nbt",
+      "sha256": "475cde56f4a0e3994ed5823f56144476c959c499d0d2e7d745a5aeb59b46b8a7",
+      "size": [
+        25,
+        15,
+        25
+      ],
+      "dataVersion": 3465,
+      "explicitCellCount": 9375,
+      "blockEntities": [],
+      "blockEntityBlocks": [
+        {
+          "position": [
+            7,
+            2,
+            21
+          ],
+          "block": "minecraft:chest",
+          "hasExplicitPayload": false
+        }
+      ],
+      "entities": [],
+      "fluidsAndFire": [],
+      "waterloggedCells": 0,
+      "dynamicScreen": [],
+      "outsideCurrentRuntimeAllowlist": [
+        "minecraft:bookshelf",
+        "minecraft:chest",
+        "minecraft:dark_oak_door",
+        "minecraft:dark_oak_planks",
+        "minecraft:tinted_glass"
+      ],
+      "originalMetadata": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-02\\incoming\\S8R_IMG02\\room.json",
+      "originalMetadataSha256": "c81f74b6251f0b1433c8fe4b913e4ab8cdc5693d5d13aef30eee2cb23def5687",
+      "rawOriginalPorts": [
+        {
+          "role": "entrance",
+          "facing": "north",
+          "position": [
+            12,
+            2,
+            0
+          ],
+          "width": 3,
+          "height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "south",
+          "position": [
+            14,
+            2,
+            24
+          ],
+          "width": 3,
+          "height": 3
+        }
+      ],
+      "strictMvpPortChecks": [
+        {
+          "port": {
+            "id": "p0_north",
+            "feet": {
+              "x": 12,
+              "y": 2,
+              "z": 0
+            },
+            "facing": "north",
+            "width": 3,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 18
+        },
+        {
+          "port": {
+            "id": "p1_south",
+            "feet": {
+              "x": 14,
+              "y": 2,
+              "z": 24
+            },
+            "facing": "south",
+            "width": 3,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 18
+        }
+      ],
+      "requirements": [
+        "BLOCK_ENTITY_PRESERVATION_ROTATION_READBACK_PERSISTENT_RESTORE",
+        "NATIVE_BLOCK_STATE_ALLOWLIST_REVIEW"
+      ],
+      "compatibleWithUnchangedCurrentMvpStaticScreen": false,
+      "independentFileAudit": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-02-independent\\file-audit.json",
+      "acceptanceRecords": [
+        "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-02-ACCEPTANCE.json"
+      ],
+      "acceptedForExpansionRuntime": false,
+      "frozenEvidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-02-independent\\file-audit.json",
+          "path": "evidence/s8_02/file-audit.json",
+          "sha256": "4b171279bfe5cf0197c000e383772ff804deb88bef2471c5ff5b62bc4595e642"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-02-ACCEPTANCE.json",
+          "path": "evidence/s8_02/acceptance-0.json",
+          "sha256": "cb8bf04da06969d835faaf1f96b489dcde85c893b938dd97748b0eab7772c37b"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-02\\incoming\\S8R_IMG02\\room.json",
+          "path": "evidence/s8_02/original-metadata.json",
+          "sha256": "c81f74b6251f0b1433c8fe4b913e4ab8cdc5693d5d13aef30eee2cb23def5687"
+        }
+      ]
+    },
+    {
+      "id": "S8-03",
+      "group": 8,
+      "image": 3,
+      "intendedRole": "small_treasure_room",
+      "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-03\\incoming\\S8R_IMG03\\room.nbt",
+      "sha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c",
+      "size": [
+        17,
+        12,
+        17
+      ],
+      "dataVersion": 3465,
+      "explicitCellCount": 3468,
+      "blockEntities": [
+        {
+          "position": [
+            8,
+            3,
+            9
+          ],
+          "block": "minecraft:chest",
+          "nbt": {
+            "id": "minecraft:chest",
+            "Items": []
+          }
+        }
+      ],
+      "blockEntityBlocks": [
+        {
+          "position": [
+            8,
+            3,
+            9
+          ],
+          "block": "minecraft:chest",
+          "hasExplicitPayload": true
+        }
+      ],
+      "entities": [],
+      "fluidsAndFire": [],
+      "waterloggedCells": 0,
+      "dynamicScreen": [],
+      "outsideCurrentRuntimeAllowlist": [
+        "minecraft:chest",
+        "minecraft:deepslate_tile_slab"
+      ],
+      "originalMetadata": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-03\\incoming\\S8R_IMG03\\room.json",
+      "originalMetadataSha256": "05738243fa86d07bc4e48daee626429878ac07b68ecda66ef74945956e1db1fb",
+      "rawOriginalPorts": [
+        {
+          "role": "entrance",
+          "facing": "north",
+          "position": [
+            8,
+            2,
+            0
+          ],
+          "width": 3,
+          "height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "east",
+          "position": [
+            16,
+            2,
+            7
+          ],
+          "width": 3,
+          "height": 3
+        }
+      ],
+      "strictMvpPortChecks": [
+        {
+          "port": {
+            "id": "p0_north",
+            "feet": {
+              "x": 8,
+              "y": 2,
+              "z": 0
+            },
+            "facing": "north",
+            "width": 3,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 18
+        },
+        {
+          "port": {
+            "id": "p1_east",
+            "feet": {
+              "x": 16,
+              "y": 2,
+              "z": 7
+            },
+            "facing": "east",
+            "width": 3,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 18
+        }
+      ],
+      "requirements": [
+        "BLOCK_ENTITY_PRESERVATION_ROTATION_READBACK_PERSISTENT_RESTORE",
+        "NATIVE_BLOCK_STATE_ALLOWLIST_REVIEW"
+      ],
+      "compatibleWithUnchangedCurrentMvpStaticScreen": false,
+      "independentFileAudit": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-03-independent-final\\file-audit.json",
+      "acceptanceRecords": [
+        "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-03-ACCEPTANCE.json"
+      ],
+      "acceptedForExpansionRuntime": false,
+      "frozenEvidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-03-independent-final\\file-audit.json",
+          "path": "evidence/s8_03/file-audit.json",
+          "sha256": "e1299ecafe48161a5cf2a977447c109f3754081c59e278ff302f6c7b7a429648"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-03-ACCEPTANCE.json",
+          "path": "evidence/s8_03/acceptance-0.json",
+          "sha256": "0235aa6f589e15ae70aa21985119f0049ab95a41995473868651e06b906edebf"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-03\\incoming\\S8R_IMG03\\room.json",
+          "path": "evidence/s8_03/original-metadata.json",
+          "sha256": "05738243fa86d07bc4e48daee626429878ac07b68ecda66ef74945956e1db1fb"
+        }
+      ]
+    },
+    {
+      "id": "S8-04",
+      "group": 8,
+      "image": 4,
+      "intendedRole": "main_hall",
+      "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-04\\incoming\\S8R_IMG04\\room.nbt",
+      "sha256": "30e2cb79d231714c9facf8847474db7775a185172d411fc6d04bcd2ac76a1c3b",
+      "size": [
+        31,
+        19,
+        39
+      ],
+      "dataVersion": 3465,
+      "explicitCellCount": 22971,
+      "blockEntities": [
+        {
+          "position": [
+            8,
+            12,
+            7
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "nbt": {
+            "id": "minecraft:banner",
+            "Patterns": []
+          }
+        },
+        {
+          "position": [
+            8,
+            12,
+            15
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "nbt": {
+            "id": "minecraft:banner",
+            "Patterns": []
+          }
+        },
+        {
+          "position": [
+            8,
+            12,
+            23
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "nbt": {
+            "id": "minecraft:banner",
+            "Patterns": []
+          }
+        },
+        {
+          "position": [
+            8,
+            12,
+            31
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "nbt": {
+            "id": "minecraft:banner",
+            "Patterns": []
+          }
+        },
+        {
+          "position": [
+            22,
+            12,
+            7
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "nbt": {
+            "id": "minecraft:banner",
+            "Patterns": []
+          }
+        },
+        {
+          "position": [
+            22,
+            12,
+            15
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "nbt": {
+            "id": "minecraft:banner",
+            "Patterns": []
+          }
+        },
+        {
+          "position": [
+            22,
+            12,
+            23
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "nbt": {
+            "id": "minecraft:banner",
+            "Patterns": []
+          }
+        },
+        {
+          "position": [
+            22,
+            12,
+            31
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "nbt": {
+            "id": "minecraft:banner",
+            "Patterns": []
+          }
+        }
+      ],
+      "blockEntityBlocks": [
+        {
+          "position": [
+            8,
+            12,
+            7
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            8,
+            12,
+            15
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            8,
+            12,
+            23
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            8,
+            12,
+            31
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            22,
+            12,
+            7
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            22,
+            12,
+            15
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            22,
+            12,
+            23
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            22,
+            12,
+            31
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "hasExplicitPayload": true
+        }
+      ],
+      "entities": [],
+      "fluidsAndFire": [],
+      "waterloggedCells": 0,
+      "dynamicScreen": [],
+      "outsideCurrentRuntimeAllowlist": [
+        "minecraft:purple_stained_glass",
+        "minecraft:purple_wall_banner"
+      ],
+      "originalMetadata": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-04\\incoming\\S8R_IMG04\\room.json",
+      "originalMetadataSha256": "58fad7d5687964d60ab162a7992ab6aca383113e75129eca76445f6f56e74a37",
+      "rawOriginalPorts": [
+        {
+          "role": "entrance",
+          "facing": "north",
+          "position": [
+            15,
+            2,
+            0
+          ],
+          "width": 5,
+          "minimum_height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "south",
+          "position": [
+            15,
+            4,
+            38
+          ],
+          "width": 5,
+          "minimum_height": 3
+        },
+        {
+          "role": "side-exit",
+          "facing": "west",
+          "position": [
+            0,
+            4,
+            20
+          ],
+          "width": 5,
+          "minimum_height": 3
+        },
+        {
+          "role": "side-exit",
+          "facing": "east",
+          "position": [
+            30,
+            4,
+            20
+          ],
+          "width": 5,
+          "minimum_height": 3
+        }
+      ],
+      "strictMvpPortChecks": [
+        {
+          "port": {
+            "id": "p0_north",
+            "feet": {
+              "x": 15,
+              "y": 2,
+              "z": 0
+            },
+            "facing": "north",
+            "width": 5,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 30
+        },
+        {
+          "port": {
+            "id": "p1_south",
+            "feet": {
+              "x": 15,
+              "y": 4,
+              "z": 38
+            },
+            "facing": "south",
+            "width": 5,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 30
+        },
+        {
+          "port": {
+            "id": "p2_west",
+            "feet": {
+              "x": 0,
+              "y": 4,
+              "z": 20
+            },
+            "facing": "west",
+            "width": 5,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 30
+        },
+        {
+          "port": {
+            "id": "p3_east",
+            "feet": {
+              "x": 30,
+              "y": 4,
+              "z": 20
+            },
+            "facing": "east",
+            "width": 5,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 30
+        }
+      ],
+      "requirements": [
+        "BLOCK_ENTITY_PRESERVATION_ROTATION_READBACK_PERSISTENT_RESTORE",
+        "NATIVE_BLOCK_STATE_ALLOWLIST_REVIEW"
+      ],
+      "compatibleWithUnchangedCurrentMvpStaticScreen": false,
+      "independentFileAudit": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-04-independent\\file-audit.json",
+      "acceptanceRecords": [
+        "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-04-ACCEPTANCE.json"
+      ],
+      "acceptedForExpansionRuntime": false,
+      "frozenEvidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-04-independent\\file-audit.json",
+          "path": "evidence/s8_04/file-audit.json",
+          "sha256": "3f7c1417c318d53bf1b6fd8f819911afb688b6830dde74cda39b57f25579cf8c"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-04-ACCEPTANCE.json",
+          "path": "evidence/s8_04/acceptance-0.json",
+          "sha256": "5dd15ebac8a75da1008d93cf90fffde78b08ba28faf4687e794981960584e8ae"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-04\\incoming\\S8R_IMG04\\room.json",
+          "path": "evidence/s8_04/original-metadata.json",
+          "sha256": "58fad7d5687964d60ab162a7992ab6aca383113e75129eca76445f6f56e74a37"
+        }
+      ]
+    },
+    {
+      "id": "S8-05",
+      "group": 8,
+      "image": 5,
+      "intendedRole": "straight_passage",
+      "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-05\\incoming\\S8R_IMG05\\room.nbt",
+      "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837",
+      "size": [
+        15,
+        12,
+        43
+      ],
+      "dataVersion": 3465,
+      "explicitCellCount": 7740,
+      "blockEntities": [],
+      "blockEntityBlocks": [],
+      "entities": [],
+      "fluidsAndFire": [],
+      "waterloggedCells": 0,
+      "dynamicScreen": [],
+      "outsideCurrentRuntimeAllowlist": [],
+      "originalMetadata": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-05\\incoming\\S8R_IMG05\\room.json",
+      "originalMetadataSha256": "bf972457d7a89b8ece131a48551de2bcb01dc9c88500902ec2e5a598c9811e35",
+      "rawOriginalPorts": [
+        {
+          "role": "entrance",
+          "facing": "north",
+          "position": [
+            7,
+            2,
+            0
+          ],
+          "width": 5,
+          "minimum_height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "south",
+          "position": [
+            7,
+            2,
+            42
+          ],
+          "width": 5,
+          "minimum_height": 3
+        }
+      ],
+      "strictMvpPortChecks": [
+        {
+          "port": {
+            "id": "p0_north",
+            "feet": {
+              "x": 7,
+              "y": 2,
+              "z": 0
+            },
+            "facing": "north",
+            "width": 5,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 30
+        },
+        {
+          "port": {
+            "id": "p1_south",
+            "feet": {
+              "x": 7,
+              "y": 2,
+              "z": 42
+            },
+            "facing": "south",
+            "width": 5,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 30
+        }
+      ],
+      "requirements": [],
+      "compatibleWithUnchangedCurrentMvpStaticScreen": true,
+      "independentFileAudit": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-05-independent\\file-audit.json",
+      "acceptanceRecords": [
+        "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW.md",
+        "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-05-ACCEPTANCE.json"
+      ],
+      "acceptedForExpansionRuntime": false,
+      "frozenEvidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-05-independent\\file-audit.json",
+          "path": "evidence/s8_05/file-audit.json",
+          "sha256": "de87ec37b5f435caa57054a6dcdd4b07a82fd1d12c707a577ab9363a2ecdf378"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW.md",
+          "path": "evidence/s8_05/acceptance-0.md",
+          "sha256": "ae0f845a59ed4e9dade3201d54b3dfd7fc7df1c326182bfee05280a5dba019d7"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-05-ACCEPTANCE.json",
+          "path": "evidence/s8_05/acceptance-1.json",
+          "sha256": "25040ac30e9d261f999364970838abf3f7b5e875419e27de349a73a939e6623a"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-05\\incoming\\S8R_IMG05\\room.json",
+          "path": "evidence/s8_05/original-metadata.json",
+          "sha256": "bf972457d7a89b8ece131a48551de2bcb01dc9c88500902ec2e5a598c9811e35"
+        }
+      ]
+    },
+    {
+      "id": "S8-06",
+      "group": 8,
+      "image": 6,
+      "intendedRole": "corner_passage",
+      "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-06\\incoming\\S8R_IMG06\\room.nbt",
+      "sha256": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470",
+      "size": [
+        27,
+        13,
+        27
+      ],
+      "dataVersion": 3465,
+      "explicitCellCount": 9477,
+      "blockEntities": [],
+      "blockEntityBlocks": [],
+      "entities": [],
+      "fluidsAndFire": [],
+      "waterloggedCells": 0,
+      "dynamicScreen": [],
+      "outsideCurrentRuntimeAllowlist": [],
+      "originalMetadata": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-06\\incoming\\S8R_IMG06\\room.json",
+      "originalMetadataSha256": "0a024b11b4eb37bc98828c04e19158d6118c2c26c4e34d02ea44dc7e868886a5",
+      "rawOriginalPorts": [
+        {
+          "role": "entrance",
+          "facing": "north",
+          "position": [
+            6,
+            2,
+            0
+          ],
+          "width": 5,
+          "minimum_height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "east",
+          "position": [
+            26,
+            2,
+            20
+          ],
+          "width": 5,
+          "minimum_height": 3
+        }
+      ],
+      "strictMvpPortChecks": [
+        {
+          "port": {
+            "id": "p0_north",
+            "feet": {
+              "x": 6,
+              "y": 2,
+              "z": 0
+            },
+            "facing": "north",
+            "width": 5,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 30
+        },
+        {
+          "port": {
+            "id": "p1_east",
+            "feet": {
+              "x": 26,
+              "y": 2,
+              "z": 20
+            },
+            "facing": "east",
+            "width": 5,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 30
+        }
+      ],
+      "requirements": [],
+      "compatibleWithUnchangedCurrentMvpStaticScreen": true,
+      "independentFileAudit": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-06-independent\\file-audit.json",
+      "acceptanceRecords": [
+        "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-06-independent\\independent-details.json"
+      ],
+      "acceptedForExpansionRuntime": false,
+      "frozenEvidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-06-independent\\file-audit.json",
+          "path": "evidence/s8_06/file-audit.json",
+          "sha256": "d122d4bc5786486f591f9f0a3978cf8159a127711a5c89095dffb9ec61fdbfd0"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-06-independent\\independent-details.json",
+          "path": "evidence/s8_06/acceptance-0.json",
+          "sha256": "a382903bb0af55e32cd39935d162bbee9a815c7797be733c18e3130b12c412b4"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-06\\incoming\\S8R_IMG06\\room.json",
+          "path": "evidence/s8_06/original-metadata.json",
+          "sha256": "0a024b11b4eb37bc98828c04e19158d6118c2c26c4e34d02ea44dc7e868886a5"
+        }
+      ]
+    },
+    {
+      "id": "S8-07",
+      "group": 8,
+      "image": 7,
+      "intendedRole": "entrance",
+      "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-07\\incoming\\S8R_IMG07\\room.nbt",
+      "sha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7",
+      "size": [
+        25,
+        15,
+        27
+      ],
+      "dataVersion": 3465,
+      "explicitCellCount": 10125,
+      "blockEntities": [
+        {
+          "position": [
+            3,
+            4,
+            10
+          ],
+          "block": "minecraft:barrel",
+          "nbt": {
+            "id": "minecraft:barrel",
+            "Items": []
+          }
+        },
+        {
+          "position": [
+            3,
+            4,
+            14
+          ],
+          "block": "minecraft:barrel",
+          "nbt": {
+            "id": "minecraft:barrel",
+            "Items": []
+          }
+        },
+        {
+          "position": [
+            4,
+            4,
+            15
+          ],
+          "block": "minecraft:barrel",
+          "nbt": {
+            "id": "minecraft:barrel",
+            "Items": []
+          }
+        },
+        {
+          "position": [
+            7,
+            8,
+            3
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "nbt": {
+            "id": "minecraft:banner",
+            "Patterns": []
+          }
+        },
+        {
+          "position": [
+            16,
+            8,
+            3
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "nbt": {
+            "id": "minecraft:banner",
+            "Patterns": []
+          }
+        },
+        {
+          "position": [
+            21,
+            4,
+            21
+          ],
+          "block": "minecraft:barrel",
+          "nbt": {
+            "id": "minecraft:barrel",
+            "Items": []
+          }
+        }
+      ],
+      "blockEntityBlocks": [
+        {
+          "position": [
+            3,
+            4,
+            10
+          ],
+          "block": "minecraft:barrel",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            3,
+            4,
+            14
+          ],
+          "block": "minecraft:barrel",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            4,
+            4,
+            15
+          ],
+          "block": "minecraft:barrel",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            7,
+            8,
+            3
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            16,
+            8,
+            3
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            21,
+            4,
+            21
+          ],
+          "block": "minecraft:barrel",
+          "hasExplicitPayload": true
+        }
+      ],
+      "entities": [],
+      "fluidsAndFire": [],
+      "waterloggedCells": 0,
+      "dynamicScreen": [],
+      "outsideCurrentRuntimeAllowlist": [
+        "minecraft:barrel",
+        "minecraft:birch_planks",
+        "minecraft:brown_terracotta",
+        "minecraft:dark_oak_door",
+        "minecraft:green_terracotta",
+        "minecraft:purple_wall_banner",
+        "minecraft:soul_lantern",
+        "minecraft:stripped_spruce_log"
+      ],
+      "originalMetadata": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-07\\incoming\\S8R_IMG07\\room.json",
+      "originalMetadataSha256": "cf120d37f57f664a486852c0dde76f0bc601a15f589b6de88e68cf5028d36227",
+      "rawOriginalPorts": [
+        {
+          "role": "entrance",
+          "facing": "north",
+          "position": [
+            12,
+            2,
+            0
+          ],
+          "width": 3,
+          "minimum_height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "south",
+          "position": [
+            12,
+            4,
+            26
+          ],
+          "width": 5,
+          "minimum_height": 3
+        }
+      ],
+      "strictMvpPortChecks": [
+        {
+          "port": {
+            "id": "p0_north",
+            "feet": {
+              "x": 12,
+              "y": 2,
+              "z": 0
+            },
+            "facing": "north",
+            "width": 3,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 18
+        },
+        {
+          "port": {
+            "id": "p1_south",
+            "feet": {
+              "x": 12,
+              "y": 4,
+              "z": 26
+            },
+            "facing": "south",
+            "width": 5,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 30
+        }
+      ],
+      "requirements": [
+        "BLOCK_ENTITY_PRESERVATION_ROTATION_READBACK_PERSISTENT_RESTORE",
+        "NATIVE_BLOCK_STATE_ALLOWLIST_REVIEW"
+      ],
+      "compatibleWithUnchangedCurrentMvpStaticScreen": false,
+      "independentFileAudit": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-07-independent\\file-audit.json",
+      "acceptanceRecords": [
+        "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW-20261105-S206-S306-S405-S506-S807.md",
+        "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-07-independent\\independent-details.json"
+      ],
+      "acceptedForExpansionRuntime": false,
+      "frozenEvidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-07-independent\\file-audit.json",
+          "path": "evidence/s8_07/file-audit.json",
+          "sha256": "ab45634bf7df26ea3046768bb9e0f26780fd808e689fd1573a97fcc6bf1969be"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW-20261105-S206-S306-S405-S506-S807.md",
+          "path": "evidence/s8_07/acceptance-0.md",
+          "sha256": "99d7332f041408974447f9305c9c3e6744c2cec4400da38c32c92d5482365066"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-07-independent\\independent-details.json",
+          "path": "evidence/s8_07/acceptance-1.json",
+          "sha256": "626a411d67b308e446d44d6aabb3c0ac8540212a0d676368036ff4981a30c02e"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-07\\incoming\\S8R_IMG07\\room.json",
+          "path": "evidence/s8_07/original-metadata.json",
+          "sha256": "cf120d37f57f664a486852c0dde76f0bc601a15f589b6de88e68cf5028d36227"
+        }
+      ]
+    },
+    {
+      "id": "S8-08",
+      "group": 8,
+      "image": 8,
+      "intendedRole": "garden",
+      "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-08\\incoming\\S8R_IMG08\\room.nbt",
+      "sha256": "ce92b84da9a81b0501cffd3779fbfe2f2bfd986bfdb903df505beb650648d9c3",
+      "size": [
+        33,
+        23,
+        33
+      ],
+      "dataVersion": 3465,
+      "explicitCellCount": 25047,
+      "blockEntities": [],
+      "blockEntityBlocks": [],
+      "entities": [],
+      "fluidsAndFire": [
+        {
+          "name": "minecraft:lava",
+          "count": 9
+        }
+      ],
+      "waterloggedCells": 0,
+      "dynamicScreen": [
+        {
+          "name": "minecraft:vine",
+          "count": 28
+        }
+      ],
+      "outsideCurrentRuntimeAllowlist": [
+        "minecraft:deepslate_brick_wall",
+        "minecraft:lava",
+        "minecraft:vine"
+      ],
+      "originalMetadata": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-08\\incoming\\S8R_IMG08\\room.json",
+      "originalMetadataSha256": "21254d96b365cfd1a6bd20eab5cacde9468fc6cf22a5de63d15af05d85dbae4e",
+      "rawOriginalPorts": [
+        {
+          "role": "entrance",
+          "facing": "north",
+          "position": [
+            16,
+            3,
+            0
+          ],
+          "width": 5,
+          "minimum_height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "east",
+          "position": [
+            32,
+            3,
+            16
+          ],
+          "width": 5,
+          "minimum_height": 3
+        }
+      ],
+      "strictMvpPortChecks": [
+        {
+          "port": {
+            "id": "p0_north",
+            "feet": {
+              "x": 16,
+              "y": 3,
+              "z": 0
+            },
+            "facing": "north",
+            "width": 5,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 30
+        },
+        {
+          "port": {
+            "id": "p1_east",
+            "feet": {
+              "x": 32,
+              "y": 3,
+              "z": 16
+            },
+            "facing": "east",
+            "width": 5,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 30
+        }
+      ],
+      "requirements": [
+        "FLUID_CONTAINMENT_UPDATE_ORDER_TICK_PROPAGATION_WORLD_TEST",
+        "FALLING_RANDOM_NEIGHBOR_TICK_AND_ATTACHMENT_WORLD_TEST",
+        "NATIVE_BLOCK_STATE_ALLOWLIST_REVIEW"
+      ],
+      "compatibleWithUnchangedCurrentMvpStaticScreen": false,
+      "independentFileAudit": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-08-independent-r1\\file-audit.json",
+      "acceptanceRecords": [
+        "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW-20261105-S104-S708-S808.md",
+        "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-08-independent-r1\\independent-details.json"
+      ],
+      "acceptedForExpansionRuntime": false,
+      "frozenEvidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-08-independent-r1\\file-audit.json",
+          "path": "evidence/s8_08/file-audit.json",
+          "sha256": "b6cbdc163bfab6d0646ae662eb216d2d56cb5b425f07535c8753a6455a3ee1b4"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW-20261105-S104-S708-S808.md",
+          "path": "evidence/s8_08/acceptance-0.md",
+          "sha256": "1f1b8bdbf5e528acd7c4e82559f7c62785b2982148d7d85894cd3967cda9cd51"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-08-independent-r1\\independent-details.json",
+          "path": "evidence/s8_08/acceptance-1.json",
+          "sha256": "a028abc757969d9d39fd19c285f0baff4e429ff246e6baab6710bd53de7970fb"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-08\\incoming\\S8R_IMG08\\room.json",
+          "path": "evidence/s8_08/original-metadata.json",
+          "sha256": "21254d96b365cfd1a6bd20eab5cacde9468fc6cf22a5de63d15af05d85dbae4e"
+        }
+      ]
+    },
+    {
+      "id": "S8-09",
+      "group": 8,
+      "image": 9,
+      "intendedRole": "treasury",
+      "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-09\\incoming\\S8R_IMG09\\room.nbt",
+      "sha256": "17a40ef89e7667c3f1d843763df8ae33d2db1101a590b86da7cf0d3b56a85a0b",
+      "size": [
+        29,
+        17,
+        27
+      ],
+      "dataVersion": 3465,
+      "explicitCellCount": 13311,
+      "blockEntities": [
+        {
+          "position": [
+            5,
+            3,
+            20
+          ],
+          "block": "minecraft:barrel",
+          "nbt": {
+            "id": "minecraft:barrel",
+            "Items": []
+          }
+        },
+        {
+          "position": [
+            5,
+            3,
+            22
+          ],
+          "block": "minecraft:barrel",
+          "nbt": {
+            "id": "minecraft:barrel",
+            "Items": []
+          }
+        },
+        {
+          "position": [
+            6,
+            11,
+            23
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "nbt": {
+            "id": "minecraft:banner",
+            "Patterns": []
+          }
+        },
+        {
+          "position": [
+            14,
+            5,
+            20
+          ],
+          "block": "minecraft:chest",
+          "nbt": {
+            "id": "minecraft:chest",
+            "Items": []
+          }
+        },
+        {
+          "position": [
+            14,
+            11,
+            23
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "nbt": {
+            "id": "minecraft:banner",
+            "Patterns": []
+          }
+        },
+        {
+          "position": [
+            22,
+            11,
+            23
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "nbt": {
+            "id": "minecraft:banner",
+            "Patterns": []
+          }
+        },
+        {
+          "position": [
+            23,
+            3,
+            20
+          ],
+          "block": "minecraft:barrel",
+          "nbt": {
+            "id": "minecraft:barrel",
+            "Items": []
+          }
+        },
+        {
+          "position": [
+            23,
+            3,
+            22
+          ],
+          "block": "minecraft:barrel",
+          "nbt": {
+            "id": "minecraft:barrel",
+            "Items": []
+          }
+        }
+      ],
+      "blockEntityBlocks": [
+        {
+          "position": [
+            5,
+            3,
+            20
+          ],
+          "block": "minecraft:barrel",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            5,
+            3,
+            22
+          ],
+          "block": "minecraft:barrel",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            6,
+            11,
+            23
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            14,
+            5,
+            20
+          ],
+          "block": "minecraft:chest",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            14,
+            11,
+            23
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            22,
+            11,
+            23
+          ],
+          "block": "minecraft:purple_wall_banner",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            23,
+            3,
+            20
+          ],
+          "block": "minecraft:barrel",
+          "hasExplicitPayload": true
+        },
+        {
+          "position": [
+            23,
+            3,
+            22
+          ],
+          "block": "minecraft:barrel",
+          "hasExplicitPayload": true
+        }
+      ],
+      "entities": [],
+      "fluidsAndFire": [],
+      "waterloggedCells": 0,
+      "dynamicScreen": [],
+      "outsideCurrentRuntimeAllowlist": [
+        "minecraft:barrel",
+        "minecraft:chest",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:flower_pot",
+        "minecraft:purple_wall_banner",
+        "minecraft:spruce_log",
+        "minecraft:spruce_planks"
+      ],
+      "originalMetadata": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-09\\incoming\\S8R_IMG09\\room.json",
+      "originalMetadataSha256": "a90fca05250acee8e7393b9830954de4f5a0d8d01353f3f6f35c36ee40651e65",
+      "rawOriginalPorts": [
+        {
+          "role": "entrance",
+          "facing": "west",
+          "position": [
+            0,
+            2,
+            10
+          ],
+          "width": 5,
+          "minimum_height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "east",
+          "position": [
+            28,
+            2,
+            10
+          ],
+          "width": 5,
+          "minimum_height": 3
+        }
+      ],
+      "strictMvpPortChecks": [
+        {
+          "port": {
+            "id": "p0_west",
+            "feet": {
+              "x": 0,
+              "y": 2,
+              "z": 10
+            },
+            "facing": "west",
+            "width": 5,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 30
+        },
+        {
+          "port": {
+            "id": "p1_east",
+            "feet": {
+              "x": 28,
+              "y": 2,
+              "z": 10
+            },
+            "facing": "east",
+            "width": 5,
+            "height": 3,
+            "medium": "dry"
+          },
+          "strictExistingMvpAperture": "PASS",
+          "cellsChecked": 30
+        }
+      ],
+      "requirements": [
+        "BLOCK_ENTITY_PRESERVATION_ROTATION_READBACK_PERSISTENT_RESTORE",
+        "NATIVE_BLOCK_STATE_ALLOWLIST_REVIEW"
+      ],
+      "compatibleWithUnchangedCurrentMvpStaticScreen": false,
+      "independentFileAudit": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-09-independent\\file-audit.json",
+      "acceptanceRecords": [
+        "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW-20261105-S809.md"
+      ],
+      "acceptedForExpansionRuntime": false,
+      "frozenEvidence": [
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-09-independent\\file-audit.json",
+          "path": "evidence/s8_09/file-audit.json",
+          "sha256": "1d5d74a18ff6d574ae3e48027281d86367c03fa175d4cb1bfc2cabb6bd05034a"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW-20261105-S809.md",
+          "path": "evidence/s8_09/acceptance-0.md",
+          "sha256": "94a602467a25b245bc08760605e27d1902958b4d1a6dba0a98dc01309dde7c31"
+        },
+        {
+          "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-09\\incoming\\S8R_IMG09\\room.json",
+          "path": "evidence/s8_09/original-metadata.json",
+          "sha256": "a90fca05250acee8e7393b9830954de4f5a0d8d01353f3f6f35c36ee40651e65"
+        }
+      ]
+    }
+  ],
+  "currentPoolNotCompleteBiome": true
+}

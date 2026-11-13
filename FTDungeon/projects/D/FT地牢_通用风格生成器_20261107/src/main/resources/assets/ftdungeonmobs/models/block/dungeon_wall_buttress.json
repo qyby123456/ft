@@ -1,0 +1,199 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "atlas": "ftdungeonmobs:block/dungeon_architecture",
+    "particle": "ftdungeonmobs:block/dungeon_ashlar_tile"
+  },
+  "elements": [
+    {
+      "name": "墙根",
+      "from": [
+        0,
+        0,
+        8
+      ],
+      "to": [
+        16,
+        5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            9.25
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            9.25
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            6.0,
+            8.0,
+            7.0,
+            9.25
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            6.0,
+            8.0,
+            7.0,
+            9.25
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            10.0
+          ],
+          "texture": "#atlas"
+        },
+        "down": {
+          "uv": [
+            6.0,
+            8.0,
+            8.0,
+            10.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "中段扶石",
+      "from": [
+        2,
+        5,
+        10
+      ],
+      "to": [
+        14,
+        10,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            0.0,
+            1.5,
+            1.25
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            0.0,
+            1.5,
+            1.25
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            0.0,
+            0.75,
+            1.25
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            0.0,
+            0.75,
+            1.25
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            0.0,
+            1.5,
+            1.5
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "上段扶石",
+      "from": [
+        4,
+        10,
+        12
+      ],
+      "to": [
+        12,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.0,
+            8.0,
+            3.0,
+            9.5
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            2.0,
+            8.0,
+            3.0,
+            9.5
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            2.0,
+            8.0,
+            2.5,
+            9.5
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            2.0,
+            8.0,
+            2.5,
+            9.5
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            2.0,
+            8.0,
+            3.0,
+            9.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    }
+  ]
+}

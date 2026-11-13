@@ -1,0 +1,1323 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile1": "ftdungeonprops:block/remake-furnishings_01",
+    "tile4": "ftdungeonprops:block/remake-furnishings_04",
+    "tile0": "ftdungeonprops:block/remake-furnishings_00",
+    "tile3": "ftdungeonprops:block/remake-furnishings_03",
+    "tile9": "ftdungeonprops:block/remake-furnishings_09",
+    "tile8": "ftdungeonprops:block/remake-furnishings_08",
+    "tile2": "ftdungeonprops:block/remake-furnishings_02",
+    "particle": "ftdungeonprops:block/remake-furnishings_01"
+  },
+  "elements": [
+    {
+      "name": "left long ground foot",
+      "from": [
+        1,
+        0,
+        5
+      ],
+      "to": [
+        4,
+        1,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            1,
+            15,
+            4,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            5,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            1,
+            15,
+            11,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            1,
+            5,
+            4,
+            15
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            4,
+            11
+          ],
+          "texture": "#tile1",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "right long ground foot",
+      "from": [
+        12,
+        0,
+        5
+      ],
+      "to": [
+        15,
+        1,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            15,
+            4,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            12,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            5,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            1,
+            15,
+            11,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            12,
+            5,
+            15,
+            15
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            12,
+            1,
+            15,
+            11
+          ],
+          "texture": "#tile1",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "continuous base sill",
+      "from": [
+        1,
+        1,
+        6
+      ],
+      "to": [
+        15,
+        2,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            1,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            6,
+            14,
+            13,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            3,
+            14,
+            10,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            1,
+            6,
+            15,
+            13
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            1,
+            3,
+            15,
+            10
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "left rack upright",
+      "from": [
+        1,
+        2,
+        11
+      ],
+      "to": [
+        3,
+        16,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            0,
+            15,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            1,
+            0,
+            3,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            11,
+            0,
+            13,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            3,
+            0,
+            5,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            1,
+            11,
+            3,
+            13
+          ],
+          "texture": "#tile4",
+          "cullface": "up"
+        }
+      }
+    },
+    {
+      "name": "right rack upright",
+      "from": [
+        13,
+        2,
+        11
+      ],
+      "to": [
+        15,
+        16,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            0,
+            3,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            13,
+            0,
+            15,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            11,
+            0,
+            13,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            3,
+            0,
+            5,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            13,
+            11,
+            15,
+            13
+          ],
+          "texture": "#tile4",
+          "cullface": "up"
+        }
+      }
+    },
+    {
+      "name": "lower rear stretcher",
+      "from": [
+        3,
+        2,
+        11
+      ],
+      "to": [
+        13,
+        4,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            12,
+            13,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            3,
+            12,
+            13,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            3,
+            11,
+            13,
+            13
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "upper weapon carrying rail",
+      "from": [
+        3,
+        10,
+        11
+      ],
+      "to": [
+        13,
+        12,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            4,
+            13,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            3,
+            4,
+            13,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            3,
+            11,
+            13,
+            13
+          ],
+          "texture": "#tile1"
+        },
+        "down": {
+          "uv": [
+            3,
+            3,
+            13,
+            5
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "forward weapon resting tray",
+      "from": [
+        3,
+        2,
+        6
+      ],
+      "to": [
+        13,
+        3,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            13,
+            13,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            6,
+            13,
+            11,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            5,
+            13,
+            10,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            3,
+            6,
+            13,
+            11
+          ],
+          "texture": "#tile4"
+        }
+      }
+    },
+    {
+      "name": "upper front return beam",
+      "from": [
+        1,
+        15,
+        10
+      ],
+      "to": [
+        15,
+        16,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            0,
+            15,
+            1
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            1,
+            0,
+            15,
+            1
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            10,
+            0,
+            11,
+            1
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            5,
+            0,
+            6,
+            1
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            1,
+            10,
+            15,
+            11
+          ],
+          "texture": "#tile4",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            1,
+            5,
+            15,
+            6
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "sword brass pommel",
+      "from": [
+        4,
+        3,
+        7
+      ],
+      "to": [
+        7,
+        4,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            12,
+            12,
+            13
+          ],
+          "texture": "#tile3"
+        },
+        "south": {
+          "uv": [
+            4,
+            12,
+            7,
+            13
+          ],
+          "texture": "#tile3"
+        },
+        "west": {
+          "uv": [
+            7,
+            12,
+            9,
+            13
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            7,
+            12,
+            9,
+            13
+          ],
+          "texture": "#tile3"
+        },
+        "up": {
+          "uv": [
+            4,
+            7,
+            7,
+            9
+          ],
+          "texture": "#tile3"
+        }
+      }
+    },
+    {
+      "name": "sword leather grip",
+      "from": [
+        5,
+        4,
+        7
+      ],
+      "to": [
+        6,
+        7,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            9,
+            11,
+            12
+          ],
+          "texture": "#tile9"
+        },
+        "south": {
+          "uv": [
+            5,
+            9,
+            6,
+            12
+          ],
+          "texture": "#tile9"
+        },
+        "west": {
+          "uv": [
+            7,
+            9,
+            9,
+            12
+          ],
+          "texture": "#tile9"
+        },
+        "east": {
+          "uv": [
+            7,
+            9,
+            9,
+            12
+          ],
+          "texture": "#tile9"
+        }
+      }
+    },
+    {
+      "name": "sword wide crossguard",
+      "from": [
+        3,
+        7,
+        7
+      ],
+      "to": [
+        8,
+        8,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            8,
+            13,
+            9
+          ],
+          "texture": "#tile3"
+        },
+        "south": {
+          "uv": [
+            3,
+            8,
+            8,
+            9
+          ],
+          "texture": "#tile3"
+        },
+        "west": {
+          "uv": [
+            7,
+            8,
+            9,
+            9
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            7,
+            8,
+            9,
+            9
+          ],
+          "texture": "#tile3"
+        },
+        "up": {
+          "uv": [
+            3,
+            7,
+            8,
+            9
+          ],
+          "texture": "#tile3"
+        },
+        "down": {
+          "uv": [
+            3,
+            7,
+            8,
+            9
+          ],
+          "texture": "#tile3"
+        }
+      }
+    },
+    {
+      "name": "sword broad fullered blade",
+      "from": [
+        4,
+        8,
+        7
+      ],
+      "to": [
+        7,
+        14,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            2,
+            12,
+            8
+          ],
+          "texture": "#tile8"
+        },
+        "south": {
+          "uv": [
+            4,
+            2,
+            7,
+            8
+          ],
+          "texture": "#tile8"
+        },
+        "west": {
+          "uv": [
+            7,
+            2,
+            8,
+            8
+          ],
+          "texture": "#tile8"
+        },
+        "east": {
+          "uv": [
+            8,
+            2,
+            9,
+            8
+          ],
+          "texture": "#tile8"
+        },
+        "up": {
+          "uv": [
+            4,
+            7,
+            7,
+            8
+          ],
+          "texture": "#tile8"
+        }
+      }
+    },
+    {
+      "name": "sword narrowed terminal point",
+      "from": [
+        5,
+        14,
+        7
+      ],
+      "to": [
+        6,
+        15,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            1,
+            11,
+            2
+          ],
+          "texture": "#tile8"
+        },
+        "south": {
+          "uv": [
+            5,
+            1,
+            6,
+            2
+          ],
+          "texture": "#tile8"
+        },
+        "west": {
+          "uv": [
+            7,
+            1,
+            8,
+            2
+          ],
+          "texture": "#tile8"
+        },
+        "east": {
+          "uv": [
+            8,
+            1,
+            9,
+            2
+          ],
+          "texture": "#tile8"
+        },
+        "up": {
+          "uv": [
+            5,
+            7,
+            6,
+            8
+          ],
+          "texture": "#tile8"
+        }
+      }
+    },
+    {
+      "name": "halberd long timber shaft",
+      "from": [
+        10,
+        3,
+        8
+      ],
+      "to": [
+        11,
+        12,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            4,
+            6,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            10,
+            4,
+            11,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            8,
+            4,
+            10,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            6,
+            4,
+            8,
+            13
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "halberd metal socket",
+      "from": [
+        10,
+        12,
+        8
+      ],
+      "to": [
+        11,
+        15,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            1,
+            6,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            10,
+            1,
+            11,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            8,
+            1,
+            10,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            6,
+            1,
+            8,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            10,
+            8,
+            11,
+            10
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "halberd vertical spear point",
+      "from": [
+        10,
+        15,
+        8
+      ],
+      "to": [
+        11,
+        16,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            0,
+            6,
+            1
+          ],
+          "texture": "#tile8"
+        },
+        "south": {
+          "uv": [
+            10,
+            0,
+            11,
+            1
+          ],
+          "texture": "#tile8"
+        },
+        "west": {
+          "uv": [
+            8,
+            0,
+            9,
+            1
+          ],
+          "texture": "#tile8"
+        },
+        "east": {
+          "uv": [
+            7,
+            0,
+            8,
+            1
+          ],
+          "texture": "#tile8"
+        },
+        "up": {
+          "uv": [
+            10,
+            8,
+            11,
+            9
+          ],
+          "texture": "#tile8",
+          "cullface": "up"
+        }
+      }
+    },
+    {
+      "name": "halberd broad axe head",
+      "from": [
+        11,
+        12,
+        8
+      ],
+      "to": [
+        13,
+        15,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            1,
+            5,
+            4
+          ],
+          "texture": "#tile8"
+        },
+        "south": {
+          "uv": [
+            11,
+            1,
+            13,
+            4
+          ],
+          "texture": "#tile8"
+        },
+        "east": {
+          "uv": [
+            7,
+            1,
+            8,
+            4
+          ],
+          "texture": "#tile8"
+        },
+        "up": {
+          "uv": [
+            11,
+            8,
+            13,
+            9
+          ],
+          "texture": "#tile8"
+        },
+        "down": {
+          "uv": [
+            11,
+            7,
+            13,
+            8
+          ],
+          "texture": "#tile8"
+        }
+      }
+    },
+    {
+      "name": "halberd hooked lower toe",
+      "from": [
+        12,
+        11,
+        8
+      ],
+      "to": [
+        13,
+        12,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            4,
+            4,
+            5
+          ],
+          "texture": "#tile8"
+        },
+        "south": {
+          "uv": [
+            12,
+            4,
+            13,
+            5
+          ],
+          "texture": "#tile8"
+        },
+        "west": {
+          "uv": [
+            8,
+            4,
+            9,
+            5
+          ],
+          "texture": "#tile8"
+        },
+        "east": {
+          "uv": [
+            7,
+            4,
+            8,
+            5
+          ],
+          "texture": "#tile8"
+        },
+        "down": {
+          "uv": [
+            12,
+            7,
+            13,
+            8
+          ],
+          "texture": "#tile8"
+        }
+      }
+    },
+    {
+      "name": "halberd rear counterpick",
+      "from": [
+        9,
+        13,
+        8
+      ],
+      "to": [
+        10,
+        14,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            2,
+            7,
+            3
+          ],
+          "texture": "#tile8"
+        },
+        "south": {
+          "uv": [
+            9,
+            2,
+            10,
+            3
+          ],
+          "texture": "#tile8"
+        },
+        "west": {
+          "uv": [
+            8,
+            2,
+            9,
+            3
+          ],
+          "texture": "#tile8"
+        },
+        "up": {
+          "uv": [
+            9,
+            8,
+            10,
+            9
+          ],
+          "texture": "#tile8"
+        },
+        "down": {
+          "uv": [
+            9,
+            7,
+            10,
+            8
+          ],
+          "texture": "#tile8"
+        }
+      }
+    },
+    {
+      "name": "sword rail support shoe",
+      "from": [
+        4,
+        10,
+        8
+      ],
+      "to": [
+        7,
+        11,
+        11
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            8,
+            5,
+            11,
+            6
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            5,
+            5,
+            8,
+            6
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            4,
+            8,
+            7,
+            11
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            4,
+            5,
+            7,
+            8
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "halberd rail support shoe",
+      "from": [
+        10,
+        10,
+        10
+      ],
+      "to": [
+        12,
+        11,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            5,
+            6,
+            6
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            10,
+            5,
+            11,
+            6
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            5,
+            5,
+            6,
+            6
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            10,
+            10,
+            12,
+            11
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            10,
+            5,
+            12,
+            6
+          ],
+          "texture": "#tile2"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "java": "17.0.8",
+  "scope": "Isolated Forge GameTestServer, not FT core integration or a player/client save",
+  "structure_sha256": "09d53aaedb3ad8996ff768b4679da549d2e6610fdf7d35ec5ee0cc652b4885a7",
+  "native_decode_registry_properties_block_entities_roundtrip": "PASS",
+  "negative_missing_support_probes": 4,
+  "negative_blocked_aisle_probes": 4,
+  "stabilization_ticks": 100,
+  "rotations": [
+    {
+      "rotation": "NONE",
+      "records_checked": 968,
+      "block_entities_checked": 10,
+      "reachable_foot_positions": 60,
+      "unexpected_world_entities": 0,
+      "state_collision_survival_inventory": "PASS",
+      "world_capture": "qa\\native-placed-none.nbt",
+      "world_capture_sha256": "652deb1d857dc65b37a864d7b54a216cca9c9576ee06d9722a2c3bd5ebc5a1d8"
+    },
+    {
+      "rotation": "CLOCKWISE_90",
+      "records_checked": 968,
+      "block_entities_checked": 10,
+      "reachable_foot_positions": 60,
+      "unexpected_world_entities": 0,
+      "state_collision_survival_inventory": "PASS",
+      "world_capture": "qa\\native-placed-clockwise_90.nbt",
+      "world_capture_sha256": "448563e8997bbc73ba4dc9d838a9a225c8f03fc309ba289bba692b1f19083fc3"
+    },
+    {
+      "rotation": "CLOCKWISE_180",
+      "records_checked": 968,
+      "block_entities_checked": 10,
+      "reachable_foot_positions": 60,
+      "unexpected_world_entities": 0,
+      "state_collision_survival_inventory": "PASS",
+      "world_capture": "qa\\native-placed-clockwise_180.nbt",
+      "world_capture_sha256": "35ca78c76bd51947443f2ddbc3e326912f222d4fc35bc1fd72678a15a14d8616"
+    },
+    {
+      "rotation": "COUNTERCLOCKWISE_90",
+      "records_checked": 968,
+      "block_entities_checked": 10,
+      "reachable_foot_positions": 60,
+      "unexpected_world_entities": 0,
+      "state_collision_survival_inventory": "PASS",
+      "world_capture": "qa\\native-placed-counterclockwise_90.nbt",
+      "world_capture_sha256": "ff3b8b90fb64c36417f19b7297f82106f8f5bc55940f2f505161cbb5c98d32c3"
+    }
+  ],
+  "records_checked_after_ticks": 3872,
+  "limitations": [
+    "No FT catalog slot, gallery walkway, idempotence or production deployment tested.",
+    "No full modpack client, multiplayer, FPS or merchant trade behavior tested.",
+    "Native world capture is machine evidence, not an in-game screenshot."
+  ]
+}

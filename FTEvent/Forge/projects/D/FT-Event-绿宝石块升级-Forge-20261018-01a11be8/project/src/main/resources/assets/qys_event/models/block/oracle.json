@@ -1,0 +1,6508 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "atlas": "qys_event:block/oracle_atlas",
+    "particle": "qys_event:block/oracle_particle"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "elements": [
+    {
+      "name": "complete basalt foundation",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        1.4,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "lower antique gold rim",
+      "from": [
+        0.55,
+        1.4,
+        0.55
+      ],
+      "to": [
+        15.45,
+        2,
+        15.45
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "purple stone step",
+      "from": [
+        1.1,
+        2,
+        1.1
+      ],
+      "to": [
+        14.9,
+        2.7,
+        14.9
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "carved walnut foot 2 2",
+      "from": [
+        2,
+        2.7,
+        2
+      ],
+      "to": [
+        4.5,
+        6.4,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "gilded foot band 2 2",
+      "from": [
+        1.85,
+        3.25,
+        1.85
+      ],
+      "to": [
+        4.65,
+        3.75,
+        4.65
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "carved walnut foot 2 11.5",
+      "from": [
+        2,
+        2.7,
+        11.5
+      ],
+      "to": [
+        4.5,
+        6.4,
+        14.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "gilded foot band 2 11.5",
+      "from": [
+        1.85,
+        3.25,
+        11.35
+      ],
+      "to": [
+        4.65,
+        3.75,
+        14.15
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "carved walnut foot 11.5 2",
+      "from": [
+        11.5,
+        2.7,
+        2
+      ],
+      "to": [
+        14.0,
+        6.4,
+        4.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "gilded foot band 11.5 2",
+      "from": [
+        11.35,
+        3.25,
+        1.85
+      ],
+      "to": [
+        14.15,
+        3.75,
+        4.65
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "carved walnut foot 11.5 11.5",
+      "from": [
+        11.5,
+        2.7,
+        11.5
+      ],
+      "to": [
+        14.0,
+        6.4,
+        14.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "gilded foot band 11.5 11.5",
+      "from": [
+        11.35,
+        3.25,
+        11.35
+      ],
+      "to": [
+        14.15,
+        3.75,
+        14.15
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "altar front apron",
+      "from": [
+        4.5,
+        4.8,
+        2
+      ],
+      "to": [
+        11.5,
+        6.4,
+        3
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "altar rear apron",
+      "from": [
+        4.5,
+        4.8,
+        13
+      ],
+      "to": [
+        11.5,
+        6.4,
+        14
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "altar left apron",
+      "from": [
+        2,
+        4.8,
+        4.5
+      ],
+      "to": [
+        3,
+        6.4,
+        11.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "altar right apron",
+      "from": [
+        13,
+        4.8,
+        4.5
+      ],
+      "to": [
+        14,
+        6.4,
+        11.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "lower shelf",
+      "from": [
+        3,
+        3.8,
+        3
+      ],
+      "to": [
+        13,
+        4.35,
+        13
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            12.0,
+            4.0,
+            16.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "altar tabletop gold molding",
+      "from": [
+        1,
+        6.4,
+        1
+      ],
+      "to": [
+        15,
+        7.15,
+        15
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "altar tabletop dark celestial inlay",
+      "from": [
+        1.45,
+        7.15,
+        1.45
+      ],
+      "to": [
+        14.55,
+        7.65,
+        14.55
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0.0,
+            12.0,
+            4.0,
+            16.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "front prophecy plaque frame",
+      "from": [
+        5.7,
+        4.5,
+        1.65
+      ],
+      "to": [
+        10.3,
+        6.3,
+        2
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "front prophecy plaque",
+      "from": [
+        5.95,
+        4.7,
+        1.58
+      ],
+      "to": [
+        10.05,
+        6.1,
+        1.65
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            4.0,
+            12.0,
+            8.0,
+            16.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "left amethyst inset",
+      "from": [
+        1.78,
+        5,
+        6.2
+      ],
+      "to": [
+        2,
+        6.15,
+        9.8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            12.0,
+            8.0,
+            16.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "right amethyst inset",
+      "from": [
+        14,
+        5,
+        6.2
+      ],
+      "to": [
+        14.22,
+        6.15,
+        9.8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            12.0,
+            8.0,
+            16.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "crystal cradle foot",
+      "from": [
+        4.9,
+        7.65,
+        4.4
+      ],
+      "to": [
+        11.1,
+        8.05,
+        10.6
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "crystal cradle lapis step",
+      "from": [
+        5.4,
+        8.05,
+        4.9
+      ],
+      "to": [
+        10.6,
+        8.45,
+        10.1
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "crystal cradle upper rim",
+      "from": [
+        5.85,
+        8.45,
+        5.35
+      ],
+      "to": [
+        10.15,
+        8.8,
+        9.65
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "crystal cradle recess",
+      "from": [
+        6.25,
+        8.8,
+        5.75
+      ],
+      "to": [
+        9.75,
+        8.87,
+        9.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "crystal retaining claw 1",
+      "from": [
+        5.319999999999999,
+        8.35,
+        7.22
+      ],
+      "to": [
+        5.88,
+        10.1,
+        7.78
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "crystal retaining claw 2",
+      "from": [
+        10.120000000000001,
+        8.35,
+        7.22
+      ],
+      "to": [
+        10.68,
+        10.1,
+        7.78
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "crystal retaining claw 3",
+      "from": [
+        7.72,
+        8.35,
+        4.819999999999999
+      ],
+      "to": [
+        8.28,
+        10.1,
+        5.38
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "crystal retaining claw 4",
+      "from": [
+        7.72,
+        8.35,
+        9.620000000000001
+      ],
+      "to": [
+        8.28,
+        10.1,
+        10.18
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 1 core",
+      "from": [
+        6.5,
+        9.0,
+        6.495
+      ],
+      "to": [
+        9.5,
+        9.55,
+        8.504999999999999
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 1 front",
+      "from": [
+        6.995,
+        9.0,
+        6.0
+      ],
+      "to": [
+        9.004999999999999,
+        9.55,
+        6.495
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 1 back",
+      "from": [
+        6.995,
+        9.0,
+        8.504999999999999
+      ],
+      "to": [
+        9.004999999999999,
+        9.55,
+        9.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 1 facet -1 -1",
+      "from": [
+        6.644982143312659,
+        9.002,
+        6.144982143312659
+      ],
+      "to": [
+        7.345017856687341,
+        9.548,
+        6.845017856687341
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.995,
+          9.0,
+          6.495
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 1 facet -1 1",
+      "from": [
+        6.644982143312659,
+        9.002,
+        8.154982143312658
+      ],
+      "to": [
+        7.345017856687341,
+        9.548,
+        8.85501785668734
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.995,
+          9.0,
+          8.504999999999999
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 1 facet 1 -1",
+      "from": [
+        8.654982143312658,
+        9.002,
+        6.144982143312659
+      ],
+      "to": [
+        9.35501785668734,
+        9.548,
+        6.845017856687341
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.004999999999999,
+          9.0,
+          6.495
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 1 facet 1 1",
+      "from": [
+        8.654982143312658,
+        9.002,
+        8.154982143312658
+      ],
+      "to": [
+        9.35501785668734,
+        9.548,
+        8.85501785668734
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.572815533980581,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.004999999999999,
+          9.0,
+          8.504999999999999
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 2 core",
+      "from": [
+        5.9,
+        9.55,
+        6.093
+      ],
+      "to": [
+        10.1,
+        10.2,
+        8.907
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 2 front",
+      "from": [
+        6.593,
+        9.55,
+        5.4
+      ],
+      "to": [
+        9.407,
+        10.2,
+        6.093
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 2 back",
+      "from": [
+        6.593,
+        9.55,
+        8.907
+      ],
+      "to": [
+        9.407,
+        10.2,
+        9.6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 2 facet -1 -1",
+      "from": [
+        6.102975000637723,
+        9.552000000000001,
+        5.602975000637723
+      ],
+      "to": [
+        7.083024999362277,
+        10.197999999999999,
+        6.583024999362277
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.593,
+          9.55,
+          6.093
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 2 facet -1 1",
+      "from": [
+        6.102975000637723,
+        9.552000000000001,
+        8.416975000637722
+      ],
+      "to": [
+        7.083024999362277,
+        10.197999999999999,
+        9.397024999362278
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.593,
+          9.55,
+          8.907
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 2 facet 1 -1",
+      "from": [
+        8.916975000637722,
+        9.552000000000001,
+        5.602975000637723
+      ],
+      "to": [
+        9.897024999362278,
+        10.197999999999999,
+        6.583024999362277
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.407,
+          9.55,
+          6.093
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 2 facet 1 1",
+      "from": [
+        8.916975000637722,
+        9.552000000000001,
+        8.416975000637722
+      ],
+      "to": [
+        9.897024999362278,
+        10.197999999999999,
+        9.397024999362278
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            11.067961165048544,
+            16.0,
+            11.572815533980581
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.407,
+          9.55,
+          8.907
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 3 core",
+      "from": [
+        5.35,
+        10.2,
+        5.7245
+      ],
+      "to": [
+        10.65,
+        11.1,
+        9.2755
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 3 front",
+      "from": [
+        6.2245,
+        10.2,
+        4.85
+      ],
+      "to": [
+        9.7755,
+        11.1,
+        5.7245
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 3 back",
+      "from": [
+        6.2245,
+        10.2,
+        9.2755
+      ],
+      "to": [
+        9.7755,
+        11.1,
+        10.15
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 3 facet -1 -1",
+      "from": [
+        5.606135119852365,
+        10.202,
+        5.106135119852365
+      ],
+      "to": [
+        6.842864880147635,
+        11.097999999999999,
+        6.342864880147635
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.2245,
+          10.2,
+          5.7245
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 3 facet -1 1",
+      "from": [
+        5.606135119852365,
+        10.202,
+        8.657135119852363
+      ],
+      "to": [
+        6.842864880147635,
+        11.097999999999999,
+        9.893864880147635
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.2245,
+          10.2,
+          9.2755
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 3 facet 1 -1",
+      "from": [
+        9.157135119852363,
+        10.202,
+        5.106135119852365
+      ],
+      "to": [
+        10.393864880147635,
+        11.097999999999999,
+        6.342864880147635
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.7755,
+          10.2,
+          5.7245
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 3 facet 1 1",
+      "from": [
+        9.157135119852363,
+        10.202,
+        8.657135119852363
+      ],
+      "to": [
+        10.393864880147635,
+        11.097999999999999,
+        9.893864880147635
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            10.368932038834952,
+            16.0,
+            11.067961165048544
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.7755,
+          10.2,
+          9.2755
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 4 core",
+      "from": [
+        5.1,
+        11.1,
+        5.557
+      ],
+      "to": [
+        10.9,
+        12.2,
+        9.443
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 4 front",
+      "from": [
+        6.057,
+        11.1,
+        4.6
+      ],
+      "to": [
+        9.943,
+        12.2,
+        5.557
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 4 back",
+      "from": [
+        6.057,
+        11.1,
+        9.443
+      ],
+      "to": [
+        9.943,
+        12.2,
+        10.4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 4 facet -1 -1",
+      "from": [
+        5.380298810404474,
+        11.102,
+        4.880298810404474
+      ],
+      "to": [
+        6.733701189595527,
+        12.197999999999999,
+        6.233701189595527
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.057,
+          11.1,
+          5.557
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 4 facet -1 1",
+      "from": [
+        5.380298810404474,
+        11.102,
+        8.766298810404473
+      ],
+      "to": [
+        6.733701189595527,
+        12.197999999999999,
+        10.119701189595526
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.057,
+          11.1,
+          9.443
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 4 facet 1 -1",
+      "from": [
+        9.266298810404473,
+        11.102,
+        4.880298810404474
+      ],
+      "to": [
+        10.619701189595526,
+        12.197999999999999,
+        6.233701189595527
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.943,
+          11.1,
+          5.557
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 4 facet 1 1",
+      "from": [
+        9.266298810404473,
+        11.102,
+        8.766298810404473
+      ],
+      "to": [
+        10.619701189595526,
+        12.197999999999999,
+        10.119701189595526
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            9.514563106796118,
+            16.0,
+            10.368932038834952
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.943,
+          11.1,
+          9.443
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 5 core",
+      "from": [
+        5.35,
+        12.2,
+        5.7245
+      ],
+      "to": [
+        10.65,
+        13.05,
+        9.2755
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 5 front",
+      "from": [
+        6.2245,
+        12.2,
+        4.85
+      ],
+      "to": [
+        9.7755,
+        13.05,
+        5.7245
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 5 back",
+      "from": [
+        6.2245,
+        12.2,
+        9.2755
+      ],
+      "to": [
+        9.7755,
+        13.05,
+        10.15
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 5 facet -1 -1",
+      "from": [
+        5.606135119852365,
+        12.202,
+        5.106135119852365
+      ],
+      "to": [
+        6.842864880147635,
+        13.048,
+        6.342864880147635
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.2245,
+          12.2,
+          5.7245
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 5 facet -1 1",
+      "from": [
+        5.606135119852365,
+        12.202,
+        8.657135119852363
+      ],
+      "to": [
+        6.842864880147635,
+        13.048,
+        9.893864880147635
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.2245,
+          12.2,
+          9.2755
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 5 facet 1 -1",
+      "from": [
+        9.157135119852363,
+        12.202,
+        5.106135119852365
+      ],
+      "to": [
+        10.393864880147635,
+        13.048,
+        6.342864880147635
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.7755,
+          12.2,
+          5.7245
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 5 facet 1 1",
+      "from": [
+        9.157135119852363,
+        12.202,
+        8.657135119852363
+      ],
+      "to": [
+        10.393864880147635,
+        13.048,
+        9.893864880147635
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.854368932038835,
+            16.0,
+            9.514563106796118
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.7755,
+          12.2,
+          9.2755
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 6 core",
+      "from": [
+        5.9,
+        13.05,
+        6.093
+      ],
+      "to": [
+        10.1,
+        13.7,
+        8.907
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 6 front",
+      "from": [
+        6.593,
+        13.05,
+        5.4
+      ],
+      "to": [
+        9.407,
+        13.7,
+        6.093
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 6 back",
+      "from": [
+        6.593,
+        13.05,
+        8.907
+      ],
+      "to": [
+        9.407,
+        13.7,
+        9.6
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 6 facet -1 -1",
+      "from": [
+        6.102975000637723,
+        13.052000000000001,
+        5.602975000637723
+      ],
+      "to": [
+        7.083024999362277,
+        13.697999999999999,
+        6.583024999362277
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.593,
+          13.05,
+          6.093
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 6 facet -1 1",
+      "from": [
+        6.102975000637723,
+        13.052000000000001,
+        8.416975000637722
+      ],
+      "to": [
+        7.083024999362277,
+        13.697999999999999,
+        9.397024999362278
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.593,
+          13.05,
+          8.907
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 6 facet 1 -1",
+      "from": [
+        8.916975000637722,
+        13.052000000000001,
+        5.602975000637723
+      ],
+      "to": [
+        9.897024999362278,
+        13.697999999999999,
+        6.583024999362277
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.407,
+          13.05,
+          6.093
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 6 facet 1 1",
+      "from": [
+        8.916975000637722,
+        13.052000000000001,
+        8.416975000637722
+      ],
+      "to": [
+        9.897024999362278,
+        13.697999999999999,
+        9.397024999362278
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.349514563106798,
+            16.0,
+            8.854368932038835
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.407,
+          13.05,
+          8.907
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 7 core",
+      "from": [
+        6.65,
+        13.7,
+        6.5954999999999995
+      ],
+      "to": [
+        9.35,
+        14.15,
+        8.4045
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 7 front",
+      "from": [
+        7.0954999999999995,
+        13.7,
+        6.15
+      ],
+      "to": [
+        8.9045,
+        14.15,
+        6.5954999999999995
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 7 back",
+      "from": [
+        7.0954999999999995,
+        13.7,
+        8.4045
+      ],
+      "to": [
+        8.9045,
+        14.15,
+        8.85
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "amethyst orb layer 7 facet -1 -1",
+      "from": [
+        6.7804839289813925,
+        13.702,
+        6.2804839289813925
+      ],
+      "to": [
+        7.410516071018606,
+        14.148,
+        6.910516071018606
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.0954999999999995,
+          13.7,
+          6.5954999999999995
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 7 facet -1 1",
+      "from": [
+        6.7804839289813925,
+        13.702,
+        8.089483928981394
+      ],
+      "to": [
+        7.410516071018606,
+        14.148,
+        8.719516071018607
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.0954999999999995,
+          13.7,
+          8.4045
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 7 facet 1 -1",
+      "from": [
+        8.589483928981394,
+        13.702,
+        6.2804839289813925
+      ],
+      "to": [
+        9.219516071018607,
+        14.148,
+        6.910516071018606
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.9045,
+          13.7,
+          6.5954999999999995
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "amethyst orb layer 7 facet 1 1",
+      "from": [
+        8.589483928981394,
+        13.702,
+        8.089483928981394
+      ],
+      "to": [
+        9.219516071018607,
+        14.148,
+        8.719516071018607
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            8.0,
+            16.0,
+            8.349514563106798
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.9045,
+          13.7,
+          8.4045
+        ],
+        "axis": "y",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "rear shrine pillar 2.2",
+      "from": [
+        2.2,
+        7.65,
+        11.2
+      ],
+      "to": [
+        3.5,
+        12.4,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "rear shrine gilded pillar 2.2",
+      "from": [
+        2.5500000000000003,
+        7.9,
+        10.98
+      ],
+      "to": [
+        3.1500000000000004,
+        12.2,
+        11.2
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "rear shrine pillar cap 2.2",
+      "from": [
+        2.0,
+        12.2,
+        11
+      ],
+      "to": [
+        3.7,
+        12.7,
+        12.7
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "rear shrine pillar 12.5",
+      "from": [
+        12.5,
+        7.65,
+        11.2
+      ],
+      "to": [
+        13.8,
+        12.4,
+        12.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "rear shrine gilded pillar 12.5",
+      "from": [
+        12.85,
+        7.9,
+        10.98
+      ],
+      "to": [
+        13.45,
+        12.2,
+        11.2
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "rear shrine pillar cap 12.5",
+      "from": [
+        12.3,
+        12.2,
+        11
+      ],
+      "to": [
+        14.0,
+        12.7,
+        12.7
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "left celestial arch slope",
+      "from": [
+        3.1,
+        12.3,
+        11.2
+      ],
+      "to": [
+        4.1,
+        15.2,
+        12.4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          3.6,
+          12.3,
+          11.8
+        ],
+        "axis": "z",
+        "angle": -45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "right celestial arch slope",
+      "from": [
+        11.9,
+        12.3,
+        11.2
+      ],
+      "to": [
+        12.9,
+        15.2,
+        12.4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      },
+      "rotation": {
+        "origin": [
+          12.4,
+          12.3,
+          11.8
+        ],
+        "axis": "z",
+        "angle": 45,
+        "rescale": false
+      }
+    },
+    {
+      "name": "left celestial arch lintel",
+      "from": [
+        5.6,
+        14.2,
+        11.2
+      ],
+      "to": [
+        7.3,
+        15.1,
+        12.4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "right celestial arch lintel",
+      "from": [
+        8.7,
+        14.2,
+        11.2
+      ],
+      "to": [
+        10.4,
+        15.1,
+        12.4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "all seeing crest",
+      "from": [
+        7.1,
+        13.75,
+        10.98
+      ],
+      "to": [
+        8.9,
+        15.55,
+        12.55
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            12.0,
+            12.0,
+            16.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            12.0,
+            12.0,
+            16.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "left table incense base",
+      "from": [
+        2.5,
+        7.65,
+        3
+      ],
+      "to": [
+        4.1,
+        8,
+        4.6
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "right table incense base",
+      "from": [
+        11.9,
+        7.65,
+        3
+      ],
+      "to": [
+        13.5,
+        8,
+        4.6
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "ceremonial candle 2.95",
+      "from": [
+        2.95,
+        8,
+        3.45
+      ],
+      "to": [
+        3.6500000000000004,
+        9.35,
+        4.15
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "ceremonial candle wick 2.95",
+      "from": [
+        3.2,
+        9.35,
+        3.7
+      ],
+      "to": [
+        3.4000000000000004,
+        9.6,
+        3.9
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "ceremonial candle 12.35",
+      "from": [
+        12.35,
+        8,
+        3.45
+      ],
+      "to": [
+        13.049999999999999,
+        9.35,
+        4.15
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "ceremonial candle wick 12.35",
+      "from": [
+        12.6,
+        9.35,
+        3.7
+      ],
+      "to": [
+        12.799999999999999,
+        9.6,
+        3.9
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "offering tablet frame",
+      "from": [
+        6,
+        7.65,
+        1.95
+      ],
+      "to": [
+        10,
+        7.85,
+        3.55
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "offering tablet inscriptions",
+      "from": [
+        6.2,
+        7.85,
+        2.15
+      ],
+      "to": [
+        9.8,
+        7.9,
+        3.35
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            4.0,
+            12.0,
+            8.0,
+            16.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    }
+  ]
+}

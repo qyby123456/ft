@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ft_biome_dungeon_generator"
+version="0.5.1-commit-iofix-candidate"
+displayName="FT Biome Dungeon Generator (Isolated Candidate)"
+displayTest="IGNORE_SERVER_VERSION"
+description='''Explicit operator-only isolated-airspace dungeon assembly. No automatic world generation.'''
+[[dependencies.ft_biome_dungeon_generator]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,)"
+ordering="NONE"
+side="SERVER"
+[[dependencies.ft_biome_dungeon_generator]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="SERVER"

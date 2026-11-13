@@ -1,0 +1,16 @@
+plugins { id 'net.minecraftforge.gradle' version '6.0.54' }
+group = 'cn.ft.integration'
+version = '0.0.1-environment-only'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        gameTestServer {
+            workingDirectory project.file('world')
+            property 'forge.enabledGameTestNamespaces', 'ftintegration_smoke'
+            mods { ftintegration_smoke { source sourceSets.main } }
+        }
+    }
+}
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

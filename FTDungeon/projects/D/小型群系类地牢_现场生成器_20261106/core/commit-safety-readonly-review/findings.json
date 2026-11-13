@@ -1,0 +1,20 @@
+{
+  "mode": "READ_ONLY_CODE_REVIEW",
+  "runtimeVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+  "worldTests": "NOT_RUN",
+  "actualCommitted": "NOT_EXECUTED",
+  "runtimeModified": false,
+  "findings": [
+    {
+      "id": "COMMAND_JOURNAL_FAILURE_CLEANUP",
+      "priority": 2,
+      "file": "runtime/next-commit/src/main/java/cn/ft/biomedungeon/runtime/UnifiedEngine.java",
+      "locations": [{"method": "pause", "start": 208, "end": 215}, {"method": "commit", "start": 592, "end": 602}],
+      "trigger": "persist throws IOException in pause or after build in commit",
+      "effect": "Command returns Rejected while running and acquired tickets remain; commit also retains commitRequested=true",
+      "evidence": "probe/result.log",
+      "proofScope": "Unchanged extracted methods with stubbed dependencies and injected IOException; no Forge/world execution",
+      "recommendedAction": "Release and clear active state on command failure; revoke pending in-memory commit intent if final admission persist fails"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "component": "core",
+  "apiVersion": 1,
+  "issues": [
+    {
+      "id": "CORE-CONSUMER-VOXEL-ROTATION-001",
+      "severity": "integration-required",
+      "status": "DOCUMENTED_WITH_IMPLEMENTED_HELPER_AND_TESTS",
+      "summary": "Frozen eight-corner bounds rotate volumes; raw MC block-index rotation at unchanged origin differs by a one-block strip for q1/q2/q3.",
+      "consumerAction": "Use DungeonGeometry.blockPlacementOrigin or blockPosition with verified MC rotation mapping. Preserve PlacedRoom.origin metadata. In-world test all rotations before claiming collision safety.",
+      "evidence": "src/test/java/cn/ft/biomedungeon/core/CoreTests.java and logs/tests-java17.log"
+    },
+    {
+      "id": "CORE-CONSUMER-PORT-CONVENTION-002",
+      "severity": "integration-required",
+      "status": "EXPLICIT_ADAPTER_CONTRACT",
+      "summary": "Ports must be actual boundary opening cells; even widths use the documented local transverse interval. Links start/end immediately outside continuous room faces, and reserve side/floor/ceiling shell.",
+      "consumerAction": "Catalog must not supply guessed internal doorway centers; runtime must not reinterpret Link waypoints as raw template feet or place end caps. Verify doorway and unused-port safety in world tests."
+    }
+  ],
+  "coreUnitTestFailures": [],
+  "worldTestStatus": "NOT_RUN_BY_CORE"
+}

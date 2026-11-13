@@ -1,0 +1,16 @@
+[FarmingTales][WishingWell] trigger=command menu player=command_tester
+[FarmingTales][WishingWell] trigger=command requested player=command_tester selected=coin
+[FarmingTales][WishingWell] trigger=command accepted player=command_tester selected=coin core=(0,0,0)
+[FarmingTales][WishingWell] trigger=command:coin player=command_tester outcome=coin reward=kubejs:coin x10
+[FarmingTales][WishingWell] trigger=command requested player=command_tester selected=seed_bag
+[FarmingTales][WishingWell] trigger=command accepted player=command_tester selected=seed_bag core=(0,0,0)
+[FarmingTales][WishingWell] trigger=command:seed_bag player=command_tester outcome=seed_bag reward=farmingtales:apple_packet x1
+[FarmingTales][WishingWell] trigger=command requested player=command_tester selected=geode
+[FarmingTales][WishingWell] trigger=command accepted player=command_tester selected=geode core=(0,0,0)
+[FarmingTales][WishingWell] trigger=command:geode player=command_tester outcome=geode reward=farmingtales:geode x1
+Registered /ft wishingwell and /wishingwelltest aliases
+Clickable menu contains random plus all 10 outcome events
+Forced coin event executed at a valid nearby well: kubejs:coin x10
+Forced seed-bag event executed: farmingtales:apple_packet x1
+Forced geode event executed: farmingtales:geode x1
+Command test does not require or consume an emerald

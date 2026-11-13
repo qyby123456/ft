@@ -1,0 +1,10 @@
+allprojects {
+    afterEvaluate {
+        if (plugins.hasPlugin('java')) {
+            tasks.register('runQysEventVerifier', JavaExec) {
+                classpath = sourceSets.test.output + sourceSets.main.output + sourceSets.main.compileClasspath + sourceSets.test.runtimeClasspath
+                mainClass = 'cn.farmingtales.qysevent.QysEventVerifier'
+            }
+        }
+    }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "NAT7-08",
+  "name": "孢光天井",
+  "kind": "courtyard",
+  "size": [
+    23,
+    12,
+    23
+  ],
+  "exits": [
+    "south",
+    "east",
+    "west"
+  ],
+  "facing": "north",
+  "entrance": [
+    11,
+    1,
+    0
+  ],
+  "interior": [
+    11,
+    1,
+    2
+  ],
+  "mod_source": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\junction_md.nbt",
+  "mod_source_sha256": "43dd154c633eeaeea32160917ac5d1826a7e2270c39404c21e47aa5407316da0",
+  "mod_source_size": [
+    19,
+    16,
+    19
+  ],
+  "adaptation": "19x16x19 to 23x12x23: widen 4, height -4, open central roof only; preserve four-branch junction and peripheral circulation.",
+  "sha256": "68ae3938cb097539084eb96b9d740dafcd6ffecc4e96a99a77cff4189fd05206",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-08-courtyard.png",
+  "reference_sha256": "3c4d71aeb76e5d23a3427cb48a961a7baa4f1c78b753509e8e3458aaa0841bf8",
+  "connections": [
+    {
+      "direction": "north",
+      "feet": [
+        11,
+        1,
+        0
+      ],
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ],
+      "outside_feet": [
+        11,
+        1,
+        -1
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "role": "entrance",
+      "reachable": true
+    },
+    {
+      "direction": "south",
+      "feet": [
+        11,
+        1,
+        22
+      ],
+      "outward_normal": [
+        0,
+        0,
+        1
+      ],
+      "outside_feet": [
+        11,
+        1,
+        23
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "role": "exit",
+      "reachable": true
+    },
+    {
+      "direction": "east",
+      "feet": [
+        22,
+        1,
+        11
+      ],
+      "outward_normal": [
+        1,
+        0,
+        0
+      ],
+      "outside_feet": [
+        23,
+        1,
+        11
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "role": "exit",
+      "reachable": true
+    },
+    {
+      "direction": "west",
+      "feet": [
+        0,
+        1,
+        11
+      ],
+      "outward_normal": [
+        -1,
+        0,
+        0
+      ],
+      "outside_feet": [
+        -1,
+        1,
+        11
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "role": "exit",
+      "reachable": true
+    }
+  ],
+  "coordinate_system": "+X east, +Y up, +Z south; feet coordinates",
+  "integration_status": "candidate; not deployed; unique slot pending coordinator",
+  "reachable_feet_levels": [
+    1,
+    2
+  ]
+}
