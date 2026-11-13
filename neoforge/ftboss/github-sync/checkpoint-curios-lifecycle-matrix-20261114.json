@@ -1,6 +1,6 @@
 {
   "format": "ftboss-original-curios-lifecycle-evidence-map-v1",
-  "acceptedIncrement": "V16 original multi-item choice andcosmetic exclusion",
+  "acceptedIncrement": "V17 direct read-only native shutdown tracker end state; V13 default death, V15 native menu actions and V16 multi-item matrix accepted in separate published increments",
   "originalSubscribers": [
     {
       "subscriber": "onDamage",
@@ -48,13 +48,16 @@
     },
     {
       "subscriber": "onStopped",
-      "evidence": "original source/ported graph clearsLAST_HITS;native server stops normally;private tracker reset notdirectly observed",
-      "directNativeCleanupAcceptanceClaimed": false
+      "evidence": "V17 actual positive Boss damage produces one real dedup owner entry. Read-only Field.get observes native ServerStopping and ServerStopped with empty tracker; actual players zero; normal complete save and exit. No private state writes or private gameplay invocation.",
+      "directNativeCleanupAcceptanceClaimed": true,
+      "acceptanceScope": "actual shutdown dedup end state with nonempty native positive control",
+      "isolatedOnStoppedClearCausalityClaimed": false,
+      "causalityLimit": "Logout or last natural player tick already clears before stopping. Isolated handler clear remains frozen original graph evidence; no manufactured stale entries.",
+      "readOnlyPrivateFieldObservation": true
     }
   ],
   "remainingExplicitGaps": [
-    "actual supported new-JVM confirmation/login persistence",
-    "direct native observer for server-stop dedup state beyond static original graph"
+    "actual supported new-JVM confirmation/login persistence: user must click Create Backup and Load in a prepared attended isolated acceptance window"
   ],
   "originalSourceRelativePath": "work/session-boss/build/boss-zicai-curio-contract-audit-v1-20261113/original-sources/net/farmingtales/ftboss/boss/ai/ZicaiCurioSilence.java",
   "newJvmRequiredOperation": "When an isolated V6-world-copy reload acceptance window is launched for attended confirmation,click Create Backup and Load on Worlds using Experimental Settings are not supported. No window is presently leftwaiting;no formal worldmay beopened for this test. Current V8 bounded diagnostic exitsnormally,so a fresh attended observer withappropriate wait is needed.",
@@ -68,5 +71,44 @@
     "randomDistributionExhaustivenessClaimed": false,
     "rngResetOrPrivateSelectionInvocation": false,
     "priorControlsRerun": false
-  }
+  },
+  "nonClickDependentListedGapsAccepted": true,
+  "scopedIndependentAcceptance": [
+    {
+      "gap": "default death policy conservation beyond prior keepInventory=true",
+      "probe": "V13",
+      "checks": 784,
+      "accepted": true
+    },
+    {
+      "gap": "real Curios container/network equip action",
+      "probe": "V15",
+      "checks": 515,
+      "accepted": true,
+      "strictFailedPredecessor": "V14 retained; event result ordering diagnosis corrected observer only"
+    },
+    {
+      "gap": "original multi-item choice and cosmetic exclusion",
+      "probe": "V16",
+      "checks": 1528,
+      "accepted": true
+    },
+    {
+      "gap": "direct native shutdown dedup state observation",
+      "probe": "V17",
+      "checks": 140,
+      "accepted": true,
+      "isolatedClearCausalityClaimed": false
+    }
+  ],
+  "priorDimensionFourFallbackEighteenControlsRerun": false,
+  "newJvmWindowLeftWaiting": false,
+  "installable": false,
+  "deployed": false,
+  "remainingScopeLimits": [
+    "No human-pointer claim for menu actions: actual public client container clicks and original network processing were observed.",
+    "Only original valid relic fixtures and native default/keepInventory policies are accepted; arbitrary mod-added drop policies are not claimed.",
+    "Read-only private tracker field observation is disclosed; no private gameplay methods invoked or field/map writes.",
+    "Natural portal collision, full authenticated multiplayer/full Boss battles remain outside this lifecycle checkpoint."
+  ]
 }

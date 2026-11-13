@@ -1,3 +1,9 @@
+## Curios 无确认页依赖项逐批完成，2026-11-14
+
+同一 C 工作区、同一唯一写入者已分别完成 V13 默认不保留背包的死亡/真实掉落/复活/自然拾取（784 检查）、V15 真实 Curios 界面与原容器网络装备拒绝及到期后装备（515 检查）、V16 双非装饰槽选择/刷新与装饰槽排除（1528 检查）、V17 真实停止后去重表的只读直接观测（140 检查）。每项单独归档、提交推送、独立远端恢复核验后才清理合格的重复源码缓存。V14 读取事件结果过早的严格失败保留，V15 只修正探针读取时序，未修改产品或放宽断言。已有跨维度、四类回退和 18 项控制直接引用，未重跑。
+
+剩余生命周期门槛为新 JVM 真实登录与持久化：需先准备有人值守的隔离观察器，再由用户点击实验性页面的 Create Backup and Load。当前没有等待窗口；不得绕过、猜测点击、修改世界标志或调用私有确认回调。V17 仅用只读 Field.get 观测表内容，未写字段/Map 或调用私有玩法方法；停止前已为空，不能把空表结果单独归因于 onStopped.clear，原方法仍由冻结图证明支持。状态表见 github-sync/checkpoint-curios-lifecycle-matrix-20261114.json。完整生命周期和 Boss 仍未完成，NOT-INSTALLABLE、不部署，两个正式实例只读，武器和 Session 暂停。已归档公共依赖仅合并同字节只读硬链接，所有路径、失败世界和冻结输入哈希保留；新实例必须独立复制。
+
 ## Stage28 dimension lifecycle increment, 2026-11-14
 
 V12 newfreshnativeworld passes998checks:activepending survives actualoverworld-to-Nether playertransition withoutresettingUntil,naturaloriginaloverworld-clockexpiry restores exactlyone component-preservingrelicinNether,actualclient sees suppressed/restoredstates,andnative return staysstable40ticks. OneactualpositiveBosshit/twoactualdimensionevents;candidateunchanged. Priorfourfallback/18ownercontrols arecitedwithout rerun. See github-sync/checkpoint-boss-curios-dimension-20261114.json andwork/session-boss/CURIO_DIMENSION_RECOVERY_20261114.md. NOT-INSTALLABLE,nodeployment,formalinstancesread-only,weapons/Sessionpaused,samesolewriter.
