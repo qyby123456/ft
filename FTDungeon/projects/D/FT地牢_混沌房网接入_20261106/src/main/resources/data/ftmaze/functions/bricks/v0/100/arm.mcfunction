@@ -1,0 +1,1 @@
+execute if block 52 211 66 minecraft:air if block 52 210 66 ftdungeonmobs:dungeon_ashlar[facing=north] store success score #v0b100 ftm_brick run setblock 52 211 66 ftdungeonmobs:dungeon_spawn_point[spent=true] keep
