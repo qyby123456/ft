@@ -1,0 +1,171 @@
+{
+  "code": "05",
+  "type": "corridor",
+  "name": "冰脊直廊",
+  "size": [
+    5,
+    8,
+    25
+  ],
+  "id": "FTN3-05",
+  "entrance": [
+    2,
+    1,
+    0
+  ],
+  "interior": [
+    2,
+    1,
+    2
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "name": "north",
+      "facing": "north",
+      "position": [
+        2,
+        1,
+        0
+      ],
+      "width": 3,
+      "height": 4
+    },
+    {
+      "name": "south",
+      "facing": "south",
+      "position": [
+        2,
+        1,
+        24
+      ],
+      "width": 3,
+      "height": 4
+    }
+  ],
+  "courtyard_skylight": null,
+  "footprint": "rectangle",
+  "source_evidence": {
+    "code": "05",
+    "source_id": "betterstrongholds:hallways/hallway_2",
+    "source_path": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\hallways\\hallway_2.nbt",
+    "source_sha256": "8dd6284d9f46dbcf5df2f1093a068a99d7482e72f4425f2cf00bd0848f5086de",
+    "details_path": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\hallways\\hallway_2.json",
+    "source_size": [
+      5,
+      8,
+      5
+    ],
+    "size": [
+      5,
+      8,
+      25
+    ],
+    "scale": [
+      1,
+      1,
+      5
+    ],
+    "connectors": [
+      {
+        "position": [
+          0,
+          1,
+          3
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "west_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hallway",
+          "pool": "betterstrongholds:hall_doorway",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_doorway"
+        }
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "north_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:hall_wall",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_wall"
+        }
+      },
+      {
+        "position": [
+          3,
+          1,
+          4
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "south_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:hall_wall",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_wall"
+        }
+      },
+      {
+        "position": [
+          4,
+          1,
+          1
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "east_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hallway",
+          "pool": "betterstrongholds:hall_doorway",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_doorway"
+        }
+      }
+    ],
+    "source_material_counts": {
+      "minecraft:air": 116,
+      "minecraft:stone_bricks": 38,
+      "minecraft:stone_brick_wall": 20,
+      "minecraft:stone_brick_stairs": 16,
+      "minecraft:stone_brick_slab": 5,
+      "minecraft:jigsaw": 4,
+      "minecraft:yellow_stained_glass": 1
+    },
+    "adaptation": "Five hallway bays in a straight run; dimensions multiplied only along Z.",
+    "interface_adaptation": "Original jigsaw metadata retained here as evidence only. Replaced by FT north-centred 3x4 clear entrances at feet Y=1; not YUNG runtime compatible.",
+    "palette_adaptation": "Retain vanilla stone_bricks/cracked/chiseled bricks and spruce support language; add snow_block/packed_ice/blue_ice for frost theme. Omit spawners, jigsaws, commands, entities, loot tables and original processors."
+  },
+  "reference": "D:/ft工程文件/image2.5/nature-dungeon-styles-20261104/S3-frost-tundra/out/S3-05-corridor.png",
+  "maker_thread": "01a1a5df-7c46-7fc0-a33d-cfc5b059d4d3",
+  "runtime_slot": null
+}

@@ -1,0 +1,123 @@
+{
+  "code": "04",
+  "type": "great-hall",
+  "name": "双列冰柱大厅",
+  "size": [
+    25,
+    14,
+    19
+  ],
+  "id": "FTN3-04",
+  "entrance": [
+    12,
+    1,
+    0
+  ],
+  "interior": [
+    12,
+    1,
+    2
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "name": "north",
+      "facing": "north",
+      "position": [
+        12,
+        1,
+        0
+      ],
+      "width": 3,
+      "height": 4
+    },
+    {
+      "name": "south",
+      "facing": "south",
+      "position": [
+        12,
+        1,
+        18
+      ],
+      "width": 3,
+      "height": 4
+    }
+  ],
+  "courtyard_skylight": null,
+  "footprint": "rectangle",
+  "source_evidence": {
+    "code": "04",
+    "source_id": "betterstrongholds:portal_rooms/portal_room",
+    "source_path": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\portal_rooms\\portal_room.nbt",
+    "source_sha256": "56818b78694e6ae97ac81b35c390eb993f991cdccd6ca7b9dbecfbcca6eb44e4",
+    "details_path": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\portal_rooms\\portal_room.json",
+    "source_size": [
+      25,
+      14,
+      19
+    ],
+    "size": [
+      25,
+      14,
+      19
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "connectors": [
+      {
+        "position": [
+          24,
+          4,
+          10
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "east_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=none,south=tall,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        }
+      }
+    ],
+    "source_material_counts": {
+      "minecraft:air": 3163,
+      "minecraft:stone_bricks": 2287,
+      "minecraft:cobblestone": 215,
+      "minecraft:stone_brick_stairs": 166,
+      "minecraft:stone_brick_slab": 139,
+      "minecraft:lava": 96,
+      "minecraft:stone_brick_wall": 79,
+      "minecraft:chain": 26,
+      "minecraft:chiseled_stone_bricks": 24,
+      "minecraft:yellow_stained_glass": 12,
+      "minecraft:andesite_wall": 12,
+      "minecraft:end_portal_frame": 12,
+      "minecraft:iron_bars": 8,
+      "minecraft:cobblestone_stairs": 7,
+      "minecraft:stone_button": 2,
+      "minecraft:jigsaw": 1,
+      "minecraft:spawner": 1
+    },
+    "adaptation": "Long axial hall; portal and gameplay machinery removed, columns remain original design.",
+    "interface_adaptation": "Original jigsaw metadata retained here as evidence only. Replaced by FT north-centred 3x4 clear entrances at feet Y=1; not YUNG runtime compatible.",
+    "palette_adaptation": "Retain vanilla stone_bricks/cracked/chiseled bricks and spruce support language; add snow_block/packed_ice/blue_ice for frost theme. Omit spawners, jigsaws, commands, entities, loot tables and original processors."
+  },
+  "reference": "D:/ft工程文件/image2.5/nature-dungeon-styles-20261104/S3-frost-tundra/out/S3-04-great-hall.png",
+  "maker_thread": "01a1a5df-7c46-7fc0-a33d-cfc5b059d4d3",
+  "runtime_slot": null,
+  "sha256": "1b27e1660accee9753c52f141833f85141aa34ae798cc7695c52e4a0ab0f8a27",
+  "reference_sha256": "63e291f5531f3217486d9a19592bece6a81b5820c82cde8f06e03c0850be4ede",
+  "coordinates": "Local XYZ; +X east, +Y up, +Z south. Entrance/interior/connectors are player feet coordinates.",
+  "safety": "Dense explicit air: placer must reject occupied entire bounding box before placing; never clear or replace player buildings.",
+  "generation_status": "candidate-only; no installation or gameplay integration"
+}

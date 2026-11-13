@@ -1,0 +1,103 @@
+{
+  "code": "03",
+  "type": "small-room",
+  "name": "霜封储藏室",
+  "size": [
+    7,
+    8,
+    13
+  ],
+  "id": "FTN3-03",
+  "entrance": [
+    3,
+    1,
+    0
+  ],
+  "interior": [
+    3,
+    1,
+    2
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "name": "north",
+      "facing": "north",
+      "position": [
+        3,
+        1,
+        0
+      ],
+      "width": 3,
+      "height": 4
+    }
+  ],
+  "courtyard_skylight": null,
+  "footprint": "rectangle",
+  "source_evidence": {
+    "code": "03",
+    "source_id": "betterstrongholds:rooms/storeroom",
+    "source_path": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\storeroom.nbt",
+    "source_sha256": "72bb3e8d83486cdbb320b98fd4dbfee701293b0f63d9669a93903898e2a7add7",
+    "details_path": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\storeroom.json",
+    "source_size": [
+      7,
+      8,
+      13
+    ],
+    "size": [
+      7,
+      8,
+      13
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "connectors": [
+      {
+        "position": [
+          4,
+          1,
+          0
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "north_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        }
+      }
+    ],
+    "source_material_counts": {
+      "minecraft:stone_bricks": 338,
+      "minecraft:air": 241,
+      "minecraft:cobblestone": 53,
+      "minecraft:stone_brick_stairs": 28,
+      "minecraft:stone_brick_wall": 26,
+      "minecraft:barrel": 16,
+      "minecraft:oak_slab": 12,
+      "minecraft:oak_trapdoor": 6,
+      "minecraft:yellow_stained_glass": 2,
+      "minecraft:stone_brick_slab": 2,
+      "minecraft:chest": 2,
+      "minecraft:lantern": 1,
+      "minecraft:jigsaw": 1
+    },
+    "adaptation": "Compact dead-end storage, empty chest and wall shelving.",
+    "interface_adaptation": "Original jigsaw metadata retained here as evidence only. Replaced by FT north-centred 3x4 clear entrances at feet Y=1; not YUNG runtime compatible.",
+    "palette_adaptation": "Retain vanilla stone_bricks/cracked/chiseled bricks and spruce support language; add snow_block/packed_ice/blue_ice for frost theme. Omit spawners, jigsaws, commands, entities, loot tables and original processors."
+  },
+  "reference": "D:/ft工程文件/image2.5/nature-dungeon-styles-20261104/S3-frost-tundra/out/S3-03-small-room.png",
+  "maker_thread": "01a1a5df-7c46-7fc0-a33d-cfc5b059d4d3",
+  "runtime_slot": null
+}

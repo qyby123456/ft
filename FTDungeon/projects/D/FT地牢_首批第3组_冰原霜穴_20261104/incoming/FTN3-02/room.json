@@ -1,0 +1,129 @@
+{
+  "code": "02",
+  "type": "medium-room",
+  "name": "冻石休憩室",
+  "size": [
+    13,
+    8,
+    19
+  ],
+  "id": "FTN3-02",
+  "entrance": [
+    6,
+    1,
+    0
+  ],
+  "interior": [
+    6,
+    1,
+    2
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "name": "north",
+      "facing": "north",
+      "position": [
+        6,
+        1,
+        0
+      ],
+      "width": 3,
+      "height": 4
+    },
+    {
+      "name": "south",
+      "facing": "south",
+      "position": [
+        6,
+        1,
+        18
+      ],
+      "width": 3,
+      "height": 4
+    }
+  ],
+  "courtyard_skylight": null,
+  "footprint": "rectangle",
+  "source_evidence": {
+    "code": "02",
+    "source_id": "betterstrongholds:rooms/mess",
+    "source_path": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\mess.nbt",
+    "source_sha256": "6288f048e9871b78aaa3744a2bd278512e9fb1fc11bd8d2dbd667b41900a2e08",
+    "details_path": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\mess.json",
+    "source_size": [
+      13,
+      8,
+      19
+    ],
+    "size": [
+      13,
+      8,
+      19
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "connectors": [
+      {
+        "position": [
+          12,
+          1,
+          10
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "east_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=none,south=tall,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        }
+      }
+    ],
+    "source_material_counts": {
+      "minecraft:stone_bricks": 867,
+      "minecraft:air": 799,
+      "minecraft:stone_brick_wall": 86,
+      "minecraft:stone_brick_stairs": 58,
+      "minecraft:cyan_terracotta": 33,
+      "minecraft:spruce_trapdoor": 21,
+      "minecraft:spruce_slab": 21,
+      "minecraft:oak_stairs": 16,
+      "minecraft:stone_brick_slab": 16,
+      "minecraft:wall_torch": 14,
+      "minecraft:oak_slab": 8,
+      "minecraft:gray_wall_banner": 8,
+      "minecraft:cobblestone": 7,
+      "minecraft:yellow_stained_glass": 4,
+      "minecraft:polished_blackstone_slab": 3,
+      "minecraft:chest": 3,
+      "minecraft:orange_stained_glass": 2,
+      "minecraft:scaffolding": 2,
+      "minecraft:oak_pressure_plate": 2,
+      "minecraft:polished_blackstone_stairs": 2,
+      "minecraft:crimson_button": 2,
+      "minecraft:polished_blackstone": 1,
+      "minecraft:jigsaw": 1
+    },
+    "adaptation": "Functional side furnishings with through circulation; original mess becomes frozen rest room.",
+    "interface_adaptation": "Original jigsaw metadata retained here as evidence only. Replaced by FT north-centred 3x4 clear entrances at feet Y=1; not YUNG runtime compatible.",
+    "palette_adaptation": "Retain vanilla stone_bricks/cracked/chiseled bricks and spruce support language; add snow_block/packed_ice/blue_ice for frost theme. Omit spawners, jigsaws, commands, entities, loot tables and original processors."
+  },
+  "reference": "D:/ft工程文件/image2.5/nature-dungeon-styles-20261104/S3-frost-tundra/out/S3-02-medium-room.png",
+  "maker_thread": "01a1a5df-7c46-7fc0-a33d-cfc5b059d4d3",
+  "runtime_slot": null,
+  "sha256": "56492917611b81e2076a90670fc615ed2e42ce43df550d9741310ab091c26177",
+  "reference_sha256": "ef6ac0ce264e8e94d11bd9a049f75637696f25d22dde8de548f2a87fe294d122",
+  "coordinates": "Local XYZ; +X east, +Y up, +Z south. Entrance/interior/connectors are player feet coordinates.",
+  "safety": "Dense explicit air: placer must reject occupied entire bounding box before placing; never clear or replace player buildings.",
+  "generation_status": "candidate-only; no installation or gameplay integration"
+}

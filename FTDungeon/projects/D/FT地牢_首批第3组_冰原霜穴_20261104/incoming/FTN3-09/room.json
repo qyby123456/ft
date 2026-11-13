@@ -1,0 +1,217 @@
+{
+  "code": "09",
+  "type": "treasure",
+  "name": "霜晶宝库祭台",
+  "size": [
+    19,
+    16,
+    19
+  ],
+  "id": "FTN3-09",
+  "entrance": [
+    9,
+    1,
+    0
+  ],
+  "interior": [
+    9,
+    1,
+    2
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "name": "north",
+      "facing": "north",
+      "position": [
+        9,
+        1,
+        0
+      ],
+      "width": 3,
+      "height": 4
+    }
+  ],
+  "courtyard_skylight": null,
+  "footprint": "rectangle",
+  "source_evidence": {
+    "code": "09",
+    "source_id": "betterstrongholds:rooms/treasure_room_lg",
+    "source_path": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\treasure_room_lg.nbt",
+    "source_sha256": "ddcb67048585585d56c4fb32af9be6668c72562515924ef33e682152cbf2c0fe",
+    "details_path": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\treasure_room_lg.json",
+    "source_size": [
+      19,
+      16,
+      19
+    ],
+    "size": [
+      19,
+      16,
+      19
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "connectors": [
+      {
+        "position": [
+          5,
+          1,
+          12
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "south_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_corner",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_corner"
+        }
+      },
+      {
+        "position": [
+          9,
+          1,
+          12
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "south_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_portal",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_portal"
+        }
+      },
+      {
+        "position": [
+          12,
+          1,
+          7
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "east_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_wall",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_wall"
+        }
+      },
+      {
+        "position": [
+          12,
+          1,
+          13
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "east_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_corner",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_corner"
+        }
+      },
+      {
+        "position": [
+          13,
+          1,
+          6
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "north_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_corner",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_corner"
+        }
+      },
+      {
+        "position": [
+          18,
+          9,
+          10
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "east_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=none,south=tall,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        }
+      }
+    ],
+    "source_material_counts": {
+      "minecraft:air": 2921,
+      "minecraft:stone_bricks": 1703,
+      "minecraft:stone_brick_stairs": 225,
+      "minecraft:stone_brick_slab": 84,
+      "minecraft:stone_brick_wall": 73,
+      "minecraft:polished_andesite_stairs": 14,
+      "minecraft:wall_torch": 13,
+      "minecraft:yellow_stained_glass": 9,
+      "minecraft:polished_andesite": 9,
+      "minecraft:gray_wall_banner": 8,
+      "minecraft:chiseled_stone_bricks": 6,
+      "minecraft:polished_andesite_slab": 6,
+      "minecraft:jigsaw": 6,
+      "minecraft:lantern": 3,
+      "minecraft:smithing_table": 1,
+      "minecraft:anvil": 1,
+      "minecraft:lectern": 1
+    },
+    "adaptation": "Treasure dead end with central raised focal point; no loot generation.",
+    "interface_adaptation": "Original jigsaw metadata retained here as evidence only. Replaced by FT north-centred 3x4 clear entrances at feet Y=1; not YUNG runtime compatible.",
+    "palette_adaptation": "Retain vanilla stone_bricks/cracked/chiseled bricks and spruce support language; add snow_block/packed_ice/blue_ice for frost theme. Omit spawners, jigsaws, commands, entities, loot tables and original processors."
+  },
+  "reference": "D:/ft工程文件/image2.5/nature-dungeon-styles-20261104/S3-frost-tundra/out/S3-09-treasure.png",
+  "maker_thread": "01a1a5df-7c46-7fc0-a33d-cfc5b059d4d3",
+  "runtime_slot": null,
+  "sha256": "5946f7534415430d6a8be5fced5992c909bd4376706fee32927e4768a1258dcc",
+  "reference_sha256": "02e32c303604c091c76fa0d7c5c4ee52a0b78c6b233317157f22504d098ab69b",
+  "coordinates": "Local XYZ; +X east, +Y up, +Z south. Entrance/interior/connectors are player feet coordinates.",
+  "safety": "Dense explicit air: placer must reject occupied entire bounding box before placing; never clear or replace player buildings.",
+  "generation_status": "candidate-only; no installation or gameplay integration"
+}
