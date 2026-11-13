@@ -1,0 +1,187 @@
+
+#Server-authoritative difficulty settings. Use /ftdungeon difficulty reload after editing; reload events apply within 20 ticks.
+#Only FT Dungeon Mobs are affected. Explicitly assigned tiers are not overwritten by world difficulty.
+[general]
+	#Automatically choose a tier from the vanilla world difficulty.
+	useWorldDifficulty = true
+	#Tier for automatic mobs when useWorldDifficulty is false.
+	#Range: 1 ~ 5
+	defaultTier = 1
+	#Range: 1 ~ 5
+	peacefulTier = 1
+	#Range: 1 ~ 5
+	easyTier = 1
+	#Range: 1 ~ 5
+	normalTier = 2
+	#Range: 1 ~ 5
+	hardTier = 3
+
+#Five independently configurable difficulty tiers. Multipliers affect the complete native attribute.
+[tiers]
+
+	[tiers.tier1]
+		#Maximum-health multiplier. Native attribute limits still apply.
+		#Range: 0.05 ~ 100.0
+		healthMultiplier = 1.0
+		#Native attack-damage multiplier, also applied once to native arrow base damage.
+		#Range: 0.0 ~ 100.0
+		attackMultiplier = 1.0
+		#Added to minecraft:generic.armor. This is armor points, not flat damage reduction.
+		#Range: -30.0 ~ 30.0
+		armorBonus = 0.0
+		#Added to irons_spellbooks:spell_resist (base 1.0), not physical armor.
+		#Final reduction uses Iron's native school resistance and soft cap, not a second damage hook.
+		#Range: -0.9 ~ 99.0
+		magicArmorBonus = 0.0
+		#Multiplies irons_spellbooks:spell_power once; spells use their native scaling.
+		#Range: 0.0 ~ 100.0
+		spellPowerMultiplier = 1.0
+
+	[tiers.tier2]
+		#Maximum-health multiplier. Native attribute limits still apply.
+		#Range: 0.05 ~ 100.0
+		healthMultiplier = 1.5
+		#Native attack-damage multiplier, also applied once to native arrow base damage.
+		#Range: 0.0 ~ 100.0
+		attackMultiplier = 1.2
+		#Added to minecraft:generic.armor. This is armor points, not flat damage reduction.
+		#Range: -30.0 ~ 30.0
+		armorBonus = 2.0
+		#Added to irons_spellbooks:spell_resist (base 1.0), not physical armor.
+		#Final reduction uses Iron's native school resistance and soft cap, not a second damage hook.
+		#Range: -0.9 ~ 99.0
+		magicArmorBonus = 0.1
+		#Multiplies irons_spellbooks:spell_power once; spells use their native scaling.
+		#Range: 0.0 ~ 100.0
+		spellPowerMultiplier = 1.2
+
+	[tiers.tier3]
+		#Maximum-health multiplier. Native attribute limits still apply.
+		#Range: 0.05 ~ 100.0
+		healthMultiplier = 2.0
+		#Native attack-damage multiplier, also applied once to native arrow base damage.
+		#Range: 0.0 ~ 100.0
+		attackMultiplier = 1.5
+		#Added to minecraft:generic.armor. This is armor points, not flat damage reduction.
+		#Range: -30.0 ~ 30.0
+		armorBonus = 4.0
+		#Added to irons_spellbooks:spell_resist (base 1.0), not physical armor.
+		#Final reduction uses Iron's native school resistance and soft cap, not a second damage hook.
+		#Range: -0.9 ~ 99.0
+		magicArmorBonus = 0.2
+		#Multiplies irons_spellbooks:spell_power once; spells use their native scaling.
+		#Range: 0.0 ~ 100.0
+		spellPowerMultiplier = 1.5
+
+	[tiers.tier4]
+		#Maximum-health multiplier. Native attribute limits still apply.
+		#Range: 0.05 ~ 100.0
+		healthMultiplier = 3.0
+		#Native attack-damage multiplier, also applied once to native arrow base damage.
+		#Range: 0.0 ~ 100.0
+		attackMultiplier = 1.85
+		#Added to minecraft:generic.armor. This is armor points, not flat damage reduction.
+		#Range: -30.0 ~ 30.0
+		armorBonus = 7.0
+		#Added to irons_spellbooks:spell_resist (base 1.0), not physical armor.
+		#Final reduction uses Iron's native school resistance and soft cap, not a second damage hook.
+		#Range: -0.9 ~ 99.0
+		magicArmorBonus = 0.35
+		#Multiplies irons_spellbooks:spell_power once; spells use their native scaling.
+		#Range: 0.0 ~ 100.0
+		spellPowerMultiplier = 1.85
+
+	[tiers.tier5]
+		#Maximum-health multiplier. Native attribute limits still apply.
+		#Range: 0.05 ~ 100.0
+		healthMultiplier = 4.0
+		#Native attack-damage multiplier, also applied once to native arrow base damage.
+		#Range: 0.0 ~ 100.0
+		attackMultiplier = 2.25
+		#Added to minecraft:generic.armor. This is armor points, not flat damage reduction.
+		#Range: -30.0 ~ 30.0
+		armorBonus = 10.0
+		#Added to irons_spellbooks:spell_resist (base 1.0), not physical armor.
+		#Final reduction uses Iron's native school resistance and soft cap, not a second damage hook.
+		#Range: -0.9 ~ 99.0
+		magicArmorBonus = 0.5
+		#Multiplies irons_spellbooks:spell_power once; spells use their native scaling.
+		#Range: 0.0 ~ 100.0
+		spellPowerMultiplier = 2.25
+
+#Per-monster adjustments, composed with its tier and per-entity overrides.
+#Health, attack and spell multipliers multiply; armor and magic armor bonuses add.
+[mobs]
+
+	[mobs.skeleton_warrior]
+		#Maximum-health multiplier. Native attribute limits still apply.
+		#Range: 0.05 ~ 100.0
+		healthMultiplier = 1.0
+		#Native attack-damage multiplier, also applied once to native arrow base damage.
+		#Range: 0.0 ~ 100.0
+		attackMultiplier = 1.0
+		#Added to minecraft:generic.armor. This is armor points, not flat damage reduction.
+		#Range: -30.0 ~ 30.0
+		armorBonus = 0.0
+		#Added to irons_spellbooks:spell_resist (base 1.0), not physical armor.
+		#Final reduction uses Iron's native school resistance and soft cap, not a second damage hook.
+		#Range: -0.9 ~ 99.0
+		magicArmorBonus = 0.0
+		#Multiplies irons_spellbooks:spell_power once; spells use their native scaling.
+		#Range: 0.0 ~ 100.0
+		spellPowerMultiplier = 1.0
+
+	[mobs.skeleton_archer]
+		#Maximum-health multiplier. Native attribute limits still apply.
+		#Range: 0.05 ~ 100.0
+		healthMultiplier = 1.0
+		#Native attack-damage multiplier, also applied once to native arrow base damage.
+		#Range: 0.0 ~ 100.0
+		attackMultiplier = 1.0
+		#Added to minecraft:generic.armor. This is armor points, not flat damage reduction.
+		#Range: -30.0 ~ 30.0
+		armorBonus = 0.0
+		#Added to irons_spellbooks:spell_resist (base 1.0), not physical armor.
+		#Final reduction uses Iron's native school resistance and soft cap, not a second damage hook.
+		#Range: -0.9 ~ 99.0
+		magicArmorBonus = 0.0
+		#Multiplies irons_spellbooks:spell_power once; spells use their native scaling.
+		#Range: 0.0 ~ 100.0
+		spellPowerMultiplier = 1.0
+
+	[mobs.skeleton_mage]
+		#Maximum-health multiplier. Native attribute limits still apply.
+		#Range: 0.05 ~ 100.0
+		healthMultiplier = 1.0
+		#Native attack-damage multiplier, also applied once to native arrow base damage.
+		#Range: 0.0 ~ 100.0
+		attackMultiplier = 1.0
+		#Added to minecraft:generic.armor. This is armor points, not flat damage reduction.
+		#Range: -30.0 ~ 30.0
+		armorBonus = 0.0
+		#Added to irons_spellbooks:spell_resist (base 1.0), not physical armor.
+		#Final reduction uses Iron's native school resistance and soft cap, not a second damage hook.
+		#Range: -0.9 ~ 99.0
+		magicArmorBonus = 0.0
+		#Multiplies irons_spellbooks:spell_power once; spells use their native scaling.
+		#Range: 0.0 ~ 100.0
+		spellPowerMultiplier = 1.0
+
+	[mobs.skeleton_king]
+		#Maximum-health multiplier. Native attribute limits still apply.
+		#Range: 0.05 ~ 100.0
+		healthMultiplier = 1.0
+		#Native attack-damage multiplier, also applied once to native arrow base damage.
+		#Range: 0.0 ~ 100.0
+		attackMultiplier = 1.0
+		#Added to minecraft:generic.armor. This is armor points, not flat damage reduction.
+		#Range: -30.0 ~ 30.0
+		armorBonus = 0.0
+		#Added to irons_spellbooks:spell_resist (base 1.0), not physical armor.
+		#Final reduction uses Iron's native school resistance and soft cap, not a second damage hook.
+		#Range: -0.9 ~ 99.0
+		magicArmorBonus = 0.0
+		#Multiplies irons_spellbooks:spell_power once; spells use their native scaling.
+		#Range: 0.0 ~ 100.0
+		spellPowerMultiplier = 1.0
+
