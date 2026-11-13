@@ -1,0 +1,241 @@
+{
+  "elements": [
+    {
+      "name": "cube_outline",
+      "from": [
+        10.52,
+        7.92,
+        10.52
+      ],
+      "to": [
+        5.48,
+        7.2,
+        5.48
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          5.48,
+          7.2,
+          5.48
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            0,
+            12.5,
+            0.5
+          ],
+          "texture": "#4"
+        },
+        "east": {
+          "uv": [
+            9,
+            0,
+            12.5,
+            0.5
+          ],
+          "texture": "#4"
+        },
+        "south": {
+          "uv": [
+            9,
+            0,
+            12.5,
+            0.5
+          ],
+          "texture": "#4"
+        },
+        "west": {
+          "uv": [
+            9,
+            0,
+            12.5,
+            0.5
+          ],
+          "texture": "#4"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            12.5,
+            0,
+            9
+          ],
+          "texture": "#4"
+        },
+        "down": {
+          "uv": [
+            0,
+            9,
+            3.5,
+            12.5
+          ],
+          "texture": "#4"
+        }
+      }
+    },
+    {
+      "from": [
+        4.76,
+        0,
+        4.76
+      ],
+      "to": [
+        11.24,
+        7.92,
+        11.24
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          4.76,
+          0,
+          4.76
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            4.5,
+            5.5
+          ],
+          "texture": "#4"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4.5,
+            5.5
+          ],
+          "texture": "#4"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            4.5,
+            5.5
+          ],
+          "texture": "#4"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4.5,
+            5.5
+          ],
+          "texture": "#4"
+        },
+        "up": {
+          "uv": [
+            9,
+            4.5,
+            4.5,
+            0
+          ],
+          "texture": "#4"
+        },
+        "down": {
+          "texture": "#cup_bottom",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "name": "cup_part_1"
+    },
+    {
+      "name": "closed_cup_bottom",
+      "to": [
+        10.52,
+        0.9,
+        10.52
+      ],
+      "faces": {
+        "up": {
+          "texture": "#cup_bottom",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "from": [
+        5.48,
+        0.82,
+        5.48
+      ]
+    },
+    {
+      "name": "inner_cup_walls",
+      "to": [
+        5.48,
+        0.9,
+        5.48
+      ],
+      "faces": {
+        "north": {
+          "texture": "#4",
+          "uv": [
+            0.5,
+            0.5,
+            4,
+            4.875
+          ]
+        },
+        "east": {
+          "texture": "#4",
+          "uv": [
+            0.5,
+            0.5,
+            4,
+            4.875
+          ]
+        },
+        "south": {
+          "texture": "#4",
+          "uv": [
+            0.5,
+            0.5,
+            4,
+            4.875
+          ]
+        },
+        "west": {
+          "texture": "#4",
+          "uv": [
+            0.5,
+            0.5,
+            4,
+            4.875
+          ]
+        }
+      },
+      "from": [
+        10.52,
+        7.2,
+        10.52
+      ]
+    }
+  ],
+  "textures": {
+    "4": "farmingtales_drink_anim:cups/light_beer_cup_1_4",
+    "particle": "farmingtales_drink_anim:cups/light_beer_cup_1_4",
+    "cup_bottom": "farmingtales_drink_anim:cups/light_beer_cup_1_bottom"
+  },
+  "render_type": "minecraft:cutout"
+}

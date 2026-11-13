@@ -1,0 +1,9 @@
+农场物语-饮用与检视动画 1.8.25 / 紫菜 / ARR
+drink、drink_variant_2、drink_variant_3、drink_variant_4 对应四种食用变化：不同的抬手弧线、轻微调整和收手回稳。游戏每次食用选择一种，相邻动作不重复；不改开盖与消耗时间。
+食用 camera 轻微滞后跟随手部。idle 保留连续 4 秒呼吸，检视 camera 幅度不变。
+安装 cameras.js 后关联 camera_first_person 查看第一人称。Steve / 纤细手臂分别适配。
+游戏内 V 食用、G 检视，均可改键；普通右键保持原版。
+液体在 Blockbench 中近似表达，游戏使用连续裁切与手部遮挡。
+
+1.8.25：按指定时长统一切换动作：放回 0.45 秒（9 ticks），取出 0.5 秒（10 ticks），酒水、杯装饮品和酱罐相同。完整切换动画合计 0.95 秒。保留果酱食用音量增益 35%；食用、检视、吃完补拿及四种动作变化保持原样。
+Blockbench v54 同步更新 draw、put_away、preview_complete，其余轨迹沿用 v53。

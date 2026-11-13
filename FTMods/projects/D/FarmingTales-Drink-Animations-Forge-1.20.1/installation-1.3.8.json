@@ -1,0 +1,14 @@
+{
+  "installed_at": "2026-09-13T11:16:42.129474+08:00",
+  "installed": "Z:\\mods\\[农场物语-饮用与检视动画]farmingtales_drink_anim-1.3.8.jar",
+  "sha256": "2e3ca4f2ecc83b3814c4c213002c728f05560efff6f3bbd876e3563fb905c2a1",
+  "backup": "Z:\\workspace\\projects\\FarmingTales-Drink-Animations-Forge-1.20.1\\backups\\1.3.7-before-grilling-startup-fix\\[农场物语-饮用与检视动画]farmingtales_drink_anim-1.3.7.jar",
+  "fix": "Remove DrinkUseSoundMixin Redirect conflicting with Grilling LivingEntitySkewerEatingSoundMixin; use Forge PlaySoundEvent only during hotkey drinking. Vanilla right-click sounds retained.",
+  "unit_tests": 25,
+  "smoke_checks": {
+    "slim": 26,
+    "wide": 26
+  },
+  "scope": "Forge 47.4.10 development client, same-ID fixture, installed Grilling 1.1.1, Cookery 1.4.1, ImmersiveEating 1.4.3, GeckoLib 4.8.4, Embeddium 0.3.31, Oculus (Mekalus) 1.8.0.1 and the configured Complementary/Euphoria shader pack. Slim uses the current player skin. Full modpack not tested.",
+  "blockbench": "Existing v14 animation files unchanged."
+}

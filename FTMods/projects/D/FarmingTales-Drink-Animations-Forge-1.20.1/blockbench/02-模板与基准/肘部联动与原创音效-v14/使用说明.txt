@@ -1,0 +1,14 @@
+农场物语-橙子果酒 动画工程 v14 / mod 1.3.7
+
+纤细手臂版：3 像素完整手臂，内嵌玩家当前预览皮肤。
+Steve 版：4 像素完整手臂。
+
+在 Blockbench 打开对应 bbmodel。插件菜单选择从文件加载 cameras.js，在动画模式使用 camera_first_person 查看第一人称。
+预览 animation.orange_wine.preview_complete；完整饮用与换瓶使用 animation.orange_wine.drink。
+right_elbow / left_elbow 是整条方块手臂的父支点，手臂保持完整 12 像素，没有分段弯折或非等比拉伸。
+
+检视每转 90° 停顿 0.45 秒，总长 5.2 秒。食用与换瓶 7.35 秒。按游戏同一套轨迹导出稀疏 Bezier 曲线，camera 有独立动画。
+游戏正常右键仍为原版使用；V 热键播放自定义饮用，G 检视，键位可在设置更换。
+
+纤细版预览含 60 fps 动画视频、按实际游戏声音触发时间配制的原创音效、游戏换瓶衔接截图。
+Blockbench 中酒液使用占位体示意容量；游戏的液面惯性、流动和波纹由代码计算。实际模组读取玩家自己的皮肤，不会强制替换皮肤。

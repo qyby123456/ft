@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.farmingtales.drinkanim.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "farmingtales_drink_anim.refmap.json",
+  "client": [
+    "UseReleaseMixin",
+    "FoodEatTransformMixin",
+    "BottleHandBobMixin",
+    "DrinkMovementMixin",
+    "DrinkPlacementMixin",
+    "JarEatingParticlesMixin",
+    "JarServerEatingParticlesMixin",
+    "PunchyConfigMixin",
+    "PunchyCameraMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

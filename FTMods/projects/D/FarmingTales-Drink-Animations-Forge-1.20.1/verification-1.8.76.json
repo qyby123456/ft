@@ -1,0 +1,39 @@
+{
+  "version": "1.8.76",
+  "sha256": "1d0306fb001d8b7f65c3928b398fd3c777fcc4bbbec020ece46d7396c38b5338",
+  "previous_sha256": "52a704de512a58c7b9f75666850b8613f0795cafdf340503609ef526ca5d78d9",
+  "configuration_sha256": "78f27845cbc3e667450852f57bb5a55eb85f7ee784baca8faa7aa80f1b88c211",
+  "unit_tests": 201,
+  "client_logs": [
+    "preview/verify-punchy-final-1.8.76.log",
+    "preview/verify-no-model-1.8.76.log",
+    "preview/verify-ysm-right-1.8.76.log",
+    "preview/verify-ysm-left-1.8.76.log"
+  ],
+  "scope": "Optional YSM 2.6.5 model arm rendering via Forge RenderArmEvent, retaining skin fallback; optional Punchy 2.8a hand and camera yielding during our first-person rendering, restoring for ordinary use, third person, disabling and stowing. No optional mods installed in the real pack. Existing animations, models, textures and user metadata preserved.",
+  "ysm_validation": {
+    "runtime": "Isolated production Forge 47.4.10, Java 17, original YSM JAR, no Java agent",
+    "model": "YSM built-in default",
+    "dominant_hands": [
+      "right",
+      "left"
+    ],
+    "items": [
+      "papercraft_magic_decoration:ferry_whiskey",
+      "farmingtales:orange_wine"
+    ],
+    "notes": "ForgeGradle mapped development runtime rejects YSM native loader with err:54; successful validation used normal production runtime. Custom third-party YSM model proportions are not individually tested."
+  },
+  "pack_optional_mods_installed": false,
+  "pack_audit": {
+    "added": [
+      "[食刻生动]drink_anim-1.8.76.jar"
+    ],
+    "removed_observed": [
+      "[食刻生动]drink_anim-1.8.75.jar",
+      "[武器重制]farmingtales_armamentarium_reworked-1.3.1-ft.3.jar"
+    ],
+    "unchanged_remaining_jars": true,
+    "note": "An unrelated armamentarium JAR disappeared concurrently; this task did not modify or restore it."
+  }
+}

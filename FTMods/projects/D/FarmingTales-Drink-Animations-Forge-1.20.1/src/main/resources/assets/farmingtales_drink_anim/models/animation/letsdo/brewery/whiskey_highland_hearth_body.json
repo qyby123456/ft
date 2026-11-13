@@ -1,0 +1,651 @@
+{
+  "textures": {
+    "1": "farmingtales_drink_anim:letsdo/brewery/whiskey_highland_hearth_1",
+    "particle": "farmingtales_drink_anim:letsdo/brewery/whiskey_highland_hearth_particle",
+    "glass_0_north": "farmingtales_drink_anim:letsdo/brewery/whiskey_highland_hearth_glass_0_north",
+    "glass_0_east": "farmingtales_drink_anim:letsdo/brewery/whiskey_highland_hearth_glass_0_east",
+    "glass_0_south": "farmingtales_drink_anim:letsdo/brewery/whiskey_highland_hearth_glass_0_south",
+    "glass_0_west": "farmingtales_drink_anim:letsdo/brewery/whiskey_highland_hearth_glass_0_west",
+    "glass_0_up": "farmingtales_drink_anim:letsdo/brewery/whiskey_highland_hearth_glass_0_up",
+    "glass_0_down": "farmingtales_drink_anim:letsdo/brewery/whiskey_highland_hearth_glass_0_down"
+  },
+  "render_type": "minecraft:cutout",
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        10,
+        13
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          3,
+          0,
+          3
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#glass_0_north"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#glass_0_east"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#glass_0_south"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#glass_0_west"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#glass_0_up"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#glass_0_down"
+        }
+      },
+      "name": "source_0"
+    },
+    {
+      "from": [
+        6,
+        13,
+        6
+      ],
+      "to": [
+        10,
+        15,
+        10
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          6
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            2,
+            10,
+            4
+          ],
+          "texture": "#particle"
+        },
+        "east": {
+          "uv": [
+            6,
+            2,
+            10,
+            4
+          ],
+          "texture": "#particle"
+        },
+        "south": {
+          "uv": [
+            6,
+            2,
+            10,
+            4
+          ],
+          "texture": "#particle"
+        },
+        "west": {
+          "uv": [
+            6,
+            2,
+            10,
+            4
+          ],
+          "texture": "#particle"
+        },
+        "down": {
+          "uv": [
+            9,
+            3,
+            10,
+            4
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "source_2"
+    },
+    {
+      "from": [
+        7,
+        10,
+        7
+      ],
+      "to": [
+        9,
+        15,
+        9
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            1.0,
+            9,
+            6.0
+          ],
+          "texture": "#particle"
+        },
+        "east": {
+          "uv": [
+            7,
+            1.0,
+            9,
+            6.0
+          ],
+          "texture": "#particle"
+        },
+        "south": {
+          "uv": [
+            7,
+            1.0,
+            9,
+            6.0
+          ],
+          "texture": "#particle"
+        },
+        "west": {
+          "uv": [
+            7,
+            1.0,
+            9,
+            6.0
+          ],
+          "texture": "#particle"
+        },
+        "down": {
+          "uv": [
+            7,
+            4,
+            9,
+            6
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "source_1"
+    },
+    {
+      "from": [
+        6,
+        15,
+        6
+      ],
+      "to": [
+        7,
+        15,
+        10
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          6
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            10.0,
+            0.0,
+            11.0,
+            4.0
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "source_2_up_mouth_0"
+    },
+    {
+      "from": [
+        9,
+        15,
+        6
+      ],
+      "to": [
+        10,
+        15,
+        10
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          6
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            13.0,
+            0.0,
+            14.0,
+            4.0
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "source_2_up_mouth_1"
+    },
+    {
+      "from": [
+        7,
+        15,
+        6
+      ],
+      "to": [
+        9,
+        15,
+        7
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          6
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            11.0,
+            0.0,
+            13.0,
+            1.0
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "source_2_up_mouth_2"
+    },
+    {
+      "from": [
+        7,
+        15,
+        9
+      ],
+      "to": [
+        9,
+        15,
+        10
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          6
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            11.0,
+            3.0,
+            13.0,
+            4.0
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "source_2_up_mouth_3"
+    },
+    {
+      "from": [
+        7,
+        14,
+        7
+      ],
+      "to": [
+        9,
+        15,
+        7
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          6
+        ]
+      },
+      "faces": {
+        "south": {
+          "uv": [
+            7.0,
+            2.0,
+            9.0,
+            3.0
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "mouth_inside_north_15"
+    },
+    {
+      "from": [
+        7,
+        14,
+        9
+      ],
+      "to": [
+        9,
+        15,
+        9
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          6
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            7.0,
+            2.0,
+            9.0,
+            3.0
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "mouth_inside_south_15"
+    },
+    {
+      "from": [
+        9,
+        14,
+        7
+      ],
+      "to": [
+        9,
+        15,
+        9
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          6
+        ]
+      },
+      "faces": {
+        "west": {
+          "uv": [
+            7.0,
+            2.0,
+            9.0,
+            3.0
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "mouth_inside_east_15"
+    },
+    {
+      "from": [
+        7,
+        14,
+        7
+      ],
+      "to": [
+        7,
+        15,
+        9
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          6
+        ]
+      },
+      "faces": {
+        "east": {
+          "uv": [
+            7.0,
+            2.0,
+            9.0,
+            3.0
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "mouth_inside_west_15"
+    },
+    {
+      "from": [
+        7,
+        13,
+        7
+      ],
+      "to": [
+        9,
+        14,
+        7
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          6
+        ]
+      },
+      "faces": {
+        "south": {
+          "uv": [
+            7.0,
+            2.0,
+            9.0,
+            3.0
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "mouth_inside_north_14"
+    },
+    {
+      "from": [
+        7,
+        13,
+        9
+      ],
+      "to": [
+        9,
+        14,
+        9
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          6
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            7.0,
+            2.0,
+            9.0,
+            3.0
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "mouth_inside_south_14"
+    },
+    {
+      "from": [
+        9,
+        13,
+        7
+      ],
+      "to": [
+        9,
+        14,
+        9
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          6
+        ]
+      },
+      "faces": {
+        "west": {
+          "uv": [
+            7.0,
+            2.0,
+            9.0,
+            3.0
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "mouth_inside_east_14"
+    },
+    {
+      "from": [
+        7,
+        13,
+        7
+      ],
+      "to": [
+        7,
+        14,
+        9
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          0,
+          6
+        ]
+      },
+      "faces": {
+        "east": {
+          "uv": [
+            7.0,
+            2.0,
+            9.0,
+            3.0
+          ],
+          "texture": "#particle"
+        }
+      },
+      "name": "mouth_inside_west_14"
+    },
+    {
+      "name": "mouth_interior_floor",
+      "from": [
+        7,
+        13,
+        7
+      ],
+      "to": [
+        9,
+        13,
+        9
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            8.5,
+            2.5,
+            8.5,
+            2.5
+          ],
+          "texture": "#particle"
+        }
+      }
+    }
+  ]
+}

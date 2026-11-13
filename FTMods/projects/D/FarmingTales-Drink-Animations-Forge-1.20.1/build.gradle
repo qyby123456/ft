@@ -1,0 +1,123 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.38'
+}
+version = '1.8.82'
+group = 'com.farmingtales.drinkanim'
+base { archivesName = 'farmingtales_drink_anim' }
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+sourceSets { smoke { compileClasspath += sourceSets.main.output; runtimeClasspath += sourceSets.main.output } }
+configurations { smokeImplementation.extendsFrom implementation; smokeRuntimeOnly.extendsFrom runtimeOnly }
+tasks.withType(JavaCompile).configureEach {
+    options.release = 17
+    options.encoding = 'UTF-8'
+}
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'info'
+            mods { farmingtales_drink_anim { source sourceSets.main } }
+        }
+        smokeClient {
+            parent minecraft.runs.client
+            workingDirectory project.file('run-smoke')
+            taskName 'runSmokeClient'
+            if (project.findProperty('visibleSmoke') != 'true') {
+                jvmArgs '--add-exports=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED',
+                    '-javaagent:' + project.file('preview/silent/silent-client-agent.jar').absolutePath
+            }
+            property 'forge.logging.console.level', 'info'
+            args '--width', '1920', '--height', '774', '--username', project.findProperty('smokeUsername') ?: 'SlimSmoke'
+            property 'farmingtales.catalogSmoke', project.findProperty('catalogSmoke') ?: 'false'
+            property 'farmingtales.smokeDrinks', project.findProperty('smokeDrinks') ?: ''
+            property 'farmingtales.capturePerformances', project.findProperty('capturePerformances') ?: 'false'
+            property 'farmingtales.smokeLeftHand', project.findProperty('smokeLeftHand') ?: 'false'
+            property 'farmingtales.captureSmooth', project.findProperty('captureSmooth') ?: 'false'
+            property 'farmingtales.breathingSmoke', project.findProperty('breathingSmoke') ?: 'false'
+            property 'farmingtales.eatingSmoke', project.findProperty('eatingSmoke') ?: 'false'
+            property 'farmingtales.switchSmoke', project.findProperty('switchSmoke') ?: 'false'
+            property 'farmingtales.catalogOnlySmoke', project.findProperty('catalogOnlySmoke') ?: 'false'
+            property 'farmingtales.agedSmoke', project.findProperty('agedSmoke') ?: 'false'
+            property 'farmingtales.bottleSurfaceSmoke', project.findProperty('bottleSurfaceSmoke') ?: 'false'
+            property 'farmingtales.letsdoLiquidSmoke', project.findProperty('letsdoLiquidSmoke') ?: 'false'
+            property 'farmingtales.placementSmoke', project.findProperty('placementSmoke') ?: 'false'
+            property 'farmingtales.shaderSmoke', project.findProperty('shaderSmoke') ?: 'false'
+            mods {
+                farmingtales_drink_anim { source sourceSets.main }
+                drink_animation_smoke { source sourceSets.smoke }
+            }
+        }
+    }
+}
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+}
+if (project.findProperty('compatSmoke') == 'true') {
+    repositories { flatDir { dirs project.file('compat-libs') } }
+    dependencies {
+        smokeRuntimeOnly fg.deobf('compat:embeddium:0.3.31')
+        smokeRuntimeOnly fg.deobf('compat:mekalus:1.8.0.1')
+    }
+}
+if (project.findProperty('grillingSmoke') == 'true') {
+    repositories { flatDir { dirs project.file('compat-libs') } }
+    dependencies {
+        smokeRuntimeOnly fg.deobf('compat:kaleidoscope-grilling:1.1.1')
+        smokeRuntimeOnly fg.deobf('compat:kaleidoscope-cookery:1.4.1')
+        smokeRuntimeOnly fg.deobf('compat:immersive-eating:1.4.3')
+        smokeRuntimeOnly fg.deobf('compat:geckolib:4.8.4')
+    }
+    minecraft.runs.smokeClient.property 'farmingtales.grillingSmoke', 'true'
+}
+// These user-supplied optional mods run only in the isolated compatibility client.
+if (project.findProperty('modelCompatSmoke') in ['ysm', 'punchy']) {
+    def modelCompat = project.property('modelCompatSmoke')
+    repositories { flatDir { dirs project.file('compat-libs') } }
+    dependencies {
+        smokeRuntimeOnly fg.deobf(modelCompat == 'ysm'
+            ? 'compat:ysm:2.6.5-forge+mc1.20.1-release'
+            : 'compat:punchy:2.8a-forge-1.20.1')
+    }
+    minecraft.runs.smokeClient.property 'farmingtales.modelCompatSmoke', modelCompat
+}
+mixin {
+    add sourceSets.main, 'farmingtales_drink_anim.refmap.json'
+    config 'farmingtales_drink_anim.mixins.json'
+}
+tasks.named('test', Test) { useJUnitPlatform() }
+tasks.register('exportAnimationTracks', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.farmingtales.drinkanim/math/ExportAnimations'.replace('/', '.')
+}
+tasks.register('exportHandMeshes', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.farmingtales.drinkanim.client.ExportHandMeshes'
+}
+tasks.register('exportDrinkAnimations', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.farmingtales.drinkanim.math.ExportDrinkAnimations'
+    if(project.hasProperty('exportDrink'))args project.property('exportDrink')
+}
+tasks.named('jar', Jar) {
+    manifest { attributes('MixinConfigs': 'farmingtales_drink_anim.mixins.json') }
+    finalizedBy 'reobfJar'
+}
+
+// Fixture for testing native mods in an ordinary, unmapped Forge client.
+tasks.register('smokeJar', Jar) {
+    from sourceSets.smoke.output
+    archiveClassifier = 'smoke-fixture'
+}
+reobf { smokeJar {} }
+
+
