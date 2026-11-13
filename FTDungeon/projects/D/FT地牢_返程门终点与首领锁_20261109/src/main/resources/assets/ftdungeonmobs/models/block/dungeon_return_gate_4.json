@@ -1,0 +1,47 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "body": "ftdungeonmobs:block/dungeon_gate",
+    "portal": "ftdungeonmobs:block/dungeon_return_gate_portal",
+    "flame": "ftdungeonmobs:block/dungeon_gate_flame",
+    "particle": "ftdungeonmobs:block/dungeon_gate"
+  },
+  "elements": [
+    {
+      "name": "冷雾空间封门",
+      "from": [
+        0,
+        0,
+        13
+      ],
+      "to": [
+        16,
+        16,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.4285714285714284,
+            6.901960784313726,
+            12.571428571428571,
+            11.92156862745098
+          ],
+          "texture": "#portal",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [
+            3.4285714285714284,
+            6.901960784313726,
+            12.571428571428571,
+            11.92156862745098
+          ],
+          "texture": "#portal",
+          "tintindex": 0
+        }
+      },
+      "shade": false
+    }
+  ]
+}

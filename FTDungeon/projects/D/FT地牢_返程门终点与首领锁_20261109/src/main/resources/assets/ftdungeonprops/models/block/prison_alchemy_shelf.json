@@ -1,0 +1,1325 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile1": "ftdungeonprops:block/remake-furnishings_01",
+    "tile4": "ftdungeonprops:block/remake-furnishings_04",
+    "tile0": "ftdungeonprops:block/remake-furnishings_00",
+    "tile9": "ftdungeonprops:block/remake-furnishings_09",
+    "tile12": "ftdungeonprops:block/remake-furnishings_12",
+    "tile11": "ftdungeonprops:block/remake-furnishings_11",
+    "tile10": "ftdungeonprops:block/remake-furnishings_10",
+    "particle": "ftdungeonprops:block/remake-furnishings_01"
+  },
+  "elements": [
+    {
+      "name": "deep ground shelf plinth",
+      "from": [
+        1,
+        0,
+        5
+      ],
+      "to": [
+        15,
+        2,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            5,
+            14,
+            14,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            2,
+            14,
+            11,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            1,
+            5,
+            15,
+            14
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            1,
+            2,
+            15,
+            11
+          ],
+          "texture": "#tile1",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "left full depth stile",
+      "from": [
+        1,
+        2,
+        6
+      ],
+      "to": [
+        3,
+        15,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            1,
+            15,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            1,
+            1,
+            3,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            6,
+            1,
+            14,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            2,
+            1,
+            10,
+            14
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "right full depth stile",
+      "from": [
+        13,
+        2,
+        6
+      ],
+      "to": [
+        15,
+        15,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            3,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            13,
+            1,
+            15,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            6,
+            1,
+            14,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            2,
+            1,
+            10,
+            14
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "projecting intermediate shelf",
+      "from": [
+        3,
+        7,
+        5
+      ],
+      "to": [
+        13,
+        8,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            8,
+            13,
+            9
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            3,
+            8,
+            13,
+            9
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            5,
+            8,
+            14,
+            9
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            2,
+            8,
+            11,
+            9
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            3,
+            5,
+            13,
+            14
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            3,
+            2,
+            13,
+            11
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "deep overhanging top cornice",
+      "from": [
+        1,
+        15,
+        5
+      ],
+      "to": [
+        15,
+        16,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            0,
+            15,
+            1
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            1,
+            0,
+            15,
+            1
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            5,
+            0,
+            14,
+            1
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            2,
+            0,
+            11,
+            1
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            1,
+            5,
+            15,
+            14
+          ],
+          "texture": "#tile4",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            1,
+            2,
+            15,
+            11
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "lower open back retaining rail",
+      "from": [
+        3,
+        3,
+        13
+      ],
+      "to": [
+        13,
+        5,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            11,
+            13,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            3,
+            11,
+            13,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            3,
+            13,
+            13,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "down": {
+          "uv": [
+            3,
+            2,
+            13,
+            3
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "upper open back retaining rail",
+      "from": [
+        3,
+        10,
+        13
+      ],
+      "to": [
+        13,
+        12,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            4,
+            13,
+            6
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            3,
+            4,
+            13,
+            6
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            3,
+            13,
+            13,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "down": {
+          "uv": [
+            3,
+            2,
+            13,
+            3
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "lower tall bound folio",
+      "from": [
+        3,
+        2,
+        7
+      ],
+      "to": [
+        5,
+        6,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            10,
+            13,
+            14
+          ],
+          "texture": "#tile9"
+        },
+        "south": {
+          "uv": [
+            3,
+            10,
+            5,
+            14
+          ],
+          "texture": "#tile9"
+        },
+        "east": {
+          "uv": [
+            5,
+            10,
+            9,
+            14
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            3,
+            7,
+            5,
+            11
+          ],
+          "texture": "#tile12"
+        }
+      }
+    },
+    {
+      "name": "lower parchment bound volume",
+      "from": [
+        5,
+        2,
+        8
+      ],
+      "to": [
+        7,
+        5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            11,
+            11,
+            14
+          ],
+          "texture": "#tile12"
+        },
+        "south": {
+          "uv": [
+            5,
+            11,
+            7,
+            14
+          ],
+          "texture": "#tile9"
+        },
+        "west": {
+          "uv": [
+            8,
+            11,
+            12,
+            14
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            5,
+            8,
+            7,
+            12
+          ],
+          "texture": "#tile12"
+        }
+      }
+    },
+    {
+      "name": "lower slim oxblood volume",
+      "from": [
+        7,
+        2,
+        8
+      ],
+      "to": [
+        8,
+        6,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            10,
+            9,
+            14
+          ],
+          "texture": "#tile9"
+        },
+        "south": {
+          "uv": [
+            7,
+            10,
+            8,
+            14
+          ],
+          "texture": "#tile9"
+        },
+        "west": {
+          "uv": [
+            8,
+            10,
+            12,
+            14
+          ],
+          "texture": "#tile9"
+        },
+        "east": {
+          "uv": [
+            4,
+            10,
+            8,
+            14
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            7,
+            8,
+            8,
+            12
+          ],
+          "texture": "#tile12"
+        }
+      }
+    },
+    {
+      "name": "front horizontal closed book",
+      "from": [
+        4,
+        2,
+        5
+      ],
+      "to": [
+        9,
+        3,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            13,
+            12,
+            14
+          ],
+          "texture": "#tile12"
+        },
+        "south": {
+          "uv": [
+            4,
+            13,
+            9,
+            14
+          ],
+          "texture": "#tile9"
+        },
+        "west": {
+          "uv": [
+            5,
+            13,
+            7,
+            14
+          ],
+          "texture": "#tile9"
+        },
+        "east": {
+          "uv": [
+            9,
+            13,
+            11,
+            14
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            4,
+            5,
+            9,
+            7
+          ],
+          "texture": "#tile9"
+        }
+      }
+    },
+    {
+      "name": "front horizontal parchment book",
+      "from": [
+        4,
+        3,
+        5
+      ],
+      "to": [
+        8,
+        4,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            12,
+            12,
+            13
+          ],
+          "texture": "#tile12"
+        },
+        "south": {
+          "uv": [
+            4,
+            12,
+            8,
+            13
+          ],
+          "texture": "#tile12"
+        },
+        "west": {
+          "uv": [
+            5,
+            12,
+            7,
+            13
+          ],
+          "texture": "#tile12"
+        },
+        "east": {
+          "uv": [
+            9,
+            12,
+            11,
+            13
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            4,
+            5,
+            8,
+            7
+          ],
+          "texture": "#tile9"
+        }
+      }
+    },
+    {
+      "name": "lower amber medicine body",
+      "from": [
+        10,
+        2,
+        7
+      ],
+      "to": [
+        13,
+        4,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            12,
+            6,
+            14
+          ],
+          "texture": "#tile11"
+        },
+        "south": {
+          "uv": [
+            10,
+            12,
+            13,
+            14
+          ],
+          "texture": "#tile11"
+        },
+        "west": {
+          "uv": [
+            7,
+            12,
+            10,
+            14
+          ],
+          "texture": "#tile11"
+        },
+        "up": {
+          "uv": [
+            10,
+            7,
+            13,
+            10
+          ],
+          "texture": "#tile11"
+        }
+      }
+    },
+    {
+      "name": "lower amber narrow neck",
+      "from": [
+        11,
+        4,
+        8
+      ],
+      "to": [
+        12,
+        5,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            11,
+            5,
+            12
+          ],
+          "texture": "#tile11"
+        },
+        "south": {
+          "uv": [
+            11,
+            11,
+            12,
+            12
+          ],
+          "texture": "#tile11"
+        },
+        "west": {
+          "uv": [
+            8,
+            11,
+            9,
+            12
+          ],
+          "texture": "#tile11"
+        },
+        "east": {
+          "uv": [
+            7,
+            11,
+            8,
+            12
+          ],
+          "texture": "#tile11"
+        }
+      }
+    },
+    {
+      "name": "lower amber cork",
+      "from": [
+        11,
+        5,
+        8
+      ],
+      "to": [
+        12,
+        6,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            10,
+            5,
+            11
+          ],
+          "texture": "#tile4"
+        },
+        "south": {
+          "uv": [
+            11,
+            10,
+            12,
+            11
+          ],
+          "texture": "#tile4"
+        },
+        "west": {
+          "uv": [
+            8,
+            10,
+            9,
+            11
+          ],
+          "texture": "#tile4"
+        },
+        "east": {
+          "uv": [
+            7,
+            10,
+            8,
+            11
+          ],
+          "texture": "#tile4"
+        },
+        "up": {
+          "uv": [
+            11,
+            8,
+            12,
+            9
+          ],
+          "texture": "#tile4"
+        }
+      }
+    },
+    {
+      "name": "upper cyan medicine body",
+      "from": [
+        4,
+        8,
+        7
+      ],
+      "to": [
+        7,
+        11,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            5,
+            12,
+            8
+          ],
+          "texture": "#tile10"
+        },
+        "south": {
+          "uv": [
+            4,
+            5,
+            7,
+            8
+          ],
+          "texture": "#tile10"
+        },
+        "west": {
+          "uv": [
+            7,
+            5,
+            10,
+            8
+          ],
+          "texture": "#tile10"
+        },
+        "east": {
+          "uv": [
+            6,
+            5,
+            9,
+            8
+          ],
+          "texture": "#tile10"
+        },
+        "up": {
+          "uv": [
+            4,
+            7,
+            7,
+            10
+          ],
+          "texture": "#tile10"
+        }
+      }
+    },
+    {
+      "name": "upper cyan long narrow neck",
+      "from": [
+        5,
+        11,
+        8
+      ],
+      "to": [
+        6,
+        13,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            3,
+            11,
+            5
+          ],
+          "texture": "#tile10"
+        },
+        "south": {
+          "uv": [
+            5,
+            3,
+            6,
+            5
+          ],
+          "texture": "#tile10"
+        },
+        "west": {
+          "uv": [
+            8,
+            3,
+            9,
+            5
+          ],
+          "texture": "#tile10"
+        },
+        "east": {
+          "uv": [
+            7,
+            3,
+            8,
+            5
+          ],
+          "texture": "#tile10"
+        }
+      }
+    },
+    {
+      "name": "upper cyan cork",
+      "from": [
+        5,
+        13,
+        8
+      ],
+      "to": [
+        6,
+        14,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            2,
+            11,
+            3
+          ],
+          "texture": "#tile4"
+        },
+        "south": {
+          "uv": [
+            5,
+            2,
+            6,
+            3
+          ],
+          "texture": "#tile4"
+        },
+        "west": {
+          "uv": [
+            8,
+            2,
+            9,
+            3
+          ],
+          "texture": "#tile4"
+        },
+        "east": {
+          "uv": [
+            7,
+            2,
+            8,
+            3
+          ],
+          "texture": "#tile4"
+        },
+        "up": {
+          "uv": [
+            5,
+            8,
+            6,
+            9
+          ],
+          "texture": "#tile4"
+        }
+      }
+    },
+    {
+      "name": "upper amber medicine body",
+      "from": [
+        10,
+        8,
+        8
+      ],
+      "to": [
+        12,
+        10,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            6,
+            6,
+            8
+          ],
+          "texture": "#tile11"
+        },
+        "south": {
+          "uv": [
+            10,
+            6,
+            12,
+            8
+          ],
+          "texture": "#tile11"
+        },
+        "west": {
+          "uv": [
+            8,
+            6,
+            10,
+            8
+          ],
+          "texture": "#tile11"
+        },
+        "east": {
+          "uv": [
+            6,
+            6,
+            8,
+            8
+          ],
+          "texture": "#tile11"
+        },
+        "up": {
+          "uv": [
+            10,
+            8,
+            12,
+            10
+          ],
+          "texture": "#tile11"
+        }
+      }
+    },
+    {
+      "name": "upper amber narrow neck",
+      "from": [
+        10,
+        10,
+        8
+      ],
+      "to": [
+        11,
+        12,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            4,
+            6,
+            6
+          ],
+          "texture": "#tile11"
+        },
+        "south": {
+          "uv": [
+            10,
+            4,
+            11,
+            6
+          ],
+          "texture": "#tile11"
+        },
+        "west": {
+          "uv": [
+            8,
+            4,
+            9,
+            6
+          ],
+          "texture": "#tile11"
+        },
+        "east": {
+          "uv": [
+            7,
+            4,
+            8,
+            6
+          ],
+          "texture": "#tile11"
+        }
+      }
+    },
+    {
+      "name": "upper amber cork",
+      "from": [
+        10,
+        12,
+        8
+      ],
+      "to": [
+        11,
+        13,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            3,
+            6,
+            4
+          ],
+          "texture": "#tile4"
+        },
+        "south": {
+          "uv": [
+            10,
+            3,
+            11,
+            4
+          ],
+          "texture": "#tile4"
+        },
+        "west": {
+          "uv": [
+            8,
+            3,
+            9,
+            4
+          ],
+          "texture": "#tile4"
+        },
+        "east": {
+          "uv": [
+            7,
+            3,
+            8,
+            4
+          ],
+          "texture": "#tile4"
+        },
+        "up": {
+          "uv": [
+            10,
+            8,
+            11,
+            9
+          ],
+          "texture": "#tile4"
+        }
+      }
+    },
+    {
+      "name": "upper tall stitched folio",
+      "from": [
+        8,
+        8,
+        9
+      ],
+      "to": [
+        9,
+        12,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            4,
+            8,
+            8
+          ],
+          "texture": "#tile9"
+        },
+        "south": {
+          "uv": [
+            8,
+            4,
+            9,
+            8
+          ],
+          "texture": "#tile9"
+        },
+        "west": {
+          "uv": [
+            9,
+            4,
+            12,
+            8
+          ],
+          "texture": "#tile9"
+        },
+        "east": {
+          "uv": [
+            4,
+            4,
+            7,
+            8
+          ],
+          "texture": "#tile9"
+        },
+        "up": {
+          "uv": [
+            8,
+            9,
+            9,
+            12
+          ],
+          "texture": "#tile12"
+        }
+      }
+    },
+    {
+      "name": "upper short parchment volume",
+      "from": [
+        9,
+        8,
+        10
+      ],
+      "to": [
+        10,
+        11,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            5,
+            7,
+            8
+          ],
+          "texture": "#tile12"
+        },
+        "south": {
+          "uv": [
+            9,
+            5,
+            10,
+            8
+          ],
+          "texture": "#tile9"
+        },
+        "east": {
+          "uv": [
+            4,
+            5,
+            6,
+            8
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            9,
+            10,
+            10,
+            12
+          ],
+          "texture": "#tile12"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "stone": "ftdungeonmobs:block/dungeon_ashlar_tile",
+    "rune": "ftdungeonmobs:block/bloodstone_bricks",
+    "particle": "ftdungeonmobs:block/bloodstone_bricks"
+  },
+  "elements": [
+    {
+      "from": [1, 0, 1], "to": [15, 1, 15],
+      "faces": {
+        "up": { "texture": "#stone" }, "down": { "texture": "#stone" },
+        "north": { "texture": "#stone" }, "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" }, "west": { "texture": "#stone" }
+      }
+    },
+    { "from": [3, 1, 3], "to": [13, 2, 4], "faces": { "up": { "texture": "#rune" }, "north": { "texture": "#rune" }, "south": { "texture": "#rune" }, "east": { "texture": "#rune" }, "west": { "texture": "#rune" } } },
+    { "from": [3, 1, 12], "to": [13, 2, 13], "faces": { "up": { "texture": "#rune" }, "north": { "texture": "#rune" }, "south": { "texture": "#rune" }, "east": { "texture": "#rune" }, "west": { "texture": "#rune" } } },
+    { "from": [3, 1, 4], "to": [4, 2, 12], "faces": { "up": { "texture": "#rune" }, "east": { "texture": "#rune" }, "west": { "texture": "#rune" } } },
+    { "from": [12, 1, 4], "to": [13, 2, 12], "faces": { "up": { "texture": "#rune" }, "east": { "texture": "#rune" }, "west": { "texture": "#rune" } } },
+    { "from": [7, 1, 5], "to": [9, 2, 11], "faces": { "up": { "texture": "#rune" }, "north": { "texture": "#rune" }, "south": { "texture": "#rune" }, "east": { "texture": "#rune" }, "west": { "texture": "#rune" } } },
+    { "from": [5, 1, 7], "to": [7, 2, 9], "faces": { "up": { "texture": "#rune" }, "north": { "texture": "#rune" }, "south": { "texture": "#rune" }, "west": { "texture": "#rune" } } },
+    { "from": [9, 1, 7], "to": [11, 2, 9], "faces": { "up": { "texture": "#rune" }, "north": { "texture": "#rune" }, "south": { "texture": "#rune" }, "east": { "texture": "#rune" } } }
+  ]
+}
