@@ -1,0 +1,9 @@
+package net.farmingtales.ftboss.boss.ai;
+import java.nio.file.*;
+import java.util.*;
+import java.util.zip.*;
+import org.objectweb.asm.*;
+import org.objectweb.asm.tree.*;
+public final class NativeMotionVisibilityAuditV1 implements Opcodes {
+ public static void main(String[] arguments)throws Exception{try(ZipFile jar=new ZipFile(arguments[0])){ClassNode node=new ClassNode();new ClassReader(jar.getInputStream(jar.getEntry("net/farmingtales/ftboss/entity/EasterBossEntity.class")).readAllBytes()).accept(node,0);NativeManorMixinPlugin plugin=new NativeManorMixinPlugin();for(String mixin:List.of("NativeManorRaidMixin","NativeAnimationEmitterMixin"))plugin.postApply("net.farmingtales.ftboss.entity.EasterBossEntity",node,"net.farmingtales.ftboss.mixin."+mixin,null);MethodNode sync=node.methods.stream().filter(value->value.name.equals("syncCombatAnimation")).findFirst().orElseThrow();System.out.println("RawPostApplyAccess="+sync.access);for(int flags:new int[]{1,2,4,9,17,34,4097,4098,4100}){sync.access=flags;System.out.println("access="+flags+";hash="+NativeMotionInstructionPreimageAuditV2.instructionFingerprint(sync));}sync.access=4;MethodInsnNode set=(MethodInsnNode)Arrays.stream(sync.instructions.toArray()).filter(value->value instanceof MethodInsnNode call&&call.owner.equals("net/minecraft/network/syncher/SynchedEntityData")&&call.name.equals("set")).findFirst().orElseThrow();AbstractInsnNode anchor=set;for(int count=0;count<4;){anchor=anchor.getPrevious();if(anchor.getOpcode()>=0)count++;}InsnList carry=new InsnList();carry.add(new VarInsnNode(ALOAD,0));carry.add(new VarInsnNode(ALOAD,5));carry.add(new MethodInsnNode(INVOKESTATIC,"net/farmingtales/ftboss/dandanmotion/MotionServer","carry","(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/nbt/CompoundTag;)V",false));sync.instructions.insertBefore(anchor,carry);System.out.println("protected-after-carry="+NativeMotionInstructionPreimageAuditV2.instructionFingerprint(sync));}}
+}

@@ -1,0 +1,44 @@
+import java.nio.file.*;
+import java.util.*;
+import java.util.zip.*;
+import org.objectweb.asm.*;
+import org.objectweb.asm.tree.*;
+import org.objectweb.asm.tree.analysis.*;
+import org.objectweb.asm.util.*;
+public final class ManorLivingTargetBoundaryProof implements Opcodes {
+    private static final String SELF="net/farmingtales/ftboss/boss/ai/ManorFiveSkills",HELPER="net/farmingtales/ftboss/boss/ai/ManorLivingTargets",PLAYER="net/minecraft/world/entity/player/Player",LIVING="net/minecraft/world/entity/LivingEntity",ENTITY="net/minecraft/world/entity/Entity",LEVEL="net/minecraft/server/level/ServerLevel",BOSS="net/farmingtales/ftboss/entity/EasterBossEntity";
+    private static ClassNode read(ZipFile jar)throws Exception{ClassNode node=new ClassNode();new ClassReader(jar.getInputStream(jar.getEntry(SELF+".class")).readAllBytes()).accept(node,0);return node;}
+    private static void require(boolean value,String text){if(!value)throw new AssertionError(text);}
+    private static String body(MethodNode source){MethodNode copy=new MethodNode(source.access,source.name,source.desc,source.signature,source.exceptions.toArray(String[]::new));source.accept(copy);for(AbstractInsnNode instruction:copy.instructions.toArray())if(instruction instanceof FrameNode||instruction instanceof LineNumberNode)copy.instructions.remove(instruction);Set<LabelNode> targets=new HashSet<>();for(AbstractInsnNode instruction:copy.instructions.toArray())if(instruction instanceof JumpInsnNode branch)targets.add(branch.label);for(AbstractInsnNode instruction:copy.instructions.toArray())if(instruction instanceof LabelNode label&&!targets.contains(label))copy.instructions.remove(label);Textifier text=new Textifier();copy.instructions.accept(new TraceMethodVisitor(text));return text.getText().toString();}
+    private static String map(String type){return type.replace(PLAYER,LIVING);}
+    private static boolean calls(MethodNode method,String owner,String name){return Arrays.stream(method.instructions.toArray()).anyMatch(value->value instanceof MethodInsnNode call&&call.owner.equals(owner)&&call.name.equals(name));}
+    public static void main(String[] arguments)throws Exception{try(ZipFile base=new ZipFile(arguments[0]);ZipFile original=new ZipFile(arguments[1])){
+        ClassNode current=read(base),before=read(base),forge=read(original);int nearby=0,resolve=0,creative=0,tell=0,changed=0,unchanged=0,verified=0;Set<String> names=new TreeSet<>();
+        for(int index=0;index<current.methods.size();index++){MethodNode method=current.methods.get(index);String oldBody=body(before.methods.get(index));method.desc=map(method.desc);if(method.localVariables!=null)for(LocalVariableNode local:method.localVariables)local.desc=map(local.desc);
+            for(AbstractInsnNode instruction:method.instructions.toArray()){
+                if(instruction instanceof TypeInsnNode type&&type.desc.equals(PLAYER))type.desc=LIVING;
+                if(instruction instanceof FieldInsnNode field&&field.owner.equals(PLAYER))field.owner=LIVING;
+                if(instruction instanceof FrameNode frame){if(frame.local!=null)for(int local=0;local<frame.local.size();local++)if(PLAYER.equals(frame.local.get(local)))frame.local.set(local,LIVING);if(frame.stack!=null)for(int slot=0;slot<frame.stack.size();slot++)if(PLAYER.equals(frame.stack.get(slot)))frame.stack.set(slot,LIVING);}
+                if(instruction instanceof MethodInsnNode call){
+                    if(call.owner.equals(SELF))call.desc=map(call.desc);
+                    if(call.owner.equals(PLAYER)){
+                        if(call.name.equals("isCreative")){call.setOpcode(INVOKESTATIC);call.owner=HELPER;call.name="creative";call.desc="(L"+LIVING+";)Z";creative++;}
+                        else if(call.name.equals("displayClientMessage")){call.setOpcode(INVOKESTATIC);call.owner=HELPER;call.name="tell";call.desc="(L"+LIVING+";Lnet/minecraft/network/chat/Component;Z)V";tell++;}
+                        else call.owner=LIVING;
+                    }
+                    if(call.owner.equals(LEVEL)&&call.name.equals("players")){
+                        MethodNode authority=forge.methods.stream().filter(value->value.name.equals(method.name)).findFirst().orElseThrow();require(calls(authority,HELPER,"nearby"),"Original nearby absent:"+method.name);
+                        InsnList extra=new InsnList();extra.add(new VarInsnNode(ALOAD,0));extra.add(new FieldInsnNode(GETFIELD,SELF,"boss","L"+BOSS+";"));method.instructions.insertBefore(call,extra);call.setOpcode(INVOKESTATIC);call.owner=HELPER;call.name="nearby";call.desc="(Lnet/minecraft/world/level/Level;L"+ENTITY+";)Ljava/util/List;";nearby++;
+                    }
+                    if(call.owner.equals(LEVEL)&&call.name.equals("getPlayerByUUID")){MethodNode authority=forge.methods.stream().filter(value->value.name.equals(method.name)).findFirst().orElseThrow();require(calls(authority,HELPER,"resolve"),"Original resolve absent");call.setOpcode(INVOKESTATIC);call.owner=HELPER;call.name="resolve";call.desc="(L"+LEVEL+";Ljava/util/UUID;)L"+LIVING+";";resolve++;}
+                }
+            }
+            if(method.name.equals("tryStart")){MethodNode authority=forge.methods.stream().filter(value->value.name.equals("tryStart")).findFirst().orElseThrow();require(calls(authority,HELPER,"valid"),"Original policy guard absent");InsnList prefix=new InsnList();LabelNode accepted=new LabelNode();prefix.add(new VarInsnNode(ALOAD,0));prefix.add(new FieldInsnNode(GETFIELD,SELF,"boss","L"+BOSS+";"));prefix.add(new VarInsnNode(ALOAD,2));prefix.add(new MethodInsnNode(INVOKESTATIC,HELPER,"valid","(L"+ENTITY+";L"+LIVING+";)Z",false));prefix.add(new JumpInsnNode(IFNE,accepted));prefix.add(new InsnNode(ICONST_0));prefix.add(new InsnNode(IRETURN));prefix.add(accepted);prefix.add(new FrameNode(F_SAME,0,null,0,null));method.instructions.insert(prefix);}
+            if(!oldBody.equals(body(method))||!method.desc.equals(before.methods.get(index).desc)){changed++;names.add(method.name);}else unchanged++;
+        }
+        require(nearby==2&&resolve==1&&creative==1&&tell==1,"Unexpected role transform counts:"+nearby+":"+resolve+":"+creative+":"+tell);require(names.equals(Set.of("tryStart","tick","strike","applyEffects","validPlayer")),"Unexpected changed methods:"+names);
+        MethodNode validity=forge.methods.stream().filter(value->value.name.equals("validPlayer")).findFirst().orElseThrow();for(AbstractInsnNode instruction:validity.instructions.toArray())if(instruction instanceof MethodInsnNode call){if(call.name.equals("m_6084_"))call.name="isAlive";if(call.name.equals("m_5833_"))call.name="isSpectator";}require(body(validity).equals(body(current.methods.stream().filter(value->value.name.equals("validPlayer")).findFirst().orElseThrow())),"Original Living validity predicate differs");
+        ClassWriter writer=new ClassWriter(ClassWriter.COMPUTE_MAXS);current.accept(writer);byte[] bytes=writer.toByteArray();ClassNode written=new ClassNode();new ClassReader(bytes).accept(written,0);for(MethodNode method:written.methods)if((method.access&(ACC_ABSTRACT|ACC_NATIVE))==0){new Analyzer<>(new BasicVerifier()).analyze(SELF,method);verified++;}Path path=Path.of(arguments[2]).resolve(SELF+".class");Files.createDirectories(path.getParent());Files.write(path,bytes);
+        System.out.println("failures=0;originalLivingBoundaryMethods="+changed+";unrelatedMethodsPreserved="+unchanged+";methodsBasicVerified="+verified+";originalNearbyCalls="+nearby+";originalResolveCalls="+resolve+";originalPolicyPredicateEquivalent=true;existingSkillCadenceDamageShapeAndFxNotRewritten=true;fullOriginalEchoAirborneAndFxParityStillPending=true");
+    }}
+}

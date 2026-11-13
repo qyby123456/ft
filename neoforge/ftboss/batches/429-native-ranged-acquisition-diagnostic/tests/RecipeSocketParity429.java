@@ -1,0 +1,101 @@
+package ftboss.storage308;
+
+import java.io.ByteArrayOutputStream;
+import java.io.DataOutputStream;
+import java.util.*;
+import com.mojang.authlib.GameProfile;
+import net.farmingtales.ftboss.item.FoodWeaponSourceLedger;
+import net.farmingtales.ftboss.item.FourWeaponFoundationAdapter;
+import net.farmingtales.ftboss.transaction.FoundationApprovedRules;
+import net.farmingtales.ftboss.util.foundations.FoundationCanonicalDigest;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.nbt.*;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ClientInformation;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.item.*;
+import net.minecraft.world.item.component.CustomData;
+import net.minecraft.world.item.crafting.*;
+import net.neoforged.neoforge.event.server.ServerStartedEvent;
+
+public final class RecipeSocketParity429 {
+    private static byte[] binary(Tag value) throws Exception {
+        ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+        value.write(new DataOutputStream(bytes));
+        return bytes.toByteArray();
+    }
+
+    public static Map<String, Object> run(ServerStartedEvent event) throws Exception {
+        int recipes = 0;
+        int accepted = 0;
+        int rejected = 0;
+        Map<String, Integer> acceptedTypes = new TreeMap<>();
+        for (RecipeHolder<?> holder : event.getServer().overworld().getRecipeManager().getRecipes()) {
+            CompoundTag before = ApprovedRulesBefore429.recipeEvidence(holder, event.getServer().registryAccess());
+            CompoundTag after = FoundationApprovedRules.recipeEvidence(holder, event.getServer().registryAccess());
+            if ((before == null) != (after == null)) throw new AssertionError("Recipe acceptance changed: " + holder.id());
+            if (before != null) {
+                if (!Arrays.equals(binary(before), binary(after))
+                    || !Arrays.equals(FoundationCanonicalDigest.canonical(before), FoundationCanonicalDigest.canonical(after))) {
+                    throw new AssertionError("Recipe bytes changed: " + holder.id());
+                }
+                accepted++;
+                acceptedTypes.merge(holder.value().getClass().getName(), 1, Integer::sum);
+            } else rejected++;
+            recipes++;
+        }
+        for (Class<?> type : List.of(ShapedRecipe.class, ShapelessRecipe.class, SmithingTransformRecipe.class, SmithingTrimRecipe.class)) {
+            if (acceptedTypes.getOrDefault(type.getName(), 0) <= 0) throw new AssertionError("No accepted live recipe comparison for " + type.getName());
+        }
+        int sockets = 0;
+        for (int variant = 0; variant < 32; variant++) {
+            ItemStack stack = new ItemStack(Items.BOW);
+            if (variant != 0) {
+                CompoundTag custom = new CompoundTag(); CompoundTag evolution = new CompoundTag();
+                evolution.putString("Profile", "butcher");
+                ListTag entries = new ListTag();
+                for (int slot = 0; slot < variant % 7; slot++) {
+                    CompoundTag entry = new CompoundTag();
+                    entry.putString("Type", slot % 2 == 0 ? "power" : "中文槽");
+                    entry.putString("Item", slot % 2 == 0 ? "minecraft:diamond" : "minecraft:iron_ingot");
+                    if (slot % 3 == 0) entry.putInt("Tier", variant - 16);
+                    if (slot % 3 == 1) entry.putString("Tier", "ignored-non-int");
+                    entry.putLong("IgnoredField", variant * 100L + slot);
+                    entries.add(entry);
+                }
+                if (variant == 2) { ListTag wrong = new ListTag(); wrong.add(StringTag.valueOf("wrong-list-type")); evolution.put("Sockets", wrong); }
+                else evolution.put("Sockets", entries);
+                custom.put("FTBossFoodEvolution", evolution);
+                stack.set(DataComponents.CUSTOM_DATA, CustomData.of(custom));
+            }
+            for (String family : List.of("BOW", "STAFF", "MELEE", "", "中文")) {
+                String before = SocketBefore429.socketFingerprint(stack, family);
+                String after = FoodWeaponSourceLedger.socketFingerprint(stack, family);
+                if (before.isEmpty() || !before.equals(after)) throw new AssertionError("Socket fingerprint changed: " + variant + " / " + family);
+                sockets++;
+            }
+        }
+        ServerPlayer player = new ServerPlayer(event.getServer(), event.getServer().overworld(), new GameProfile(new UUID(429, 7), "rules_parity"), ClientInformation.createDefault());
+        int ruleCases = 0;
+        int nonemptyRules = 0;
+        for (String id : List.of("minecraft:bow", "minecraft:crossbow", "minecraft:iron_axe", "minecraft:trident", "irons_spellbooks:staff_of_the_nines")) {
+            Item item = BuiltInRegistries.ITEM.getOptional(ResourceLocation.parse(id)).orElseThrow();
+            ItemStack stack = new ItemStack(item);
+            if (!FourWeaponFoundationAdapter.initializeForServerEdit(stack)) throw new AssertionError("Foundation fixture rejected: " + id);
+            String before = new ApprovedRulesBefore429().fingerprint(player, stack);
+            String after = new FoundationApprovedRules().fingerprint(player, stack);
+            if (!Objects.equals(before, after)) throw new AssertionError("Approved rules fingerprint changed: " + id);
+            if (before != null && !before.isBlank()) nonemptyRules++;
+            ruleCases++;
+        }
+        if (nonemptyRules == 0) throw new AssertionError("Only null rule fingerprints compared");
+        Map<String, Object> result = new LinkedHashMap<>();
+        result.put("failures", 0); result.put("liveRecipesCompared", recipes);
+        result.put("acceptedRecipeBytesCompared", accepted); result.put("rejectedRecipesCompared", rejected);
+        result.put("acceptedRecipeTypes", acceptedTypes); result.put("socketFingerprintCases", sockets);
+        result.put("approvedRuleFingerprintCases", ruleCases); result.put("nonemptyApprovedRuleFingerprints", nonemptyRules);
+        result.put("authorityFieldsWritten", false); result.put("missingExternalRecipesResolved", false);
+        return result;
+    }
+}
