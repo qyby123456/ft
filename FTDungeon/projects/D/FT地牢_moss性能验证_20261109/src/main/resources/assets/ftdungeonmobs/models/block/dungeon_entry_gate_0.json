@@ -1,0 +1,279 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "body": "ftdungeonmobs:block/dungeon_gate",
+    "portal": "ftdungeonmobs:block/dungeon_entry_gate_portal",
+    "flame": "ftdungeonmobs:block/dungeon_gate_flame",
+    "particle": "ftdungeonmobs:block/dungeon_gate"
+  },
+  "elements": [
+    {
+      "name": "石砖门槛",
+      "from": [
+        0,
+        0,
+        4
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            8.5,
+            5.625,
+            10.0,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "down": {
+          "uv": [
+            8.0,
+            4.5,
+            10.0,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.5,
+            10.0,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            5.625,
+            10.0,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            5.625,
+            10.0,
+            6.0
+          ],
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "name": "外扩柱脚",
+      "from": [
+        0,
+        3,
+        3
+      ],
+      "to": [
+        10,
+        9,
+        16
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2.375,
+            4.875,
+            4.0,
+            5.625
+          ],
+          "texture": "#body"
+        },
+        "east": {
+          "uv": [
+            2.375,
+            4.875,
+            4.0,
+            5.625
+          ],
+          "texture": "#body"
+        },
+        "down": {
+          "uv": [
+            2.0,
+            4.375,
+            3.25,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "up": {
+          "uv": [
+            2.0,
+            4.375,
+            3.25,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "north": {
+          "uv": [
+            2.0,
+            4.875,
+            3.25,
+            5.625
+          ],
+          "texture": "#body"
+        },
+        "south": {
+          "uv": [
+            2.0,
+            4.875,
+            3.25,
+            5.625
+          ],
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "name": "错缝砖柱",
+      "from": [
+        1,
+        9,
+        5
+      ],
+      "to": [
+        9,
+        16,
+        16
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            12.625,
+            0.0,
+            14.0,
+            0.875
+          ],
+          "texture": "#body"
+        },
+        "east": {
+          "uv": [
+            12.625,
+            0.0,
+            14.0,
+            0.875
+          ],
+          "texture": "#body"
+        },
+        "north": {
+          "uv": [
+            12.125,
+            0.0,
+            13.125,
+            0.875
+          ],
+          "texture": "#body"
+        },
+        "south": {
+          "uv": [
+            12.125,
+            0.0,
+            13.125,
+            0.875
+          ],
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "name": "铁闸导轨",
+      "from": [
+        9,
+        3,
+        5
+      ],
+      "to": [
+        11,
+        16,
+        8
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            6.625,
+            4.0,
+            7.0,
+            5.625
+          ],
+          "texture": "#body"
+        },
+        "north": {
+          "uv": [
+            7.125,
+            4.0,
+            7.375,
+            5.625
+          ],
+          "texture": "#body"
+        },
+        "south": {
+          "uv": [
+            7.125,
+            4.0,
+            7.375,
+            5.625
+          ],
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "name": "冷雾空间封门",
+      "from": [
+        10,
+        3,
+        13
+      ],
+      "to": [
+        16,
+        16,
+        15
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            11.92156862745098,
+            16.0,
+            16.0
+          ],
+          "texture": "#portal",
+          "tintindex": 0
+        },
+        "north": {
+          "uv": [
+            0.0,
+            11.92156862745098,
+            3.4285714285714284,
+            16.0
+          ],
+          "texture": "#portal",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [
+            0.0,
+            11.92156862745098,
+            3.4285714285714284,
+            16.0
+          ],
+          "texture": "#portal",
+          "tintindex": 0
+        }
+      },
+      "shade": false
+    }
+  ]
+}
