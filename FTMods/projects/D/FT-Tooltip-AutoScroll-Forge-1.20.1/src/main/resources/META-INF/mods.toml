@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "ft_tooltip_autoscroll"
+version = "1.0.0"
+displayName = "Farming Tales Tooltip Auto Scroll"
+authors = "Farming Tales"
+displayTest = "IGNORE_ALL_VERSION"
+description = '''Automatically scroll overflowing Obscure Tooltips while hovering. Mouse wheel input temporarily pauses automatic scrolling.'''
+
+[[dependencies.ft_tooltip_autoscroll]]
+modId = "forge"
+mandatory = true
+versionRange = "[47.2.30,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ft_tooltip_autoscroll]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.20.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ft_tooltip_autoscroll]]
+modId = "obscure_tooltips"
+mandatory = true
+versionRange = "[3.10.1,3.11)"
+ordering = "AFTER"
+side = "CLIENT"
