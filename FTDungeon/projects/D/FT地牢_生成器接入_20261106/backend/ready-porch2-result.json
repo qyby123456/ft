@@ -1,0 +1,136 @@
+{
+  "case": "ready",
+  "harnessJarSha256": "9c7a167fc6b02086afbd41497fb3d6ab860dbcacda65508c1f3e8c3fdb4bfd46",
+  "world": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\ready-porch2\\world",
+  "processes": [
+    {
+      "pid": 67960,
+      "exitCode": 0,
+      "log": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\ready-porch2\\prepare.log",
+      "sha256": "81442d5ef712023fd7d0868cbd5e6e5e729801b6ee2dbe843a94d8748b84c47c",
+      "forced": false
+    },
+    {
+      "pid": 43828,
+      "exitCode": 0,
+      "log": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\ready-porch2\\restart.log",
+      "sha256": "76823f878751c76d25508606b957314974f91d0377e97eceee3f7a738f1d8b53",
+      "forced": false
+    }
+  ],
+  "testOnlyMod": true,
+  "oldCandidateCommandsOrMarkerOrReceiptUsed": false,
+  "ready": {
+    "state": "READY",
+    "stage": "READY",
+    "landing": {
+      "f_82479_": 1015.5,
+      "f_82480_": 202.0,
+      "f_82481_": 997.5
+    },
+    "entranceOutward": "NORTH",
+    "returnGateAnchor": {
+      "f_123285_": 1018,
+      "f_123286_": 202,
+      "f_123289_": 997
+    },
+    "returnGateFacing": "SOUTH",
+    "platformBounds": {
+      "f_82288_": 1010.0,
+      "f_82289_": 201.0,
+      "f_82290_": 995.0,
+      "f_82291_": 1021.0,
+      "f_82292_": 208.0,
+      "f_82293_": 1000.0
+    },
+    "envelopeBounds": {
+      "f_82288_": 994.0,
+      "f_82289_": 196.0,
+      "f_82290_": 933.0,
+      "f_82291_": 1120.0,
+      "f_82292_": 227.0,
+      "f_82293_": 1075.0
+    },
+    "instanceId": "ftde-be8d083ae80dfe334679110b04a8be62c1625d33afab4e4d2a9f57b613f72947",
+    "completed": 554652,
+    "total": 554652,
+    "observedTicks": 2400,
+    "error": ""
+  },
+  "restart": {
+    "state": "READY",
+    "stage": "READY_REUSED_NO_WORLD_WRITES",
+    "landing": {
+      "f_82479_": 1015.5,
+      "f_82480_": 202.0,
+      "f_82481_": 997.5
+    },
+    "entranceOutward": "NORTH",
+    "returnGateAnchor": {
+      "f_123285_": 1018,
+      "f_123286_": 202,
+      "f_123289_": 997
+    },
+    "returnGateFacing": "SOUTH",
+    "platformBounds": {
+      "f_82288_": 1010.0,
+      "f_82289_": 201.0,
+      "f_82290_": 995.0,
+      "f_82291_": 1021.0,
+      "f_82292_": 208.0,
+      "f_82293_": 1000.0
+    },
+    "envelopeBounds": {
+      "f_82288_": 994.0,
+      "f_82289_": 196.0,
+      "f_82290_": 933.0,
+      "f_82291_": 1120.0,
+      "f_82292_": 227.0,
+      "f_82293_": 1075.0
+    },
+    "instanceId": "ftde-be8d083ae80dfe334679110b04a8be62c1625d33afab4e4d2a9f57b613f72947",
+    "completed": 554652,
+    "total": 554652,
+    "observedTicks": 2400,
+    "error": ""
+  },
+  "returnGateTestScope": "Actual native test fixture matching FT block registry/property/anchor-BE contract; not full FT mod gate behavior",
+  "wrongGatePartRefused": {
+    "state": "FAILED",
+    "stage": "LOCKED_ADMIN_REVIEW_REQUIRED",
+    "landing": {
+      "f_82479_": 1015.5,
+      "f_82480_": 202.0,
+      "f_82481_": 997.5
+    },
+    "entranceOutward": "NORTH",
+    "returnGateAnchor": {
+      "f_123285_": 1018,
+      "f_123286_": 202,
+      "f_123289_": 997
+    },
+    "returnGateFacing": "SOUTH",
+    "platformBounds": {
+      "f_82288_": 1010.0,
+      "f_82289_": 201.0,
+      "f_82290_": 995.0,
+      "f_82291_": 1021.0,
+      "f_82292_": 208.0,
+      "f_82293_": 1000.0
+    },
+    "envelopeBounds": {
+      "f_82288_": 994.0,
+      "f_82289_": 196.0,
+      "f_82290_": 933.0,
+      "f_82291_": 1120.0,
+      "f_82292_": 227.0,
+      "f_82293_": 1075.0
+    },
+    "instanceId": "ftde-be8d083ae80dfe334679110b04a8be62c1625d33afab4e4d2a9f57b613f72947",
+    "completed": 554652,
+    "total": 554652,
+    "observedTicks": 2400,
+    "error": "java.lang.IllegalArgumentException: Wrong FT return gate part/facing"
+  },
+  "status": "PASS_REAL_NINE_ROOM_NATIVE_FLUID_2400_READY_RESTART_PLAYER_EDIT_RETAINED"
+}

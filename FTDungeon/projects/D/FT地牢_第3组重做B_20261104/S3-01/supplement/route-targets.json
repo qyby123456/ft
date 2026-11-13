@@ -1,0 +1,233 @@
+{
+  "sha256": "294d63fa9f451515658f1c0dd15a4d9aed5dcf9497fd634b33832d0d2d512dd1",
+  "coordinate_system": "+X east, +Y up, +Z south; integer player feet; origin [0,0,0]",
+  "connections": [
+    {
+      "name": "north-adapter",
+      "facing": "north",
+      "position": [
+        17,
+        2,
+        0
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "west-arch",
+      "facing": "west",
+      "position": [
+        0,
+        2,
+        13
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "east-arch",
+      "facing": "east",
+      "position": [
+        34,
+        2,
+        13
+      ],
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "boundary_air_feet_candidates": [
+    [
+      0,
+      2,
+      11
+    ],
+    [
+      0,
+      2,
+      12
+    ],
+    [
+      0,
+      2,
+      13
+    ],
+    [
+      0,
+      2,
+      14
+    ],
+    [
+      0,
+      2,
+      15
+    ],
+    [
+      15,
+      2,
+      0
+    ],
+    [
+      16,
+      2,
+      0
+    ],
+    [
+      17,
+      2,
+      0
+    ],
+    [
+      18,
+      2,
+      0
+    ],
+    [
+      19,
+      2,
+      0
+    ],
+    [
+      34,
+      2,
+      11
+    ],
+    [
+      34,
+      2,
+      12
+    ],
+    [
+      34,
+      2,
+      13
+    ],
+    [
+      34,
+      2,
+      14
+    ],
+    [
+      34,
+      2,
+      15
+    ]
+  ],
+  "start": "north",
+  "targets": [
+    {
+      "id": "north",
+      "role": "connection",
+      "pos": [
+        17,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "west",
+      "role": "connection",
+      "pos": [
+        0,
+        2,
+        13
+      ]
+    },
+    {
+      "id": "east",
+      "role": "connection",
+      "pos": [
+        34,
+        2,
+        13
+      ]
+    },
+    {
+      "id": "interior-safe",
+      "role": "safe-point",
+      "pos": [
+        17,
+        2,
+        6
+      ]
+    },
+    {
+      "id": "ring-north",
+      "role": "ring",
+      "pos": [
+        17,
+        2,
+        10
+      ]
+    },
+    {
+      "id": "ring-west",
+      "role": "ring",
+      "pos": [
+        8,
+        2,
+        18
+      ]
+    },
+    {
+      "id": "ring-south",
+      "role": "ring",
+      "pos": [
+        17,
+        2,
+        28
+      ]
+    },
+    {
+      "id": "ring-east",
+      "role": "ring",
+      "pos": [
+        26,
+        2,
+        18
+      ]
+    },
+    {
+      "id": "altar-approach",
+      "role": "altar-view-not-summit",
+      "pos": [
+        17,
+        2,
+        26
+      ]
+    }
+  ],
+  "ring_order": [
+    "ring-north",
+    "ring-west",
+    "ring-south",
+    "ring-east",
+    "ring-north"
+  ],
+  "altar": {
+    "base_footprint_box": [
+      [
+        10,
+        2,
+        12
+      ],
+      [
+        24,
+        5,
+        25
+      ]
+    ],
+    "geometric_center": [
+      17,
+      5,
+      18
+    ],
+    "main_crystal_tip": [
+      17,
+      14,
+      18
+    ],
+    "approach_target": "altar-approach",
+    "summit_route": "NOT_DESIGNED_OR_CLAIMED; no reward/container/interaction target on summit"
+  }
+}

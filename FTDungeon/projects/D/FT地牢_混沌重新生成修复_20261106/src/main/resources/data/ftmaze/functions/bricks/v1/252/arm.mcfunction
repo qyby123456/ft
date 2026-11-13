@@ -1,0 +1,1 @@
+execute if block 211 151 202 minecraft:air if block 211 150 202 minecraft:smooth_stone store success score #v1b252 ftm_brick run setblock 211 151 202 ftdungeonmobs:dungeon_spawn_point[spent=false] keep

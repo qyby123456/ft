@@ -1,0 +1,86 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile4": "ftdungeonprops:block/masonry_04",
+    "tile3": "ftdungeonprops:block/masonry_03",
+    "tile12": "ftdungeonprops:block/masonry_12",
+    "particle": "ftdungeonprops:block/masonry_04"
+  },
+  "elements": [
+    {
+      "name": "four-slab inlaid paving block",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#tile4",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#tile4",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#tile4",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#tile4",
+          "cullface": "east"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#tile3",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#tile12",
+          "cullface": "down"
+        }
+      }
+    }
+  ]
+}

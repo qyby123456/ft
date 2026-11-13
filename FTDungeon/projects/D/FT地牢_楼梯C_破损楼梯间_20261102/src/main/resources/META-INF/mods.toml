@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ftstaircqa"
+version="1.0"
+displayName="FT Ruined Stairwell C Isolated QA Only"
+description='''Verification fixture only. Never install this mod into a player instance.'''
+[[dependencies.ftstaircqa]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ftstaircqa]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

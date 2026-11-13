@@ -1,0 +1,89 @@
+{
+  "sha256": "e480a9df20240c77de5d7bb56434636af3d2fad5460f9ffd62477822e67baea0",
+  "status": "PASS",
+  "tests": {
+    "size": true,
+    "dataversion": true,
+    "unique_complete_volume": true,
+    "bounded": true,
+    "vanilla": true,
+    "no_entities": true,
+    "no_commands_hazards_or_fluids": true,
+    "no_snow_layers_or_ordinary_ice": true,
+    "port_clearance": true,
+    "exact_boundary_ports": true,
+    "full_roof": true,
+    "cutaway_exact_air_only": true,
+    "source_block_entities_untouched_in_cut": true,
+    "one_empty_chest_and_three_banners": true,
+    "chest_lid_clear": true,
+    "single_chest_no_join": true,
+    "two_bone_statues": true,
+    "actual_stairs": true,
+    "all_solids_face_connected": true
+  },
+  "palette": {
+    "minecraft:stone_bricks": 12662,
+    "minecraft:packed_ice": 440,
+    "minecraft:snow_block": 312,
+    "minecraft:cobblestone": 1659,
+    "minecraft:cracked_stone_bricks": 1661,
+    "minecraft:air": 16842,
+    "minecraft:spruce_log": 98,
+    "minecraft:blue_ice": 208,
+    "minecraft:lantern": 4,
+    "minecraft:chain": 4,
+    "minecraft:spruce_planks": 50,
+    "minecraft:spruce_slab": 6,
+    "minecraft:orange_terracotta": 4,
+    "minecraft:flower_pot": 2,
+    "minecraft:chiseled_stone_bricks": 99,
+    "minecraft:blue_wall_banner": 3,
+    "minecraft:bone_block": 74,
+    "minecraft:polished_andesite": 60,
+    "minecraft:polished_blackstone_button": 6,
+    "minecraft:stone_brick_stairs": 15,
+    "minecraft:chest": 1,
+    "minecraft:spruce_fence": 15
+  },
+  "block_entities": [
+    {
+      "pos": [
+        7,
+        16,
+        4
+      ],
+      "state": "minecraft:blue_wall_banner[facing=south]",
+      "nbt": "{id:\"minecraft:banner\",Patterns:[{Pattern:\"flo\",Color:0}]}"
+    },
+    {
+      "pos": [
+        18,
+        8,
+        10
+      ],
+      "state": "minecraft:chest[facing=south,type=single,waterlogged=false]",
+      "nbt": "{id:\"minecraft:chest\",Items:[]}"
+    },
+    {
+      "pos": [
+        18,
+        16,
+        4
+      ],
+      "state": "minecraft:blue_wall_banner[facing=south]",
+      "nbt": "{id:\"minecraft:banner\",Patterns:[{Pattern:\"flo\",Color:0}]}"
+    },
+    {
+      "pos": [
+        29,
+        16,
+        4
+      ],
+      "state": "minecraft:blue_wall_banner[facing=south]",
+      "nbt": "{id:\"minecraft:banner\",Patterns:[{Pattern:\"flo\",Color:0}]}"
+    }
+  ],
+  "preview_sha256": "e42b8e08533c9762a11c438a80f9376e152421b6ae027a0f04c0a97f62d30c46",
+  "world_ticks": "NOT_RUN"
+}

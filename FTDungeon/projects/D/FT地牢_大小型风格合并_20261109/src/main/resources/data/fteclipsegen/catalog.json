@@ -1,0 +1,3702 @@
+{
+  "schema": 1,
+  "variants": [
+    {
+      "key": "spawn/spawn",
+      "template": "spawn/spawn",
+      "child": null,
+      "size": [
+        16,
+        17,
+        16
+      ],
+      "sha256": "3e26db906c4ef1617856a88a8bb1e8093bf7a8f515e7b001410f6fbf6e6315a2",
+      "source_sha256": "fd4db7dcdcbd74b0f0c78b43dc2a0f269a1292160545e435922ce3ce46efedf5",
+      "minimum_y": 2,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              4,
+              15
+            ],
+            [
+              7,
+              4,
+              15
+            ],
+            [
+              8,
+              4,
+              15
+            ],
+            [
+              9,
+              4,
+              15
+            ]
+          ]
+        }
+      ],
+      "sockets": []
+    },
+    {
+      "key": "spawn/outside_near",
+      "template": "spawn/outside_near",
+      "child": null,
+      "size": [
+        16,
+        26,
+        16
+      ],
+      "sha256": "0b34e4afd0cf178481194b043a880d571538da0ed9a60b5f83c4551d40f047bb",
+      "source_sha256": "fd24c0647ed9a412ad50064233617c8ce556189847c7a71b8a970bdf093b76be",
+      "minimum_y": 0,
+      "ports": [],
+      "sockets": []
+    },
+    {
+      "key": "spawn/outside_far",
+      "template": "spawn/outside_far",
+      "child": null,
+      "size": [
+        16,
+        26,
+        16
+      ],
+      "sha256": "75210d71ac0b2bcca19552a9c08ee742c5b38f85bb95d7803c2cd481e5f96821",
+      "source_sha256": "39360efb62e7845bd6cff4f3aaeb9c90ba02968c23a74d287f9f28524784c7d2",
+      "minimum_y": 0,
+      "ports": [],
+      "sockets": []
+    },
+    {
+      "key": "straight/simple",
+      "template": "straight/simple",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "6630d0207e9314a46997a497549efd0fbca94509257a31a00a96e8c1891bb34b",
+      "source_sha256": "2f95c654273810dbfbd730eddc6337a56f29b7b6f07ddeee5f296e3d5b53ba1d",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "g02-simple-west",
+          "position": [
+            4,
+            2,
+            5
+          ],
+          "support": [
+            4,
+            1,
+            5
+          ],
+          "spawn_position": [
+            4,
+            2,
+            5
+          ],
+          "zone": "west-niche",
+          "kind": "melee",
+          "clearance": 3,
+          "activation_group": "g02-straight-simple"
+        },
+        {
+          "id": "g02-simple-east",
+          "position": [
+            11,
+            2,
+            9
+          ],
+          "support": [
+            11,
+            1,
+            9
+          ],
+          "spawn_position": [
+            11,
+            2,
+            9
+          ],
+          "zone": "east-niche",
+          "kind": "ranged",
+          "clearance": 3,
+          "activation_group": "g02-straight-simple"
+        }
+      ]
+    },
+    {
+      "key": "straight/door",
+      "template": "straight/door",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "67042b44cb0fdb824dd5084850a89d9b2cd916874a623e1b28085dd1959f6e99",
+      "source_sha256": "2b0998b7f7d26c08777aa09ee93a8921202d3e68f4f165560d22b50f35cbab74",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "g02-door-west",
+          "position": [
+            4,
+            2,
+            5
+          ],
+          "support": [
+            4,
+            1,
+            5
+          ],
+          "spawn_position": [
+            4,
+            2,
+            5
+          ],
+          "zone": "west-niche",
+          "kind": "melee",
+          "clearance": 3,
+          "activation_group": "g02-straight-door"
+        },
+        {
+          "id": "g02-door-east",
+          "position": [
+            11,
+            2,
+            9
+          ],
+          "support": [
+            11,
+            1,
+            9
+          ],
+          "spawn_position": [
+            11,
+            2,
+            9
+          ],
+          "zone": "east-niche",
+          "kind": "ranged",
+          "clearance": 3,
+          "activation_group": "g02-straight-door"
+        }
+      ]
+    },
+    {
+      "key": "straight/bridge",
+      "template": "straight/bridge",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "7e95231d403204a86e63a2a1e66c72b1bf2fc523209fad86420dc5d2b27f4703",
+      "source_sha256": "36a2e84d5bc040e58e3431820a7bca27a01548868a2d323929ffba4675a457d3",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "g02-bridge-west",
+          "position": [
+            4,
+            2,
+            5
+          ],
+          "support": [
+            4,
+            1,
+            5
+          ],
+          "spawn_position": [
+            4,
+            2,
+            5
+          ],
+          "zone": "west-solid-inspection-bay",
+          "kind": "melee",
+          "clearance": 3,
+          "activation_group": "g02-straight-bridge"
+        },
+        {
+          "id": "g02-bridge-east",
+          "position": [
+            11,
+            2,
+            10
+          ],
+          "support": [
+            11,
+            1,
+            10
+          ],
+          "spawn_position": [
+            11,
+            2,
+            10
+          ],
+          "zone": "east-solid-inspection-bay",
+          "kind": "ranged",
+          "clearance": 3,
+          "activation_group": "g02-straight-bridge"
+        }
+      ]
+    },
+    {
+      "key": "straight/room_cells",
+      "template": "straight/room",
+      "child": "straight/room/layout/cells",
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "d12951ea3708fc85b9a54b7e912ee39e7414989dd3dccf5801dc6bfbc78222ef",
+      "source_sha256": "6e573430adb7eea34402bebf5e5632435190af30c30d4cee62c04b80b762dfb4",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "west-cell-north",
+          "position": [
+            4,
+            2,
+            5
+          ],
+          "support": [
+            4,
+            1,
+            5
+          ],
+          "spawn_position": [
+            4,
+            2,
+            5
+          ],
+          "zone": "west-north-alcove",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "group07-cells",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "west-cell-south",
+          "position": [
+            4,
+            2,
+            9
+          ],
+          "support": [
+            4,
+            1,
+            9
+          ],
+          "spawn_position": [
+            4,
+            2,
+            9
+          ],
+          "zone": "west-south-alcove",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "group07-cells",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "guard-north",
+          "position": [
+            11,
+            2,
+            4
+          ],
+          "support": [
+            11,
+            1,
+            4
+          ],
+          "spawn_position": [
+            11,
+            2,
+            4
+          ],
+          "zone": "east-guard-north-flank",
+          "kind": "ranged",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "group07-cells",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "guard-south",
+          "position": [
+            11,
+            2,
+            12
+          ],
+          "support": [
+            11,
+            1,
+            12
+          ],
+          "spawn_position": [
+            11,
+            2,
+            12
+          ],
+          "zone": "east-guard-south-flank",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "group07-cells",
+          "reserved_location_not_spawn_count": true
+        }
+      ]
+    },
+    {
+      "key": "straight/room_storage",
+      "template": "straight/room",
+      "child": "straight/room/layout/storage",
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "aade90d323017a70a9502a2cc4c53835cdcda961618c55551b59384c28467d73",
+      "source_sha256": "6e573430adb7eea34402bebf5e5632435190af30c30d4cee62c04b80b762dfb4",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "storage-1",
+          "position": [
+            4,
+            2,
+            4
+          ],
+          "support": [
+            4,
+            1,
+            4
+          ],
+          "spawn_position": [
+            4,
+            2,
+            4
+          ],
+          "zone": "west-low-archive-north-flank",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-storage",
+          "purpose": "candidate_not_simultaneous_count",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "storage-2",
+          "position": [
+            4,
+            2,
+            11
+          ],
+          "support": [
+            4,
+            1,
+            11
+          ],
+          "spawn_position": [
+            4,
+            2,
+            11
+          ],
+          "zone": "west-low-archive-south-flank",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-storage",
+          "purpose": "candidate_not_simultaneous_count",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "storage-3",
+          "position": [
+            11,
+            2,
+            4
+          ],
+          "support": [
+            11,
+            1,
+            4
+          ],
+          "spawn_position": [
+            11,
+            2,
+            4
+          ],
+          "zone": "east-high-equipment-north-flank",
+          "kind": "ranged",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-storage",
+          "purpose": "candidate_not_simultaneous_count",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "storage-4",
+          "position": [
+            11,
+            2,
+            11
+          ],
+          "support": [
+            11,
+            1,
+            11
+          ],
+          "spawn_position": [
+            11,
+            2,
+            11
+          ],
+          "zone": "east-high-equipment-south-flank",
+          "kind": "ranged",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-storage",
+          "purpose": "candidate_not_simultaneous_count",
+          "reserved_location_not_spawn_count": true
+        }
+      ]
+    },
+    {
+      "key": "straight/room_towers",
+      "template": "straight/room",
+      "child": "straight/room/layout/towers",
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "50c1ccb822167c00899e7a7c67757820616d3cf004470e7ee4f15911603f5448",
+      "source_sha256": "6e573430adb7eea34402bebf5e5632435190af30c30d4cee62c04b80b762dfb4",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "towers-1",
+          "position": [
+            4,
+            2,
+            8
+          ],
+          "support": [
+            4,
+            1,
+            8
+          ],
+          "spawn_position": [
+            4,
+            2,
+            8
+          ],
+          "zone": "west-high-tower-south-flank",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-towers",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "towers-2",
+          "position": [
+            4,
+            2,
+            11
+          ],
+          "support": [
+            4,
+            1,
+            11
+          ],
+          "spawn_position": [
+            4,
+            2,
+            11
+          ],
+          "zone": "west-south-ground",
+          "kind": "ranged",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-towers",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "towers-3",
+          "position": [
+            12,
+            2,
+            4
+          ],
+          "support": [
+            12,
+            1,
+            4
+          ],
+          "spawn_position": [
+            12,
+            2,
+            4
+          ],
+          "zone": "east-north-ground",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-towers",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "towers-4",
+          "position": [
+            12,
+            2,
+            7
+          ],
+          "support": [
+            12,
+            1,
+            7
+          ],
+          "spawn_position": [
+            12,
+            2,
+            7
+          ],
+          "zone": "east-low-tower-north-flank",
+          "kind": "ranged",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-towers",
+          "reserved_location_not_spawn_count": true
+        }
+      ]
+    },
+    {
+      "key": "straight/hole",
+      "template": "straight/hole",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "08529dcdb196f76c0252410296812ba9f8032bfdc45d568cf668d7f45ba796ff",
+      "source_sha256": "80b5ab746701722fe3869987688798897b8e69a2171ef42ddb22f8e8246e6dfa",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "moonwell-1",
+          "position": [
+            4,
+            2,
+            4
+          ],
+          "support": [
+            4,
+            1,
+            4
+          ],
+          "spawn_position": [
+            4,
+            2,
+            4
+          ],
+          "zone": "west-north",
+          "kind": "melee",
+          "activation_group": "moonwell-room",
+          "clearance_air_cells": 3
+        },
+        {
+          "id": "moonwell-2",
+          "position": [
+            11,
+            2,
+            4
+          ],
+          "support": [
+            11,
+            1,
+            4
+          ],
+          "spawn_position": [
+            11,
+            2,
+            4
+          ],
+          "zone": "east-north",
+          "kind": "melee",
+          "activation_group": "moonwell-room",
+          "clearance_air_cells": 3
+        },
+        {
+          "id": "moonwell-3",
+          "position": [
+            4,
+            2,
+            8
+          ],
+          "support": [
+            4,
+            1,
+            8
+          ],
+          "spawn_position": [
+            4,
+            2,
+            8
+          ],
+          "zone": "west-middle",
+          "kind": "ranged",
+          "activation_group": "moonwell-room",
+          "clearance_air_cells": 3
+        },
+        {
+          "id": "moonwell-4",
+          "position": [
+            11,
+            2,
+            8
+          ],
+          "support": [
+            11,
+            1,
+            8
+          ],
+          "spawn_position": [
+            11,
+            2,
+            8
+          ],
+          "zone": "east-middle",
+          "kind": "ranged",
+          "activation_group": "moonwell-room",
+          "clearance_air_cells": 3
+        },
+        {
+          "id": "moonwell-5",
+          "position": [
+            4,
+            2,
+            11
+          ],
+          "support": [
+            4,
+            1,
+            11
+          ],
+          "spawn_position": [
+            4,
+            2,
+            11
+          ],
+          "zone": "west-south",
+          "kind": "melee",
+          "activation_group": "moonwell-room",
+          "clearance_air_cells": 3
+        },
+        {
+          "id": "moonwell-6",
+          "position": [
+            11,
+            2,
+            11
+          ],
+          "support": [
+            11,
+            1,
+            11
+          ],
+          "spawn_position": [
+            11,
+            2,
+            11
+          ],
+          "zone": "east-south",
+          "kind": "melee",
+          "activation_group": "moonwell-room",
+          "clearance_air_cells": 3
+        }
+      ]
+    },
+    {
+      "key": "straight/platform",
+      "template": "straight/platform",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "0102a0dea0d2154dd8aa2dec47cd2db9c49337022f6d4ce37d199908f8a2fe83",
+      "source_sha256": "71c2e177ee5e5d784125ac1e9b03ec77726deba86e784ddfe99a08a30c363c94",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "counterweight-1",
+          "position": [
+            5,
+            2,
+            4
+          ],
+          "support": [
+            5,
+            1,
+            4
+          ],
+          "spawn_position": [
+            5,
+            2,
+            4
+          ],
+          "zone": "low-main-floor",
+          "kind": "melee",
+          "activation_group": "counterweight-room",
+          "clearance_air_cells": 3
+        },
+        {
+          "id": "counterweight-2",
+          "position": [
+            10,
+            2,
+            11
+          ],
+          "support": [
+            10,
+            1,
+            11
+          ],
+          "spawn_position": [
+            10,
+            2,
+            11
+          ],
+          "zone": "low-main-floor",
+          "kind": "melee",
+          "activation_group": "counterweight-room",
+          "clearance_air_cells": 3
+        },
+        {
+          "id": "counterweight-3",
+          "position": [
+            3,
+            4,
+            6
+          ],
+          "support": [
+            3,
+            3,
+            6
+          ],
+          "spawn_position": [
+            3,
+            4,
+            6
+          ],
+          "zone": "west-inspection-deck",
+          "kind": "ranged",
+          "activation_group": "counterweight-room",
+          "clearance_air_cells": 3
+        },
+        {
+          "id": "counterweight-4",
+          "position": [
+            3,
+            4,
+            9
+          ],
+          "support": [
+            3,
+            3,
+            9
+          ],
+          "spawn_position": [
+            3,
+            4,
+            9
+          ],
+          "zone": "west-inspection-deck",
+          "kind": "ranged",
+          "activation_group": "counterweight-room",
+          "clearance_air_cells": 3
+        },
+        {
+          "id": "counterweight-5",
+          "position": [
+            11,
+            4,
+            6
+          ],
+          "support": [
+            11,
+            3,
+            6
+          ],
+          "spawn_position": [
+            11,
+            4,
+            6
+          ],
+          "zone": "east-inspection-deck",
+          "kind": "ranged",
+          "activation_group": "counterweight-room",
+          "clearance_air_cells": 3
+        },
+        {
+          "id": "counterweight-6",
+          "position": [
+            13,
+            5,
+            8
+          ],
+          "support": [
+            13,
+            4,
+            8
+          ],
+          "spawn_position": [
+            13,
+            5,
+            8
+          ],
+          "zone": "east-raised-inspection",
+          "kind": "ranged",
+          "activation_group": "counterweight-room",
+          "clearance_air_cells": 3
+        }
+      ]
+    },
+    {
+      "key": "turn/pillar_room",
+      "template": "turn/pillar_room",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "cdade83b0a590a96d1ec52f1fc942970cbbae5f452aa69009db6c0187b0e4bdd",
+      "source_sha256": "2228dd3d2ee3ed4eb81afc4b7b8c84e8ed7779b167564fdd068aa0199b62596d",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              15,
+              2,
+              6
+            ],
+            [
+              15,
+              2,
+              7
+            ],
+            [
+              15,
+              2,
+              8
+            ],
+            [
+              15,
+              2,
+              9
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "g04-pillar-room-reserved-1",
+          "position": [
+            4,
+            2,
+            5
+          ],
+          "support": [
+            4,
+            1,
+            5
+          ],
+          "spawn_position": [
+            4,
+            2,
+            5
+          ],
+          "zone": "northwest",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-pillar-room-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        },
+        {
+          "id": "g04-pillar-room-reserved-2",
+          "position": [
+            11,
+            2,
+            5
+          ],
+          "support": [
+            11,
+            1,
+            5
+          ],
+          "spawn_position": [
+            11,
+            2,
+            5
+          ],
+          "zone": "northeast",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-pillar-room-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        },
+        {
+          "id": "g04-pillar-room-reserved-3",
+          "position": [
+            4,
+            2,
+            10
+          ],
+          "support": [
+            4,
+            1,
+            10
+          ],
+          "spawn_position": [
+            4,
+            2,
+            10
+          ],
+          "zone": "southwest",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-pillar-room-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        },
+        {
+          "id": "g04-pillar-room-reserved-4",
+          "position": [
+            11,
+            2,
+            10
+          ],
+          "support": [
+            11,
+            1,
+            10
+          ],
+          "spawn_position": [
+            11,
+            2,
+            10
+          ],
+          "zone": "southeast",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-pillar-room-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        }
+      ]
+    },
+    {
+      "key": "turn/big_doors",
+      "template": "turn/big_doors",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "d36c59b4812d6267e38b739e3fe42d96157b18ff679dce0329341c6c7cd067ea",
+      "source_sha256": "5871d78a69905419ddaa04e3e81b6efdef42b9fbc46a8f95ccc0b9ec30fb392a",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              15,
+              2,
+              6
+            ],
+            [
+              15,
+              2,
+              7
+            ],
+            [
+              15,
+              2,
+              8
+            ],
+            [
+              15,
+              2,
+              9
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "g04-big-doors-reserved-1",
+          "position": [
+            4,
+            2,
+            5
+          ],
+          "support": [
+            4,
+            1,
+            5
+          ],
+          "spawn_position": [
+            4,
+            2,
+            5
+          ],
+          "zone": "northwest",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-big-doors-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        },
+        {
+          "id": "g04-big-doors-reserved-2",
+          "position": [
+            11,
+            2,
+            5
+          ],
+          "support": [
+            11,
+            1,
+            5
+          ],
+          "spawn_position": [
+            11,
+            2,
+            5
+          ],
+          "zone": "northeast",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-big-doors-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        },
+        {
+          "id": "g04-big-doors-reserved-3",
+          "position": [
+            4,
+            2,
+            10
+          ],
+          "support": [
+            4,
+            1,
+            10
+          ],
+          "spawn_position": [
+            4,
+            2,
+            10
+          ],
+          "zone": "southwest",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-big-doors-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        },
+        {
+          "id": "g04-big-doors-reserved-4",
+          "position": [
+            11,
+            2,
+            10
+          ],
+          "support": [
+            11,
+            1,
+            10
+          ],
+          "spawn_position": [
+            11,
+            2,
+            10
+          ],
+          "zone": "southeast",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-big-doors-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        }
+      ]
+    },
+    {
+      "key": "turn/small_doors",
+      "template": "turn/small_doors",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "5185d9af86e9f34f521e25942b87ec7b783db2747f7a19bba73ecc8caa50eb80",
+      "source_sha256": "22cca41c12edead18cd289c11753d59387df88c67d6bae6d252b22615ee3f5d3",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              15,
+              2,
+              6
+            ],
+            [
+              15,
+              2,
+              7
+            ],
+            [
+              15,
+              2,
+              8
+            ],
+            [
+              15,
+              2,
+              9
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "g04-small-doors-reserved-1",
+          "position": [
+            4,
+            2,
+            4
+          ],
+          "support": [
+            4,
+            1,
+            4
+          ],
+          "spawn_position": [
+            4,
+            2,
+            4
+          ],
+          "zone": "northwest",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-small-doors-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        },
+        {
+          "id": "g04-small-doors-reserved-2",
+          "position": [
+            11,
+            2,
+            4
+          ],
+          "support": [
+            11,
+            1,
+            4
+          ],
+          "spawn_position": [
+            11,
+            2,
+            4
+          ],
+          "zone": "northeast",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-small-doors-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        },
+        {
+          "id": "g04-small-doors-reserved-3",
+          "position": [
+            4,
+            2,
+            11
+          ],
+          "support": [
+            4,
+            1,
+            11
+          ],
+          "spawn_position": [
+            4,
+            2,
+            11
+          ],
+          "zone": "southwest",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-small-doors-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        },
+        {
+          "id": "g04-small-doors-reserved-4",
+          "position": [
+            11,
+            2,
+            11
+          ],
+          "support": [
+            11,
+            1,
+            11
+          ],
+          "spawn_position": [
+            11,
+            2,
+            11
+          ],
+          "zone": "southeast",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-small-doors-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        }
+      ]
+    },
+    {
+      "key": "turn/hole",
+      "template": "turn/hole",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "bab13a4420c4e4a36d51d8428531797d27aa1eb291a76a12d70d142d7c3ce50a",
+      "source_sha256": "c1ba17e2b84eb4fe103f8534c3a4b90c072c10a7c44cb4031c8981a80d2c9319",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              15,
+              2,
+              6
+            ],
+            [
+              15,
+              2,
+              7
+            ],
+            [
+              15,
+              2,
+              8
+            ],
+            [
+              15,
+              2,
+              9
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "g04-hole-reserved-1",
+          "position": [
+            3,
+            2,
+            4
+          ],
+          "support": [
+            3,
+            1,
+            4
+          ],
+          "spawn_position": [
+            3,
+            2,
+            4
+          ],
+          "zone": "northwest",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-hole-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        },
+        {
+          "id": "g04-hole-reserved-2",
+          "position": [
+            11,
+            2,
+            4
+          ],
+          "support": [
+            11,
+            1,
+            4
+          ],
+          "spawn_position": [
+            11,
+            2,
+            4
+          ],
+          "zone": "northeast",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-hole-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        },
+        {
+          "id": "g04-hole-reserved-3",
+          "position": [
+            3,
+            2,
+            8
+          ],
+          "support": [
+            3,
+            1,
+            8
+          ],
+          "spawn_position": [
+            3,
+            2,
+            8
+          ],
+          "zone": "west-middle",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-hole-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        },
+        {
+          "id": "g04-hole-reserved-4",
+          "position": [
+            11,
+            2,
+            11
+          ],
+          "support": [
+            11,
+            1,
+            11
+          ],
+          "spawn_position": [
+            11,
+            2,
+            11
+          ],
+          "zone": "southeast",
+          "kind": "melee",
+          "clearance_air_cells": 5,
+          "activation_group": "g04-hole-shared",
+          "runtime": "NOT_IMPLEMENTED_RESERVED_AIR_ONLY"
+        }
+      ]
+    },
+    {
+      "key": "stairs/centered",
+      "template": "stairs/centered",
+      "child": null,
+      "size": [
+        16,
+        32,
+        16
+      ],
+      "sha256": "e8b0b2f671608cb07679f1131459f75bef3b4bd1accad6056f3de25d012667ba",
+      "source_sha256": "9c0faa5f61dc78102f9c133bbf86f67c2e64696d2da9839ba6ca2601fba38ea4",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              18,
+              0
+            ],
+            [
+              7,
+              18,
+              0
+            ],
+            [
+              8,
+              18,
+              0
+            ],
+            [
+              9,
+              18,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              18,
+              15
+            ],
+            [
+              7,
+              18,
+              15
+            ],
+            [
+              8,
+              18,
+              15
+            ],
+            [
+              9,
+              18,
+              15
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "lower-north",
+          "position": [
+            4,
+            2,
+            3
+          ],
+          "zone": "lower north flat landing",
+          "support": [
+            4,
+            1,
+            3
+          ],
+          "spawn_position": [
+            4,
+            2,
+            3
+          ],
+          "kind": "melee",
+          "activation_group": "stairs-centered",
+          "clearance": 3
+        },
+        {
+          "id": "lower-south",
+          "position": [
+            11,
+            2,
+            12
+          ],
+          "zone": "lower south flat landing",
+          "support": [
+            11,
+            1,
+            12
+          ],
+          "spawn_position": [
+            11,
+            2,
+            12
+          ],
+          "kind": "ranged",
+          "activation_group": "stairs-centered",
+          "clearance": 3
+        },
+        {
+          "id": "upper-north",
+          "position": [
+            4,
+            18,
+            3
+          ],
+          "zone": "upper north flat landing",
+          "support": [
+            4,
+            17,
+            3
+          ],
+          "spawn_position": [
+            4,
+            18,
+            3
+          ],
+          "kind": "melee",
+          "activation_group": "stairs-centered",
+          "clearance": 3
+        },
+        {
+          "id": "upper-south",
+          "position": [
+            11,
+            18,
+            12
+          ],
+          "zone": "upper south flat landing",
+          "support": [
+            11,
+            17,
+            12
+          ],
+          "spawn_position": [
+            11,
+            18,
+            12
+          ],
+          "kind": "ranged",
+          "activation_group": "stairs-centered",
+          "clearance": 3
+        }
+      ]
+    },
+    {
+      "key": "stairs/hole",
+      "template": "stairs/hole",
+      "child": null,
+      "size": [
+        16,
+        32,
+        16
+      ],
+      "sha256": "f6a3739bedd22954e1e882d754c628ba5c781e4f3653a1b1c92a0862d144c236",
+      "source_sha256": "b06b618390defdb740d9c1de0696d3288fa310227c907f3e92828215f045d26c",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              18,
+              0
+            ],
+            [
+              7,
+              18,
+              0
+            ],
+            [
+              8,
+              18,
+              0
+            ],
+            [
+              9,
+              18,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              18,
+              15
+            ],
+            [
+              7,
+              18,
+              15
+            ],
+            [
+              8,
+              18,
+              15
+            ],
+            [
+              9,
+              18,
+              15
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "lower-east",
+          "position": [
+            11,
+            2,
+            7
+          ],
+          "zone": "lower flat east bypass",
+          "support": [
+            11,
+            1,
+            7
+          ],
+          "spawn_position": [
+            11,
+            2,
+            7
+          ],
+          "kind": "melee",
+          "activation_group": "stairs-hole",
+          "clearance": 3
+        },
+        {
+          "id": "southwest-rest",
+          "position": [
+            2,
+            7,
+            10
+          ],
+          "zone": "southwest intermediate full-block landing",
+          "support": [
+            2,
+            6,
+            10
+          ],
+          "spawn_position": [
+            2,
+            7,
+            10
+          ],
+          "kind": "ranged",
+          "activation_group": "stairs-hole",
+          "clearance": 3
+        },
+        {
+          "id": "southeast-rest",
+          "position": [
+            13,
+            12,
+            12
+          ],
+          "zone": "southeast intermediate full-block landing",
+          "support": [
+            13,
+            11,
+            12
+          ],
+          "spawn_position": [
+            13,
+            12,
+            12
+          ],
+          "kind": "melee",
+          "activation_group": "stairs-hole",
+          "clearance": 3
+        },
+        {
+          "id": "upper-west",
+          "position": [
+            3,
+            18,
+            10
+          ],
+          "zone": "upper flat western gallery",
+          "support": [
+            3,
+            17,
+            10
+          ],
+          "spawn_position": [
+            3,
+            18,
+            10
+          ],
+          "kind": "ranged",
+          "activation_group": "stairs-hole",
+          "clearance": 3
+        }
+      ]
+    },
+    {
+      "key": "stairs/spiral",
+      "template": "stairs/spiral",
+      "child": null,
+      "size": [
+        16,
+        32,
+        16
+      ],
+      "sha256": "bfb8ef7421c3f5a0f743af30430e6a4a37d845e18a1b93184964737dbee6ffc1",
+      "source_sha256": "44b4cf8de85a830e16c15e3e4f638395130e9dd20667702447293e39da4152dc",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              2,
+              15
+            ],
+            [
+              7,
+              2,
+              15
+            ],
+            [
+              8,
+              2,
+              15
+            ],
+            [
+              9,
+              2,
+              15
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              18,
+              0
+            ],
+            [
+              7,
+              18,
+              0
+            ],
+            [
+              8,
+              18,
+              0
+            ],
+            [
+              9,
+              18,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              6,
+              18,
+              15
+            ],
+            [
+              7,
+              18,
+              15
+            ],
+            [
+              8,
+              18,
+              15
+            ],
+            [
+              9,
+              18,
+              15
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "lower-east",
+          "position": [
+            13,
+            2,
+            7
+          ],
+          "zone": "lower east flat bypass",
+          "support": [
+            13,
+            1,
+            7
+          ],
+          "spawn_position": [
+            13,
+            2,
+            7
+          ],
+          "clearance": 3,
+          "kind": "melee",
+          "activation_group": "stairs-spiral"
+        },
+        {
+          "id": "first-southwest",
+          "position": [
+            2,
+            4,
+            11
+          ],
+          "zone": "first-lap southwest full landing",
+          "support": [
+            2,
+            3,
+            11
+          ],
+          "spawn_position": [
+            2,
+            4,
+            11
+          ],
+          "clearance": 3,
+          "kind": "ranged",
+          "activation_group": "stairs-spiral"
+        },
+        {
+          "id": "first-southeast",
+          "position": [
+            11,
+            6,
+            11
+          ],
+          "zone": "first-lap southeast full landing",
+          "support": [
+            11,
+            5,
+            11
+          ],
+          "spawn_position": [
+            11,
+            6,
+            11
+          ],
+          "clearance": 3,
+          "kind": "melee",
+          "activation_group": "stairs-spiral"
+        },
+        {
+          "id": "upper-west",
+          "position": [
+            4,
+            18,
+            7
+          ],
+          "zone": "upper west flat bypass",
+          "support": [
+            4,
+            17,
+            7
+          ],
+          "spawn_position": [
+            4,
+            18,
+            7
+          ],
+          "clearance": 3,
+          "kind": "ranged",
+          "activation_group": "stairs-spiral"
+        }
+      ]
+    },
+    {
+      "key": "curve/simple",
+      "template": "curve/simple",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "c417368a369f0b5be74fe8eaeb6f51c32a0a96fffccdc65c06c38ca787433568",
+      "source_sha256": "af90fd6e6b165c3fd370d9f7691f384fadff7f68a8c7131cc83bc8033d7b974d",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "cells": [
+            [
+              0,
+              2,
+              6
+            ],
+            [
+              0,
+              2,
+              7
+            ],
+            [
+              0,
+              2,
+              8
+            ],
+            [
+              0,
+              2,
+              9
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "north-side-rest",
+          "position": [
+            11,
+            2,
+            4
+          ],
+          "zone": "north outer side bay",
+          "support": [
+            11,
+            1,
+            4
+          ],
+          "spawn_position": [
+            11,
+            2,
+            4
+          ],
+          "kind": "melee",
+          "clearance": 3,
+          "activation_group": "curve-simple",
+          "clearance_box": [
+            [
+              11,
+              2,
+              4
+            ],
+            [
+              11,
+              4,
+              4
+            ]
+          ],
+          "support_block": "minecraft:deepslate_tiles",
+          "simultaneous_spawn_count": false,
+          "world_test": "NOT_RUN"
+        },
+        {
+          "id": "west-side-rest",
+          "position": [
+            3,
+            2,
+            11
+          ],
+          "zone": "west outer side bay",
+          "support": [
+            3,
+            1,
+            11
+          ],
+          "spawn_position": [
+            3,
+            2,
+            11
+          ],
+          "kind": "ranged",
+          "clearance": 3,
+          "activation_group": "curve-simple",
+          "clearance_box": [
+            [
+              3,
+              2,
+              11
+            ],
+            [
+              3,
+              4,
+              11
+            ]
+          ],
+          "support_block": "minecraft:deepslate_tiles",
+          "simultaneous_spawn_count": false,
+          "world_test": "NOT_RUN"
+        }
+      ]
+    },
+    {
+      "key": "terminal/canteen",
+      "template": "terminal/canteen",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "0570ce7a9ae82b83c674dc53d951c014425d7c4b19bc1d7fed8d3fc164497247",
+      "source_sha256": "a13b465c744be29247d384ebb927088bb3eac36936e4c015fd6e3e36095790f3",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        }
+      ],
+      "sockets": []
+    },
+    {
+      "key": "terminal/storage",
+      "template": "terminal/storage",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "e202e4e1278dfaf33a74b3af72199b494538d7fb517ed898aa1e30b19e2aae76",
+      "source_sha256": "245c5a7652ebf5a6f9185a29937dc9610f5f25045e9dc6c20c8c3f7da0a0e0ff",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "g06-storage-01",
+          "position": [
+            3,
+            2,
+            10
+          ],
+          "support": [
+            3,
+            1,
+            10
+          ],
+          "spawn_position": [
+            3,
+            2,
+            10
+          ],
+          "zone": "west-open-bay",
+          "kind": "melee",
+          "clearance": "3AIRcellsY2..4",
+          "activation_group": "g06-storage-room",
+          "integration": "JSON_ONLY_RECOMPUTE_AFTER_REAL_RUNE_COLLISION"
+        },
+        {
+          "id": "g06-storage-02",
+          "position": [
+            12,
+            2,
+            4
+          ],
+          "support": [
+            12,
+            1,
+            4
+          ],
+          "spawn_position": [
+            12,
+            2,
+            4
+          ],
+          "zone": "east-front-bay",
+          "kind": "ranged",
+          "clearance": "3AIRcellsY2..4",
+          "activation_group": "g06-storage-room",
+          "integration": "JSON_ONLY_RECOMPUTE_AFTER_REAL_RUNE_COLLISION"
+        },
+        {
+          "id": "g06-storage-03",
+          "position": [
+            12,
+            2,
+            12
+          ],
+          "support": [
+            12,
+            1,
+            12
+          ],
+          "spawn_position": [
+            12,
+            2,
+            12
+          ],
+          "zone": "east-rear-bay",
+          "kind": "melee",
+          "clearance": "3AIRcellsY2..4",
+          "activation_group": "g06-storage-room",
+          "integration": "JSON_ONLY_RECOMPUTE_AFTER_REAL_RUNE_COLLISION"
+        }
+      ]
+    },
+    {
+      "key": "terminal/cells",
+      "template": "terminal/cells",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "36f1047462761b7cfa17fe3773fbf4e810347c9ab0d1354e1017933e634eaa42",
+      "source_sha256": "c9577096b54e3c9b2e005665b93b523a785ebc269bfc850358beecfa9b23b7ae",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        }
+      ],
+      "sockets": [
+        {
+          "id": "g06-cells-01",
+          "position": [
+            2,
+            2,
+            6
+          ],
+          "support": [
+            2,
+            1,
+            6
+          ],
+          "spawn_position": [
+            2,
+            2,
+            6
+          ],
+          "zone": "west-front-cell",
+          "kind": "melee",
+          "clearance": "3AIRcellsY2..4",
+          "activation_group": "g06-cells-room",
+          "integration": "JSON_ONLY_RECOMPUTE_AFTER_REAL_RUNE_COLLISION"
+        },
+        {
+          "id": "g06-cells-02",
+          "position": [
+            2,
+            2,
+            11
+          ],
+          "support": [
+            2,
+            1,
+            11
+          ],
+          "spawn_position": [
+            2,
+            2,
+            11
+          ],
+          "zone": "west-rear-cell",
+          "kind": "melee",
+          "clearance": "3AIRcellsY2..4",
+          "activation_group": "g06-cells-room",
+          "integration": "JSON_ONLY_RECOMPUTE_AFTER_REAL_RUNE_COLLISION"
+        },
+        {
+          "id": "g06-cells-03",
+          "position": [
+            13,
+            2,
+            5
+          ],
+          "support": [
+            13,
+            1,
+            5
+          ],
+          "spawn_position": [
+            13,
+            2,
+            5
+          ],
+          "zone": "east-long-front",
+          "kind": "ranged",
+          "clearance": "3AIRcellsY2..4",
+          "activation_group": "g06-cells-room",
+          "integration": "JSON_ONLY_RECOMPUTE_AFTER_REAL_RUNE_COLLISION"
+        },
+        {
+          "id": "g06-cells-04",
+          "position": [
+            13,
+            2,
+            11
+          ],
+          "support": [
+            13,
+            1,
+            11
+          ],
+          "spawn_position": [
+            13,
+            2,
+            11
+          ],
+          "zone": "east-long-rear",
+          "kind": "melee",
+          "clearance": "3AIRcellsY2..4",
+          "activation_group": "g06-cells-room",
+          "integration": "JSON_ONLY_RECOMPUTE_AFTER_REAL_RUNE_COLLISION"
+        }
+      ]
+    },
+    {
+      "key": "straight/room/layout/cells",
+      "template": "straight/room/layout/cells",
+      "child": null,
+      "size": [
+        12,
+        9,
+        12
+      ],
+      "sha256": "0dfb4d7d11f20596ccfd2ac6be58a0c8292097bc82754a46acc6dab71acab534",
+      "source_sha256": "90ee989492f06e56561ad265ec79574b5a14384fc717dd5f7364914a2a6b1c6f",
+      "minimum_y": 0,
+      "ports": [],
+      "sockets": [
+        {
+          "id": "west-cell-north",
+          "position": [
+            1,
+            1,
+            3
+          ],
+          "support": [
+            1,
+            0,
+            3
+          ],
+          "spawn_position": [
+            1,
+            1,
+            3
+          ],
+          "zone": "west-north-alcove",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "group07-cells",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "west-cell-south",
+          "position": [
+            1,
+            1,
+            7
+          ],
+          "support": [
+            1,
+            0,
+            7
+          ],
+          "spawn_position": [
+            1,
+            1,
+            7
+          ],
+          "zone": "west-south-alcove",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "group07-cells",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "guard-north",
+          "position": [
+            8,
+            1,
+            2
+          ],
+          "support": [
+            8,
+            0,
+            2
+          ],
+          "spawn_position": [
+            8,
+            1,
+            2
+          ],
+          "zone": "east-guard-north-flank",
+          "kind": "ranged",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "group07-cells",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "guard-south",
+          "position": [
+            8,
+            1,
+            10
+          ],
+          "support": [
+            8,
+            0,
+            10
+          ],
+          "spawn_position": [
+            8,
+            1,
+            10
+          ],
+          "zone": "east-guard-south-flank",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "group07-cells",
+          "reserved_location_not_spawn_count": true
+        }
+      ]
+    },
+    {
+      "key": "straight/room/layout/storage",
+      "template": "straight/room/layout/storage",
+      "child": null,
+      "size": [
+        12,
+        9,
+        12
+      ],
+      "sha256": "fd10d5fbad9d526da463c68d581e41fb2a1f74c65a5271fdd938120b81a43c81",
+      "source_sha256": "251beb2b5a3e9d77ed3bcafdf14ac8c1a6ed91c17ec195bf0aa57e5478f2c42b",
+      "minimum_y": 0,
+      "ports": [],
+      "sockets": [
+        {
+          "id": "storage-1",
+          "position": [
+            1,
+            1,
+            2
+          ],
+          "support": [
+            1,
+            0,
+            2
+          ],
+          "spawn_position": [
+            1,
+            1,
+            2
+          ],
+          "zone": "west-low-archive-north-flank",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-storage",
+          "purpose": "candidate_not_simultaneous_count",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "storage-2",
+          "position": [
+            1,
+            1,
+            9
+          ],
+          "support": [
+            1,
+            0,
+            9
+          ],
+          "spawn_position": [
+            1,
+            1,
+            9
+          ],
+          "zone": "west-low-archive-south-flank",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-storage",
+          "purpose": "candidate_not_simultaneous_count",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "storage-3",
+          "position": [
+            8,
+            1,
+            2
+          ],
+          "support": [
+            8,
+            0,
+            2
+          ],
+          "spawn_position": [
+            8,
+            1,
+            2
+          ],
+          "zone": "east-high-equipment-north-flank",
+          "kind": "ranged",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-storage",
+          "purpose": "candidate_not_simultaneous_count",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "storage-4",
+          "position": [
+            8,
+            1,
+            9
+          ],
+          "support": [
+            8,
+            0,
+            9
+          ],
+          "spawn_position": [
+            8,
+            1,
+            9
+          ],
+          "zone": "east-high-equipment-south-flank",
+          "kind": "ranged",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-storage",
+          "purpose": "candidate_not_simultaneous_count",
+          "reserved_location_not_spawn_count": true
+        }
+      ]
+    },
+    {
+      "key": "straight/room/layout/towers",
+      "template": "straight/room/layout/towers",
+      "child": null,
+      "size": [
+        12,
+        9,
+        12
+      ],
+      "sha256": "126e6e2c6e262cf2deb853055e03c3bb92232d7e87ab630d417f69ce76d90fc2",
+      "source_sha256": "3a528331c866f389ba453cf362456807281cf814c934172e193acefe291a02c9",
+      "minimum_y": 0,
+      "ports": [],
+      "sockets": [
+        {
+          "id": "towers-1",
+          "position": [
+            1,
+            1,
+            6
+          ],
+          "support": [
+            1,
+            0,
+            6
+          ],
+          "spawn_position": [
+            1,
+            1,
+            6
+          ],
+          "zone": "west-high-tower-south-flank",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-towers",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "towers-2",
+          "position": [
+            1,
+            1,
+            9
+          ],
+          "support": [
+            1,
+            0,
+            9
+          ],
+          "spawn_position": [
+            1,
+            1,
+            9
+          ],
+          "zone": "west-south-ground",
+          "kind": "ranged",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-towers",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "towers-3",
+          "position": [
+            9,
+            1,
+            2
+          ],
+          "support": [
+            9,
+            0,
+            2
+          ],
+          "spawn_position": [
+            9,
+            1,
+            2
+          ],
+          "zone": "east-north-ground",
+          "kind": "melee",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-towers",
+          "reserved_location_not_spawn_count": true
+        },
+        {
+          "id": "towers-4",
+          "position": [
+            9,
+            1,
+            5
+          ],
+          "support": [
+            9,
+            0,
+            5
+          ],
+          "spawn_position": [
+            9,
+            1,
+            5
+          ],
+          "zone": "east-low-tower-north-flank",
+          "kind": "ranged",
+          "clearance": "3 AIR cells, full native body clear before runtime rune integration",
+          "activation_group": "room-local-towers",
+          "reserved_location_not_spawn_count": true
+        }
+      ]
+    },
+    {
+      "key": "boss/eclipse_keeper",
+      "template": "boss/eclipse_keeper",
+      "child": null,
+      "size": [
+        34,
+        23,
+        28
+      ],
+      "sha256": "7c993f594ae186cbc7539d886691af19d807a8198a4184098fbfa52404f4f1c7",
+      "source_sha256": "bc6f1bccf797121c8028729866e32c854ffa0db9d57a6d714bfe0d589c8eef95",
+      "minimum_y": 0,
+      "ports": [],
+      "sockets": [
+        {
+          "id": "eclipse_keeper_add_01",
+          "position": [
+            8,
+            2,
+            5
+          ],
+          "support": [
+            8,
+            1,
+            5
+          ],
+          "spawn_position": [
+            8,
+            2,
+            5
+          ],
+          "zone": "boss-arena",
+          "kind": "ranged",
+          "clearance": "Y2..4 explicit AIR over original full floor",
+          "activation_group": "eclipse_keeper_shared_adds",
+          "runtime_spawner": "NOT_INSTALLED"
+        },
+        {
+          "id": "eclipse_keeper_add_02",
+          "position": [
+            25,
+            2,
+            5
+          ],
+          "support": [
+            25,
+            1,
+            5
+          ],
+          "spawn_position": [
+            25,
+            2,
+            5
+          ],
+          "zone": "boss-arena",
+          "kind": "melee",
+          "clearance": "Y2..4 explicit AIR over original full floor",
+          "activation_group": "eclipse_keeper_shared_adds",
+          "runtime_spawner": "NOT_INSTALLED"
+        },
+        {
+          "id": "eclipse_keeper_add_03",
+          "position": [
+            8,
+            2,
+            11
+          ],
+          "support": [
+            8,
+            1,
+            11
+          ],
+          "spawn_position": [
+            8,
+            2,
+            11
+          ],
+          "zone": "boss-arena",
+          "kind": "melee",
+          "clearance": "Y2..4 explicit AIR over original full floor",
+          "activation_group": "eclipse_keeper_shared_adds",
+          "runtime_spawner": "NOT_INSTALLED"
+        },
+        {
+          "id": "eclipse_keeper_add_04",
+          "position": [
+            25,
+            2,
+            11
+          ],
+          "support": [
+            25,
+            1,
+            11
+          ],
+          "spawn_position": [
+            25,
+            2,
+            11
+          ],
+          "zone": "boss-arena",
+          "kind": "ranged",
+          "clearance": "Y2..4 explicit AIR over original full floor",
+          "activation_group": "eclipse_keeper_shared_adds",
+          "runtime_spawner": "NOT_INSTALLED"
+        },
+        {
+          "id": "eclipse_keeper_add_05",
+          "position": [
+            8,
+            2,
+            18
+          ],
+          "support": [
+            8,
+            1,
+            18
+          ],
+          "spawn_position": [
+            8,
+            2,
+            18
+          ],
+          "zone": "boss-arena",
+          "kind": "melee",
+          "clearance": "Y2..4 explicit AIR over original full floor",
+          "activation_group": "eclipse_keeper_shared_adds",
+          "runtime_spawner": "NOT_INSTALLED"
+        },
+        {
+          "id": "eclipse_keeper_add_06",
+          "position": [
+            25,
+            2,
+            18
+          ],
+          "support": [
+            25,
+            1,
+            18
+          ],
+          "spawn_position": [
+            25,
+            2,
+            18
+          ],
+          "zone": "boss-arena",
+          "kind": "melee",
+          "clearance": "Y2..4 explicit AIR over original full floor",
+          "activation_group": "eclipse_keeper_shared_adds",
+          "runtime_spawner": "NOT_INSTALLED"
+        },
+        {
+          "id": "eclipse_keeper_add_07",
+          "position": [
+            12,
+            2,
+            20
+          ],
+          "support": [
+            12,
+            1,
+            20
+          ],
+          "spawn_position": [
+            12,
+            2,
+            20
+          ],
+          "zone": "boss-arena",
+          "kind": "ranged",
+          "clearance": "Y2..4 explicit AIR over original full floor",
+          "activation_group": "eclipse_keeper_shared_adds",
+          "runtime_spawner": "NOT_INSTALLED"
+        },
+        {
+          "id": "eclipse_keeper_add_08",
+          "position": [
+            21,
+            2,
+            20
+          ],
+          "support": [
+            21,
+            1,
+            20
+          ],
+          "spawn_position": [
+            21,
+            2,
+            20
+          ],
+          "zone": "boss-arena",
+          "kind": "melee",
+          "clearance": "Y2..4 explicit AIR over original full floor",
+          "activation_group": "eclipse_keeper_shared_adds",
+          "runtime_spawner": "NOT_INSTALLED"
+        }
+      ]
+    },
+    {
+      "key": "promenade",
+      "template": "promenade",
+      "child": null,
+      "size": [
+        16,
+        16,
+        16
+      ],
+      "sha256": "4e9d9fa9c43f9d75a2770fc71272ae84a56224e719f44a577e85ed191f8334a4",
+      "source_sha256": "5c1b76f366bc09ba5dff16b00e040fd7a3d5963c6530a529e8cef15e64404eb9",
+      "minimum_y": 0,
+      "ports": [
+        {
+          "cells": [
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ]
+          ]
+        }
+      ],
+      "sockets": []
+    }
+  ],
+  "pools": {
+    "curve": [
+      {
+        "template": "curve/simple",
+        "weight": 1
+      }
+    ],
+    "promenade": [
+      {
+        "template": "promenade",
+        "weight": 1
+      }
+    ],
+    "spawn/outside_far": [
+      {
+        "template": "spawn/outside_far",
+        "weight": 1
+      }
+    ],
+    "spawn/outside_near": [
+      {
+        "template": "spawn/outside_near",
+        "weight": 1
+      }
+    ],
+    "spawn/spawn": [
+      {
+        "template": "spawn/spawn",
+        "weight": 1
+      }
+    ],
+    "stairs": [
+      {
+        "template": "stairs/centered",
+        "weight": 1
+      },
+      {
+        "template": "stairs/hole",
+        "weight": 1
+      },
+      {
+        "template": "stairs/spiral",
+        "weight": 1
+      }
+    ],
+    "straight/room/layout": [
+      {
+        "template": "straight/room/layout/storage",
+        "weight": 1
+      },
+      {
+        "template": "straight/room/layout/cells",
+        "weight": 1
+      },
+      {
+        "template": "straight/room/layout/towers",
+        "weight": 1
+      }
+    ],
+    "straight": [
+      {
+        "template": "straight/simple",
+        "weight": 2
+      },
+      {
+        "template": "straight/room",
+        "weight": 3
+      },
+      {
+        "template": "straight/hole",
+        "weight": 1
+      },
+      {
+        "template": "straight/platform",
+        "weight": 1
+      },
+      {
+        "template": "straight/door",
+        "weight": 2
+      }
+    ],
+    "terminal": [
+      {
+        "template": "terminal/canteen",
+        "weight": 1
+      },
+      {
+        "template": "terminal/storage",
+        "weight": 2
+      },
+      {
+        "template": "terminal/cells",
+        "weight": 4
+      }
+    ],
+    "turn": [
+      {
+        "template": "turn/big_doors",
+        "weight": 1
+      },
+      {
+        "template": "turn/small_doors",
+        "weight": 1
+      },
+      {
+        "template": "turn/pillar_room",
+        "weight": 1
+      },
+      {
+        "template": "turn/hole",
+        "weight": 1
+      }
+    ]
+  }
+}

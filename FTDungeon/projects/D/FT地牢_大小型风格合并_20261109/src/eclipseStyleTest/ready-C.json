@@ -1,0 +1,78 @@
+{
+  "owner": "C",
+  "status": "MERGED_029_MENU_AND_TEST_SOURCE_FROZEN_AWAITING_HOST_COMPILE_NATIVE",
+  "namespace": "fteclipsestylesqa",
+  "sourceSet": "eclipseStyleTest",
+  "selectionProperty": "-PeclipseStyleOnly=true",
+  "buildExecuted": false,
+  "gradleExecuted": false,
+  "nativeExecution": "MERGED_PROJECT_NOT_RUN",
+  "productionJavaModified": true,
+  "versionModifiedByC": false,
+  "deployed": false,
+  "files": [
+    {
+      "path": "build.gradle",
+      "sha256": "a420972bc47a17706553844566905fc67f99055a4df3146acfa28027bf5ca5a6",
+      "bytes": 9815
+    },
+    {
+      "path": "src/eclipseStyleTest/java/eclipse/generator/EclipseStyleGameTests.java",
+      "sha256": "ff6e89937684bf950ef4ecbe59d41d0fee3207b78a00fd7466a25e23c77eaf83",
+      "bytes": 20741
+    },
+    {
+      "path": "src/eclipseStyleTest/resources/data/fteclipsestylesqa/structures/empty.nbt",
+      "sha256": "79a829589b459af48b8dbfc609cbcb4dfce1a94a6d2c6100f1f67b2188cf2b33",
+      "bytes": 291
+    },
+    {
+      "path": "src/eclipseStyleTest/README.md",
+      "sha256": "2a811d186ac79b5fb3ebcc38d74c35e96d933f06198f4e924592350de0910042",
+      "bytes": 6117
+    },
+    {
+      "path": "src/main/java/net/farmingtales/ftdungeonmobs/DungeonGeneratorMenu.java",
+      "sha256": "d7fa7558d2358d75a3f854a1a7c498b95ff46acd2df4c9adcc307c3f610071b6",
+      "bytes": 11784
+    }
+  ],
+  "tests": [
+    {
+      "name": "distinctPlansStoreReloadAndLegacyClockwork",
+      "status": "NOT_COMPILED_NOT_RUN",
+      "scope": "Four same-seed style plans distinct identity and decoded materials;determinism;full detached Store reload;unknown and changed fingerprint refused;synthetic style-less clockwork old ID/hash and exact block compatibility;legacy fixture explicitly strips style/styleFingerprint raw JSON;old v1 ID and raw JsonObject Catalog.GSON SHA256 planHash independently proven before/after encode and reload"
+    },
+    {
+      "name": "actualMenuFourBuildsStyleIsolationAndEntry",
+      "status": "NOT_COMPILED_NOT_RUN",
+      "scope": "Four actual builds/world palette samples/Store reload;real root small0+medium1 and return20 navigation;unselected medium seed/generate blocked;all4 MEDIUM styles clicked;COMPLETE style+seed reuse;bound style/seed replacement denied;SMALL category blocks entry into selected MEDIUM;roundtrip preserves gate;actual medium slot25 entry+provider leave"
+    }
+  ],
+  "stableAPIsObserved": [
+    "Profiles.get/all/blocks(plan,key)",
+    "Plan.style/styleFingerprint;shared catalog fingerprint",
+    "Planner.create(style,seed,anchor)",
+    "Engine.plan(level,style,seed,anchor)",
+    "Provider reserve matches Profiles.style(job.plan)+seed"
+  ],
+  "checks": [
+    "Independent empty NBT SHA256 matches existing 291-byte valid template",
+    "Source review only;no new main code or version edits",
+    "eclipseStyleOnly selects dedicated test sources/resources and namespace;skips moss fixture copying"
+  ],
+  "limitations": [
+    "Merged project not compiled or run by C;no Gradle/build/deploy performed",
+    "Existing smallTest root slot2 expects eclipse;new required layout moves medium category to slot1 and MAIN to slot2;small test owner must update that obsolete assertion;C did not edit smallTest",
+    "Legacy clockwork fixture synthesized style-less old-format data;no historical .dat supplied",
+    "Runtime samples 24 transformed non-BE material blocks per style;no client visual/Boss combat claim",
+    "build.gradle version 0.29.0 edited by host,not C;whole file hash reflects current shared file"
+  ],
+  "logs": [],
+  "frozen": true,
+  "frozenAt": "2026-11-09T10:19:30.0698645+08:00",
+  "hostHandoff": "Run fresh isolated runGameTestServer -PeclipseStyleOnly=true;smallOnly configuration preserved;update obsolete smallTest slot2 assertion under appropriate owner before smallOnly run.",
+  "nativeR1": "Host reports Java compilation passed;processEclipseStyleTestResources failed duplicate empty.nbt;fixed source dirs by assignment,not duplicatesStrategy;awaiting fresh native-r2",
+  "authorizedMainScope": "Only DungeonGeneratorMenu.java;Category.MEDIUM/Eclipse provider and registry owned by host;no other main sources edited",
+  "categoryContract": "Root0 SMALL,root1 MEDIUM,18 MAIN choices2..19;20 choices per category;return20,prev21,summary22,next23,seed24,generate/enter25,close26;navigation never changes gate;category mismatch blocks seed/generate/enter"
+}

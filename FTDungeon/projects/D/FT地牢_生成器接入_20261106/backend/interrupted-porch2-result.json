@@ -1,0 +1,70 @@
+{
+  "case": "interrupted",
+  "harnessJarSha256": "9c7a167fc6b02086afbd41497fb3d6ab860dbcacda65508c1f3e8c3fdb4bfd46",
+  "world": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\interrupted-porch2\\world",
+  "processes": [
+    {
+      "pid": 58744,
+      "exitCode": 1,
+      "log": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\interrupted-porch2\\prepare.log",
+      "sha256": "8f922bb94c55aff1e0dd739686ff00fc522d0bc12480e442f585bec775743bd6",
+      "forced": true
+    },
+    {
+      "pid": 41332,
+      "exitCode": 0,
+      "log": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\interrupted-porch2\\restart.log",
+      "sha256": "5e9d0e6a5380b21d8049a78513767851c0dc04c64222bc7ec2c81878f5ff5c65",
+      "forced": false
+    }
+  ],
+  "testOnlyMod": true,
+  "oldCandidateCommandsOrMarkerOrReceiptUsed": false,
+  "beforeKill": {
+    "state": "BUILDING",
+    "stage": "SOLIDS",
+    "landing": {
+      "f_82479_": 1015.5,
+      "f_82480_": 202.0,
+      "f_82481_": 997.5
+    },
+    "entranceOutward": "NORTH",
+    "returnGateAnchor": {
+      "f_123285_": 1018,
+      "f_123286_": 202,
+      "f_123289_": 997
+    },
+    "returnGateFacing": "SOUTH",
+    "platformBounds": {
+      "f_82288_": 1010.0,
+      "f_82289_": 201.0,
+      "f_82290_": 995.0,
+      "f_82291_": 1021.0,
+      "f_82292_": 208.0,
+      "f_82293_": 1000.0
+    },
+    "envelopeBounds": {
+      "f_82288_": 994.0,
+      "f_82289_": 196.0,
+      "f_82290_": 933.0,
+      "f_82291_": 1120.0,
+      "f_82292_": 227.0,
+      "f_82293_": 1075.0
+    },
+    "instanceId": "ftde-be8d083ae80dfe334679110b04a8be62c1625d33afab4e4d2a9f57b613f72947",
+    "completed": 17408,
+    "total": 554652,
+    "observedTicks": 0,
+    "error": ""
+  },
+  "final": {
+    "state": "FAILED",
+    "stage": "LOCKED_ADMIN_REVIEW_REQUIRED",
+    "instanceId": "",
+    "completed": 20480,
+    "total": 0,
+    "observedTicks": 0,
+    "error": "java.lang.IllegalArgumentException: Interrupted BUILDING is locked; administrator review required"
+  },
+  "status": "PASS_REAL_PROCESS_KILL_RESTART_LOCKED_NO_AUTOREBUILD"
+}

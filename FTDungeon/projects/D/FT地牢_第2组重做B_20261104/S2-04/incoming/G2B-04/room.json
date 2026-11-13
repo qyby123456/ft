@@ -1,0 +1,257 @@
+{
+  "id": "G2B-04",
+  "name": "砂岩旗帜列柱大殿",
+  "size": [
+    29,
+    21,
+    39
+  ],
+  "entrance": [
+    14,
+    1,
+    0
+  ],
+  "interior": [
+    14,
+    2,
+    8
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        14,
+        1,
+        0
+      ],
+      "width": 7,
+      "height": 4,
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "facing": "south",
+      "position": [
+        14,
+        3,
+        38
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "facing": "west",
+      "position": [
+        0,
+        2,
+        19
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "facing": "east",
+      "position": [
+        28,
+        2,
+        19
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "route_targets": [
+    {
+      "name": "north-landing",
+      "position": [
+        14,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "north-step",
+      "position": [
+        14,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "north-upper",
+      "position": [
+        14,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "front-hall",
+      "position": [
+        14,
+        2,
+        8
+      ]
+    },
+    {
+      "name": "aisle-front",
+      "position": [
+        14,
+        2,
+        12
+      ]
+    },
+    {
+      "name": "aisle-middle",
+      "position": [
+        14,
+        2,
+        22
+      ]
+    },
+    {
+      "name": "aisle-back",
+      "position": [
+        14,
+        2,
+        32
+      ]
+    },
+    {
+      "name": "west-aisle-front",
+      "position": [
+        4,
+        2,
+        11
+      ]
+    },
+    {
+      "name": "east-aisle-front",
+      "position": [
+        24,
+        2,
+        11
+      ]
+    },
+    {
+      "name": "west-aisle-back",
+      "position": [
+        4,
+        2,
+        32
+      ]
+    },
+    {
+      "name": "east-aisle-back",
+      "position": [
+        24,
+        2,
+        32
+      ]
+    },
+    {
+      "name": "south-step",
+      "position": [
+        14,
+        3,
+        35
+      ]
+    },
+    {
+      "name": "west-threshold",
+      "position": [
+        2,
+        2,
+        19
+      ]
+    },
+    {
+      "name": "east-threshold",
+      "position": [
+        26,
+        2,
+        19
+      ]
+    }
+  ],
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S2-sandstone-desert\\out\\S2-04-great-hall.png",
+  "reference_sha256": "f336858c47e1bbaa721be1b343c59c7c0527fd0eb9e117530a3f11c1ad107798",
+  "sha256": "e51ce958dac41a27803aa5443b09ac8b1c19d1e0a8f2d6ceb493130e5b97d3aa",
+  "coordinate_system": "Local XYZ feet, east +X, north -Z",
+  "hall_feet_y": 2,
+  "roof": {
+    "type": "stepped sandstone vault",
+    "covered_z_inclusive": [
+      8,
+      38
+    ],
+    "height_formula": "17+floor(min(x,28-x)/5)",
+    "front_z_4_to_7": "INTENTIONALLY_OPEN_LOW_ENTRY_FORECOURT"
+  },
+  "landmark": {
+    "type": "long geometric aisle, paired triple column rows, wall banners and suspended lanterns",
+    "column_roots": [
+      [
+        7,
+        2,
+        11
+      ],
+      [
+        7,
+        2,
+        22
+      ],
+      [
+        7,
+        2,
+        32
+      ],
+      [
+        21,
+        2,
+        11
+      ],
+      [
+        21,
+        2,
+        22
+      ],
+      [
+        21,
+        2,
+        32
+      ]
+    ],
+    "no_central_platform": true
+  },
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "runtime_slot": null,
+  "next_image": "S2-05 LOCKED_NOT_STARTED",
+  "world_placement": "NOT_RUN",
+  "deviations": [
+    "Estimated block proportions, no pixel-identical claim",
+    "Vanilla wall banners approximate long pictorial cloth",
+    "Urns approximated by terracotta/flower pots",
+    "Exterior dunes and cacti omitted",
+    "Partial stepped vault reconstructed; front entry intentionally open, not a fully sealed room"
+  ]
+}

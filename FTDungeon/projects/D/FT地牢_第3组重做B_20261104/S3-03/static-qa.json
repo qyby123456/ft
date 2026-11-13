@@ -1,0 +1,67 @@
+{
+  "sha256": "0635704f16b807b0f611007aa150e16ffd475c942280bec85e8e4af4112b90c1",
+  "status": "PASS",
+  "tests": {
+    "size": true,
+    "dataversion": true,
+    "unique_complete_volume": true,
+    "bounded": true,
+    "vanilla": true,
+    "no_entities": true,
+    "no_hazards": true,
+    "single_boundary_port": true,
+    "aperture": true,
+    "roof": true,
+    "cutaway_exact_deletions": true,
+    "empty_block_entities": true,
+    "chest_headroom": true,
+    "chest_orientation": true,
+    "lights_supported": true,
+    "non_air_face_connected": true,
+    "internal_lights_below_snow_melt_threshold": true
+  },
+  "palette": {
+    "minecraft:stone_bricks": 2403,
+    "minecraft:cracked_stone_bricks": 547,
+    "minecraft:cobblestone": 214,
+    "minecraft:blue_ice": 33,
+    "minecraft:packed_ice": 150,
+    "minecraft:snow_block": 204,
+    "minecraft:air": 2261,
+    "minecraft:chiseled_stone_bricks": 38,
+    "minecraft:spruce_log": 14,
+    "minecraft:spruce_slab": 32,
+    "minecraft:bone_block": 9,
+    "minecraft:snow": 36,
+    "minecraft:spruce_planks": 4,
+    "minecraft:potted_dead_bush": 3,
+    "minecraft:soul_lantern": 2,
+    "minecraft:chain": 6,
+    "minecraft:stone_brick_stairs": 2,
+    "minecraft:stone_brick_slab": 25,
+    "minecraft:chest": 1,
+    "minecraft:barrel": 1
+  },
+  "block_entities": [
+    {
+      "pos": [
+        11,
+        3,
+        11
+      ],
+      "state": "minecraft:chest[facing=east,type=single,waterlogged=false]",
+      "nbt": "{id:\"minecraft:chest\"}"
+    },
+    {
+      "pos": [
+        15,
+        2,
+        4
+      ],
+      "state": "minecraft:barrel[facing=up,open=false]",
+      "nbt": "{id:\"minecraft:barrel\"}"
+    }
+  ],
+  "preview_sha256": "d39f852d956a440c888356b36e929d35bf9cac89f6aca07efc2feac7f865c595",
+  "world_ticks": "NOT_RUN"
+}

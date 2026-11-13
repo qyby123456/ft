@@ -1,0 +1,1 @@
+execute if block 134 91 294 minecraft:air if block 134 90 294 minecraft:deepslate_tiles store success score #v1b286 ftm_brick run setblock 134 91 294 ftdungeonmobs:dungeon_spawn_point[spent=false] keep

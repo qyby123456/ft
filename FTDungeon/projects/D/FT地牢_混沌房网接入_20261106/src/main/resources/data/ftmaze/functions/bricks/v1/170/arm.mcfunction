@@ -1,0 +1,1 @@
+execute if block 485 31 117 minecraft:air if block 485 30 117 minecraft:green_stained_glass store success score #v1b170 ftm_brick run setblock 485 31 117 ftdungeonmobs:dungeon_spawn_point[spent=false] keep

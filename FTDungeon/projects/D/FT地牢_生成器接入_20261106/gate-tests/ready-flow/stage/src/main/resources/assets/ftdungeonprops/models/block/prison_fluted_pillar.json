@@ -1,0 +1,619 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile3": "ftdungeonprops:block/remake-masonry_03",
+    "tile7": "ftdungeonprops:block/remake-masonry_07",
+    "tile4": "ftdungeonprops:block/remake-masonry_04",
+    "tile5": "ftdungeonprops:block/remake-masonry_05",
+    "tile6": "ftdungeonprops:block/remake-masonry_06",
+    "tile8": "ftdungeonprops:block/remake-masonry_08",
+    "particle": "ftdungeonprops:block/remake-masonry_03"
+  },
+  "elements": [
+    {
+      "name": "broad dressed plinth",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        2,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#tile3"
+        },
+        "south": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#tile3"
+        },
+        "west": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            1,
+            14,
+            15,
+            16
+          ],
+          "texture": "#tile3"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#tile7"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#tile7",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "inset base shoulder",
+      "from": [
+        3,
+        2,
+        3
+      ],
+      "to": [
+        13,
+        3,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            13,
+            13,
+            14
+          ],
+          "texture": "#tile4"
+        },
+        "south": {
+          "uv": [
+            3,
+            13,
+            13,
+            14
+          ],
+          "texture": "#tile4"
+        },
+        "west": {
+          "uv": [
+            3,
+            13,
+            13,
+            14
+          ],
+          "texture": "#tile4"
+        },
+        "east": {
+          "uv": [
+            3,
+            13,
+            13,
+            14
+          ],
+          "texture": "#tile4"
+        },
+        "up": {
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ],
+          "texture": "#tile7"
+        }
+      }
+    },
+    {
+      "name": "northwest carved shaft corner",
+      "from": [
+        4,
+        3,
+        4
+      ],
+      "to": [
+        7,
+        12,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            4,
+            12,
+            13
+          ],
+          "texture": "#tile5"
+        },
+        "south": {
+          "uv": [
+            4,
+            4,
+            7,
+            13
+          ],
+          "texture": "#tile6"
+        },
+        "west": {
+          "uv": [
+            4,
+            4,
+            7,
+            13
+          ],
+          "texture": "#tile5"
+        },
+        "east": {
+          "uv": [
+            9,
+            4,
+            12,
+            13
+          ],
+          "texture": "#tile6"
+        }
+      }
+    },
+    {
+      "name": "northeast carved shaft corner",
+      "from": [
+        9,
+        3,
+        4
+      ],
+      "to": [
+        12,
+        12,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            4,
+            7,
+            13
+          ],
+          "texture": "#tile5"
+        },
+        "south": {
+          "uv": [
+            9,
+            4,
+            12,
+            13
+          ],
+          "texture": "#tile6"
+        },
+        "west": {
+          "uv": [
+            4,
+            4,
+            7,
+            13
+          ],
+          "texture": "#tile6"
+        },
+        "east": {
+          "uv": [
+            9,
+            4,
+            12,
+            13
+          ],
+          "texture": "#tile5"
+        }
+      }
+    },
+    {
+      "name": "southwest carved shaft corner",
+      "from": [
+        4,
+        3,
+        9
+      ],
+      "to": [
+        7,
+        12,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            4,
+            12,
+            13
+          ],
+          "texture": "#tile6"
+        },
+        "south": {
+          "uv": [
+            4,
+            4,
+            7,
+            13
+          ],
+          "texture": "#tile5"
+        },
+        "west": {
+          "uv": [
+            9,
+            4,
+            12,
+            13
+          ],
+          "texture": "#tile5"
+        },
+        "east": {
+          "uv": [
+            4,
+            4,
+            7,
+            13
+          ],
+          "texture": "#tile6"
+        }
+      }
+    },
+    {
+      "name": "southeast carved shaft corner",
+      "from": [
+        9,
+        3,
+        9
+      ],
+      "to": [
+        12,
+        12,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            4,
+            7,
+            13
+          ],
+          "texture": "#tile6"
+        },
+        "south": {
+          "uv": [
+            9,
+            4,
+            12,
+            13
+          ],
+          "texture": "#tile5"
+        },
+        "west": {
+          "uv": [
+            9,
+            4,
+            12,
+            13
+          ],
+          "texture": "#tile6"
+        },
+        "east": {
+          "uv": [
+            4,
+            4,
+            7,
+            13
+          ],
+          "texture": "#tile5"
+        }
+      }
+    },
+    {
+      "name": "north recessed flute bed",
+      "from": [
+        7,
+        3,
+        6
+      ],
+      "to": [
+        9,
+        12,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            4,
+            9,
+            13
+          ],
+          "texture": "#tile6"
+        }
+      }
+    },
+    {
+      "name": "south recessed flute bed",
+      "from": [
+        7,
+        3,
+        9
+      ],
+      "to": [
+        9,
+        12,
+        10
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            7,
+            4,
+            9,
+            13
+          ],
+          "texture": "#tile6"
+        }
+      }
+    },
+    {
+      "name": "central web with east and west flute beds",
+      "from": [
+        6,
+        3,
+        7
+      ],
+      "to": [
+        10,
+        12,
+        9
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7,
+            4,
+            9,
+            13
+          ],
+          "texture": "#tile6"
+        },
+        "east": {
+          "uv": [
+            7,
+            4,
+            9,
+            13
+          ],
+          "texture": "#tile6"
+        }
+      }
+    },
+    {
+      "name": "capital neck collar",
+      "from": [
+        3,
+        12,
+        3
+      ],
+      "to": [
+        13,
+        13,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            3,
+            13,
+            4
+          ],
+          "texture": "#tile4"
+        },
+        "south": {
+          "uv": [
+            3,
+            3,
+            13,
+            4
+          ],
+          "texture": "#tile4"
+        },
+        "west": {
+          "uv": [
+            3,
+            3,
+            13,
+            4
+          ],
+          "texture": "#tile4"
+        },
+        "east": {
+          "uv": [
+            3,
+            3,
+            13,
+            4
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ],
+          "texture": "#tile7"
+        }
+      }
+    },
+    {
+      "name": "capital cushion step",
+      "from": [
+        2,
+        13,
+        2
+      ],
+      "to": [
+        14,
+        14,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            2,
+            14,
+            3
+          ],
+          "texture": "#tile4"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            14,
+            3
+          ],
+          "texture": "#tile4"
+        },
+        "west": {
+          "uv": [
+            2,
+            2,
+            14,
+            3
+          ],
+          "texture": "#tile4"
+        },
+        "east": {
+          "uv": [
+            2,
+            2,
+            14,
+            3
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#tile7"
+        }
+      }
+    },
+    {
+      "name": "broad stacking abacus",
+      "from": [
+        1,
+        14,
+        1
+      ],
+      "to": [
+        15,
+        16,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            0,
+            15,
+            2
+          ],
+          "texture": "#tile8"
+        },
+        "south": {
+          "uv": [
+            1,
+            0,
+            15,
+            2
+          ],
+          "texture": "#tile8"
+        },
+        "west": {
+          "uv": [
+            1,
+            0,
+            15,
+            2
+          ],
+          "texture": "#tile8"
+        },
+        "east": {
+          "uv": [
+            1,
+            0,
+            15,
+            2
+          ],
+          "texture": "#tile8"
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#tile7",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#tile7"
+        }
+      }
+    }
+  ]
+}

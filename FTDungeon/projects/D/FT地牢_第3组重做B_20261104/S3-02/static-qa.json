@@ -1,0 +1,85 @@
+{
+  "sha256": "01b36eba49ff230dcec435950cb55d716323585c0aa2ad32d64e5d0031f7bcfa",
+  "status": "PASS",
+  "tests": {
+    "dimensions": true,
+    "dataversion": true,
+    "complete_unique_volume": true,
+    "bounded": true,
+    "vanilla_only": true,
+    "no_entities": true,
+    "no_hazards": true,
+    "portal_apertures": true,
+    "complete_roof": true,
+    "cutaway_only_deletions": true,
+    "exactly_two_boundary_portals": true,
+    "only_empty_declared_block_entities": true,
+    "furnaces_face_interior_unlit": true,
+    "no_lit_candles": true,
+    "internal_lights_below_snow_melt_threshold": true,
+    "lantern_chain_support": true,
+    "all_non_air_face_connected_to_floor": true
+  },
+  "palette": {
+    "minecraft:stone_bricks": 4515,
+    "minecraft:cobblestone": 659,
+    "minecraft:cracked_stone_bricks": 767,
+    "minecraft:air": 6351,
+    "minecraft:snow_block": 426,
+    "minecraft:blue_ice": 40,
+    "minecraft:packed_ice": 206,
+    "minecraft:spruce_planks": 40,
+    "minecraft:snow": 82,
+    "minecraft:spruce_log": 152,
+    "minecraft:barrel": 2,
+    "minecraft:soul_lantern": 4,
+    "minecraft:chain": 12,
+    "minecraft:bookshelf": 9,
+    "minecraft:spruce_slab": 9,
+    "minecraft:candle": 1,
+    "minecraft:spruce_trapdoor": 2,
+    "minecraft:spruce_stairs": 5,
+    "minecraft:furnace": 2,
+    "minecraft:bone_block": 27
+  },
+  "block_entities": [
+    {
+      "pos": [
+        3,
+        2,
+        15
+      ],
+      "state": "minecraft:barrel[facing=up,open=false]",
+      "nbt": "{id:\"minecraft:barrel\"}"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        16
+      ],
+      "state": "minecraft:barrel[facing=up,open=false]",
+      "nbt": "{id:\"minecraft:barrel\"}"
+    },
+    {
+      "pos": [
+        19,
+        2,
+        2
+      ],
+      "state": "minecraft:furnace[facing=south,lit=false]",
+      "nbt": "{id:\"minecraft:furnace\"}"
+    },
+    {
+      "pos": [
+        20,
+        2,
+        2
+      ],
+      "state": "minecraft:furnace[facing=south,lit=false]",
+      "nbt": "{id:\"minecraft:furnace\"}"
+    }
+  ],
+  "preview_sha256": "fbd4824576026e3188f651431ecb77ecddcfcbe84d1024ef8160000abc88728a",
+  "world_ticks": "NOT_RUN"
+}

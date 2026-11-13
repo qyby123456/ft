@@ -1,0 +1,103 @@
+{
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "bounds": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      24,
+      17,
+      30
+    ]
+  ],
+  "world_origin": null,
+  "single_template": true,
+  "order": [
+    {
+      "step": 1,
+      "file": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-01\\revision-02\\incoming\\G2B-01-R2\\room.nbt",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        12,
+        1,
+        0
+      ],
+      "width": 7,
+      "height": 4,
+      "anchor_type": "external lower landing",
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "facing": "south",
+      "position": [
+        12,
+        4,
+        30
+      ],
+      "width": 5,
+      "height": 4,
+      "anchor_type": "raised hall boundary",
+      "outward_normal": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "facing": "west",
+      "position": [
+        0,
+        4,
+        18
+      ],
+      "width": 5,
+      "height": 4,
+      "anchor_type": "raised hall boundary",
+      "outward_normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "facing": "east",
+      "position": [
+        24,
+        4,
+        18
+      ],
+      "width": 5,
+      "height": 4,
+      "anchor_type": "raised hall boundary",
+      "outward_normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "hall_floor_y": 3,
+  "hall_feet_y": 4,
+  "north_external_feet_y": 1,
+  "height_difference": 3,
+  "warning": "North connects to lower landing, not hall elevation. Validate whole bounding volume including explicit air. Preview-only NBT must not be placed."
+}

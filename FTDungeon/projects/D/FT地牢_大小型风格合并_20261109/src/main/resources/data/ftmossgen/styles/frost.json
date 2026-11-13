@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "id": "ftmossgen:frost",
+  "title": "冰霜档案馆",
+  "icon": "minecraft:blue_ice",
+  "catalog": "ftmossgen:catalog",
+  "capBlock": "minecraft:polished_diorite",
+  "barrierBlock": "minecraft:light_blue_stained_glass",
+  "melee": "minecraft:zombie",
+  "ranged": "minecraft:stray",
+  "bossType": "minecraft:stray",
+  "bossName": "霜封典藏监守",
+  "bossHealth": 190.0,
+  "bossDamage": 10.0,
+  "roomCooldownTicks": 3600,
+  "instanceCap": 64,
+  "palette": {
+    "minecraft:mossy_stone_bricks": "minecraft:polished_diorite",
+    "minecraft:stone_bricks": "minecraft:quartz_bricks",
+    "minecraft:mossy_cobblestone": "minecraft:diorite",
+    "minecraft:cobblestone": "minecraft:chiseled_quartz_block",
+    "minecraft:moss_block": "minecraft:packed_ice",
+    "minecraft:dark_oak_log": "minecraft:quartz_pillar",
+    "minecraft:oak_log": "minecraft:quartz_pillar",
+    "minecraft:dark_oak_planks": "minecraft:quartz_bricks",
+    "minecraft:oak_leaves": "minecraft:blue_ice",
+    "minecraft:green_stained_glass": "minecraft:light_blue_stained_glass",
+    "minecraft:shroomlight": "minecraft:sea_lantern"
+  },
+  "pools": {},
+  "decorations": [
+    {"block":"minecraft:blue_ice","mode":"air","role":"room","from":[7,8,7],"to":[40,21,40],"spacing":4},
+    {"block":"minecraft:quartz_bricks","mode":"air","role":"turn","from":[8,10,8],"to":[39,24,39],"spacing":5},
+    {"block":"minecraft:packed_ice","mode":"air","role":"terminal","from":[7,8,7],"to":[40,21,40],"spacing":4},
+    {"block":"minecraft:blue_ice","mode":"air","role":"promenade","from":[8,9,8],"to":[39,23,39],"spacing":5},
+    {"block":"minecraft:quartz_bricks","mode":"air","role":"boss","from":[3,8,3],"to":[30,20,24],"spacing":4}
+  ]
+}

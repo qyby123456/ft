@@ -1,0 +1,1 @@
+execute if block 1554 151 56 minecraft:air if block 1554 150 56 minecraft:waxed_cut_copper store success score #v2b231 ftm_brick run setblock 1554 151 56 ftdungeonmobs:dungeon_spawn_point[spent=false] keep

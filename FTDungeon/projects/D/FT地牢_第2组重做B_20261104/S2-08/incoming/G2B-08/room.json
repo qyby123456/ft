@@ -1,0 +1,296 @@
+{
+  "id": "G2B-08",
+  "name": "砂岩树影跌水庭院",
+  "size": [
+    33,
+    24,
+    35
+  ],
+  "entrance": [
+    16,
+    1,
+    0
+  ],
+  "interior": [
+    16,
+    3,
+    9
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        16,
+        1,
+        0
+      ],
+      "width": 7,
+      "height": 4,
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "facing": "south",
+      "position": [
+        16,
+        3,
+        34
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "facing": "west",
+      "position": [
+        0,
+        3,
+        20
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "facing": "east",
+      "position": [
+        32,
+        3,
+        20
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "route_targets": [
+    {
+      "name": "north-step-one",
+      "position": [
+        16,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "north-step-two",
+      "position": [
+        16,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "north-landing",
+      "position": [
+        16,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "court-north",
+      "position": [
+        16,
+        3,
+        9
+      ]
+    },
+    {
+      "name": "pool-west",
+      "position": [
+        10,
+        3,
+        17
+      ]
+    },
+    {
+      "name": "pool-east",
+      "position": [
+        24,
+        3,
+        17
+      ]
+    },
+    {
+      "name": "pool-south",
+      "position": [
+        17,
+        3,
+        25
+      ]
+    },
+    {
+      "name": "tree-planter-access",
+      "position": [
+        11,
+        3,
+        25
+      ]
+    },
+    {
+      "name": "stair-approach",
+      "position": [
+        5,
+        3,
+        5
+      ]
+    },
+    {
+      "name": "stair-middle",
+      "position": [
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "name": "upper-landing",
+      "position": [
+        5,
+        11,
+        14
+      ]
+    },
+    {
+      "name": "upper-west",
+      "position": [
+        5,
+        11,
+        20
+      ]
+    },
+    {
+      "name": "upper-rear-west",
+      "position": [
+        5,
+        11,
+        31
+      ]
+    },
+    {
+      "name": "upper-rear-center",
+      "position": [
+        16,
+        11,
+        31
+      ]
+    },
+    {
+      "name": "upper-rear-east",
+      "position": [
+        29,
+        11,
+        31
+      ]
+    },
+    {
+      "name": "upper-east",
+      "position": [
+        29,
+        11,
+        20
+      ]
+    },
+    {
+      "name": "upper-east-front",
+      "position": [
+        29,
+        11,
+        8
+      ]
+    },
+    {
+      "name": "south-threshold",
+      "position": [
+        16,
+        3,
+        33
+      ]
+    }
+  ],
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S2-sandstone-desert\\out\\S2-08-courtyard.png",
+  "reference_sha256": "51c20156dc0400814c14a9c225ee099f1feb4c5c5abda50b1b45408af333af06",
+  "sha256": "eddfe98c172b340520cf869aaec58a3745c6828e1a0656dd897318369ec90cb9",
+  "coordinate_system": "Local XYZ feet; east +X; north -Z",
+  "hall_feet_y": 3,
+  "upper_gallery_feet_y": 11,
+  "footprint": "Ground x0..32,z4..34 plus north approach x11..21,z0..3; entire 33x24x35 envelope includes explicit air",
+  "roof": {
+    "type": "U-shaped portico roof, open central sky",
+    "roof_y": 19,
+    "gallery_floor_y": 10,
+    "tree_canopy_max_y": 21,
+    "not_fully_sealed": true
+  },
+  "landmark": {
+    "type": "Central tiered sandstone fountain and broad persistent oak tree behind-west, U-shaped accessible upper galleries",
+    "basin_xz": [
+      [
+        12,
+        12
+      ],
+      [
+        22,
+        22
+      ]
+    ],
+    "basin_water_y": 3,
+    "fountain_source": [
+      17,
+      8,
+      16
+    ],
+    "falling_water_column": [
+      [
+        17,
+        4,
+        17
+      ],
+      [
+        17,
+        7,
+        17
+      ]
+    ],
+    "tree_trunk_xz": [
+      [
+        8,
+        23
+      ],
+      [
+        9,
+        24
+      ]
+    ],
+    "stairs": "x3..5,z6..13; staircase y3..10 southward; feet rises from3 to11"
+  },
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "runtime_slot": null,
+  "next_image": "S2-09 LOCKED_NOT_STARTED",
+  "world_placement": "NOT_RUN",
+  "deviations": [
+    "Estimated block proportions, square basin and stepped rectangular columns approximate reference curves",
+    "Urns approximated by terracotta and flower pots",
+    "Native flowing water block states, not fluid simulation; fluid propagation and generated sources untested",
+    "Persistent oak leaves prevent ordinary decay but lighting, fire, neighbor updates and world ticks untested",
+    "Open sky courtyard requires weather, lighting and placement review",
+    "Entire explicit-air envelope overwrites cells; not approved for integration"
+  ]
+}

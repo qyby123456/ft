@@ -1,0 +1,42 @@
+plugins { id 'net.minecraftforge.gradle' version '6.0.54' }
+group = 'cn.ft.biomedungeon'
+version = '1.0.0-ft-backend'
+base { archivesName = 'ft-biome-backend-library' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+sourceSets.main.java.srcDir('core-snapshot')
+sourceSets {
+    harness {
+        java.setSrcDirs(['src/harness/java'])
+        resources.setSrcDirs(['src/harness/resources'])
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        server {
+            workingDirectory project.file('run/harness')
+            args '--nogui'
+            mods { ft_backend_test { source sourceSets.main; source sourceSets.harness } }
+        }
+    }
+}
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+jar { preserveFileTimestamps = false; reproducibleFileOrder = true; finalizedBy 'reobfJar' }
+tasks.register('harnessJar', Jar) {
+    dependsOn 'harnessClasses'
+    archiveClassifier = 'test-harness-only'
+    from sourceSets.main.output
+    from sourceSets.harness.output
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+reobf { harnessJar {} }
+tasks.named('harnessJar') { finalizedBy 'reobfHarnessJar' }
+tasks.register('backendPlannerTest', JavaExec) {
+    dependsOn 'testClasses'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'cn.ft.biomedungeon.runtime.BackendPlannerTest'
+}

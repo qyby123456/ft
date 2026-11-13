@@ -1,0 +1,1242 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile1": "ftdungeonprops:block/remake-furnishings_01",
+    "tile4": "ftdungeonprops:block/remake-furnishings_04",
+    "tile0": "ftdungeonprops:block/remake-furnishings_00",
+    "tile2": "ftdungeonprops:block/remake-furnishings_02",
+    "particle": "ftdungeonprops:block/remake-furnishings_01"
+  },
+  "elements": [
+    {
+      "name": "left ground runner",
+      "from": [
+        2,
+        0,
+        6
+      ],
+      "to": [
+        5,
+        1,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            15,
+            14,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            2,
+            15,
+            5,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            6,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            1,
+            15,
+            10,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            2,
+            6,
+            5,
+            15
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            2,
+            1,
+            5,
+            10
+          ],
+          "texture": "#tile1",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "right ground runner",
+      "from": [
+        11,
+        0,
+        6
+      ],
+      "to": [
+        14,
+        1,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            15,
+            5,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            11,
+            15,
+            14,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            6,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            1,
+            15,
+            10,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            11,
+            6,
+            14,
+            15
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            11,
+            1,
+            14,
+            10
+          ],
+          "texture": "#tile1",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "wide mortised foot sill",
+      "from": [
+        3,
+        1,
+        8
+      ],
+      "to": [
+        13,
+        2,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            14,
+            13,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            3,
+            14,
+            13,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            8,
+            14,
+            14,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            2,
+            14,
+            8,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            3,
+            8,
+            13,
+            14
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            3,
+            2,
+            13,
+            8
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "tall restraint mast",
+      "from": [
+        6,
+        2,
+        11
+      ],
+      "to": [
+        10,
+        15,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            1,
+            10,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            6,
+            1,
+            10,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            11,
+            1,
+            14,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            2,
+            1,
+            5,
+            14
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "forward load bearing crossbeam",
+      "from": [
+        1,
+        12,
+        9
+      ],
+      "to": [
+        15,
+        14,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            2,
+            15,
+            4
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            1,
+            2,
+            15,
+            4
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            9,
+            2,
+            11,
+            4
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            5,
+            2,
+            7,
+            4
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            1,
+            9,
+            15,
+            11
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            1,
+            5,
+            15,
+            7
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "mast iron cap",
+      "from": [
+        6,
+        15,
+        11
+      ],
+      "to": [
+        10,
+        16,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            6,
+            0,
+            10,
+            1
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            11,
+            0,
+            14,
+            1
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            2,
+            0,
+            5,
+            1
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            6,
+            11,
+            10,
+            14
+          ],
+          "texture": "#tile2",
+          "cullface": "up"
+        }
+      }
+    },
+    {
+      "name": "front mast reinforcement",
+      "from": [
+        6,
+        3,
+        10
+      ],
+      "to": [
+        10,
+        6,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            10,
+            10,
+            13
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            10,
+            10,
+            11,
+            13
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            5,
+            10,
+            6,
+            13
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            6,
+            10,
+            10,
+            11
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            6,
+            5,
+            10,
+            6
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "rear fastening plate",
+      "from": [
+        6,
+        9,
+        14
+      ],
+      "to": [
+        10,
+        13,
+        15
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            6,
+            3,
+            10,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            14,
+            3,
+            15,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            1,
+            3,
+            2,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            6,
+            14,
+            10,
+            15
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            6,
+            1,
+            10,
+            2
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "left cuff outer upright",
+      "from": [
+        1,
+        4,
+        6
+      ],
+      "to": [
+        2,
+        9,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            7,
+            15,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            1,
+            7,
+            2,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            6,
+            7,
+            8,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            8,
+            7,
+            10,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            1,
+            6,
+            2,
+            8
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            1,
+            8,
+            2,
+            10
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "left cuff inner upright",
+      "from": [
+        5,
+        4,
+        6
+      ],
+      "to": [
+        6,
+        9,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            7,
+            11,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            5,
+            7,
+            6,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            6,
+            7,
+            8,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            8,
+            7,
+            10,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            5,
+            6,
+            6,
+            8
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            5,
+            8,
+            6,
+            10
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "left cuff upper bridge",
+      "from": [
+        2,
+        8,
+        6
+      ],
+      "to": [
+        5,
+        9,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            7,
+            14,
+            8
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            2,
+            7,
+            5,
+            8
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            2,
+            6,
+            5,
+            8
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            2,
+            8,
+            5,
+            10
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "left cuff lower bridge",
+      "from": [
+        2,
+        4,
+        6
+      ],
+      "to": [
+        5,
+        5,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            11,
+            14,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            2,
+            11,
+            5,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            2,
+            6,
+            5,
+            8
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            2,
+            8,
+            5,
+            10
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "left suspended chain stem",
+      "from": [
+        3,
+        9,
+        7
+      ],
+      "to": [
+        4,
+        11,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            5,
+            13,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            3,
+            5,
+            4,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            7,
+            5,
+            8,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            8,
+            5,
+            9,
+            7
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "left forward anchor arm",
+      "from": [
+        3,
+        11,
+        7
+      ],
+      "to": [
+        4,
+        12,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            4,
+            13,
+            5
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            3,
+            4,
+            4,
+            5
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            7,
+            4,
+            11,
+            5
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            5,
+            4,
+            9,
+            5
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            3,
+            7,
+            4,
+            11
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            3,
+            5,
+            4,
+            9
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "right cuff outer upright",
+      "from": [
+        10,
+        4,
+        6
+      ],
+      "to": [
+        11,
+        9,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            7,
+            6,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            10,
+            7,
+            11,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            6,
+            7,
+            8,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            8,
+            7,
+            10,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            10,
+            6,
+            11,
+            8
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            10,
+            8,
+            11,
+            10
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "right cuff inner upright",
+      "from": [
+        14,
+        4,
+        6
+      ],
+      "to": [
+        15,
+        9,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            7,
+            2,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            14,
+            7,
+            15,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            6,
+            7,
+            8,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            8,
+            7,
+            10,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            14,
+            6,
+            15,
+            8
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            14,
+            8,
+            15,
+            10
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "right cuff upper bridge",
+      "from": [
+        11,
+        8,
+        6
+      ],
+      "to": [
+        14,
+        9,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            7,
+            5,
+            8
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            11,
+            7,
+            14,
+            8
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            11,
+            6,
+            14,
+            8
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            11,
+            8,
+            14,
+            10
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "right cuff lower bridge",
+      "from": [
+        11,
+        4,
+        6
+      ],
+      "to": [
+        14,
+        5,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            11,
+            5,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            11,
+            11,
+            14,
+            12
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            11,
+            6,
+            14,
+            8
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            11,
+            8,
+            14,
+            10
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "right suspended chain stem",
+      "from": [
+        12,
+        9,
+        7
+      ],
+      "to": [
+        13,
+        11,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            5,
+            4,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            12,
+            5,
+            13,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            7,
+            5,
+            8,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            8,
+            5,
+            9,
+            7
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "right forward anchor arm",
+      "from": [
+        12,
+        11,
+        7
+      ],
+      "to": [
+        13,
+        12,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            4,
+            4,
+            5
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            12,
+            4,
+            13,
+            5
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            7,
+            4,
+            11,
+            5
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            5,
+            4,
+            9,
+            5
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            12,
+            7,
+            13,
+            11
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            12,
+            5,
+            13,
+            9
+          ],
+          "texture": "#tile2"
+        }
+      }
+    }
+  ]
+}

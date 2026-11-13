@@ -1,0 +1,1 @@
+execute if block 194 151 42 minecraft:air if block 194 150 42 ftdungeonmobs:dungeon_rune_inlay[facing=north] store success score #v0b120 ftm_brick run setblock 194 151 42 ftdungeonmobs:dungeon_spawn_point[spent=false] keep

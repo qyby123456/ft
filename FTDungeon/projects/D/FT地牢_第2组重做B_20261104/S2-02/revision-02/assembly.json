@@ -1,0 +1,81 @@
+{
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "bounds_inclusive": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      22,
+      13,
+      24
+    ]
+  ],
+  "world_origin": null,
+  "single_template": true,
+  "order": [
+    {
+      "step": 1,
+      "path": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-02\\revision-02\\incoming\\G2B-02\\room.nbt",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "hall_feet_y": 2,
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        11,
+        1,
+        0
+      ],
+      "width": 7,
+      "height": 3,
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "facing": "south",
+      "position": [
+        11,
+        3,
+        24
+      ],
+      "width": 3,
+      "height": 3,
+      "outward_normal": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "facing": "east",
+      "position": [
+        22,
+        3,
+        15
+      ],
+      "width": 3,
+      "height": 3,
+      "outward_normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "warning": "North exterior Y1, hall Y2, south/east Y3. Whole-volume occupancy/fluid/entity/border checks required; do not place preview-only NBT."
+}

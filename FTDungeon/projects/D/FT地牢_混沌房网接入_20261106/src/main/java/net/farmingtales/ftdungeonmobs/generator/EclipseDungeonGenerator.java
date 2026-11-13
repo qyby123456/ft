@@ -1,0 +1,47 @@
+package net.farmingtales.ftdungeonmobs.generator;
+
+import eclipse.generator.EclipseMod;
+import eclipse.generator.Engine;
+import eclipse.generator.Store;
+import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+
+final class EclipseDungeonGenerator implements DungeonGenerator {
+    public ResourceLocation id() { return new ResourceLocation("fteclipsegen", "clockwork"); }
+    public Component title() { return Component.literal("月蚀钟塔 · 四层随机地牢"); }
+    public ItemStack icon() { return new ItemStack(Items.CLOCK); }
+
+    private ServerLevel dimension(MinecraftServer server) {
+        ServerLevel level = server.getLevel(EclipseMod.DIMENSION);
+        if (level == null) throw new IllegalStateException("月蚀维度未加载");
+        return level;
+    }
+
+    public Status status(MinecraftServer server, String instance) {
+        if (instance.isEmpty()) return new Status(Phase.UNPLANNED, Component.literal("尚未生成；由管理员点击生成"));
+        Engine.Job job = Store.get(dimension(server)).jobs.get(instance);
+        if (job == null) return new Status(Phase.UNAVAILABLE, Component.literal("实例记录不存在，保留门绑定供管理员检查"));
+        return new Status(Phase.valueOf(job.stage), Component.literal(job.stage + " · " + job.pieceCursor
+                + "/" + job.plan.pieces.size() + (job.error == null ? "" : " · " + job.error)));
+    }
+
+    public String reserve(Request request) {
+        ServerLevel level = dimension(request.source().getServer());
+        Store store = Store.get(level);
+        for (Engine.Job job : store.jobs.values()) if (job.plan.seed == request.seed() && "COMPLETE".equals(job.stage)) return job.plan.id;
+        for (Engine.Job job : store.jobs.values()) if (job.plan.seed == request.seed() && !"FAILED".equals(job.stage)) return job.plan.id;
+        BlockPos anchor = new BlockPos(Math.multiplyExact(store.jobs.size(), 2048), 100, 0);
+        return Engine.plan(level, request.seed(), anchor).plan.id;
+    }
+
+    public void start(MinecraftServer server, String instance) { Engine.start(dimension(server), instance); }
+    public void enter(ServerPlayer player, String instance) { Engine.enter(player, instance); }
+    public boolean ownsDimension(ServerLevel level) { return level.dimension().equals(EclipseMod.DIMENSION); }
+    public void leave(ServerPlayer player) { EclipseMod.leave(player); }
+}

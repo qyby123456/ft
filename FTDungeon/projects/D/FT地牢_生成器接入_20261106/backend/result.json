@@ -1,0 +1,404 @@
+{
+  "status": "READY_SOURCE_BACKEND_NATIVE_ISOLATED_TESTED_HOST_INTEGRATION_PENDING",
+  "policy": "ft-biome-backend-v1-side-porch2",
+  "librarySha256": "af1ce1fbec54fcba9dfc86e292c9b030ce35d29302f49af127c3cdeca24a1e5b",
+  "harnessSha256": "9c7a167fc6b02086afbd41497fb3d6ab860dbcacda65508c1f3e8c3fdb4bfd46",
+  "mainClassesByteIdenticalToInstalledHarness": true,
+  "originalFrozen": [
+    {
+      "path": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\next-commit\\ready.json",
+      "sha256": "2e1b946a022f0f17294885fd4126d68c2f5b8e06ccbd805cc763013fd6ead73a",
+      "unchangedFiles": 95
+    },
+    {
+      "path": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\next-commit-iofix\\ready.json",
+      "sha256": "55b9e209a0cf6b75dcbe630c778b6daa5b780932fd724a94597e57cacbff8d22",
+      "unchangedFiles": 78
+    }
+  ],
+  "unchangedCoreAndCatalogFiles": [
+    "core-snapshot\\cn\\ft\\biomedungeon\\core\\DungeonApi.java",
+    "core-snapshot\\cn\\ft\\biomedungeon\\core\\DungeonGeometry.java",
+    "core-snapshot\\cn\\ft\\biomedungeon\\core\\DungeonPlanner.java",
+    "core-snapshot\\cn\\ft\\biomedungeon\\core\\next\\DungeonEnvelopePlanner.java",
+    "core-snapshot\\cn\\ft\\biomedungeon\\core\\next\\DungeonYPlanner.java",
+    "src\\main\\resources\\data\\ftbd_candidate\\derived-change-ledger.json",
+    "src\\main\\resources\\data\\ftbd_candidate\\lock.json",
+    "src\\main\\resources\\data\\ftbd_candidate\\native-test-contract.json",
+    "src\\main\\resources\\data\\ftbd_candidate\\nine-manifest.json",
+    "src\\main\\resources\\data\\ftbd_candidate\\path-matrix.json",
+    "src\\main\\resources\\data\\ftbd_candidate\\routes.json",
+    "src\\main\\resources\\data\\ftbd_candidate\\s8_01-band.json",
+    "src\\main\\resources\\data\\ftbd_candidate\\s8_01.nbt",
+    "src\\main\\resources\\data\\ftbd_candidate\\s8_02.nbt",
+    "src\\main\\resources\\data\\ftbd_candidate\\s8_03.nbt",
+    "src\\main\\resources\\data\\ftbd_candidate\\s8_04.nbt",
+    "src\\main\\resources\\data\\ftbd_candidate\\s8_05.nbt",
+    "src\\main\\resources\\data\\ftbd_candidate\\s8_06.nbt",
+    "src\\main\\resources\\data\\ftbd_candidate\\s8_07_widearch_side_doublegate_v5-band.json",
+    "src\\main\\resources\\data\\ftbd_candidate\\s8_07_widearch_side_doublegate_v5.nbt",
+    "src\\main\\resources\\data\\ftbd_candidate\\s8_08.nbt",
+    "src\\main\\resources\\data\\ftbd_candidate\\s8_09.nbt",
+    "src\\main\\resources\\data\\ftbd_candidate\\source-map.json",
+    "src\\main\\resources\\data\\ftbd_candidate\\target-mapping.json"
+  ],
+  "plannerFourOrdinalsAssertions": 12,
+  "results": {
+    "ready": {
+      "case": "ready",
+      "harnessJarSha256": "9c7a167fc6b02086afbd41497fb3d6ab860dbcacda65508c1f3e8c3fdb4bfd46",
+      "world": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\ready-porch2\\world",
+      "processes": [
+        {
+          "pid": 67960,
+          "exitCode": 0,
+          "log": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\ready-porch2\\prepare.log",
+          "sha256": "81442d5ef712023fd7d0868cbd5e6e5e729801b6ee2dbe843a94d8748b84c47c",
+          "forced": false
+        },
+        {
+          "pid": 43828,
+          "exitCode": 0,
+          "log": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\ready-porch2\\restart.log",
+          "sha256": "76823f878751c76d25508606b957314974f91d0377e97eceee3f7a738f1d8b53",
+          "forced": false
+        }
+      ],
+      "testOnlyMod": true,
+      "oldCandidateCommandsOrMarkerOrReceiptUsed": false,
+      "ready": {
+        "state": "READY",
+        "stage": "READY",
+        "landing": {
+          "f_82479_": 1015.5,
+          "f_82480_": 202.0,
+          "f_82481_": 997.5
+        },
+        "entranceOutward": "NORTH",
+        "returnGateAnchor": {
+          "f_123285_": 1018,
+          "f_123286_": 202,
+          "f_123289_": 997
+        },
+        "returnGateFacing": "SOUTH",
+        "platformBounds": {
+          "f_82288_": 1010.0,
+          "f_82289_": 201.0,
+          "f_82290_": 995.0,
+          "f_82291_": 1021.0,
+          "f_82292_": 208.0,
+          "f_82293_": 1000.0
+        },
+        "envelopeBounds": {
+          "f_82288_": 994.0,
+          "f_82289_": 196.0,
+          "f_82290_": 933.0,
+          "f_82291_": 1120.0,
+          "f_82292_": 227.0,
+          "f_82293_": 1075.0
+        },
+        "instanceId": "ftde-be8d083ae80dfe334679110b04a8be62c1625d33afab4e4d2a9f57b613f72947",
+        "completed": 554652,
+        "total": 554652,
+        "observedTicks": 2400,
+        "error": ""
+      },
+      "restart": {
+        "state": "READY",
+        "stage": "READY_REUSED_NO_WORLD_WRITES",
+        "landing": {
+          "f_82479_": 1015.5,
+          "f_82480_": 202.0,
+          "f_82481_": 997.5
+        },
+        "entranceOutward": "NORTH",
+        "returnGateAnchor": {
+          "f_123285_": 1018,
+          "f_123286_": 202,
+          "f_123289_": 997
+        },
+        "returnGateFacing": "SOUTH",
+        "platformBounds": {
+          "f_82288_": 1010.0,
+          "f_82289_": 201.0,
+          "f_82290_": 995.0,
+          "f_82291_": 1021.0,
+          "f_82292_": 208.0,
+          "f_82293_": 1000.0
+        },
+        "envelopeBounds": {
+          "f_82288_": 994.0,
+          "f_82289_": 196.0,
+          "f_82290_": 933.0,
+          "f_82291_": 1120.0,
+          "f_82292_": 227.0,
+          "f_82293_": 1075.0
+        },
+        "instanceId": "ftde-be8d083ae80dfe334679110b04a8be62c1625d33afab4e4d2a9f57b613f72947",
+        "completed": 554652,
+        "total": 554652,
+        "observedTicks": 2400,
+        "error": ""
+      },
+      "returnGateTestScope": "Actual native test fixture matching FT block registry/property/anchor-BE contract; not full FT mod gate behavior",
+      "wrongGatePartRefused": {
+        "state": "FAILED",
+        "stage": "LOCKED_ADMIN_REVIEW_REQUIRED",
+        "landing": {
+          "f_82479_": 1015.5,
+          "f_82480_": 202.0,
+          "f_82481_": 997.5
+        },
+        "entranceOutward": "NORTH",
+        "returnGateAnchor": {
+          "f_123285_": 1018,
+          "f_123286_": 202,
+          "f_123289_": 997
+        },
+        "returnGateFacing": "SOUTH",
+        "platformBounds": {
+          "f_82288_": 1010.0,
+          "f_82289_": 201.0,
+          "f_82290_": 995.0,
+          "f_82291_": 1021.0,
+          "f_82292_": 208.0,
+          "f_82293_": 1000.0
+        },
+        "envelopeBounds": {
+          "f_82288_": 994.0,
+          "f_82289_": 196.0,
+          "f_82290_": 933.0,
+          "f_82291_": 1120.0,
+          "f_82292_": 227.0,
+          "f_82293_": 1075.0
+        },
+        "instanceId": "ftde-be8d083ae80dfe334679110b04a8be62c1625d33afab4e4d2a9f57b613f72947",
+        "completed": 554652,
+        "total": 554652,
+        "observedTicks": 2400,
+        "error": "java.lang.IllegalArgumentException: Wrong FT return gate part/facing"
+      },
+      "status": "PASS_REAL_NINE_ROOM_NATIVE_FLUID_2400_READY_RESTART_PLAYER_EDIT_RETAINED"
+    },
+    "interrupted": {
+      "case": "interrupted",
+      "harnessJarSha256": "9c7a167fc6b02086afbd41497fb3d6ab860dbcacda65508c1f3e8c3fdb4bfd46",
+      "world": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\interrupted-porch2\\world",
+      "processes": [
+        {
+          "pid": 58744,
+          "exitCode": 1,
+          "log": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\interrupted-porch2\\prepare.log",
+          "sha256": "8f922bb94c55aff1e0dd739686ff00fc522d0bc12480e442f585bec775743bd6",
+          "forced": true
+        },
+        {
+          "pid": 41332,
+          "exitCode": 0,
+          "log": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\interrupted-porch2\\restart.log",
+          "sha256": "5e9d0e6a5380b21d8049a78513767851c0dc04c64222bc7ec2c81878f5ff5c65",
+          "forced": false
+        }
+      ],
+      "testOnlyMod": true,
+      "oldCandidateCommandsOrMarkerOrReceiptUsed": false,
+      "beforeKill": {
+        "state": "BUILDING",
+        "stage": "SOLIDS",
+        "landing": {
+          "f_82479_": 1015.5,
+          "f_82480_": 202.0,
+          "f_82481_": 997.5
+        },
+        "entranceOutward": "NORTH",
+        "returnGateAnchor": {
+          "f_123285_": 1018,
+          "f_123286_": 202,
+          "f_123289_": 997
+        },
+        "returnGateFacing": "SOUTH",
+        "platformBounds": {
+          "f_82288_": 1010.0,
+          "f_82289_": 201.0,
+          "f_82290_": 995.0,
+          "f_82291_": 1021.0,
+          "f_82292_": 208.0,
+          "f_82293_": 1000.0
+        },
+        "envelopeBounds": {
+          "f_82288_": 994.0,
+          "f_82289_": 196.0,
+          "f_82290_": 933.0,
+          "f_82291_": 1120.0,
+          "f_82292_": 227.0,
+          "f_82293_": 1075.0
+        },
+        "instanceId": "ftde-be8d083ae80dfe334679110b04a8be62c1625d33afab4e4d2a9f57b613f72947",
+        "completed": 17408,
+        "total": 554652,
+        "observedTicks": 0,
+        "error": ""
+      },
+      "final": {
+        "state": "FAILED",
+        "stage": "LOCKED_ADMIN_REVIEW_REQUIRED",
+        "instanceId": "",
+        "completed": 20480,
+        "total": 0,
+        "observedTicks": 0,
+        "error": "java.lang.IllegalArgumentException: Interrupted BUILDING is locked; administrator review required"
+      },
+      "status": "PASS_REAL_PROCESS_KILL_RESTART_LOCKED_NO_AUTOREBUILD"
+    },
+    "occupied": {
+      "case": "occupied",
+      "harnessJarSha256": "9c7a167fc6b02086afbd41497fb3d6ab860dbcacda65508c1f3e8c3fdb4bfd46",
+      "world": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\occupied-porch2\\world",
+      "processes": [
+        {
+          "pid": 23136,
+          "exitCode": 0,
+          "log": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\occupied-porch2\\prepare.log",
+          "sha256": "79927d7eeaee2c533bd8b906ea0be4ae3b36680e27d2d10d7d8a9225fbf2e2fd",
+          "forced": false
+        }
+      ],
+      "testOnlyMod": true,
+      "oldCandidateCommandsOrMarkerOrReceiptUsed": false,
+      "status": "PASS_FAIL_CLOSED_ZERO_COMPLETED",
+      "final": {
+        "state": "FAILED",
+        "stage": "LOCKED_ADMIN_REVIEW_REQUIRED",
+        "landing": {
+          "f_82479_": 1015.5,
+          "f_82480_": 202.0,
+          "f_82481_": 997.5
+        },
+        "entranceOutward": "NORTH",
+        "returnGateAnchor": {
+          "f_123285_": 1018,
+          "f_123286_": 202,
+          "f_123289_": 997
+        },
+        "returnGateFacing": "SOUTH",
+        "platformBounds": {
+          "f_82288_": 1010.0,
+          "f_82289_": 201.0,
+          "f_82290_": 995.0,
+          "f_82291_": 1021.0,
+          "f_82292_": 208.0,
+          "f_82293_": 1000.0
+        },
+        "envelopeBounds": {
+          "f_82288_": 994.0,
+          "f_82289_": 196.0,
+          "f_82290_": 933.0,
+          "f_82291_": 1120.0,
+          "f_82292_": 227.0,
+          "f_82293_": 1075.0
+        },
+        "instanceId": "ftde-be8d083ae80dfe334679110b04a8be62c1625d33afab4e4d2a9f57b613f72947",
+        "completed": 0,
+        "total": 554652,
+        "observedTicks": 0,
+        "error": "java.lang.IllegalArgumentException: Occupied envelope at BlockPos{x=1000, y=200, z=1000}"
+      }
+    },
+    "journal-io": {
+      "case": "journal-io",
+      "harnessJarSha256": "9c7a167fc6b02086afbd41497fb3d6ab860dbcacda65508c1f3e8c3fdb4bfd46",
+      "world": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\journal-io-porch2\\world",
+      "processes": [
+        {
+          "pid": 31616,
+          "exitCode": 0,
+          "log": "D:\\ft工程文件\\FT地牢_生成器接入_20261106\\backend\\run\\journal-io-porch2\\prepare.log",
+          "sha256": "d6a3d7c7366529e34e23615c1e6b6f2fd60cf673ab4d68409e8c1c82875041f1",
+          "forced": false
+        }
+      ],
+      "testOnlyMod": true,
+      "oldCandidateCommandsOrMarkerOrReceiptUsed": false,
+      "status": "PASS_FAIL_CLOSED_ZERO_COMPLETED",
+      "final": {
+        "state": "FAILED",
+        "stage": "LOCKED_ADMIN_REVIEW_REQUIRED",
+        "landing": {
+          "f_82479_": 1015.5,
+          "f_82480_": 202.0,
+          "f_82481_": 997.5
+        },
+        "entranceOutward": "NORTH",
+        "returnGateAnchor": {
+          "f_123285_": 1018,
+          "f_123286_": 202,
+          "f_123289_": 997
+        },
+        "returnGateFacing": "SOUTH",
+        "platformBounds": {
+          "f_82288_": 1010.0,
+          "f_82289_": 201.0,
+          "f_82290_": 995.0,
+          "f_82291_": 1021.0,
+          "f_82292_": 208.0,
+          "f_82293_": 1000.0
+        },
+        "envelopeBounds": {
+          "f_82288_": 994.0,
+          "f_82289_": 196.0,
+          "f_82290_": 933.0,
+          "f_82291_": 1120.0,
+          "f_82292_": 227.0,
+          "f_82293_": 1075.0
+        },
+        "instanceId": "ftde-be8d083ae80dfe334679110b04a8be62c1625d33afab4e4d2a9f57b613f72947",
+        "completed": 0,
+        "total": 554652,
+        "observedTicks": 0,
+        "error": "java.nio.file.AccessDeniedException: .\\world\\.\\ft_biome_backend_v1\\ftdungeonmobs\\dungeon.ftb.pending; failure journal: java.nio.file.AccessDeniedException: .\\world\\.\\ft_biome_backend_v1\\ftdungeonmobs\\dungeon.ftb.pending"
+      }
+    }
+  },
+  "testedGeometry": {
+    "landing": [
+      1015.5,
+      202.0,
+      997.5
+    ],
+    "returnGateAnchor": [
+      1018,
+      202,
+      997
+    ],
+    "returnGateFacing": "SOUTH",
+    "entranceOutward": "NORTH",
+    "platformMin": [
+      1010,
+      201,
+      995
+    ],
+    "platformMaxExclusive": [
+      1021,
+      208,
+      1000
+    ],
+    "envelopeMin": [
+      994,
+      196,
+      933
+    ],
+    "envelopeMaxExclusive": [
+      1120,
+      227,
+      1075
+    ],
+    "scope": "Only exact tested seed267611119455246637/dimensionftdungeonmobs:dungeon/anchor1000,200,1000/ordinal0; consume runtime Status for other requests"
+  },
+  "hostReturnGateTestScope": "Native contract fixture only; actual FT gate animation/teleport/registry integration independently pending",
+  "firstReadySourceValidation": "Full original source state/BE semantic readback and native transitions; no source overwrite by side porch",
+  "readyReuse": "Preserves ordinary room/player changes; strict porch except exactly12 correctly identified host gate cells",
+  "noHiddenSeedRetry": true,
+  "formalWorldModified": false,
+  "hostSourceModified": false,
+  "independentHostIntegration": "PENDING"
+}

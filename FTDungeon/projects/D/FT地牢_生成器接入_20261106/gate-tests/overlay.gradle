@@ -1,0 +1,26 @@
+sourceSets {
+    generatorGateVerification {
+        java.srcDir new File(project.findProperty('gateFixtureRoot').toString(), 'src')
+        resources.srcDir 'src/test/resources'
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.runtimeClasspath
+    }
+}
+minecraft {
+    runs {
+        gateRegression {
+            parent runs.gameTestServer
+            workingDirectory project.file('run/independent-generator-gates')
+            property 'forge.enabledGameTestNamespaces', 'ftdungeonmobs'
+            mods {
+                ftdungeonmobs {
+                    source sourceSets.main
+                    source sourceSets.generatorGateVerification
+                }
+            }
+        }
+    }
+}
+tasks.matching { it.name == 'runGateRegression' }.configureEach {
+    dependsOn 'generatorGateVerificationClasses'
+}

@@ -1,0 +1,1 @@
+execute if block 122 31 220 minecraft:air if block 122 30 220 minecraft:purple_glazed_terracotta store success score #v0b150 ftm_brick run setblock 122 31 220 ftdungeonmobs:dungeon_spawn_point[spent=true] keep

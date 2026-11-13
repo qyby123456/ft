@@ -1,0 +1,234 @@
+{
+  "id": "G2B-06",
+  "name": "砂岩灯龛折角廊",
+  "size": [
+    25,
+    13,
+    25
+  ],
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    5
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        7,
+        2,
+        0
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "facing": "east",
+      "position": [
+        24,
+        2,
+        17
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "route_targets": [
+    {
+      "name": "north-threshold",
+      "position": [
+        7,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "north-rib",
+      "position": [
+        7,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "north-lamp",
+      "position": [
+        7,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "north-middle",
+      "position": [
+        7,
+        2,
+        9
+      ]
+    },
+    {
+      "name": "north-inner",
+      "position": [
+        7,
+        2,
+        13
+      ]
+    },
+    {
+      "name": "bend-center",
+      "position": [
+        7,
+        2,
+        17
+      ]
+    },
+    {
+      "name": "bend-south",
+      "position": [
+        7,
+        2,
+        19
+      ]
+    },
+    {
+      "name": "corner-lamp-approach",
+      "position": [
+        10,
+        2,
+        16
+      ]
+    },
+    {
+      "name": "east-start",
+      "position": [
+        12,
+        2,
+        17
+      ]
+    },
+    {
+      "name": "east-middle",
+      "position": [
+        16,
+        2,
+        17
+      ]
+    },
+    {
+      "name": "east-lamp",
+      "position": [
+        20,
+        2,
+        17
+      ]
+    },
+    {
+      "name": "east-threshold",
+      "position": [
+        23,
+        2,
+        17
+      ]
+    },
+    {
+      "name": "pot-approach",
+      "position": [
+        9,
+        2,
+        14
+      ]
+    },
+    {
+      "name": "east-side-access",
+      "position": [
+        19,
+        2,
+        19
+      ]
+    }
+  ],
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S2-sandstone-desert\\out\\S2-06-corner.png",
+  "reference_sha256": "870ace28f7101da343f9275e90a6458af62bac3be7471177357b0974820cfc43",
+  "sha256": "e9297e226f5142de25a99b3907ec0b186bf150aa676b30584ee0e6c40278f97e",
+  "coordinate_system": "Local XYZ feet, east +X, north -Z",
+  "hall_feet_y": 2,
+  "footprint": "1<=x<=24,0<=z<=23 AND (x<=13 OR z>=11); outside is explicit air within full 25x13x25 envelope",
+  "roof": {
+    "type": "L-shaped sandstone roof",
+    "ceiling_y": 11,
+    "intentional_skylight_xz": [
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "skylight_count": 1,
+    "open_cells": 6,
+    "not_fully_sealed": true
+  },
+  "landmark": {
+    "type": "real 90-degree L corridor around solid inner corner with recessed hanging lamp",
+    "bend_center": [
+      7,
+      2,
+      17
+    ],
+    "inner_corner_lamp": [
+      11,
+      6,
+      14
+    ],
+    "clear_bent_strip": [
+      "x6..8,y2..5,z0..18",
+      "x6..24,y2..5,z16..18"
+    ],
+    "no_straight_north_south_exit": true
+  },
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "runtime_slot": null,
+  "next_image": "S2-07 LOCKED_NOT_STARTED",
+  "world_placement": "NOT_RUN",
+  "deviations": [
+    "Estimated block proportions, not pixel-identical",
+    "Urns approximated by terracotta and pots; sand piles by supported blocks/slabs",
+    "Dry hanging foliage omitted rather than claiming live vines match",
+    "Real 2x3 skylight remains open",
+    "Full envelope includes air in northeast missing quadrant; integration must audit all overwritten cells"
+  ]
+}

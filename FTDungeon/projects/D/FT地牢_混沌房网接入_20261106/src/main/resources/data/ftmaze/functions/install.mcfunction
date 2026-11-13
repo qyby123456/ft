@@ -1,0 +1,2 @@
+execute if score #run ftm_state matches 0 if dimension minecraft:overworld if entity @e[type=minecraft:marker,tag=ftmaze.lobby,distance=..8,limit=1] run function ftmaze:party/freeze
+execute if score #run ftm_state matches 0 if dimension minecraft:overworld unless entity @e[type=minecraft:marker,tag=ftmaze.lobby,distance=..8,limit=1] run tellraw @s {"text":"请先在安全地面 /function ftmaze:lobby/create，并让参战者报名。","color":"red"}
