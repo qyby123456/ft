@@ -1,0 +1,1104 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile1": "ftdungeonprops:block/remake-furnishings_01",
+    "tile4": "ftdungeonprops:block/remake-furnishings_04",
+    "tile0": "ftdungeonprops:block/remake-furnishings_00",
+    "tile2": "ftdungeonprops:block/remake-furnishings_02",
+    "tile3": "ftdungeonprops:block/remake-furnishings_03",
+    "particle": "ftdungeonprops:block/remake-furnishings_01"
+  },
+  "elements": [
+    {
+      "name": "continuous ground sill",
+      "from": [
+        1,
+        0,
+        2
+      ],
+      "to": [
+        15,
+        1,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            1,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            2,
+            15,
+            14,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            2,
+            15,
+            14,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "down": {
+          "uv": [
+            1,
+            2,
+            15,
+            14
+          ],
+          "texture": "#tile4",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "closed recessed boarded body",
+      "from": [
+        2,
+        1,
+        3
+      ],
+      "to": [
+        14,
+        10,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            6,
+            14,
+            15
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            2,
+            6,
+            14,
+            15
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            3,
+            6,
+            13,
+            15
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            3,
+            6,
+            13,
+            15
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "closed overhanging timber lid",
+      "from": [
+        1,
+        10,
+        2
+      ],
+      "to": [
+        15,
+        12,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            4,
+            15,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            1,
+            4,
+            15,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            2,
+            4,
+            14,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            14,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            1,
+            2,
+            15,
+            14
+          ],
+          "texture": "#tile4"
+        }
+      }
+    },
+    {
+      "name": "front lower frame rail",
+      "from": [
+        1,
+        1,
+        2
+      ],
+      "to": [
+        15,
+        3,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            13,
+            15,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            2,
+            13,
+            3,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            13,
+            13,
+            14,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            1,
+            2,
+            15,
+            3
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "front upper frame rail",
+      "from": [
+        1,
+        8,
+        2
+      ],
+      "to": [
+        15,
+        10,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            6,
+            15,
+            8
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            2,
+            6,
+            3,
+            8
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            13,
+            6,
+            14,
+            8
+          ],
+          "texture": "#tile1"
+        },
+        "down": {
+          "uv": [
+            1,
+            13,
+            15,
+            14
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "front left frame stile",
+      "from": [
+        1,
+        3,
+        2
+      ],
+      "to": [
+        3,
+        8,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            8,
+            15,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            1,
+            8,
+            3,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            2,
+            8,
+            3,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            13,
+            8,
+            14,
+            13
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "front right frame stile",
+      "from": [
+        13,
+        3,
+        2
+      ],
+      "to": [
+        15,
+        8,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            8,
+            3,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            13,
+            8,
+            15,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            2,
+            8,
+            3,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            13,
+            8,
+            14,
+            13
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "back lower frame rail",
+      "from": [
+        1,
+        1,
+        13
+      ],
+      "to": [
+        15,
+        3,
+        14
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1,
+            13,
+            15,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            13,
+            13,
+            14,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            2,
+            13,
+            3,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            1,
+            13,
+            15,
+            14
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "back upper frame rail",
+      "from": [
+        1,
+        8,
+        13
+      ],
+      "to": [
+        15,
+        10,
+        14
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1,
+            6,
+            15,
+            8
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            13,
+            6,
+            14,
+            8
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            2,
+            6,
+            3,
+            8
+          ],
+          "texture": "#tile1"
+        },
+        "down": {
+          "uv": [
+            1,
+            2,
+            15,
+            3
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "back left frame stile",
+      "from": [
+        1,
+        3,
+        13
+      ],
+      "to": [
+        3,
+        8,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            8,
+            15,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            1,
+            8,
+            3,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            13,
+            8,
+            14,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            2,
+            8,
+            3,
+            13
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "back right frame stile",
+      "from": [
+        13,
+        3,
+        13
+      ],
+      "to": [
+        15,
+        8,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            8,
+            3,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            13,
+            8,
+            15,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            13,
+            8,
+            14,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            2,
+            8,
+            3,
+            13
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "left bottom return rail",
+      "from": [
+        1,
+        1,
+        3
+      ],
+      "to": [
+        2,
+        3,
+        13
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            3,
+            13,
+            13,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            1,
+            3,
+            2,
+            13
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "left top return rail",
+      "from": [
+        1,
+        8,
+        3
+      ],
+      "to": [
+        2,
+        10,
+        13
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            3,
+            6,
+            13,
+            8
+          ],
+          "texture": "#tile1"
+        },
+        "down": {
+          "uv": [
+            1,
+            3,
+            2,
+            13
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "right bottom return rail",
+      "from": [
+        14,
+        1,
+        3
+      ],
+      "to": [
+        15,
+        3,
+        13
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            3,
+            13,
+            13,
+            15
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            14,
+            3,
+            15,
+            13
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "right top return rail",
+      "from": [
+        14,
+        8,
+        3
+      ],
+      "to": [
+        15,
+        10,
+        13
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            3,
+            6,
+            13,
+            8
+          ],
+          "texture": "#tile1"
+        },
+        "down": {
+          "uv": [
+            14,
+            3,
+            15,
+            13
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "left fitted lid strap",
+      "from": [
+        3,
+        12,
+        2
+      ],
+      "to": [
+        5,
+        13,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            3,
+            13,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            3,
+            3,
+            5,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            2,
+            3,
+            14,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            2,
+            3,
+            14,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            3,
+            2,
+            5,
+            14
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "right fitted lid strap",
+      "from": [
+        11,
+        12,
+        2
+      ],
+      "to": [
+        13,
+        13,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            3,
+            5,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            11,
+            3,
+            13,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            2,
+            3,
+            14,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            2,
+            3,
+            14,
+            4
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            11,
+            2,
+            13,
+            14
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "hanging iron hasp plate",
+      "from": [
+        7,
+        6,
+        1
+      ],
+      "to": [
+        10,
+        10,
+        2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            6,
+            9,
+            10
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            7,
+            6,
+            10,
+            10
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            1,
+            6,
+            2,
+            10
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            14,
+            6,
+            15,
+            10
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            7,
+            1,
+            10,
+            2
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            7,
+            14,
+            10,
+            15
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "solid brass padlock body",
+      "from": [
+        7,
+        5,
+        0
+      ],
+      "to": [
+        10,
+        8,
+        1
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            8,
+            9,
+            11
+          ],
+          "texture": "#tile3",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            7,
+            8,
+            10,
+            11
+          ],
+          "texture": "#tile3"
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            1,
+            11
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            15,
+            8,
+            16,
+            11
+          ],
+          "texture": "#tile3"
+        },
+        "up": {
+          "uv": [
+            7,
+            0,
+            10,
+            1
+          ],
+          "texture": "#tile3"
+        },
+        "down": {
+          "uv": [
+            7,
+            15,
+            10,
+            16
+          ],
+          "texture": "#tile3"
+        }
+      }
+    },
+    {
+      "name": "left rear lid hinge",
+      "from": [
+        4,
+        9,
+        14
+      ],
+      "to": [
+        6,
+        12,
+        15
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            4,
+            4,
+            6,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            14,
+            4,
+            15,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            1,
+            4,
+            2,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            4,
+            14,
+            6,
+            15
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            4,
+            1,
+            6,
+            2
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "right rear lid hinge",
+      "from": [
+        10,
+        9,
+        14
+      ],
+      "to": [
+        12,
+        12,
+        15
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            10,
+            4,
+            12,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            14,
+            4,
+            15,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            1,
+            4,
+            2,
+            7
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            10,
+            14,
+            12,
+            15
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            10,
+            1,
+            12,
+            2
+          ],
+          "texture": "#tile2"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "body": "ftdungeonmobs:block/dungeon_gate",
+    "portal": "ftdungeonmobs:block/dungeon_entry_gate_portal",
+    "flame": "ftdungeonmobs:block/dungeon_gate_flame",
+    "particle": "ftdungeonmobs:block/dungeon_gate"
+  },
+  "elements": [
+    {
+      "name": "石砖门槛",
+      "from": [
+        0,
+        0,
+        4
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.5,
+            10.0,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.5,
+            10.0,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            5.625,
+            10.0,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            5.625,
+            10.0,
+            6.0
+          ],
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "name": "冷雾空间封门",
+      "from": [
+        0,
+        3,
+        13
+      ],
+      "to": [
+        16,
+        16,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.4285714285714284,
+            11.92156862745098,
+            12.571428571428571,
+            16.0
+          ],
+          "texture": "#portal",
+          "tintindex": 0
+        },
+        "south": {
+          "uv": [
+            3.4285714285714284,
+            11.92156862745098,
+            12.571428571428571,
+            16.0
+          ],
+          "texture": "#portal",
+          "tintindex": 0
+        }
+      },
+      "shade": false
+    },
+    {
+      "name": "门槛符牌",
+      "from": [
+        2,
+        3,
+        0
+      ],
+      "to": [
+        14,
+        4,
+        9
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            2.0,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            2.0,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "down": {
+          "uv": [
+            0.0,
+            4.0,
+            2.0,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            2.0,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            2.0,
+            6.0
+          ],
+          "texture": "#body"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            2.0,
+            6.0
+          ],
+          "texture": "#body"
+        }
+      }
+    }
+  ]
+}
