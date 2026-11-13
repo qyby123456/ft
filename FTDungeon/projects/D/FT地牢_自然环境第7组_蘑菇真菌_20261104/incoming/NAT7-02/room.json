@@ -1,0 +1,92 @@
+{
+  "id": "NAT7-02",
+  "name": "菌光议事室",
+  "kind": "medium-room",
+  "size": [
+    17,
+    10,
+    17
+  ],
+  "exits": [
+    "south"
+  ],
+  "facing": "north",
+  "entrance": [
+    8,
+    1,
+    0
+  ],
+  "interior": [
+    8,
+    1,
+    2
+  ],
+  "mod_source": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\armoury_md.nbt",
+  "mod_source_sha256": "e9bdc949c8cae69e130d32ac415b9a7a2976ab00a964e041a67bd41a962412b0",
+  "mod_source_size": [
+    13,
+    8,
+    13
+  ],
+  "adaptation": "13x8x13 to 17x10x17: +4 lateral and +2 headroom for mushroom alcoves, preserve central circulation and functional side storage.",
+  "sha256": "6c043b839ce3017a2590e15db014b58c1f8e614777fee1e0edcaac7ace0ba8ec",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-02-medium-room.png",
+  "reference_sha256": "2fd83b48f23056f31b4d8eb050aefc808fc31e8af7df4fc08fd2b52b1581dabf",
+  "connections": [
+    {
+      "direction": "north",
+      "feet": [
+        8,
+        1,
+        0
+      ],
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ],
+      "outside_feet": [
+        8,
+        1,
+        -1
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "role": "entrance",
+      "reachable": true
+    },
+    {
+      "direction": "south",
+      "feet": [
+        8,
+        1,
+        16
+      ],
+      "outward_normal": [
+        0,
+        0,
+        1
+      ],
+      "outside_feet": [
+        8,
+        1,
+        17
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "role": "exit",
+      "reachable": true
+    }
+  ],
+  "coordinate_system": "+X east, +Y up, +Z south; feet coordinates",
+  "integration_status": "candidate; not deployed; unique slot pending coordinator",
+  "reachable_feet_levels": [
+    1,
+    2,
+    3
+  ]
+}

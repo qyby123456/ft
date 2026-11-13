@@ -1,0 +1,24 @@
+{
+  "status": "ARCHIVED_EXCLUDED_FROM_CANDIDATES",
+  "recorded_at": "2026-11-04T18:12:43+08:00",
+  "thread_id": "01a1a5df-d735-7b43-9d3b-2939bfc6c0ed",
+  "scope": "Entire old group 7 batch: all NAT7-01 through NAT7-09 outputs, previews, manifests, recipes and ZIP delivery",
+  "reason": "User requires this dungeon batch to be completely remade from zero, one assigned reference image at a time, after coordinator allocation.",
+  "eligible_for_candidate_queue": false,
+  "eligible_for_integration": false,
+  "eligible_for_deployment": false,
+  "supersedes_historical_status": "CANDIDATE_READY_FOR_REVIEW in HANDOVER.json, manifest.json, README.md and inside old ZIP is historical only and no longer valid.",
+  "archive_method": "Sealed in place with exclusion marker; no original files deleted, moved, overwritten or regenerated. Existing ZIP preserved byte for byte.",
+  "preserved_archive": "D:/ft工程文件/FT地牢_自然环境第7组_蘑菇真菌_20261104/NAT7-Fungal-Grove-FirstBatch.zip",
+  "preserved_archive_sha256": "e16da2bc2960ded374173940a4a385b017de3e736cee03aed2608d7be45310ec",
+  "group_fingerprint": "b513dde3f3dd1122a45afa242f1168a6cd3ce4341d2c10faa0a6c62c86d1e985",
+  "revision_fingerprint": "fb2ca11a8ce768574c5dd28a8dcd8b500119c253c615e7fc909f8fd774d88510",
+  "next_state": "WAITING_FOR_COORDINATOR_BATCH_AND_SPECIFIC_REFERENCE",
+  "next_constraints": [
+    "Do not reuse old structures or core geometry as a starting point.",
+    "Do not autonomously select S7-01 or begin a replacement batch.",
+    "New outputs must use a separately assigned batch directory without overwriting this archive.",
+    "Produce one actual NBT with preview, connections, loading validation and duplication self-check at a time.",
+    "Wait for current small-batch acceptance before continuing."
+  ]
+}

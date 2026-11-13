@@ -1,0 +1,139 @@
+{
+  "group": "S7 fungal grove",
+  "revision": "differentiated-v2",
+  "nodes": [
+    "NAT7-01",
+    "NAT7-02",
+    "NAT7-03",
+    "NAT7-04",
+    "NAT7-05",
+    "NAT7-06",
+    "NAT7-07",
+    "NAT7-08",
+    "NAT7-09"
+  ],
+  "logical_edges": [
+    [
+      "NAT7-07",
+      "south",
+      "NAT7-05",
+      "north"
+    ],
+    [
+      "NAT7-05",
+      "south",
+      "NAT7-01",
+      "north"
+    ],
+    [
+      "NAT7-01",
+      "west",
+      "NAT7-02",
+      "north"
+    ],
+    [
+      "NAT7-02",
+      "south",
+      "NAT7-08",
+      "west"
+    ],
+    [
+      "NAT7-01",
+      "east",
+      "NAT7-04",
+      "north"
+    ],
+    [
+      "NAT7-04",
+      "south",
+      "NAT7-08",
+      "east"
+    ],
+    [
+      "NAT7-08",
+      "south",
+      "NAT7-06",
+      "north"
+    ],
+    [
+      "NAT7-06",
+      "east",
+      "NAT7-09",
+      "north"
+    ],
+    [
+      "NAT7-09",
+      "west",
+      "NAT7-03",
+      "north"
+    ],
+    [
+      "NAT7-03",
+      "east",
+      "NAT7-01",
+      "south"
+    ]
+  ],
+  "cycle_rank": 2,
+  "assembled_in_world": false,
+  "signature": "two-loop mycelial graph with entrance tail; dual-level ring hub, forced S baffles, straight ramp-spine, paired footstep notes",
+  "vertical": {
+    "NAT7-01": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "NAT7-02": [
+      1,
+      2,
+      3
+    ],
+    "NAT7-03": [
+      1,
+      2
+    ],
+    "NAT7-04": [
+      1,
+      2
+    ],
+    "NAT7-05": [
+      1,
+      2,
+      3
+    ],
+    "NAT7-06": [
+      1
+    ],
+    "NAT7-07": [
+      1,
+      2
+    ],
+    "NAT7-08": [
+      1,
+      2
+    ],
+    "NAT7-09": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "mechanism": {
+    "room": "NAT7-03",
+    "components": "two stone pressure plates adjacent to two note blocks",
+    "notes": [
+      8,
+      15
+    ],
+    "actual_blocks_written": true,
+    "world_trigger_test": "NOT RUN"
+  },
+  "combat": {
+    "implemented": false,
+    "spawners": false,
+    "intent": "compression, elevated flanking choice, S-turn concealment, open courtyard release, bent transition, stepped treasury focus"
+  }
+}
