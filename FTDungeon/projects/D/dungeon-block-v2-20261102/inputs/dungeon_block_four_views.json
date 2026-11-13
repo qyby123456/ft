@@ -1,0 +1,51 @@
+{
+  "name": "dungeon_block_four_views",
+  "source_model": "dungeon_block.bbmodel",
+  "model_format": "java_block",
+  "cube": { "from": [0, 0, 0], "to": [16, 16, 16] },
+  "texture_slots": { "side": 0, "top": 1, "bottom": 2 },
+  "canvas": { "width": 1536, "height": 1024, "background": "#F2F2F2" },
+  "grid": { "cols": 3, "rows": 2, "cell": [512, 512], "gap": 8, "pixel_scale": 32 },
+  "views": [
+    {
+      "id": "front", "label": "FRONT", "slot": [0, 0],
+      "camera": { "look_axis": "-Z", "yaw": 0, "pitch": 0, "orthographic": true },
+      "model_face": "north", "texture": "side", "uv": [0, 0, 16, 16], "flip": "none"
+    },
+    {
+      "id": "right", "label": "RIGHT SIDE", "slot": [1, 0],
+      "camera": { "look_axis": "+X", "yaw": 90, "pitch": 0, "orthographic": true },
+      "model_face": "east", "texture": "side", "uv": [0, 0, 16, 16], "flip": "none"
+    },
+    {
+      "id": "back", "label": "BACK", "slot": [2, 0],
+      "camera": { "look_axis": "+Z", "yaw": 180, "pitch": 0, "orthographic": true },
+      "model_face": "south", "texture": "side", "uv": [0, 0, 16, 16], "flip": "none"
+    },
+    {
+      "id": "top", "label": "TOP", "slot": [0, 1],
+      "camera": { "look_axis": "-Y", "yaw": 0, "pitch": 90, "orthographic": true },
+      "model_face": "up", "texture": "top", "uv": [0, 0, 16, 16], "flip": "none"
+    },
+    {
+      "id": "down", "label": "DOWN", "slot": [1, 1],
+      "camera": { "look_axis": "+Y", "yaw": 0, "pitch": -90, "orthographic": true },
+      "model_face": "down", "texture": "bottom", "uv": [0, 0, 16, 16], "flip": "none"
+    },
+    {
+      "id": "iso", "label": "3/4 ISO VIEW", "slot": [2, 1],
+      "camera": { "yaw": 45, "pitch": 30, "orthographic": true, "fit": "cell" },
+      "model_face": "north+east+up", "texture": "mixed", "uv": [0, 0, 16, 16], "flip": "none"
+    }
+  ],
+  "fixes": [
+    "mortar_color_raised_#2B2B2B_to_#33333A",
+    "mortar_width_fixed_to_1px",
+    "removed_dark_pixels_adjacent_to_mortar",
+    "running_bond_offset_applied_joints_0_8_and_4_12",
+    "moss_clustered_min_2x2",
+    "isolated_specular_noise_removed",
+    "palette_contrast_compressed_to_6_levels"
+  ],
+  "caption": "dungeon_block · single cube [0,0,0]–[16,16,16] · side/top/bottom slots 0/1/2 · 7-color palette"
+}
