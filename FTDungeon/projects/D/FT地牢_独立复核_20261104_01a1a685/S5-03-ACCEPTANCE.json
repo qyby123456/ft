@@ -1,0 +1,82 @@
+{
+  "group": 5,
+  "image": 3,
+  "review_date": "2026-11-05",
+  "status": "ACCEPTED_FOR_SEQUENTIAL_PRODUCTION",
+  "nbt_sha256": "8b037a9e1a1fa594b47ccfbb86f984f117fbd0885ac9cd370a046afe8a42c621",
+  "size": [
+    19,
+    16,
+    19
+  ],
+  "composition": "Reference, actual full-water exterior and interior chest view reviewed. Small central lantern plinth, single empty chest wall niche, compact offset double doors and coral/kelp retained; not previous table/large coral mound. Vanilla branch and color approximations acknowledged. Lodestone water rendering is not game underwater fog.",
+  "independent_checks": {
+    "sha256": "8b037a9e1a1fa594b47ccfbb86f984f117fbd0885ac9cd370a046afe8a42c621",
+    "route_targets": 10,
+    "native_selected": 55,
+    "two_3x3x3_source_water_ports": "PASS",
+    "empty_chest_with_water_above_lid": "PASS",
+    "central_small_lantern_plinth": "PASS",
+    "full_source_water_top_and_solid_y0_to_2_base": "PASS",
+    "scope": "External8block source-water ring and8block source-water cover mandatory. Independent review of producer1200tick test evidence, not formal integration or new server execution."
+  },
+  "world_evidence_review": {
+    "group": 5,
+    "image": 3,
+    "sha256": "8b037a9e1a1fa594b47ccfbb86f984f117fbd0885ac9cd370a046afe8a42c621",
+    "manifest_entries_verified": 155,
+    "cases": [
+      {
+        "rotation": "NONE",
+        "ticks": 1200,
+        "capture_points_each": 78030,
+        "full_capture_state_and_entity_diff": 0,
+        "source_to_placement_explicit_state_diff": 0,
+        "probes": [
+          7,
+          10
+        ]
+      },
+      {
+        "rotation": "CLOCKWISE_90",
+        "ticks": 1200,
+        "capture_points_each": 78030,
+        "full_capture_state_and_entity_diff": 0,
+        "source_to_placement_explicit_state_diff": 0,
+        "probes": [
+          5,
+          5
+        ]
+      },
+      {
+        "rotation": "CLOCKWISE_180",
+        "ticks": 1200,
+        "capture_points_each": 78030,
+        "full_capture_state_and_entity_diff": 0,
+        "source_to_placement_explicit_state_diff": 0,
+        "probes": [
+          6,
+          7
+        ]
+      },
+      {
+        "rotation": "COUNTERCLOCKWISE_90",
+        "ticks": 1200,
+        "capture_points_each": 78030,
+        "full_capture_state_and_entity_diff": 0,
+        "source_to_placement_explicit_state_diff": 0,
+        "probes": [
+          5,
+          10
+        ]
+      }
+    ],
+    "scope": "Independent read-only full re-decoding and source rotation mapping of producer-executed isolated Forge test. Not another server run, formal integration or unlimited-time guarantee."
+  },
+  "external_water_contract": "Only source-water ocean or explicitly enclosed tank. Source-water ring8 blocks around source bounding box and cover8 above, solid Y0..2 bed, supported wet gate extensions3 blocks. NONE bounds X/Z -8..26,Y0..23; no dry corridor or finite exposed water cube. Rotate entire contract. Tested tank51x30x51 is artificial, not natural ocean placement.",
+  "failure_history": "Initial coral-fan support failure retained in worldtest;final worldtest-r2 is source-bound and passes. No image01 stair-waterlogging allowance used.",
+  "deployment": "NOT_DEPLOYED_NOT_ACCEPTED_FOR_DEPLOYMENT",
+  "world_review_boundary": "Independently decoded producer4x1200tick isolated Forge test captures, not another server execution or unlimited-time/integration guarantee.",
+  "next_allowed": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S5-coral-ocean\\out\\S5-04-great-hall.png",
+  "next_independent_acceptance_required": true
+}

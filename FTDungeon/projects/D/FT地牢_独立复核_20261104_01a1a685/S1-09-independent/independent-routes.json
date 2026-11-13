@@ -1,0 +1,2312 @@
+[
+  {
+    "vertical_swimming_enabled": false,
+    "group": 1,
+    "start_clear": true,
+    "scope": "Independent native collision boxes; 0.6x1.8 player, half-block grid, no jumps, maximum step 0.5; swept sampled vertical/horizontal clearance. Swimming elevation changes enabled only by explicit specification flag; no buoyancy, breath or movement physics certification. Immutable offline shapes, not game physics/world simulation. Shapes queried with EmptyBlockGetter; context-sensitive shape behavior is not certified.",
+    "sha256": "694be553a2ddb517877ecde7b59380be666d85500cc1b912e6b69565b37d0f1f",
+    "targets": [
+      {
+        "position": [
+          14,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "interior",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          2,
+          28
+        ],
+        "standing_clear": true,
+        "label": "south",
+        "reachable": true
+      },
+      {
+        "position": [
+          0,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "west",
+        "reachable": true
+      },
+      {
+        "position": [
+          28,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "east",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-0",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-1",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-2",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          2,
+          21
+        ],
+        "standing_clear": true,
+        "label": "body-3",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          2,
+          22
+        ],
+        "standing_clear": true,
+        "label": "body-4",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          2,
+          23
+        ],
+        "standing_clear": true,
+        "label": "body-5",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          2,
+          24
+        ],
+        "standing_clear": true,
+        "label": "body-6",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          2,
+          25
+        ],
+        "standing_clear": true,
+        "label": "body-7",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          2,
+          26
+        ],
+        "standing_clear": true,
+        "label": "body-8",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          2,
+          27
+        ],
+        "standing_clear": true,
+        "label": "body-9",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          2,
+          28
+        ],
+        "standing_clear": true,
+        "label": "body-10",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-11",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-12",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-13",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          2,
+          21
+        ],
+        "standing_clear": true,
+        "label": "body-14",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          2,
+          22
+        ],
+        "standing_clear": true,
+        "label": "body-15",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          2,
+          23
+        ],
+        "standing_clear": true,
+        "label": "body-16",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          2,
+          24
+        ],
+        "standing_clear": true,
+        "label": "body-17",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          2,
+          25
+        ],
+        "standing_clear": true,
+        "label": "body-18",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          2,
+          26
+        ],
+        "standing_clear": true,
+        "label": "body-19",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          2,
+          27
+        ],
+        "standing_clear": true,
+        "label": "body-20",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          2,
+          28
+        ],
+        "standing_clear": true,
+        "label": "body-21",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-22",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-23",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-24",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          2,
+          21
+        ],
+        "standing_clear": true,
+        "label": "body-25",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          2,
+          22
+        ],
+        "standing_clear": true,
+        "label": "body-26",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          2,
+          23
+        ],
+        "standing_clear": true,
+        "label": "body-27",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          2,
+          24
+        ],
+        "standing_clear": true,
+        "label": "body-28",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          2,
+          25
+        ],
+        "standing_clear": true,
+        "label": "body-29",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          2,
+          26
+        ],
+        "standing_clear": true,
+        "label": "body-30",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          2,
+          27
+        ],
+        "standing_clear": true,
+        "label": "body-31",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          2,
+          28
+        ],
+        "standing_clear": true,
+        "label": "body-32",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-33",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-34",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-35",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-36",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-37",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-38",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-39",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-40",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-41",
+        "reachable": true
+      },
+      {
+        "position": [
+          6,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-42",
+        "reachable": true
+      },
+      {
+        "position": [
+          6,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-43",
+        "reachable": true
+      },
+      {
+        "position": [
+          6,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-44",
+        "reachable": true
+      },
+      {
+        "position": [
+          7,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-45",
+        "reachable": true
+      },
+      {
+        "position": [
+          7,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-46",
+        "reachable": true
+      },
+      {
+        "position": [
+          7,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-47",
+        "reachable": true
+      },
+      {
+        "position": [
+          8,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-48",
+        "reachable": true
+      },
+      {
+        "position": [
+          8,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-49",
+        "reachable": true
+      },
+      {
+        "position": [
+          8,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-50",
+        "reachable": true
+      },
+      {
+        "position": [
+          9,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-51",
+        "reachable": true
+      },
+      {
+        "position": [
+          9,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-52",
+        "reachable": true
+      },
+      {
+        "position": [
+          9,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-53",
+        "reachable": true
+      },
+      {
+        "position": [
+          10,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-54",
+        "reachable": true
+      },
+      {
+        "position": [
+          10,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-55",
+        "reachable": true
+      },
+      {
+        "position": [
+          10,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-56",
+        "reachable": true
+      },
+      {
+        "position": [
+          11,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-57",
+        "reachable": true
+      },
+      {
+        "position": [
+          11,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-58",
+        "reachable": true
+      },
+      {
+        "position": [
+          11,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-59",
+        "reachable": true
+      },
+      {
+        "position": [
+          12,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-60",
+        "reachable": true
+      },
+      {
+        "position": [
+          12,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-61",
+        "reachable": true
+      },
+      {
+        "position": [
+          12,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-62",
+        "reachable": true
+      },
+      {
+        "position": [
+          16,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-63",
+        "reachable": true
+      },
+      {
+        "position": [
+          16,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-64",
+        "reachable": true
+      },
+      {
+        "position": [
+          16,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-65",
+        "reachable": true
+      },
+      {
+        "position": [
+          17,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-66",
+        "reachable": true
+      },
+      {
+        "position": [
+          17,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-67",
+        "reachable": true
+      },
+      {
+        "position": [
+          17,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-68",
+        "reachable": true
+      },
+      {
+        "position": [
+          18,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-69",
+        "reachable": true
+      },
+      {
+        "position": [
+          18,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-70",
+        "reachable": true
+      },
+      {
+        "position": [
+          18,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-71",
+        "reachable": true
+      },
+      {
+        "position": [
+          19,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-72",
+        "reachable": true
+      },
+      {
+        "position": [
+          19,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-73",
+        "reachable": true
+      },
+      {
+        "position": [
+          19,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-74",
+        "reachable": true
+      },
+      {
+        "position": [
+          20,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-75",
+        "reachable": true
+      },
+      {
+        "position": [
+          20,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-76",
+        "reachable": true
+      },
+      {
+        "position": [
+          20,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-77",
+        "reachable": true
+      },
+      {
+        "position": [
+          21,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-78",
+        "reachable": true
+      },
+      {
+        "position": [
+          21,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-79",
+        "reachable": true
+      },
+      {
+        "position": [
+          21,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-80",
+        "reachable": true
+      },
+      {
+        "position": [
+          22,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-81",
+        "reachable": true
+      },
+      {
+        "position": [
+          22,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-82",
+        "reachable": true
+      },
+      {
+        "position": [
+          22,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-83",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-84",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-85",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-86",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-87",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-88",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-89",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          18
+        ],
+        "standing_clear": true,
+        "label": "body-90",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          19
+        ],
+        "standing_clear": true,
+        "label": "body-91",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          20
+        ],
+        "standing_clear": true,
+        "label": "body-92",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          7
+        ],
+        "standing_clear": true,
+        "label": "body-93",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-94",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-95",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          10
+        ],
+        "standing_clear": true,
+        "label": "body-96",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          11
+        ],
+        "standing_clear": true,
+        "label": "body-97",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          12
+        ],
+        "standing_clear": true,
+        "label": "body-98",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          13
+        ],
+        "standing_clear": true,
+        "label": "body-99",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          14
+        ],
+        "standing_clear": true,
+        "label": "body-100",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          15
+        ],
+        "standing_clear": true,
+        "label": "body-101",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          16
+        ],
+        "standing_clear": true,
+        "label": "body-102",
+        "reachable": true
+      },
+      {
+        "position": [
+          3,
+          2,
+          17
+        ],
+        "standing_clear": true,
+        "label": "body-103",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          7
+        ],
+        "standing_clear": true,
+        "label": "body-104",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-105",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-106",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          10
+        ],
+        "standing_clear": true,
+        "label": "body-107",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          11
+        ],
+        "standing_clear": true,
+        "label": "body-108",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          12
+        ],
+        "standing_clear": true,
+        "label": "body-109",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          13
+        ],
+        "standing_clear": true,
+        "label": "body-110",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          14
+        ],
+        "standing_clear": true,
+        "label": "body-111",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          15
+        ],
+        "standing_clear": true,
+        "label": "body-112",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          16
+        ],
+        "standing_clear": true,
+        "label": "body-113",
+        "reachable": true
+      },
+      {
+        "position": [
+          4,
+          2,
+          17
+        ],
+        "standing_clear": true,
+        "label": "body-114",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          7
+        ],
+        "standing_clear": true,
+        "label": "body-115",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-116",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-117",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          10
+        ],
+        "standing_clear": true,
+        "label": "body-118",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          11
+        ],
+        "standing_clear": true,
+        "label": "body-119",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          12
+        ],
+        "standing_clear": true,
+        "label": "body-120",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          13
+        ],
+        "standing_clear": true,
+        "label": "body-121",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          14
+        ],
+        "standing_clear": true,
+        "label": "body-122",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          15
+        ],
+        "standing_clear": true,
+        "label": "body-123",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          16
+        ],
+        "standing_clear": true,
+        "label": "body-124",
+        "reachable": true
+      },
+      {
+        "position": [
+          5,
+          2,
+          17
+        ],
+        "standing_clear": true,
+        "label": "body-125",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          7
+        ],
+        "standing_clear": true,
+        "label": "body-126",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-127",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-128",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          10
+        ],
+        "standing_clear": true,
+        "label": "body-129",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          11
+        ],
+        "standing_clear": true,
+        "label": "body-130",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          12
+        ],
+        "standing_clear": true,
+        "label": "body-131",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          13
+        ],
+        "standing_clear": true,
+        "label": "body-132",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          14
+        ],
+        "standing_clear": true,
+        "label": "body-133",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          15
+        ],
+        "standing_clear": true,
+        "label": "body-134",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          16
+        ],
+        "standing_clear": true,
+        "label": "body-135",
+        "reachable": true
+      },
+      {
+        "position": [
+          23,
+          2,
+          17
+        ],
+        "standing_clear": true,
+        "label": "body-136",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          7
+        ],
+        "standing_clear": true,
+        "label": "body-137",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-138",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-139",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          10
+        ],
+        "standing_clear": true,
+        "label": "body-140",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          11
+        ],
+        "standing_clear": true,
+        "label": "body-141",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          12
+        ],
+        "standing_clear": true,
+        "label": "body-142",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          13
+        ],
+        "standing_clear": true,
+        "label": "body-143",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          14
+        ],
+        "standing_clear": true,
+        "label": "body-144",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          15
+        ],
+        "standing_clear": true,
+        "label": "body-145",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          16
+        ],
+        "standing_clear": true,
+        "label": "body-146",
+        "reachable": true
+      },
+      {
+        "position": [
+          24,
+          2,
+          17
+        ],
+        "standing_clear": true,
+        "label": "body-147",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          7
+        ],
+        "standing_clear": true,
+        "label": "body-148",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-149",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-150",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          10
+        ],
+        "standing_clear": true,
+        "label": "body-151",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          11
+        ],
+        "standing_clear": true,
+        "label": "body-152",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          12
+        ],
+        "standing_clear": true,
+        "label": "body-153",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          13
+        ],
+        "standing_clear": true,
+        "label": "body-154",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          14
+        ],
+        "standing_clear": true,
+        "label": "body-155",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          15
+        ],
+        "standing_clear": true,
+        "label": "body-156",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          16
+        ],
+        "standing_clear": true,
+        "label": "body-157",
+        "reachable": true
+      },
+      {
+        "position": [
+          25,
+          2,
+          17
+        ],
+        "standing_clear": true,
+        "label": "body-158",
+        "reachable": true
+      },
+      {
+        "position": [
+          0,
+          2,
+          7
+        ],
+        "standing_clear": true,
+        "label": "body-159",
+        "reachable": true
+      },
+      {
+        "position": [
+          0,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-160",
+        "reachable": true
+      },
+      {
+        "position": [
+          0,
+          2,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-161",
+        "reachable": true
+      },
+      {
+        "position": [
+          1,
+          2,
+          7
+        ],
+        "standing_clear": true,
+        "label": "body-162",
+        "reachable": true
+      },
+      {
+        "position": [
+          1,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-163",
+        "reachable": true
+      },
+      {
+        "position": [
+          1,
+          2,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-164",
+        "reachable": true
+      },
+      {
+        "position": [
+          2,
+          2,
+          7
+        ],
+        "standing_clear": true,
+        "label": "body-165",
+        "reachable": true
+      },
+      {
+        "position": [
+          2,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-166",
+        "reachable": true
+      },
+      {
+        "position": [
+          2,
+          2,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-167",
+        "reachable": true
+      },
+      {
+        "position": [
+          26,
+          2,
+          7
+        ],
+        "standing_clear": true,
+        "label": "body-168",
+        "reachable": true
+      },
+      {
+        "position": [
+          26,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-169",
+        "reachable": true
+      },
+      {
+        "position": [
+          26,
+          2,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-170",
+        "reachable": true
+      },
+      {
+        "position": [
+          27,
+          2,
+          7
+        ],
+        "standing_clear": true,
+        "label": "body-171",
+        "reachable": true
+      },
+      {
+        "position": [
+          27,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-172",
+        "reachable": true
+      },
+      {
+        "position": [
+          27,
+          2,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-173",
+        "reachable": true
+      },
+      {
+        "position": [
+          28,
+          2,
+          7
+        ],
+        "standing_clear": true,
+        "label": "body-174",
+        "reachable": true
+      },
+      {
+        "position": [
+          28,
+          2,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-175",
+        "reachable": true
+      },
+      {
+        "position": [
+          28,
+          2,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-176",
+        "reachable": true
+      },
+      {
+        "position": [
+          12,
+          2.5,
+          17
+        ],
+        "standing_clear": true,
+        "label": "body-177",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          2.5,
+          17
+        ],
+        "standing_clear": true,
+        "label": "body-178",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          2.5,
+          17
+        ],
+        "standing_clear": true,
+        "label": "body-179",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          2.5,
+          17
+        ],
+        "standing_clear": true,
+        "label": "body-180",
+        "reachable": true
+      },
+      {
+        "position": [
+          16,
+          2.5,
+          17
+        ],
+        "standing_clear": true,
+        "label": "body-181",
+        "reachable": true
+      },
+      {
+        "position": [
+          12,
+          3,
+          16
+        ],
+        "standing_clear": true,
+        "label": "body-182",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          3,
+          16
+        ],
+        "standing_clear": true,
+        "label": "body-183",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          3,
+          16
+        ],
+        "standing_clear": true,
+        "label": "body-184",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          3,
+          16
+        ],
+        "standing_clear": true,
+        "label": "body-185",
+        "reachable": true
+      },
+      {
+        "position": [
+          16,
+          3,
+          16
+        ],
+        "standing_clear": true,
+        "label": "body-186",
+        "reachable": true
+      },
+      {
+        "position": [
+          12,
+          3.5,
+          15
+        ],
+        "standing_clear": true,
+        "label": "body-187",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          3.5,
+          15
+        ],
+        "standing_clear": true,
+        "label": "body-188",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          3.5,
+          15
+        ],
+        "standing_clear": true,
+        "label": "body-189",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          3.5,
+          15
+        ],
+        "standing_clear": true,
+        "label": "body-190",
+        "reachable": true
+      },
+      {
+        "position": [
+          16,
+          3.5,
+          15
+        ],
+        "standing_clear": true,
+        "label": "body-191",
+        "reachable": true
+      },
+      {
+        "position": [
+          12,
+          4,
+          14
+        ],
+        "standing_clear": true,
+        "label": "body-192",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          4,
+          14
+        ],
+        "standing_clear": true,
+        "label": "body-193",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          4,
+          14
+        ],
+        "standing_clear": true,
+        "label": "body-194",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          4,
+          14
+        ],
+        "standing_clear": true,
+        "label": "body-195",
+        "reachable": true
+      },
+      {
+        "position": [
+          16,
+          4,
+          14
+        ],
+        "standing_clear": true,
+        "label": "body-196",
+        "reachable": true
+      },
+      {
+        "position": [
+          12,
+          4.5,
+          13
+        ],
+        "standing_clear": true,
+        "label": "body-197",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          4.5,
+          13
+        ],
+        "standing_clear": true,
+        "label": "body-198",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          4.5,
+          13
+        ],
+        "standing_clear": true,
+        "label": "body-199",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          4.5,
+          13
+        ],
+        "standing_clear": true,
+        "label": "body-200",
+        "reachable": true
+      },
+      {
+        "position": [
+          16,
+          4.5,
+          13
+        ],
+        "standing_clear": true,
+        "label": "body-201",
+        "reachable": true
+      },
+      {
+        "position": [
+          12,
+          5,
+          12
+        ],
+        "standing_clear": true,
+        "label": "body-202",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          5,
+          12
+        ],
+        "standing_clear": true,
+        "label": "body-203",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          5,
+          12
+        ],
+        "standing_clear": true,
+        "label": "body-204",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          5,
+          12
+        ],
+        "standing_clear": true,
+        "label": "body-205",
+        "reachable": true
+      },
+      {
+        "position": [
+          16,
+          5,
+          12
+        ],
+        "standing_clear": true,
+        "label": "body-206",
+        "reachable": true
+      },
+      {
+        "position": [
+          12,
+          5,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-207",
+        "reachable": true
+      },
+      {
+        "position": [
+          12,
+          5,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-208",
+        "reachable": true
+      },
+      {
+        "position": [
+          12,
+          5,
+          10
+        ],
+        "standing_clear": true,
+        "label": "body-209",
+        "reachable": true
+      },
+      {
+        "position": [
+          12,
+          5,
+          11
+        ],
+        "standing_clear": true,
+        "label": "body-210",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          5,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-211",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          5,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-212",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          5,
+          10
+        ],
+        "standing_clear": true,
+        "label": "body-213",
+        "reachable": true
+      },
+      {
+        "position": [
+          13,
+          5,
+          11
+        ],
+        "standing_clear": true,
+        "label": "body-214",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          5,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-215",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          5,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-216",
+        "reachable": true
+      },
+      {
+        "position": [
+          14,
+          5,
+          11
+        ],
+        "standing_clear": true,
+        "label": "body-217",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          5,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-218",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          5,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-219",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          5,
+          10
+        ],
+        "standing_clear": true,
+        "label": "body-220",
+        "reachable": true
+      },
+      {
+        "position": [
+          15,
+          5,
+          11
+        ],
+        "standing_clear": true,
+        "label": "body-221",
+        "reachable": true
+      },
+      {
+        "position": [
+          16,
+          5,
+          8
+        ],
+        "standing_clear": true,
+        "label": "body-222",
+        "reachable": true
+      },
+      {
+        "position": [
+          16,
+          5,
+          9
+        ],
+        "standing_clear": true,
+        "label": "body-223",
+        "reachable": true
+      },
+      {
+        "position": [
+          16,
+          5,
+          10
+        ],
+        "standing_clear": true,
+        "label": "body-224",
+        "reachable": true
+      },
+      {
+        "position": [
+          16,
+          5,
+          11
+        ],
+        "standing_clear": true,
+        "label": "body-225",
+        "reachable": true
+      }
+    ],
+    "reachable_half_grid_positions": 2541
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "group": 2,
+  "source_sha256": "336edadd450ee6bd1bf52abe737a483110823b1cf8625e3687d866a26a1aeb4a",
+  "hashes_verified": 49,
+  "interfaces": [
+    {
+      "direction": "north",
+      "supported_clear_width": 7,
+      "height": 4,
+      "feet_y": 1
+    },
+    {
+      "direction": "south",
+      "supported_clear_width": 5,
+      "height": 4,
+      "feet_y": 4
+    },
+    {
+      "direction": "west",
+      "supported_clear_width": 5,
+      "height": 4,
+      "feet_y": 4
+    },
+    {
+      "direction": "east",
+      "supported_clear_width": 5,
+      "height": 4,
+      "feet_y": 4
+    }
+  ],
+  "derivations": [
+    {
+      "direction": "north",
+      "air_cut_only": true,
+      "changed": 1495
+    },
+    {
+      "direction": "south",
+      "air_cut_only": true,
+      "changed": 1495
+    },
+    {
+      "direction": "west",
+      "air_cut_only": true,
+      "changed": 1497
+    },
+    {
+      "direction": "east",
+      "air_cut_only": true,
+      "changed": 1495
+    }
+  ],
+  "scope": "Independent byte/hash/coordinate checks, not world simulation."
+}

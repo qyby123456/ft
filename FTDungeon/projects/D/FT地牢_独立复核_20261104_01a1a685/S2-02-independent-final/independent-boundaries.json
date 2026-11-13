@@ -1,0 +1,64 @@
+[
+  {
+    "group": 2,
+    "sha256": "bb8885701818a29fbaf9904da9d191680511628304b97194c814d2989464ed87",
+    "solids_not_connected_to_y0_by_six_face_adjacency": [
+      {
+        "count": 3,
+        "sample": [
+          [
+            6,
+            8,
+            20
+          ],
+          [
+            6,
+            9,
+            20
+          ],
+          [
+            6,
+            10,
+            20
+          ]
+        ],
+        "materials": {
+          "minecraft:lantern": 1,
+          "minecraft:chain": 1,
+          "minecraft:cut_sandstone": 1
+        }
+      },
+      {
+        "count": 3,
+        "sample": [
+          [
+            15,
+            9,
+            20
+          ],
+          [
+            15,
+            10,
+            20
+          ],
+          [
+            15,
+            8,
+            20
+          ]
+        ],
+        "materials": {
+          "minecraft:chain": 1,
+          "minecraft:cut_sandstone": 1,
+          "minecraft:lantern": 1
+        }
+      }
+    ],
+    "fluid_counts": {
+      "minecraft:water": 15
+    },
+    "fluid_outside_or_air_neighbors_excluding_up_count": 0,
+    "fluid_edge_samples": [],
+    "scope": "Static six-face graph, not attachment/gravity proof. Fluids only direct water/lava; does not model permeability, waterlogged flow, fluid levels, updates or external world. Components and fluid edges are review signals, not automatic defects."
+  }
+]
