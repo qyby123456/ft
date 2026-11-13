@@ -1,0 +1,1 @@
+execute if score #run ftm_state matches 0 if dimension minecraft:overworld unless entity @e[type=minecraft:marker,tag=ftmaze.lobby] if block ~ ~ ~ minecraft:air if block ~ ~1 ~ minecraft:air if block ~ ~-1 ~ #ftmaze:safe_floor run function ftmaze:lobby/prepare
