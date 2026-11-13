@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "source_sha256": "7be8a6001c5aef73caf6c3a2c63cfe51f1b5fdcd5ee68c0fa0def70f9a4f9a93",
+  "source_size": [
+    89,
+    25,
+    89
+  ],
+  "fragments": [
+    {
+      "order": 1,
+      "file": "fragments/part-1.nbt",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        48,
+        25,
+        48
+      ],
+      "sha256": "a7388eb95ad5b3ac304e276627222c87a07dde461759c8f4f421ac8904b01e81",
+      "records": 57600,
+      "block_entities": 0,
+      "explicit_air_records": 40866
+    },
+    {
+      "order": 2,
+      "file": "fragments/part-2.nbt",
+      "origin": [
+        48,
+        0,
+        0
+      ],
+      "size": [
+        41,
+        25,
+        48
+      ],
+      "sha256": "ac540cee27dd62c7e22f4c38af495fef47966963bf1cc30bbfacb4cca4ee1b79",
+      "records": 49200,
+      "block_entities": 1,
+      "explicit_air_records": 35221
+    },
+    {
+      "order": 3,
+      "file": "fragments/part-3.nbt",
+      "origin": [
+        0,
+        0,
+        48
+      ],
+      "size": [
+        48,
+        25,
+        41
+      ],
+      "sha256": "eafdf98525d27516b412fe9862b20b18671a0e5523bc2b225a6513d78dd000e0",
+      "records": 49200,
+      "block_entities": 0,
+      "explicit_air_records": 34631
+    },
+    {
+      "order": 4,
+      "file": "fragments/part-4.nbt",
+      "origin": [
+        48,
+        0,
+        48
+      ],
+      "size": [
+        41,
+        25,
+        41
+      ],
+      "sha256": "bfc0b790c2f19d7aa297994a1acd0e03fb704236f8fef503805ed04ce7d0364d",
+      "records": 42025,
+      "block_entities": 0,
+      "explicit_air_records": 33506
+    }
+  ],
+  "all_dimensions_le48": true,
+  "order": "z-major then x-major; nonoverlapping so any complete order produces same offline structure",
+  "coordinate_coverage": 198025,
+  "duplicate_coordinates": 0,
+  "state_mismatches": 0,
+  "block_entity_mismatches": 0,
+  "reassembled_sha256": "233d5ab267df7557aebd9a86dd5cb1b6391b5d44732cdf7ce1d2c106dae99e74",
+  "reassembled_records": 198025,
+  "reassembled_block_entities": 1,
+  "strategy": "Every cell including explicit air is copied; no structure_void. Validate entire 89x25x89 volume before any placement, reject occupation, never preclear. Fragment planes disjoint; block entities kept local as structure block NBT (no world x/y/z tags), translated by placement origin. Real world placement/neighbor updates/intermediate seam survival NOT_RUN; use atomic staging or engine-controlled batch updates if deployed later.",
+  "world_deployment": "NOT_RUN"
+}

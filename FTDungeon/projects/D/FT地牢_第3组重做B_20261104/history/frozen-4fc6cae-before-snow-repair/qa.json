@@ -1,0 +1,67 @@
+{
+  "status": "TECHNICAL_SELF_CHECK_PASS",
+  "tests": {
+    "lodestone_actual_nbt_load": true,
+    "dimensions": true,
+    "complete_volume_unique_in_bounds": true,
+    "dataversion_1_20_1": true,
+    "no_entities": true,
+    "all_vanilla": true,
+    "no_hazards_or_runtime_blocks": true,
+    "connections": [
+      {
+        "name": "north-adapter",
+        "aperture": true,
+        "flat_floor": true,
+        "reachable": true
+      },
+      {
+        "name": "west-arch",
+        "aperture": true,
+        "flat_floor": true,
+        "reachable": true
+      },
+      {
+        "name": "east-arch",
+        "aperture": true,
+        "flat_floor": true,
+        "reachable": true
+      }
+    ],
+    "ring_route": true,
+    "roof_coverage": true,
+    "lantern_support": true
+  },
+  "walkable_floor_cells": 597,
+  "palette": {
+    "minecraft:cracked_stone_bricks": 2114,
+    "minecraft:cobblestone": 860,
+    "minecraft:stone_bricks": 7239,
+    "minecraft:packed_ice": 1010,
+    "minecraft:blue_ice": 382,
+    "minecraft:air": 13562,
+    "minecraft:snow": 588,
+    "minecraft:stone_brick_stairs": 24,
+    "minecraft:stone_brick_slab": 447,
+    "minecraft:snow_block": 473,
+    "minecraft:spruce_log": 166,
+    "minecraft:bone_block": 27,
+    "minecraft:soul_lantern": 4,
+    "minecraft:chain": 24,
+    "minecraft:chiseled_stone_bricks": 30
+  },
+  "sha256": "4fc6cae96b2e9fe1ba51060d11456a56ab1e2aab50232daf8e7b89bc10a160af",
+  "native_minecraft_load": {
+    "status": "PASS",
+    "sha256": "4fc6cae96b2e9fe1ba51060d11456a56ab1e2aab50232daf8e7b89bc10a160af",
+    "minecraft": "1.20.1",
+    "palette_entries_validated": 19,
+    "template_load_save": "PASS",
+    "flat_collision_reachable_cells": 597,
+    "north_west_east_connected": true,
+    "world_placement_ticks_gameplay": "NOT_RUN"
+  },
+  "in_game_placement_ticks_and_playtest": "NOT_RUN",
+  "visual_fidelity": "PENDING_MANUAL_REVIEW",
+  "cross_group_similarity": "PENDING_FINAL_AUDIT"
+}

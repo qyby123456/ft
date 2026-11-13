@@ -1,0 +1,236 @@
+{
+  "sha256": "b3f5c3499aa315c3a6fe32c43ebf077064fb181a80c5959644e5943191681bff",
+  "coordinate_system": "Integer feet cell; body center x+0.5/z+0.5, +X east/+Z south",
+  "connections": [
+    {
+      "name": "north-passage",
+      "facing": "north",
+      "position": [
+        10,
+        2,
+        0
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "south-ice-passage",
+      "facing": "south",
+      "position": [
+        10,
+        2,
+        48
+      ],
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "boundary_foot_cells": [
+    [
+      8,
+      2,
+      0
+    ],
+    [
+      8,
+      2,
+      48
+    ],
+    [
+      9,
+      2,
+      0
+    ],
+    [
+      9,
+      2,
+      48
+    ],
+    [
+      10,
+      2,
+      0
+    ],
+    [
+      10,
+      2,
+      48
+    ],
+    [
+      11,
+      2,
+      0
+    ],
+    [
+      11,
+      2,
+      48
+    ],
+    [
+      12,
+      2,
+      0
+    ],
+    [
+      12,
+      2,
+      48
+    ]
+  ],
+  "targets": [
+    {
+      "id": "north-passage",
+      "role": "connection",
+      "pos": [
+        10,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "south-ice-passage",
+      "role": "connection",
+      "pos": [
+        10,
+        2,
+        48
+      ]
+    },
+    {
+      "id": "interior-safe",
+      "role": "safe-point",
+      "pos": [
+        10,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "bay-5",
+      "role": "axis-node",
+      "pos": [
+        10,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "bay-13",
+      "role": "axis-node",
+      "pos": [
+        10,
+        2,
+        13
+      ]
+    },
+    {
+      "id": "bay-21",
+      "role": "axis-node",
+      "pos": [
+        10,
+        2,
+        21
+      ]
+    },
+    {
+      "id": "bay-29",
+      "role": "axis-node",
+      "pos": [
+        10,
+        2,
+        29
+      ]
+    },
+    {
+      "id": "bay-37",
+      "role": "axis-node",
+      "pos": [
+        10,
+        2,
+        37
+      ]
+    },
+    {
+      "id": "bay-45",
+      "role": "axis-node",
+      "pos": [
+        10,
+        2,
+        45
+      ]
+    },
+    {
+      "id": "lichen-west",
+      "role": "side-observation",
+      "pos": [
+        6,
+        2,
+        17
+      ]
+    },
+    {
+      "id": "lichen-east",
+      "role": "side-observation",
+      "pos": [
+        14,
+        2,
+        25
+      ]
+    },
+    {
+      "id": "bone-west",
+      "role": "decoration-approach",
+      "pos": [
+        6,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "bone-east",
+      "role": "decoration-approach",
+      "pos": [
+        14,
+        2,
+        43
+      ]
+    },
+    {
+      "id": "ice-exit-approach",
+      "role": "exit-approach",
+      "pos": [
+        10,
+        2,
+        46
+      ]
+    }
+  ],
+  "start": "north-passage",
+  "landmarks": {
+    "bays": [
+      5,
+      13,
+      21,
+      29,
+      37,
+      45
+    ],
+    "timber_posts_x": [
+      3,
+      17
+    ],
+    "axis": [
+      [
+        10,
+        2,
+        0
+      ],
+      [
+        10,
+        2,
+        48
+      ]
+    ],
+    "magic_portal": false
+  }
+}

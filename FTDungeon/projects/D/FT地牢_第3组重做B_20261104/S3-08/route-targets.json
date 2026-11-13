@@ -1,0 +1,355 @@
+{
+  "sha256": "f461b2a26ee4a8bff06eb6303374ac227a8d604c8e3770879ce66de52e8e0353",
+  "coordinate_system": "Variable feet elevations; body centers x+0.5/z+0.5; +X east/+Z south",
+  "connections": [
+    {
+      "name": "south-court",
+      "facing": "south",
+      "position": [
+        21,
+        5,
+        42
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "west-underpass",
+      "facing": "west",
+      "position": [
+        0,
+        5,
+        21
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "east-underpass",
+      "facing": "east",
+      "position": [
+        42,
+        5,
+        21
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "north-upper",
+      "facing": "north",
+      "position": [
+        21,
+        14,
+        0
+      ],
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "boundary_foot_cells": [
+    [
+      0,
+      5,
+      19
+    ],
+    [
+      0,
+      5,
+      20
+    ],
+    [
+      0,
+      5,
+      21
+    ],
+    [
+      0,
+      5,
+      22
+    ],
+    [
+      0,
+      5,
+      23
+    ],
+    [
+      19,
+      5,
+      42
+    ],
+    [
+      20,
+      5,
+      42
+    ],
+    [
+      21,
+      5,
+      42
+    ],
+    [
+      22,
+      5,
+      42
+    ],
+    [
+      23,
+      5,
+      42
+    ],
+    [
+      42,
+      5,
+      19
+    ],
+    [
+      42,
+      5,
+      20
+    ],
+    [
+      42,
+      5,
+      21
+    ],
+    [
+      42,
+      5,
+      22
+    ],
+    [
+      42,
+      5,
+      23
+    ],
+    [
+      19,
+      14,
+      0
+    ],
+    [
+      20,
+      14,
+      0
+    ],
+    [
+      21,
+      14,
+      0
+    ],
+    [
+      22,
+      14,
+      0
+    ],
+    [
+      23,
+      14,
+      0
+    ]
+  ],
+  "targets": [
+    {
+      "id": "south-court",
+      "role": "connection",
+      "pos": [
+        21,
+        5,
+        42
+      ]
+    },
+    {
+      "id": "west-underpass",
+      "role": "connection",
+      "pos": [
+        0,
+        5,
+        21
+      ]
+    },
+    {
+      "id": "east-underpass",
+      "role": "connection",
+      "pos": [
+        42,
+        5,
+        21
+      ]
+    },
+    {
+      "id": "north-upper",
+      "role": "connection",
+      "pos": [
+        21,
+        14,
+        0
+      ]
+    },
+    {
+      "id": "safe-point",
+      "role": "safe-point",
+      "pos": [
+        21,
+        5,
+        38
+      ]
+    },
+    {
+      "id": "tree-observation",
+      "role": "landmark",
+      "pos": [
+        25,
+        5,
+        20
+      ]
+    },
+    {
+      "id": "west-tree-route",
+      "role": "bypass",
+      "pos": [
+        11,
+        5,
+        25
+      ]
+    },
+    {
+      "id": "pool-rim",
+      "role": "rim",
+      "pos": [
+        28,
+        5,
+        35
+      ]
+    },
+    {
+      "id": "pool-bottom",
+      "role": "ice-surface",
+      "pos": [
+        28,
+        4,
+        29
+      ]
+    },
+    {
+      "id": "bone-observation",
+      "role": "landmark",
+      "pos": [
+        35,
+        5,
+        27
+      ]
+    },
+    {
+      "id": "stair-bottom",
+      "role": "stair-approach",
+      "pos": [
+        6,
+        5,
+        31
+      ]
+    },
+    {
+      "id": "stair-middle",
+      "role": "stair",
+      "pos": [
+        6,
+        10,
+        25
+      ]
+    },
+    {
+      "id": "stair-top",
+      "role": "stair",
+      "pos": [
+        6,
+        14,
+        21
+      ]
+    },
+    {
+      "id": "west-upper",
+      "role": "gallery",
+      "pos": [
+        6,
+        14,
+        16
+      ]
+    },
+    {
+      "id": "rear-upper",
+      "role": "gallery",
+      "pos": [
+        21,
+        14,
+        6
+      ]
+    },
+    {
+      "id": "east-upper",
+      "role": "gallery",
+      "pos": [
+        36,
+        14,
+        26
+      ]
+    }
+  ],
+  "start": "south-court",
+  "landmarks": {
+    "tree_trunk": [
+      17,
+      8,
+      17
+    ],
+    "tree_planter": [
+      [
+        12,
+        5,
+        12
+      ],
+      [
+        23,
+        7,
+        22
+      ]
+    ],
+    "ice_pool": [
+      [
+        23,
+        3,
+        23
+      ],
+      [
+        32,
+        3,
+        33
+      ]
+    ],
+    "upper_deck_y": 13,
+    "stair": [
+      [
+        5,
+        5,
+        29
+      ],
+      [
+        8,
+        13,
+        21
+      ]
+    ],
+    "bones": [
+      [
+        36,
+        5,
+        25
+      ],
+      [
+        39,
+        8,
+        29
+      ]
+    ]
+  }
+}

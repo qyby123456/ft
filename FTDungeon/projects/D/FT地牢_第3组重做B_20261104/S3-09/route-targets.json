@@ -1,0 +1,288 @@
+{
+  "sha256": "e480a9df20240c77de5d7bb56434636af3d2fad5460f9ffd62477822e67baea0",
+  "coordinate_system": "Variable feet elevations; body centers x+0.5/z+0.5; +X east/+Z south",
+  "connections": [
+    {
+      "name": "south-bridge-approach",
+      "facing": "south",
+      "position": [
+        29,
+        5,
+        36
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "west-arch",
+      "facing": "west",
+      "position": [
+        0,
+        5,
+        16
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "east-arch",
+      "facing": "east",
+      "position": [
+        36,
+        5,
+        16
+      ],
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "boundary_foot_cells": [
+    [
+      0,
+      5,
+      14
+    ],
+    [
+      0,
+      5,
+      15
+    ],
+    [
+      0,
+      5,
+      16
+    ],
+    [
+      0,
+      5,
+      17
+    ],
+    [
+      0,
+      5,
+      18
+    ],
+    [
+      27,
+      5,
+      36
+    ],
+    [
+      28,
+      5,
+      36
+    ],
+    [
+      29,
+      5,
+      36
+    ],
+    [
+      30,
+      5,
+      36
+    ],
+    [
+      31,
+      5,
+      36
+    ],
+    [
+      36,
+      5,
+      14
+    ],
+    [
+      36,
+      5,
+      15
+    ],
+    [
+      36,
+      5,
+      16
+    ],
+    [
+      36,
+      5,
+      17
+    ],
+    [
+      36,
+      5,
+      18
+    ]
+  ],
+  "targets": [
+    {
+      "id": "south-bridge-approach",
+      "role": "connection",
+      "pos": [
+        29,
+        5,
+        36
+      ]
+    },
+    {
+      "id": "west-arch",
+      "role": "connection",
+      "pos": [
+        0,
+        5,
+        16
+      ]
+    },
+    {
+      "id": "east-arch",
+      "role": "connection",
+      "pos": [
+        36,
+        5,
+        16
+      ]
+    },
+    {
+      "id": "safe-point",
+      "role": "safe-point",
+      "pos": [
+        28,
+        5,
+        33
+      ]
+    },
+    {
+      "id": "bridge",
+      "role": "bridge",
+      "pos": [
+        28,
+        5,
+        28
+      ]
+    },
+    {
+      "id": "inner-lobby",
+      "role": "lobby",
+      "pos": [
+        18,
+        5,
+        22
+      ]
+    },
+    {
+      "id": "west-statue",
+      "role": "landmark-approach",
+      "pos": [
+        8,
+        5,
+        16
+      ]
+    },
+    {
+      "id": "east-statue",
+      "role": "landmark-approach",
+      "pos": [
+        28,
+        5,
+        16
+      ]
+    },
+    {
+      "id": "dais-step-low",
+      "role": "stair",
+      "pos": [
+        18,
+        6,
+        17
+      ]
+    },
+    {
+      "id": "dais-step-middle",
+      "role": "stair",
+      "pos": [
+        18,
+        7,
+        16
+      ]
+    },
+    {
+      "id": "dais-step-high",
+      "role": "stair",
+      "pos": [
+        18,
+        8,
+        15
+      ]
+    },
+    {
+      "id": "chest-front",
+      "role": "container-access",
+      "pos": [
+        18,
+        8,
+        12
+      ]
+    },
+    {
+      "id": "chest-back",
+      "role": "container-inspection",
+      "pos": [
+        18,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "west-pots",
+      "role": "decoration-approach",
+      "pos": [
+        7,
+        5,
+        11
+      ]
+    }
+  ],
+  "start": "south-bridge-approach",
+  "landmarks": {
+    "chest": [
+      18,
+      8,
+      10
+    ],
+    "statues": [
+      [
+        11,
+        8,
+        12
+      ],
+      [
+        25,
+        8,
+        12
+      ]
+    ],
+    "bridge": [
+      [
+        26,
+        4,
+        25
+      ],
+      [
+        30,
+        4,
+        32
+      ]
+    ],
+    "dais_stairs": [
+      [
+        16,
+        5,
+        17
+      ],
+      [
+        20,
+        7,
+        15
+      ]
+    ]
+  }
+}

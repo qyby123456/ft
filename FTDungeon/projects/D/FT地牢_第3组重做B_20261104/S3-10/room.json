@@ -1,0 +1,294 @@
+{
+  "id": "S3-10-REWORK-B",
+  "name": "霜原多室地牢总览",
+  "size": [
+    89,
+    25,
+    89
+  ],
+  "entrance": [
+    43,
+    2,
+    88
+  ],
+  "interior": [
+    43,
+    5,
+    75
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "facing": "south",
+  "connections": [
+    {
+      "name": "south-entry",
+      "facing": "south",
+      "position": [
+        43,
+        2,
+        88
+      ],
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "areas": [
+    {
+      "id": "great-hall",
+      "name": "北部冰晶四柱大厅",
+      "bounds": [
+        29,
+        3,
+        65,
+        35
+      ],
+      "ceiling": 23,
+      "role": "hall"
+    },
+    {
+      "id": "west-pool",
+      "name": "西侧冻结大池室",
+      "bounds": [
+        3,
+        18,
+        27,
+        49
+      ],
+      "ceiling": 18,
+      "role": "pool"
+    },
+    {
+      "id": "treasury",
+      "name": "东北小宝库",
+      "bounds": [
+        67,
+        8,
+        85,
+        31
+      ],
+      "ceiling": 16,
+      "role": "treasure"
+    },
+    {
+      "id": "bone-room",
+      "name": "西南骨骸小室",
+      "bounds": [
+        3,
+        57,
+        29,
+        81
+      ],
+      "ceiling": 16,
+      "role": "crypt"
+    },
+    {
+      "id": "ice-court",
+      "name": "东南四柱冰庭",
+      "bounds": [
+        57,
+        48,
+        85,
+        79
+      ],
+      "ceiling": null,
+      "role": "courtyard"
+    },
+    {
+      "id": "entrance",
+      "name": "南侧门庭",
+      "bounds": [
+        34,
+        64,
+        52,
+        81
+      ],
+      "ceiling": 16,
+      "role": "entrance"
+    },
+    {
+      "id": "spine",
+      "name": "中央纵向连廊",
+      "bounds": [
+        39,
+        32,
+        47,
+        68
+      ],
+      "ceiling": 14,
+      "role": "corridor"
+    },
+    {
+      "id": "west-link",
+      "name": "西向横廊",
+      "bounds": [
+        24,
+        43,
+        43,
+        51
+      ],
+      "ceiling": 14,
+      "role": "corridor"
+    },
+    {
+      "id": "west-turn",
+      "name": "西南转角廊",
+      "bounds": [
+        21,
+        47,
+        29,
+        61
+      ],
+      "ceiling": 14,
+      "role": "corridor"
+    },
+    {
+      "id": "east-link",
+      "name": "东向横廊",
+      "bounds": [
+        43,
+        39,
+        61,
+        47
+      ],
+      "ceiling": 14,
+      "role": "corridor"
+    },
+    {
+      "id": "east-turn",
+      "name": "东南转角廊",
+      "bounds": [
+        53,
+        43,
+        61,
+        53
+      ],
+      "ceiling": 14,
+      "role": "corridor"
+    },
+    {
+      "id": "treasury-link",
+      "name": "宝库短廊",
+      "bounds": [
+        61,
+        21,
+        71,
+        29
+      ],
+      "ceiling": 14,
+      "role": "corridor"
+    },
+    {
+      "id": "approach",
+      "name": "外侧雪阶",
+      "bounds": [
+        39,
+        78,
+        47,
+        88
+      ],
+      "ceiling": null,
+      "role": "approach"
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "entry-to-spine",
+      "position": [
+        43,
+        5,
+        65
+      ]
+    },
+    {
+      "id": "spine-to-hall",
+      "position": [
+        43,
+        5,
+        34
+      ]
+    },
+    {
+      "id": "spine-to-west-link",
+      "position": [
+        41,
+        5,
+        47
+      ]
+    },
+    {
+      "id": "west-link-to-pool",
+      "position": [
+        26,
+        5,
+        47
+      ]
+    },
+    {
+      "id": "west-link-to-turn",
+      "position": [
+        25,
+        5,
+        49
+      ]
+    },
+    {
+      "id": "west-turn-to-crypt",
+      "position": [
+        25,
+        5,
+        59
+      ]
+    },
+    {
+      "id": "spine-to-east-link",
+      "position": [
+        45,
+        5,
+        43
+      ]
+    },
+    {
+      "id": "east-link-to-turn",
+      "position": [
+        57,
+        5,
+        45
+      ]
+    },
+    {
+      "id": "east-turn-to-court",
+      "position": [
+        59,
+        5,
+        51
+      ]
+    },
+    {
+      "id": "hall-to-treasury-link",
+      "position": [
+        63,
+        5,
+        25
+      ]
+    },
+    {
+      "id": "treasury-link-to-room",
+      "position": [
+        69,
+        5,
+        25
+      ]
+    }
+  ],
+  "sha256": "7be8a6001c5aef73caf6c3a2c63cfe51f1b5fdcd5ee68c0fa0def70f9a4f9a93",
+  "reference": "D:/ft工程文件/image2.5/nature-dungeon-styles-20261104/S3-frost-tundra/out/S3-10-overview.png",
+  "reference_sha256": "7bb7e2ae8b82593d5dd78a2fbed25a98de64383f7b7766b3fb9aeef902686366",
+  "runtime_slot": null,
+  "deployed": false,
+  "covered_rooms": true,
+  "courtyard_open_sky": true,
+  "not_a_preview_assembly": true
+}

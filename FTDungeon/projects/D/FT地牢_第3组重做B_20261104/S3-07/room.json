@@ -1,0 +1,79 @@
+{
+  "id": "S3-07-REWORK-B",
+  "name": "雪阶门庭入口",
+  "size": [
+    34,
+    24,
+    37
+  ],
+  "entrance": [
+    16,
+    2,
+    36
+  ],
+  "interior": [
+    16,
+    5,
+    24
+  ],
+  "facing": "south",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "connections": [
+    {
+      "name": "south-approach",
+      "facing": "south",
+      "position": [
+        16,
+        2,
+        36
+      ],
+      "width": 6,
+      "width_offsets": [
+        -2,
+        3
+      ],
+      "height": 4
+    },
+    {
+      "name": "north-dungeon",
+      "facing": "north",
+      "position": [
+        16,
+        8,
+        0
+      ],
+      "width": 6,
+      "width_offsets": [
+        -2,
+        3
+      ],
+      "height": 4
+    }
+  ],
+  "sha256": "b014041f56173a8b4a44086795f9a237582619099c7c82df9ea51fee64517c61",
+  "reference": "D:/ft工程文件/image2.5/nature-dungeon-styles-20261104/S3-frost-tundra/out/S3-07-entrance.png",
+  "reference_sha256": "6042875b361d0051ff86c831ca4037dfc5141242d45407bf3d967a314357443e",
+  "runtime_slot": null,
+  "deployed": false,
+  "courtyard_open_sky": true,
+  "door_state": "two spruce doors both open; 2-block nominal throat, actual collision checked",
+  "elevations": {
+    "approach_feet": 2,
+    "courtyard_feet": 5,
+    "rear_feet": 8
+  },
+  "fire": {
+    "position": [
+      12,
+      8,
+      16
+    ],
+    "lit": true,
+    "contact_damage_possible": true,
+    "not_on_route": true
+  }
+}

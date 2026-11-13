@@ -1,0 +1,157 @@
+{
+  "pivot": "nonnegative rotated bounding box; world origin must account for rotation translation",
+  "rotations": [
+    {
+      "degrees": 0,
+      "connections": [
+        {
+          "name": "north-adapter",
+          "facing": "north",
+          "position": [
+            17,
+            2,
+            0
+          ],
+          "width": 5,
+          "height": 4
+        },
+        {
+          "name": "west-arch",
+          "facing": "west",
+          "position": [
+            0,
+            2,
+            13
+          ],
+          "width": 5,
+          "height": 4
+        },
+        {
+          "name": "east-arch",
+          "facing": "east",
+          "position": [
+            34,
+            2,
+            13
+          ],
+          "width": 5,
+          "height": 4
+        }
+      ]
+    },
+    {
+      "degrees": 90,
+      "connections": [
+        {
+          "name": "north-adapter",
+          "facing": "east",
+          "position": [
+            34,
+            2,
+            17
+          ],
+          "width": 5,
+          "height": 4
+        },
+        {
+          "name": "west-arch",
+          "facing": "north",
+          "position": [
+            21,
+            2,
+            0
+          ],
+          "width": 5,
+          "height": 4
+        },
+        {
+          "name": "east-arch",
+          "facing": "south",
+          "position": [
+            21,
+            2,
+            34
+          ],
+          "width": 5,
+          "height": 4
+        }
+      ]
+    },
+    {
+      "degrees": 180,
+      "connections": [
+        {
+          "name": "north-adapter",
+          "facing": "south",
+          "position": [
+            17,
+            2,
+            34
+          ],
+          "width": 5,
+          "height": 4
+        },
+        {
+          "name": "west-arch",
+          "facing": "east",
+          "position": [
+            34,
+            2,
+            21
+          ],
+          "width": 5,
+          "height": 4
+        },
+        {
+          "name": "east-arch",
+          "facing": "west",
+          "position": [
+            0,
+            2,
+            21
+          ],
+          "width": 5,
+          "height": 4
+        }
+      ]
+    },
+    {
+      "degrees": 270,
+      "connections": [
+        {
+          "name": "north-adapter",
+          "facing": "west",
+          "position": [
+            0,
+            2,
+            17
+          ],
+          "width": 5,
+          "height": 4
+        },
+        {
+          "name": "west-arch",
+          "facing": "south",
+          "position": [
+            13,
+            2,
+            34
+          ],
+          "width": 5,
+          "height": 4
+        },
+        {
+          "name": "east-arch",
+          "facing": "north",
+          "position": [
+            13,
+            2,
+            0
+          ],
+          "width": 5,
+          "height": 4
+        }
+      ]
+    }
+  ]
+}

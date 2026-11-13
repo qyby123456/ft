@@ -1,0 +1,227 @@
+{
+  "sha256": "b014041f56173a8b4a44086795f9a237582619099c7c82df9ea51fee64517c61",
+  "coordinate_system": "Feet Y variable, x+0.5/z+0.5 body centers, +X east/+Z south",
+  "connections": [
+    {
+      "name": "south-approach",
+      "facing": "south",
+      "position": [
+        16,
+        2,
+        36
+      ],
+      "width": 6,
+      "width_offsets": [
+        -2,
+        3
+      ],
+      "height": 4
+    },
+    {
+      "name": "north-dungeon",
+      "facing": "north",
+      "position": [
+        16,
+        8,
+        0
+      ],
+      "width": 6,
+      "width_offsets": [
+        -2,
+        3
+      ],
+      "height": 4
+    }
+  ],
+  "targets": [
+    {
+      "id": "south-approach",
+      "role": "connection",
+      "pos": [
+        16,
+        2,
+        36
+      ]
+    },
+    {
+      "id": "north-dungeon",
+      "role": "connection",
+      "pos": [
+        16,
+        8,
+        0
+      ]
+    },
+    {
+      "id": "front-step-low",
+      "role": "stair",
+      "pos": [
+        16,
+        3,
+        35
+      ]
+    },
+    {
+      "id": "front-step-middle",
+      "role": "stair",
+      "pos": [
+        16,
+        4,
+        34
+      ]
+    },
+    {
+      "id": "front-step-high",
+      "role": "stair",
+      "pos": [
+        16,
+        5,
+        33
+      ]
+    },
+    {
+      "id": "open-gate",
+      "role": "door-passage",
+      "pos": [
+        16,
+        5,
+        29
+      ]
+    },
+    {
+      "id": "courtyard-safe",
+      "role": "safe-point",
+      "pos": [
+        16,
+        5,
+        24
+      ]
+    },
+    {
+      "id": "notice-board",
+      "role": "decoration-approach",
+      "pos": [
+        8,
+        5,
+        17
+      ]
+    },
+    {
+      "id": "bench",
+      "role": "decoration-approach",
+      "pos": [
+        8,
+        5,
+        24
+      ]
+    },
+    {
+      "id": "east-crates",
+      "role": "decoration-approach",
+      "pos": [
+        25,
+        5,
+        18
+      ]
+    },
+    {
+      "id": "rear-step-low",
+      "role": "stair",
+      "pos": [
+        16,
+        6,
+        10
+      ]
+    },
+    {
+      "id": "rear-step-high",
+      "role": "stair",
+      "pos": [
+        16,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "inner-ice-arch",
+      "role": "landing",
+      "pos": [
+        16,
+        8,
+        5
+      ]
+    }
+  ],
+  "start": "south-approach",
+  "landmarks": {
+    "door_halves": [
+      {
+        "pos": [
+          16,
+          5,
+          29
+        ],
+        "state": "minecraft:spruce_door[facing=south,half=lower,hinge=right,open=true,powered=false]"
+      },
+      {
+        "pos": [
+          16,
+          6,
+          29
+        ],
+        "state": "minecraft:spruce_door[facing=south,half=upper,hinge=right,open=true,powered=false]"
+      },
+      {
+        "pos": [
+          17,
+          5,
+          29
+        ],
+        "state": "minecraft:spruce_door[facing=south,half=lower,hinge=left,open=true,powered=false]"
+      },
+      {
+        "pos": [
+          17,
+          6,
+          29
+        ],
+        "state": "minecraft:spruce_door[facing=south,half=upper,hinge=left,open=true,powered=false]"
+      }
+    ],
+    "front_stairs": [
+      [
+        14,
+        2,
+        35
+      ],
+      [
+        19,
+        4,
+        33
+      ]
+    ],
+    "rear_stairs": [
+      [
+        13,
+        5,
+        10
+      ],
+      [
+        20,
+        7,
+        8
+      ]
+    ],
+    "board": [
+      8,
+      9,
+      14
+    ],
+    "campfire": [
+      12,
+      8,
+      16
+    ],
+    "main_axis_east": 16
+  }
+}

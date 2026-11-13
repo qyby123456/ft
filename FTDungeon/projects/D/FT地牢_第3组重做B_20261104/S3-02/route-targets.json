@@ -1,0 +1,221 @@
+{
+  "sha256": "01b36eba49ff230dcec435950cb55d716323585c0aa2ad32d64e5d0031f7bcfa",
+  "coordinate_system": "Integer block positions are player feet block cells. Entity center uses x+0.5,z+0.5, y unchanged. +X east,+Z south.",
+  "connections": [
+    {
+      "name": "north-timber-portal",
+      "facing": "north",
+      "position": [
+        14,
+        2,
+        0
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "west-timber-portal",
+      "facing": "west",
+      "position": [
+        0,
+        2,
+        9
+      ],
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "boundary_foot_cells": [
+    [
+      0,
+      2,
+      7
+    ],
+    [
+      0,
+      2,
+      8
+    ],
+    [
+      0,
+      2,
+      9
+    ],
+    [
+      0,
+      2,
+      10
+    ],
+    [
+      0,
+      2,
+      11
+    ],
+    [
+      12,
+      2,
+      0
+    ],
+    [
+      13,
+      2,
+      0
+    ],
+    [
+      14,
+      2,
+      0
+    ],
+    [
+      15,
+      2,
+      0
+    ],
+    [
+      16,
+      2,
+      0
+    ]
+  ],
+  "targets": [
+    {
+      "id": "north",
+      "role": "connection",
+      "pos": [
+        14,
+        2,
+        0
+      ]
+    },
+    {
+      "id": "west",
+      "role": "connection",
+      "pos": [
+        0,
+        2,
+        9
+      ]
+    },
+    {
+      "id": "interior-safe",
+      "role": "safe-point",
+      "pos": [
+        14,
+        2,
+        6
+      ]
+    },
+    {
+      "id": "reading-bench",
+      "role": "furniture-approach",
+      "pos": [
+        8,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "furnaces",
+      "role": "utility-approach",
+      "pos": [
+        20,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "barrels",
+      "role": "empty-container-approach",
+      "pos": [
+        5,
+        2,
+        16
+      ]
+    },
+    {
+      "id": "wall-shelf",
+      "role": "furniture-approach",
+      "pos": [
+        24,
+        2,
+        6
+      ]
+    },
+    {
+      "id": "basin-near",
+      "role": "basin-approach-not-interaction",
+      "pos": [
+        15,
+        2,
+        21
+      ]
+    },
+    {
+      "id": "basin-west",
+      "role": "bypass",
+      "pos": [
+        9,
+        2,
+        16
+      ]
+    },
+    {
+      "id": "basin-east",
+      "role": "bypass",
+      "pos": [
+        21,
+        2,
+        16
+      ]
+    },
+    {
+      "id": "bone-view",
+      "role": "landmark-approach",
+      "pos": [
+        22,
+        2,
+        18
+      ]
+    }
+  ],
+  "start": "north",
+  "basin": {
+    "base_box": [
+      [
+        11,
+        2,
+        12
+      ],
+      [
+        19,
+        2,
+        20
+      ]
+    ],
+    "rim_box": [
+      [
+        12,
+        3,
+        13
+      ],
+      [
+        18,
+        3,
+        19
+      ]
+    ],
+    "frozen_surface_box": [
+      [
+        14,
+        3,
+        15
+      ],
+      [
+        16,
+        3,
+        17
+      ]
+    ],
+    "summit_or_water_route": "not required; frozen solid decoration, no water or scripted interaction"
+  }
+}
