@@ -1,0 +1,16 @@
+place template s1_connected:part_01 ~0 ~0 ~0
+place template s1_connected:part_02 ~0 ~0 ~48
+place template s1_connected:part_03 ~0 ~0 ~96
+place template s1_connected:part_04 ~0 ~0 ~144
+place template s1_connected:part_05 ~48 ~0 ~0
+place template s1_connected:part_06 ~48 ~0 ~48
+place template s1_connected:part_07 ~48 ~0 ~96
+place template s1_connected:part_08 ~48 ~0 ~144
+place template s1_connected:part_09 ~96 ~0 ~0
+place template s1_connected:part_10 ~96 ~0 ~48
+place template s1_connected:part_11 ~96 ~0 ~96
+place template s1_connected:part_12 ~96 ~0 ~144
+place template s1_connected:part_13 ~144 ~0 ~0
+place template s1_connected:part_14 ~144 ~0 ~48
+place template s1_connected:part_15 ~144 ~0 ~96
+place template s1_connected:part_16 ~144 ~0 ~144
