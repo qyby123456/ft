@@ -1,3 +1,7 @@
+## Explicit verified-cache cleanup policy, 2026-11-13
+
+The user now requires GitHub as durable storage andlocal files only as temporary cache. Delete only uploaded,independently path/size/SHA256/commit-verified unused duplicates after the checkpoint/restore notes are remote. First target is the persistence sidecar working files only,using github-sync/checkpoint-source-cache-cleanup-plan-20261113.json andSOURCE_CACHE_RECOVERY_20261113.md. Guard all absolute paths,process references andfile handles;record every path/hash,commit andfreed bytes. Preserve .git,minimum checkpoints/recovery scripts,current required C source,frozen baseline/failed evidence/formal receipts,unuploaded archives/JARs/worlds andall D/formal-instance files. No large-artifact remote recovery is proven. Earlier blanket no-delete notes remain binding for these protected originals;this explicit authorization permits only the verified redundant source cache. Single writer,NOT-INSTALLABLE,weapons/Session paused andno deployment remain unchanged.
+
 ## Stage28 scoped Zicai Curios candidate checkpoint, 2026-11-13
 
 - The original Curios silence helper,rules andChoice are ported as three added classes;all1451existing classes andall resources stay byte-identical to Stage27. Candidate SHA256 c45cc10ffb7b572d876e869b692a75496c88c337434ed7140225df298b7bb65e. NOT-INSTALLABLE andnot deployed;both formal instances remain read-only.
