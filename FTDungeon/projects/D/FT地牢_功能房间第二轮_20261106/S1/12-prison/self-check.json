@@ -1,0 +1,121 @@
+{
+  "source_sha256": "581ab449f1296d479b6cbc17654700af2354d02f6cce092e41d260e96f4df571",
+  "status": "maker_static_self_check_pass_not_independent_acceptance",
+  "registry_properties": true,
+  "template_roundtrip": true,
+  "native_fragile_survival": true,
+  "ports_clear": true,
+  "empty_inventories": true,
+  "collision_routes": [
+    {
+      "position": [
+        14,
+        2,
+        32
+      ],
+      "standing_clear": true,
+      "label": "south-exit",
+      "reachable": true
+    },
+    {
+      "position": [
+        14,
+        2,
+        5
+      ],
+      "standing_clear": true,
+      "label": "guard-desk",
+      "reachable": true
+    },
+    {
+      "position": [
+        7,
+        2,
+        11
+      ],
+      "standing_clear": true,
+      "label": "west-cell",
+      "reachable": true
+    },
+    {
+      "position": [
+        22,
+        2,
+        18
+      ],
+      "standing_clear": true,
+      "label": "east-cell",
+      "reachable": true
+    },
+    {
+      "position": [
+        7,
+        2,
+        11
+      ],
+      "standing_clear": true,
+      "label": "cell-7-11",
+      "reachable": true
+    },
+    {
+      "position": [
+        7,
+        2,
+        18
+      ],
+      "standing_clear": true,
+      "label": "cell-7-18",
+      "reachable": true
+    },
+    {
+      "position": [
+        7,
+        2,
+        25
+      ],
+      "standing_clear": true,
+      "label": "cell-7-25",
+      "reachable": true
+    },
+    {
+      "position": [
+        22,
+        2,
+        11
+      ],
+      "standing_clear": true,
+      "label": "cell-22-11",
+      "reachable": true
+    },
+    {
+      "position": [
+        22,
+        2,
+        18
+      ],
+      "standing_clear": true,
+      "label": "cell-22-18",
+      "reachable": true
+    },
+    {
+      "position": [
+        22,
+        2,
+        25
+      ],
+      "standing_clear": true,
+      "label": "cell-22-25",
+      "reachable": true
+    }
+  ],
+  "not_executed": [
+    "world placement and ticks",
+    "gameplay or combat",
+    "independent visual acceptance"
+  ],
+  "scope_limits": [
+    "route shapes use EmptyBlockGetter; ladders and jumps not certified",
+    "native survival checks only selected fragile types, tags not loaded; no general support certification",
+    "no world lighting or neighbor/fluid/random tick simulation"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "source_sha256": "87a8ca9b2ddc97eb8453c79a405d6f6662fec934d6cdab5cd8814bc121f4b933",
+  "status": "maker_static_self_check_pass_not_independent_acceptance",
+  "registry_properties": true,
+  "template_roundtrip": true,
+  "native_fragile_survival": true,
+  "ports_clear": true,
+  "empty_inventories": true,
+  "collision_routes": [
+    {
+      "reachable": true,
+      "label": "east-exit",
+      "standing_clear": true,
+      "position": [
+        32,
+        2,
+        10
+      ]
+    },
+    {
+      "reachable": true,
+      "label": "target-line",
+      "standing_clear": true,
+      "position": [
+        16,
+        2,
+        6
+      ]
+    },
+    {
+      "reachable": true,
+      "label": "dummy-middle",
+      "standing_clear": true,
+      "position": [
+        18,
+        2,
+        14
+      ]
+    },
+    {
+      "reachable": true,
+      "label": "bench-aisle",
+      "standing_clear": true,
+      "position": [
+        12,
+        2,
+        26
+      ]
+    }
+  ],
+  "not_executed": [
+    "world placement and ticks",
+    "gameplay or combat",
+    "independent visual acceptance"
+  ],
+  "scope_limits": [
+    "route shapes use EmptyBlockGetter; ladders and jumps not certified",
+    "native survival checks only selected fragile types, tags not loaded; no general support certification",
+    "no world lighting or neighbor/fluid/random tick simulation"
+  ]
+}

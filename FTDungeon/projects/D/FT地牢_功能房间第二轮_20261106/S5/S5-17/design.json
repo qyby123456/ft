@@ -1,0 +1,82 @@
+{
+  "id": "S5-17",
+  "size": [
+    29,
+    15,
+    27
+  ],
+  "description": "Tool wall and grindstone, corner furnace chimney, tall materials rack, miniature prismarine project on central workbench.",
+  "ports": [
+    {
+      "name": "west",
+      "feet": [
+        0,
+        3,
+        12
+      ],
+      "facing": "west",
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "east",
+      "feet": [
+        28,
+        3,
+        12
+      ],
+      "facing": "east",
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "grindstone",
+      "position": [
+        5,
+        3,
+        4
+      ]
+    },
+    {
+      "label": "furnace",
+      "position": [
+        17,
+        3,
+        6
+      ]
+    },
+    {
+      "label": "materials",
+      "position": [
+        24,
+        3,
+        4
+      ]
+    },
+    {
+      "label": "project",
+      "position": [
+        14,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "chest",
+      "position": [
+        4,
+        3,
+        19
+      ]
+    }
+  ],
+  "differences": [
+    "Vanilla grindstone/crafting table/anvil/furnace provided, but player interaction untested.",
+    "Unlit furnace avoids fictional underwater flame; no fuel, recipes or loot inserted.",
+    "Miniature project is a block sculpture; glass canopy completes original cutaway."
+  ],
+  "water_policy": "Shallow contained display pools, raised dry traversable ports; no ocean placement survival claim.",
+  "cutHeight": 11
+}

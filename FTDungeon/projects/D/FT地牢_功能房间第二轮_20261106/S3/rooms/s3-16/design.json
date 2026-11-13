@@ -1,0 +1,95 @@
+{
+  "id": "s3-16",
+  "size": [
+    29,
+    16,
+    29
+  ],
+  "title": "霜井与冻结水渠",
+  "reference": "S3-16",
+  "features": [
+    "中央方井",
+    "木梁链条提桶",
+    "冻结浅渠与桥",
+    "维修台",
+    "后壁冰瀑"
+  ],
+  "ports": [
+    {
+      "name": "west",
+      "foot": [
+        0,
+        2,
+        18
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "east",
+      "foot": [
+        28,
+        2,
+        18
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "start": [
+    0,
+    2,
+    18
+  ],
+  "targets": [
+    {
+      "label": "east exit",
+      "position": [
+        28,
+        2,
+        18
+      ]
+    },
+    {
+      "label": "well side",
+      "position": [
+        7,
+        2,
+        14
+      ]
+    },
+    {
+      "label": "maintenance desk",
+      "position": [
+        6,
+        2,
+        21
+      ]
+    },
+    {
+      "label": "back ledge",
+      "position": [
+        21,
+        2,
+        24
+      ]
+    }
+  ],
+  "differences": [
+    "井与水渠为蓝冰，完全冻结无可取水功能；无动态水流",
+    "桶使用空木桶，提桶机构静态无红石",
+    "维修边缘可绕行，井有实体矮围防跌落"
+  ],
+  "cutY": 14,
+  "architectural_revision": "石木门框、后壁梁柱、连续雪沿、错落收尖冰挂；显式木纹轴向和木桶open=false使原生预览与实际一致"
+}

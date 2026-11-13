@@ -1,0 +1,61 @@
+{
+  "source_sha256": "fe35bbb07239e1d1f77bb635d33c27874e18b66adcc8f7c6876688a040effd4b",
+  "status": "maker_static_self_check_pass_not_independent_acceptance",
+  "registry_properties": true,
+  "template_roundtrip": true,
+  "native_fragile_survival": true,
+  "ports_clear": true,
+  "empty_inventories": true,
+  "collision_routes": [
+    {
+      "reachable": true,
+      "label": "east-exit",
+      "standing_clear": true,
+      "position": [
+        28,
+        2,
+        17
+      ]
+    },
+    {
+      "reachable": true,
+      "label": "disguised-opening",
+      "standing_clear": true,
+      "position": [
+        12,
+        2,
+        17
+      ]
+    },
+    {
+      "reachable": true,
+      "label": "vault-chest",
+      "standing_clear": true,
+      "position": [
+        21,
+        2,
+        7
+      ]
+    },
+    {
+      "reachable": true,
+      "label": "hidden-lever",
+      "standing_clear": true,
+      "position": [
+        25,
+        2,
+        7
+      ]
+    }
+  ],
+  "not_executed": [
+    "world placement and ticks",
+    "gameplay or combat",
+    "independent visual acceptance"
+  ],
+  "scope_limits": [
+    "route shapes use EmptyBlockGetter; ladders and jumps not certified",
+    "native survival checks only selected fragile types, tags not loaded; no general support certification",
+    "no world lighting or neighbor/fluid/random tick simulation"
+  ]
+}

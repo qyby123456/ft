@@ -1,0 +1,97 @@
+{
+  "id": "s3-15",
+  "size": [
+    35,
+    14,
+    29
+  ],
+  "title": "雪穴砂地训练场",
+  "reference": "S3-15",
+  "features": [
+    "砂地演练区",
+    "三个草人",
+    "三靶",
+    "低障碍与台阶",
+    "双排观众凳",
+    "一侧宽洞一侧开门"
+  ],
+  "ports": [
+    {
+      "name": "west",
+      "foot": [
+        0,
+        2,
+        12
+      ],
+      "width": 5,
+      "height": 5,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "east",
+      "foot": [
+        34,
+        2,
+        11
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "start": [
+    0,
+    2,
+    12
+  ],
+  "targets": [
+    {
+      "label": "east exit",
+      "position": [
+        34,
+        2,
+        11
+      ]
+    },
+    {
+      "label": "targets",
+      "position": [
+        17,
+        2,
+        23
+      ]
+    },
+    {
+      "label": "training centre",
+      "position": [
+        17,
+        2,
+        13
+      ]
+    },
+    {
+      "label": "audience",
+      "position": [
+        22,
+        2,
+        4
+      ]
+    }
+  ],
+  "differences": [
+    "草人为方块雕塑非可击杀实体",
+    "靶为原版target；未连接计分红石",
+    "障碍是可绕行低障碍，不承诺跑酷验收",
+    "场地完整封顶以满足结构交付，概念敞开效果仅预览"
+  ],
+  "cutY": 12,
+  "architectural_revision": "石木门框、后壁梁柱、连续雪沿、错落收尖冰挂；显式木纹轴向和木桶open=false使原生预览与实际一致"
+}
