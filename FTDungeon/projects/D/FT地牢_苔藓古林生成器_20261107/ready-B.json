@@ -1,0 +1,131 @@
+{
+  "status": "B_SOURCE_FROZEN_FOR_FINAL_NATIVE_R2",
+  "root": "D:\\ft工程文件\\FT地牢_苔藓古林生成器_20261107",
+  "baseline": "fixed latest copied 0.24.2 candidate; no external active-source synchronization",
+  "provider": "ftmossgen:forest",
+  "dimension": "ftmossgen:forest",
+  "mod": "ftmossgen",
+  "command": "/moss",
+  "store": "ftmossgen_instances",
+  "portalContract": "design/PORTAL-RUNTIME-CONTRACT.md",
+  "bossTemplateKey": "boss/eclipse_keeper retained by A/B contract",
+  "nativeGate": {
+    "parts": 12,
+    "anchorPart": 1,
+    "anchorSemantics": "center bottom",
+    "outbound": "plan.bossPortal, plan.bossPortalFacing, plan.bossPortalPiece",
+    "selectionOwner": "A Planner chooses lowest-main-floor actual block-BFS farthest eligible room",
+    "returnAnchorLocal": [
+      16,
+      2,
+      25
+    ],
+    "returnUnlock": "real non-FakePlayer ServerPlayer killing unique FIGHTING WitherSkeleton only",
+    "proximityTeleportRemoved": true,
+    "persistentMetadata": "FT anchor BE ForgeData ftmossgen.portal; instance, role, dimension, anchor, facing, target"
+  },
+  "hostHooks": {
+    "handleUse": "public static boolean MossBossPortals.handleUse(ServerPlayer, BlockPos)",
+    "handleTravel": "public static boolean MossBossPortals.handleTravel(ServerPlayer, BlockPos)",
+    "refreshControl": "public static boolean MossBossPortals.refreshControl(ServerLevel, BlockPos)",
+    "hostFourHooksObserved": true,
+    "hostFilesEditedByB": false
+  },
+  "implementation": [
+    "Native registered FT entry/return blocks and renderer, no duplicate gate registry",
+    "Exact AIR preflight includes 24 gate parts, complete 3x3 support, front/back 3-wide 4-high clearance; no replacement supports",
+    "Preserved bounded 8192 Engine block batches and durable batch/cursor journal",
+    "Idempotent native BE binding; rejects foreign instance metadata; persisted plan intent precedes placement",
+    "Explicit real-player/native-passage travel only, persistent 60-tick cooldown carrying instance and role; safe landing and occupancy checks",
+    "180-second shared room waves, reserved global/instance caps, supported rune and independent entity feet",
+    "UUID spawn-intent persistence, loaded chunk reconciliation, no missing-Boss victory or automatic Boss respawn",
+    "Three real merchant trades; unique 200HP Boss and four adds; single reward and own-instance add cleanup"
+  ],
+  "verification": {
+    "readOnlySourceAssertions": {
+      "publicProvider": true,
+      "mossCommand": true,
+      "noOldCommandHints": true,
+      "forestDimension": true,
+      "independentStore": true,
+      "noProximityBossTeleport": true,
+      "nativeGatePassage": true,
+      "engineBudget8192": true
+    },
+    "readOnlyNbtTemplateAudit": {
+      "result": "PASS",
+      "portalNiches": 12,
+      "portalPartAirCells": 144,
+      "portalFrontBackAirCells": 288,
+      "portalFloorCells": 108,
+      "independentSpawnCandidates": 89,
+      "shopTemplates": 1,
+      "limitation": "Floor solidity approximated conservatively from material names; runtime uses real BlockState full collision checks."
+    },
+    "javapForge1201ApiChecks": "PASS Direction2D, BlockEntity.getPersistentData, BlockState full collision and fluid API; native FT source APIs inspected",
+    "coordinatorCompileRound1": "Provider was completed; coordinator subsequently reported main compilation PASS before the chunk-ticket/palette follow-up. Current follow-up is pending integrated compile/server rerun.",
+    "gradleRunByB": false,
+    "serverTestsRunByB": false
+  },
+  "boundaries": [
+    "No deployment; no formal saves/mods/config/KubeJS writes",
+    "No existing FT classes, old eclipse tree, build script, resources, A/C files modified by B",
+    "Support.java and Vec3iCursor.java needed no edits beyond existing clone",
+    "At-most-once ATTEMPTED entity intent can conservatively stay absent after crash; never infer victory or duplicate spawn to repair uncertain state",
+    "Missing/corrupt/foreign portal parts or metadata fail closed; no terrain repair outside build journal",
+    "Persisted reward guard precedes inventory mutation: crash window can lose reward, cannot duplicate it",
+    "Final Java17 compilation and actual isolated Forge tests remain coordinator responsibilities"
+  ],
+  "files": [
+    {
+      "path": "src/main/java/moss/generator/Engine.java",
+      "sha256": "c14b3d4d037526790813ef2fb3795fa43c5ebcb15319ce7dcb15f1224abb23dd"
+    },
+    {
+      "path": "src/main/java/moss/generator/Gameplay.java",
+      "sha256": "76979680fc54131b4b027dc0f1355a7654da59a89ff5c7ddd997ef766186cfb8"
+    },
+    {
+      "path": "src/main/java/moss/generator/MossBossPortals.java",
+      "sha256": "bd30945c50463059e3338077966e5e15a6637bcb8cc58aa84c067c15c536ae7e"
+    },
+    {
+      "path": "src/main/java/moss/generator/MossMod.java",
+      "sha256": "6bbc14bd80e0a02d91f4f25d0bbd06ed6973774b9d566df146085782332c1311"
+    },
+    {
+      "path": "src/main/java/moss/generator/Store.java",
+      "sha256": "34982727f10abb563043cb4b66bc1fad623163acbea974308aef8f8752bdbcf5"
+    },
+    {
+      "path": "src/main/java/net/farmingtales/ftdungeonmobs/generator/MossDungeonGenerator.java",
+      "sha256": "63520c09e102452c1c7dcec638bbf0d75362918bfd5383275694667fd2704d32"
+    },
+    {
+      "path": "design/PORTAL-RUNTIME-CONTRACT.md",
+      "sha256": "8da8b9476387ce5fb6d9ba15994fa08582242c691917bafb1d43ecfaf367b628"
+    }
+  ],
+  "followup": {
+    "trigger": "Coordinator reported main compilation pass, then identified no-player chunk-load stall and old cap/barrier palette.",
+    "chunkLoading": "loadVolume now adds dedicated TicketType<String> ftmossgen_build region tickets at radius2 (ticket level31), returns until FULL chunk and entity data load asynchronously; no synchronous getChunk dependency in loadVolume. Active job refreshes tickets each server tick.",
+    "cleanup": "Explicit removeRegionTicket on pause, COMPLETE, FAILED (finally) and LevelEvent.Unload; timeout100 ticks is a fallback if refresh stops. Transient weak level registry; restarting active jobs reacquires tickets.",
+    "initializingRecovery": "INITIALIZING now waits for all piece volumes to load using the same tickets before touching geometry/runtime after restart.",
+    "verificationHelper": "public Engine.temporaryTicketCount(ServerLevel) reports outstanding own chunk leases for isolated tests.",
+    "palette": {
+      "caps": "MOSSY_STONE_BRICKS bottom/top plus GREEN_STAINED_GLASS middle",
+      "bossBarrier": "GREEN_STAINED_GLASS in Engine and Gameplay"
+    },
+    "tests": "No Gradle run by B per coordination rule. Coordinator reported main pass BEFORE these follow-up edits; new no-player isolated server test must compile and run against this revision without test forceChunk."
+  },
+  "freeze": {
+    "sourceFrozen": true,
+    "noFurtherRefactor": true,
+    "readyManifestHashesRechecked": "PASS",
+    "coordinatorReportedNativeR1": "2026-11-07 03:29:58 Asia/Shanghai: all 3 real Forge tests passed; MOSS_RUNTIME_PASS covers three builds, native 12-part gates and real-player boss kill.",
+    "nativeR1Scope": "Compiled before latest temporary-ticket/palette changes; does not validate final ticket revision.",
+    "requiredFinalValidation": "Coordinator fresh compile + native-r2 + production jar; B will not run Gradle or deploy.",
+    "ticketLifecycle": "Every active Engine server tick refreshes its own tickets. PAUSED releases immediately in pause(); COMPLETE and FAILED release in tick finally; LevelEvent.Unload releases all own level tickets. Ticket timeout100 is fallback. INITIALIZING reacquires after reload.",
+    "finalCompileGenericFix": "Only Engine TicketType comparator changed to Comparator.<String>naturalOrder() after coordinator production-build.log inference error. Re-frozen; fresh coordinator compilation required."
+  }
+}

@@ -1,0 +1,11 @@
+# A layout / B runtime contract
+
+Provider ftmossgen:forest. Preserve original four-floor recursion and its random calls, with a 48-block horizontal and 32-block vertical module stride so original S1 rooms fit without cropping. Rotation and size remain native bounding-correct. Main lowest floor is anchorY-96+2. Independent Boss retains key boss/eclipse_keeper and local runtime positions for compatibility; its masonry is rebuilt as forest sanctuary.
+
+Plan adds bossPortalPiece, bossPortal [x,y,z] (CENTER bottom part, native PART=1), bossPortalFacing (Direction.get2DDataValue), graphEdges [pieceA,pieceB], roomDistances (piece index -> actual cardinal walking distance from Plan.entry), portalDistance. Plan.exit is a separate AIR approach/trigger feet position, not a gate part. Native FT partPosition owns the exact 12-part placement; center plus offsets -1,0,1 on facing clockwise axis.
+
+Every eligible non-corridor room has a prebuilt portal niche, represented by Template.portal/portal_facing/portal_trigger, transformed to Piece.portal/portalFacing/portalTrigger. Gate is 3 wide and 4 high; width direction is facing.getClockWise(). Candidate rooms are turn/*, straight/room_*, terminal/* and promenade. Exclude stairs, ordinary corridors, scenery, spawn and independent Boss. Select minimum route feet Y among candidates; maximize actual walkable block BFS distance to trigger, tie smallest piece.index. No Euclidean surrogate. All route pieces and candidate triggers must be BFS reachable.
+
+Template niche keeps all 12 gate cells AIR, 3 solid full support cells and 2-block approach depth on both sides. Niche is within 48x48 reservation, outside original S1 room bounds; original decoration remains untouched. Engine must reserve/check/place gate only after geometry. No cap may intersect niche. B treats Plan.exit as trigger and bossPortal as the actual gate CENTER bottom anchor, native PART=1. A publishes exact per-template positions with catalog and plan fields.
+
+Saved plans are new style only; do not migrate or alter eclipse saved plans/resources. A owns Catalog, Planner, PrisonGridGenerator and ftmossgen template resources/design; B owns runtime/Engine and FT bridge. Compile and world validation remain coordinator tasks.
