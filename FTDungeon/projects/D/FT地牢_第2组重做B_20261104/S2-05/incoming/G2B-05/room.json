@@ -1,0 +1,255 @@
+{
+  "id": "G2B-05",
+  "name": "砂岩纹带积沙长廊",
+  "size": [
+    15,
+    12,
+    41
+  ],
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    6
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        7,
+        2,
+        0
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "facing": "south",
+      "position": [
+        7,
+        2,
+        40
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "route_targets": [
+    {
+      "name": "near-threshold",
+      "position": [
+        7,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "rib-one",
+      "position": [
+        7,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "lamp-one",
+      "position": [
+        7,
+        2,
+        6
+      ]
+    },
+    {
+      "name": "rib-two",
+      "position": [
+        7,
+        2,
+        10
+      ]
+    },
+    {
+      "name": "middle-front",
+      "position": [
+        7,
+        2,
+        14
+      ]
+    },
+    {
+      "name": "lamp-two",
+      "position": [
+        7,
+        2,
+        19
+      ]
+    },
+    {
+      "name": "rib-four",
+      "position": [
+        7,
+        2,
+        26
+      ]
+    },
+    {
+      "name": "lamp-three",
+      "position": [
+        7,
+        2,
+        32
+      ]
+    },
+    {
+      "name": "rib-last",
+      "position": [
+        7,
+        2,
+        38
+      ]
+    },
+    {
+      "name": "far-threshold",
+      "position": [
+        7,
+        2,
+        39
+      ]
+    },
+    {
+      "name": "west-pot-access",
+      "position": [
+        5,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "east-pot-access",
+      "position": [
+        9,
+        2,
+        13
+      ]
+    },
+    {
+      "name": "west-sand-access",
+      "position": [
+        5,
+        2,
+        23
+      ]
+    },
+    {
+      "name": "east-sand-access",
+      "position": [
+        9,
+        2,
+        33
+      ]
+    }
+  ],
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S2-sandstone-desert\\out\\S2-05-corridor.png",
+  "reference_sha256": "2c98f3896397260f9aee9561b6dd4541039bf502ccbc5ff52e90502617c39e96",
+  "sha256": "4131474bbc0f61feaf6c4f245c480cca391d802bb4e1f0965b69d3fb44aa730a",
+  "coordinate_system": "Local XYZ feet, east +X, north -Z",
+  "hall_feet_y": 2,
+  "roof": {
+    "type": "flat sandstone with transverse rib beams",
+    "ceiling_y": 10,
+    "intentional_skylight_xz": [
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        10,
+        29
+      ],
+      [
+        10,
+        30
+      ],
+      [
+        10,
+        31
+      ],
+      [
+        11,
+        29
+      ],
+      [
+        11,
+        30
+      ],
+      [
+        11,
+        31
+      ]
+    ],
+    "skylight_count": 2,
+    "open_cells": 12,
+    "not_fully_sealed": true
+  },
+  "landmark": {
+    "type": "straight low-ceiling ribbed corridor, three centerline hanging lamps, orange segmented pavement and wall bands",
+    "clear_center_strip_inclusive": [
+      [
+        6,
+        2,
+        0
+      ],
+      [
+        8,
+        5,
+        40
+      ]
+    ],
+    "no_platform_pool_or_columns": true
+  },
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "runtime_slot": null,
+  "next_image": "S2-06 LOCKED_NOT_STARTED",
+  "world_placement": "NOT_RUN",
+  "deviations": [
+    "Block-scale proportions estimated, not pixel-identical",
+    "Sand slopes approximated with supported sand/sandstone/slabs",
+    "Urns approximated by terracotta and flower pots",
+    "Wall symbols approximated by chiseled red sandstone",
+    "Two real skylight breaches, not fully weather-sealed; no invented side exits"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "single_template": true,
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "world_origin": null,
+  "bounds_inclusive": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      26,
+      16,
+      28
+    ]
+  ],
+  "order": [
+    {
+      "step": 1,
+      "path": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-07\\incoming\\G2B-07\\room.nbt",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        12,
+        1,
+        0
+      ],
+      "width": 4,
+      "height": 4,
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ],
+      "lateral_x_inclusive": [
+        11,
+        14
+      ]
+    },
+    {
+      "facing": "south",
+      "position": [
+        13,
+        3,
+        28
+      ],
+      "width": 5,
+      "height": 6,
+      "outward_normal": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "hall_feet_y": 3,
+  "gate": {
+    "positions": [
+      [
+        12,
+        3,
+        4
+      ],
+      [
+        12,
+        4,
+        4
+      ],
+      [
+        13,
+        3,
+        4
+      ],
+      [
+        13,
+        4,
+        4
+      ]
+    ],
+    "width": 2,
+    "lower_feet_y": 3,
+    "axis_z": 4,
+    "x_inclusive": [
+      12,
+      13
+    ],
+    "north_platform_width": 4,
+    "interaction": "NOT_RUN",
+    "route_semantics": "Closed blocks through route; open-state derivative analyzed separately"
+  },
+  "warning": "North exterior Y1 climbs two blocks to court/rear Y3. Closed two-wide gate blocks passage; four-wide exterior pad is not the gate aperture. Lit campfire is hazardous. Full explicit-air envelope and open courtyard weather/light/spawning require integration review. No deployment permission."
+}

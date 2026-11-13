@@ -1,0 +1,368 @@
+{
+  "id": "G2B-09",
+  "name": "砂日纹饰宝藏室",
+  "size": [
+    29,
+    18,
+    29
+  ],
+  "entrance": [
+    14,
+    1,
+    0
+  ],
+  "interior": [
+    14,
+    3,
+    12
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        14,
+        1,
+        0
+      ],
+      "width": 7,
+      "height": 4,
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "facing": "west",
+      "position": [
+        0,
+        3,
+        12
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "facing": "east",
+      "position": [
+        28,
+        3,
+        12
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "route_targets": [
+    {
+      "name": "north-first-step",
+      "position": [
+        14,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "north-second-step",
+      "position": [
+        14,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "entry-hall",
+      "position": [
+        14,
+        3,
+        5
+      ]
+    },
+    {
+      "name": "rug-center",
+      "position": [
+        14,
+        3,
+        12
+      ]
+    },
+    {
+      "name": "rug-south",
+      "position": [
+        14,
+        3,
+        16
+      ]
+    },
+    {
+      "name": "dais-first-stair",
+      "position": [
+        14,
+        4,
+        18
+      ]
+    },
+    {
+      "name": "dais-lower-landing",
+      "position": [
+        14,
+        4,
+        19
+      ]
+    },
+    {
+      "name": "dais-second-stair",
+      "position": [
+        14,
+        5,
+        20
+      ]
+    },
+    {
+      "name": "main-chest-front",
+      "position": [
+        14,
+        5,
+        21
+      ]
+    },
+    {
+      "name": "main-front-left",
+      "position": [
+        13,
+        5,
+        21
+      ]
+    },
+    {
+      "name": "main-front-right",
+      "position": [
+        15,
+        5,
+        21
+      ]
+    },
+    {
+      "name": "main-chest-side",
+      "position": [
+        13,
+        5,
+        23
+      ]
+    },
+    {
+      "name": "west-chest-front",
+      "position": [
+        5,
+        3,
+        20
+      ]
+    },
+    {
+      "name": "east-chest-front",
+      "position": [
+        23,
+        3,
+        20
+      ]
+    },
+    {
+      "name": "west-niche-approach",
+      "position": [
+        7,
+        3,
+        21
+      ]
+    },
+    {
+      "name": "east-niche-approach",
+      "position": [
+        21,
+        3,
+        21
+      ]
+    },
+    {
+      "name": "west-statue-front",
+      "position": [
+        9,
+        3,
+        21
+      ]
+    },
+    {
+      "name": "east-statue-front",
+      "position": [
+        19,
+        3,
+        21
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "position": [
+        14,
+        5,
+        22
+      ],
+      "facing": "north",
+      "front_feet": [
+        14,
+        5,
+        21
+      ],
+      "role": "main",
+      "expected_slots": 4,
+      "expected_items": [
+        [
+          "gold_ingot",
+          6
+        ],
+        [
+          "emerald",
+          3
+        ],
+        [
+          "diamond",
+          1
+        ],
+        [
+          "bread",
+          4
+        ]
+      ]
+    },
+    {
+      "position": [
+        4,
+        3,
+        20
+      ],
+      "facing": "east",
+      "front_feet": [
+        5,
+        3,
+        20
+      ],
+      "role": "west-niche",
+      "expected_slots": 3,
+      "expected_items": [
+        [
+          "gold_nugget",
+          12
+        ],
+        [
+          "iron_ingot",
+          4
+        ],
+        [
+          "torch",
+          8
+        ]
+      ]
+    },
+    {
+      "position": [
+        24,
+        3,
+        20
+      ],
+      "facing": "west",
+      "front_feet": [
+        23,
+        3,
+        20
+      ],
+      "role": "east-niche",
+      "expected_slots": 3,
+      "expected_items": [
+        [
+          "gold_nugget",
+          12
+        ],
+        [
+          "iron_ingot",
+          4
+        ],
+        [
+          "torch",
+          8
+        ]
+      ]
+    }
+  ],
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S2-sandstone-desert\\out\\S2-09-treasure.png",
+  "reference_sha256": "85215b6457ca94cefce3dc752bd2422a3ed6e0697af379576f7f9c0e93260c77",
+  "sha256": "d83bb005a47dc3e49b58d4901417654badc91cd827b5664ac05660c55968206a",
+  "coordinate_system": "Local XYZ feet; east +X; north -Z",
+  "hall_feet_y": 3,
+  "dais_feet_y": 5,
+  "footprint": "Ground x0..28,z3..28 plus north approach x10..18,z0..2; full 29x18x29 explicit-air envelope",
+  "roof": {
+    "type": "Ruined rim roof and front beam, true central open sky",
+    "roof_y": 14,
+    "solid_columns": 448,
+    "open_central_columns": 306,
+    "open_central_bounds_xz": [
+      [
+        6,
+        6
+      ],
+      [
+        22,
+        23
+      ]
+    ],
+    "not_fully_sealed": true
+  },
+  "landmark": {
+    "type": "Rear diamond mosaic, two-stage treasure dais, paired block statues, central floor mosaic and two reachable side chest niches",
+    "main_chest": [
+      14,
+      5,
+      22
+    ],
+    "rear_mural_x_y_z": [
+      [
+        10,
+        5,
+        26
+      ],
+      [
+        18,
+        13,
+        26
+      ]
+    ],
+    "dais_stairs_z": [
+      18,
+      20
+    ],
+    "no_rear_exit": true
+  },
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "runtime_slot": null,
+  "next_image": "S2-10 LOCKED_NOT_STARTED",
+  "world_placement": "NOT_RUN",
+  "deviations": [
+    "Block-scale proportions estimated, not pixel-identical",
+    "Both side chests lowered for accessible standing fronts; original left high shelf not duplicated",
+    "Urns use terracotta and flower pots; statues use sandstone not entities",
+    "Long hanging flags approximated by solid wall-colored bands, not banner block entities",
+    "Lanterns replace fire braziers for dry non-hazardous approach",
+    "Roof is genuinely ruined/open; integration needs weather/light/spawn review",
+    "Fixed example inventories, no LootTable or balance claim"
+  ]
+}

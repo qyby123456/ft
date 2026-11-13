@@ -1,0 +1,73 @@
+{
+  "status": "SUPPLEMENT_ONLY_NOT_ACCEPTANCE",
+  "source_sha256": "336edadd450ee6bd1bf52abe737a483110823b1cf8625e3687d866a26a1aeb4a",
+  "original_manifest_sha256": "6253943100d9ffa3f524407fa515495c4696f20a3f19b9e4d1c0936029174e4e",
+  "original_33_entries_verified_unchanged": true,
+  "derivatives": [
+    {
+      "direction": "north",
+      "source": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-01\\revision-02\\incoming\\G2B-01-R2\\room.nbt",
+      "source_sha256": "336edadd450ee6bd1bf52abe737a483110823b1cf8625e3687d866a26a1aeb4a",
+      "derived": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-01\\revision-02\\supplement\\preview-only-north.nbt",
+      "derived_sha256": "8945c0eb7af1a2c940d9aaf934a7bfda1148469986b77cff24167a9da833f0db",
+      "rules": [
+        "remove roof/parapet y>=16 within hall z>=6",
+        "remove ONLY near-side shell band: y>=4 and 6<=z<=9"
+      ],
+      "removed_nonair_blocks": 1495,
+      "only_air_replacements": true,
+      "entrance_stairs_landing_rails_unchanged": true,
+      "opposite_three_walls_unchanged_except_shared_roof_and_cut_corner_strips": true,
+      "deployable": false
+    },
+    {
+      "direction": "south",
+      "source": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-01\\revision-02\\incoming\\G2B-01-R2\\room.nbt",
+      "source_sha256": "336edadd450ee6bd1bf52abe737a483110823b1cf8625e3687d866a26a1aeb4a",
+      "derived": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-01\\revision-02\\supplement\\preview-only-south.nbt",
+      "derived_sha256": "a770859ddb829d1343dcd42bb4a38f29693ea29e369efc3f3265f3170d78373c",
+      "rules": [
+        "remove roof/parapet y>=16 within hall z>=6",
+        "remove ONLY near-side shell band: y>=4 and z>=27"
+      ],
+      "removed_nonair_blocks": 1495,
+      "only_air_replacements": true,
+      "entrance_stairs_landing_rails_unchanged": true,
+      "opposite_three_walls_unchanged_except_shared_roof_and_cut_corner_strips": true,
+      "deployable": false
+    },
+    {
+      "direction": "west",
+      "source": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-01\\revision-02\\incoming\\G2B-01-R2\\room.nbt",
+      "source_sha256": "336edadd450ee6bd1bf52abe737a483110823b1cf8625e3687d866a26a1aeb4a",
+      "derived": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-01\\revision-02\\supplement\\preview-only-west.nbt",
+      "derived_sha256": "087400a451ea9199f739a0fa0592bc5a170bc74c2567c4a30a01546a441ae33c",
+      "rules": [
+        "remove roof/parapet y>=16 within hall z>=6",
+        "remove ONLY near-side shell band: y>=4 and x<=3 and z>=6"
+      ],
+      "removed_nonair_blocks": 1497,
+      "only_air_replacements": true,
+      "entrance_stairs_landing_rails_unchanged": true,
+      "opposite_three_walls_unchanged_except_shared_roof_and_cut_corner_strips": true,
+      "deployable": false
+    },
+    {
+      "direction": "east",
+      "source": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-01\\revision-02\\incoming\\G2B-01-R2\\room.nbt",
+      "source_sha256": "336edadd450ee6bd1bf52abe737a483110823b1cf8625e3687d866a26a1aeb4a",
+      "derived": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-01\\revision-02\\supplement\\preview-only-east.nbt",
+      "derived_sha256": "3f0400c48a852bd70104b686d2e52dbf6ef5758cbac7eeffff846dcfd0951197",
+      "rules": [
+        "remove roof/parapet y>=16 within hall z>=6",
+        "remove ONLY near-side shell band: y>=4 and x>=21 and z>=6"
+      ],
+      "removed_nonair_blocks": 1495,
+      "only_air_replacements": true,
+      "entrance_stairs_landing_rails_unchanged": true,
+      "opposite_three_walls_unchanged_except_shared_roof_and_cut_corner_strips": true,
+      "deployable": false
+    }
+  ],
+  "next_image": "S2-02 LOCKED"
+}

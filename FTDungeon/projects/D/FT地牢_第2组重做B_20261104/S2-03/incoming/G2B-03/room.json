@@ -1,0 +1,221 @@
+{
+  "id": "G2B-03",
+  "name": "砂岩单箱遗迹庭院",
+  "size": [
+    19,
+    11,
+    21
+  ],
+  "entrance": [
+    9,
+    1,
+    0
+  ],
+  "interior": [
+    9,
+    2,
+    8
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        9,
+        1,
+        0
+      ],
+      "width": 5,
+      "height": 3,
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "facing": "south",
+      "position": [
+        9,
+        2,
+        20
+      ],
+      "width": 3,
+      "height": 4,
+      "outward_normal": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "facing": "east",
+      "position": [
+        18,
+        2,
+        13
+      ],
+      "width": 3,
+      "height": 4,
+      "outward_normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "route_targets": [
+    {
+      "name": "north-landing",
+      "position": [
+        9,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "north-step",
+      "position": [
+        9,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "north-upper",
+      "position": [
+        9,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "north-threshold",
+      "position": [
+        9,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "chest-north",
+      "position": [
+        9,
+        2,
+        8
+      ]
+    },
+    {
+      "name": "chest-west",
+      "position": [
+        6,
+        2,
+        11
+      ]
+    },
+    {
+      "name": "chest-east",
+      "position": [
+        12,
+        2,
+        11
+      ]
+    },
+    {
+      "name": "chest-south",
+      "position": [
+        9,
+        2,
+        15
+      ]
+    },
+    {
+      "name": "west-storage-access",
+      "position": [
+        5,
+        2,
+        14
+      ]
+    },
+    {
+      "name": "east-niche-access",
+      "position": [
+        14,
+        2,
+        9
+      ]
+    },
+    {
+      "name": "south-threshold",
+      "position": [
+        9,
+        2,
+        18
+      ]
+    },
+    {
+      "name": "south-outer",
+      "position": [
+        9,
+        2,
+        19
+      ]
+    },
+    {
+      "name": "east-threshold",
+      "position": [
+        17,
+        2,
+        13
+      ]
+    },
+    {
+      "name": "east-inner",
+      "position": [
+        15,
+        2,
+        13
+      ]
+    }
+  ],
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S2-sandstone-desert\\out\\S2-03-small-room.png",
+  "reference_sha256": "01078727bee7135420e566c6f27a5f5e0ebca46255918c53f01b7093bda73cad",
+  "sha256": "e15d04c1769ebc03bc28fb516f14fe8eb5b699cb3bcc1b762db25370fa68beca",
+  "coordinate_system": "Local XYZ feet, east +X, north -Z",
+  "hall_feet_y": 2,
+  "open_sky": true,
+  "roof": "INTENTIONALLY_ABSENT_REFERENCE_OPEN_COURTYARD",
+  "landmark": {
+    "type": "single empty chest on low 3x3 slab surround, central 1x1 full support",
+    "chest": [
+      9,
+      3,
+      11
+    ],
+    "base_inclusive": [
+      [
+        8,
+        2,
+        10
+      ],
+      [
+        10,
+        2,
+        12
+      ]
+    ],
+    "lid_clear": true
+  },
+  "west_niche": "Storage alcove, not connector",
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "runtime_slot": null,
+  "next_image": "S2-04 LOCKED_NOT_STARTED",
+  "world_placement": "NOT_RUN",
+  "deviations": [
+    "Estimated block proportions, no pixel-identical claim",
+    "Urns approximated by terracotta and flower pots",
+    "Dry hanging foliage approximated by wall-connected terracotta, not vines",
+    "Exterior dunes/cacti omitted from module; no hazardous cactus at connectors",
+    "Open sky intentional; integration must evaluate weather, light, spawning and overhead terrain"
+  ]
+}

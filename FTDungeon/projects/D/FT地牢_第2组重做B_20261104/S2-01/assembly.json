@@ -1,0 +1,106 @@
+{
+  "status": "SINGLE_TEMPLATE_NO_SPLIT_NEEDED",
+  "nbt": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-01\\incoming\\G2B-01\\room.nbt",
+  "size_xyz": [
+    25,
+    14,
+    25
+  ],
+  "template_origin": [
+    0,
+    0,
+    0
+  ],
+  "origin_semantics": "Northwest bottom corner of bounding box; +X east, +Y up, +Z south",
+  "world_origin": null,
+  "bounds_local_inclusive": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      24,
+      13,
+      24
+    ]
+  ],
+  "chunks": "Not restricted to 16x16; crosses multiple chunks, actual count depends on world origin alignment",
+  "assembly_order": [
+    {
+      "step": 1,
+      "template": "incoming/G2B-01/room.nbt",
+      "offset_from_origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "connection_anchors": [
+    {
+      "facing": "north",
+      "position": [
+        12,
+        1,
+        0
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "facing": "south",
+      "position": [
+        12,
+        1,
+        24
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "facing": "west",
+      "position": [
+        0,
+        1,
+        12
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "facing": "east",
+      "position": [
+        24,
+        1,
+        12
+      ],
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "placement_preconditions": [
+    "Coordinator assigns origin/rotation and slot.",
+    "Check whole volume for occupied blocks, entities, fluids and world border, including explicit air.",
+    "Reject unsafe overlap; do not clear or overwrite player structures.",
+    "Never place preview-only cutaway NBT."
+  ],
+  "scale_from_reference": {
+    "method": "Visual proportion estimate, not exact image measurement",
+    "exterior_width": 25,
+    "interior_clear_span": 21,
+    "roof_y": 13,
+    "altar_base": [
+      11,
+      11
+    ],
+    "altar_top": [
+      7,
+      7
+    ],
+    "altar_feet_y": 4,
+    "doors": "5-wide by 4-high lower opening; stepped arch narrows toward crown at y7",
+    "comparison": "Preserves low central plinth relative to tall surrounding walls; no one-chunk shrink",
+    "verification": "Walk paths use actual native block collisions; visual match is a human-review candidate, not a perfect-replica claim"
+  }
+}

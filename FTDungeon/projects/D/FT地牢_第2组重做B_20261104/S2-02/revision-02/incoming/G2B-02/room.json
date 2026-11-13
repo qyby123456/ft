@@ -1,0 +1,225 @@
+{
+  "id": "G2B-02",
+  "name": "砂岩藏书蓄水室",
+  "size": [
+    23,
+    14,
+    25
+  ],
+  "entrance": [
+    11,
+    1,
+    0
+  ],
+  "interior": [
+    11,
+    2,
+    7
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        11,
+        1,
+        0
+      ],
+      "width": 7,
+      "height": 3,
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "facing": "south",
+      "position": [
+        11,
+        3,
+        24
+      ],
+      "width": 3,
+      "height": 3,
+      "outward_normal": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "facing": "east",
+      "position": [
+        22,
+        3,
+        15
+      ],
+      "width": 3,
+      "height": 3,
+      "outward_normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "route_targets": [
+    {
+      "name": "north-landing",
+      "position": [
+        11,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "north-step",
+      "position": [
+        11,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "north-upper",
+      "position": [
+        11,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "north-threshold",
+      "position": [
+        11,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "pool-north",
+      "position": [
+        11,
+        2,
+        7
+      ]
+    },
+    {
+      "name": "pool-west",
+      "position": [
+        5,
+        2,
+        13
+      ]
+    },
+    {
+      "name": "pool-east",
+      "position": [
+        17,
+        2,
+        13
+      ]
+    },
+    {
+      "name": "pool-south",
+      "position": [
+        11,
+        2,
+        20
+      ]
+    },
+    {
+      "name": "storage-alcove",
+      "position": [
+        3,
+        2,
+        18
+      ]
+    },
+    {
+      "name": "bookcase-access",
+      "position": [
+        18,
+        2,
+        20
+      ]
+    },
+    {
+      "name": "south-step",
+      "position": [
+        11,
+        3,
+        22
+      ]
+    },
+    {
+      "name": "south-threshold",
+      "position": [
+        11,
+        3,
+        23
+      ]
+    },
+    {
+      "name": "east-step",
+      "position": [
+        20,
+        3,
+        15
+      ]
+    },
+    {
+      "name": "east-threshold",
+      "position": [
+        21,
+        3,
+        15
+      ]
+    }
+  ],
+  "coordinate_system": "local XYZ feet; origin northwest lowest platform, east +X north -Z",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S2-sandstone-desert\\out\\S2-02-medium-room.png",
+  "reference_sha256": "9284e3922e0657252bf42c739d39b0de61f0530ca9ccde276736bd1e36ece38d",
+  "sha256": "8640ec26e1f4e7fc9fc6a6696845db48cff215692f817ad7193b13a6989a979b",
+  "landmark": {
+    "type": "raised shallow rectangular sealed basin",
+    "base": [
+      [
+        7,
+        2,
+        10
+      ],
+      [
+        15,
+        2,
+        16
+      ]
+    ],
+    "water": [
+      [
+        9,
+        3,
+        12
+      ],
+      [
+        13,
+        3,
+        14
+      ]
+    ],
+    "pool_is_not_walkway": true
+  },
+  "west_alcove": "closed back; NOT external connection",
+  "roof": "intact at y12",
+  "runtime_slot": null,
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "next_image": "S2-03 LOCKED_NOT_STARTED",
+  "world_placement": "NOT_RUN",
+  "deviations": [
+    "Estimated block-scale dimensions; no pixel-identical claim",
+    "Intact safety roof; preview-only directional cuts separate",
+    "Vanilla flower pots over terracotta approximate broken urns",
+    "No invented altar lamps, high gallery, machinery or automatic loot"
+  ]
+}

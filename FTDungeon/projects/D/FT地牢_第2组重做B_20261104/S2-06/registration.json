@@ -1,0 +1,132 @@
+{
+  "group": 2,
+  "image": 6,
+  "id": "G2B-06",
+  "name": "砂岩灯龛折角廊",
+  "status": "READY_FOR_INDEPENDENT_REVIEW_NOT_ACCEPTED",
+  "candidate": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-06\\incoming\\G2B-06\\room.nbt",
+  "sha256": "e9297e226f5142de25a99b3907ec0b186bf150aa676b30584ee0e6c40278f97e",
+  "size": [
+    25,
+    13,
+    25
+  ],
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S2-sandstone-desert\\out\\S2-06-corner.png",
+  "reference_sha256": "870ace28f7101da343f9275e90a6458af62bac3be7471177357b0974820cfc43",
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        7,
+        2,
+        0
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "facing": "east",
+      "position": [
+        24,
+        2,
+        17
+      ],
+      "width": 5,
+      "height": 4,
+      "outward_normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "hall_feet_y": 2,
+  "footprint": "1<=x<=24,0<=z<=23 AND (x<=13 OR z>=11); outside is explicit air within full 25x13x25 envelope",
+  "roof": {
+    "type": "L-shaped sandstone roof",
+    "ceiling_y": 11,
+    "intentional_skylight_xz": [
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "skylight_count": 1,
+    "open_cells": 6,
+    "not_fully_sealed": true
+  },
+  "metadata": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-06\\incoming\\G2B-06\\room.json",
+  "qa": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-06\\incoming\\G2B-06\\qa.json",
+  "assembly": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-06\\assembly.json",
+  "derivation": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-06\\derivation.json",
+  "screenshots": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-06\\qa\\lodestone-screenshots.json",
+  "corner_full_source_screenshot": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-06\\incoming\\G2B-06\\lodestone-corner.png",
+  "dynamic_boundaries": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-06\\qa\\dynamic-boundaries.json",
+  "duplicate_selfcheck": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-06\\qa\\duplicate-selfcheck.json",
+  "previous_accepted_sources": [
+    {
+      "image": 1,
+      "source": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-01\\revision-02\\incoming\\G2B-01-R2\\room.nbt",
+      "sha256": "336edadd450ee6bd1bf52abe737a483110823b1cf8625e3687d866a26a1aeb4a",
+      "acceptance_basis": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S2-01-ACCEPTANCE.json",
+      "source_unchanged": true
+    },
+    {
+      "image": 2,
+      "source": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-02\\revision-02\\incoming\\G2B-02\\room.nbt",
+      "sha256": "8640ec26e1f4e7fc9fc6a6696845db48cff215692f817ad7193b13a6989a979b",
+      "acceptance_basis": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S2-02-ACCEPTANCE.json",
+      "source_unchanged": true
+    },
+    {
+      "image": 3,
+      "source": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-03\\incoming\\G2B-03\\room.nbt",
+      "sha256": "e15d04c1769ebc03bc28fb516f14fe8eb5b699cb3bcc1b762db25370fa68beca",
+      "acceptance_basis": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S2-03-ACCEPTANCE.json",
+      "source_unchanged": true
+    },
+    {
+      "image": 4,
+      "source": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-04\\incoming\\G2B-04\\room.nbt",
+      "sha256": "e51ce958dac41a27803aa5443b09ac8b1c19d1e0a8f2d6ceb493130e5b97d3aa",
+      "acceptance_basis": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S2-04-ACCEPTANCE.json",
+      "source_unchanged": true
+    },
+    {
+      "image": 5,
+      "source": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-05\\incoming\\G2B-05\\room.nbt",
+      "sha256": "4131474bbc0f61feaf6c4f245c480cca391d802bb4e1f0965b69d3fb44aa730a",
+      "acceptance_basis": "Sequential acceptance supplied in current user delegation from reviewer; directory S2-05-independent has check evidence, not a standalone ACCEPTANCE.json",
+      "source_unchanged": true
+    }
+  ],
+  "active_reviewer_thread": "01a1a685-045b-76d2-aa2b-2a3f24520603",
+  "reviewer_messaged": false,
+  "next_image": "S2-07 LOCKED_NOT_STARTED",
+  "world_ticks_interaction_gameplay_deployment": "NOT_RUN"
+}

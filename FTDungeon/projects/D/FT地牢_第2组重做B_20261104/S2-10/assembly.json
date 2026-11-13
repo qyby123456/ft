@@ -1,0 +1,122 @@
+{
+  "source": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-10\\incoming\\G2B-10\\room.nbt",
+  "source_sha256": "77bc56487db554f6e6734701e54c0b8530f8490d813001d63f3d2ab0ebfbe957",
+  "single_template": false,
+  "full_size": [
+    65,
+    18,
+    67
+  ],
+  "world_origin": null,
+  "bounds_inclusive": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      64,
+      17,
+      66
+    ]
+  ],
+  "tiles": [
+    {
+      "step": 1,
+      "path": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-10\\tiles\\part-01.nbt",
+      "sha256": "8a47b7487d91dab2b4d298f6ccf3838cacfc7dfd2d3e266ddcc634416c919111",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        32,
+        18,
+        34
+      ],
+      "explicit_cells": 19584,
+      "explicit_air_cells": 15077,
+      "block_entities": 2,
+      "deployment_ready": false
+    },
+    {
+      "step": 2,
+      "path": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-10\\tiles\\part-02.nbt",
+      "sha256": "319eb766d2099b2742982044d8ee66960258ece66f13150e5c0fa6f8f843c089",
+      "offset": [
+        32,
+        0,
+        0
+      ],
+      "size": [
+        33,
+        18,
+        34
+      ],
+      "explicit_cells": 20196,
+      "explicit_air_cells": 15799,
+      "block_entities": 1,
+      "deployment_ready": false
+    },
+    {
+      "step": 3,
+      "path": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-10\\tiles\\part-03.nbt",
+      "sha256": "3e62b2cb26beb4e0672f531df046773b2c666f6dc0984de83ff86906025203f0",
+      "offset": [
+        0,
+        0,
+        34
+      ],
+      "size": [
+        32,
+        18,
+        33
+      ],
+      "explicit_cells": 19008,
+      "explicit_air_cells": 15513,
+      "block_entities": 0,
+      "deployment_ready": false
+    },
+    {
+      "step": 4,
+      "path": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-10\\tiles\\part-04.nbt",
+      "sha256": "32e0851b677603014a498291150bd2b6e9cd2e3f7cf6e2b56dedcb6cb89b1592",
+      "offset": [
+        32,
+        0,
+        34
+      ],
+      "size": [
+        33,
+        18,
+        33
+      ],
+      "explicit_cells": 19602,
+      "explicit_air_cells": 14951,
+      "block_entities": 4,
+      "deployment_ready": false
+    }
+  ],
+  "placement_order": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "explicit_air_strategy": "Dense nonoverlapping partitions; every cell including air is written once. No structure_void and no skip-air. Placement overwrites entire 65x18x67 envelope. Origins are relative to one shared world origin; no rotations or mirrors. Use no implicit per-piece terrain adjustment.",
+  "block_entity_coordinates": "If x/y/z fields exist they are rebased to tile-local and restored for comparison; container Item Slot/Count/name unchanged.",
+  "reconstruction": {
+    "status": "PASS",
+    "unique_cells": 78390,
+    "overlap_cells": 0,
+    "missing_cells": 0,
+    "all_block_states_exact": true,
+    "all_block_entity_payloads_exact": true,
+    "source_block_entities": 7,
+    "reconstructed": "D:\\ft工程文件\\FT地牢_第2组重做B_20261104\\S2-10\\qa\\reconstructed-from-tiles.nbt",
+    "reconstructed_sha256": "1fe139dd50c4d7574e7bdaaf40dc709f7d54ae0190f936bfc0b06c87bf2da7fe",
+    "compressed_bytes_not_expected_identical": "Palette ordering/serialization may differ; decoded state and entity equality is required."
+  },
+  "warning": "Passing reconstruction does not certify placement scheduling, boundaries under world updates or deployment; all NOT_RUN."
+}

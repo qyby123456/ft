@@ -1,0 +1,242 @@
+{
+  "id": "G2B-07",
+  "name": "砂岩双扇门入口庭院",
+  "size": [
+    27,
+    17,
+    29
+  ],
+  "entrance": [
+    12,
+    1,
+    0
+  ],
+  "interior": [
+    13,
+    3,
+    8
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        12,
+        1,
+        0
+      ],
+      "width": 4,
+      "height": 4,
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ],
+      "lateral_x_inclusive": [
+        11,
+        14
+      ]
+    },
+    {
+      "facing": "south",
+      "position": [
+        13,
+        3,
+        28
+      ],
+      "width": 5,
+      "height": 6,
+      "outward_normal": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "route_targets": [
+    {
+      "name": "step-one",
+      "position": [
+        12,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "step-two",
+      "position": [
+        12,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "gate-landing",
+      "position": [
+        12,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "gate-inside",
+      "position": [
+        12,
+        3,
+        5
+      ]
+    },
+    {
+      "name": "court-front",
+      "position": [
+        13,
+        3,
+        8
+      ]
+    },
+    {
+      "name": "court-center",
+      "position": [
+        13,
+        3,
+        12
+      ]
+    },
+    {
+      "name": "rear-approach",
+      "position": [
+        13,
+        3,
+        17
+      ]
+    },
+    {
+      "name": "rear-arch",
+      "position": [
+        13,
+        3,
+        21
+      ]
+    },
+    {
+      "name": "rear-hall",
+      "position": [
+        13,
+        3,
+        26
+      ]
+    },
+    {
+      "name": "left-alcove",
+      "position": [
+        4,
+        3,
+        18
+      ]
+    },
+    {
+      "name": "right-alcove",
+      "position": [
+        22,
+        3,
+        18
+      ]
+    },
+    {
+      "name": "board-approach",
+      "position": [
+        17,
+        3,
+        18
+      ]
+    },
+    {
+      "name": "brazier-safe-approach",
+      "position": [
+        17,
+        3,
+        15
+      ]
+    },
+    {
+      "name": "right-court",
+      "position": [
+        21,
+        3,
+        13
+      ]
+    }
+  ],
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S2-sandstone-desert\\out\\S2-07-entrance.png",
+  "reference_sha256": "781b5a0ebd71ed8ce6e662125fa38f5b11d4f61482e3dc9d3451b103ed7dcbb2",
+  "sha256": "97be7d4d6755a024436cbddd4f03a6a022f8e6256cae305b5abf514f2398e06d",
+  "coordinate_system": "Local XYZ feet,east+X,north-Z",
+  "hall_feet_y": 3,
+  "gate_state": "OPEN_STATE_ANALYSIS",
+  "gate": {
+    "positions": [
+      [
+        12,
+        3,
+        4
+      ],
+      [
+        12,
+        4,
+        4
+      ],
+      [
+        13,
+        3,
+        4
+      ],
+      [
+        13,
+        4,
+        4
+      ]
+    ],
+    "width": 2,
+    "lower_feet_y": 3,
+    "axis_z": 4,
+    "x_inclusive": [
+      12,
+      13
+    ],
+    "north_platform_width": 4,
+    "interaction": "NOT_RUN",
+    "route_semantics": "Closed blocks through route; open-state derivative analyzed separately"
+  },
+  "roof": {
+    "courtyard": "OPEN_SKY_INTENTIONAL",
+    "rear_hall_ceiling_y": 12,
+    "covered_xz_inclusive": [
+      [
+        9,
+        20
+      ],
+      [
+        17,
+        28
+      ]
+    ]
+  },
+  "landmark": {
+    "type": "front double wooden doors and two-step rise into courtyard, rear high arch, two sealed storage lamp alcoves, framed plaque and brazier",
+    "no_side_exits": true
+  },
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "runtime_slot": null,
+  "next_image": "S2-08 LOCKED_NOT_STARTED",
+  "world_placement": "NOT_RUN",
+  "deviations": [
+    "Vanilla double door is two blocks tall; reference tall panel approximation",
+    "Crates approximated by six empty barrels",
+    "Plaque is dark frame with birch center, no map/text",
+    "Lit campfire approximates brazier and remains a hazard",
+    "Urns approximated by terracotta and flower pots; supported live vines approximate drape",
+    "Exterior dune/cactus omitted; open courtyard weather and gameplay not certified"
+  ],
+  "deployable": false,
+  "source_sha256": "f8b42d13917e5bfd1a2e8e25b82d9146d89f96d1a5ca8421b34234f0c913d6cd"
+}

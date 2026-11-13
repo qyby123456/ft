@@ -1,0 +1,470 @@
+{
+  "source_sha256": "77bc56487db554f6e6734701e54c0b8530f8490d813001d63f3d2ab0ebfbe957",
+  "regions": [
+    {
+      "id": "entrance",
+      "bounds_inclusive": [
+        [
+          24,
+          0,
+          3
+        ],
+        [
+          42,
+          17,
+          20
+        ]
+      ],
+      "floor_feet": 3,
+      "wall_top_y": 13,
+      "roof": "rim",
+      "center": [
+        33,
+        3,
+        12
+      ]
+    },
+    {
+      "id": "front-store",
+      "bounds_inclusive": [
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          21,
+          17,
+          22
+        ]
+      ],
+      "floor_feet": 3,
+      "wall_top_y": 12,
+      "roof": "rim",
+      "center": [
+        12,
+        3,
+        12
+      ]
+    },
+    {
+      "id": "west-ritual-hall",
+      "bounds_inclusive": [
+        [
+          2,
+          0,
+          27
+        ],
+        [
+          21,
+          17,
+          51
+        ]
+      ],
+      "floor_feet": 3,
+      "wall_top_y": 14,
+      "roof": "rim",
+      "center": [
+        12,
+        3,
+        38
+      ]
+    },
+    {
+      "id": "courtyard",
+      "bounds_inclusive": [
+        [
+          24,
+          0,
+          24
+        ],
+        [
+          44,
+          17,
+          45
+        ]
+      ],
+      "floor_feet": 3,
+      "wall_top_y": 12,
+      "roof": "rim",
+      "center": [
+        33,
+        3,
+        26
+      ]
+    },
+    {
+      "id": "rear-grand-hall",
+      "bounds_inclusive": [
+        [
+          23,
+          0,
+          48
+        ],
+        [
+          46,
+          17,
+          64
+        ]
+      ],
+      "floor_feet": 3,
+      "wall_top_y": 15,
+      "roof": "rim",
+      "center": [
+        34,
+        3,
+        55
+      ]
+    },
+    {
+      "id": "east-treasure-room",
+      "bounds_inclusive": [
+        [
+          54,
+          0,
+          3
+        ],
+        [
+          62,
+          17,
+          24
+        ]
+      ],
+      "floor_feet": 3,
+      "wall_top_y": 12,
+      "roof": "rim",
+      "center": [
+        58,
+        3,
+        14
+      ]
+    },
+    {
+      "id": "east-closed-shrine",
+      "bounds_inclusive": [
+        [
+          54,
+          0,
+          48
+        ],
+        [
+          62,
+          17,
+          64
+        ]
+      ],
+      "floor_feet": 3,
+      "wall_top_y": 12,
+      "roof": "closed",
+      "center": [
+        58,
+        3,
+        56
+      ]
+    },
+    {
+      "id": "east-long-gallery",
+      "bounds_inclusive": [
+        [
+          47,
+          0,
+          3
+        ],
+        [
+          52,
+          17,
+          64
+        ]
+      ],
+      "floor_feet": 3,
+      "wall_top_y": 11,
+      "roof": "closed",
+      "center": [
+        49,
+        3,
+        35
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "entry-store",
+      "regions": [
+        "entrance",
+        "front-store"
+      ],
+      "bounds_xz_inclusive": [
+        [
+          21,
+          9
+        ],
+        [
+          24,
+          15
+        ]
+      ],
+      "axis": "x",
+      "clear_width": 5,
+      "clear_height": 5,
+      "feet_y": 3,
+      "center": [
+        22,
+        3,
+        12
+      ]
+    },
+    {
+      "id": "entry-gallery",
+      "regions": [
+        "entrance",
+        "east-long-gallery"
+      ],
+      "bounds_xz_inclusive": [
+        [
+          42,
+          9
+        ],
+        [
+          47,
+          15
+        ]
+      ],
+      "axis": "x",
+      "clear_width": 5,
+      "clear_height": 5,
+      "feet_y": 3,
+      "center": [
+        44,
+        3,
+        12
+      ]
+    },
+    {
+      "id": "entry-court",
+      "regions": [
+        "entrance",
+        "courtyard"
+      ],
+      "bounds_xz_inclusive": [
+        [
+          29,
+          20
+        ],
+        [
+          37,
+          24
+        ]
+      ],
+      "axis": "z",
+      "clear_width": 7,
+      "clear_height": 5,
+      "feet_y": 3,
+      "center": [
+        33,
+        3,
+        22
+      ]
+    },
+    {
+      "id": "ritual-court",
+      "regions": [
+        "west-ritual-hall",
+        "courtyard"
+      ],
+      "bounds_xz_inclusive": [
+        [
+          21,
+          32
+        ],
+        [
+          24,
+          38
+        ]
+      ],
+      "axis": "x",
+      "clear_width": 5,
+      "clear_height": 5,
+      "feet_y": 3,
+      "center": [
+        22,
+        3,
+        35
+      ]
+    },
+    {
+      "id": "court-gallery",
+      "regions": [
+        "courtyard",
+        "east-long-gallery"
+      ],
+      "bounds_xz_inclusive": [
+        [
+          44,
+          32
+        ],
+        [
+          47,
+          38
+        ]
+      ],
+      "axis": "x",
+      "clear_width": 5,
+      "clear_height": 5,
+      "feet_y": 3,
+      "center": [
+        45,
+        3,
+        35
+      ]
+    },
+    {
+      "id": "court-grand",
+      "regions": [
+        "courtyard",
+        "rear-grand-hall"
+      ],
+      "bounds_xz_inclusive": [
+        [
+          29,
+          45
+        ],
+        [
+          37,
+          48
+        ]
+      ],
+      "axis": "z",
+      "clear_width": 7,
+      "clear_height": 5,
+      "feet_y": 3,
+      "center": [
+        33,
+        3,
+        46
+      ]
+    },
+    {
+      "id": "store-ritual-bend",
+      "regions": [
+        "front-store",
+        "west-ritual-hall"
+      ],
+      "bounds_xz_inclusive": [
+        [
+          9,
+          22
+        ],
+        [
+          15,
+          27
+        ]
+      ],
+      "axis": "z",
+      "clear_width": 5,
+      "clear_height": 5,
+      "feet_y": 3,
+      "center": [
+        12,
+        3,
+        24
+      ]
+    },
+    {
+      "id": "ritual-grand-link",
+      "regions": [
+        "west-ritual-hall",
+        "rear-grand-hall"
+      ],
+      "bounds_xz_inclusive": [
+        [
+          21,
+          48
+        ],
+        [
+          23,
+          52
+        ]
+      ],
+      "axis": "x",
+      "clear_width": 3,
+      "clear_height": 5,
+      "feet_y": 3,
+      "center": [
+        22,
+        3,
+        50
+      ]
+    },
+    {
+      "id": "gallery-treasure",
+      "regions": [
+        "east-long-gallery",
+        "east-treasure-room"
+      ],
+      "bounds_xz_inclusive": [
+        [
+          52,
+          11
+        ],
+        [
+          54,
+          17
+        ]
+      ],
+      "axis": "x",
+      "clear_width": 5,
+      "clear_height": 5,
+      "feet_y": 3,
+      "center": [
+        53,
+        3,
+        14
+      ]
+    },
+    {
+      "id": "gallery-shrine",
+      "regions": [
+        "east-long-gallery",
+        "east-closed-shrine"
+      ],
+      "bounds_xz_inclusive": [
+        [
+          52,
+          52
+        ],
+        [
+          54,
+          58
+        ]
+      ],
+      "axis": "x",
+      "clear_width": 5,
+      "clear_height": 5,
+      "feet_y": 3,
+      "center": [
+        53,
+        3,
+        55
+      ]
+    }
+  ],
+  "all_region_centers_and_link_centers_are_body_route_targets": true,
+  "graph_scope": "Authored connections; native body reachability checked separately for every declared center",
+  "external_connections": [
+    {
+      "facing": "north",
+      "position": [
+        33,
+        1,
+        0
+      ],
+      "width": 7,
+      "height": 4,
+      "outward_normal": [
+        0,
+        0,
+        -1
+      ]
+    }
+  ]
+}
