@@ -1,0 +1,1 @@
+execute if block 785 211 119 minecraft:air if block 785 210 119 minecraft:packed_ice store success score #v0b189 ftm_brick run setblock 785 211 119 ftdungeonmobs:dungeon_spawn_point[spent=false] keep
