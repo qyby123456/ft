@@ -1,0 +1,109 @@
+{
+  "id": "IMG-S2-01",
+  "name": "砂岩阶梯日轮祭台厅·按图R3",
+  "size": [
+    23,
+    13,
+    23
+  ],
+  "entrance": [
+    11,
+    1,
+    0
+  ],
+  "interior": [
+    11,
+    1,
+    3
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        11,
+        1,
+        0
+      ],
+      "width": 5,
+      "height": 3,
+      "coordinate_system": "local XYZ feet; north=-Z"
+    },
+    {
+      "facing": "south",
+      "position": [
+        11,
+        1,
+        22
+      ],
+      "width": 5,
+      "height": 3,
+      "coordinate_system": "local XYZ feet; north=-Z"
+    },
+    {
+      "facing": "west",
+      "position": [
+        0,
+        1,
+        11
+      ],
+      "width": 5,
+      "height": 3,
+      "coordinate_system": "local XYZ feet; north=-Z"
+    },
+    {
+      "facing": "east",
+      "position": [
+        22,
+        1,
+        11
+      ],
+      "width": 5,
+      "height": 3,
+      "coordinate_system": "local XYZ feet; north=-Z"
+    }
+  ],
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S2-sandstone-desert\\out\\S2-01-large-chamber.png",
+  "reference_sha256": "c3e4c848e1e9a4b8b4809f6457f89fdfbc338630000ae9406fb10fbbc3839d24",
+  "sha256": "3a160a6f318d70266ee5118d5ae2fe57ba51fb11df3146f2f64667c8d38c479c",
+  "roof": "enclosed; removed in render only",
+  "altar_feet": [
+    11,
+    3,
+    10
+  ],
+  "ring_route_waypoints": [
+    [
+      4,
+      1,
+      11
+    ],
+    [
+      18,
+      1,
+      11
+    ],
+    [
+      11,
+      1,
+      4
+    ],
+    [
+      11,
+      1,
+      18
+    ]
+  ],
+  "authority": "Reference image controls layout and appearance; unpacked Mod data is format compatibility only",
+  "analysis": "D:\\ft工程文件\\FT地牢_自然环境第一批第2组_20261104\\per-image-r3\\S2-01\\REFERENCE_ANALYSIS.md",
+  "supersedes_for_this_image": "D:\\ft工程文件\\FT地牢_自然环境第一批第2组_20261104\\incoming\\NAT1-G2-01\\room.nbt",
+  "intentional_deviations": [
+    "23x13x23 is an estimated build grid, not a measured image dimension.",
+    "Closed roof retained for final dungeon safety; image cutaway only used for preview.",
+    "North entry is level with FT floor instead of exterior image stairs.",
+    "Flower pot over terracotta approximates irregular concept pottery.",
+    "No obelisk, raised gallery, gold cap or redstone added."
+  ],
+  "world_placement": "NOT_RUN",
+  "runtime_slot": null
+}
