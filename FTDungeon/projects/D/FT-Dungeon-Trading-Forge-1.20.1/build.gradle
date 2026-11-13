@@ -1,0 +1,55 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+group = 'net.farmingtales'
+version = '1.0.0'
+base { archivesName = 'ft-dungeon-trading-forge-1.20.1' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        configureEach {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', file('build/createSrgToMcp/output.srg').absolutePath
+        }
+        client {
+            workingDirectory project.file('run/client')
+            mods { ftdungeontrading { source sourceSets.main } }
+        }
+        server {
+            workingDirectory project.file('run/server')
+            args '--nogui'
+            mods { ftdungeontrading { source sourceSets.main } }
+        }
+        gameTestServer {
+            workingDirectory project.file('run/trading-verification')
+            property 'forge.enabledGameTestNamespaces', 'ftdungeontrading'
+            mods {
+                ftdungeontrading {
+                    source sourceSets.main
+                    source sourceSets.test
+                }
+            }
+        }
+    }
+}
+repositories { mavenCentral() }
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10' }
+sourceSets.test.compileClasspath += sourceSets.main.compileClasspath
+sourceSets.test.runtimeClasspath += sourceSets.main.runtimeClasspath
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+}
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+tasks.register('verifyTradingResources', Exec) {
+    commandLine 'node', file('tools/verify-resources.mjs').absolutePath
+}
+tasks.named('check') { dependsOn 'verifyTradingResources' }
+jar {
+    manifest { attributes 'Implementation-Title': 'FT Dungeon Trading', 'Implementation-Version': project.version }
+    finalizedBy 'reobfJar'
+}
