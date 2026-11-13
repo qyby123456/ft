@@ -1,0 +1,73 @@
+{
+  "status": "SOURCE_AND_STATIC_READY",
+  "schema": 1,
+  "files": [
+    "src/main/java/moss/generator/StyleGeometry.java",
+    "src/main/resources/data/ftmossgen/styles/forest.json",
+    "src/main/resources/data/ftmossgen/styles/desert.json",
+    "src/main/resources/data/ftmossgen/styles/frost.json"
+  ],
+  "sha256": {
+    "src/main/java/moss/generator/StyleGeometry.java": "c4c05eda83279f0bc0232c749e6d59849758cf68e47278eaf4f8a44cd6bc4ccc",
+    "src/main/resources/data/ftmossgen/styles/forest.json": "ce383b2f67ed794568e64fa5fcc69bb752c46db020759026c1125898529e0a43",
+    "src/main/resources/data/ftmossgen/styles/desert.json": "d07b338b385d873d12ebf7df5b680f96b659903f7f7825270ad869f625b30644",
+    "src/main/resources/data/ftmossgen/styles/frost.json": "ba67e034295134abf26d0ab9dfe2f5bfd98c569368473fe505edfb1fb752796a"
+  },
+  "profiles": {
+    "ftmossgen:forest": {
+      "staticFullBlockWhitelistSimulationAdditions": {},
+      "total": 0,
+      "nativeCollisionVerification": "NOT_RUN; whitelist simulation is not the actual Java runtime"
+    },
+    "ftmossgen:desert": {
+      "staticFullBlockWhitelistSimulationAdditions": {
+        "straight/room_cells": 267,
+        "straight/room_storage": 282,
+        "straight/room_towers": 1272,
+        "turn/pillar_room": 401,
+        "turn/big_doors": 895,
+        "turn/small_doors": 108,
+        "turn/hole": 1599,
+        "terminal/canteen": 1083,
+        "terminal/storage": 282,
+        "terminal/cells": 1272,
+        "boss/eclipse_keeper": 362,
+        "promenade": 897
+      },
+      "total": 8720,
+      "nativeCollisionVerification": "NOT_RUN; whitelist simulation is not the actual Java runtime"
+    },
+    "ftmossgen:frost": {
+      "staticFullBlockWhitelistSimulationAdditions": {
+        "straight/room_cells": 338,
+        "straight/room_storage": 475,
+        "straight/room_towers": 1469,
+        "turn/pillar_room": 385,
+        "turn/big_doors": 991,
+        "turn/small_doors": 73,
+        "turn/hole": 1558,
+        "terminal/canteen": 1277,
+        "terminal/storage": 475,
+        "terminal/cells": 1469,
+        "boss/eclipse_keeper": 1012,
+        "promenade": 1632
+      },
+      "total": 11154,
+      "nativeCollisionVerification": "NOT_RUN; whitelist simulation is not the actual Java runtime"
+    }
+  },
+  "newNBTTemplates": 0,
+  "extraDecorationFields": [],
+  "nativeCompilation": "Coordinator reports compileGateTestJava passed before final consistency edits; final edits not compiled by A",
+  "frozen": true,
+  "finalConsistencyEdits": ["No forest ID bypass; empty recipes alone are no-op", "Decoration states parsed by Profiles.state with full properties"],
+  "worldTests": "NOT_RUN_BY_A",
+  "limits": [
+    "Native host/C must verify final geometry, profile parsing, plan persistence and walk graph after palette plus geometry.",
+    "Decorations only attach to existing/new full solids above or sideways; unsupported AIR candidates intentionally skipped.",
+    "Forest source palette and geometry preserved; profile cap/barrier and runtime stats remain explicit host settings."
+  ],
+  "paidImages": false,
+  "deployed": false,
+  "playerWorldsModified": false
+}

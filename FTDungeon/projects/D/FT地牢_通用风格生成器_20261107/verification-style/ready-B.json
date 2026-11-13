@@ -1,0 +1,134 @@
+{
+  "status": "B_FROZEN_PUBLIC_PROFILE_PREFLIGHT_READY",
+  "root": "D:\\ft工程文件\\FT地牢_通用风格生成器_20261107",
+  "sourceFrozen": true,
+  "apiDocument": "verification-style/RUNTIME-API-B.md",
+  "ownership": {
+    "modifiedSource": [
+      "src/main/java/moss/generator/Gameplay.java",
+      "src/main/java/moss/generator/MossMod.java",
+      "src/main/java/moss/generator/MossBossPortals.java",
+      "src/main/java/net/farmingtales/ftdungeonmobs/generator/MossDungeonGenerator.java"
+    ],
+    "notModified": [
+      "Engine",
+      "Planner",
+      "Store",
+      "Catalog",
+      "Profiles",
+      "registry",
+      "build",
+      "style resources",
+      "FT gate hook classes"
+    ],
+    "deployment": false
+  },
+  "features": [
+    "Profiles drive enemy types, Boss name/HP/damage, cooldown, instance cap and barrier",
+    "No-arg forest provider plus dynamic String style provider; style+seed reserve and cross-style status/start/enter guards",
+    "Styles/generate/plan commands with namespaced ResourceLocation arguments and forest-compatible old syntax",
+    "Native gate generator binding uses selected profile ID; actual shared destination dimension remains forest",
+    "State persists canonical style; spawn intents persist configured entity types; generic Boss victory checks registered type and real-player source",
+    "Original native merchants, four adds, UUID safety, global cap256 and once-only per-instance reward retained"
+  ],
+  "verification": {
+    "java17SyntaxParse": {
+      "result": "PASS",
+      "files": 4,
+      "tool": "JDK21 JavacTask.parse with --source17 and -proc:none",
+      "scope": "Syntax only; no symbol resolution, Profiles integration or server runtime"
+    },
+    "minecraftApiInspection": "javap confirmed ResourceLocationArgument.id/getId and SharedSuggestionProvider.suggest(Stream<String>, builder)",
+    "sourceAssertions": {
+      "profileEnemyTypes": true,
+      "profileBossStats": true,
+      "profileCooldownAndCap": true,
+      "noHardcodedBossClass": true,
+      "bossRegisteredIntentType": true,
+      "mobFactoryValidation": true,
+      "stateStyleFrozen": true,
+      "runtimeProfileBarrier": true,
+      "portalSeparateDimensionAndStyle": true,
+      "portalProfileGeneratorId": true,
+      "providerConstructors": true,
+      "providerReuseStyleAndSeed": true,
+      "providerStartEnterOwnership": true,
+      "stylesCommand": true,
+      "namespaceSafeStyleArguments": true,
+      "legacyForestGeneratePlan": true,
+      "noProximityTeleport": true
+    },
+    "gradleRunByB": false,
+    "serverRunByB": false,
+    "fullCompile": "PENDING coordinator integrated compile; host API source now matches all B requirements",
+    "hostApiReadback": {
+      "result": "MATCH",
+      "confirmed": [
+        "Profiles.Style field names and String/double/long/int types",
+        "Profiles.get/all/state",
+        "Engine.plan(level,String,long,BlockPos)",
+        "Plan.style/Piece.style default forest",
+        "Catalog per-style fingerprint includes raw profile JSON hash",
+        "Registry iterates Profiles.all() and constructs MossDungeonGenerator(style.id)"
+      ],
+      "additionalFieldRequirements": "NONE",
+      "scope": "Read-only source API compatibility inspection; no full compilation or Forge run by B"
+    }
+  },
+  "integrationRequirements": [
+    "Host public Style fields use types exactly documented in RUNTIME-API-B.md",
+    "Engine uses Profiles.state(capBlock/barrierBlock) for build operations; B only owns runtime barrier behavior",
+    "Engine/Store validate frozen profile/catalog fingerprint on resume; B rejects State.style mismatch",
+    "Host dynamically registers one new MossDungeonGenerator(profile.id) for Profiles.all()",
+    "C should verify desert/frost and fixture actual provider menu, configured Boss class/stats and cross-style restart/gate ownership"
+  ],
+  "boundaries": [
+    "Shared ftmossgen:forest dimension and Store by design; no per-style Java or NBT engine copies",
+    "Configured enemies must produce Mob; configured Boss must expose health and attack-damage attributes; failures are closed",
+    "Actual entity collision checked before spawn; oversized configured mobs may be rejected by geometry",
+    "No old-world style migration or deployment performed",
+    "Prior moss-only test PASS is not evidence for this new multi-style revision"
+  ],
+  "files": [
+    {
+      "path": "src/main/java/moss/generator/Gameplay.java",
+      "sha256": "8022e845d6d8d9a8b69e3c159de75e03ba04b1c9a032fa1cf55866783bb848f3"
+    },
+    {
+      "path": "src/main/java/moss/generator/MossMod.java",
+      "sha256": "9ed5ca0ed1620d3257971100da3ad034d127525cb650a45d913d165836b745ff"
+    },
+    {
+      "path": "src/main/java/moss/generator/MossBossPortals.java",
+      "sha256": "06334ee75907475b3f7c8ba8c3e9c68a9349f7410fccf0b87eebc1797d62e381"
+    },
+    {
+      "path": "src/main/java/net/farmingtales/ftdungeonmobs/generator/MossDungeonGenerator.java",
+      "sha256": "cac10de9e39aa5ba28a656da990e1e5807495c869200ec6c9a7b584f884486a6"
+    },
+    {
+      "path": "verification-style/RUNTIME-API-B.md",
+      "sha256": "11a242d8bc0c277ab5ccf66f74b2fdafdcc20550ab8e4bec45715bae65662a35"
+    }
+  ],
+  "closeout": {
+    "sourceChange": "MossMod error prefix only: 苔藓古林生成器 -> 地牢生成器",
+    "coordinatorReportedNativeR1": "All three required style-native-r1 tests PASS: nine plans, four JSON profiles, two real builds, production menu and Boss",
+    "nonMobPreplacementRejection": false,
+    "nonMobCurrentRejectionStage": "Gameplay.validateEnemies via Gameplay.initialize during Engine INITIALIZING, after geometry placement; registered non-Mob IDs are not guaranteed rejected before writes",
+    "hostRecommendation": "Probe configured melee/ranged/boss factories with ServerLevel during server-thread Engine plan/start/prewrite-resume validation before ANY placement; require Mob and Boss health/attack attributes; never add probes to world",
+    "sharedFilesChangedByB": false,
+    "gradleRunByB": false,
+    "formalInstanceChanged": false,
+    "frozen": true
+  },
+  "publicProfilePreflight": {
+    "signature": "public static void Gameplay.validateProfile(ServerLevel level, Profiles.Style profile)",
+    "implementation": "Public name for existing factory probe, reused by initialize. For melee/ranged/bossType resolves entityType(...), calls create(level) without world insertion, rejects null/non-Mob and Boss without MAX_HEALTH or ATTACK_DAMAGE attributes with explicit IllegalStateException.",
+    "hostHook": "Coordinator calls after Engine.plan dimension(level), before Planner.create and Store mutation. No Engine changes by B.",
+    "worldMutationByB": false,
+    "gradleRunByB": false,
+    "sourceFrozen": true,
+    "previousLateValidationLimitation": "Historical until coordinator installs pre-plan hook; the public method now enables pre-placement rejection."
+  }
+}

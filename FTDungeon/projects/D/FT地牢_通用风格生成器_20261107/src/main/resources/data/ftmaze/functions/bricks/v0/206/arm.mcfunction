@@ -1,0 +1,1 @@
+execute if block 1087 31 34 minecraft:air if block 1087 30 34 minecraft:polished_diorite store success score #v0b206 ftm_brick run setblock 1087 31 34 ftdungeonmobs:dungeon_spawn_point[spent=false] keep
