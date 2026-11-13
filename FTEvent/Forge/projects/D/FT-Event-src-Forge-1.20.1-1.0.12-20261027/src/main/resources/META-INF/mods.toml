@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="qys_event"
+version="1.0.12"
+displayName="QYS Event · 节气天气与世界事件"
+authors="QYS"
+description='''
+独立的二十四节气天气、每日世界事件、预言机、天气预报机与许愿井系统。
+不依赖 qys-bosses；可选兼容 Boss Mod 的实体与自定义效果。
+'''
+
+[[dependencies.qys_event]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.qys_event]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.qys_event]]
+modId="sereneseasons"
+mandatory=false
+versionRange="[9.1.0.3,10)"
+ordering="AFTER"
+side="BOTH"
+
