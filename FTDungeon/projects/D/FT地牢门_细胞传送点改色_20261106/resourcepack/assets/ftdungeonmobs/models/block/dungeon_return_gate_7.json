@@ -1,0 +1,45 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "body": "ftdungeonmobs:block/ft_teleport_gate_cyan_body",
+    "portal": "ftdungeonmobs:block/ft_teleport_gate_cyan_portal",
+    "flame": "ftdungeonmobs:block/ft_teleport_gate_cyan_flame",
+    "particle": "ftdungeonmobs:block/ft_teleport_gate_cyan_body"
+  },
+  "elements": [
+    {
+      "name": "冷雾空间封门",
+      "from": [
+        0,
+        0,
+        13
+      ],
+      "to": [
+        16,
+        16,
+        15
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.4285714285714284,
+            1.882352941176471,
+            12.571428571428571,
+            6.901960784313726
+          ],
+          "texture": "#portal"
+        },
+        "south": {
+          "uv": [
+            3.4285714285714284,
+            1.882352941176471,
+            12.571428571428571,
+            6.901960784313726
+          ],
+          "texture": "#portal"
+        }
+      },
+      "shade": false
+    }
+  ]
+}
