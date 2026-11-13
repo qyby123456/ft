@@ -1,0 +1,91 @@
+--- a/src/main/java/net/farmingtales/ftdungeonmobs/DungeonRoomCatalog.java
++++ b/src/main/java/net/farmingtales/ftdungeonmobs/DungeonRoomCatalog.java
+@@ -79,6 +79,22 @@
+         return new Definition(entry.id(), name, entry.slot(), size, entrance, interior, hash);
+     }
+ 
++    public static boolean spawnPointsEnabled(ResourceManager resources, Entry entry) throws Exception {
++        JsonObject item = read(resources, new ResourceLocation("ftdungeonmobs", "dungeon_rooms/image25/" + entry.id().toLowerCase(Locale.ROOT) + ".json"));
++        if (item.has("spawn_points") && (!item.get("spawn_points").isJsonPrimitive()
++                || !item.getAsJsonPrimitive("spawn_points").isBoolean())) {
++            throw new IllegalArgumentException("spawn_points must be a JSON boolean: " + entry.id());
++        }
++        if (item.has("room_type") && (!item.get("room_type").isJsonPrimitive()
++                || !item.getAsJsonPrimitive("room_type").isString())) {
++            throw new IllegalArgumentException("room_type must be a string: " + entry.id());
++        }
++        if (item.has("room_type") && item.get("room_type").getAsString().equals("shop")) {
++            return false;
++        }
++        return !item.has("spawn_points") || item.get("spawn_points").getAsBoolean();
++    }
++
+     public static String digest(byte[] bytes) {
+         try {
+             return HexFormat.of().formatHex(MessageDigest.getInstance("SHA-256").digest(bytes));
+--- a/src/main/java/net/farmingtales/ftdungeonmobs/DungeonRoomLayout.java
++++ b/src/main/java/net/farmingtales/ftdungeonmobs/DungeonRoomLayout.java
+@@ -81,13 +81,40 @@
+             if (blockEntity.contains("LootTable") || !blockEntity.getList("Items", Tag.TAG_COMPOUND).isEmpty()) {
+                 throw new IllegalArgumentException("Non-empty reward container: " + room.id());
+             }
++            if (blockEntity.getString("id").equals("ftdungeontrading:trading_table")
++                    && (!blockEntity.getString("OfferId").equals("ftdungeontrading:unbound")
++                    || !blockEntity.contains("RemainingStock", Tag.TAG_INT) || blockEntity.getInt("RemainingStock") != 0
++                    || !blockEntity.getList("DisplayCosts", Tag.TAG_COMPOUND).isEmpty()
++                    || !blockEntity.getList("DisplayRewards", Tag.TAG_COMPOUND).isEmpty())) {
++                throw new IllegalArgumentException("Trading table must arrive unbound and without stock: " + room.id());
++            }
+         }
+         Set<String> forbidden = Set.of("minecraft:command_block", "minecraft:chain_command_block", "minecraft:repeating_command_block",
+                 "minecraft:structure_block", "minecraft:jigsaw", "minecraft:spawner");
+         for (Map.Entry<BlockPos, BlockState> entry : states.entrySet()) {
+             String identity = BuiltInRegistries.BLOCK.getKey(entry.getValue().getBlock()).toString();
+-            if (!identity.startsWith("minecraft:") || forbidden.contains(identity)) {
++            if ((!identity.startsWith("minecraft:") && !identity.equals("ftdungeontrading:trading_table")) || forbidden.contains(identity)) {
+                 throw new IllegalArgumentException("Forbidden room block: " + identity);
++            }
++            if (identity.equals("ftdungeontrading:trading_table")) {
++                BlockState table = entry.getValue();
++                var partProperty = table.getBlock().getStateDefinition().getProperty("part");
++                var facingProperty = table.getBlock().getStateDefinition().getProperty("facing");
++                if (partProperty == null || facingProperty == null) {
++                    throw new IllegalArgumentException("Trading table requires the two-block 1.2.0 schema");
++                }
++                Direction facing = Direction.byName(table.getValue(facingProperty).toString());
++                if (facing == null || facing.getAxis().isVertical()) {
++                    throw new IllegalArgumentException("Trading table requires a horizontal facing: " + room.id());
++                }
++                boolean primary = table.getValue(partProperty).toString().equalsIgnoreCase("left");
++                BlockPos partner = entry.getKey().relative(primary ? facing.getClockWise() : facing.getCounterClockWise());
++                BlockState other = states.getOrDefault(partner, Blocks.AIR.defaultBlockState());
++                if (other.getBlock() != table.getBlock() || other.getValue(facingProperty) != table.getValue(facingProperty)
++                        || other.getValue(partProperty) == table.getValue(partProperty)
++                        || !state(states, entry.getKey().below()).isFaceSturdy(EmptyBlockGetter.INSTANCE, entry.getKey().below(), Direction.UP)) {
++                    throw new IllegalArgumentException("Incomplete or unsupported two-block trading table: " + room.id());
++                }
+             }
+             BlockPos local = entry.getKey().subtract(room.origin());
+             if (!entry.getValue().getFluidState().isEmpty() && (local.getX() == 0 || local.getZ() == 0
+--- a/src/main/java/net/farmingtales/ftdungeonmobs/DungeonSpawnPoints.java
++++ b/src/main/java/net/farmingtales/ftdungeonmobs/DungeonSpawnPoints.java
+@@ -94,6 +94,9 @@
+             return;
+         }
+         for (Room room : data.rooms.values()) {
++            if (data.catalog.stream().noneMatch(area -> area.id().equals(room.area().id()))) {
++                continue;
++            }
+             for (Point point : room.points()) {
+                 if (point.spent() || !level.hasChunkAt(point.position)
+                         || !level.getBlockState(point.position).is(FTDungeonMobs.DUNGEON_SPAWN_POINT.get())) {
+@@ -155,6 +158,9 @@
+         }
+         try {
+             for (DungeonRoomCatalog.Entry entry : DungeonRoomCatalog.entries(level.getServer().getResourceManager())) {
++                if (!DungeonRoomCatalog.spawnPointsEnabled(level.getServer().getResourceManager(), entry)) {
++                    continue;
++                }
+                 DungeonRoomCatalog.Definition room = DungeonRoomCatalog.definition(level.getServer().getResourceManager(), entry);
+                 areas.add(new Area(room.id(), room.origin(), room.size(), room.origin().offset(room.entrance()), room.fingerprint()));
+             }

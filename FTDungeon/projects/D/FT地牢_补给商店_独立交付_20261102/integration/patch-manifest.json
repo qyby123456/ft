@@ -1,0 +1,41 @@
+{
+  "status": "CANDIDATE_NOT_APPLIED_TO_SHARED_CORE",
+  "patch_sha256": "9669b640a2a1bed5255964da6997aa8942024a71fa7e4195b83daca23c061230",
+  "patch_roundtrip_on_snapshot": "PASS",
+  "files": [
+    {
+      "target": "src/main/java/net/farmingtales/ftdungeonmobs/DungeonRoomCatalog.java",
+      "before_sha256": "2a8c60ffcd9171bbf1cd29257a4b359a39a522dc270fb45d4727e52304f10a4c",
+      "after_sha256": "353989f122ea6cd8d7073a6c786894ab4483f5133c311b875b996cda13f1bcd1",
+      "baseline": "integration/source-before/DungeonRoomCatalog.java",
+      "candidate": "integration/source-after/DungeonRoomCatalog.java"
+    },
+    {
+      "target": "src/main/java/net/farmingtales/ftdungeonmobs/DungeonRoomLayout.java",
+      "before_sha256": "f18eb3a4fd8aa3206b23f2f5495637f9f24225b980d90aa9a6b30c20ac11cb30",
+      "after_sha256": "df95212a05bd755bf2b58999a1fabdb6d055b84df16da33ce75e85f97fcc775b",
+      "baseline": "integration/source-before/DungeonRoomLayout.java",
+      "candidate": "integration/source-after/DungeonRoomLayout.java"
+    },
+    {
+      "target": "src/main/java/net/farmingtales/ftdungeonmobs/DungeonSpawnPoints.java",
+      "before_sha256": "3e9d9bf92a66b2cea91df6f646b81648926da6aaf48ef862c764d062b1fb5e52",
+      "after_sha256": "616d75627f376b9f115d2e5201fb8e42ec9b5893c2ca982eee42e1f05f63c5b6",
+      "baseline": "integration/source-before/DungeonSpawnPoints.java",
+      "candidate": "integration/source-after/DungeonSpawnPoints.java"
+    }
+  ],
+  "policy": {
+    "shop_always_excluded": true,
+    "explicit_spawn_points_false_excluded": true,
+    "legacy_missing_flag_default_enabled": true,
+    "unapproved_mod_blocks_still_rejected": true,
+    "only_mod_block_allowlisted": "ftdungeontrading:trading_table"
+  },
+  "limitations": [
+    "Snapshot-based patch; receiver must rebase against current shared core and run its full regression tests.",
+    "Catalog and layout candidates are compiled and exercised by isolated Forge QA. The full DungeonSpawnPoints handler is not compiled or executed here.",
+    "Spawn catalog is cached for the current round. Restart or begin a new round after importing metadata; this patch does not provide hot-reload invalidation.",
+    "This excludes FT encounter points, not vanilla natural spawning, external mob systems or previously existing entities."
+  ]
+}

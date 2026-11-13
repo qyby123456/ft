@@ -1,0 +1,66 @@
+{
+  "id": "SHOP_SUPPLY_DSH",
+  "name": "地牢补给商店·暗木石窖",
+  "size": [
+    11,
+    8,
+    11
+  ],
+  "entrance": [
+    5,
+    1,
+    0
+  ],
+  "interior": [
+    5,
+    1,
+    3
+  ],
+  "facing": "north",
+  "sha256": "aaf77713506a36106e611ccd213f34baf2e765bd1756890a8e690a68ffad84a0",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-shop-20261102\\out\\dungeon-shop-hero.png",
+  "reference_sha256": "f26921137e349646d08690a5964a2235636945a41d39179d48d37d5cac68a355",
+  "minecraft_version": "1.20.1",
+  "data_version": 3465,
+  "room_type": "shop",
+  "spawn_points": false,
+  "dependencies": [
+    {
+      "mod_id": "ftdungeontrading",
+      "version": "1.2.0",
+      "file": "ft-dungeon-trading-forge-1.20.1-1.2.0.jar",
+      "sha256": "88e248923de4c17da275ed8af294914f413ede9ef43fa1b5f0f277d8879ec383"
+    }
+  ],
+  "integration": {
+    "status": "STANDALONE_TRADING_CANDIDATE_NOT_REGISTERED",
+    "id_is_provisional": true,
+    "assigned_slot": null,
+    "deployed": false,
+    "requires_coordinator_acceptance": true,
+    "requires_core_patch": "integration/shop-import.patch",
+    "ready_for_unpatched_core": false
+  },
+  "layout": {
+    "clear_internal_floor_size": [
+      9,
+      9
+    ],
+    "counter_size": [
+      2,
+      1
+    ],
+    "minimum_counter_clearance_blocks": 1,
+    "main_aisle_width_blocks": 3,
+    "main_aisle_height_blocks": 3,
+    "roof": "complete"
+  },
+  "substitutions": [
+    "内部纵深由概念图约7格扩至9格，落实柜台四侧净空和后墙货架。",
+    "地毯改为地板内嵌红/棕陶瓦，不在主路增加碰撞高度。",
+    "原五格木柜台改为之前 FT 地牢交易 Mod 1.2.0 的两格宽融蜡交易桌，保留原有模型和行为，不另造装饰替身。",
+    "吊灯位于北门至柜台前的三格通道，不在桌面投影上。",
+    "不预放店主或顾客，不绑定报价、不赠送库存；交易桌保持 unbound/0，管理员可按原交易 Mod 配置。",
+    "商店类型强制排除随机刷怪点；接入核心前必须应用随包候选补丁并回归，不能仅忽略元数据。"
+  ]
+}
