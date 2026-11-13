@@ -1,3 +1,9 @@
+## Stage28 native Curios increment, 2026-11-14
+
+Four scoped fallback cases now pass with actual integrated-player/server/client item synchronization:missing slot index,missing slot identifier after natural empty-slot sync,occupied slot without overwrite,andfull inventory retaining pending until capacity is freed. V9 whole-run failure remains preserved;only its already-passed missing-index case is accepted. V10 runs only remaining three cases. V11 passes18owner/projectile/eligibility controls,including actual final-positive creative andspectator exemptions and21registered projectiles;natural projectile collisions are not claimed. Native checks V9=1059(withone preservedfailure),V10=1145,V11=2000. Product candidate unchanged.
+
+Incremental local archive has5804paths andrequires the hash-bound original Stage28 base;all paths,size andpayload hashes verified. No full physical restore orlarge-artifact remote recovery is claimed. See github-sync/checkpoint-boss-curios-fallback-owner-20261114.json andCURIO_INCREMENT_RECOVERY_20261114.md. Continue actual supported new-JVM confirmation/remaining lifecycle work without guessed experimental-screen input. NOT-INSTALLABLE,no deployment,formal instances read-only,weapons/Session paused,same sole writer. Clean only independently remote-verified duplicate source-cache files under the published plan;retain canonical frozen inputs andall raw artifacts.
+
 # Stage28 Zicai Curios silence: scoped local candidate
 
 Status: NOT-INSTALLABLE,not deployed,full Boss migration incomplete. Both formal instances remain read-only;Stage27 remains the deployed baseline. Weapon development/validation andSession work remain paused;the separate weapon recovery JAR is not an installable addon.
