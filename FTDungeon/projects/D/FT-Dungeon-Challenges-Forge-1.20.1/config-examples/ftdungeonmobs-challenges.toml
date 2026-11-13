@@ -1,0 +1,55 @@
+[challenge]
+enabled = true
+preparationSeconds = 15
+intermissionSeconds = 8
+waveTimeoutSeconds = 300
+spawnTimeoutSeconds = 30
+absenceGraceSeconds = 30
+cooldownSeconds = 180
+maxConcurrentChallenges = 3
+maxParticipants = 4
+maxMobsPerWave = 24
+extraMobsPerWave = 2
+extraMobsPerAdditionalPlayer = 2
+spawnBatchSize = 4
+victoryExperiencePerTier = 10
+
+[tiers.tier1]
+waves = 3
+baseMobs = 4
+warriorWeight = 4
+archerWeight = 2
+mageWeight = 0
+finalBoss = false
+
+[tiers.tier2]
+waves = 4
+baseMobs = 5
+warriorWeight = 4
+archerWeight = 2
+mageWeight = 1
+finalBoss = true
+
+[tiers.tier3]
+waves = 5
+baseMobs = 6
+warriorWeight = 4
+archerWeight = 2
+mageWeight = 2
+finalBoss = true
+
+[tiers.tier4]
+waves = 6
+baseMobs = 7
+warriorWeight = 4
+archerWeight = 2
+mageWeight = 3
+finalBoss = true
+
+[tiers.tier5]
+waves = 7
+baseMobs = 8
+warriorWeight = 4
+archerWeight = 2
+mageWeight = 4
+finalBoss = true

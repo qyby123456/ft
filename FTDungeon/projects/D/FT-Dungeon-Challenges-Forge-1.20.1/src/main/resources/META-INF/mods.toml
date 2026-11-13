@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved; original FT challenge implementation"
+
+[[mods]]
+modId="ftdungeonchallenges"
+version="1.0.0"
+displayName="FT地牢挑战"
+description='''
+FT地牢怪物的独立袭击式挑战联动模块。潜行空手右键竞技场火炬启动或加入分波战斗。
+读取火炬1～5档难度，复用既有生命、攻击、物理护甲、铁魔法魔抗和法强接口。
+包含准备倒计时、波次进度条、多人参与、失败清理、冷却与数据包胜利奖励。
+仅参考 Majrusz 亡灵军团的玩法结构，不包含其代码、模型或素材，不依赖该模组或其库。
+'''
+
+[[dependencies.ftdungeonchallenges]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,48)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ftdungeonchallenges]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ftdungeonchallenges]]
+modId="ftdungeonmobs"
+mandatory=true
+versionRange="[0.5.0,0.6)"
+ordering="AFTER"
+side="BOTH"

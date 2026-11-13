@@ -1,0 +1,84 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+group = 'net.farmingtales'
+version = '1.0.0'
+
+base {
+    archivesName = 'ft-dungeon-challenges-forge-1.20.1'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        configureEach {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', file('build/createSrgToMcp/output.srg').absolutePath
+        }
+        client {
+            workingDirectory project.file('run/client')
+            mods { ftdungeonchallenges { source sourceSets.main } }
+        }
+        server {
+            workingDirectory project.file('run/server')
+            args '--nogui'
+            mods { ftdungeonchallenges { source sourceSets.main } }
+        }
+        gameTestServer {
+            workingDirectory project.file('run/challenge-verification')
+            property 'forge.enabledGameTestNamespaces', 'ftdungeonchallenges'
+            mods {
+                ftdungeonchallenges {
+                    source sourceSets.main
+                    source sourceSets.test
+                }
+            }
+        }
+    }
+}
+
+repositories {
+    flatDir { dirs 'libs' }
+    mavenCentral()
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'
+    implementation fg.deobf('local.ft:ft-dungeon-mobs-forge-1.20.1:0.5.0')
+    implementation fg.deobf('compat:geckolib:4.8.4')
+    implementation fg.deobf('local.smoke:irons_spellbooks:1.20.1-3.16.3')
+    runtimeOnly fg.deobf('local.smoke:curios-forge:5.14.1+1.20.1')
+    runtimeOnly fg.deobf('local.smoke:player-animation-lib-forge:1.0.2-rc1+1.20')
+    runtimeOnly fg.deobf('local.smoke:irons_lib:1.20.1-2.1.0')
+}
+
+sourceSets.test.compileClasspath += sourceSets.main.compileClasspath
+sourceSets.test.runtimeClasspath += sourceSets.main.runtimeClasspath
+
+tasks.register('verifyChallengeResources', Exec) {
+    commandLine 'node', file('tools/verify-resources.mjs').absolutePath
+}
+
+tasks.named('check') {
+    dependsOn 'verifyChallengeResources'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'FT Dungeon Challenges', 'Implementation-Version': project.version
+    }
+    finalizedBy 'reobfJar'
+}
