@@ -1,0 +1,301 @@
+{
+  "source_sha256": "f1a36958704abd8ba8fe80a6c98ffc4e99f2d97101af52ecd61c1fd2f970cab6",
+  "local_origin": [
+    0,
+    0,
+    0
+  ],
+  "world_origin": null,
+  "ports": [
+    {
+      "id": "north-deeper-arch",
+      "direction": "north",
+      "feet": [
+        13,
+        2,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "outside_feet": [
+        13,
+        2,
+        -1
+      ],
+      "opening": [
+        3,
+        4
+      ],
+      "source": "visible rear doorway leading deeper",
+      "air_cells": [
+        [
+          12,
+          2,
+          0
+        ],
+        [
+          12,
+          3,
+          0
+        ],
+        [
+          12,
+          4,
+          0
+        ],
+        [
+          12,
+          5,
+          0
+        ],
+        [
+          13,
+          2,
+          0
+        ],
+        [
+          13,
+          3,
+          0
+        ],
+        [
+          13,
+          4,
+          0
+        ],
+        [
+          13,
+          5,
+          0
+        ],
+        [
+          14,
+          2,
+          0
+        ],
+        [
+          14,
+          3,
+          0
+        ],
+        [
+          14,
+          4,
+          0
+        ],
+        [
+          14,
+          5,
+          0
+        ]
+      ],
+      "floor_cells": [
+        [
+          12,
+          1,
+          0
+        ],
+        [
+          13,
+          1,
+          0
+        ],
+        [
+          14,
+          1,
+          0
+        ]
+      ],
+      "player_center": [
+        13.5,
+        2,
+        0.5
+      ],
+      "outside_unknown": true
+    },
+    {
+      "id": "south-exterior-approach",
+      "direction": "south",
+      "feet": [
+        12,
+        1,
+        30
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "outside_feet": [
+        12,
+        1,
+        31
+      ],
+      "opening": [
+        2,
+        3
+      ],
+      "source": "outside front double-door stair approach; actual gate at z25,y2",
+      "air_cells": [
+        [
+          12,
+          1,
+          30
+        ],
+        [
+          12,
+          2,
+          30
+        ],
+        [
+          12,
+          3,
+          30
+        ],
+        [
+          13,
+          1,
+          30
+        ],
+        [
+          13,
+          2,
+          30
+        ],
+        [
+          13,
+          3,
+          30
+        ]
+      ],
+      "floor_cells": [
+        [
+          12,
+          0,
+          30
+        ],
+        [
+          13,
+          0,
+          30
+        ]
+      ],
+      "player_center": [
+        12.5,
+        1,
+        30.5
+      ],
+      "outside_unknown": true
+    }
+  ],
+  "gate": {
+    "feet": [
+      12,
+      2,
+      25
+    ],
+    "opening": [
+      2,
+      3
+    ],
+    "state": "open=true authored source; interactive opening NOT_RUN"
+  },
+  "stairs": {
+    "outside_feet_y": 1,
+    "slab_feet_y": 1.5,
+    "inside_feet_y": 2,
+    "slab_z": 26
+  },
+  "target_feet": [
+    [
+      12,
+      1,
+      30
+    ],
+    [
+      13,
+      1,
+      30
+    ],
+    [
+      12,
+      1,
+      27
+    ],
+    [
+      12,
+      1.5,
+      26
+    ],
+    [
+      13,
+      1.5,
+      26
+    ],
+    [
+      12,
+      2,
+      25
+    ],
+    [
+      13,
+      2,
+      25
+    ],
+    [
+      12,
+      2,
+      23
+    ],
+    [
+      13,
+      2,
+      18
+    ],
+    [
+      13,
+      2,
+      10
+    ],
+    [
+      13,
+      2,
+      3
+    ],
+    [
+      13,
+      2,
+      0
+    ],
+    [
+      7,
+      2,
+      20
+    ],
+    [
+      19,
+      2,
+      21
+    ],
+    [
+      5,
+      2,
+      12
+    ],
+    [
+      20,
+      2,
+      13
+    ],
+    [
+      17,
+      2,
+      17
+    ]
+  ],
+  "full_body_paths": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\07-entrance\\qa\\isolated-run-04\\native-result.json",
+  "warning": "North 3x4 feet y2, exterior south approach 2x3 feet y1; actual open double gate at z25 feet y2. Do not connect as same-height identical apertures."
+}

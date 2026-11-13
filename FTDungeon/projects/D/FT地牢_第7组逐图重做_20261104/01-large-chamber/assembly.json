@@ -1,0 +1,121 @@
+{
+  "split": false,
+  "reason": "Full 29x20x29 faithful-scale module fits one structure template; not reduced to chunk width.",
+  "world_origin": null,
+  "local_origin": [
+    0,
+    0,
+    0
+  ],
+  "assembly_order": [
+    {
+      "step": 1,
+      "id": "S7R2-01",
+      "template": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\01-large-chamber\\incoming\\S7R2-01\\room.nbt",
+      "relative_origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "north-lower-added",
+      "direction": "north",
+      "feet": [
+        14,
+        2,
+        0
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "source": "FT compatibility addition",
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "outside_feet": [
+        14,
+        2,
+        -1
+      ]
+    },
+    {
+      "id": "west-lower",
+      "direction": "west",
+      "feet": [
+        0,
+        2,
+        14
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "source": "reference lower side arch",
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "outside_feet": [
+        -1,
+        2,
+        14
+      ]
+    },
+    {
+      "id": "east-lower",
+      "direction": "east",
+      "feet": [
+        28,
+        2,
+        14
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "source": "reference lower side arch",
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "outside_feet": [
+        29,
+        2,
+        14
+      ]
+    },
+    {
+      "id": "north-upper",
+      "direction": "north",
+      "feet": [
+        14,
+        9,
+        0
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "source": "reference upper rear arch",
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "outside_feet": [
+        14,
+        9,
+        -1
+      ]
+    }
+  ],
+  "collision_policy": "Reject occupied full volume before any placement; no unconditional clearing."
+}

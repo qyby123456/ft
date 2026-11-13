@@ -1,0 +1,200 @@
+{
+  "status": "AWAITING_REGISTRATION_ACCEPTANCE",
+  "final_rooms": [
+    {
+      "id": "S7R2-01",
+      "name": "菌菇中枢·双层拱廊",
+      "size": [
+        29,
+        20,
+        29
+      ],
+      "facing": "north",
+      "entrance": [
+        14,
+        2,
+        0
+      ],
+      "interior": [
+        14,
+        2,
+        3
+      ],
+      "connections": [
+        {
+          "id": "north-lower-added",
+          "direction": "north",
+          "feet": [
+            14,
+            2,
+            0
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "source": "FT compatibility addition",
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            14,
+            2,
+            -1
+          ]
+        },
+        {
+          "id": "west-lower",
+          "direction": "west",
+          "feet": [
+            0,
+            2,
+            14
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "source": "reference lower side arch",
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            -1,
+            2,
+            14
+          ]
+        },
+        {
+          "id": "east-lower",
+          "direction": "east",
+          "feet": [
+            28,
+            2,
+            14
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "source": "reference lower side arch",
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            29,
+            2,
+            14
+          ]
+        },
+        {
+          "id": "north-upper",
+          "direction": "north",
+          "feet": [
+            14,
+            9,
+            0
+          ],
+          "opening": [
+            3,
+            3
+          ],
+          "source": "reference upper rear arch",
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            14,
+            9,
+            -1
+          ]
+        }
+      ],
+      "test_targets": [
+        [
+          14,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          14
+        ],
+        [
+          28,
+          2,
+          14
+        ],
+        [
+          14,
+          9,
+          0
+        ],
+        [
+          3,
+          9,
+          18
+        ],
+        [
+          25,
+          9,
+          18
+        ],
+        [
+          14,
+          5,
+          16
+        ]
+      ],
+      "sha256": "0cd7e686e01720603490127393db383a6fbae2894b62ed5bc1137d98d621f9f2",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-01-large-chamber.png",
+      "reference_sha256": "f72757bf4a06381d5816c75310804eeb802e322059a336c2f5e93ee9ba3bb97c",
+      "status": "AWAITING_REGISTRATION_ACCEPTANCE",
+      "runtime_slot": null,
+      "placement": "NOT DEPLOYED",
+      "geometry_origin": "Original single-image recipe; no old batch imported",
+      "coordinate_system": "feet XYZ, +X east, +Y up, +Z south"
+    }
+  ],
+  "preview_only_derivatives": [
+    "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\01-large-chamber\\views\\PREVIEW_ONLY_cutaway.nbt"
+  ],
+  "qa": {
+    "status": "PASS_SELF_CHECK_ONLY",
+    "id": "S7R2-01",
+    "sha256": "0cd7e686e01720603490127393db383a6fbae2894b62ed5bc1137d98d621f9f2",
+    "static": "PASS",
+    "native_load": "PASS",
+    "native_all_targets": "7/7 PASS",
+    "lodestone": "2/2 PASS",
+    "duplication": "NO_EXACT_GEOMETRY_REUSE_IN_LOCAL_COMPARISON",
+    "world_placement": "NOT RUN",
+    "forge_updates": "NOT RUN",
+    "registration_acceptance": "PENDING",
+    "next_image_allowed": false
+  },
+  "scale": {
+    "size": [
+      29,
+      20,
+      29
+    ],
+    "low_floor_feet_y": 2,
+    "upper_floor_feet_y": 9,
+    "central_cap_diameter": 9,
+    "stair_width": 3,
+    "not_chunk_compressed": true
+  },
+  "reference_analysis": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\01-large-chamber\\REFERENCE_ANALYSIS.md",
+  "old_batch_reused": false,
+  "next_image_started": false
+}

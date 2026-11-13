@@ -1,0 +1,248 @@
+{
+  "source_sha256": "6b3f3b655acdefbd4ffd8c1ab04bb94e3ab280945db25ca5f33f54f9dddf1efd",
+  "local_origin": [
+    0,
+    0,
+    0
+  ],
+  "world_origin": null,
+  "ports": [
+    {
+      "id": "north-main-arch",
+      "direction": "north",
+      "feet": [
+        8,
+        2,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "outside_feet": [
+        8,
+        2,
+        -1
+      ],
+      "opening": [
+        3,
+        4
+      ],
+      "role": "main entry and return",
+      "source": "rear arch in reference",
+      "air_cells": [
+        [
+          7,
+          2,
+          0
+        ],
+        [
+          7,
+          3,
+          0
+        ],
+        [
+          7,
+          4,
+          0
+        ],
+        [
+          7,
+          5,
+          0
+        ],
+        [
+          8,
+          2,
+          0
+        ],
+        [
+          8,
+          3,
+          0
+        ],
+        [
+          8,
+          4,
+          0
+        ],
+        [
+          8,
+          5,
+          0
+        ],
+        [
+          9,
+          2,
+          0
+        ],
+        [
+          9,
+          3,
+          0
+        ],
+        [
+          9,
+          4,
+          0
+        ],
+        [
+          9,
+          5,
+          0
+        ]
+      ],
+      "floor_cells": [
+        [
+          7,
+          1,
+          0
+        ],
+        [
+          8,
+          1,
+          0
+        ],
+        [
+          9,
+          1,
+          0
+        ]
+      ],
+      "player_center": [
+        8.5,
+        2,
+        0.5
+      ],
+      "outside_unknown": true,
+      "adapter_required_for_standard_3x4": false
+    },
+    {
+      "id": "east-narrow-exit",
+      "direction": "east",
+      "feet": [
+        16,
+        2,
+        10
+      ],
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "outside_feet": [
+        17,
+        2,
+        10
+      ],
+      "opening": [
+        2,
+        3
+      ],
+      "opening_axis": "z=10..11,y=2..4,x=16",
+      "role": "narrow secondary exit",
+      "source": "right-hand narrow exit in reference",
+      "air_cells": [
+        [
+          16,
+          2,
+          10
+        ],
+        [
+          16,
+          3,
+          10
+        ],
+        [
+          16,
+          4,
+          10
+        ],
+        [
+          16,
+          2,
+          11
+        ],
+        [
+          16,
+          3,
+          11
+        ],
+        [
+          16,
+          4,
+          11
+        ]
+      ],
+      "floor_cells": [
+        [
+          16,
+          1,
+          10
+        ],
+        [
+          16,
+          1,
+          11
+        ]
+      ],
+      "player_center": [
+        16.5,
+        2,
+        10.5
+      ],
+      "outside_unknown": true,
+      "adapter_required_for_standard_3x4": true
+    }
+  ],
+  "target_feet": [
+    [
+      8,
+      2,
+      3
+    ],
+    [
+      4,
+      2,
+      2
+    ],
+    [
+      8,
+      2,
+      6
+    ],
+    [
+      10,
+      2,
+      8
+    ],
+    [
+      8,
+      2,
+      10
+    ],
+    [
+      6,
+      2,
+      8
+    ],
+    [
+      16,
+      2,
+      10
+    ],
+    [
+      16,
+      2,
+      11
+    ],
+    [
+      8,
+      2,
+      14
+    ]
+  ],
+  "full_body_paths": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\03-small-room\\qa\\isolated-run-02\\native-result.json",
+  "warning": "East 2x3 is reference-specific: require compatible narrow corridor or explicit transition; do not blindly connect standard 3x4."
+}

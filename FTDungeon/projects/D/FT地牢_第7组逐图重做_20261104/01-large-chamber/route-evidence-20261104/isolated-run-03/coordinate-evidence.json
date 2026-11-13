@@ -1,0 +1,10030 @@
+{
+  "source_sha256": "0cd7e686e01720603490127393db383a6fbae2894b62ed5bc1137d98d621f9f2",
+  "coordinates": "integer block feet unless explicitly named center; +X east +Y up +Z south",
+  "ports": [
+    {
+      "id": "north-lower-added",
+      "direction": "north",
+      "feet": [
+        14,
+        2,
+        0
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "source": "FT compatibility addition",
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "outside_feet": [
+        14,
+        2,
+        -1
+      ],
+      "guaranteed_clear_cells_3x3": [
+        [
+          13,
+          2,
+          0
+        ],
+        [
+          13,
+          3,
+          0
+        ],
+        [
+          13,
+          4,
+          0
+        ],
+        [
+          14,
+          2,
+          0
+        ],
+        [
+          14,
+          3,
+          0
+        ],
+        [
+          14,
+          4,
+          0
+        ],
+        [
+          15,
+          2,
+          0
+        ],
+        [
+          15,
+          3,
+          0
+        ],
+        [
+          15,
+          4,
+          0
+        ]
+      ],
+      "feet_world_center": [
+        14.5,
+        2,
+        0.5
+      ],
+      "clearance_scope": "3 lateral block cells x 3 high, not implied clearance outside template; adjacency owner checks outside cells"
+    },
+    {
+      "id": "west-lower",
+      "direction": "west",
+      "feet": [
+        0,
+        2,
+        14
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "source": "reference lower side arch",
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "outside_feet": [
+        -1,
+        2,
+        14
+      ],
+      "guaranteed_clear_cells_3x3": [
+        [
+          0,
+          2,
+          13
+        ],
+        [
+          0,
+          3,
+          13
+        ],
+        [
+          0,
+          4,
+          13
+        ],
+        [
+          0,
+          2,
+          14
+        ],
+        [
+          0,
+          3,
+          14
+        ],
+        [
+          0,
+          4,
+          14
+        ],
+        [
+          0,
+          2,
+          15
+        ],
+        [
+          0,
+          3,
+          15
+        ],
+        [
+          0,
+          4,
+          15
+        ]
+      ],
+      "feet_world_center": [
+        0.5,
+        2,
+        14.5
+      ],
+      "clearance_scope": "3 lateral block cells x 3 high, not implied clearance outside template; adjacency owner checks outside cells"
+    },
+    {
+      "id": "east-lower",
+      "direction": "east",
+      "feet": [
+        28,
+        2,
+        14
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "source": "reference lower side arch",
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "outside_feet": [
+        29,
+        2,
+        14
+      ],
+      "guaranteed_clear_cells_3x3": [
+        [
+          28,
+          2,
+          13
+        ],
+        [
+          28,
+          3,
+          13
+        ],
+        [
+          28,
+          4,
+          13
+        ],
+        [
+          28,
+          2,
+          14
+        ],
+        [
+          28,
+          3,
+          14
+        ],
+        [
+          28,
+          4,
+          14
+        ],
+        [
+          28,
+          2,
+          15
+        ],
+        [
+          28,
+          3,
+          15
+        ],
+        [
+          28,
+          4,
+          15
+        ]
+      ],
+      "feet_world_center": [
+        28.5,
+        2,
+        14.5
+      ],
+      "clearance_scope": "3 lateral block cells x 3 high, not implied clearance outside template; adjacency owner checks outside cells"
+    },
+    {
+      "id": "north-upper",
+      "direction": "north",
+      "feet": [
+        14,
+        9,
+        0
+      ],
+      "opening": [
+        3,
+        3
+      ],
+      "source": "reference upper rear arch",
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "outside_feet": [
+        14,
+        9,
+        -1
+      ],
+      "guaranteed_clear_cells_3x3": [
+        [
+          13,
+          9,
+          0
+        ],
+        [
+          13,
+          10,
+          0
+        ],
+        [
+          13,
+          11,
+          0
+        ],
+        [
+          14,
+          9,
+          0
+        ],
+        [
+          14,
+          10,
+          0
+        ],
+        [
+          14,
+          11,
+          0
+        ],
+        [
+          15,
+          9,
+          0
+        ],
+        [
+          15,
+          10,
+          0
+        ],
+        [
+          15,
+          11,
+          0
+        ]
+      ],
+      "feet_world_center": [
+        14.5,
+        9,
+        0.5
+      ],
+      "clearance_scope": "3 lateral block cells x 3 high, not implied clearance outside template; adjacency owner checks outside cells"
+    }
+  ],
+  "seven_targets_block_feet": [
+    [
+      14,
+      2,
+      3
+    ],
+    [
+      0,
+      2,
+      14
+    ],
+    [
+      28,
+      2,
+      14
+    ],
+    [
+      14,
+      9,
+      0
+    ],
+    [
+      3,
+      9,
+      18
+    ],
+    [
+      25,
+      9,
+      18
+    ],
+    [
+      14,
+      5,
+      16
+    ]
+  ],
+  "stair_runs": [
+    {
+      "id": "west",
+      "ascending": [
+        0,
+        0,
+        -1
+      ],
+      "descending": [
+        0,
+        0,
+        1
+      ],
+      "bottom_landing_center": [
+        3.5,
+        2,
+        27.5
+      ],
+      "top_landing_center": [
+        3.5,
+        9,
+        19.5
+      ],
+      "upper_gallery_check_center": [
+        3.5,
+        9,
+        18.5
+      ],
+      "all_lane_treads": [
+        {
+          "low_tread_center": [
+            2.5,
+            2.5,
+            26.85
+          ],
+          "native_collision_boxes": [
+            [
+              2.0,
+              2.0,
+              26.0,
+              3.0,
+              2.5,
+              27.0
+            ],
+            [
+              2.0,
+              2.5,
+              26.0,
+              3.0,
+              3.0,
+              26.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            2,
+            2,
+            26
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            2.5,
+            3.0,
+            26.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            2.5,
+            3.5,
+            25.85
+          ],
+          "native_collision_boxes": [
+            [
+              2.0,
+              3.0,
+              25.0,
+              3.0,
+              3.5,
+              26.0
+            ],
+            [
+              2.0,
+              3.5,
+              25.0,
+              3.0,
+              4.0,
+              25.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            2,
+            3,
+            25
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            2.5,
+            4.0,
+            25.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            2.5,
+            4.5,
+            24.85
+          ],
+          "native_collision_boxes": [
+            [
+              2.0,
+              4.0,
+              24.0,
+              3.0,
+              4.5,
+              25.0
+            ],
+            [
+              2.0,
+              4.5,
+              24.0,
+              3.0,
+              5.0,
+              24.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            2,
+            4,
+            24
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            2.5,
+            5.0,
+            24.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            2.5,
+            5.5,
+            23.85
+          ],
+          "native_collision_boxes": [
+            [
+              2.0,
+              5.0,
+              23.0,
+              3.0,
+              5.5,
+              24.0
+            ],
+            [
+              2.0,
+              5.5,
+              23.0,
+              3.0,
+              6.0,
+              23.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            2,
+            5,
+            23
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            2.5,
+            6.0,
+            23.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            2.5,
+            6.5,
+            22.85
+          ],
+          "native_collision_boxes": [
+            [
+              2.0,
+              6.0,
+              22.0,
+              3.0,
+              6.5,
+              23.0
+            ],
+            [
+              2.0,
+              6.5,
+              22.0,
+              3.0,
+              7.0,
+              22.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            2,
+            6,
+            22
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            2.5,
+            7.0,
+            22.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            2.5,
+            7.5,
+            21.85
+          ],
+          "native_collision_boxes": [
+            [
+              2.0,
+              7.0,
+              21.0,
+              3.0,
+              7.5,
+              22.0
+            ],
+            [
+              2.0,
+              7.5,
+              21.0,
+              3.0,
+              8.0,
+              21.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            2,
+            7,
+            21
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            2.5,
+            8.0,
+            21.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            2.5,
+            8.5,
+            20.85
+          ],
+          "native_collision_boxes": [
+            [
+              2.0,
+              8.0,
+              20.0,
+              3.0,
+              8.5,
+              21.0
+            ],
+            [
+              2.0,
+              8.5,
+              20.0,
+              3.0,
+              9.0,
+              20.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            2,
+            8,
+            20
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            2.5,
+            9.0,
+            20.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            3.5,
+            2.5,
+            26.85
+          ],
+          "native_collision_boxes": [
+            [
+              3.0,
+              2.0,
+              26.0,
+              4.0,
+              2.5,
+              27.0
+            ],
+            [
+              3.0,
+              2.5,
+              26.0,
+              4.0,
+              3.0,
+              26.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            3,
+            2,
+            26
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            3.5,
+            3.0,
+            26.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            3.5,
+            3.5,
+            25.85
+          ],
+          "native_collision_boxes": [
+            [
+              3.0,
+              3.0,
+              25.0,
+              4.0,
+              3.5,
+              26.0
+            ],
+            [
+              3.0,
+              3.5,
+              25.0,
+              4.0,
+              4.0,
+              25.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            3,
+            3,
+            25
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            3.5,
+            4.0,
+            25.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            3.5,
+            4.5,
+            24.85
+          ],
+          "native_collision_boxes": [
+            [
+              3.0,
+              4.0,
+              24.0,
+              4.0,
+              4.5,
+              25.0
+            ],
+            [
+              3.0,
+              4.5,
+              24.0,
+              4.0,
+              5.0,
+              24.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            3,
+            4,
+            24
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            3.5,
+            5.0,
+            24.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            3.5,
+            5.5,
+            23.85
+          ],
+          "native_collision_boxes": [
+            [
+              3.0,
+              5.0,
+              23.0,
+              4.0,
+              5.5,
+              24.0
+            ],
+            [
+              3.0,
+              5.5,
+              23.0,
+              4.0,
+              6.0,
+              23.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            3,
+            5,
+            23
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            3.5,
+            6.0,
+            23.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            3.5,
+            6.5,
+            22.85
+          ],
+          "native_collision_boxes": [
+            [
+              3.0,
+              6.0,
+              22.0,
+              4.0,
+              6.5,
+              23.0
+            ],
+            [
+              3.0,
+              6.5,
+              22.0,
+              4.0,
+              7.0,
+              22.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            3,
+            6,
+            22
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            3.5,
+            7.0,
+            22.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            3.5,
+            7.5,
+            21.85
+          ],
+          "native_collision_boxes": [
+            [
+              3.0,
+              7.0,
+              21.0,
+              4.0,
+              7.5,
+              22.0
+            ],
+            [
+              3.0,
+              7.5,
+              21.0,
+              4.0,
+              8.0,
+              21.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            3,
+            7,
+            21
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            3.5,
+            8.0,
+            21.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            3.5,
+            8.5,
+            20.85
+          ],
+          "native_collision_boxes": [
+            [
+              3.0,
+              8.0,
+              20.0,
+              4.0,
+              8.5,
+              21.0
+            ],
+            [
+              3.0,
+              8.5,
+              20.0,
+              4.0,
+              9.0,
+              20.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            3,
+            8,
+            20
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            3.5,
+            9.0,
+            20.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            4.5,
+            2.5,
+            26.85
+          ],
+          "native_collision_boxes": [
+            [
+              4.0,
+              2.0,
+              26.0,
+              5.0,
+              2.5,
+              27.0
+            ],
+            [
+              4.0,
+              2.5,
+              26.0,
+              5.0,
+              3.0,
+              26.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            4,
+            2,
+            26
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            4.5,
+            3.0,
+            26.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            4.5,
+            3.5,
+            25.85
+          ],
+          "native_collision_boxes": [
+            [
+              4.0,
+              3.0,
+              25.0,
+              5.0,
+              3.5,
+              26.0
+            ],
+            [
+              4.0,
+              3.5,
+              25.0,
+              5.0,
+              4.0,
+              25.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            4,
+            3,
+            25
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            4.5,
+            4.0,
+            25.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            4.5,
+            4.5,
+            24.85
+          ],
+          "native_collision_boxes": [
+            [
+              4.0,
+              4.0,
+              24.0,
+              5.0,
+              4.5,
+              25.0
+            ],
+            [
+              4.0,
+              4.5,
+              24.0,
+              5.0,
+              5.0,
+              24.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            4,
+            4,
+            24
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            4.5,
+            5.0,
+            24.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            4.5,
+            5.5,
+            23.85
+          ],
+          "native_collision_boxes": [
+            [
+              4.0,
+              5.0,
+              23.0,
+              5.0,
+              5.5,
+              24.0
+            ],
+            [
+              4.0,
+              5.5,
+              23.0,
+              5.0,
+              6.0,
+              23.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            4,
+            5,
+            23
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            4.5,
+            6.0,
+            23.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            4.5,
+            6.5,
+            22.85
+          ],
+          "native_collision_boxes": [
+            [
+              4.0,
+              6.0,
+              22.0,
+              5.0,
+              6.5,
+              23.0
+            ],
+            [
+              4.0,
+              6.5,
+              22.0,
+              5.0,
+              7.0,
+              22.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            4,
+            6,
+            22
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            4.5,
+            7.0,
+            22.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            4.5,
+            7.5,
+            21.85
+          ],
+          "native_collision_boxes": [
+            [
+              4.0,
+              7.0,
+              21.0,
+              5.0,
+              7.5,
+              22.0
+            ],
+            [
+              4.0,
+              7.5,
+              21.0,
+              5.0,
+              8.0,
+              21.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            4,
+            7,
+            21
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            4.5,
+            8.0,
+            21.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            4.5,
+            8.5,
+            20.85
+          ],
+          "native_collision_boxes": [
+            [
+              4.0,
+              8.0,
+              20.0,
+              5.0,
+              8.5,
+              21.0
+            ],
+            [
+              4.0,
+              8.5,
+              20.0,
+              5.0,
+              9.0,
+              20.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            4,
+            8,
+            20
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            4.5,
+            9.0,
+            20.35
+          ]
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "ascending": [
+        0,
+        0,
+        -1
+      ],
+      "descending": [
+        0,
+        0,
+        1
+      ],
+      "bottom_landing_center": [
+        25.5,
+        2,
+        27.5
+      ],
+      "top_landing_center": [
+        25.5,
+        9,
+        19.5
+      ],
+      "upper_gallery_check_center": [
+        25.5,
+        9,
+        18.5
+      ],
+      "all_lane_treads": [
+        {
+          "low_tread_center": [
+            24.5,
+            2.5,
+            26.85
+          ],
+          "native_collision_boxes": [
+            [
+              24.0,
+              2.0,
+              26.0,
+              25.0,
+              2.5,
+              27.0
+            ],
+            [
+              24.0,
+              2.5,
+              26.0,
+              25.0,
+              3.0,
+              26.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            24,
+            2,
+            26
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            24.5,
+            3.0,
+            26.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            24.5,
+            3.5,
+            25.85
+          ],
+          "native_collision_boxes": [
+            [
+              24.0,
+              3.0,
+              25.0,
+              25.0,
+              3.5,
+              26.0
+            ],
+            [
+              24.0,
+              3.5,
+              25.0,
+              25.0,
+              4.0,
+              25.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            24,
+            3,
+            25
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            24.5,
+            4.0,
+            25.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            24.5,
+            4.5,
+            24.85
+          ],
+          "native_collision_boxes": [
+            [
+              24.0,
+              4.0,
+              24.0,
+              25.0,
+              4.5,
+              25.0
+            ],
+            [
+              24.0,
+              4.5,
+              24.0,
+              25.0,
+              5.0,
+              24.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            24,
+            4,
+            24
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            24.5,
+            5.0,
+            24.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            24.5,
+            5.5,
+            23.85
+          ],
+          "native_collision_boxes": [
+            [
+              24.0,
+              5.0,
+              23.0,
+              25.0,
+              5.5,
+              24.0
+            ],
+            [
+              24.0,
+              5.5,
+              23.0,
+              25.0,
+              6.0,
+              23.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            24,
+            5,
+            23
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            24.5,
+            6.0,
+            23.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            24.5,
+            6.5,
+            22.85
+          ],
+          "native_collision_boxes": [
+            [
+              24.0,
+              6.0,
+              22.0,
+              25.0,
+              6.5,
+              23.0
+            ],
+            [
+              24.0,
+              6.5,
+              22.0,
+              25.0,
+              7.0,
+              22.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            24,
+            6,
+            22
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            24.5,
+            7.0,
+            22.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            24.5,
+            7.5,
+            21.85
+          ],
+          "native_collision_boxes": [
+            [
+              24.0,
+              7.0,
+              21.0,
+              25.0,
+              7.5,
+              22.0
+            ],
+            [
+              24.0,
+              7.5,
+              21.0,
+              25.0,
+              8.0,
+              21.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            24,
+            7,
+            21
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            24.5,
+            8.0,
+            21.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            24.5,
+            8.5,
+            20.85
+          ],
+          "native_collision_boxes": [
+            [
+              24.0,
+              8.0,
+              20.0,
+              25.0,
+              8.5,
+              21.0
+            ],
+            [
+              24.0,
+              8.5,
+              20.0,
+              25.0,
+              9.0,
+              20.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            24,
+            8,
+            20
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            24.5,
+            9.0,
+            20.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            25.5,
+            2.5,
+            26.85
+          ],
+          "native_collision_boxes": [
+            [
+              25.0,
+              2.0,
+              26.0,
+              26.0,
+              2.5,
+              27.0
+            ],
+            [
+              25.0,
+              2.5,
+              26.0,
+              26.0,
+              3.0,
+              26.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            25,
+            2,
+            26
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            25.5,
+            3.0,
+            26.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            25.5,
+            3.5,
+            25.85
+          ],
+          "native_collision_boxes": [
+            [
+              25.0,
+              3.0,
+              25.0,
+              26.0,
+              3.5,
+              26.0
+            ],
+            [
+              25.0,
+              3.5,
+              25.0,
+              26.0,
+              4.0,
+              25.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            25,
+            3,
+            25
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            25.5,
+            4.0,
+            25.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            25.5,
+            4.5,
+            24.85
+          ],
+          "native_collision_boxes": [
+            [
+              25.0,
+              4.0,
+              24.0,
+              26.0,
+              4.5,
+              25.0
+            ],
+            [
+              25.0,
+              4.5,
+              24.0,
+              26.0,
+              5.0,
+              24.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            25,
+            4,
+            24
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            25.5,
+            5.0,
+            24.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            25.5,
+            5.5,
+            23.85
+          ],
+          "native_collision_boxes": [
+            [
+              25.0,
+              5.0,
+              23.0,
+              26.0,
+              5.5,
+              24.0
+            ],
+            [
+              25.0,
+              5.5,
+              23.0,
+              26.0,
+              6.0,
+              23.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            25,
+            5,
+            23
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            25.5,
+            6.0,
+            23.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            25.5,
+            6.5,
+            22.85
+          ],
+          "native_collision_boxes": [
+            [
+              25.0,
+              6.0,
+              22.0,
+              26.0,
+              6.5,
+              23.0
+            ],
+            [
+              25.0,
+              6.5,
+              22.0,
+              26.0,
+              7.0,
+              22.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            25,
+            6,
+            22
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            25.5,
+            7.0,
+            22.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            25.5,
+            7.5,
+            21.85
+          ],
+          "native_collision_boxes": [
+            [
+              25.0,
+              7.0,
+              21.0,
+              26.0,
+              7.5,
+              22.0
+            ],
+            [
+              25.0,
+              7.5,
+              21.0,
+              26.0,
+              8.0,
+              21.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            25,
+            7,
+            21
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            25.5,
+            8.0,
+            21.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            25.5,
+            8.5,
+            20.85
+          ],
+          "native_collision_boxes": [
+            [
+              25.0,
+              8.0,
+              20.0,
+              26.0,
+              8.5,
+              21.0
+            ],
+            [
+              25.0,
+              8.5,
+              20.0,
+              26.0,
+              9.0,
+              20.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            25,
+            8,
+            20
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            25.5,
+            9.0,
+            20.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            26.5,
+            2.5,
+            26.85
+          ],
+          "native_collision_boxes": [
+            [
+              26.0,
+              2.0,
+              26.0,
+              27.0,
+              2.5,
+              27.0
+            ],
+            [
+              26.0,
+              2.5,
+              26.0,
+              27.0,
+              3.0,
+              26.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            26,
+            2,
+            26
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            26.5,
+            3.0,
+            26.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            26.5,
+            3.5,
+            25.85
+          ],
+          "native_collision_boxes": [
+            [
+              26.0,
+              3.0,
+              25.0,
+              27.0,
+              3.5,
+              26.0
+            ],
+            [
+              26.0,
+              3.5,
+              25.0,
+              27.0,
+              4.0,
+              25.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            26,
+            3,
+            25
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            26.5,
+            4.0,
+            25.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            26.5,
+            4.5,
+            24.85
+          ],
+          "native_collision_boxes": [
+            [
+              26.0,
+              4.0,
+              24.0,
+              27.0,
+              4.5,
+              25.0
+            ],
+            [
+              26.0,
+              4.5,
+              24.0,
+              27.0,
+              5.0,
+              24.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            26,
+            4,
+            24
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            26.5,
+            5.0,
+            24.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            26.5,
+            5.5,
+            23.85
+          ],
+          "native_collision_boxes": [
+            [
+              26.0,
+              5.0,
+              23.0,
+              27.0,
+              5.5,
+              24.0
+            ],
+            [
+              26.0,
+              5.5,
+              23.0,
+              27.0,
+              6.0,
+              23.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            26,
+            5,
+            23
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            26.5,
+            6.0,
+            23.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            26.5,
+            6.5,
+            22.85
+          ],
+          "native_collision_boxes": [
+            [
+              26.0,
+              6.0,
+              22.0,
+              27.0,
+              6.5,
+              23.0
+            ],
+            [
+              26.0,
+              6.5,
+              22.0,
+              27.0,
+              7.0,
+              22.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            26,
+            6,
+            22
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            26.5,
+            7.0,
+            22.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            26.5,
+            7.5,
+            21.85
+          ],
+          "native_collision_boxes": [
+            [
+              26.0,
+              7.0,
+              21.0,
+              27.0,
+              7.5,
+              22.0
+            ],
+            [
+              26.0,
+              7.5,
+              21.0,
+              27.0,
+              8.0,
+              21.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            26,
+            7,
+            21
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            26.5,
+            8.0,
+            21.35
+          ]
+        },
+        {
+          "low_tread_center": [
+            26.5,
+            8.5,
+            20.85
+          ],
+          "native_collision_boxes": [
+            [
+              26.0,
+              8.0,
+              20.0,
+              27.0,
+              8.5,
+              21.0
+            ],
+            [
+              26.0,
+              8.5,
+              20.0,
+              27.0,
+              9.0,
+              20.5
+            ]
+          ],
+          "half": "bottom",
+          "shape": "straight",
+          "player_body_clearance": [
+            0.6,
+            1.8
+          ],
+          "block": [
+            26,
+            8,
+            20
+          ],
+          "facing": "north",
+          "high_tread_center": [
+            26.5,
+            9.0,
+            20.35
+          ]
+        }
+      ]
+    }
+  ],
+  "complete_seven_paths": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\01-large-chamber\\route-evidence-20261104\\isolated-run-03\\route-collision.json",
+  "step_clearance": "actual native 0.6 x 1.8 player AABB; exact swept raise/horizontal/lower segments for every edge; no jump, no flying; max step 0.5 < vanilla 0.6",
+  "six_complete_stair_lane_paths": [
+    {
+      "status": "PASS_ASCEND_AND_DESCEND",
+      "bottom_center": [
+        2.5,
+        2.0,
+        27.5
+      ],
+      "top_center": [
+        2.5,
+        9.0,
+        19.5
+      ],
+      "lane_block_x": 2,
+      "ordered_segments": [
+        {
+          "from": [
+            2.5,
+            2.0,
+            27.5
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              2.5,
+              27.25
+            ],
+            [
+              2.5,
+              2.5,
+              27.5
+            ],
+            [
+              2.5,
+              2.0,
+              27.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              2.0,
+              27.5
+            ],
+            [
+              2.5,
+              2.5,
+              27.5
+            ],
+            [
+              2.5,
+              2.5,
+              27.25
+            ]
+          ],
+          "to": [
+            2.5,
+            2.5,
+            27.25
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            2.5,
+            27.25
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              2.5,
+              27.0
+            ],
+            [
+              2.5,
+              2.5,
+              27.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              2.5,
+              27.25
+            ],
+            [
+              2.5,
+              2.5,
+              27.0
+            ]
+          ],
+          "to": [
+            2.5,
+            2.5,
+            27.0
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            2.5,
+            27.0
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              3.0,
+              26.75
+            ],
+            [
+              2.5,
+              3.0,
+              27.0
+            ],
+            [
+              2.5,
+              2.5,
+              27.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              2.5,
+              27.0
+            ],
+            [
+              2.5,
+              3.0,
+              27.0
+            ],
+            [
+              2.5,
+              3.0,
+              26.75
+            ]
+          ],
+          "to": [
+            2.5,
+            3.0,
+            26.75
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            3.0,
+            26.75
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              3.0,
+              26.5
+            ],
+            [
+              2.5,
+              3.0,
+              26.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              3.0,
+              26.75
+            ],
+            [
+              2.5,
+              3.0,
+              26.5
+            ]
+          ],
+          "to": [
+            2.5,
+            3.0,
+            26.5
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            3.0,
+            26.5
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              3.5,
+              26.25
+            ],
+            [
+              2.5,
+              3.5,
+              26.5
+            ],
+            [
+              2.5,
+              3.0,
+              26.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              3.0,
+              26.5
+            ],
+            [
+              2.5,
+              3.5,
+              26.5
+            ],
+            [
+              2.5,
+              3.5,
+              26.25
+            ]
+          ],
+          "to": [
+            2.5,
+            3.5,
+            26.25
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            3.5,
+            26.25
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              3.5,
+              26.0
+            ],
+            [
+              2.5,
+              3.5,
+              26.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              3.5,
+              26.25
+            ],
+            [
+              2.5,
+              3.5,
+              26.0
+            ]
+          ],
+          "to": [
+            2.5,
+            3.5,
+            26.0
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            3.5,
+            26.0
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              4.0,
+              25.75
+            ],
+            [
+              2.5,
+              4.0,
+              26.0
+            ],
+            [
+              2.5,
+              3.5,
+              26.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              3.5,
+              26.0
+            ],
+            [
+              2.5,
+              4.0,
+              26.0
+            ],
+            [
+              2.5,
+              4.0,
+              25.75
+            ]
+          ],
+          "to": [
+            2.5,
+            4.0,
+            25.75
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            4.0,
+            25.75
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              4.0,
+              25.5
+            ],
+            [
+              2.5,
+              4.0,
+              25.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              4.0,
+              25.75
+            ],
+            [
+              2.5,
+              4.0,
+              25.5
+            ]
+          ],
+          "to": [
+            2.5,
+            4.0,
+            25.5
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            4.0,
+            25.5
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              4.5,
+              25.25
+            ],
+            [
+              2.5,
+              4.5,
+              25.5
+            ],
+            [
+              2.5,
+              4.0,
+              25.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              4.0,
+              25.5
+            ],
+            [
+              2.5,
+              4.5,
+              25.5
+            ],
+            [
+              2.5,
+              4.5,
+              25.25
+            ]
+          ],
+          "to": [
+            2.5,
+            4.5,
+            25.25
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            4.5,
+            25.25
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              4.5,
+              25.0
+            ],
+            [
+              2.5,
+              4.5,
+              25.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              4.5,
+              25.25
+            ],
+            [
+              2.5,
+              4.5,
+              25.0
+            ]
+          ],
+          "to": [
+            2.5,
+            4.5,
+            25.0
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            4.5,
+            25.0
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              5.0,
+              24.75
+            ],
+            [
+              2.5,
+              5.0,
+              25.0
+            ],
+            [
+              2.5,
+              4.5,
+              25.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              4.5,
+              25.0
+            ],
+            [
+              2.5,
+              5.0,
+              25.0
+            ],
+            [
+              2.5,
+              5.0,
+              24.75
+            ]
+          ],
+          "to": [
+            2.5,
+            5.0,
+            24.75
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            5.0,
+            24.75
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              5.0,
+              24.5
+            ],
+            [
+              2.5,
+              5.0,
+              24.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              5.0,
+              24.75
+            ],
+            [
+              2.5,
+              5.0,
+              24.5
+            ]
+          ],
+          "to": [
+            2.5,
+            5.0,
+            24.5
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            5.0,
+            24.5
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              5.5,
+              24.25
+            ],
+            [
+              2.5,
+              5.5,
+              24.5
+            ],
+            [
+              2.5,
+              5.0,
+              24.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              5.0,
+              24.5
+            ],
+            [
+              2.5,
+              5.5,
+              24.5
+            ],
+            [
+              2.5,
+              5.5,
+              24.25
+            ]
+          ],
+          "to": [
+            2.5,
+            5.5,
+            24.25
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            5.5,
+            24.25
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              5.5,
+              24.0
+            ],
+            [
+              2.5,
+              5.5,
+              24.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              5.5,
+              24.25
+            ],
+            [
+              2.5,
+              5.5,
+              24.0
+            ]
+          ],
+          "to": [
+            2.5,
+            5.5,
+            24.0
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            5.5,
+            24.0
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              6.0,
+              23.75
+            ],
+            [
+              2.5,
+              6.0,
+              24.0
+            ],
+            [
+              2.5,
+              5.5,
+              24.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              5.5,
+              24.0
+            ],
+            [
+              2.5,
+              6.0,
+              24.0
+            ],
+            [
+              2.5,
+              6.0,
+              23.75
+            ]
+          ],
+          "to": [
+            2.5,
+            6.0,
+            23.75
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            6.0,
+            23.75
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              6.0,
+              23.5
+            ],
+            [
+              2.5,
+              6.0,
+              23.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              6.0,
+              23.75
+            ],
+            [
+              2.5,
+              6.0,
+              23.5
+            ]
+          ],
+          "to": [
+            2.5,
+            6.0,
+            23.5
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            6.0,
+            23.5
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              6.5,
+              23.25
+            ],
+            [
+              2.5,
+              6.5,
+              23.5
+            ],
+            [
+              2.5,
+              6.0,
+              23.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              6.0,
+              23.5
+            ],
+            [
+              2.5,
+              6.5,
+              23.5
+            ],
+            [
+              2.5,
+              6.5,
+              23.25
+            ]
+          ],
+          "to": [
+            2.5,
+            6.5,
+            23.25
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            6.5,
+            23.25
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              6.5,
+              23.0
+            ],
+            [
+              2.5,
+              6.5,
+              23.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              6.5,
+              23.25
+            ],
+            [
+              2.5,
+              6.5,
+              23.0
+            ]
+          ],
+          "to": [
+            2.5,
+            6.5,
+            23.0
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            6.5,
+            23.0
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              7.0,
+              22.75
+            ],
+            [
+              2.5,
+              7.0,
+              23.0
+            ],
+            [
+              2.5,
+              6.5,
+              23.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              6.5,
+              23.0
+            ],
+            [
+              2.5,
+              7.0,
+              23.0
+            ],
+            [
+              2.5,
+              7.0,
+              22.75
+            ]
+          ],
+          "to": [
+            2.5,
+            7.0,
+            22.75
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            7.0,
+            22.75
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              7.0,
+              22.5
+            ],
+            [
+              2.5,
+              7.0,
+              22.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              7.0,
+              22.75
+            ],
+            [
+              2.5,
+              7.0,
+              22.5
+            ]
+          ],
+          "to": [
+            2.5,
+            7.0,
+            22.5
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            7.0,
+            22.5
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              7.5,
+              22.25
+            ],
+            [
+              2.5,
+              7.5,
+              22.5
+            ],
+            [
+              2.5,
+              7.0,
+              22.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              7.0,
+              22.5
+            ],
+            [
+              2.5,
+              7.5,
+              22.5
+            ],
+            [
+              2.5,
+              7.5,
+              22.25
+            ]
+          ],
+          "to": [
+            2.5,
+            7.5,
+            22.25
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            7.5,
+            22.25
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              7.5,
+              22.0
+            ],
+            [
+              2.5,
+              7.5,
+              22.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              7.5,
+              22.25
+            ],
+            [
+              2.5,
+              7.5,
+              22.0
+            ]
+          ],
+          "to": [
+            2.5,
+            7.5,
+            22.0
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            7.5,
+            22.0
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              8.0,
+              21.75
+            ],
+            [
+              2.5,
+              8.0,
+              22.0
+            ],
+            [
+              2.5,
+              7.5,
+              22.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              7.5,
+              22.0
+            ],
+            [
+              2.5,
+              8.0,
+              22.0
+            ],
+            [
+              2.5,
+              8.0,
+              21.75
+            ]
+          ],
+          "to": [
+            2.5,
+            8.0,
+            21.75
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            8.0,
+            21.75
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              8.0,
+              21.5
+            ],
+            [
+              2.5,
+              8.0,
+              21.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              8.0,
+              21.75
+            ],
+            [
+              2.5,
+              8.0,
+              21.5
+            ]
+          ],
+          "to": [
+            2.5,
+            8.0,
+            21.5
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            8.0,
+            21.5
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              8.5,
+              21.25
+            ],
+            [
+              2.5,
+              8.5,
+              21.5
+            ],
+            [
+              2.5,
+              8.0,
+              21.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              8.0,
+              21.5
+            ],
+            [
+              2.5,
+              8.5,
+              21.5
+            ],
+            [
+              2.5,
+              8.5,
+              21.25
+            ]
+          ],
+          "to": [
+            2.5,
+            8.5,
+            21.25
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            8.5,
+            21.25
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              8.5,
+              21.0
+            ],
+            [
+              2.5,
+              8.5,
+              21.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              8.5,
+              21.25
+            ],
+            [
+              2.5,
+              8.5,
+              21.0
+            ]
+          ],
+          "to": [
+            2.5,
+            8.5,
+            21.0
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            8.5,
+            21.0
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              9.0,
+              20.75
+            ],
+            [
+              2.5,
+              9.0,
+              21.0
+            ],
+            [
+              2.5,
+              8.5,
+              21.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              8.5,
+              21.0
+            ],
+            [
+              2.5,
+              9.0,
+              21.0
+            ],
+            [
+              2.5,
+              9.0,
+              20.75
+            ]
+          ],
+          "to": [
+            2.5,
+            9.0,
+            20.75
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            9.0,
+            20.75
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              9.0,
+              20.5
+            ],
+            [
+              2.5,
+              9.0,
+              20.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              9.0,
+              20.75
+            ],
+            [
+              2.5,
+              9.0,
+              20.5
+            ]
+          ],
+          "to": [
+            2.5,
+            9.0,
+            20.5
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            9.0,
+            20.5
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              9.0,
+              20.25
+            ],
+            [
+              2.5,
+              9.0,
+              20.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              9.0,
+              20.5
+            ],
+            [
+              2.5,
+              9.0,
+              20.25
+            ]
+          ],
+          "to": [
+            2.5,
+            9.0,
+            20.25
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            9.0,
+            20.25
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              9.0,
+              20.0
+            ],
+            [
+              2.5,
+              9.0,
+              20.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              9.0,
+              20.25
+            ],
+            [
+              2.5,
+              9.0,
+              20.0
+            ]
+          ],
+          "to": [
+            2.5,
+            9.0,
+            20.0
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            9.0,
+            20.0
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              9.0,
+              19.75
+            ],
+            [
+              2.5,
+              9.0,
+              20.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              9.0,
+              20.0
+            ],
+            [
+              2.5,
+              9.0,
+              19.75
+            ]
+          ],
+          "to": [
+            2.5,
+            9.0,
+            19.75
+          ]
+        },
+        {
+          "from": [
+            2.5,
+            9.0,
+            19.75
+          ],
+          "descending_sweep": [
+            [
+              2.5,
+              9.0,
+              19.5
+            ],
+            [
+              2.5,
+              9.0,
+              19.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              2.5,
+              9.0,
+              19.75
+            ],
+            [
+              2.5,
+              9.0,
+              19.5
+            ]
+          ],
+          "to": [
+            2.5,
+            9.0,
+            19.5
+          ]
+        }
+      ]
+    },
+    {
+      "status": "PASS_ASCEND_AND_DESCEND",
+      "bottom_center": [
+        3.5,
+        2.0,
+        27.5
+      ],
+      "top_center": [
+        3.5,
+        9.0,
+        19.5
+      ],
+      "lane_block_x": 3,
+      "ordered_segments": [
+        {
+          "from": [
+            3.5,
+            2.0,
+            27.5
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              2.5,
+              27.25
+            ],
+            [
+              3.5,
+              2.5,
+              27.5
+            ],
+            [
+              3.5,
+              2.0,
+              27.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              2.0,
+              27.5
+            ],
+            [
+              3.5,
+              2.5,
+              27.5
+            ],
+            [
+              3.5,
+              2.5,
+              27.25
+            ]
+          ],
+          "to": [
+            3.5,
+            2.5,
+            27.25
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            2.5,
+            27.25
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              2.5,
+              27.0
+            ],
+            [
+              3.5,
+              2.5,
+              27.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              2.5,
+              27.25
+            ],
+            [
+              3.5,
+              2.5,
+              27.0
+            ]
+          ],
+          "to": [
+            3.5,
+            2.5,
+            27.0
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            2.5,
+            27.0
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              3.0,
+              26.75
+            ],
+            [
+              3.5,
+              3.0,
+              27.0
+            ],
+            [
+              3.5,
+              2.5,
+              27.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              2.5,
+              27.0
+            ],
+            [
+              3.5,
+              3.0,
+              27.0
+            ],
+            [
+              3.5,
+              3.0,
+              26.75
+            ]
+          ],
+          "to": [
+            3.5,
+            3.0,
+            26.75
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            3.0,
+            26.75
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              3.0,
+              26.5
+            ],
+            [
+              3.5,
+              3.0,
+              26.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              3.0,
+              26.75
+            ],
+            [
+              3.5,
+              3.0,
+              26.5
+            ]
+          ],
+          "to": [
+            3.5,
+            3.0,
+            26.5
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            3.0,
+            26.5
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              3.5,
+              26.25
+            ],
+            [
+              3.5,
+              3.5,
+              26.5
+            ],
+            [
+              3.5,
+              3.0,
+              26.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              3.0,
+              26.5
+            ],
+            [
+              3.5,
+              3.5,
+              26.5
+            ],
+            [
+              3.5,
+              3.5,
+              26.25
+            ]
+          ],
+          "to": [
+            3.5,
+            3.5,
+            26.25
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            3.5,
+            26.25
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              3.5,
+              26.0
+            ],
+            [
+              3.5,
+              3.5,
+              26.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              3.5,
+              26.25
+            ],
+            [
+              3.5,
+              3.5,
+              26.0
+            ]
+          ],
+          "to": [
+            3.5,
+            3.5,
+            26.0
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            3.5,
+            26.0
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              4.0,
+              25.75
+            ],
+            [
+              3.5,
+              4.0,
+              26.0
+            ],
+            [
+              3.5,
+              3.5,
+              26.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              3.5,
+              26.0
+            ],
+            [
+              3.5,
+              4.0,
+              26.0
+            ],
+            [
+              3.5,
+              4.0,
+              25.75
+            ]
+          ],
+          "to": [
+            3.5,
+            4.0,
+            25.75
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            4.0,
+            25.75
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              4.0,
+              25.5
+            ],
+            [
+              3.5,
+              4.0,
+              25.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              4.0,
+              25.75
+            ],
+            [
+              3.5,
+              4.0,
+              25.5
+            ]
+          ],
+          "to": [
+            3.5,
+            4.0,
+            25.5
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            4.0,
+            25.5
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              4.5,
+              25.25
+            ],
+            [
+              3.5,
+              4.5,
+              25.5
+            ],
+            [
+              3.5,
+              4.0,
+              25.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              4.0,
+              25.5
+            ],
+            [
+              3.5,
+              4.5,
+              25.5
+            ],
+            [
+              3.5,
+              4.5,
+              25.25
+            ]
+          ],
+          "to": [
+            3.5,
+            4.5,
+            25.25
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            4.5,
+            25.25
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              4.5,
+              25.0
+            ],
+            [
+              3.5,
+              4.5,
+              25.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              4.5,
+              25.25
+            ],
+            [
+              3.5,
+              4.5,
+              25.0
+            ]
+          ],
+          "to": [
+            3.5,
+            4.5,
+            25.0
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            4.5,
+            25.0
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              5.0,
+              24.75
+            ],
+            [
+              3.5,
+              5.0,
+              25.0
+            ],
+            [
+              3.5,
+              4.5,
+              25.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              4.5,
+              25.0
+            ],
+            [
+              3.5,
+              5.0,
+              25.0
+            ],
+            [
+              3.5,
+              5.0,
+              24.75
+            ]
+          ],
+          "to": [
+            3.5,
+            5.0,
+            24.75
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            5.0,
+            24.75
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              5.0,
+              24.5
+            ],
+            [
+              3.5,
+              5.0,
+              24.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              5.0,
+              24.75
+            ],
+            [
+              3.5,
+              5.0,
+              24.5
+            ]
+          ],
+          "to": [
+            3.5,
+            5.0,
+            24.5
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            5.0,
+            24.5
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              5.5,
+              24.25
+            ],
+            [
+              3.5,
+              5.5,
+              24.5
+            ],
+            [
+              3.5,
+              5.0,
+              24.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              5.0,
+              24.5
+            ],
+            [
+              3.5,
+              5.5,
+              24.5
+            ],
+            [
+              3.5,
+              5.5,
+              24.25
+            ]
+          ],
+          "to": [
+            3.5,
+            5.5,
+            24.25
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            5.5,
+            24.25
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              5.5,
+              24.0
+            ],
+            [
+              3.5,
+              5.5,
+              24.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              5.5,
+              24.25
+            ],
+            [
+              3.5,
+              5.5,
+              24.0
+            ]
+          ],
+          "to": [
+            3.5,
+            5.5,
+            24.0
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            5.5,
+            24.0
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              6.0,
+              23.75
+            ],
+            [
+              3.5,
+              6.0,
+              24.0
+            ],
+            [
+              3.5,
+              5.5,
+              24.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              5.5,
+              24.0
+            ],
+            [
+              3.5,
+              6.0,
+              24.0
+            ],
+            [
+              3.5,
+              6.0,
+              23.75
+            ]
+          ],
+          "to": [
+            3.5,
+            6.0,
+            23.75
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            6.0,
+            23.75
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              6.0,
+              23.5
+            ],
+            [
+              3.5,
+              6.0,
+              23.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              6.0,
+              23.75
+            ],
+            [
+              3.5,
+              6.0,
+              23.5
+            ]
+          ],
+          "to": [
+            3.5,
+            6.0,
+            23.5
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            6.0,
+            23.5
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              6.5,
+              23.25
+            ],
+            [
+              3.5,
+              6.5,
+              23.5
+            ],
+            [
+              3.5,
+              6.0,
+              23.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              6.0,
+              23.5
+            ],
+            [
+              3.5,
+              6.5,
+              23.5
+            ],
+            [
+              3.5,
+              6.5,
+              23.25
+            ]
+          ],
+          "to": [
+            3.5,
+            6.5,
+            23.25
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            6.5,
+            23.25
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              6.5,
+              23.0
+            ],
+            [
+              3.5,
+              6.5,
+              23.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              6.5,
+              23.25
+            ],
+            [
+              3.5,
+              6.5,
+              23.0
+            ]
+          ],
+          "to": [
+            3.5,
+            6.5,
+            23.0
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            6.5,
+            23.0
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              7.0,
+              22.75
+            ],
+            [
+              3.5,
+              7.0,
+              23.0
+            ],
+            [
+              3.5,
+              6.5,
+              23.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              6.5,
+              23.0
+            ],
+            [
+              3.5,
+              7.0,
+              23.0
+            ],
+            [
+              3.5,
+              7.0,
+              22.75
+            ]
+          ],
+          "to": [
+            3.5,
+            7.0,
+            22.75
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            7.0,
+            22.75
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              7.0,
+              22.5
+            ],
+            [
+              3.5,
+              7.0,
+              22.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              7.0,
+              22.75
+            ],
+            [
+              3.5,
+              7.0,
+              22.5
+            ]
+          ],
+          "to": [
+            3.5,
+            7.0,
+            22.5
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            7.0,
+            22.5
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              7.5,
+              22.25
+            ],
+            [
+              3.5,
+              7.5,
+              22.5
+            ],
+            [
+              3.5,
+              7.0,
+              22.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              7.0,
+              22.5
+            ],
+            [
+              3.5,
+              7.5,
+              22.5
+            ],
+            [
+              3.5,
+              7.5,
+              22.25
+            ]
+          ],
+          "to": [
+            3.5,
+            7.5,
+            22.25
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            7.5,
+            22.25
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              7.5,
+              22.0
+            ],
+            [
+              3.5,
+              7.5,
+              22.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              7.5,
+              22.25
+            ],
+            [
+              3.5,
+              7.5,
+              22.0
+            ]
+          ],
+          "to": [
+            3.5,
+            7.5,
+            22.0
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            7.5,
+            22.0
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              8.0,
+              21.75
+            ],
+            [
+              3.5,
+              8.0,
+              22.0
+            ],
+            [
+              3.5,
+              7.5,
+              22.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              7.5,
+              22.0
+            ],
+            [
+              3.5,
+              8.0,
+              22.0
+            ],
+            [
+              3.5,
+              8.0,
+              21.75
+            ]
+          ],
+          "to": [
+            3.5,
+            8.0,
+            21.75
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            8.0,
+            21.75
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              8.0,
+              21.5
+            ],
+            [
+              3.5,
+              8.0,
+              21.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              8.0,
+              21.75
+            ],
+            [
+              3.5,
+              8.0,
+              21.5
+            ]
+          ],
+          "to": [
+            3.5,
+            8.0,
+            21.5
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            8.0,
+            21.5
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              8.5,
+              21.25
+            ],
+            [
+              3.5,
+              8.5,
+              21.5
+            ],
+            [
+              3.5,
+              8.0,
+              21.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              8.0,
+              21.5
+            ],
+            [
+              3.5,
+              8.5,
+              21.5
+            ],
+            [
+              3.5,
+              8.5,
+              21.25
+            ]
+          ],
+          "to": [
+            3.5,
+            8.5,
+            21.25
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            8.5,
+            21.25
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              8.5,
+              21.0
+            ],
+            [
+              3.5,
+              8.5,
+              21.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              8.5,
+              21.25
+            ],
+            [
+              3.5,
+              8.5,
+              21.0
+            ]
+          ],
+          "to": [
+            3.5,
+            8.5,
+            21.0
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            8.5,
+            21.0
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              9.0,
+              20.75
+            ],
+            [
+              3.5,
+              9.0,
+              21.0
+            ],
+            [
+              3.5,
+              8.5,
+              21.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              8.5,
+              21.0
+            ],
+            [
+              3.5,
+              9.0,
+              21.0
+            ],
+            [
+              3.5,
+              9.0,
+              20.75
+            ]
+          ],
+          "to": [
+            3.5,
+            9.0,
+            20.75
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            9.0,
+            20.75
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              9.0,
+              20.5
+            ],
+            [
+              3.5,
+              9.0,
+              20.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              9.0,
+              20.75
+            ],
+            [
+              3.5,
+              9.0,
+              20.5
+            ]
+          ],
+          "to": [
+            3.5,
+            9.0,
+            20.5
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            9.0,
+            20.5
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              9.0,
+              20.25
+            ],
+            [
+              3.5,
+              9.0,
+              20.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              9.0,
+              20.5
+            ],
+            [
+              3.5,
+              9.0,
+              20.25
+            ]
+          ],
+          "to": [
+            3.5,
+            9.0,
+            20.25
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            9.0,
+            20.25
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              9.0,
+              20.0
+            ],
+            [
+              3.5,
+              9.0,
+              20.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              9.0,
+              20.25
+            ],
+            [
+              3.5,
+              9.0,
+              20.0
+            ]
+          ],
+          "to": [
+            3.5,
+            9.0,
+            20.0
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            9.0,
+            20.0
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              9.0,
+              19.75
+            ],
+            [
+              3.5,
+              9.0,
+              20.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              9.0,
+              20.0
+            ],
+            [
+              3.5,
+              9.0,
+              19.75
+            ]
+          ],
+          "to": [
+            3.5,
+            9.0,
+            19.75
+          ]
+        },
+        {
+          "from": [
+            3.5,
+            9.0,
+            19.75
+          ],
+          "descending_sweep": [
+            [
+              3.5,
+              9.0,
+              19.5
+            ],
+            [
+              3.5,
+              9.0,
+              19.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              3.5,
+              9.0,
+              19.75
+            ],
+            [
+              3.5,
+              9.0,
+              19.5
+            ]
+          ],
+          "to": [
+            3.5,
+            9.0,
+            19.5
+          ]
+        }
+      ]
+    },
+    {
+      "status": "PASS_ASCEND_AND_DESCEND",
+      "bottom_center": [
+        4.5,
+        2.0,
+        27.5
+      ],
+      "top_center": [
+        4.5,
+        9.0,
+        19.5
+      ],
+      "lane_block_x": 4,
+      "ordered_segments": [
+        {
+          "from": [
+            4.5,
+            2.0,
+            27.5
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              2.5,
+              27.25
+            ],
+            [
+              4.5,
+              2.5,
+              27.5
+            ],
+            [
+              4.5,
+              2.0,
+              27.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              2.0,
+              27.5
+            ],
+            [
+              4.5,
+              2.5,
+              27.5
+            ],
+            [
+              4.5,
+              2.5,
+              27.25
+            ]
+          ],
+          "to": [
+            4.5,
+            2.5,
+            27.25
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            2.5,
+            27.25
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              2.5,
+              27.0
+            ],
+            [
+              4.5,
+              2.5,
+              27.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              2.5,
+              27.25
+            ],
+            [
+              4.5,
+              2.5,
+              27.0
+            ]
+          ],
+          "to": [
+            4.5,
+            2.5,
+            27.0
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            2.5,
+            27.0
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              3.0,
+              26.75
+            ],
+            [
+              4.5,
+              3.0,
+              27.0
+            ],
+            [
+              4.5,
+              2.5,
+              27.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              2.5,
+              27.0
+            ],
+            [
+              4.5,
+              3.0,
+              27.0
+            ],
+            [
+              4.5,
+              3.0,
+              26.75
+            ]
+          ],
+          "to": [
+            4.5,
+            3.0,
+            26.75
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            3.0,
+            26.75
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              3.0,
+              26.5
+            ],
+            [
+              4.5,
+              3.0,
+              26.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              3.0,
+              26.75
+            ],
+            [
+              4.5,
+              3.0,
+              26.5
+            ]
+          ],
+          "to": [
+            4.5,
+            3.0,
+            26.5
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            3.0,
+            26.5
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              3.5,
+              26.25
+            ],
+            [
+              4.5,
+              3.5,
+              26.5
+            ],
+            [
+              4.5,
+              3.0,
+              26.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              3.0,
+              26.5
+            ],
+            [
+              4.5,
+              3.5,
+              26.5
+            ],
+            [
+              4.5,
+              3.5,
+              26.25
+            ]
+          ],
+          "to": [
+            4.5,
+            3.5,
+            26.25
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            3.5,
+            26.25
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              3.5,
+              26.0
+            ],
+            [
+              4.5,
+              3.5,
+              26.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              3.5,
+              26.25
+            ],
+            [
+              4.5,
+              3.5,
+              26.0
+            ]
+          ],
+          "to": [
+            4.5,
+            3.5,
+            26.0
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            3.5,
+            26.0
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              4.0,
+              25.75
+            ],
+            [
+              4.5,
+              4.0,
+              26.0
+            ],
+            [
+              4.5,
+              3.5,
+              26.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              3.5,
+              26.0
+            ],
+            [
+              4.5,
+              4.0,
+              26.0
+            ],
+            [
+              4.5,
+              4.0,
+              25.75
+            ]
+          ],
+          "to": [
+            4.5,
+            4.0,
+            25.75
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            4.0,
+            25.75
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              4.0,
+              25.5
+            ],
+            [
+              4.5,
+              4.0,
+              25.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              4.0,
+              25.75
+            ],
+            [
+              4.5,
+              4.0,
+              25.5
+            ]
+          ],
+          "to": [
+            4.5,
+            4.0,
+            25.5
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            4.0,
+            25.5
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              4.5,
+              25.25
+            ],
+            [
+              4.5,
+              4.5,
+              25.5
+            ],
+            [
+              4.5,
+              4.0,
+              25.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              4.0,
+              25.5
+            ],
+            [
+              4.5,
+              4.5,
+              25.5
+            ],
+            [
+              4.5,
+              4.5,
+              25.25
+            ]
+          ],
+          "to": [
+            4.5,
+            4.5,
+            25.25
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            4.5,
+            25.25
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              4.5,
+              25.0
+            ],
+            [
+              4.5,
+              4.5,
+              25.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              4.5,
+              25.25
+            ],
+            [
+              4.5,
+              4.5,
+              25.0
+            ]
+          ],
+          "to": [
+            4.5,
+            4.5,
+            25.0
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            4.5,
+            25.0
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              5.0,
+              24.75
+            ],
+            [
+              4.5,
+              5.0,
+              25.0
+            ],
+            [
+              4.5,
+              4.5,
+              25.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              4.5,
+              25.0
+            ],
+            [
+              4.5,
+              5.0,
+              25.0
+            ],
+            [
+              4.5,
+              5.0,
+              24.75
+            ]
+          ],
+          "to": [
+            4.5,
+            5.0,
+            24.75
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            5.0,
+            24.75
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              5.0,
+              24.5
+            ],
+            [
+              4.5,
+              5.0,
+              24.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              5.0,
+              24.75
+            ],
+            [
+              4.5,
+              5.0,
+              24.5
+            ]
+          ],
+          "to": [
+            4.5,
+            5.0,
+            24.5
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            5.0,
+            24.5
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              5.5,
+              24.25
+            ],
+            [
+              4.5,
+              5.5,
+              24.5
+            ],
+            [
+              4.5,
+              5.0,
+              24.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              5.0,
+              24.5
+            ],
+            [
+              4.5,
+              5.5,
+              24.5
+            ],
+            [
+              4.5,
+              5.5,
+              24.25
+            ]
+          ],
+          "to": [
+            4.5,
+            5.5,
+            24.25
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            5.5,
+            24.25
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              5.5,
+              24.0
+            ],
+            [
+              4.5,
+              5.5,
+              24.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              5.5,
+              24.25
+            ],
+            [
+              4.5,
+              5.5,
+              24.0
+            ]
+          ],
+          "to": [
+            4.5,
+            5.5,
+            24.0
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            5.5,
+            24.0
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              6.0,
+              23.75
+            ],
+            [
+              4.5,
+              6.0,
+              24.0
+            ],
+            [
+              4.5,
+              5.5,
+              24.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              5.5,
+              24.0
+            ],
+            [
+              4.5,
+              6.0,
+              24.0
+            ],
+            [
+              4.5,
+              6.0,
+              23.75
+            ]
+          ],
+          "to": [
+            4.5,
+            6.0,
+            23.75
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            6.0,
+            23.75
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              6.0,
+              23.5
+            ],
+            [
+              4.5,
+              6.0,
+              23.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              6.0,
+              23.75
+            ],
+            [
+              4.5,
+              6.0,
+              23.5
+            ]
+          ],
+          "to": [
+            4.5,
+            6.0,
+            23.5
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            6.0,
+            23.5
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              6.5,
+              23.25
+            ],
+            [
+              4.5,
+              6.5,
+              23.5
+            ],
+            [
+              4.5,
+              6.0,
+              23.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              6.0,
+              23.5
+            ],
+            [
+              4.5,
+              6.5,
+              23.5
+            ],
+            [
+              4.5,
+              6.5,
+              23.25
+            ]
+          ],
+          "to": [
+            4.5,
+            6.5,
+            23.25
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            6.5,
+            23.25
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              6.5,
+              23.0
+            ],
+            [
+              4.5,
+              6.5,
+              23.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              6.5,
+              23.25
+            ],
+            [
+              4.5,
+              6.5,
+              23.0
+            ]
+          ],
+          "to": [
+            4.5,
+            6.5,
+            23.0
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            6.5,
+            23.0
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              7.0,
+              22.75
+            ],
+            [
+              4.5,
+              7.0,
+              23.0
+            ],
+            [
+              4.5,
+              6.5,
+              23.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              6.5,
+              23.0
+            ],
+            [
+              4.5,
+              7.0,
+              23.0
+            ],
+            [
+              4.5,
+              7.0,
+              22.75
+            ]
+          ],
+          "to": [
+            4.5,
+            7.0,
+            22.75
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            7.0,
+            22.75
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              7.0,
+              22.5
+            ],
+            [
+              4.5,
+              7.0,
+              22.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              7.0,
+              22.75
+            ],
+            [
+              4.5,
+              7.0,
+              22.5
+            ]
+          ],
+          "to": [
+            4.5,
+            7.0,
+            22.5
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            7.0,
+            22.5
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              7.5,
+              22.25
+            ],
+            [
+              4.5,
+              7.5,
+              22.5
+            ],
+            [
+              4.5,
+              7.0,
+              22.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              7.0,
+              22.5
+            ],
+            [
+              4.5,
+              7.5,
+              22.5
+            ],
+            [
+              4.5,
+              7.5,
+              22.25
+            ]
+          ],
+          "to": [
+            4.5,
+            7.5,
+            22.25
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            7.5,
+            22.25
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              7.5,
+              22.0
+            ],
+            [
+              4.5,
+              7.5,
+              22.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              7.5,
+              22.25
+            ],
+            [
+              4.5,
+              7.5,
+              22.0
+            ]
+          ],
+          "to": [
+            4.5,
+            7.5,
+            22.0
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            7.5,
+            22.0
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              8.0,
+              21.75
+            ],
+            [
+              4.5,
+              8.0,
+              22.0
+            ],
+            [
+              4.5,
+              7.5,
+              22.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              7.5,
+              22.0
+            ],
+            [
+              4.5,
+              8.0,
+              22.0
+            ],
+            [
+              4.5,
+              8.0,
+              21.75
+            ]
+          ],
+          "to": [
+            4.5,
+            8.0,
+            21.75
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            8.0,
+            21.75
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              8.0,
+              21.5
+            ],
+            [
+              4.5,
+              8.0,
+              21.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              8.0,
+              21.75
+            ],
+            [
+              4.5,
+              8.0,
+              21.5
+            ]
+          ],
+          "to": [
+            4.5,
+            8.0,
+            21.5
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            8.0,
+            21.5
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              8.5,
+              21.25
+            ],
+            [
+              4.5,
+              8.5,
+              21.5
+            ],
+            [
+              4.5,
+              8.0,
+              21.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              8.0,
+              21.5
+            ],
+            [
+              4.5,
+              8.5,
+              21.5
+            ],
+            [
+              4.5,
+              8.5,
+              21.25
+            ]
+          ],
+          "to": [
+            4.5,
+            8.5,
+            21.25
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            8.5,
+            21.25
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              8.5,
+              21.0
+            ],
+            [
+              4.5,
+              8.5,
+              21.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              8.5,
+              21.25
+            ],
+            [
+              4.5,
+              8.5,
+              21.0
+            ]
+          ],
+          "to": [
+            4.5,
+            8.5,
+            21.0
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            8.5,
+            21.0
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              9.0,
+              20.75
+            ],
+            [
+              4.5,
+              9.0,
+              21.0
+            ],
+            [
+              4.5,
+              8.5,
+              21.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              8.5,
+              21.0
+            ],
+            [
+              4.5,
+              9.0,
+              21.0
+            ],
+            [
+              4.5,
+              9.0,
+              20.75
+            ]
+          ],
+          "to": [
+            4.5,
+            9.0,
+            20.75
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            9.0,
+            20.75
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              9.0,
+              20.5
+            ],
+            [
+              4.5,
+              9.0,
+              20.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              9.0,
+              20.75
+            ],
+            [
+              4.5,
+              9.0,
+              20.5
+            ]
+          ],
+          "to": [
+            4.5,
+            9.0,
+            20.5
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            9.0,
+            20.5
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              9.0,
+              20.25
+            ],
+            [
+              4.5,
+              9.0,
+              20.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              9.0,
+              20.5
+            ],
+            [
+              4.5,
+              9.0,
+              20.25
+            ]
+          ],
+          "to": [
+            4.5,
+            9.0,
+            20.25
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            9.0,
+            20.25
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              9.0,
+              20.0
+            ],
+            [
+              4.5,
+              9.0,
+              20.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              9.0,
+              20.25
+            ],
+            [
+              4.5,
+              9.0,
+              20.0
+            ]
+          ],
+          "to": [
+            4.5,
+            9.0,
+            20.0
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            9.0,
+            20.0
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              9.0,
+              19.75
+            ],
+            [
+              4.5,
+              9.0,
+              20.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              9.0,
+              20.0
+            ],
+            [
+              4.5,
+              9.0,
+              19.75
+            ]
+          ],
+          "to": [
+            4.5,
+            9.0,
+            19.75
+          ]
+        },
+        {
+          "from": [
+            4.5,
+            9.0,
+            19.75
+          ],
+          "descending_sweep": [
+            [
+              4.5,
+              9.0,
+              19.5
+            ],
+            [
+              4.5,
+              9.0,
+              19.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              4.5,
+              9.0,
+              19.75
+            ],
+            [
+              4.5,
+              9.0,
+              19.5
+            ]
+          ],
+          "to": [
+            4.5,
+            9.0,
+            19.5
+          ]
+        }
+      ]
+    },
+    {
+      "status": "PASS_ASCEND_AND_DESCEND",
+      "bottom_center": [
+        24.5,
+        2.0,
+        27.5
+      ],
+      "top_center": [
+        24.5,
+        9.0,
+        19.5
+      ],
+      "lane_block_x": 24,
+      "ordered_segments": [
+        {
+          "from": [
+            24.5,
+            2.0,
+            27.5
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              2.5,
+              27.25
+            ],
+            [
+              24.5,
+              2.5,
+              27.5
+            ],
+            [
+              24.5,
+              2.0,
+              27.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              2.0,
+              27.5
+            ],
+            [
+              24.5,
+              2.5,
+              27.5
+            ],
+            [
+              24.5,
+              2.5,
+              27.25
+            ]
+          ],
+          "to": [
+            24.5,
+            2.5,
+            27.25
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            2.5,
+            27.25
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              2.5,
+              27.0
+            ],
+            [
+              24.5,
+              2.5,
+              27.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              2.5,
+              27.25
+            ],
+            [
+              24.5,
+              2.5,
+              27.0
+            ]
+          ],
+          "to": [
+            24.5,
+            2.5,
+            27.0
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            2.5,
+            27.0
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              3.0,
+              26.75
+            ],
+            [
+              24.5,
+              3.0,
+              27.0
+            ],
+            [
+              24.5,
+              2.5,
+              27.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              2.5,
+              27.0
+            ],
+            [
+              24.5,
+              3.0,
+              27.0
+            ],
+            [
+              24.5,
+              3.0,
+              26.75
+            ]
+          ],
+          "to": [
+            24.5,
+            3.0,
+            26.75
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            3.0,
+            26.75
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              3.0,
+              26.5
+            ],
+            [
+              24.5,
+              3.0,
+              26.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              3.0,
+              26.75
+            ],
+            [
+              24.5,
+              3.0,
+              26.5
+            ]
+          ],
+          "to": [
+            24.5,
+            3.0,
+            26.5
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            3.0,
+            26.5
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              3.5,
+              26.25
+            ],
+            [
+              24.5,
+              3.5,
+              26.5
+            ],
+            [
+              24.5,
+              3.0,
+              26.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              3.0,
+              26.5
+            ],
+            [
+              24.5,
+              3.5,
+              26.5
+            ],
+            [
+              24.5,
+              3.5,
+              26.25
+            ]
+          ],
+          "to": [
+            24.5,
+            3.5,
+            26.25
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            3.5,
+            26.25
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              3.5,
+              26.0
+            ],
+            [
+              24.5,
+              3.5,
+              26.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              3.5,
+              26.25
+            ],
+            [
+              24.5,
+              3.5,
+              26.0
+            ]
+          ],
+          "to": [
+            24.5,
+            3.5,
+            26.0
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            3.5,
+            26.0
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              4.0,
+              25.75
+            ],
+            [
+              24.5,
+              4.0,
+              26.0
+            ],
+            [
+              24.5,
+              3.5,
+              26.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              3.5,
+              26.0
+            ],
+            [
+              24.5,
+              4.0,
+              26.0
+            ],
+            [
+              24.5,
+              4.0,
+              25.75
+            ]
+          ],
+          "to": [
+            24.5,
+            4.0,
+            25.75
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            4.0,
+            25.75
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              4.0,
+              25.5
+            ],
+            [
+              24.5,
+              4.0,
+              25.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              4.0,
+              25.75
+            ],
+            [
+              24.5,
+              4.0,
+              25.5
+            ]
+          ],
+          "to": [
+            24.5,
+            4.0,
+            25.5
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            4.0,
+            25.5
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              4.5,
+              25.25
+            ],
+            [
+              24.5,
+              4.5,
+              25.5
+            ],
+            [
+              24.5,
+              4.0,
+              25.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              4.0,
+              25.5
+            ],
+            [
+              24.5,
+              4.5,
+              25.5
+            ],
+            [
+              24.5,
+              4.5,
+              25.25
+            ]
+          ],
+          "to": [
+            24.5,
+            4.5,
+            25.25
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            4.5,
+            25.25
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              4.5,
+              25.0
+            ],
+            [
+              24.5,
+              4.5,
+              25.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              4.5,
+              25.25
+            ],
+            [
+              24.5,
+              4.5,
+              25.0
+            ]
+          ],
+          "to": [
+            24.5,
+            4.5,
+            25.0
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            4.5,
+            25.0
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              5.0,
+              24.75
+            ],
+            [
+              24.5,
+              5.0,
+              25.0
+            ],
+            [
+              24.5,
+              4.5,
+              25.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              4.5,
+              25.0
+            ],
+            [
+              24.5,
+              5.0,
+              25.0
+            ],
+            [
+              24.5,
+              5.0,
+              24.75
+            ]
+          ],
+          "to": [
+            24.5,
+            5.0,
+            24.75
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            5.0,
+            24.75
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              5.0,
+              24.5
+            ],
+            [
+              24.5,
+              5.0,
+              24.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              5.0,
+              24.75
+            ],
+            [
+              24.5,
+              5.0,
+              24.5
+            ]
+          ],
+          "to": [
+            24.5,
+            5.0,
+            24.5
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            5.0,
+            24.5
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              5.5,
+              24.25
+            ],
+            [
+              24.5,
+              5.5,
+              24.5
+            ],
+            [
+              24.5,
+              5.0,
+              24.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              5.0,
+              24.5
+            ],
+            [
+              24.5,
+              5.5,
+              24.5
+            ],
+            [
+              24.5,
+              5.5,
+              24.25
+            ]
+          ],
+          "to": [
+            24.5,
+            5.5,
+            24.25
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            5.5,
+            24.25
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              5.5,
+              24.0
+            ],
+            [
+              24.5,
+              5.5,
+              24.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              5.5,
+              24.25
+            ],
+            [
+              24.5,
+              5.5,
+              24.0
+            ]
+          ],
+          "to": [
+            24.5,
+            5.5,
+            24.0
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            5.5,
+            24.0
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              6.0,
+              23.75
+            ],
+            [
+              24.5,
+              6.0,
+              24.0
+            ],
+            [
+              24.5,
+              5.5,
+              24.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              5.5,
+              24.0
+            ],
+            [
+              24.5,
+              6.0,
+              24.0
+            ],
+            [
+              24.5,
+              6.0,
+              23.75
+            ]
+          ],
+          "to": [
+            24.5,
+            6.0,
+            23.75
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            6.0,
+            23.75
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              6.0,
+              23.5
+            ],
+            [
+              24.5,
+              6.0,
+              23.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              6.0,
+              23.75
+            ],
+            [
+              24.5,
+              6.0,
+              23.5
+            ]
+          ],
+          "to": [
+            24.5,
+            6.0,
+            23.5
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            6.0,
+            23.5
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              6.5,
+              23.25
+            ],
+            [
+              24.5,
+              6.5,
+              23.5
+            ],
+            [
+              24.5,
+              6.0,
+              23.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              6.0,
+              23.5
+            ],
+            [
+              24.5,
+              6.5,
+              23.5
+            ],
+            [
+              24.5,
+              6.5,
+              23.25
+            ]
+          ],
+          "to": [
+            24.5,
+            6.5,
+            23.25
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            6.5,
+            23.25
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              6.5,
+              23.0
+            ],
+            [
+              24.5,
+              6.5,
+              23.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              6.5,
+              23.25
+            ],
+            [
+              24.5,
+              6.5,
+              23.0
+            ]
+          ],
+          "to": [
+            24.5,
+            6.5,
+            23.0
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            6.5,
+            23.0
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              7.0,
+              22.75
+            ],
+            [
+              24.5,
+              7.0,
+              23.0
+            ],
+            [
+              24.5,
+              6.5,
+              23.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              6.5,
+              23.0
+            ],
+            [
+              24.5,
+              7.0,
+              23.0
+            ],
+            [
+              24.5,
+              7.0,
+              22.75
+            ]
+          ],
+          "to": [
+            24.5,
+            7.0,
+            22.75
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            7.0,
+            22.75
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              7.0,
+              22.5
+            ],
+            [
+              24.5,
+              7.0,
+              22.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              7.0,
+              22.75
+            ],
+            [
+              24.5,
+              7.0,
+              22.5
+            ]
+          ],
+          "to": [
+            24.5,
+            7.0,
+            22.5
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            7.0,
+            22.5
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              7.5,
+              22.25
+            ],
+            [
+              24.5,
+              7.5,
+              22.5
+            ],
+            [
+              24.5,
+              7.0,
+              22.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              7.0,
+              22.5
+            ],
+            [
+              24.5,
+              7.5,
+              22.5
+            ],
+            [
+              24.5,
+              7.5,
+              22.25
+            ]
+          ],
+          "to": [
+            24.5,
+            7.5,
+            22.25
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            7.5,
+            22.25
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              7.5,
+              22.0
+            ],
+            [
+              24.5,
+              7.5,
+              22.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              7.5,
+              22.25
+            ],
+            [
+              24.5,
+              7.5,
+              22.0
+            ]
+          ],
+          "to": [
+            24.5,
+            7.5,
+            22.0
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            7.5,
+            22.0
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              8.0,
+              21.75
+            ],
+            [
+              24.5,
+              8.0,
+              22.0
+            ],
+            [
+              24.5,
+              7.5,
+              22.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              7.5,
+              22.0
+            ],
+            [
+              24.5,
+              8.0,
+              22.0
+            ],
+            [
+              24.5,
+              8.0,
+              21.75
+            ]
+          ],
+          "to": [
+            24.5,
+            8.0,
+            21.75
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            8.0,
+            21.75
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              8.0,
+              21.5
+            ],
+            [
+              24.5,
+              8.0,
+              21.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              8.0,
+              21.75
+            ],
+            [
+              24.5,
+              8.0,
+              21.5
+            ]
+          ],
+          "to": [
+            24.5,
+            8.0,
+            21.5
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            8.0,
+            21.5
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              8.5,
+              21.25
+            ],
+            [
+              24.5,
+              8.5,
+              21.5
+            ],
+            [
+              24.5,
+              8.0,
+              21.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              8.0,
+              21.5
+            ],
+            [
+              24.5,
+              8.5,
+              21.5
+            ],
+            [
+              24.5,
+              8.5,
+              21.25
+            ]
+          ],
+          "to": [
+            24.5,
+            8.5,
+            21.25
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            8.5,
+            21.25
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              8.5,
+              21.0
+            ],
+            [
+              24.5,
+              8.5,
+              21.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              8.5,
+              21.25
+            ],
+            [
+              24.5,
+              8.5,
+              21.0
+            ]
+          ],
+          "to": [
+            24.5,
+            8.5,
+            21.0
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            8.5,
+            21.0
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              9.0,
+              20.75
+            ],
+            [
+              24.5,
+              9.0,
+              21.0
+            ],
+            [
+              24.5,
+              8.5,
+              21.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              8.5,
+              21.0
+            ],
+            [
+              24.5,
+              9.0,
+              21.0
+            ],
+            [
+              24.5,
+              9.0,
+              20.75
+            ]
+          ],
+          "to": [
+            24.5,
+            9.0,
+            20.75
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            9.0,
+            20.75
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              9.0,
+              20.5
+            ],
+            [
+              24.5,
+              9.0,
+              20.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              9.0,
+              20.75
+            ],
+            [
+              24.5,
+              9.0,
+              20.5
+            ]
+          ],
+          "to": [
+            24.5,
+            9.0,
+            20.5
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            9.0,
+            20.5
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              9.0,
+              20.25
+            ],
+            [
+              24.5,
+              9.0,
+              20.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              9.0,
+              20.5
+            ],
+            [
+              24.5,
+              9.0,
+              20.25
+            ]
+          ],
+          "to": [
+            24.5,
+            9.0,
+            20.25
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            9.0,
+            20.25
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              9.0,
+              20.0
+            ],
+            [
+              24.5,
+              9.0,
+              20.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              9.0,
+              20.25
+            ],
+            [
+              24.5,
+              9.0,
+              20.0
+            ]
+          ],
+          "to": [
+            24.5,
+            9.0,
+            20.0
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            9.0,
+            20.0
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              9.0,
+              19.75
+            ],
+            [
+              24.5,
+              9.0,
+              20.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              9.0,
+              20.0
+            ],
+            [
+              24.5,
+              9.0,
+              19.75
+            ]
+          ],
+          "to": [
+            24.5,
+            9.0,
+            19.75
+          ]
+        },
+        {
+          "from": [
+            24.5,
+            9.0,
+            19.75
+          ],
+          "descending_sweep": [
+            [
+              24.5,
+              9.0,
+              19.5
+            ],
+            [
+              24.5,
+              9.0,
+              19.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              24.5,
+              9.0,
+              19.75
+            ],
+            [
+              24.5,
+              9.0,
+              19.5
+            ]
+          ],
+          "to": [
+            24.5,
+            9.0,
+            19.5
+          ]
+        }
+      ]
+    },
+    {
+      "status": "PASS_ASCEND_AND_DESCEND",
+      "bottom_center": [
+        25.5,
+        2.0,
+        27.5
+      ],
+      "top_center": [
+        25.5,
+        9.0,
+        19.5
+      ],
+      "lane_block_x": 25,
+      "ordered_segments": [
+        {
+          "from": [
+            25.5,
+            2.0,
+            27.5
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              2.5,
+              27.25
+            ],
+            [
+              25.5,
+              2.5,
+              27.5
+            ],
+            [
+              25.5,
+              2.0,
+              27.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              2.0,
+              27.5
+            ],
+            [
+              25.5,
+              2.5,
+              27.5
+            ],
+            [
+              25.5,
+              2.5,
+              27.25
+            ]
+          ],
+          "to": [
+            25.5,
+            2.5,
+            27.25
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            2.5,
+            27.25
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              2.5,
+              27.0
+            ],
+            [
+              25.5,
+              2.5,
+              27.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              2.5,
+              27.25
+            ],
+            [
+              25.5,
+              2.5,
+              27.0
+            ]
+          ],
+          "to": [
+            25.5,
+            2.5,
+            27.0
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            2.5,
+            27.0
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              3.0,
+              26.75
+            ],
+            [
+              25.5,
+              3.0,
+              27.0
+            ],
+            [
+              25.5,
+              2.5,
+              27.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              2.5,
+              27.0
+            ],
+            [
+              25.5,
+              3.0,
+              27.0
+            ],
+            [
+              25.5,
+              3.0,
+              26.75
+            ]
+          ],
+          "to": [
+            25.5,
+            3.0,
+            26.75
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            3.0,
+            26.75
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              3.0,
+              26.5
+            ],
+            [
+              25.5,
+              3.0,
+              26.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              3.0,
+              26.75
+            ],
+            [
+              25.5,
+              3.0,
+              26.5
+            ]
+          ],
+          "to": [
+            25.5,
+            3.0,
+            26.5
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            3.0,
+            26.5
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              3.5,
+              26.25
+            ],
+            [
+              25.5,
+              3.5,
+              26.5
+            ],
+            [
+              25.5,
+              3.0,
+              26.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              3.0,
+              26.5
+            ],
+            [
+              25.5,
+              3.5,
+              26.5
+            ],
+            [
+              25.5,
+              3.5,
+              26.25
+            ]
+          ],
+          "to": [
+            25.5,
+            3.5,
+            26.25
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            3.5,
+            26.25
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              3.5,
+              26.0
+            ],
+            [
+              25.5,
+              3.5,
+              26.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              3.5,
+              26.25
+            ],
+            [
+              25.5,
+              3.5,
+              26.0
+            ]
+          ],
+          "to": [
+            25.5,
+            3.5,
+            26.0
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            3.5,
+            26.0
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              4.0,
+              25.75
+            ],
+            [
+              25.5,
+              4.0,
+              26.0
+            ],
+            [
+              25.5,
+              3.5,
+              26.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              3.5,
+              26.0
+            ],
+            [
+              25.5,
+              4.0,
+              26.0
+            ],
+            [
+              25.5,
+              4.0,
+              25.75
+            ]
+          ],
+          "to": [
+            25.5,
+            4.0,
+            25.75
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            4.0,
+            25.75
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              4.0,
+              25.5
+            ],
+            [
+              25.5,
+              4.0,
+              25.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              4.0,
+              25.75
+            ],
+            [
+              25.5,
+              4.0,
+              25.5
+            ]
+          ],
+          "to": [
+            25.5,
+            4.0,
+            25.5
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            4.0,
+            25.5
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              4.5,
+              25.25
+            ],
+            [
+              25.5,
+              4.5,
+              25.5
+            ],
+            [
+              25.5,
+              4.0,
+              25.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              4.0,
+              25.5
+            ],
+            [
+              25.5,
+              4.5,
+              25.5
+            ],
+            [
+              25.5,
+              4.5,
+              25.25
+            ]
+          ],
+          "to": [
+            25.5,
+            4.5,
+            25.25
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            4.5,
+            25.25
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              4.5,
+              25.0
+            ],
+            [
+              25.5,
+              4.5,
+              25.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              4.5,
+              25.25
+            ],
+            [
+              25.5,
+              4.5,
+              25.0
+            ]
+          ],
+          "to": [
+            25.5,
+            4.5,
+            25.0
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            4.5,
+            25.0
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              5.0,
+              24.75
+            ],
+            [
+              25.5,
+              5.0,
+              25.0
+            ],
+            [
+              25.5,
+              4.5,
+              25.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              4.5,
+              25.0
+            ],
+            [
+              25.5,
+              5.0,
+              25.0
+            ],
+            [
+              25.5,
+              5.0,
+              24.75
+            ]
+          ],
+          "to": [
+            25.5,
+            5.0,
+            24.75
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            5.0,
+            24.75
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              5.0,
+              24.5
+            ],
+            [
+              25.5,
+              5.0,
+              24.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              5.0,
+              24.75
+            ],
+            [
+              25.5,
+              5.0,
+              24.5
+            ]
+          ],
+          "to": [
+            25.5,
+            5.0,
+            24.5
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            5.0,
+            24.5
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              5.5,
+              24.25
+            ],
+            [
+              25.5,
+              5.5,
+              24.5
+            ],
+            [
+              25.5,
+              5.0,
+              24.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              5.0,
+              24.5
+            ],
+            [
+              25.5,
+              5.5,
+              24.5
+            ],
+            [
+              25.5,
+              5.5,
+              24.25
+            ]
+          ],
+          "to": [
+            25.5,
+            5.5,
+            24.25
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            5.5,
+            24.25
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              5.5,
+              24.0
+            ],
+            [
+              25.5,
+              5.5,
+              24.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              5.5,
+              24.25
+            ],
+            [
+              25.5,
+              5.5,
+              24.0
+            ]
+          ],
+          "to": [
+            25.5,
+            5.5,
+            24.0
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            5.5,
+            24.0
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              6.0,
+              23.75
+            ],
+            [
+              25.5,
+              6.0,
+              24.0
+            ],
+            [
+              25.5,
+              5.5,
+              24.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              5.5,
+              24.0
+            ],
+            [
+              25.5,
+              6.0,
+              24.0
+            ],
+            [
+              25.5,
+              6.0,
+              23.75
+            ]
+          ],
+          "to": [
+            25.5,
+            6.0,
+            23.75
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            6.0,
+            23.75
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              6.0,
+              23.5
+            ],
+            [
+              25.5,
+              6.0,
+              23.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              6.0,
+              23.75
+            ],
+            [
+              25.5,
+              6.0,
+              23.5
+            ]
+          ],
+          "to": [
+            25.5,
+            6.0,
+            23.5
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            6.0,
+            23.5
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              6.5,
+              23.25
+            ],
+            [
+              25.5,
+              6.5,
+              23.5
+            ],
+            [
+              25.5,
+              6.0,
+              23.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              6.0,
+              23.5
+            ],
+            [
+              25.5,
+              6.5,
+              23.5
+            ],
+            [
+              25.5,
+              6.5,
+              23.25
+            ]
+          ],
+          "to": [
+            25.5,
+            6.5,
+            23.25
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            6.5,
+            23.25
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              6.5,
+              23.0
+            ],
+            [
+              25.5,
+              6.5,
+              23.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              6.5,
+              23.25
+            ],
+            [
+              25.5,
+              6.5,
+              23.0
+            ]
+          ],
+          "to": [
+            25.5,
+            6.5,
+            23.0
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            6.5,
+            23.0
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              7.0,
+              22.75
+            ],
+            [
+              25.5,
+              7.0,
+              23.0
+            ],
+            [
+              25.5,
+              6.5,
+              23.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              6.5,
+              23.0
+            ],
+            [
+              25.5,
+              7.0,
+              23.0
+            ],
+            [
+              25.5,
+              7.0,
+              22.75
+            ]
+          ],
+          "to": [
+            25.5,
+            7.0,
+            22.75
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            7.0,
+            22.75
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              7.0,
+              22.5
+            ],
+            [
+              25.5,
+              7.0,
+              22.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              7.0,
+              22.75
+            ],
+            [
+              25.5,
+              7.0,
+              22.5
+            ]
+          ],
+          "to": [
+            25.5,
+            7.0,
+            22.5
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            7.0,
+            22.5
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              7.5,
+              22.25
+            ],
+            [
+              25.5,
+              7.5,
+              22.5
+            ],
+            [
+              25.5,
+              7.0,
+              22.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              7.0,
+              22.5
+            ],
+            [
+              25.5,
+              7.5,
+              22.5
+            ],
+            [
+              25.5,
+              7.5,
+              22.25
+            ]
+          ],
+          "to": [
+            25.5,
+            7.5,
+            22.25
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            7.5,
+            22.25
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              7.5,
+              22.0
+            ],
+            [
+              25.5,
+              7.5,
+              22.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              7.5,
+              22.25
+            ],
+            [
+              25.5,
+              7.5,
+              22.0
+            ]
+          ],
+          "to": [
+            25.5,
+            7.5,
+            22.0
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            7.5,
+            22.0
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              8.0,
+              21.75
+            ],
+            [
+              25.5,
+              8.0,
+              22.0
+            ],
+            [
+              25.5,
+              7.5,
+              22.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              7.5,
+              22.0
+            ],
+            [
+              25.5,
+              8.0,
+              22.0
+            ],
+            [
+              25.5,
+              8.0,
+              21.75
+            ]
+          ],
+          "to": [
+            25.5,
+            8.0,
+            21.75
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            8.0,
+            21.75
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              8.0,
+              21.5
+            ],
+            [
+              25.5,
+              8.0,
+              21.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              8.0,
+              21.75
+            ],
+            [
+              25.5,
+              8.0,
+              21.5
+            ]
+          ],
+          "to": [
+            25.5,
+            8.0,
+            21.5
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            8.0,
+            21.5
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              8.5,
+              21.25
+            ],
+            [
+              25.5,
+              8.5,
+              21.5
+            ],
+            [
+              25.5,
+              8.0,
+              21.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              8.0,
+              21.5
+            ],
+            [
+              25.5,
+              8.5,
+              21.5
+            ],
+            [
+              25.5,
+              8.5,
+              21.25
+            ]
+          ],
+          "to": [
+            25.5,
+            8.5,
+            21.25
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            8.5,
+            21.25
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              8.5,
+              21.0
+            ],
+            [
+              25.5,
+              8.5,
+              21.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              8.5,
+              21.25
+            ],
+            [
+              25.5,
+              8.5,
+              21.0
+            ]
+          ],
+          "to": [
+            25.5,
+            8.5,
+            21.0
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            8.5,
+            21.0
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              9.0,
+              20.75
+            ],
+            [
+              25.5,
+              9.0,
+              21.0
+            ],
+            [
+              25.5,
+              8.5,
+              21.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              8.5,
+              21.0
+            ],
+            [
+              25.5,
+              9.0,
+              21.0
+            ],
+            [
+              25.5,
+              9.0,
+              20.75
+            ]
+          ],
+          "to": [
+            25.5,
+            9.0,
+            20.75
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            9.0,
+            20.75
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              9.0,
+              20.5
+            ],
+            [
+              25.5,
+              9.0,
+              20.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              9.0,
+              20.75
+            ],
+            [
+              25.5,
+              9.0,
+              20.5
+            ]
+          ],
+          "to": [
+            25.5,
+            9.0,
+            20.5
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            9.0,
+            20.5
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              9.0,
+              20.25
+            ],
+            [
+              25.5,
+              9.0,
+              20.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              9.0,
+              20.5
+            ],
+            [
+              25.5,
+              9.0,
+              20.25
+            ]
+          ],
+          "to": [
+            25.5,
+            9.0,
+            20.25
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            9.0,
+            20.25
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              9.0,
+              20.0
+            ],
+            [
+              25.5,
+              9.0,
+              20.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              9.0,
+              20.25
+            ],
+            [
+              25.5,
+              9.0,
+              20.0
+            ]
+          ],
+          "to": [
+            25.5,
+            9.0,
+            20.0
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            9.0,
+            20.0
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              9.0,
+              19.75
+            ],
+            [
+              25.5,
+              9.0,
+              20.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              9.0,
+              20.0
+            ],
+            [
+              25.5,
+              9.0,
+              19.75
+            ]
+          ],
+          "to": [
+            25.5,
+            9.0,
+            19.75
+          ]
+        },
+        {
+          "from": [
+            25.5,
+            9.0,
+            19.75
+          ],
+          "descending_sweep": [
+            [
+              25.5,
+              9.0,
+              19.5
+            ],
+            [
+              25.5,
+              9.0,
+              19.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              25.5,
+              9.0,
+              19.75
+            ],
+            [
+              25.5,
+              9.0,
+              19.5
+            ]
+          ],
+          "to": [
+            25.5,
+            9.0,
+            19.5
+          ]
+        }
+      ]
+    },
+    {
+      "status": "PASS_ASCEND_AND_DESCEND",
+      "bottom_center": [
+        26.5,
+        2.0,
+        27.5
+      ],
+      "top_center": [
+        26.5,
+        9.0,
+        19.5
+      ],
+      "lane_block_x": 26,
+      "ordered_segments": [
+        {
+          "from": [
+            26.5,
+            2.0,
+            27.5
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              2.5,
+              27.25
+            ],
+            [
+              26.5,
+              2.5,
+              27.5
+            ],
+            [
+              26.5,
+              2.0,
+              27.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              2.0,
+              27.5
+            ],
+            [
+              26.5,
+              2.5,
+              27.5
+            ],
+            [
+              26.5,
+              2.5,
+              27.25
+            ]
+          ],
+          "to": [
+            26.5,
+            2.5,
+            27.25
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            2.5,
+            27.25
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              2.5,
+              27.0
+            ],
+            [
+              26.5,
+              2.5,
+              27.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              2.5,
+              27.25
+            ],
+            [
+              26.5,
+              2.5,
+              27.0
+            ]
+          ],
+          "to": [
+            26.5,
+            2.5,
+            27.0
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            2.5,
+            27.0
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              3.0,
+              26.75
+            ],
+            [
+              26.5,
+              3.0,
+              27.0
+            ],
+            [
+              26.5,
+              2.5,
+              27.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              2.5,
+              27.0
+            ],
+            [
+              26.5,
+              3.0,
+              27.0
+            ],
+            [
+              26.5,
+              3.0,
+              26.75
+            ]
+          ],
+          "to": [
+            26.5,
+            3.0,
+            26.75
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            3.0,
+            26.75
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              3.0,
+              26.5
+            ],
+            [
+              26.5,
+              3.0,
+              26.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              3.0,
+              26.75
+            ],
+            [
+              26.5,
+              3.0,
+              26.5
+            ]
+          ],
+          "to": [
+            26.5,
+            3.0,
+            26.5
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            3.0,
+            26.5
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              3.5,
+              26.25
+            ],
+            [
+              26.5,
+              3.5,
+              26.5
+            ],
+            [
+              26.5,
+              3.0,
+              26.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              3.0,
+              26.5
+            ],
+            [
+              26.5,
+              3.5,
+              26.5
+            ],
+            [
+              26.5,
+              3.5,
+              26.25
+            ]
+          ],
+          "to": [
+            26.5,
+            3.5,
+            26.25
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            3.5,
+            26.25
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              3.5,
+              26.0
+            ],
+            [
+              26.5,
+              3.5,
+              26.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              3.5,
+              26.25
+            ],
+            [
+              26.5,
+              3.5,
+              26.0
+            ]
+          ],
+          "to": [
+            26.5,
+            3.5,
+            26.0
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            3.5,
+            26.0
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              4.0,
+              25.75
+            ],
+            [
+              26.5,
+              4.0,
+              26.0
+            ],
+            [
+              26.5,
+              3.5,
+              26.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              3.5,
+              26.0
+            ],
+            [
+              26.5,
+              4.0,
+              26.0
+            ],
+            [
+              26.5,
+              4.0,
+              25.75
+            ]
+          ],
+          "to": [
+            26.5,
+            4.0,
+            25.75
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            4.0,
+            25.75
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              4.0,
+              25.5
+            ],
+            [
+              26.5,
+              4.0,
+              25.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              4.0,
+              25.75
+            ],
+            [
+              26.5,
+              4.0,
+              25.5
+            ]
+          ],
+          "to": [
+            26.5,
+            4.0,
+            25.5
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            4.0,
+            25.5
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              4.5,
+              25.25
+            ],
+            [
+              26.5,
+              4.5,
+              25.5
+            ],
+            [
+              26.5,
+              4.0,
+              25.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              4.0,
+              25.5
+            ],
+            [
+              26.5,
+              4.5,
+              25.5
+            ],
+            [
+              26.5,
+              4.5,
+              25.25
+            ]
+          ],
+          "to": [
+            26.5,
+            4.5,
+            25.25
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            4.5,
+            25.25
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              4.5,
+              25.0
+            ],
+            [
+              26.5,
+              4.5,
+              25.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              4.5,
+              25.25
+            ],
+            [
+              26.5,
+              4.5,
+              25.0
+            ]
+          ],
+          "to": [
+            26.5,
+            4.5,
+            25.0
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            4.5,
+            25.0
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              5.0,
+              24.75
+            ],
+            [
+              26.5,
+              5.0,
+              25.0
+            ],
+            [
+              26.5,
+              4.5,
+              25.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              4.5,
+              25.0
+            ],
+            [
+              26.5,
+              5.0,
+              25.0
+            ],
+            [
+              26.5,
+              5.0,
+              24.75
+            ]
+          ],
+          "to": [
+            26.5,
+            5.0,
+            24.75
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            5.0,
+            24.75
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              5.0,
+              24.5
+            ],
+            [
+              26.5,
+              5.0,
+              24.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              5.0,
+              24.75
+            ],
+            [
+              26.5,
+              5.0,
+              24.5
+            ]
+          ],
+          "to": [
+            26.5,
+            5.0,
+            24.5
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            5.0,
+            24.5
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              5.5,
+              24.25
+            ],
+            [
+              26.5,
+              5.5,
+              24.5
+            ],
+            [
+              26.5,
+              5.0,
+              24.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              5.0,
+              24.5
+            ],
+            [
+              26.5,
+              5.5,
+              24.5
+            ],
+            [
+              26.5,
+              5.5,
+              24.25
+            ]
+          ],
+          "to": [
+            26.5,
+            5.5,
+            24.25
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            5.5,
+            24.25
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              5.5,
+              24.0
+            ],
+            [
+              26.5,
+              5.5,
+              24.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              5.5,
+              24.25
+            ],
+            [
+              26.5,
+              5.5,
+              24.0
+            ]
+          ],
+          "to": [
+            26.5,
+            5.5,
+            24.0
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            5.5,
+            24.0
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              6.0,
+              23.75
+            ],
+            [
+              26.5,
+              6.0,
+              24.0
+            ],
+            [
+              26.5,
+              5.5,
+              24.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              5.5,
+              24.0
+            ],
+            [
+              26.5,
+              6.0,
+              24.0
+            ],
+            [
+              26.5,
+              6.0,
+              23.75
+            ]
+          ],
+          "to": [
+            26.5,
+            6.0,
+            23.75
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            6.0,
+            23.75
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              6.0,
+              23.5
+            ],
+            [
+              26.5,
+              6.0,
+              23.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              6.0,
+              23.75
+            ],
+            [
+              26.5,
+              6.0,
+              23.5
+            ]
+          ],
+          "to": [
+            26.5,
+            6.0,
+            23.5
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            6.0,
+            23.5
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              6.5,
+              23.25
+            ],
+            [
+              26.5,
+              6.5,
+              23.5
+            ],
+            [
+              26.5,
+              6.0,
+              23.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              6.0,
+              23.5
+            ],
+            [
+              26.5,
+              6.5,
+              23.5
+            ],
+            [
+              26.5,
+              6.5,
+              23.25
+            ]
+          ],
+          "to": [
+            26.5,
+            6.5,
+            23.25
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            6.5,
+            23.25
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              6.5,
+              23.0
+            ],
+            [
+              26.5,
+              6.5,
+              23.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              6.5,
+              23.25
+            ],
+            [
+              26.5,
+              6.5,
+              23.0
+            ]
+          ],
+          "to": [
+            26.5,
+            6.5,
+            23.0
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            6.5,
+            23.0
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              7.0,
+              22.75
+            ],
+            [
+              26.5,
+              7.0,
+              23.0
+            ],
+            [
+              26.5,
+              6.5,
+              23.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              6.5,
+              23.0
+            ],
+            [
+              26.5,
+              7.0,
+              23.0
+            ],
+            [
+              26.5,
+              7.0,
+              22.75
+            ]
+          ],
+          "to": [
+            26.5,
+            7.0,
+            22.75
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            7.0,
+            22.75
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              7.0,
+              22.5
+            ],
+            [
+              26.5,
+              7.0,
+              22.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              7.0,
+              22.75
+            ],
+            [
+              26.5,
+              7.0,
+              22.5
+            ]
+          ],
+          "to": [
+            26.5,
+            7.0,
+            22.5
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            7.0,
+            22.5
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              7.5,
+              22.25
+            ],
+            [
+              26.5,
+              7.5,
+              22.5
+            ],
+            [
+              26.5,
+              7.0,
+              22.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              7.0,
+              22.5
+            ],
+            [
+              26.5,
+              7.5,
+              22.5
+            ],
+            [
+              26.5,
+              7.5,
+              22.25
+            ]
+          ],
+          "to": [
+            26.5,
+            7.5,
+            22.25
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            7.5,
+            22.25
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              7.5,
+              22.0
+            ],
+            [
+              26.5,
+              7.5,
+              22.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              7.5,
+              22.25
+            ],
+            [
+              26.5,
+              7.5,
+              22.0
+            ]
+          ],
+          "to": [
+            26.5,
+            7.5,
+            22.0
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            7.5,
+            22.0
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              8.0,
+              21.75
+            ],
+            [
+              26.5,
+              8.0,
+              22.0
+            ],
+            [
+              26.5,
+              7.5,
+              22.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              7.5,
+              22.0
+            ],
+            [
+              26.5,
+              8.0,
+              22.0
+            ],
+            [
+              26.5,
+              8.0,
+              21.75
+            ]
+          ],
+          "to": [
+            26.5,
+            8.0,
+            21.75
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            8.0,
+            21.75
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              8.0,
+              21.5
+            ],
+            [
+              26.5,
+              8.0,
+              21.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              8.0,
+              21.75
+            ],
+            [
+              26.5,
+              8.0,
+              21.5
+            ]
+          ],
+          "to": [
+            26.5,
+            8.0,
+            21.5
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            8.0,
+            21.5
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              8.5,
+              21.25
+            ],
+            [
+              26.5,
+              8.5,
+              21.5
+            ],
+            [
+              26.5,
+              8.0,
+              21.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              8.0,
+              21.5
+            ],
+            [
+              26.5,
+              8.5,
+              21.5
+            ],
+            [
+              26.5,
+              8.5,
+              21.25
+            ]
+          ],
+          "to": [
+            26.5,
+            8.5,
+            21.25
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            8.5,
+            21.25
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              8.5,
+              21.0
+            ],
+            [
+              26.5,
+              8.5,
+              21.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              8.5,
+              21.25
+            ],
+            [
+              26.5,
+              8.5,
+              21.0
+            ]
+          ],
+          "to": [
+            26.5,
+            8.5,
+            21.0
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            8.5,
+            21.0
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              9.0,
+              20.75
+            ],
+            [
+              26.5,
+              9.0,
+              21.0
+            ],
+            [
+              26.5,
+              8.5,
+              21.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              8.5,
+              21.0
+            ],
+            [
+              26.5,
+              9.0,
+              21.0
+            ],
+            [
+              26.5,
+              9.0,
+              20.75
+            ]
+          ],
+          "to": [
+            26.5,
+            9.0,
+            20.75
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            9.0,
+            20.75
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              9.0,
+              20.5
+            ],
+            [
+              26.5,
+              9.0,
+              20.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              9.0,
+              20.75
+            ],
+            [
+              26.5,
+              9.0,
+              20.5
+            ]
+          ],
+          "to": [
+            26.5,
+            9.0,
+            20.5
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            9.0,
+            20.5
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              9.0,
+              20.25
+            ],
+            [
+              26.5,
+              9.0,
+              20.5
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              9.0,
+              20.5
+            ],
+            [
+              26.5,
+              9.0,
+              20.25
+            ]
+          ],
+          "to": [
+            26.5,
+            9.0,
+            20.25
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            9.0,
+            20.25
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              9.0,
+              20.0
+            ],
+            [
+              26.5,
+              9.0,
+              20.25
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              9.0,
+              20.25
+            ],
+            [
+              26.5,
+              9.0,
+              20.0
+            ]
+          ],
+          "to": [
+            26.5,
+            9.0,
+            20.0
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            9.0,
+            20.0
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              9.0,
+              19.75
+            ],
+            [
+              26.5,
+              9.0,
+              20.0
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              9.0,
+              20.0
+            ],
+            [
+              26.5,
+              9.0,
+              19.75
+            ]
+          ],
+          "to": [
+            26.5,
+            9.0,
+            19.75
+          ]
+        },
+        {
+          "from": [
+            26.5,
+            9.0,
+            19.75
+          ],
+          "descending_sweep": [
+            [
+              26.5,
+              9.0,
+              19.5
+            ],
+            [
+              26.5,
+              9.0,
+              19.75
+            ]
+          ],
+          "ascending_sweep": [
+            [
+              26.5,
+              9.0,
+              19.75
+            ],
+            [
+              26.5,
+              9.0,
+              19.5
+            ]
+          ],
+          "to": [
+            26.5,
+            9.0,
+            19.5
+          ]
+        }
+      ]
+    }
+  ],
+  "registration": "HOLD; supplemental producer evidence only; independent reviewer must reproduce"
+}

@@ -1,0 +1,24 @@
+{
+  "split": false,
+  "reason": "27x16x31 single entrance envelope, 27x26 roofed hall and 5-deep open forecourt",
+  "world_origin": null,
+  "local_origin": [
+    0,
+    0,
+    0
+  ],
+  "assembly_order": [
+    {
+      "step": 1,
+      "id": "S7R2-07",
+      "relative_origin": [
+        0,
+        0,
+        0
+      ],
+      "template": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\07-entrance\\incoming\\S7R2-07\\room.nbt"
+    }
+  ],
+  "collision_policy": "Reserve full bounding volume including authored air. Reject occupied conflict, no unconditional clearing.",
+  "permanent_previous_S7_06_boundary": "Its L-outside quadrant is explicit air in rectangular NBT and will clear existing terrain on vanilla placement; preserve full envelope reservation or use separately implemented skip-air-quadrant placer. No such placer implemented/deployed."
+}

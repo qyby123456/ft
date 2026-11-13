@@ -1,0 +1,215 @@
+{
+  "status": "AWAITING_INDEPENDENT_REGISTRATION_ACCEPTANCE",
+  "rooms": [
+    {
+      "id": "S7R2-07",
+      "name": "菌境门厅·双扉前阶",
+      "size": [
+        27,
+        16,
+        31
+      ],
+      "roof_covered_rectangle": [
+        27,
+        26
+      ],
+      "facing": "south",
+      "entrance": [
+        12,
+        1,
+        30
+      ],
+      "interior": [
+        12,
+        2,
+        23
+      ],
+      "test_targets": [
+        [
+          12,
+          1,
+          30
+        ],
+        [
+          13,
+          1,
+          30
+        ],
+        [
+          12,
+          1,
+          27
+        ],
+        [
+          12,
+          1.5,
+          26
+        ],
+        [
+          13,
+          1.5,
+          26
+        ],
+        [
+          12,
+          2,
+          25
+        ],
+        [
+          13,
+          2,
+          25
+        ],
+        [
+          12,
+          2,
+          23
+        ],
+        [
+          13,
+          2,
+          18
+        ],
+        [
+          13,
+          2,
+          10
+        ],
+        [
+          13,
+          2,
+          3
+        ],
+        [
+          13,
+          2,
+          0
+        ],
+        [
+          7,
+          2,
+          20
+        ],
+        [
+          19,
+          2,
+          21
+        ],
+        [
+          5,
+          2,
+          12
+        ],
+        [
+          20,
+          2,
+          13
+        ],
+        [
+          17,
+          2,
+          17
+        ]
+      ],
+      "connections": [
+        {
+          "id": "north-deeper-arch",
+          "direction": "north",
+          "feet": [
+            13,
+            2,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            13,
+            2,
+            -1
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "visible rear doorway leading deeper"
+        },
+        {
+          "id": "south-exterior-approach",
+          "direction": "south",
+          "feet": [
+            12,
+            1,
+            30
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            12,
+            1,
+            31
+          ],
+          "opening": [
+            2,
+            3
+          ],
+          "source": "outside front double-door stair approach; actual gate at z25,y2"
+        }
+      ],
+      "gate": {
+        "feet": [
+          12,
+          2,
+          25
+        ],
+        "opening": [
+          2,
+          3
+        ],
+        "state": "open=true authored source; interactive opening NOT_RUN"
+      },
+      "stairs": {
+        "outside_feet_y": 1,
+        "slab_feet_y": 1.5,
+        "inside_feet_y": 2,
+        "slab_z": 26
+      },
+      "sha256": "f1a36958704abd8ba8fe80a6c98ffc4e99f2d97101af52ecd61c1fd2f970cab6",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-07-entrance.png",
+      "reference_sha256": "2f457aeac837ffa552f1c4ac05fffbdcd389d99a089b2102018d319c8fa9e4a9",
+      "status": "AWAITING_INDEPENDENT_REGISTRATION_ACCEPTANCE",
+      "runtime_slot": null,
+      "geometry_origin": "Original S7-07 entrance with real double doors and approach step, guard alcoves, geometric notice board, empty crates and unlit brazier; no reused room geometry",
+      "coordinate_system": "integer feet blocks except half-slab targets; +X east +Y up +Z south",
+      "world_placement": "NOT_RUN"
+    }
+  ],
+  "qa": {
+    "status": "PASS_PRODUCER_SELF_CHECK_ONLY",
+    "sha256": "f1a36958704abd8ba8fe80a6c98ffc4e99f2d97101af52ecd61c1fd2f970cab6",
+    "static": "PASS",
+    "native_load_block_entities_tags": "PASS (six empty barrels, one banner and one unlit campfire block entity)",
+    "native_survival_points": 47,
+    "native_route_targets": 17,
+    "routes_model": "actual native 0.6x1.8 body, variable feet y1/1.5/2, half-grid, <=0.5 steps lift-horizontal-lower sweep and reverse, dry supported endpoints",
+    "native_run": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\07-entrance\\qa\\isolated-run-04",
+    "lodestone": "5/5 PASS",
+    "duplicates_compared": 33,
+    "exact_geometry_matches": 0,
+    "world_neighbor_random_fluid_ticks": "NOT_RUN",
+    "registration_accepted": false,
+    "next_image_allowed": false
+  },
+  "geometry_origin": "Original single-image S7-07 entrance antechamber with double doors and half-block approach step recipe, previous room geometry not reused",
+  "previous_acceptance": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S7-06-independent\\independent-details.json",
+  "reference_analysis": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\07-entrance\\REFERENCE_ANALYSIS.md",
+  "assembly": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\07-entrance\\assembly.json",
+  "connections": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\07-entrance\\connections.json",
+  "preview_only_derivative": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\07-entrance\\views\\PREVIEW_ONLY_cutaway.nbt",
+  "next_image_started": false
+}

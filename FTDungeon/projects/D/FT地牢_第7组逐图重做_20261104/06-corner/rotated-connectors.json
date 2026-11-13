@@ -1,0 +1,915 @@
+{
+  "source_sha256": "c254db1740fb97fd4e055fc8cf65030eb44e44886e3b5d0fbd0bfe4546edbd12",
+  "rule": "clockwise XZ x=depth-1-z,z=old_x; swap width/depth EACH quarter turn. Normals x=-z,z=old_x; y unchanged; local nonnegative envelope, not world pivot",
+  "rotations": {
+    "0": {
+      "size": [
+        25,
+        14,
+        25
+      ],
+      "ports": [
+        {
+          "id": "north-approach",
+          "direction": "north",
+          "feet": [
+            6,
+            2,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            6,
+            2,
+            -1
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "one arm of reference turn; local orientation selected for engineering",
+          "air_cells": [
+            [
+              5,
+              2,
+              0
+            ],
+            [
+              5,
+              3,
+              0
+            ],
+            [
+              5,
+              4,
+              0
+            ],
+            [
+              5,
+              5,
+              0
+            ],
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              6,
+              3,
+              0
+            ],
+            [
+              6,
+              4,
+              0
+            ],
+            [
+              6,
+              5,
+              0
+            ],
+            [
+              7,
+              2,
+              0
+            ],
+            [
+              7,
+              3,
+              0
+            ],
+            [
+              7,
+              4,
+              0
+            ],
+            [
+              7,
+              5,
+              0
+            ]
+          ],
+          "floor_cells": [
+            [
+              5,
+              1,
+              0
+            ],
+            [
+              6,
+              1,
+              0
+            ],
+            [
+              7,
+              1,
+              0
+            ]
+          ],
+          "player_center": [
+            6.5,
+            2,
+            0.5
+          ],
+          "outside_unknown": true
+        },
+        {
+          "id": "east-departure",
+          "direction": "east",
+          "feet": [
+            24,
+            2,
+            18
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            25,
+            2,
+            18
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "other arm of reference turn; no third branch",
+          "air_cells": [
+            [
+              24,
+              2,
+              17
+            ],
+            [
+              24,
+              3,
+              17
+            ],
+            [
+              24,
+              4,
+              17
+            ],
+            [
+              24,
+              5,
+              17
+            ],
+            [
+              24,
+              2,
+              18
+            ],
+            [
+              24,
+              3,
+              18
+            ],
+            [
+              24,
+              4,
+              18
+            ],
+            [
+              24,
+              5,
+              18
+            ],
+            [
+              24,
+              2,
+              19
+            ],
+            [
+              24,
+              3,
+              19
+            ],
+            [
+              24,
+              4,
+              19
+            ],
+            [
+              24,
+              5,
+              19
+            ]
+          ],
+          "floor_cells": [
+            [
+              24,
+              1,
+              17
+            ],
+            [
+              24,
+              1,
+              18
+            ],
+            [
+              24,
+              1,
+              19
+            ]
+          ],
+          "player_center": [
+            24.5,
+            2,
+            18.5
+          ],
+          "outside_unknown": true
+        }
+      ]
+    },
+    "90": {
+      "size": [
+        25,
+        14,
+        25
+      ],
+      "ports": [
+        {
+          "id": "north-approach",
+          "direction": "east",
+          "feet": [
+            24,
+            2,
+            6
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            25,
+            2,
+            6
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "one arm of reference turn; local orientation selected for engineering",
+          "air_cells": [
+            [
+              24,
+              2,
+              5
+            ],
+            [
+              24,
+              3,
+              5
+            ],
+            [
+              24,
+              4,
+              5
+            ],
+            [
+              24,
+              5,
+              5
+            ],
+            [
+              24,
+              2,
+              6
+            ],
+            [
+              24,
+              3,
+              6
+            ],
+            [
+              24,
+              4,
+              6
+            ],
+            [
+              24,
+              5,
+              6
+            ],
+            [
+              24,
+              2,
+              7
+            ],
+            [
+              24,
+              3,
+              7
+            ],
+            [
+              24,
+              4,
+              7
+            ],
+            [
+              24,
+              5,
+              7
+            ]
+          ],
+          "floor_cells": [
+            [
+              24,
+              1,
+              5
+            ],
+            [
+              24,
+              1,
+              6
+            ],
+            [
+              24,
+              1,
+              7
+            ]
+          ],
+          "player_center": [
+            24.5,
+            2,
+            6.5
+          ],
+          "outside_unknown": true
+        },
+        {
+          "id": "east-departure",
+          "direction": "south",
+          "feet": [
+            6,
+            2,
+            24
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            6,
+            2,
+            25
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "other arm of reference turn; no third branch",
+          "air_cells": [
+            [
+              7,
+              2,
+              24
+            ],
+            [
+              7,
+              3,
+              24
+            ],
+            [
+              7,
+              4,
+              24
+            ],
+            [
+              7,
+              5,
+              24
+            ],
+            [
+              6,
+              2,
+              24
+            ],
+            [
+              6,
+              3,
+              24
+            ],
+            [
+              6,
+              4,
+              24
+            ],
+            [
+              6,
+              5,
+              24
+            ],
+            [
+              5,
+              2,
+              24
+            ],
+            [
+              5,
+              3,
+              24
+            ],
+            [
+              5,
+              4,
+              24
+            ],
+            [
+              5,
+              5,
+              24
+            ]
+          ],
+          "floor_cells": [
+            [
+              7,
+              1,
+              24
+            ],
+            [
+              6,
+              1,
+              24
+            ],
+            [
+              5,
+              1,
+              24
+            ]
+          ],
+          "player_center": [
+            6.5,
+            2,
+            24.5
+          ],
+          "outside_unknown": true
+        }
+      ]
+    },
+    "180": {
+      "size": [
+        25,
+        14,
+        25
+      ],
+      "ports": [
+        {
+          "id": "north-approach",
+          "direction": "south",
+          "feet": [
+            18,
+            2,
+            24
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            18,
+            2,
+            25
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "one arm of reference turn; local orientation selected for engineering",
+          "air_cells": [
+            [
+              19,
+              2,
+              24
+            ],
+            [
+              19,
+              3,
+              24
+            ],
+            [
+              19,
+              4,
+              24
+            ],
+            [
+              19,
+              5,
+              24
+            ],
+            [
+              18,
+              2,
+              24
+            ],
+            [
+              18,
+              3,
+              24
+            ],
+            [
+              18,
+              4,
+              24
+            ],
+            [
+              18,
+              5,
+              24
+            ],
+            [
+              17,
+              2,
+              24
+            ],
+            [
+              17,
+              3,
+              24
+            ],
+            [
+              17,
+              4,
+              24
+            ],
+            [
+              17,
+              5,
+              24
+            ]
+          ],
+          "floor_cells": [
+            [
+              19,
+              1,
+              24
+            ],
+            [
+              18,
+              1,
+              24
+            ],
+            [
+              17,
+              1,
+              24
+            ]
+          ],
+          "player_center": [
+            18.5,
+            2,
+            24.5
+          ],
+          "outside_unknown": true
+        },
+        {
+          "id": "east-departure",
+          "direction": "west",
+          "feet": [
+            0,
+            2,
+            6
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            -1,
+            2,
+            6
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "other arm of reference turn; no third branch",
+          "air_cells": [
+            [
+              0,
+              2,
+              7
+            ],
+            [
+              0,
+              3,
+              7
+            ],
+            [
+              0,
+              4,
+              7
+            ],
+            [
+              0,
+              5,
+              7
+            ],
+            [
+              0,
+              2,
+              6
+            ],
+            [
+              0,
+              3,
+              6
+            ],
+            [
+              0,
+              4,
+              6
+            ],
+            [
+              0,
+              5,
+              6
+            ],
+            [
+              0,
+              2,
+              5
+            ],
+            [
+              0,
+              3,
+              5
+            ],
+            [
+              0,
+              4,
+              5
+            ],
+            [
+              0,
+              5,
+              5
+            ]
+          ],
+          "floor_cells": [
+            [
+              0,
+              1,
+              7
+            ],
+            [
+              0,
+              1,
+              6
+            ],
+            [
+              0,
+              1,
+              5
+            ]
+          ],
+          "player_center": [
+            0.5,
+            2,
+            6.5
+          ],
+          "outside_unknown": true
+        }
+      ]
+    },
+    "270": {
+      "size": [
+        25,
+        14,
+        25
+      ],
+      "ports": [
+        {
+          "id": "north-approach",
+          "direction": "west",
+          "feet": [
+            0,
+            2,
+            18
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            -1,
+            2,
+            18
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "one arm of reference turn; local orientation selected for engineering",
+          "air_cells": [
+            [
+              0,
+              2,
+              19
+            ],
+            [
+              0,
+              3,
+              19
+            ],
+            [
+              0,
+              4,
+              19
+            ],
+            [
+              0,
+              5,
+              19
+            ],
+            [
+              0,
+              2,
+              18
+            ],
+            [
+              0,
+              3,
+              18
+            ],
+            [
+              0,
+              4,
+              18
+            ],
+            [
+              0,
+              5,
+              18
+            ],
+            [
+              0,
+              2,
+              17
+            ],
+            [
+              0,
+              3,
+              17
+            ],
+            [
+              0,
+              4,
+              17
+            ],
+            [
+              0,
+              5,
+              17
+            ]
+          ],
+          "floor_cells": [
+            [
+              0,
+              1,
+              19
+            ],
+            [
+              0,
+              1,
+              18
+            ],
+            [
+              0,
+              1,
+              17
+            ]
+          ],
+          "player_center": [
+            0.5,
+            2,
+            18.5
+          ],
+          "outside_unknown": true
+        },
+        {
+          "id": "east-departure",
+          "direction": "north",
+          "feet": [
+            18,
+            2,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            18,
+            2,
+            -1
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "other arm of reference turn; no third branch",
+          "air_cells": [
+            [
+              17,
+              2,
+              0
+            ],
+            [
+              17,
+              3,
+              0
+            ],
+            [
+              17,
+              4,
+              0
+            ],
+            [
+              17,
+              5,
+              0
+            ],
+            [
+              18,
+              2,
+              0
+            ],
+            [
+              18,
+              3,
+              0
+            ],
+            [
+              18,
+              4,
+              0
+            ],
+            [
+              18,
+              5,
+              0
+            ],
+            [
+              19,
+              2,
+              0
+            ],
+            [
+              19,
+              3,
+              0
+            ],
+            [
+              19,
+              4,
+              0
+            ],
+            [
+              19,
+              5,
+              0
+            ]
+          ],
+          "floor_cells": [
+            [
+              17,
+              1,
+              0
+            ],
+            [
+              18,
+              1,
+              0
+            ],
+            [
+              19,
+              1,
+              0
+            ]
+          ],
+          "player_center": [
+            18.5,
+            2,
+            0.5
+          ],
+          "outside_unknown": true
+        }
+      ]
+    }
+  },
+  "world_rotated_template_placement": "NOT_RUN"
+}

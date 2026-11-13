@@ -1,0 +1,193 @@
+{
+  "status": "AWAITING_INDEPENDENT_REGISTRATION_ACCEPTANCE",
+  "rooms": [
+    {
+      "id": "S7R2-05",
+      "name": "菌光直廊·双端贯通",
+      "size": [
+        15,
+        12,
+        43
+      ],
+      "facing": "north",
+      "entrance": [
+        7,
+        2,
+        0
+      ],
+      "interior": [
+        7,
+        2,
+        3
+      ],
+      "test_targets": [
+        [
+          7,
+          2,
+          0
+        ],
+        [
+          7,
+          2,
+          3
+        ],
+        [
+          7,
+          2,
+          5
+        ],
+        [
+          7,
+          2,
+          13
+        ],
+        [
+          7,
+          2,
+          21
+        ],
+        [
+          7,
+          2,
+          29
+        ],
+        [
+          7,
+          2,
+          37
+        ],
+        [
+          7,
+          2,
+          41
+        ],
+        [
+          7,
+          2,
+          42
+        ],
+        [
+          5,
+          2,
+          7
+        ],
+        [
+          5,
+          2,
+          17
+        ],
+        [
+          5,
+          2,
+          27
+        ],
+        [
+          5,
+          2,
+          39
+        ],
+        [
+          9,
+          2,
+          7
+        ],
+        [
+          9,
+          2,
+          17
+        ],
+        [
+          9,
+          2,
+          27
+        ],
+        [
+          9,
+          2,
+          39
+        ]
+      ],
+      "connections": [
+        {
+          "id": "north-end-arch",
+          "direction": "north",
+          "feet": [
+            7,
+            2,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            7,
+            2,
+            -1
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "near end specified by prompt; camera cropped in reference"
+        },
+        {
+          "id": "south-end-arch",
+          "direction": "south",
+          "feet": [
+            7,
+            2,
+            42
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            7,
+            2,
+            43
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "visible distant arch in one-point reference"
+        }
+      ],
+      "sha256": "9fec9e8748b661c56690fe3285aec09d21c8c8021f4f98534b58ac843ee7593a",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-05-corridor.png",
+      "reference_sha256": "4ed45740b1ca9c76befd79a60c9c36cb3bccc2f31b0f9b5696a90452d768fc7e",
+      "status": "AWAITING_INDEPENDENT_REGISTRATION_ACCEPTANCE",
+      "runtime_slot": null,
+      "geometry_origin": "Original single-image S7-05 straight corridor, ten wall-integrated mushroom buttresses, complete ceiling and two end arches only; no old geometry imported",
+      "coordinate_system": "integer feet blocks, +X east +Y up +Z south",
+      "world_placement": "NOT_RUN"
+    }
+  ],
+  "qa": {
+    "status": "PASS_PRODUCER_SELF_CHECK_ONLY",
+    "sha256": "9fec9e8748b661c56690fe3285aec09d21c8c8021f4f98534b58ac843ee7593a",
+    "static": "PASS",
+    "native_load_block_entities_tags": "PASS (zero block entities or loot containers)",
+    "native_survival_points": 82,
+    "native_route_targets": 17,
+    "routes_model": "actual native 0.6x1.8 body, y2 planar half-grid, each edge swept and reversed, dry supported endpoints",
+    "native_run": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\05-corridor\\qa\\isolated-run-01",
+    "lodestone": "3/3 PASS",
+    "duplicates_compared": 31,
+    "exact_geometry_matches": 0,
+    "world_neighbor_random_fluid_ticks": "NOT_RUN",
+    "registration_accepted": false,
+    "next_image_allowed": false
+  },
+  "geometry_origin": "Original single-image S7-05 straight single-floor corridor recipe, previous room geometry not reused",
+  "previous_acceptance": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S7-04-ACCEPTANCE.json",
+  "reference_analysis": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\05-corridor\\REFERENCE_ANALYSIS.md",
+  "assembly": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\05-corridor\\assembly.json",
+  "connections": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\05-corridor\\connections.json",
+  "preview_only_derivative": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\05-corridor\\views\\PREVIEW_ONLY_cutaway.nbt",
+  "next_image_started": false
+}

@@ -1,0 +1,195 @@
+{
+  "status": "AWAITING_INDEPENDENT_REGISTRATION_ACCEPTANCE",
+  "rooms": [
+    {
+      "id": "S7R2-06",
+      "name": "菌灯内角·九十度转廊",
+      "size": [
+        25,
+        14,
+        25
+      ],
+      "footprint_columns": 456,
+      "footprint_rule": "x<=11 or z>=13; x>=12,z<=12 is explicit unoccupied air",
+      "facing": "north",
+      "entrance": [
+        6,
+        2,
+        0
+      ],
+      "interior": [
+        6,
+        2,
+        3
+      ],
+      "test_targets": [
+        [
+          6,
+          2,
+          0
+        ],
+        [
+          6,
+          2,
+          3
+        ],
+        [
+          6,
+          2,
+          8
+        ],
+        [
+          6,
+          2,
+          13
+        ],
+        [
+          6,
+          2,
+          16
+        ],
+        [
+          6,
+          2,
+          18
+        ],
+        [
+          6,
+          2,
+          21
+        ],
+        [
+          8,
+          2,
+          18
+        ],
+        [
+          10,
+          2,
+          18
+        ],
+        [
+          13,
+          2,
+          18
+        ],
+        [
+          16,
+          2,
+          18
+        ],
+        [
+          20,
+          2,
+          18
+        ],
+        [
+          23,
+          2,
+          18
+        ],
+        [
+          24,
+          2,
+          18
+        ],
+        [
+          8,
+          2,
+          16
+        ],
+        [
+          8,
+          2,
+          20
+        ],
+        [
+          14,
+          2,
+          19
+        ]
+      ],
+      "connections": [
+        {
+          "id": "north-approach",
+          "direction": "north",
+          "feet": [
+            6,
+            2,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            6,
+            2,
+            -1
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "one arm of reference turn; local orientation selected for engineering"
+        },
+        {
+          "id": "east-departure",
+          "direction": "east",
+          "feet": [
+            24,
+            2,
+            18
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            25,
+            2,
+            18
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "other arm of reference turn; no third branch"
+        }
+      ],
+      "sha256": "c254db1740fb97fd4e055fc8cf65030eb44e44886e3b5d0fbd0bfe4546edbd12",
+      "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S7-fungal-grove\\out\\S7-06-corner.png",
+      "reference_sha256": "3b4ea2b36520fa416a86c361ce994c5a682c9693a4acb1ae36d1738ecbdbc44c",
+      "status": "AWAITING_INDEPENDENT_REGISTRATION_ACCEPTANCE",
+      "runtime_slot": null,
+      "geometry_origin": "Original single-image S7-06 L-shaped floor/wall/roof, inner-corner stepped lamp and perched mushrooms; no prior geometry imported",
+      "coordinate_system": "integer feet blocks, +X east +Y up +Z south",
+      "world_placement": "NOT_RUN"
+    }
+  ],
+  "qa": {
+    "status": "PASS_PRODUCER_SELF_CHECK_ONLY",
+    "sha256": "c254db1740fb97fd4e055fc8cf65030eb44e44886e3b5d0fbd0bfe4546edbd12",
+    "static": "PASS",
+    "native_load_block_entities_tags": "PASS (zero block entities or loot containers)",
+    "native_survival_points": 49,
+    "native_route_targets": 17,
+    "routes_model": "actual native 0.6x1.8 body, y2 planar half-grid, each edge swept and reversed, dry supported endpoints",
+    "native_run": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\06-corner\\qa\\isolated-run-01",
+    "lodestone": "3/3 PASS",
+    "duplicates_compared": 32,
+    "exact_geometry_matches": 0,
+    "world_neighbor_random_fluid_ticks": "NOT_RUN",
+    "registration_accepted": false,
+    "next_image_allowed": false
+  },
+  "geometry_origin": "Original single-image S7-06 L-shaped single-floor turning corridor recipe, previous room geometry not reused",
+  "previous_acceptance": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S7-05-ACCEPTANCE.json",
+  "reference_analysis": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\06-corner\\REFERENCE_ANALYSIS.md",
+  "assembly": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\06-corner\\assembly.json",
+  "connections": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\06-corner\\connections.json",
+  "preview_only_derivative": "D:\\ft工程文件\\FT地牢_第7组逐图重做_20261104\\06-corner\\views\\PREVIEW_ONLY_cutaway.nbt",
+  "next_image_started": false
+}

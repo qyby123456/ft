@@ -1,0 +1,915 @@
+{
+  "source_sha256": "d0542dd4ce41ab92118ab0035d99572adfba20625e6f486242ff4b09e682f9d1",
+  "rule": "clockwise XZ x=depth-1-z,z=old_x; swap width/depth EACH quarter turn. Normals x=-z,z=old_x; y unchanged; local nonnegative envelope, not world pivot",
+  "rotations": {
+    "0": {
+      "size": [
+        33,
+        23,
+        33
+      ],
+      "ports": [
+        {
+          "id": "north-ground-arch",
+          "direction": "north",
+          "feet": [
+            9,
+            2,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            9,
+            2,
+            -1
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "left rear arch in reference; local compass selected for engineering",
+          "air_cells": [
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              8,
+              3,
+              0
+            ],
+            [
+              8,
+              4,
+              0
+            ],
+            [
+              8,
+              5,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ],
+            [
+              9,
+              3,
+              0
+            ],
+            [
+              9,
+              4,
+              0
+            ],
+            [
+              9,
+              5,
+              0
+            ],
+            [
+              10,
+              2,
+              0
+            ],
+            [
+              10,
+              3,
+              0
+            ],
+            [
+              10,
+              4,
+              0
+            ],
+            [
+              10,
+              5,
+              0
+            ]
+          ],
+          "floor_cells": [
+            [
+              8,
+              1,
+              0
+            ],
+            [
+              9,
+              1,
+              0
+            ],
+            [
+              10,
+              1,
+              0
+            ]
+          ],
+          "player_center": [
+            9.5,
+            2,
+            0.5
+          ],
+          "outside_unknown": true
+        },
+        {
+          "id": "east-ground-arch",
+          "direction": "east",
+          "feet": [
+            32,
+            2,
+            9
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            33,
+            2,
+            9
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "right rear arch in reference; no invisible third exit",
+          "air_cells": [
+            [
+              32,
+              2,
+              8
+            ],
+            [
+              32,
+              3,
+              8
+            ],
+            [
+              32,
+              4,
+              8
+            ],
+            [
+              32,
+              5,
+              8
+            ],
+            [
+              32,
+              2,
+              9
+            ],
+            [
+              32,
+              3,
+              9
+            ],
+            [
+              32,
+              4,
+              9
+            ],
+            [
+              32,
+              5,
+              9
+            ],
+            [
+              32,
+              2,
+              10
+            ],
+            [
+              32,
+              3,
+              10
+            ],
+            [
+              32,
+              4,
+              10
+            ],
+            [
+              32,
+              5,
+              10
+            ]
+          ],
+          "floor_cells": [
+            [
+              32,
+              1,
+              8
+            ],
+            [
+              32,
+              1,
+              9
+            ],
+            [
+              32,
+              1,
+              10
+            ]
+          ],
+          "player_center": [
+            32.5,
+            2,
+            9.5
+          ],
+          "outside_unknown": true
+        }
+      ]
+    },
+    "90": {
+      "size": [
+        33,
+        23,
+        33
+      ],
+      "ports": [
+        {
+          "id": "north-ground-arch",
+          "direction": "east",
+          "feet": [
+            32,
+            2,
+            9
+          ],
+          "normal": [
+            1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            33,
+            2,
+            9
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "left rear arch in reference; local compass selected for engineering",
+          "air_cells": [
+            [
+              32,
+              2,
+              8
+            ],
+            [
+              32,
+              3,
+              8
+            ],
+            [
+              32,
+              4,
+              8
+            ],
+            [
+              32,
+              5,
+              8
+            ],
+            [
+              32,
+              2,
+              9
+            ],
+            [
+              32,
+              3,
+              9
+            ],
+            [
+              32,
+              4,
+              9
+            ],
+            [
+              32,
+              5,
+              9
+            ],
+            [
+              32,
+              2,
+              10
+            ],
+            [
+              32,
+              3,
+              10
+            ],
+            [
+              32,
+              4,
+              10
+            ],
+            [
+              32,
+              5,
+              10
+            ]
+          ],
+          "floor_cells": [
+            [
+              32,
+              1,
+              8
+            ],
+            [
+              32,
+              1,
+              9
+            ],
+            [
+              32,
+              1,
+              10
+            ]
+          ],
+          "player_center": [
+            32.5,
+            2,
+            9.5
+          ],
+          "outside_unknown": true
+        },
+        {
+          "id": "east-ground-arch",
+          "direction": "south",
+          "feet": [
+            23,
+            2,
+            32
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            23,
+            2,
+            33
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "right rear arch in reference; no invisible third exit",
+          "air_cells": [
+            [
+              24,
+              2,
+              32
+            ],
+            [
+              24,
+              3,
+              32
+            ],
+            [
+              24,
+              4,
+              32
+            ],
+            [
+              24,
+              5,
+              32
+            ],
+            [
+              23,
+              2,
+              32
+            ],
+            [
+              23,
+              3,
+              32
+            ],
+            [
+              23,
+              4,
+              32
+            ],
+            [
+              23,
+              5,
+              32
+            ],
+            [
+              22,
+              2,
+              32
+            ],
+            [
+              22,
+              3,
+              32
+            ],
+            [
+              22,
+              4,
+              32
+            ],
+            [
+              22,
+              5,
+              32
+            ]
+          ],
+          "floor_cells": [
+            [
+              24,
+              1,
+              32
+            ],
+            [
+              23,
+              1,
+              32
+            ],
+            [
+              22,
+              1,
+              32
+            ]
+          ],
+          "player_center": [
+            23.5,
+            2,
+            32.5
+          ],
+          "outside_unknown": true
+        }
+      ]
+    },
+    "180": {
+      "size": [
+        33,
+        23,
+        33
+      ],
+      "ports": [
+        {
+          "id": "north-ground-arch",
+          "direction": "south",
+          "feet": [
+            23,
+            2,
+            32
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "outside_feet": [
+            23,
+            2,
+            33
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "left rear arch in reference; local compass selected for engineering",
+          "air_cells": [
+            [
+              24,
+              2,
+              32
+            ],
+            [
+              24,
+              3,
+              32
+            ],
+            [
+              24,
+              4,
+              32
+            ],
+            [
+              24,
+              5,
+              32
+            ],
+            [
+              23,
+              2,
+              32
+            ],
+            [
+              23,
+              3,
+              32
+            ],
+            [
+              23,
+              4,
+              32
+            ],
+            [
+              23,
+              5,
+              32
+            ],
+            [
+              22,
+              2,
+              32
+            ],
+            [
+              22,
+              3,
+              32
+            ],
+            [
+              22,
+              4,
+              32
+            ],
+            [
+              22,
+              5,
+              32
+            ]
+          ],
+          "floor_cells": [
+            [
+              24,
+              1,
+              32
+            ],
+            [
+              23,
+              1,
+              32
+            ],
+            [
+              22,
+              1,
+              32
+            ]
+          ],
+          "player_center": [
+            23.5,
+            2,
+            32.5
+          ],
+          "outside_unknown": true
+        },
+        {
+          "id": "east-ground-arch",
+          "direction": "west",
+          "feet": [
+            0,
+            2,
+            23
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            -1,
+            2,
+            23
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "right rear arch in reference; no invisible third exit",
+          "air_cells": [
+            [
+              0,
+              2,
+              24
+            ],
+            [
+              0,
+              3,
+              24
+            ],
+            [
+              0,
+              4,
+              24
+            ],
+            [
+              0,
+              5,
+              24
+            ],
+            [
+              0,
+              2,
+              23
+            ],
+            [
+              0,
+              3,
+              23
+            ],
+            [
+              0,
+              4,
+              23
+            ],
+            [
+              0,
+              5,
+              23
+            ],
+            [
+              0,
+              2,
+              22
+            ],
+            [
+              0,
+              3,
+              22
+            ],
+            [
+              0,
+              4,
+              22
+            ],
+            [
+              0,
+              5,
+              22
+            ]
+          ],
+          "floor_cells": [
+            [
+              0,
+              1,
+              24
+            ],
+            [
+              0,
+              1,
+              23
+            ],
+            [
+              0,
+              1,
+              22
+            ]
+          ],
+          "player_center": [
+            0.5,
+            2,
+            23.5
+          ],
+          "outside_unknown": true
+        }
+      ]
+    },
+    "270": {
+      "size": [
+        33,
+        23,
+        33
+      ],
+      "ports": [
+        {
+          "id": "north-ground-arch",
+          "direction": "west",
+          "feet": [
+            0,
+            2,
+            23
+          ],
+          "normal": [
+            -1,
+            0,
+            0
+          ],
+          "outside_feet": [
+            -1,
+            2,
+            23
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "left rear arch in reference; local compass selected for engineering",
+          "air_cells": [
+            [
+              0,
+              2,
+              24
+            ],
+            [
+              0,
+              3,
+              24
+            ],
+            [
+              0,
+              4,
+              24
+            ],
+            [
+              0,
+              5,
+              24
+            ],
+            [
+              0,
+              2,
+              23
+            ],
+            [
+              0,
+              3,
+              23
+            ],
+            [
+              0,
+              4,
+              23
+            ],
+            [
+              0,
+              5,
+              23
+            ],
+            [
+              0,
+              2,
+              22
+            ],
+            [
+              0,
+              3,
+              22
+            ],
+            [
+              0,
+              4,
+              22
+            ],
+            [
+              0,
+              5,
+              22
+            ]
+          ],
+          "floor_cells": [
+            [
+              0,
+              1,
+              24
+            ],
+            [
+              0,
+              1,
+              23
+            ],
+            [
+              0,
+              1,
+              22
+            ]
+          ],
+          "player_center": [
+            0.5,
+            2,
+            23.5
+          ],
+          "outside_unknown": true
+        },
+        {
+          "id": "east-ground-arch",
+          "direction": "north",
+          "feet": [
+            9,
+            2,
+            0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "outside_feet": [
+            9,
+            2,
+            -1
+          ],
+          "opening": [
+            3,
+            4
+          ],
+          "source": "right rear arch in reference; no invisible third exit",
+          "air_cells": [
+            [
+              8,
+              2,
+              0
+            ],
+            [
+              8,
+              3,
+              0
+            ],
+            [
+              8,
+              4,
+              0
+            ],
+            [
+              8,
+              5,
+              0
+            ],
+            [
+              9,
+              2,
+              0
+            ],
+            [
+              9,
+              3,
+              0
+            ],
+            [
+              9,
+              4,
+              0
+            ],
+            [
+              9,
+              5,
+              0
+            ],
+            [
+              10,
+              2,
+              0
+            ],
+            [
+              10,
+              3,
+              0
+            ],
+            [
+              10,
+              4,
+              0
+            ],
+            [
+              10,
+              5,
+              0
+            ]
+          ],
+          "floor_cells": [
+            [
+              8,
+              1,
+              0
+            ],
+            [
+              9,
+              1,
+              0
+            ],
+            [
+              10,
+              1,
+              0
+            ]
+          ],
+          "player_center": [
+            9.5,
+            2,
+            0.5
+          ],
+          "outside_unknown": true
+        }
+      ]
+    }
+  },
+  "world_rotated_template_placement": "NOT_RUN"
+}
