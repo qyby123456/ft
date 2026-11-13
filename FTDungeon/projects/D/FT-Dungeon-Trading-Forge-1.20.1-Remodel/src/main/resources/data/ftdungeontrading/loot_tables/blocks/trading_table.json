@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:block",
+  "pools": [ {
+    "rolls": 1,
+    "entries": [ { "type": "minecraft:item", "name": "ftdungeontrading:trading_table" } ],
+    "conditions": [ { "condition": "minecraft:survives_explosion" },
+      { "condition": "minecraft:block_state_property", "block": "ftdungeontrading:trading_table", "properties": { "part": "left" } } ]
+  } ]
+}
