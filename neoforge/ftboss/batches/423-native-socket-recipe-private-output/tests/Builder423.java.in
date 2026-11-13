@@ -1,0 +1,111 @@
+import com.google.gson.GsonBuilder;
+import java.io.ByteArrayOutputStream;
+import java.io.DataOutputStream;
+import java.lang.reflect.*;
+import java.nio.file.*;
+import java.util.*;
+import net.minecraft.nbt.*;
+import net.farmingtales.ftboss.util.foundations.FoundationCanonicalDigest;
+
+public final class Builder423 {
+    private static byte[] binary(Tag value) throws Exception {
+        ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+        value.write(new DataOutputStream(bytes));
+        return bytes.toByteArray();
+    }
+
+    private static String canonical(CompoundTag value) {
+        return Base64.getEncoder().encodeToString(FoundationCanonicalDigest.canonical(value));
+    }
+
+    private static final class Draft {
+        private final Class<?> type;
+        private final Object draft;
+        private Draft(String name) throws Exception {
+            type = Class.forName(name);
+            Constructor<?> constructor = type.getDeclaredConstructor(); constructor.setAccessible(true);
+            draft = constructor.newInstance();
+        }
+        private void put(String method, String key, Object value, Class<?> valueType) throws Exception {
+            Method target = type.getDeclaredMethod(method, String.class, valueType); target.setAccessible(true);
+            target.invoke(draft, key, value);
+        }
+        private CompoundTag finish() throws Exception {
+            Method target = type.getDeclaredMethod(§finish§); target.setAccessible(true);
+            return (CompoundTag)target.invoke(draft);
+        }
+    }
+
+    private static int builder(String name) throws Exception {
+        for (int index = 0; index < 128; index++) {
+            Draft draft = new Draft(name);
+            CompoundTag expected = new CompoundTag();
+            int number = index == 0 ? Integer.MIN_VALUE : index == 1 ? Integer.MAX_VALUE : index;
+            draft.put(§putInt§, §Count§, number, int.class); expected.putInt(§Count§, number);
+            draft.put(§putString§, §Profile§, §中文§ + index, String.class); expected.putString(§Profile§, §中文§ + index);
+            CompoundTag payload = new CompoundTag(); payload.putInt(§paid§, index);
+            draft.put(§put§, §Item§, payload, Tag.class); expected.put(§Item§, payload);
+            draft.put(§putString§, §Profile§, §replacement§ + index, String.class); expected.putString(§Profile§, §replacement§ + index);
+            Agent404.watched = payload; Agent404.reject = true; Agent404.writes = 0;
+            CompoundTag actual;
+            try { actual = draft.finish(); } finally { Agent404.reject = false; }
+            if (Agent404.writes != 0 || actual.get(§Item§) != payload || !Arrays.equals(binary(actual), binary(expected))) throw new AssertionError(§Private output changed byte order or alias§);
+            payload.putInt(§paid§, index + 1);
+            if (!Arrays.equals(binary(actual), binary(expected))) throw new AssertionError(§Nested payload alias changed§);
+        }
+        Agent404.watched = null;
+        return 128;
+    }
+
+    private static int orderings() throws Exception {
+        String builderName = §net.farmingtales.ftboss.transaction.FoundationApprovedRules$PrivateRead423§;
+        Class<?> builderType = Class.forName(builderName);
+        Method compare = Class.forName(§net.farmingtales.ftboss.transaction.FoundationApprovedRules§).getDeclaredMethod(§draftCanonical423§, builderType);
+        compare.setAccessible(true);
+        for (int index = 0; index < 256; index++) {
+            List<CompoundTag> before = new ArrayList<>();
+            List<Draft> after = new ArrayList<>();
+            for (int slot = 0; slot < 2 + index % 7; slot++) {
+                int value = (index * 31 + slot * 17) % 5;
+                CompoundTag definition = new CompoundTag(); definition.putString(§ingredient§, §item_§ + value);
+                CompoundTag expected = new CompoundTag();
+                Draft draft = new Draft(builderName);
+                String state = value == 0 ? §EMPTY§ : §NON_EMPTY§;
+                expected.putString(§State§, state); draft.put(§putString§, §State§, state, String.class);
+                expected.putString(§Type§, §net.minecraft.world.item.crafting.Ingredient§); draft.put(§putString§, §Type§, §net.minecraft.world.item.crafting.Ingredient§, String.class);
+                expected.put(§Definition§, definition); draft.put(§put§, §Definition§, definition, Tag.class);
+                ListTag alternatives = new ListTag();
+                expected.putInt(§AlternativeCount§, 0); draft.put(§putInt§, §AlternativeCount§, 0, int.class);
+                expected.put(§Alternatives§, alternatives); draft.put(§put§, §Alternatives§, alternatives, Tag.class);
+                before.add(expected); after.add(draft);
+            }
+            before.sort(Comparator.comparing(Builder423::canonical));
+            after.sort(Comparator.comparing(value -> {
+                try { return (String)compare.invoke(null, value.draft); }
+                catch (ReflectiveOperationException failure) { throw new IllegalStateException(failure); }
+            }));
+            ListTag oldList = new ListTag(); ListTag newList = new ListTag();
+            for (int slot = 0; slot < before.size(); slot++) {
+                before.get(slot).putInt(§Index§, slot); oldList.add(before.get(slot));
+                after.get(slot).put(§putInt§, §Index§, slot, int.class); newList.add(after.get(slot).finish());
+            }
+            if (!Arrays.equals(binary(oldList), binary(newList))) throw new AssertionError(§Recipe ordering or index changed§);
+        }
+        return 256;
+    }
+
+    public static void main(String[] arguments) throws Exception {
+        int cases = builder(§net.farmingtales.ftboss.item.FoodWeaponSourceLedger$PrivateRead423§)
+            + builder(§net.farmingtales.ftboss.transaction.FoundationApprovedRules$PrivateRead423§);
+        int orderings = orderings();
+        Method helper = Class.forName(§net.farmingtales.ftboss.item.NativeExpectedFieldObservation§).getDeclaredMethod(§socketRecipeCompoundForRead423§, Map.class);
+        int rejected = 0;
+        for (Map<String, Tag> fields : Arrays.<Map<String, Tag>>asList(null, new HashMap<>(), new LinkedHashMap<>())) {
+            try { helper.invoke(null, fields); throw new AssertionError(§Foreign private output caller accepted§); }
+            catch (InvocationTargetException denied) { if (!(denied.getCause() instanceof IllegalStateException)) throw denied; rejected++; }
+        }
+        Files.writeString(Path.of(arguments[0]), new GsonBuilder().setPrettyPrinting().create().toJson(Map.of(
+            §failures§, 0, §builderBinaryAndPayloadIdentityCases§, cases, §recipeOrderingAndIndexCases§, orderings,
+            §foreignCallerRejections§, rejected, §actualRuntimeTested§, false, §installable§, false)));
+    }
+}
