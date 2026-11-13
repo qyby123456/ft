@@ -1,0 +1,66 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+group = 'net.farmingtales'
+version = '1.0.0'
+
+base {
+    archivesName = 'ft-chunk-drops-forge-1.20.1'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+sourceSets {
+    gameTest {
+        java.setSrcDirs(['src/gametest/java'])
+        resources.setSrcDirs(['src/gametest/resources'])
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        gameTestServer {
+            workingDirectory project.file('gametest-run')
+            property 'forge.enabledGameTestNamespaces', 'ftchunkdrops'
+            mods {
+                ftchunkdrops {
+                    source sourceSets.main
+                    source sourceSets.gameTest
+                }
+            }
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+
+tasks.matching { it.name == 'runGameTestServer' }.configureEach {
+    dependsOn 'gameTestClasses'
+}
+
+jar {
+    manifest {
+        attributes 'Implementation-Version': project.version
+    }
+    finalizedBy 'reobfJar'
+}
