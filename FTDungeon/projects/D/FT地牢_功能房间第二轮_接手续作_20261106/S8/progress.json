@@ -1,0 +1,120 @@
+{
+  "style": "S8",
+  "current": "independent review with explicit open items",
+  "status": "ready_for_review_with_open_items",
+  "independent_acceptance": "NOT_GRANTED",
+  "completed": [
+    {
+      "id": "S8-11",
+      "sha256": "a0e7419ee00e6990d8c89a6b971d9c6cd35d2ba7d4b9d7eaae3e659a7e4c3129",
+      "self_check": "PASS",
+      "independent_acceptance": "NOT_RUN"
+    },
+    {
+      "id": "S8-12",
+      "sha256": "5f5858c6906aa836f0cfc9ba6c83f715f9657eef997f3ce3407a305262b07c1a",
+      "self_check": "PASS",
+      "independent_acceptance": "NOT_RUN"
+    },
+    {
+      "id": "S8-13",
+      "sha256": "3b702118ab0106bdc304b4ac95d4fd569222065aa25e0be365bf74fdf47a7a58",
+      "self_check": "PASS",
+      "independent_acceptance": "NOT_RUN"
+    },
+    {
+      "id": "S8-14",
+      "sha256": "52ec8a8adc8e94914a106f7c293aff8028852da30ffb4c4c99b8fda0a91df109",
+      "self_check": "PASS",
+      "independent_acceptance": "NOT_RUN"
+    },
+    {
+      "id": "S8-15",
+      "sha256": "c58a0400a48324e718753fa1a69ca596a73eb22d00554b21233e15f628f69763",
+      "self_check": "PASS",
+      "independent_acceptance": "NOT_RUN"
+    },
+    {
+      "id": "S8-16",
+      "sha256": "3ba16b0a461d2b6abb0603448346ff881623a76fb59e04826afc4c003656fd30",
+      "self_check": "PASS",
+      "independent_acceptance": "NOT_RUN"
+    },
+    {
+      "id": "S8-17",
+      "sha256": "f250429323366042bd8f51a13a34476f80c1f805c28fd735b69fe484ecaf692a",
+      "self_check": "PASS",
+      "independent_acceptance": "NOT_RUN"
+    },
+    {
+      "id": "S8-18",
+      "sha256": "e49191031f938e3abc66b9aebd72c73e04f8669ea6caa4049b37e81080d61c3c",
+      "self_check": "PASS",
+      "independent_acceptance": "NOT_RUN"
+    },
+    {
+      "id": "S8-19",
+      "sha256": "58264f629e45e3c84194966a6e0a1440383b88885809e21bebfef37d1e73e011",
+      "self_check": "PASS",
+      "independent_acceptance": "NOT_RUN"
+    },
+    {
+      "id": "S8-20",
+      "sha256": "a85c111a4c548b9f10c0ff01ea2c483d57f40ad3dff732efdcfee2a969af0c82",
+      "self_check": "PASS",
+      "independent_acceptance": "NOT_RUN"
+    }
+  ],
+  "inherited_rooms": [
+    {
+      "id": "S8-11",
+      "status": "inherited candidate; visual corrections pending"
+    },
+    {
+      "id": "S8-12",
+      "status": "inherited candidate; visual corrections pending"
+    },
+    {
+      "id": "S8-13",
+      "status": "inherited candidate; visual corrections pending"
+    },
+    {
+      "id": "S8-14",
+      "status": "inherited candidate; visual corrections pending"
+    },
+    {
+      "id": "S8-15",
+      "status": "inherited candidate; visual corrections pending"
+    },
+    {
+      "id": "S8-16",
+      "status": "inherited candidate; visual corrections pending"
+    },
+    {
+      "id": "S8-17",
+      "status": "inherited candidate; visual corrections pending"
+    },
+    {
+      "id": "S8-18",
+      "status": "inherited candidate; visual corrections pending"
+    },
+    {
+      "id": "S8-19",
+      "status": "inherited candidate; visual corrections pending"
+    },
+    {
+      "id": "S8-20",
+      "status": "inherited candidate; visual corrections pending"
+    }
+  ],
+  "world_writes": false,
+  "pending": [
+    "Independent final visual decision for S8-19 deep cavern and S8-20 local rock-shell corrections",
+    "S8-18 native skull payloads retained but Lodestone renders pale blank cubes; native client skull texture not certified",
+    "S8-20 lever operates as vanilla lever but no automatic hidden door/security logic is claimed",
+    "Isolated FakePlayer interactions and motion do not certify human input, client GUI/reach or combat",
+    "Explicit neighbor/fluid updates and natural wait were run; exhaustive random-tick and lighting coverage not certified",
+    "Clearing and placement pack is an unexecuted review artifact, requires future deployment instruction"
+  ],
+  "assembly_sha256": "4d768bcaa073ba63da090ea9b6f64068c474d8a4c4d627217a81803e0c83fd37"
+}

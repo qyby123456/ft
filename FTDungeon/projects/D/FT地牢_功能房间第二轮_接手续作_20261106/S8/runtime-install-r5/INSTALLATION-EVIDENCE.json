@@ -1,0 +1,758 @@
+{
+  "status": "READY_FOR_INDEPENDENT_INSTALLATION_REVIEW",
+  "independent_acceptance": "NOT_GRANTED",
+  "source_sha256": "4d768bcaa073ba63da090ea9b6f64068c474d8a4c4d627217a81803e0c83fd37",
+  "frozen_pack_tree_sha256": "889b36d81ed5cc6782fbe05d356d1801bd8fd7641d6528e44cff11de8df5df9c",
+  "frozen_pack_archive": {
+    "path": "s8_frozen_install.zip",
+    "sha256": "d899fb2fc80ed7b3db474a0f4a2927eeb37f1d16abf9c61fbcfd3c6685124443",
+    "bytes": 177132
+  },
+  "access_pack_archive": {
+    "path": "s8_admin_access.zip",
+    "sha256": "9d0f2cee537f3b87fda395fff65a80ac1bcbd2b8bb4c91bf845f6fce07f6f6aa",
+    "bytes": 1176
+  },
+  "isolated_world": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S8\\runtime-install-r5\\server\\world",
+  "installation": {
+    "origin": [
+      1024,
+      128,
+      1024
+    ],
+    "size": [
+      240,
+      29,
+      145
+    ],
+    "full_dirty_seed_and_clear_cells": 1009200,
+    "uncleared": 0,
+    "exact_original_parts": 20,
+    "all_original_part_hashes_unchanged": true,
+    "implicit_air_verified": 809435,
+    "barriers": 90282,
+    "block_entity_payloads_verified": 56,
+    "legacy_bed_color_runtime_normalizations": 12,
+    "neighbor_shape_changes": 57,
+    "other_mismatches": 0
+  },
+  "external_access": {
+    "mode": "Administrator hosted install, outside hub, entry and return; admin self and non-OP guest tested",
+    "actual_source": "Vanilla ServerPlayer with real ServerGamePacketListenerImpl on unconnected test transport; OP level 4 stored in isolated server operator list; source entity equals player, no console substitution",
+    "results": {
+      "access": [
+        {
+          "after": [
+            1030.5,
+            132,
+            1079.5
+          ],
+          "supported_floor": true,
+          "operator_permission_2": true,
+          "source_is_player": true,
+          "body_collision_free": true,
+          "before": [
+            1000.5,
+            129,
+            1000.5
+          ],
+          "destination_correct": true,
+          "function": "s8_admin:enter",
+          "command_result": 1
+        },
+        {
+          "after": [
+            1000.5,
+            129,
+            1000.5
+          ],
+          "supported_floor": true,
+          "operator_permission_2": true,
+          "source_is_player": true,
+          "body_collision_free": true,
+          "before": [
+            1030.5,
+            132,
+            1079.5
+          ],
+          "destination_correct": true,
+          "function": "s8_admin:return",
+          "command_result": 1
+        },
+        {
+          "guest_has_permission_2": false,
+          "supported_floor": true,
+          "after": [
+            1030.5,
+            132,
+            1079.5
+          ],
+          "mode": "Administrator command executed as non-OP guest",
+          "body_collision_free": true,
+          "before": [
+            1000.5,
+            129,
+            1000.5
+          ],
+          "destination_correct": true,
+          "function": "s8_admin:enter",
+          "command_result": 1
+        },
+        {
+          "guest_has_permission_2": false,
+          "supported_floor": true,
+          "after": [
+            1000.5,
+            129,
+            1000.5
+          ],
+          "mode": "Administrator command executed as non-OP guest",
+          "body_collision_free": true,
+          "before": [
+            1030.5,
+            132,
+            1079.5
+          ],
+          "destination_correct": true,
+          "function": "s8_admin:return",
+          "command_result": 1
+        }
+      ],
+      "scope": "Administrator hosted functions executed with actual vanilla ServerPlayer command source and real ServerGamePacketListenerImpl on an unconnected test transport; no network client, human input or multiplayer system claim",
+      "player_class": "net.minecraft.server.level.ServerPlayer",
+      "barriers_after": 90282,
+      "barriers_before": 90282
+    },
+    "client_or_human_input_certified": false,
+    "guest_registration": "Headless fixture reflects PlayerList.players to register/unregister a vanilla ServerPlayer for the real player-name selector; no network login claim"
+  },
+  "scope": {
+    "frozen_room_geometry_changed": false,
+    "formal_instance_changed": false,
+    "other_groups_changed": false,
+    "generator_changed": false,
+    "existing_traversal_or_container_tests_repeated": false
+  },
+  "history": {
+    "files": [
+      {
+        "path": "../runtime-install-r1/console.log",
+        "sha256": "675dbf54fb27ff67f53b2af61961f5d7363a32225fc5e45991494dbc72995aff",
+        "bytes": 32740
+      },
+      {
+        "path": "../runtime-install-r1/native-test/src/main/java/net/farmingtales/s8qa/InstallTests.java",
+        "sha256": "061961bf072efa96679c6feffa2d7e4b56b3435031e27c0f25bbd7332e8b6631",
+        "bytes": 10168
+      },
+      {
+        "path": "../runtime-install-r2/console.log",
+        "sha256": "87d590b531ed2d78d6457c952151682a9a46bbcab4a7e75c6e7c3dcf9a38cb20",
+        "bytes": 19616
+      },
+      {
+        "path": "../runtime-install-r2/exit.json",
+        "sha256": "2fdce35c0b8030bacb20e5a129fee2ee163007cf64af86f84f0c2015095fb15f",
+        "bytes": 76
+      },
+      {
+        "path": "../runtime-install-r2/native-test/src/main/java/net/farmingtales/s8qa/InstallTests.java",
+        "sha256": "7e395ced7f576b74df1151b236cab0d2969313b87516673b1794106f3163e221",
+        "bytes": 10238
+      },
+      {
+        "path": "../runtime-install-r2/clear-result.json",
+        "sha256": "d55250b591ad213194cf5681a98d49c4250848c6de0f60f256690c5e6058754f",
+        "bytes": 10281
+      },
+      {
+        "path": "../runtime-install-r2/installation-result.json",
+        "sha256": "194404e0f2381e3f6a24ff40c7e14b79e7992bcd1388a877dc2402e03db1cbcf",
+        "bytes": 23164
+      },
+      {
+        "path": "../runtime-install-r3/console.log",
+        "sha256": "837f58f548747ae851e70a5cfa38aa4dda65cc91de86ed1ccb7f881c16e369b0",
+        "bytes": 19375
+      },
+      {
+        "path": "../runtime-install-r3/exit.json",
+        "sha256": "adad2f22e411ee322daa47402a47cdfb2d88471bbc355ae1c813d9dda722fd9e",
+        "bytes": 76
+      },
+      {
+        "path": "../runtime-install-r3/native-test/src/main/java/net/farmingtales/s8qa/InstallTests.java",
+        "sha256": "547a3ca0de2df26fb7c8663eb290be1c5d13c03890e3a1cd93f5f6e175576b12",
+        "bytes": 11985
+      },
+      {
+        "path": "../runtime-install-r3/clear-result.json",
+        "sha256": "f33680b6ea1dcf4e33d3ab15b384dc696cea92c0d3a4bede387ff5e558fdf968",
+        "bytes": 10281
+      },
+      {
+        "path": "../runtime-install-r3/installation-result.json",
+        "sha256": "f054fdee4845af3c79f6ae20a5ad5cd6f50f3e395dae0562dcea2a2eb89a55e1",
+        "bytes": 21098
+      },
+      {
+        "path": "../runtime-install-r3/access-result.json",
+        "sha256": "e8cab67daec1a0cf2bbdc799f150f80b0485956e725f1e723ea23d8f4c8db1b6",
+        "bytes": 1150
+      },
+      {
+        "path": "../runtime-install-r3/execution-result.json",
+        "sha256": "54e0b6729883f043fda57673029dd7fa2dc45dfa0ddfa0d545935def8e704159",
+        "bytes": 210
+      },
+      {
+        "path": "../runtime-install-r4/console.log",
+        "sha256": "814d513c7076e8279044dd9086f9e327fc480880ca25cd718f858f71523a06d8",
+        "bytes": 19911
+      },
+      {
+        "path": "../runtime-install-r4/exit.json",
+        "sha256": "a27c6291b3cd5e1b1758bbf2a1e4f15ff44a630307fec1b92efaacdd4b283799",
+        "bytes": 76
+      },
+      {
+        "path": "../runtime-install-r4/native-test/src/main/java/net/farmingtales/s8qa/InstallTests.java",
+        "sha256": "c30a02e10e44f03f2d68f59691e09009ec13c14e89f2f19fa974a5d470202ca7",
+        "bytes": 13719
+      },
+      {
+        "path": "../runtime-install-r4/clear-result.json",
+        "sha256": "5de0de84e29f8c296a9e56a414d3e6ffbde3155aee55697e94b42c78bca7a980",
+        "bytes": 10281
+      },
+      {
+        "path": "../runtime-install-r4/installation-result.json",
+        "sha256": "f054fdee4845af3c79f6ae20a5ad5cd6f50f3e395dae0562dcea2a2eb89a55e1",
+        "bytes": 21098
+      }
+    ],
+    "notes": [
+      "r1: GameTest default OP level insufficient, disk full while saving failed world; no installation success claimed",
+      "r2: actual full clear and 20-part placement performed; checker wrongly treated native wall/fence links and legacy bed color omission as failure",
+      "r3: successful actual ServerPlayer admin self installation and enter/return; r4: installed external platform but guest fixture registration failed on unmodifiable collection; r5: complete packaged install and administrator-hosted non-OP guest both passed",
+      "Compiled outputs reused under runtime-install-r1/native-test/build to reduce disk use; historical Java sources/logs retained separately; no recursive cleanup executed"
+    ]
+  },
+  "assets": [
+    {
+      "path": "prepare.mjs",
+      "sha256": "caaa9532e14cd01f4f34af5def8c693acb351e06113a927d6fb646c6d5892832",
+      "bytes": 3991
+    },
+    {
+      "path": "InstallTests.java",
+      "sha256": "cb789d43346f08a0de0cdb021f0b22e4b57b390cf839af49e3ab145113a42b8f",
+      "bytes": 13951
+    },
+    {
+      "path": "package.mjs",
+      "sha256": "4c4b9bcd10d14a15c58a9638a58c08fc2439f34487afe317b53f5c6b434f1914",
+      "bytes": 6092
+    },
+    {
+      "path": "README.md",
+      "sha256": "a9fc25dac7c11079908ea74030201bc8335e9b888ff0bcfdc67aedee153d9e65",
+      "bytes": 4608
+    },
+    {
+      "path": "run.ps1",
+      "sha256": "4aba8d571ce9d39cbbd0f17b1e2337387249472760225588cbd5ec54949e5aa5",
+      "bytes": 1423
+    },
+    {
+      "path": "invocation.json",
+      "sha256": "49a779fff6379a99250b55faa2647ea5f72067473194d3993aaecb891c5aa4d6",
+      "bytes": 681
+    },
+    {
+      "path": "console.log",
+      "sha256": "f3c56b5b59606d5d1cf31f191b0f298dcf24faec2b6678d380230a8a9d62b4b1",
+      "bytes": 19603
+    },
+    {
+      "path": "exit.json",
+      "sha256": "46ccf4891f05454b7eaea6689e6a0b9a74c4c23208f77e7c1e54c1d51e949d1d",
+      "bytes": 76
+    },
+    {
+      "path": "install-input.json",
+      "sha256": "0d5c5199f1bc530364c0e025b7cd85bc280724a6c09a65a8716fdb1f1267a0c4",
+      "bytes": 13316
+    },
+    {
+      "path": "clear-result.json",
+      "sha256": "15130d56c4012b1fed00f929ce240207c269fd1f9f171ced7940364a5c46b7bc",
+      "bytes": 10281
+    },
+    {
+      "path": "installation-result.json",
+      "sha256": "e34ec4d30bd07dd06addb33e0165254c486842f0da89c174761c9edb9b477760",
+      "bytes": 21098
+    },
+    {
+      "path": "bed-normalization.json",
+      "sha256": "0d02c29ca776263328fe6aba8c069547fd578b459d01a749001665cde4b48936",
+      "bytes": 3014
+    },
+    {
+      "path": "access-result.json",
+      "sha256": "348a4c6162e8c33ac7eec34c622f9e0bb14f6ef0883030dedcfc10062491eef8",
+      "bytes": 1999
+    },
+    {
+      "path": "execution-result.json",
+      "sha256": "54e0b6729883f043fda57673029dd7fa2dc45dfa0ddfa0d545935def8e704159",
+      "bytes": 210
+    },
+    {
+      "path": "commands.json",
+      "sha256": "35cbba7b986adf9484f78b58fd22927eca5393036bdd4dd2c135e932f0cdbdf4",
+      "bytes": 10650
+    },
+    {
+      "path": "s8_frozen_install.zip",
+      "sha256": "d899fb2fc80ed7b3db474a0f4a2927eeb37f1d16abf9c61fbcfd3c6685124443",
+      "bytes": 177132
+    },
+    {
+      "path": "s8_admin_access.zip",
+      "sha256": "9d0f2cee537f3b87fda395fff65a80ac1bcbd2b8bb4c91bf845f6fce07f6f6aa",
+      "bytes": 1176
+    },
+    {
+      "path": "server/world/data/capabilities.dat",
+      "sha256": "9dad459b3f201df11aafab8f80ff8b27efcbd7332062fdccb74a9dc734c16b92",
+      "bytes": 48
+    },
+    {
+      "path": "server/world/data/raids.dat",
+      "sha256": "ee01e5ab997f56d3ce0289016c59a052532c3f65029ea828667c7e640e69d69e",
+      "bytes": 89
+    },
+    {
+      "path": "server/world/datapacks/s8_admin_access/data/s8_admin/functions/enter.mcfunction",
+      "sha256": "3f38d6137a6bc6a2af4b9b7b18a9583c9e5989f2729aab875435db9587f5e2b5",
+      "bytes": 63
+    },
+    {
+      "path": "server/world/datapacks/s8_admin_access/data/s8_admin/functions/install.mcfunction",
+      "sha256": "5e5aa7cf3b63360c2516ca18a51bcdfa07c94cfd727ccf05aa0f6c4266a5af8c",
+      "bytes": 312
+    },
+    {
+      "path": "server/world/datapacks/s8_admin_access/data/s8_admin/functions/prepare_hub.mcfunction",
+      "sha256": "164ae66958d4da51656cf706ca54108deda93bb761116dff7b5ac9b2b05c7d3e",
+      "bytes": 115
+    },
+    {
+      "path": "server/world/datapacks/s8_admin_access/data/s8_admin/functions/return.mcfunction",
+      "sha256": "0c93117c6da8f3ef54803bc081570f50f8c11e2a69e84bcb949e7c77ec8671e4",
+      "bytes": 63
+    },
+    {
+      "path": "server/world/datapacks/s8_admin_access/pack.mcmeta",
+      "sha256": "15f8e3ecb0ca504cb0ee2036bc7af530ebe8ebf77d5a585c6745645f127273ad",
+      "bytes": 110
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/functions/clear.mcfunction",
+      "sha256": "eab3f6be28c52e43089232b47520e3b79770550b258444330e49fe62fbeb9680",
+      "bytes": 2072
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/functions/place_parts.mcfunction",
+      "sha256": "f2f6e8aafc968c278358727d494eeb6b686e1f3a0cbabf7fc3409534fa60ce20",
+      "bytes": 1108
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-0-0.nbt",
+      "sha256": "6cd72e827c59ded2c40d28957e93ee6cf27bf0c182ba6472e476aef08682c0af",
+      "bytes": 42364
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-0-144.nbt",
+      "sha256": "fffe9e0a3dbbe6d75d992ffbc29023ab4b0a14e7af038c93a78755a30ea6bd29",
+      "bytes": 3024
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-0-48.nbt",
+      "sha256": "fad8a7bb4bb3b7f048566f0282f546bf84dd8e41a3e2c676bc2a5a37fd1ce6e3",
+      "bytes": 41833
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-0-96.nbt",
+      "sha256": "cd33bf21c5bdd103d6361b9787f7130edeb2ded43803c47727ac843a57fa7f43",
+      "bytes": 23702
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-144-0.nbt",
+      "sha256": "16edacd1d9e101ad725437c1537fe44ed4521e4b648c9290e5e5afd03f47cb88",
+      "bytes": 37935
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-144-144.nbt",
+      "sha256": "fffe9e0a3dbbe6d75d992ffbc29023ab4b0a14e7af038c93a78755a30ea6bd29",
+      "bytes": 3024
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-144-48.nbt",
+      "sha256": "25163e1beb9362f36595e1e8ddd53c8532c63df722acad560dea4974c319707d",
+      "bytes": 46176
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-144-96.nbt",
+      "sha256": "e83598e939a6ce8b24a3ab1f4a3e15b92b3a6da94c0a46b2af486b50d1f60f01",
+      "bytes": 96952
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-192-0.nbt",
+      "sha256": "f884724f90157c11aabbbf57c2095cc7d96c9fa0e35ed4c802b3c3c6b3b9d65f",
+      "bytes": 39193
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-192-144.nbt",
+      "sha256": "fffe9e0a3dbbe6d75d992ffbc29023ab4b0a14e7af038c93a78755a30ea6bd29",
+      "bytes": 3024
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-192-48.nbt",
+      "sha256": "79b544c5f585a4eb7ba1647e9f918748130f386a32c0447a1c86a2fbeb68ed72",
+      "bytes": 39437
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-192-96.nbt",
+      "sha256": "df160213728467088cd93d212cc5573439fc4dec638508d99548771babecd02d",
+      "bytes": 18414
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-48-0.nbt",
+      "sha256": "a7211cbfa11e8cff84e401cde3b967ed37a982c96d40a770f19d300ee6935013",
+      "bytes": 40483
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-48-144.nbt",
+      "sha256": "fffe9e0a3dbbe6d75d992ffbc29023ab4b0a14e7af038c93a78755a30ea6bd29",
+      "bytes": 3024
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-48-48.nbt",
+      "sha256": "fcba5ea3e90792b9b458cc1846e6018df3c96e68117d7bb6faed63165fd824c9",
+      "bytes": 38083
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-48-96.nbt",
+      "sha256": "dfafc636eb63a8398ab00d8d69c859f9fb6c3d8a66767ceff2eab135c27368b5",
+      "bytes": 15034
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-96-0.nbt",
+      "sha256": "33642fff1731d4353bcfca79a193b46b59fe83b6acc2e852e5f59f0cf81c31b8",
+      "bytes": 40574
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-96-144.nbt",
+      "sha256": "fffe9e0a3dbbe6d75d992ffbc29023ab4b0a14e7af038c93a78755a30ea6bd29",
+      "bytes": 3024
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-96-48.nbt",
+      "sha256": "b2adf8420f2edd6f36b1211bc5bd514779fcebb5cb6eca4a89c3ec44d8fbb383",
+      "bytes": 37698
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/data/s8_takeover/structures/parts/part-96-96.nbt",
+      "sha256": "4ebe878b8f4057763ff2393c7086b7b00bb649a55b31321f06fbe3b2d0124e0c",
+      "bytes": 17349
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/pack.mcmeta",
+      "sha256": "6cf7be9f787988ee2af6408348e11e69d10ad1ca78b627279e93ea2005bbb52e",
+      "bytes": 121
+    },
+    {
+      "path": "server/world/datapacks/s8_frozen_install/plan.json",
+      "sha256": "fbe1d94cb833614b9edc4b3bd478c9b53d45802f00c235407d83f332bc98c5ce",
+      "bytes": 14405
+    },
+    {
+      "path": "server/world/DIM-1/data/capabilities.dat",
+      "sha256": "9dad459b3f201df11aafab8f80ff8b27efcbd7332062fdccb74a9dc734c16b92",
+      "bytes": 48
+    },
+    {
+      "path": "server/world/DIM-1/data/raids.dat",
+      "sha256": "ee01e5ab997f56d3ce0289016c59a052532c3f65029ea828667c7e640e69d69e",
+      "bytes": 89
+    },
+    {
+      "path": "server/world/DIM1/data/capabilities.dat",
+      "sha256": "9dad459b3f201df11aafab8f80ff8b27efcbd7332062fdccb74a9dc734c16b92",
+      "bytes": 48
+    },
+    {
+      "path": "server/world/DIM1/data/raids_end.dat",
+      "sha256": "ee01e5ab997f56d3ce0289016c59a052532c3f65029ea828667c7e640e69d69e",
+      "bytes": 89
+    },
+    {
+      "path": "server/world/entities/r.-1.-1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "server/world/entities/r.-1.0.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "server/world/entities/r.0.-1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "server/world/entities/r.0.0.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "server/world/entities/r.1.1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "server/world/entities/r.1.2.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "server/world/entities/r.2.1.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "server/world/entities/r.2.2.mca",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "server/world/level.dat",
+      "sha256": "33b91e5019be779f90b56ffaab72ae5ef874999779e91c68c304e74de1f164c7",
+      "bytes": 36963
+    },
+    {
+      "path": "server/world/level.dat_old",
+      "sha256": "ac4d7803d73b0e3a39c23ec9f1acac04946a6c1e619ada1a8dc5c2e945eec497",
+      "bytes": 36865
+    },
+    {
+      "path": "server/world/poi/r.2.2.mca",
+      "sha256": "be7c70e61eaf799891a42a7ab17c4c1999b06eee3e69665b34311fcf57029490",
+      "bytes": 102400
+    },
+    {
+      "path": "server/world/region/r.-1.-1.mca",
+      "sha256": "16c1322cbb84f6d8b4deb99f9173bd28b93465261395f5f1b18f394bc17df1de",
+      "bytes": 1990656
+    },
+    {
+      "path": "server/world/region/r.-1.0.mca",
+      "sha256": "b092f0927cc8270c8acd32def70ad46b412b4039ea41cba55d71cdd2e3914895",
+      "bytes": 2080768
+    },
+    {
+      "path": "server/world/region/r.0.-1.mca",
+      "sha256": "e8eea6b6466c3832646bbc1a045e2219dc83b79ea673e01e2e41fdff933639e2",
+      "bytes": 2080768
+    },
+    {
+      "path": "server/world/region/r.0.0.mca",
+      "sha256": "921ae3c1128408c7e8eb4ac5cff653411d361592311d1118a83a45d24e1cecbd",
+      "bytes": 2174976
+    },
+    {
+      "path": "server/world/region/r.1.1.mca",
+      "sha256": "9763c87fcc5cd556902d2fba07f09a31f2286cc09ef67410e32951fa72197775",
+      "bytes": 929792
+    },
+    {
+      "path": "server/world/region/r.1.2.mca",
+      "sha256": "573cb5fb2536ea76fbb14dccf50ad06cebf64e0eb84012f329994ae1df24b15f",
+      "bytes": 1421312
+    },
+    {
+      "path": "server/world/region/r.2.1.mca",
+      "sha256": "4cc7d8812799886a6533bae11d3ffc6842e6a1d6edd1f61ac4ec482bfaa005ba",
+      "bytes": 1789952
+    },
+    {
+      "path": "server/world/region/r.2.2.mca",
+      "sha256": "d22edd4b60da1661f9c30585d976ca148760d9e66a2fb83c9c384d3844b1c9d0",
+      "bytes": 2740224
+    },
+    {
+      "path": "server/world/serverconfig/forge-server.toml",
+      "sha256": "e2c32c27453033ef3910d5b6a24ae1a8c1fd224c2ac0a97388d5aa27a6a00ad1",
+      "bytes": 1787
+    },
+    {
+      "path": "server/world/session.lock",
+      "sha256": "51643361c79ecaef25a8de802de24f570ba25d9c2df1d22d94fade11b4f466cc",
+      "bytes": 3
+    },
+    {
+      "path": "server/logs/debug.log",
+      "sha256": "92eb5653391a9dfdc60b4645ff99e4c072aed1dce9b517d8579d57ef1e2e2401",
+      "bytes": 79854
+    },
+    {
+      "path": "server/logs/latest.log",
+      "sha256": "38850cd70ddf49d74d2f4f4bbeafd3e6b7ab834fa2bf6d423d4e3861c2ed4d25",
+      "bytes": 17799
+    },
+    {
+      "path": "native-test/src/main/java/net/farmingtales/s8qa/InstallTests.java",
+      "sha256": "cb789d43346f08a0de0cdb021f0b22e4b57b390cf839af49e3ab145113a42b8f",
+      "bytes": 13951
+    },
+    {
+      "path": "native-test/src/main/resources/data/fts2qa/structures/empty.nbt",
+      "sha256": "6b758ca24c6be982c94f72fda2a204ee827872cc8978f7b7c84add1a067e4185",
+      "bytes": 128
+    },
+    {
+      "path": "native-test/src/main/resources/data/fts8qa/structures/empty.nbt",
+      "sha256": "6b758ca24c6be982c94f72fda2a204ee827872cc8978f7b7c84add1a067e4185",
+      "bytes": 128
+    },
+    {
+      "path": "native-test/src/main/resources/META-INF/mods.toml",
+      "sha256": "11527fada31409a843f760636f476f4cfedbdd23e4e9542ed11789678a3bc201",
+      "bytes": 139
+    },
+    {
+      "path": "native-test/src/main/resources/pack.mcmeta",
+      "sha256": "fcbaeeb2fb19c1782db91d0759fff85d1472b72dbcece3ea06a73fe78b57cdf0",
+      "bytes": 59
+    },
+    {
+      "path": "native-test/build.gradle",
+      "sha256": "615a7b73252796a71329d081049bee235d6590e380e857084cce204068819f0a",
+      "bytes": 854
+    },
+    {
+      "path": "native-test/gradle.properties",
+      "sha256": "71330e21ac7e37688784006cf80c66af5893f8b12e404682fe9870336a5ce2b7",
+      "bytes": 99
+    },
+    {
+      "path": "native-test/settings.gradle",
+      "sha256": "d41df21be3a99224a10c8c03e0d80cd7b42ecc7f146c6aef64b35c0e51eb6206",
+      "bytes": 180
+    },
+    {
+      "path": "server/server.properties",
+      "sha256": "be2cf6c18f06ff42621bfca0b364e2b347854bb79694db42af4164cdec9d2746",
+      "bytes": 1427
+    },
+    {
+      "path": "../runtime-install-r1/console.log",
+      "sha256": "675dbf54fb27ff67f53b2af61961f5d7363a32225fc5e45991494dbc72995aff",
+      "bytes": 32740
+    },
+    {
+      "path": "../runtime-install-r1/native-test/src/main/java/net/farmingtales/s8qa/InstallTests.java",
+      "sha256": "061961bf072efa96679c6feffa2d7e4b56b3435031e27c0f25bbd7332e8b6631",
+      "bytes": 10168
+    },
+    {
+      "path": "../runtime-install-r2/console.log",
+      "sha256": "87d590b531ed2d78d6457c952151682a9a46bbcab4a7e75c6e7c3dcf9a38cb20",
+      "bytes": 19616
+    },
+    {
+      "path": "../runtime-install-r2/exit.json",
+      "sha256": "2fdce35c0b8030bacb20e5a129fee2ee163007cf64af86f84f0c2015095fb15f",
+      "bytes": 76
+    },
+    {
+      "path": "../runtime-install-r2/native-test/src/main/java/net/farmingtales/s8qa/InstallTests.java",
+      "sha256": "7e395ced7f576b74df1151b236cab0d2969313b87516673b1794106f3163e221",
+      "bytes": 10238
+    },
+    {
+      "path": "../runtime-install-r2/clear-result.json",
+      "sha256": "d55250b591ad213194cf5681a98d49c4250848c6de0f60f256690c5e6058754f",
+      "bytes": 10281
+    },
+    {
+      "path": "../runtime-install-r2/installation-result.json",
+      "sha256": "194404e0f2381e3f6a24ff40c7e14b79e7992bcd1388a877dc2402e03db1cbcf",
+      "bytes": 23164
+    },
+    {
+      "path": "../runtime-install-r3/console.log",
+      "sha256": "837f58f548747ae851e70a5cfa38aa4dda65cc91de86ed1ccb7f881c16e369b0",
+      "bytes": 19375
+    },
+    {
+      "path": "../runtime-install-r3/exit.json",
+      "sha256": "adad2f22e411ee322daa47402a47cdfb2d88471bbc355ae1c813d9dda722fd9e",
+      "bytes": 76
+    },
+    {
+      "path": "../runtime-install-r3/native-test/src/main/java/net/farmingtales/s8qa/InstallTests.java",
+      "sha256": "547a3ca0de2df26fb7c8663eb290be1c5d13c03890e3a1cd93f5f6e175576b12",
+      "bytes": 11985
+    },
+    {
+      "path": "../runtime-install-r3/clear-result.json",
+      "sha256": "f33680b6ea1dcf4e33d3ab15b384dc696cea92c0d3a4bede387ff5e558fdf968",
+      "bytes": 10281
+    },
+    {
+      "path": "../runtime-install-r3/installation-result.json",
+      "sha256": "f054fdee4845af3c79f6ae20a5ad5cd6f50f3e395dae0562dcea2a2eb89a55e1",
+      "bytes": 21098
+    },
+    {
+      "path": "../runtime-install-r3/access-result.json",
+      "sha256": "e8cab67daec1a0cf2bbdc799f150f80b0485956e725f1e723ea23d8f4c8db1b6",
+      "bytes": 1150
+    },
+    {
+      "path": "../runtime-install-r3/execution-result.json",
+      "sha256": "54e0b6729883f043fda57673029dd7fa2dc45dfa0ddfa0d545935def8e704159",
+      "bytes": 210
+    },
+    {
+      "path": "../runtime-install-r4/console.log",
+      "sha256": "814d513c7076e8279044dd9086f9e327fc480880ca25cd718f858f71523a06d8",
+      "bytes": 19911
+    },
+    {
+      "path": "../runtime-install-r4/exit.json",
+      "sha256": "a27c6291b3cd5e1b1758bbf2a1e4f15ff44a630307fec1b92efaacdd4b283799",
+      "bytes": 76
+    },
+    {
+      "path": "../runtime-install-r4/native-test/src/main/java/net/farmingtales/s8qa/InstallTests.java",
+      "sha256": "c30a02e10e44f03f2d68f59691e09009ec13c14e89f2f19fa974a5d470202ca7",
+      "bytes": 13719
+    },
+    {
+      "path": "../runtime-install-r4/clear-result.json",
+      "sha256": "5de0de84e29f8c296a9e56a414d3e6ffbde3155aee55697e94b42c78bca7a980",
+      "bytes": 10281
+    },
+    {
+      "path": "../runtime-install-r4/installation-result.json",
+      "sha256": "f054fdee4845af3c79f6ae20a5ad5cd6f50f3e395dae0562dcea2a2eb89a55e1",
+      "bytes": 21098
+    }
+  ]
+}

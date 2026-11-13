@@ -1,0 +1,68 @@
+{
+  "id": "s3-14",
+  "source_sha256": "d478ad783e421dec78b28e157f081fe7767fa2541d57c84428bc7de301b9333d",
+  "origin": [
+    848,
+    100,
+    512
+  ],
+  "size": [
+    27,
+    14,
+    25
+  ],
+  "cleared_volume": 9450,
+  "elapsed_ticks": 1200,
+  "state_changes": [],
+  "support_failures": [],
+  "dropped_items": [],
+  "doors_before_interaction": [],
+  "locks": [
+    {
+      "empty_hand_denied": true,
+      "wrong_name_denied": true,
+      "position": [
+        14,
+        4,
+        19
+      ],
+      "key": "Frost armory key",
+      "correct_key_opened_menu": true
+    }
+  ],
+  "walk": {
+    "visited_nodes": 1306,
+    "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification",
+    "failures": 0,
+    "targets": [
+      {
+        "error": "",
+        "collision_move_roundtrip": true,
+        "label": "east exit",
+        "reachable": true,
+        "moves": 104
+      },
+      {
+        "error": "",
+        "collision_move_roundtrip": true,
+        "label": "inspection",
+        "reachable": true,
+        "moves": 80
+      },
+      {
+        "error": "",
+        "collision_move_roundtrip": true,
+        "label": "locked cabinet",
+        "reachable": true,
+        "moves": 72
+      },
+      {
+        "error": "",
+        "collision_move_roundtrip": true,
+        "label": "anvil",
+        "reachable": true,
+        "moves": 56
+      }
+    ]
+  }
+}

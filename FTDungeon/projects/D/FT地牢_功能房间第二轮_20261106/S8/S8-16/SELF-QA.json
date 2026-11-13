@@ -1,0 +1,66 @@
+{
+  "candidate_sha256": "379a58e554225b5c0bcc47c6f249011044589a1dd12dae9bac37d96ffd60bc77",
+  "reference_sha256": "58d7c9182a00990d31db1dd169cf6306e22c559a15bc1bda0753a052e3995f0c",
+  "reference_image_viewed": true,
+  "lodestone_cutaway_viewed": true,
+  "self_check": "PASS",
+  "independent_acceptance": "NOT_RUN",
+  "native_report": "qa/independent-native-frozen.json",
+  "route_report": "qa/independent-routes.json",
+  "containers": [
+    {
+      "pos": [
+        25,
+        5,
+        5
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        28,
+        5,
+        5
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        7,
+        2,
+        16
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        7,
+        2,
+        19
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        24,
+        2,
+        22
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    }
+  ],
+  "static_supplement_failures": [],
+  "risks": "Contained fluids present; tick simulation not run",
+  "not_run": [
+    "world placement",
+    "neighbor/random/fluid tick simulation",
+    "player gameplay",
+    "independent acceptance"
+  ],
+  "visual_notes": "视觉整改后真实联系图已逐格查看；原家具/原路线目标保留；旧证据qa/visual-r0。"
+}

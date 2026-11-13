@@ -1,0 +1,139 @@
+{
+  "id": "S2-16",
+  "nbt": "s2-16-well-cistern.nbt",
+  "size": [
+    25,
+    13,
+    25
+  ],
+  "reference_observed": "中央矩形井、双木柱横梁链桶、右侧低水渠与桥、后墙阶梯、左右石拱与水罐。",
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        7
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        24,
+        2,
+        6
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        24,
+        2,
+        6
+      ]
+    },
+    {
+      "label": "well-front",
+      "position": [
+        12,
+        2,
+        18
+      ]
+    },
+    {
+      "label": "well-rear",
+      "position": [
+        12,
+        2,
+        6
+      ]
+    },
+    {
+      "label": "channel-bank",
+      "position": [
+        23,
+        2,
+        16
+      ]
+    },
+    {
+      "label": "barrel-storage",
+      "position": [
+        6,
+        2,
+        5
+      ]
+    },
+    {
+      "label": "maintenance-platform",
+      "position": [
+        19,
+        8,
+        3
+      ]
+    }
+  ],
+  "differences": [
+    "井水深一格，完整井壁与封底；取水桶为装饰空桶，无升降机械。",
+    "水渠独立封闭，石半砖桥跨越；干路测试不要求涉水。",
+    "后阶梯通向实际维护平台；新增平台路线目标，原五处目标不删改。",
+    "完整墙顶补齐，未执行液体tick，流动稳定性仍需真实世界复核。"
+  ],
+  "views": [
+    {
+      "id": "preview-full",
+      "position": [
+        -28,
+        37,
+        48
+      ],
+      "target": [
+        12,
+        4,
+        12
+      ],
+      "fov": 43
+    },
+    {
+      "id": "preview-cutaway",
+      "position": [
+        -27,
+        34,
+        47
+      ],
+      "target": [
+        12,
+        4,
+        12
+      ],
+      "cutaway": true,
+      "cutY": 11,
+      "fov": 43
+    },
+    {
+      "id": "preview-interior",
+      "position": [
+        5.5,
+        5.62,
+        20.5
+      ],
+      "target": [
+        14,
+        5,
+        10
+      ],
+      "fov": 88
+    }
+  ],
+  "revision": "R2 preliminary visual REQUEST_CHANGES remediation; previous evidence in archive-preliminary-v1",
+  "architectural_remediation": [
+    "内侧立体门柱、柱脚柱头、倒置楼梯拱券、半砖分层檐口",
+    "地面周边橙色边框与中央菱形纹样，原尺寸家具与路线目标保留"
+  ]
+}

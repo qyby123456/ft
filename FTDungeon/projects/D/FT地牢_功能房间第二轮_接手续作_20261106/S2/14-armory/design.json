@@ -1,0 +1,131 @@
+{
+  "id": "S2-14",
+  "nbt": "s2-14-armory.nbt",
+  "size": [
+    27,
+    12,
+    25
+  ],
+  "reference_observed": "后方长兵器架与箭架、银金两具铠甲陈列、右侧高柜、中央验装桌、右前铁砧、双侧拱门。",
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        7
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        26,
+        2,
+        7
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        26,
+        2,
+        7
+      ]
+    },
+    {
+      "label": "weapon-racks",
+      "position": [
+        7,
+        2,
+        4
+      ]
+    },
+    {
+      "label": "cabinet",
+      "position": [
+        22,
+        2,
+        3
+      ]
+    },
+    {
+      "label": "inspection-table",
+      "position": [
+        12,
+        2,
+        15
+      ]
+    },
+    {
+      "label": "anvil",
+      "position": [
+        21,
+        2,
+        18
+      ]
+    }
+  ],
+  "differences": [
+    "银金铠甲用稳定方块陈列替代盔甲架实体，不声明能穿戴或取用。",
+    "兵器架用铁栏与链表达轮廓，不虚构可取武器、箭矢与钥匙。",
+    "高柜为空桶，没有锁定交互或战利品。",
+    "完整顶墙、支撑铁砧台，中央桌可四周绕行。"
+  ],
+  "views": [
+    {
+      "id": "preview-full",
+      "position": [
+        -30,
+        36,
+        48
+      ],
+      "target": [
+        13,
+        4,
+        12
+      ],
+      "fov": 44
+    },
+    {
+      "id": "preview-cutaway",
+      "position": [
+        -29,
+        34,
+        48
+      ],
+      "target": [
+        13,
+        4,
+        12
+      ],
+      "cutaway": true,
+      "cutY": 10,
+      "fov": 44
+    },
+    {
+      "id": "preview-interior",
+      "position": [
+        13.5,
+        5.62,
+        21.5
+      ],
+      "target": [
+        14,
+        5,
+        2
+      ],
+      "fov": 90
+    }
+  ],
+  "revision": "R2 preliminary visual REQUEST_CHANGES remediation; previous evidence in archive-preliminary-v1",
+  "architectural_remediation": [
+    "内侧立体门柱、柱脚柱头、倒置楼梯拱券、半砖分层檐口",
+    "地面周边橙色边框与中央菱形纹样，原尺寸家具与路线目标保留"
+  ]
+}

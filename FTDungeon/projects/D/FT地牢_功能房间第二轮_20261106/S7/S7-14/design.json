@@ -1,0 +1,106 @@
+{
+  "id": "S7-14",
+  "title": "军械库",
+  "reference_observed": "后墙长兵器架、铁金两座盔甲展示、中央铺毯检修桌、右侧箭架和铁砧、桶箱、四角高低巨菇与双门",
+  "start": [
+    2,
+    3,
+    16
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "foot": [
+        0,
+        3,
+        16
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    },
+    {
+      "side": "east",
+      "foot": [
+        32,
+        3,
+        16
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "west",
+      "position": [
+        0,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "east",
+      "position": [
+        32,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "inspection",
+      "position": [
+        17,
+        3,
+        23
+      ]
+    },
+    {
+      "label": "armor displays",
+      "position": [
+        18,
+        3,
+        9
+      ]
+    },
+    {
+      "label": "anvil",
+      "position": [
+        27,
+        3,
+        15
+      ]
+    },
+    {
+      "label": "weapon rack",
+      "position": [
+        9,
+        3,
+        6
+      ]
+    },
+    {
+      "label": "cabinet",
+      "position": [
+        25,
+        3,
+        7
+      ]
+    }
+  ],
+  "differences": [
+    "兵器和箭用末地烛/铁栏作静态轮廓，不提供真实武器物品",
+    "柜门不实现锁，桶库存为空",
+    "水池封盖，无粒子或战斗内容",
+    "三座实际装备盔甲架实体（铁/金/铁），带铁剑；Lodestone结构渲染不显示实体，以NBT和游戏世界放置验证。末地烛仅为墙面兵器架轮廓。"
+  ],
+  "revision_2": {
+    "reason": "Independent visual preliminary REQUEST_CHANGES",
+    "preserved_evidence": "D:\\ft工程文件\\FT地牢_功能房间第二轮_20261106\\S7\\history\\pre-visual-request-changes\\S7-14",
+    "changes": [
+      "Continuous irregular floor patches replace per-cell checkerboard",
+      "Wave-based clustered cave palette, projecting upper ledges, supported hanging roots and mushrooms",
+      "Stone-and-log layered frames at unchanged clear ports",
+      "Feature-detail render supplements overview; no targets removed"
+    ]
+  }
+}

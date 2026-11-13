@@ -1,0 +1,118 @@
+{
+  "id": "S1-18",
+  "size": [
+    31,
+    18,
+    31
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        4,
+        15
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        30,
+        4,
+        15
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "start": [
+    3,
+    4,
+    15
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        27,
+        4,
+        15
+      ]
+    },
+    {
+      "label": "altar-front",
+      "position": [
+        15,
+        4,
+        14
+      ]
+    },
+    {
+      "label": "bone-niches",
+      "position": [
+        16,
+        4,
+        5
+      ]
+    },
+    {
+      "label": "between-sarcophagi",
+      "position": [
+        15,
+        4,
+        22
+      ]
+    }
+  ],
+  "reference_features": [
+    "two carved stone sarcophagi",
+    "central candle altar",
+    "two rear bone/skull niches",
+    "right giant root",
+    "left recessed pool"
+  ],
+  "differences": [
+    "Full roof rather than perspective-open crypt",
+    "Skulls are vanilla block entities, no mobs or encounter logic",
+    "Bone blocks replace small scattered bones",
+    "Pool enclosed without waterfall; floor and interfaces elevated to Y4"
+  ],
+  "cutaway": {
+    "removeAbove": 16,
+    "frontDepth": 28,
+    "sideX": 28
+  },
+  "focus_views": [
+    {
+      "id": "focus",
+      "position": [
+        25,
+        13,
+        15
+      ],
+      "target": [
+        16,
+        9,
+        3
+      ],
+      "fov": 53
+    },
+    {
+      "id": "function-detail",
+      "position": [
+        21,
+        13,
+        11
+      ],
+      "target": [
+        16,
+        9,
+        3
+      ],
+      "fov": 48
+    }
+  ],
+  "revision": "R2: independent visual/support changes; targets retained"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "s3-20",
+  "source_sha256": "beddf317e1c270da0aab9c542bbac446976ae2b4c3d1c93e1a40be713263f4f4",
+  "origin": [
+    960,
+    100,
+    640
+  ],
+  "size": [
+    33,
+    14,
+    25
+  ],
+  "cleared_volume": 11550,
+  "elapsed_ticks": 1200,
+  "state_changes": [],
+  "support_failures": [],
+  "dropped_items": [
+    {
+      "position": "(981.8892925387685, 102.0, 648.1734428486437)",
+      "item": "1 wheat_seeds"
+    },
+    {
+      "position": "(981.1285254672134, 102.0, 644.8600665836004)",
+      "item": "1 wheat_seeds"
+    },
+    {
+      "position": "(983.9120471995941, 103.0, 655.4655151975429)",
+      "item": "1 wheat_seeds"
+    },
+    {
+      "position": "(990.4980026823869, 102.0, 652.4426239056531)",
+      "item": "1 wheat_seeds"
+    },
+    {
+      "position": "(987.3582323847522, 103.0, 657.0436957520119)",
+      "item": "1 wheat_seeds"
+    },
+    {
+      "position": "(982.3055864245201, 103.0, 656.5850685722733)",
+      "item": "1 wheat_seeds"
+    },
+    {
+      "position": "(984.5968627591351, 103.0, 656.3421529026813)",
+      "item": "1 wheat_seeds"
+    }
+  ],
+  "doors_before_interaction": [],
+  "locks": [
+    {
+      "correct_key_opened_menu": true,
+      "empty_hand_denied": true,
+      "wrong_name_denied": true,
+      "position": [
+        22,
+        4,
+        21
+      ],
+      "key": "Frost vault key"
+    }
+  ],
+  "walk": {
+    "failures": 0,
+    "targets": [
+      {
+        "label": "east exit",
+        "reachable": true,
+        "moves": 140,
+        "error": "",
+        "collision_move_roundtrip": true
+      },
+      {
+        "label": "hidden passage",
+        "reachable": true,
+        "moves": 52,
+        "error": "",
+        "collision_move_roundtrip": true
+      },
+      {
+        "label": "vault chest",
+        "reachable": true,
+        "moves": 104,
+        "error": "",
+        "collision_move_roundtrip": true
+      },
+      {
+        "label": "lever",
+        "reachable": true,
+        "moves": 80,
+        "error": "",
+        "collision_move_roundtrip": true
+      }
+    ],
+    "visited_nodes": 1753,
+    "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+  }
+}

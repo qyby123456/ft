@@ -1,0 +1,115 @@
+{
+  "id": "R2",
+  "name": "废弃厨房食堂",
+  "status": "READY_FOR_INTEGRATION_NOT_DEPLOYED",
+  "created_at": "2026-11-02T12:56:53.186215+08:00",
+  "root": "D:\\ft工程文件\\FT地牢_R2_废弃厨房食堂_20261102",
+  "delivery_directory": "D:\\ft工程文件\\FT地牢_R2_废弃厨房食堂_20261102\\out",
+  "size": [
+    15,
+    9,
+    15
+  ],
+  "entrance": [
+    7,
+    1,
+    0
+  ],
+  "interior": [
+    7,
+    1,
+    3
+  ],
+  "room_nbt_sha256": "c9ba4472fc6f9b9be8f719913e025de6880edafc0ec0cde392338f16a52bc5ff",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-rooms-medium-random-thread3-20261102\\out\\R2-abandoned-kitchen-mess.png",
+  "reference_sha256": "8dab754ca881b61b789b78e3cfe09f12f26f6be4bbc56ea583f298cdb244865d",
+  "artifacts": [
+    {
+      "path": "out/room.nbt",
+      "bytes": 5929,
+      "sha256": "c9ba4472fc6f9b9be8f719913e025de6880edafc0ec0cde392338f16a52bc5ff"
+    },
+    {
+      "path": "out/room.json",
+      "bytes": 4377,
+      "sha256": "aac730f9b14b32968819e0215ad51e9f44d7b77742856a11fd14d7575ad12966"
+    },
+    {
+      "path": "out/preview.png",
+      "bytes": 510042,
+      "sha256": "0b2d9e8144eda58e1b4cfe9e5eb9e93f778e040a7ad6324209b4363b361eb5bf"
+    },
+    {
+      "path": "out/qa.json",
+      "bytes": 3674,
+      "sha256": "367dc56f4a26b9d0116c643561ee36248a9a55035fddf52c36f434f6dccb78f3"
+    },
+    {
+      "path": "qa/static.json",
+      "bytes": 6991,
+      "sha256": "d57722f262210336a1e4e3e304b316a71ce3e76c8dde4d7b8ca1b5d4e8c77cda"
+    },
+    {
+      "path": "qa/forge-native.json",
+      "bytes": 2200,
+      "sha256": "766c43167b352b3629fd4faf6b3d32f2bb1c5ac37ca2a7a2fc43899352c5f08a"
+    },
+    {
+      "path": "qa/forge-run.log",
+      "bytes": 10214,
+      "sha256": "504b1fd5a1760049e54a67ec275e36e1bc27f3bb9f85bafc75cc643ba89d67ae"
+    },
+    {
+      "path": "qa/native-capture-comparison.json",
+      "bytes": 1400,
+      "sha256": "dd7eaa9534dbf07ef3d0e263ee725b884ba22eae69f1bdb8a695a07dea7aa6a0"
+    },
+    {
+      "path": "qa/render.json",
+      "bytes": 4515,
+      "sha256": "dfdcb3fbf4b7f2c700a7bcf22afc92ca83b644829cb3a8bc4821e38fe752304c"
+    },
+    {
+      "path": "qa/visual-review.json",
+      "bytes": 2109,
+      "sha256": "46c80ad04824eb93e7cf9fce7e612eb804fd7b91a2aed9e773fb33ce870b3680"
+    },
+    {
+      "path": "preview/four-views.png",
+      "bytes": 1987775,
+      "sha256": "732181bc6c0d1426f0dc94e2c6c7f0975538281c7ab48d8a8369ef6cc81f1434"
+    },
+    {
+      "path": "preview/exterior.png",
+      "bytes": 412599,
+      "sha256": "6c7082a98a500fb1daa2e3e80c2129c0b2468a5522526f8179f612614c97f249"
+    },
+    {
+      "path": "preview/plan.png",
+      "bytes": 91765,
+      "sha256": "a39d7b3a77aa24855e96b4915efd48adca410de5b4ef7d2c8c6e78413b26e6ea"
+    },
+    {
+      "path": "preview/native-world.png",
+      "bytes": 510974,
+      "sha256": "80fbb15c35bcf69a2b68b87c4acbc5143eec57b27aca62886c3295757120fe7a"
+    }
+  ],
+  "project_artifact_writes_confined_to": "D:\\ft工程文件\\FT地牢_R2_废弃厨房食堂_20261102",
+  "tool_cache_note": "Gradle updates its ordinary user cache and daemon logs; no other room or production project files are edited.",
+  "formal_saves_modified": false,
+  "ft_core_modified": false,
+  "other_room_projects_modified": false,
+  "image_api_called": false,
+  "read_only_source_reuse": [
+    "S6/tools/nbtio.py copied into this project",
+    "H/tools/render_engine.py copied and adapted only locally",
+    "S6 Gradle 8.8 wrapper copied"
+  ],
+  "integration_required": [
+    "Register unique R2 template and persistent generation marker.",
+    "Create a walkable connector from the FT hall to the north interface.",
+    "Reject occupied/liquid/entity-bearing destinations across the entire volume, including recorded air.",
+    "Do not regenerate existing rooms, clear player worlds, or hot-replace a running production JAR."
+  ]
+}

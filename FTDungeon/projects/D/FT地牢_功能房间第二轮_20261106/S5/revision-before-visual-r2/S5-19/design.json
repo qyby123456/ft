@@ -1,0 +1,75 @@
+{
+  "id": "S5-19",
+  "size": [
+    31,
+    20,
+    33
+  ],
+  "description": "Raised enclosed watch balcony with telescopic sculpture, parapet, back access and eight-half-step descending stair to lower landing.",
+  "ports": [
+    {
+      "name": "south-low",
+      "feet": [
+        25,
+        3,
+        32
+      ],
+      "facing": "south",
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "north-high",
+      "feet": [
+        15,
+        7,
+        0
+      ],
+      "facing": "north",
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "upper-landing",
+      "position": [
+        25,
+        7,
+        16
+      ]
+    },
+    {
+      "label": "watch-desk",
+      "position": [
+        10,
+        7,
+        14
+      ]
+    },
+    {
+      "label": "weapon-rack",
+      "position": [
+        21,
+        7,
+        7
+      ]
+    },
+    {
+      "label": "observation",
+      "position": [
+        6,
+        7,
+        7
+      ]
+    }
+  ],
+  "differences": [
+    "Viewing parapet backed by cyan glass and full canopy; no actual ocean surroundings packaged.",
+    "Telescope is gold/glass block sculpture, not a usable spyglass.",
+    "Real four-block floor-height difference is traversed by 0.5-height slab steps; checked with native body collision.",
+    "Upper platform dry; lower landing contains isolated shallow coral pool."
+  ],
+  "water_policy": "Shallow contained display pools, raised dry traversable ports; no ocean placement survival claim.",
+  "cutHeight": 17
+}

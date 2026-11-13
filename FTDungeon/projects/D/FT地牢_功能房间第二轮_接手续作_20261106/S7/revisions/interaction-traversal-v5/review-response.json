@@ -1,0 +1,21 @@
+{
+  "candidate_parent": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\local-relief-v4\\ready-for-review.json",
+  "movement_report": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\interaction-traversal-v5\\worldqa-vault-final\\movement-report.json",
+  "original_route_goals": 102,
+  "added_vault_use_goals": 2,
+  "move_calls": 222030,
+  "menus_after_route": 4,
+  "vault_lever_roundtrip": true,
+  "failed_runs": {
+    "worldqa": "51 goals stopped by strict noCollision check on boundary precision ~1e-8; ladder and upper landing passed. Whole run failed and preserved.",
+    "worldqa-diagnostic": "Reproduced collision-free=false at ~1e-8 overlap, stopping before next step. Forge effective step height=1.0 recorded."
+  },
+  "earlier_success": "worldqa-validated passed all 102 original goals, ladder and landing. Preserved separately from final 104-goal run.",
+  "final_method": "Only the diagnostic overlap box is deflated 1e-6; native Entity.move uses unchanged collision boxes. maxUpStep=0.6, Forge step addition base=0, effective height asserted 0.6. No candidate geometry change or waypoint teleport.",
+  "scope": "Author server-side Forge FakePlayer physical collision probes. Each target restarts at the declared route origin; all intermediate movement uses Entity.move with horizontal displacement and downward gravity probe, native automatic step-up, no positive-Y injection or waypoint teleport. Ladder uses Player.travel forward into supported ladder and lateral travel onto upper platform. Calls execute synchronously, not real client input or a complete survival movement tick loop; no packet, human, jump or rotation certification. Menu use after route is native block.use from reached feet but does not certify client raycast.",
+  "pending": [
+    "当前v4结构及v5补充证据的独立复核，accepted=false。",
+    "真人客户端输入/网络包链路、射线瞄准后的门箱拉杆操作与连续完整行走；当前会话缺少computer-use所需node_repl。",
+    "训练障碍跳跃未实测；当前世界和移动结果仅零旋转，其他朝向未认证。"
+  ]
+}

@@ -1,0 +1,2248 @@
+{
+  "missing": [
+    {
+      "position": [
+        120,
+        6,
+        85
+      ],
+      "failure": "No reachable standing eye ray within 4.5 blocks",
+      "block": "minecraft:barrel"
+    }
+  ],
+  "scope": "Each use from naturally reached standing feet, actual eye OUTLINE first-hit ray \u003c\u003d4.5 blocks, ServerPlayerGameMode.useItemOn; original source doors tested separately from optional controls",
+  "source_sha256": "933a5f44ccc2c84d00b7ec321080068e99989403de35e7ad7aa3e09bc9a569b7",
+  "interactions": [
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            36.41830190248174,
+            103.0625,
+            32.49998939618682
+          ],
+          "eye": [
+            36.41830190248174,
+            104.68250000476837,
+            32.49998939618682
+          ],
+          "look": [
+            0.06310289353132248,
+            0.6316471695899963,
+            0.77262282371521
+          ],
+          "first_hit": [
+            36,
+            105,
+            33
+          ],
+          "hit_location": [
+            36.459139572465695,
+            105.09127680111628,
+            33.0
+          ],
+          "reach": 0.6471296535067753,
+          "first_hit_target": true,
+          "use_result": "PASS",
+          "menu_opened": false,
+          "before": "Block{minecraft:lectern}[facing\u003dnorth,has_book\u003dfalse,powered\u003dfalse]",
+          "after": "Block{minecraft:lectern}[facing\u003dnorth,has_book\u003dfalse,powered\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:lectern",
+      "key": "",
+      "position": [
+        36,
+        5,
+        33
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            85.4999969654065,
+            103.0,
+            99.41830140200214
+          ],
+          "eye": [
+            85.4999969654065,
+            104.62000000476837,
+            99.41830140200214
+          ],
+          "look": [
+            0.6650658845901489,
+            -0.744801938533783,
+            0.05438252165913582
+          ],
+          "first_hit": [
+            86,
+            103,
+            99
+          ],
+          "hit_location": [
+            86.05362180213679,
+            104.0,
+            99.46357137505613
+          ],
+          "reach": 0.8324360853649567,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        86,
+        3,
+        99
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            82.48230823853147,
+            103.0,
+            89.46759170332015
+          ],
+          "eye": [
+            82.48230823853147,
+            104.62000000476837,
+            89.46759170332015
+          ],
+          "look": [
+            0.6723518967628479,
+            -0.7399200797080994,
+            0.021472787484526634
+          ],
+          "first_hit": [
+            83,
+            103,
+            89
+          ],
+          "hit_location": [
+            83.04569094786874,
+            104.0,
+            89.48558436051098
+          ],
+          "reach": 0.8379282897753011,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:crafting_table}",
+          "after": "Block{minecraft:crafting_table}",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:crafting_table",
+      "key": "",
+      "position": [
+        83,
+        3,
+        89
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            107.49998809015956,
+            110.0,
+            159.41830187741422
+          ],
+          "eye": [
+            107.49998809015956,
+            111.62000000476837,
+            159.41830187741422
+          ],
+          "look": [
+            -0.7373098731040955,
+            0.6741123199462891,
+            0.04295678436756134
+          ],
+          "first_hit": [
+            106,
+            112,
+            159
+          ],
+          "hit_location": [
+            106.375,
+            112.64856120953924,
+            159.48384537895666
+          ],
+          "reach": 1.5257235350990028,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": false,
+          "before": "Block{minecraft:lever}[face\u003dwall,facing\u003deast,powered\u003dfalse]",
+          "after": "Block{minecraft:lever}[face\u003dwall,facing\u003deast,powered\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:lever",
+      "key": "",
+      "position": [
+        106,
+        12,
+        159
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            113.50002369730836,
+            111.0,
+            160.41827072127458
+          ],
+          "eye": [
+            113.50002369730836,
+            112.62000000476837,
+            160.41827072127458
+          ],
+          "look": [
+            0.6650658845901489,
+            -0.744801938533783,
+            0.05438252165913582
+          ],
+          "first_hit": [
+            114,
+            111,
+            160
+          ],
+          "hit_location": [
+            114.16526644381132,
+            111.875,
+            160.47266770495474
+          ],
+          "reach": 1.0002659399945437,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": false,
+          "before": "Block{minecraft:chest}[facing\u003dnorth,type\u003dsingle,waterlogged\u003dfalse]",
+          "after": "Block{minecraft:chest}[facing\u003dnorth,type\u003dsingle,waterlogged\u003dfalse]",
+          "expected_behavior": true
+        },
+        {
+          "variant": "wrong",
+          "feet": [
+            113.50002369730836,
+            111.0,
+            160.41827072127458
+          ],
+          "eye": [
+            113.50002369730836,
+            112.62000000476837,
+            160.41827072127458
+          ],
+          "look": [
+            0.6650658845901489,
+            -0.744801938533783,
+            0.05438252165913582
+          ],
+          "first_hit": [
+            114,
+            111,
+            160
+          ],
+          "hit_location": [
+            114.16526644381132,
+            111.875,
+            160.47266770495474
+          ],
+          "reach": 1.0002659399945437,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": false,
+          "before": "Block{minecraft:chest}[facing\u003dnorth,type\u003dsingle,waterlogged\u003dfalse]",
+          "after": "Block{minecraft:chest}[facing\u003dnorth,type\u003dsingle,waterlogged\u003dfalse]",
+          "expected_behavior": true
+        },
+        {
+          "variant": "correct",
+          "feet": [
+            113.50002369730836,
+            111.0,
+            160.41827072127458
+          ],
+          "eye": [
+            113.50002369730836,
+            112.62000000476837,
+            160.41827072127458
+          ],
+          "look": [
+            0.6650658845901489,
+            -0.744801938533783,
+            0.05438252165913582
+          ],
+          "first_hit": [
+            114,
+            111,
+            160
+          ],
+          "hit_location": [
+            114.16526644381132,
+            111.875,
+            160.47266770495474
+          ],
+          "reach": 1.0002659399945437,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:chest}[facing\u003dnorth,type\u003dsingle,waterlogged\u003dfalse]",
+          "after": "Block{minecraft:chest}[facing\u003dnorth,type\u003dsingle,waterlogged\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:chest",
+      "key": "Frost vault key",
+      "position": [
+        114,
+        11,
+        160
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            41.50000374182773,
+            109.0,
+            189.41830140202757
+          ],
+          "eye": [
+            41.50000374182773,
+            110.62000000476837,
+            189.41830140202757
+          ],
+          "look": [
+            0.6650658845901489,
+            -0.744801938533783,
+            0.05438252165913582
+          ],
+          "first_hit": [
+            42,
+            109,
+            189
+          ],
+          "hit_location": [
+            42.053628578558026,
+            110.0,
+            189.46357137508156
+          ],
+          "reach": 0.8324360853649567,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        42,
+        9,
+        189
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            77.49997355654993,
+            105.0,
+            91.41852978316825
+          ],
+          "eye": [
+            77.49997355654993,
+            106.62000000476837,
+            91.41852978316825
+          ],
+          "look": [
+            0.6650815010070801,
+            -0.744801938533783,
+            0.0541912317276001
+          ],
+          "first_hit": [
+            78,
+            105,
+            91
+          ],
+          "hit_location": [
+            78.44428325030678,
+            105.5625,
+            91.49547269220949
+          ],
+          "reach": 1.4198405787481878,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:stonecutter}[facing\u003dnorth]",
+          "after": "Block{minecraft:stonecutter}[facing\u003dnorth]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:stonecutter",
+      "key": "",
+      "position": [
+        78,
+        5,
+        91
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            83.49999589390755,
+            103.0,
+            86.5817413599153
+          ],
+          "eye": [
+            83.49999589390755,
+            104.62000000476837,
+            86.5817413599153
+          ],
+          "look": [
+            0.6650711297988892,
+            -0.744801938533783,
+            -0.054318759590387344
+          ],
+          "first_hit": [
+            84,
+            103,
+            86
+          ],
+          "hit_location": [
+            84.05362509693884,
+            104.0,
+            86.53652446470777
+          ],
+          "reach": 0.8324361044392857,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        84,
+        3,
+        86
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            69.50000146946222,
+            103.0,
+            97.41830187205171
+          ],
+          "eye": [
+            69.50000146946222,
+            104.62000000476837,
+            97.41830187205171
+          ],
+          "look": [
+            0.0,
+            -0.7192702293395996,
+            0.6947304010391235
+          ],
+          "first_hit": [
+            69,
+            103,
+            98
+          ],
+          "hit_location": [
+            69.50000146946222,
+            104.0,
+            98.01714891783098
+          ],
+          "reach": 0.861984796937472,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        69,
+        3,
+        98
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            67.50000771574297,
+            103.0,
+            98.4183014097703
+          ],
+          "eye": [
+            67.50000771574297,
+            104.62000000476837,
+            98.4183014097703
+          ],
+          "look": [
+            0.6650658845901489,
+            -0.744801938533783,
+            0.05438252165913582
+          ],
+          "first_hit": [
+            68,
+            103,
+            98
+          ],
+          "hit_location": [
+            68.05363255247326,
+            104.0,
+            98.46357138282428
+          ],
+          "reach": 0.8324360853649567,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        68,
+        3,
+        98
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            70.49999883037555,
+            103.0,
+            97.41830187148202
+          ],
+          "eye": [
+            70.49999883037555,
+            104.62000000476837,
+            97.41830187148202
+          ],
+          "look": [
+            0.6650658845901489,
+            -0.744801938533783,
+            0.05438252165913582
+          ],
+          "first_hit": [
+            71,
+            103,
+            97
+          ],
+          "hit_location": [
+            71.22105053176483,
+            103.8125,
+            97.47726236047527
+          ],
+          "reach": 1.0841808673093372,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:grindstone}[face\u003dfloor,facing\u003dnorth]",
+          "after": "Block{minecraft:grindstone}[face\u003dfloor,facing\u003dnorth]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:grindstone",
+      "key": "",
+      "position": [
+        71,
+        3,
+        97
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            78.50000279243432,
+            103.0,
+            101.4183014019947
+          ],
+          "eye": [
+            78.50000279243432,
+            104.62000000476837,
+            101.4183014019947
+          ],
+          "look": [
+            0.5491054654121399,
+            -0.8345460891723633,
+            0.04490042105317116
+          ],
+          "first_hit": [
+            79,
+            103,
+            101
+          ],
+          "hit_location": [
+            79.0,
+            103.86009004128285,
+            101.45918623479865
+          ],
+          "reach": 0.9105668178291274,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:furnace}[facing\u003dnorth,lit\u003dfalse]",
+          "after": "Block{minecraft:furnace}[facing\u003dnorth,lit\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:furnace",
+      "key": "",
+      "position": [
+        79,
+        3,
+        101
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            78.50000279243432,
+            103.0,
+            101.4183014019947
+          ],
+          "eye": [
+            78.50000279243432,
+            104.62000000476837,
+            101.4183014019947
+          ],
+          "look": [
+            0.9896273612976074,
+            -0.11869887262582779,
+            0.0809219479560852
+          ],
+          "first_hit": [
+            79,
+            104,
+            101
+          ],
+          "hit_location": [
+            79.0,
+            104.56002884069679,
+            101.45918623359006
+          ],
+          "reach": 0.5052378821388633,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:blast_furnace}[facing\u003dnorth,lit\u003dfalse]",
+          "after": "Block{minecraft:blast_furnace}[facing\u003dnorth,lit\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:blast_furnace",
+      "key": "",
+      "position": [
+        79,
+        4,
+        101
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            87.50000272511359,
+            103.0,
+            98.4183014019927
+          ],
+          "eye": [
+            87.50000272511359,
+            104.62000000476837,
+            98.4183014019927
+          ],
+          "look": [
+            0.0,
+            -0.7192702293395996,
+            0.6947304010391235
+          ],
+          "first_hit": [
+            87,
+            103,
+            99
+          ],
+          "hit_location": [
+            87.50000272511359,
+            104.0,
+            99.01714844777196
+          ],
+          "reach": 0.861984796937472,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        87,
+        3,
+        99
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            127.5000031913289,
+            103.0,
+            83.58169859794529
+          ],
+          "eye": [
+            127.5000031913289,
+            104.62000000476837,
+            83.58169859794529
+          ],
+          "look": [
+            0.6650711297988892,
+            -0.744801938533783,
+            -0.054318759590387344
+          ],
+          "first_hit": [
+            128,
+            103,
+            83
+          ],
+          "hit_location": [
+            128.0536323943602,
+            104.0,
+            83.53648170273776
+          ],
+          "reach": 0.8324361044392857,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        128,
+        3,
+        83
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            127.50000277845326,
+            103.0,
+            82.58169859797759
+          ],
+          "eye": [
+            127.50000277845326,
+            104.62000000476837,
+            82.58169859797759
+          ],
+          "look": [
+            0.6650711297988892,
+            -0.744801938533783,
+            -0.054318759590387344
+          ],
+          "first_hit": [
+            128,
+            103,
+            82
+          ],
+          "hit_location": [
+            128.05363198148456,
+            104.0,
+            82.53648170277006
+          ],
+          "reach": 0.8324361044392857,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        128,
+        3,
+        82
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            112.49334987818256,
+            103.0,
+            77.57993464695518
+          ],
+          "eye": [
+            112.49334987818256,
+            104.62000000476837,
+            77.57993464695518
+          ],
+          "look": [
+            0.6675400137901306,
+            -0.7426870465278625,
+            -0.052974455058574677
+          ],
+          "first_hit": [
+            113,
+            103,
+            77
+          ],
+          "hit_location": [
+            113.05061664844315,
+            104.0,
+            77.53571122533707
+          ],
+          "reach": 0.8348065465537936,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        113,
+        3,
+        77
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            129.5000067962797,
+            103.0,
+            81.49883320427335
+          ],
+          "eye": [
+            129.5000067962797,
+            104.62000000476837,
+            81.49883320427335
+          ],
+          "look": [
+            0.0,
+            -0.7455052733421326,
+            0.6664997339248657
+          ],
+          "first_hit": [
+            129,
+            103,
+            82
+          ],
+          "hit_location": [
+            129.5000067962797,
+            104.0,
+            82.05312819451402
+          ],
+          "reach": 0.8316507332520533,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        129,
+        3,
+        82
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            152.5000038122988,
+            103.0,
+            96.41830140203041
+          ],
+          "eye": [
+            152.5000038122988,
+            104.62000000476837,
+            96.41830140203041
+          ],
+          "look": [
+            0.6650658845901489,
+            -0.744801938533783,
+            0.05438252165913582
+          ],
+          "first_hit": [
+            153,
+            103,
+            96
+          ],
+          "hit_location": [
+            153.0536286490291,
+            104.0,
+            96.4635713750844
+          ],
+          "reach": 0.8324360853649662,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        153,
+        3,
+        96
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            182.58129881145476,
+            103.0,
+            89.50788713585307
+          ],
+          "eye": [
+            182.58129881145476,
+            104.62000000476837,
+            89.50788713585307
+          ],
+          "look": [
+            -0.06808418780565262,
+            -0.9374392032623291,
+            -0.34142687916755676
+          ],
+          "first_hit": [
+            182,
+            103,
+            89
+          ],
+          "hit_location": [
+            182.51741017450527,
+            103.7403286030853,
+            89.1875
+          ],
+          "reach": 0.9383770296050787,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": false,
+          "before": "Block{minecraft:spruce_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+          "after": "Block{minecraft:spruce_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:spruce_door",
+      "key": "",
+      "position": [
+        182,
+        3,
+        89
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            171.4999972242248,
+            103.0,
+            36.4183014094571
+          ],
+          "eye": [
+            171.4999972242248,
+            104.62000000476837,
+            36.4183014094571
+          ],
+          "look": [
+            0.0,
+            0.9957143664360046,
+            0.09238628298044205
+          ],
+          "first_hit": [
+            171,
+            105,
+            36
+          ],
+          "hit_location": [
+            171.4999972242248,
+            105.0,
+            36.453559298943716
+          ],
+          "reach": 0.3816321725786337,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": false,
+          "before": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "expected_behavior": true
+        },
+        {
+          "variant": "wrong",
+          "feet": [
+            171.4999972242248,
+            103.0,
+            36.4183014094571
+          ],
+          "eye": [
+            171.4999972242248,
+            104.62000000476837,
+            36.4183014094571
+          ],
+          "look": [
+            0.0,
+            0.9957143664360046,
+            0.09238628298044205
+          ],
+          "first_hit": [
+            171,
+            105,
+            36
+          ],
+          "hit_location": [
+            171.4999972242248,
+            105.0,
+            36.453559298943716
+          ],
+          "reach": 0.3816321725786337,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": false,
+          "before": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "expected_behavior": true
+        },
+        {
+          "variant": "correct",
+          "feet": [
+            171.4999972242248,
+            103.0,
+            36.4183014094571
+          ],
+          "eye": [
+            171.4999972242248,
+            104.62000000476837,
+            36.4183014094571
+          ],
+          "look": [
+            0.0,
+            0.9957143664360046,
+            0.09238628298044205
+          ],
+          "first_hit": [
+            171,
+            105,
+            36
+          ],
+          "hit_location": [
+            171.4999972242248,
+            105.0,
+            36.453559298943716
+          ],
+          "reach": 0.3816321725786337,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "Frost armory key",
+      "position": [
+        171,
+        5,
+        36
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            166.4996826215801,
+            103.0,
+            38.41537367963187
+          ],
+          "eye": [
+            166.4996826215801,
+            104.62000000476837,
+            38.41537367963187
+          ],
+          "look": [
+            0.6651201248168945,
+            -0.7446100115776062,
+            0.05631323158740997
+          ],
+          "first_hit": [
+            167,
+            103,
+            38
+          ],
+          "hit_location": [
+            167.05349532104182,
+            104.0,
+            38.46226292811074
+          ],
+          "reach": 0.8326506552094837,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        167,
+        3,
+        38
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            163.49969269002358,
+            103.0,
+            38.41560736422894
+          ],
+          "eye": [
+            163.49969269002358,
+            104.62000000476837,
+            38.41560736422894
+          ],
+          "look": [
+            0.6651362776756287,
+            -0.7446100115776062,
+            0.05612192675471306
+          ],
+          "first_hit": [
+            164,
+            103,
+            38
+          ],
+          "hit_location": [
+            164.0535188391735,
+            104.0,
+            38.462337322615895
+          ],
+          "reach": 0.8326506460730482,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        164,
+        3,
+        38
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            160.5000008110294,
+            103.0,
+            38.4183014019581
+          ],
+          "eye": [
+            160.5000008110294,
+            104.62000000476837,
+            38.4183014019581
+          ],
+          "look": [
+            0.6650658845901489,
+            -0.744801938533783,
+            0.05438252165913582
+          ],
+          "first_hit": [
+            161,
+            103,
+            38
+          ],
+          "hit_location": [
+            161.0536256477597,
+            104.0,
+            38.46357137501208
+          ],
+          "reach": 0.8324360853649658,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        161,
+        3,
+        38
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            137.4999974061711,
+            104.0,
+            40.418301401988984
+          ],
+          "eye": [
+            137.4999974061711,
+            105.62000000476837,
+            40.418301401988984
+          ],
+          "look": [
+            0.6650658845901489,
+            -0.744801938533783,
+            0.05438252165913582
+          ],
+          "first_hit": [
+            138,
+            104,
+            40
+          ],
+          "hit_location": [
+            138.0536222429014,
+            105.0,
+            40.46357137504297
+          ],
+          "reach": 0.8324360853649658,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        138,
+        4,
+        40
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            137.50000054728028,
+            104.0,
+            44.501166364869626
+          ],
+          "eye": [
+            137.50000054728028,
+            105.62000000476837,
+            44.501166364869626
+          ],
+          "look": [
+            -0.6660704016685486,
+            -0.7458885312080383,
+            -7.663047290407121E-4
+          ],
+          "first_hit": [
+            136,
+            104,
+            44
+          ],
+          "hit_location": [
+            136.9463472399399,
+            105.0,
+            44.500529394443376
+          ],
+          "reach": 0.8312234334840625,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        136,
+        4,
+        44
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            132.49999938044712,
+            104.0,
+            44.50116636487039
+          ],
+          "eye": [
+            132.49999938044712,
+            105.62000000476837,
+            44.50116636487039
+          ],
+          "look": [
+            0.6660704016685486,
+            -0.7458885312080383,
+            -7.663047290407121E-4
+          ],
+          "first_hit": [
+            133,
+            104,
+            44
+          ],
+          "hit_location": [
+            133.0536526877875,
+            105.0,
+            44.50052939444414
+          ],
+          "reach": 0.8312234334840625,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        133,
+        4,
+        44
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            129.50000057865597,
+            104.0,
+            44.50116636486994
+          ],
+          "eye": [
+            129.50000057865597,
+            105.62000000476837,
+            44.50116636486994
+          ],
+          "look": [
+            0.6660704016685486,
+            -0.7458885312080383,
+            -7.663047290407121E-4
+          ],
+          "first_hit": [
+            130,
+            104,
+            44
+          ],
+          "hit_location": [
+            130.05365388599634,
+            105.0,
+            44.50052939444369
+          ],
+          "reach": 0.8312234334840625,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        130,
+        4,
+        44
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            123.50667410635548,
+            104.0,
+            40.420066605515494
+          ],
+          "eye": [
+            123.50667410635548,
+            105.62000000476837,
+            40.420066605515494
+          ],
+          "look": [
+            0.6626381874084473,
+            -0.747036874294281,
+            0.053352683782577515
+          ],
+          "first_hit": [
+            124,
+            104,
+            40
+          ],
+          "hit_location": [
+            124.05662778801417,
+            105.0,
+            40.46434643337654
+          ],
+          "reach": 0.8299456373993029,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        124,
+        4,
+        40
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            113.49999742820522,
+            104.0,
+            38.41830140199026
+          ],
+          "eye": [
+            113.49999742820522,
+            105.62000000476837,
+            38.41830140199026
+          ],
+          "look": [
+            0.6650658845901489,
+            -0.744801938533783,
+            0.05438252165913582
+          ],
+          "first_hit": [
+            114,
+            104,
+            38
+          ],
+          "hit_location": [
+            114.05362226493551,
+            105.0,
+            38.463571375044246
+          ],
+          "reach": 0.8324360853649564,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:furnace}[facing\u003dnorth,lit\u003dfalse]",
+          "after": "Block{minecraft:furnace}[facing\u003dnorth,lit\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:furnace",
+      "key": "",
+      "position": [
+        114,
+        4,
+        38
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            83.4187348968991,
+            103.0,
+            39.50804648967839
+          ],
+          "eye": [
+            83.4187348968991,
+            104.62000000476837,
+            39.50804648967839
+          ],
+          "look": [
+            0.0680362805724144,
+            -0.9374058246612549,
+            -0.341528058052063
+          ],
+          "first_hit": [
+            83,
+            103,
+            39
+          ],
+          "hit_location": [
+            83.48259140998516,
+            103.74018313638844,
+            39.1875
+          ],
+          "reach": 0.9385656227427698,
+          "first_hit_target": true,
+          "use_result": "PASS",
+          "menu_opened": false,
+          "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+          "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:iron_door",
+      "key": "",
+      "position": [
+        83,
+        3,
+        39
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            83.41873487664162,
+            103.0,
+            45.50804632209888
+          ],
+          "eye": [
+            83.41873487664162,
+            104.62000000476837,
+            45.50804632209888
+          ],
+          "look": [
+            0.0680362805724144,
+            -0.9374058246612549,
+            -0.341528058052063
+          ],
+          "first_hit": [
+            83,
+            103,
+            45
+          ],
+          "hit_location": [
+            83.48259135634395,
+            103.74018359635069,
+            45.1875
+          ],
+          "reach": 0.9385651320670717,
+          "first_hit_target": true,
+          "use_result": "PASS",
+          "menu_opened": false,
+          "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+          "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:iron_door",
+      "key": "",
+      "position": [
+        83,
+        3,
+        45
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            83.4187348767858,
+            103.0,
+            50.508046323288724
+          ],
+          "eye": [
+            83.4187348767858,
+            104.62000000476837,
+            50.508046323288724
+          ],
+          "look": [
+            0.0680362805724144,
+            -0.9374058246612549,
+            -0.341528058052063
+          ],
+          "first_hit": [
+            83,
+            103,
+            50
+          ],
+          "hit_location": [
+            83.48259135672515,
+            103.74018359308488,
+            50.1875
+          ],
+          "reach": 0.9385651355509537,
+          "first_hit_target": true,
+          "use_result": "PASS",
+          "menu_opened": false,
+          "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+          "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:iron_door",
+      "key": "",
+      "position": [
+        83,
+        3,
+        50
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            75.5812633315279,
+            103.0,
+            45.508053765557904
+          ],
+          "eye": [
+            75.5812633315279,
+            104.62000000476837,
+            45.508053765557904
+          ],
+          "look": [
+            -0.0680362805724144,
+            -0.9374058246612549,
+            -0.341528058052063
+          ],
+          "first_hit": [
+            75,
+            103,
+            45
+          ],
+          "hit_location": [
+            75.51740536900373,
+            103.74016316598873,
+            45.1875
+          ],
+          "reach": 0.9385869266428323,
+          "first_hit_target": true,
+          "use_result": "PASS",
+          "menu_opened": false,
+          "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+          "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:iron_door",
+      "key": "",
+      "position": [
+        75,
+        3,
+        45
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            75.58126329683972,
+            103.0,
+            50.50805405222167
+          ],
+          "eye": [
+            75.58126329683972,
+            104.62000000476837,
+            50.50805405222167
+          ],
+          "look": [
+            -0.0680362805724144,
+            -0.9374058246612549,
+            -0.341528058052063
+          ],
+          "first_hit": [
+            75,
+            103,
+            50
+          ],
+          "hit_location": [
+            75.51740527720887,
+            103.74016237917115,
+            50.1875
+          ],
+          "reach": 0.9385877659992471,
+          "first_hit_target": true,
+          "use_result": "PASS",
+          "menu_opened": false,
+          "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+          "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:iron_door",
+      "key": "",
+      "position": [
+        75,
+        3,
+        50
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            75.58037132930788,
+            103.0,
+            39.498289766536736
+          ],
+          "eye": [
+            75.58037132930788,
+            104.62000000476837,
+            39.498289766536736
+          ],
+          "look": [
+            -0.06746312230825424,
+            -0.9400491714477539,
+            -0.3342997133731842
+          ],
+          "first_hit": [
+            75,
+            103,
+            39
+          ],
+          "hit_location": [
+            75.51765261555111,
+            103.7460606897168,
+            39.1875
+          ],
+          "reach": 0.9296740517149403,
+          "first_hit_target": true,
+          "use_result": "PASS",
+          "menu_opened": false,
+          "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+          "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:iron_door",
+      "key": "",
+      "position": [
+        75,
+        3,
+        39
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            162.50001995188404,
+            103.0,
+            24.581698595863955
+          ],
+          "eye": [
+            162.50001995188404,
+            104.62000000476837,
+            24.581698595863955
+          ],
+          "look": [
+            0.6650711297988892,
+            -0.744801938533783,
+            -0.054318759590387344
+          ],
+          "first_hit": [
+            163,
+            103,
+            24
+          ],
+          "hit_location": [
+            163.05364915491532,
+            104.0,
+            24.536481700656417
+          ],
+          "reach": 0.8324361044392766,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:anvil}[facing\u003deast]",
+          "after": "Block{minecraft:anvil}[facing\u003deast]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:anvil",
+      "key": "",
+      "position": [
+        163,
+        3,
+        24
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            164.50000377459435,
+            103.0,
+            23.58169859795053
+          ],
+          "eye": [
+            164.50000377459435,
+            104.62000000476837,
+            23.58169859795053
+          ],
+          "look": [
+            0.6650711297988892,
+            -0.744801938533783,
+            -0.054318759590387344
+          ],
+          "first_hit": [
+            165,
+            103,
+            23
+          ],
+          "hit_location": [
+            165.22106116273855,
+            103.8125,
+            23.52280723857169
+          ],
+          "reach": 1.0841808921521112,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:grindstone}[face\u003dfloor,facing\u003dnorth]",
+          "after": "Block{minecraft:grindstone}[face\u003dfloor,facing\u003dnorth]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:grindstone",
+      "key": "",
+      "position": [
+        165,
+        3,
+        23
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            160.49998127906878,
+            103.0,
+            23.58169859606097
+          ],
+          "eye": [
+            160.49998127906878,
+            104.62000000476837,
+            23.58169859606097
+          ],
+          "look": [
+            0.6650711297988892,
+            -0.744801938533783,
+            -0.054318759590387344
+          ],
+          "first_hit": [
+            161,
+            103,
+            23
+          ],
+          "hit_location": [
+            161.05361048210005,
+            104.0,
+            23.536481700853432
+          ],
+          "reach": 0.8324361044392766,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        161,
+        3,
+        23
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            88.49496187060583,
+            103.0,
+            29.524032214704008
+          ],
+          "eye": [
+            88.49496187060583,
+            104.62000000476837,
+            29.524032214704008
+          ],
+          "look": [
+            0.6678090691566467,
+            -0.74416184425354,
+            -0.015945350751280785
+          ],
+          "first_hit": [
+            89,
+            103,
+            29
+          ],
+          "hit_location": [
+            89.05134840030865,
+            104.0,
+            29.510747312208444
+          ],
+          "reach": 0.8331521259541048,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        89,
+        3,
+        29
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            45.49999750746181,
+            103.0,
+            24.558766028486726
+          ],
+          "eye": [
+            45.49999750746181,
+            104.62000000476837,
+            24.558766028486726
+          ],
+          "look": [
+            0.9911988973617554,
+            -0.11888925731182098,
+            -0.05822519585490227
+          ],
+          "first_hit": [
+            46,
+            104,
+            24
+          ],
+          "hit_location": [
+            46.0,
+            104.56002725343647,
+            24.529394786111997
+          ],
+          "reach": 0.5044421605351321,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": false,
+          "before": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "expected_behavior": true
+        },
+        {
+          "variant": "wrong",
+          "feet": [
+            45.49999750746181,
+            103.0,
+            24.558766028486726
+          ],
+          "eye": [
+            45.49999750746181,
+            104.62000000476837,
+            24.558766028486726
+          ],
+          "look": [
+            0.9911988973617554,
+            -0.11888925731182098,
+            -0.05822519585490227
+          ],
+          "first_hit": [
+            46,
+            104,
+            24
+          ],
+          "hit_location": [
+            46.0,
+            104.56002725343647,
+            24.529394786111997
+          ],
+          "reach": 0.5044421605351321,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": false,
+          "before": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "expected_behavior": true
+        },
+        {
+          "variant": "correct",
+          "feet": [
+            45.49999750746181,
+            103.0,
+            24.558766028486726
+          ],
+          "eye": [
+            45.49999750746181,
+            104.62000000476837,
+            24.558766028486726
+          ],
+          "look": [
+            0.9911988973617554,
+            -0.11888925731182098,
+            -0.05822519585490227
+          ],
+          "first_hit": [
+            46,
+            104,
+            24
+          ],
+          "hit_location": [
+            46.0,
+            104.56002725343647,
+            24.529394786111997
+          ],
+          "reach": 0.5044421605351321,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "Frost archive key",
+      "position": [
+        46,
+        4,
+        24
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            31.499306260961664,
+            103.0,
+            39.47528786050681
+          ],
+          "eye": [
+            31.499306260961664,
+            104.62000000476837,
+            39.47528786050681
+          ],
+          "look": [
+            5.090988124720752E-4,
+            0.6515015363693237,
+            0.7585846781730652
+          ],
+          "first_hit": [
+            31,
+            105,
+            40
+          ],
+          "hit_location": [
+            31.499658404018057,
+            105.07064285963692,
+            40.0
+          ],
+          "reach": 0.6916660581381217,
+          "first_hit_target": true,
+          "use_result": "PASS",
+          "menu_opened": false,
+          "before": "Block{minecraft:lectern}[facing\u003dnorth,has_book\u003dfalse,powered\u003dfalse]",
+          "after": "Block{minecraft:lectern}[facing\u003dnorth,has_book\u003dfalse,powered\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:lectern",
+      "key": "",
+      "position": [
+        31,
+        5,
+        40
+      ]
+    },
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            28.418301409477788,
+            103.0,
+            25.499996450451142
+          ],
+          "eye": [
+            28.418301409477788,
+            104.62000000476837,
+            25.499996450451142
+          ],
+          "look": [
+            0.06119825690984726,
+            0.6593217849731445,
+            0.7493026852607727
+          ],
+          "first_hit": [
+            28,
+            105,
+            26
+          ],
+          "hit_location": [
+            28.45913850546454,
+            105.05996003596289,
+            26.0
+          ],
+          "reach": 0.6672601044710885,
+          "first_hit_target": true,
+          "use_result": "PASS",
+          "menu_opened": false,
+          "before": "Block{minecraft:lectern}[facing\u003dnorth,has_book\u003dfalse,powered\u003dfalse]",
+          "after": "Block{minecraft:lectern}[facing\u003dnorth,has_book\u003dfalse,powered\u003dfalse]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:lectern",
+      "key": "",
+      "position": [
+        28,
+        5,
+        26
+      ]
+    }
+  ]
+}

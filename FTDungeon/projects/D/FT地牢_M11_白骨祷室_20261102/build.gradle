@@ -1,0 +1,31 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+group = 'net.farmingtales.verification'
+version = '1.0'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+sourceSets.main {
+    java.srcDirs = ['tools']
+    java.include 'M11Verification.java'
+    resources.srcDirs = ['tools/verification-resources']
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        gameTestServer {
+            workingDirectory project.file('qa/forge-run')
+            property 'forge.enabledGameTestNamespaces', 'ftm11verification'
+            property 'ftm11.project', projectDir.absolutePath
+            mods {
+                ftm11verification { source sourceSets.main }
+            }
+        }
+    }
+}
+
+repositories { mavenCentral() }
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

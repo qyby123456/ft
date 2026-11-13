@@ -1,0 +1,118 @@
+{
+  "id": "S1-16",
+  "size": [
+    29,
+    18,
+    29
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        4,
+        12
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        28,
+        4,
+        12
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "start": [
+    2,
+    4,
+    12
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        26,
+        4,
+        12
+      ]
+    },
+    {
+      "label": "north-maintenance",
+      "position": [
+        14,
+        4,
+        7
+      ]
+    },
+    {
+      "label": "south-maintenance",
+      "position": [
+        14,
+        4,
+        21
+      ]
+    },
+    {
+      "label": "supply-shelf",
+      "position": [
+        24,
+        4,
+        7
+      ]
+    }
+  ],
+  "reference_features": [
+    "large square well with stone rim",
+    "timber gantry, chain and bucket",
+    "maintenance perimeter",
+    "front channel bridged twice",
+    "rear tree and supply shelf"
+  ],
+  "differences": [
+    "Floor elevated to Y3, ports feet Y4, well remains enclosed",
+    "Bucket represented by supported cauldron at chain end",
+    "Water channel retained under two plank bridges; no waterfall outside envelope",
+    "Well rim two blocks high to reduce accidental entry; not survival-certified"
+  ],
+  "cutaway": {
+    "removeAbove": 14,
+    "frontDepth": 27,
+    "sideX": 27
+  },
+  "focus_views": [
+    {
+      "id": "focus",
+      "position": [
+        25,
+        13,
+        26
+      ],
+      "target": [
+        14,
+        7,
+        14
+      ],
+      "fov": 53
+    },
+    {
+      "id": "function-detail",
+      "position": [
+        19,
+        11,
+        22
+      ],
+      "target": [
+        14,
+        7,
+        14
+      ],
+      "fov": 48
+    }
+  ],
+  "revision": "R2: independent visual/support changes; targets retained"
+}

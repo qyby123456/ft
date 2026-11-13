@@ -1,0 +1,74 @@
+{
+  "id": "S5-20",
+  "size": [
+    37,
+    13,
+    23
+  ],
+  "description": "Dog-leg concealed passage past dark-prismarine baffles into gold-trimmed chest alcove; lever and off-route cobweb.",
+  "ports": [
+    {
+      "name": "west",
+      "feet": [
+        0,
+        3,
+        13
+      ],
+      "facing": "west",
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "east",
+      "feet": [
+        36,
+        3,
+        14
+      ],
+      "facing": "east",
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "concealed-turn",
+      "position": [
+        8,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "passage",
+      "position": [
+        18,
+        3,
+        11
+      ]
+    },
+    {
+      "label": "vault-throat",
+      "position": [
+        28,
+        3,
+        12
+      ]
+    },
+    {
+      "label": "chest-approach",
+      "position": [
+        33,
+        3,
+        10
+      ]
+    }
+  ],
+  "differences": [
+    "This is a dedicated secret-vault room, not an overview.",
+    "Disguised baffles form a real open dog-leg path; lever decorative, no piston secret-door/lock claim.",
+    "Gold piles replaced by solid gold blocks; chest empty, no treasure rewards configured.",
+    "Cobweb isolated overhead outside travel path; shallow live-coral pools remain contained."
+  ],
+  "water_policy": "Shallow contained display pools, raised dry traversable ports; no ocean placement survival claim."
+}

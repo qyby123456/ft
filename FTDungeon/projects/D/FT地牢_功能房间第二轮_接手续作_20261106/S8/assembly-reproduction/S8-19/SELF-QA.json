@@ -1,0 +1,30 @@
+{
+  "candidate_sha256": "58264f629e45e3c84194966a6e0a1440383b88885809e21bebfef37d1e73e011",
+  "reference_sha256": "4b9734417550e0fa4fe9ee6d3b852a25615d1828a67aa68cba7f9048e1373cba",
+  "reference_image_viewed": true,
+  "lodestone_cutaway_viewed": true,
+  "self_check": "PASS",
+  "independent_acceptance": "NOT_RUN",
+  "native_report": "qa/independent-native-frozen.json",
+  "route_report": "qa/independent-routes.json",
+  "containers": [
+    {
+      "pos": [
+        31,
+        6,
+        4
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    }
+  ],
+  "static_supplement_failures": [],
+  "risks": "No water/lava/fire blocks",
+  "not_run": [
+    "world placement",
+    "neighbor/random/fluid tick simulation",
+    "player gameplay",
+    "independent acceptance"
+  ],
+  "visual_notes": "保留原高台、楼梯和目标，洞室延长32格；站位视图可见近中远晶体与不规则岩顶。清除north接口被外壳矿脉误覆盖的上两层，木门置侧凹位。"
+}

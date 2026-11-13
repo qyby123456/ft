@@ -1,0 +1,28 @@
+{
+  "sha256": "d59dbb3a0f9d708f78c470e09830b887436785a7910534c68f5ada8fe3a8de9f",
+  "status": "PASS static self QA only",
+  "independent_acceptance": "NOT_GRANTED",
+  "targets": 38,
+  "native": {
+    "group": 8,
+    "sha256": "d59dbb3a0f9d708f78c470e09830b887436785a7910534c68f5ada8fe3a8de9f",
+    "registry_properties": "PASS",
+    "template_roundtrip_block_count": "PASS",
+    "survival_checked": 88,
+    "survival_failures": [],
+    "survival_unsupported": [],
+    "vanilla_block_tags_bound": true,
+    "brightness_for_canSurvive": 15,
+    "scope": "Actual vanilla 1.20.1 registry and StructureTemplate plus static canSurvive over an immutable LevelReader. No world placement, neighbor updates, light propagation, random/fluid ticks, rotations or gameplay."
+  },
+  "exactness": "qa/assembly-exactness.json",
+  "limits": [
+    "Self QA is not independent acceptance",
+    "Reference visual REQUEST_CHANGES revised; final reviewer decision still required",
+    "No game placement, natural ticks, fluid ticks, light propagation, real player/door/chest interaction or combat acceptance",
+    "Inventory empty; armor displays are block sculptures and keys/tools/spyglass/pulley decorative",
+    "Water in cistern statically contained; fluid simulation still required",
+    "Assembly is enclosed review artifact with external barrier envelope, no deployment into worlds",
+    "All source files written only inside exclusive S8 directory"
+  ]
+}

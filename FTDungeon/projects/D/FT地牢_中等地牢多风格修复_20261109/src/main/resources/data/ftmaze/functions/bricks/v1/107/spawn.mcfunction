@@ -1,0 +1,3 @@
+scoreboard players set #brickok ftm_state 0
+execute if score #brickok ftm_state matches 1.. if block 172 211 19 ftdungeonmobs:dungeon_spawn_point[spent=false] run setblock 172 211 19 ftdungeonmobs:dungeon_spawn_point[spent=true]
+execute if score #brickok ftm_state matches 1.. run scoreboard players set #v1b107 ftm_brick 2

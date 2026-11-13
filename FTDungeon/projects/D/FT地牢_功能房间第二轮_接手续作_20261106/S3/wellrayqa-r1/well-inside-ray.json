@@ -1,0 +1,56 @@
+{
+  "scope": "Independent native eye-ray use fixture initialized on existing blue-ice floor inside the well; no source edits. Demonstrates container use, not a naturally reachable approach from room entry. Keep access limitation open.",
+  "natural_access_from_main_route_verified": false,
+  "standing_supported_and_clear": true,
+  "source_sha256": "933a5f44ccc2c84d00b7ec321080068e99989403de35e7ad7aa3e09bc9a569b7",
+  "missing": [],
+  "interactions": [
+    {
+      "attempts": [
+        {
+          "variant": "empty",
+          "feet": [
+            120.5,
+            104.0,
+            85.5
+          ],
+          "eye": [
+            120.5,
+            105.62000000476837,
+            85.5
+          ],
+          "look": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "first_hit": [
+            120,
+            106,
+            85
+          ],
+          "hit_location": [
+            120.5,
+            106.0,
+            85.5
+          ],
+          "reach": 0.3799999952316284,
+          "first_hit_target": true,
+          "use_result": "CONSUME",
+          "menu_opened": true,
+          "before": "Block{minecraft:barrel}[facing\u003dup,open\u003dfalse]",
+          "after": "Block{minecraft:barrel}[facing\u003dup,open\u003dtrue]",
+          "expected_behavior": true
+        }
+      ],
+      "passed": true,
+      "block": "minecraft:barrel",
+      "key": "",
+      "position": [
+        120,
+        6,
+        85
+      ]
+    }
+  ]
+}

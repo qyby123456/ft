@@ -1,0 +1,74 @@
+{
+  "id": "S5-14",
+  "size": [
+    31,
+    13,
+    25
+  ],
+  "description": "Inspection island framed by arrow/spear racks, three metallic armor effigies, cabinet and anvil.",
+  "ports": [
+    {
+      "name": "west",
+      "feet": [
+        0,
+        3,
+        12
+      ],
+      "facing": "west",
+      "width": 5,
+      "height": 4
+    },
+    {
+      "name": "east",
+      "feet": [
+        30,
+        3,
+        12
+      ],
+      "facing": "east",
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "inspection",
+      "position": [
+        15,
+        3,
+        14
+      ]
+    },
+    {
+      "label": "armor-display",
+      "position": [
+        14,
+        3,
+        5
+      ]
+    },
+    {
+      "label": "cabinet",
+      "position": [
+        3,
+        3,
+        10
+      ]
+    },
+    {
+      "label": "anvil",
+      "position": [
+        26,
+        3,
+        8
+      ]
+    }
+  ],
+  "differences": [
+    "Armor silhouettes use supported metal-block effigies, not interactive equipped armor-stand entities.",
+    "Racks use iron bars; no actual weapons/arrows or magical locked cabinet.",
+    "Coral survives in shallow perimeter pools; complete glass-beamed roof, dry side ports."
+  ],
+  "revision": "visual-r2",
+  "water_policy": "DRY HABITABLE COMPARTMENT, contained wet aquarium planters and shallow pools; not a fully flooded ocean ruin. All route goals remain dry. Glass enclosure for deployment preparation, not certified deep-ocean pressure/oxygen safety."
+}

@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ftr3qa"
+version="1.0"
+displayName="FT R3 Guard Barracks Isolated QA Only"
+description='''Standalone testing fixture; never deploy to the player instance.'''
+[[dependencies.ftr3qa]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ftr3qa]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

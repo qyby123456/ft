@@ -1,0 +1,143 @@
+{
+  "interactions": [
+    {
+      "position": [
+        29,
+        2,
+        4
+      ],
+      "changed": true,
+      "block": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+      "result": "CONSUME",
+      "container_menu_opened": true,
+      "scope": "Real BlockState.use with isolated FakePlayer; no network client input or reach/path certification"
+    },
+    {
+      "position": [
+        31,
+        2,
+        4
+      ],
+      "changed": true,
+      "block": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+      "result": "CONSUME",
+      "container_menu_opened": true,
+      "scope": "Real BlockState.use with isolated FakePlayer; no network client input or reach/path certification"
+    },
+    {
+      "position": [
+        2,
+        2,
+        14
+      ],
+      "changed": true,
+      "block": "Block{minecraft:oak_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]",
+      "result": "CONSUME",
+      "container_menu_opened": false,
+      "scope": "Real BlockState.use with isolated FakePlayer; no network client input or reach/path certification"
+    }
+  ],
+  "source_sha256": "c58a0400a48324e718753fa1a69ca596a73eb22d00554b21233e15f628f69763",
+  "room": "S8-15",
+  "ticks": 220,
+  "differences": [
+    {
+      "before": "Block{minecraft:oak_fence}[east\u003dfalse,north\u003dfalse,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]",
+      "after": "Block{minecraft:oak_fence}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]",
+      "position": [
+        24,
+        2,
+        20
+      ]
+    },
+    {
+      "before": "Block{minecraft:oak_fence}[east\u003dfalse,north\u003dfalse,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]",
+      "after": "Block{minecraft:oak_fence}[east\u003dfalse,north\u003dfalse,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+      "position": [
+        24,
+        2,
+        22
+      ]
+    },
+    {
+      "before": "Block{minecraft:oak_fence}[east\u003dfalse,north\u003dfalse,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]",
+      "after": "Block{minecraft:oak_fence}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]",
+      "position": [
+        28,
+        2,
+        20
+      ]
+    },
+    {
+      "before": "Block{minecraft:oak_fence}[east\u003dfalse,north\u003dfalse,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]",
+      "after": "Block{minecraft:oak_fence}[east\u003dfalse,north\u003dfalse,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+      "position": [
+        28,
+        2,
+        22
+      ]
+    },
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003douter_right,waterlogged\u003dfalse]",
+      "position": [
+        2,
+        12,
+        2
+      ]
+    },
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003douter_left,waterlogged\u003dfalse]",
+      "position": [
+        2,
+        12,
+        28
+      ]
+    },
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003douter_left,waterlogged\u003dfalse]",
+      "position": [
+        32,
+        12,
+        2
+      ]
+    },
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003douter_right,waterlogged\u003dfalse]",
+      "position": [
+        32,
+        12,
+        28
+      ]
+    }
+  ],
+  "lost_water": [],
+  "spread_water": [],
+  "dropped_items": [],
+  "containers": [
+    {
+      "occupied_slots": 0,
+      "type": "Block{minecraft:barrel}",
+      "position": [
+        29,
+        2,
+        4
+      ]
+    },
+    {
+      "occupied_slots": 0,
+      "type": "Block{minecraft:barrel}",
+      "position": [
+        31,
+        2,
+        4
+      ]
+    }
+  ],
+  "doors": [],
+  "producer_self_check_only": true,
+  "scope": "Fresh isolated Forge 1.20.1 ServerLevel, real vanilla StructureTemplate placement UPDATE_ALL knownShape\u003dfalse, explicit neighbor updates, 220 forced-chunk server/fluid ticks. Lever.use opens/closes door checks. Not random tick coverage, physical player travel, combat or independent acceptance."
+}

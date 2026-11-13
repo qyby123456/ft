@@ -1,0 +1,96 @@
+{
+  "id": "s3-17",
+  "size": [
+    27,
+    13,
+    27
+  ],
+  "title": "寒穴维修工坊",
+  "reference": "S3-17",
+  "features": [
+    "双边三层料架",
+    "双炉",
+    "砂轮",
+    "中央半成品切石桌",
+    "独立工作台",
+    "前冰池与骨架"
+  ],
+  "ports": [
+    {
+      "name": "west",
+      "foot": [
+        0,
+        2,
+        10
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "east",
+      "foot": [
+        26,
+        2,
+        10
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "start": [
+    0,
+    2,
+    10
+  ],
+  "targets": [
+    {
+      "label": "east exit",
+      "position": [
+        26,
+        2,
+        10
+      ]
+    },
+    {
+      "label": "project table",
+      "position": [
+        13,
+        2,
+        9
+      ]
+    },
+    {
+      "label": "furnace",
+      "position": [
+        14,
+        2,
+        20
+      ]
+    },
+    {
+      "label": "grinding",
+      "position": [
+        7,
+        2,
+        18
+      ]
+    }
+  ],
+  "differences": [
+    "熔炉与高炉为空且熄灭，未声称自动生产",
+    "材料架使用实体方块，无可领取材料",
+    "半成品由切石机及半砖表现，工具没有物品实体"
+  ],
+  "cutY": 11,
+  "architectural_revision": "石木门框、后壁梁柱、连续雪沿、错落收尖冰挂；显式木纹轴向和木桶open=false使原生预览与实际一致"
+}

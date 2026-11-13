@@ -1,0 +1,30 @@
+{
+  "candidate_sha256": "a85c111a4c548b9f10c0ff01ea2c483d57f40ad3dff732efdcfee2a969af0c82",
+  "reference_sha256": "a77e3a8f14eb79a2789725745423c6dae0511fb66601b67b298c95e60bdff111",
+  "reference_image_viewed": true,
+  "lodestone_cutaway_viewed": true,
+  "self_check": "PASS",
+  "independent_acceptance": "NOT_RUN",
+  "native_report": "qa/independent-native-frozen.json",
+  "route_report": "qa/independent-routes.json",
+  "containers": [
+    {
+      "pos": [
+        15,
+        4,
+        5
+      ],
+      "block": "minecraft:chest",
+      "empty": true
+    }
+  ],
+  "static_supplement_failures": [],
+  "risks": "No water/lava/fire blocks",
+  "not_run": [
+    "world placement",
+    "neighbor/random/fluid tick simulation",
+    "player gameplay",
+    "independent acceptance"
+  ],
+  "visual_notes": "保留箱体、金块、拉杆和原台阶目标；局部增加两侧阶梯岩壳及顶部晶体。"
+}

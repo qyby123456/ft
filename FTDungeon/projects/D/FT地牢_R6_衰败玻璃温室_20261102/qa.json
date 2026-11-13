@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "id": "R6",
+  "name": "衰败玻璃温室",
+  "completed_local": "2026-11-02T12:45:09.145366+08:00",
+  "scope": "Independent unregistered room delivery; no deployment, player save access, core changes or parallel-delivery writes.",
+  "structure_sha256": "c4ef67700b135671ecc6fa2bb6415ad69147a3539883a1f250d63852e0f3ca23",
+  "uncompressed_nbt_sha256": "f3e326fb1147e69c11bb68584e8fb3aa2f0c7eacc0a8f1bd106a6508ea4689a0",
+  "semantic_sha256": "e96400e497d0d6160471e7e9a5cf61c61fe79ba15cce068a734ad49d576799f9",
+  "semantic_hash_algorithm": "SHA-256 of UTF-8 compact ensure_ascii=true JSON sorted rows [x,y,z,block_id,sorted_properties]",
+  "independent_identity": {
+    "id": "R6",
+    "size": [
+      15,
+      10,
+      17
+    ],
+    "entrance": [
+      7,
+      1,
+      0
+    ],
+    "interior": [
+      7,
+      1,
+      10
+    ],
+    "facing": "north",
+    "semantic_sha256": "e96400e497d0d6160471e7e9a5cf61c61fe79ba15cce068a734ad49d576799f9",
+    "reference_sha256": "525b5a4b3c1043be2d45abe0502274509c0d5f1ffa376bb1251a4a964aee13ee"
+  },
+  "independent_identity_sha256": "fb8786d202d2b7869ce0528a05b72edfb7e861e7d8695e4509fbe7f91175597b",
+  "identity_algorithm": "SHA-256 of UTF-8 JSON independent_identity, sort_keys=true, ensure_ascii=true, compact separators. Not an FT runtime catalog fingerprint.",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-rooms-medium-random-thread3-20261102\\out\\R6-overgrown-greenhouse.png",
+  "reference_sha256": "525b5a4b3c1043be2d45abe0502274509c0d5f1ffa376bb1251a4a964aee13ee",
+  "size": [
+    15,
+    10,
+    17
+  ],
+  "entrance": [
+    7,
+    1,
+    0
+  ],
+  "interior": [
+    7,
+    1,
+    10
+  ],
+  "facing": "north",
+  "static": {
+    "status": "PASS",
+    "errors": [],
+    "size": [
+      15,
+      10,
+      17
+    ],
+    "block_records": 2550,
+    "nonair_blocks": 1263,
+    "dry_reachable_cells": 102,
+    "three_wide_aisle_cells": 39,
+    "entrance_opening": [
+      3,
+      3
+    ],
+    "water_sources": 8,
+    "glass_blocks": 386,
+    "persistent_leaves": 78,
+    "full_roof_cells": 255
+  },
+  "negative_tests": {
+    "status": "PASS",
+    "count": 9,
+    "report": "qa/negative.json"
+  },
+  "native": {
+    "status": "PASS",
+    "id": "R6",
+    "minecraft_version": "1.20.1",
+    "forge_version": "47.4.10",
+    "environment": "Independent Forge GameTest overworld only; no player saves or production instance",
+    "structure_sha256": "c4ef67700b135671ecc6fa2bb6415ad69147a3539883a1f250d63852e0f3ca23",
+    "registry_palette_states": 48,
+    "template_roundtrip_records": 2550,
+    "rotation_count": 4,
+    "native_placements": 8,
+    "stability_server_ticks": 200,
+    "random_tick_speed": 3,
+    "lighting_settle_ticks": 20,
+    "placement_flags": "18 = UPDATE_CLIENTS | UPDATE_KNOWN_SHAPE; setKnownShape(true), setKeepLiquids(false), matching FT core",
+    "immediate_exact_state_comparisons": 10200,
+    "forced_chunk_ticking": true,
+    "day_time": 18000,
+    "completed_utc": "2026-11-02T04:43:30.394120900Z"
+  },
+  "native_check_summary": {
+    "count": 8,
+    "total_state_comparisons_including_immediate": 30600,
+    "minimum_crop_brightness_at_midnight": 12,
+    "native_reachable_cells": [
+      102
+    ],
+    "escaped_fluids": 0,
+    "state_mismatches": 0
+  },
+  "preview": {
+    "method": "Final NBT reparsed into block faces from local vanilla client blockstates/models/textures; fixed plains foliage tint, simplified source-water surfaces; preview-only cutaway.",
+    "size": [
+      1800,
+      1200
+    ],
+    "sha256": "e258840f7fda8aab0ffedde234bf50cd658bf8de509de45cae249aee7293bcbd"
+  },
+  "design_review": {
+    "glass_shell_and_roof": "Continuous glass envelope except deliberate north 3x3 entrance; roof checked across 255 cells.",
+    "plants": "78 persistent leaves, 10 supported mature crops on hydrated farmland, four bed shroomlights, 46 roof-anchored fixed-length vines, soil-supported flowers.",
+    "paths": "Three-wide central dry aisle plus side circulation; north entrance and interior connected with native 0.6x1.8x0.6 player AABB.",
+    "water": "Eight true sources, stone bottom and sealed side beds; 6118-cell halo per rotation contains no escaped liquid.",
+    "suspensions": "Two dirt-filled trapdoor baskets and two hanging lanterns, each chained directly to continuous roof beams.",
+    "reference_adaptations": [
+      "Three-wide central path stays dry; two sealed side troughs replace the exposed central channel.",
+      "The NBT preserves a continuous glass roof and shell; cutaways are preview-only.",
+      "Persistent leaves, hydrated mature crops, four bed-integrated shroomlights and age-25 hanging vines avoid decay, darkness and extension.",
+      "Vanilla potting table and composters replace concept-only bottles, sacks and wheelbarrow."
+    ]
+  },
+  "iteration_history": [
+    {
+      "attempt": 1,
+      "result": "FAIL",
+      "reason": "UPDATE_ALL default placement before lighting settled caused wheat to drop; recorded rather than reported as pass."
+    },
+    {
+      "attempt": 2,
+      "result": "PASS",
+      "changes": "Added four shroomlights; matched existing FT production known-shape flags 18; settled light for 20 ticks, then forced neighbor checks and 200 further ticking ticks at midnight. All placement chunks force-tick."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "qa/static.json",
+      "sha256": "9eebe64c8d6015c28e21cbc63ee1d0e47c2bc1b9f4a991b5c19a658198008e22"
+    },
+    {
+      "path": "qa/negative.json",
+      "sha256": "f7e6596a5d600e7769f8494372c3e9c0980e8d2967a3750e668f20c6f6f68aed"
+    },
+    {
+      "path": "qa/native.json",
+      "sha256": "9c40be153f79df291c88f8903ca5302d5a8f085fbaaefcdb1b32358f9cd1877a"
+    },
+    {
+      "path": "qa/materials.json",
+      "sha256": "534b6b6d5c4589b01b6502ce205304e71eb590c4bbc0bc991dc09eb5dc099bc6"
+    },
+    {
+      "path": "qa/preview.json",
+      "sha256": "875e3a8c46525b61f125b87582bb916472b2ad0f4ddb85b421b3ff086633c82c"
+    },
+    {
+      "path": "qa/cutaway.png",
+      "sha256": "0b729e591b24ddd21656cb284d700b08b516d92e821533ce18df3661359cc548"
+    },
+    {
+      "path": "qa/full-shell.png",
+      "sha256": "56b42c1603061522c85eb91a3ad90db1227f1b1b04ee3b693d64932e04c65592"
+    },
+    {
+      "path": "evidence/forge-native-console.log",
+      "sha256": "fba219efc1c213f079e461a5a2da82ddc0d1152cbc1af814ec02ea58a784fd06"
+    },
+    {
+      "path": "evidence/forge-native-server.log",
+      "sha256": "8f8f1633e7cd090bc0c78654f45883c98c4ffb1e41c89a4df740d3b4db698d71"
+    },
+    {
+      "path": "evidence/forge-attempt1-crop-light.log",
+      "sha256": "c5235d4694b8b6ee32259805d6911d56df9b432eff008f2cabab2e9a43242e8f"
+    },
+    {
+      "path": "evidence/attempt1-server.log",
+      "sha256": "802c882c3af3a8c8d6cbcf9de4ae55cb658133b2bd7da4dbb564b0f352854992"
+    }
+  ],
+  "limits": [
+    "No modpack-client visual/FPS/multiplayer verification",
+    "Repeated native placement is not catalog generation-marker idempotence",
+    "No hallway registration, occupancy rejection or deployment is claimed",
+    "Player crop trampling, harvest/composter interaction and long-term weather are outside this structural test",
+    "Software isometric preview, not an in-game screenshot",
+    "Fixed foliage tint, first texture animation frame, simplified fluid surface, no runtime biome lighting or shaders",
+    "No new paid image request; existing image2.5 design only",
+    "Current native test guarantees production-equivalent placement flags, not unsafe UPDATE_ALL placement in unlit newly loaded chunks",
+    "No catalog slot or fixed world origin assigned; no hallway connection, generation-marker idempotence or occupancy rejection claim"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "external_reports": [
+    {
+      "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\lever-revisions-20261107-033714-416096\\REVIEW.md",
+      "sha256": "94640b4f4ddf5d474504de56fc202cbd82f46bcb8ebd8fea9c83cb8f6c5ed44a"
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_第二轮独立验收_20261106\\S7-world-evidence-20261107-034143-577825\\REVIEW.md",
+      "sha256": "a217df330e5fd5e84fbb78218bbed6e73ab159b3a9e08a3e7b84e67981d60bb7"
+    }
+  ],
+  "S7-20": {
+    "candidate_sha256": "6a7f9c3cb249522fb940e73f870bb7702b9ea5a6f5b8bdf23fb4a4826fe7669e",
+    "lever": [
+      29,
+      4,
+      12
+    ],
+    "state": "face=wall,facing=south",
+    "backing": [
+      29,
+      4,
+      11
+    ],
+    "backing_block": "minecraft:stone_bricks",
+    "external_canSurvive_nonair": 11110,
+    "external_failures": 0,
+    "external_unsupported": 0,
+    "external_route_targets_passed": 7,
+    "old_lever_support_issue": "CLOSED_BY_INDEPENDENT_REVIEW",
+    "room_visual_or_group_accepted": false
+  },
+  "world_evidence": {
+    "independent_inspection": "FROZEN_SOURCE_LOG_CODE_AND_BEFORE_AFTER_NBT_INSPECTION",
+    "independent_world_rerun": false,
+    "source_hashes_match": true,
+    "original_coordinates_block_type_changes": 0,
+    "sparse_omitted_cells_new_nonair": 0,
+    "S7-14_entity_count_before": 3,
+    "S7-14_entity_count_after": 3,
+    "equipment_report": "2 iron sets, 1 golden set, all 3 iron swords; author observation supported by independent source/log inspection, not independent dynamic entity-payload acceptance"
+  },
+  "limits": [
+    "totalIssues excludes state_changes",
+    "Author fire/fluid scans iterate explicit source records only",
+    "Independent before/after comparison covers structure interior, not beyond the test barrier",
+    "DoorBlock.setOpen is API toggling, not player input or lever-controlled power",
+    "No player chest GUI or full route roundtrip evidence",
+    "Single orientation, no final merged-world update run",
+    "group_accepted remains false"
+  ]
+}

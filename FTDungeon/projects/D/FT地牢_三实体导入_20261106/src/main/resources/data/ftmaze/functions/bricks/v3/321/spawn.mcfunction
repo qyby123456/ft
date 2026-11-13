@@ -1,0 +1,27 @@
+scoreboard players set #brickok ftm_state 0
+scoreboard players set #spawnok ftm_state 0
+execute if block 750 91 198 minecraft:air if block 750 92 198 minecraft:air store success score #spawnok ftm_state run summon minecraft:husk 750 91 198 {Tags:["ftmaze.brickmob"],PersistenceRequired:1b,CanPickUpLoot:0b}
+scoreboard players operation #brickok ftm_state += #spawnok ftm_state
+scoreboard players set #spawnok ftm_state 0
+execute if block 740 91 202 minecraft:air if block 740 92 202 minecraft:air store success score #spawnok ftm_state run summon minecraft:husk 740 91 202 {Tags:["ftmaze.brickmob"],PersistenceRequired:1b,CanPickUpLoot:0b}
+scoreboard players operation #brickok ftm_state += #spawnok ftm_state
+scoreboard players set #spawnok ftm_state 0
+execute if block 755 91 202 minecraft:air if block 755 92 202 minecraft:air store success score #spawnok ftm_state run summon minecraft:husk 755 91 202 {Tags:["ftmaze.brickmob"],PersistenceRequired:1b,CanPickUpLoot:0b}
+scoreboard players operation #brickok ftm_state += #spawnok ftm_state
+scoreboard players set #spawnok ftm_state 0
+execute if block 743 91 198 minecraft:air if block 743 92 198 minecraft:air store success score #spawnok ftm_state run summon minecraft:husk 743 91 198 {Tags:["ftmaze.brickmob"],PersistenceRequired:1b,CanPickUpLoot:0b}
+scoreboard players operation #brickok ftm_state += #spawnok ftm_state
+scoreboard players set #spawnok ftm_state 0
+execute if block 747 91 202 minecraft:air if block 747 92 202 minecraft:air store success score #spawnok ftm_state run summon minecraft:husk 747 91 202 {Tags:["ftmaze.brickmob"],PersistenceRequired:1b,CanPickUpLoot:0b}
+scoreboard players operation #brickok ftm_state += #spawnok ftm_state
+scoreboard players set #spawnok ftm_state 0
+execute if block 744 91 201 minecraft:air if block 744 92 201 minecraft:air store success score #spawnok ftm_state run summon minecraft:husk 744 91 201 {Tags:["ftmaze.brickmob"],PersistenceRequired:1b,CanPickUpLoot:0b}
+scoreboard players operation #brickok ftm_state += #spawnok ftm_state
+scoreboard players set #spawnok ftm_state 0
+execute if block 746 91 199 minecraft:air if block 746 92 199 minecraft:air store success score #spawnok ftm_state run summon minecraft:husk 746 91 199 {Tags:["ftmaze.brickmob"],PersistenceRequired:1b,CanPickUpLoot:0b}
+scoreboard players operation #brickok ftm_state += #spawnok ftm_state
+scoreboard players set #spawnok ftm_state 0
+execute if block 751 91 201 minecraft:air if block 751 92 201 minecraft:air store success score #spawnok ftm_state run summon minecraft:husk 751 91 201 {Tags:["ftmaze.brickmob"],PersistenceRequired:1b,CanPickUpLoot:0b}
+scoreboard players operation #brickok ftm_state += #spawnok ftm_state
+execute if score #brickok ftm_state matches 1.. if block 751 91 198 ftdungeonmobs:dungeon_spawn_point[spent=false] run setblock 751 91 198 ftdungeonmobs:dungeon_spawn_point[spent=true]
+execute if score #brickok ftm_state matches 1.. run scoreboard players set #v3b321 ftm_brick 2

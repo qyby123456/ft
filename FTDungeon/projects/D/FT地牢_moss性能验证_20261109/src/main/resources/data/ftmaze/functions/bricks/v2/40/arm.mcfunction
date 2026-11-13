@@ -1,0 +1,1 @@
+execute if block 178 151 94 minecraft:air if block 178 150 94 minecraft:polished_blackstone_bricks store success score #v2b40 ftm_brick run setblock 178 151 94 ftdungeonmobs:dungeon_spawn_point[spent=false] keep

@@ -1,0 +1,74 @@
+{
+  "interactions": [
+    {
+      "position": [
+        5,
+        2,
+        7
+      ],
+      "changed": true,
+      "block": "Block{minecraft:barrel}[facing\u003dnorth,open\u003dfalse]",
+      "result": "CONSUME",
+      "container_menu_opened": true,
+      "scope": "Real BlockState.use with isolated FakePlayer; no network client input or reach/path certification"
+    }
+  ],
+  "source_sha256": "a0e7419ee00e6990d8c89a6b971d9c6cd35d2ba7d4b9d7eaae3e659a7e4c3129",
+  "room": "S8-11",
+  "ticks": 220,
+  "differences": [
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003douter_right,waterlogged\u003dfalse]",
+      "position": [
+        2,
+        13,
+        2
+      ]
+    },
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003douter_left,waterlogged\u003dfalse]",
+      "position": [
+        2,
+        13,
+        26
+      ]
+    },
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003douter_left,waterlogged\u003dfalse]",
+      "position": [
+        28,
+        13,
+        2
+      ]
+    },
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003douter_right,waterlogged\u003dfalse]",
+      "position": [
+        28,
+        13,
+        26
+      ]
+    }
+  ],
+  "lost_water": [],
+  "spread_water": [],
+  "dropped_items": [],
+  "containers": [
+    {
+      "occupied_slots": 0,
+      "type": "Block{minecraft:barrel}",
+      "position": [
+        5,
+        2,
+        7
+      ]
+    }
+  ],
+  "doors": [],
+  "producer_self_check_only": true,
+  "scope": "Fresh isolated Forge 1.20.1 ServerLevel, real vanilla StructureTemplate placement UPDATE_ALL knownShape\u003dfalse, explicit neighbor updates, 220 forced-chunk server/fluid ticks. Lever.use opens/closes door checks. Not random tick coverage, physical player travel, combat or independent acceptance."
+}

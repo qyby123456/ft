@@ -1,0 +1,57 @@
+{
+  "candidate_sha256": "f250429323366042bd8f51a13a34476f80c1f805c28fd735b69fe484ecaf692a",
+  "reference_sha256": "2f3a557cef6f49f3ef16335a3c7e7148b8836f9acc928454e749c875070f93f5",
+  "reference_image_viewed": true,
+  "lodestone_cutaway_viewed": true,
+  "self_check": "PASS",
+  "independent_acceptance": "NOT_RUN",
+  "native_report": "qa/independent-native-frozen.json",
+  "route_report": "qa/independent-routes.json",
+  "containers": [
+    {
+      "pos": [
+        14,
+        2,
+        3
+      ],
+      "block": "minecraft:furnace",
+      "empty": true
+    },
+    {
+      "pos": [
+        22,
+        2,
+        6
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        23,
+        2,
+        9
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        4,
+        2,
+        19
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    }
+  ],
+  "static_supplement_failures": [],
+  "risks": "No water/lava/fire blocks",
+  "not_run": [
+    "world placement",
+    "neighbor/random/fluid tick simulation",
+    "player gameplay",
+    "independent acceptance"
+  ],
+  "visual_notes": "已实际查看参考、内景与剖面。保留砂轮、工具台、炉、货架与中心台，新增嵌平紫色台框、门拱和石檐；工作工具是原版拉杆按钮造型替代。"
+}

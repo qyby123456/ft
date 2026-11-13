@@ -1,0 +1,61 @@
+{
+  "source_sha256": "451daebdbb3f2f17558a6a74f321596fe2173ada1ff9133ca2b84cd724ec64bf",
+  "status": "maker_static_self_check_pass_not_independent_acceptance",
+  "registry_properties": true,
+  "template_roundtrip": true,
+  "native_fragile_survival": true,
+  "ports_clear": true,
+  "empty_inventories": true,
+  "collision_routes": [
+    {
+      "label": "east-exit",
+      "reachable": true,
+      "position": [
+        27,
+        4,
+        15
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "altar-front",
+      "reachable": true,
+      "position": [
+        15,
+        4,
+        14
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "bone-niches",
+      "reachable": true,
+      "position": [
+        16,
+        4,
+        5
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "between-sarcophagi",
+      "reachable": true,
+      "position": [
+        15,
+        4,
+        22
+      ],
+      "standing_clear": true
+    }
+  ],
+  "not_executed": [
+    "world placement and ticks",
+    "gameplay or combat",
+    "independent visual acceptance"
+  ],
+  "scope_limits": [
+    "route shapes use EmptyBlockGetter; ladders and jumps not certified",
+    "native survival checks only selected fragile types, tags not loaded; no general support certification",
+    "no world lighting or neighbor/fluid/random tick simulation"
+  ]
+}

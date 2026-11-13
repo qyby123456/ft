@@ -1,0 +1,214 @@
+{
+  "sha256": "03c5c3f59c214f638b116fed73117d923b549d6baa33c8c814ddb292132aaba4",
+  "size": [
+    33,
+    15,
+    33
+  ],
+  "counts": {
+    "minecraft:smooth_basalt": 1089,
+    "minecraft:cobbled_deepslate": 924,
+    "minecraft:polished_deepslate": 842,
+    "minecraft:calcite": 44,
+    "minecraft:amethyst_block": 229,
+    "minecraft:deepslate_bricks": 1078,
+    "minecraft:air": 24,
+    "minecraft:iron_bars": 157,
+    "minecraft:deepslate_tile_slab": 20,
+    "minecraft:deepslate_tiles": 1228,
+    "minecraft:iron_door": 12,
+    "minecraft:lever": 6,
+    "minecraft:purple_bed": 12,
+    "minecraft:cauldron": 6,
+    "minecraft:chain": 27,
+    "minecraft:lantern": 4,
+    "minecraft:dark_oak_planks": 14,
+    "minecraft:grindstone": 1,
+    "minecraft:amethyst_cluster": 8
+  },
+  "entities": [
+    {
+      "pos": [
+        3,
+        2,
+        5
+      ],
+      "block": "minecraft:purple_bed",
+      "nbt": "{id:\"minecraft:bed\",color:10}"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        6
+      ],
+      "block": "minecraft:purple_bed",
+      "nbt": "{id:\"minecraft:bed\",color:10}"
+    },
+    {
+      "pos": [
+        28,
+        2,
+        5
+      ],
+      "block": "minecraft:purple_bed",
+      "nbt": "{id:\"minecraft:bed\",color:10}"
+    },
+    {
+      "pos": [
+        28,
+        2,
+        6
+      ],
+      "block": "minecraft:purple_bed",
+      "nbt": "{id:\"minecraft:bed\",color:10}"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        12
+      ],
+      "block": "minecraft:purple_bed",
+      "nbt": "{id:\"minecraft:bed\",color:10}"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        13
+      ],
+      "block": "minecraft:purple_bed",
+      "nbt": "{id:\"minecraft:bed\",color:10}"
+    },
+    {
+      "pos": [
+        28,
+        2,
+        12
+      ],
+      "block": "minecraft:purple_bed",
+      "nbt": "{id:\"minecraft:bed\",color:10}"
+    },
+    {
+      "pos": [
+        28,
+        2,
+        13
+      ],
+      "block": "minecraft:purple_bed",
+      "nbt": "{id:\"minecraft:bed\",color:10}"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        19
+      ],
+      "block": "minecraft:purple_bed",
+      "nbt": "{id:\"minecraft:bed\",color:10}"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        20
+      ],
+      "block": "minecraft:purple_bed",
+      "nbt": "{id:\"minecraft:bed\",color:10}"
+    },
+    {
+      "pos": [
+        28,
+        2,
+        19
+      ],
+      "block": "minecraft:purple_bed",
+      "nbt": "{id:\"minecraft:bed\",color:10}"
+    },
+    {
+      "pos": [
+        28,
+        2,
+        20
+      ],
+      "block": "minecraft:purple_bed",
+      "nbt": "{id:\"minecraft:bed\",color:10}"
+    }
+  ],
+  "hazards": [],
+  "metadata": {
+    "name": "s8-12-prison",
+    "size": [
+      33,
+      15,
+      33
+    ],
+    "ports": [
+      {
+        "side": "west",
+        "foot": [
+          0,
+          2,
+          26
+        ],
+        "width": 3,
+        "height": 4
+      },
+      {
+        "side": "east",
+        "foot": [
+          32,
+          2,
+          26
+        ],
+        "width": 3,
+        "height": 4
+      }
+    ],
+    "start": [
+      0,
+      2,
+      26
+    ],
+    "targets": [
+      {
+        "label": "east exit",
+        "position": [
+          32,
+          2,
+          26
+        ]
+      },
+      {
+        "label": "central cell aisle",
+        "position": [
+          16,
+          2,
+          6
+        ]
+      },
+      {
+        "label": "guard desk",
+        "position": [
+          16,
+          2,
+          28
+        ]
+      }
+    ],
+    "features": [
+      "six barred cells on both sides",
+      "iron doors with adjacent control levers",
+      "bed and cauldron in each cell",
+      "guard desk",
+      "barred rear window",
+      "overhead chains"
+    ],
+    "differences": [
+      "Keys represented by grindstone-shaped desk fixture, no invented key item",
+      "Closed cell interiors not certified as freely reachable; only aisle and exit routes checked",
+      "Full rear geode shell restored; side exits retained"
+    ]
+  }
+}

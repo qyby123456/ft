@@ -1,0 +1,254 @@
+{
+  "id": "R5",
+  "name": "石匠工坊",
+  "status": "PASS",
+  "timestamp": "2026-11-02T12:44:47+08:00",
+  "structure_sha256": "3e7e92a43fb2c1c1f013d05e1638d597f6b810db2d49e05a6a78a0f5e6a94513",
+  "reference_sha256": "bec6b7196ece42321c289f968c93a0cb6e36b6ee8642e29543805b938b500dc3",
+  "size": [
+    17,
+    11,
+    17
+  ],
+  "static": {
+    "status": "PASS",
+    "structure_sha256": "3e7e92a43fb2c1c1f013d05e1638d597f6b810db2d49e05a6a78a0f5e6a94513",
+    "reference_sha256": "bec6b7196ece42321c289f968c93a0cb6e36b6ee8642e29543805b938b500dc3",
+    "size": [
+      17,
+      11,
+      17
+    ],
+    "explicit_records": 3179,
+    "palette_states": 43,
+    "non_air_blocks": 1334,
+    "static_floor_reachable_feet": 159,
+    "entities": 0,
+    "empty_block_entities": 2,
+    "checks": {
+      "gzip_nbt_single_palette_3465": "PASS",
+      "coordinate_uniqueness_bounds": "PASS",
+      "metadata_hash": "PASS",
+      "reference_image_dimensions_hash": "PASS",
+      "full_floor_and_roof_289_each": "PASS",
+      "north_3x3_opening": "PASS",
+      "central_3x3_aisle_16_long": "PASS",
+      "safe_point_and_workstation_access": "PASS",
+      "table_legs_scaffold_ladders_lamp_supports": "PASS",
+      "all_nonair_ground_connected": "PASS",
+      "empty_inventories_no_loot": "PASS",
+      "zero_entities_no_forbidden_blocks_free_fluid": "PASS",
+      "deterministic_roundtrip": "PASS"
+    },
+    "limits": [
+      "Static walkability uses air cells only; actual collision shapes and survival require qa/native.json.",
+      "Ground connectivity is an adjacency audit, not a structural engineering solver."
+    ]
+  },
+  "native": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "java": "17.0.8",
+    "scope": "Isolated Forge GameTestServer only; no player save or FT core",
+    "isolated_world": "D:\\ft工程文件\\FT地牢_R5_石匠工坊_20261102\\qa\\forge-runs\\20261102-123858-369610\\world",
+    "random_tick_speed": 3,
+    "structure_sha256": "3e7e92a43fb2c1c1f013d05e1638d597f6b810db2d49e05a6a78a0f5e6a94513",
+    "reference_sha256": "bec6b7196ece42321c289f968c93a0cb6e36b6ee8642e29543805b938b500dc3",
+    "native_decode_records": 3179,
+    "native_roundtrip_sha256": "8a2b8dac6e1a43e125350707e53b6c546f72f166b41ef253e9ca757aa9d81278",
+    "immediate_placements": [
+      {
+        "rotation": "NONE",
+        "status": "PASS",
+        "records_checked": 3179,
+        "block_entities_checked": 2,
+        "reachable_foot_positions": 159,
+        "unexpected_entities": 0,
+        "roof_cells": 289,
+        "workshop_supports": "PASS: table, scaffold, stone plinths, shelf, ladders, lanterns",
+        "main_aisle": "PASS: 3 wide by 3 high, 16 blocks long"
+      },
+      {
+        "rotation": "CLOCKWISE_90",
+        "status": "PASS",
+        "records_checked": 3179,
+        "block_entities_checked": 2,
+        "reachable_foot_positions": 159,
+        "unexpected_entities": 0,
+        "roof_cells": 289,
+        "workshop_supports": "PASS: table, scaffold, stone plinths, shelf, ladders, lanterns",
+        "main_aisle": "PASS: 3 wide by 3 high, 16 blocks long"
+      },
+      {
+        "rotation": "CLOCKWISE_180",
+        "status": "PASS",
+        "records_checked": 3179,
+        "block_entities_checked": 2,
+        "reachable_foot_positions": 159,
+        "unexpected_entities": 0,
+        "roof_cells": 289,
+        "workshop_supports": "PASS: table, scaffold, stone plinths, shelf, ladders, lanterns",
+        "main_aisle": "PASS: 3 wide by 3 high, 16 blocks long"
+      },
+      {
+        "rotation": "COUNTERCLOCKWISE_90",
+        "status": "PASS",
+        "records_checked": 3179,
+        "block_entities_checked": 2,
+        "reachable_foot_positions": 159,
+        "unexpected_entities": 0,
+        "roof_cells": 289,
+        "workshop_supports": "PASS: table, scaffold, stone plinths, shelf, ladders, lanterns",
+        "main_aisle": "PASS: 3 wide by 3 high, 16 blocks long"
+      }
+    ],
+    "forced_ticking_chunks": 16,
+    "negative_probes": {
+      "blocked_entrance": 4,
+      "missing_lamp_support": 4,
+      "stocked_inventory": 1,
+      "roof_hole": 4,
+      "missing_table_leg": 4
+    },
+    "stabilization_ticks": 100,
+    "rotations": [
+      {
+        "rotation": "NONE",
+        "status": "PASS",
+        "records_checked": 3179,
+        "block_entities_checked": 2,
+        "reachable_foot_positions": 159,
+        "unexpected_entities": 0,
+        "roof_cells": 289,
+        "workshop_supports": "PASS: table, scaffold, stone plinths, shelf, ladders, lanterns",
+        "main_aisle": "PASS: 3 wide by 3 high, 16 blocks long",
+        "world_capture": "qa\\native-placed-none.nbt",
+        "world_capture_sha256": "8a2b8dac6e1a43e125350707e53b6c546f72f166b41ef253e9ca757aa9d81278"
+      },
+      {
+        "rotation": "CLOCKWISE_90",
+        "status": "PASS",
+        "records_checked": 3179,
+        "block_entities_checked": 2,
+        "reachable_foot_positions": 159,
+        "unexpected_entities": 0,
+        "roof_cells": 289,
+        "workshop_supports": "PASS: table, scaffold, stone plinths, shelf, ladders, lanterns",
+        "main_aisle": "PASS: 3 wide by 3 high, 16 blocks long",
+        "world_capture": "qa\\native-placed-clockwise_90.nbt",
+        "world_capture_sha256": "a76903b5cc92b89c876f85aeb5f3c3f827a622a255e54b3c755337bd88eb2e06"
+      },
+      {
+        "rotation": "CLOCKWISE_180",
+        "status": "PASS",
+        "records_checked": 3179,
+        "block_entities_checked": 2,
+        "reachable_foot_positions": 159,
+        "unexpected_entities": 0,
+        "roof_cells": 289,
+        "workshop_supports": "PASS: table, scaffold, stone plinths, shelf, ladders, lanterns",
+        "main_aisle": "PASS: 3 wide by 3 high, 16 blocks long",
+        "world_capture": "qa\\native-placed-clockwise_180.nbt",
+        "world_capture_sha256": "9b8e136e6870dacac9fe867ecd0cbe25cebf3e2ba1eea3d3f2747e035eaec155"
+      },
+      {
+        "rotation": "COUNTERCLOCKWISE_90",
+        "status": "PASS",
+        "records_checked": 3179,
+        "block_entities_checked": 2,
+        "reachable_foot_positions": 159,
+        "unexpected_entities": 0,
+        "roof_cells": 289,
+        "workshop_supports": "PASS: table, scaffold, stone plinths, shelf, ladders, lanterns",
+        "main_aisle": "PASS: 3 wide by 3 high, 16 blocks long",
+        "world_capture": "qa\\native-placed-counterclockwise_90.nbt",
+        "world_capture_sha256": "8d6118d461c61761c3960d0a9110fbcc4571f252ca632f7eb4c7b38f20fd0fb5"
+      }
+    ],
+    "records_checked_after_ticks": 12716,
+    "limitations": [
+      "No FT catalog slot, hall connection, idempotence, occupancy rejection or production deployment tested.",
+      "No full-modpack player client, multiplayer, visual screenshot or FPS test.",
+      "100-tick stability under the isolated Forge runtime is bounded, not a long-running server guarantee."
+    ]
+  },
+  "render": {
+    "status": "PASS",
+    "source_nbt_sha256": "3e7e92a43fb2c1c1f013d05e1638d597f6b810db2d49e05a6a78a0f5e6a94513",
+    "preview_sha256": "8feda204257ebc0a79294f9596d84b3f923dc3ae6ace29355cfe20f3539e16e9",
+    "source": "Actual delivery NBT with vanilla 1.20.1 block models/textures, not an AI image or client screenshot",
+    "client_jar": "C:\\Users\\YOUR_USERNAME\\.gradle\\caches\\forge_gradle\\minecraft_repo\\versions\\1.20.1\\client.jar",
+    "client_jar_sha256": "56b71336d2b4fdffd197f56595b0da93e32a946f78f382a299b8f4b92758bb0f",
+    "views": 4,
+    "native_captures": [
+      {
+        "nbt": "qa\\native-placed-clockwise_180.nbt",
+        "sha256": "9b8e136e6870dacac9fe867ecd0cbe25cebf3e2ba1eea3d3f2747e035eaec155",
+        "preview": "preview\\native-placed-clockwise_180.png"
+      },
+      {
+        "nbt": "qa\\native-placed-clockwise_90.nbt",
+        "sha256": "a76903b5cc92b89c876f85aeb5f3c3f827a622a255e54b3c755337bd88eb2e06",
+        "preview": "preview\\native-placed-clockwise_90.png"
+      },
+      {
+        "nbt": "qa\\native-placed-counterclockwise_90.nbt",
+        "sha256": "8d6118d461c61761c3960d0a9110fbcc4571f252ca632f7eb4c7b38f20fd0fb5",
+        "preview": "preview\\native-placed-counterclockwise_90.png"
+      },
+      {
+        "nbt": "qa\\native-placed-none.nbt",
+        "sha256": "8a2b8dac6e1a43e125350707e53b6c546f72f166b41ef253e9ca757aa9d81278",
+        "preview": "preview\\native-placed-none.png"
+      }
+    ],
+    "limitations": [
+      "Software orthographic projection; no Minecraft player client or FPS evidence.",
+      "No real emitted light or shader simulation; static first texture frames only.",
+      "Only render memory cuts roof and near exterior boundary walls; delivered NBT is not cut."
+    ]
+  },
+  "final_audit": {
+    "status": "PASS",
+    "identity_rotation_capture_block_states_equal_source": true,
+    "all_four_native_capture_hashes_verified": true,
+    "native_success_log_verified": true,
+    "preview_dimensions": [
+      1600,
+      1250
+    ],
+    "preview_sha256": "8feda204257ebc0a79294f9596d84b3f923dc3ae6ace29355cfe20f3539e16e9"
+  },
+  "evidence": {
+    "qa/static.json": {
+      "sha256": "3b8c56f40601c634f88772493ee6fad6d6f8e61361efaad72a21d3a37e72bbd2",
+      "bytes": 1242
+    },
+    "qa/native.json": {
+      "sha256": "13c5dd033dcbc53dd5a2f91352dd6977060bc5cc0e768c0f50247dea46e86af4",
+      "bytes": 4996
+    },
+    "qa/forge-gametest.log": {
+      "sha256": "04acfa671c258b1fb214daeb97de97528af50bf6648d6f5b2951752fbe6c0f52",
+      "bytes": 28460
+    },
+    "qa/render-manifest.json": {
+      "sha256": "6d2c2709e41d4ffe688d1d454fe9522a176df19f680c1517c59a55fb54090dd9",
+      "bytes": 1714
+    }
+  },
+  "deployment": {
+    "status": "NOT_DEPLOYED",
+    "ft_core_modified": false,
+    "player_save_opened": false,
+    "other_rooms_modified": false,
+    "image_api_called": false
+  },
+  "limitations": [
+    "原生隔离验收不等于整合包客户端游玩、多人测试或FPS结论。",
+    "没有修改FT目录槽位、大厅连通、幂等、占用拒绝或部署；由唯一核心负责人另行验收。",
+    "概念图采用原版方块近似：磨石作车轮、墙饰作石翼兽、拉杆作工具；房间尺寸因安全动线调整。",
+    "预览仅软件内存剖切，最终结构屋顶完整；两桶无库存，炼药锅水为块内静态内容，无游离流体。"
+  ]
+}

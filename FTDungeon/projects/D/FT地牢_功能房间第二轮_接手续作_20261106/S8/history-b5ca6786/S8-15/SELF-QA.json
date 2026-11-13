@@ -1,0 +1,39 @@
+{
+  "candidate_sha256": "1d6aba7c28c0b2a814b18c6858573d068682b7afbdf40e6b826c3305580812c5",
+  "reference_sha256": "75a0eea2bc2a1e69cec00646fdb38b605e2298ed45484510fa01b4265cf8b92b",
+  "reference_image_viewed": true,
+  "lodestone_cutaway_viewed": true,
+  "self_check": "PASS",
+  "independent_acceptance": "NOT_RUN",
+  "native_report": "qa/independent-native-frozen.json",
+  "route_report": "qa/independent-routes.json",
+  "containers": [
+    {
+      "pos": [
+        29,
+        2,
+        4
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        31,
+        2,
+        4
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    }
+  ],
+  "static_supplement_failures": [],
+  "risks": "No water/lava/fire blocks",
+  "not_run": [
+    "world placement",
+    "neighbor/random/fluid tick simulation",
+    "player gameplay",
+    "independent acceptance"
+  ],
+  "visual_notes": "实际看参考与新内景剖面：低平台改为双坡A字木障碍，端部留通透支撑；原旁路目标不变。保留灰紫斑块地面、三靶、两横栏及长凳。"
+}

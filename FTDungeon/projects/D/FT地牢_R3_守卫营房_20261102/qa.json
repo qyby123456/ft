@@ -1,0 +1,272 @@
+{
+  "id": "R3",
+  "name": "守卫营房·废弃兵营",
+  "status": "PASS",
+  "finalized_at": "2026-11-02T12:50:28+08:00",
+  "structure_sha256": "2fb8eba5abf92adeab6238285bbf1e81645a5d25c430d13e348152adfca13065",
+  "size": [
+    17,
+    10,
+    17
+  ],
+  "records": 2890,
+  "non_air": 1329,
+  "block_entities": 9,
+  "reference": {
+    "path": "D:\\ft工程文件\\image2.5\\dungeon-rooms-medium-random-thread3-20261102\\out\\R3-guard-barracks.png",
+    "sha256": "99a2051453f62c923eb60ee8dd9679f82346c1745dfbf7141c221b154dbc7a98",
+    "pixels": [
+      1536,
+      1024
+    ]
+  },
+  "static": {
+    "status": "PASS",
+    "structure_sha256": "2fb8eba5abf92adeab6238285bbf1e81645a5d25c430d13e348152adfca13065",
+    "size": [
+      17,
+      10,
+      17
+    ],
+    "records": 2890,
+    "non_air": 1329,
+    "block_entities": 9,
+    "reachable_foot_positions": 152,
+    "checks": {
+      "gzip_single_palette_1_20_1": true,
+      "dimensions_explicit_full_volume": true,
+      "coordinates_in_bounds": true,
+      "source_hash_matches_metadata": true,
+      "reference_verified": true,
+      "vanilla_namespace_only": true,
+      "no_entities_or_forbidden_blocks": true,
+      "no_fluids_or_waterlogging": true,
+      "no_reward_inventory_or_loot_tables": true,
+      "complete_roof": true,
+      "complete_ground_floor": true,
+      "north_central_entrance_metadata": true,
+      "three_wide_three_high_main_aisle": true,
+      "entrance_safe_interior_bidirectional": true,
+      "table_circuit_bunks_racks_and_storage_access": true,
+      "eight_beds_paired_and_supported_platform_posts": true,
+      "no_explosive_interactive_beds_or_respawn_anchors": true,
+      "weapon_rack_grounded_load_paths": true,
+      "lamps_continuous_chain_and_roof_anchor": true,
+      "extinguished_hearth_only": true,
+      "chest_lids_clear": true
+    },
+    "errors": [],
+    "limitations": [
+      "Static conservative AIR-only path test; exact collision, registry, block entities, survival and rotations require Forge native QA."
+    ]
+  },
+  "native": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "java": "17.0.8",
+    "scope": "Isolated Forge GameTestServer; no FT core, production save, client or deployment",
+    "structure_sha256": "2fb8eba5abf92adeab6238285bbf1e81645a5d25c430d13e348152adfca13065",
+    "negative_probes": {
+      "missing_bed_platform": 4,
+      "missing_rack_base": 4,
+      "missing_chain": 4,
+      "blocked_aisle": 4
+    },
+    "stabilization_ticks": 200,
+    "rotations": [
+      {
+        "rotation": "NONE",
+        "origin_world": [
+          32,
+          288,
+          32
+        ],
+        "records_checked": 2890,
+        "block_entities_checked": 9,
+        "reachable_foot_positions": 152,
+        "beds_supported": 8,
+        "bedding_noninteractive_safe_in_ft": true,
+        "racks_supported": 2,
+        "world_entities": 0,
+        "roof_blocks": 289,
+        "status": "PASS",
+        "world_capture": "qa\\native-placed-none.nbt",
+        "world_capture_sha256": "b5bf23664b29d2ab826b2458e3419d6a96d380417efa0894207ec9739e008e0b",
+        "capture_matches_source": true
+      },
+      {
+        "rotation": "CLOCKWISE_90",
+        "origin_world": [
+          88,
+          288,
+          32
+        ],
+        "records_checked": 2890,
+        "block_entities_checked": 9,
+        "reachable_foot_positions": 152,
+        "beds_supported": 8,
+        "bedding_noninteractive_safe_in_ft": true,
+        "racks_supported": 2,
+        "world_entities": 0,
+        "roof_blocks": 289,
+        "status": "PASS",
+        "world_capture": "qa\\native-placed-clockwise_90.nbt",
+        "world_capture_sha256": "7d589082247f352bb4f503f92cefbe83d5e190d35b70c8ced047556745173def",
+        "capture_matches_source": true
+      },
+      {
+        "rotation": "CLOCKWISE_180",
+        "origin_world": [
+          144,
+          288,
+          32
+        ],
+        "records_checked": 2890,
+        "block_entities_checked": 9,
+        "reachable_foot_positions": 152,
+        "beds_supported": 8,
+        "bedding_noninteractive_safe_in_ft": true,
+        "racks_supported": 2,
+        "world_entities": 0,
+        "roof_blocks": 289,
+        "status": "PASS",
+        "world_capture": "qa\\native-placed-clockwise_180.nbt",
+        "world_capture_sha256": "c5b365efc3716627a3e7e5879d8be46791e2510962be07db08da159079169af0",
+        "capture_matches_source": true
+      },
+      {
+        "rotation": "COUNTERCLOCKWISE_90",
+        "origin_world": [
+          200,
+          288,
+          32
+        ],
+        "records_checked": 2890,
+        "block_entities_checked": 9,
+        "reachable_foot_positions": 152,
+        "beds_supported": 8,
+        "bedding_noninteractive_safe_in_ft": true,
+        "racks_supported": 2,
+        "world_entities": 0,
+        "roof_blocks": 289,
+        "status": "PASS",
+        "world_capture": "qa\\native-placed-counterclockwise_90.nbt",
+        "world_capture_sha256": "886b499f0b7afcdce3f3c331c835970042039bc4b4c82d6f796687a7f0faf988",
+        "capture_matches_source": true
+      }
+    ],
+    "records_checked_after_ticks": 11560
+  },
+  "render": {
+    "status": "PASS",
+    "structure_sha256": "2fb8eba5abf92adeab6238285bbf1e81645a5d25c430d13e348152adfca13065",
+    "source": "Final delivered NBT, read back from disk",
+    "client_jar": "C:\\Users\\YOUR_USERNAME\\.gradle\\caches\\forge_gradle\\minecraft_repo\\versions\\1.20.1\\client.jar",
+    "client_jar_sha256": "56b71336d2b4fdffd197f56595b0da93e32a946f78f382a299b8f4b92758bb0f",
+    "views": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "roof_and_beam_cut_only_in_rendering_memory": true,
+    "native_capture_rendered": true,
+    "limitations": [
+      "Software render, not in-game screenshot or full modpack client QA.",
+      "Patterned banner block-entity geometry is explicitly simplified; bedding is actual vanilla carpets/platforms, not an interactive bed.",
+      "No exact light simulation, biome tint, shader or transparency rasterization."
+    ]
+  },
+  "target_environment_review": {
+    "reviewed_at": "2026-11-02T12:50:28+08:00",
+    "scope": "Read-only target integration environment review, not core integration or runtime event testing",
+    "dimension_source": "D:\\ft工程文件\\FT-Dungeon-Mobs-Forge-1.20.1\\src\\main\\resources\\data\\ftdungeonmobs\\dimension_type\\dungeon.json",
+    "dimension_sha256": "d5a1a4def4e22ae6b2c7faf650a32abb510cbd5cb41785a1d3221653faece572",
+    "dimension_snapshot": {
+      "ultrawarm": false,
+      "natural": false,
+      "coordinate_scale": 1.0,
+      "has_skylight": false,
+      "has_ceiling": true,
+      "ambient_light": 0.08,
+      "fixed_time": 18000,
+      "piglin_safe": false,
+      "bed_works": false,
+      "respawn_anchor_works": false,
+      "has_raids": false,
+      "min_y": 0,
+      "height": 256,
+      "logical_height": 256,
+      "infiniburn": "#minecraft:infiniburn_overworld",
+      "effects": "minecraft:the_end",
+      "monster_spawn_block_light_limit": 0,
+      "monster_spawn_light_level": 0
+    },
+    "rules_source": "D:\\ft工程文件\\FT-Dungeon-Mobs-Forge-1.20.1\\ROOM_RULES.md",
+    "rules_sha256": "7dc700e0f7b39fea87b303b7837292731dc2875a56ddff23825890c54828dbe8",
+    "source_documents_say_block_right_click_remains_open": true,
+    "interactive_bed_blocks_in_final_template": 0,
+    "respawn_anchor_blocks_in_final_template": 0,
+    "decision": "Actual beds can explode where bed_works=false. Use supported dark-oak platform, red-carpet mattress and white-carpet pillow; no core change or interaction dependency."
+  },
+  "python_nbt_roundtrip_identical": true,
+  "artifact_sha256": {
+    "room.nbt": "2fb8eba5abf92adeab6238285bbf1e81645a5d25c430d13e348152adfca13065",
+    "room.json": "7cddd4dbc2ffe34b8b2acf076a6b71dd4bd17ea58bc9bc4b60b916e2f1691032",
+    "preview.png": "d20894ba5b23215132d5cee83e68944158a95c257e17cd10fba03c0578af22eb",
+    "blueprint.json": "603324d90b26c6462688b5aca4a6a350e4f9ad0bbeda5f549572d1ba9ec0a969",
+    "qa/static.json": "975f5a51d8413f3f9ba9da66519b681d02f16474768569c72cb2464799daf74a",
+    "qa/native.json": "5b6307b0b7b6afa1c14e4d3ed29933f1daf25a9c1261162dbeeeed389b176d79",
+    "qa/render.json": "0c9c065b289697756a6e1a0d669939a2e6093922f2e8307cfec9f450f5bf9869",
+    "qa/environment.json": "f7c06f68786aa5d1b498c96a34eee52245b241baa2f3e2fed782412ee3555f4e",
+    "qa/forge-gametest.log": "6a7ef35a1871b36de3a0ed2766cdcb3517d0ebd910d0ff21b38cc480a3fb332a",
+    "qa/python-roundtrip.nbt": "2fb8eba5abf92adeab6238285bbf1e81645a5d25c430d13e348152adfca13065",
+    "preview/four-views.png": "defb49704641810f9d11ff773f3c878e5655af646e462a4c227b80dad0c7eeea",
+    "preview/exterior.png": "984d97f6909b40ff6ab1c3d7cbb560893b6af4b37b6dc0ba34c5249efd00b4e7",
+    "preview/plan.png": "d629c1e79fb6f9c955fa1502ff3676b9205b29ba34b29a7375e67f61337ad04c",
+    "preview/native-world-capture.png": "12c070acafec6ffa30c24c3853a31430493494b749c39081ca47da079922ab6b",
+    "qa/native-placed-none.nbt": "b5bf23664b29d2ab826b2458e3419d6a96d380417efa0894207ec9739e008e0b",
+    "qa/native-placed-clockwise_90.nbt": "7d589082247f352bb4f503f92cefbe83d5e190d35b70c8ced047556745173def",
+    "qa/native-placed-clockwise_180.nbt": "c5b365efc3716627a3e7e5879d8be46791e2510962be07db08da159079169af0",
+    "qa/native-placed-counterclockwise_90.nbt": "886b499f0b7afcdce3f3c331c835970042039bc4b4c82d6f796687a7f0faf988"
+  },
+  "earlier_attempts": [
+    {
+      "report": "qa\\previous-20261102-123251-native.json",
+      "status": "FAIL",
+      "source_sha256": "78e7876e4646a9784eb426fbbf621875d527999f296539d19f3c57ba39c91641",
+      "error": "java.lang.IllegalStateException: Unexpected entities/drops in fixture",
+      "counts_as_final_acceptance": false
+    },
+    {
+      "report": "qa\\previous-20261102-123917-native.json",
+      "status": "FAIL",
+      "source_sha256": "78e7876e4646a9784eb426fbbf621875d527999f296539d19f3c57ba39c91641",
+      "error": "java.lang.IllegalStateException: State drift NONE at BlockPos{x=7, y=1, z=0}: Block{minecraft:water}[level=6], expected Block{minecraft:air}",
+      "counts_as_final_acceptance": false
+    },
+    {
+      "report": "qa\\previous-20261102-124535-native.json",
+      "status": "PASS",
+      "source_sha256": "9ef84363df2750d0d1523295072b5705acaf820015f388d76947abf67c01744a",
+      "error": null,
+      "counts_as_final_acceptance": false
+    }
+  ],
+  "scope": {
+    "writes": "D:\\ft工程文件\\FT地牢_R3_守卫营房_20261102",
+    "deployed": false,
+    "ft_core_modified": false,
+    "player_saves_opened_or_modified": false,
+    "shared_catalog_or_queue_modified": false,
+    "parallel_deliveries_modified": false,
+    "new_paid_image_generation": false
+  },
+  "limitations": [
+    "Forge QA uses the isolated overworld fixture at Y=288, not the production FT dimension or a full-modpack client.",
+    "No FT catalog/slot, lobby walkway, production occupancy rejection, generation idempotence, existing player modifications, return gate or multiplayer verification.",
+    "Actual sleep/respawn and weapons/items are intentionally not provided. Patterned banners use simplified software-render geometry.",
+    "Preview removes roof/ceiling beams/near walls in rendering memory only; final NBT keeps the complete roof and all supports."
+  ]
+}

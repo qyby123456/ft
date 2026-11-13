@@ -1,0 +1,65 @@
+{
+  "source_sha256": "316c6b442f48db289c0d6fd1d824ddbeb622caf37604070aaa240bb132ba7433",
+  "status": "maker_static_self_check_pass_not_independent_acceptance",
+  "registry_properties": true,
+  "template_roundtrip": true,
+  "native_fragile_survival": true,
+  "native_all_nonair_survival": true,
+  "nonair_checked": 9999,
+  "ports_clear": true,
+  "empty_inventories": true,
+  "collision_routes": [
+    {
+      "label": "upper-back-exit",
+      "reachable": true,
+      "position": [
+        14,
+        10,
+        2
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "watch-desk",
+      "reachable": true,
+      "position": [
+        9,
+        10,
+        20
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "stair-top",
+      "reachable": true,
+      "position": [
+        29,
+        10,
+        12
+      ],
+      "standing_clear": true
+    },
+    {
+      "label": "rack",
+      "reachable": true,
+      "position": [
+        20,
+        10,
+        5
+      ],
+      "standing_clear": true
+    }
+  ],
+  "not_executed": [
+    "human client GUI and keyboard gameplay",
+    "combat",
+    "independent visual acceptance",
+    "per-cell random tick coverage certification"
+  ],
+  "scope_limits": [
+    "This file is static QA; separate world-report.json records actual ServerLevel ticks and interactions.",
+    "Static routes use EmptyBlockGetter; separate walk-report.json uses actual ServerLevel and Entity.move.",
+    "No client, drowning, jump, ladder or combat certification."
+  ],
+  "separate_runtime_evidence": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S1\\worldqa-run4\\world-report.json"
+}

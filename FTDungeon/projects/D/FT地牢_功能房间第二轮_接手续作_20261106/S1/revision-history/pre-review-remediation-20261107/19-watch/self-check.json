@@ -1,0 +1,64 @@
+{
+  "source_sha256": "70c21087400bca3a47e8aafd4fa8b128706e12083f2a7af59d880a1329c3a298",
+  "status": "maker_static_self_check_pass_not_independent_acceptance",
+  "registry_properties": true,
+  "template_roundtrip": true,
+  "native_fragile_survival": true,
+  "native_all_nonair_survival": true,
+  "nonair_checked": 9981,
+  "ports_clear": true,
+  "empty_inventories": true,
+  "collision_routes": [
+    {
+      "reachable": true,
+      "label": "upper-back-exit",
+      "standing_clear": true,
+      "position": [
+        14,
+        10,
+        2
+      ]
+    },
+    {
+      "reachable": true,
+      "label": "watch-desk",
+      "standing_clear": true,
+      "position": [
+        9,
+        10,
+        20
+      ]
+    },
+    {
+      "reachable": true,
+      "label": "stair-top",
+      "standing_clear": true,
+      "position": [
+        29,
+        10,
+        12
+      ]
+    },
+    {
+      "reachable": true,
+      "label": "rack",
+      "standing_clear": true,
+      "position": [
+        20,
+        10,
+        5
+      ]
+    }
+  ],
+  "not_executed": [
+    "world placement and ticks",
+    "gameplay or combat",
+    "independent visual acceptance",
+    "door/button use and neighbor updates"
+  ],
+  "scope_limits": [
+    "Full nonair canSurvive with real tags and brightness 15 is static support only.",
+    "Route shapes use EmptyBlockGetter; no ladder, jump or movement physics certification.",
+    "No actual world lighting, neighbor, fluid, random ticks or interactions."
+  ]
+}

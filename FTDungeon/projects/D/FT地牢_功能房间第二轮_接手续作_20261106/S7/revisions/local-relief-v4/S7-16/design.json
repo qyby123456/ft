@@ -1,0 +1,129 @@
+{
+  "id": "S7-16",
+  "title": "水井蓄水池",
+  "reference_observed": "中央矩形苔石池、跨池木梁绞盘链桶、前侧短水渠、环形维修步道、桶与工作案、后侧双巨菇与双门",
+  "start": [
+    2,
+    3,
+    16
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "foot": [
+        0,
+        3,
+        16
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    },
+    {
+      "side": "east",
+      "foot": [
+        34,
+        3,
+        16
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "west",
+      "position": [
+        0,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "east",
+      "position": [
+        34,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "north maintenance",
+      "position": [
+        17,
+        3,
+        8
+      ]
+    },
+    {
+      "label": "south maintenance",
+      "position": [
+        13,
+        3,
+        25
+      ]
+    },
+    {
+      "label": "east maintenance",
+      "position": [
+        26,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "work table",
+      "position": [
+        7,
+        3,
+        25
+      ]
+    },
+    {
+      "label": "side steps bottom",
+      "position": [
+        31,
+        3,
+        21
+      ]
+    },
+    {
+      "label": "side steps middle",
+      "position": [
+        28,
+        4.5,
+        21
+      ]
+    },
+    {
+      "label": "side steps landing",
+      "position": [
+        24,
+        6,
+        21
+      ]
+    }
+  ],
+  "differences": [
+    "池水玻璃盖隔离，水渠单独封槽，不实现动态出水瀑布",
+    "绞盘吊桶使用空桶方块与链，不实现卷扬或汲水动画",
+    "池边实体矮墙避免跌入，维护路线绕池而非穿池",
+    "不声明原版流体tick通过"
+  ],
+  "revision_2": {
+    "reason": "Independent visual preliminary REQUEST_CHANGES",
+    "preserved_evidence": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\local-relief-v4\\history\\pre-visual-request-changes\\S7-16",
+    "changes": [
+      "Continuous irregular floor patches replace per-cell checkerboard",
+      "Wave-based clustered cave palette, projecting upper ledges, supported hanging roots and mushrooms",
+      "Stone-and-log layered frames at unchanged clear ports",
+      "Feature-detail render supplements overview; no targets removed"
+    ]
+  },
+  "takeover_source_manifest": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\local-relief-v4\\takeover-source-manifest.json",
+  "revision_4": {
+    "changes": "五处阶梯石土基脚、小菌与垂根，池角石座及可走半级侧台阶。",
+    "world_evidence": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\local-relief-v4\\worldqa-validated\\world-report.json",
+    "scope": "制作方检查，等待独立复核；服务器模拟交互不等于真人客户端遍历。"
+  },
+  "inherited_reference_scope": "Earlier revision_2 and takeover provenance fields were copied by the revision initializer and may contain relocated historical paths. Authoritative ancestry is revision-parent.json with exact source hashes; do not treat absent relocated history paths as new evidence."
+}

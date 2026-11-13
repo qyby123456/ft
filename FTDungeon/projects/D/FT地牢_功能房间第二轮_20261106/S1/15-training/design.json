@@ -1,0 +1,118 @@
+{
+  "id": "S1-15",
+  "size": [
+    35,
+    18,
+    31
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        21
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        34,
+        2,
+        10
+      ],
+      "width": 5,
+      "clearHeight": 5
+    }
+  ],
+  "start": [
+    2,
+    2,
+    21
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        32,
+        2,
+        10
+      ]
+    },
+    {
+      "label": "target-line",
+      "position": [
+        16,
+        2,
+        6
+      ]
+    },
+    {
+      "label": "dummy-middle",
+      "position": [
+        18,
+        2,
+        14
+      ]
+    },
+    {
+      "label": "bench-aisle",
+      "position": [
+        12,
+        2,
+        26
+      ]
+    }
+  ],
+  "reference_features": [
+    "three straw dummies",
+    "rear targets",
+    "left weapon racks",
+    "right hurdle course and ramp",
+    "front viewing benches and pond"
+  ],
+  "differences": [
+    "Closed glass canopy for complete envelope rather than missing cutaway roof",
+    "Training blocks are decorative; no combat scoring",
+    "Obstacle area optional and bypassable; no jump certification",
+    "Left opening kept unobstructed for connecting route, no closed door at delivery"
+  ],
+  "cutaway": {
+    "removeAbove": 13,
+    "frontDepth": 29,
+    "sideX": 33
+  },
+  "focus_views": [
+    {
+      "id": "focus",
+      "position": [
+        30,
+        11,
+        30
+      ],
+      "target": [
+        23,
+        3,
+        24
+      ],
+      "fov": 53
+    },
+    {
+      "id": "function-detail",
+      "position": [
+        28,
+        7,
+        32
+      ],
+      "target": [
+        23,
+        3,
+        24
+      ],
+      "fov": 48
+    }
+  ],
+  "revision": "R2: independent visual/support changes; targets retained"
+}

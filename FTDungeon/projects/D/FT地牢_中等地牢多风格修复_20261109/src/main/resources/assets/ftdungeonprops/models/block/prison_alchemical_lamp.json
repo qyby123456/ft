@@ -1,0 +1,1341 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile0": "ftdungeonprops:block/remake-lighting_00",
+    "tile1": "ftdungeonprops:block/remake-lighting_01",
+    "tile2": "ftdungeonprops:block/remake-lighting_02",
+    "tile3": "ftdungeonprops:block/remake-lighting_03",
+    "tile6": "ftdungeonprops:block/remake-lighting_06",
+    "tile10": "ftdungeonprops:block/remake-lighting_10",
+    "tile8": "ftdungeonprops:block/remake-lighting_08",
+    "tile9": "ftdungeonprops:block/remake-lighting_09",
+    "tile5": "ftdungeonprops:block/remake-lighting_05",
+    "tile4": "ftdungeonprops:block/remake-lighting_04",
+    "tile13": "ftdungeonprops:block/remake-lighting_13",
+    "tile11": "ftdungeonprops:block/remake-lighting_11",
+    "tile12": "ftdungeonprops:block/remake-lighting_12",
+    "particle": "ftdungeonprops:block/remake-lighting_00"
+  },
+  "elements": [
+    {
+      "name": "plinth / lower iron sole",
+      "from": [
+        0,
+        0,
+        1
+      ],
+      "to": [
+        16,
+        1,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            15,
+            16,
+            16
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            0,
+            15,
+            16,
+            16
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            1,
+            15,
+            13,
+            16
+          ],
+          "texture": "#tile0",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            3,
+            15,
+            15,
+            16
+          ],
+          "texture": "#tile0",
+          "cullface": "east"
+        },
+        "up": {
+          "uv": [
+            0,
+            1,
+            16,
+            13
+          ],
+          "texture": "#tile1"
+        },
+        "down": {
+          "uv": [
+            0,
+            3,
+            16,
+            15
+          ],
+          "texture": "#tile2",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "plinth / recessed slate deck",
+      "from": [
+        1,
+        1,
+        2
+      ],
+      "to": [
+        15,
+        2,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            1,
+            14,
+            15,
+            15
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            2,
+            14,
+            12,
+            15
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            4,
+            14,
+            14,
+            15
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            1,
+            2,
+            15,
+            12
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "main vessel / brass heating shoe",
+      "from": [
+        3,
+        2,
+        5
+      ],
+      "to": [
+        8,
+        3,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            13,
+            13,
+            14
+          ],
+          "texture": "#tile3"
+        },
+        "south": {
+          "uv": [
+            3,
+            13,
+            8,
+            14
+          ],
+          "texture": "#tile3"
+        },
+        "west": {
+          "uv": [
+            5,
+            13,
+            10,
+            14
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            6,
+            13,
+            11,
+            14
+          ],
+          "texture": "#tile3"
+        }
+      }
+    },
+    {
+      "name": "collector / brass receiver shoe",
+      "from": [
+        11,
+        2,
+        3
+      ],
+      "to": [
+        14,
+        3,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            13,
+            5,
+            14
+          ],
+          "texture": "#tile3"
+        },
+        "south": {
+          "uv": [
+            11,
+            13,
+            14,
+            14
+          ],
+          "texture": "#tile3"
+        },
+        "west": {
+          "uv": [
+            3,
+            13,
+            6,
+            14
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            10,
+            13,
+            13,
+            14
+          ],
+          "texture": "#tile3"
+        }
+      }
+    },
+    {
+      "name": "pressure control / solid housing",
+      "from": [
+        2,
+        2,
+        2
+      ],
+      "to": [
+        7,
+        4,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            12,
+            14,
+            14
+          ],
+          "texture": "#tile6"
+        },
+        "south": {
+          "uv": [
+            2,
+            12,
+            7,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            2,
+            12,
+            4,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            12,
+            12,
+            14,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            2,
+            2,
+            7,
+            4
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "cyan retort / lower shoulder",
+      "from": [
+        3,
+        3,
+        5
+      ],
+      "to": [
+        8,
+        4,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            12,
+            13,
+            13
+          ],
+          "texture": "#tile10"
+        },
+        "south": {
+          "uv": [
+            3,
+            12,
+            8,
+            13
+          ],
+          "texture": "#tile10"
+        },
+        "west": {
+          "uv": [
+            5,
+            12,
+            10,
+            13
+          ],
+          "texture": "#tile10"
+        },
+        "east": {
+          "uv": [
+            6,
+            12,
+            11,
+            13
+          ],
+          "texture": "#tile10"
+        }
+      }
+    },
+    {
+      "name": "cyan retort / deep central bulb",
+      "from": [
+        3,
+        4,
+        4
+      ],
+      "to": [
+        8,
+        10,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            6,
+            13,
+            12
+          ],
+          "texture": "#tile8"
+        },
+        "south": {
+          "uv": [
+            3,
+            6,
+            8,
+            12
+          ],
+          "texture": "#tile8"
+        },
+        "west": {
+          "uv": [
+            4,
+            6,
+            11,
+            12
+          ],
+          "texture": "#tile9"
+        },
+        "east": {
+          "uv": [
+            5,
+            6,
+            12,
+            12
+          ],
+          "texture": "#tile9"
+        },
+        "up": {
+          "uv": [
+            3,
+            4,
+            8,
+            11
+          ],
+          "texture": "#tile10"
+        },
+        "down": {
+          "uv": [
+            3,
+            5,
+            8,
+            12
+          ],
+          "texture": "#tile10"
+        }
+      }
+    },
+    {
+      "name": "cyan retort / west rounded facet",
+      "from": [
+        2,
+        5,
+        5
+      ],
+      "to": [
+        3,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            7,
+            14,
+            11
+          ],
+          "texture": "#tile9"
+        },
+        "south": {
+          "uv": [
+            2,
+            7,
+            3,
+            11
+          ],
+          "texture": "#tile9"
+        },
+        "west": {
+          "uv": [
+            5,
+            7,
+            10,
+            11
+          ],
+          "texture": "#tile9"
+        },
+        "up": {
+          "uv": [
+            2,
+            5,
+            3,
+            10
+          ],
+          "texture": "#tile10"
+        },
+        "down": {
+          "uv": [
+            2,
+            6,
+            3,
+            11
+          ],
+          "texture": "#tile10"
+        }
+      }
+    },
+    {
+      "name": "cyan retort / east rounded facet",
+      "from": [
+        8,
+        5,
+        5
+      ],
+      "to": [
+        9,
+        9,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            7,
+            8,
+            11
+          ],
+          "texture": "#tile9"
+        },
+        "south": {
+          "uv": [
+            8,
+            7,
+            9,
+            11
+          ],
+          "texture": "#tile9"
+        },
+        "east": {
+          "uv": [
+            6,
+            7,
+            11,
+            11
+          ],
+          "texture": "#tile9"
+        },
+        "up": {
+          "uv": [
+            8,
+            5,
+            9,
+            10
+          ],
+          "texture": "#tile10"
+        },
+        "down": {
+          "uv": [
+            8,
+            6,
+            9,
+            11
+          ],
+          "texture": "#tile10"
+        }
+      }
+    },
+    {
+      "name": "cyan retort / upper shoulder",
+      "from": [
+        3,
+        10,
+        5
+      ],
+      "to": [
+        8,
+        11,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            5,
+            13,
+            6
+          ],
+          "texture": "#tile10"
+        },
+        "south": {
+          "uv": [
+            3,
+            5,
+            8,
+            6
+          ],
+          "texture": "#tile10"
+        },
+        "west": {
+          "uv": [
+            5,
+            5,
+            10,
+            6
+          ],
+          "texture": "#tile10"
+        },
+        "east": {
+          "uv": [
+            6,
+            5,
+            11,
+            6
+          ],
+          "texture": "#tile10"
+        },
+        "up": {
+          "uv": [
+            3,
+            5,
+            8,
+            10
+          ],
+          "texture": "#tile10"
+        }
+      }
+    },
+    {
+      "name": "cyan retort / pronounced narrow neck",
+      "from": [
+        4,
+        11,
+        6
+      ],
+      "to": [
+        7,
+        13,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            3,
+            12,
+            5
+          ],
+          "texture": "#tile10"
+        },
+        "south": {
+          "uv": [
+            4,
+            3,
+            7,
+            5
+          ],
+          "texture": "#tile10"
+        },
+        "west": {
+          "uv": [
+            6,
+            3,
+            9,
+            5
+          ],
+          "texture": "#tile10"
+        },
+        "east": {
+          "uv": [
+            7,
+            3,
+            10,
+            5
+          ],
+          "texture": "#tile10"
+        }
+      }
+    },
+    {
+      "name": "cyan retort / compression cap",
+      "from": [
+        4,
+        13,
+        6
+      ],
+      "to": [
+        7,
+        14,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            2,
+            12,
+            3
+          ],
+          "texture": "#tile3"
+        },
+        "south": {
+          "uv": [
+            4,
+            2,
+            7,
+            3
+          ],
+          "texture": "#tile3"
+        },
+        "west": {
+          "uv": [
+            6,
+            2,
+            9,
+            3
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            7,
+            2,
+            10,
+            3
+          ],
+          "texture": "#tile3"
+        },
+        "up": {
+          "uv": [
+            4,
+            6,
+            7,
+            9
+          ],
+          "texture": "#tile3"
+        }
+      }
+    },
+    {
+      "name": "pipe bridge / hot-side upright",
+      "from": [
+        5,
+        14,
+        6
+      ],
+      "to": [
+        7,
+        15,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            11,
+            2
+          ],
+          "texture": "#tile5"
+        },
+        "south": {
+          "uv": [
+            5,
+            1,
+            7,
+            2
+          ],
+          "texture": "#tile5"
+        },
+        "west": {
+          "uv": [
+            6,
+            1,
+            8,
+            2
+          ],
+          "texture": "#tile5"
+        },
+        "up": {
+          "uv": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "texture": "#tile4"
+        }
+      }
+    },
+    {
+      "name": "pipe bridge / continuous elevated span",
+      "from": [
+        7,
+        14,
+        6
+      ],
+      "to": [
+        14,
+        15,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            1,
+            9,
+            2
+          ],
+          "texture": "#tile4"
+        },
+        "south": {
+          "uv": [
+            7,
+            1,
+            14,
+            2
+          ],
+          "texture": "#tile4"
+        },
+        "east": {
+          "uv": [
+            8,
+            1,
+            10,
+            2
+          ],
+          "texture": "#tile5"
+        },
+        "up": {
+          "uv": [
+            7,
+            6,
+            14,
+            8
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            7,
+            8,
+            14,
+            10
+          ],
+          "texture": "#tile4"
+        }
+      }
+    },
+    {
+      "name": "pipe bridge / forward elbow",
+      "from": [
+        12,
+        14,
+        4
+      ],
+      "to": [
+        14,
+        15,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            1,
+            4,
+            2
+          ],
+          "texture": "#tile4"
+        },
+        "west": {
+          "uv": [
+            4,
+            1,
+            6,
+            2
+          ],
+          "texture": "#tile4"
+        },
+        "east": {
+          "uv": [
+            10,
+            1,
+            12,
+            2
+          ],
+          "texture": "#tile4"
+        },
+        "up": {
+          "uv": [
+            12,
+            4,
+            14,
+            6
+          ],
+          "texture": "#tile4"
+        }
+      }
+    },
+    {
+      "name": "pipe bridge / condenser downcomer",
+      "from": [
+        12,
+        11,
+        4
+      ],
+      "to": [
+        14,
+        14,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            2,
+            4,
+            5
+          ],
+          "texture": "#tile5"
+        },
+        "south": {
+          "uv": [
+            12,
+            2,
+            14,
+            5
+          ],
+          "texture": "#tile5"
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            6,
+            5
+          ],
+          "texture": "#tile5"
+        },
+        "east": {
+          "uv": [
+            10,
+            2,
+            12,
+            5
+          ],
+          "texture": "#tile5"
+        }
+      }
+    },
+    {
+      "name": "amber collector / compression cap",
+      "from": [
+        12,
+        10,
+        4
+      ],
+      "to": [
+        14,
+        11,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            5,
+            4,
+            6
+          ],
+          "texture": "#tile3"
+        },
+        "south": {
+          "uv": [
+            12,
+            5,
+            14,
+            6
+          ],
+          "texture": "#tile3"
+        },
+        "west": {
+          "uv": [
+            4,
+            5,
+            6,
+            6
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            10,
+            5,
+            12,
+            6
+          ],
+          "texture": "#tile3"
+        }
+      }
+    },
+    {
+      "name": "amber collector / narrow receiving neck",
+      "from": [
+        12,
+        8,
+        4
+      ],
+      "to": [
+        14,
+        10,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            6,
+            4,
+            8
+          ],
+          "texture": "#tile13"
+        },
+        "south": {
+          "uv": [
+            12,
+            6,
+            14,
+            8
+          ],
+          "texture": "#tile13"
+        },
+        "west": {
+          "uv": [
+            4,
+            6,
+            6,
+            8
+          ],
+          "texture": "#tile13"
+        },
+        "east": {
+          "uv": [
+            10,
+            6,
+            12,
+            8
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "amber collector / upper shoulder",
+      "from": [
+        11,
+        7,
+        3
+      ],
+      "to": [
+        14,
+        8,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            8,
+            5,
+            9
+          ],
+          "texture": "#tile13"
+        },
+        "south": {
+          "uv": [
+            11,
+            8,
+            14,
+            9
+          ],
+          "texture": "#tile13"
+        },
+        "west": {
+          "uv": [
+            3,
+            8,
+            6,
+            9
+          ],
+          "texture": "#tile13"
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            13,
+            9
+          ],
+          "texture": "#tile13"
+        },
+        "up": {
+          "uv": [
+            11,
+            3,
+            14,
+            6
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "amber collector / deep central bulb",
+      "from": [
+        11,
+        4,
+        2
+      ],
+      "to": [
+        14,
+        7,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            9,
+            5,
+            12
+          ],
+          "texture": "#tile11"
+        },
+        "south": {
+          "uv": [
+            11,
+            9,
+            14,
+            12
+          ],
+          "texture": "#tile11"
+        },
+        "west": {
+          "uv": [
+            2,
+            9,
+            7,
+            12
+          ],
+          "texture": "#tile12"
+        },
+        "east": {
+          "uv": [
+            9,
+            9,
+            14,
+            12
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            11,
+            2,
+            14,
+            7
+          ],
+          "texture": "#tile13"
+        },
+        "down": {
+          "uv": [
+            11,
+            9,
+            14,
+            14
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "amber collector / west rounded facet",
+      "from": [
+        10,
+        4,
+        3
+      ],
+      "to": [
+        11,
+        7,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            9,
+            6,
+            12
+          ],
+          "texture": "#tile12"
+        },
+        "south": {
+          "uv": [
+            10,
+            9,
+            11,
+            12
+          ],
+          "texture": "#tile12"
+        },
+        "west": {
+          "uv": [
+            3,
+            9,
+            6,
+            12
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            10,
+            3,
+            11,
+            6
+          ],
+          "texture": "#tile13"
+        },
+        "down": {
+          "uv": [
+            10,
+            10,
+            11,
+            13
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "amber collector / east rounded facet",
+      "from": [
+        14,
+        4,
+        3
+      ],
+      "to": [
+        15,
+        7,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            9,
+            2,
+            12
+          ],
+          "texture": "#tile12"
+        },
+        "south": {
+          "uv": [
+            14,
+            9,
+            15,
+            12
+          ],
+          "texture": "#tile12"
+        },
+        "east": {
+          "uv": [
+            10,
+            9,
+            13,
+            12
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            14,
+            3,
+            15,
+            6
+          ],
+          "texture": "#tile13"
+        },
+        "down": {
+          "uv": [
+            14,
+            10,
+            15,
+            13
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "amber collector / lower shoulder",
+      "from": [
+        11,
+        3,
+        3
+      ],
+      "to": [
+        14,
+        4,
+        6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            12,
+            5,
+            13
+          ],
+          "texture": "#tile13"
+        },
+        "south": {
+          "uv": [
+            11,
+            12,
+            14,
+            13
+          ],
+          "texture": "#tile13"
+        },
+        "west": {
+          "uv": [
+            3,
+            12,
+            6,
+            13
+          ],
+          "texture": "#tile13"
+        },
+        "east": {
+          "uv": [
+            10,
+            12,
+            13,
+            13
+          ],
+          "texture": "#tile13"
+        }
+      }
+    }
+  ]
+}

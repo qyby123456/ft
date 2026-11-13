@@ -1,0 +1,674 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile2": "ftdungeonprops:block/lighting_02",
+    "tile3": "ftdungeonprops:block/lighting_03",
+    "tile4": "ftdungeonprops:block/lighting_04",
+    "tile15": "ftdungeonprops:block/lighting_15",
+    "tile13": "ftdungeonprops:block/lighting_13",
+    "particle": "ftdungeonprops:block/lighting_02"
+  },
+  "elements": [
+    {
+      "name": "carved wall backplate",
+      "from": [
+        4,
+        2,
+        14
+      ],
+      "to": [
+        12,
+        13,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            3,
+            12,
+            14
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            4,
+            3,
+            12,
+            14
+          ],
+          "texture": "#tile3",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            14,
+            3,
+            16,
+            14
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            0,
+            3,
+            2,
+            14
+          ],
+          "texture": "#tile3"
+        },
+        "up": {
+          "uv": [
+            4,
+            14,
+            12,
+            16
+          ],
+          "texture": "#tile3"
+        },
+        "down": {
+          "uv": [
+            4,
+            0,
+            12,
+            2
+          ],
+          "texture": "#tile3"
+        }
+      }
+    },
+    {
+      "name": "projecting stone corbel",
+      "from": [
+        3,
+        2,
+        7
+      ],
+      "to": [
+        13,
+        4,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            12,
+            13,
+            14
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            3,
+            12,
+            13,
+            14
+          ],
+          "texture": "#tile2"
+        },
+        "west": {
+          "uv": [
+            7,
+            12,
+            14,
+            14
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            2,
+            12,
+            9,
+            14
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            3,
+            7,
+            13,
+            14
+          ],
+          "texture": "#tile3"
+        },
+        "down": {
+          "uv": [
+            3,
+            2,
+            13,
+            9
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "central brass socket",
+      "from": [
+        6,
+        4,
+        8
+      ],
+      "to": [
+        10,
+        5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            11,
+            10,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "south": {
+          "uv": [
+            6,
+            11,
+            10,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "west": {
+          "uv": [
+            8,
+            11,
+            12,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "east": {
+          "uv": [
+            4,
+            11,
+            8,
+            12
+          ],
+          "texture": "#tile4"
+        }
+      }
+    },
+    {
+      "name": "central crystal body",
+      "from": [
+        6,
+        5,
+        8
+      ],
+      "to": [
+        10,
+        12,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            4,
+            10,
+            11
+          ],
+          "texture": "#tile15"
+        },
+        "south": {
+          "uv": [
+            6,
+            4,
+            10,
+            11
+          ],
+          "texture": "#tile15"
+        },
+        "west": {
+          "uv": [
+            8,
+            4,
+            12,
+            11
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            4,
+            4,
+            8,
+            11
+          ],
+          "texture": "#tile15"
+        },
+        "up": {
+          "uv": [
+            6,
+            8,
+            10,
+            12
+          ],
+          "texture": "#tile15"
+        }
+      }
+    },
+    {
+      "name": "central crystal termination",
+      "from": [
+        7,
+        12,
+        9
+      ],
+      "to": [
+        9,
+        15,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            1,
+            9,
+            4
+          ],
+          "texture": "#tile13"
+        },
+        "south": {
+          "uv": [
+            7,
+            1,
+            9,
+            4
+          ],
+          "texture": "#tile13"
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            11,
+            4
+          ],
+          "texture": "#tile13"
+        },
+        "east": {
+          "uv": [
+            5,
+            1,
+            7,
+            4
+          ],
+          "texture": "#tile13"
+        },
+        "up": {
+          "uv": [
+            7,
+            9,
+            9,
+            11
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "west brass socket",
+      "from": [
+        3,
+        4,
+        6
+      ],
+      "to": [
+        6,
+        5,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            11,
+            13,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "south": {
+          "uv": [
+            3,
+            11,
+            6,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "west": {
+          "uv": [
+            6,
+            11,
+            9,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "east": {
+          "uv": [
+            7,
+            11,
+            10,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            3,
+            7,
+            6,
+            10
+          ],
+          "texture": "#tile4"
+        }
+      }
+    },
+    {
+      "name": "west crystal body",
+      "from": [
+        3,
+        5,
+        6
+      ],
+      "to": [
+        6,
+        9,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            7,
+            13,
+            11
+          ],
+          "texture": "#tile15"
+        },
+        "south": {
+          "uv": [
+            3,
+            7,
+            6,
+            11
+          ],
+          "texture": "#tile15"
+        },
+        "west": {
+          "uv": [
+            6,
+            7,
+            9,
+            11
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            7,
+            7,
+            10,
+            11
+          ],
+          "texture": "#tile15"
+        },
+        "up": {
+          "uv": [
+            3,
+            6,
+            6,
+            9
+          ],
+          "texture": "#tile15"
+        }
+      }
+    },
+    {
+      "name": "west crystal termination",
+      "from": [
+        4,
+        9,
+        7
+      ],
+      "to": [
+        5,
+        11,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            5,
+            12,
+            7
+          ],
+          "texture": "#tile13"
+        },
+        "south": {
+          "uv": [
+            4,
+            5,
+            5,
+            7
+          ],
+          "texture": "#tile13"
+        },
+        "west": {
+          "uv": [
+            7,
+            5,
+            8,
+            7
+          ],
+          "texture": "#tile13"
+        },
+        "east": {
+          "uv": [
+            8,
+            5,
+            9,
+            7
+          ],
+          "texture": "#tile13"
+        },
+        "up": {
+          "uv": [
+            4,
+            7,
+            5,
+            8
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "east brass socket",
+      "from": [
+        10,
+        4,
+        10
+      ],
+      "to": [
+        13,
+        5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            11,
+            6,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "south": {
+          "uv": [
+            10,
+            11,
+            13,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "west": {
+          "uv": [
+            10,
+            11,
+            13,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "east": {
+          "uv": [
+            3,
+            11,
+            6,
+            12
+          ],
+          "texture": "#tile4"
+        }
+      }
+    },
+    {
+      "name": "east crystal body",
+      "from": [
+        10,
+        5,
+        10
+      ],
+      "to": [
+        13,
+        8,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            8,
+            6,
+            11
+          ],
+          "texture": "#tile15"
+        },
+        "south": {
+          "uv": [
+            10,
+            8,
+            13,
+            11
+          ],
+          "texture": "#tile15"
+        },
+        "west": {
+          "uv": [
+            10,
+            8,
+            13,
+            11
+          ],
+          "texture": "#tile15"
+        },
+        "east": {
+          "uv": [
+            3,
+            8,
+            6,
+            11
+          ],
+          "texture": "#tile15"
+        },
+        "up": {
+          "uv": [
+            10,
+            10,
+            13,
+            13
+          ],
+          "texture": "#tile15"
+        }
+      }
+    },
+    {
+      "name": "east crystal termination",
+      "from": [
+        11,
+        8,
+        11
+      ],
+      "to": [
+        12,
+        10,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            6,
+            5,
+            8
+          ],
+          "texture": "#tile13"
+        },
+        "south": {
+          "uv": [
+            11,
+            6,
+            12,
+            8
+          ],
+          "texture": "#tile13"
+        },
+        "west": {
+          "uv": [
+            11,
+            6,
+            12,
+            8
+          ],
+          "texture": "#tile13"
+        },
+        "east": {
+          "uv": [
+            4,
+            6,
+            5,
+            8
+          ],
+          "texture": "#tile13"
+        },
+        "up": {
+          "uv": [
+            11,
+            11,
+            12,
+            12
+          ],
+          "texture": "#tile13"
+        }
+      }
+    }
+  ]
+}
