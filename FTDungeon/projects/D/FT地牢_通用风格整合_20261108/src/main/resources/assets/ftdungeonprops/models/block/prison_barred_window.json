@@ -1,0 +1,592 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile3": "ftdungeonprops:block/lighting_03",
+    "tile2": "ftdungeonprops:block/lighting_02",
+    "tile0": "ftdungeonprops:block/lighting_00",
+    "tile1": "ftdungeonprops:block/lighting_01",
+    "particle": "ftdungeonprops:block/lighting_03"
+  },
+  "elements": [
+    {
+      "name": "stone sill block",
+      "from": [
+        0,
+        0,
+        13
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            13,
+            16,
+            16
+          ],
+          "texture": "#tile3"
+        },
+        "south": {
+          "uv": [
+            0,
+            13,
+            16,
+            16
+          ],
+          "texture": "#tile2",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            13,
+            13,
+            16,
+            16
+          ],
+          "texture": "#tile2",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            13,
+            3,
+            16
+          ],
+          "texture": "#tile2",
+          "cullface": "east"
+        },
+        "up": {
+          "uv": [
+            0,
+            13,
+            16,
+            16
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#tile2",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "stone lintel block",
+      "from": [
+        0,
+        13,
+        13
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#tile3"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#tile2",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            13,
+            0,
+            16,
+            3
+          ],
+          "texture": "#tile2",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3,
+            3
+          ],
+          "texture": "#tile2",
+          "cullface": "east"
+        },
+        "up": {
+          "uv": [
+            0,
+            13,
+            16,
+            16
+          ],
+          "texture": "#tile2",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            3
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "west stone jamb",
+      "from": [
+        0,
+        3,
+        13
+      ],
+      "to": [
+        3,
+        13,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            3,
+            16,
+            13
+          ],
+          "texture": "#tile3"
+        },
+        "south": {
+          "uv": [
+            0,
+            3,
+            3,
+            13
+          ],
+          "texture": "#tile2",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            13,
+            3,
+            16,
+            13
+          ],
+          "texture": "#tile2",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            3,
+            3,
+            13
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "east stone jamb",
+      "from": [
+        13,
+        3,
+        13
+      ],
+      "to": [
+        16,
+        13,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            3,
+            3,
+            13
+          ],
+          "texture": "#tile3"
+        },
+        "south": {
+          "uv": [
+            13,
+            3,
+            16,
+            13
+          ],
+          "texture": "#tile2",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            13,
+            3,
+            16,
+            13
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            0,
+            3,
+            3,
+            13
+          ],
+          "texture": "#tile2",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "name": "west forged window bar",
+      "from": [
+        4,
+        3,
+        14
+      ],
+      "to": [
+        5,
+        13,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            3,
+            12,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            4,
+            3,
+            5,
+            13
+          ],
+          "texture": "#tile0",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            14,
+            3,
+            16,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            0,
+            3,
+            2,
+            13
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "central forged window bar",
+      "from": [
+        7,
+        3,
+        14
+      ],
+      "to": [
+        8,
+        13,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            3,
+            9,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            7,
+            3,
+            8,
+            13
+          ],
+          "texture": "#tile0",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            14,
+            3,
+            16,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            0,
+            3,
+            2,
+            13
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "east forged window bar",
+      "from": [
+        10,
+        3,
+        14
+      ],
+      "to": [
+        11,
+        13,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            3,
+            6,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            10,
+            3,
+            11,
+            13
+          ],
+          "texture": "#tile0",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            14,
+            3,
+            16,
+            13
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            0,
+            3,
+            2,
+            13
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "front locking cross rail",
+      "from": [
+        3,
+        7,
+        13
+      ],
+      "to": [
+        13,
+        8,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            8,
+            13,
+            9
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            3,
+            8,
+            13,
+            9
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            3,
+            13,
+            13,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "down": {
+          "uv": [
+            3,
+            2,
+            13,
+            3
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "front stone key",
+      "from": [
+        7,
+        13,
+        12
+      ],
+      "to": [
+        9,
+        16,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            0,
+            9,
+            3
+          ],
+          "texture": "#tile3"
+        },
+        "west": {
+          "uv": [
+            12,
+            0,
+            13,
+            3
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            3,
+            0,
+            4,
+            3
+          ],
+          "texture": "#tile3"
+        },
+        "up": {
+          "uv": [
+            7,
+            12,
+            9,
+            13
+          ],
+          "texture": "#tile3",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            7,
+            3,
+            9,
+            4
+          ],
+          "texture": "#tile3"
+        }
+      }
+    },
+    {
+      "name": "projecting stone sill nose",
+      "from": [
+        1,
+        1,
+        11
+      ],
+      "to": [
+        15,
+        3,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            13,
+            15,
+            15
+          ],
+          "texture": "#tile3"
+        },
+        "west": {
+          "uv": [
+            11,
+            13,
+            13,
+            15
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            3,
+            13,
+            5,
+            15
+          ],
+          "texture": "#tile3"
+        },
+        "up": {
+          "uv": [
+            1,
+            11,
+            15,
+            13
+          ],
+          "texture": "#tile2"
+        },
+        "down": {
+          "uv": [
+            1,
+            3,
+            15,
+            5
+          ],
+          "texture": "#tile3"
+        }
+      }
+    }
+  ]
+}

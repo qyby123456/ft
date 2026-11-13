@@ -1,0 +1,819 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile10": "ftdungeonprops:block/lighting_10",
+    "tile1": "ftdungeonprops:block/lighting_01",
+    "tile0": "ftdungeonprops:block/lighting_00",
+    "tile4": "ftdungeonprops:block/lighting_04",
+    "tile7": "ftdungeonprops:block/lighting_07",
+    "tile12": "ftdungeonprops:block/lighting_12_off",
+    "particle": "ftdungeonprops:block/lighting_10"
+  },
+  "elements": [
+    {
+      "name": "wall service backplate",
+      "from": [
+        6,
+        4,
+        14
+      ],
+      "to": [
+        10,
+        15,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            1,
+            10,
+            12
+          ],
+          "texture": "#tile10"
+        },
+        "south": {
+          "uv": [
+            6,
+            1,
+            10,
+            12
+          ],
+          "texture": "#tile1",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            14,
+            1,
+            16,
+            12
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            0,
+            1,
+            2,
+            12
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            6,
+            14,
+            10,
+            16
+          ],
+          "texture": "#tile1"
+        },
+        "down": {
+          "uv": [
+            6,
+            0,
+            10,
+            2
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "forward cantilever",
+      "from": [
+        7,
+        13,
+        7
+      ],
+      "to": [
+        9,
+        15,
+        14
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            7,
+            1,
+            14,
+            3
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            2,
+            1,
+            9,
+            3
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            7,
+            7,
+            9,
+            14
+          ],
+          "texture": "#tile0"
+        },
+        "down": {
+          "uv": [
+            7,
+            2,
+            9,
+            9
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "pendant drop link",
+      "from": [
+        7,
+        11,
+        6
+      ],
+      "to": [
+        9,
+        15,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            1,
+            9,
+            5
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            7,
+            1,
+            9,
+            5
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            6,
+            1,
+            7,
+            5
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            10,
+            5
+          ],
+          "texture": "#tile0"
+        },
+        "up": {
+          "uv": [
+            7,
+            6,
+            9,
+            7
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "suspended lid",
+      "from": [
+        4,
+        10,
+        3
+      ],
+      "to": [
+        12,
+        11,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            5,
+            12,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            4,
+            5,
+            12,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            3,
+            5,
+            11,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            5,
+            5,
+            13,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            4,
+            3,
+            12,
+            11
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            4,
+            5,
+            12,
+            13
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "suspended tray",
+      "from": [
+        4,
+        2,
+        3
+      ],
+      "to": [
+        12,
+        4,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            12,
+            12,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            4,
+            12,
+            12,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            3,
+            12,
+            11,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            5,
+            12,
+            13,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            4,
+            3,
+            12,
+            11
+          ],
+          "texture": "#tile0"
+        },
+        "down": {
+          "uv": [
+            4,
+            5,
+            12,
+            13
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "front left upright",
+      "from": [
+        4,
+        4,
+        3
+      ],
+      "to": [
+        5,
+        10,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            6,
+            12,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            4,
+            6,
+            5,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            3,
+            6,
+            4,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            12,
+            6,
+            13,
+            12
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "front right upright",
+      "from": [
+        11,
+        4,
+        3
+      ],
+      "to": [
+        12,
+        10,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            6,
+            5,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            11,
+            6,
+            12,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            3,
+            6,
+            4,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            12,
+            6,
+            13,
+            12
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "rear left upright",
+      "from": [
+        4,
+        4,
+        10
+      ],
+      "to": [
+        5,
+        10,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            6,
+            12,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            4,
+            6,
+            5,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            10,
+            6,
+            11,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            5,
+            6,
+            6,
+            12
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "rear right upright",
+      "from": [
+        11,
+        4,
+        10
+      ],
+      "to": [
+        12,
+        10,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            6,
+            5,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            11,
+            6,
+            12,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            10,
+            6,
+            11,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            5,
+            6,
+            6,
+            12
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "front guard tooth",
+      "from": [
+        7,
+        4,
+        3
+      ],
+      "to": [
+        8,
+        10,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            6,
+            9,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            7,
+            6,
+            8,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            3,
+            6,
+            4,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            12,
+            6,
+            13,
+            12
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "brass oil cup",
+      "from": [
+        6,
+        4,
+        6
+      ],
+      "to": [
+        10,
+        5,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            11,
+            10,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "south": {
+          "uv": [
+            6,
+            11,
+            10,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "west": {
+          "uv": [
+            6,
+            11,
+            8,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "east": {
+          "uv": [
+            8,
+            11,
+            10,
+            12
+          ],
+          "texture": "#tile4"
+        },
+        "up": {
+          "uv": [
+            6,
+            6,
+            10,
+            8
+          ],
+          "texture": "#tile7"
+        }
+      }
+    },
+    {
+      "name": "amber burner",
+      "from": [
+        7,
+        5,
+        6
+      ],
+      "to": [
+        9,
+        9,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            7,
+            9,
+            11
+          ],
+          "texture": "#tile12"
+        },
+        "south": {
+          "uv": [
+            7,
+            7,
+            9,
+            11
+          ],
+          "texture": "#tile12"
+        },
+        "west": {
+          "uv": [
+            6,
+            7,
+            8,
+            11
+          ],
+          "texture": "#tile12"
+        },
+        "east": {
+          "uv": [
+            8,
+            7,
+            10,
+            11
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            7,
+            6,
+            9,
+            8
+          ],
+          "texture": "#tile12"
+        }
+      }
+    },
+    {
+      "name": "amber tip",
+      "from": [
+        7,
+        9,
+        6
+      ],
+      "to": [
+        8,
+        10,
+        7
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            6,
+            9,
+            7
+          ],
+          "texture": "#tile12"
+        },
+        "south": {
+          "uv": [
+            7,
+            6,
+            8,
+            7
+          ],
+          "texture": "#tile12"
+        },
+        "west": {
+          "uv": [
+            6,
+            6,
+            7,
+            7
+          ],
+          "texture": "#tile12"
+        },
+        "east": {
+          "uv": [
+            9,
+            6,
+            10,
+            7
+          ],
+          "texture": "#tile12"
+        }
+      }
+    },
+    {
+      "name": "lower pendant finial",
+      "from": [
+        7,
+        1,
+        6
+      ],
+      "to": [
+        9,
+        2,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            14,
+            9,
+            15
+          ],
+          "texture": "#tile4"
+        },
+        "south": {
+          "uv": [
+            7,
+            14,
+            9,
+            15
+          ],
+          "texture": "#tile4"
+        },
+        "west": {
+          "uv": [
+            6,
+            14,
+            8,
+            15
+          ],
+          "texture": "#tile4"
+        },
+        "east": {
+          "uv": [
+            8,
+            14,
+            10,
+            15
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "texture": "#tile4"
+        }
+      }
+    }
+  ]
+}
