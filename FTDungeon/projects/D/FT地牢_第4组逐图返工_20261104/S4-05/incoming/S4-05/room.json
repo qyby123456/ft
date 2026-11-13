@@ -1,0 +1,143 @@
+{
+  "id": "S4-05",
+  "name": "垂藤积水木框长廊",
+  "size": [
+    15,
+    14,
+    39
+  ],
+  "sha256": "0eae8fc3380e1b726a812f8b7f5a64951cc64da583940a629c3572663007a373",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S4-swamp-wetland\\out\\S4-05-corridor.png",
+  "reference_sha256": "77bf38950fd413165eddc9bb7e918f57478d246bd6e63c0eb24689ba6e62ee0a",
+  "previous_acceptance": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S4-04-R1-independent\\independent-details.json",
+  "previous_sha256": "a809502d03ce697502679a9134bb5920aa18bf6826c9b35926968da20cc871cc",
+  "entrance": [
+    7,
+    4,
+    0
+  ],
+  "interior": [
+    7,
+    4,
+    18
+  ],
+  "facing": "north",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "axes": {
+    "x": "east",
+    "y": "up",
+    "z": "south"
+  },
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        7,
+        4,
+        0
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    },
+    {
+      "facing": "south",
+      "position": [
+        7,
+        4,
+        38
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    }
+  ],
+  "route_waypoints": [
+    [
+      7,
+      4,
+      0
+    ],
+    [
+      7,
+      4,
+      38
+    ],
+    [
+      7,
+      4,
+      3
+    ],
+    [
+      8,
+      4,
+      6
+    ],
+    [
+      8,
+      4,
+      9
+    ],
+    [
+      7,
+      4,
+      12
+    ],
+    [
+      7,
+      4,
+      15
+    ],
+    [
+      8,
+      4,
+      18
+    ],
+    [
+      8,
+      4,
+      21
+    ],
+    [
+      7,
+      4,
+      24
+    ],
+    [
+      7,
+      4,
+      27
+    ],
+    [
+      8,
+      4,
+      30
+    ],
+    [
+      8,
+      4,
+      33
+    ],
+    [
+      7,
+      4,
+      36
+    ]
+  ],
+  "runtime_slot": null,
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "world_placement_ticks_gameplay": "NOT_RUN",
+  "integration": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "deviations": [
+    "15x14x39 estimated from image; image does not provide measured dimensions.",
+    "Roof retained across entire candidate; exterior view is intentionally opaque.",
+    "Two-block-wide gently offset waterlogged top-slab route is a dry accessibility approximation of reference submerged stepping stones; no full-width dry aisle.",
+    "Vanilla froglights with wood caps/brackets approximate framed warm lamps, no shader reflections or biome water tint.",
+    "Preview cutaway is an explicitly air-only derivative; never install it instead of candidate."
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "S4-03",
+  "name": "盘根水窟藏宝小室",
+  "size": [
+    21,
+    17,
+    21
+  ],
+  "sha256": "a0b37f5e493403716ed417c0c8e3cafebb7adc2d17ba31da085fb05643fd45a5",
+  "revision": 1,
+  "revision_reason": "Independent review: visible splayed root flares replacing square post silhouette; previous e10200d3 frozen under history.",
+  "entrance": [
+    6,
+    4,
+    0
+  ],
+  "interior": [
+    11,
+    5,
+    12
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        6,
+        4,
+        0
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    },
+    {
+      "facing": "east",
+      "position": [
+        20,
+        4,
+        14
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    }
+  ],
+  "route_waypoints": [
+    [
+      6,
+      4,
+      0
+    ],
+    [
+      20,
+      4,
+      14
+    ],
+    [
+      6,
+      4,
+      3
+    ],
+    [
+      17,
+      4,
+      14
+    ],
+    [
+      15,
+      4,
+      11
+    ],
+    [
+      12,
+      5,
+      11
+    ],
+    [
+      11,
+      5,
+      12
+    ],
+    [
+      5,
+      4,
+      9
+    ],
+    [
+      3,
+      4,
+      9
+    ],
+    [
+      15,
+      4,
+      17
+    ],
+    [
+      5,
+      4,
+      17
+    ],
+    [
+      13,
+      4,
+      3
+    ]
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "axes": {
+    "x": "east",
+    "y": "up",
+    "z": "south"
+  },
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S4-swamp-wetland\\out\\S4-03-small-room.png",
+  "reference_sha256": "ccbd8491fab9ea689ff4032691f434bf068ff306ddcea040be83ede649d5f6d0",
+  "previous_acceptance": "D:/ft工程文件/FT地牢_独立复核_20261104_01a1a685/S4-02-ACCEPTANCE.json",
+  "runtime_slot": null,
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "world_placement": "NOT_RUN",
+  "world_ticks_gameplay": "NOT_RUN",
+  "integration": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "deviations": [
+    "21x17x21 is an estimated grid from visible image blocks, not prompt nominal 9x9.",
+    "North opening maps to image left/back doorway; east opening maps to narrow right doorway.",
+    "One-block waterlogged top-slab walkways are added at basin edge and on one approach to chest island; fluid below connects, player stays dry.",
+    "No illustrated external swamp forest or shader fog is built; roots use vanilla logs and waterlogged mangrove_roots.",
+    "Chest is empty decorative storage, without LootTable, rewards or spawns.",
+    "Open-air ruin silhouette matches reference; no hidden roof or preview-only stripped shell."
+  ],
+  "assembly": "Single NBT; align feet Y4. Full-volume occupancy rejection required; sparse missing blocks are not terrain clearing."
+}

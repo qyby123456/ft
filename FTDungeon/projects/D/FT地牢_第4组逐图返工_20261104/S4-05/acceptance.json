@@ -1,0 +1,218 @@
+{
+  "group": 4,
+  "image": 5,
+  "status": "SELF_CHECK_PASS_PENDING_INDEPENDENT_ACCEPTANCE",
+  "recorded_at": "2026-11-05T12:48:17.414303+08:00",
+  "name": "垂藤积水木框长廊",
+  "size": [
+    15,
+    14,
+    39
+  ],
+  "sha256": "0eae8fc3380e1b726a812f8b7f5a64951cc64da583940a629c3572663007a373",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S4-swamp-wetland\\out\\S4-05-corridor.png",
+  "reference_sha256": "77bf38950fd413165eddc9bb7e918f57478d246bd6e63c0eb24689ba6e62ee0a",
+  "previous_independent_acceptance": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S4-04-R1-independent\\independent-details.json",
+  "accepted_earlier_images_unchanged": {
+    "S4-01": {
+      "sha256": "9fa8bca1a05e79bb9f2d9f954765ec146f2cc0d8ae56786aded36a5bcc33d106",
+      "manifest_entries_verified": 38
+    },
+    "S4-02": {
+      "sha256": "792049b30f24c683e67cd368bf55fab30bd353b3692e5730be72b4570728e889",
+      "manifest_entries_verified": 42
+    },
+    "S4-03": {
+      "sha256": "a0b37f5e493403716ed417c0c8e3cafebb7adc2d17ba31da085fb05643fd45a5",
+      "manifest_entries_verified": 41
+    },
+    "S4-04": {
+      "sha256": "a809502d03ce697502679a9134bb5920aa18bf6826c9b35926968da20cc871cc",
+      "manifest_entries_verified": 86
+    }
+  },
+  "geometry_authorship": "New image-specific enclosed longitudinal flooded corridor, five paired timber frames, ten wall-bracket lamps, full masonry ceiling, hanging cave vines and shallow offset stone route. Earlier geometry not copied; QA harnesses reused.",
+  "native_palette_template_and_entities": "PASS",
+  "ports_3x4x3_supported_clearance": "PASS",
+  "port_interfaces": [
+    {
+      "facing": "north",
+      "position": [
+        7,
+        4,
+        0
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    },
+    {
+      "facing": "south",
+      "position": [
+        7,
+        4,
+        38
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    }
+  ],
+  "body_route_targets": 14,
+  "body_route_0_6x1_8_half_grid": "PASS",
+  "reachable_half_grid_nodes": 455,
+  "neighbor_shape_and_fragile_survival": {
+    "status": "PASS",
+    "sha256": "0eae8fc3380e1b726a812f8b7f5a64951cc64da583940a629c3572663007a373",
+    "vines_checked": 86,
+    "total_neighbor_shape_positions": 200,
+    "scheduled_ticks_suppressed_not_executed": 456,
+    "vanilla_tags_bound": 170,
+    "tag_snapshot_sha256": "ed7dd587ed9eef0a7828dd362ab3a08b081f9b2bc32e7469a2e60da8fb15bc7d",
+    "lilies_canSurvive_checked": 28,
+    "pots_canSurvive_checked": 0,
+    "neighbor_directions_per_vine_per_pass": 6,
+    "passes_to_fixed_point": 1,
+    "changed_states": 0,
+    "failures": [],
+    "scope": "Vanilla 1.20.1 canSurvive and six-direction updateShape for wall/ceiling cave vines, waterlogged roots/slabs, fences, chain, lilies and pots using in-memory LevelAccessor. Scheduled fluid ticks are counted and suppressed, not executed. No world, random/fluid ticks, propagation scheduler, gameplay or deployment."
+  },
+  "water_roof_and_architectural_support": {
+    "status": "PASS",
+    "sha256": "0eae8fc3380e1b726a812f8b7f5a64951cc64da583940a629c3572663007a373",
+    "water_bottom_side_air_edges": 0,
+    "complete_three_layer_roof_columns": 585,
+    "architectural_solid_components": 1,
+    "supported_wall_lamps": 10,
+    "paired_timber_frames": 5,
+    "water_surface_columns": 301,
+    "interior_floor_columns": 407,
+    "water_dominant": true,
+    "scope": "Static enclosure and architectural connection; actual fluid/random ticks NOT_RUN."
+  },
+  "actual_full_nbt_interior_exterior_and_cutaway": {
+    "status": "PASS",
+    "sha256": "0eae8fc3380e1b726a812f8b7f5a64951cc64da583940a629c3572663007a373",
+    "renderer": "Actual NBT / Lodestone ThreeStructureRenderer / Edge WebGL; camera-only injection, no visual or geometry substitution.",
+    "views": [
+      {
+        "filename": "preview-exterior.png",
+        "camera": {
+          "center": [
+            7.5,
+            6,
+            19.5
+          ],
+          "distance": 43,
+          "pitch": 0.58,
+          "yaw": 0.82
+        },
+        "url": "http://127.0.0.1:5419/?name=S4-05%20FULL%20CANDIDATE%20-%20roof%20retained",
+        "sha256": "0eae8fc3380e1b726a812f8b7f5a64951cc64da583940a629c3572663007a373"
+      },
+      {
+        "filename": "preview-interior-south.png",
+        "camera": {
+          "center": [
+            7.5,
+            6,
+            17
+          ],
+          "distance": 18,
+          "pitch": 0.02,
+          "yaw": 0
+        },
+        "url": "http://127.0.0.1:5419/?name=S4-05%20FULL%20CANDIDATE%20-%20roof%20retained",
+        "sha256": "0eae8fc3380e1b726a812f8b7f5a64951cc64da583940a629c3572663007a373"
+      },
+      {
+        "filename": "preview-interior-north.png",
+        "camera": {
+          "center": [
+            7.5,
+            6,
+            21
+          ],
+          "distance": 18,
+          "pitch": 0.02,
+          "yaw": 3.141592653589793
+        },
+        "url": "http://127.0.0.1:5419/?name=S4-05%20FULL%20CANDIDATE%20-%20roof%20retained",
+        "sha256": "0eae8fc3380e1b726a812f8b7f5a64951cc64da583940a629c3572663007a373"
+      },
+      {
+        "filename": "preview-interior-night.png",
+        "camera": {
+          "center": [
+            7.5,
+            6,
+            17
+          ],
+          "distance": 18,
+          "pitch": 0.02,
+          "yaw": 0
+        },
+        "url": "http://127.0.0.1:5419/?name=S4-05%20FULL%20CANDIDATE%20-%20roof%20retained",
+        "sha256": "0eae8fc3380e1b726a812f8b7f5a64951cc64da583940a629c3572663007a373"
+      },
+      {
+        "filename": "preview-cutaway.png",
+        "camera": {
+          "center": [
+            7.5,
+            5,
+            19.5
+          ],
+          "distance": 40,
+          "pitch": 0.65,
+          "yaw": 0.82
+        },
+        "url": "http://127.0.0.1:5420/?name=S4-05%20PREVIEW%20ONLY%20-%20ROOF%2FWEST%20CUT%20TO%20AIR",
+        "sha256": "a2d48b14b3f78a8a1a36c4b4c89a58916524bc80609f465da5bfedbab7751d64"
+      }
+    ],
+    "errors": []
+  },
+  "cutaway_derivative_rules": {
+    "status": "PASS_AIR_ONLY_DERIVATIVE",
+    "candidate_sha256": "0eae8fc3380e1b726a812f8b7f5a64951cc64da583940a629c3572663007a373",
+    "derivative_sha256": "a2d48b14b3f78a8a1a36c4b4c89a58916524bc80609f465da5bfedbab7751d64",
+    "candidate": "D:\\ft工程文件\\FT地牢_第4组逐图返工_20261104\\S4-05\\incoming\\S4-05\\room.nbt",
+    "derivative": "D:\\ft工程文件\\FT地牢_第4组逐图返工_20261104\\S4-05\\preview-only\\roof-west-cutaway.nbt",
+    "rule": "At original coordinates replace non-air by air iff Y>=11 OR (X<=1 AND Y>=4); keep bounding box15x14x39, timber crossbeams/posts and all water/foundation layers belowY4.",
+    "removed_blocks": 2301,
+    "no_added_or_material_changed_blocks": true,
+    "deployment": "FORBIDDEN_PREVIEW_ONLY",
+    "scope": "Cut-only visibility aid; not an alternative candidate or survival-valid structure."
+  },
+  "repetition_screen": {
+    "compared_unique_nbt": 283,
+    "exact_geometry_duplicates": 0,
+    "highest_coarse_match": {
+      "path": "D:\\ft工程文件\\FT地牢_第二批_L3_L4_S3_制作_20261101\\out\\S3\\room.nbt",
+      "size": [
+        9,
+        5,
+        9
+      ],
+      "sha256": "71af3bfb24de9c56bb817b7c50ddc6cab97dfba2847dc536b829716d464b31cf",
+      "same_geometry_ignoring_material": false,
+      "interior_normalized_solid_jaccard_best_y_rotation": 0.8097
+    },
+    "scope": "Available local nature-group NBT snapshot only; normalized interior solid occupancy is a coarse signal, not proof of visual originality. No old file is used as a build input.",
+    "interpretation": "High coarse sealed-room occupancy similarity is not visual equivalence; independent image review still required."
+  },
+  "deviations": [
+    "15x14x39 estimated from image; image does not provide measured dimensions.",
+    "Roof retained across entire candidate; exterior view is intentionally opaque.",
+    "Two-block-wide gently offset waterlogged top-slab route is a dry accessibility approximation of reference submerged stepping stones; no full-width dry aisle.",
+    "Vanilla froglights with wood caps/brackets approximate framed warm lamps, no shader reflections or biome water tint.",
+    "Preview cutaway is an explicitly air-only derivative; never install it instead of candidate."
+  ],
+  "world_placement_ticks_gameplay": "NOT_RUN",
+  "integration": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "independent_acceptance": "PENDING",
+  "next_image_started": false,
+  "gate": "S4-06 and later NOT_AUTHORIZED; do not start or pre-generate."
+}

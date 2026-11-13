@@ -1,0 +1,146 @@
+{
+  "id": "S4-02",
+  "name": "浅水遗迹书房与发光石台",
+  "size": [
+    29,
+    18,
+    27
+  ],
+  "entrance": [
+    19,
+    4,
+    0
+  ],
+  "interior": [
+    12,
+    6,
+    14
+  ],
+  "facing": "north",
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        19,
+        4,
+        0
+      ],
+      "width": 5,
+      "height": 4,
+      "position_means": "feet center",
+      "floor_y": 3
+    },
+    {
+      "facing": "south",
+      "position": [
+        13,
+        4,
+        26
+      ],
+      "width": 5,
+      "height": 4,
+      "position_means": "feet center",
+      "floor_y": 3
+    }
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "axes": {
+    "x": "east",
+    "y": "up",
+    "z": "south"
+  },
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S4-swamp-wetland\\out\\S4-02-medium-room.png",
+  "reference_sha256": "9499135dedc8f68ec0b9ef50b2db1c02e0762c6124c2bef5f07144e1c6f23ad5",
+  "sha256": "792049b30f24c683e67cd368bf55fab30bd353b3692e5730be72b4570728e889",
+  "route_waypoints": [
+    [
+      19,
+      4,
+      0
+    ],
+    [
+      13,
+      4,
+      26
+    ],
+    [
+      19,
+      4,
+      4
+    ],
+    [
+      13,
+      4,
+      22
+    ],
+    [
+      7,
+      4,
+      9
+    ],
+    [
+      19,
+      4,
+      14
+    ],
+    [
+      12,
+      6,
+      14
+    ],
+    [
+      16,
+      6,
+      14
+    ],
+    [
+      4,
+      4,
+      8
+    ],
+    [
+      22,
+      4,
+      8
+    ],
+    [
+      7,
+      4,
+      18
+    ],
+    [
+      13,
+      4,
+      19
+    ],
+    [
+      4,
+      4,
+      10
+    ],
+    [
+      25,
+      4,
+      8
+    ]
+  ],
+  "runtime_slot": null,
+  "registration": "PENDING_COORDINATOR_ACCEPTANCE",
+  "world_placement": "NOT_RUN",
+  "gameplay": "NOT_RUN",
+  "revision": 1,
+  "deviations": [
+    "29x18x27 estimated from image block rhythm, not prompt nominal 15x15.",
+    "Open-air ruins with low south/east walls and tall north/west walls.",
+    "Single-block-wide waterlogged top-slab footpaths replace wide dry causeways; free water remains underneath. Two-block basin except beneath footpaths.",
+    "North grille is moved to doorway sides, leaving a supported 5x4 port, not a sealed gate.",
+    "Vanilla water/lighting cannot reproduce illustrated fog or green biome tint."
+  ],
+  "assembly": "Single NBT. Origin northwest bottom; no world placement performed.",
+  "sequential_authorization": "S4-01 revision1 ACCEPTED_FOR_SEQUENTIAL_PRODUCTION; only S4-02 authorized.",
+  "previous_acceptance": "D:/ft工程文件/FT地牢_独立复核_20261104_01a1a685/S4-01-revision1-independent-final/ACCEPTANCE.json"
+}

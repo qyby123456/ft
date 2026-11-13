@@ -1,0 +1,149 @@
+{
+  "id": "S4-06",
+  "name": "苔灯积水折角",
+  "size": [
+    25,
+    15,
+    25
+  ],
+  "sha256": "0c5f783f22bd6d7f4cf7fcf20a0ea43191839b13ece344108727f167d35cacc0",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S4-swamp-wetland\\out\\S4-06-corner.png",
+  "reference_sha256": "4f487bd7b2b38043d335ed961b8ebee9115e9540ae2305f223b251e1e20e7420",
+  "previous_acceptance": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S4-05-independent\\independent-details.json",
+  "previous_sha256": "0eae8fc3380e1b726a812f8b7f5a64951cc64da583940a629c3572663007a373",
+  "entrance": [
+    5,
+    4,
+    0
+  ],
+  "interior": [
+    5,
+    4,
+    19
+  ],
+  "facing": "north",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "axes": {
+    "x": "east",
+    "y": "up",
+    "z": "south"
+  },
+  "connections": [
+    {
+      "facing": "north",
+      "position": [
+        5,
+        4,
+        0
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    },
+    {
+      "facing": "east",
+      "position": [
+        24,
+        4,
+        19
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    }
+  ],
+  "route_waypoints": [
+    [
+      5,
+      4,
+      0
+    ],
+    [
+      5,
+      4,
+      3
+    ],
+    [
+      5,
+      4,
+      6
+    ],
+    [
+      5,
+      4,
+      9
+    ],
+    [
+      5,
+      4,
+      12
+    ],
+    [
+      5,
+      4,
+      15
+    ],
+    [
+      5,
+      4,
+      18
+    ],
+    [
+      5,
+      4,
+      19
+    ],
+    [
+      6,
+      4,
+      19
+    ],
+    [
+      9,
+      4,
+      19
+    ],
+    [
+      12,
+      4,
+      19
+    ],
+    [
+      15,
+      4,
+      19
+    ],
+    [
+      18,
+      4,
+      19
+    ],
+    [
+      21,
+      4,
+      19
+    ],
+    [
+      24,
+      4,
+      19
+    ]
+  ],
+  "runtime_slot": null,
+  "registration": "PENDING_INDEPENDENT_ACCEPTANCE",
+  "world_placement_ticks_gameplay": "NOT_RUN",
+  "integration": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "deviations": [
+    "25x15x25 estimated from image; not a measured blueprint.",
+    "Open outer L-shaped water channel wraps the southwest convex corner of a solid northeast ruin mass. Exits north/east are perpendicular; no opposite straight-through port.",
+    "Two-block-wide waterlogged top slabs approximate reference submerged stepping stones for offline dry-body accessibility; no complete dry floor.",
+    "Verdant froglights and grounded stone brackets approximate green-gold corner lamps; no shader reflection, mist or exterior forest.",
+    "Moss and rooted timber model the cropped ruin perimeter. External water/trees are omitted; whole-volume collision rejection required at later authorized import.",
+    "Candidate retains all designed walls and inner ruin cap; optional air-only cutaway is preview-only."
+  ]
+}

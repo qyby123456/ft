@@ -1,0 +1,105 @@
+{
+  "group": 4,
+  "image": 3,
+  "status": "SELF_CHECK_PASS_PENDING_INDEPENDENT_ACCEPTANCE",
+  "recorded_at": "2026-11-04T23:39:54.926622+08:00",
+  "name": "盘根水窟藏宝小室",
+  "size": [
+    21,
+    17,
+    21
+  ],
+  "sha256": "e10200d3e4e15cb2ced1f8b51f5581cb5215c73da3fac060e4ee18c99f57bf0f",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S4-swamp-wetland\\out\\S4-03-small-room.png",
+  "reference_sha256": "ccbd8491fab9ea689ff4032691f434bf068ff306ddcea040be83ede649d5f6d0",
+  "previous_independent_acceptance": "D:/ft工程文件/FT地牢_独立复核_20261104_01a1a685/S4-02-ACCEPTANCE.json",
+  "previous_candidate_unchanged": true,
+  "geometry_authorship": "New image-specific chest island, offset north/east portals, recessed shelves and roots; no prior room geometry read or copied. QA harness reuse only.",
+  "native_palette_template_and_chest_entity": "PASS",
+  "empty_chests": 1,
+  "port_interfaces": [
+    {
+      "facing": "north",
+      "position": [
+        6,
+        4,
+        0
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    },
+    {
+      "facing": "east",
+      "position": [
+        20,
+        4,
+        14
+      ],
+      "width": 3,
+      "height": 4,
+      "inward_depth": 3
+    }
+  ],
+  "ports_3x4x3_supported_clearance": "PASS",
+  "body_route_targets": 12,
+  "body_route_0_6x1_8_half_grid": "PASS",
+  "reachable_half_grid_nodes": 512,
+  "neighbor_shape_and_fragile_survival": {
+    "status": "PASS",
+    "sha256": "e10200d3e4e15cb2ced1f8b51f5581cb5215c73da3fac060e4ee18c99f57bf0f",
+    "vines_checked": 68,
+    "total_neighbor_shape_positions": 154,
+    "scheduled_ticks_suppressed_not_executed": 402,
+    "vanilla_tags_bound": 170,
+    "tag_snapshot_sha256": "ed7dd587ed9eef0a7828dd362ab3a08b081f9b2bc32e7469a2e60da8fb15bc7d",
+    "lilies_canSurvive_checked": 6,
+    "pots_canSurvive_checked": 3,
+    "neighbor_directions_per_vine_per_pass": 6,
+    "passes_to_fixed_point": 1,
+    "changed_states": 0,
+    "failures": [],
+    "scope": "Vanilla 1.20.1 canSurvive and six-direction updateShape for vines, waterlogged roots/slabs, fences, chain, lilies and pots using in-memory LevelAccessor. Scheduled fluid ticks are counted and suppressed, not executed. No world, random/fluid ticks, propagation scheduler, gameplay or deployment."
+  },
+  "water_and_support_boundary": {
+    "status": "PASS",
+    "sha256": "e10200d3e4e15cb2ced1f8b51f5581cb5215c73da3fac060e4ee18c99f57bf0f",
+    "water_bottom_side_air_edges": 0,
+    "fluid_components_including_waterlogged": [
+      384
+    ],
+    "exposed_water_columns": 133,
+    "basin_columns": 225,
+    "lily_lamp_chain_support": "PASS",
+    "empty_chests": 1,
+    "size": [
+      21,
+      17,
+      21
+    ],
+    "scope": "Static water adjacency and supports; random/fluid ticks NOT_RUN."
+  },
+  "actual_nbt_lodestone_three_views": "PASS",
+  "repetition_screen": {
+    "compared_unique_nbt": 165,
+    "exact_geometry_duplicates": 0,
+    "highest_coarse_match": {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S6-redo-single-20261104-01\\02-medium-room\\lodestone\\inspection-cutaway.nbt",
+      "size": [
+        25,
+        15,
+        25
+      ],
+      "sha256": "fe1493b1a7b9cc6fca861db4655f17b19a9a565ca4cfdb30bb0d12ef7686adc3",
+      "same_geometry_ignoring_material": false,
+      "interior_normalized_solid_jaccard_best_y_rotation": 0.3892
+    },
+    "scope": "Available local nature-group NBT snapshot only; normalized interior solid occupancy is a coarse signal, not proof of visual originality. No old file is used as a build input."
+  },
+  "world_placement_ticks_gameplay": "NOT_RUN",
+  "integration": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "independent_acceptance": "PENDING",
+  "next_image_started": false,
+  "gate": "S4-04 and later NOT_AUTHORIZED; do not start or pre-generate."
+}
