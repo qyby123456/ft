@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "format_version": "4.5",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "dungeon_block",
+  "model_identifier": "dungeon_block",
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "resolution": { "width": 16, "height": 16 },
+  "elements": [
+    {
+      "name": "dungeon_body",
+      "uuid": "3f2a1c4e-8b6d-4a2f-9c1e-7d5b0a9f2c31",
+      "type": "cube",
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "origin": [8, 8, 8],
+      "rotation": [0, 0, 0],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "east":  { "uv": [0, 0, 16, 16], "texture": 0 },
+        "south": { "uv": [0, 0, 16, 16], "texture": 0 },
+        "west":  { "uv": [0, 0, 16, 16], "texture": 0 },
+        "up":    { "uv": [0, 0, 16, 16], "texture": 1 },
+        "down":  { "uv": [0, 0, 16, 16], "texture": 2 }
+      }
+    }
+  ],
+  "outliner": [
+    {
+      "name": "dungeon_block",
+      "uuid": "b71d90c2-45ea-4f18-a3d6-2c8e0f7b19d4",
+      "origin": [0, 0, 0],
+      "children": ["3f2a1c4e-8b6d-4a2f-9c1e-7d5b0a9f2c31"]
+    }
+  ],
+  "textures": []
+}
