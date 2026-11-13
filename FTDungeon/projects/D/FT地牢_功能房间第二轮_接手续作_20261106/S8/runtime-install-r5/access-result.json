@@ -1,0 +1,84 @@
+{
+  "access": [
+    {
+      "after": [
+        1030.5,
+        132.0,
+        1079.5
+      ],
+      "supported_floor": true,
+      "operator_permission_2": true,
+      "source_is_player": true,
+      "body_collision_free": true,
+      "before": [
+        1000.5,
+        129.0,
+        1000.5
+      ],
+      "destination_correct": true,
+      "function": "s8_admin:enter",
+      "command_result": 1
+    },
+    {
+      "after": [
+        1000.5,
+        129.0,
+        1000.5
+      ],
+      "supported_floor": true,
+      "operator_permission_2": true,
+      "source_is_player": true,
+      "body_collision_free": true,
+      "before": [
+        1030.5,
+        132.0,
+        1079.5
+      ],
+      "destination_correct": true,
+      "function": "s8_admin:return",
+      "command_result": 1
+    },
+    {
+      "guest_has_permission_2": false,
+      "supported_floor": true,
+      "after": [
+        1030.5,
+        132.0,
+        1079.5
+      ],
+      "mode": "Administrator command executed as non-OP guest",
+      "body_collision_free": true,
+      "before": [
+        1000.5,
+        129.0,
+        1000.5
+      ],
+      "destination_correct": true,
+      "function": "s8_admin:enter",
+      "command_result": 1
+    },
+    {
+      "guest_has_permission_2": false,
+      "supported_floor": true,
+      "after": [
+        1000.5,
+        129.0,
+        1000.5
+      ],
+      "mode": "Administrator command executed as non-OP guest",
+      "body_collision_free": true,
+      "before": [
+        1030.5,
+        132.0,
+        1079.5
+      ],
+      "destination_correct": true,
+      "function": "s8_admin:return",
+      "command_result": 1
+    }
+  ],
+  "scope": "Administrator hosted functions executed with actual vanilla ServerPlayer command source and real ServerGamePacketListenerImpl on an unconnected test transport; no network client, human input or multiplayer system claim",
+  "player_class": "net.minecraft.server.level.ServerPlayer",
+  "barriers_after": 90282,
+  "barriers_before": 90282
+}

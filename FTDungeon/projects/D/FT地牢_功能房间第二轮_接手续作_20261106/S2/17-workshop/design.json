@@ -1,0 +1,132 @@
+{
+  "id": "S2-17",
+  "nbt": "s2-17-workshop.nbt",
+  "size": [
+    25,
+    13,
+    25
+  ],
+  "reference_observed": "左后烟囱炉、后墙工具案台、右后材料架与砂轮、中央有未完成框架的工台、铁砧、双侧出口。",
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        7
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        24,
+        2,
+        7
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "east-exit",
+      "position": [
+        24,
+        2,
+        7
+      ]
+    },
+    {
+      "label": "furnace",
+      "position": [
+        5,
+        2,
+        6
+      ]
+    },
+    {
+      "label": "back-workbench",
+      "position": [
+        13,
+        2,
+        6
+      ]
+    },
+    {
+      "label": "grindstone",
+      "position": [
+        20,
+        2,
+        8
+      ]
+    },
+    {
+      "label": "central-project",
+      "position": [
+        13,
+        2,
+        16
+      ]
+    }
+  ],
+  "differences": [
+    "熔炉为空且熄灭，邻近菌光体只表达暖光，无火焰或熔岩。",
+    "砂轮用原版grindstone，中央框架是静态木构，不虚构加工过程。",
+    "工具材料使用原版工作方块和矿料方块，无掉落工具实体。",
+    "恢复完整墙顶，烟囱止于顶，不形成未封闭穿洞。",
+    "R2中央桌改四根木腿，移除实心侧台结构；木框通透，增加切石机与花盆工具意象近景。"
+  ],
+  "views": [
+    {
+      "id": "preview-full",
+      "position": [
+        -28,
+        37,
+        48
+      ],
+      "target": [
+        12,
+        4,
+        12
+      ],
+      "fov": 43
+    },
+    {
+      "id": "preview-cutaway",
+      "position": [
+        -27,
+        34,
+        47
+      ],
+      "target": [
+        12,
+        4,
+        12
+      ],
+      "cutaway": true,
+      "cutY": 11,
+      "fov": 43
+    },
+    {
+      "id": "preview-interior",
+      "position": [
+        12.5,
+        6.62,
+        21.5
+      ],
+      "target": [
+        13,
+        5,
+        3
+      ],
+      "fov": 90
+    }
+  ],
+  "revision": "R2 preliminary visual REQUEST_CHANGES remediation; previous evidence in archive-preliminary-v1",
+  "architectural_remediation": [
+    "内侧立体门柱、柱脚柱头、倒置楼梯拱券、半砖分层檐口",
+    "地面周边橙色边框与中央菱形纹样，原尺寸家具与路线目标保留"
+  ]
+}

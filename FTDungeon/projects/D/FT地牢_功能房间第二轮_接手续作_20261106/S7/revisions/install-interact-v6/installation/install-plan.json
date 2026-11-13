@@ -1,0 +1,163 @@
+{
+  "dimension": "minecraft:overworld",
+  "anchor": [
+    10000,
+    80,
+    10000
+  ],
+  "rotation": "none",
+  "mirror": "none",
+  "size": [
+    326,
+    40,
+    151
+  ],
+  "whole_clear_volume": 1969040,
+  "clear_commands": 110,
+  "part_count": 15,
+  "part_envelope_volume": 1324800,
+  "candidate_sha256": "906e63eea067ab01c4f0df2619102dd17a446b7c6858c732f4f03a6f3582de22",
+  "barriers": "All 60115 retained; travel across enclosure by gated teleport, no barrier holes",
+  "outside_pad": {
+    "feet": [
+      9992.5,
+      85,
+      10028.5
+    ],
+    "floor_from": [
+      9990,
+      84,
+      10026
+    ],
+    "floor_to": [
+      9994,
+      84,
+      10030
+    ],
+    "air_from": [
+      9990,
+      85,
+      10026
+    ],
+    "air_to": [
+      9994,
+      88,
+      10030
+    ]
+  },
+  "inside_feet": [
+    10014.5,
+    85,
+    10028.5
+  ],
+  "permissions": "Only operator function install. Player triggers enabled only within radius 1.5 of designated pads; scoring elsewhere reset without teleport. Generic function enter/return requires operator command privileges. No automatic load install.",
+  "installation_safety": "Fixed anchor; operator must reserve complete 326x40x151 box plus outside pad. Full air clear deletes all blocks/BEs there; no entity cleanup. New empty reserved area required to avoid existing entities. installed storage prevents repeated execution. This is a new offline package, not production permission.",
+  "deployment": "EXECUTED_IN_ISOLATED_FORGE_GAMETEST_ONLY; NOT_DEPLOYED_TO_PRODUCTION",
+  "files": [
+    {
+      "path": "data\\fts7\\functions\\enter.mcfunction",
+      "sha256": "6636d41106eaef207f71e5391f7170e7b70e7797a7d44dbabb11bba6faa320a3"
+    },
+    {
+      "path": "data\\fts7\\functions\\install.mcfunction",
+      "sha256": "0dac31f97a3b0f4e8a07b408ebb4d80f4b79163cc390c182b8d5a51ca064173c"
+    },
+    {
+      "path": "data\\fts7\\functions\\install_once.mcfunction",
+      "sha256": "7da67d9cf61380b6171ee985c509c691e68961e6e988d08f68a32ef5a43fbdf3"
+    },
+    {
+      "path": "data\\fts7\\functions\\load.mcfunction",
+      "sha256": "7995012ba3b61bc7c9954d6e559f6768b2486e0b6aeb55e58c145948ee16bd91"
+    },
+    {
+      "path": "data\\fts7\\functions\\return.mcfunction",
+      "sha256": "4b59ee5da5d2d1bc07ddc1e70a846f912be5e6b2d2d8e77788e70e315cd2e4f1"
+    },
+    {
+      "path": "data\\fts7\\functions\\tick.mcfunction",
+      "sha256": "ce63b26b5d48e864fad5e33a8d24cf9a37173b51a2dd33788df29caad5b209c1"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_00.nbt",
+      "sha256": "f58119cd5e554b9c5d97df64fe4be816f12f91b090706f4daa52a3f1b9f14687"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_01.nbt",
+      "sha256": "06e0bc127a6e2489f7a991f52bc991f6ef22ed86a819eacdadd95d9826b92111"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_02.nbt",
+      "sha256": "bc01e3ef59cfd0d4af12d3b2e2291770a120f2a8b47055d6e7ee315a60561cec"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_03.nbt",
+      "sha256": "f601247473d9b516dcfaa5f31c004a3b0e1f0bd6f8caaec3ed0a29c49c4755e8"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_04.nbt",
+      "sha256": "cc78a442095bdec30e86a33cb1aa71319e342b82240b3dc227b3a028b6812017"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_05.nbt",
+      "sha256": "84bdb14b62b73385e08c408337c53ec2b145835fef68e4cc619537f38825eabd"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_06.nbt",
+      "sha256": "e1bfe7fd0d636a9295b7153c626142a189cc5461be8f50278427a76123b8a612"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_07.nbt",
+      "sha256": "1aa47b1a68198182dbaf44ff62baefe4698e20f6874a64c4da456b69b30f9c6c"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_08.nbt",
+      "sha256": "fe40a383251d96f32a0a33427effc15c6d7a89cf39a93276e1b059df4f8159be"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_09.nbt",
+      "sha256": "f6486b84c29561e3d108d544508ac6f88409e4b490e2368634e4055af5c31d15"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_10.nbt",
+      "sha256": "7e4ef83b0a8147547df7552fefd82a1062acc68a3b85259a26909fa907cb4b93"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_11.nbt",
+      "sha256": "bc2ed22d49432b67bb520e192cd9dac98796cec12a761c7592534a53844ec8fa"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_12.nbt",
+      "sha256": "da0dc05eb7ab87cff8304bb2d780da7cb46571bd4d893ae2e922c602a96a1b82"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_13.nbt",
+      "sha256": "2f3022a1c95ca9fd8c29905b7bbd5c7cc97bb94f4312fac96ffb53159180e292"
+    },
+    {
+      "path": "data\\fts7\\structures\\part_14.nbt",
+      "sha256": "9de38722160ec7cc17e3abca418dc966a0c38fcb505300a4ca79069e0215bc4c"
+    },
+    {
+      "path": "data\\minecraft\\tags\\functions\\load.json",
+      "sha256": "7207f69027cb93ddf2ea2e521cc798e28c72a7a9c740b824d9f8f6aedb94b876"
+    },
+    {
+      "path": "data\\minecraft\\tags\\functions\\tick.json",
+      "sha256": "51aac07fc6215a6bba698b37e6b8938bc15a63b1914b70917d96c4ca2869b2ca"
+    },
+    {
+      "path": "pack.mcmeta",
+      "sha256": "de5ee2ea508fbe49fea39e4c52e1776e1863ef0d03941ca5bbc6e67fdaf7a0e8"
+    }
+  ],
+  "execution_report": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\install-interact-v6\\worldqa-proof\\installation-report.json",
+  "tests": {
+    "full_volume_native_type_comparison": 1969040,
+    "barrier_count": 60115,
+    "entry_and_return_permission_zero": true,
+    "remote_trigger_blocked": true,
+    "reinstall_did_not_duplicate_armor_stands": true,
+    "network_scope": "Vanilla ServerGamePacketListenerImpl with Netty EmbeddedChannel replaces FakePlayer no-op teleport handler only for command test. Real server command teleport changes position; no TCP/client receive/ack test. Reflectively register test FakePlayer in private players list for @a selector; no production use."
+  }
+}

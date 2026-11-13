@@ -1,0 +1,438 @@
+{
+  "controls_installed_by_exact_function": true,
+  "missing": [],
+  "commands": [
+    {
+      "result": 176,
+      "command": "forceload add -16 0 206 216"
+    },
+    {
+      "result": 217,
+      "command": "execute in minecraft:overworld run function fts3:install"
+    },
+    {
+      "result": 1,
+      "command": "execute as S3AdminQA in minecraft:overworld run function fts3:enter"
+    },
+    {
+      "result": 1,
+      "command": "execute as S3AdminQA at @s in minecraft:overworld run function fts3:exit"
+    },
+    {
+      "result": 1,
+      "command": "execute as S3AdminQA at @s in minecraft:overworld run function fts3:exit"
+    },
+    {
+      "result": 6,
+      "command": "execute in minecraft:overworld run function fts3:optional-door-controls"
+    }
+  ],
+  "original_doors": [
+    {
+      "position": [
+        75,
+        3,
+        39
+      ],
+      "state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "position": [
+        75,
+        3,
+        45
+      ],
+      "state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "position": [
+        75,
+        3,
+        50
+      ],
+      "state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "position": [
+        83,
+        3,
+        39
+      ],
+      "state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "position": [
+        83,
+        3,
+        45
+      ],
+      "state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "position": [
+        83,
+        3,
+        50
+      ],
+      "state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    }
+  ],
+  "scope": "Separate optional layer: actual function install and real eye first-hit use; actor repositioned between independent lever trials, not natural whole-map traversal. Original candidate remains unchanged.",
+  "source_sha256": "933a5f44ccc2c84d00b7ec321080068e99989403de35e7ad7aa3e09bc9a569b7",
+  "results": [
+    {
+      "lever": [
+        74,
+        3,
+        39
+      ],
+      "passed": true,
+      "attempts": [
+        {
+          "expected_control_state": true,
+          "use_result": "CONSUME",
+          "first_hit": [
+            74,
+            103,
+            39
+          ],
+          "reach": 1.2450000047683716,
+          "eye": [
+            74.5,
+            104.62000000476837,
+            39.5
+          ],
+          "door_state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dtrue]",
+          "feet": [
+            74.5,
+            103.0,
+            39.5
+          ],
+          "first_hit_target": true
+        },
+        {
+          "expected_control_state": true,
+          "use_result": "CONSUME",
+          "first_hit": [
+            74,
+            103,
+            39
+          ],
+          "reach": 1.2450000047683716,
+          "eye": [
+            74.5,
+            104.62000000476837,
+            39.5
+          ],
+          "door_state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+          "feet": [
+            74.5,
+            103.0,
+            39.5
+          ],
+          "first_hit_target": true
+        }
+      ],
+      "door": [
+        75,
+        3,
+        39
+      ]
+    },
+    {
+      "lever": [
+        74,
+        3,
+        45
+      ],
+      "passed": true,
+      "attempts": [
+        {
+          "expected_control_state": true,
+          "use_result": "CONSUME",
+          "first_hit": [
+            74,
+            103,
+            45
+          ],
+          "reach": 1.2450000047683716,
+          "eye": [
+            74.5,
+            104.62000000476837,
+            45.5
+          ],
+          "door_state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dtrue]",
+          "feet": [
+            74.5,
+            103.0,
+            45.5
+          ],
+          "first_hit_target": true
+        },
+        {
+          "expected_control_state": true,
+          "use_result": "CONSUME",
+          "first_hit": [
+            74,
+            103,
+            45
+          ],
+          "reach": 1.2450000047683716,
+          "eye": [
+            74.5,
+            104.62000000476837,
+            45.5
+          ],
+          "door_state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+          "feet": [
+            74.5,
+            103.0,
+            45.5
+          ],
+          "first_hit_target": true
+        }
+      ],
+      "door": [
+        75,
+        3,
+        45
+      ]
+    },
+    {
+      "lever": [
+        74,
+        3,
+        50
+      ],
+      "passed": true,
+      "attempts": [
+        {
+          "expected_control_state": true,
+          "use_result": "CONSUME",
+          "first_hit": [
+            74,
+            103,
+            50
+          ],
+          "reach": 1.2450000047683716,
+          "eye": [
+            74.5,
+            104.62000000476837,
+            50.5
+          ],
+          "door_state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dtrue]",
+          "feet": [
+            74.5,
+            103.0,
+            50.5
+          ],
+          "first_hit_target": true
+        },
+        {
+          "expected_control_state": true,
+          "use_result": "CONSUME",
+          "first_hit": [
+            74,
+            103,
+            50
+          ],
+          "reach": 1.2450000047683716,
+          "eye": [
+            74.5,
+            104.62000000476837,
+            50.5
+          ],
+          "door_state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+          "feet": [
+            74.5,
+            103.0,
+            50.5
+          ],
+          "first_hit_target": true
+        }
+      ],
+      "door": [
+        75,
+        3,
+        50
+      ]
+    },
+    {
+      "lever": [
+        82,
+        3,
+        39
+      ],
+      "passed": true,
+      "attempts": [
+        {
+          "expected_control_state": true,
+          "use_result": "CONSUME",
+          "first_hit": [
+            82,
+            103,
+            39
+          ],
+          "reach": 1.2450000047683716,
+          "eye": [
+            82.5,
+            104.62000000476837,
+            39.5
+          ],
+          "door_state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dtrue]",
+          "feet": [
+            82.5,
+            103.0,
+            39.5
+          ],
+          "first_hit_target": true
+        },
+        {
+          "expected_control_state": true,
+          "use_result": "CONSUME",
+          "first_hit": [
+            82,
+            103,
+            39
+          ],
+          "reach": 1.2450000047683716,
+          "eye": [
+            82.5,
+            104.62000000476837,
+            39.5
+          ],
+          "door_state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+          "feet": [
+            82.5,
+            103.0,
+            39.5
+          ],
+          "first_hit_target": true
+        }
+      ],
+      "door": [
+        83,
+        3,
+        39
+      ]
+    },
+    {
+      "lever": [
+        82,
+        3,
+        45
+      ],
+      "passed": true,
+      "attempts": [
+        {
+          "expected_control_state": true,
+          "use_result": "CONSUME",
+          "first_hit": [
+            82,
+            103,
+            45
+          ],
+          "reach": 1.2450000047683716,
+          "eye": [
+            82.5,
+            104.62000000476837,
+            45.5
+          ],
+          "door_state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dtrue]",
+          "feet": [
+            82.5,
+            103.0,
+            45.5
+          ],
+          "first_hit_target": true
+        },
+        {
+          "expected_control_state": true,
+          "use_result": "CONSUME",
+          "first_hit": [
+            82,
+            103,
+            45
+          ],
+          "reach": 1.2450000047683716,
+          "eye": [
+            82.5,
+            104.62000000476837,
+            45.5
+          ],
+          "door_state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+          "feet": [
+            82.5,
+            103.0,
+            45.5
+          ],
+          "first_hit_target": true
+        }
+      ],
+      "door": [
+        83,
+        3,
+        45
+      ]
+    },
+    {
+      "lever": [
+        82,
+        3,
+        50
+      ],
+      "passed": true,
+      "attempts": [
+        {
+          "expected_control_state": true,
+          "use_result": "CONSUME",
+          "first_hit": [
+            82,
+            103,
+            50
+          ],
+          "reach": 1.2450000047683716,
+          "eye": [
+            82.5,
+            104.62000000476837,
+            50.5
+          ],
+          "door_state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dtrue]",
+          "feet": [
+            82.5,
+            103.0,
+            50.5
+          ],
+          "first_hit_target": true
+        },
+        {
+          "expected_control_state": true,
+          "use_result": "CONSUME",
+          "first_hit": [
+            82,
+            103,
+            50
+          ],
+          "reach": 1.2450000047683716,
+          "eye": [
+            82.5,
+            104.62000000476837,
+            50.5
+          ],
+          "door_state": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+          "feet": [
+            82.5,
+            103.0,
+            50.5
+          ],
+          "first_hit_target": true
+        }
+      ],
+      "door": [
+        83,
+        3,
+        50
+      ]
+    }
+  ]
+}

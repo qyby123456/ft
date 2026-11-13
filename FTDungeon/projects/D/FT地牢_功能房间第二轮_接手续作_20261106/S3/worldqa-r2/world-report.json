@@ -1,0 +1,1506 @@
+{
+  "randomTickSpeed": 3,
+  "candidates": [
+    {
+      "id": "s3-11",
+      "source_sha256": "d0dfb6e6d2d1d95dec5ae3c20ad170efcadf0713c019d7defa0fa0334c54209f",
+      "origin": [
+        512,
+        100,
+        512
+      ],
+      "size": [
+        31,
+        15,
+        27
+      ],
+      "cleared_volume": 12555,
+      "elapsed_ticks": 1200,
+      "state_changes": [],
+      "support_failures": [],
+      "dropped_items": [],
+      "doors_before_interaction": [],
+      "locks": [
+        {
+          "correct_key_opened_menu": true,
+          "empty_hand_denied": true,
+          "wrong_name_denied": true,
+          "position": [
+            26,
+            3,
+            4
+          ],
+          "key": "Frost archive key"
+        }
+      ],
+      "walk": {
+        "failures": 0,
+        "targets": [
+          {
+            "label": "east exit",
+            "reachable": true,
+            "moves": 128,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "back shelves",
+            "reachable": true,
+            "moves": 104,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "reading aisle",
+            "reachable": true,
+            "moves": 60,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "cabinet",
+            "reachable": true,
+            "moves": 128,
+            "error": "",
+            "collision_move_roundtrip": true
+          }
+        ],
+        "visited_nodes": 1712,
+        "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+      }
+    },
+    {
+      "id": "s3-12",
+      "source_sha256": "bd00fb6e0d97e4a90f7ccd31e73c0b04d2721d51b045951a4ca72e74259e2b87",
+      "origin": [
+        624,
+        100,
+        512
+      ],
+      "size": [
+        29,
+        13,
+        33
+      ],
+      "cleared_volume": 12441,
+      "elapsed_ticks": 1200,
+      "state_changes": [
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            10,
+            2,
+            16
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            10,
+            2,
+            22
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            10,
+            2,
+            27
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            10,
+            3,
+            16
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            10,
+            3,
+            22
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            10,
+            3,
+            27
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            18,
+            2,
+            16
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            18,
+            2,
+            22
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            18,
+            2,
+            27
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            18,
+            3,
+            16
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            18,
+            3,
+            22
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            18,
+            3,
+            27
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        }
+      ],
+      "support_failures": [],
+      "dropped_items": [],
+      "doors_before_interaction": [
+        {
+          "open": true,
+          "position": [
+            10,
+            2,
+            17
+          ],
+          "powered": false
+        },
+        {
+          "open": true,
+          "position": [
+            10,
+            2,
+            23
+          ],
+          "powered": false
+        },
+        {
+          "open": true,
+          "position": [
+            10,
+            2,
+            28
+          ],
+          "powered": false
+        },
+        {
+          "open": true,
+          "position": [
+            18,
+            2,
+            17
+          ],
+          "powered": false
+        },
+        {
+          "open": true,
+          "position": [
+            18,
+            2,
+            23
+          ],
+          "powered": false
+        },
+        {
+          "open": true,
+          "position": [
+            18,
+            2,
+            28
+          ],
+          "powered": false
+        }
+      ],
+      "locks": [],
+      "walk": {
+        "failures": 0,
+        "targets": [
+          {
+            "label": "east exit",
+            "reachable": true,
+            "moves": 112,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "patrol end",
+            "reachable": true,
+            "moves": 132,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "guard desk",
+            "reachable": true,
+            "moves": 108,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "left cell",
+            "reachable": true,
+            "moves": 76,
+            "error": "",
+            "collision_move_roundtrip": true
+          }
+        ],
+        "visited_nodes": 2082,
+        "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+      },
+      "door_control": [
+        {
+          "lever_use_powered_open": true,
+          "restored_open": true,
+          "candidate_has_installed_control": false,
+          "lever_use_unpowered_closed": true,
+          "door": [
+            10,
+            2,
+            17
+          ],
+          "temporary_lever": [
+            9,
+            2,
+            17
+          ]
+        },
+        {
+          "lever_use_powered_open": true,
+          "restored_open": true,
+          "candidate_has_installed_control": false,
+          "lever_use_unpowered_closed": true,
+          "door": [
+            10,
+            2,
+            23
+          ],
+          "temporary_lever": [
+            9,
+            2,
+            23
+          ]
+        },
+        {
+          "lever_use_powered_open": true,
+          "restored_open": true,
+          "candidate_has_installed_control": false,
+          "lever_use_unpowered_closed": true,
+          "door": [
+            10,
+            2,
+            28
+          ],
+          "temporary_lever": [
+            9,
+            2,
+            28
+          ]
+        },
+        {
+          "lever_use_powered_open": true,
+          "restored_open": true,
+          "candidate_has_installed_control": false,
+          "lever_use_unpowered_closed": true,
+          "door": [
+            18,
+            2,
+            17
+          ],
+          "temporary_lever": [
+            17,
+            2,
+            17
+          ]
+        },
+        {
+          "lever_use_powered_open": true,
+          "restored_open": true,
+          "candidate_has_installed_control": false,
+          "lever_use_unpowered_closed": true,
+          "door": [
+            18,
+            2,
+            23
+          ],
+          "temporary_lever": [
+            17,
+            2,
+            23
+          ]
+        },
+        {
+          "lever_use_powered_open": true,
+          "restored_open": true,
+          "candidate_has_installed_control": false,
+          "lever_use_unpowered_closed": true,
+          "door": [
+            18,
+            2,
+            28
+          ],
+          "temporary_lever": [
+            17,
+            2,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-13",
+      "source_sha256": "9f213852f7168f6e33f540fbd09626d1d6dda547eea4022d2f4542ac7b8e4296",
+      "origin": [
+        736,
+        100,
+        512
+      ],
+      "size": [
+        35,
+        16,
+        31
+      ],
+      "cleared_volume": 17360,
+      "elapsed_ticks": 1200,
+      "state_changes": [
+        {
+          "after": "Block{minecraft:light_blue_stained_glass_pane}[east\u003dfalse,north\u003dfalse,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            28,
+            7,
+            27
+          ],
+          "before": "Block{minecraft:light_blue_stained_glass_pane}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        }
+      ],
+      "support_failures": [],
+      "dropped_items": [],
+      "doors_before_interaction": [],
+      "locks": [],
+      "walk": {
+        "failures": 0,
+        "targets": [
+          {
+            "label": "east exit",
+            "reachable": true,
+            "moves": 136,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "hearth",
+            "reachable": true,
+            "moves": 68,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "pantry",
+            "reachable": true,
+            "moves": 136,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "dining",
+            "reachable": true,
+            "moves": 124,
+            "error": "",
+            "collision_move_roundtrip": true
+          }
+        ],
+        "visited_nodes": 2195,
+        "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+      }
+    },
+    {
+      "id": "s3-14",
+      "source_sha256": "d478ad783e421dec78b28e157f081fe7767fa2541d57c84428bc7de301b9333d",
+      "origin": [
+        848,
+        100,
+        512
+      ],
+      "size": [
+        27,
+        14,
+        25
+      ],
+      "cleared_volume": 9450,
+      "elapsed_ticks": 1200,
+      "state_changes": [],
+      "support_failures": [],
+      "dropped_items": [],
+      "doors_before_interaction": [],
+      "locks": [
+        {
+          "correct_key_opened_menu": true,
+          "empty_hand_denied": true,
+          "wrong_name_denied": true,
+          "position": [
+            14,
+            4,
+            19
+          ],
+          "key": "Frost armory key"
+        }
+      ],
+      "walk": {
+        "failures": 0,
+        "targets": [
+          {
+            "label": "east exit",
+            "reachable": true,
+            "moves": 104,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "inspection",
+            "reachable": true,
+            "moves": 80,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "locked cabinet",
+            "reachable": true,
+            "moves": 72,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "anvil",
+            "reachable": true,
+            "moves": 56,
+            "error": "",
+            "collision_move_roundtrip": true
+          }
+        ],
+        "visited_nodes": 1306,
+        "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+      }
+    },
+    {
+      "id": "s3-15",
+      "source_sha256": "4b1c75d094d6aeb7af438eff295c4d25cd178fa6116fc3cb4d97ab3d9603b9cf",
+      "origin": [
+        960,
+        100,
+        512
+      ],
+      "size": [
+        35,
+        14,
+        29
+      ],
+      "cleared_volume": 14210,
+      "elapsed_ticks": 1200,
+      "state_changes": [],
+      "support_failures": [],
+      "dropped_items": [],
+      "doors_before_interaction": [
+        {
+          "open": true,
+          "position": [
+            33,
+            2,
+            11
+          ],
+          "powered": false
+        }
+      ],
+      "locks": [],
+      "walk": {
+        "failures": 0,
+        "targets": [
+          {
+            "label": "east exit",
+            "reachable": true,
+            "moves": 140,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "targets",
+            "reachable": true,
+            "moves": 112,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "training centre",
+            "reachable": true,
+            "moves": 72,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "audience",
+            "reachable": true,
+            "moves": 120,
+            "error": "",
+            "collision_move_roundtrip": true
+          }
+        ],
+        "visited_nodes": 2543,
+        "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+      }
+    },
+    {
+      "id": "s3-16",
+      "source_sha256": "8a8d44eb44471d62366347cf1d7344ef82ec7dcfd55ebcde64f76a084ab560df",
+      "origin": [
+        512,
+        100,
+        640
+      ],
+      "size": [
+        29,
+        16,
+        29
+      ],
+      "cleared_volume": 13456,
+      "elapsed_ticks": 1200,
+      "state_changes": [],
+      "support_failures": [],
+      "dropped_items": [],
+      "doors_before_interaction": [],
+      "locks": [],
+      "walk": {
+        "failures": 0,
+        "targets": [
+          {
+            "label": "east exit",
+            "reachable": true,
+            "moves": 136,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "well side",
+            "reachable": true,
+            "moves": 44,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "maintenance desk",
+            "reachable": true,
+            "moves": 36,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "back ledge",
+            "reachable": true,
+            "moves": 108,
+            "error": "",
+            "collision_move_roundtrip": true
+          }
+        ],
+        "visited_nodes": 1212,
+        "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+      }
+    },
+    {
+      "id": "s3-17",
+      "source_sha256": "6a977e3e2594c386fca79ac14089440bdd7864b46794011a8ac454c4264261cb",
+      "origin": [
+        624,
+        100,
+        640
+      ],
+      "size": [
+        27,
+        13,
+        27
+      ],
+      "cleared_volume": 9477,
+      "elapsed_ticks": 1200,
+      "state_changes": [],
+      "support_failures": [],
+      "dropped_items": [],
+      "doors_before_interaction": [],
+      "locks": [],
+      "walk": {
+        "failures": 0,
+        "targets": [
+          {
+            "label": "east exit",
+            "reachable": true,
+            "moves": 104,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "project table",
+            "reachable": true,
+            "moves": 56,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "furnace",
+            "reachable": true,
+            "moves": 96,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "grinding",
+            "reachable": true,
+            "moves": 60,
+            "error": "",
+            "collision_move_roundtrip": true
+          }
+        ],
+        "visited_nodes": 1547,
+        "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+      }
+    },
+    {
+      "id": "s3-18",
+      "source_sha256": "1d565935e81fafc79cc2713b95ffc9a3c32231d9595c180b6d01fc4446022cd5",
+      "origin": [
+        736,
+        100,
+        640
+      ],
+      "size": [
+        31,
+        14,
+        29
+      ],
+      "cleared_volume": 12586,
+      "elapsed_ticks": 1200,
+      "state_changes": [],
+      "support_failures": [],
+      "dropped_items": [],
+      "doors_before_interaction": [],
+      "locks": [],
+      "walk": {
+        "failures": 0,
+        "targets": [
+          {
+            "label": "east exit",
+            "reachable": true,
+            "moves": 120,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "altar",
+            "reachable": true,
+            "moves": 64,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "bone niches",
+            "reachable": true,
+            "moves": 108,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "sarcophagi",
+            "reachable": true,
+            "moves": 88,
+            "error": "",
+            "collision_move_roundtrip": true
+          }
+        ],
+        "visited_nodes": 1779,
+        "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+      }
+    },
+    {
+      "id": "s3-19",
+      "source_sha256": "d43a1b95db70a453283f15bf269b1909a16a7634695bba8617f219855ebcd408",
+      "origin": [
+        848,
+        100,
+        640
+      ],
+      "size": [
+        35,
+        23,
+        61
+      ],
+      "cleared_volume": 49105,
+      "elapsed_ticks": 1200,
+      "state_changes": [],
+      "support_failures": [],
+      "dropped_items": [],
+      "doors_before_interaction": [],
+      "locks": [],
+      "walk": {
+        "failures": 0,
+        "targets": [
+          {
+            "label": "upper exit",
+            "reachable": true,
+            "moves": 172,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "watch desk",
+            "reachable": true,
+            "moves": 152,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "parapet",
+            "reachable": true,
+            "moves": 108,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "stair landing",
+            "reachable": true,
+            "moves": 68,
+            "error": "",
+            "collision_move_roundtrip": true
+          }
+        ],
+        "visited_nodes": 3112,
+        "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+      }
+    },
+    {
+      "id": "s3-20",
+      "source_sha256": "beddf317e1c270da0aab9c542bbac446976ae2b4c3d1c93e1a40be713263f4f4",
+      "origin": [
+        960,
+        100,
+        640
+      ],
+      "size": [
+        33,
+        14,
+        25
+      ],
+      "cleared_volume": 11550,
+      "elapsed_ticks": 1200,
+      "state_changes": [],
+      "support_failures": [],
+      "dropped_items": [
+        {
+          "position": "(981.8892925387685, 102.0, 648.1734428486437)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(981.1285254672134, 102.0, 644.8600665836004)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(983.9120471995941, 103.0, 655.4655151975429)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(990.4980026823869, 102.0, 652.4426239056531)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(987.3582323847522, 103.0, 657.0436957520119)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(982.3055864245201, 103.0, 656.5850685722733)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(984.5968627591351, 103.0, 656.3421529026813)",
+          "item": "1 wheat_seeds"
+        }
+      ],
+      "doors_before_interaction": [],
+      "locks": [
+        {
+          "correct_key_opened_menu": true,
+          "empty_hand_denied": true,
+          "wrong_name_denied": true,
+          "position": [
+            22,
+            4,
+            21
+          ],
+          "key": "Frost vault key"
+        }
+      ],
+      "walk": {
+        "failures": 0,
+        "targets": [
+          {
+            "label": "east exit",
+            "reachable": true,
+            "moves": 140,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "hidden passage",
+            "reachable": true,
+            "moves": 52,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "vault chest",
+            "reachable": true,
+            "moves": 104,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "lever",
+            "reachable": true,
+            "moves": 80,
+            "error": "",
+            "collision_move_roundtrip": true
+          }
+        ],
+        "visited_nodes": 1753,
+        "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+      }
+    },
+    {
+      "id": "s3-merged",
+      "source_sha256": "933a5f44ccc2c84d00b7ec321080068e99989403de35e7ad7aa3e09bc9a569b7",
+      "origin": [
+        2048,
+        100,
+        2048
+      ],
+      "size": [
+        207,
+        35,
+        217
+      ],
+      "cleared_volume": 1572165,
+      "elapsed_ticks": 1200,
+      "state_changes": [
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            75,
+            3,
+            38
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            75,
+            3,
+            44
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            75,
+            3,
+            49
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            75,
+            4,
+            38
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            75,
+            4,
+            44
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            75,
+            4,
+            49
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            83,
+            3,
+            38
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            83,
+            3,
+            44
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            83,
+            3,
+            49
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            83,
+            4,
+            38
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            83,
+            4,
+            44
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dtrue,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            83,
+            4,
+            49
+          ],
+          "before": "Block{minecraft:iron_bars}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        },
+        {
+          "after": "Block{minecraft:light_blue_stained_glass_pane}[east\u003dfalse,north\u003dfalse,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]",
+          "position": [
+            136,
+            8,
+            43
+          ],
+          "before": "Block{minecraft:light_blue_stained_glass_pane}[east\u003dfalse,north\u003dtrue,south\u003dfalse,waterlogged\u003dfalse,west\u003dfalse]"
+        }
+      ],
+      "support_failures": [],
+      "dropped_items": [
+        {
+          "position": "(2242.853225903004, 103.0, 2138.875)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(2252.054178871788, 101.0, 2164.4105594671264)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(2247.0579695002175, 101.0, 2165.9071278581478)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(2253.1450698201947, 101.0, 2167.651846744257)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(2253.875, 101.0, 2184.889202929066)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(2252.0133778281397, 101.0, 2183.6542466634746)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(2248.2654390266807, 101.0, 2185.174006924023)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(2243.9595874567876, 101.0, 2193.2145231428995)",
+          "item": "1 wheat_seeds"
+        },
+        {
+          "position": "(2240.8989592428375, 101.0, 2192.408036249765)",
+          "item": "1 wheat_seeds"
+        }
+      ],
+      "doors_before_interaction": [
+        {
+          "open": true,
+          "position": [
+            75,
+            3,
+            39
+          ],
+          "powered": false
+        },
+        {
+          "open": true,
+          "position": [
+            75,
+            3,
+            45
+          ],
+          "powered": false
+        },
+        {
+          "open": true,
+          "position": [
+            75,
+            3,
+            50
+          ],
+          "powered": false
+        },
+        {
+          "open": true,
+          "position": [
+            83,
+            3,
+            39
+          ],
+          "powered": false
+        },
+        {
+          "open": true,
+          "position": [
+            83,
+            3,
+            45
+          ],
+          "powered": false
+        },
+        {
+          "open": true,
+          "position": [
+            83,
+            3,
+            50
+          ],
+          "powered": false
+        },
+        {
+          "open": true,
+          "position": [
+            182,
+            3,
+            89
+          ],
+          "powered": false
+        }
+      ],
+      "locks": [
+        {
+          "correct_key_opened_menu": true,
+          "empty_hand_denied": true,
+          "wrong_name_denied": true,
+          "position": [
+            46,
+            4,
+            24
+          ],
+          "key": "Frost archive key"
+        },
+        {
+          "correct_key_opened_menu": true,
+          "empty_hand_denied": true,
+          "wrong_name_denied": true,
+          "position": [
+            171,
+            5,
+            36
+          ],
+          "key": "Frost armory key"
+        },
+        {
+          "correct_key_opened_menu": true,
+          "empty_hand_denied": true,
+          "wrong_name_denied": true,
+          "position": [
+            114,
+            11,
+            160
+          ],
+          "key": "Frost vault key"
+        }
+      ],
+      "walk": {
+        "failures": 0,
+        "targets": [
+          {
+            "label": "s3-11 east exit",
+            "reachable": true,
+            "moves": 168,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-11 back shelves",
+            "reachable": true,
+            "moves": 144,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-11 reading aisle",
+            "reachable": true,
+            "moves": 100,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-11 cabinet",
+            "reachable": true,
+            "moves": 168,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-12 east exit",
+            "reachable": true,
+            "moves": 340,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-12 patrol end",
+            "reachable": true,
+            "moves": 352,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-12 guard desk",
+            "reachable": true,
+            "moves": 328,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-12 left cell",
+            "reachable": true,
+            "moves": 296,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-13 east exit",
+            "reachable": true,
+            "moves": 536,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-13 hearth",
+            "reachable": true,
+            "moves": 460,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-13 pantry",
+            "reachable": true,
+            "moves": 528,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-13 dining",
+            "reachable": true,
+            "moves": 516,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-14 east exit",
+            "reachable": true,
+            "moves": 700,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-14 inspection",
+            "reachable": true,
+            "moves": 668,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-14 locked cabinet",
+            "reachable": true,
+            "moves": 660,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-14 anvil",
+            "reachable": true,
+            "moves": 644,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-15 east exit",
+            "reachable": true,
+            "moves": 1012,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-15 targets",
+            "reachable": true,
+            "moves": 1128,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-15 training centre",
+            "reachable": true,
+            "moves": 1088,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-15 audience",
+            "reachable": true,
+            "moves": 1080,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-16 east exit",
+            "reachable": true,
+            "moves": 1208,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-16 well side",
+            "reachable": true,
+            "moves": 1332,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-16 maintenance desk",
+            "reachable": true,
+            "moves": 1308,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-16 back ledge",
+            "reachable": true,
+            "moves": 1260,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-17 east exit",
+            "reachable": true,
+            "moves": 1404,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-17 project table",
+            "reachable": true,
+            "moves": 1460,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-17 furnace",
+            "reachable": true,
+            "moves": 1484,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-17 grinding",
+            "reachable": true,
+            "moves": 1504,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-18 east exit",
+            "reachable": true,
+            "moves": 1568,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-18 altar",
+            "reachable": true,
+            "moves": 1632,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-18 bone niches",
+            "reachable": true,
+            "moves": 1676,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-18 sarcophagi",
+            "reachable": true,
+            "moves": 1608,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-19 upper exit",
+            "reachable": true,
+            "moves": 2464,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-19 watch desk",
+            "reachable": true,
+            "moves": 2444,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-19 parapet",
+            "reachable": true,
+            "moves": 2400,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-19 stair landing",
+            "reachable": true,
+            "moves": 2360,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-20 east exit",
+            "reachable": true,
+            "moves": 3048,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-20 hidden passage",
+            "reachable": true,
+            "moves": 2960,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-20 vault chest",
+            "reachable": true,
+            "moves": 3012,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "s3-20 lever",
+            "reachable": true,
+            "moves": 2988,
+            "error": "",
+            "collision_move_roundtrip": true
+          },
+          {
+            "label": "departure chamber",
+            "reachable": true,
+            "moves": 3092,
+            "error": "",
+            "collision_move_roundtrip": true
+          }
+        ],
+        "visited_nodes": 26746,
+        "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+      },
+      "entry_exit": {
+        "outside_local": [
+          -8,
+          3,
+          31
+        ],
+        "exit_command_result": 1,
+        "departure_local": [
+          135,
+          9,
+          157
+        ],
+        "arrival_local": [
+          10,
+          3,
+          31
+        ],
+        "mechanism": "Admin tp @s from actual player command source; external pad added only in isolated QA; enclosed barrier unchanged",
+        "exit_clear": true,
+        "entry_command_result": 1,
+        "entry_clear": true
+      }
+    }
+  ],
+  "scope": "Forge 47.4.10 / Minecraft 1.20.1 isolated ServerLevel; real structure placement, explicit neighbor updates, 1200 server ticks, full-volume capture. Random tick rule is 3; no claim that every cell received random ticks. Walk uses collision-resolved Entity.move, not keyboard/gravity simulation.",
+  "status": "EXECUTED_REQUIRES_FIX",
+  "doFireTick": true,
+  "issues": 16
+}

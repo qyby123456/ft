@@ -1,0 +1,1471 @@
+{
+  "id": "12-prison",
+  "source_sha256": "581ab449f1296d479b6cbc17654700af2354d02f6cce092e41d260e96f4df571",
+  "origin": [
+    624,
+    100,
+    512
+  ],
+  "interactions": [
+    {
+      "use_result": "CONSUME",
+      "restored_empty": true,
+      "kind": "container_use_and_inventory_roundtrip",
+      "position": [
+        7,
+        2,
+        10
+      ],
+      "empty_before": true,
+      "blocked_lid": false
+    },
+    {
+      "use_result": "CONSUME",
+      "restored_empty": true,
+      "kind": "container_use_and_inventory_roundtrip",
+      "position": [
+        7,
+        2,
+        17
+      ],
+      "empty_before": true,
+      "blocked_lid": false
+    },
+    {
+      "use_result": "CONSUME",
+      "restored_empty": true,
+      "kind": "container_use_and_inventory_roundtrip",
+      "position": [
+        7,
+        2,
+        24
+      ],
+      "empty_before": true,
+      "blocked_lid": false
+    },
+    {
+      "position": [
+        9,
+        2,
+        9
+      ],
+      "open": true,
+      "kind": "door_after_neighbor_updates",
+      "powered": false
+    },
+    {
+      "position": [
+        9,
+        2,
+        16
+      ],
+      "open": true,
+      "kind": "door_after_neighbor_updates",
+      "powered": false
+    },
+    {
+      "position": [
+        9,
+        2,
+        23
+      ],
+      "open": true,
+      "kind": "door_after_neighbor_updates",
+      "powered": false
+    },
+    {
+      "powered_after_use": true,
+      "kind": "button_use",
+      "door_opened": true,
+      "adjacent_doors": [
+        {
+          "position": [
+            9,
+            2,
+            9
+          ],
+          "open_after_button": true
+        }
+      ],
+      "position": [
+        10,
+        3,
+        8
+      ]
+    },
+    {
+      "powered_after_use": true,
+      "kind": "button_use",
+      "door_opened": true,
+      "adjacent_doors": [
+        {
+          "position": [
+            9,
+            2,
+            16
+          ],
+          "open_after_button": true
+        }
+      ],
+      "position": [
+        10,
+        3,
+        15
+      ]
+    },
+    {
+      "powered_after_use": true,
+      "kind": "button_use",
+      "door_opened": true,
+      "adjacent_doors": [
+        {
+          "position": [
+            9,
+            2,
+            23
+          ],
+          "open_after_button": true
+        }
+      ],
+      "position": [
+        10,
+        3,
+        22
+      ]
+    },
+    {
+      "use_result": "CONSUME",
+      "restored_empty": true,
+      "kind": "container_use_and_inventory_roundtrip",
+      "position": [
+        18,
+        2,
+        3
+      ],
+      "empty_before": true,
+      "blocked_lid": false
+    },
+    {
+      "powered_after_use": true,
+      "kind": "button_use",
+      "door_opened": true,
+      "adjacent_doors": [
+        {
+          "position": [
+            19,
+            2,
+            9
+          ],
+          "open_after_button": true
+        }
+      ],
+      "position": [
+        18,
+        3,
+        8
+      ]
+    },
+    {
+      "powered_after_use": true,
+      "kind": "button_use",
+      "door_opened": true,
+      "adjacent_doors": [
+        {
+          "position": [
+            19,
+            2,
+            16
+          ],
+          "open_after_button": true
+        }
+      ],
+      "position": [
+        18,
+        3,
+        15
+      ]
+    },
+    {
+      "powered_after_use": true,
+      "kind": "button_use",
+      "door_opened": true,
+      "adjacent_doors": [
+        {
+          "position": [
+            19,
+            2,
+            23
+          ],
+          "open_after_button": true
+        }
+      ],
+      "position": [
+        18,
+        3,
+        22
+      ]
+    },
+    {
+      "position": [
+        19,
+        2,
+        9
+      ],
+      "open": true,
+      "kind": "door_after_neighbor_updates",
+      "powered": true
+    },
+    {
+      "position": [
+        19,
+        2,
+        16
+      ],
+      "open": true,
+      "kind": "door_after_neighbor_updates",
+      "powered": true
+    },
+    {
+      "position": [
+        19,
+        2,
+        23
+      ],
+      "open": true,
+      "kind": "door_after_neighbor_updates",
+      "powered": true
+    },
+    {
+      "use_result": "CONSUME",
+      "restored_empty": true,
+      "kind": "container_use_and_inventory_roundtrip",
+      "position": [
+        21,
+        2,
+        10
+      ],
+      "empty_before": true,
+      "blocked_lid": false
+    },
+    {
+      "use_result": "CONSUME",
+      "restored_empty": true,
+      "kind": "container_use_and_inventory_roundtrip",
+      "position": [
+        21,
+        2,
+        17
+      ],
+      "empty_before": true,
+      "blocked_lid": false
+    },
+    {
+      "use_result": "CONSUME",
+      "restored_empty": true,
+      "kind": "container_use_and_inventory_roundtrip",
+      "position": [
+        21,
+        2,
+        24
+      ],
+      "empty_before": true,
+      "blocked_lid": false
+    }
+  ],
+  "interaction_issues": 0,
+  "pre_placement_items_removed": 0,
+  "elapsed_ticks": 1200,
+  "support_failures": [],
+  "state_changes": [
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        2,
+        8,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        2,
+        8,
+        11
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        2,
+        8,
+        18
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        2,
+        8,
+        25
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        3,
+        2,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        3,
+        2,
+        6
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        3,
+        3,
+        6
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        3,
+        14,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        3,
+        14,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        3,
+        14,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        3,
+        14,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        3,
+        14,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        3,
+        15,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        3,
+        15,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        3,
+        15,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        3,
+        15,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d6,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        3,
+        15,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d7,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        2,
+        28
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d7,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        2,
+        29
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d7,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        3,
+        28
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d7,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        3,
+        29
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        14,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        14,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        14,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        14,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        14,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        15,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        15,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        15,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        15,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        4,
+        15,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        5,
+        14,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        5,
+        14,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        5,
+        14,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        5,
+        15,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        5,
+        15,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        5,
+        15,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        5,
+        15,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        5,
+        15,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        6,
+        14,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        6,
+        14,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        6,
+        14,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        6,
+        14,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        6,
+        14,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        6,
+        15,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        6,
+        15,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        6,
+        15,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        6,
+        15,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        6,
+        15,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        7,
+        14,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        7,
+        14,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        7,
+        14,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        7,
+        14,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        7,
+        14,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        7,
+        15,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        7,
+        15,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        7,
+        15,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        7,
+        15,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d6,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        7,
+        15,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+      "position": [
+        9,
+        2,
+        9
+      ],
+      "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+      "position": [
+        9,
+        2,
+        16
+      ],
+      "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+      "position": [
+        9,
+        2,
+        23
+      ],
+      "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dupper,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+      "position": [
+        9,
+        3,
+        9
+      ],
+      "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dupper,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dupper,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+      "position": [
+        9,
+        3,
+        16
+      ],
+      "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dupper,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dupper,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+      "position": [
+        9,
+        3,
+        23
+      ],
+      "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dupper,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+      "position": [
+        19,
+        2,
+        9
+      ],
+      "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+      "position": [
+        19,
+        2,
+        16
+      ],
+      "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+      "position": [
+        19,
+        2,
+        23
+      ],
+      "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dlower,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dupper,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+      "position": [
+        19,
+        3,
+        9
+      ],
+      "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dupper,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dupper,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+      "position": [
+        19,
+        3,
+        16
+      ],
+      "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dupper,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:iron_door}[facing\u003deast,half\u003dupper,hinge\u003dleft,open\u003dfalse,powered\u003dfalse]",
+      "position": [
+        19,
+        3,
+        23
+      ],
+      "before": "Block{minecraft:iron_door}[facing\u003deast,half\u003dupper,hinge\u003dleft,open\u003dtrue,powered\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        21,
+        14,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        21,
+        14,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        21,
+        14,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        21,
+        14,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        21,
+        14,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        21,
+        15,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        21,
+        15,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        21,
+        15,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        21,
+        15,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d6,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        21,
+        15,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        22,
+        14,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        22,
+        14,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        22,
+        14,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        22,
+        14,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        22,
+        14,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        22,
+        15,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        22,
+        15,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        22,
+        15,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        22,
+        15,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        22,
+        15,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        23,
+        14,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        23,
+        14,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        23,
+        14,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        23,
+        15,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        23,
+        15,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        23,
+        15,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        23,
+        15,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        23,
+        15,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d7,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        2,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d7,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        2,
+        6
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d7,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        3,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d7,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        3,
+        6
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        14,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        14,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        14,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        14,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        14,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        15,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        15,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        15,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        15,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        24,
+        15,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        25,
+        2,
+        26
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        25,
+        2,
+        27
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        25,
+        3,
+        27
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        25,
+        14,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        25,
+        14,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d3,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        25,
+        14,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        25,
+        14,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        25,
+        14,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        25,
+        15,
+        1
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        25,
+        15,
+        2
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d4,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        25,
+        15,
+        3
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d5,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        25,
+        15,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d6,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        25,
+        15,
+        5
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        26,
+        8,
+        4
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        26,
+        8,
+        11
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        26,
+        8,
+        18
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    },
+    {
+      "after": "Block{minecraft:oak_leaves}[distance\u003d2,persistent\u003dtrue,waterlogged\u003dfalse]",
+      "position": [
+        26,
+        8,
+        25
+      ],
+      "before": "Block{minecraft:oak_leaves}[distance\u003d1,persistent\u003dtrue,waterlogged\u003dfalse]"
+    }
+  ],
+  "dropped_items": [],
+  "fires": 0,
+  "new_fluid_cells": 0,
+  "after_captures": [
+    {
+      "size": [
+        29,
+        16,
+        35
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "file": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S1\\worldqa-run4\\12-prison-after-1200-0-0-0.nbt",
+      "sha256": "a0d39d2744c60c2489bfa7b517f90fbd01c10965bb4e3756c10f72e20dcf5d54"
+    }
+  ],
+  "armor_stands": 0
+}

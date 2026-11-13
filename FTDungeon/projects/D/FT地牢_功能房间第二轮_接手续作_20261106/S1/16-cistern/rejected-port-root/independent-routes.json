@@ -1,0 +1,52 @@
+[
+  {
+    "group": 16,
+    "vertical_swimming_enabled": false,
+    "reachable_half_grid_positions": 0,
+    "targets": [
+      {
+        "standing_clear": false,
+        "position": [
+          26,
+          4,
+          12
+        ],
+        "reachable": false,
+        "label": "east-exit"
+      },
+      {
+        "standing_clear": true,
+        "position": [
+          14,
+          4,
+          7
+        ],
+        "reachable": false,
+        "label": "north-maintenance"
+      },
+      {
+        "standing_clear": true,
+        "position": [
+          14,
+          4,
+          21
+        ],
+        "reachable": false,
+        "label": "south-maintenance"
+      },
+      {
+        "standing_clear": true,
+        "position": [
+          24,
+          4,
+          7
+        ],
+        "reachable": false,
+        "label": "supply-shelf"
+      }
+    ],
+    "sha256": "4b238a748e2c39a74db32fea1a28a42b7bb88d99dbb6ab761b55324eb70251f4",
+    "scope": "Independent native collision boxes; 0.6x1.8 player, half-block grid, no jumps, maximum step 0.5; swept sampled vertical/horizontal clearance. Swimming elevation changes enabled only by explicit specification flag; no buoyancy, breath or movement physics certification. Immutable offline shapes, not game physics/world simulation. Shapes queried with EmptyBlockGetter; context-sensitive shape behavior is not certified.",
+    "start_clear": false
+  }
+]

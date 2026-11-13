@@ -1,0 +1,147 @@
+{
+  "candidate_sha256": "3b702118ab0106bdc304b4ac95d4fd569222065aa25e0be365bf74fdf47a7a58",
+  "reference_sha256": "3a083a76bbd112782d56c49441ace7e70ff7683013410db1067dec034bcdf8ed",
+  "reference_image_viewed": true,
+  "lodestone_cutaway_viewed": true,
+  "self_check": "PASS",
+  "independent_acceptance": "NOT_RUN",
+  "native_report": "qa/independent-native-frozen.json",
+  "route_report": "qa/independent-routes.json",
+  "containers": [
+    {
+      "pos": [
+        6,
+        4,
+        7
+      ],
+      "block": "minecraft:smoker",
+      "empty": true
+    },
+    {
+      "pos": [
+        10,
+        4,
+        7
+      ],
+      "block": "minecraft:smoker",
+      "empty": true
+    },
+    {
+      "pos": [
+        19,
+        3,
+        3
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        23,
+        3,
+        3
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        27,
+        3,
+        3
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        19,
+        6,
+        3
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        23,
+        6,
+        3
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        27,
+        6,
+        3
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        19,
+        9,
+        3
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        23,
+        9,
+        3
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        27,
+        9,
+        3
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        2,
+        2,
+        9
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        31,
+        2,
+        6
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        3,
+        2,
+        23
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    }
+  ],
+  "static_supplement_failures": [],
+  "risks": "No water/lava/fire blocks",
+  "not_run": [
+    "world placement",
+    "neighbor/random/fluid tick simulation",
+    "player gameplay",
+    "independent acceptance"
+  ],
+  "visual_notes": "实际查看参考与新内景剖面：炉口增加悬锅链、内侧倒阶、外挑半砖烟罩；保留双烟熏炉、两餐桌、备餐台和所有目标。门拱与聚集矿脉已改，仍待独立视觉验收。"
+}

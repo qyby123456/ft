@@ -1,0 +1,95 @@
+{
+  "id": "s3-19",
+  "size": [
+    35,
+    23,
+    31
+  ],
+  "title": "冰渊高台瞭望所",
+  "reference": "S3-19",
+  "features": [
+    "高六格俯瞰平台",
+    "十二级半格阶梯",
+    "观测桌与望远镜意象",
+    "栏墙灯柱",
+    "下方冰渊景观"
+  ],
+  "ports": [
+    {
+      "name": "lower-east",
+      "foot": [
+        34,
+        2,
+        3
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "upper-south",
+      "foot": [
+        18,
+        8,
+        30
+      ],
+      "width": 3,
+      "height": 4,
+      "normal": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "start": [
+    34,
+    2,
+    3
+  ],
+  "targets": [
+    {
+      "label": "upper exit",
+      "position": [
+        18,
+        8,
+        30
+      ]
+    },
+    {
+      "label": "watch desk",
+      "position": [
+        14,
+        8,
+        21
+      ]
+    },
+    {
+      "label": "parapet",
+      "position": [
+        20,
+        8,
+        16
+      ]
+    },
+    {
+      "label": "stair landing",
+      "position": [
+        30,
+        8,
+        16
+      ]
+    }
+  ],
+  "differences": [
+    "望远镜以避雷针表现，不提供放大视野交互",
+    "概念无限深渊改成完整封闭冰窟，保留高台与实际六格高差",
+    "半格台阶可步行上行，非单纯装饰楼梯"
+  ],
+  "cutY": 21,
+  "architectural_revision": "石木门框、后壁梁柱、连续雪沿、错落收尖冰挂；显式木纹轴向和木桶open=false使原生预览与实际一致"
+}

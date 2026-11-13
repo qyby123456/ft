@@ -1,0 +1,143 @@
+{
+  "sha256": "c58a0400a48324e718753fa1a69ca596a73eb22d00554b21233e15f628f69763",
+  "size": [
+    35,
+    16,
+    31
+  ],
+  "counts": {
+    "minecraft:smooth_basalt": 1085,
+    "minecraft:cobbled_deepslate": 2131,
+    "minecraft:polished_deepslate": 287,
+    "minecraft:calcite": 122,
+    "minecraft:amethyst_block": 439,
+    "minecraft:gravel": 122,
+    "minecraft:light_gray_terracotta": 460,
+    "minecraft:clay": 111,
+    "minecraft:deepslate_bricks": 153,
+    "minecraft:air": 106,
+    "minecraft:deepslate_brick_stairs": 124,
+    "minecraft:deepslate_tile_slab": 36,
+    "minecraft:chiseled_deepslate": 12,
+    "minecraft:purple_stained_glass": 44,
+    "minecraft:oak_fence": 27,
+    "minecraft:target": 3,
+    "minecraft:stripped_birch_log": 3,
+    "minecraft:oak_stairs": 20,
+    "minecraft:oak_log": 5,
+    "minecraft:dark_oak_stairs": 16,
+    "minecraft:dark_oak_trapdoor": 16,
+    "minecraft:dark_oak_planks": 22,
+    "minecraft:iron_bars": 10,
+    "minecraft:amethyst_cluster": 6,
+    "minecraft:barrel": 2,
+    "minecraft:chain": 8,
+    "minecraft:lantern": 2,
+    "minecraft:oak_door": 2,
+    "minecraft:oak_slab": 5
+  },
+  "entities": [
+    {
+      "pos": [
+        29,
+        2,
+        4
+      ],
+      "block": "minecraft:barrel",
+      "nbt": "{id:\"minecraft:barrel\",Items:[]}"
+    },
+    {
+      "pos": [
+        31,
+        2,
+        4
+      ],
+      "block": "minecraft:barrel",
+      "nbt": "{id:\"minecraft:barrel\",Items:[]}"
+    }
+  ],
+  "hazards": [],
+  "metadata": {
+    "name": "s8-15-training",
+    "size": [
+      35,
+      16,
+      31
+    ],
+    "ports": [
+      {
+        "side": "west",
+        "foot": [
+          0,
+          2,
+          16
+        ],
+        "width": 3,
+        "height": 4
+      },
+      {
+        "side": "east",
+        "foot": [
+          34,
+          2,
+          16
+        ],
+        "width": 5,
+        "height": 5
+      }
+    ],
+    "start": [
+      0,
+      2,
+      16
+    ],
+    "targets": [
+      {
+        "label": "open east arch",
+        "position": [
+          34,
+          2,
+          16
+        ]
+      },
+      {
+        "label": "training dummy lane",
+        "position": [
+          15,
+          2,
+          12
+        ]
+      },
+      {
+        "label": "spectator benches",
+        "position": [
+          15,
+          2,
+          25
+        ]
+      },
+      {
+        "label": "obstacle bypass",
+        "position": [
+          30,
+          2,
+          21
+        ]
+      }
+    ],
+    "features": [
+      "sand training floor",
+      "three target dummies",
+      "two hurdles",
+      "low ramp obstacle",
+      "weapon racks",
+      "two spectator benches",
+      "open arch opposite wood door"
+    ],
+    "differences": [
+      "No combat entities or training logic; target blocks retain only vanilla functionality",
+      "Obstacle jumping not certified; traversable bypass is checked",
+      "West door held open in candidate for route audit"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "sha256": "52ec8a8adc8e94914a106f7c293aff8028852da30ffb4c4c99b8fda0a91df109",
+  "size": [
+    29,
+    14,
+    27
+  ],
+  "counts": {
+    "minecraft:smooth_basalt": 783,
+    "minecraft:cobbled_deepslate": 1076,
+    "minecraft:polished_deepslate": 542,
+    "minecraft:calcite": 129,
+    "minecraft:amethyst_block": 392,
+    "minecraft:deepslate_tiles": 470,
+    "minecraft:deepslate_bricks": 144,
+    "minecraft:air": 30,
+    "minecraft:deepslate_brick_stairs": 104,
+    "minecraft:deepslate_tile_slab": 30,
+    "minecraft:chiseled_deepslate": 6,
+    "minecraft:tinted_glass": 46,
+    "minecraft:purple_stained_glass": 14,
+    "minecraft:dark_oak_fence": 2,
+    "minecraft:iron_block": 2,
+    "minecraft:chain": 10,
+    "minecraft:gold_block": 2,
+    "minecraft:dark_oak_planks": 221,
+    "minecraft:iron_bars": 24,
+    "minecraft:barrel": 4,
+    "minecraft:end_rod": 9,
+    "minecraft:anvil": 1,
+    "minecraft:purple_carpet": 16,
+    "minecraft:lantern": 3,
+    "minecraft:amethyst_cluster": 6
+  },
+  "entities": [
+    {
+      "pos": [
+        14,
+        3,
+        5
+      ],
+      "block": "minecraft:barrel",
+      "nbt": "{id:\"minecraft:barrel\",Items:[]}"
+    },
+    {
+      "pos": [
+        22,
+        2,
+        21
+      ],
+      "block": "minecraft:barrel",
+      "nbt": "{id:\"minecraft:barrel\",Items:[]}"
+    },
+    {
+      "pos": [
+        24,
+        2,
+        21
+      ],
+      "block": "minecraft:barrel",
+      "nbt": "{id:\"minecraft:barrel\",Items:[]}"
+    },
+    {
+      "pos": [
+        26,
+        2,
+        21
+      ],
+      "block": "minecraft:barrel",
+      "nbt": "{id:\"minecraft:barrel\",Items:[]}"
+    }
+  ],
+  "hazards": [],
+  "metadata": {
+    "name": "s8-14-armory",
+    "size": [
+      29,
+      14,
+      27
+    ],
+    "ports": [
+      {
+        "side": "west",
+        "foot": [
+          0,
+          2,
+          15
+        ],
+        "width": 3,
+        "height": 4
+      },
+      {
+        "side": "east",
+        "foot": [
+          28,
+          2,
+          15
+        ],
+        "width": 3,
+        "height": 4
+      }
+    ],
+    "start": [
+      0,
+      2,
+      15
+    ],
+    "targets": [
+      {
+        "label": "east exit",
+        "position": [
+          28,
+          2,
+          15
+        ]
+      },
+      {
+        "label": "armor displays",
+        "position": [
+          7,
+          2,
+          9
+        ]
+      },
+      {
+        "label": "anvil",
+        "position": [
+          22,
+          2,
+          12
+        ]
+      },
+      {
+        "label": "inspection table",
+        "position": [
+          13,
+          2,
+          18
+        ]
+      }
+    ],
+    "features": [
+      "silver and gold armor display sculptures",
+      "two blade racks",
+      "central wood cabinet",
+      "three-tier arrow rack",
+      "anvil",
+      "purple inspection table",
+      "supply barrels"
+    ],
+    "differences": [
+      "Armor displays are block sculptures, not equipable armor stand entities",
+      "Blades and arrows represented by iron bars/end rods without weapon items",
+      "Cabinet visually closed but not security-locked; all storage empty"
+    ]
+  }
+}

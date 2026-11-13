@@ -1,0 +1,99 @@
+{
+  "id": "S7-17",
+  "title": "工坊",
+  "reference_observed": "后墙L形材料架、左砂轮与工作台、右小炉、中央半成品框架工作桌、桌凳、两侧门、前部水洼与巨菇",
+  "start": [
+    2,
+    3,
+    15
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "foot": [
+        0,
+        3,
+        15
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    },
+    {
+      "side": "east",
+      "foot": [
+        30,
+        3,
+        15
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "west",
+      "position": [
+        0,
+        3,
+        15
+      ]
+    },
+    {
+      "label": "east",
+      "position": [
+        30,
+        3,
+        15
+      ]
+    },
+    {
+      "label": "project table",
+      "position": [
+        15,
+        3,
+        20
+      ]
+    },
+    {
+      "label": "grindstone",
+      "position": [
+        8,
+        3,
+        10
+      ]
+    },
+    {
+      "label": "furnace",
+      "position": [
+        21,
+        3,
+        9
+      ]
+    },
+    {
+      "label": "materials",
+      "position": [
+        14,
+        3,
+        8
+      ]
+    }
+  ],
+  "differences": [
+    "砂轮、合成台、熔炉采用原版方块；熔炉无燃料无预置输入输出",
+    "半成品用木栏框架表达，无机械运转",
+    "架上材料是实体装饰方块而非可取物品",
+    "无火焰和烟雾，水洼封盖"
+  ],
+  "revision_2": {
+    "reason": "Independent visual preliminary REQUEST_CHANGES",
+    "preserved_evidence": "D:\\ft工程文件\\FT地牢_功能房间第二轮_20261106\\S7\\history\\pre-visual-request-changes\\S7-17",
+    "changes": [
+      "Continuous irregular floor patches replace per-cell checkerboard",
+      "Wave-based clustered cave palette, projecting upper ledges, supported hanging roots and mushrooms",
+      "Stone-and-log layered frames at unchanged clear ports",
+      "Feature-detail render supplements overview; no targets removed"
+    ]
+  },
+  "takeover_source_manifest": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\visual-depth-v3\\takeover-source-manifest.json"
+}

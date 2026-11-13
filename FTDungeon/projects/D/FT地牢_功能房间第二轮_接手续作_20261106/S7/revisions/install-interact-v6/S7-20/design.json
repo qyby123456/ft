@@ -1,0 +1,125 @@
+{
+  "id": "S7-20",
+  "title": "密道藏宝",
+  "reference_observed": "左侧入口转折狭通道、右后凹入藏宝龛、箱与金堆、龛口拉杆蛛网、菌台和前水洼、双端出口",
+  "start": [
+    2,
+    3,
+    15
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "foot": [
+        0,
+        3,
+        15
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    },
+    {
+      "side": "east",
+      "foot": [
+        34,
+        3,
+        15
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "west",
+      "position": [
+        0,
+        3,
+        15
+      ]
+    },
+    {
+      "label": "east",
+      "position": [
+        34,
+        3,
+        15
+      ]
+    },
+    {
+      "label": "vault chest",
+      "position": [
+        27,
+        3,
+        9
+      ]
+    },
+    {
+      "label": "disguised passage left",
+      "position": [
+        5,
+        3,
+        19
+      ]
+    },
+    {
+      "label": "disguised passage middle",
+      "position": [
+        16,
+        3,
+        19
+      ]
+    },
+    {
+      "label": "disguised passage right",
+      "position": [
+        26,
+        3,
+        19
+      ]
+    },
+    {
+      "label": "lever",
+      "position": [
+        29,
+        3,
+        14
+      ]
+    }
+  ],
+  "differences": [
+    "20号独立制作密道藏宝，不是本组总览",
+    "隐藏通路以低矮土壁和转角遮挡表达，无活塞暗门；主线净宽3格，隐藏侧路2格",
+    "箱为空且无锁/战利品表，金堆为装饰金方块",
+    "拉杆无连接红石；蛛网在高位角落不阻主线",
+    "水洼封盖，完整洞顶"
+  ],
+  "revision_2": {
+    "reason": "Independent visual preliminary REQUEST_CHANGES",
+    "preserved_evidence": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\local-relief-v4\\history\\pre-visual-request-changes\\S7-20",
+    "changes": [
+      "Continuous irregular floor patches replace per-cell checkerboard",
+      "Wave-based clustered cave palette, projecting upper ledges, supported hanging roots and mushrooms",
+      "Stone-and-log layered frames at unchanged clear ports",
+      "Feature-detail render supplements overview; no targets removed",
+      "Vault roof stepped with mycelium crown and red mushrooms; explicit display-only vault roof cut plus full vault near-view"
+    ]
+  },
+  "takeover_source_manifest": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\local-relief-v4\\takeover-source-manifest.json",
+  "revision_3": {
+    "reason": "Independent vault massing review",
+    "changes": [
+      "Stepped left fungal-earth mass",
+      "Staggered roof crowns and side buttresses",
+      "Entry and chest sightline preserved"
+    ],
+    "preserved": [
+      "All original targets",
+      "Secret passage",
+      "Chest and gold",
+      "Lever wall/south and north stone backing"
+    ],
+    "old_external_lever_closure": "Applies only to parent hash; revised source requires fresh independent check"
+  },
+  "inherited_reference_scope": "Earlier revision_2 and takeover provenance fields were copied by the revision initializer and may contain relocated historical paths. Authoritative ancestry is revision-parent.json with exact source hashes; do not treat absent relocated history paths as new evidence."
+}

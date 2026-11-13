@@ -1,0 +1,230 @@
+{
+  "package_sha256": "426e58f55609494e6288ab8df1d7f8d103933d5cb4a605bc5145df1bc4acc168",
+  "candidate_sha256": "906e63eea067ab01c4f0df2619102dd17a446b7c6858c732f4f03a6f3582de22",
+  "scope": "Author isolated Forge server test using exact frozen ZIP in world/datapacks before startup. No explicit fts7:load/tick calls, no direct function-manager execution or scoreboard enable. Actual natural server function tags create objectives and enable/handle triggers on later distinct world ticks. Permission-zero trigger command dispatch from a server FakePlayer with vanilla ServerGamePacketListenerImpl over EmbeddedChannel for command teleport; no real TCP client input or receive/ack certification.",
+  "runtime_load_tag": [
+    "fts7:load"
+  ],
+  "runtime_tick_tag": [
+    "fts7:tick"
+  ],
+  "objectives_created_before_test_without_manual_load": true,
+  "enabled_datapacks": [
+    "vanilla",
+    "mod:fts7qa",
+    "mod:forge",
+    "file/fts7-datapack.zip"
+  ],
+  "commands": [
+    {
+      "tick": 2,
+      "command": "function fts7:install",
+      "permission": 4
+    },
+    {
+      "tick": 3,
+      "command": "trigger fts7_enter set 1",
+      "permission": 0
+    },
+    {
+      "tick": 5,
+      "command": "trigger fts7_return set 1",
+      "permission": 0
+    },
+    {
+      "tick": 7,
+      "command": "trigger fts7_enter set 1",
+      "permission": 0
+    },
+    {
+      "tick": 11,
+      "command": "trigger fts7_enter set 1",
+      "permission": 0
+    }
+  ],
+  "trace": [
+    {
+      "tick": 2,
+      "return_score": 0,
+      "entry_score": 0,
+      "return_locked": true,
+      "feet": [
+        9992.5,
+        85.0,
+        10028.5
+      ],
+      "stage": 0,
+      "entry_locked": true
+    },
+    {
+      "tick": 3,
+      "return_score": 0,
+      "entry_score": 0,
+      "return_locked": true,
+      "feet": [
+        9992.5,
+        85.0,
+        10028.5
+      ],
+      "stage": 0,
+      "entry_locked": false
+    },
+    {
+      "tick": 4,
+      "return_score": 0,
+      "entry_score": 0,
+      "return_locked": true,
+      "feet": [
+        10014.5,
+        85.0,
+        10028.5
+      ],
+      "stage": 1,
+      "entry_locked": false
+    },
+    {
+      "tick": 5,
+      "return_score": 0,
+      "entry_score": 0,
+      "return_locked": false,
+      "feet": [
+        10014.5,
+        85.0,
+        10028.5
+      ],
+      "stage": 2,
+      "entry_locked": false
+    },
+    {
+      "tick": 6,
+      "return_score": 0,
+      "entry_score": 0,
+      "return_locked": false,
+      "feet": [
+        9992.5,
+        85.0,
+        10028.5
+      ],
+      "stage": 3,
+      "entry_locked": false
+    },
+    {
+      "tick": 7,
+      "return_score": 0,
+      "entry_score": 0,
+      "return_locked": false,
+      "feet": [
+        9992.5,
+        85.0,
+        10028.5
+      ],
+      "stage": 4,
+      "entry_locked": false
+    },
+    {
+      "tick": 8,
+      "return_score": 0,
+      "entry_score": 0,
+      "return_locked": false,
+      "feet": [
+        9980.5,
+        85.0,
+        10028.5
+      ],
+      "stage": 5,
+      "entry_locked": true
+    },
+    {
+      "tick": 9,
+      "return_score": 0,
+      "entry_score": 0,
+      "return_locked": false,
+      "feet": [
+        9980.5,
+        85.0,
+        10028.5
+      ],
+      "stage": 5,
+      "entry_locked": true
+    },
+    {
+      "tick": 10,
+      "return_score": 0,
+      "entry_score": 0,
+      "return_locked": false,
+      "feet": [
+        9980.5,
+        85.0,
+        10028.5
+      ],
+      "stage": 5,
+      "entry_locked": true
+    },
+    {
+      "tick": 11,
+      "return_score": 0,
+      "entry_score": 0,
+      "return_locked": false,
+      "feet": [
+        9980.5,
+        85.0,
+        10028.5
+      ],
+      "stage": 6,
+      "entry_locked": true
+    },
+    {
+      "tick": 12,
+      "return_score": 0,
+      "entry_score": 0,
+      "return_locked": false,
+      "feet": [
+        9980.5,
+        85.0,
+        10028.5
+      ],
+      "stage": 7,
+      "entry_locked": true
+    },
+    {
+      "tick": 13,
+      "return_score": 0,
+      "entry_score": 0,
+      "return_locked": false,
+      "feet": [
+        9980.5,
+        85.0,
+        10028.5
+      ],
+      "stage": 7,
+      "entry_locked": true
+    },
+    {
+      "tick": 14,
+      "return_score": 0,
+      "entry_score": 0,
+      "return_locked": false,
+      "feet": [
+        9980.5,
+        85.0,
+        10028.5
+      ],
+      "stage": 7,
+      "entry_locked": true
+    }
+  ],
+  "entry_enabled_naturally_tick": 3,
+  "entry_natural_tick_teleport": true,
+  "entry_arrival_tick": 4,
+  "return_natural_tick_teleport": true,
+  "return_arrival_tick": 6,
+  "stale_entry_permission_enabled_at_pad": true,
+  "remote_stale_trigger_rejected_naturally": true,
+  "remote_rejection_tick": 10,
+  "remote_disabled_trigger_rejected": true,
+  "status": "AUTHOR_EXACT_PACKAGE_AUTOMATIC_HOOKS_PASS",
+  "last_world_tick": 14,
+  "manual_load_calls": 0,
+  "manual_tick_calls": 0,
+  "manual_enable_calls": 0
+}

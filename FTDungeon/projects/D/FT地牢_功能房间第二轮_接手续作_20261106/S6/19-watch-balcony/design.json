@@ -1,0 +1,96 @@
+{
+  "id": "S6-19",
+  "size": [
+    31,
+    34,
+    75
+  ],
+  "floor_feet": 3,
+  "reference_observations": [
+    "升高观测露台与厚石护栏",
+    "侧面长阶梯",
+    "望远镜值守桌",
+    "后墙武器架与门",
+    "熔岩峡谷视野"
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "feet": [
+        0,
+        3,
+        69
+      ],
+      "width": 3,
+      "clearHeight": 4
+    },
+    {
+      "side": "east",
+      "feet": [
+        30,
+        3,
+        69
+      ],
+      "width": 3,
+      "clearHeight": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "east exit",
+      "position": [
+        30,
+        3,
+        69
+      ]
+    },
+    {
+      "label": "stair base",
+      "position": [
+        21,
+        3,
+        65
+      ]
+    },
+    {
+      "label": "watch platform",
+      "position": [
+        21,
+        7,
+        55
+      ]
+    },
+    {
+      "label": "watch desk",
+      "position": [
+        10,
+        7,
+        53
+      ]
+    },
+    {
+      "label": "weapon rack",
+      "position": [
+        18,
+        7,
+        50
+      ]
+    }
+  ],
+  "differences": [
+    "完整洞室围护内建抬高四格平台，通过八段半格台阶与下层相连",
+    "远景熔岩峡谷改双层完整玻璃观察窗及独立密封熔岩壁，不虚构外部无限空间",
+    "望远镜为避雷针雕塑，无实际放大交互；器械为空架与空箱",
+    "护栏采用两格高完整石块；无外露火柱及岩浆触伤地面",
+    "随包增加44格深封闭火山峡谷，原平台和全部五目标整体平移[0,0,44]；观察窗后不再是贴窗岩壁，原独立窄熔岩壁移除，新增峡谷内密封玻璃顶熔岩流与远处立柱岩桥。"
+  ],
+  "coordinate_migration": {
+    "previous_sha256": "8fe4db3d2a192f9ddee90beedc8296638593c5abb7dc2bfb75eb2ca4dc15a1b2",
+    "previous_local_to_current": [
+      0,
+      0,
+      44
+    ],
+    "reason": "Add 44-block canyon inside the delivered structure north of preserved platform; every preexisting route target translated, none removed"
+  }
+}

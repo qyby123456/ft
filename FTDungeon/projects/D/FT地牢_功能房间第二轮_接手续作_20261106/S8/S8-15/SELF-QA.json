@@ -1,0 +1,39 @@
+{
+  "candidate_sha256": "c58a0400a48324e718753fa1a69ca596a73eb22d00554b21233e15f628f69763",
+  "reference_sha256": "75a0eea2bc2a1e69cec00646fdb38b605e2298ed45484510fa01b4265cf8b92b",
+  "reference_image_viewed": true,
+  "lodestone_cutaway_viewed": true,
+  "self_check": "PASS",
+  "independent_acceptance": "NOT_RUN",
+  "native_report": "qa/independent-native-frozen.json",
+  "route_report": "qa/independent-routes.json",
+  "containers": [
+    {
+      "pos": [
+        29,
+        2,
+        4
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    },
+    {
+      "pos": [
+        31,
+        2,
+        4
+      ],
+      "block": "minecraft:barrel",
+      "empty": true
+    }
+  ],
+  "static_supplement_failures": [],
+  "risks": "No water/lava/fire blocks",
+  "not_run": [
+    "world placement",
+    "neighbor/random/fluid tick simulation",
+    "player gameplay",
+    "independent acceptance"
+  ],
+  "visual_notes": "保留原3x4接口和目标，木门移入内侧凹位避让全矩形。原训练设施保留。"
+}

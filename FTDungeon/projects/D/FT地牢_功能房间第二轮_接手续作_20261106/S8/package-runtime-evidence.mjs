@@ -1,0 +1,28 @@
+import fs from 'node:fs/promises'
+import path from 'node:path'
+import crypto from 'node:crypto'
+const read=async file=>JSON.parse(await fs.readFile(file,'utf8')),asset=async file=>({path:path.resolve(file),sha256:crypto.createHash('sha256').update(await fs.readFile(file)).digest('hex'),bytes:(await fs.stat(file)).size})
+const files=new Set(),rooms=[]
+for(let number=11;number<=20;number++){
+ const id=`S8-${number}`,runtime=number===19?'runtime-r4':'runtime-r2',file=`${runtime}/${id}-runtime.json`,report=await read(file),inventory=await read(`${id}/inventory.json`)
+ if(report.source_sha256!==inventory.sha256)throw Error(`Stale runtime ${id}`)
+ if(report.dropped_items.length||report.lost_water.length||report.spread_water.length)throw Error(`World findings ${id}`)
+ if(report.containers.some(container=>container.occupied_slots!==0))throw Error('Nonempty container')
+ if(report.doors.some(door=>!door.lever_found||!door.after_use_open||door.after_second_use_open))throw Error('Cell door control failed')
+ const invalid=report.differences.filter(change=>!['deepslate_brick_stairs','deepslate_brick_wall','oak_fence'].some(name=>change.before.includes(`minecraft:${name}`)&&change.after.includes(`minecraft:${name}`)))
+ if(invalid.length)throw Error(`Unexpected tick changes ${id}`)
+ rooms.push({id,source_sha256:report.source_sha256,ticks:report.ticks,expected_neighbor_shape_changes:report.differences.length,unexplained_changes:invalid.length,dropped_items:0,water_source_loss:0,water_spread:0,interactions:report.interactions,iron_door_control:report.doors,report:await asset(file)})
+ files.add(file);files.add(`${runtime}/${id}-after.nbt`)
+}
+const ladder=await read('runtime-r4/ladder-physics.json'),merged=await read('runtime-assembly-r2/assembly-runtime.json'),layout=await read('assembly/layout.json'),clear=await read('deployment-plan/plan.json')
+if(ladder.source_sha256!==rooms[0].source_sha256||!ladder.top_landed||!ladder.returned_to_base||!ladder.descent_climbable_observed)throw Error('Ladder runtime failed')
+if(merged.source_sha256!==layout.sha256||!merged.movement_roundtrip_complete||merged.movement_waypoints_reached!==4413||merged.dropped_items.length||merged.lost_water.length||merged.spread_water.length||merged.doors.some(door=>!door.opened||!door.restored||!door.lever_found)||merged.containers.some(container=>!container.server_menu_opened||container.occupied_slots!==0))throw Error('Merged runtime failed')
+if(clear.source_sha256!==layout.sha256)throw Error('Stale clearing plan')
+async function collect(directory,filter){for(const entry of await fs.readdir(directory,{withFileTypes:true})){const file=path.join(directory,entry.name);if(entry.isDirectory()){if(!['server','build','.gradle'].includes(entry.name))await collect(file,filter)}else if(filter(file))files.add(file)}}
+for(const directory of ['runtime-r2','runtime-r4','runtime-assembly-r2'])await collect(directory,file=>/\.(json|log|java|gradle|properties|toml|nbt|mcmeta|ps1)$/.test(file))
+await collect('deployment-plan',()=>true)
+for(const file of ['LadderTests.java','prepare-runtime.mjs','prepare-assembly-runtime.mjs','prepare-clearing.mjs','assembly-reproduction.mjs','assembly-reproduction.json','source-evidence.json','S8GeometryAudit.java','geometry-input.mjs','run-geometry.ps1','references.json'])files.add(file)
+const assets=await Promise.all([...files].sort().map(asset))
+await fs.writeFile('runtime-evidence.json',JSON.stringify({producer_self_check_only:true,independent_acceptance:'NOT_GRANTED',assembly_sha256:layout.sha256,rooms,ladder:{source_sha256:ladder.source_sha256,top_landed:true,descended_on_ladder:true,returned_to_base:true,scope:ladder.scope},assembly:{source_sha256:merged.source_sha256,natural_wait_ticks:merged.natural_wait_ticks,total_server_ticks:merged.server_ticks,target_count:58,waypoints_reached:merged.movement_waypoints_reached,waypoints_total:merged.movement_waypoints_total,roundtrip_complete:true,expected_neighbor_shape_changes:merged.differences.length,containers_opened:merged.containers.length,iron_doors_opened_and_restored:merged.doors.length,drops:0,water_loss:0,water_spread:0,scope:merged.scope},clearing:{size:clear.size,volume:clear.fully_cleared_volume,commands:clear.regions.length,executed:false,plan:await asset('deployment-plan/plan.json')},assets,limitations:['Server-side isolated survival FakePlayer automation, not manual client input, reach certification or combat','Natural waiting and explicit neighbor/fluid scheduling performed; random tick coverage and lighting not exhaustive','S8-18 skull client texture unverified; native payload remains','S8-20 lever has vanilla use only, no invented piston secret door','Production worlds/mods/config/generators untouched; deployment functions generated only'],history:['runtime-r1 failed due missing empty structure namespace, retained','runtime-r3 ladder climbed/landed but first descent steering walked off ladder, retained; corrected steering succeeds in runtime-r4','runtime-assembly-r1 walked all4413 points but door search omitted same-height levers; runtime-assembly-r2 corrected search and all six controls work']},null,2))
+const manifest=await read('ready-for-review.json');manifest.runtime_evidence=await asset('runtime-evidence.json');manifest.assembly_reproduction=await asset('assembly-reproduction.json');manifest.clearing_plan=await asset('deployment-plan/plan.json');manifest.runtime_tests={ladder_up_down:true,merged_waypoints:4413,merged_targets:58,full_apertures_clear:20,merged_containers_opened:32,merged_iron_doors_controlled:6,scope:'Producer isolated server tests only'};await fs.writeFile('ready-for-review.json',JSON.stringify(manifest,null,2))
+console.log('Runtime evidence packaged',assets.length,'assets')

@@ -1,0 +1,123 @@
+{
+  "id": "S7-12",
+  "title": "牢房区",
+  "reference_observed": "中央长通道、双排六间铁栏牢房、红卧铺、守卫桌与桶、侧边巨菇与吊灯、地面水洼",
+  "start": [
+    2,
+    3,
+    16
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "foot": [
+        0,
+        3,
+        16
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    },
+    {
+      "side": "east",
+      "foot": [
+        40,
+        3,
+        16
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "west",
+      "position": [
+        0,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "east",
+      "position": [
+        40,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "north cell 1",
+      "position": [
+        11,
+        3,
+        8
+      ]
+    },
+    {
+      "label": "north cell 2",
+      "position": [
+        22,
+        3,
+        8
+      ]
+    },
+    {
+      "label": "north cell 3",
+      "position": [
+        33,
+        3,
+        8
+      ]
+    },
+    {
+      "label": "south cell 1",
+      "position": [
+        11,
+        3,
+        24
+      ]
+    },
+    {
+      "label": "south cell 2",
+      "position": [
+        22,
+        3,
+        24
+      ]
+    },
+    {
+      "label": "south cell 3",
+      "position": [
+        33,
+        3,
+        24
+      ]
+    },
+    {
+      "label": "guard desk",
+      "position": [
+        32,
+        3,
+        17
+      ]
+    }
+  ],
+  "differences": [
+    "六牢房门预设开启便于验证，不宣称越狱或钥匙机制",
+    "床铺用羊毛与地毯转译，不含可睡眠床实体",
+    "水洼覆玻璃；无流体tick测试",
+    "完整洞顶与前墙补齐；钥匙墙、粒子不实现"
+  ],
+  "revision_2": {
+    "reason": "Independent visual preliminary REQUEST_CHANGES",
+    "preserved_evidence": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\local-relief-v4\\history\\pre-visual-request-changes\\S7-12",
+    "changes": [
+      "Continuous irregular floor patches replace per-cell checkerboard",
+      "Wave-based clustered cave palette, projecting upper ledges, supported hanging roots and mushrooms",
+      "Stone-and-log layered frames at unchanged clear ports",
+      "Feature-detail render supplements overview; no targets removed"
+    ]
+  },
+  "takeover_source_manifest": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\local-relief-v4\\takeover-source-manifest.json"
+}

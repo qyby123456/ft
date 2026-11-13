@@ -1,0 +1,86 @@
+{
+  "interactions": [
+    {
+      "position": [
+        15,
+        4,
+        5
+      ],
+      "changed": false,
+      "block": "Block{minecraft:chest}[facing\u003dsouth,type\u003dsingle,waterlogged\u003dfalse]",
+      "result": "CONSUME",
+      "container_menu_opened": true,
+      "scope": "Real BlockState.use with isolated FakePlayer; no network client input or reach/path certification"
+    },
+    {
+      "position": [
+        9,
+        3,
+        8
+      ],
+      "changed": true,
+      "block": "Block{minecraft:lever}[face\u003dwall,facing\u003deast,powered\u003dfalse]",
+      "result": "CONSUME",
+      "container_menu_opened": false,
+      "scope": "Real BlockState.use with isolated FakePlayer; no network client input or reach/path certification"
+    }
+  ],
+  "source_sha256": "a85c111a4c548b9f10c0ff01ea2c483d57f40ad3dff732efdcfee2a969af0c82",
+  "room": "S8-20",
+  "ticks": 220,
+  "differences": [
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003douter_right,waterlogged\u003dfalse]",
+      "position": [
+        2,
+        10,
+        2
+      ]
+    },
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003douter_left,waterlogged\u003dfalse]",
+      "position": [
+        2,
+        10,
+        20
+      ]
+    },
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003douter_left,waterlogged\u003dfalse]",
+      "position": [
+        28,
+        10,
+        2
+      ]
+    },
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003douter_right,waterlogged\u003dfalse]",
+      "position": [
+        28,
+        10,
+        20
+      ]
+    }
+  ],
+  "lost_water": [],
+  "spread_water": [],
+  "dropped_items": [],
+  "containers": [
+    {
+      "occupied_slots": 0,
+      "type": "Block{minecraft:chest}",
+      "position": [
+        15,
+        4,
+        5
+      ]
+    }
+  ],
+  "doors": [],
+  "producer_self_check_only": true,
+  "scope": "Fresh isolated Forge 1.20.1 ServerLevel, real vanilla StructureTemplate placement UPDATE_ALL knownShape\u003dfalse, explicit neighbor updates, 220 forced-chunk server/fluid ticks. Lever.use opens/closes door checks. Not random tick coverage, physical player travel, combat or independent acceptance."
+}

@@ -1,0 +1,107 @@
+{
+  "id": "S7-18",
+  "title": "骨室墓窖",
+  "reference_observed": "后墙双骨龛、中央大祭台石棺和两侧小棺、烛光与悬灯、后侧高位巨菇、双门与前水洼",
+  "start": [
+    2,
+    3,
+    15
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "foot": [
+        0,
+        3,
+        15
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    },
+    {
+      "side": "east",
+      "foot": [
+        34,
+        3,
+        15
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "west",
+      "position": [
+        0,
+        3,
+        15
+      ]
+    },
+    {
+      "label": "east",
+      "position": [
+        34,
+        3,
+        15
+      ]
+    },
+    {
+      "label": "altar approach",
+      "position": [
+        17,
+        3,
+        12
+      ]
+    },
+    {
+      "label": "north niches",
+      "position": [
+        10,
+        3,
+        7
+      ]
+    },
+    {
+      "label": "east niches",
+      "position": [
+        26,
+        3,
+        8
+      ]
+    },
+    {
+      "label": "front left crypt",
+      "position": [
+        8,
+        3,
+        28
+      ]
+    },
+    {
+      "label": "front right crypt",
+      "position": [
+        28,
+        3,
+        28
+      ]
+    }
+  ],
+  "differences": [
+    "骨堆以真实骷髅头方块表达，无亡灵刷怪或掉落",
+    "石棺完全静态，无开启或战利品",
+    "保留蜡烛方块但不声明游戏光传播测试",
+    "水洼玻璃隔离；完整洞顶另以剖切显示"
+  ],
+  "revision_2": {
+    "reason": "Independent visual preliminary REQUEST_CHANGES",
+    "preserved_evidence": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\visual-depth-v3\\history\\pre-visual-request-changes\\S7-18",
+    "changes": [
+      "Continuous irregular floor patches replace per-cell checkerboard",
+      "Wave-based clustered cave palette, projecting upper ledges, supported hanging roots and mushrooms",
+      "Stone-and-log layered frames at unchanged clear ports",
+      "Feature-detail render supplements overview; no targets removed"
+    ]
+  },
+  "takeover_source_manifest": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\revisions\\visual-depth-v3\\takeover-source-manifest.json"
+}

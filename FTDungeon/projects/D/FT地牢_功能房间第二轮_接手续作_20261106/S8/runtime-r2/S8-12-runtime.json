@@ -1,0 +1,191 @@
+{
+  "interactions": [
+    {
+      "position": [
+        9,
+        2,
+        5
+      ],
+      "changed": true,
+      "block": "Block{minecraft:lever}[face\u003dwall,facing\u003deast,powered\u003dfalse]",
+      "result": "CONSUME",
+      "container_menu_opened": false,
+      "scope": "Real BlockState.use with isolated FakePlayer; no network client input or reach/path certification"
+    },
+    {
+      "position": [
+        23,
+        2,
+        5
+      ],
+      "changed": true,
+      "block": "Block{minecraft:lever}[face\u003dwall,facing\u003dwest,powered\u003dfalse]",
+      "result": "CONSUME",
+      "container_menu_opened": false,
+      "scope": "Real BlockState.use with isolated FakePlayer; no network client input or reach/path certification"
+    },
+    {
+      "position": [
+        9,
+        2,
+        12
+      ],
+      "changed": true,
+      "block": "Block{minecraft:lever}[face\u003dwall,facing\u003deast,powered\u003dfalse]",
+      "result": "CONSUME",
+      "container_menu_opened": false,
+      "scope": "Real BlockState.use with isolated FakePlayer; no network client input or reach/path certification"
+    },
+    {
+      "position": [
+        23,
+        2,
+        12
+      ],
+      "changed": true,
+      "block": "Block{minecraft:lever}[face\u003dwall,facing\u003dwest,powered\u003dfalse]",
+      "result": "CONSUME",
+      "container_menu_opened": false,
+      "scope": "Real BlockState.use with isolated FakePlayer; no network client input or reach/path certification"
+    },
+    {
+      "position": [
+        9,
+        2,
+        19
+      ],
+      "changed": true,
+      "block": "Block{minecraft:lever}[face\u003dwall,facing\u003deast,powered\u003dfalse]",
+      "result": "CONSUME",
+      "container_menu_opened": false,
+      "scope": "Real BlockState.use with isolated FakePlayer; no network client input or reach/path certification"
+    },
+    {
+      "position": [
+        23,
+        2,
+        19
+      ],
+      "changed": true,
+      "block": "Block{minecraft:lever}[face\u003dwall,facing\u003dwest,powered\u003dfalse]",
+      "result": "CONSUME",
+      "container_menu_opened": false,
+      "scope": "Real BlockState.use with isolated FakePlayer; no network client input or reach/path certification"
+    }
+  ],
+  "source_sha256": "5f5858c6906aa836f0cfc9ba6c83f715f9657eef997f3ce3407a305262b07c1a",
+  "room": "S8-12",
+  "ticks": 220,
+  "differences": [
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003douter_right,waterlogged\u003dfalse]",
+      "position": [
+        2,
+        11,
+        2
+      ]
+    },
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003deast,half\u003dtop,shape\u003douter_left,waterlogged\u003dfalse]",
+      "position": [
+        2,
+        11,
+        30
+      ]
+    },
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003douter_left,waterlogged\u003dfalse]",
+      "position": [
+        30,
+        11,
+        2
+      ]
+    },
+    {
+      "before": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003dstraight,waterlogged\u003dfalse]",
+      "after": "Block{minecraft:deepslate_brick_stairs}[facing\u003dwest,half\u003dtop,shape\u003douter_right,waterlogged\u003dfalse]",
+      "position": [
+        30,
+        11,
+        30
+      ]
+    }
+  ],
+  "lost_water": [],
+  "spread_water": [],
+  "dropped_items": [],
+  "containers": [],
+  "doors": [
+    {
+      "after_second_use_open": false,
+      "lever_found": true,
+      "position": [
+        8,
+        2,
+        6
+      ],
+      "before_open": false,
+      "after_use_open": true
+    },
+    {
+      "after_second_use_open": false,
+      "lever_found": true,
+      "position": [
+        24,
+        2,
+        6
+      ],
+      "before_open": false,
+      "after_use_open": true
+    },
+    {
+      "after_second_use_open": false,
+      "lever_found": true,
+      "position": [
+        8,
+        2,
+        13
+      ],
+      "before_open": false,
+      "after_use_open": true
+    },
+    {
+      "after_second_use_open": false,
+      "lever_found": true,
+      "position": [
+        24,
+        2,
+        13
+      ],
+      "before_open": false,
+      "after_use_open": true
+    },
+    {
+      "after_second_use_open": false,
+      "lever_found": true,
+      "position": [
+        8,
+        2,
+        20
+      ],
+      "before_open": false,
+      "after_use_open": true
+    },
+    {
+      "after_second_use_open": false,
+      "lever_found": true,
+      "position": [
+        24,
+        2,
+        20
+      ],
+      "before_open": false,
+      "after_use_open": true
+    }
+  ],
+  "producer_self_check_only": true,
+  "scope": "Fresh isolated Forge 1.20.1 ServerLevel, real vanilla StructureTemplate placement UPDATE_ALL knownShape\u003dfalse, explicit neighbor updates, 220 forced-chunk server/fluid ticks. Lever.use opens/closes door checks. Not random tick coverage, physical player travel, combat or independent acceptance."
+}

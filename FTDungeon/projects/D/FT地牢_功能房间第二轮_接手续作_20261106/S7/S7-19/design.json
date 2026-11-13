@@ -1,0 +1,100 @@
+{
+  "id": "S7-19",
+  "title": "瞭望台",
+  "reference_observed": "高台三面石护栏、左前观察桌望远镜、后部器械架、右侧向下长阶和后门、左侧大洞景与巨菇",
+  "start": [
+    2,
+    3,
+    32
+  ],
+  "ports": [
+    {
+      "side": "west",
+      "foot": [
+        0,
+        3,
+        32
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    },
+    {
+      "side": "east",
+      "foot": [
+        38,
+        9,
+        15
+      ],
+      "clear_width": 3,
+      "clear_height": 4
+    }
+  ],
+  "targets": [
+    {
+      "label": "lower entry",
+      "position": [
+        0,
+        3,
+        32
+      ]
+    },
+    {
+      "label": "stair bottom",
+      "position": [
+        30,
+        3.5,
+        36
+      ]
+    },
+    {
+      "label": "stair middle",
+      "position": [
+        30,
+        6,
+        31
+      ]
+    },
+    {
+      "label": "upper landing",
+      "position": [
+        30,
+        9,
+        23
+      ]
+    },
+    {
+      "label": "watch desk",
+      "position": [
+        17,
+        9,
+        22
+      ]
+    },
+    {
+      "label": "upper exit",
+      "position": [
+        38,
+        9,
+        15
+      ]
+    }
+  ],
+  "differences": [
+    "高台上下差6格，12个半格步级实现不跳跃连通；原图石阶转为原版半砖",
+    "望远镜使用水平末地烛轮廓，非可使用望远镜物品",
+    "下层为实心支撑加安全步道，无虚空坠落",
+    "左侧观察窗清除遮挡平墙，透明玻璃外为有菌菇的封闭景深洞龛；不是无限洞穴。柱间石墙栏杆保留防坠。",
+    "左侧观察窗清除遮挡平墙，透明玻璃外为有菌菇的封闭景深洞龛；不是无限洞穴。柱间石墙栏杆保留防坠。"
+  ],
+  "revision_2": {
+    "reason": "Independent visual preliminary REQUEST_CHANGES",
+    "preserved_evidence": "D:\\ft工程文件\\FT地牢_功能房间第二轮_20261106\\S7\\history\\pre-visual-request-changes\\S7-19",
+    "changes": [
+      "Continuous irregular floor patches replace per-cell checkerboard",
+      "Wave-based clustered cave palette, projecting upper ledges, supported hanging roots and mushrooms",
+      "Stone-and-log layered frames at unchanged clear ports",
+      "Feature-detail render supplements overview; no targets removed"
+    ]
+  },
+  "takeover_source_manifest": "D:\\ft工程文件\\FT地牢_功能房间第二轮_接手续作_20261106\\S7\\takeover-source-manifest.json"
+}

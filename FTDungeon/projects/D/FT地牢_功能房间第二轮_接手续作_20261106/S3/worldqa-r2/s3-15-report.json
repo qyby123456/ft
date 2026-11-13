@@ -1,0 +1,66 @@
+{
+  "id": "s3-15",
+  "source_sha256": "4b1c75d094d6aeb7af438eff295c4d25cd178fa6116fc3cb4d97ab3d9603b9cf",
+  "origin": [
+    960,
+    100,
+    512
+  ],
+  "size": [
+    35,
+    14,
+    29
+  ],
+  "cleared_volume": 14210,
+  "elapsed_ticks": 1200,
+  "state_changes": [],
+  "support_failures": [],
+  "dropped_items": [],
+  "doors_before_interaction": [
+    {
+      "open": true,
+      "position": [
+        33,
+        2,
+        11
+      ],
+      "powered": false
+    }
+  ],
+  "locks": [],
+  "walk": {
+    "failures": 0,
+    "targets": [
+      {
+        "label": "east exit",
+        "reachable": true,
+        "moves": 140,
+        "error": "",
+        "collision_move_roundtrip": true
+      },
+      {
+        "label": "targets",
+        "reachable": true,
+        "moves": 112,
+        "error": "",
+        "collision_move_roundtrip": true
+      },
+      {
+        "label": "training centre",
+        "reachable": true,
+        "moves": 72,
+        "error": "",
+        "collision_move_roundtrip": true
+      },
+      {
+        "label": "audience",
+        "reachable": true,
+        "moves": 120,
+        "error": "",
+        "collision_move_roundtrip": true
+      }
+    ],
+    "visited_nodes": 2543,
+    "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+  }
+}

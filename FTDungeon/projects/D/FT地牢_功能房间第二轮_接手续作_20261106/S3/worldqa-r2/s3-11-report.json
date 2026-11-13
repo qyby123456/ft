@@ -1,0 +1,68 @@
+{
+  "id": "s3-11",
+  "source_sha256": "d0dfb6e6d2d1d95dec5ae3c20ad170efcadf0713c019d7defa0fa0334c54209f",
+  "origin": [
+    512,
+    100,
+    512
+  ],
+  "size": [
+    31,
+    15,
+    27
+  ],
+  "cleared_volume": 12555,
+  "elapsed_ticks": 1200,
+  "state_changes": [],
+  "support_failures": [],
+  "dropped_items": [],
+  "doors_before_interaction": [],
+  "locks": [
+    {
+      "correct_key_opened_menu": true,
+      "empty_hand_denied": true,
+      "wrong_name_denied": true,
+      "position": [
+        26,
+        3,
+        4
+      ],
+      "key": "Frost archive key"
+    }
+  ],
+  "walk": {
+    "failures": 0,
+    "targets": [
+      {
+        "label": "east exit",
+        "reachable": true,
+        "moves": 128,
+        "error": "",
+        "collision_move_roundtrip": true
+      },
+      {
+        "label": "back shelves",
+        "reachable": true,
+        "moves": 104,
+        "error": "",
+        "collision_move_roundtrip": true
+      },
+      {
+        "label": "reading aisle",
+        "reachable": true,
+        "moves": 60,
+        "error": "",
+        "collision_move_roundtrip": true
+      },
+      {
+        "label": "cabinet",
+        "reachable": true,
+        "moves": 128,
+        "error": "",
+        "collision_move_roundtrip": true
+      }
+    ],
+    "visited_nodes": 1712,
+    "scope": "Real post-tick collision shapes, half-block horizontal / sixteenth-block height search, maximum one-block step using lift-horizontal-lower Entity.move; no jump, gravity or keyboard certification"
+  }
+}
