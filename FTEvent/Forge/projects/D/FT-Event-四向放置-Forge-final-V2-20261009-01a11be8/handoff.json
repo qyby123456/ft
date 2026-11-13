@@ -1,0 +1,79 @@
+{
+  "threadId": "01a11be8-fba2-77a3-a117-5471717a4c17",
+  "title": "event四向放置",
+  "time": "2026-10-09T12:23:23+08:00",
+  "archive_root": "D:\\ft工程文件\\FT-Event-四向放置-Forge-final-V2-20261009-01a11be8",
+  "scope": "Forge 1.5.2 Event blocks only",
+  "status": "STOPPED",
+  "installed": false,
+  "game_tested": false,
+  "early_four_way_placement_still_installed": true,
+  "core_structure_rotation_mirror_increment_applied": false,
+  "no_write_status": "Final JAR preflight locked; stopped before backup or write. The three-entry V2 delta is validated but NOT installed.",
+  "source": "project/src",
+  "runtime": "runtime/qys-event-core-facing.entries.zip",
+  "runtime_manifest": "runtime/manifest.json",
+  "preview": "preview/viewer.html",
+  "unified_preview": "http://127.0.0.1:18790/event_four_way/viewer.html",
+  "runtime_entries": [
+    "qys_event.mixins.json",
+    "cn/farmingtales/qysevent/CoreFacingPolicy.class",
+    "cn/farmingtales/qysevent/mixin/CoreFacingMixin.class"
+  ],
+  "baseline_sha256": "36b8165e3ece55506abd4ea325608732fec20e26cc17af9e1f11ca4056afade8",
+  "actual_after_sha256": "36b8165e3ece55506abd4ea325608732fec20e26cc17af9e1f11ca4056afade8",
+  "backup": null,
+  "preserved": [
+    "109 non-target JAR entries",
+    "48 existing class files",
+    "current optimized 1080-face models",
+    "all KubeJS startup/server/client scripts",
+    "resourcepack and textures",
+    "original Event/weather/wish logic"
+  ],
+  "neo_rollback": {
+    "read_only": true,
+    "written": false,
+    "rollback_verified": true,
+    "files": [
+      {
+        "path": "mods/qys-event-neoforge-1.21.1-1.0.8.jar",
+        "sha256": "88106221c2e6d43cb7a19fd60f1a4fc31884c75f2a1ece41fa8a05fb6d0e0b40",
+        "matches_coordinator_rollback": true
+      },
+      {
+        "path": "kubejs/startup_scripts/content/wishing_well.js",
+        "sha256": "2574d2a3f402b60c7bc4dc41296780162abed48b96a5f88ace565d86a2235eb7",
+        "matches_coordinator_rollback": true
+      },
+      {
+        "path": "kubejs/assets/farmingtales/blockstates/wishing_well_core.json",
+        "sha256": "fd618ae6a8fc8bb956494b3af6fa0ea5b2516b379fb6f613d608e47033cadc10",
+        "matches_coordinator_rollback": true
+      }
+    ]
+  },
+  "qys_bosses_written": false,
+  "manor_scaling_speed": "N/A, no manor hooks",
+  "skill_effect_coverage": {
+    "status": "N/A with evidence",
+    "evidence": "Only three existing static blocks, their facing/rotation/mirror hooks and collision/state audit; no Boss skills, manor multipliers or shared qys-bosses assets/classes are modified"
+  },
+  "pending_in_game": [
+    "Full Forge restart and resource bake",
+    "Place each block in four horizontal directions",
+    "Structure rotation and mirror, with unchanged core collision",
+    "Old saved block states",
+    "Emerald oracle, forecast and wishing-well interaction",
+    "Multiblock recognition, multiplayer and lighting"
+  ],
+  "early_versions": {
+    "status": "superseded, retained for coordinator cleanup",
+    "paths": [
+      "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\versions\\FarmingTales_ForgeⅡ v1.5.2\\_work\\event-four-way-20261008",
+      "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\versions\\FarmingTales_ForgeⅡ v1.5.2\\_work\\event-four-way-final-20261008",
+      "D:/ft工程文件/FT-Event-四向放置-Forge-final-20261008"
+    ]
+  },
+  "test_fixtures": "preview/revisions/superseded-preoptimization is comparison-only; no runtime/render resource points to it"
+}

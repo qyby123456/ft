@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "time": "2026-10-09T12:23:16+08:00",
+  "installed": false,
+  "deployment_status": "STOPPED",
+  "old_sha256": "36b8165e3ece55506abd4ea325608732fec20e26cc17af9e1f11ca4056afade8",
+  "actual_after_sha256": "36b8165e3ece55506abd4ea325608732fec20e26cc17af9e1f11ca4056afade8",
+  "changed_instance_files": [],
+  "expected_writes": [],
+  "backup_created": false,
+  "all_script_and_model_hashes_unchanged": true,
+  "neo_rollback": {
+    "read_only": true,
+    "written": false,
+    "rollback_verified": true,
+    "files": [
+      {
+        "path": "mods/qys-event-neoforge-1.21.1-1.0.8.jar",
+        "sha256": "88106221c2e6d43cb7a19fd60f1a4fc31884c75f2a1ece41fa8a05fb6d0e0b40",
+        "matches_coordinator_rollback": true
+      },
+      {
+        "path": "kubejs/startup_scripts/content/wishing_well.js",
+        "sha256": "2574d2a3f402b60c7bc4dc41296780162abed48b96a5f88ace565d86a2235eb7",
+        "matches_coordinator_rollback": true
+      },
+      {
+        "path": "kubejs/assets/farmingtales/blockstates/wishing_well_core.json",
+        "sha256": "fd618ae6a8fc8bb956494b3af6fa0ea5b2516b379fb6f613d608e47033cadc10",
+        "matches_coordinator_rollback": true
+      }
+    ]
+  },
+  "core_rotation_mirror_increment_applied": false,
+  "candidate_validation_passed": true,
+  "game_tested": false,
+  "qys_bosses_written": false
+}

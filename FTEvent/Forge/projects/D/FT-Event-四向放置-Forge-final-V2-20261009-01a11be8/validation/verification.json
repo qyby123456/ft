@@ -1,0 +1,302 @@
+{
+  "scope": "Forge Event blocks only; no manor scaling or character/spell effect scope",
+  "passed": true,
+  "time": "2026-10-09T12:20:29+08:00",
+  "models": [
+    {
+      "name": "oracle",
+      "elements": 98,
+      "quads": 510,
+      "bounds": {
+        "minimum": [
+          0,
+          0,
+          0
+        ],
+        "maximum": [
+          16,
+          15.55,
+          16
+        ]
+      },
+      "textures_valid": true,
+      "item_parent_valid": true,
+      "all_exposed_faces_present": true,
+      "hidden_faces_proven_covered": true,
+      "single_block_bounds": true,
+      "minecraft_rotation_constraints": true
+    },
+    {
+      "name": "weather_forecaster",
+      "elements": 55,
+      "quads": 288,
+      "bounds": {
+        "minimum": [
+          0,
+          0,
+          0
+        ],
+        "maximum": [
+          16,
+          15.65,
+          16
+        ]
+      },
+      "textures_valid": true,
+      "item_parent_valid": true,
+      "all_exposed_faces_present": true,
+      "hidden_faces_proven_covered": true,
+      "single_block_bounds": true,
+      "minecraft_rotation_constraints": true
+    },
+    {
+      "name": "wishing_well_core",
+      "elements": 57,
+      "quads": 282,
+      "bounds": {
+        "minimum": [
+          0,
+          0,
+          0
+        ],
+        "maximum": [
+          16,
+          7.9574432833120206,
+          16
+        ]
+      },
+      "textures_valid": true,
+      "item_parent_valid": true,
+      "all_exposed_faces_present": true,
+      "hidden_faces_proven_covered": true,
+      "single_block_bounds": true,
+      "minecraft_rotation_constraints": true
+    }
+  ],
+  "collision": {
+    "passed": true,
+    "rotated_vertices_checked": 1824,
+    "boxes": [
+      [
+        0,
+        0,
+        0,
+        16,
+        4,
+        16
+      ],
+      [
+        3,
+        4,
+        3,
+        13,
+        8,
+        13
+      ]
+    ],
+    "all_four_horizontal_rotations_preserve_shape": true
+  },
+  "blockstates": "north=0, east=90, south=180, west=270 for all three blocks",
+  "neo": {
+    "read_only": true,
+    "written": false,
+    "rollback_verified": true,
+    "files": [
+      {
+        "path": "mods/qys-event-neoforge-1.21.1-1.0.8.jar",
+        "sha256": "88106221c2e6d43cb7a19fd60f1a4fc31884c75f2a1ece41fa8a05fb6d0e0b40",
+        "matches_coordinator_rollback": true
+      },
+      {
+        "path": "kubejs/startup_scripts/content/wishing_well.js",
+        "sha256": "2574d2a3f402b60c7bc4dc41296780162abed48b96a5f88ace565d86a2235eb7",
+        "matches_coordinator_rollback": true
+      },
+      {
+        "path": "kubejs/assets/farmingtales/blockstates/wishing_well_core.json",
+        "sha256": "fd618ae6a8fc8bb956494b3af6fa0ea5b2516b379fb6f613d608e47033cadc10",
+        "matches_coordinator_rollback": true
+      }
+    ]
+  },
+  "jar_delta": {
+    "modified": [
+      "qys_event.mixins.json"
+    ],
+    "added": [
+      "cn/farmingtales/qysevent/CoreFacingPolicy.class",
+      "cn/farmingtales/qysevent/mixin/CoreFacingMixin.class"
+    ],
+    "unchanged_entries": 109,
+    "unchanged_classes": 48
+  },
+  "forge_runtime": {
+    "passed": true,
+    "assertions": 21,
+    "jvm_linkage": true,
+    "asm_runtime_types": true,
+    "oracle_weather_methods_equal": true,
+    "interaction_preserved": true,
+    "kubejs_api_verified": true
+  },
+  "core_runtime": {
+    "passed": true,
+    "assertions": 60,
+    "rotation_mirror_cases": 28,
+    "scope_guard_cases": 10,
+    "exact_mixin_selectors_checked": true,
+    "kubejs_fallback_checked": true,
+    "game_mixin_application_tested": false
+  },
+  "safety_tests": {
+    "passed": true,
+    "tests": 9,
+    "scope": "Isolated fixtures inside current project; no runtime instance files written"
+  },
+  "preview": {
+    "models": [
+      {
+        "name": "weather_forecaster",
+        "views": [
+          "perspective",
+          "front",
+          "back",
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ],
+        "elementCount": 55
+      },
+      {
+        "name": "oracle",
+        "views": [
+          "perspective",
+          "front",
+          "back",
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ],
+        "elementCount": 98
+      },
+      {
+        "name": "wishing_well_core",
+        "views": [
+          "perspective",
+          "front",
+          "back",
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ],
+        "elementCount": 57
+      }
+    ],
+    "errors": [],
+    "previewOnly": true,
+    "gameLightingNotSimulated": true,
+    "controls": [
+      "model-switch",
+      "seven-views",
+      "four-way-placement-orientation",
+      "wireframe",
+      "zoom",
+      "orbit",
+      "mobile-layout",
+      "play-pause",
+      "timeline",
+      "speed",
+      "reset",
+      "1.8-block-avatar"
+    ],
+    "placementOrientationCases": 12,
+    "relativeAssetPathsPassed": true,
+    "unifiedEntryUrl": null
+  },
+  "unified_preview": {
+    "models": [
+      {
+        "name": "weather_forecaster",
+        "views": [
+          "perspective",
+          "front",
+          "back",
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ],
+        "elementCount": 55
+      },
+      {
+        "name": "oracle",
+        "views": [
+          "perspective",
+          "front",
+          "back",
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ],
+        "elementCount": 98
+      },
+      {
+        "name": "wishing_well_core",
+        "views": [
+          "perspective",
+          "front",
+          "back",
+          "left",
+          "right",
+          "top",
+          "bottom"
+        ],
+        "elementCount": 57
+      }
+    ],
+    "errors": [],
+    "previewOnly": true,
+    "gameLightingNotSimulated": true,
+    "controls": [
+      "model-switch",
+      "seven-views",
+      "four-way-placement-orientation",
+      "wireframe",
+      "zoom",
+      "orbit",
+      "mobile-layout",
+      "play-pause",
+      "timeline",
+      "speed",
+      "reset",
+      "1.8-block-avatar"
+    ],
+    "placementOrientationCases": 12,
+    "relativeAssetPathsPassed": true,
+    "unifiedEntryUrl": "http://127.0.0.1:18790/event_four_way/viewer.html"
+  },
+  "event_regression": "qys-event verified: 19 daily events, 32 special weathers, brown Heavy Snow rain, 9 boss-minion outcomes and 1-3x kitchen yield.",
+  "payload_sha256": {
+    "qys_event.mixins.json": "45665ce038fb961ef4194bdecc745978395a94be52bfac2110b09dba3bf5b6f3",
+    "cn/farmingtales/qysevent/CoreFacingPolicy.class": "98992109380220f53ad3a5118ff397024fb7ed0f1fe48a0f27850642dc108c92",
+    "cn/farmingtales/qysevent/mixin/CoreFacingMixin.class": "b56d791869eecc7747ea4a68ee08813b77d2c2299010f36a7008625c8b8132a1"
+  },
+  "game_tested": false,
+  "actual_mixin_application_in_game_tested": false,
+  "pending_in_game": [
+    "Full Forge restart and resource bake",
+    "Place each block in four horizontal directions",
+    "Structure rotation and mirror, with unchanged core collision",
+    "Old saved block states",
+    "Emerald oracle, forecast and wishing-well interaction",
+    "Multiblock recognition, multiplayer and lighting"
+  ],
+  "skill_effect_coverage": {
+    "status": "N/A with evidence",
+    "evidence": "Only three existing static blocks, their facing/rotation/mirror hooks and collision/state audit; no Boss skills, manor multipliers or shared qys-bosses assets/classes are modified"
+  }
+}
