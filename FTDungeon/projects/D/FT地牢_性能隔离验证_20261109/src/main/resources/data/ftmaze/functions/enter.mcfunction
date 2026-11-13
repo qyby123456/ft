@@ -1,0 +1,1 @@
+execute if score @s ftm_party = #nonce ftm_state if score #run ftm_state matches 2..4 if dimension minecraft:overworld if entity @e[type=minecraft:marker,tag=ftmaze.lobby,distance=..8,limit=1] run function ftmaze:entry/save

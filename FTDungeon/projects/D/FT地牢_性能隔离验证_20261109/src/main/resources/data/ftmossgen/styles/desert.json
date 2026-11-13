@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "id": "ftmossgen:desert",
+  "title": "砂岩太阳遗迹",
+  "icon": "minecraft:chiseled_sandstone",
+  "catalog": "ftmossgen:catalog",
+  "capBlock": "minecraft:cut_sandstone",
+  "barrierBlock": "minecraft:yellow_stained_glass",
+  "melee": "minecraft:husk",
+  "ranged": "minecraft:skeleton",
+  "bossType": "minecraft:husk",
+  "bossName": "日轮陵寝守卫",
+  "bossHealth": 220.0,
+  "bossDamage": 11.0,
+  "roomCooldownTicks": 3600,
+  "instanceCap": 64,
+  "palette": {
+    "minecraft:mossy_stone_bricks": "minecraft:cut_sandstone",
+    "minecraft:stone_bricks": "minecraft:smooth_sandstone",
+    "minecraft:mossy_cobblestone": "minecraft:sandstone",
+    "minecraft:cobblestone": "minecraft:chiseled_sandstone",
+    "minecraft:moss_block": "minecraft:terracotta",
+    "minecraft:dark_oak_log": "minecraft:chiseled_sandstone",
+    "minecraft:oak_log": "minecraft:cut_sandstone",
+    "minecraft:dark_oak_planks": "minecraft:smooth_sandstone",
+    "minecraft:oak_leaves": "minecraft:yellow_terracotta",
+    "minecraft:green_stained_glass": "minecraft:yellow_stained_glass",
+    "minecraft:shroomlight": "minecraft:glowstone"
+  },
+  "pools": {},
+  "decorations": [
+    {"block":"minecraft:cut_sandstone","mode":"air","role":"room","from":[8,9,8],"to":[39,23,39],"spacing":6},
+    {"block":"minecraft:chiseled_sandstone","mode":"air","role":"turn","from":[7,9,7],"to":[40,24,40],"spacing":7},
+    {"block":"minecraft:cut_sandstone","mode":"air","role":"terminal","from":[8,9,8],"to":[39,23,39],"spacing":6},
+    {"block":"minecraft:gold_block","mode":"air","role":"promenade","from":[9,10,9],"to":[38,22,38],"spacing":9},
+    {"block":"minecraft:chiseled_sandstone","mode":"air","role":"boss","from":[3,9,3],"to":[30,19,24],"spacing":6}
+  ]
+}
