@@ -1,0 +1,15 @@
+# 最终原生连续几何的目录方独立复算
+
+只读消费integration/v6-final最终精确快照和真实原生形状，在本目录锁副本后执行冻结的full-width-certificate-v6计算器。不会改integration输入/输出、任何冻结契约、原模板或正式实例。新capture不能覆盖现有inputs；追加复核应另建版本目录。
+
+执行：既有Python解释器以-B运行review_native.py --native <integration/v6-final下真实INDEPENDENT_NATIVE_SHAPES.json> --snapshot <integration/v6-final/staging/最终版本>。脚本拒绝v6-final外的输入、非bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f产物或冻结文件哈希不符。
+
+输入锁记录原native路径/SHA、最终snapshot-lock、每组件ready、实际JAR、冻结contract/calculator/schema副本和校验全部快照文件结果；复算后再核原路径哈希，防止进行中替换。collector源码副本明确为当次只读当前版本，实际执行必须仍由integration的快照/运行记录确认，不能以当前源码代替历史执行证明。
+
+逐条核查12strip/4416条目、quarterTurns、源SHA、原宽/三高、实际nativeState==sourceRotatedState、无fluid、整数世界格旋转（负轴包含-1格补偿）及所有nativeWorldBoxes八角逆变换。原生AABB完整保留，不据方块名生成碰撞盒、不裁剪合法外伸。
+
+capture-audit.json区分真实采集瞬间的状态相等与未证明的动态稳定：每strip仅一个记录中的站立FakePlayer contextFeet，不能冒称整个楼梯动态CollisionContext不变，也不能冒称原生step已执行。finite-certificate.json为实际冻结算法输出，review-summary.json逐strip列有限原子数、阻塞数和原生步高边界待证数量。
+
+即便冻结算法返回CONDITIONAL_FINITE_COVERAGE_PASS，本复核只支持真实静态形状输入下的有限区间覆盖；状态/上下文沿路稳定、连续双向原生step、门交互和最终生成器放行仍由integration独立取证。结果不改accepted，不将合成测试或原生数据存在本身叫世界通路PASS。
+
+progress.json明确输入是否待到、核验中、复算中或已完成；ready仅为目录方复算交付，不替代integration自己的证书执行和独立验收。

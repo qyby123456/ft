@@ -1,0 +1,12 @@
+{
+  "component": "catalog",
+  "apiVersion": 1,
+  "issues": [
+    {"id":"C-SCOPE-01","severity":"limitation","status":"OPEN","summary":"Only s8 straight/L architectural normal rooms are formally bundled; original entrance and terminal gameplay are not supported by this minimal pool."},
+    {"id":"C-SAFETY-02","severity":"integration-requirement","status":"OPEN","summary":"Original unused ports are open. Runtime must close unused apertures and protect the whole reserved envelope without altering immutable source resources or blocking used links."},
+    {"id":"C-ROTATION-03","severity":"validation-required","status":"NOT_RUN","summary":"Coordinate/inverse/actual-aperture tests pass all rotations. Native rotated block states, attachments/neighbor ticks and world walkability require isolated integration validation."},
+    {"id":"C-BIOMES-04","severity":"deferred","status":"OPEN","summary":"All 72 base-round room NBTs were decoded. Other pools deferred conservatively: exposed or contained liquids still require runtime validation; block entities/entities, falling blocks, dynamic or not-native-verified palette states, even/asymmetric apertures, missing/hash-unbound metadata or source/layout discrepancies prevent immediate admission. See source-audit.json/rejections.json for exact per-source findings; not all exclusions mean source defects."},
+    {"id":"C-SOURCEPORT-05","severity":"compatibility","status":"DOCUMENTED","summary":"Assembly layouts may have adapted port heights; original metadata must match original NBT hash. S8-07 original north/south Y2/Y4 differ from layout Y1/Y3 and cannot be substituted. S8-01 has stairs immediately inside north opening; strict rectangular inboard-air MVP excludes it unchanged."},
+    {"id":"C-JAVA-06","severity":"limitation","status":"DOCUMENTED","summary":"Actual core smoke compiled with --release 17 and executed on installed JDK25.0.2, not a claimed JDK17 execution. Runtime must use its mandated Java17 toolchain."}
+  ]
+}

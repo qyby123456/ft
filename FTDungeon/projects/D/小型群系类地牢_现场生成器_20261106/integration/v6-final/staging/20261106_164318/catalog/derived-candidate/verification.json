@@ -1,0 +1,54 @@
+{
+  "status": "OFFLINE_CHECKS_PASS_NATIVE_ACCEPTANCE_PENDING",
+  "accepted": false,
+  "originalSha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7",
+  "derivedSha256": "bd7d0661b818164a3617629096580c646d17d95832269e6aca989933dc815ae3",
+  "resource": "derived-candidate/data/biomedungeon/structures/s8_07_widearch_side_doublegate_v5.nbt",
+  "changeCount": 20,
+  "explicitCells": 10125,
+  "size": [
+    25,
+    15,
+    27
+  ],
+  "preservedBE": 6,
+  "preservedOriginalDoorHalves": 4,
+  "stairCellsPreserved": 12,
+  "allCellsY0Through3Unchanged": true,
+  "allOriginalTargetsPreserved": {
+    "status": "PASS",
+    "cases": 36,
+    "directedChecksWithReturn": 2200,
+    "originalTargetsPerRotation": 148,
+    "allRotationsOriginalTargets": 592,
+    "originalTargetCounts": {
+      "s8_01": 13,
+      "s8_02": 11,
+      "s8_03": 11,
+      "s8_04": 21,
+      "s8_05": 20,
+      "s8_06": 18,
+      "s8_07": 16,
+      "s8_08": 17,
+      "s8_09": 21
+    },
+    "targetsRemoved": 0,
+    "integrationActual": {
+      "attempted": 2200,
+      "independentlyReplayed": 2200,
+      "originalTargetsRemoved": 0
+    },
+    "noAcceptanceRelaxation": true
+  },
+  "nativeWorldRoutes": "NOT_RUN",
+  "offlineGeometryScope": "central arch cells and side return doorway support verified; original stair movement requires native re-run, no fabricated native pass",
+  "pairBehavior": "original adjacent left/right door states relocated together; can open/close side doorway; central arch remains open when side pair closes",
+  "requiredIndependentChecks": [
+    "original112 failing lanes four rotations with unchanged3-high sweep",
+    "all original36cases2200routes plus new side doorway route/open-close targets",
+    "side-door native canSurvive and coherent lower/upper interaction",
+    "all source furniture/BE and stairs readback",
+    "visual architectural approval of main arch/side doublegate design",
+    "exact new runtime/JAR/resource manifest binding and restart readback"
+  ]
+}

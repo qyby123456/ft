@@ -1,0 +1,46 @@
+{
+  "status": "PASS_INSTALLED_COMMIT_ADMISSION_IO_CLEANUP",
+  "mode": "probe",
+  "world": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v6-final\\commit-io-run\\20261106_180844\\world",
+  "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+  "instanceId": "ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f",
+  "decisionSha256": "2318dd9b695d9afebe145434f6371f2a79ee1752517cebd17355e6d432c990b0",
+  "accepted": false,
+  "productionPromotion": false,
+  "processes": [
+    {
+      "pid": 53168,
+      "parentPid": 82800,
+      "command": [
+        "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+        "-Xmx2G",
+        "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v6-final\\commit-io-run\\20261106_180844\\world",
+        "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v6-final\\commit-io-run\\20261106_180844\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+        "nogui"
+      ],
+      "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v6-final\\commit-io-run\\20261106_180844",
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v6-final\\commit-io-run\\20261106_180844\\commit-io.log",
+      "exitCode": 0,
+      "logSha256": "d89838b7524ced6816e954d06f1cb7ba119e04900df7262b851037917180fdfb"
+    }
+  ],
+  "binding": {
+    "instanceId": "ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f",
+    "worldIdentity": "4e1b8c954f1ddfcc79fb64944ab4aaef163558b419fc6aaf1401510a9d59d03f",
+    "worldSeed": "267611119455246637",
+    "dimension": "minecraft:overworld",
+    "runtimeVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+    "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+    "manifestHash": "13dc58d2e9722de047c3144741cbfe449d17fe11eee513e939f0aac1aefa7d24",
+    "operationHash": "5030fb9010d8921646bac78e71ed1a82d0ddb20e579d33ecaccb5ce8da1bba6a",
+    "planSha256": "e4705bc420852defdce57aa0ce347e7cca8c229a0cb55e4fe85992a3ec4b5bef",
+    "commitChallenge": "91177860-2afa-42fd-9bfb-0f3e32ce0802"
+  },
+  "receiptSha256": "42dfcae81caa51a13be4ee5fc99c2029401cc57b58c9b8a3d36227824913c3d3",
+  "commandResponse": "",
+  "initialStatus": "[18:09:20] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+  "delayedStatus": "[18:09:26] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=",
+  "journalUnchanged": true,
+  "mechanism": "Valid independently backed receipt followed by real .nbt.pending directory FileChannel IOException at final commit admission persist; unchanged installed release JAR",
+  "privateIntentFlagsEvidence": "Installed source catch/finally verification; installed behavioral evidence is idle tickets0, disabled rebuild and no delayed continuation"
+}

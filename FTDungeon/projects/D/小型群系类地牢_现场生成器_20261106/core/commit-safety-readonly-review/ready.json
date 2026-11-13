@@ -1,0 +1,182 @@
+{
+  "status": "READ_ONLY_REVIEW_COMPLETE_ONE_P2_FINDING",
+  "runtimeVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+  "sourceFilesLocked": 27,
+  "sourceDriftAtEnd": false,
+  "findings": 1,
+  "probe": "JAVA17_SOURCE_EXTRACTED_COMMAND_FAILURE_CONTROL_FLOW_ONLY",
+  "worldTests": "NOT_RUN",
+  "actualCommitted": "NOT_EXECUTED",
+  "runtimeModified": false,
+  "activeSourceMayChangeAfterSeal": true,
+  "files": [
+    {
+      "path": "capture.py",
+      "sha256": "7b9f9495d014c6a17fc152d7e7e93fe77b7b75f8f15554a326ae8008c99ecc97"
+    },
+    {
+      "path": "findings.json",
+      "sha256": "01d57a319d9e1de51eb4a43b8795e74e98b148761eea218fad3bfa86fe571689"
+    },
+    {
+      "path": "probe/classes/CommandFailureReviewProbe$DungeonApi$Phase.class",
+      "sha256": "7a662163034b8e3cebb3ff84da80ad3a3c33833f8cae50fedde3c2ea7ff57ecd"
+    },
+    {
+      "path": "probe/classes/CommandFailureReviewProbe$DungeonApi.class",
+      "sha256": "3760a9a5b135b97a0de126e89d5df001a09879258732d6e211dcd1fa9071dee5"
+    },
+    {
+      "path": "probe/classes/CommandFailureReviewProbe$Job.class",
+      "sha256": "88eb2b26f6fec00cb3b1af40447be002d85a907ec0e3c521aeba1f94cb764c6f"
+    },
+    {
+      "path": "probe/classes/CommandFailureReviewProbe$TemplateCatalog.class",
+      "sha256": "00f649bd9c17158c471660f3cf9291509a2c7367585c038f11748aad1dafa0bb"
+    },
+    {
+      "path": "probe/classes/CommandFailureReviewProbe.class",
+      "sha256": "7bce07149d9c9fee9ed13a016714f55bd2d8591521a25e5f95184abf1a38a5d3"
+    },
+    {
+      "path": "probe/CommandFailureReviewProbe.java",
+      "sha256": "d174c27f6ad202890e06c74e1bf6f94c417a2a73bc5e6746385709d2e9f1238c"
+    },
+    {
+      "path": "probe/extracted-methods.json",
+      "sha256": "f44098ae68fb1f6f958ce47fe98eedd0e06b53258e4400c58c31c7aec0abb423"
+    },
+    {
+      "path": "probe/result.log",
+      "sha256": "99146c3ec3ec46aacdaede801d93bc821302c51f134c72d60812db58490469f9"
+    },
+    {
+      "path": "probe_commands.py",
+      "sha256": "9a057c4e1348720fed8ce62f57f2d2b88bfb5e92e10ddb3a17e542b9d87d0a3e"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "f949457527c79ce37660e5dfc40da3d78231628957ef722001586933cfc9788b"
+    },
+    {
+      "path": "seal.py",
+      "sha256": "03006edca31bae6c32bf33a8677b1f3401ddbffb08ef2cd072701b13fbcf4d70"
+    },
+    {
+      "path": "snapshot/gametest/java/cn/ft/biomedungeon/runtime/BeRestartGameTests.java",
+      "sha256": "7508e531a8e810f0919ba22d4492397531e31a327c30c50e5d16a639dbbbba21"
+    },
+    {
+      "path": "snapshot/gametest/java/cn/ft/biomedungeon/runtime/CandidateFixtures.java",
+      "sha256": "b0e745885dafdbe08a2153792fb58def7245eac946f93aee30faadc2c1e7957b"
+    },
+    {
+      "path": "snapshot/gametest/java/cn/ft/biomedungeon/runtime/FluidFireWatch.java",
+      "sha256": "dff720fcfa5624ab9420289d71aa187aabafa33c0eb305549b1356e3ba710233"
+    },
+    {
+      "path": "snapshot/gametest/java/cn/ft/biomedungeon/runtime/FluidGameTests.java",
+      "sha256": "81c7e5fb7b2e4e5d08b79cfaa662463bef1daebfa24e9cee8a1b29a69084c618"
+    },
+    {
+      "path": "snapshot/gametest/java/cn/ft/biomedungeon/runtime/PayloadGameTests.java",
+      "sha256": "e4489514f7fd9482d1cf85690bdd9278cd432bcddbed1a22b8cfd4e155139b30"
+    },
+    {
+      "path": "snapshot/gametest/java/cn/ft/biomedungeon/runtime/RolePayloadGameTests.java",
+      "sha256": "dcd1d676713b19f50430c0f0e68bcba228633389cc025dbd5e1cb15c6df8162a"
+    },
+    {
+      "path": "snapshot/gametest/java/cn/ft/biomedungeon/runtime/RuntimeGameTests.java",
+      "sha256": "14506657370fa9a1f9243d0996b97f7d3a64fa57366d5f78df3277831a433aaf"
+    },
+    {
+      "path": "snapshot/gametest/java/cn/ft/biomedungeon/runtime/RuntimeRestartGameTests.java",
+      "sha256": "d9476b10f2b5f0a65919b799754d5f64559fc59624ec608058bbf1e69622c802"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/AtomicFiles.java",
+      "sha256": "a7efccccf70fa6229d7d0aed6111b28fa7737f92c598e7fd3cbf13d214cf1613"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/CandidateCatalog.java",
+      "sha256": "6722666200ffc15345cb5d849366f4660a1d4498e27b05df087b1c4264f78fa1"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/CommitEvidence.java",
+      "sha256": "1fec6b38519055dcba1ddcd475f8f2495de9752bc56797f096ae2e5bccdb1d75"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/DungeonMod.java",
+      "sha256": "5575789514b930d19deef0eb9ccb424d78febc77d2a6dd736d6178976aa1a328"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/FluidProtocol.java",
+      "sha256": "ffc2cc303fb0b85be6f5980884d8ee935aeb120e9ccf5129cb4dcca6d2e7fa1f"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/JournalFile.java",
+      "sha256": "13546a297ca4d1e29413ce92c96f5cfb97696a166b23e60e156ca9bc218ca9b2"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/NativeRouteAudit.java",
+      "sha256": "b3c6611fed3abb0ea90888ecc6ada249a123b14e425dfd1b1753d60668a4d6ab"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/PayloadPolicy.java",
+      "sha256": "f8539eb65ad9c10059e428eed69ccef4dd98cf0779d09220a9d62f80527fec27"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/PayloadWorld.java",
+      "sha256": "484152cbe25c77405842b826df78aba4c5cb1c1fc3d93d2af4fe0e155e19fe54"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/Placement.java",
+      "sha256": "82dc0a5d171a0ca7e65a195e70d80af1be476dace65eccaa3b18d5a1251079be"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/RecoveryPolicy.java",
+      "sha256": "8efc4d20f9f08ac50ad5533806987fbecd19b3fb4ed53c2f13b65b3cb4113824"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/RuntimeEngine.java",
+      "sha256": "c1dcff9a4c5723a84ef593e14a0db46e7234ff5e9c6fc0c28163c8801863462d"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/TemplateCatalog.java",
+      "sha256": "9c5204f5ce2bca79c98b22a95e5ed54699ed00ed8452c2179608786b337cdb7d"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/TransitionVerifier.java",
+      "sha256": "26a8a90e8b3e545a98a45fd95387ea150f1b71e565b7317bfcaa4356de5d83cb"
+    },
+    {
+      "path": "snapshot/main/java/cn/ft/biomedungeon/runtime/UnifiedEngine.java",
+      "sha256": "77113402ec31036a96515a0c71a5bf9e757ef047f57676d3d05eef1e541385fd"
+    },
+    {
+      "path": "snapshot/test/java/cn/ft/biomedungeon/runtime/CommitEvidenceTest.java",
+      "sha256": "b9b6fce87a0836c78cc64ed373a23fa4f18797201952c40088b9a48fe4c377cf"
+    },
+    {
+      "path": "snapshot/test/java/cn/ft/biomedungeon/runtime/RuntimeSelfTest.java",
+      "sha256": "6a7bcee318db8b5c09f7e431ef2004ca7ec6b58290e4960f25d66647f00cf382"
+    },
+    {
+      "path": "snapshot/unifiedtest/java/cn/ft/biomedungeon/runtime/UnifiedGameTests.java",
+      "sha256": "8e4c658bda7fc61f0034a0f1bc972ac08ab61a6a96345064b669fa4962e69eed"
+    },
+    {
+      "path": "snapshot/validation/java/cn/ft/biomedungeon/runtime/RuntimeValidation.java",
+      "sha256": "0312237e38443587342b5a603c2f6f91cff798bdef10de2dd71a3dcc3b6d5f2a"
+    },
+    {
+      "path": "source-drift.json",
+      "sha256": "1550055f76dab974b1523504eab1214a9682063847d4d9f8d4b04cd726a94dca"
+    },
+    {
+      "path": "source-lock.json",
+      "sha256": "a08816d714c033bc0e68f4680ac1cedc852a3d2a1c1d787410ca2f1842653e92"
+    }
+  ]
+}

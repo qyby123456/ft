@@ -1,0 +1,45 @@
+{
+  "component": "catalog-expansion-v2",
+  "apiVersion": 1,
+  "ready": true,
+  "status": "REQUIREMENTS_AND_UNACCEPTED_CANDIDATES_READY",
+  "productionPromotion": false,
+  "productionBaselineUnchanged": true,
+  "decodedBaseRooms": 72,
+  "candidateCount": 7,
+  "candidateAccepted": false,
+  "completeNineRoomBiomeReady": false,
+  "newRuntimeCompatibleTemplates": 0,
+  "candidateManifest": "candidate-manifest.json",
+  "candidateManifestSha256": "64b44c1acabcfd1a3bd797a9a51650e1e2c31d20971d5301c27a81caadc31205",
+  "allRoomAudit": "all-72-expansion-audit.json",
+  "fullBiomeRequirements": "s8-complete-biome-requirements.json",
+  "exactPayloadRequest": "block-entity-support-request.json",
+  "snapshotLock": "snapshot-lock.json",
+  "currentCoreSourceHashes": {
+    "core-snapshot/DungeonApi.java": "6b15c91913bf88dec8aa2b7a5ea40891aee57ac64d6b444322bd640996f94b86",
+    "core-snapshot/DungeonGeometry.java": "0d6d5ee0ead5f9903fddb1b4c43b3d05a630beaa698d02a15d4c58b2280b2c41",
+    "core-snapshot/DungeonPlanner.java": "faec694e20f280bfd6a2951922110e840136268f1cacbfe775ee1319dbc5abad",
+    "core-snapshot/ready.json": "aa544a048f88c760750f8673fc6a5d33b1c7f8de932abbed7958c96c943e78e7"
+  },
+  "inventorySha256": "36e464bcefcecbb2ac4cca77ab9b1b0c2ddae65fc58db81c398ee7df17b370ae",
+  "tests": [
+    {
+      "command": "python -B test_expansion.py",
+      "result": "PASS 5 tests including actual 72-source SHA/payload reread",
+      "logSha256": "ed64a56b01bedd6a8a91e38a6edf6e9cf9d76c3b4c201094d3a4281e82b7ca42"
+    },
+    {
+      "command": "javac --release 17 ...; Java17 -ea -cp test-classes CatalogCoreSmoke",
+      "result": "PASS current final-core snapshot, Java17.0.8, 32 seeds, 6 rooms/5 links, 32 layouts, deterministic reversed pool",
+      "logSha256": "653c34d9b34619c6d21d4ea1349f3d28b3b0ed4bbe17037fa3b0b03ddbb232e0"
+    }
+  ],
+  "limitations": [
+    "seven candidate originals are accepted=false and NOT_FOR_PRODUCTION",
+    "BE capability/allowlist plus isolated native/world validation required",
+    "full nine-room biome also needs S8-01 stair geometry and S8-08 lava/vine world support",
+    "new candidate world placement and gameplay NOT_RUN",
+    "no original bytes, baseline ready, resources or other component source changed"
+  ]
+}

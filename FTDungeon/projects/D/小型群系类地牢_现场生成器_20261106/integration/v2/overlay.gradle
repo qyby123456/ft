@@ -1,0 +1,18 @@
+allprojects { project ->
+    project.pluginManager.withPlugin('net.minecraftforge.gradle') {
+        def root = new File(project.findProperty('integrationV2Root'))
+        def run = new File(project.findProperty('integrationV2Run'))
+        gradle.projectsEvaluated {
+            project.sourceSets.gameTest.java.srcDir(new File(root, 'world-tests'))
+            project.minecraft.runs.configureEach {
+                workingDirectory new File(run, project.providers.gradleProperty('beRestartStage').isPresent() ? 'be-restart-world' : 'payload-world')
+            }
+            project.tasks.withType(JavaExec).configureEach {
+                doFirst {
+                    workingDir new File(run, project.providers.gradleProperty('beRestartStage').isPresent() ? 'be-restart-world' : 'payload-world')
+                    workingDir.mkdirs()
+                }
+            }
+        }
+    }
+}

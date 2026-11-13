@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "scope": "ISOLATED_NINE_ROOM_GENERATOR_ONLY",
+  "status": "COMPLETE_INDEPENDENT_ISOLATED_GENERATOR_ACCEPTANCE",
+  "completeGeneratorReady": true,
+  "actualJobCOMMITTED": true,
+  "sameCanonicalWorldRestartVerified": true,
+  "productionPromotion": false,
+  "artifact": {
+    "path": "runtime/next-commit-iofix/build/libs/ft-biome-dungeon-generator-forge-1.20.1-0.5.1-commit-iofix-candidate.jar",
+    "sha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+    "version": "0.5.1-commit-iofix-candidate",
+    "operationVersion": "runtime-v5-explicit-commit1-envelope-v3-derived07",
+    "sourceReady": "runtime/next-commit-iofix/ready.json",
+    "sourceFileCount": 78,
+    "buildScript": "runtime/next-commit-iofix/BUILD.ps1"
+  },
+  "planner": {
+    "algorithm": "ft-core-envelope-splitmix64-dfs-v3",
+    "source": "core/envelope-usability-review/src/DungeonEnvelopePlanner.java",
+    "sourceSha256": "5558555f526d5eaa8e9efe2a0a18316fd425080dfb7a68750db55780479fbfcc",
+    "standaloneJarSha256": "3528efe68cdc40206e977e2fa38cceb0d68711c2edbd5e814ee73c7412a98fdc",
+    "finalTemplateVersionRegression": "core/v5-template-usability-review/ready.json",
+    "budget": {"maxInnerSpan": [256, 96, 256], "maxPaddedVolume": 1500000}
+  },
+  "catalog": {
+    "pool": "EIGHT_UNCHANGED_ORIGINALS_AND_ONE_EXPLICIT_DERIVED_ENTRY",
+    "manifest": "runtime/next-commit-iofix/src/main/resources/data/ftbd_candidate/nine-manifest.json",
+    "manifestSha256": "e629ff2d02e57174116c94cd6f0a5ea7e0d9d8344ef0e03719b4a24d04ba8256",
+    "packageReady": "catalog/s8-07-doorway-review-v5/ready.json",
+    "derivedTemplateId": "s8_07_widearch_side_doublegate_v5",
+    "derivedSha256": "bd7d0661b818164a3617629096580c646d17d95832269e6aca989933dc815ae3",
+    "changedCells": 20,
+    "designLimitation": "Side doublegate closes only side passage; central three-wide three-high arch remains open",
+    "originalDoorwayFailureRetained": "integration/v4-unified",
+    "candidateAccepted": false
+  },
+  "reproduction": {
+    "instructions": "review/takeover-generator-20261106/使用说明.md",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "java": 17,
+    "seed": "267611119455246637",
+    "dimension": "minecraft:overworld",
+    "anchor": [1000, 200, 1000],
+    "ordinalsInSeparateWorlds": [0, 1, 2, 3],
+    "installedRun": "integration/v6-final/run/20261106_170214",
+    "snapshot": "integration/v6-final/staging/20261106_170038",
+    "snapshotLockSha256": "d523599c4cf02ac49e4ed8183bf3723482401e18768fb424d1a79f44059f4884"
+  },
+  "reviewedEvidence": {
+    "matrix": "review/takeover-generator-20261106/final-matrix-review.json",
+    "routes": "review/takeover-generator-20261106/final-routes-review.json",
+    "coordinates": "review/takeover-generator-20261106/coordinate-review.json",
+    "faults": "review/takeover-generator-20261106/final-faults-review.json",
+    "widthCommandRestartProtectionSidegate": "review/takeover-generator-20261106/final-gates-review.json",
+    "jarDelta": "review/takeover-generator-20261106/jar-delta-review.json",
+    "derivedDelta": "review/takeover-generator-20261106/doorway-delta-review.json",
+    "derivedVisual": "review/takeover-generator-20261106/DOORWAY-VISUAL-REVIEW.md",
+    "conditionalFiniteCertificate": "review/takeover-generator-20261106/continuous-recheck/certificate.json",
+    "boundaryFirstFailureDiagnosis": "catalog/boundary-fixture-review-v6/ready.json",
+    "actualCommitAndRestart": "review/takeover-generator-20261106/commit-review.json",
+    "finalIntegration": "integration/v6-final/final-evidence.json",
+    "finalIntegrationSealReview": "review/takeover-generator-20261106/final-integration-seal-review.json"
+  },
+  "unresolvedGates": [],
+  "committedJob": {
+    "instanceId": "ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f",
+    "canonicalWorld": "D:/ft工程文件/小型群系类地牢_现场生成器_20261106/integration/v6-final/run/20261106_170214/q0/world",
+    "savedPhase": "COMMITTED",
+    "finalReady": "integration/v6-final/ready.json",
+    "finalReadySha256": "89ac7bf192a0351b0756829fc02b9cbc114346fd5cea6f3e37484202d2fa52a9",
+    "finalEvidenceFilesVerified": 6497,
+    "acceptanceDecision": "integration/v6-final/acceptance-decision.json",
+    "receiptMustRemainAtCanonicalWorld": true
+  },
+  "additionalCommitAdmissionIoEvidence": {
+    "status": "PASS_INSTALLED_COMMIT_ADMISSION_IO_CLEANUP",
+    "report": "integration/v6-final/commit-io-progress.json",
+    "mechanism": "Valid independently backed receipt, real journal pending-path IOException, idle tickets0 and unchanged journal"
+  },
+  "scopeLimitations": [
+    "Native FakePlayer collision, reach and use probes do not establish network client UI coverage",
+    "Abrupt Java termination does not establish machine power-loss durability",
+    "Native wall-shape updates and vine growth are preserved and reported, rather than bitwise source equality",
+    "Receipt verifier checks fields and hashes; independent executor identity has no digital signature",
+    "Production modpack compatibility and existing player-instance installation were not performed",
+    "Eight room-group second-round reviews remain with the original parent chat"
+  ]
+}

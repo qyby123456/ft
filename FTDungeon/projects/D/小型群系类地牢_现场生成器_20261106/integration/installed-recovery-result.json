@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "scope": "Actual installed candidate JAR, distinct normal dedicated JVMs, clean mid-build interrupt and explicit resume; not forced kill/powerloss",
+  "stages": [
+    {
+      "command": [
+        "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+        "-Xmx2G",
+        "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+        "nogui"
+      ],
+      "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725",
+      "pid": 17648,
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\installed-prepare.log",
+      "exitCode": 0,
+      "logSha256": "b141ea08b0a3bf717a4b78dbee7cb98fa25953328612950db543b28e5cf38371"
+    },
+    {
+      "command": [
+        "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+        "-Xmx2G",
+        "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+        "nogui"
+      ],
+      "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725",
+      "pid": 50616,
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\installed-resume.log",
+      "exitCode": 0,
+      "logSha256": "6452bb5cdebb417075cc316a1dd209af1ebb64fa75506667c5d9d3d71e277609"
+    }
+  ],
+  "instanceId": "ftd-1ebedc879bfde49738b0a0d3cc76e8240307e7869dec56e643e14fccdff59593",
+  "pausedStatus": "[13:31:36] [Server thread/INFO] [minecraft/MinecraftServer]: ftd-1ebedc879bfde49738b0a0d3cc76e8240307e7869dec56e643e14fccdff59593 phase=BUILDING cursor=640 attempted=640 active=false tickets=0 error=",
+  "savedCursor": 640,
+  "savedOperationHash": "5e62d0809f5c92f54206b38abb1321389668ae9173ed3e8895a71db5588d1b1b",
+  "loadedStatus": "[13:32:08] [Server thread/INFO] [minecraft/MinecraftServer]: ftd-1ebedc879bfde49738b0a0d3cc76e8240307e7869dec56e643e14fccdff59593 phase=BUILDING cursor=640 attempted=640 active=false tickets=0 error=",
+  "committedStatus": "[13:33:02] [Server thread/INFO] [minecraft/MinecraftServer]: ftd-1ebedc879bfde49738b0a0d3cc76e8240307e7869dec56e643e14fccdff59593 phase=COMMITTED cursor=109060 attempted=109060 active=false tickets=0 error=",
+  "idempotentStatus": "[13:33:07] [Server thread/INFO] [minecraft/MinecraftServer]: ftd-1ebedc879bfde49738b0a0d3cc76e8240307e7869dec56e643e14fccdff59593 phase=COMMITTED cursor=109060 attempted=109060 active=false tickets=0 error=",
+  "independentSavedChunkReadback": {
+    "status": "PASS",
+    "scope": "Independent offline saved Anvil chunks, raw interior states, barrier shell and conservative full-air/full-block floor route; native collision shapes and unused door faces excluded",
+    "results": [
+      {
+        "instanceId": "ftd-1ebedc879bfde49738b0a0d3cc76e8240307e7869dec56e643e14fccdff59593",
+        "phase": "COMMITTED",
+        "roomIds": [
+          "s8_05",
+          "s8_06",
+          "s8_06"
+        ],
+        "rotations": [
+          1,
+          1,
+          0
+        ],
+        "rawInteriorCells": 22646,
+        "perimeterCells": 16580,
+        "routeTargets": 4,
+        "reachableFullAirCells": 1057,
+        "journalSha256": "dae36add000a2a96b1905f6a91ce54a82668075dad92b7cae9f116dc03e71194"
+      },
+      {
+        "instanceId": "ftd-25d3accddebd6772fae2f4a026d8ff3bca671222d20364e3f3c83e54ccb068d8",
+        "phase": "COMMITTED",
+        "roomIds": [
+          "s8_05",
+          "s8_05"
+        ],
+        "rotations": [
+          1,
+          3
+        ],
+        "rawInteriorCells": 12792,
+        "perimeterCells": 8472,
+        "routeTargets": 2,
+        "reachableFullAirCells": 780,
+        "journalSha256": "5118e0ed76560c05f8b50c97ba7f097b776579d2177faaf686704fc1141dfd43"
+      }
+    ],
+    "regionFiles": {
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.3.4.mca": "b1378b5e46077b788345f3baff9b855a1544955209bc6382f38f3e5962349a39",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.3.3.mca": "c5e2aa9cbc1645cb67ff09f181f6e58578b8fc9af6aa198edac6bd5325977bf9",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.4.3.mca": "4a680861a7a6b934aa7220ee414c8dd8ec291d73b615a06dbe11b45ac5aaa82c",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.4.4.mca": "c1f3908bcea1dc4909567fdf0e8baee637da436aa4693b6ebacb79aa374124d9",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.1.2.mca": "5cd2d0fcb12b7221e6277ac25bad9ef6f672b263e2584d5f697e81fea7590424",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.2.2.mca": "bcd8790d67ad082c1b97b4c193aa7078886c7cedb74a3a8e9c4b2c04f4f56b6a",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.1.1.mca": "d09cc36d2f0a6adc7a10e04ed578244e2d328d9825ae011a4bc18f69aed1eb16",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.2.1.mca": "1e957d01ce47663c3e10696b6756de2f223982a19a6608e328e2a4cb9130e5d2"
+    },
+    "readerSha256": "3b1d85f5e032fba12287355b2f9616d8ad5505ae6c7ea97cc06ca74067a34586"
+  }
+}

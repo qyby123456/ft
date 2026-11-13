@@ -1,0 +1,23 @@
+{
+  "component": "core-next-planner-y",
+  "scope": "EXPERIMENTAL_OFFLINE_GEOMETRY_COMPONENT_NOT_WORLD_ACCEPTED",
+  "apiVersion": 1,
+  "algorithmVersion": "ft-core-y-splitmix64-dfs-v2",
+  "javaRelease": 17,
+  "entryPoint": "cn.ft.biomedungeon.core.next.DungeonYPlanner.plan",
+  "signature": "DungeonApi.Plan plan(DungeonApi.Request,List<DungeonApi.Template>,List<DungeonApi.Box>,DungeonYPlanner.Limits)",
+  "limitsRecordOrder": ["minY:int","maxYExclusive:int","maxGraphHeight:int","requireEveryTemplateOnce:boolean","rootQuarterTurns:int"],
+  "nineRoomTestLimits": {"minY":-64,"maxYExclusive":320,"maxGraphHeight":64,"requireEveryTemplateOnce":true,"rootQuarterTurns":"0..3 separately; -1 available for random"},
+  "productionArtifact": "build/ft-biomedungeon-planner-y-v2-experimental.jar",
+  "requiredFrozenDependency": {"path":"../build/ft-biomedungeon-core-v1.jar","sha256":"764427a79d9a5330a8d82ac50a2924679bb8e702d7482e75ae254ba2aca203d0"},
+  "candidateInputs": ["inputs/v3-candidate-manifest.json","inputs/baseline-05-06-manifest.json"],
+  "inputLocks": "inputs/source-lock.json",
+  "actualPlans": "results/plans/q<0..3>-seed<0..31>.json",
+  "sourceAcceptance": "Seven expansion-v3 candidates remain accepted=false; baseline05/06 accepted=true unchanged. API Template has no acceptance field; runtime must enforce eligibility outside pure planner.",
+  "worldLimits": "Pass actual dimension and allowed test-region limits; defaults are not dimension discovery",
+  "placement": "Use actual PlacedRoom.origin.y and documented DungeonGeometry.blockPlacementOrigin voxel compensation; never normalize origin or place all rooms at anchorY",
+  "reservations": "All actual room bounds and DungeonGeometry.corridorBounds full floor/wall/ceiling shells, not merely link centerlines",
+  "nativePostconditions": "Frozen next-stairs/transition-contract.json plus actual catalog/runtime policy, complete headroom, stairs/doors, payloads, fluid/dynamic restrictions and recovery verification",
+  "productionPromotion": false,
+  "nativeWorldTest": "NOT_RUN"
+}

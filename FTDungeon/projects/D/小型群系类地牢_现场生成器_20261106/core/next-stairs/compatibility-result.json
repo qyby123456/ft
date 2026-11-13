@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "conclusion": "TWO_SEPARATE_BLOCKERS_AND_ONE_WIDTH_CONSTRAINT",
+  "s8_01_north": {
+    "originalFeet": [17, 1, 0],
+    "frozenCoreGeometry": "ACCEPTS_METADATA",
+    "catalogStrictRectangle": "REJECTS_ORIGINAL_STAIR_AT_16_1_1",
+    "remedy": "Source-bound native stair clearance contract, not deleting stairs"
+  },
+  "s8_01_to_s8_07": {
+    "frozenPlanner": "FAIL_CONFIRMED_BOTH_DIRECTIONS",
+    "reason": "All candidate origin.y fixed to anchor.y; distinct original local feet cannot align",
+    "heightOnlyReproduction": "Both original north ports width3 isolated; error height difference unsupported",
+    "geometryExpressibleInFrozenApi": true,
+    "manualRigidYAlignmentPairsPassed": 32,
+    "algorithmChanged": false,
+    "proposedFutureChange": "Separate new-version candidate originY solve plus recomputation of all room/corridor/occupied collision geometry"
+  },
+  "s8_07_south": {
+    "originalFeet": [12, 4, 26],
+    "originalWidth": 5,
+    "strictCatalog": "PASS",
+    "attachToS8_01Width3": "REJECT_NO_SILENT_WIDTH_TRUNCATION",
+    "rotationWidthMismatchPairsRejected": 32
+  },
+  "javaAssertions": 398,
+  "javaRuntime": "17.0.8",
+  "sourceAndBaselineHashes": "PASS",
+  "nativeCollisionAndHeadroom": "NOT_RUN",
+  "completeS8RoomTraversal": "NOT_RUN",
+  "nativeWorldTest": "NOT_RUN",
+  "sourceRoomMutation": false,
+  "templatePromotion": "NONE",
+  "overallMvpAccepted": false
+}

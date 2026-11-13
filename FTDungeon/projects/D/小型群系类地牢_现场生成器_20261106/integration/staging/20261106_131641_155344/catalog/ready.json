@@ -1,0 +1,55 @@
+{
+  "component": "catalog",
+  "apiVersion": 1,
+  "status": "READY_MINIMAL_REAL_POOL",
+  "ready": true,
+  "scope": "unchanged independently accepted architectural room templates; not runtime/world acceptance",
+  "manifest": "manifest.json",
+  "runtimeManifest": "data/biomedungeon/manifest.json",
+  "runtimeResourceRoot": ".",
+  "packageTree": "data",
+  "manifestSha256": "b753af29992cedcc59f8accfd0daf472d0f731ac0bce39b0f4a93383fb14d934",
+  "inventory": "SHA256SUMS.json",
+  "inventorySha256": "9fbcbfc3b25720bfdf802708763969921637487ebd81e76cbb173bc10165eebd",
+  "biome": "s8",
+  "templateCount": 2,
+  "templateHashes": {
+    "s8_05": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837",
+    "s8_06": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470"
+  },
+  "sourceHashes": {
+    "CatalogCoreSmoke.java": "40a46af26f7f351267b2edcce211286f34a9bb696d7e24824a92ac1c3771e49d",
+    "core-snapshot/DungeonApi.java": "6b15c91913bf88dec8aa2b7a5ea40891aee57ac64d6b444322bd640996f94b86",
+    "core-snapshot/DungeonGeometry.java": "f03e9beeb3777dfd90353a633bd6105332806de8af682728bc477ecc9ba2fa93",
+    "core-snapshot/DungeonPlanner.java": "a13f9ac4a92ae60669dab5be248557e93cde74085a3c48a3d6ca811a61b44c7d",
+    "finalize_report.py": "ddfa4c4b2a7bbac93cf02ef6d9cbd7789b6c5224c349d142b534a50b23e219dc",
+    "freeze_catalog.py": "3868fac2744bae2c2078846d64fa1911892d6b7befd92e78ec0c89a6b0f0f851",
+    "inspect_sources.py": "f1f593bc56cdd8889b459c401712b1bb35034b949353bbc88f53a1b96ffffb97",
+    "nbtio.py": "3b1d85f5e032fba12287355b2f9616d8ad5505ae6c7ea97cc06ca74067a34586",
+    "test_catalog.py": "5e4583fcdd53a0f4bbb24657f9a6d400b414ccd9e46d4af331c609b251e3caec"
+  },
+  "tests": [
+    {
+      "command": "python -B test_catalog.py",
+      "result": "PASS 7/7",
+      "log": "tests.log",
+      "sha256": "c4e68b7907505f3eccaca9b90344577704a587102d63ebc385de9b114ddb6a97"
+    },
+    {
+      "command": "javac --release 17 -d test-classes core-snapshot/DungeonApi.java core-snapshot/DungeonGeometry.java core-snapshot/DungeonPlanner.java CatalogCoreSmoke.java; java -cp test-classes CatalogCoreSmoke",
+      "result": "PASS 32 seeds x six rooms/five links; deterministic reversed pool; 32 layouts; both real room IDs",
+      "log": "core-smoke.log",
+      "sha256": "78ec7c73cde50ea29ae8532b3f9670ac650e53e0bb4bdeeda6c3d3304855eea4",
+      "javaExecutionVersion": "25.0.2; compilation release target 17"
+    }
+  ],
+  "limitations": [
+    "only biome s8, two normal room types; source reuse permitted",
+    "no original entrance/treasure/combat certification",
+    "runtime must close unused apertures and reserved envelope",
+    "world/native rotated block-state/tick/restart tests NOT_RUN",
+    "remaining 70 single-room sources and eight overviews excluded/deferred; all 11-20 rejected",
+    "no source adapters or altered candidate resources"
+  ],
+  "issues": "ISSUES.json"
+}

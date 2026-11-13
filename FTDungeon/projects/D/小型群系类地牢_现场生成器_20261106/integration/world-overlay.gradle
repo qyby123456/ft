@@ -1,0 +1,28 @@
+allprojects { project ->
+    project.pluginManager.withPlugin('net.minecraftforge.gradle') {
+        def sourceRoot = new File(project.findProperty('integrationSourceRoot'))
+        def runRoot = new File(project.findProperty('integrationRunRoot'))
+        def verification = project.sourceSets.create('integrationWorldTest')
+        verification.java.srcDir(new File(sourceRoot, 'world-tests'))
+        verification.resources.srcDir(new File(runRoot, 'test-resources'))
+        verification.compileClasspath += project.sourceSets.main.output + project.sourceSets.main.compileClasspath
+        verification.runtimeClasspath += project.sourceSets.main.runtimeClasspath
+        def minecraft = project.extensions.getByName('minecraft')
+        def testRun = minecraft.runs.findByName('gameTestServer') ?: minecraft.runs.create('gameTestServer')
+        testRun.workingDirectory(new File(runRoot, 'world'))
+        testRun.property('forge.enabledGameTestNamespaces', 'ft_biome_dungeon_generator')
+        testRun.property('ftbd.isolatedGameTest', 'true')
+        testRun.property('ftbd.integrationRoot', runRoot.absolutePath)
+        testRun.mods {
+            ft_biome_dungeon_generator {
+                source project.sourceSets.main
+                source verification
+            }
+        }
+        project.tasks.configureEach { task ->
+            if (task.name == 'runGameTestServer') {
+                task.dependsOn('integrationWorldTestClasses')
+            }
+        }
+    }
+}

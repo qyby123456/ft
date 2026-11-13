@@ -1,0 +1,16 @@
+{
+  "component": "runtime-next",
+  "apiVersion": 1,
+  "scope": "V2 capability extension, not full generator completion",
+  "baselineFrozen": true,
+  "catalogPromotion": false,
+  "issues": [
+    {"id":"FULL_NINE_ROOM_S8","status":"BLOCKED","detail":"Original S8-01 north port has inward stairs and unequal walk heights; original S8-08 has9 lava and28 vines. Not supported or replaced with generic corridors."},
+    {"id":"CANDIDATE_INDEPENDENT_ACCEPTANCE","status":"REQUIRED","detail":"Catalog seven candidates remain accepted=false, never promoted by runtime. Full-room four-rotation BE test and three-role assembly are capability evidence, not independent acceptance of every layout."},
+    {"id":"SUPPORTED_BE_SUBSET","status":"IMPLEMENTED_TESTED_SUBSET","detail":"Native chest(SINGLE only), barrel and banner; source original empty Items/Patterns and implicit chest defaults. Unknown BE fields, loot table, nested item tags, arbitrary signs/commands/spawners rejected. Synthetic nonempty plain-item inventory tested; no arbitrary mod payload claim."},
+    {"id":"PREEXISTING_BE_ROLLBACK","status":"UNSUPPORTED_FAIL_CLOSED","detail":"Target preflight still requires all air and no existing BE. Existing player containers are never overwritten. Does not implement restoration of arbitrary preexisting BE or ACID rollback."},
+    {"id":"WORLD_TICK_SCOPE","status":"LIMITED","detail":"Five room fixtures pass native canSurvive and delayed readback; not a proof that every far-away fixture chunk was randomly ticking. Real role assembly uses actual runtime region tickets. Full fluid/neighbor-update/propagation safety remains unverified; no global gamerules changed."},
+    {"id":"V2_BE_RESTART","status":"PASS_CLEAN_INTERRUPTED_DISTINCT_PROCESSES","detail":"JVM41500 checkpoints cursor50432 with4 native BEs; JVM7776 loads same instance/hash and4 native BEs, resumes to143175-cell readback with22BEs. Forced-kill, powerloss and exact-default external-write ambiguity remain unverified."},
+    {"id":"RELEASE_JAR_INSTALL","status":"NOT_RUN","detail":"Experimental reobfuscated JAR will be built and archive-audited. World evidence is source-run Forge, not installed release artifact."}
+  ]
+}

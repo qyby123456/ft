@@ -1,0 +1,38 @@
+{
+  "component": "catalog-expansion-v3",
+  "apiVersion": 1,
+  "ready": true,
+  "status": "EXACT_V2_CONTRACT_AND_SEVEN_UNACCEPTED_ORIGINALS_REVIEW_READY",
+  "productionPromotion": false,
+  "allCandidatesAccepted": false,
+  "candidateRoomIds": [
+    "S8-01",
+    "S8-02",
+    "S8-03",
+    "S8-04",
+    "S8-07",
+    "S8-08",
+    "S8-09"
+  ],
+  "runtimeArtifactSha256": "f7d73680b20d390a6f08a090fea66b66000deb33bc0a6556ad282340035c6188",
+  "runtimeSnapshotFileCount": 58,
+  "runtimeEvidenceStatus": "PRODUCER_WORLD_EVIDENCE_ONLY_NOT_INDEPENDENT_ACCEPTANCE",
+  "manifest": "candidate-manifest.json",
+  "manifestSha256": "3450b6825f020603bf0efbe524070a86993b09b5dcfa58b847791673be606b2f",
+  "geometryEvidence": "core-stairs-consumption.json",
+  "geometryEvidenceSha256": "bd3f7f873caddb7c43b343c8a1796b54326603378f1d92033753e0cc24a63fe9",
+  "inventorySha256": "0556dedf04737442fd8e92b0e7bb875ef7fc1f7f276cc47148e719b7f7edadbc",
+  "tests": {
+    "command": "python -B test_v3.py",
+    "result": "PASS 6 tests",
+    "logSha256": "8e69abe97e98707384997f532d039436e1f1376957bb2ebf933c745e83470fd3"
+  },
+  "unchangedPriorBaselines": true,
+  "limitations": [
+    "accepted=false pending independent runtime validation",
+    "S8-01 inward steps need native geometry, not rectangular erasure",
+    "S8-07 preserves Y2/Y4 and original open door; full native route validation still needed",
+    "S8-08 lava/vine/wall outside v2 contract; no fluid approval",
+    "no new catalog world run; producer logs are not independent acceptance"
+  ]
+}

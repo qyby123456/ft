@@ -1,0 +1,46 @@
+{
+  "status": "PASS_NATIVE_PISTON_CANCEL_QUARANTINE_CHALLENGE_INVALIDATION_ZERO_SOURCE_CHANGE",
+  "processes": [
+    {
+      "pid": 36716,
+      "parentPid": 72404,
+      "command": [
+        "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+        "-Xmx2G",
+        "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-runtime-faults\\run\\20261106_170931\\protection_piston\\world",
+        "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-runtime-faults\\run\\20261106_170931\\protection_piston\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+        "nogui"
+      ],
+      "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-runtime-faults\\run\\20261106_170931\\protection_piston",
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-runtime-faults\\run\\20261106_170931\\protection_piston\\piston.log",
+      "exitCode": 0,
+      "logSha256": "8fb66ca11b394e6cbdc3e66a4dee6181ff8488aa7b290037e3a277faa7d86564"
+    }
+  ],
+  "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+  "piston": [
+    15932,
+    196,
+    15973
+  ],
+  "protectedDestination": [
+    15933,
+    196,
+    15973
+  ],
+  "power": [
+    15931,
+    196,
+    15973
+  ],
+  "finalStatus": "[17:27:40] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-9a56f7d68f7d25854508a42a79029b03e59b4b7eefa8cf05a560e4b3369c2039 phase=ROLLBACK_REQUIRED cursor=692640 attempted=692640 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error=Protected external action observed: blocked piston",
+  "challengeChanged": true,
+  "receiptEmpty": true,
+  "savedDestination": [
+    "minecraft:air",
+    []
+  ],
+  "fixture": "Operator-inserted piston/redstone in below-room protected padding air; native event, not a player placement claim",
+  "sourceCellsCompared": 127239,
+  "changedSourceOrNativeCells": []
+}

@@ -1,0 +1,22 @@
+{
+  "component": "catalog",
+  "apiVersion": 1,
+  "status": "READY_MINIMAL_REAL_POOL",
+  "baseIndexEntries": 80,
+  "singleRoomNBTDecoded": 72,
+  "acceptedUnchangedTemplates": 2,
+  "excludedOrDeferredBaseEntries": 78,
+  "tests": "PASS: seven unit tests and 32-seed real-core smoke",
+  "worldTests": "NOT_RUN",
+  "readySha256": "32265573f01532bf3e12244ae933ed7d6928fa91c764986150b84992e814fc18",
+  "manifestSha256": "b753af29992cedcc59f8accfd0daf472d0f731ac0bce39b0f4a93383fb14d934",
+  "inventorySha256": "9fbcbfc3b25720bfdf802708763969921637487ebd81e76cbb173bc10165eebd",
+  "limitations": [
+    "only biome s8, two normal room types; source reuse permitted",
+    "no original entrance/treasure/combat certification",
+    "runtime must close unused apertures and reserved envelope",
+    "world/native rotated block-state/tick/restart tests NOT_RUN",
+    "remaining 70 single-room sources and eight overviews excluded/deferred; all 11-20 rejected",
+    "no source adapters or altered candidate resources"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scope": "Independent artifact integrity and packaged template inventory, not independent world acceptance",
+  "ready_sha256": "33471714e3a4bb51b4378f0516176b20d129b72068b236bcc91ade28f3fb8002",
+  "verified_component_files": 57,
+  "verified_saved_world_files": 56,
+  "artifact": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\runtime\\next\\build\\libs\\ft-biome-dungeon-generator-forge-1.20.1-0.2.0-experimental.jar",
+  "artifact_sha256": "f7d73680b20d390a6f08a090fea66b66000deb33bc0a6556ad282340035c6188",
+  "jar_crc": "PASS",
+  "class_major_versions": [
+    61
+  ],
+  "packaged_template_ids": [
+    "s8_05",
+    "s8_06"
+  ],
+  "test_fixtures_excluded": true,
+  "producer_world_log_observations": {
+    "payload-world-final.log": [
+      "PAYLOAD_V2_WORLD_PASS originalRooms=5 rotations=4 completeCells=237000 preservedBE=96 dynamicFurniture=doors/slabs/lanterns/banner/chest/barrel/pots replay=defaults-before-complete-only conflict=modified-inventory-rejected; full assembled biome/fluid NOT_RUN",
+      "ROLE_BE_V2_WORLD_PASS actualEntrance=s8_07 mainHall=s8_04 terminal=s8_09 rooms=3 cells=146150 BE=22 journalReload=PASS payloadReadback=PASS inventoryConflict=QUARANTINED_ZERO_OVERWRITE baselinePromotion=NONE completeNineRooms=NO",
+      "[13:31:53] [Server thread/INFO] [minecraft/GameTestServer]: All 2 required tests passed :)"
+    ],
+    "be-restart-prepare.log": [
+      "BE_V2_RESTART_PREPARED process=41500 id=ftd-889f3722621f4c0be4dcf6c9cfc40110658c21ede25e8a7d0fb5a6f38af35bab placedBE=4 operationHash=75ab07a3694572e46fc50206e2736efe9d4f80c368e28a554ffc6d235bc9acd4 ftd-889f3722621f4c0be4dcf6c9cfc40110658c21ede25e8a7d0fb5a6f38af35bab phase=BUILDING cursor=50432 attempted=50432 active=false tickets=0 error=",
+      "[13:34:00] [Server thread/INFO] [minecraft/GameTestServer]: All 1 required tests passed :)"
+    ],
+    "be-restart-resume.log": [
+      "BE_V2_RESTART_LOADED process=7776 id=ftd-889f3722621f4c0be4dcf6c9cfc40110658c21ede25e8a7d0fb5a6f38af35bab persistedBE=4 ftd-889f3722621f4c0be4dcf6c9cfc40110658c21ede25e8a7d0fb5a6f38af35bab phase=BUILDING cursor=50432 attempted=50432 active=false tickets=0 error=",
+      "BE_V2_RESTART_PASS process=7776 id=ftd-889f3722621f4c0be4dcf6c9cfc40110658c21ede25e8a7d0fb5a6f38af35bab finalBE=22 cells=143175 operationHash=75ab07a3694572e46fc50206e2736efe9d4f80c368e28a554ffc6d235bc9acd4; clean-interrupted separate process, force-kill/powerloss NOT_RUN",
+      "[13:35:04] [Server thread/INFO] [minecraft/GameTestServer]: All 1 required tests passed :)"
+    ]
+  },
+  "five_real_room_command_pool_promoted": false,
+  "independent_v2_world_acceptance": "PENDING_INTEGRATION",
+  "full_generator_complete": false
+}

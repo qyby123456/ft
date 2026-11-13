@@ -1,0 +1,42 @@
+{
+  "status": "PASS_FULL_DECLARED_WIDTH_CLEARANCE_WITH_FINITE_NATIVE_STEP_CONTEXT_EVIDENCE",
+  "taskScope": "12 declared strips, exact width 0.6, headroom 3, contract min/max feet, step <=0.6",
+  "geometryEvidence": {
+    "nativeRecords": 4416,
+    "exactCoverageTiles": 4620,
+    "certificateStatus": "CONDITIONAL_FINITE_COVERAGE_PASS",
+    "certificateSha256": "57db8767a727367c2172df9df1d3831baa16ce7359cf79986d550e41b5be1abd"
+  },
+  "nativeEvidence": {
+    "status": "PASS_NATIVE_REPRESENTATIVE_BOUNDARIES_CONTEXT_CHECKED",
+    "attempted": 352,
+    "passed": 352,
+    "directed": 704,
+    "singletonAtoms": 192,
+    "openIntervalAtoms": 160,
+    "contextChecks": 23784,
+    "sourceShapeChecks": 370364
+  },
+  "nativeReportSha256": "a0e9ec84e94efc811438f6177f46696f1b3add1b225d677348617988a2f36dcf",
+  "runtimeJarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+  "runtimeExecution": "Forge dev run compiled from unchanged final snapshot main/core sources; frozen reobfuscated production JAR is an input identity, not claimed as directly loaded bytecode",
+  "snapshotFilesReverified": 529,
+  "copiedImmutableFilesReverified": 92,
+  "completeContinuousMotionProof": false,
+  "finiteReduction": [
+    "Exact rational partition retains every singleton and open interval at collision-box footprint critical coordinates; geometric checks cover all real coordinates in each tile.",
+    "Within each declared open x atom the active box-overlap set and support envelope do not gain a box boundary. Motion is along one cardinal axis, with x fixed in the source frame. Fixed boxes give the same vertical and travel-axis clipping constraints throughout that atom in real arithmetic.",
+    "All 352 native step discontinuity representatives run both directions (704); singleton endpoints are executed separately, not discarded. Per-move/settle context shape, state, fluid and exact declared body clearance are checked. Initial/final full readback covers all 12 scenes.",
+    "These jointly close the required finite declared-strip clearance and representative native step/context obligations. No concrete remaining geometric blocker was observed for these inputs. Requiring an infinite JVM coordinate enumeration is not a task gate."
+  ],
+  "limits": [
+    "This is not a universal IEEE754 branch-equivalence theorem for every real or machine coordinate. Native width and maxUpStep are 0.6000000238418579; declared geometric width is exactly 0.6. The representative executions retain actual native values.",
+    "Per-move context checks plus fixed state/shape evidence establish invariance on executed trajectories; arbitrary external context changes and arbitrary player states are outside this certificate.",
+    "Native execution uses horizontal subdivision <=0.005 plus vanilla move and gravity, not an unrestricted speed, diagonal motion, arbitrary approach, or all future world mutation guarantee.",
+    "The side doublegate does not close the central arch. Sidegate interaction, whole dungeon generation, persistence/restart and protection remain separate integration gates.",
+    "Experimental derived room remains accepted=false; production promotion=false."
+  ],
+  "concreteRemainingDeclaredGeometryBlockers": [],
+  "productionPromotion": false,
+  "finishedAt": "2026-11-06T09:59:15.804451+00:00"
+}

@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "scope": "NOT_FOR_PRODUCTION: acceptance=false is mandatory; resource copying is not runtime approval",
+  "templates": [
+    {
+      "id": "s8_02",
+      "biome": "s8",
+      "resourceId": "biomedungeon:s8_02",
+      "sha256": "475cde56f4a0e3994ed5823f56144476c959c499d0d2e7d745a5aeb59b46b8a7",
+      "size": {
+        "x": 25,
+        "y": 15,
+        "z": 25
+      },
+      "ports": [
+        {
+          "id": "p0_north",
+          "feet": {
+            "x": 12,
+            "y": 2,
+            "z": 0
+          },
+          "facing": "north",
+          "width": 3,
+          "height": 3,
+          "medium": "dry"
+        },
+        {
+          "id": "p1_south",
+          "feet": {
+            "x": 14,
+            "y": 2,
+            "z": 24
+          },
+          "facing": "south",
+          "width": 3,
+          "height": 3,
+          "medium": "dry"
+        }
+      ],
+      "role": "normal",
+      "accepted": false,
+      "independentAcceptance": {
+        "sourceId": "S8-02",
+        "sourceSha256": "475cde56f4a0e3994ed5823f56144476c959c499d0d2e7d745a5aeb59b46b8a7",
+        "evidence": [
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-02-independent\\file-audit.json",
+            "path": "evidence/s8_02/file-audit.json",
+            "sha256": "4b171279bfe5cf0197c000e383772ff804deb88bef2471c5ff5b62bc4595e642"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-02-ACCEPTANCE.json",
+            "path": "evidence/s8_02/acceptance-0.json",
+            "sha256": "cb8bf04da06969d835faaf1f96b489dcde85c893b938dd97748b0eab7772c37b"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-02\\incoming\\S8R_IMG02\\room.json",
+            "path": "evidence/s8_02/original-metadata.json",
+            "sha256": "c81f74b6251f0b1433c8fe4b913e4ab8cdc5693d5d13aef30eee2cb23def5687"
+          }
+        ]
+      },
+      "runtimePromotionRequirements": [
+        "BLOCK_ENTITY_PRESERVATION_ROTATION_READBACK_PERSISTENT_RESTORE",
+        "NATIVE_BLOCK_STATE_ALLOWLIST_REVIEW"
+      ]
+    },
+    {
+      "id": "s8_03",
+      "biome": "s8",
+      "resourceId": "biomedungeon:s8_03",
+      "sha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c",
+      "size": {
+        "x": 17,
+        "y": 12,
+        "z": 17
+      },
+      "ports": [
+        {
+          "id": "p0_north",
+          "feet": {
+            "x": 8,
+            "y": 2,
+            "z": 0
+          },
+          "facing": "north",
+          "width": 3,
+          "height": 3,
+          "medium": "dry"
+        },
+        {
+          "id": "p1_east",
+          "feet": {
+            "x": 16,
+            "y": 2,
+            "z": 7
+          },
+          "facing": "east",
+          "width": 3,
+          "height": 3,
+          "medium": "dry"
+        }
+      ],
+      "role": "normal",
+      "accepted": false,
+      "independentAcceptance": {
+        "sourceId": "S8-03",
+        "sourceSha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c",
+        "evidence": [
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-03-independent-final\\file-audit.json",
+            "path": "evidence/s8_03/file-audit.json",
+            "sha256": "e1299ecafe48161a5cf2a977447c109f3754081c59e278ff302f6c7b7a429648"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-03-ACCEPTANCE.json",
+            "path": "evidence/s8_03/acceptance-0.json",
+            "sha256": "0235aa6f589e15ae70aa21985119f0049ab95a41995473868651e06b906edebf"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-03\\incoming\\S8R_IMG03\\room.json",
+            "path": "evidence/s8_03/original-metadata.json",
+            "sha256": "05738243fa86d07bc4e48daee626429878ac07b68ecda66ef74945956e1db1fb"
+          }
+        ]
+      },
+      "runtimePromotionRequirements": [
+        "BLOCK_ENTITY_PRESERVATION_ROTATION_READBACK_PERSISTENT_RESTORE",
+        "NATIVE_BLOCK_STATE_ALLOWLIST_REVIEW"
+      ]
+    },
+    {
+      "id": "s8_04",
+      "biome": "s8",
+      "resourceId": "biomedungeon:s8_04",
+      "sha256": "30e2cb79d231714c9facf8847474db7775a185172d411fc6d04bcd2ac76a1c3b",
+      "size": {
+        "x": 31,
+        "y": 19,
+        "z": 39
+      },
+      "ports": [
+        {
+          "id": "p0_north",
+          "feet": {
+            "x": 15,
+            "y": 2,
+            "z": 0
+          },
+          "facing": "north",
+          "width": 5,
+          "height": 3,
+          "medium": "dry"
+        },
+        {
+          "id": "p1_south",
+          "feet": {
+            "x": 15,
+            "y": 4,
+            "z": 38
+          },
+          "facing": "south",
+          "width": 5,
+          "height": 3,
+          "medium": "dry"
+        },
+        {
+          "id": "p2_west",
+          "feet": {
+            "x": 0,
+            "y": 4,
+            "z": 20
+          },
+          "facing": "west",
+          "width": 5,
+          "height": 3,
+          "medium": "dry"
+        },
+        {
+          "id": "p3_east",
+          "feet": {
+            "x": 30,
+            "y": 4,
+            "z": 20
+          },
+          "facing": "east",
+          "width": 5,
+          "height": 3,
+          "medium": "dry"
+        }
+      ],
+      "role": "normal",
+      "accepted": false,
+      "independentAcceptance": {
+        "sourceId": "S8-04",
+        "sourceSha256": "30e2cb79d231714c9facf8847474db7775a185172d411fc6d04bcd2ac76a1c3b",
+        "evidence": [
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-04-independent\\file-audit.json",
+            "path": "evidence/s8_04/file-audit.json",
+            "sha256": "3f7c1417c318d53bf1b6fd8f819911afb688b6830dde74cda39b57f25579cf8c"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-04-ACCEPTANCE.json",
+            "path": "evidence/s8_04/acceptance-0.json",
+            "sha256": "5dd15ebac8a75da1008d93cf90fffde78b08ba28faf4687e794981960584e8ae"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-04\\incoming\\S8R_IMG04\\room.json",
+            "path": "evidence/s8_04/original-metadata.json",
+            "sha256": "58fad7d5687964d60ab162a7992ab6aca383113e75129eca76445f6f56e74a37"
+          }
+        ]
+      },
+      "runtimePromotionRequirements": [
+        "BLOCK_ENTITY_PRESERVATION_ROTATION_READBACK_PERSISTENT_RESTORE",
+        "NATIVE_BLOCK_STATE_ALLOWLIST_REVIEW"
+      ]
+    },
+    {
+      "id": "s8_05",
+      "biome": "s8",
+      "resourceId": "biomedungeon:s8_05",
+      "sha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837",
+      "size": {
+        "x": 15,
+        "y": 12,
+        "z": 43
+      },
+      "ports": [
+        {
+          "id": "p0_north",
+          "feet": {
+            "x": 7,
+            "y": 2,
+            "z": 0
+          },
+          "facing": "north",
+          "width": 5,
+          "height": 3,
+          "medium": "dry"
+        },
+        {
+          "id": "p1_south",
+          "feet": {
+            "x": 7,
+            "y": 2,
+            "z": 42
+          },
+          "facing": "south",
+          "width": 5,
+          "height": 3,
+          "medium": "dry"
+        }
+      ],
+      "role": "normal",
+      "accepted": false,
+      "independentAcceptance": {
+        "sourceId": "S8-05",
+        "sourceSha256": "fb8302274c4f0865c721669581e2714363f4ac49f5ebe22a12d3c7dfafd19837",
+        "evidence": [
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-05-independent\\file-audit.json",
+            "path": "evidence/s8_05/file-audit.json",
+            "sha256": "de87ec37b5f435caa57054a6dcdd4b07a82fd1d12c707a577ab9363a2ecdf378"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW.md",
+            "path": "evidence/s8_05/acceptance-0.md",
+            "sha256": "ae0f845a59ed4e9dade3201d54b3dfd7fc7df1c326182bfee05280a5dba019d7"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-05-ACCEPTANCE.json",
+            "path": "evidence/s8_05/acceptance-1.json",
+            "sha256": "25040ac30e9d261f999364970838abf3f7b5e875419e27de349a73a939e6623a"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-05\\incoming\\S8R_IMG05\\room.json",
+            "path": "evidence/s8_05/original-metadata.json",
+            "sha256": "bf972457d7a89b8ece131a48551de2bcb01dc9c88500902ec2e5a598c9811e35"
+          }
+        ]
+      },
+      "runtimePromotionRequirements": []
+    },
+    {
+      "id": "s8_06",
+      "biome": "s8",
+      "resourceId": "biomedungeon:s8_06",
+      "sha256": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470",
+      "size": {
+        "x": 27,
+        "y": 13,
+        "z": 27
+      },
+      "ports": [
+        {
+          "id": "p0_north",
+          "feet": {
+            "x": 6,
+            "y": 2,
+            "z": 0
+          },
+          "facing": "north",
+          "width": 5,
+          "height": 3,
+          "medium": "dry"
+        },
+        {
+          "id": "p1_east",
+          "feet": {
+            "x": 26,
+            "y": 2,
+            "z": 20
+          },
+          "facing": "east",
+          "width": 5,
+          "height": 3,
+          "medium": "dry"
+        }
+      ],
+      "role": "normal",
+      "accepted": false,
+      "independentAcceptance": {
+        "sourceId": "S8-06",
+        "sourceSha256": "a22b7225717bc69a44e1e6400f792dd3e8b67ff11b52fd7114fb96d958fc9470",
+        "evidence": [
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-06-independent\\file-audit.json",
+            "path": "evidence/s8_06/file-audit.json",
+            "sha256": "d122d4bc5786486f591f9f0a3978cf8159a127711a5c89095dffb9ec61fdbfd0"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-06-independent\\independent-details.json",
+            "path": "evidence/s8_06/acceptance-0.json",
+            "sha256": "a382903bb0af55e32cd39935d162bbee9a815c7797be733c18e3130b12c412b4"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-06\\incoming\\S8R_IMG06\\room.json",
+            "path": "evidence/s8_06/original-metadata.json",
+            "sha256": "0a024b11b4eb37bc98828c04e19158d6118c2c26c4e34d02ea44dc7e868886a5"
+          }
+        ]
+      },
+      "runtimePromotionRequirements": []
+    },
+    {
+      "id": "s8_07",
+      "biome": "s8",
+      "resourceId": "biomedungeon:s8_07",
+      "sha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7",
+      "size": {
+        "x": 25,
+        "y": 15,
+        "z": 27
+      },
+      "ports": [
+        {
+          "id": "p0_north",
+          "feet": {
+            "x": 12,
+            "y": 2,
+            "z": 0
+          },
+          "facing": "north",
+          "width": 3,
+          "height": 3,
+          "medium": "dry"
+        },
+        {
+          "id": "p1_south",
+          "feet": {
+            "x": 12,
+            "y": 4,
+            "z": 26
+          },
+          "facing": "south",
+          "width": 5,
+          "height": 3,
+          "medium": "dry"
+        }
+      ],
+      "role": "entrance",
+      "accepted": false,
+      "independentAcceptance": {
+        "sourceId": "S8-07",
+        "sourceSha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7",
+        "evidence": [
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-07-independent\\file-audit.json",
+            "path": "evidence/s8_07/file-audit.json",
+            "sha256": "ab45634bf7df26ea3046768bb9e0f26780fd808e689fd1573a97fcc6bf1969be"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW-20261105-S206-S306-S405-S506-S807.md",
+            "path": "evidence/s8_07/acceptance-0.md",
+            "sha256": "99d7332f041408974447f9305c9c3e6744c2cec4400da38c32c92d5482365066"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-07-independent\\independent-details.json",
+            "path": "evidence/s8_07/acceptance-1.json",
+            "sha256": "626a411d67b308e446d44d6aabb3c0ac8540212a0d676368036ff4981a30c02e"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-07\\incoming\\S8R_IMG07\\room.json",
+            "path": "evidence/s8_07/original-metadata.json",
+            "sha256": "cf120d37f57f664a486852c0dde76f0bc601a15f589b6de88e68cf5028d36227"
+          }
+        ]
+      },
+      "runtimePromotionRequirements": [
+        "BLOCK_ENTITY_PRESERVATION_ROTATION_READBACK_PERSISTENT_RESTORE",
+        "NATIVE_BLOCK_STATE_ALLOWLIST_REVIEW"
+      ]
+    },
+    {
+      "id": "s8_09",
+      "biome": "s8",
+      "resourceId": "biomedungeon:s8_09",
+      "sha256": "17a40ef89e7667c3f1d843763df8ae33d2db1101a590b86da7cf0d3b56a85a0b",
+      "size": {
+        "x": 29,
+        "y": 17,
+        "z": 27
+      },
+      "ports": [
+        {
+          "id": "p0_west",
+          "feet": {
+            "x": 0,
+            "y": 2,
+            "z": 10
+          },
+          "facing": "west",
+          "width": 5,
+          "height": 3,
+          "medium": "dry"
+        },
+        {
+          "id": "p1_east",
+          "feet": {
+            "x": 28,
+            "y": 2,
+            "z": 10
+          },
+          "facing": "east",
+          "width": 5,
+          "height": 3,
+          "medium": "dry"
+        }
+      ],
+      "role": "terminal",
+      "accepted": false,
+      "independentAcceptance": {
+        "sourceId": "S8-09",
+        "sourceSha256": "17a40ef89e7667c3f1d843763df8ae33d2db1101a590b86da7cf0d3b56a85a0b",
+        "evidence": [
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-09-independent\\file-audit.json",
+            "path": "evidence/s8_09/file-audit.json",
+            "sha256": "1d5d74a18ff6d574ae3e48027281d86367c03fa175d4cb1bfc2cabb6bd05034a"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\REVIEW-20261105-S809.md",
+            "path": "evidence/s8_09/acceptance-0.md",
+            "sha256": "94a602467a25b245bc08760605e27d1902958b4d1a6dba0a98dc01309dde7c31"
+          },
+          {
+            "source": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-09\\incoming\\S8R_IMG09\\room.json",
+            "path": "evidence/s8_09/original-metadata.json",
+            "sha256": "a90fca05250acee8e7393b9830954de4f5a0d8d01353f3f6f35c36ee40651e65"
+          }
+        ]
+      },
+      "runtimePromotionRequirements": [
+        "BLOCK_ENTITY_PRESERVATION_ROTATION_READBACK_PERSISTENT_RESTORE",
+        "NATIVE_BLOCK_STATE_ALLOWLIST_REVIEW"
+      ]
+    }
+  ]
+}

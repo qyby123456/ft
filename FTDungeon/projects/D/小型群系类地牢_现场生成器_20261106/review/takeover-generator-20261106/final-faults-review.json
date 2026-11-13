@@ -1,0 +1,27 @@
+{
+  "status": "SIX_EXACT_INSTALLED_FAULTS_FROZEN_EVIDENCE_REVIEW_PASS",
+  "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+  "verifiedFiles": 1115,
+  "ready": {
+    "path": "D:\\ft\u5de5\u7a0b\u6587\u4ef6\\\u5c0f\u578b\u7fa4\u7cfb\u7c7b\u5730\u7262_\u73b0\u573a\u751f\u6210\u5668_20261106\\core\\final-runtime-faults\\ready.json",
+    "sha256": "6d895161ac834bed9d8f812200749de48b904c8a0857a5b2a335a16dd55c699a"
+  },
+  "passedCases": [
+    "truncated_journal",
+    "checksum_journal",
+    "foreign_block_preflight",
+    "unknown_inventory_forcekill",
+    "durable_checkpoint_forcekill",
+    "protection_piston"
+  ],
+  "nativePistonSourceCellsUnchanged": 127239,
+  "limitations": [
+    "Strong process termination was tested; power loss was not",
+    "Native piston was triggered by an operator fixture in protected padding",
+    "Fault worlds use a copied producer baseline, but faults, commands and restarts were independently executed",
+    "76 saved source-state differences were retained: 68 native wall up-property changes and 8 native vine growth cells",
+    "Actual legal commit/restart remains a separate independent gate"
+  ],
+  "completeGeneratorReady": false,
+  "productionPromotion": false
+}

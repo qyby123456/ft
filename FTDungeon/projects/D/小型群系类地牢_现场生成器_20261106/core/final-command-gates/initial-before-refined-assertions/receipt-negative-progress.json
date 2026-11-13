@@ -1,0 +1,73 @@
+{
+  "status": "PASS_ALL_INVALID_RECEIPTS_REFUSED",
+  "world": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\receipt-run\\20261106_174643\\world",
+  "jarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+  "cases": {
+    "missing_receipt": {
+      "status": "PASS_REFUSED_IDLE_NONCOMMITTED",
+      "response": [
+        "[17:47:16] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Missing/linked acceptance file",
+        "[17:47:16] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Missing/linked acceptance file"
+      ],
+      "jobStatus": "[17:47:16] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error="
+    },
+    "wrong_command_hash": {
+      "status": "PASS_REFUSED_IDLE_NONCOMMITTED",
+      "response": [
+        "[17:47:17] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Evidence hash differs from explicit operator command",
+        "[17:47:17] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Evidence hash differs from explicit operator command"
+      ],
+      "jobStatus": "[17:47:17] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error="
+    },
+    "wrong_binding": {
+      "status": "PASS_REFUSED_IDLE_NONCOMMITTED",
+      "response": [
+        "[17:47:17] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Acceptance binding mismatch: worldIdentity",
+        "[17:47:17] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Acceptance binding mismatch: worldIdentity"
+      ],
+      "jobStatus": "[17:47:17] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error="
+    },
+    "wrong_challenge": {
+      "status": "PASS_REFUSED_IDLE_NONCOMMITTED",
+      "response": [
+        "[17:47:17] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Acceptance binding mismatch: commitChallenge",
+        "[17:47:17] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Acceptance binding mismatch: commitChallenge"
+      ],
+      "jobStatus": "[17:47:18] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error="
+    },
+    "missing_gate": {
+      "status": "PASS_REFUSED_IDLE_NONCOMMITTED",
+      "response": [
+        "[17:47:18] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Every mandatory gate must be independently decided",
+        "[17:47:18] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Every mandatory gate must be independently decided"
+      ],
+      "jobStatus": "[17:47:18] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error="
+    },
+    "unknown_field": {
+      "status": "PASS_REFUSED_IDLE_NONCOMMITTED",
+      "response": [
+        "[17:47:18] [Server thread/INFO] [minecraft/MinecraftServer]: Rejected: Unknown/missing acceptance field",
+        "[17:47:18] [Server thread/WARN] [cn.ft.bi.ru.DungeonMod/]: ftbiomedungeon rejected: java.lang.IllegalArgumentException: Unknown/missing acceptance field"
+      ],
+      "jobStatus": "[17:47:19] [Server thread/INFO] [minecraft/MinecraftServer]: ftde-376d89c39f36c4b016aa1937c9311fac086c198cd5d6b103edaf4c6afc3b804f phase=VERIFYING cursor=879648 attempted=879648 active=false tickets=0 stage=PAYLOAD_VERIFIED_ROUTE_INTERACTION_ACCEPTANCE_PENDING observedTicks=2400 error="
+    }
+  },
+  "accepted": false,
+  "productionPromotion": false,
+  "scope": "Deliberately invalid receipts only; no acceptance PASS is created by this test",
+  "process": {
+    "pid": 49360,
+    "parentPid": 76140,
+    "command": [
+      "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+      "-Xmx2G",
+      "-Dftbd.v5World=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\receipt-run\\20261106_174643\\world",
+      "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\receipt-run\\20261106_174643\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+      "nogui"
+    ],
+    "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\receipt-run\\20261106_174643",
+    "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\core\\final-command-gates\\receipt-run\\20261106_174643\\receipt-negatives.log",
+    "exitCode": 0,
+    "logSha256": "baa52a0f885eca0f0faf7688695e80cb80fd3736bdc42b63e8ec8bcadf9ed5f2"
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "updatedAt": "2026-11-06T13:36:52.321891+08:00",
+  "status": "SOURCE_WORLD_PARTIAL_ACCEPTANCE",
+  "suites": [
+    {
+      "run": "20261106_131217_940590",
+      "process": {
+        "command": [
+          "C:\\WINDOWS\\system32\\cmd.exe",
+          "/d",
+          "/c",
+          "C:\\Users\\YOUR_USERNAME\\.gradle\\wrapper\\dists\\gradle-8.8-bin\\dl7vupf4psengwqhwktix4v1\\gradle-8.8\\bin\\gradle.bat",
+          "--no-daemon",
+          "--console=plain",
+          "--project-cache-dir",
+          "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590\\gradle-project-cache",
+          "-I",
+          "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590\\isolation.gradle",
+          "-PcoreSource=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131217_940590\\core\\src\\main\\java",
+          "--offline",
+          "-Dnet.minecraftforge.gradle.check.certs=false",
+          "-I",
+          "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590\\verification\\world-overlay.gradle",
+          "-PintegrationSourceRoot=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590\\verification",
+          "-PintegrationRunRoot=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590",
+          "runGameTestServer"
+        ],
+        "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131217_940590\\assembled",
+        "startedAt": "2026-11-06T13:12:38.116260+08:00",
+        "timeoutSeconds": 900,
+        "exitCode": 1,
+        "status": "FAIL",
+        "durationSeconds": 85.172,
+        "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590\\gametest.log",
+        "note": "Process result only; not proof that world assertions ran/passed"
+      },
+      "logSha256": "c985ec23af8034a38d9cb3ac4c1e37c3710f7c12460d6dc130dea80191ab1b41",
+      "snapshotLockSha256": "a3cc4c8e18b7fc3f95e1dce78499dafb745ddca81d67f23d15c6b08af9d41b01",
+      "verificationLockSha256": "df2cd2056c6ed2375227d7f0f291ef11bbb275cd237d0600d03c5c7e358070c2",
+      "requiredTestsPassed": 0,
+      "failures": [
+        "[13:13:45] [Server thread/ERROR] [minecraft/LogTestReporter]: realroomplacementandjournalreload failed! Planner and runtime instance identity differs",
+        "[13:13:46] [Server thread/ERROR] [minecraft/LogTestReporter]: playerblockconflictleavesfulloperationsetunchanged failed! Planner and runtime instance identity differs"
+      ],
+      "assertions": [
+        "RUNTIME_WORLD_PASS occupied_preflight_zero_writes id=ftd-cc8ee87424090cb39c3c138beedc6e10d2195ed5bb67aad1d415db92933dbcb9 cells=55195",
+        "INTEGRATION_ASSERT invalid_anchor PASS sentinel_only=true",
+        "RUNTIME_WORLD_PASS real_command_build dry_run operator_only readback pause_revalidation committed_idempotency id=ftd-052a53cc0cd1427b965443c1528f1d8d75abf8a41da95914b2fed2121f0c780a cells=56525 operationHash=0d73c90c12e44751f9f1b9965cca76aa5779f28b82472b8d89fe68c999685a66 physical_flat_return_route=PASS tickets_released=PASS; forced-kill/powerloss NOT_RUN"
+      ],
+      "sourceReadyHashes": {
+        "core": "aa544a048f88c760750f8673fc6a5d33b1c7f8de932abbed7958c96c943e78e7",
+        "runtime": "1e985e5c16562aa3609c84af1b15b81fb394df9185ed22190eaa6617111c84db",
+        "catalog": "32265573f01532bf3e12244ae933ed7d6928fa91c764986150b84992e814fc18"
+      },
+      "jar": [
+        {
+          "path": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131217_940590\\assembled\\build\\libs\\ft-biome-dungeon-generator-forge-1.20.1-0.1.0-candidate.jar",
+          "sha256": "2648e54f72169f7722852469f3aeaec5861676fe41e61de0f59eb04e90ec200d",
+          "templates": 2
+        }
+      ]
+    },
+    {
+      "run": "20261106_131641_155344",
+      "process": {
+        "command": [
+          "C:\\WINDOWS\\system32\\cmd.exe",
+          "/d",
+          "/c",
+          "C:\\Users\\YOUR_USERNAME\\.gradle\\wrapper\\dists\\gradle-8.8-bin\\dl7vupf4psengwqhwktix4v1\\gradle-8.8\\bin\\gradle.bat",
+          "--no-daemon",
+          "--console=plain",
+          "--project-cache-dir",
+          "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131641_155344\\gradle-project-cache",
+          "-I",
+          "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131641_155344\\isolation.gradle",
+          "-PcoreSource=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131641_155344\\core\\src\\main\\java",
+          "--offline",
+          "-Dnet.minecraftforge.gradle.check.certs=false",
+          "-I",
+          "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131641_155344\\verification\\world-overlay.gradle",
+          "-PintegrationSourceRoot=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131641_155344\\verification",
+          "-PintegrationRunRoot=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131641_155344",
+          "runGameTestServer"
+        ],
+        "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131641_155344\\assembled",
+        "startedAt": "2026-11-06T13:17:03.312264+08:00",
+        "timeoutSeconds": 900,
+        "exitCode": 0,
+        "status": "PASS",
+        "durationSeconds": 96.656,
+        "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131641_155344\\gametest.log",
+        "note": "Process result only; not proof that world assertions ran/passed"
+      },
+      "logSha256": "237a58c3643670192b69b77ae2c2b0cf59ce05963ad167ffbec7666996f0eb58",
+      "snapshotLockSha256": "6cc2be2ff00381fc033f9521842fd1c7d349099c153810dc1e1343ec4c71c617",
+      "verificationLockSha256": "9aee5b58b582a1aa8a069937ccc0b42ee1db62ccffeb01e3ae698f6ba91b5f3f",
+      "requiredTestsPassed": 7,
+      "failures": [],
+      "assertions": [
+        "RUNTIME_WORLD_PASS occupied_preflight_zero_writes id=ftd-c7969140c2aee0cd08ce9a1485a8ed27866038548439890d82d3b4bdbcfe8e5f cells=39330",
+        "INTEGRATION_ASSERT invalid_anchor PASS sentinel_only=true",
+        "INTEGRATION_ASSERT independent_rotation_sampling PASS checked_cells=68868 seeds=32 layouts=32 templates=[s8_05, s8_06] rotations=[0, 1, 2, 3] world_placement=false",
+        "INTEGRATION_ASSERT player_conflict PASS compared_cells=20691",
+        "INTEGRATION_ASSERT room_readback_journal_reload PASS cells=18522 process_restart=false",
+        "INTEGRATION_ASSERT mixed_world_route_shell PASS rooms=3 targets=8 reachable_cells=1062 shell_cells=16378 tickets_released=true templates=[s8_06, s8_05, s8_06]",
+        "INTEGRATION_ASSERT room_readback_journal_reload PASS cells=103588 process_restart=false",
+        "RUNTIME_WORLD_PASS real_command_build dry_run operator_only readback pause_revalidation committed_idempotency id=ftd-be5144e9136dc907b420f3fb425fc24620ec8402edb2bcda2b4146cd8d1f149c cells=58938 operationHash=156eb65ad7d7ee2a9eb77a6b54bcaaf39eb8d748cf418b4c1ffe96eecd53215b physical_flat_return_route=PASS tickets_released=PASS; forced-kill/powerloss NOT_RUN"
+      ],
+      "sourceReadyHashes": {
+        "core": "aa544a048f88c760750f8673fc6a5d33b1c7f8de932abbed7958c96c943e78e7",
+        "runtime": "1e985e5c16562aa3609c84af1b15b81fb394df9185ed22190eaa6617111c84db",
+        "catalog": "32265573f01532bf3e12244ae933ed7d6928fa91c764986150b84992e814fc18"
+      },
+      "jar": [
+        {
+          "path": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131641_155344\\assembled\\build\\libs\\ft-biome-dungeon-generator-forge-1.20.1-0.1.0-candidate.jar",
+          "sha256": "2648e54f72169f7722852469f3aeaec5861676fe41e61de0f59eb04e90ec200d",
+          "templates": 2
+        }
+      ]
+    },
+    {
+      "run": "20261106_132015_129205",
+      "process": {
+        "command": [
+          "C:\\WINDOWS\\system32\\cmd.exe",
+          "/d",
+          "/c",
+          "C:\\Users\\YOUR_USERNAME\\.gradle\\wrapper\\dists\\gradle-8.8-bin\\dl7vupf4psengwqhwktix4v1\\gradle-8.8\\bin\\gradle.bat",
+          "--no-daemon",
+          "--console=plain",
+          "--project-cache-dir",
+          "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205\\gradle-project-cache",
+          "-I",
+          "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205\\isolation.gradle",
+          "-PcoreSource=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_132015_129205\\core\\src\\main\\java",
+          "--offline",
+          "-Dnet.minecraftforge.gradle.check.certs=false",
+          "-I",
+          "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205\\verification\\world-overlay.gradle",
+          "-PintegrationSourceRoot=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205\\verification",
+          "-PintegrationRunRoot=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205",
+          "runGameTestServer"
+        ],
+        "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_132015_129205\\assembled",
+        "startedAt": "2026-11-06T13:20:42.965102+08:00",
+        "timeoutSeconds": 900,
+        "exitCode": 0,
+        "status": "PASS",
+        "durationSeconds": 193.016,
+        "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205\\gametest.log",
+        "note": "Process result only; not proof that world assertions ran/passed"
+      },
+      "logSha256": "7578d5ecdd20935c239db246367ee4049cb5f386b6726ba4bfc2d19df8d35f27",
+      "snapshotLockSha256": "c2e212a3e911c57afe4c66124f54b6615567664fed7d34c91707fe68de4a9faf",
+      "verificationLockSha256": "57335c0bb7d7681eb7d236276b4993aa1cccfbcb4c8a0be2d0be57ea59abdf3d",
+      "requiredTestsPassed": 8,
+      "failures": [],
+      "assertions": [
+        "RUNTIME_WORLD_PASS occupied_preflight_zero_writes id=ftd-27b267f5f57b88af95de9982cb6849cb0dfbebf79388a06735f886ed087029f9 cells=40986",
+        "INTEGRATION_ASSERT invalid_anchor PASS sentinel_only=true",
+        "INTEGRATION_ASSERT independent_rotation_sampling PASS checked_cells=68868 seeds=32 layouts=32 templates=[s8_05, s8_06] rotations=[0, 1, 2, 3] world_placement=false",
+        "INTEGRATION_ASSERT player_conflict PASS compared_cells=18522",
+        "INTEGRATION_ASSERT room_readback_journal_reload PASS cells=18522 process_restart=false",
+        "INTEGRATION_ASSERT all_rotations_world PASS rotations=4 templates=s8_05,s8_06 independent_raw_interior_cells=29042 unused_boundary_ports_excluded=true",
+        "INTEGRATION_ASSERT mixed_world_route_shell PASS rooms=3 targets=8 reachable_cells=1062 shell_cells=18842 tickets_released=true templates=[s8_05, s8_06, s8_06]",
+        "INTEGRATION_ASSERT room_readback_journal_reload PASS cells=126350 process_restart=false",
+        "RUNTIME_WORLD_PASS real_command_build dry_run operator_only readback pause_revalidation committed_idempotency id=ftd-3d96c74464e06b03026f041d34f140e72741ac4c9e9af91260ad513b4d7dfd68 cells=41814 operationHash=3a60f51f57d64488dda74f8e8e853a5322bd7021f298c57f4114f8b03d49e096 physical_flat_return_route=PASS tickets_released=PASS; forced-kill/powerloss NOT_RUN"
+      ],
+      "sourceReadyHashes": {
+        "core": "aa544a048f88c760750f8673fc6a5d33b1c7f8de932abbed7958c96c943e78e7",
+        "runtime": "1e985e5c16562aa3609c84af1b15b81fb394df9185ed22190eaa6617111c84db",
+        "catalog": "32265573f01532bf3e12244ae933ed7d6928fa91c764986150b84992e814fc18"
+      },
+      "jar": [
+        {
+          "path": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_132015_129205\\assembled\\build\\libs\\ft-biome-dungeon-generator-forge-1.20.1-0.1.0-candidate.jar",
+          "sha256": "2648e54f72169f7722852469f3aeaec5861676fe41e61de0f59eb04e90ec200d",
+          "templates": 2
+        }
+      ]
+    }
+  ],
+  "latestSuccessful": "20261106_132015_129205",
+  "installedJar": {
+    "scope": "Actual reobfuscated candidate JAR, normal Forge dedicated server",
+    "jar": {
+      "path": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_132015_129205\\assembled\\build\\libs\\ft-biome-dungeon-generator-forge-1.20.1-0.1.0-candidate.jar",
+      "sha256": "2648e54f72169f7722852469f3aeaec5861676fe41e61de0f59eb04e90ec200d",
+      "templates": 2
+    },
+    "snapshotLockSha256": "c2e212a3e911c57afe4c66124f54b6615567664fed7d34c91707fe68de4a9faf",
+    "run": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725",
+    "status": "PASS_COMMAND_COMMIT",
+    "worldAcceptance": "PARTIAL",
+    "installer": {
+      "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar",
+      "source": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\review\\forge-1.20.1-47.4.10-installer.jar",
+      "sha256": "1912760b4cb6b803d8a826de603c9076b1da71ec2765e9a1f8c1ca78f65278e3",
+      "officialSha1": "66bfea9963bfa60d88bab6b2750e74a958392715",
+      "zipCrc": "PASS"
+    },
+    "installation": {
+      "command": [
+        "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+        "-jar",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\forge-installer.jar",
+        "--installServer",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725"
+      ],
+      "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725",
+      "startedAt": "2026-11-06T13:27:25.380982+08:00",
+      "timeoutSeconds": 600,
+      "exitCode": 0,
+      "status": "PASS",
+      "durationSeconds": 52.203,
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\install.log"
+    },
+    "process": {
+      "command": [
+        "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+        "-Xmx2G",
+        "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+        "nogui"
+      ],
+      "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725",
+      "pid": 58952,
+      "exitCode": 0,
+      "durationSeconds": 88.40599999995902,
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\server.log"
+    },
+    "instanceId": "ftd-25d3accddebd6772fae2f4a026d8ff3bca671222d20364e3f3c83e54ccb068d8",
+    "limitation": "Commit reported by runtime; independent block/collision readback NOT_RUN in installed process",
+    "logSha256": "e41095671fbdfc09d6e6a0e55b5b1e0f175083d7d2a402adc53bb88ee0ad21a5"
+  },
+  "restart": {
+    "status": "PASS_CLEAN_INTERRUPTED_RECOVERY",
+    "scope": "Independent replay of owner restart fixtures against exact frozen sources, distinct JVMs; NOT forced kill/powerloss or installed JAR",
+    "snapshotLockSha256": "a3cc4c8e18b7fc3f95e1dce78499dafb745ddca81d67f23d15c6b08af9d41b01",
+    "stages": [
+      {
+        "command": [
+          "C:\\WINDOWS\\system32\\cmd.exe",
+          "/d",
+          "/c",
+          "C:\\Users\\YOUR_USERNAME\\.gradle\\wrapper\\dists\\gradle-8.8-bin\\dl7vupf4psengwqhwktix4v1\\gradle-8.8\\bin\\gradle.bat",
+          "--no-daemon",
+          "--offline",
+          "-Dnet.minecraftforge.gradle.check.certs=false",
+          "--console=plain",
+          "--project-cache-dir",
+          "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590_restart\\gradle-project-cache",
+          "-I",
+          "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590_restart\\restart-isolation.gradle",
+          "-PcoreSource=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131217_940590\\core\\src\\main\\java",
+          "-PrestartStage=prepare",
+          "runGameTestServer"
+        ],
+        "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131217_940590\\assembled",
+        "startedAt": "2026-11-06T13:18:39.004427+08:00",
+        "timeoutSeconds": 600,
+        "exitCode": 0,
+        "status": "PASS",
+        "durationSeconds": 69.5,
+        "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590_restart\\prepare.log"
+      },
+      {
+        "command": [
+          "C:\\WINDOWS\\system32\\cmd.exe",
+          "/d",
+          "/c",
+          "C:\\Users\\YOUR_USERNAME\\.gradle\\wrapper\\dists\\gradle-8.8-bin\\dl7vupf4psengwqhwktix4v1\\gradle-8.8\\bin\\gradle.bat",
+          "--no-daemon",
+          "--offline",
+          "-Dnet.minecraftforge.gradle.check.certs=false",
+          "--console=plain",
+          "--project-cache-dir",
+          "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590_restart\\gradle-project-cache",
+          "-I",
+          "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590_restart\\restart-isolation.gradle",
+          "-PcoreSource=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131217_940590\\core\\src\\main\\java",
+          "-PrestartStage=resume",
+          "runGameTestServer"
+        ],
+        "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131217_940590\\assembled",
+        "startedAt": "2026-11-06T13:19:48.510685+08:00",
+        "timeoutSeconds": 600,
+        "exitCode": 0,
+        "status": "PASS",
+        "durationSeconds": 45.812,
+        "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590_restart\\resume.log"
+      }
+    ],
+    "assertions": [
+      "RUNTIME_RESTART_PREPARED process=56976 ftd-b7b0417369ce46aa43fb96f7cf42b0d59de6956c6dceac4bbde2bf8992d56e13 phase=BUILDING cursor=128 attempted=128 active=false tickets=0 error= operationHash=449500e0bcaade0ea94fbc1f29db4206a578f8c6f1daf281100abe9089dbcb21; clean interrupted shutdown, not forced kill",
+      "RUNTIME_RESTART_LOADED process=68800 ftd-b7b0417369ce46aa43fb96f7cf42b0d59de6956c6dceac4bbde2bf8992d56e13 phase=BUILDING cursor=128 attempted=128 active=false tickets=0 error=",
+      "RUNTIME_RESTART_PASS process=68800 id=ftd-b7b0417369ce46aa43fb96f7cf42b0d59de6956c6dceac4bbde2bf8992d56e13 cells=58938 operationHash=449500e0bcaade0ea94fbc1f29db4206a578f8c6f1daf281100abe9089dbcb21; distinct process interrupted recovery, forced-kill/powerloss NOT_RUN"
+    ]
+  },
+  "installedReadback": {
+    "status": "PASS",
+    "scope": "Independent offline saved Anvil chunks, raw interior states, barrier shell and conservative full-air/full-block floor route; native collision shapes and unused door faces excluded",
+    "results": [
+      {
+        "instanceId": "ftd-25d3accddebd6772fae2f4a026d8ff3bca671222d20364e3f3c83e54ccb068d8",
+        "phase": "COMMITTED",
+        "roomIds": [
+          "s8_05",
+          "s8_05"
+        ],
+        "rotations": [
+          1,
+          3
+        ],
+        "rawInteriorCells": 12792,
+        "perimeterCells": 8472,
+        "routeTargets": 2,
+        "reachableFullAirCells": 780,
+        "journalSha256": "5118e0ed76560c05f8b50c97ba7f097b776579d2177faaf686704fc1141dfd43"
+      }
+    ],
+    "regionFiles": {
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.1.2.mca": "5cd2d0fcb12b7221e6277ac25bad9ef6f672b263e2584d5f697e81fea7590424",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.2.2.mca": "bcd8790d67ad082c1b97b4c193aa7078886c7cedb74a3a8e9c4b2c04f4f56b6a",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.1.1.mca": "d09cc36d2f0a6adc7a10e04ed578244e2d328d9825ae011a4bc18f69aed1eb16",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.2.1.mca": "1e957d01ce47663c3e10696b6756de2f223982a19a6608e328e2a4cb9130e5d2"
+    },
+    "readerSha256": "3b1d85f5e032fba12287355b2f9616d8ad5505ae6c7ea97cc06ca74067a34586"
+  },
+  "installedRecovery": {
+    "status": "PASS",
+    "scope": "Actual installed candidate JAR, distinct normal dedicated JVMs, clean mid-build interrupt and explicit resume; not forced kill/powerloss",
+    "stages": [
+      {
+        "command": [
+          "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+          "-Xmx2G",
+          "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+          "nogui"
+        ],
+        "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725",
+        "pid": 17648,
+        "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\installed-prepare.log",
+        "exitCode": 0,
+        "logSha256": "b141ea08b0a3bf717a4b78dbee7cb98fa25953328612950db543b28e5cf38371"
+      },
+      {
+        "command": [
+          "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+          "-Xmx2G",
+          "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+          "nogui"
+        ],
+        "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725",
+        "pid": 50616,
+        "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\installed-resume.log",
+        "exitCode": 0,
+        "logSha256": "6452bb5cdebb417075cc316a1dd209af1ebb64fa75506667c5d9d3d71e277609"
+      }
+    ],
+    "instanceId": "ftd-1ebedc879bfde49738b0a0d3cc76e8240307e7869dec56e643e14fccdff59593",
+    "pausedStatus": "[13:31:36] [Server thread/INFO] [minecraft/MinecraftServer]: ftd-1ebedc879bfde49738b0a0d3cc76e8240307e7869dec56e643e14fccdff59593 phase=BUILDING cursor=640 attempted=640 active=false tickets=0 error=",
+    "savedCursor": 640,
+    "savedOperationHash": "5e62d0809f5c92f54206b38abb1321389668ae9173ed3e8895a71db5588d1b1b",
+    "loadedStatus": "[13:32:08] [Server thread/INFO] [minecraft/MinecraftServer]: ftd-1ebedc879bfde49738b0a0d3cc76e8240307e7869dec56e643e14fccdff59593 phase=BUILDING cursor=640 attempted=640 active=false tickets=0 error=",
+    "committedStatus": "[13:33:02] [Server thread/INFO] [minecraft/MinecraftServer]: ftd-1ebedc879bfde49738b0a0d3cc76e8240307e7869dec56e643e14fccdff59593 phase=COMMITTED cursor=109060 attempted=109060 active=false tickets=0 error=",
+    "idempotentStatus": "[13:33:07] [Server thread/INFO] [minecraft/MinecraftServer]: ftd-1ebedc879bfde49738b0a0d3cc76e8240307e7869dec56e643e14fccdff59593 phase=COMMITTED cursor=109060 attempted=109060 active=false tickets=0 error=",
+    "independentSavedChunkReadback": {
+      "status": "PASS",
+      "scope": "Independent offline saved Anvil chunks, raw interior states, barrier shell and conservative full-air/full-block floor route; native collision shapes and unused door faces excluded",
+      "results": [
+        {
+          "instanceId": "ftd-1ebedc879bfde49738b0a0d3cc76e8240307e7869dec56e643e14fccdff59593",
+          "phase": "COMMITTED",
+          "roomIds": [
+            "s8_05",
+            "s8_06",
+            "s8_06"
+          ],
+          "rotations": [
+            1,
+            1,
+            0
+          ],
+          "rawInteriorCells": 22646,
+          "perimeterCells": 16580,
+          "routeTargets": 4,
+          "reachableFullAirCells": 1057,
+          "journalSha256": "dae36add000a2a96b1905f6a91ce54a82668075dad92b7cae9f116dc03e71194"
+        },
+        {
+          "instanceId": "ftd-25d3accddebd6772fae2f4a026d8ff3bca671222d20364e3f3c83e54ccb068d8",
+          "phase": "COMMITTED",
+          "roomIds": [
+            "s8_05",
+            "s8_05"
+          ],
+          "rotations": [
+            1,
+            3
+          ],
+          "rawInteriorCells": 12792,
+          "perimeterCells": 8472,
+          "routeTargets": 2,
+          "reachableFullAirCells": 780,
+          "journalSha256": "5118e0ed76560c05f8b50c97ba7f097b776579d2177faaf686704fc1141dfd43"
+        }
+      ],
+      "regionFiles": {
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.3.4.mca": "b1378b5e46077b788345f3baff9b855a1544955209bc6382f38f3e5962349a39",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.3.3.mca": "c5e2aa9cbc1645cb67ff09f181f6e58578b8fc9af6aa198edac6bd5325977bf9",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.4.3.mca": "4a680861a7a6b934aa7220ee414c8dd8ec291d73b615a06dbe11b45ac5aaa82c",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.4.4.mca": "c1f3908bcea1dc4909567fdf0e8baee637da436aa4693b6ebacb79aa374124d9",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.1.2.mca": "5cd2d0fcb12b7221e6277ac25bad9ef6f672b263e2584d5f697e81fea7590424",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.2.2.mca": "bcd8790d67ad082c1b97b4c193aa7078886c7cedb74a3a8e9c4b2c04f4f56b6a",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.1.1.mca": "d09cc36d2f0a6adc7a10e04ed578244e2d328d9825ae011a4bc18f69aed1eb16",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.2.1.mca": "1e957d01ce47663c3e10696b6756de2f223982a19a6608e328e2a4cb9130e5d2"
+      },
+      "readerSha256": "3b1d85f5e032fba12287355b2f9616d8ad5505ae6c7ea97cc06ca74067a34586"
+    }
+  },
+  "installedConflict": {
+    "status": "PASS",
+    "scope": "Actual installed JAR preflight conflict; independent saved-chunk full envelope remains air except injected gold block",
+    "failedStatus": "[13:35:32] [Server thread/INFO] [minecraft/MinecraftServer]: ftd-0e9f61d3b97078e5f457a3847604713806c6af87b35fb768bfb258b6968e429a phase=FAILED cursor=0 attempted=0 active=false tickets=0 error=java.lang.IllegalArgumentException: Occupied/protected block at BlockPos{x=4605, y=206, z=4601}",
+    "process": {
+      "command": [
+        "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+        "-Xmx2G",
+        "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+        "nogui"
+      ],
+      "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725",
+      "pid": 66480,
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\installed-conflict-133456.log",
+      "exitCode": 0,
+      "logSha256": "adca627949ca5c30185b55de42f85a6f6d9a4126e5d3ce4aa74359cbd4961268"
+    },
+    "instanceId": "ftd-0e9f61d3b97078e5f457a3847604713806c6af87b35fb768bfb258b6968e429a",
+    "checkedEnvelopeCells": 58938,
+    "intruder": [
+      4605,
+      206,
+      4601
+    ],
+    "regionFiles": {
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.8.8.mca": "f6c1af1562a198384a32f70f4a2180f446e8f6ef7552d5988ed4031c7d3eec47",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.9.8.mca": "73fb21ef6e350ab4a2fd886e80042a755fef1a9772e3fbca82d5d0a603331111",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.8.9.mca": "82a665a936efcb0ce03d4e71e59f3299458dec6ae0a470d6d9c78a5a0878e6de",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_132015_129205_installed_132725\\world\\region\\r.9.9.mca": "6317abebb328b4db1181d99a72f96e44d6a3228e0daa301aff705ae3be66af44"
+    }
+  },
+  "installedJarAcceptance": "PASS_SCOPED"
+}

@@ -1,0 +1,106 @@
+{
+  "component": "integration-v2",
+  "apiVersion": 1,
+  "status": "SCOPED_CAPABILITY_PASS",
+  "completeGeneratorReady": false,
+  "productionPromotion": false,
+  "artifactSha256": "f7d73680b20d390a6f08a090fea66b66000deb33bc0a6556ad282340035c6188",
+  "snapshot": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\staging\\20261106_134313",
+  "snapshotLockSha256": "48e35602c9b59f7d155e1efe058ffdbf387f7e06f8d89a012d42f92a817bb4b8",
+  "suites": [
+    {
+      "name": "payload",
+      "requiredTestsPassed": 3,
+      "assertions": [
+        "INDEPENDENT_V2_PASS originalCells=237000 originalNativeBE=96 originalRawFields=184 completedContainerMutationsRefused=44 rotations=4 types=[minecraft:chest, minecraft:barrel, minecraft:banner] accepted=false productionPromotion=false",
+        "PAYLOAD_V2_WORLD_PASS originalRooms=5 rotations=4 completeCells=237000 preservedBE=96 dynamicFurniture=doors/slabs/lanterns/banner/chest/barrel/pots replay=defaults-before-complete-only conflict=modified-inventory-rejected; full assembled biome/fluid NOT_RUN",
+        "ROLE_BE_V2_WORLD_PASS actualEntrance=s8_07 mainHall=s8_04 terminal=s8_09 rooms=3 cells=111150 BE=22 journalReload=PASS payloadReadback=PASS inventoryConflict=QUARANTINED_ZERO_OVERWRITE baselinePromotion=NONE completeNineRooms=NO"
+      ],
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\run\\20261106_134313\\payload.log",
+      "sha256": "e0ebc47a32b73c02ab48b3cc56abfa79590d16e8bd1d79a718338e4357258ebb"
+    },
+    {
+      "name": "be-restart-prepare",
+      "requiredTestsPassed": 1,
+      "assertions": [
+        "BE_V2_RESTART_PREPARED process=82680 id=ftd-9d56e21b4f62f247a06e4c0418597d056308464f5d536c973fe8de1a21dd1c8b placedBE=4 operationHash=d7765737dc0f900fa833d4c832c55a944110725af5f84d7e4810c4ec66bf2305 ftd-9d56e21b4f62f247a06e4c0418597d056308464f5d536c973fe8de1a21dd1c8b phase=BUILDING cursor=47744 attempted=47744 active=false tickets=0 error="
+      ],
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\run\\20261106_134313\\be-restart-prepare.log",
+      "sha256": "d7b878727a76059de11c2869d45aaf6d7a7df96bbf8601a8e6fbdeeb007075cf"
+    },
+    {
+      "name": "be-restart-resume",
+      "requiredTestsPassed": 1,
+      "assertions": [
+        "BE_V2_RESTART_LOADED process=40276 id=ftd-9d56e21b4f62f247a06e4c0418597d056308464f5d536c973fe8de1a21dd1c8b persistedBE=4 ftd-9d56e21b4f62f247a06e4c0418597d056308464f5d536c973fe8de1a21dd1c8b phase=BUILDING cursor=47744 attempted=47744 active=false tickets=0 error=",
+        "BE_V2_RESTART_PASS process=40276 id=ftd-9d56e21b4f62f247a06e4c0418597d056308464f5d536c973fe8de1a21dd1c8b finalBE=22 cells=144900 operationHash=d7765737dc0f900fa833d4c832c55a944110725af5f84d7e4810c4ec66bf2305; clean-interrupted separate process, force-kill/powerloss NOT_RUN"
+      ],
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\run\\20261106_134313\\be-restart-resume.log",
+      "sha256": "b6b301a3112dc86e37cd711a94bea1697d42db796d4caac8e10ef5898afde26d"
+    }
+  ],
+  "independentNativeSavedBE": {
+    "status": "PASS",
+    "mode": "complete",
+    "scope": "Independent direct Anvil native BE tags vs original frozen structure bytes; current originals have empty Items/Patterns, not evidence of rich nonempty-original payload",
+    "phase": "COMMITTED",
+    "cursor": 144900,
+    "operationHash": "d7765737dc0f900fa833d4c832c55a944110725af5f84d7e4810c4ec66bf2305",
+    "roomIds": [
+      "s8_07",
+      "s8_04",
+      "s8_09"
+    ],
+    "nativeTypes": {
+      "minecraft:barrel": 8,
+      "minecraft:banner": 13,
+      "minecraft:chest": 1
+    },
+    "rawFieldsCompared": 44,
+    "notYetPlacedBE": 0,
+    "regionHashes": {
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\run\\20261106_134313\\be-restart-world\\world\\region\\r.13.13.mca": "636073626d57f4bf70ad4076b69562d668880fdabfaf6f51145a674e42958284"
+    },
+    "journalSha256": "8219e505330e6b696cbc94fca05d7a1303ea488b123e0e9d700bf733e97abbec"
+  },
+  "actualInstalledExperimental": {
+    "status": "PASS_BASELINE_POOL_ONLY",
+    "artifactSha256": "f7d73680b20d390a6f08a090fea66b66000deb33bc0a6556ad282340035c6188",
+    "run": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\run\\20261106_134313_installed_134650",
+    "originalFiveRoomInstalledBE": "NOT_RUN_NOT_PACKAGED",
+    "sourceSnapshotLockSha256": "48e35602c9b59f7d155e1efe058ffdbf387f7e06f8d89a012d42f92a817bb4b8",
+    "committedStatus": "[13:48:09] [Server thread/INFO] [minecraft/MinecraftServer]: ftd-39de0ae564ab5c3bb160ec2ddf5ee8bab581df7738eeaab22a1fccefbb8f10d4 phase=COMMITTED cursor=41814 attempted=41814 active=false tickets=0 error=",
+    "process": {
+      "command": [
+        "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma-snapshot\\bin\\java.exe",
+        "-Xmx2G",
+        "@D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\run\\20261106_134313_installed_134650\\libraries\\net\\minecraftforge\\forge\\1.20.1-47.4.10\\win_args.txt",
+        "nogui"
+      ],
+      "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\run\\20261106_134313_installed_134650",
+      "pid": 54280,
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\run\\20261106_134313_installed_134650\\normal-v2-server.log",
+      "exitCode": 0,
+      "logSha256": "f6b8891e856974b617d72ae9fddbe4e31a2c6ab5685a2535d7fc6721ed153474"
+    },
+    "actualUsedTemplates": [
+      "s8_05",
+      "s8_05"
+    ],
+    "savedRawInteriorCells": 12792,
+    "journalVersion": 2,
+    "regionHashes": {
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\run\\20261106_134313_installed_134650\\world\\region\\r.2.2.mca": "7177e55364dfe74ed964582d47930e02418c33de18ebc7e3d09b344dfff950ba",
+      "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\v2\\run\\20261106_134313_installed_134650\\world\\region\\r.2.1.mca": "e080eea090b6aa3025f2bfaa1240843991513d7f8b53d9ec3383c3305b01ec29"
+    },
+    "limitation": "Normal installed experimental JAR runs accepted two-template baseline only. Original five BE rooms are not packaged; installed BE capability NOT_RUN, not promoted."
+  },
+  "v1SealStatus": "UNCHANGED",
+  "v1ChangedFiles": [],
+  "limitations": [
+    "Five original BE rooms remain unaccepted, test-only; installed JAR contains only s8_05/s8_06",
+    "Original Items/Patterns in current fixtures are empty; no rich nonempty-original-item/pattern preservation claim",
+    "Clean interrupted source-process BE recovery, not force kill/powerloss; installed original-five BE recovery NOT_RUN_NOT_PACKAGED",
+    "Full nine-room biome, lava/vines and protected player worlds not accepted"
+  ]
+}

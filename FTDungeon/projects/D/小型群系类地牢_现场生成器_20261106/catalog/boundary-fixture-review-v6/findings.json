@@ -1,0 +1,62 @@
+{
+  "rootCause": {
+    "status": "STATICALLY_CONFIRMED_MATCHES_LOG",
+    "exceptionMessage": "bounds",
+    "cause": "BoundaryTests.unchanged constructs DungeonApi.PlacedRoom with bounds=null; its compact constructor requires nonnull bounds. Failure occurs before shape comparison/movement.",
+    "xAtomSchemaIsRootCause": false,
+    "nativeJVMReproducedByCatalog": false
+  },
+  "schema": {
+    "xAtom": "flat [low,high], exact singleton when low==high",
+    "requirements": 352,
+    "directions": 704,
+    "atomKinds": {
+      "singleton": 192,
+      "open_interval": 160
+    }
+  },
+  "requiredCorrections": [
+    {
+      "id": "B1",
+      "priority": "blocking",
+      "change": "Remove fake PlacedRoom construction. Add fixture-local inverse(AABB, BlockPos, origin,quarterTurns) overload, or compute equivalent eight-corner inverse directly from scene origin/turn. Do not weaken core non-null bounds contract or fabricate an unchecked dummy model."
+    },
+    {
+      "id": "B2",
+      "priority": "acceptance",
+      "change": "Assert12scene exact identity and resourceSHA/quarterTurns/contractSHA/certificateSHA/JAR binding before any replay; exactly352 requirements and704 directed results. Four flat south profiles have0steps; still retain complete4416 static collection and full36/2248 routes."
+    },
+    {
+      "id": "B3",
+      "priority": "acceptance",
+      "change": "Per requirement log original xAtom [low,high], singleton flag, stripId/index, before/at/after native feet, real world endpoints and both outcomes; assert attempted352 and passed352, directed704. Current helper.succeed unconditional after report must fail if any forward/returned=false."
+    },
+    {
+      "id": "B4",
+      "priority": "acceptance",
+      "change": "unchanged() currently checks context/state/shape only at sweep start/end. Recheck contributing native source states, fluid and complete untrimmed shape boxes before/after every move and at support boundary, with current CollisionContext.of(player). Record nativeState==sourceRotatedState and capture boxes. Explicitly justify any radius-based source-cell subset from bounded shape envelopes."
+    },
+    {
+      "id": "B5",
+      "priority": "acceptance",
+      "change": "Replace hardcoded top<=4 support selection with strip minFeetY/maxFeetY from frozen contract; boundary replay uses actual left/right native support and includes exact boundary singleton semantics. Preserve native movement, step0.6 and true3headroom/body0.6, no interior setPos/teleport."
+    },
+    {
+      "id": "B6",
+      "priority": "precision",
+      "change": "Current AABB.deflate(0.00001) shrinks declared body/headroom. Do not use it to waive actual penetration; report exact AABB/native result separately. Quantify numeric error if needed and retain exact rational static coverage, not a changed width/headroom acceptance."
+    },
+    {
+      "id": "B7",
+      "priority": "proof-scope",
+      "change": "Midpoint replay proves a representative of an open xAtom only. Keep every singleton and open atom; combine with exact native finite box coverage and a justified native step-branch/context invariant for each atom before calling full continuous native proof. No denser finite sampling can replace an unstated invariant."
+    }
+  ],
+  "coordinateReview": {
+    "continuousPointRotation": "q0(x,z), q1(-z,x), q2(-x,-z), q3(z,-x), then origin; BoundaryTests.physical matches",
+    "discreteCellRotation": "q1(-z-1,x),q2(-x-1,-z-1),q3(z,-x-1); preserve -1 for block min corners only",
+    "inverseBox": "inverse all8worldAABB corners after subtract origin and recompute min/max; do not apply discrete -1 to continuous vertices",
+    "contextHelperFix": "prefer raw origin/turn inverse overload to avoid irrelevant PlacedRoom bounds entirely"
+  },
+  "notice": "A failed fixture setup is not evidence that352 native step boundaries failed. Static certificate remains conditional; independent integration rerun required."
+}

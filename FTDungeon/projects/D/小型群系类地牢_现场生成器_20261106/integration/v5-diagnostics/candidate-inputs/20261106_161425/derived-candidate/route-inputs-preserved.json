@@ -1,0 +1,2576 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "caseId": "s8_07_widearch_side_doublegate_v5_r0",
+      "templateId": "s8_07_widearch_side_doublegate_v5",
+      "sourceSha256": "bd7d0661b818164a3617629096580c646d17d95832269e6aca989933dc815ae3",
+      "candidate": "data/biomedungeon/structures/s8_07_widearch_side_doublegate_v5.nbt",
+      "quarterTurns": 0,
+      "origin": [
+        0,
+        96,
+        0
+      ],
+      "transform": "R about local zero then translate; no AABB normalization; source feet coordinates not silently shifted by 0.5",
+      "runIsolation": "cases reuse same anchor: fresh fixture/reset per case; do not place simultaneously",
+      "start": [
+        12,
+        98,
+        0
+      ],
+      "sourceStart": [
+        12,
+        2,
+        0
+      ],
+      "swimming": false,
+      "targets": [
+        {
+          "label": "interior",
+          "position": [
+            12,
+            100,
+            7
+          ],
+          "targetId": "original-000",
+          "sourceIndex": 0,
+          "sourcePosition": [
+            12,
+            4,
+            7
+          ]
+        },
+        {
+          "label": "north",
+          "position": [
+            12,
+            98,
+            0
+          ],
+          "targetId": "original-001",
+          "sourceIndex": 1,
+          "sourcePosition": [
+            12,
+            2,
+            0
+          ]
+        },
+        {
+          "label": "south",
+          "position": [
+            12,
+            100,
+            26
+          ],
+          "targetId": "original-002",
+          "sourceIndex": 2,
+          "sourcePosition": [
+            12,
+            4,
+            26
+          ]
+        },
+        {
+          "label": "north",
+          "position": [
+            12,
+            98,
+            0
+          ],
+          "targetId": "original-003",
+          "sourceIndex": 3,
+          "sourcePosition": [
+            12,
+            2,
+            0
+          ]
+        },
+        {
+          "label": "porch",
+          "position": [
+            12,
+            98,
+            1
+          ],
+          "targetId": "original-004",
+          "sourceIndex": 4,
+          "sourcePosition": [
+            12,
+            2,
+            1
+          ]
+        },
+        {
+          "label": "gate-inside",
+          "position": [
+            12,
+            100,
+            6
+          ],
+          "targetId": "original-005",
+          "sourceIndex": 5,
+          "sourcePosition": [
+            12,
+            4,
+            6
+          ]
+        },
+        {
+          "label": "center",
+          "position": [
+            12,
+            100,
+            15
+          ],
+          "targetId": "original-006",
+          "sourceIndex": 6,
+          "sourcePosition": [
+            12,
+            4,
+            15
+          ]
+        },
+        {
+          "label": "back",
+          "position": [
+            12,
+            100,
+            23
+          ],
+          "targetId": "original-007",
+          "sourceIndex": 7,
+          "sourcePosition": [
+            12,
+            4,
+            23
+          ]
+        },
+        {
+          "label": "south",
+          "position": [
+            12,
+            100,
+            26
+          ],
+          "targetId": "original-008",
+          "sourceIndex": 8,
+          "sourcePosition": [
+            12,
+            4,
+            26
+          ]
+        },
+        {
+          "label": "west-guard",
+          "position": [
+            3,
+            100,
+            20
+          ],
+          "targetId": "original-009",
+          "sourceIndex": 9,
+          "sourcePosition": [
+            3,
+            4,
+            20
+          ]
+        },
+        {
+          "label": "east-guard",
+          "position": [
+            21,
+            100,
+            20
+          ],
+          "targetId": "original-010",
+          "sourceIndex": 10,
+          "sourcePosition": [
+            21,
+            4,
+            20
+          ]
+        },
+        {
+          "label": "map-front",
+          "position": [
+            5,
+            100,
+            13
+          ],
+          "targetId": "original-011",
+          "sourceIndex": 11,
+          "sourcePosition": [
+            5,
+            4,
+            13
+          ]
+        },
+        {
+          "label": "crates-front",
+          "position": [
+            5,
+            100,
+            15
+          ],
+          "targetId": "original-012",
+          "sourceIndex": 12,
+          "sourcePosition": [
+            5,
+            4,
+            15
+          ]
+        },
+        {
+          "label": "brazier-front",
+          "position": [
+            19,
+            100,
+            17
+          ],
+          "targetId": "original-013",
+          "sourceIndex": 13,
+          "sourcePosition": [
+            19,
+            4,
+            17
+          ]
+        },
+        {
+          "label": "west-circulation",
+          "position": [
+            7,
+            100,
+            17
+          ],
+          "targetId": "original-014",
+          "sourceIndex": 14,
+          "sourcePosition": [
+            7,
+            4,
+            17
+          ]
+        },
+        {
+          "label": "east-circulation",
+          "position": [
+            17,
+            100,
+            17
+          ],
+          "targetId": "original-015",
+          "sourceIndex": 15,
+          "sourcePosition": [
+            17,
+            4,
+            17
+          ]
+        }
+      ],
+      "ports": [
+        {
+          "portIndex": 0,
+          "original": {
+            "role": "entrance",
+            "facing": "north",
+            "position": [
+              12,
+              2,
+              0
+            ],
+            "width": 3,
+            "minimum_height": 3
+          },
+          "worldFeet": [
+            12,
+            98,
+            0
+          ],
+          "worldFacing": "north"
+        },
+        {
+          "portIndex": 1,
+          "original": {
+            "role": "exit",
+            "facing": "south",
+            "position": [
+              12,
+              4,
+              26
+            ],
+            "width": 5,
+            "minimum_height": 3
+          },
+          "worldFeet": [
+            12,
+            100,
+            26
+          ],
+          "worldFacing": "south"
+        }
+      ],
+      "stairBlockProbes": [
+        {
+          "local": [
+            9,
+            2,
+            2
+          ],
+          "worldBlock": [
+            9,
+            98,
+            2
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            9,
+            3,
+            3
+          ],
+          "worldBlock": [
+            9,
+            99,
+            3
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            10,
+            2,
+            2
+          ],
+          "worldBlock": [
+            10,
+            98,
+            2
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            10,
+            3,
+            3
+          ],
+          "worldBlock": [
+            10,
+            99,
+            3
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            11,
+            2,
+            2
+          ],
+          "worldBlock": [
+            11,
+            98,
+            2
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            11,
+            3,
+            3
+          ],
+          "worldBlock": [
+            11,
+            99,
+            3
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            12,
+            2,
+            2
+          ],
+          "worldBlock": [
+            12,
+            98,
+            2
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            12,
+            3,
+            3
+          ],
+          "worldBlock": [
+            12,
+            99,
+            3
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            13,
+            2,
+            2
+          ],
+          "worldBlock": [
+            13,
+            98,
+            2
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            13,
+            3,
+            3
+          ],
+          "worldBlock": [
+            13,
+            99,
+            3
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            14,
+            2,
+            2
+          ],
+          "worldBlock": [
+            14,
+            98,
+            2
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            14,
+            3,
+            3
+          ],
+          "worldBlock": [
+            14,
+            99,
+            3
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        }
+      ],
+      "requiredDirections": "each declared port to every original target and reverse; original start to every target and reverse; all declared port pairs both ways",
+      "nativeBody": "survival player width0.6 height1.8 stepHeight0.6; native VoxelShapes, supports and current door collision; no air-only voxel BFS; actual fluid status must be checked",
+      "geometryStatus": "INPUT_ONLY_NOT_EXECUTED",
+      "originalSourceSha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7",
+      "originalTemplateId": "s8_07",
+      "additionalTargets": [
+        {
+          "targetId": "sidegate-front",
+          "sourcePosition": [
+            9,
+            4,
+            3.5
+          ],
+          "position": [
+            9,
+            100,
+            3.5
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        },
+        {
+          "targetId": "sidegate-threshold",
+          "sourcePosition": [
+            9,
+            4,
+            4.5
+          ],
+          "position": [
+            9,
+            100,
+            4.5
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        },
+        {
+          "targetId": "sidegate-rear",
+          "sourcePosition": [
+            9,
+            4,
+            5.5
+          ],
+          "position": [
+            9,
+            100,
+            5.5
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        },
+        {
+          "targetId": "sidegate-rejoin",
+          "sourcePosition": [
+            9,
+            4,
+            6.5
+          ],
+          "position": [
+            9,
+            100,
+            6.5
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        }
+      ]
+    },
+    {
+      "caseId": "s8_07_widearch_side_doublegate_v5_r1",
+      "templateId": "s8_07_widearch_side_doublegate_v5",
+      "sourceSha256": "bd7d0661b818164a3617629096580c646d17d95832269e6aca989933dc815ae3",
+      "candidate": "data/biomedungeon/structures/s8_07_widearch_side_doublegate_v5.nbt",
+      "quarterTurns": 1,
+      "origin": [
+        0,
+        96,
+        0
+      ],
+      "transform": "R about local zero then translate; no AABB normalization; source feet coordinates not silently shifted by 0.5",
+      "runIsolation": "cases reuse same anchor: fresh fixture/reset per case; do not place simultaneously",
+      "start": [
+        0,
+        98,
+        12
+      ],
+      "sourceStart": [
+        12,
+        2,
+        0
+      ],
+      "swimming": false,
+      "targets": [
+        {
+          "label": "interior",
+          "position": [
+            -7,
+            100,
+            12
+          ],
+          "targetId": "original-000",
+          "sourceIndex": 0,
+          "sourcePosition": [
+            12,
+            4,
+            7
+          ]
+        },
+        {
+          "label": "north",
+          "position": [
+            0,
+            98,
+            12
+          ],
+          "targetId": "original-001",
+          "sourceIndex": 1,
+          "sourcePosition": [
+            12,
+            2,
+            0
+          ]
+        },
+        {
+          "label": "south",
+          "position": [
+            -26,
+            100,
+            12
+          ],
+          "targetId": "original-002",
+          "sourceIndex": 2,
+          "sourcePosition": [
+            12,
+            4,
+            26
+          ]
+        },
+        {
+          "label": "north",
+          "position": [
+            0,
+            98,
+            12
+          ],
+          "targetId": "original-003",
+          "sourceIndex": 3,
+          "sourcePosition": [
+            12,
+            2,
+            0
+          ]
+        },
+        {
+          "label": "porch",
+          "position": [
+            -1,
+            98,
+            12
+          ],
+          "targetId": "original-004",
+          "sourceIndex": 4,
+          "sourcePosition": [
+            12,
+            2,
+            1
+          ]
+        },
+        {
+          "label": "gate-inside",
+          "position": [
+            -6,
+            100,
+            12
+          ],
+          "targetId": "original-005",
+          "sourceIndex": 5,
+          "sourcePosition": [
+            12,
+            4,
+            6
+          ]
+        },
+        {
+          "label": "center",
+          "position": [
+            -15,
+            100,
+            12
+          ],
+          "targetId": "original-006",
+          "sourceIndex": 6,
+          "sourcePosition": [
+            12,
+            4,
+            15
+          ]
+        },
+        {
+          "label": "back",
+          "position": [
+            -23,
+            100,
+            12
+          ],
+          "targetId": "original-007",
+          "sourceIndex": 7,
+          "sourcePosition": [
+            12,
+            4,
+            23
+          ]
+        },
+        {
+          "label": "south",
+          "position": [
+            -26,
+            100,
+            12
+          ],
+          "targetId": "original-008",
+          "sourceIndex": 8,
+          "sourcePosition": [
+            12,
+            4,
+            26
+          ]
+        },
+        {
+          "label": "west-guard",
+          "position": [
+            -20,
+            100,
+            3
+          ],
+          "targetId": "original-009",
+          "sourceIndex": 9,
+          "sourcePosition": [
+            3,
+            4,
+            20
+          ]
+        },
+        {
+          "label": "east-guard",
+          "position": [
+            -20,
+            100,
+            21
+          ],
+          "targetId": "original-010",
+          "sourceIndex": 10,
+          "sourcePosition": [
+            21,
+            4,
+            20
+          ]
+        },
+        {
+          "label": "map-front",
+          "position": [
+            -13,
+            100,
+            5
+          ],
+          "targetId": "original-011",
+          "sourceIndex": 11,
+          "sourcePosition": [
+            5,
+            4,
+            13
+          ]
+        },
+        {
+          "label": "crates-front",
+          "position": [
+            -15,
+            100,
+            5
+          ],
+          "targetId": "original-012",
+          "sourceIndex": 12,
+          "sourcePosition": [
+            5,
+            4,
+            15
+          ]
+        },
+        {
+          "label": "brazier-front",
+          "position": [
+            -17,
+            100,
+            19
+          ],
+          "targetId": "original-013",
+          "sourceIndex": 13,
+          "sourcePosition": [
+            19,
+            4,
+            17
+          ]
+        },
+        {
+          "label": "west-circulation",
+          "position": [
+            -17,
+            100,
+            7
+          ],
+          "targetId": "original-014",
+          "sourceIndex": 14,
+          "sourcePosition": [
+            7,
+            4,
+            17
+          ]
+        },
+        {
+          "label": "east-circulation",
+          "position": [
+            -17,
+            100,
+            17
+          ],
+          "targetId": "original-015",
+          "sourceIndex": 15,
+          "sourcePosition": [
+            17,
+            4,
+            17
+          ]
+        }
+      ],
+      "ports": [
+        {
+          "portIndex": 0,
+          "original": {
+            "role": "entrance",
+            "facing": "north",
+            "position": [
+              12,
+              2,
+              0
+            ],
+            "width": 3,
+            "minimum_height": 3
+          },
+          "worldFeet": [
+            0,
+            98,
+            12
+          ],
+          "worldFacing": "east"
+        },
+        {
+          "portIndex": 1,
+          "original": {
+            "role": "exit",
+            "facing": "south",
+            "position": [
+              12,
+              4,
+              26
+            ],
+            "width": 5,
+            "minimum_height": 3
+          },
+          "worldFeet": [
+            -26,
+            100,
+            12
+          ],
+          "worldFacing": "west"
+        }
+      ],
+      "stairBlockProbes": [
+        {
+          "local": [
+            9,
+            2,
+            2
+          ],
+          "worldBlock": [
+            -2,
+            98,
+            9
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            9,
+            3,
+            3
+          ],
+          "worldBlock": [
+            -3,
+            99,
+            9
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            10,
+            2,
+            2
+          ],
+          "worldBlock": [
+            -2,
+            98,
+            10
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            10,
+            3,
+            3
+          ],
+          "worldBlock": [
+            -3,
+            99,
+            10
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            11,
+            2,
+            2
+          ],
+          "worldBlock": [
+            -2,
+            98,
+            11
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            11,
+            3,
+            3
+          ],
+          "worldBlock": [
+            -3,
+            99,
+            11
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            12,
+            2,
+            2
+          ],
+          "worldBlock": [
+            -2,
+            98,
+            12
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            12,
+            3,
+            3
+          ],
+          "worldBlock": [
+            -3,
+            99,
+            12
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            13,
+            2,
+            2
+          ],
+          "worldBlock": [
+            -2,
+            98,
+            13
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            13,
+            3,
+            3
+          ],
+          "worldBlock": [
+            -3,
+            99,
+            13
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            14,
+            2,
+            2
+          ],
+          "worldBlock": [
+            -2,
+            98,
+            14
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            14,
+            3,
+            3
+          ],
+          "worldBlock": [
+            -3,
+            99,
+            14
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        }
+      ],
+      "requiredDirections": "each declared port to every original target and reverse; original start to every target and reverse; all declared port pairs both ways",
+      "nativeBody": "survival player width0.6 height1.8 stepHeight0.6; native VoxelShapes, supports and current door collision; no air-only voxel BFS; actual fluid status must be checked",
+      "geometryStatus": "INPUT_ONLY_NOT_EXECUTED",
+      "originalSourceSha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7",
+      "originalTemplateId": "s8_07",
+      "additionalTargets": [
+        {
+          "targetId": "sidegate-front",
+          "sourcePosition": [
+            9,
+            4,
+            3.5
+          ],
+          "position": [
+            -3.5,
+            100,
+            9
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        },
+        {
+          "targetId": "sidegate-threshold",
+          "sourcePosition": [
+            9,
+            4,
+            4.5
+          ],
+          "position": [
+            -4.5,
+            100,
+            9
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        },
+        {
+          "targetId": "sidegate-rear",
+          "sourcePosition": [
+            9,
+            4,
+            5.5
+          ],
+          "position": [
+            -5.5,
+            100,
+            9
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        },
+        {
+          "targetId": "sidegate-rejoin",
+          "sourcePosition": [
+            9,
+            4,
+            6.5
+          ],
+          "position": [
+            -6.5,
+            100,
+            9
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        }
+      ]
+    },
+    {
+      "caseId": "s8_07_widearch_side_doublegate_v5_r2",
+      "templateId": "s8_07_widearch_side_doublegate_v5",
+      "sourceSha256": "bd7d0661b818164a3617629096580c646d17d95832269e6aca989933dc815ae3",
+      "candidate": "data/biomedungeon/structures/s8_07_widearch_side_doublegate_v5.nbt",
+      "quarterTurns": 2,
+      "origin": [
+        0,
+        96,
+        0
+      ],
+      "transform": "R about local zero then translate; no AABB normalization; source feet coordinates not silently shifted by 0.5",
+      "runIsolation": "cases reuse same anchor: fresh fixture/reset per case; do not place simultaneously",
+      "start": [
+        -12,
+        98,
+        0
+      ],
+      "sourceStart": [
+        12,
+        2,
+        0
+      ],
+      "swimming": false,
+      "targets": [
+        {
+          "label": "interior",
+          "position": [
+            -12,
+            100,
+            -7
+          ],
+          "targetId": "original-000",
+          "sourceIndex": 0,
+          "sourcePosition": [
+            12,
+            4,
+            7
+          ]
+        },
+        {
+          "label": "north",
+          "position": [
+            -12,
+            98,
+            0
+          ],
+          "targetId": "original-001",
+          "sourceIndex": 1,
+          "sourcePosition": [
+            12,
+            2,
+            0
+          ]
+        },
+        {
+          "label": "south",
+          "position": [
+            -12,
+            100,
+            -26
+          ],
+          "targetId": "original-002",
+          "sourceIndex": 2,
+          "sourcePosition": [
+            12,
+            4,
+            26
+          ]
+        },
+        {
+          "label": "north",
+          "position": [
+            -12,
+            98,
+            0
+          ],
+          "targetId": "original-003",
+          "sourceIndex": 3,
+          "sourcePosition": [
+            12,
+            2,
+            0
+          ]
+        },
+        {
+          "label": "porch",
+          "position": [
+            -12,
+            98,
+            -1
+          ],
+          "targetId": "original-004",
+          "sourceIndex": 4,
+          "sourcePosition": [
+            12,
+            2,
+            1
+          ]
+        },
+        {
+          "label": "gate-inside",
+          "position": [
+            -12,
+            100,
+            -6
+          ],
+          "targetId": "original-005",
+          "sourceIndex": 5,
+          "sourcePosition": [
+            12,
+            4,
+            6
+          ]
+        },
+        {
+          "label": "center",
+          "position": [
+            -12,
+            100,
+            -15
+          ],
+          "targetId": "original-006",
+          "sourceIndex": 6,
+          "sourcePosition": [
+            12,
+            4,
+            15
+          ]
+        },
+        {
+          "label": "back",
+          "position": [
+            -12,
+            100,
+            -23
+          ],
+          "targetId": "original-007",
+          "sourceIndex": 7,
+          "sourcePosition": [
+            12,
+            4,
+            23
+          ]
+        },
+        {
+          "label": "south",
+          "position": [
+            -12,
+            100,
+            -26
+          ],
+          "targetId": "original-008",
+          "sourceIndex": 8,
+          "sourcePosition": [
+            12,
+            4,
+            26
+          ]
+        },
+        {
+          "label": "west-guard",
+          "position": [
+            -3,
+            100,
+            -20
+          ],
+          "targetId": "original-009",
+          "sourceIndex": 9,
+          "sourcePosition": [
+            3,
+            4,
+            20
+          ]
+        },
+        {
+          "label": "east-guard",
+          "position": [
+            -21,
+            100,
+            -20
+          ],
+          "targetId": "original-010",
+          "sourceIndex": 10,
+          "sourcePosition": [
+            21,
+            4,
+            20
+          ]
+        },
+        {
+          "label": "map-front",
+          "position": [
+            -5,
+            100,
+            -13
+          ],
+          "targetId": "original-011",
+          "sourceIndex": 11,
+          "sourcePosition": [
+            5,
+            4,
+            13
+          ]
+        },
+        {
+          "label": "crates-front",
+          "position": [
+            -5,
+            100,
+            -15
+          ],
+          "targetId": "original-012",
+          "sourceIndex": 12,
+          "sourcePosition": [
+            5,
+            4,
+            15
+          ]
+        },
+        {
+          "label": "brazier-front",
+          "position": [
+            -19,
+            100,
+            -17
+          ],
+          "targetId": "original-013",
+          "sourceIndex": 13,
+          "sourcePosition": [
+            19,
+            4,
+            17
+          ]
+        },
+        {
+          "label": "west-circulation",
+          "position": [
+            -7,
+            100,
+            -17
+          ],
+          "targetId": "original-014",
+          "sourceIndex": 14,
+          "sourcePosition": [
+            7,
+            4,
+            17
+          ]
+        },
+        {
+          "label": "east-circulation",
+          "position": [
+            -17,
+            100,
+            -17
+          ],
+          "targetId": "original-015",
+          "sourceIndex": 15,
+          "sourcePosition": [
+            17,
+            4,
+            17
+          ]
+        }
+      ],
+      "ports": [
+        {
+          "portIndex": 0,
+          "original": {
+            "role": "entrance",
+            "facing": "north",
+            "position": [
+              12,
+              2,
+              0
+            ],
+            "width": 3,
+            "minimum_height": 3
+          },
+          "worldFeet": [
+            -12,
+            98,
+            0
+          ],
+          "worldFacing": "south"
+        },
+        {
+          "portIndex": 1,
+          "original": {
+            "role": "exit",
+            "facing": "south",
+            "position": [
+              12,
+              4,
+              26
+            ],
+            "width": 5,
+            "minimum_height": 3
+          },
+          "worldFeet": [
+            -12,
+            100,
+            -26
+          ],
+          "worldFacing": "north"
+        }
+      ],
+      "stairBlockProbes": [
+        {
+          "local": [
+            9,
+            2,
+            2
+          ],
+          "worldBlock": [
+            -9,
+            98,
+            -2
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            9,
+            3,
+            3
+          ],
+          "worldBlock": [
+            -9,
+            99,
+            -3
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            10,
+            2,
+            2
+          ],
+          "worldBlock": [
+            -10,
+            98,
+            -2
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            10,
+            3,
+            3
+          ],
+          "worldBlock": [
+            -10,
+            99,
+            -3
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            11,
+            2,
+            2
+          ],
+          "worldBlock": [
+            -11,
+            98,
+            -2
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            11,
+            3,
+            3
+          ],
+          "worldBlock": [
+            -11,
+            99,
+            -3
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            12,
+            2,
+            2
+          ],
+          "worldBlock": [
+            -12,
+            98,
+            -2
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            12,
+            3,
+            3
+          ],
+          "worldBlock": [
+            -12,
+            99,
+            -3
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            13,
+            2,
+            2
+          ],
+          "worldBlock": [
+            -13,
+            98,
+            -2
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            13,
+            3,
+            3
+          ],
+          "worldBlock": [
+            -13,
+            99,
+            -3
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            14,
+            2,
+            2
+          ],
+          "worldBlock": [
+            -14,
+            98,
+            -2
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            14,
+            3,
+            3
+          ],
+          "worldBlock": [
+            -14,
+            99,
+            -3
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        }
+      ],
+      "requiredDirections": "each declared port to every original target and reverse; original start to every target and reverse; all declared port pairs both ways",
+      "nativeBody": "survival player width0.6 height1.8 stepHeight0.6; native VoxelShapes, supports and current door collision; no air-only voxel BFS; actual fluid status must be checked",
+      "geometryStatus": "INPUT_ONLY_NOT_EXECUTED",
+      "originalSourceSha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7",
+      "originalTemplateId": "s8_07",
+      "additionalTargets": [
+        {
+          "targetId": "sidegate-front",
+          "sourcePosition": [
+            9,
+            4,
+            3.5
+          ],
+          "position": [
+            -9,
+            100,
+            -3.5
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        },
+        {
+          "targetId": "sidegate-threshold",
+          "sourcePosition": [
+            9,
+            4,
+            4.5
+          ],
+          "position": [
+            -9,
+            100,
+            -4.5
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        },
+        {
+          "targetId": "sidegate-rear",
+          "sourcePosition": [
+            9,
+            4,
+            5.5
+          ],
+          "position": [
+            -9,
+            100,
+            -5.5
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        },
+        {
+          "targetId": "sidegate-rejoin",
+          "sourcePosition": [
+            9,
+            4,
+            6.5
+          ],
+          "position": [
+            -9,
+            100,
+            -6.5
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        }
+      ]
+    },
+    {
+      "caseId": "s8_07_widearch_side_doublegate_v5_r3",
+      "templateId": "s8_07_widearch_side_doublegate_v5",
+      "sourceSha256": "bd7d0661b818164a3617629096580c646d17d95832269e6aca989933dc815ae3",
+      "candidate": "data/biomedungeon/structures/s8_07_widearch_side_doublegate_v5.nbt",
+      "quarterTurns": 3,
+      "origin": [
+        0,
+        96,
+        0
+      ],
+      "transform": "R about local zero then translate; no AABB normalization; source feet coordinates not silently shifted by 0.5",
+      "runIsolation": "cases reuse same anchor: fresh fixture/reset per case; do not place simultaneously",
+      "start": [
+        0,
+        98,
+        -12
+      ],
+      "sourceStart": [
+        12,
+        2,
+        0
+      ],
+      "swimming": false,
+      "targets": [
+        {
+          "label": "interior",
+          "position": [
+            7,
+            100,
+            -12
+          ],
+          "targetId": "original-000",
+          "sourceIndex": 0,
+          "sourcePosition": [
+            12,
+            4,
+            7
+          ]
+        },
+        {
+          "label": "north",
+          "position": [
+            0,
+            98,
+            -12
+          ],
+          "targetId": "original-001",
+          "sourceIndex": 1,
+          "sourcePosition": [
+            12,
+            2,
+            0
+          ]
+        },
+        {
+          "label": "south",
+          "position": [
+            26,
+            100,
+            -12
+          ],
+          "targetId": "original-002",
+          "sourceIndex": 2,
+          "sourcePosition": [
+            12,
+            4,
+            26
+          ]
+        },
+        {
+          "label": "north",
+          "position": [
+            0,
+            98,
+            -12
+          ],
+          "targetId": "original-003",
+          "sourceIndex": 3,
+          "sourcePosition": [
+            12,
+            2,
+            0
+          ]
+        },
+        {
+          "label": "porch",
+          "position": [
+            1,
+            98,
+            -12
+          ],
+          "targetId": "original-004",
+          "sourceIndex": 4,
+          "sourcePosition": [
+            12,
+            2,
+            1
+          ]
+        },
+        {
+          "label": "gate-inside",
+          "position": [
+            6,
+            100,
+            -12
+          ],
+          "targetId": "original-005",
+          "sourceIndex": 5,
+          "sourcePosition": [
+            12,
+            4,
+            6
+          ]
+        },
+        {
+          "label": "center",
+          "position": [
+            15,
+            100,
+            -12
+          ],
+          "targetId": "original-006",
+          "sourceIndex": 6,
+          "sourcePosition": [
+            12,
+            4,
+            15
+          ]
+        },
+        {
+          "label": "back",
+          "position": [
+            23,
+            100,
+            -12
+          ],
+          "targetId": "original-007",
+          "sourceIndex": 7,
+          "sourcePosition": [
+            12,
+            4,
+            23
+          ]
+        },
+        {
+          "label": "south",
+          "position": [
+            26,
+            100,
+            -12
+          ],
+          "targetId": "original-008",
+          "sourceIndex": 8,
+          "sourcePosition": [
+            12,
+            4,
+            26
+          ]
+        },
+        {
+          "label": "west-guard",
+          "position": [
+            20,
+            100,
+            -3
+          ],
+          "targetId": "original-009",
+          "sourceIndex": 9,
+          "sourcePosition": [
+            3,
+            4,
+            20
+          ]
+        },
+        {
+          "label": "east-guard",
+          "position": [
+            20,
+            100,
+            -21
+          ],
+          "targetId": "original-010",
+          "sourceIndex": 10,
+          "sourcePosition": [
+            21,
+            4,
+            20
+          ]
+        },
+        {
+          "label": "map-front",
+          "position": [
+            13,
+            100,
+            -5
+          ],
+          "targetId": "original-011",
+          "sourceIndex": 11,
+          "sourcePosition": [
+            5,
+            4,
+            13
+          ]
+        },
+        {
+          "label": "crates-front",
+          "position": [
+            15,
+            100,
+            -5
+          ],
+          "targetId": "original-012",
+          "sourceIndex": 12,
+          "sourcePosition": [
+            5,
+            4,
+            15
+          ]
+        },
+        {
+          "label": "brazier-front",
+          "position": [
+            17,
+            100,
+            -19
+          ],
+          "targetId": "original-013",
+          "sourceIndex": 13,
+          "sourcePosition": [
+            19,
+            4,
+            17
+          ]
+        },
+        {
+          "label": "west-circulation",
+          "position": [
+            17,
+            100,
+            -7
+          ],
+          "targetId": "original-014",
+          "sourceIndex": 14,
+          "sourcePosition": [
+            7,
+            4,
+            17
+          ]
+        },
+        {
+          "label": "east-circulation",
+          "position": [
+            17,
+            100,
+            -17
+          ],
+          "targetId": "original-015",
+          "sourceIndex": 15,
+          "sourcePosition": [
+            17,
+            4,
+            17
+          ]
+        }
+      ],
+      "ports": [
+        {
+          "portIndex": 0,
+          "original": {
+            "role": "entrance",
+            "facing": "north",
+            "position": [
+              12,
+              2,
+              0
+            ],
+            "width": 3,
+            "minimum_height": 3
+          },
+          "worldFeet": [
+            0,
+            98,
+            -12
+          ],
+          "worldFacing": "west"
+        },
+        {
+          "portIndex": 1,
+          "original": {
+            "role": "exit",
+            "facing": "south",
+            "position": [
+              12,
+              4,
+              26
+            ],
+            "width": 5,
+            "minimum_height": 3
+          },
+          "worldFeet": [
+            26,
+            100,
+            -12
+          ],
+          "worldFacing": "east"
+        }
+      ],
+      "stairBlockProbes": [
+        {
+          "local": [
+            9,
+            2,
+            2
+          ],
+          "worldBlock": [
+            2,
+            98,
+            -9
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            9,
+            3,
+            3
+          ],
+          "worldBlock": [
+            3,
+            99,
+            -9
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            10,
+            2,
+            2
+          ],
+          "worldBlock": [
+            2,
+            98,
+            -10
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            10,
+            3,
+            3
+          ],
+          "worldBlock": [
+            3,
+            99,
+            -10
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            11,
+            2,
+            2
+          ],
+          "worldBlock": [
+            2,
+            98,
+            -11
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            11,
+            3,
+            3
+          ],
+          "worldBlock": [
+            3,
+            99,
+            -11
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            12,
+            2,
+            2
+          ],
+          "worldBlock": [
+            2,
+            98,
+            -12
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            12,
+            3,
+            3
+          ],
+          "worldBlock": [
+            3,
+            99,
+            -12
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            13,
+            2,
+            2
+          ],
+          "worldBlock": [
+            2,
+            98,
+            -13
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            13,
+            3,
+            3
+          ],
+          "worldBlock": [
+            3,
+            99,
+            -13
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            14,
+            2,
+            2
+          ],
+          "worldBlock": [
+            2,
+            98,
+            -14
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        },
+        {
+          "local": [
+            14,
+            3,
+            3
+          ],
+          "worldBlock": [
+            3,
+            99,
+            -14
+          ],
+          "sourceState": {
+            "Name": "minecraft:deepslate_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom",
+              "shape": "straight",
+              "waterlogged": "false"
+            }
+          },
+          "rotationNote": "rotate native state via Minecraft Rotation; coordinate transform alone is not world validation"
+        }
+      ],
+      "requiredDirections": "each declared port to every original target and reverse; original start to every target and reverse; all declared port pairs both ways",
+      "nativeBody": "survival player width0.6 height1.8 stepHeight0.6; native VoxelShapes, supports and current door collision; no air-only voxel BFS; actual fluid status must be checked",
+      "geometryStatus": "INPUT_ONLY_NOT_EXECUTED",
+      "originalSourceSha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7",
+      "originalTemplateId": "s8_07",
+      "additionalTargets": [
+        {
+          "targetId": "sidegate-front",
+          "sourcePosition": [
+            9,
+            4,
+            3.5
+          ],
+          "position": [
+            3.5,
+            100,
+            -9
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        },
+        {
+          "targetId": "sidegate-threshold",
+          "sourcePosition": [
+            9,
+            4,
+            4.5
+          ],
+          "position": [
+            4.5,
+            100,
+            -9
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        },
+        {
+          "targetId": "sidegate-rear",
+          "sourcePosition": [
+            9,
+            4,
+            5.5
+          ],
+          "position": [
+            5.5,
+            100,
+            -9
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        },
+        {
+          "targetId": "sidegate-rejoin",
+          "sourcePosition": [
+            9,
+            4,
+            6.5
+          ],
+          "position": [
+            6.5,
+            100,
+            -9
+          ],
+          "mustReturn": true,
+          "purpose": "new side-pair interaction path; additive, never replaces original16 targets"
+        }
+      ]
+    }
+  ],
+  "originalTargetsPerRotation": 16,
+  "targetsRemoved": 0,
+  "additionalSideGateTargetsPerRotation": 4
+}

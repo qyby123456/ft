@@ -1,0 +1,64 @@
+{
+  "status": "PASS_CLEAN_INTERRUPTED_RECOVERY",
+  "scope": "Independent replay of owner restart fixtures against exact frozen sources, distinct JVMs; NOT forced kill/powerloss or installed JAR",
+  "snapshotLockSha256": "a3cc4c8e18b7fc3f95e1dce78499dafb745ddca81d67f23d15c6b08af9d41b01",
+  "stages": [
+    {
+      "command": [
+        "C:\\WINDOWS\\system32\\cmd.exe",
+        "/d",
+        "/c",
+        "C:\\Users\\YOUR_USERNAME\\.gradle\\wrapper\\dists\\gradle-8.8-bin\\dl7vupf4psengwqhwktix4v1\\gradle-8.8\\bin\\gradle.bat",
+        "--no-daemon",
+        "--offline",
+        "-Dnet.minecraftforge.gradle.check.certs=false",
+        "--console=plain",
+        "--project-cache-dir",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590_restart\\gradle-project-cache",
+        "-I",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590_restart\\restart-isolation.gradle",
+        "-PcoreSource=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131217_940590\\core\\src\\main\\java",
+        "-PrestartStage=prepare",
+        "runGameTestServer"
+      ],
+      "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131217_940590\\assembled",
+      "startedAt": "2026-11-06T13:18:39.004427+08:00",
+      "timeoutSeconds": 600,
+      "exitCode": 0,
+      "status": "PASS",
+      "durationSeconds": 69.5,
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590_restart\\prepare.log"
+    },
+    {
+      "command": [
+        "C:\\WINDOWS\\system32\\cmd.exe",
+        "/d",
+        "/c",
+        "C:\\Users\\YOUR_USERNAME\\.gradle\\wrapper\\dists\\gradle-8.8-bin\\dl7vupf4psengwqhwktix4v1\\gradle-8.8\\bin\\gradle.bat",
+        "--no-daemon",
+        "--offline",
+        "-Dnet.minecraftforge.gradle.check.certs=false",
+        "--console=plain",
+        "--project-cache-dir",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590_restart\\gradle-project-cache",
+        "-I",
+        "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590_restart\\restart-isolation.gradle",
+        "-PcoreSource=D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131217_940590\\core\\src\\main\\java",
+        "-PrestartStage=resume",
+        "runGameTestServer"
+      ],
+      "cwd": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\staging\\20261106_131217_940590\\assembled",
+      "startedAt": "2026-11-06T13:19:48.510685+08:00",
+      "timeoutSeconds": 600,
+      "exitCode": 0,
+      "status": "PASS",
+      "durationSeconds": 45.812,
+      "log": "D:\\ft工程文件\\小型群系类地牢_现场生成器_20261106\\integration\\run\\20261106_131217_940590_restart\\resume.log"
+    }
+  ],
+  "assertions": [
+    "RUNTIME_RESTART_PREPARED process=56976 ftd-b7b0417369ce46aa43fb96f7cf42b0d59de6956c6dceac4bbde2bf8992d56e13 phase=BUILDING cursor=128 attempted=128 active=false tickets=0 error= operationHash=449500e0bcaade0ea94fbc1f29db4206a578f8c6f1daf281100abe9089dbcb21; clean interrupted shutdown, not forced kill",
+    "RUNTIME_RESTART_LOADED process=68800 ftd-b7b0417369ce46aa43fb96f7cf42b0d59de6956c6dceac4bbde2bf8992d56e13 phase=BUILDING cursor=128 attempted=128 active=false tickets=0 error=",
+    "RUNTIME_RESTART_PASS process=68800 id=ftd-b7b0417369ce46aa43fb96f7cf42b0d59de6956c6dceac4bbde2bf8992d56e13 cells=58938 operationHash=449500e0bcaade0ea94fbc1f29db4206a578f8c6f1daf281100abe9089dbcb21; distinct process interrupted recovery, forced-kill/powerloss NOT_RUN"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "component": "catalog-continuous-native-review",
+  "status": "CONDITIONAL_FINITE_COVERAGE_PASS",
+  "realNativeInput": true,
+  "runtimeJarSha256": "bab12080dae0e8fb2290f73b6988f40af2094d932a3303cdabc12aaac250263f",
+  "nativeSHA256": "df0770327b8ac7e4385e2ad863654669d0e363d09bada926c8bf433712887b79",
+  "contractSha256": "e1df4b409c9835527e4bbed1b0a377b07495f24e1d85d8587f89daffee12b45a",
+  "calculatorSha256": "6292404467c09da070e9901ca0642457878000bcb3d78c980ca9b55339962a52",
+  "captureAudit": "capture-audit.json",
+  "certificate": "finite-certificate.json",
+  "strips": [
+    {
+      "stripId": "s8_01_profile0_r0",
+      "status": "CONDITIONAL_FINITE_COVERAGE_PASS",
+      "finiteAtoms": 341,
+      "failureCount": 0,
+      "nativeStepBoundariesPending": 44
+    },
+    {
+      "stripId": "s8_01_profile0_r1",
+      "status": "CONDITIONAL_FINITE_COVERAGE_PASS",
+      "finiteAtoms": 341,
+      "failureCount": 0,
+      "nativeStepBoundariesPending": 44
+    },
+    {
+      "stripId": "s8_01_profile0_r2",
+      "status": "CONDITIONAL_FINITE_COVERAGE_PASS",
+      "finiteAtoms": 341,
+      "failureCount": 0,
+      "nativeStepBoundariesPending": 44
+    },
+    {
+      "stripId": "s8_01_profile0_r3",
+      "status": "CONDITIONAL_FINITE_COVERAGE_PASS",
+      "finiteAtoms": 341,
+      "failureCount": 0,
+      "nativeStepBoundariesPending": 44
+    },
+    {
+      "stripId": "s8_07_widearch_side_doublegate_v5_profile1_r0",
+      "status": "CONDITIONAL_FINITE_COVERAGE_PASS",
+      "finiteAtoms": 605,
+      "failureCount": 0,
+      "nativeStepBoundariesPending": 44
+    },
+    {
+      "stripId": "s8_07_widearch_side_doublegate_v5_profile1_r1",
+      "status": "CONDITIONAL_FINITE_COVERAGE_PASS",
+      "finiteAtoms": 605,
+      "failureCount": 0,
+      "nativeStepBoundariesPending": 44
+    },
+    {
+      "stripId": "s8_07_widearch_side_doublegate_v5_profile1_r2",
+      "status": "CONDITIONAL_FINITE_COVERAGE_PASS",
+      "finiteAtoms": 605,
+      "failureCount": 0,
+      "nativeStepBoundariesPending": 44
+    },
+    {
+      "stripId": "s8_07_widearch_side_doublegate_v5_profile1_r3",
+      "status": "CONDITIONAL_FINITE_COVERAGE_PASS",
+      "finiteAtoms": 605,
+      "failureCount": 0,
+      "nativeStepBoundariesPending": 44
+    },
+    {
+      "stripId": "s8_07_widearch_side_doublegate_v5_profile2_r0",
+      "status": "CONDITIONAL_FINITE_COVERAGE_PASS",
+      "finiteAtoms": 209,
+      "failureCount": 0,
+      "nativeStepBoundariesPending": 0
+    },
+    {
+      "stripId": "s8_07_widearch_side_doublegate_v5_profile2_r1",
+      "status": "CONDITIONAL_FINITE_COVERAGE_PASS",
+      "finiteAtoms": 209,
+      "failureCount": 0,
+      "nativeStepBoundariesPending": 0
+    },
+    {
+      "stripId": "s8_07_widearch_side_doublegate_v5_profile2_r2",
+      "status": "CONDITIONAL_FINITE_COVERAGE_PASS",
+      "finiteAtoms": 209,
+      "failureCount": 0,
+      "nativeStepBoundariesPending": 0
+    },
+    {
+      "stripId": "s8_07_widearch_side_doublegate_v5_profile2_r3",
+      "status": "CONDITIONAL_FINITE_COVERAGE_PASS",
+      "finiteAtoms": 209,
+      "failureCount": 0,
+      "nativeStepBoundariesPending": 0
+    }
+  ],
+  "nativeStateDynamicScope": "exact captured state string matches rotated original at collection time only; not an elapsed tick or all-context invariant proof",
+  "nativeContextScope": "standing FakePlayer at one recorded contextFeet per strip; varying-feet/step context still independent obligation",
+  "completeGeneratorReady": false,
+  "accepted": false,
+  "productionPromotion": false,
+  "nativeMovementOrContextInvariantCertificate": "NOT_PROVEN_BY_THIS_STATIC_REVIEW",
+  "integrationIndependentExecutionStillRequired": true
+}

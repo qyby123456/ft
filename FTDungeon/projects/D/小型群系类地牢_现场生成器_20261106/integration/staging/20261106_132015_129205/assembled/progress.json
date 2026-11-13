@@ -1,0 +1,13 @@
+{
+  "component": "runtime",
+  "apiVersion": 1,
+  "status": "READY_ISOLATED_CANDIDATE",
+  "realCore": "REAL_READY_V1; DungeonGeometry.blockPosition/exteriorFeet adapters",
+  "build": "PASS Java17 Forge1.20.1/47.4.10 reobfuscated candidate JAR",
+  "catalog": "SNAPSHOT_VERIFIED_TWO_REAL_S8_ROOMS",
+  "offlineTests": "PASS 21 durability/recovery-policy checks; Forge registry 1903713 assertions,16 real plans,4 rotations,8 rejection faults",
+  "worldTest": "PASS 2/2 actual Forge tests in run/gametest-final; dry-run, permission rejection, occupied preflight zero writes, 56259-cell complete build/readback, pause/revalidation, committed idempotency, real collision/floor return path, tickets released",
+  "restartTest": "PASS two distinct JVMs 36176 then71676; interrupted BUILDING cursor128 -> same instance and operation hash -> COMMITTED and56525-cell exact readback; clean stopped partial build, NOT forced kill/powerloss",
+  "safety": "No official instance mods/saves/config edits; no player-world launch; additional mod IDs rejected",
+  "limits": ["Dedicated isolated high-altitude entirely air world only", "BE/entity payloads rejected, not silently dropped", "No ACID/rollback or powerloss guarantee", "Only two normal S8 room types, no combat/loot/entrance progression", "Source-run world tests; release JAR not installed into separate server"]
+}

@@ -1,0 +1,15 @@
+# 0.5.1 command journal I/O cleanup
+
+This independent component fixes the two command exception paths identified in `core/commit-safety-readonly-review`. Frozen next-commit and its95 sealed files are unchanged. Geometry, original/derived NBT, planner, envelope budget, seed and planning VERSION `runtime-v5-explicit-commit1-envelope-v3-derived07` remain unchanged. Artifact/mod version is0.5.1-commit-iofix-candidate; state policy is `command-journal-io-cleanup-v5.1`. New evidence must bind the new exact JAR SHA. No release acceptance is inherited.
+
+For active pause, intent/receipt are revoked before persistence. `finally` always clears running and releases native tickets, including IOException. Journal failure disables the in-memory runtime; further commands cannot resume world writes. Cleanup does not retry persistence.
+
+For commit admission, a successful receipt check and build still precede the admission write. If that write fails, the catch revokes commitRequested and receiptHash and disables the runtime. `finally` clears running and releases acquired tickets. Successful admission retains active readback. Missing/invalid independent receipts still fail before work starts. No new acceptance gate, signature system or planning VERSION is introduced. Interrupted admission remains nonautomatic on restart.
+
+`test_command_io.py` extracts the actual unchanged pause/commit method bodies from this candidate into a Java17 dependency-injection probe. It injects persistent IOException, exercises success and missing-receipt branches, records exact source/method hashes and checks17 assertions. This proves actual method control flow; it is not a Forge/world simulation. Commit persistence-failure world admission is not manufactured with fake independent evidence.
+
+`installed_v5.py --ordinal 3 --forcekill` installs the exact0.5.1 JAR alone into a fresh ordinary Forge server. It retains seed267611119455246637, anchor16000/200/16000, nine-room exact coverage, native source/derived width and side-door checks, a real abrupt Java kill after durable checkpoint, distinct-process continuation, natural ticks, and actual incomplete-evidence commit refusal. This is not power-loss testing.
+
+`installed_pause_io.py` independently starts another ordinary Forge server, creates a real directory at the journal `.pending` filename, then issues build/pause commands during preflight. Native FileChannel I/O must fail. It verifies Rejected/disabled, active=false/tickets=0 repeatedly, no completed writes and an unchanged original journal. It does not edit protected source rooms, frozen components or the formal instance.
+
+All original staging, fluid, ownership, explicit independent evidence commit and production restrictions from next-commit remain in force. Ready means the component can be consumed for independent acceptance, not that all acceptance gates passed. accepted flags remain false; actual COMMITTED and production promotion are not inferred from these tests. Failures and stopped worlds are retained.
