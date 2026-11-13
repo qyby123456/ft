@@ -1,0 +1,71 @@
+{
+  "owner": "C",
+  "status": "SOURCE_FROZEN_RESOURCE_DIRECTORY_FIX_READY_FOR_HOST_NATIVE_R2",
+  "namespace": "fteclipsestylesqa",
+  "sourceSet": "eclipseStyleTest",
+  "selectionProperty": "-PeclipseStyleOnly=true",
+  "buildExecuted": false,
+  "gradleExecuted": false,
+  "nativeExecution": "NOT_RUN",
+  "productionJavaModified": false,
+  "versionModifiedByC": false,
+  "deployed": false,
+  "files": [
+    {
+      "path": "build.gradle",
+      "sha256": "bde8057af30a6d9448b42301af60a70ab9e88293a053654179cda36782cf973d",
+      "bytes": 9637
+    },
+    {
+      "path": "src/eclipseStyleTest/java/eclipse/generator/EclipseStyleGameTests.java",
+      "sha256": "27b4348151909c65e84bc6551b5835c3a9eacb36197424f8a6edd0c911d046d9",
+      "bytes": 17418
+    },
+    {
+      "path": "src/eclipseStyleTest/resources/data/fteclipsestylesqa/structures/empty.nbt",
+      "sha256": "79a829589b459af48b8dbfc609cbcb4dfce1a94a6d2c6100f1f67b2188cf2b33",
+      "bytes": 291
+    },
+    {
+      "path": "src/eclipseStyleTest/README.md",
+      "sha256": "4ecb140db1c319764a704cb7b1ab5332e33df754effbdd31ca7eb717d543a912",
+      "bytes": 4540
+    }
+  ],
+  "tests": [
+    {
+      "name": "distinctPlansStoreReloadAndLegacyClockwork",
+      "status": "NOT_COMPILED_NOT_RUN",
+      "scope": "Four same-seed style plans distinct identity and decoded materials;determinism;full detached Store reload;unknown and changed fingerprint refused;synthetic style-less clockwork old ID/hash and exact block compatibility;legacy fixture explicitly strips style/styleFingerprint raw JSON;old v1 ID and raw JsonObject Catalog.GSON SHA256 planHash independently proven before/after encode and reload"
+    },
+    {
+      "name": "actualMenuFourBuildsStyleIsolationAndEntry",
+      "status": "NOT_COMPILED_NOT_RUN",
+      "scope": "4 real sequential full builds;same-seed profiles never reused;actual transformed world state samples;real 12-part external gate+tier2 brazier+ServerPlayer menu;all4providers actually clicked;style+seed COMPLETE prepare reuse;actual slot25 enter;provider leave;full actual Store reload"
+    }
+  ],
+  "stableAPIsObserved": [
+    "Profiles.get/all/blocks(plan,key)",
+    "Plan.style/styleFingerprint;shared catalog fingerprint",
+    "Planner.create(style,seed,anchor)",
+    "Engine.plan(level,style,seed,anchor)",
+    "Provider reserve matches Profiles.style(job.plan)+seed"
+  ],
+  "checks": [
+    "Independent empty NBT SHA256 matches existing 291-byte valid template",
+    "Source review only;no new main code or version edits",
+    "eclipseStyleOnly selects dedicated test sources/resources and namespace;skips moss fixture copying"
+  ],
+  "limitations": [
+    "Host reports main compileJava passed;C did not run Gradle;test source awaits host serial compilation/native run.",
+    "Legacy clockwork fixture is synthesized style-less old-format PLANNED data,not historical real .dat",
+    "Real runtime assertions not yet executed;no visual UI/Boss combat/BFS coverage",
+    "All runtime builds require fresh isolated gateTestDirectory/root;source-test jobs never inserted into live Store",
+    "build.gradle shared host version line currently 0.28.0;hash freezes entire current file but C only edited sourceSet/test run selection"
+  ],
+  "logs": [],
+  "frozen": true,
+  "frozenAt": "2026-11-09T09:35:05.2967728+08:00",
+  "hostHandoff": "READY: runGameTestServer -PeclipseStyleOnly=true -PgateTestDirectory=eclipse-styles-r1 in fresh directory;runtime includes desert+frost+forest+clockwork actual builds,world blockstate samples,menu entry,Store reload",
+  "nativeR1": "Host reports Java compilation passed;processEclipseStyleTestResources failed duplicate empty.nbt;fixed source dirs by assignment,not duplicatesStrategy;awaiting fresh native-r2"
+}
