@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "lane": "masonry",
+  "revision": "remake-06-08-20261103",
+  "atlas": "atlas.png",
+  "size": [
+    128,
+    128
+  ],
+  "tile_size": 32,
+  "columns": 4,
+  "rows": 4,
+  "opaque": true,
+  "filter": "nearest",
+  "texels_per_model_unit": 2,
+  "uv_policy": "Block-local projected UV, 2 texels per model unit. Crop sub-box footprints; never stretch an entire tile across a small component.",
+  "java_face_projection": {
+    "north": [
+      "16-x",
+      "16-y"
+    ],
+    "south": [
+      "x",
+      "16-y"
+    ],
+    "east": [
+      "16-z",
+      "16-y"
+    ],
+    "west": [
+      "z",
+      "16-y"
+    ],
+    "up": [
+      "x",
+      "z"
+    ],
+    "down": [
+      "x",
+      "16-z"
+    ]
+  },
+  "java_atlas_uv": "tile pixel origin / 8 + projected model coordinate / 4; each tile occupies 4x4 Java UV units in the 128px atlas.",
+  "native_slab_tiles": {
+    "prison_brick_slab": {
+      "top": 0,
+      "bottom": 1,
+      "side": 2
+    }
+  },
+  "native_slab_side_policy": "Bottom y0..8 samples rows16..31; top y8..16 samples rows0..15. These halves are identical. Double y0..16 shows the intended two-course edge joint.",
+  "glowing_tiles": [],
+  "palette": {
+    "cavity": "#141d27",
+    "stone_dark": "#253744",
+    "stone": "#354c59",
+    "stone_mid": "#405965",
+    "stone_light": "#4e6570",
+    "stone_edge": "#607781",
+    "stone_high": "#74858b",
+    "mineral": "#8d6b3c",
+    "mineral_light": "#9b8260",
+    "damp": "#36565c"
+  },
+  "tiles": [
+    {
+      "index": 0,
+      "tile": 0,
+      "id": "slab_flagstone_top",
+      "name_en": "Carved flagstone top",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "repeat_axes": "xz",
+      "notes": "Four large inset flagstones; continuous cut border, no brick courses."
+    },
+    {
+      "index": 1,
+      "tile": 1,
+      "id": "slab_quarried_bottom",
+      "name_en": "Quarried slab underside",
+      "x": 32,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        32,
+        0,
+        64,
+        32
+      ],
+      "repeat_axes": "xz",
+      "notes": "Broad quarry marks and restrained mineral seams; distinct from top."
+    },
+    {
+      "index": 2,
+      "tile": 2,
+      "id": "slab_carved_edge",
+      "name_en": "Native slab carved edge",
+      "x": 64,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        64,
+        0,
+        96,
+        32
+      ],
+      "repeat_axes": "x",
+      "notes": "Identical 16px-high halves: dedicated bevel and incised edge for both native slab halves."
+    },
+    {
+      "index": 3,
+      "tile": 3,
+      "id": "pillar_plinth",
+      "name_en": "Pillar plinth bedding",
+      "x": 96,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        96,
+        0,
+        128,
+        32
+      ],
+      "repeat_axes": "x",
+      "notes": "Plinth y0..2 maps to rows 28..31; continuous dressed bevel."
+    },
+    {
+      "index": 4,
+      "tile": 4,
+      "id": "pillar_collar",
+      "name_en": "Pillar shoulder and capital cushion",
+      "x": 0,
+      "y": 32,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        0,
+        32,
+        32,
+        64
+      ],
+      "repeat_axes": "x",
+      "notes": "Bands explicitly placed at rows 4..7 and 26..27, matching component heights."
+    },
+    {
+      "index": 5,
+      "tile": 5,
+      "id": "pillar_shaft",
+      "name_en": "Raised shaft arrises",
+      "x": 32,
+      "y": 32,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        32,
+        32,
+        64,
+        64
+      ],
+      "repeat_axes": "y",
+      "notes": "Long grouped tooling strokes on the four solid shaft corners."
+    },
+    {
+      "index": 6,
+      "tile": 6,
+      "id": "pillar_flute",
+      "name_en": "Recessed flute beds and returns",
+      "x": 64,
+      "y": 32,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        64,
+        32,
+        96,
+        64
+      ],
+      "repeat_axes": "y",
+      "notes": "Dark stone only on physically recessed beds and flute returns."
+    },
+    {
+      "index": 7,
+      "tile": 7,
+      "id": "pillar_horizontal",
+      "name_en": "Pillar dressed horizontal cuts",
+      "x": 96,
+      "y": 32,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        96,
+        32,
+        128,
+        64
+      ],
+      "repeat_axes": "xz",
+      "notes": "Quiet concentric tooling, shared by base and capital horizontal faces."
+    },
+    {
+      "index": 8,
+      "tile": 8,
+      "id": "pillar_abacus",
+      "name_en": "Capital abacus fascia",
+      "x": 0,
+      "y": 64,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        0,
+        64,
+        32,
+        96
+      ],
+      "repeat_axes": "x",
+      "notes": "Rows 0..3 form the y14..16 upper abacus; no fake projecting texture geometry."
+    },
+    {
+      "index": 9,
+      "tile": 9,
+      "id": "cornice_coping",
+      "name_en": "Cornice projecting coping",
+      "x": 32,
+      "y": 64,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        32,
+        64,
+        64,
+        96
+      ],
+      "repeat_axes": "x",
+      "notes": "Rows 0..3: restrained bright coping above a shadow cut."
+    },
+    {
+      "index": 10,
+      "tile": 10,
+      "id": "cornice_step",
+      "name_en": "Cornice second moulding",
+      "x": 64,
+      "y": 64,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        64,
+        64,
+        96,
+        96
+      ],
+      "repeat_axes": "x",
+      "notes": "Rows 4..7: a carved ogee band on the second real geometric tier."
+    },
+    {
+      "index": 11,
+      "tile": 11,
+      "id": "cornice_frieze",
+      "name_en": "Cornice recessed frieze",
+      "x": 96,
+      "y": 64,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        96,
+        64,
+        128,
+        96
+      ],
+      "repeat_axes": "x",
+      "notes": "Rows 8..11: broad repeated chisel notches between paired structural corbels."
+    },
+    {
+      "index": 12,
+      "tile": 12,
+      "id": "cornice_corbel",
+      "name_en": "Corbel fronts",
+      "x": 0,
+      "y": 96,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        0,
+        96,
+        32,
+        128
+      ],
+      "repeat_axes": "y",
+      "notes": "Long channel-shaped cuts at the two corbel x footprints, not per-pixel geometry."
+    },
+    {
+      "index": 13,
+      "tile": 13,
+      "id": "cornice_horizontal",
+      "name_en": "Cornice upper and soffit cuts",
+      "x": 32,
+      "y": 96,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        32,
+        96,
+        64,
+        128
+      ],
+      "repeat_axes": "xz",
+      "notes": "Dressed horizontal stone with a drainage joint and a few chipped edges."
+    },
+    {
+      "index": 14,
+      "tile": 14,
+      "id": "cornice_wall_heel",
+      "name_en": "Paired wall mounting heels",
+      "x": 64,
+      "y": 96,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        64,
+        96,
+        96,
+        128
+      ],
+      "repeat_axes": "y",
+      "notes": "Two narrow structural heels, not a full-width solid backboard."
+    },
+    {
+      "index": 15,
+      "tile": 15,
+      "id": "cornice_corbel_return",
+      "name_en": "Corbel side returns",
+      "x": 96,
+      "y": 96,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        96,
+        96,
+        128,
+        128
+      ],
+      "repeat_axes": "y",
+      "notes": "Subdued split-stone tooling on the stepped corbel sides."
+    }
+  ]
+}

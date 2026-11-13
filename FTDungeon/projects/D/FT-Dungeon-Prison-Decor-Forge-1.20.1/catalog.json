@@ -1,0 +1,5419 @@
+[
+  {
+    "id": "prison_blue_bricks",
+    "name_zh": "冷蓝囚砌砖",
+    "name_en": "Blue Prison Bricks",
+    "kind": "solid",
+    "mount": "any",
+    "light": 0,
+    "ingredient": "minecraft:stone_bricks",
+    "boxes": [
+      {
+        "name": "continuous running-bond stone",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 0
+      }
+    ],
+    "description_zh": "冷蓝错缝石砖；四面平铺和地面均可使用，无发光或附加行为。",
+    "lane": "masonry"
+  },
+  {
+    "id": "prison_damp_bricks",
+    "name_zh": "渗灰囚砌砖",
+    "name_en": "Limewashed Damp Prison Bricks",
+    "kind": "solid",
+    "mount": "any",
+    "light": 0,
+    "ingredient": "minecraft:moss_block",
+    "boxes": [
+      {
+        "name": "mineral-streaked stone",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 1
+      }
+    ],
+    "description_zh": "沿砖缝积聚的青灰潮痕与石灰挂流；仅为原创静态材质，不会蔓延。",
+    "lane": "masonry"
+  },
+  {
+    "id": "prison_fractured_bricks",
+    "name_zh": "锈补裂砌砖",
+    "name_en": "Iron-Stitched Fractured Prison Bricks",
+    "kind": "solid",
+    "mount": "any",
+    "light": 0,
+    "ingredient": "minecraft:cracked_stone_bricks",
+    "boxes": [
+      {
+        "name": "fractured and iron-stitched stone",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 2
+      }
+    ],
+    "description_zh": "阶折裂口、崩角和少量锈铁补钉均以像素簇表达；实体仍为完整石砖。",
+    "lane": "masonry"
+  },
+  {
+    "id": "prison_inlaid_tiles",
+    "name_zh": "菱嵌囚石地砖",
+    "name_en": "Brass-Inlaid Prison Tiles",
+    "kind": "solid",
+    "mount": "any",
+    "light": 0,
+    "ingredient": "minecraft:copper_ingot",
+    "boxes": [
+      {
+        "name": "four-slab inlaid paving block",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 4,
+        "faces": {
+          "up": 3,
+          "down": 12
+        }
+      }
+    ],
+    "description_zh": "黄铜菱形镶线与微量铜绿的四拼地砖，四侧为素切石；不发光，无符文机制。",
+    "lane": "masonry"
+  },
+  {
+    "id": "prison_brick_stairs",
+    "name_zh": "冷蓝囚砖楼梯",
+    "name_en": "Blue Prison Brick Stairs",
+    "kind": "stairs",
+    "mount": "any",
+    "light": 0,
+    "ingredient": "minecraft:stone_bricks",
+    "boxes": [
+      {
+        "name": "native stair lower half preview",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          8,
+          16
+        ],
+        "tile": 0
+      },
+      {
+        "name": "native stair upper half preview",
+        "from": [
+          0,
+          8,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 0
+      }
+    ],
+    "description_zh": "原版楼梯形态族，直梯预览使用与冷蓝囚砌砖完全相同的底材；运行状态由主工程导出。",
+    "base": "prison_blue_bricks",
+    "lane": "masonry"
+  },
+  {
+    "id": "prison_brick_slab",
+    "name_zh": "雕边囚石台阶",
+    "name_en": "Carved Prison Flagstone Slab",
+    "kind": "slab",
+    "mount": "any",
+    "light": 0,
+    "ingredient": "minecraft:stone_bricks",
+    "base": "prison_blue_bricks",
+    "native_tiles": {
+      "top": 0,
+      "bottom": 1,
+      "side": 2
+    },
+    "boxes": [
+      {
+        "name": "native bottom slab with dedicated flagstone materials",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          8,
+          16
+        ],
+        "tile": 2,
+        "faces": {
+          "up": 0,
+          "down": 1
+        }
+      }
+    ],
+    "description_zh": "原生上、下、双层台阶；全新大块石板面、独立凿刻底面与双半高雕边侧材。预览仅为下台阶，原生状态由父工程接入。",
+    "lane": "masonry",
+    "material_set": "remake-masonry"
+  },
+  {
+    "id": "prison_fluted_pillar",
+    "name_zh": "四槽基冠囚石柱",
+    "name_en": "Capped Fluted Prison Pillar",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 0,
+    "ingredient": "minecraft:polished_andesite",
+    "boxes": [
+      {
+        "name": "broad dressed plinth",
+        "from": [
+          1,
+          0,
+          1
+        ],
+        "to": [
+          15,
+          2,
+          15
+        ],
+        "tile": 3,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "inset base shoulder",
+        "from": [
+          3,
+          2,
+          3
+        ],
+        "to": [
+          13,
+          3,
+          13
+        ],
+        "tile": 4,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "northwest carved shaft corner",
+        "from": [
+          4,
+          3,
+          4
+        ],
+        "to": [
+          7,
+          12,
+          7
+        ],
+        "tile": 5,
+        "faces": {
+          "east": 6,
+          "south": 6,
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "northeast carved shaft corner",
+        "from": [
+          9,
+          3,
+          4
+        ],
+        "to": [
+          12,
+          12,
+          7
+        ],
+        "tile": 5,
+        "faces": {
+          "west": 6,
+          "south": 6,
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "southwest carved shaft corner",
+        "from": [
+          4,
+          3,
+          9
+        ],
+        "to": [
+          7,
+          12,
+          12
+        ],
+        "tile": 5,
+        "faces": {
+          "east": 6,
+          "north": 6,
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "southeast carved shaft corner",
+        "from": [
+          9,
+          3,
+          9
+        ],
+        "to": [
+          12,
+          12,
+          12
+        ],
+        "tile": 5,
+        "faces": {
+          "west": 6,
+          "north": 6,
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "north recessed flute bed",
+        "from": [
+          7,
+          3,
+          6
+        ],
+        "to": [
+          9,
+          12,
+          7
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "south recessed flute bed",
+        "from": [
+          7,
+          3,
+          9
+        ],
+        "to": [
+          9,
+          12,
+          10
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "central web with east and west flute beds",
+        "from": [
+          6,
+          3,
+          7
+        ],
+        "to": [
+          10,
+          12,
+          9
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "capital neck collar",
+        "from": [
+          3,
+          12,
+          3
+        ],
+        "to": [
+          13,
+          13,
+          13
+        ],
+        "tile": 4,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "capital cushion step",
+        "from": [
+          2,
+          13,
+          2
+        ],
+        "to": [
+          14,
+          14,
+          14
+        ],
+        "tile": 4,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "broad stacking abacus",
+        "from": [
+          1,
+          14,
+          1
+        ],
+        "to": [
+          15,
+          16,
+          15
+        ],
+        "tile": 8,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      }
+    ],
+    "description_zh": "全新基座、肩台、颈圈、阶叠柱冠；方形柱身四面各有宽2、深2的真实竖槽。上下14×14接触面一致，可堆叠但不提供自动连接状态。",
+    "lane": "masonry",
+    "material_set": "remake-masonry"
+  },
+  {
+    "id": "prison_cornice",
+    "name_zh": "双牛腿阶叠石檐",
+    "name_en": "Paired-Corbel Prison Cornice",
+    "kind": "decor",
+    "mount": "wall",
+    "light": 0,
+    "ingredient": "minecraft:smooth_stone",
+    "boxes": [
+      {
+        "name": "full-width projecting coping",
+        "from": [
+          0,
+          14,
+          2
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 9,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "south": 14
+        }
+      },
+      {
+        "name": "receding carved moulding",
+        "from": [
+          0,
+          12,
+          4
+        ],
+        "to": [
+          16,
+          14,
+          16
+        ],
+        "tile": 10,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "south": 14
+        }
+      },
+      {
+        "name": "load-bearing recessed frieze",
+        "from": [
+          0,
+          10,
+          7
+        ],
+        "to": [
+          16,
+          12,
+          16
+        ],
+        "tile": 11,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "south": 14
+        }
+      },
+      {
+        "name": "left narrow wall heel",
+        "from": [
+          2,
+          0,
+          14
+        ],
+        "to": [
+          5,
+          10,
+          16
+        ],
+        "tile": 14,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "left corbel foot",
+        "from": [
+          2,
+          0,
+          12
+        ],
+        "to": [
+          5,
+          4,
+          14
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "left corbel middle shoulder",
+        "from": [
+          2,
+          4,
+          10
+        ],
+        "to": [
+          5,
+          7,
+          14
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "left corbel projecting head",
+        "from": [
+          2,
+          7,
+          7
+        ],
+        "to": [
+          5,
+          10,
+          14
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "right narrow wall heel",
+        "from": [
+          11,
+          0,
+          14
+        ],
+        "to": [
+          14,
+          10,
+          16
+        ],
+        "tile": 14,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "right corbel foot",
+        "from": [
+          11,
+          0,
+          12
+        ],
+        "to": [
+          14,
+          4,
+          14
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "right corbel middle shoulder",
+        "from": [
+          11,
+          4,
+          10
+        ],
+        "to": [
+          14,
+          7,
+          14
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "right corbel projecting head",
+        "from": [
+          11,
+          7,
+          7
+        ],
+        "to": [
+          14,
+          10,
+          14
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      }
+    ],
+    "description_zh": "全新三层前伸阶檐、左右各三段承托牛腿及两条独立贴墙后跟；中央宽6、高10的负空间贯穿至背面。无整片背板，无跨格或支撑检测机制。",
+    "lane": "masonry",
+    "material_set": "remake-masonry"
+  },
+  {
+    "id": "prison_supply_crate",
+    "name_zh": "封存补给箱",
+    "name_en": "Sealed Supply Crate",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 0,
+    "ingredient": "minecraft:barrel",
+    "boxes": [
+      {
+        "name": "continuous ground sill",
+        "from": [
+          1,
+          0,
+          2
+        ],
+        "to": [
+          15,
+          1,
+          14
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4,
+          "down": 4
+        }
+      },
+      {
+        "name": "closed recessed boarded body",
+        "from": [
+          2,
+          1,
+          3
+        ],
+        "to": [
+          14,
+          10,
+          13
+        ],
+        "tile": 0,
+        "faces": {
+          "up": 4,
+          "down": 4
+        }
+      },
+      {
+        "name": "closed overhanging timber lid",
+        "from": [
+          1,
+          10,
+          2
+        ],
+        "to": [
+          15,
+          12,
+          14
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "front lower frame rail",
+        "from": [
+          1,
+          1,
+          2
+        ],
+        "to": [
+          15,
+          3,
+          3
+        ],
+        "tile": 1
+      },
+      {
+        "name": "front upper frame rail",
+        "from": [
+          1,
+          8,
+          2
+        ],
+        "to": [
+          15,
+          10,
+          3
+        ],
+        "tile": 1
+      },
+      {
+        "name": "front left frame stile",
+        "from": [
+          1,
+          3,
+          2
+        ],
+        "to": [
+          3,
+          8,
+          3
+        ],
+        "tile": 0
+      },
+      {
+        "name": "front right frame stile",
+        "from": [
+          13,
+          3,
+          2
+        ],
+        "to": [
+          15,
+          8,
+          3
+        ],
+        "tile": 0
+      },
+      {
+        "name": "back lower frame rail",
+        "from": [
+          1,
+          1,
+          13
+        ],
+        "to": [
+          15,
+          3,
+          14
+        ],
+        "tile": 1
+      },
+      {
+        "name": "back upper frame rail",
+        "from": [
+          1,
+          8,
+          13
+        ],
+        "to": [
+          15,
+          10,
+          14
+        ],
+        "tile": 1
+      },
+      {
+        "name": "back left frame stile",
+        "from": [
+          1,
+          3,
+          13
+        ],
+        "to": [
+          3,
+          8,
+          14
+        ],
+        "tile": 0
+      },
+      {
+        "name": "back right frame stile",
+        "from": [
+          13,
+          3,
+          13
+        ],
+        "to": [
+          15,
+          8,
+          14
+        ],
+        "tile": 0
+      },
+      {
+        "name": "left bottom return rail",
+        "from": [
+          1,
+          1,
+          3
+        ],
+        "to": [
+          2,
+          3,
+          13
+        ],
+        "tile": 1
+      },
+      {
+        "name": "left top return rail",
+        "from": [
+          1,
+          8,
+          3
+        ],
+        "to": [
+          2,
+          10,
+          13
+        ],
+        "tile": 1
+      },
+      {
+        "name": "right bottom return rail",
+        "from": [
+          14,
+          1,
+          3
+        ],
+        "to": [
+          15,
+          3,
+          13
+        ],
+        "tile": 1
+      },
+      {
+        "name": "right top return rail",
+        "from": [
+          14,
+          8,
+          3
+        ],
+        "to": [
+          15,
+          10,
+          13
+        ],
+        "tile": 1
+      },
+      {
+        "name": "left fitted lid strap",
+        "from": [
+          3,
+          12,
+          2
+        ],
+        "to": [
+          5,
+          13,
+          14
+        ],
+        "tile": 2
+      },
+      {
+        "name": "right fitted lid strap",
+        "from": [
+          11,
+          12,
+          2
+        ],
+        "to": [
+          13,
+          13,
+          14
+        ],
+        "tile": 2
+      },
+      {
+        "name": "hanging iron hasp plate",
+        "from": [
+          7,
+          6,
+          1
+        ],
+        "to": [
+          10,
+          10,
+          2
+        ],
+        "tile": 2
+      },
+      {
+        "name": "solid brass padlock body",
+        "from": [
+          7,
+          5,
+          0
+        ],
+        "to": [
+          10,
+          8,
+          1
+        ],
+        "tile": 3
+      },
+      {
+        "name": "left rear lid hinge",
+        "from": [
+          4,
+          9,
+          14
+        ],
+        "to": [
+          6,
+          12,
+          15
+        ],
+        "tile": 2
+      },
+      {
+        "name": "right rear lid hinge",
+        "from": [
+          10,
+          9,
+          14
+        ],
+        "to": [
+          12,
+          12,
+          15
+        ],
+        "tile": 2
+      }
+    ],
+    "description_zh": "封闭凹板箱体、包边、整块箱盖与黄铜锁扣；纯装饰，无物品栏。",
+    "lane": "furnishings",
+    "material_set": "remake-furnishings"
+  },
+  {
+    "id": "prison_ironbound_barrel",
+    "name_zh": "锈箍鼓腹桶",
+    "name_en": "Ironbound Stave Barrel",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 0,
+    "ingredient": "minecraft:barrel",
+    "boxes": [
+      {
+        "name": "narrow lower stave shoulder central partition",
+        "from": [
+          5,
+          0,
+          3
+        ],
+        "to": [
+          11,
+          3,
+          13
+        ],
+        "tile": 5,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "narrow lower stave shoulder left rounded partition",
+        "from": [
+          3,
+          0,
+          5
+        ],
+        "to": [
+          5,
+          3,
+          11
+        ],
+        "tile": 5
+      },
+      {
+        "name": "narrow lower stave shoulder right rounded partition",
+        "from": [
+          11,
+          0,
+          5
+        ],
+        "to": [
+          13,
+          3,
+          11
+        ],
+        "tile": 5
+      },
+      {
+        "name": "lower finely fitted polygonal hoop central stave partition",
+        "from": [
+          5,
+          3,
+          1
+        ],
+        "to": [
+          11,
+          4,
+          15
+        ],
+        "tile": 2,
+        "faces": {
+          "up": 2
+        }
+      },
+      {
+        "name": "lower finely fitted polygonal hoop left intermediate curve",
+        "from": [
+          3,
+          3,
+          3
+        ],
+        "to": [
+          5,
+          4,
+          13
+        ],
+        "tile": 2
+      },
+      {
+        "name": "lower finely fitted polygonal hoop right intermediate curve",
+        "from": [
+          11,
+          3,
+          3
+        ],
+        "to": [
+          13,
+          4,
+          13
+        ],
+        "tile": 2
+      },
+      {
+        "name": "lower finely fitted polygonal hoop left narrow tangent",
+        "from": [
+          1,
+          3,
+          5
+        ],
+        "to": [
+          3,
+          4,
+          11
+        ],
+        "tile": 2
+      },
+      {
+        "name": "lower finely fitted polygonal hoop right narrow tangent",
+        "from": [
+          13,
+          3,
+          5
+        ],
+        "to": [
+          15,
+          4,
+          11
+        ],
+        "tile": 2
+      },
+      {
+        "name": "wide finely curved stave belly central stave partition",
+        "from": [
+          5,
+          4,
+          1
+        ],
+        "to": [
+          11,
+          10,
+          15
+        ],
+        "tile": 5,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "wide finely curved stave belly left intermediate curve",
+        "from": [
+          3,
+          4,
+          3
+        ],
+        "to": [
+          5,
+          10,
+          13
+        ],
+        "tile": 5
+      },
+      {
+        "name": "wide finely curved stave belly right intermediate curve",
+        "from": [
+          11,
+          4,
+          3
+        ],
+        "to": [
+          13,
+          10,
+          13
+        ],
+        "tile": 5
+      },
+      {
+        "name": "wide finely curved stave belly left narrow tangent",
+        "from": [
+          1,
+          4,
+          5
+        ],
+        "to": [
+          3,
+          10,
+          11
+        ],
+        "tile": 5
+      },
+      {
+        "name": "wide finely curved stave belly right narrow tangent",
+        "from": [
+          13,
+          4,
+          5
+        ],
+        "to": [
+          15,
+          10,
+          11
+        ],
+        "tile": 5
+      },
+      {
+        "name": "upper finely fitted polygonal hoop central stave partition",
+        "from": [
+          5,
+          10,
+          1
+        ],
+        "to": [
+          11,
+          11,
+          15
+        ],
+        "tile": 2,
+        "faces": {
+          "up": 2
+        }
+      },
+      {
+        "name": "upper finely fitted polygonal hoop left intermediate curve",
+        "from": [
+          3,
+          10,
+          3
+        ],
+        "to": [
+          5,
+          11,
+          13
+        ],
+        "tile": 2
+      },
+      {
+        "name": "upper finely fitted polygonal hoop right intermediate curve",
+        "from": [
+          11,
+          10,
+          3
+        ],
+        "to": [
+          13,
+          11,
+          13
+        ],
+        "tile": 2
+      },
+      {
+        "name": "upper finely fitted polygonal hoop left narrow tangent",
+        "from": [
+          1,
+          10,
+          5
+        ],
+        "to": [
+          3,
+          11,
+          11
+        ],
+        "tile": 2
+      },
+      {
+        "name": "upper finely fitted polygonal hoop right narrow tangent",
+        "from": [
+          13,
+          10,
+          5
+        ],
+        "to": [
+          15,
+          11,
+          11
+        ],
+        "tile": 2
+      },
+      {
+        "name": "upper tapered stave shoulder central partition",
+        "from": [
+          5,
+          11,
+          3
+        ],
+        "to": [
+          11,
+          13,
+          13
+        ],
+        "tile": 5,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "upper tapered stave shoulder left rounded partition",
+        "from": [
+          3,
+          11,
+          5
+        ],
+        "to": [
+          5,
+          13,
+          11
+        ],
+        "tile": 5
+      },
+      {
+        "name": "upper tapered stave shoulder right rounded partition",
+        "from": [
+          11,
+          11,
+          5
+        ],
+        "to": [
+          13,
+          13,
+          11
+        ],
+        "tile": 5
+      },
+      {
+        "name": "recessed closed plank lid central partition",
+        "from": [
+          5,
+          13,
+          3
+        ],
+        "to": [
+          11,
+          14,
+          13
+        ],
+        "tile": 4,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "recessed closed plank lid left rounded partition",
+        "from": [
+          3,
+          13,
+          5
+        ],
+        "to": [
+          5,
+          14,
+          11
+        ],
+        "tile": 4
+      },
+      {
+        "name": "recessed closed plank lid right rounded partition",
+        "from": [
+          11,
+          13,
+          5
+        ],
+        "to": [
+          13,
+          14,
+          11
+        ],
+        "tile": 4
+      },
+      {
+        "name": "front raised mouth rim",
+        "from": [
+          5,
+          14,
+          3
+        ],
+        "to": [
+          11,
+          15,
+          5
+        ],
+        "tile": 2
+      },
+      {
+        "name": "back raised mouth rim",
+        "from": [
+          5,
+          14,
+          11
+        ],
+        "to": [
+          11,
+          15,
+          13
+        ],
+        "tile": 2
+      },
+      {
+        "name": "left raised mouth rim",
+        "from": [
+          3,
+          14,
+          5
+        ],
+        "to": [
+          5,
+          15,
+          11
+        ],
+        "tile": 2
+      },
+      {
+        "name": "right raised mouth rim",
+        "from": [
+          11,
+          14,
+          5
+        ],
+        "to": [
+          13,
+          15,
+          11
+        ],
+        "tile": 2
+      }
+    ],
+    "description_zh": "细阶折圆鼓腹、窄上下收口、贴合铁箍与下沉封闭桶盖；纯装饰，无物品栏。",
+    "lane": "furnishings",
+    "material_set": "remake-furnishings"
+  },
+  {
+    "id": "prison_shackled_post",
+    "name_zh": "双镣刑柱",
+    "name_en": "Twin Shackle Post",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 0,
+    "ingredient": "minecraft:chain",
+    "boxes": [
+      {
+        "name": "left ground runner",
+        "from": [
+          2,
+          0,
+          6
+        ],
+        "to": [
+          5,
+          1,
+          15
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "right ground runner",
+        "from": [
+          11,
+          0,
+          6
+        ],
+        "to": [
+          14,
+          1,
+          15
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "wide mortised foot sill",
+        "from": [
+          3,
+          1,
+          8
+        ],
+        "to": [
+          13,
+          2,
+          14
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "tall restraint mast",
+        "from": [
+          6,
+          2,
+          11
+        ],
+        "to": [
+          10,
+          15,
+          14
+        ],
+        "tile": 0
+      },
+      {
+        "name": "forward load bearing crossbeam",
+        "from": [
+          1,
+          12,
+          9
+        ],
+        "to": [
+          15,
+          14,
+          11
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "mast iron cap",
+        "from": [
+          6,
+          15,
+          11
+        ],
+        "to": [
+          10,
+          16,
+          14
+        ],
+        "tile": 2
+      },
+      {
+        "name": "front mast reinforcement",
+        "from": [
+          6,
+          3,
+          10
+        ],
+        "to": [
+          10,
+          6,
+          11
+        ],
+        "tile": 2
+      },
+      {
+        "name": "rear fastening plate",
+        "from": [
+          6,
+          9,
+          14
+        ],
+        "to": [
+          10,
+          13,
+          15
+        ],
+        "tile": 2
+      },
+      {
+        "name": "left cuff outer upright",
+        "from": [
+          1,
+          4,
+          6
+        ],
+        "to": [
+          2,
+          9,
+          8
+        ],
+        "tile": 2
+      },
+      {
+        "name": "left cuff inner upright",
+        "from": [
+          5,
+          4,
+          6
+        ],
+        "to": [
+          6,
+          9,
+          8
+        ],
+        "tile": 2
+      },
+      {
+        "name": "left cuff upper bridge",
+        "from": [
+          2,
+          8,
+          6
+        ],
+        "to": [
+          5,
+          9,
+          8
+        ],
+        "tile": 2
+      },
+      {
+        "name": "left cuff lower bridge",
+        "from": [
+          2,
+          4,
+          6
+        ],
+        "to": [
+          5,
+          5,
+          8
+        ],
+        "tile": 2
+      },
+      {
+        "name": "left suspended chain stem",
+        "from": [
+          3,
+          9,
+          7
+        ],
+        "to": [
+          4,
+          11,
+          8
+        ],
+        "tile": 2
+      },
+      {
+        "name": "left forward anchor arm",
+        "from": [
+          3,
+          11,
+          7
+        ],
+        "to": [
+          4,
+          12,
+          11
+        ],
+        "tile": 2
+      },
+      {
+        "name": "right cuff outer upright",
+        "from": [
+          10,
+          4,
+          6
+        ],
+        "to": [
+          11,
+          9,
+          8
+        ],
+        "tile": 2
+      },
+      {
+        "name": "right cuff inner upright",
+        "from": [
+          14,
+          4,
+          6
+        ],
+        "to": [
+          15,
+          9,
+          8
+        ],
+        "tile": 2
+      },
+      {
+        "name": "right cuff upper bridge",
+        "from": [
+          11,
+          8,
+          6
+        ],
+        "to": [
+          14,
+          9,
+          8
+        ],
+        "tile": 2
+      },
+      {
+        "name": "right cuff lower bridge",
+        "from": [
+          11,
+          4,
+          6
+        ],
+        "to": [
+          14,
+          5,
+          8
+        ],
+        "tile": 2
+      },
+      {
+        "name": "right suspended chain stem",
+        "from": [
+          12,
+          9,
+          7
+        ],
+        "to": [
+          13,
+          11,
+          8
+        ],
+        "tile": 2
+      },
+      {
+        "name": "right forward anchor arm",
+        "from": [
+          12,
+          11,
+          7
+        ],
+        "to": [
+          13,
+          12,
+          11
+        ],
+        "tile": 2
+      }
+    ],
+    "description_zh": "高立刑柱、承重横梁和两只真实贯通空心铁镣；纯装饰，不束缚玩家。",
+    "lane": "furnishings",
+    "material_set": "remake-furnishings"
+  },
+  {
+    "id": "prison_weapon_rack",
+    "name_zh": "狱卒兵器架",
+    "name_en": "Jailer Weapon Rack",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 0,
+    "ingredient": "minecraft:iron_ingot",
+    "boxes": [
+      {
+        "name": "left long ground foot",
+        "from": [
+          1,
+          0,
+          5
+        ],
+        "to": [
+          4,
+          1,
+          15
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "right long ground foot",
+        "from": [
+          12,
+          0,
+          5
+        ],
+        "to": [
+          15,
+          1,
+          15
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "continuous base sill",
+        "from": [
+          1,
+          1,
+          6
+        ],
+        "to": [
+          15,
+          2,
+          13
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "left rack upright",
+        "from": [
+          1,
+          2,
+          11
+        ],
+        "to": [
+          3,
+          16,
+          13
+        ],
+        "tile": 0,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "right rack upright",
+        "from": [
+          13,
+          2,
+          11
+        ],
+        "to": [
+          15,
+          16,
+          13
+        ],
+        "tile": 0,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "lower rear stretcher",
+        "from": [
+          3,
+          2,
+          11
+        ],
+        "to": [
+          13,
+          4,
+          13
+        ],
+        "tile": 1
+      },
+      {
+        "name": "upper weapon carrying rail",
+        "from": [
+          3,
+          10,
+          11
+        ],
+        "to": [
+          13,
+          12,
+          13
+        ],
+        "tile": 1
+      },
+      {
+        "name": "forward weapon resting tray",
+        "from": [
+          3,
+          2,
+          6
+        ],
+        "to": [
+          13,
+          3,
+          11
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "upper front return beam",
+        "from": [
+          1,
+          15,
+          10
+        ],
+        "to": [
+          15,
+          16,
+          11
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "sword brass pommel",
+        "from": [
+          4,
+          3,
+          7
+        ],
+        "to": [
+          7,
+          4,
+          9
+        ],
+        "tile": 3
+      },
+      {
+        "name": "sword leather grip",
+        "from": [
+          5,
+          4,
+          7
+        ],
+        "to": [
+          6,
+          7,
+          9
+        ],
+        "tile": 9
+      },
+      {
+        "name": "sword wide crossguard",
+        "from": [
+          3,
+          7,
+          7
+        ],
+        "to": [
+          8,
+          8,
+          9
+        ],
+        "tile": 3
+      },
+      {
+        "name": "sword broad fullered blade",
+        "from": [
+          4,
+          8,
+          7
+        ],
+        "to": [
+          7,
+          14,
+          8
+        ],
+        "tile": 8
+      },
+      {
+        "name": "sword narrowed terminal point",
+        "from": [
+          5,
+          14,
+          7
+        ],
+        "to": [
+          6,
+          15,
+          8
+        ],
+        "tile": 8
+      },
+      {
+        "name": "halberd long timber shaft",
+        "from": [
+          10,
+          3,
+          8
+        ],
+        "to": [
+          11,
+          12,
+          10
+        ],
+        "tile": 0
+      },
+      {
+        "name": "halberd metal socket",
+        "from": [
+          10,
+          12,
+          8
+        ],
+        "to": [
+          11,
+          15,
+          10
+        ],
+        "tile": 2
+      },
+      {
+        "name": "halberd vertical spear point",
+        "from": [
+          10,
+          15,
+          8
+        ],
+        "to": [
+          11,
+          16,
+          9
+        ],
+        "tile": 8
+      },
+      {
+        "name": "halberd broad axe head",
+        "from": [
+          11,
+          12,
+          8
+        ],
+        "to": [
+          13,
+          15,
+          9
+        ],
+        "tile": 8
+      },
+      {
+        "name": "halberd hooked lower toe",
+        "from": [
+          12,
+          11,
+          8
+        ],
+        "to": [
+          13,
+          12,
+          9
+        ],
+        "tile": 8
+      },
+      {
+        "name": "halberd rear counterpick",
+        "from": [
+          9,
+          13,
+          8
+        ],
+        "to": [
+          10,
+          14,
+          9
+        ],
+        "tile": 8
+      },
+      {
+        "name": "sword rail support shoe",
+        "from": [
+          4,
+          10,
+          8
+        ],
+        "to": [
+          7,
+          11,
+          11
+        ],
+        "tile": 2
+      },
+      {
+        "name": "halberd rail support shoe",
+        "from": [
+          10,
+          10,
+          10
+        ],
+        "to": [
+          12,
+          11,
+          11
+        ],
+        "tile": 2
+      }
+    ],
+    "description_zh": "落地支撑架承托带护手的宽刃剑及钩斧长柄戟；纯装饰，不能取下兵器。",
+    "lane": "furnishings",
+    "material_set": "remake-furnishings"
+  },
+  {
+    "id": "prison_alchemy_shelf",
+    "name_zh": "旧炼金药书架",
+    "name_en": "Apothecary Book Shelf",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 0,
+    "ingredient": "minecraft:glass_bottle",
+    "boxes": [
+      {
+        "name": "deep ground shelf plinth",
+        "from": [
+          1,
+          0,
+          5
+        ],
+        "to": [
+          15,
+          2,
+          14
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "left full depth stile",
+        "from": [
+          1,
+          2,
+          6
+        ],
+        "to": [
+          3,
+          15,
+          14
+        ],
+        "tile": 0
+      },
+      {
+        "name": "right full depth stile",
+        "from": [
+          13,
+          2,
+          6
+        ],
+        "to": [
+          15,
+          15,
+          14
+        ],
+        "tile": 0
+      },
+      {
+        "name": "projecting intermediate shelf",
+        "from": [
+          3,
+          7,
+          5
+        ],
+        "to": [
+          13,
+          8,
+          14
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "deep overhanging top cornice",
+        "from": [
+          1,
+          15,
+          5
+        ],
+        "to": [
+          15,
+          16,
+          14
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "lower open back retaining rail",
+        "from": [
+          3,
+          3,
+          13
+        ],
+        "to": [
+          13,
+          5,
+          14
+        ],
+        "tile": 0
+      },
+      {
+        "name": "upper open back retaining rail",
+        "from": [
+          3,
+          10,
+          13
+        ],
+        "to": [
+          13,
+          12,
+          14
+        ],
+        "tile": 0
+      },
+      {
+        "name": "lower tall bound folio",
+        "from": [
+          3,
+          2,
+          7
+        ],
+        "to": [
+          5,
+          6,
+          11
+        ],
+        "tile": 9,
+        "faces": {
+          "east": 12,
+          "up": 12
+        }
+      },
+      {
+        "name": "lower parchment bound volume",
+        "from": [
+          5,
+          2,
+          8
+        ],
+        "to": [
+          7,
+          5,
+          12
+        ],
+        "tile": 12,
+        "faces": {
+          "south": 9
+        }
+      },
+      {
+        "name": "lower slim oxblood volume",
+        "from": [
+          7,
+          2,
+          8
+        ],
+        "to": [
+          8,
+          6,
+          12
+        ],
+        "tile": 9,
+        "faces": {
+          "east": 12,
+          "up": 12
+        }
+      },
+      {
+        "name": "front horizontal closed book",
+        "from": [
+          4,
+          2,
+          5
+        ],
+        "to": [
+          9,
+          3,
+          7
+        ],
+        "tile": 9,
+        "faces": {
+          "north": 12,
+          "east": 12
+        }
+      },
+      {
+        "name": "front horizontal parchment book",
+        "from": [
+          4,
+          3,
+          5
+        ],
+        "to": [
+          8,
+          4,
+          7
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 9
+        }
+      },
+      {
+        "name": "lower amber medicine body",
+        "from": [
+          10,
+          2,
+          7
+        ],
+        "to": [
+          13,
+          4,
+          10
+        ],
+        "tile": 11
+      },
+      {
+        "name": "lower amber narrow neck",
+        "from": [
+          11,
+          4,
+          8
+        ],
+        "to": [
+          12,
+          5,
+          9
+        ],
+        "tile": 11
+      },
+      {
+        "name": "lower amber cork",
+        "from": [
+          11,
+          5,
+          8
+        ],
+        "to": [
+          12,
+          6,
+          9
+        ],
+        "tile": 4
+      },
+      {
+        "name": "upper cyan medicine body",
+        "from": [
+          4,
+          8,
+          7
+        ],
+        "to": [
+          7,
+          11,
+          10
+        ],
+        "tile": 10
+      },
+      {
+        "name": "upper cyan long narrow neck",
+        "from": [
+          5,
+          11,
+          8
+        ],
+        "to": [
+          6,
+          13,
+          9
+        ],
+        "tile": 10
+      },
+      {
+        "name": "upper cyan cork",
+        "from": [
+          5,
+          13,
+          8
+        ],
+        "to": [
+          6,
+          14,
+          9
+        ],
+        "tile": 4
+      },
+      {
+        "name": "upper amber medicine body",
+        "from": [
+          10,
+          8,
+          8
+        ],
+        "to": [
+          12,
+          10,
+          10
+        ],
+        "tile": 11
+      },
+      {
+        "name": "upper amber narrow neck",
+        "from": [
+          10,
+          10,
+          8
+        ],
+        "to": [
+          11,
+          12,
+          9
+        ],
+        "tile": 11
+      },
+      {
+        "name": "upper amber cork",
+        "from": [
+          10,
+          12,
+          8
+        ],
+        "to": [
+          11,
+          13,
+          9
+        ],
+        "tile": 4
+      },
+      {
+        "name": "upper tall stitched folio",
+        "from": [
+          8,
+          8,
+          9
+        ],
+        "to": [
+          9,
+          12,
+          12
+        ],
+        "tile": 9,
+        "faces": {
+          "up": 12
+        }
+      },
+      {
+        "name": "upper short parchment volume",
+        "from": [
+          9,
+          8,
+          10
+        ],
+        "to": [
+          10,
+          11,
+          12
+        ],
+        "tile": 12,
+        "faces": {
+          "south": 9
+        }
+      }
+    ],
+    "description_zh": "双层深药架、三只收颈塞口药瓶和分层账册；纯装饰，不酿造。",
+    "lane": "furnishings",
+    "material_set": "remake-furnishings"
+  },
+  {
+    "id": "prison_torn_banner",
+    "name_zh": "断钥残旗",
+    "name_en": "Torn Key Standard",
+    "kind": "decor",
+    "mount": "wall",
+    "light": 0,
+    "ingredient": "minecraft:red_wool",
+    "boxes": [
+      {
+        "name": "left wall anchor",
+        "from": [
+          3,
+          12,
+          14
+        ],
+        "to": [
+          5,
+          16,
+          16
+        ],
+        "tile": 2
+      },
+      {
+        "name": "right wall anchor",
+        "from": [
+          11,
+          12,
+          14
+        ],
+        "to": [
+          13,
+          16,
+          16
+        ],
+        "tile": 2
+      },
+      {
+        "name": "iron hanging rod",
+        "from": [
+          2,
+          13,
+          12
+        ],
+        "to": [
+          14,
+          15,
+          14
+        ],
+        "tile": 2
+      },
+      {
+        "name": "broad heraldic cloth",
+        "from": [
+          4,
+          6,
+          12
+        ],
+        "to": [
+          12,
+          13,
+          13
+        ],
+        "tile": 15,
+        "faces": {
+          "north": 6
+        }
+      },
+      {
+        "name": "short left torn lobe",
+        "from": [
+          4,
+          2,
+          12
+        ],
+        "to": [
+          6,
+          6,
+          13
+        ],
+        "tile": 15
+      },
+      {
+        "name": "receded central torn lobe",
+        "from": [
+          6,
+          4,
+          12
+        ],
+        "to": [
+          9,
+          6,
+          13
+        ],
+        "tile": 15
+      },
+      {
+        "name": "long right torn lobe",
+        "from": [
+          9,
+          1,
+          12
+        ],
+        "to": [
+          11,
+          6,
+          13
+        ],
+        "tile": 15
+      }
+    ],
+    "description_zh": "暗红旧旗配原创断钥纹样，三片大幅残摆形成真实不规则轮廓；背面为素布。",
+    "lane": "furnishings"
+  },
+  {
+    "id": "prison_ossuary_niche",
+    "name_zh": "支拱藏骨龛",
+    "name_en": "Corbelled Ossuary Niche",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 0,
+    "ingredient": "minecraft:bone_block",
+    "boxes": [
+      {
+        "name": "wide carved ground plinth",
+        "from": [
+          0,
+          0,
+          4
+        ],
+        "to": [
+          16,
+          2,
+          16
+        ],
+        "tile": 6
+      },
+      {
+        "name": "left deep load bearing pier",
+        "from": [
+          1,
+          2,
+          6
+        ],
+        "to": [
+          4,
+          10,
+          16
+        ],
+        "tile": 6
+      },
+      {
+        "name": "right deep load bearing pier",
+        "from": [
+          12,
+          2,
+          6
+        ],
+        "to": [
+          15,
+          10,
+          16
+        ],
+        "tile": 6
+      },
+      {
+        "name": "left projecting arch springer",
+        "from": [
+          1,
+          10,
+          5
+        ],
+        "to": [
+          5,
+          12,
+          16
+        ],
+        "tile": 6,
+        "faces": {
+          "down": 14
+        }
+      },
+      {
+        "name": "right projecting arch springer",
+        "from": [
+          11,
+          10,
+          5
+        ],
+        "to": [
+          15,
+          12,
+          16
+        ],
+        "tile": 6,
+        "faces": {
+          "down": 14
+        }
+      },
+      {
+        "name": "left inward corbel arch tier",
+        "from": [
+          2,
+          12,
+          5
+        ],
+        "to": [
+          6,
+          14,
+          16
+        ],
+        "tile": 6,
+        "faces": {
+          "down": 14
+        }
+      },
+      {
+        "name": "right inward corbel arch tier",
+        "from": [
+          10,
+          12,
+          5
+        ],
+        "to": [
+          14,
+          14,
+          16
+        ],
+        "tile": 6,
+        "faces": {
+          "down": 14
+        }
+      },
+      {
+        "name": "closed load bearing arch crown",
+        "from": [
+          4,
+          14,
+          6
+        ],
+        "to": [
+          12,
+          16,
+          16
+        ],
+        "tile": 6,
+        "faces": {
+          "down": 14
+        }
+      },
+      {
+        "name": "deep recessed lower backing",
+        "from": [
+          4,
+          2,
+          14
+        ],
+        "to": [
+          12,
+          10,
+          16
+        ],
+        "tile": 14
+      },
+      {
+        "name": "deep recessed shoulder backing",
+        "from": [
+          5,
+          10,
+          14
+        ],
+        "to": [
+          11,
+          12,
+          16
+        ],
+        "tile": 14
+      },
+      {
+        "name": "deep recessed apex backing",
+        "from": [
+          6,
+          12,
+          14
+        ],
+        "to": [
+          10,
+          14,
+          16
+        ],
+        "tile": 14
+      },
+      {
+        "name": "set back ossuary shelf",
+        "from": [
+          4,
+          2,
+          8
+        ],
+        "to": [
+          12,
+          3,
+          14
+        ],
+        "tile": 6
+      },
+      {
+        "name": "central carved skull cranium",
+        "from": [
+          6,
+          4,
+          9
+        ],
+        "to": [
+          10,
+          8,
+          12
+        ],
+        "tile": 7,
+        "faces": {
+          "north": 15
+        }
+      },
+      {
+        "name": "narrow skull jaw",
+        "from": [
+          7,
+          3,
+          9
+        ],
+        "to": [
+          9,
+          4,
+          12
+        ],
+        "tile": 7,
+        "faces": {
+          "north": 15
+        }
+      },
+      {
+        "name": "rounded skull crown",
+        "from": [
+          7,
+          8,
+          9
+        ],
+        "to": [
+          9,
+          9,
+          12
+        ],
+        "tile": 7
+      },
+      {
+        "name": "left resting long bone",
+        "from": [
+          4,
+          3,
+          10
+        ],
+        "to": [
+          6,
+          4,
+          12
+        ],
+        "tile": 7
+      },
+      {
+        "name": "right resting long bone",
+        "from": [
+          10,
+          3,
+          9
+        ],
+        "to": [
+          12,
+          4,
+          11
+        ],
+        "tile": 7
+      },
+      {
+        "name": "foreground femur shaft",
+        "from": [
+          5,
+          2,
+          5
+        ],
+        "to": [
+          11,
+          3,
+          7
+        ],
+        "tile": 7
+      },
+      {
+        "name": "foreground femur left joint",
+        "from": [
+          4,
+          2,
+          5
+        ],
+        "to": [
+          5,
+          4,
+          7
+        ],
+        "tile": 7
+      },
+      {
+        "name": "foreground femur right joint",
+        "from": [
+          11,
+          2,
+          5
+        ],
+        "to": [
+          12,
+          4,
+          7
+        ],
+        "tile": 7
+      },
+      {
+        "name": "left stacked bone end",
+        "from": [
+          4,
+          4,
+          11
+        ],
+        "to": [
+          5,
+          6,
+          12
+        ],
+        "tile": 7
+      },
+      {
+        "name": "right stacked bone end",
+        "from": [
+          11,
+          4,
+          10
+        ],
+        "to": [
+          12,
+          6,
+          11
+        ],
+        "tile": 7
+      },
+      {
+        "name": "left projecting pier foot",
+        "from": [
+          0,
+          2,
+          5
+        ],
+        "to": [
+          4,
+          3,
+          6
+        ],
+        "tile": 6
+      },
+      {
+        "name": "right projecting pier foot",
+        "from": [
+          12,
+          2,
+          5
+        ],
+        "to": [
+          16,
+          3,
+          6
+        ],
+        "tile": 6
+      },
+      {
+        "name": "forward crown keystone",
+        "from": [
+          7,
+          14,
+          5
+        ],
+        "to": [
+          9,
+          16,
+          6
+        ],
+        "tile": 6
+      }
+    ],
+    "description_zh": "逐层内挑的支拱、深背板、颅骨与长骨组成的真实凹龛；纯装饰。",
+    "lane": "furnishings",
+    "material_set": "remake-furnishings"
+  },
+  {
+    "id": "prison_warden_lectern",
+    "name_zh": "典狱账卷台",
+    "name_en": "Warden Ledger Lectern",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 0,
+    "ingredient": "minecraft:book",
+    "boxes": [
+      {
+        "name": "broad stable slate foot",
+        "from": [
+          2,
+          0,
+          3
+        ],
+        "to": [
+          14,
+          2,
+          14
+        ],
+        "tile": 6
+      },
+      {
+        "name": "stepped timber pedestal",
+        "from": [
+          5,
+          2,
+          6
+        ],
+        "to": [
+          11,
+          3,
+          12
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "column lower collar",
+        "from": [
+          6,
+          3,
+          7
+        ],
+        "to": [
+          10,
+          4,
+          12
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "slender ledger support column",
+        "from": [
+          7,
+          4,
+          8
+        ],
+        "to": [
+          9,
+          9,
+          11
+        ],
+        "tile": 0
+      },
+      {
+        "name": "wide underside desk capital",
+        "from": [
+          5,
+          9,
+          6
+        ],
+        "to": [
+          11,
+          10,
+          12
+        ],
+        "tile": 1
+      },
+      {
+        "name": "thin deep writing desk",
+        "from": [
+          1,
+          10,
+          3
+        ],
+        "to": [
+          15,
+          11,
+          14
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "forward raised retaining lip",
+        "from": [
+          1,
+          11,
+          3
+        ],
+        "to": [
+          15,
+          12,
+          4
+        ],
+        "tile": 1
+      },
+      {
+        "name": "rear raised book stop",
+        "from": [
+          2,
+          11,
+          12
+        ],
+        "to": [
+          14,
+          12,
+          14
+        ],
+        "tile": 1
+      },
+      {
+        "name": "open ledger oxblood cover",
+        "from": [
+          3,
+          11,
+          4
+        ],
+        "to": [
+          13,
+          12,
+          12
+        ],
+        "tile": 9
+      },
+      {
+        "name": "open ledger recessed central spine",
+        "from": [
+          7,
+          12,
+          4
+        ],
+        "to": [
+          9,
+          13,
+          12
+        ],
+        "tile": 9,
+        "faces": {
+          "up": 13
+        }
+      },
+      {
+        "name": "left ledger inner page block",
+        "from": [
+          3,
+          12,
+          4
+        ],
+        "to": [
+          7,
+          13,
+          12
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13
+        }
+      },
+      {
+        "name": "right ledger inner page block",
+        "from": [
+          9,
+          12,
+          4
+        ],
+        "to": [
+          13,
+          13,
+          12
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13
+        }
+      },
+      {
+        "name": "left ledger lifted outer leaves",
+        "from": [
+          3,
+          13,
+          4
+        ],
+        "to": [
+          5,
+          14,
+          12
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13
+        }
+      },
+      {
+        "name": "right ledger lifted outer leaves",
+        "from": [
+          11,
+          13,
+          4
+        ],
+        "to": [
+          13,
+          14,
+          12
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13
+        }
+      },
+      {
+        "name": "desk side inkpot body",
+        "from": [
+          13,
+          11,
+          8
+        ],
+        "to": [
+          15,
+          13,
+          10
+        ],
+        "tile": 2
+      },
+      {
+        "name": "desk side inkpot brass mouth",
+        "from": [
+          13,
+          13,
+          8
+        ],
+        "to": [
+          14,
+          14,
+          9
+        ],
+        "tile": 3
+      }
+    ],
+    "description_zh": "宽稳底座、纤细承柱、薄书桌及展开的分层双页账簿；纯装饰，无界面。",
+    "lane": "furnishings",
+    "material_set": "remake-furnishings"
+  },
+  {
+    "id": "prison_cell_lantern",
+    "name_zh": "囚室巡夜灯",
+    "name_en": "Cell Watch Lantern",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 12,
+    "ingredient": "minecraft:iron_ingot",
+    "boxes": [
+      {
+        "name": "front left foot",
+        "from": [
+          3,
+          0,
+          4
+        ],
+        "to": [
+          5,
+          1,
+          6
+        ],
+        "tile": 0
+      },
+      {
+        "name": "front right foot",
+        "from": [
+          11,
+          0,
+          4
+        ],
+        "to": [
+          13,
+          1,
+          6
+        ],
+        "tile": 0
+      },
+      {
+        "name": "rear left foot",
+        "from": [
+          3,
+          0,
+          10
+        ],
+        "to": [
+          5,
+          1,
+          12
+        ],
+        "tile": 0
+      },
+      {
+        "name": "rear right foot",
+        "from": [
+          11,
+          0,
+          10
+        ],
+        "to": [
+          13,
+          1,
+          12
+        ],
+        "tile": 0
+      },
+      {
+        "name": "raised riveted tray",
+        "from": [
+          3,
+          1,
+          4
+        ],
+        "to": [
+          13,
+          3,
+          12
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 0
+        }
+      },
+      {
+        "name": "front left guard",
+        "from": [
+          3,
+          3,
+          4
+        ],
+        "to": [
+          4,
+          11,
+          5
+        ],
+        "tile": 0
+      },
+      {
+        "name": "front right guard",
+        "from": [
+          12,
+          3,
+          4
+        ],
+        "to": [
+          13,
+          11,
+          5
+        ],
+        "tile": 0
+      },
+      {
+        "name": "rear left guard",
+        "from": [
+          3,
+          3,
+          11
+        ],
+        "to": [
+          4,
+          11,
+          12
+        ],
+        "tile": 0
+      },
+      {
+        "name": "rear right guard",
+        "from": [
+          12,
+          3,
+          11
+        ],
+        "to": [
+          13,
+          11,
+          12
+        ],
+        "tile": 0
+      },
+      {
+        "name": "front offset guard",
+        "from": [
+          7,
+          3,
+          4
+        ],
+        "to": [
+          8,
+          11,
+          5
+        ],
+        "tile": 0
+      },
+      {
+        "name": "rear offset guard",
+        "from": [
+          8,
+          3,
+          11
+        ],
+        "to": [
+          9,
+          11,
+          12
+        ],
+        "tile": 0
+      },
+      {
+        "name": "brass burner",
+        "from": [
+          6,
+          3,
+          7
+        ],
+        "to": [
+          10,
+          4,
+          9
+        ],
+        "tile": 4,
+        "faces": {
+          "up": 7
+        }
+      },
+      {
+        "name": "narrow amber chimney",
+        "from": [
+          7,
+          4,
+          7
+        ],
+        "to": [
+          9,
+          9,
+          9
+        ],
+        "tile": 12,
+        "glow": true
+      },
+      {
+        "name": "offset flame tip",
+        "from": [
+          7,
+          9,
+          7
+        ],
+        "to": [
+          8,
+          10,
+          8
+        ],
+        "tile": 12,
+        "glow": true
+      },
+      {
+        "name": "flat cage crown",
+        "from": [
+          3,
+          11,
+          4
+        ],
+        "to": [
+          13,
+          12,
+          12
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 0
+        }
+      },
+      {
+        "name": "stepped brass cap",
+        "from": [
+          5,
+          12,
+          6
+        ],
+        "to": [
+          11,
+          13,
+          10
+        ],
+        "tile": 4
+      },
+      {
+        "name": "carry bail left",
+        "from": [
+          5,
+          13,
+          7
+        ],
+        "to": [
+          6,
+          16,
+          9
+        ],
+        "tile": 0
+      },
+      {
+        "name": "carry bail right",
+        "from": [
+          10,
+          13,
+          7
+        ],
+        "to": [
+          11,
+          16,
+          9
+        ],
+        "tile": 0
+      },
+      {
+        "name": "carry bail bridge",
+        "from": [
+          6,
+          15,
+          7
+        ],
+        "to": [
+          10,
+          16,
+          9
+        ],
+        "tile": 0
+      }
+    ],
+    "description_zh": "四足落地的暖色巡夜灯；六根护栏与细火芯之间保留真实空隙。主工程提供空手切换明暗。",
+    "lane": "lighting"
+  },
+  {
+    "id": "prison_wall_lantern",
+    "name_zh": "狱吏悬臂灯",
+    "name_en": "Warden Bracket Lantern",
+    "kind": "decor",
+    "mount": "wall",
+    "light": 12,
+    "ingredient": "minecraft:iron_ingot",
+    "boxes": [
+      {
+        "name": "wall service backplate",
+        "from": [
+          6,
+          4,
+          14
+        ],
+        "to": [
+          10,
+          15,
+          16
+        ],
+        "tile": 1,
+        "faces": {
+          "north": 10
+        }
+      },
+      {
+        "name": "forward cantilever",
+        "from": [
+          7,
+          13,
+          7
+        ],
+        "to": [
+          9,
+          15,
+          14
+        ],
+        "tile": 0
+      },
+      {
+        "name": "pendant drop link",
+        "from": [
+          7,
+          11,
+          6
+        ],
+        "to": [
+          9,
+          15,
+          7
+        ],
+        "tile": 0
+      },
+      {
+        "name": "suspended lid",
+        "from": [
+          4,
+          10,
+          3
+        ],
+        "to": [
+          12,
+          11,
+          11
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 4
+        }
+      },
+      {
+        "name": "suspended tray",
+        "from": [
+          4,
+          2,
+          3
+        ],
+        "to": [
+          12,
+          4,
+          11
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 0
+        }
+      },
+      {
+        "name": "front left upright",
+        "from": [
+          4,
+          4,
+          3
+        ],
+        "to": [
+          5,
+          10,
+          4
+        ],
+        "tile": 0
+      },
+      {
+        "name": "front right upright",
+        "from": [
+          11,
+          4,
+          3
+        ],
+        "to": [
+          12,
+          10,
+          4
+        ],
+        "tile": 0
+      },
+      {
+        "name": "rear left upright",
+        "from": [
+          4,
+          4,
+          10
+        ],
+        "to": [
+          5,
+          10,
+          11
+        ],
+        "tile": 0
+      },
+      {
+        "name": "rear right upright",
+        "from": [
+          11,
+          4,
+          10
+        ],
+        "to": [
+          12,
+          10,
+          11
+        ],
+        "tile": 0
+      },
+      {
+        "name": "front guard tooth",
+        "from": [
+          7,
+          4,
+          3
+        ],
+        "to": [
+          8,
+          10,
+          4
+        ],
+        "tile": 0
+      },
+      {
+        "name": "brass oil cup",
+        "from": [
+          6,
+          4,
+          6
+        ],
+        "to": [
+          10,
+          5,
+          8
+        ],
+        "tile": 4,
+        "faces": {
+          "up": 7
+        }
+      },
+      {
+        "name": "amber burner",
+        "from": [
+          7,
+          5,
+          6
+        ],
+        "to": [
+          9,
+          9,
+          8
+        ],
+        "tile": 12,
+        "glow": true
+      },
+      {
+        "name": "amber tip",
+        "from": [
+          7,
+          9,
+          6
+        ],
+        "to": [
+          8,
+          10,
+          7
+        ],
+        "tile": 12,
+        "glow": true
+      },
+      {
+        "name": "lower pendant finial",
+        "from": [
+          7,
+          1,
+          6
+        ],
+        "to": [
+          9,
+          2,
+          8
+        ],
+        "tile": 4
+      }
+    ],
+    "description_zh": "铭牌背板连接折臂与短吊杆，悬挂暖光铁笼灯；不是壁龛火盆。主工程提供空手切换明暗。",
+    "lane": "lighting"
+  },
+  {
+    "id": "prison_iron_chandelier",
+    "name_zh": "四臂锁环吊灯",
+    "name_en": "Four Arm Iron Chandelier",
+    "kind": "decor",
+    "mount": "ceiling",
+    "light": 14,
+    "ingredient": "minecraft:chain",
+    "boxes": [
+      {
+        "name": "ceiling fixing plate",
+        "from": [
+          5,
+          15,
+          5
+        ],
+        "to": [
+          11,
+          16,
+          11
+        ],
+        "tile": 1
+      },
+      {
+        "name": "central suspension stem",
+        "from": [
+          7,
+          9,
+          7
+        ],
+        "to": [
+          9,
+          15,
+          9
+        ],
+        "tile": 0
+      },
+      {
+        "name": "east west hanger beam",
+        "from": [
+          3,
+          8,
+          7
+        ],
+        "to": [
+          13,
+          9,
+          9
+        ],
+        "tile": 0
+      },
+      {
+        "name": "north hanger beam",
+        "from": [
+          7,
+          8,
+          3
+        ],
+        "to": [
+          9,
+          9,
+          7
+        ],
+        "tile": 0
+      },
+      {
+        "name": "south hanger beam",
+        "from": [
+          7,
+          8,
+          9
+        ],
+        "to": [
+          9,
+          9,
+          13
+        ],
+        "tile": 0
+      },
+      {
+        "name": "west tension link",
+        "from": [
+          3,
+          6,
+          7
+        ],
+        "to": [
+          4,
+          8,
+          9
+        ],
+        "tile": 0
+      },
+      {
+        "name": "east tension link",
+        "from": [
+          12,
+          6,
+          7
+        ],
+        "to": [
+          13,
+          8,
+          9
+        ],
+        "tile": 0
+      },
+      {
+        "name": "north tension link",
+        "from": [
+          7,
+          6,
+          3
+        ],
+        "to": [
+          9,
+          8,
+          4
+        ],
+        "tile": 0
+      },
+      {
+        "name": "south tension link",
+        "from": [
+          7,
+          6,
+          12
+        ],
+        "to": [
+          9,
+          8,
+          13
+        ],
+        "tile": 0
+      },
+      {
+        "name": "north ring rail",
+        "from": [
+          2,
+          4,
+          2
+        ],
+        "to": [
+          14,
+          6,
+          4
+        ],
+        "tile": 1
+      },
+      {
+        "name": "south ring rail",
+        "from": [
+          2,
+          4,
+          12
+        ],
+        "to": [
+          14,
+          6,
+          14
+        ],
+        "tile": 1
+      },
+      {
+        "name": "west ring rail",
+        "from": [
+          2,
+          4,
+          4
+        ],
+        "to": [
+          4,
+          6,
+          12
+        ],
+        "tile": 1
+      },
+      {
+        "name": "east ring rail",
+        "from": [
+          12,
+          4,
+          4
+        ],
+        "to": [
+          14,
+          6,
+          12
+        ],
+        "tile": 1
+      },
+      {
+        "name": "north west candle pan",
+        "from": [
+          2,
+          6,
+          2
+        ],
+        "to": [
+          5,
+          7,
+          5
+        ],
+        "tile": 4
+      },
+      {
+        "name": "north east candle pan",
+        "from": [
+          11,
+          6,
+          2
+        ],
+        "to": [
+          14,
+          7,
+          5
+        ],
+        "tile": 4
+      },
+      {
+        "name": "south west candle pan",
+        "from": [
+          2,
+          6,
+          11
+        ],
+        "to": [
+          5,
+          7,
+          14
+        ],
+        "tile": 4
+      },
+      {
+        "name": "south east candle pan",
+        "from": [
+          11,
+          6,
+          11
+        ],
+        "to": [
+          14,
+          7,
+          14
+        ],
+        "tile": 4
+      },
+      {
+        "name": "north west wax",
+        "from": [
+          3,
+          7,
+          3
+        ],
+        "to": [
+          4,
+          10,
+          4
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 11
+        }
+      },
+      {
+        "name": "north east wax",
+        "from": [
+          12,
+          7,
+          3
+        ],
+        "to": [
+          13,
+          9,
+          4
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 11
+        }
+      },
+      {
+        "name": "south west wax",
+        "from": [
+          3,
+          7,
+          12
+        ],
+        "to": [
+          4,
+          9,
+          13
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 11
+        }
+      },
+      {
+        "name": "south east wax",
+        "from": [
+          12,
+          7,
+          12
+        ],
+        "to": [
+          13,
+          10,
+          13
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 11
+        }
+      },
+      {
+        "name": "north west flame",
+        "from": [
+          3,
+          10,
+          3
+        ],
+        "to": [
+          4,
+          12,
+          4
+        ],
+        "tile": 12,
+        "glow": true
+      },
+      {
+        "name": "north east flame",
+        "from": [
+          12,
+          9,
+          3
+        ],
+        "to": [
+          13,
+          11,
+          4
+        ],
+        "tile": 12,
+        "glow": true
+      },
+      {
+        "name": "south west flame",
+        "from": [
+          3,
+          9,
+          12
+        ],
+        "to": [
+          4,
+          11,
+          13
+        ],
+        "tile": 12,
+        "glow": true
+      },
+      {
+        "name": "south east flame",
+        "from": [
+          12,
+          10,
+          12
+        ],
+        "to": [
+          13,
+          12,
+          13
+        ],
+        "tile": 12,
+        "glow": true
+      }
+    ],
+    "description_zh": "四角蜡烛装在镂空铁环上，四根拉杆汇入十字梁、主吊杆与天花固定盘；无悬空零件。",
+    "lane": "lighting"
+  },
+  {
+    "id": "prison_candle_cluster",
+    "name_zh": "守夜融蜡烛丛",
+    "name_en": "Vigil Candle Cluster",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 11,
+    "ingredient": "minecraft:candle",
+    "boxes": [
+      {
+        "name": "iron drip tray",
+        "from": [
+          2,
+          0,
+          3
+        ],
+        "to": [
+          14,
+          1,
+          13
+        ],
+        "tile": 1,
+        "faces": {
+          "up": 0
+        }
+      },
+      {
+        "name": "north tray lip",
+        "from": [
+          2,
+          1,
+          3
+        ],
+        "to": [
+          14,
+          2,
+          4
+        ],
+        "tile": 0
+      },
+      {
+        "name": "south tray lip",
+        "from": [
+          2,
+          1,
+          12
+        ],
+        "to": [
+          14,
+          2,
+          13
+        ],
+        "tile": 0
+      },
+      {
+        "name": "west tray lip",
+        "from": [
+          2,
+          1,
+          4
+        ],
+        "to": [
+          3,
+          2,
+          12
+        ],
+        "tile": 0
+      },
+      {
+        "name": "east tray lip",
+        "from": [
+          13,
+          1,
+          4
+        ],
+        "to": [
+          14,
+          2,
+          12
+        ],
+        "tile": 0
+      },
+      {
+        "name": "settled wax pool",
+        "from": [
+          4,
+          1,
+          5
+        ],
+        "to": [
+          12,
+          2,
+          11
+        ],
+        "tile": 11
+      },
+      {
+        "name": "tall wax body",
+        "from": [
+          4,
+          2,
+          7
+        ],
+        "to": [
+          7,
+          10,
+          10
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 11
+        }
+      },
+      {
+        "name": "tall uneven shoulder",
+        "from": [
+          4,
+          10,
+          7
+        ],
+        "to": [
+          6,
+          11,
+          9
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 11
+        }
+      },
+      {
+        "name": "tall flame",
+        "from": [
+          5,
+          11,
+          8
+        ],
+        "to": [
+          6,
+          14,
+          9
+        ],
+        "tile": 12,
+        "glow": true
+      },
+      {
+        "name": "medium wax body",
+        "from": [
+          9,
+          2,
+          6
+        ],
+        "to": [
+          12,
+          7,
+          9
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 11
+        }
+      },
+      {
+        "name": "medium melted shoulder",
+        "from": [
+          9,
+          7,
+          6
+        ],
+        "to": [
+          11,
+          8,
+          8
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 11
+        }
+      },
+      {
+        "name": "medium flame",
+        "from": [
+          10,
+          8,
+          7
+        ],
+        "to": [
+          11,
+          10,
+          8
+        ],
+        "tile": 12,
+        "glow": true
+      },
+      {
+        "name": "short front wax",
+        "from": [
+          7,
+          2,
+          4
+        ],
+        "to": [
+          9,
+          4,
+          6
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 11
+        }
+      },
+      {
+        "name": "short flame",
+        "from": [
+          7,
+          4,
+          4
+        ],
+        "to": [
+          8,
+          6,
+          5
+        ],
+        "tile": 12,
+        "glow": true
+      },
+      {
+        "name": "spent rear candle",
+        "from": [
+          9,
+          2,
+          10
+        ],
+        "to": [
+          11,
+          3,
+          12
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 11
+        }
+      },
+      {
+        "name": "spent charred wick",
+        "from": [
+          9,
+          3,
+          10
+        ],
+        "to": [
+          10,
+          4,
+          11
+        ],
+        "tile": 7
+      }
+    ],
+    "description_zh": "有围沿的铁托盘承载高、中、短三支点燃蜡烛和一截熄灭残烛；蜡身、蜡池与融流纹理均不发光。",
+    "lane": "lighting"
+  },
+  {
+    "id": "prison_alchemical_lamp",
+    "name_zh": "双胆炼金灯",
+    "name_en": "Twin Vessel Alchemical Lamp",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 12,
+    "ingredient": "minecraft:brewing_stand",
+    "boxes": [
+      {
+        "name": "plinth / lower iron sole",
+        "from": [
+          0,
+          0,
+          1
+        ],
+        "to": [
+          16,
+          1,
+          13
+        ],
+        "tile": 0,
+        "faces": {
+          "up": 1,
+          "down": 2
+        },
+        "glow": false
+      },
+      {
+        "name": "plinth / recessed slate deck",
+        "from": [
+          1,
+          1,
+          2
+        ],
+        "to": [
+          15,
+          2,
+          12
+        ],
+        "tile": 0,
+        "faces": {
+          "up": 1,
+          "down": 2
+        },
+        "glow": false
+      },
+      {
+        "name": "main vessel / brass heating shoe",
+        "from": [
+          3,
+          2,
+          5
+        ],
+        "to": [
+          8,
+          3,
+          10
+        ],
+        "tile": 3,
+        "glow": false
+      },
+      {
+        "name": "collector / brass receiver shoe",
+        "from": [
+          11,
+          2,
+          3
+        ],
+        "to": [
+          14,
+          3,
+          6
+        ],
+        "tile": 3,
+        "glow": false
+      },
+      {
+        "name": "pressure control / solid housing",
+        "from": [
+          2,
+          2,
+          2
+        ],
+        "to": [
+          7,
+          4,
+          4
+        ],
+        "tile": 0,
+        "faces": {
+          "north": 6
+        },
+        "glow": false
+      },
+      {
+        "name": "cyan retort / lower shoulder",
+        "from": [
+          3,
+          3,
+          5
+        ],
+        "to": [
+          8,
+          4,
+          10
+        ],
+        "tile": 10,
+        "glow": true
+      },
+      {
+        "name": "cyan retort / deep central bulb",
+        "from": [
+          3,
+          4,
+          4
+        ],
+        "to": [
+          8,
+          10,
+          11
+        ],
+        "tile": 9,
+        "faces": {
+          "north": 8,
+          "south": 8,
+          "up": 10,
+          "down": 10
+        },
+        "glow": true
+      },
+      {
+        "name": "cyan retort / west rounded facet",
+        "from": [
+          2,
+          5,
+          5
+        ],
+        "to": [
+          3,
+          9,
+          10
+        ],
+        "tile": 9,
+        "faces": {
+          "up": 10,
+          "down": 10
+        },
+        "glow": true
+      },
+      {
+        "name": "cyan retort / east rounded facet",
+        "from": [
+          8,
+          5,
+          5
+        ],
+        "to": [
+          9,
+          9,
+          10
+        ],
+        "tile": 9,
+        "faces": {
+          "up": 10,
+          "down": 10
+        },
+        "glow": true
+      },
+      {
+        "name": "cyan retort / upper shoulder",
+        "from": [
+          3,
+          10,
+          5
+        ],
+        "to": [
+          8,
+          11,
+          10
+        ],
+        "tile": 10,
+        "glow": true
+      },
+      {
+        "name": "cyan retort / pronounced narrow neck",
+        "from": [
+          4,
+          11,
+          6
+        ],
+        "to": [
+          7,
+          13,
+          9
+        ],
+        "tile": 10,
+        "glow": true
+      },
+      {
+        "name": "cyan retort / compression cap",
+        "from": [
+          4,
+          13,
+          6
+        ],
+        "to": [
+          7,
+          14,
+          9
+        ],
+        "tile": 3,
+        "glow": false
+      },
+      {
+        "name": "pipe bridge / hot-side upright",
+        "from": [
+          5,
+          14,
+          6
+        ],
+        "to": [
+          7,
+          15,
+          8
+        ],
+        "tile": 5,
+        "faces": {
+          "up": 4,
+          "down": 4
+        },
+        "glow": false
+      },
+      {
+        "name": "pipe bridge / continuous elevated span",
+        "from": [
+          7,
+          14,
+          6
+        ],
+        "to": [
+          14,
+          15,
+          8
+        ],
+        "tile": 4,
+        "faces": {
+          "east": 5,
+          "west": 5
+        },
+        "glow": false
+      },
+      {
+        "name": "pipe bridge / forward elbow",
+        "from": [
+          12,
+          14,
+          4
+        ],
+        "to": [
+          14,
+          15,
+          6
+        ],
+        "tile": 4,
+        "glow": false
+      },
+      {
+        "name": "pipe bridge / condenser downcomer",
+        "from": [
+          12,
+          11,
+          4
+        ],
+        "to": [
+          14,
+          14,
+          6
+        ],
+        "tile": 5,
+        "faces": {
+          "up": 4,
+          "down": 4
+        },
+        "glow": false
+      },
+      {
+        "name": "amber collector / compression cap",
+        "from": [
+          12,
+          10,
+          4
+        ],
+        "to": [
+          14,
+          11,
+          6
+        ],
+        "tile": 3,
+        "glow": false
+      },
+      {
+        "name": "amber collector / narrow receiving neck",
+        "from": [
+          12,
+          8,
+          4
+        ],
+        "to": [
+          14,
+          10,
+          6
+        ],
+        "tile": 13,
+        "glow": true
+      },
+      {
+        "name": "amber collector / upper shoulder",
+        "from": [
+          11,
+          7,
+          3
+        ],
+        "to": [
+          14,
+          8,
+          6
+        ],
+        "tile": 13,
+        "glow": true
+      },
+      {
+        "name": "amber collector / deep central bulb",
+        "from": [
+          11,
+          4,
+          2
+        ],
+        "to": [
+          14,
+          7,
+          7
+        ],
+        "tile": 12,
+        "faces": {
+          "north": 11,
+          "south": 11,
+          "up": 13,
+          "down": 13
+        },
+        "glow": true
+      },
+      {
+        "name": "amber collector / west rounded facet",
+        "from": [
+          10,
+          4,
+          3
+        ],
+        "to": [
+          11,
+          7,
+          6
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13
+        },
+        "glow": true
+      },
+      {
+        "name": "amber collector / east rounded facet",
+        "from": [
+          14,
+          4,
+          3
+        ],
+        "to": [
+          15,
+          7,
+          6
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13
+        },
+        "glow": true
+      },
+      {
+        "name": "amber collector / lower shoulder",
+        "from": [
+          11,
+          3,
+          3
+        ],
+        "to": [
+          14,
+          4,
+          6
+        ],
+        "tile": 13,
+        "glow": true
+      }
+    ],
+    "description_zh": "单格双胆蒸馏仪：青色主胆、偏置琥珀收集胆、连续金属管桥与真实负空间。装饰光源，无酿造或储物功能。",
+    "lane": "lighting",
+    "material_set": "remake-lighting"
+  },
+  {
+    "id": "prison_wall_crystal",
+    "name_zh": "锁座寒晶簇",
+    "name_en": "Socketed Frost Crystal",
+    "kind": "decor",
+    "mount": "wall",
+    "light": 13,
+    "ingredient": "minecraft:amethyst_shard",
+    "boxes": [
+      {
+        "name": "carved wall backplate",
+        "from": [
+          4,
+          2,
+          14
+        ],
+        "to": [
+          12,
+          13,
+          16
+        ],
+        "tile": 3,
+        "faces": {
+          "north": 2
+        }
+      },
+      {
+        "name": "projecting stone corbel",
+        "from": [
+          3,
+          2,
+          7
+        ],
+        "to": [
+          13,
+          4,
+          14
+        ],
+        "tile": 2,
+        "faces": {
+          "up": 3
+        }
+      },
+      {
+        "name": "central brass socket",
+        "from": [
+          6,
+          4,
+          8
+        ],
+        "to": [
+          10,
+          5,
+          12
+        ],
+        "tile": 4
+      },
+      {
+        "name": "central crystal body",
+        "from": [
+          6,
+          5,
+          8
+        ],
+        "to": [
+          10,
+          12,
+          12
+        ],
+        "tile": 15,
+        "glow": true
+      },
+      {
+        "name": "central crystal termination",
+        "from": [
+          7,
+          12,
+          9
+        ],
+        "to": [
+          9,
+          15,
+          11
+        ],
+        "tile": 13,
+        "glow": true
+      },
+      {
+        "name": "west brass socket",
+        "from": [
+          3,
+          4,
+          6
+        ],
+        "to": [
+          6,
+          5,
+          9
+        ],
+        "tile": 4
+      },
+      {
+        "name": "west crystal body",
+        "from": [
+          3,
+          5,
+          6
+        ],
+        "to": [
+          6,
+          9,
+          9
+        ],
+        "tile": 15,
+        "glow": true
+      },
+      {
+        "name": "west crystal termination",
+        "from": [
+          4,
+          9,
+          7
+        ],
+        "to": [
+          5,
+          11,
+          8
+        ],
+        "tile": 13,
+        "glow": true
+      },
+      {
+        "name": "east brass socket",
+        "from": [
+          10,
+          4,
+          10
+        ],
+        "to": [
+          13,
+          5,
+          13
+        ],
+        "tile": 4
+      },
+      {
+        "name": "east crystal body",
+        "from": [
+          10,
+          5,
+          10
+        ],
+        "to": [
+          13,
+          8,
+          13
+        ],
+        "tile": 15,
+        "glow": true
+      },
+      {
+        "name": "east crystal termination",
+        "from": [
+          11,
+          8,
+          11
+        ],
+        "to": [
+          12,
+          10,
+          12
+        ],
+        "tile": 13,
+        "glow": true
+      }
+    ],
+    "description_zh": "凿槽石背板与承台托住三枚高低不同的寒晶，每枚有黄铜镶脚和实体晶尖；无透明贴片。",
+    "lane": "lighting"
+  },
+  {
+    "id": "prison_rune_beacon",
+    "name_zh": "禁文立碑灯",
+    "name_en": "Bound Rune Tablet",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 10,
+    "ingredient": "minecraft:glow_ink_sac",
+    "boxes": [
+      {
+        "name": "runestone plinth / forged sole",
+        "from": [
+          1,
+          0,
+          2
+        ],
+        "to": [
+          15,
+          1,
+          14
+        ],
+        "tile": 0,
+        "faces": {
+          "up": 1,
+          "down": 2
+        },
+        "glow": false
+      },
+      {
+        "name": "runestone plinth / carved load-bearing block",
+        "from": [
+          2,
+          1,
+          3
+        ],
+        "to": [
+          14,
+          3,
+          13
+        ],
+        "tile": 7,
+        "faces": {
+          "up": 1
+        },
+        "glow": false
+      },
+      {
+        "name": "runestone / narrow stone socket",
+        "from": [
+          4,
+          3,
+          5
+        ],
+        "to": [
+          12,
+          4,
+          11
+        ],
+        "tile": 7,
+        "glow": false
+      },
+      {
+        "name": "runestone / inscribed deep tablet",
+        "from": [
+          5,
+          4,
+          6
+        ],
+        "to": [
+          11,
+          12,
+          10
+        ],
+        "tile": 15,
+        "faces": {
+          "north": 14
+        },
+        "glow": true
+      },
+      {
+        "name": "runestone / tapering crown shoulder",
+        "from": [
+          6,
+          12,
+          6
+        ],
+        "to": [
+          10,
+          14,
+          10
+        ],
+        "tile": 7,
+        "glow": false
+      },
+      {
+        "name": "runestone / narrow crown peak",
+        "from": [
+          7,
+          14,
+          7
+        ],
+        "to": [
+          9,
+          15,
+          9
+        ],
+        "tile": 7,
+        "glow": false
+      },
+      {
+        "name": "runestone / west buttress foot",
+        "from": [
+          4,
+          4,
+          6
+        ],
+        "to": [
+          5,
+          7,
+          10
+        ],
+        "tile": 7,
+        "glow": false
+      },
+      {
+        "name": "runestone / east buttress foot",
+        "from": [
+          11,
+          4,
+          6
+        ],
+        "to": [
+          12,
+          7,
+          10
+        ],
+        "tile": 7,
+        "glow": false
+      },
+      {
+        "name": "seal support / west load-bearing post",
+        "from": [
+          2,
+          3,
+          7
+        ],
+        "to": [
+          3,
+          8,
+          9
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "seal support / east load-bearing post",
+        "from": [
+          13,
+          3,
+          7
+        ],
+        "to": [
+          14,
+          8,
+          9
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "iron sealing hoop / front span",
+        "from": [
+          2,
+          8,
+          4
+        ],
+        "to": [
+          14,
+          9,
+          5
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "iron sealing hoop / rear span",
+        "from": [
+          2,
+          8,
+          11
+        ],
+        "to": [
+          14,
+          9,
+          12
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "iron sealing hoop / west return",
+        "from": [
+          2,
+          8,
+          5
+        ],
+        "to": [
+          3,
+          9,
+          11
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "iron sealing hoop / east return",
+        "from": [
+          13,
+          8,
+          5
+        ],
+        "to": [
+          14,
+          9,
+          11
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "binding / front iron key",
+        "from": [
+          7,
+          8,
+          5
+        ],
+        "to": [
+          9,
+          9,
+          6
+        ],
+        "tile": 3,
+        "glow": false
+      },
+      {
+        "name": "binding / rear iron key",
+        "from": [
+          7,
+          8,
+          10
+        ],
+        "to": [
+          9,
+          9,
+          11
+        ],
+        "tile": 3,
+        "glow": false
+      },
+      {
+        "name": "upper restraint / west rising horn",
+        "from": [
+          2,
+          9,
+          7
+        ],
+        "to": [
+          3,
+          12,
+          9
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "upper restraint / west inward hook",
+        "from": [
+          3,
+          11,
+          7
+        ],
+        "to": [
+          5,
+          12,
+          9
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "upper restraint / east rising horn",
+        "from": [
+          13,
+          9,
+          7
+        ],
+        "to": [
+          14,
+          12,
+          9
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "upper restraint / east inward hook",
+        "from": [
+          11,
+          11,
+          7
+        ],
+        "to": [
+          13,
+          12,
+          9
+        ],
+        "tile": 0,
+        "glow": false
+      }
+    ],
+    "description_zh": "单格束缚石碑：收尖石冠、环抱铁封箍、上扣铁角与真实空隙，冷青古符仅作装饰灯光；不是原版信标。",
+    "lane": "lighting",
+    "material_set": "remake-lighting"
+  },
+  {
+    "id": "prison_barred_window",
+    "name_zh": "铁栅囚窗",
+    "name_en": "Iron Barred Prison Window",
+    "kind": "decor",
+    "mount": "wall",
+    "light": 0,
+    "ingredient": "minecraft:iron_bars",
+    "boxes": [
+      {
+        "name": "stone sill block",
+        "from": [
+          0,
+          0,
+          13
+        ],
+        "to": [
+          16,
+          3,
+          16
+        ],
+        "tile": 2,
+        "faces": {
+          "north": 3
+        }
+      },
+      {
+        "name": "stone lintel block",
+        "from": [
+          0,
+          13,
+          13
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 2,
+        "faces": {
+          "north": 3
+        }
+      },
+      {
+        "name": "west stone jamb",
+        "from": [
+          0,
+          3,
+          13
+        ],
+        "to": [
+          3,
+          13,
+          16
+        ],
+        "tile": 2,
+        "faces": {
+          "north": 3
+        }
+      },
+      {
+        "name": "east stone jamb",
+        "from": [
+          13,
+          3,
+          13
+        ],
+        "to": [
+          16,
+          13,
+          16
+        ],
+        "tile": 2,
+        "faces": {
+          "north": 3
+        }
+      },
+      {
+        "name": "west forged window bar",
+        "from": [
+          4,
+          3,
+          14
+        ],
+        "to": [
+          5,
+          13,
+          16
+        ],
+        "tile": 0
+      },
+      {
+        "name": "central forged window bar",
+        "from": [
+          7,
+          3,
+          14
+        ],
+        "to": [
+          8,
+          13,
+          16
+        ],
+        "tile": 0
+      },
+      {
+        "name": "east forged window bar",
+        "from": [
+          10,
+          3,
+          14
+        ],
+        "to": [
+          11,
+          13,
+          16
+        ],
+        "tile": 0
+      },
+      {
+        "name": "front locking cross rail",
+        "from": [
+          3,
+          7,
+          13
+        ],
+        "to": [
+          13,
+          8,
+          14
+        ],
+        "tile": 1
+      },
+      {
+        "name": "front stone key",
+        "from": [
+          7,
+          13,
+          12
+        ],
+        "to": [
+          9,
+          16,
+          13
+        ],
+        "tile": 3
+      },
+      {
+        "name": "projecting stone sill nose",
+        "from": [
+          1,
+          1,
+          11
+        ],
+        "to": [
+          15,
+          3,
+          13
+        ],
+        "tile": 3,
+        "faces": {
+          "up": 2
+        }
+      }
+    ],
+    "description_zh": "厚石窗框包围实际镂空的铁栅窗洞，三根立栅与前置横扣接合；不是透明玻璃、传送门或发光方块。",
+    "lane": "lighting"
+  }
+]

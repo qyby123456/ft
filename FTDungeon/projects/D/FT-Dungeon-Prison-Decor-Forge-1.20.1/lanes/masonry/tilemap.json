@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "lane": "masonry",
+  "atlas": "atlas.png",
+  "size": [
+    128,
+    128
+  ],
+  "tile_size": 32,
+  "columns": 4,
+  "rows": 4,
+  "opaque": true,
+  "filter": "nearest",
+  "texels_per_model_unit": 2,
+  "uv_policy": "Block-local projected UV: preserve the position and orientation of a 16-unit cube face; crop each sub-box footprint, never stretch a whole tile onto a narrow rib or 3-unit cornice crown.",
+  "java_face_projection": {
+    "north": [
+      "16-x",
+      "16-y"
+    ],
+    "south": [
+      "x",
+      "16-y"
+    ],
+    "east": [
+      "16-z",
+      "16-y"
+    ],
+    "west": [
+      "z",
+      "16-y"
+    ],
+    "up": [
+      "x",
+      "z"
+    ],
+    "down": [
+      "x",
+      "16-z"
+    ]
+  },
+  "java_atlas_uv": "tile origin in pixels / 8 + local projected model coordinate / 4; each 32px tile spans 4 Java UV units in the 128px atlas.",
+  "native_base_tile": 0,
+  "glowing_tiles": [],
+  "palette": {
+    "cavity": "#141d27",
+    "stone_dark": "#253744",
+    "stone": "#354c59",
+    "stone_mid": "#405965",
+    "stone_light": "#4e6570",
+    "stone_edge": "#607781",
+    "stone_high": "#74858b",
+    "iron": "#252b35",
+    "iron_edge": "#59626a",
+    "rust": "#784936",
+    "rust_edge": "#b4794e",
+    "brass": "#8d6b3c",
+    "brass_edge": "#c3a065",
+    "mineral": "#bcae8b",
+    "damp": "#2c5356",
+    "damp_edge": "#3e6362",
+    "verdigris": "#247f8b"
+  },
+  "tiles": [
+    {
+      "index": 0,
+      "tile": 0,
+      "id": "blue_bricks",
+      "name_zh": "冷蓝错缝砖",
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "repeat_axes": "xy",
+      "notes": "Shared native stair/slab base; four 8px courses."
+    },
+    {
+      "index": 1,
+      "tile": 1,
+      "id": "damp_bricks",
+      "name_zh": "渗灰潮砌砖",
+      "x": 32,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        32,
+        0,
+        64,
+        32
+      ],
+      "repeat_axes": "xy",
+      "notes": "Attached mineral fans and blue-green seam damp, not moss noise."
+    },
+    {
+      "index": 2,
+      "tile": 2,
+      "id": "fractured_bricks",
+      "name_zh": "锈补裂砌砖",
+      "x": 64,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        64,
+        0,
+        96,
+        32
+      ],
+      "repeat_axes": "xy",
+      "notes": "Connected stepped fractures, edge chips and two iron stitch marks."
+    },
+    {
+      "index": 3,
+      "tile": 3,
+      "id": "inlaid_floor",
+      "name_zh": "黄铜菱嵌地砖",
+      "x": 96,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        96,
+        0,
+        128,
+        32
+      ],
+      "repeat_axes": "xy",
+      "notes": "Matte brass lozenge in a four-slab bed; no emission."
+    },
+    {
+      "index": 4,
+      "tile": 4,
+      "id": "dressed_returns",
+      "name_zh": "嵌砖侧面",
+      "x": 0,
+      "y": 32,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        0,
+        32,
+        32,
+        64
+      ],
+      "repeat_axes": "xy",
+      "notes": "Quiet dressed stone, used on all four inlay returns."
+    },
+    {
+      "index": 5,
+      "tile": 5,
+      "id": "pillar_recess",
+      "name_zh": "柱槽阴面",
+      "x": 32,
+      "y": 32,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        32,
+        32,
+        64,
+        64
+      ],
+      "repeat_axes": "y",
+      "notes": "Continuous recessed shaft material without a fake cap band."
+    },
+    {
+      "index": 6,
+      "tile": 6,
+      "id": "pillar_rib",
+      "name_zh": "双棱柱面",
+      "x": 64,
+      "y": 32,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        64,
+        32,
+        96,
+        64
+      ],
+      "repeat_axes": "y",
+      "notes": "Paired raised-rib faces; long intentional chisel clusters."
+    },
+    {
+      "index": 7,
+      "tile": 7,
+      "id": "pillar_end",
+      "name_zh": "柱端刀痕",
+      "x": 96,
+      "y": 32,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        96,
+        32,
+        128,
+        64
+      ],
+      "repeat_axes": "",
+      "notes": "XY/XZ-projected stone end grain, top equals bottom assignment."
+    },
+    {
+      "index": 8,
+      "tile": 8,
+      "id": "cornice_crown",
+      "name_zh": "檐冠立面",
+      "x": 0,
+      "y": 64,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        0,
+        64,
+        32,
+        96
+      ],
+      "repeat_axes": "x",
+      "notes": "Bands in rows 0..6 match the crown's y=13..16 footprint."
+    },
+    {
+      "index": 9,
+      "tile": 9,
+      "id": "cornice_frieze",
+      "name_zh": "檐下雕带",
+      "x": 32,
+      "y": 64,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        32,
+        64,
+        64,
+        96
+      ],
+      "repeat_axes": "x",
+      "notes": "Shallow-looking carved chevrons in rows 6..14; texture only."
+    },
+    {
+      "index": 10,
+      "tile": 10,
+      "id": "cornice_soffit",
+      "name_zh": "檐面与仰底",
+      "x": 64,
+      "y": 64,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        64,
+        64,
+        96,
+        96
+      ],
+      "repeat_axes": "xy",
+      "notes": "Dressed horizontal stone on top, underside and returns."
+    },
+    {
+      "index": 11,
+      "tile": 11,
+      "id": "cornice_dentil",
+      "name_zh": "齿饰端面",
+      "x": 96,
+      "y": 64,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        96,
+        64,
+        128,
+        96
+      ],
+      "repeat_axes": "x",
+      "notes": "Four stone teeth with real air between; no pixel extrusion."
+    },
+    {
+      "index": 12,
+      "tile": 12,
+      "id": "inlay_underside",
+      "name_zh": "嵌砖底面",
+      "x": 0,
+      "y": 96,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        0,
+        96,
+        32,
+        128
+      ],
+      "repeat_axes": "xy",
+      "notes": "Plain non-emitting underside with broad tooling."
+    },
+    {
+      "index": 13,
+      "tile": 13,
+      "id": "pillar_returns",
+      "name_zh": "柱棱窄侧",
+      "x": 32,
+      "y": 96,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        32,
+        96,
+        64,
+        128
+      ],
+      "repeat_axes": "y",
+      "notes": "Darker narrow rib returns with uninterrupted vertical rhythm."
+    },
+    {
+      "index": 14,
+      "tile": 14,
+      "id": "cornice_wall_back",
+      "name_zh": "檐背贴墙石",
+      "x": 64,
+      "y": 96,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        64,
+        96,
+        96,
+        128
+      ],
+      "repeat_axes": "x",
+      "notes": "Finished rear heel; a small lime patch is deliberately placed."
+    },
+    {
+      "index": 15,
+      "tile": 15,
+      "id": "cornice_drip",
+      "name_zh": "檐口滴水线",
+      "x": 96,
+      "y": 96,
+      "width": 32,
+      "height": 32,
+      "rect": [
+        96,
+        96,
+        128,
+        128
+      ],
+      "repeat_axes": "x",
+      "notes": "Stone drip fillet with old iron runoff, not a metal plate."
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+[
+  {
+    "id": "prison_brick_slab",
+    "name_zh": "雕边囚石台阶",
+    "name_en": "Carved Prison Flagstone Slab",
+    "kind": "slab",
+    "mount": "any",
+    "light": 0,
+    "ingredient": "minecraft:stone_bricks",
+    "base": "prison_blue_bricks",
+    "native_tiles": {
+      "top": 0,
+      "bottom": 1,
+      "side": 2
+    },
+    "boxes": [
+      {
+        "name": "native bottom slab with dedicated flagstone materials",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          8,
+          16
+        ],
+        "tile": 2,
+        "faces": {
+          "up": 0,
+          "down": 1
+        }
+      }
+    ],
+    "description_zh": "原生上、下、双层台阶；全新大块石板面、独立凿刻底面与双半高雕边侧材。预览仅为下台阶，原生状态由父工程接入。"
+  },
+  {
+    "id": "prison_fluted_pillar",
+    "name_zh": "四槽基冠囚石柱",
+    "name_en": "Capped Fluted Prison Pillar",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 0,
+    "ingredient": "minecraft:polished_andesite",
+    "boxes": [
+      {
+        "name": "broad dressed plinth",
+        "from": [
+          1,
+          0,
+          1
+        ],
+        "to": [
+          15,
+          2,
+          15
+        ],
+        "tile": 3,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "inset base shoulder",
+        "from": [
+          3,
+          2,
+          3
+        ],
+        "to": [
+          13,
+          3,
+          13
+        ],
+        "tile": 4,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "northwest carved shaft corner",
+        "from": [
+          4,
+          3,
+          4
+        ],
+        "to": [
+          7,
+          12,
+          7
+        ],
+        "tile": 5,
+        "faces": {
+          "east": 6,
+          "south": 6,
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "northeast carved shaft corner",
+        "from": [
+          9,
+          3,
+          4
+        ],
+        "to": [
+          12,
+          12,
+          7
+        ],
+        "tile": 5,
+        "faces": {
+          "west": 6,
+          "south": 6,
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "southwest carved shaft corner",
+        "from": [
+          4,
+          3,
+          9
+        ],
+        "to": [
+          7,
+          12,
+          12
+        ],
+        "tile": 5,
+        "faces": {
+          "east": 6,
+          "north": 6,
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "southeast carved shaft corner",
+        "from": [
+          9,
+          3,
+          9
+        ],
+        "to": [
+          12,
+          12,
+          12
+        ],
+        "tile": 5,
+        "faces": {
+          "west": 6,
+          "north": 6,
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "north recessed flute bed",
+        "from": [
+          7,
+          3,
+          6
+        ],
+        "to": [
+          9,
+          12,
+          7
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "south recessed flute bed",
+        "from": [
+          7,
+          3,
+          9
+        ],
+        "to": [
+          9,
+          12,
+          10
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "central web with east and west flute beds",
+        "from": [
+          6,
+          3,
+          7
+        ],
+        "to": [
+          10,
+          12,
+          9
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "capital neck collar",
+        "from": [
+          3,
+          12,
+          3
+        ],
+        "to": [
+          13,
+          13,
+          13
+        ],
+        "tile": 4,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "capital cushion step",
+        "from": [
+          2,
+          13,
+          2
+        ],
+        "to": [
+          14,
+          14,
+          14
+        ],
+        "tile": 4,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "broad stacking abacus",
+        "from": [
+          1,
+          14,
+          1
+        ],
+        "to": [
+          15,
+          16,
+          15
+        ],
+        "tile": 8,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      }
+    ],
+    "description_zh": "全新基座、肩台、颈圈、阶叠柱冠；方形柱身四面各有宽2、深2的真实竖槽。上下14×14接触面一致，可堆叠但不提供自动连接状态。"
+  },
+  {
+    "id": "prison_cornice",
+    "name_zh": "双牛腿阶叠石檐",
+    "name_en": "Paired-Corbel Prison Cornice",
+    "kind": "decor",
+    "mount": "wall",
+    "light": 0,
+    "ingredient": "minecraft:smooth_stone",
+    "boxes": [
+      {
+        "name": "full-width projecting coping",
+        "from": [
+          0,
+          14,
+          2
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 9,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "south": 14
+        }
+      },
+      {
+        "name": "receding carved moulding",
+        "from": [
+          0,
+          12,
+          4
+        ],
+        "to": [
+          16,
+          14,
+          16
+        ],
+        "tile": 10,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "south": 14
+        }
+      },
+      {
+        "name": "load-bearing recessed frieze",
+        "from": [
+          0,
+          10,
+          7
+        ],
+        "to": [
+          16,
+          12,
+          16
+        ],
+        "tile": 11,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "south": 14
+        }
+      },
+      {
+        "name": "left narrow wall heel",
+        "from": [
+          2,
+          0,
+          14
+        ],
+        "to": [
+          5,
+          10,
+          16
+        ],
+        "tile": 14,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "left corbel foot",
+        "from": [
+          2,
+          0,
+          12
+        ],
+        "to": [
+          5,
+          4,
+          14
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "left corbel middle shoulder",
+        "from": [
+          2,
+          4,
+          10
+        ],
+        "to": [
+          5,
+          7,
+          14
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "left corbel projecting head",
+        "from": [
+          2,
+          7,
+          7
+        ],
+        "to": [
+          5,
+          10,
+          14
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "right narrow wall heel",
+        "from": [
+          11,
+          0,
+          14
+        ],
+        "to": [
+          14,
+          10,
+          16
+        ],
+        "tile": 14,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "right corbel foot",
+        "from": [
+          11,
+          0,
+          12
+        ],
+        "to": [
+          14,
+          4,
+          14
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "right corbel middle shoulder",
+        "from": [
+          11,
+          4,
+          10
+        ],
+        "to": [
+          14,
+          7,
+          14
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      },
+      {
+        "name": "right corbel projecting head",
+        "from": [
+          11,
+          7,
+          7
+        ],
+        "to": [
+          14,
+          10,
+          14
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13,
+          "west": 15,
+          "east": 15
+        }
+      }
+    ],
+    "description_zh": "全新三层前伸阶檐、左右各三段承托牛腿及两条独立贴墙后跟；中央宽6、高10的负空间贯穿至背面。无整片背板，无跨格或支撑检测机制。"
+  }
+]

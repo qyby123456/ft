@@ -1,0 +1,732 @@
+[
+  {
+    "id": "prison_alchemical_lamp",
+    "name_zh": "双胆炼金灯",
+    "name_en": "Twin Vessel Alchemical Lamp",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 12,
+    "ingredient": "minecraft:brewing_stand",
+    "boxes": [
+      {
+        "name": "plinth / lower iron sole",
+        "from": [
+          0,
+          0,
+          1
+        ],
+        "to": [
+          16,
+          1,
+          13
+        ],
+        "tile": 0,
+        "faces": {
+          "up": 1,
+          "down": 2
+        },
+        "glow": false
+      },
+      {
+        "name": "plinth / recessed slate deck",
+        "from": [
+          1,
+          1,
+          2
+        ],
+        "to": [
+          15,
+          2,
+          12
+        ],
+        "tile": 0,
+        "faces": {
+          "up": 1,
+          "down": 2
+        },
+        "glow": false
+      },
+      {
+        "name": "main vessel / brass heating shoe",
+        "from": [
+          3,
+          2,
+          5
+        ],
+        "to": [
+          8,
+          3,
+          10
+        ],
+        "tile": 3,
+        "glow": false
+      },
+      {
+        "name": "collector / brass receiver shoe",
+        "from": [
+          11,
+          2,
+          3
+        ],
+        "to": [
+          14,
+          3,
+          6
+        ],
+        "tile": 3,
+        "glow": false
+      },
+      {
+        "name": "pressure control / solid housing",
+        "from": [
+          2,
+          2,
+          2
+        ],
+        "to": [
+          7,
+          4,
+          4
+        ],
+        "tile": 0,
+        "faces": {
+          "north": 6
+        },
+        "glow": false
+      },
+      {
+        "name": "cyan retort / lower shoulder",
+        "from": [
+          3,
+          3,
+          5
+        ],
+        "to": [
+          8,
+          4,
+          10
+        ],
+        "tile": 10,
+        "glow": true
+      },
+      {
+        "name": "cyan retort / deep central bulb",
+        "from": [
+          3,
+          4,
+          4
+        ],
+        "to": [
+          8,
+          10,
+          11
+        ],
+        "tile": 9,
+        "faces": {
+          "north": 8,
+          "south": 8,
+          "up": 10,
+          "down": 10
+        },
+        "glow": true
+      },
+      {
+        "name": "cyan retort / west rounded facet",
+        "from": [
+          2,
+          5,
+          5
+        ],
+        "to": [
+          3,
+          9,
+          10
+        ],
+        "tile": 9,
+        "faces": {
+          "up": 10,
+          "down": 10
+        },
+        "glow": true
+      },
+      {
+        "name": "cyan retort / east rounded facet",
+        "from": [
+          8,
+          5,
+          5
+        ],
+        "to": [
+          9,
+          9,
+          10
+        ],
+        "tile": 9,
+        "faces": {
+          "up": 10,
+          "down": 10
+        },
+        "glow": true
+      },
+      {
+        "name": "cyan retort / upper shoulder",
+        "from": [
+          3,
+          10,
+          5
+        ],
+        "to": [
+          8,
+          11,
+          10
+        ],
+        "tile": 10,
+        "glow": true
+      },
+      {
+        "name": "cyan retort / pronounced narrow neck",
+        "from": [
+          4,
+          11,
+          6
+        ],
+        "to": [
+          7,
+          13,
+          9
+        ],
+        "tile": 10,
+        "glow": true
+      },
+      {
+        "name": "cyan retort / compression cap",
+        "from": [
+          4,
+          13,
+          6
+        ],
+        "to": [
+          7,
+          14,
+          9
+        ],
+        "tile": 3,
+        "glow": false
+      },
+      {
+        "name": "pipe bridge / hot-side upright",
+        "from": [
+          5,
+          14,
+          6
+        ],
+        "to": [
+          7,
+          15,
+          8
+        ],
+        "tile": 5,
+        "faces": {
+          "up": 4,
+          "down": 4
+        },
+        "glow": false
+      },
+      {
+        "name": "pipe bridge / continuous elevated span",
+        "from": [
+          7,
+          14,
+          6
+        ],
+        "to": [
+          14,
+          15,
+          8
+        ],
+        "tile": 4,
+        "faces": {
+          "east": 5,
+          "west": 5
+        },
+        "glow": false
+      },
+      {
+        "name": "pipe bridge / forward elbow",
+        "from": [
+          12,
+          14,
+          4
+        ],
+        "to": [
+          14,
+          15,
+          6
+        ],
+        "tile": 4,
+        "glow": false
+      },
+      {
+        "name": "pipe bridge / condenser downcomer",
+        "from": [
+          12,
+          11,
+          4
+        ],
+        "to": [
+          14,
+          14,
+          6
+        ],
+        "tile": 5,
+        "faces": {
+          "up": 4,
+          "down": 4
+        },
+        "glow": false
+      },
+      {
+        "name": "amber collector / compression cap",
+        "from": [
+          12,
+          10,
+          4
+        ],
+        "to": [
+          14,
+          11,
+          6
+        ],
+        "tile": 3,
+        "glow": false
+      },
+      {
+        "name": "amber collector / narrow receiving neck",
+        "from": [
+          12,
+          8,
+          4
+        ],
+        "to": [
+          14,
+          10,
+          6
+        ],
+        "tile": 13,
+        "glow": true
+      },
+      {
+        "name": "amber collector / upper shoulder",
+        "from": [
+          11,
+          7,
+          3
+        ],
+        "to": [
+          14,
+          8,
+          6
+        ],
+        "tile": 13,
+        "glow": true
+      },
+      {
+        "name": "amber collector / deep central bulb",
+        "from": [
+          11,
+          4,
+          2
+        ],
+        "to": [
+          14,
+          7,
+          7
+        ],
+        "tile": 12,
+        "faces": {
+          "north": 11,
+          "south": 11,
+          "up": 13,
+          "down": 13
+        },
+        "glow": true
+      },
+      {
+        "name": "amber collector / west rounded facet",
+        "from": [
+          10,
+          4,
+          3
+        ],
+        "to": [
+          11,
+          7,
+          6
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13
+        },
+        "glow": true
+      },
+      {
+        "name": "amber collector / east rounded facet",
+        "from": [
+          14,
+          4,
+          3
+        ],
+        "to": [
+          15,
+          7,
+          6
+        ],
+        "tile": 12,
+        "faces": {
+          "up": 13,
+          "down": 13
+        },
+        "glow": true
+      },
+      {
+        "name": "amber collector / lower shoulder",
+        "from": [
+          11,
+          3,
+          3
+        ],
+        "to": [
+          14,
+          4,
+          6
+        ],
+        "tile": 13,
+        "glow": true
+      }
+    ],
+    "description_zh": "单格双胆蒸馏仪：青色主胆、偏置琥珀收集胆、连续金属管桥与真实负空间。装饰光源，无酿造或储物功能。"
+  },
+  {
+    "id": "prison_rune_beacon",
+    "name_zh": "禁文立碑灯",
+    "name_en": "Bound Rune Tablet",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 10,
+    "ingredient": "minecraft:glow_ink_sac",
+    "boxes": [
+      {
+        "name": "runestone plinth / forged sole",
+        "from": [
+          1,
+          0,
+          2
+        ],
+        "to": [
+          15,
+          1,
+          14
+        ],
+        "tile": 0,
+        "faces": {
+          "up": 1,
+          "down": 2
+        },
+        "glow": false
+      },
+      {
+        "name": "runestone plinth / carved load-bearing block",
+        "from": [
+          2,
+          1,
+          3
+        ],
+        "to": [
+          14,
+          3,
+          13
+        ],
+        "tile": 7,
+        "faces": {
+          "up": 1
+        },
+        "glow": false
+      },
+      {
+        "name": "runestone / narrow stone socket",
+        "from": [
+          4,
+          3,
+          5
+        ],
+        "to": [
+          12,
+          4,
+          11
+        ],
+        "tile": 7,
+        "glow": false
+      },
+      {
+        "name": "runestone / inscribed deep tablet",
+        "from": [
+          5,
+          4,
+          6
+        ],
+        "to": [
+          11,
+          12,
+          10
+        ],
+        "tile": 15,
+        "faces": {
+          "north": 14
+        },
+        "glow": true
+      },
+      {
+        "name": "runestone / tapering crown shoulder",
+        "from": [
+          6,
+          12,
+          6
+        ],
+        "to": [
+          10,
+          14,
+          10
+        ],
+        "tile": 7,
+        "glow": false
+      },
+      {
+        "name": "runestone / narrow crown peak",
+        "from": [
+          7,
+          14,
+          7
+        ],
+        "to": [
+          9,
+          15,
+          9
+        ],
+        "tile": 7,
+        "glow": false
+      },
+      {
+        "name": "runestone / west buttress foot",
+        "from": [
+          4,
+          4,
+          6
+        ],
+        "to": [
+          5,
+          7,
+          10
+        ],
+        "tile": 7,
+        "glow": false
+      },
+      {
+        "name": "runestone / east buttress foot",
+        "from": [
+          11,
+          4,
+          6
+        ],
+        "to": [
+          12,
+          7,
+          10
+        ],
+        "tile": 7,
+        "glow": false
+      },
+      {
+        "name": "seal support / west load-bearing post",
+        "from": [
+          2,
+          3,
+          7
+        ],
+        "to": [
+          3,
+          8,
+          9
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "seal support / east load-bearing post",
+        "from": [
+          13,
+          3,
+          7
+        ],
+        "to": [
+          14,
+          8,
+          9
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "iron sealing hoop / front span",
+        "from": [
+          2,
+          8,
+          4
+        ],
+        "to": [
+          14,
+          9,
+          5
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "iron sealing hoop / rear span",
+        "from": [
+          2,
+          8,
+          11
+        ],
+        "to": [
+          14,
+          9,
+          12
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "iron sealing hoop / west return",
+        "from": [
+          2,
+          8,
+          5
+        ],
+        "to": [
+          3,
+          9,
+          11
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "iron sealing hoop / east return",
+        "from": [
+          13,
+          8,
+          5
+        ],
+        "to": [
+          14,
+          9,
+          11
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "binding / front iron key",
+        "from": [
+          7,
+          8,
+          5
+        ],
+        "to": [
+          9,
+          9,
+          6
+        ],
+        "tile": 3,
+        "glow": false
+      },
+      {
+        "name": "binding / rear iron key",
+        "from": [
+          7,
+          8,
+          10
+        ],
+        "to": [
+          9,
+          9,
+          11
+        ],
+        "tile": 3,
+        "glow": false
+      },
+      {
+        "name": "upper restraint / west rising horn",
+        "from": [
+          2,
+          9,
+          7
+        ],
+        "to": [
+          3,
+          12,
+          9
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "upper restraint / west inward hook",
+        "from": [
+          3,
+          11,
+          7
+        ],
+        "to": [
+          5,
+          12,
+          9
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "upper restraint / east rising horn",
+        "from": [
+          13,
+          9,
+          7
+        ],
+        "to": [
+          14,
+          12,
+          9
+        ],
+        "tile": 0,
+        "glow": false
+      },
+      {
+        "name": "upper restraint / east inward hook",
+        "from": [
+          11,
+          11,
+          7
+        ],
+        "to": [
+          13,
+          12,
+          9
+        ],
+        "tile": 0,
+        "glow": false
+      }
+    ],
+    "description_zh": "单格束缚石碑：收尖石冠、环抱铁封箍、上扣铁角与真实空隙，冷青古符仅作装饰灯光；不是原版信标。"
+  }
+]

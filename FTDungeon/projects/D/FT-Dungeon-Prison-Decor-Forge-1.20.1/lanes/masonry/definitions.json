@@ -1,0 +1,536 @@
+[
+  {
+    "id": "prison_blue_bricks",
+    "name_zh": "冷蓝囚砌砖",
+    "name_en": "Blue Prison Bricks",
+    "kind": "solid",
+    "mount": "any",
+    "light": 0,
+    "ingredient": "minecraft:stone_bricks",
+    "boxes": [
+      {
+        "name": "continuous running-bond stone",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 0
+      }
+    ],
+    "description_zh": "冷蓝错缝石砖；四面平铺和地面均可使用，无发光或附加行为。"
+  },
+  {
+    "id": "prison_damp_bricks",
+    "name_zh": "渗灰囚砌砖",
+    "name_en": "Limewashed Damp Prison Bricks",
+    "kind": "solid",
+    "mount": "any",
+    "light": 0,
+    "ingredient": "minecraft:moss_block",
+    "boxes": [
+      {
+        "name": "mineral-streaked stone",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 1
+      }
+    ],
+    "description_zh": "沿砖缝积聚的青灰潮痕与石灰挂流；仅为原创静态材质，不会蔓延。"
+  },
+  {
+    "id": "prison_fractured_bricks",
+    "name_zh": "锈补裂砌砖",
+    "name_en": "Iron-Stitched Fractured Prison Bricks",
+    "kind": "solid",
+    "mount": "any",
+    "light": 0,
+    "ingredient": "minecraft:cracked_stone_bricks",
+    "boxes": [
+      {
+        "name": "fractured and iron-stitched stone",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 2
+      }
+    ],
+    "description_zh": "阶折裂口、崩角和少量锈铁补钉均以像素簇表达；实体仍为完整石砖。"
+  },
+  {
+    "id": "prison_inlaid_tiles",
+    "name_zh": "菱嵌囚石地砖",
+    "name_en": "Brass-Inlaid Prison Tiles",
+    "kind": "solid",
+    "mount": "any",
+    "light": 0,
+    "ingredient": "minecraft:copper_ingot",
+    "boxes": [
+      {
+        "name": "four-slab inlaid paving block",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 4,
+        "faces": {
+          "up": 3,
+          "down": 12
+        }
+      }
+    ],
+    "description_zh": "黄铜菱形镶线与微量铜绿的四拼地砖，四侧为素切石；不发光，无符文机制。"
+  },
+  {
+    "id": "prison_brick_stairs",
+    "name_zh": "冷蓝囚砖楼梯",
+    "name_en": "Blue Prison Brick Stairs",
+    "kind": "stairs",
+    "mount": "any",
+    "light": 0,
+    "ingredient": "minecraft:stone_bricks",
+    "boxes": [
+      {
+        "name": "native stair lower half preview",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          8,
+          16
+        ],
+        "tile": 0
+      },
+      {
+        "name": "native stair upper half preview",
+        "from": [
+          0,
+          8,
+          8
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 0
+      }
+    ],
+    "description_zh": "原版楼梯形态族，直梯预览使用与冷蓝囚砌砖完全相同的底材；运行状态由主工程导出。",
+    "base": "prison_blue_bricks"
+  },
+  {
+    "id": "prison_brick_slab",
+    "name_zh": "冷蓝囚砖台阶",
+    "name_en": "Blue Prison Brick Slab",
+    "kind": "slab",
+    "mount": "any",
+    "light": 0,
+    "ingredient": "minecraft:stone_bricks",
+    "boxes": [
+      {
+        "name": "native bottom slab preview",
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "to": [
+          16,
+          8,
+          16
+        ],
+        "tile": 0
+      }
+    ],
+    "description_zh": "原版上、下、双台阶形态族，共用冷蓝囚砌砖底材；预览为下台阶。",
+    "base": "prison_blue_bricks"
+  },
+  {
+    "id": "prison_fluted_pillar",
+    "name_zh": "双槽囚石柱段",
+    "name_en": "Twin-Fluted Prison Pillar",
+    "kind": "decor",
+    "mount": "floor",
+    "light": 0,
+    "ingredient": "minecraft:polished_andesite",
+    "boxes": [
+      {
+        "name": "continuous recessed core",
+        "from": [
+          4,
+          0,
+          4
+        ],
+        "to": [
+          12,
+          16,
+          12
+        ],
+        "tile": 5,
+        "faces": {
+          "up": 7,
+          "down": 7
+        }
+      },
+      {
+        "name": "north structural flute rib 1",
+        "from": [
+          4,
+          0,
+          2
+        ],
+        "to": [
+          7,
+          16,
+          4
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7,
+          "west": 13,
+          "east": 13
+        }
+      },
+      {
+        "name": "north structural flute rib 2",
+        "from": [
+          9,
+          0,
+          2
+        ],
+        "to": [
+          12,
+          16,
+          4
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7,
+          "west": 13,
+          "east": 13
+        }
+      },
+      {
+        "name": "south structural flute rib 1",
+        "from": [
+          4,
+          0,
+          12
+        ],
+        "to": [
+          7,
+          16,
+          14
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7,
+          "west": 13,
+          "east": 13
+        }
+      },
+      {
+        "name": "south structural flute rib 2",
+        "from": [
+          9,
+          0,
+          12
+        ],
+        "to": [
+          12,
+          16,
+          14
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7,
+          "west": 13,
+          "east": 13
+        }
+      },
+      {
+        "name": "west structural flute rib 1",
+        "from": [
+          2,
+          0,
+          4
+        ],
+        "to": [
+          4,
+          16,
+          7
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7,
+          "north": 13,
+          "south": 13
+        }
+      },
+      {
+        "name": "west structural flute rib 2",
+        "from": [
+          2,
+          0,
+          9
+        ],
+        "to": [
+          4,
+          16,
+          12
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7,
+          "north": 13,
+          "south": 13
+        }
+      },
+      {
+        "name": "east structural flute rib 1",
+        "from": [
+          12,
+          0,
+          4
+        ],
+        "to": [
+          14,
+          16,
+          7
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7,
+          "north": 13,
+          "south": 13
+        }
+      },
+      {
+        "name": "east structural flute rib 2",
+        "from": [
+          12,
+          0,
+          9
+        ],
+        "to": [
+          14,
+          16,
+          12
+        ],
+        "tile": 6,
+        "faces": {
+          "up": 7,
+          "down": 7,
+          "north": 13,
+          "south": 13
+        }
+      }
+    ],
+    "description_zh": "九体块构成的双棱槽柱，四侧各有真实凹槽与退角；上下同截面，可竖向连续堆叠，无多余柱帽。"
+  },
+  {
+    "id": "prison_cornice",
+    "name_zh": "齿饰囚墙檐",
+    "name_en": "Dentilled Prison Cornice",
+    "kind": "decor",
+    "mount": "wall",
+    "light": 0,
+    "ingredient": "minecraft:smooth_stone",
+    "boxes": [
+      {
+        "name": "continuous projecting crown",
+        "from": [
+          0,
+          13,
+          6
+        ],
+        "to": [
+          16,
+          16,
+          16
+        ],
+        "tile": 8,
+        "faces": {
+          "up": 10,
+          "down": 10,
+          "south": 14
+        }
+      },
+      {
+        "name": "carved load-bearing frieze",
+        "from": [
+          0,
+          9,
+          9
+        ],
+        "to": [
+          16,
+          13,
+          16
+        ],
+        "tile": 9,
+        "faces": {
+          "up": 10,
+          "down": 10,
+          "south": 14
+        }
+      },
+      {
+        "name": "full-width wall mounting heel",
+        "from": [
+          0,
+          0,
+          14
+        ],
+        "to": [
+          16,
+          9,
+          16
+        ],
+        "tile": 14,
+        "faces": {
+          "up": 10,
+          "down": 10
+        }
+      },
+      {
+        "name": "lower drip fillet",
+        "from": [
+          0,
+          7,
+          12
+        ],
+        "to": [
+          16,
+          9,
+          14
+        ],
+        "tile": 15,
+        "faces": {
+          "up": 10,
+          "down": 10,
+          "west": 10,
+          "east": 10
+        }
+      },
+      {
+        "name": "separate stone dentil 1",
+        "from": [
+          1,
+          10,
+          7
+        ],
+        "to": [
+          3,
+          13,
+          9
+        ],
+        "tile": 11,
+        "faces": {
+          "up": 10,
+          "down": 10,
+          "west": 10,
+          "east": 10
+        }
+      },
+      {
+        "name": "separate stone dentil 2",
+        "from": [
+          5,
+          10,
+          7
+        ],
+        "to": [
+          7,
+          13,
+          9
+        ],
+        "tile": 11,
+        "faces": {
+          "up": 10,
+          "down": 10,
+          "west": 10,
+          "east": 10
+        }
+      },
+      {
+        "name": "separate stone dentil 3",
+        "from": [
+          9,
+          10,
+          7
+        ],
+        "to": [
+          11,
+          13,
+          9
+        ],
+        "tile": 11,
+        "faces": {
+          "up": 10,
+          "down": 10,
+          "west": 10,
+          "east": 10
+        }
+      },
+      {
+        "name": "separate stone dentil 4",
+        "from": [
+          13,
+          10,
+          7
+        ],
+        "to": [
+          15,
+          13,
+          9
+        ],
+        "tile": 11,
+        "faces": {
+          "up": 10,
+          "down": 10,
+          "west": 10,
+          "east": 10
+        }
+      }
+    ],
+    "description_zh": "背面齐平贴墙的阶层石檐与四枚实体齿饰；齿间留空，可横向连续拼接。无支撑检测或跨格承重机制。"
+  }
+]

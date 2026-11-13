@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="ftdungeonprops"
+version="1.1.0"
+displayName="FT地牢装饰 · 囚狱套件"
+authors="一颗大豆 / B站 UID355533780"
+description='''
+24 original prison-styled building blocks and decorations for FarmingTales.
+Independent from FT Dungeon Mobs: no world generation, block entities or difficulty changes.
+'''
+
+[[dependencies.ftdungeonprops]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,48)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ftdungeonprops]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
