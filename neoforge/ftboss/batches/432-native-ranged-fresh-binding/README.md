@@ -1,0 +1,7 @@
+# 432 新建远程缓冲区累计绑定
+
+以427为输入合入已封存431原型。累计1381类、716源码路径、207守卫；新增FoodWeaponExpectedTrace$Builder、NativeFreshFactoryTrust298、OwnerTimerSemanticAuthority$Book精确资源守卫。其余旧守卫键保留。
+
+实际执行1381类ASM、414项缺失/损坏资源拒绝检查、两份权限类源码精确还原及整类去调试信息字节一致性检查，全部通过；有效源码无陈旧类哈希引用。累计报告SHA256为a555ebe084a11eff668519a3839ea199e5c12b8a150109f6d57cdce83117f85a。
+
+此处仅证明累计绑定与结构检查，不代表真实新对象分配身份或完整Session已接受。真实运行记录位于433，结果以该批次实际终端与封存报告为准。正式实例不变，NOT-INSTALLABLE，不部署。

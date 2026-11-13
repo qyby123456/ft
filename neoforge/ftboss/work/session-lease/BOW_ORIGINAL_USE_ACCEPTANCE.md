@@ -1,0 +1,11 @@
+# Bow original use accepted, 2026-11-11
+
+Production candidate 529ba4c9 is unchanged after scoped Trident physical pickup acceptance. Actual paid generation-three native Bow is loaded through original storage; no authority fields are written, no direct player.startUsingItem initialization is used.
+
+Positive dae84243/PID62988 executes actual ItemStack.use (CONSUME/using), original one-tick early release, second actual use, full original releaseUsing and real Arrow.tick impact. Original bow remains in hand, wear0 to1, ordinary arrows2 to1, target health20 to8.979199. Genuine same live lease/generation remain, signed BOW/NATIVE_PROJECTILE carrier and original resolved signed damage events are valid. Publication prepared committed/sealed/bound/supported/live, Session coverage installed, traceComplete, next4, no revocation/observation failure. Original player save returns.
+
+Controls cd979c46/PID43384 proves foreign direct use callbacks do not mint a private scope or change exact current input/image/lease/generation; actual no-ammo ItemStack.use returns FAIL, does not start use, preserves whole image/live genuine authority and closes use scope. The same run subsequently executes a complete signed original shot and save successfully.
+
+New JVM 1b98749d/PID74684 loads that positive post-combat original save, checks exact whole image and wear1, issues same-epoch generation3 to4, rejects consumed replay without changing first successor and commits original generation4 save. All three observer0/Java0/normal stop/complete world saves. native-bow-original-use-signed-restart-focused-evidence-529ba4c9.json freezes 9538 hashes and all three runtimes, rooted in the unchanged frozen candidate and scoped Trident source/proof evidence. No broad regression was repeated.
+
+Together with five accepted Trident runtimes, native-trident-bow-final-process-check-529ba4c9.json records eight normal saved terminal JVMs. Existing adopted actual-current receipt remains unchanged. Enchanted/variant/special ammunition cases, the eight originally non-damageable staves, broader lifecycle/provider/recipe/protocol/content migration and actual client/dedicated/authenticated multiplayer/GL acceptance remain unfinished. NOT-INSTALLABLE; not adopted/deployed. Sole writer stays in this thread and workspace.

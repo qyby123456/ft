@@ -1,0 +1,13 @@
+# Stage04: original Manor Boss status immunity
+
+Status: scoped feature accepted and incrementally deployed on stage02, archived and rollback verified. Baseline 24 checks demonstrate the actual gap; candidate 40 checks pass. Only one new guard class and one entity class change; 295 original entity methods preserve their instructions after stripping the added return guard, 303 related methods pass BasicVerifier. Both real JVMs stopped normally and saved all dimensions. No owned Java/Python remains. Four new isolated scratch directories are archived and retained; prior cleanup policy rejection is respected, not retried or bypassed. See releases/boss-core-stage04-status-immunity-20261112/ and reports/stage04-terminal-audit-20261112.json. Full Boss installability remains false.
+
+Single function: restore ManorStatusImmunity for HealBanEffect and ShadowErosionEffect on EasterBossEntity, including the original canBeAffected return guard, lowest-priority applicable rejection, highest-priority join and living tick purge. Preserve all other effect rules and Boss gameplay numbers.
+
+Evidence of gap: frozen Forge has ManorStatusImmunity and guarded EasterBossEntity effect admission. Stage02 contains no corresponding handler/return guard. A directed baseline run must demonstrate actual old acceptance before the candidate is considered a fix.
+
+Completion criteria: (1) stage01/02 archives and rollback hashes verified, no owned process/partial deployment; (2) baseline native admission demonstrates the missing behavior; (3) compile only this feature and observer against genuine SDK and frozen stage02 JAR; (4) ASM proves only canBeAffected gains the original return guard, all remaining methods byte-for-byte instruction equivalent, and relevant methods pass BasicVerifier; (5) actual NeoForge candidate rejects both effects on all 12 variants, preserves ordinary entity controls/other Boss effects, purges forced effects at actual join and natural living tick, then saves and exits 0; (6) deploy only this verified scoped increment on exact stage02, excluding stage03's unaccepted material reward changes; (7) archive manifests, hashes, source/evidence and restore instructions.
+
+This is not full Boss installability. Actual client/GL, authenticated multiplayer and full combat remain unaccepted. Stage03 authenticated positive kill reward acceptance remains pending and its candidate stays NOT-INSTALLABLE. Weapons stay paused; no weapon candidate validation.
+
+Prior scratch cleanup was rejected by automatic review; do not repeat or bypass that deletion. New disposable scratch is archived and retained if removal is not permitted. Never stop unrelated game clients/Python services.

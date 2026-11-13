@@ -1,0 +1,7 @@
+# 410：按用户确认的六类武器收紧旧适配
+
+2026-11-10用户确认保留剑、弓、弩、斧、三叉戟、法杖，删除其他类型的旧武器适配。以408为输入，加入统一WeaponSystemScope410，按真实类型判断剑/弓/弩/斧/三叉戟；法杖保留CastingItem继承链与基础系统已登记的精确类型匹配，不使用hoe或staff等注册名字符串猜测扩大支持。原兼容排除表继续生效。
+
+WeaponAttachmentPolicy在旧排除表前拒绝六类以外物品，使已有材料与耐久入口拒绝这些物品。FoodWeaponEvolution的当前及legacyOrdinary两路分别收紧isEvolutionExcluded、weaponCandidate和nativeProfile，共6个方法；旧数据的Profile不能重新放行非保留物品。其他成长、伤害、技能数值均不变。
+
+原型21类ASM通过，移除6条新准入条件后的FoodWeaponEvolution源码与父版逐字一致，其余既有方法及内部类SKIP_DEBUG不变。原型尚不构成完整删除验收：旧UI直接路径、数据/资源与包处理残留仍需核查，附魔系统尚未删除。412将执行真实六类正例与带旧数据的非保留物品反例。

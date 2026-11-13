@@ -1,0 +1,9 @@
+# 431 原生新建远程计时器缓冲区原型
+
+补齐429/430确认的缺失键与错误NBT类型规划缺口。独立规划先保持玩家原字段不变，使用空的分离缓冲区计算Last计时器写入，直到原始rangedRoot put才附着。已存在复合键的旧rangedAcquire路径保持不变。
+
+实际对象身份只能来自已有NativeFreshFactoryTrust298验证通过的无参原生构造分支：保存本次活动ACQUIRE fact的分配对象，验证同线程、父RANGED_SAVE、原根与键、真实CompoundTag构造/getCompound调用链、空原生HashMap。规划解析还要求唯一分配对象与真实getter返回对象相同、无逃逸、版本为0、空字段，且玩家完整原始字段与独立预期一致。外部直接或反射调用辅助入口被拒绝，不接受任意空对象作为分配证据。
+
+四份源文件可逐项反向替换精确还原。隔离检查通过十二项分离缓冲区规划，四项非法意图、四项外部调用拒绝，以及已有复合键身份/较大值对照。24类通过ASM和-Xverify:all；仅原有NativeFreshFactoryTrust298.freshMap与Book.resolve两项方法体改变，新增五个方法及三个对象字段，其余旧方法体保持一致。该批次未运行真实Mixin构造分配路径，不能单独宣称正向Session通过。
+
+tools/build431.py生成原型，tools/check431.py输出reports/actual-fresh431-sealed-not-adopted.json。累计绑定在432，真实运行另行记录。NOT-INSTALLABLE。
