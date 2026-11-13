@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ftnetherdqa"
+version="1.0"
+displayName="FT Nether Barter Shop D Isolated QA Only"
+description='''Test fixture only. Never deploy this QA mod to a player instance.'''
+[[dependencies.ftnetherdqa]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ftnetherdqa]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
