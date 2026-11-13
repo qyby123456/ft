@@ -1,0 +1,22 @@
+{
+  "group": 5,
+  "image": 6,
+  "status": "PRODUCER_CHECKS_PASS_PENDING_INDEPENDENT_ACCEPTANCE",
+  "reference": "S5-06-corner.png",
+  "nbt": "nbt/s5-06-coral-lantern-corner.nbt",
+  "nbt_sha256": "12c4d28d023b7e6e28ad27f631e222f50d2040bb325daa0b7433dbff7eac890c",
+  "size": [31,18,31],
+  "data_version": 3465,
+  "block_records": 17298,
+  "composition": "Real covered L corridor around opaque inner walls; west and north5-wide wet arches, two perpendicular arms, lantern-faced inner corner pier with coral niches and upper coral cap, repeated wall lamps, perimeter coral and rooted kelp. No straight diagonal route at corridor floor.",
+  "producer_world_test": "Fresh isolated Forge1.20.1-47.4.10 GameTest, four rotations each1200ticks, randomTickSpeed3, non-spectator creative Forge FakePlayer activates natural random ticks; both lit wheat sections grew. Four JUnit pass, exit0. Producer execution only, not independent second server run.",
+  "capture_readback": "12 complete59x30x59 captures104430 records each decoded, states/block entities stable.17298 source states exactly match native placement each rotation; explicit neighbor/tick diffs0.17298 native canSurvive per rotation; zero dead coral, coral identity changes, invalid aquatic survival, original source-water losses or dropped items.",
+  "route": "14 native collision/body-clearance BFS targets,376 reachable at feetY3 each rotation; two5wide3high3deep wet gates. Additional full31x31 settled-capture BFS without L mask confirms route through turn quadrant, both perpendicular heading vectors, blocked direct diagonal, opaque inner walls and no reachable NW floor margin. Readback whitelist is conservative, not another native execution or AI/player swim test.",
+  "integration": "Four settled captures individually checked: outside source ring8, source coverY18..25 eight layers, solid bedY0..2, both wet gate outside extensions3deep5wide3high and solid sills. Only full wet integration; reject dry corridors.",
+  "visual_limits": "Vanilla coral colors/branches approximate illustration; rooted kelp replaces unsupported hanging aquatic plants, sandstone expresses sand patches. Full-water Lodestone does not simulate game underwater fog/rays/bubbles. Water-hidden derivative is explicitly preview-only.",
+  "previous_five_accepted_nbt_preserved": true,
+  "production_deployment": false,
+  "modified_official_saves_mods_or_configs": false,
+  "image_7_started": false,
+  "requires_independent_acceptance_before_next_image": true
+}

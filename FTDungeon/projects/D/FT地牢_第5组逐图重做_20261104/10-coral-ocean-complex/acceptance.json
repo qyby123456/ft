@@ -1,0 +1,23 @@
+{
+  "group":5,
+  "image":10,
+  "status":"PRODUCER_CHECKS_PASS_PENDING_INDEPENDENT_ACCEPTANCE",
+  "nbt":"nbt/s5-10-coral-ocean-complex.nbt",
+  "nbt_sha256":"1cb69d8ec260dd3a97da75b2b3a6db3f11e140da351e18bcec10c1c35dd7f92b",
+  "size":[65,22,65],
+  "records":92950,
+  "data_version":3465,
+  "layout":"Nine independently defined spatial regions: two different halls, library, small coral courtyard, treasure cell, north turning corridor, cross gallery, entrance gallery, treasure connector. Entire layout genuinely connected below walls.",
+  "shards":"Four explicit disjoint <=48-per-axis shards; exact92950state/blockentity roundtrip reassembly,0overlap0missing0difference. Fixed common unrotated anchor order1..4, full water/bed overwrite, no air/structure_void. Native runtime shard sequence NOT_RUN.",
+  "native_test":"Fresh isolated Forge1.20.1-47.4.10,4JUnit pass exit0,4rotations1200ticks each, natural randomTickSpeed3; lower/upper crop sections grew;92950native canSurvive each;2empty chests4empty barrels;3high clear source lid, native menu providers nonnull.",
+  "captures":"12whole81x30x81captures196830records each; all three timepoints full states/entities identical perrotation, source rotation mapping0difference. Complete65source+8ring+8cover verified, bedY0..2; not reused small tank.",
+  "routes":"27native two-high collision targets,24718reachable each; stricter pure-source feetY3..4 low-level routes plus6container-front paths verified all4finalcaptures. No wall overflight needed.",
+  "geometry_only":"Wholevolume92950records74394water->air29waterloggedtrue->false0otherstate/entitychanges,nocrop. Explicitly not importable or water evidence.",
+  "water_contract":"Permanent source ring8, source cover8 Y22..29, bedY0..2, south/east5wide3highwet ports plus inside/outside3deep. Never connect dry tunnels.",
+  "limits":"Producer executed/readback, not independent second server run. Finite1200tick artificial tank. Actual player physics/sweep/GUI/oxygen/AI/gameplay/deployment NOT_RUN.",
+  "previous_nine_accepted_nbt_preserved":true,
+  "production_deployment":false,
+  "modified_official_saves_mods_or_configs":false,
+  "image_11_started":false,
+  "requires_independent_acceptance":true
+}
