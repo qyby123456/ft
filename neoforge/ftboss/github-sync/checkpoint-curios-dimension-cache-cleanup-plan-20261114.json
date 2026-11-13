@@ -1,0 +1,70 @@
+{
+  "format": "ftboss-verified-source-cache-cleanup-plan-v3",
+  "branch": "codex/neoforge-source-20261113",
+  "parentSourceCommit": "4254c6efe497902b0945a7f1533a32913b60d5ba",
+  "targetRelativePath": "github-sync/repositories/ft",
+  "previousPlanRelativePaths": [
+    "github-sync/checkpoint-source-cache-cleanup-plan-20261113.json",
+    "github-sync/checkpoint-curios-cache-cleanup-plan-20261114.json"
+  ],
+  "deleteFiles": {
+    "neoforge/ftboss/work/session-boss/tests/zicai-curio-client-v12/ZicaiCurioClientProbeV12.java": {
+      "bytes": 15251,
+      "sha256": "087dade9699392b882ef60d3867e0a4f9fa0b682f9425437a397fc76f16dbdaa"
+    },
+    "neoforge/ftboss/work/session-boss/tools/run_boss_zicai_curio_client_v12.py": {
+      "bytes": 16414,
+      "sha256": "995fd11cb615ef51d1e64719a111072c6a52e3582f89fb5552637fc0fcf6ee82"
+    }
+  },
+  "mandatoryKeepFiles": [
+    "README.md",
+    "neoforge/ftboss/.gitattributes",
+    "neoforge/ftboss/.gitignore",
+    "neoforge/ftboss/AGENTS.md",
+    "neoforge/ftboss/github-sync/FT_IMPORT_PROGRESS_20261113.md",
+    "neoforge/ftboss/github-sync/GITHUB_RESTORE_AND_SYNC.md",
+    "neoforge/ftboss/github-sync/SOURCE_CACHE_RECOVERY_20261113.md",
+    "neoforge/ftboss/github-sync/checkpoint-20261113-final/local-safety-closeout.json",
+    "neoforge/ftboss/github-sync/checkpoint-20261113-final/local-source-archive-receipt.json",
+    "neoforge/ftboss/github-sync/checkpoint-20261113-final/source-inventory.json",
+    "neoforge/ftboss/github-sync/checkpoint-20261113-final/sync-readiness.json",
+    "neoforge/ftboss/github-sync/checkpoint-boss-curios-dimension-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-boss-curios-fallback-owner-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-boss-stage28-zicai-20261113.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-cache-cleanup-plan-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-cache-cleanup-result-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-dimension-cache-cleanup-plan-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-lifecycle-matrix-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-first-push-20261113.json",
+    "neoforge/ftboss/github-sync/checkpoint-source-cache-cleanup-plan-20261113.json",
+    "neoforge/ftboss/github-sync/checkpoint-source-cache-cleanup-result-20261113.json",
+    "neoforge/ftboss/github-sync/current-target-ft.json",
+    "neoforge/ftboss/github-sync/import-manifest-ft-20261113.json",
+    "neoforge/ftboss/github-sync/reviewed-scan-exceptions.json",
+    "neoforge/ftboss/github-sync/source-inventory.json",
+    "neoforge/ftboss/github-sync/sync-readiness.json",
+    "neoforge/ftboss/work/session-boss/CURIO_DIMENSION_RECOVERY_20261114.md",
+    "neoforge/ftboss/work/session-boss/CURIO_INCREMENT_RECOVERY_20261114.md",
+    "neoforge/ftboss/work/session-boss/ZICAI_CURIO_ARCHIVE_RESTORE.md",
+    "neoforge/ftboss/work/session-boss/ZICAI_CURIO_SILENCE_STAGE28.md",
+    "neoforge/ftboss/work/session-boss/tools/check_github_source_cache_handles_v1.ps1",
+    "neoforge/ftboss/work/session-boss/tools/prune_github_verified_source_cache_v1.py",
+    "neoforge/ftboss/work/session-boss/tools/prune_github_verified_source_cache_v2.py",
+    "neoforge/ftboss/work/session-boss/tools/prune_github_verified_source_cache_v3.py",
+    "neoforge/ftboss/work/session-boss/tools/restore_boss_zicai_curio_archive_v1.py",
+    "neoforge/ftboss/work/session-boss/tools/restore_boss_zicai_curio_archive_v2.py",
+    "neoforge/ftboss/work/session-boss/tools/verify_github_source_snapshot_v1.py",
+    "neoforge/ftboss/work/session-boss/tools/verify_github_source_snapshot_v2.py",
+    "neoforge/ftboss/work/session-boss/tools/verify_github_source_snapshot_v3.py"
+  ],
+  "canonicalFrozenInputsAndRawEvidenceExcluded": true,
+  "largeArtifactsRemoteRecoveryVerified": false,
+  "gitMetadataDeleted": false,
+  "preconditions": [
+    "publishedplanandrestorenotesfreshlyindependentlyrecovered",
+    "everyremotepathsizeSHA256andcommitverified",
+    "zerotargetreferringruntimeprocessesandfilehandles",
+    "canonicalV12frozeninputsretained"
+  ]
+}
