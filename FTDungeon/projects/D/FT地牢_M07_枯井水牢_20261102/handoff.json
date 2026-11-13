@@ -1,0 +1,116 @@
+{
+  "id": "M07",
+  "name": "枯井水牢",
+  "status": "PASS_INDEPENDENT_DELIVERY_NOT_DEPLOYED",
+  "root": "D:\\ft工程文件\\FT地牢_M07_枯井水牢_20261102",
+  "delivery_directory": "D:\\ft工程文件\\FT地牢_M07_枯井水牢_20261102\\out\\M07",
+  "nbt_sha256": "c12bd3be22bae6be4cb7da9a547de541fe2dac0f27839cc7352872a27ec87576",
+  "size_xyz": [
+    15,
+    13,
+    17
+  ],
+  "entrance_feet": [
+    7,
+    4,
+    0
+  ],
+  "safe_interior_feet": [
+    7,
+    4,
+    3
+  ],
+  "deliverables": [
+    {
+      "path": "out\\M07\\room.nbt",
+      "bytes": 8786,
+      "sha256": "c12bd3be22bae6be4cb7da9a547de541fe2dac0f27839cc7352872a27ec87576"
+    },
+    {
+      "path": "out\\M07\\room.json",
+      "bytes": 1910,
+      "sha256": "7390d0e593f7b68b26889a516e503a930403f397a494fe53b08052faf9505898"
+    },
+    {
+      "path": "out\\M07\\preview.png",
+      "bytes": 615882,
+      "sha256": "66fc358d3935d53b15c3434b08f77ae0e701dd75d120b7eb7562c9ad0155fb56"
+    },
+    {
+      "path": "out\\M07\\qa.json",
+      "bytes": 7672,
+      "sha256": "7240ca09b0ab8952b151805a35ee91b973820f68348f86ba2cf8717607945a32"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "qa\\static.json",
+      "bytes": 2025,
+      "sha256": "771270ce847d9f9138c74cce9ada4bf592bc1b6f810db4d0ecc54fb8ee2c81ac"
+    },
+    {
+      "path": "qa\\forge-native.json",
+      "bytes": 2623,
+      "sha256": "4d6580772e60a68514be096a512cc0823329309b46b649602a6134ae32bde8c3"
+    },
+    {
+      "path": "qa\\roundtrip.json",
+      "bytes": 623,
+      "sha256": "fb3b1c1b1e05b1ecbd4b5757f7a681585fa58dad9a2762e62a874da605f5e98d"
+    },
+    {
+      "path": "qa\\native-roundtrip.nbt",
+      "bytes": 10655,
+      "sha256": "cc1781947fb81d6d76d10a93d8a850c37c9b2ba56346afc1a560075f77dda32c"
+    },
+    {
+      "path": "qa\\forge-run.log",
+      "bytes": 22038,
+      "sha256": "6a18a27938ee4b497fc3896a24e3051278dd039476204f8f5fadf46c43af92d5"
+    },
+    {
+      "path": "qa\\render.json",
+      "bytes": 2669,
+      "sha256": "72b06341ed6fc4a580b0a9cca994c4c24160a293ee31f83a26e41c053d10e630"
+    },
+    {
+      "path": "qa\\visual-review.json",
+      "bytes": 1471,
+      "sha256": "b8acbedaeb61fee52d4f050515f5359449ac082b392a6d1ed10ed1a1df84d8b6"
+    },
+    {
+      "path": "qa\\four-views.png",
+      "bytes": 1432684,
+      "sha256": "5a4feadac6d78a4a5ad30fcb8c6edfcd10b3743a16142957fdd52e39cd9ea46a"
+    },
+    {
+      "path": "qa\\exterior.png",
+      "bytes": 350007,
+      "sha256": "42360a5fd57492f62ee7de414f9de7f833f539cf32e0cf11937de41cedb4d1eb"
+    },
+    {
+      "path": "qa\\floor-plan.png",
+      "bytes": 16888,
+      "sha256": "06b525be2ad51c3406903ba681f3f3026ec469c32ee8db4427989a9458a78315"
+    }
+  ],
+  "runtime_summary": {
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "ticks": 240,
+    "records_each_rotation": 3315,
+    "collision_reachable_positions_each_rotation": 141,
+    "water_sources_each_rotation": 33,
+    "fluid_leaks": 0,
+    "dropped_items": 0
+  },
+  "deployed": false,
+  "limits": [
+    "No deployment, no FT core/catalog/route changes and no access to permanent player saves.",
+    "Software NBT previews are not in-game screenshots; no full-modpack client, multiplayer or FPS verification.",
+    "Winch, lever, shackles and grates are architectural props, not a scripted trap or reward mechanic.",
+    "Water is intentionally sealed below dry routes; no claim of a visible flowing water surface.",
+    "Integration must use entrance feet Y=4, keep M07 distinct from M7, refuse occupied whole volume plus margins, provide a hall connection and a separate persistent generation marker."
+  ]
+}
