@@ -1,6 +1,6 @@
 {
   "format": "ftboss-original-curios-lifecycle-evidence-map-v1",
-  "acceptedIncrement": "V13 default death policy drop/respawn/natural pickup/client synchronization;existing dimension/fallback/18controls reused",
+  "acceptedIncrement": "V15 actual native menu/network equip denial andpost-expiry equip acceptance",
   "originalSubscribers": [
     {
       "subscriber": "onDamage",
@@ -14,8 +14,11 @@
     },
     {
       "subscriber": "onEquip",
-      "evidence": "V3 actual public equip-event queries;full UIequip action remains unaccepted",
-      "rerunThisBatch": false
+      "evidence": "V15 actual Curios screen via original payload;publicclientcontainerclick->realnetworkserverhandler->finalnativeequipdenial duringpending,exactcursorconservation;postexpiryunequipandnewequip/clientstate accepted",
+      "rerunThisBatch": false,
+      "actualContainerNetworkActionAccepted": true,
+      "humanPointerInteractionClaimed": false,
+      "v14StrictFailureRetained": "LOWESTobserverreadbeforeoriginalhandlerfinalresult;V15readsretainednativeeventafternaturalcompleteddispatch"
     },
     {
       "subscriber": "onDeath",
@@ -51,7 +54,6 @@
   ],
   "remainingExplicitGaps": [
     "actual supported new-JVM confirmation/login persistence",
-    "full equip-action UI beyond actual eventqueries",
     "multi-item original choice andcosmetic exclusion matrix",
     "direct native observer for server-stop dedup state beyond static original graph"
   ],
