@@ -1,0 +1,906 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "tile6": "ftdungeonprops:block/remake-furnishings_06",
+    "tile1": "ftdungeonprops:block/remake-furnishings_01",
+    "tile4": "ftdungeonprops:block/remake-furnishings_04",
+    "tile0": "ftdungeonprops:block/remake-furnishings_00",
+    "tile9": "ftdungeonprops:block/remake-furnishings_09",
+    "tile13": "ftdungeonprops:block/remake-furnishings_13",
+    "tile12": "ftdungeonprops:block/remake-furnishings_12",
+    "tile2": "ftdungeonprops:block/remake-furnishings_02",
+    "tile3": "ftdungeonprops:block/remake-furnishings_03",
+    "particle": "ftdungeonprops:block/remake-furnishings_06"
+  },
+  "elements": [
+    {
+      "name": "broad stable slate foot",
+      "from": [
+        2,
+        0,
+        3
+      ],
+      "to": [
+        14,
+        2,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            14,
+            14,
+            16
+          ],
+          "texture": "#tile6"
+        },
+        "south": {
+          "uv": [
+            2,
+            14,
+            14,
+            16
+          ],
+          "texture": "#tile6"
+        },
+        "west": {
+          "uv": [
+            3,
+            14,
+            14,
+            16
+          ],
+          "texture": "#tile6"
+        },
+        "east": {
+          "uv": [
+            2,
+            14,
+            13,
+            16
+          ],
+          "texture": "#tile6"
+        },
+        "up": {
+          "uv": [
+            2,
+            3,
+            14,
+            14
+          ],
+          "texture": "#tile6"
+        },
+        "down": {
+          "uv": [
+            2,
+            2,
+            14,
+            13
+          ],
+          "texture": "#tile6",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "stepped timber pedestal",
+      "from": [
+        5,
+        2,
+        6
+      ],
+      "to": [
+        11,
+        3,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            13,
+            11,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            5,
+            13,
+            11,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            6,
+            13,
+            12,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            4,
+            13,
+            10,
+            14
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            5,
+            6,
+            11,
+            12
+          ],
+          "texture": "#tile4"
+        }
+      }
+    },
+    {
+      "name": "column lower collar",
+      "from": [
+        6,
+        3,
+        7
+      ],
+      "to": [
+        10,
+        4,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            12,
+            10,
+            13
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            6,
+            12,
+            10,
+            13
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            7,
+            12,
+            12,
+            13
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            4,
+            12,
+            9,
+            13
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            6,
+            7,
+            10,
+            12
+          ],
+          "texture": "#tile4"
+        }
+      }
+    },
+    {
+      "name": "slender ledger support column",
+      "from": [
+        7,
+        4,
+        8
+      ],
+      "to": [
+        9,
+        9,
+        11
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            7,
+            9,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "south": {
+          "uv": [
+            7,
+            7,
+            9,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "west": {
+          "uv": [
+            8,
+            7,
+            11,
+            12
+          ],
+          "texture": "#tile0"
+        },
+        "east": {
+          "uv": [
+            5,
+            7,
+            8,
+            12
+          ],
+          "texture": "#tile0"
+        }
+      }
+    },
+    {
+      "name": "wide underside desk capital",
+      "from": [
+        5,
+        9,
+        6
+      ],
+      "to": [
+        11,
+        10,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            6,
+            11,
+            7
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            5,
+            6,
+            11,
+            7
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            6,
+            6,
+            12,
+            7
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            4,
+            6,
+            10,
+            7
+          ],
+          "texture": "#tile1"
+        },
+        "down": {
+          "uv": [
+            5,
+            4,
+            11,
+            10
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "thin deep writing desk",
+      "from": [
+        1,
+        10,
+        3
+      ],
+      "to": [
+        15,
+        11,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            5,
+            15,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            1,
+            5,
+            15,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            3,
+            5,
+            14,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            2,
+            5,
+            13,
+            6
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            1,
+            3,
+            15,
+            14
+          ],
+          "texture": "#tile4"
+        },
+        "down": {
+          "uv": [
+            1,
+            2,
+            15,
+            13
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "forward raised retaining lip",
+      "from": [
+        1,
+        11,
+        3
+      ],
+      "to": [
+        15,
+        12,
+        4
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            4,
+            15,
+            5
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            1,
+            4,
+            15,
+            5
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            3,
+            4,
+            4,
+            5
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            12,
+            4,
+            13,
+            5
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            1,
+            3,
+            15,
+            4
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "rear raised book stop",
+      "from": [
+        2,
+        11,
+        12
+      ],
+      "to": [
+        14,
+        12,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            4,
+            14,
+            5
+          ],
+          "texture": "#tile1"
+        },
+        "south": {
+          "uv": [
+            2,
+            4,
+            14,
+            5
+          ],
+          "texture": "#tile1"
+        },
+        "west": {
+          "uv": [
+            12,
+            4,
+            14,
+            5
+          ],
+          "texture": "#tile1"
+        },
+        "east": {
+          "uv": [
+            2,
+            4,
+            4,
+            5
+          ],
+          "texture": "#tile1"
+        },
+        "up": {
+          "uv": [
+            2,
+            12,
+            14,
+            14
+          ],
+          "texture": "#tile1"
+        }
+      }
+    },
+    {
+      "name": "open ledger oxblood cover",
+      "from": [
+        3,
+        11,
+        4
+      ],
+      "to": [
+        13,
+        12,
+        12
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            4,
+            4,
+            12,
+            5
+          ],
+          "texture": "#tile9"
+        },
+        "east": {
+          "uv": [
+            4,
+            4,
+            12,
+            5
+          ],
+          "texture": "#tile9"
+        }
+      }
+    },
+    {
+      "name": "open ledger recessed central spine",
+      "from": [
+        7,
+        12,
+        4
+      ],
+      "to": [
+        9,
+        13,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            3,
+            9,
+            4
+          ],
+          "texture": "#tile9"
+        },
+        "south": {
+          "uv": [
+            7,
+            3,
+            9,
+            4
+          ],
+          "texture": "#tile9"
+        },
+        "up": {
+          "uv": [
+            7,
+            4,
+            9,
+            12
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "left ledger inner page block",
+      "from": [
+        3,
+        12,
+        4
+      ],
+      "to": [
+        7,
+        13,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            3,
+            13,
+            4
+          ],
+          "texture": "#tile12"
+        },
+        "south": {
+          "uv": [
+            3,
+            3,
+            7,
+            4
+          ],
+          "texture": "#tile12"
+        },
+        "west": {
+          "uv": [
+            4,
+            3,
+            12,
+            4
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            3,
+            4,
+            7,
+            12
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "right ledger inner page block",
+      "from": [
+        9,
+        12,
+        4
+      ],
+      "to": [
+        13,
+        13,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            3,
+            7,
+            4
+          ],
+          "texture": "#tile12"
+        },
+        "south": {
+          "uv": [
+            9,
+            3,
+            13,
+            4
+          ],
+          "texture": "#tile12"
+        },
+        "east": {
+          "uv": [
+            4,
+            3,
+            12,
+            4
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            9,
+            4,
+            13,
+            12
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "left ledger lifted outer leaves",
+      "from": [
+        3,
+        13,
+        4
+      ],
+      "to": [
+        5,
+        14,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            2,
+            13,
+            3
+          ],
+          "texture": "#tile12"
+        },
+        "south": {
+          "uv": [
+            3,
+            2,
+            5,
+            3
+          ],
+          "texture": "#tile12"
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            12,
+            3
+          ],
+          "texture": "#tile12"
+        },
+        "east": {
+          "uv": [
+            4,
+            2,
+            12,
+            3
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            3,
+            4,
+            5,
+            12
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "right ledger lifted outer leaves",
+      "from": [
+        11,
+        13,
+        4
+      ],
+      "to": [
+        13,
+        14,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            2,
+            5,
+            3
+          ],
+          "texture": "#tile12"
+        },
+        "south": {
+          "uv": [
+            11,
+            2,
+            13,
+            3
+          ],
+          "texture": "#tile12"
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            12,
+            3
+          ],
+          "texture": "#tile12"
+        },
+        "east": {
+          "uv": [
+            4,
+            2,
+            12,
+            3
+          ],
+          "texture": "#tile12"
+        },
+        "up": {
+          "uv": [
+            11,
+            4,
+            13,
+            12
+          ],
+          "texture": "#tile13"
+        }
+      }
+    },
+    {
+      "name": "desk side inkpot body",
+      "from": [
+        13,
+        11,
+        8
+      ],
+      "to": [
+        15,
+        13,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            3,
+            3,
+            5
+          ],
+          "texture": "#tile2"
+        },
+        "south": {
+          "uv": [
+            13,
+            3,
+            15,
+            5
+          ],
+          "texture": "#tile2"
+        },
+        "east": {
+          "uv": [
+            6,
+            3,
+            8,
+            5
+          ],
+          "texture": "#tile2"
+        },
+        "up": {
+          "uv": [
+            13,
+            8,
+            15,
+            10
+          ],
+          "texture": "#tile2"
+        }
+      }
+    },
+    {
+      "name": "desk side inkpot brass mouth",
+      "from": [
+        13,
+        13,
+        8
+      ],
+      "to": [
+        14,
+        14,
+        9
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            2,
+            3,
+            3
+          ],
+          "texture": "#tile3"
+        },
+        "south": {
+          "uv": [
+            13,
+            2,
+            14,
+            3
+          ],
+          "texture": "#tile3"
+        },
+        "east": {
+          "uv": [
+            7,
+            2,
+            8,
+            3
+          ],
+          "texture": "#tile3"
+        },
+        "up": {
+          "uv": [
+            13,
+            8,
+            14,
+            9
+          ],
+          "texture": "#tile3"
+        }
+      }
+    }
+  ]
+}

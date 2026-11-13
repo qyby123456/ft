@@ -1,0 +1,11 @@
+# READY provider 原生入场与返程补测
+
+本目录单独保存新增夹具和执行副本，不更改父目录已封存的29断言结果。原29断言 ready SHA256 为 c9a21f856acad3c3ad8bf2df5065f239ed25edb015dd3dbd5f2837c99f2e3e25。
+
+新增 provider 返回 READY 和明确安全落点；分别铺设 source 与 dungeon 维度安全地面、入口完整FT门与真实FT返程门。使用 Forge FakePlayer，直接执行现有 DungeonGateTravel.use，不修改主代码或伪造玩家维度，不手动修改冷却NBT。
+
+测试顺序为原生跨维度入场→验证round.generatorId、source gate和participant、onEntered恰好一次和返程记录→立即经真实返程门调用被冷却阻止→等待42个真实server ticks→经同一FT返程门返回原维度与原位置→检查返程记录清理及新冷却。不调用后端长测，不验证玩家网络UI。
+
+若FakePlayer原生连接或跨维度能力限制导致不能完成，日志与result必须如实标记TOOL_LIMITATION，不得把GameTest框架完成等同成功往返。最终结果以result.json与gametest-ready.log为准，只有READY_FLOW_ACTUAL_ENTRY_AND_RETURN_PASS标记能证明该流程成功。
+
+封存时再校验5个门相关main源码与本次测试快照SHA逐项相同，并核实主工件9316998125a8867b54a6576648e9ef175d4abccea78c3173c4feaeef464043c3。该关联是源码匹配，不声称已运行此重混淆发布JAR。所有写入和JVM仅位于本gate-tests自有目录，最多一个自有GameTest server，原29断言全部保留。
