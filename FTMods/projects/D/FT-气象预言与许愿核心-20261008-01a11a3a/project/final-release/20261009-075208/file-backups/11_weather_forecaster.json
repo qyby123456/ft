@@ -1,0 +1,3943 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "atlas": "qys_event:block/weather_forecaster_atlas",
+    "particle": "qys_event:block/weather_forecaster_particle"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "elements": [
+    {
+      "name": "stone foundation",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        1.3,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "copper plinth",
+      "from": [
+        0.5,
+        1.3,
+        0.5
+      ],
+      "to": [
+        15.5,
+        2,
+        15.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "lower timber cabinet",
+      "from": [
+        2,
+        2,
+        2
+      ],
+      "to": [
+        14,
+        9.5,
+        14
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            12.0,
+            16.0,
+            16.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            12.0,
+            16.0,
+            16.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "patinated sill",
+      "from": [
+        1.5,
+        2.1,
+        1.5
+      ],
+      "to": [
+        14.5,
+        2.7,
+        14.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "brass corner 1.85 1.85",
+      "from": [
+        1.85,
+        2.7,
+        1.85
+      ],
+      "to": [
+        3.0,
+        9.5,
+        3.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "corner collar 1.85 1.85",
+      "from": [
+        1.7000000000000002,
+        8.65,
+        1.7000000000000002
+      ],
+      "to": [
+        3.0,
+        9.35,
+        3.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "brass corner 1.85 13",
+      "from": [
+        1.85,
+        2.7,
+        13
+      ],
+      "to": [
+        3.0,
+        9.5,
+        14.15
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "corner collar 1.85 13",
+      "from": [
+        1.7000000000000002,
+        8.65,
+        12.85
+      ],
+      "to": [
+        3.0,
+        9.35,
+        14.15
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "brass corner 13 1.85",
+      "from": [
+        13,
+        2.7,
+        1.85
+      ],
+      "to": [
+        14.15,
+        9.5,
+        3.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "corner collar 13 1.85",
+      "from": [
+        12.85,
+        8.65,
+        1.7000000000000002
+      ],
+      "to": [
+        14.15,
+        9.35,
+        3.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "brass corner 13 13",
+      "from": [
+        13,
+        2.7,
+        13
+      ],
+      "to": [
+        14.15,
+        9.5,
+        14.15
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "corner collar 13 13",
+      "from": [
+        12.85,
+        8.65,
+        12.85
+      ],
+      "to": [
+        14.15,
+        9.35,
+        14.15
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "instrument front plate",
+      "from": [
+        3,
+        4.2,
+        1.6
+      ],
+      "to": [
+        13,
+        8.9,
+        2
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "forecast display bezel",
+      "from": [
+        3.35,
+        5.05,
+        1.25
+      ],
+      "to": [
+        8.8,
+        8.5,
+        1.6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "weather pictogram display",
+      "from": [
+        3.65,
+        5.35,
+        1.17
+      ],
+      "to": [
+        8.5,
+        8.2,
+        1.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            4.0,
+            16.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "barometer bezel",
+      "from": [
+        9.3,
+        5.15,
+        1.25
+      ],
+      "to": [
+        12.65,
+        8.5,
+        1.6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "barometer face",
+      "from": [
+        9.55,
+        5.4,
+        1.17
+      ],
+      "to": [
+        12.4,
+        8.25,
+        1.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            8.0,
+            4.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "control fascia",
+      "from": [
+        3.5,
+        3,
+        1.5
+      ],
+      "to": [
+        9.7,
+        4.35,
+        1.9
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            8.0,
+            12.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "emerald payment slot frame",
+      "from": [
+        10.3,
+        3.05,
+        1.45
+      ],
+      "to": [
+        12.65,
+        4.3,
+        1.9
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "emerald payment slot",
+      "from": [
+        10.7,
+        3.48,
+        1.37
+      ],
+      "to": [
+        12.25,
+        3.8,
+        1.45
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "left cabinet air vent 4",
+      "from": [
+        1.8,
+        4.5,
+        4
+      ],
+      "to": [
+        2,
+        8.5,
+        6.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            8.0,
+            8.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "right cabinet air vent 4",
+      "from": [
+        14,
+        4.5,
+        4
+      ],
+      "to": [
+        14.2,
+        8.5,
+        6.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            8.0,
+            8.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "left cabinet air vent 10",
+      "from": [
+        1.8,
+        4.5,
+        10
+      ],
+      "to": [
+        2,
+        8.5,
+        12.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            8.0,
+            8.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "right cabinet air vent 10",
+      "from": [
+        14,
+        4.5,
+        10
+      ],
+      "to": [
+        14.2,
+        8.5,
+        12.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            8.0,
+            8.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "rear inspection hatch",
+      "from": [
+        4,
+        3.4,
+        14
+      ],
+      "to": [
+        12,
+        8.4,
+        14.2
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            8.0,
+            8.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "rear inspection latch",
+      "from": [
+        7.6,
+        5.2,
+        14.2
+      ],
+      "to": [
+        8.4,
+        6.7,
+        14.5
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "overhanging copper instrument deck",
+      "from": [
+        1.1,
+        9.5,
+        1.1
+      ],
+      "to": [
+        14.9,
+        10.25,
+        14.9
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "deck oxidized inlay",
+      "from": [
+        2,
+        10.25,
+        2
+      ],
+      "to": [
+        14,
+        10.5,
+        14
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "rain collector pedestal",
+      "from": [
+        3.6,
+        10.5,
+        3.4
+      ],
+      "to": [
+        6.2,
+        11,
+        6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "rain collector ceramic tube",
+      "from": [
+        4,
+        11,
+        3.8
+      ],
+      "to": [
+        5.8,
+        13.6,
+        5.6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "rain collector funnel rim",
+      "from": [
+        3.2,
+        13.6,
+        3
+      ],
+      "to": [
+        6.6,
+        14.05,
+        6.4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "rain collector recessed opening",
+      "from": [
+        3.65,
+        14.05,
+        3.45
+      ],
+      "to": [
+        6.15,
+        14.12,
+        5.95
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "weather sensor pedestal",
+      "from": [
+        3.4,
+        10.5,
+        8.4
+      ],
+      "to": [
+        7.6,
+        11,
+        12.6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "weather sensor dark core",
+      "from": [
+        4.3,
+        11,
+        9.3
+      ],
+      "to": [
+        6.7,
+        14.15,
+        11.7
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "weather shield louver 1",
+      "from": [
+        3.4,
+        11.15,
+        8.4
+      ],
+      "to": [
+        7.6,
+        11.450000000000001,
+        12.6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "weather shield louver 2",
+      "from": [
+        3.4,
+        11.8,
+        8.4
+      ],
+      "to": [
+        7.6,
+        12.100000000000001,
+        12.6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "weather shield louver 3",
+      "from": [
+        3.4,
+        12.450000000000001,
+        8.4
+      ],
+      "to": [
+        7.6,
+        12.750000000000002,
+        12.6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "weather shield louver 4",
+      "from": [
+        3.4,
+        13.100000000000001,
+        8.4
+      ],
+      "to": [
+        7.6,
+        13.400000000000002,
+        12.6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "weather shield louver 5",
+      "from": [
+        3.4,
+        13.75,
+        8.4
+      ],
+      "to": [
+        7.6,
+        14.05,
+        12.6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            4.0,
+            4.0,
+            8.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "weather shield copper roof",
+      "from": [
+        3.1,
+        14.1,
+        8.1
+      ],
+      "to": [
+        7.9,
+        14.55,
+        12.9
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "anemometer mast foot",
+      "from": [
+        10.2,
+        10.5,
+        10.2
+      ],
+      "to": [
+        12.6,
+        11,
+        12.6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "anemometer mast",
+      "from": [
+        11.05,
+        11,
+        11.05
+      ],
+      "to": [
+        11.75,
+        14.65,
+        11.75
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "wind direction collar",
+      "from": [
+        10.65,
+        12.45,
+        10.65
+      ],
+      "to": [
+        12.15,
+        13.05,
+        12.15
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "anemometer cross east west",
+      "from": [
+        8.6,
+        14.45,
+        11.18
+      ],
+      "to": [
+        14.2,
+        14.8,
+        11.62
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "anemometer cross north south",
+      "from": [
+        11.18,
+        14.45,
+        8.6
+      ],
+      "to": [
+        11.62,
+        14.8,
+        14.2
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            12.0,
+            0.0,
+            16.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "anemometer cup 1",
+      "from": [
+        7.949999999999999,
+        14.4,
+        10.75
+      ],
+      "to": [
+        9.25,
+        15.4,
+        12.05
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "anemometer cup inset 1",
+      "from": [
+        8.2,
+        15.4,
+        11.0
+      ],
+      "to": [
+        9.0,
+        15.47,
+        11.8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "anemometer cup 2",
+      "from": [
+        13.549999999999999,
+        14.4,
+        10.75
+      ],
+      "to": [
+        14.85,
+        15.4,
+        12.05
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "anemometer cup inset 2",
+      "from": [
+        13.799999999999999,
+        15.4,
+        11.0
+      ],
+      "to": [
+        14.6,
+        15.47,
+        11.8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "anemometer cup 3",
+      "from": [
+        10.75,
+        14.4,
+        7.949999999999999
+      ],
+      "to": [
+        12.05,
+        15.4,
+        9.25
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "anemometer cup inset 3",
+      "from": [
+        11.0,
+        15.4,
+        8.2
+      ],
+      "to": [
+        11.8,
+        15.47,
+        9.0
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "anemometer cup 4",
+      "from": [
+        10.75,
+        14.4,
+        13.549999999999999
+      ],
+      "to": [
+        12.05,
+        15.4,
+        14.85
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "anemometer cup inset 4",
+      "from": [
+        11.0,
+        15.4,
+        13.799999999999999
+      ],
+      "to": [
+        11.8,
+        15.47,
+        14.6
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "mast cap",
+      "from": [
+        11,
+        14.8,
+        11
+      ],
+      "to": [
+        11.8,
+        15.65,
+        11.8
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            0.0,
+            4.0,
+            4.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    },
+    {
+      "name": "deck calibration plaque",
+      "from": [
+        8.5,
+        10.5,
+        3
+      ],
+      "to": [
+        12.5,
+        10.65,
+        6.4
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            8.0,
+            4.0,
+            12.0
+          ],
+          "texture": "#atlas"
+        },
+        "north": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            4.0,
+            12.0,
+            8.0
+          ],
+          "texture": "#atlas"
+        }
+      }
+    }
+  ]
+}

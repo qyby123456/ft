@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "owner_thread_id": "01a11a3a-e79d-7a03-b1d1-a31d0582571d",
+  "coordinator_thread_id": "01a11965-c8cb-7011-aa15-96f98a3db580",
+  "primary_entry_url": "http://127.0.0.1:18790/",
+  "catalogue_key": "instruments",
+  "page_under_unified_entry": "/instruments/viewer.html",
+  "workspace_root": "ftboss_model_edit/ft_instruments_remodel_20261008",
+  "archive_root": "D:/ft工程文件/FT-气象预言与许愿核心-20261008-01a11a3a",
+  "archive_page": "project/viewer.html",
+  "tracking_thread_entry": {
+    "key": "instruments",
+    "title": "重做天气预报机和预言机模型",
+    "threadId": "01a11a3a-e79d-7a03-b1d1-a31d0582571d",
+    "hostId": "local",
+    "ready": true,
+    "note": "最终优化轮完成：面数330→288 / 588→510 / 342→282；8项优化单测、许愿脚本/结构模拟、21视角完整交互与42角度图像回归通过，网页按需绘制验证通过。以当刻当前Forge qys-event JAR增量部署，保留其他条目及类；旧工程标记superseded保留，归档最终SHA256见CHECKSUMS.json。未进行游戏实测，未改NeoForge或共享qys-bosses。"
+  },
+  "tracking_preview_entry": {
+    "key": "instruments",
+    "label": "天气预报机 · 预言机 · 许愿井核心",
+    "owner": "instruments",
+    "root": "ftboss_model_edit/ft_instruments_remodel_20261008",
+    "pages": [
+      "viewer.html"
+    ],
+    "images": [
+      "previews/overview.png",
+      "previews/wishing_well_core_overview.png",
+      "previews/wishing_well_core_scale.png"
+    ]
+  },
+  "controls": [
+    "three-model-selection",
+    "orbit",
+    "zoom",
+    "six-orthogonal-views",
+    "perspective",
+    "wireframe",
+    "play-pause",
+    "timeline",
+    "speed",
+    "reset",
+    "1.8-block-avatar"
+  ],
+  "animation_scope": "网页转台演示；没有新增游戏动画，不修改模型几何",
+  "assets": [
+    "viewer.html",
+    "vendor/three.module.js",
+    "vendor/OrbitControls.js",
+    "payload/assets/qys_event",
+    "payload/assets/farmingtales"
+  ],
+  "relative_resource_urls": true,
+  "unified_entry_verified": true,
+  "unified_verification_report": "unified-preview-verification.json",
+  "external_network_dependencies": false,
+  "installation_scope_this_turn": "最终轮仅Forge当前qys-event JAR、KubeJS核心资源和现有资源包；不改NeoForge或共享qys-bosses",
+  "final_deployment_report": "final-release/deployment.json",
+  "superseded_retained": "revisions/superseded-preoptimization/status.json",
+  "checks": [
+    "preview-verification.json",
+    "unified-preview-verification.json",
+    "asset-verification.json",
+    "core-gameplay-verification.txt",
+    "final-release/full-validation.json",
+    "optimization/visual-comparison.json",
+    "CHECKSUMS.json in archive root"
+  ],
+  "final_handoff_report": "final-release/final-handoff.json"
+}

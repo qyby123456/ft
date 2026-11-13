@@ -1,0 +1,42 @@
+--- verify_wishing_well.mjs exit=0 ---
+Exact xyj.nbt multiblock validation OK (78 buildable/core blocks)
+Missing-block diagnosis OK
+Outcome boundaries OK (100%)
+Four weighted material pools total 100 each
+All 56 registered seed packets are present as one-item rewards
+Rare farmingtales:geode reward is registered
+--- verify_wishing_well_runtime.mjs exit=0 ---
+[FarmingTales][WishingWell] trigger=right_click detected player=test_player item=minecraft:emerald
+[FarmingTales][WishingWell] trigger=right_click accepted player=test_player core=(0,0,0)
+[FarmingTales][WishingWell] trigger=right_click player=test_player outcome=coin reward=kubejs:coin x10
+[FarmingTales][WishingWell] trigger=right_click detected player=test_player item=minecraft:emerald
+[FarmingTales][WishingWell] trigger=right_click rejected=local_cooldown player=test_player remaining=12
+[FarmingTales][WishingWell] trigger=right_click detected player=broken_player item=minecraft:emerald
+[FarmingTales][WishingWell] trigger=right_click rejected=structure player=broken_player missing=(-3,-1,0) expected=朝向井心的石砖楼梯 found=minecraft:air
+[FarmingTales][WishingWell] trigger=drop queued count=2
+[FarmingTales][WishingWell] trigger=drop accepted player=test_player core=(0,0,0)
+[FarmingTales][WishingWell] trigger=drop player=test_player outcome=coin reward=kubejs:coin x10
+Blueprint blocks in fixture: 79 (78 structural/core + 1 optional light)
+Successful reward: kubejs:coin x10
+Right-click and physical-drop triggers, local cooldown, one-emerald consumption, rewards and structure guard OK
+--- verify_wishing_well_command.mjs exit=0 ---
+[FarmingTales][WishingWell] trigger=command menu player=command_tester
+[FarmingTales][WishingWell] trigger=command requested player=command_tester selected=coin
+[FarmingTales][WishingWell] trigger=command accepted player=command_tester selected=coin core=(0,0,0)
+[FarmingTales][WishingWell] trigger=command:coin player=command_tester outcome=coin reward=kubejs:coin x10
+[FarmingTales][WishingWell] trigger=command requested player=command_tester selected=seed_bag
+[FarmingTales][WishingWell] trigger=command accepted player=command_tester selected=seed_bag core=(0,0,0)
+[FarmingTales][WishingWell] trigger=command:seed_bag player=command_tester outcome=seed_bag reward=farmingtales:apple_packet x1
+[FarmingTales][WishingWell] trigger=command requested player=command_tester selected=geode
+[FarmingTales][WishingWell] trigger=command accepted player=command_tester selected=geode core=(0,0,0)
+[FarmingTales][WishingWell] trigger=command:geode player=command_tester outcome=geode reward=farmingtales:geode x1
+Registered /ft wishingwell and /wishingwelltest aliases
+Clickable menu contains random plus all 10 outcome events
+Forced coin event executed at a valid nearby well: kubejs:coin x10
+Forced seed-bag event executed: farmingtales:apple_packet x1
+Forced geode event executed: farmingtales:geode x1
+Command test does not require or consume an emerald
+--- verify_wishing_well_against_nbt.mjs ---
+NBT hash match: 15BB26FC45FFCA41AC59D208EB747EE6B69A4CD2FACE3E5FEBDED78B4030157F
+Exact 7x5x7 NBT layout accepted without optional invisible light
+77 surrounding structural blocks individually validated
