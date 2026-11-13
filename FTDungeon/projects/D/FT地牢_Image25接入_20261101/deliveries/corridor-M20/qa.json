@@ -1,0 +1,68 @@
+{
+  "id": "corridor-M20",
+  "status": "PASS",
+  "sha256": "71c1bdc9cc4997a8e1fe2c4c46fdddee7135a1742030b9cf0beaa58e2cfa8a6b",
+  "reference_sha256": "ba38b1a755aed26654acd83aa1cfc4fdeb3b722e989f7f80ce963b3096acbae5",
+  "scope": "Independent producer delivery; static, individual eight-view review and isolated Forge placement/stability.",
+  "created_at": "2026-11-03T11:24:47+08:00",
+  "checks": {
+    "static": "PASS",
+    "north_south_same_height": "PASS",
+    "straight_walkway": "PASS",
+    "three_high_clear_main_route": "PASS",
+    "roof": "PASS",
+    "hanging_cage_support": "PASS",
+    "eight_individual_views": "PASS",
+    "native_registry_and_properties": "PASS",
+    "native_four_rotations": "PASS",
+    "native_320_tick_stability": "PASS",
+    "native_capture_independent_comparison": "PASS",
+    "fluids": 0,
+    "entities": 0,
+    "block_entities": 0,
+    "inventory_items": 0
+  },
+  "static_report": {
+    "path": "qa/static.json",
+    "sha256": "4e5addb853703eb1d727333957f21db7ae65ee1bcd483f83200e6394bb7af4bc"
+  },
+  "visual_report": {
+    "path": "qa/visual-review.json",
+    "sha256": "760f292d393d772b1b05fa80b32c01ab41d08ae084d9397e65b5185628e0b316"
+  },
+  "native_report": {
+    "path": "qa/native.json",
+    "sha256": "3eba761860c922a2a15be055f9a446c8a980d03644264f46cc55dc35db11cb45"
+  },
+  "native_log": {
+    "path": "qa\\forge-20261103-110029-545.log",
+    "sha256": "e6551c3db15360565b4727116038cbf821f83d892dfc454ea94a642841f3c850"
+  },
+  "capture_comparison": {
+    "path": "qa/capture-comparison.json",
+    "sha256": "156073fc597ec32daaa2c7e5e889bc2b682019ec13211e5e05c7a75d4743f79c"
+  },
+  "native": {
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "ticks": 320,
+    "records_per_snapshot": 22880,
+    "capture_records_compared": 22880,
+    "neighbor_updates": "UPDATE_ALL and explicit notifications",
+    "random_tick_speed": 3
+  },
+  "render_manifest": {
+    "path": "qa/render-manifest.json",
+    "sha256": "820b818bfd2401a991b255289a3f7dede24ee8ea87773e28362b565ac4a75d86"
+  },
+  "ready_for_receiver_review": true,
+  "ready_for_unified_integration": false,
+  "deployment": false,
+  "production_save_accessed": false,
+  "full_modpack_playtest": false,
+  "limitations": [
+    "Receiver must freeze final bundle and independently review 8 images and run native fixture.",
+    "Core routes, occupancy refusal, idempotence/persistence and modpack playtest belong to later integration."
+  ]
+}

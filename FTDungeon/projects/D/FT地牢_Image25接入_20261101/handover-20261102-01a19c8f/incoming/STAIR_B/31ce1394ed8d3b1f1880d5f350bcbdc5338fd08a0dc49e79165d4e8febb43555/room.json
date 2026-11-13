@@ -1,0 +1,64 @@
+{
+  "id": "STAIR_B",
+  "name": "螺旋楼梯塔",
+  "size": [
+    27,
+    27,
+    27
+  ],
+  "entrance": [
+    13,
+    8,
+    0
+  ],
+  "interior": [
+    13,
+    8,
+    3
+  ],
+  "facing": "north",
+  "sha256": "31ce1394ed8d3b1f1880d5f350bcbdc5338fd08a0dc49e79165d4e8febb43555",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-stair-rooms-20261102\\out\\stair-spiral-tower.png",
+  "reference_sha256": "eb765a30eb267b5d3602f62be563e907ea516cb5a8c5b469013a3d57a97fdda8",
+  "ports": [
+    {
+      "id": "main_north",
+      "feet": [
+        13,
+        8,
+        0
+      ],
+      "facing": "north",
+      "width": 3,
+      "height": 3
+    },
+    {
+      "id": "upper_north",
+      "feet": [
+        13,
+        20,
+        0
+      ],
+      "facing": "north",
+      "width": 3,
+      "height": 3
+    },
+    {
+      "id": "lower_south",
+      "feet": [
+        13,
+        1,
+        26
+      ],
+      "facing": "south",
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "placement_contract": "Origin must allow main entrance floor offset +7. Three external ports need explicit core layout adapters; no automatic FT catalog registration.",
+  "air_policy": "All 19683 positions explicit, including air. Require occupancy/border/entity preflight; never clear an occupied target.",
+  "entities": 0,
+  "empty_containers": 2,
+  "design_translation": "Voxel octagonal tower; four-flight square spiral around octagonal central pier; three-block-wide treads and landings; complete roof and shell.",
+  "deployment": "NOT_DEPLOYED"
+}

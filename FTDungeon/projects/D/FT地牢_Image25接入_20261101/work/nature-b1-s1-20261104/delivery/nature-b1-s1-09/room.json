@@ -1,0 +1,191 @@
+{
+  "id": "nature-b1-s1-09",
+  "number": "09",
+  "type": "treasure",
+  "name": "林王封藏宝殿",
+  "size": [
+    19,
+    16,
+    19
+  ],
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        9,
+        2,
+        0
+      ],
+      "width": 3,
+      "clearHeight": 3,
+      "outward": [
+        0,
+        0,
+        -1
+      ]
+    }
+  ],
+  "source_evidence": {
+    "source": "rooms/treasure_room_lg",
+    "size": [
+      19,
+      16,
+      19
+    ],
+    "rule": "Keep measured 19x16x19 large treasure envelope, remove encounter/loot runtime; add one FT north entrance and empty container."
+  },
+  "sha256": "456bbdae00738e2a81060245c4e8fbef835db37c53721b51414f93ec611e02c6",
+  "entrance": [
+    9,
+    2,
+    0
+  ],
+  "interior": [
+    9,
+    2,
+    3
+  ],
+  "facing": "north",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S1-mossy-forest\\out\\S1-09-treasure.png",
+  "reference_sha256": "a19244af10654092098d143d2bcb5ce557a15023b770d3af9e005b8e449afc1a",
+  "group_fingerprint": "b94c1b8e2be1885e50fc5af3c35b7dde363a5ad1f449f1578a18c1348537cc13",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "rotation_pivot": [
+    0,
+    0,
+    0
+  ],
+  "feet_y": 2,
+  "route": [
+    [
+      8,
+      2,
+      0
+    ],
+    [
+      8,
+      2,
+      1
+    ],
+    [
+      8,
+      2,
+      2
+    ],
+    [
+      8,
+      2,
+      3
+    ],
+    [
+      8,
+      2,
+      4
+    ],
+    [
+      8,
+      2,
+      5
+    ],
+    [
+      8,
+      2,
+      6
+    ],
+    [
+      8,
+      2,
+      7
+    ],
+    [
+      9,
+      2,
+      0
+    ],
+    [
+      9,
+      2,
+      1
+    ],
+    [
+      9,
+      2,
+      2
+    ],
+    [
+      9,
+      2,
+      3
+    ],
+    [
+      9,
+      2,
+      4
+    ],
+    [
+      9,
+      2,
+      5
+    ],
+    [
+      9,
+      2,
+      6
+    ],
+    [
+      9,
+      2,
+      7
+    ],
+    [
+      10,
+      2,
+      0
+    ],
+    [
+      10,
+      2,
+      1
+    ],
+    [
+      10,
+      2,
+      2
+    ],
+    [
+      10,
+      2,
+      3
+    ],
+    [
+      10,
+      2,
+      4
+    ],
+    [
+      10,
+      2,
+      5
+    ],
+    [
+      10,
+      2,
+      6
+    ],
+    [
+      10,
+      2,
+      7
+    ]
+  ],
+  "roof_exceptions": [],
+  "status": "CANDIDATE_NOT_INTEGRATED",
+  "deviations": [
+    "Concept lighting is not reproduced as shader effects.",
+    "No closed door blocks the three-block-wide entrance.",
+    "Dimensions are integer block approximations; every entrance uses feet Y=2.",
+    "Treasure chests are intentionally empty; rewards and encounters are not implemented."
+  ],
+  "connections": "Align opposing port feet at matching height with a supported three-wide, three-high dry connector. Minecraft native structure rotation is around local [0,0,0], not the room center. Validate the entire bounding volume before placement. No automatic world placement is included."
+}

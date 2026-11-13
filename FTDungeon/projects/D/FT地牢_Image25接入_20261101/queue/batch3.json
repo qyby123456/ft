@@ -1,0 +1,165 @@
+{
+  "status": "RECEIVED_AND_QUEUED",
+  "received_at": "2026-11-01T22:43:15+08:00",
+  "source_directory": "D:\\ft工程文件\\image2.5\\dungeon-design-batch3-20261101",
+  "source_manifest_sha256": "c3ba4c69480ad820370adda1bc23ad3632d7f9791a7f219827a4b415a763166b",
+  "room_count": 6,
+  "ai_concepts": 5,
+  "local_renders": 1,
+  "image_review": "PASS",
+  "gate": "Finish current nine-room corrections and final FT deployment verification first; this queue does not alter the active catalog or incoming deliveries.",
+  "rooms": [
+    {
+      "id": "M5",
+      "name": "末地观星台 End Stargazer Terrace",
+      "tier": "中",
+      "design_dimensions": "15×15 h8",
+      "style": "末地",
+      "reference": "D:\\ft工程文件\\image2.5\\dungeon-design-batch3-20261101\\out\\M5-end-stargazer-terrace-hero.png",
+      "sha256": "dcd0ffbe2727cc55608994a09e224cac2a42d78bd1b60aca13d399d6cf858cae",
+      "source_kind": "image2.5_concept",
+      "image_decoded": true,
+      "image_size": [
+        1536,
+        1024
+      ],
+      "target_directory": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\incoming\\M5",
+      "target_template_id": "ftdungeonmobs:image25/m5",
+      "stages": {
+        "received": "PASS",
+        "construction": "QUEUED_NOT_DISPATCHED",
+        "static_qa": "NOT_RUN",
+        "native_placement_qa": "NOT_RUN",
+        "integration": "NOT_STARTED"
+      },
+      "adaptation_requirements": "末地观星台：保持连续安全地面；破损门仅为装饰，不放活动末地传送门或可爆炸末地水晶实体。水晶使用紫晶与玻璃转译，紫颂植物必须有原版合法支撑。"
+    },
+    {
+      "id": "M6",
+      "name": "地狱烈焰堡垒 Nether Bastion Hall",
+      "tier": "中",
+      "design_dimensions": "15×15 h9",
+      "style": "地狱",
+      "reference": "D:\\ft工程文件\\image2.5\\dungeon-design-batch3-20261101\\out\\M6-nether-bastion-hall-hero.png",
+      "sha256": "4fbbc2048340fbff123189e5df3bc011b8c5ba1fedef83a0950f2795113e0c91",
+      "source_kind": "image2.5_concept",
+      "image_decoded": true,
+      "image_size": [
+        1536,
+        1024
+      ],
+      "target_directory": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\incoming\\M6",
+      "target_template_id": "ftdungeonmobs:image25/m6",
+      "stages": {
+        "received": "PASS",
+        "construction": "QUEUED_NOT_DISPATCHED",
+        "static_qa": "NOT_RUN",
+        "native_placement_qa": "NOT_RUN",
+        "integration": "NOT_STARTED"
+      },
+      "adaptation_requirements": "地狱烈焰堡垒：熔岩瀑布有底与护面；魂火下方用灵魂土/灵魂沙，木桥不穿火源或裸露熔岩。吊笼和灯使用合法支撑。"
+    },
+    {
+      "id": "M7",
+      "name": "暗铁献祭地窖 Cataclysm-Style Sacrifice Crypt",
+      "tier": "中",
+      "design_dimensions": "13×13 h8",
+      "style": "灾变风",
+      "reference": "D:\\ft工程文件\\image2.5\\dungeon-design-batch3-20261101\\out\\M7-cataclysm-sacrifice-crypt-hero.png",
+      "sha256": "c9b49119f192c80c1d8aca9299efc8787ec1d7cafdb342745c78fea180f057be",
+      "source_kind": "image2.5_concept",
+      "image_decoded": true,
+      "image_size": [
+        1536,
+        1024
+      ],
+      "target_directory": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\incoming\\M7",
+      "target_template_id": "ftdungeonmobs:image25/m7",
+      "stages": {
+        "received": "PASS",
+        "construction": "QUEUED_NOT_DISPATCHED",
+        "static_qa": "NOT_RUN",
+        "native_placement_qa": "NOT_RUN",
+        "integration": "NOT_STARTED"
+      },
+      "adaptation_requirements": "暗铁献祭地窖：使用1.20.1原版暗色方块与金饰转译灾变视觉，不复制第三方模型；血池采用红色玻璃/地毯等封闭装饰，不增添未配置的危险流体或交互Boss。"
+    },
+    {
+      "id": "S5",
+      "name": "末地虚空回廊 End Void Passage",
+      "tier": "小",
+      "design_dimensions": "5×11 h4",
+      "style": "末地",
+      "reference": "D:\\ft工程文件\\image2.5\\dungeon-design-batch3-20261101\\out\\S5-end-void-passage-hero.png",
+      "sha256": "dc508de8c23a414740405a67eb1169553a3337b398dbdee54297ab9bdcf73bcf",
+      "source_kind": "local_three_render",
+      "image_decoded": true,
+      "image_size": [
+        1536,
+        1024
+      ],
+      "target_directory": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\incoming\\S5",
+      "target_template_id": "ftdungeonmobs:image25/s5",
+      "stages": {
+        "received": "PASS",
+        "construction": "QUEUED_NOT_DISPATCHED",
+        "static_qa": "NOT_RUN",
+        "native_placement_qa": "NOT_RUN",
+        "integration": "NOT_STARTED"
+      },
+      "adaptation_requirements": "本地THREE方块渲染，不标作image2.5成功生图；示意偏简，先做结构二次设计。保留虚空回廊风格但北入口至内部点必须连续可走，不做真实传送门、跳跃必经断桥或虚空坠落点。"
+    },
+    {
+      "id": "S6",
+      "name": "地狱魂火祭坛 Nether Soul-Fire Shrine",
+      "tier": "小",
+      "design_dimensions": "7×7 h5",
+      "style": "地狱",
+      "reference": "D:\\ft工程文件\\image2.5\\dungeon-design-batch3-20261101\\out\\S6-nether-soul-shrine-hero.png",
+      "sha256": "cd80e2ae91d8d5b47d80243422a87abcab5e0d68d8fda13d9c41365fea2b15a7",
+      "source_kind": "image2.5_concept",
+      "image_decoded": true,
+      "image_size": [
+        1536,
+        1024
+      ],
+      "target_directory": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\incoming\\S6",
+      "target_template_id": "ftdungeonmobs:image25/s6",
+      "stages": {
+        "received": "PASS",
+        "construction": "QUEUED_NOT_DISPATCHED",
+        "static_qa": "NOT_RUN",
+        "native_placement_qa": "NOT_RUN",
+        "integration": "NOT_STARTED"
+      },
+      "adaptation_requirements": "地狱魂火祭坛：保证魂火支撑、熔岩封闭和三格北门；祭坛绕行安全；头骨与灯有支撑，不预置刷怪实体。"
+    },
+    {
+      "id": "S7",
+      "name": "暗金囚笼 Cataclysm-Style Dark Iron Cell",
+      "tier": "小",
+      "design_dimensions": "7×7 h5",
+      "style": "灾变风",
+      "reference": "D:\\ft工程文件\\image2.5\\dungeon-design-batch3-20261101\\out\\S7-cataclysm-dark-iron-cell-hero.png",
+      "sha256": "6b5857d5b06a07ab67343b8faf1fc353802d56e14a24801681ab14ba94c8015e",
+      "source_kind": "image2.5_concept",
+      "image_decoded": true,
+      "image_size": [
+        1536,
+        1024
+      ],
+      "target_directory": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\incoming\\S7",
+      "target_template_id": "ftdungeonmobs:image25/s7",
+      "stages": {
+        "received": "PASS",
+        "construction": "QUEUED_NOT_DISPATCHED",
+        "static_qa": "NOT_RUN",
+        "native_placement_qa": "NOT_RUN",
+        "integration": "NOT_STARTED"
+      },
+      "adaptation_requirements": "暗金囚笼：牢笼是陈设，唯一通路不得由关闭铁门阻断；熔岩裂纹用发光拼花或封闭槽，不堆放奖励库存。"
+    }
+  ],
+  "construction_or_integration_completed": false,
+  "paid_generation_calls": 0
+}

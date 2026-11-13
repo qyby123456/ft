@@ -1,0 +1,149 @@
+{
+  "schema": "ft-independent-zone-room-qa-v1",
+  "id": "P03",
+  "name": "熔岩泡跳台",
+  "status": "PASS",
+  "sha256": "c95e063e7461496ab421f6c5e8d0642f9db3819330105db02fbcdd614927a161",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/parkour/P03-parkour-lava-bubble-jumps.png",
+  "reference_sha256": "2c844d5d29371dfc8e529c47aa77f3b61c48d64d3364aca57e365532e75dd6d3",
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "size": [
+    27,
+    13,
+    29
+  ],
+  "entrance": [
+    13,
+    5,
+    0
+  ],
+  "interior": [
+    13,
+    5,
+    3
+  ],
+  "exit": [
+    13,
+    5,
+    28
+  ],
+  "checks": {
+    "reference_and_batch_provenance": "PASS",
+    "static_nbt_geometry_and_full_air_volume": "PASS",
+    "complete_roof_and_base": "PASS",
+    "ports_three_wide_four_high": "PASS",
+    "five_jumps_clearance_and_landing": "PASS",
+    "all_336_catch_cells_recover_to_entry": "PASS",
+    "lava_289_sources_sealed_all_six_faces": "PASS",
+    "vanilla_registry_and_states": "PASS",
+    "forge_four_rotations_actual_placement": "PASS",
+    "native_200_tick_stability_and_neighbor_updates": "PASS",
+    "native_world_captures_match_source": "PASS",
+    "negative_fault_probes": "PASS",
+    "eight_lanterns_and_chain_anchors": "PASS",
+    "no_entities_drops_loot_or_forbidden_blocks": "PASS",
+    "four_internal_four_external_views": "PASS",
+    "visual_review_and_image_decode": "PASS"
+  },
+  "native_summary": {
+    "rotations": [
+      "NONE",
+      "CLOCKWISE_90",
+      "CLOCKWISE_180",
+      "COUNTERCLOCKWISE_90"
+    ],
+    "records_per_rotation": 10179,
+    "checked_after_ticks": 40716,
+    "stabilization_ticks": 200,
+    "scheduled_lava_ticks": true,
+    "forced_chunk_ticking": true,
+    "negative_probes": {
+      "missing_lava_bottom_detected": 4,
+      "jump_obstacle_detected": 4,
+      "missing_chain_detected": 4,
+      "occupied_explicit_air_refused": 4,
+      "missing_glass_lid_detected": 4
+    },
+    "route_results": [
+      {
+        "rotation": "NONE",
+        "status": "PASS",
+        "method": "native collision shapes swept with 0.6x1.8 player AABB; vanilla discrete jump samples; no human playthrough",
+        "catch_cells": 336,
+        "maximum_fall_blocks": 2,
+        "recovery_stair_step_height": 0.5,
+        "catch_cells_reaching_entry_stairs": 336,
+        "collision_subsamples": 18505,
+        "jumps": 5
+      },
+      {
+        "rotation": "CLOCKWISE_90",
+        "status": "PASS",
+        "method": "native collision shapes swept with 0.6x1.8 player AABB; vanilla discrete jump samples; no human playthrough",
+        "catch_cells": 336,
+        "maximum_fall_blocks": 2,
+        "recovery_stair_step_height": 0.5,
+        "catch_cells_reaching_entry_stairs": 336,
+        "collision_subsamples": 18505,
+        "jumps": 5
+      },
+      {
+        "rotation": "CLOCKWISE_180",
+        "status": "PASS",
+        "method": "native collision shapes swept with 0.6x1.8 player AABB; vanilla discrete jump samples; no human playthrough",
+        "catch_cells": 336,
+        "maximum_fall_blocks": 2,
+        "recovery_stair_step_height": 0.5,
+        "catch_cells_reaching_entry_stairs": 336,
+        "collision_subsamples": 18505,
+        "jumps": 5
+      },
+      {
+        "rotation": "COUNTERCLOCKWISE_90",
+        "status": "PASS",
+        "method": "native collision shapes swept with 0.6x1.8 player AABB; vanilla discrete jump samples; no human playthrough",
+        "catch_cells": 336,
+        "maximum_fall_blocks": 2,
+        "recovery_stair_step_height": 0.5,
+        "catch_cells_reaching_entry_stairs": 336,
+        "collision_subsamples": 18505,
+        "jumps": 5
+      }
+    ],
+    "external_fluid_cells": 0,
+    "world_entities": 0
+  },
+  "evidence": {
+    "static": "qa/static.json",
+    "route": "qa/route.json",
+    "native": "qa/native.json",
+    "native_log": "qa/forge-gametest.log",
+    "views": "qa/views.json",
+    "visual_review": "qa/visual-review.json",
+    "image_decode": "qa/image-decode.json",
+    "provenance": "qa/provenance.json",
+    "interior_sheet": "views/interior-sheet.png",
+    "exterior_sheet": "views/exterior-sheet.png",
+    "route_plan": "views/route-plan.png",
+    "native_captures": [
+      "qa\\native-placed-none.nbt",
+      "qa\\native-placed-clockwise_90.nbt",
+      "qa\\native-placed-clockwise_180.nbt",
+      "qa\\native-placed-counterclockwise_90.nbt"
+    ]
+  },
+  "not_tested": [
+    "Full FarmingTales client human playthrough, multiplayer and FPS.",
+    "FT core integration, dungeon connections and return portals."
+  ],
+  "safety": {
+    "deployed": false,
+    "player_saves_opened_or_modified": false,
+    "mods_or_production_jars_modified": false,
+    "parallel_rooms_modified": false,
+    "paid_image_api_called": false,
+    "test_world": "native-qa/run-isolated/world",
+    "qa_fixture_must_not_be_deployed": true
+  }
+}

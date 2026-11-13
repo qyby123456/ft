@@ -1,0 +1,36 @@
+{
+  "status": "PENDING_INDEPENDENT_REVIEW",
+  "reference": {
+    "path": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S1-mossy-forest\\out\\S1-04-great-hall.png",
+    "sha256": "359d4f72296c68591d5249bbabd49c0a38c85f8334bd403e3d7d78873dc34c4d",
+    "bytes": 3044384
+  },
+  "structure": {
+    "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b04-s1-04-20261105\\nature-redo-b04-s1-04\\room.nbt",
+    "sha256": "a7b46fb3d1e71bb41f743acdc3e72412c58b34a98d2e771805803697d5340265",
+    "bytes": 60987
+  },
+  "image_landmarks": [
+    "Long straight central aisle and moss floor medallion",
+    "Three pairs of thick columns with stepped plinths",
+    "Tall stepped arch at north end",
+    "Twin front-side shallow pools",
+    "Side-wall roots, overhead foliage and red/gold wall banners"
+  ],
+  "adaptations": [
+    "31x18x35 integer interpretation; not exact measured geometry.",
+    "Full roof/near walls enclose the image cutaway. Front steps replaced by level connector threshold.",
+    "Full-block stepped column bases, roots and arched head approximate sloped edges.",
+    "Two patterned vanilla wall banners approximate red/gold hangings; no containers or generated loot.",
+    "No exterior forest, shader sunbeams, particles, encounters or mechanisms."
+  ],
+  "preview_limitation": "Installed Lodestone renders banners as plain red; yellow border/stripe patterns are present in final NBT and validated in four native captures. No altered pixels or painted overlay.",
+  "cutaway_rules": {
+    "roof": "Display only: hide y>=17.",
+    "hero": "Additionally hide x<=1 or z>=33 at y>=2.",
+    "directional": "At y>=2 hide north z<=1, south z>=33, west x<=1 or east x>=29 respectively.",
+    "full": "No blocks removed, including player-interior and four exterior views.",
+    "native_nbt_modified": false
+  },
+  "next_image_authorized": false
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>M04 末地淹水吊笼长廊 · 独立交付</title>
+<style>
+body{background:#111725;color:#e8e3ed;font:16px/1.65 'Microsoft YaHei',sans-serif;max-width:1500px;margin:35px auto;padding:0 24px}h1{margin-bottom:5px;color:#dcc7ef}a{color:#b5def1}p{color:#bac6d8}.chips{display:flex;gap:10px;flex-wrap:wrap}.chips span{background:#29233a;padding:6px 14px;border-radius:8px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}img{width:100%;display:block;border-radius:12px;border:1px solid #3b3450}.hero{margin:24px 0}h2{margin-top:32px}figure{margin:0}figcaption{margin:6px 0 12px;color:#b8c5d7}@media(max-width:800px){.grid{grid-template-columns:1fr}}
+</style>
+<h1>M04 · 末地淹水吊笼长廊</h1>
+<p>中型一字贯通结构 · 独立交付 · 未部署 · 未读取或修改玩家存档</p>
+<div class="chips"><span>13 × 12 × 41</span><span>2.56 区块长</span><span>南北 3×4 双端口</span><span>3 格宽干路</span><span>222 格封闭浅水</span><span>8 组空吊笼</span></div>
+<p><a href="room.nbt">room.nbt</a> · <a href="room.json">room.json</a> · <a href="qa.json">QA 汇总</a> · <a href="qa/forge-placement.json">Forge 四向 / 200 tick 证据</a> · <a href="README.md">交付说明</a> · <a href="STATIC_QA.md">静态 QA</a> · <a href="delivery-manifest.json">SHA-256 清单</a></p>
+<figure class="hero"><img src="preview.png" alt="由最终 NBT 渲染的 M04 北端向南视图"><figcaption>完整 NBT 轴向视线；Minecraft Builder / Lodestone 软件渲染，不是游戏实机截图。</figcaption></figure>
+<h2>内部四向 · 仅显示时剖切</h2>
+<p>移除屋面与近侧墙以检查内部。最终 NBT 保留完整外壳，不交付剖开版本。</p>
+<div class="grid"><img src="views/interior-north.png" alt="内部北面"><img src="views/interior-south.png" alt="内部南面"><img src="views/interior-west.png" alt="内部西面"><img src="views/interior-east.png" alt="内部东面"></div>
+<h2>完整外壳四向</h2>
+<div class="grid"><img src="views/exterior-north.png" alt="外观北面"><img src="views/exterior-south.png" alt="外观南面"><img src="views/exterior-west.png" alt="外观西面"><img src="views/exterior-east.png" alt="外观东面"></div>
+<h2>南端反向轴视</h2><img src="views/axial-south.png" alt="完整 NBT 南端向北">
+<p>来源：M04-end-flooded.png，SHA-256 537f369f2598d7c3f603011fca9b64e69f2793fe458285bc44da1afdeee10eee。保留末地石 / 紫珀 / 黑曜石 / 灯 / 悬笼 / 潮湿藤蔓；将满幅积水安全改为两侧浅水、中央等高干路。</p>
+<p>证据边界：Forge 47.4.10 的原生放置发生于本交付目录中的一次性隔离 GameTest 世界；没有整合包客户端、多人、FT 大厅接路、持久生成标记或部署声明。</p>
+</html>

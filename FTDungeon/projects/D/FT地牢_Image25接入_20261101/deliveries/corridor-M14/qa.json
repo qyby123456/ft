@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "id": "corridor-M14",
+  "design_id": "M14",
+  "sha256": "186bb72489d05fdf57c68ac68b84320a43af61d6b7842702b2b8585e2288d1ca",
+  "reference_sha256": "aeea1468c5e12912daa7b14bded792897778cd3331cca76999c302646e11ea31",
+  "size": [
+    15,
+    12,
+    41
+  ],
+  "summary": {
+    "medium_length_blocks": 41,
+    "straight": true,
+    "turns": 0,
+    "branches": 0,
+    "stairs": 0,
+    "static_checks": 13,
+    "full_volume_records": 7380,
+    "solid_blocks": 4283,
+    "north_port": [
+      7,
+      2,
+      0
+    ],
+    "interior": [
+      7,
+      2,
+      4
+    ],
+    "south_port": [
+      7,
+      2,
+      40
+    ],
+    "full_roof_cells": 615,
+    "dry_reachable_feet": 316,
+    "interior_views": 4,
+    "exterior_views": 4,
+    "native_rotations_passed": 4,
+    "native_records_compared_per_phase": 29520,
+    "native_checks_phases": [
+      "immediate",
+      "after_400_ticks"
+    ],
+    "native_neighbor_shape_updates": 29520,
+    "native_stability_ticks": 400,
+    "forced_random_ticks": 0,
+    "reason_no_forced_random_ticks": "The selected stable blocks report no randomly-ticking states; randomTickSpeed remains 3 during the fixture.",
+    "live_fluids": 0,
+    "entities": 0,
+    "block_entities": 0,
+    "containers": 0
+  },
+  "evidence": {
+    "static": "qa/static.json",
+    "native": "qa/native.json",
+    "visual": "qa/visual-review.json",
+    "lodestone": "qa/lodestone-render.json",
+    "native_run": "evidence/native-run.json",
+    "log": "evidence/forge-gametest-m14-attempt2-20261103.log",
+    "internal_sheet": "preview/four-views/m14-final/corridor-M14/interior-four-views.png",
+    "external_sheet": "preview/four-views/m14-final/corridor-M14/exterior-four-views.png"
+  },
+  "history": [
+    {
+      "attempt": 1,
+      "result": "Fixture setup failure before room test",
+      "detail": "Missing empty test structure; fixed by prepare-fixture.mjs, attempt1 logs and isolated crash report retained."
+    },
+    {
+      "attempt": 2,
+      "result": "PASS",
+      "detail": "Real Forge placement, neighbor-shape update and 400-tick stability all passed with final NBT fingerprint."
+    }
+  ],
+  "integration_ready_for_coordinator_review": true,
+  "integrated_or_deployed": false,
+  "production_saves_touched": false,
+  "production_jars_or_sources_modified": false,
+  "full_modpack_client_playtest": false
+}

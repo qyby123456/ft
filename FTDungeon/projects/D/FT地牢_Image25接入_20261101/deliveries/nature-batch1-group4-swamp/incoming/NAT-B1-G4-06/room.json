@@ -1,0 +1,607 @@
+{
+  "id": "NAT-B1-G4-06",
+  "name": "湿地直角转廊",
+  "kind": "corner",
+  "size": [
+    13,
+    8,
+    13
+  ],
+  "entrance": [
+    6,
+    2,
+    0
+  ],
+  "interior": [
+    6,
+    2,
+    2
+  ],
+  "facing": "north",
+  "exits": [
+    {
+      "face": "east",
+      "position": [
+        12,
+        2,
+        6
+      ]
+    }
+  ],
+  "topology": {
+    "pattern": "supporting_corner"
+  },
+  "vertical_layers": {
+    "foundation": 0,
+    "sealed_water": 1,
+    "dry_walk_feet": 2,
+    "observation_feet": null
+  },
+  "mechanisms": {
+    "active": false,
+    "passive": "water separates dry islets, enforcing dog-leg circulation; no reward, trap or redstone claims"
+  },
+  "source_evidence": {
+    "id": "NAT-B1-G4-06",
+    "source_nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\hallways\\hallway_turn.nbt",
+    "source_sha256": "94c57a9a43219a93c26181a1254bd9e0ecc6a8fc13bac0357f469f983b86df60",
+    "source_details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\hallways\\hallway_turn.json",
+    "source_details_sha256": "14b0208571cfcaaca02d342c119c10518d9811eabdd3c8459795eb356ad5611f",
+    "source_size": [
+      5,
+      8,
+      5
+    ],
+    "output_size": [
+      13,
+      8,
+      13
+    ],
+    "source_palette_names": [
+      "minecraft:air",
+      "minecraft:jigsaw",
+      "minecraft:stone_brick_slab",
+      "minecraft:stone_brick_stairs",
+      "minecraft:stone_brick_wall",
+      "minecraft:stone_bricks",
+      "minecraft:yellow_stained_glass"
+    ],
+    "source_top_blocks": [
+      [
+        "minecraft:air",
+        106
+      ],
+      [
+        "minecraft:stone_bricks",
+        46
+      ],
+      [
+        "minecraft:stone_brick_wall",
+        25
+      ],
+      [
+        "minecraft:stone_brick_stairs",
+        13
+      ],
+      [
+        "minecraft:stone_brick_slab",
+        5
+      ],
+      [
+        "minecraft:jigsaw",
+        4
+      ],
+      [
+        "minecraft:yellow_stained_glass",
+        1
+      ]
+    ],
+    "source_connectors_raw": [
+      {
+        "pos": [
+          0,
+          1,
+          3
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "west_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hallway",
+          "pool": "betterstrongholds:hall_doorway",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_doorway"
+        }
+      },
+      {
+        "pos": [
+          1,
+          1,
+          0
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "north_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:hall_wall",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_wall"
+        }
+      },
+      {
+        "pos": [
+          3,
+          1,
+          4
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "south_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hallway",
+          "pool": "betterstrongholds:hall_doorway",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_doorway"
+        }
+      },
+      {
+        "pos": [
+          4,
+          1,
+          1
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "east_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:hall_wall",
+          "final_state": "stone_brick_wall[east=none,north=tall,south=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_wall"
+        }
+      }
+    ],
+    "inherited_role": "turn module separated from wall/doorway sockets",
+    "declared_changes": "Source 5x8x5; widen each axis to 2*5+3=13 for dry 3-wide bend plus wall/lamps; select N/E as external connection faces. Source raw faces are NOT claimed unchanged."
+  },
+  "connection_points": [
+    {
+      "face": "north",
+      "position": [
+        6,
+        2,
+        0
+      ],
+      "aperture": [
+        3,
+        3
+      ],
+      "coordinates": "relative XYZ player feet",
+      "clearance_required_outside": true
+    },
+    {
+      "face": "east",
+      "position": [
+        12,
+        2,
+        6
+      ],
+      "aperture": [
+        3,
+        3
+      ],
+      "coordinates": "relative XYZ player feet",
+      "clearance_required_outside": true
+    }
+  ],
+  "open_sky": false,
+  "footprint": [
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      9,
+      8
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      10,
+      7
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      10,
+      9
+    ],
+    [
+      11,
+      3
+    ],
+    [
+      11,
+      4
+    ],
+    [
+      11,
+      5
+    ],
+    [
+      11,
+      6
+    ],
+    [
+      11,
+      7
+    ],
+    [
+      11,
+      8
+    ],
+    [
+      11,
+      9
+    ],
+    [
+      12,
+      3
+    ],
+    [
+      12,
+      4
+    ],
+    [
+      12,
+      5
+    ],
+    [
+      12,
+      6
+    ],
+    [
+      12,
+      7
+    ],
+    [
+      12,
+      8
+    ],
+    [
+      12,
+      9
+    ]
+  ],
+  "reference": "D:/ft工程文件/image2.5/nature-dungeon-styles-20261104/S4-swamp-wetland/out/S4-06-corner.png",
+  "design_deviations": [
+    "Concept cutaways are preview only; non-courtyard modules have complete roofs.",
+    "Flooded floors replaced by sealed shallow side pools and dry full-block circulation.",
+    "Vanilla 1.20.1 only. No entities, rewards or spawners."
+  ],
+  "sha256": "fb87012ab17fad93de2212d20d78023e4763aedceaf2d741c09f80265393a564",
+  "reference_sha256": "4f487bd7b2b38043d335ed961b8ebee9115e9540ae2305f223b251e1e20e7420",
+  "integration_status": "isolated_candidate_not_deployed",
+  "source_palette_retained": [
+    "minecraft:stone_bricks"
+  ],
+  "theme_palette_additions": [
+    "minecraft:cracked_stone_bricks",
+    "minecraft:dark_oak_log",
+    "minecraft:dark_oak_planks",
+    "minecraft:mossy_cobblestone",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:mud_bricks",
+    "minecraft:ochre_froglight"
+  ],
+  "dry_graph_sha256": "4a19dea389e7b5fb28961a6b7b4c2e3ccbbd89442158a34f57ab353d6a65205f"
+}

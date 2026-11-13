@@ -1,0 +1,103 @@
+{
+  "status": "PRODUCER_TECHNICAL_PASS_PENDING_INDEPENDENT_REVIEW",
+  "sha256": "694be553a2ddb517877ecde7b59380be666d85500cc1b912e6b69565b37d0f1f",
+  "static": {
+    "id": "nature-redo-b09-s1-09",
+    "status": "PASS",
+    "sha256": "694be553a2ddb517877ecde7b59380be666d85500cc1b912e6b69565b37d0f1f",
+    "size": [
+      29,
+      17,
+      29
+    ],
+    "records": 14297,
+    "palette": {
+      "minecraft:stone_bricks": 1961,
+      "minecraft:moss_block": 183,
+      "minecraft:cracked_stone_bricks": 421,
+      "minecraft:mossy_stone_bricks": 1868,
+      "minecraft:chiseled_stone_bricks": 118,
+      "minecraft:air": 9037,
+      "minecraft:dark_oak_log": 440,
+      "minecraft:terracotta": 2,
+      "minecraft:potted_red_mushroom": 2,
+      "minecraft:oak_leaves": 171,
+      "minecraft:cave_vines": 6,
+      "minecraft:cave_vines_plant": 13,
+      "minecraft:water": 6,
+      "minecraft:carved_pumpkin": 2,
+      "minecraft:gold_block": 2,
+      "minecraft:red_terracotta": 44,
+      "minecraft:red_wall_banner": 2,
+      "minecraft:lantern": 3,
+      "minecraft:stone_brick_slab": 15,
+      "minecraft:chest": 1
+    },
+    "reachable_feet": 572,
+    "required_route_feet": 177,
+    "water_cells": 6,
+    "containers": 1,
+    "noncontainer_block_entities": 2,
+    "roof_exceptions": 0,
+    "scope": "Static NBT bounds, full explicit volume, walkability, 3-high route, sealed water, vine support, empty inventory, complete roof except declared courtyard skylight. Not native engine validation."
+  },
+  "support": {
+    "status": "PASS",
+    "source_nbt_sha256": "694be553a2ddb517877ecde7b59380be666d85500cc1b912e6b69565b37d0f1f",
+    "method": "Six-face graph from Y=0, all nonair/nonfluid blocks including leaves and hanging decoration. Geometric connectivity; native survival checked separately.",
+    "nonfluid_blocks": 5254,
+    "ground_connected_blocks": 5254,
+    "detached_blocks": []
+  },
+  "native": [
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b09-s1-09-20261105\\nature-redo-b09-s1-09\\forge-none.json",
+      "sha256": "f44da1b1abfbe8834990b4ec4d072de5157afaf4a00464b15ebcde891e876798",
+      "bytes": 1022
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b09-s1-09-20261105\\nature-redo-b09-s1-09\\forge-clockwise_90.json",
+      "sha256": "8ea17e7211fe3cb872247a089219c457a6149258343049a38d83820e85895456",
+      "bytes": 1038
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b09-s1-09-20261105\\nature-redo-b09-s1-09\\forge-clockwise_180.json",
+      "sha256": "806acad34bd4201f40e1da4790a29a6b737188d297cb27f19fb36116b5df4594",
+      "bytes": 1040
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b09-s1-09-20261105\\nature-redo-b09-s1-09\\forge-counterclockwise_90.json",
+      "sha256": "a76143fa02c23104023e72e5795398b39863f2bb53c88bd4ffd61280a0efaa1f",
+      "bytes": 1052
+    }
+  ],
+  "specialized_native": [
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b09-s1-09-20261105\\nature-redo-b09-s1-09\\treasure-analysis-none.json",
+      "sha256": "d19e012d5ccd5adb7a6f49fc681c31f8e3d3d228ba68ba3357b0f01e11504c1a",
+      "bytes": 550
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b09-s1-09-20261105\\nature-redo-b09-s1-09\\treasure-analysis-clockwise_90.json",
+      "sha256": "d19e012d5ccd5adb7a6f49fc681c31f8e3d3d228ba68ba3357b0f01e11504c1a",
+      "bytes": 550
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b09-s1-09-20261105\\nature-redo-b09-s1-09\\treasure-analysis-clockwise_180.json",
+      "sha256": "d19e012d5ccd5adb7a6f49fc681c31f8e3d3d228ba68ba3357b0f01e11504c1a",
+      "bytes": 550
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b09-s1-09-20261105\\nature-redo-b09-s1-09\\treasure-analysis-counterclockwise_90.json",
+      "sha256": "d19e012d5ccd5adb7a6f49fc681c31f8e3d3d228ba68ba3357b0f01e11504c1a",
+      "bytes": 550
+    }
+  ],
+  "native_capture_comparisons": "qa/capture-comparisons.json",
+  "render": "qa/render.json",
+  "real_player_interaction": "NOT_RUN",
+  "gameplay": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "natural_random_ticks": "NOT_CERTIFIED",
+  "integrated": false
+}

@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="fth01qa"
+version="1.0"
+displayName="H01 Throne Hall Isolated QA Only"
+description='''Disposable verification fixture. Never deploy to a player instance.'''
+[[dependencies.fth01qa]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.fth01qa]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

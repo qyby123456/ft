@@ -1,0 +1,54 @@
+{
+  "id": "corridor-S13",
+  "status": "PASS",
+  "scope": "Producer delivery: static + eight-image visual review + isolated native Forge QA",
+  "nbt_sha256": "e0dea56d7299795c44c5717160ba1dc1cd07db5799d04e6a4c48a898ad0dddd8",
+  "reference_sha256": "91a5ac1e968b27eaab5641524e3923b5dff855fd885d1cf84237b5c46bc0e8c4",
+  "static": {
+    "status": "PASS",
+    "report": {
+      "path": "qa/static.json",
+      "sha256": "4e28128fa4b57afa7081f023b070d92c6b58db6a2245b919352b53e68381f136",
+      "bytes": 2179
+    },
+    "checks": 21
+  },
+  "four_view": {
+    "status": "PASS",
+    "report": {
+      "path": "qa/four-view-review.json",
+      "sha256": "a96bae54d4e54c919401be6c31a311891408ebda193cec1c0d60d09bbe3aa257",
+      "bytes": 4623
+    },
+    "view_count": 8
+  },
+  "forge_native": {
+    "status": "PASS",
+    "report": {
+      "path": "qa/native-result.json",
+      "sha256": "7d7d8e6993524d8e8c30fe0180a025e1294d298ad5ff13cff235b7284b89f022",
+      "bytes": 2701
+    },
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "stable_ticks": 300,
+    "records": 10560
+  },
+  "producer_ready_for_receiver_review": true,
+  "ready_for_unified_integration": false,
+  "receiver_acceptance": "PENDING_INDEPENDENT_FREEZE_REVIEW_AND_RETEST",
+  "deployment": "NOT_DEPLOYED",
+  "production_save_accessed": false,
+  "blockers": [],
+  "limitations": [
+    "Producer QA only; receiving coordinator must independently revalidate frozen files.",
+    "No hall links, occupancy rejection, idempotence, persistent markers or catalog integration tested.",
+    "No full-modpack client, multiplayer, performance or screenshot claims. 300 ticks is bounded."
+  ]
+}

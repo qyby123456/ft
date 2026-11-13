@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "id": "zone-M04",
+  "producer_acceptance": "PASS",
+  "unified_receiver_acceptance": "PENDING",
+  "structure_sha256": "a52413917ad6cd7f9db2627b2a98fb198472e122a1aa9b7434666449808b2e67",
+  "reference_sha256": "8f286ff92140350e6a640892d251f870954b4e1ead0117ae5cce2f50950d5ac2",
+  "artifact": {
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "size": [
+      25,
+      14,
+      25
+    ],
+    "records": 8750,
+    "data_version": 3465,
+    "compression": "gzip",
+    "palette": "single"
+  },
+  "static": {
+    "status": "PASS",
+    "file": "qa/static.json",
+    "checks": 10,
+    "route_cells": 72
+  },
+  "visual": {
+    "status": "PASS",
+    "file": "qa/visual-review.json",
+    "render": "qa/render.json",
+    "four_direction_interior_and_exterior": true,
+    "full_nbt_interior_views": 2,
+    "software_render_not_game_screenshot": true
+  },
+  "forge_native": {
+    "status": "PASS",
+    "file": "qa/native.json",
+    "log": "qa/forge-20261103-124920-534.log",
+    "rotations": 4,
+    "placements": 8,
+    "elapsed_server_ticks": 400,
+    "palette_states": 39,
+    "compared_records_per_snapshot": 35000,
+    "player_collision_aabb": [
+      0.6,
+      1.8,
+      0.6
+    ],
+    "dry_route_cells_with_approach_per_rotation": 81,
+    "safe_landing_cells_per_rotation": 25,
+    "full_roof_blocks": 625,
+    "source_lava_per_rotation": 57,
+    "lava_native_random_tick_stress_calls": 4332,
+    "source_fluid_ticks_scheduled": true,
+    "do_fire_tick": true,
+    "fluid_fire_boundary_cells_per_rotation": 16182,
+    "leaks": 0,
+    "fire": 0,
+    "unsupported_blocks": 0,
+    "state_changes": 0,
+    "entities_or_item_drops": 0,
+    "native_auto_created_empty_containers": 9
+  },
+  "independent_native_capture": {
+    "status": "PASS",
+    "file": "qa/capture-comparison.json",
+    "captures": 4,
+    "compared_records": 35000,
+    "mismatches": 0
+  },
+  "reference": {
+    "status": "PASS",
+    "file": "qa/reference.json"
+  },
+  "design_safety": {
+    "six_face_lava_seal": true,
+    "sealed_full_block_glass_cap": true,
+    "iron_guardrails": true,
+    "three_wide_solid_bridge": true,
+    "five_by_five_safe_landing": true,
+    "continuous_floor_to_roof_columns": 4,
+    "chain_anchored_lamps": 6,
+    "full_roof": true,
+    "flame_or_open_lava": false
+  },
+  "initial_rejections": [
+    {
+      "log": "qa/forge-20261103-124014-803.log",
+      "reason": "PowerShell launch wrapper treated javac deprecation stderr as a terminating shell error; no successful test claimed."
+    },
+    {
+      "archive": "qa/baseline-before-beam-fix/",
+      "reason": "Superseded lamp/beam anchoring before full native acceptance."
+    }
+  ],
+  "deployment": {
+    "deployed": false,
+    "formal_files_modified": false,
+    "player_saves_opened": false,
+    "integration_performed": false,
+    "ready_for_unified_integration": false
+  },
+  "scope": "Producer verification only. No formal integration, lobby route, persistent generation/idempotency/occupancy or full-modpack client/multiplayer/FPS claim. Lava isolation assumes the delivered enclosure remains intact."
+}

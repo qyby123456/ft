@@ -1,0 +1,258 @@
+{
+  "schema": "ft-independent-zone-room-v1",
+  "id": "zone-M01",
+  "batch_id": "M01",
+  "batch_type": "zone",
+  "name": "活跃矿道",
+  "kind": "mine",
+  "size": [
+    27,
+    11,
+    23
+  ],
+  "entrance": [
+    13,
+    2,
+    22
+  ],
+  "interior": [
+    13,
+    2,
+    18
+  ],
+  "safe_point": [
+    13,
+    2,
+    18
+  ],
+  "floor_y": 1,
+  "player_feet_y": 2,
+  "facing": "south",
+  "ports": [
+    {
+      "side": "south",
+      "feet": [
+        13,
+        2,
+        22
+      ],
+      "width": 5,
+      "clear_height": 5,
+      "purpose": "pedestrian entrance"
+    },
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        9
+      ],
+      "width": 5,
+      "clear_height": 5,
+      "rail_center": [
+        0,
+        2,
+        10
+      ]
+    },
+    {
+      "side": "east",
+      "feet": [
+        26,
+        2,
+        9
+      ],
+      "width": 5,
+      "clear_height": 5,
+      "rail_center": [
+        26,
+        2,
+        10
+      ]
+    }
+  ],
+  "route": {
+    "pedestrian_lanes_z": [
+      8,
+      9,
+      11,
+      12
+    ],
+    "x_range": [
+      0,
+      26
+    ],
+    "south_stem_x": [
+      11,
+      15
+    ],
+    "south_stem_z": [
+      13,
+      22
+    ],
+    "clearance_height": 3,
+    "rail_axis": "x",
+    "rail_z": 10,
+    "route_cells": 158
+  },
+  "roof": {
+    "intact": true,
+    "ceiling_y": 9,
+    "roof_y": 10,
+    "cells": 621
+  },
+  "support_posts": [
+    [
+      6,
+      2,
+      5
+    ],
+    [
+      6,
+      2,
+      16
+    ],
+    [
+      20,
+      2,
+      5
+    ],
+    [
+      20,
+      2,
+      16
+    ]
+  ],
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/mines/M01-mines-active-mine-tunnel.png",
+  "reference_sha256": "13dfd6e737c9fcbbee1b171b94d70c21b20e605140b101878cf369aaf2eb8038",
+  "source_documents": [
+    {
+      "file": "D:\\ft工程文件\\image2.5\\dungeon-zone-batch-20261103\\README.md",
+      "sha256": "45a8eda9fbdc4b7db4795bc6d4e9095cd614890b2d479cd5e32f35ee45dc8ff2"
+    },
+    {
+      "file": "D:\\ft工程文件\\image2.5\\dungeon-zone-batch-20261103\\docs\\manifest.json",
+      "sha256": "3ec0b61e4bf71cf8aa56cab60ecd65d0e827b453339afea9e52b71394ba73ac7",
+      "image_record": {
+        "file": "out/mines/M01-mines-active-mine-tunnel.png",
+        "category": "mines",
+        "bytes": 1995105,
+        "sha256": "13dfd6e737c9fcbbee1b171b94d70c21b20e605140b101878cf369aaf2eb8038",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "ok": true
+      }
+    },
+    {
+      "file": "D:\\ft工程文件\\image2.5\\dungeon-zone-batch-20261103\\docs\\verify.json",
+      "sha256": "33d141b3efbe6271ac2b8b4fbf62e9ecf6f001076af9c477d05913cec838e11c",
+      "image_record": {
+        "file": "out/mines/M01-mines-active-mine-tunnel.png",
+        "category": "mines",
+        "bytes": 1995105,
+        "sha256": "13dfd6e737c9fcbbee1b171b94d70c21b20e605140b101878cf369aaf2eb8038",
+        "size": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "ok": true
+      }
+    }
+  ],
+  "sha256": "8138c9601ce31b828ccd1fea88670cf81cde03455bde73d76d6b0e6c7c9837fd",
+  "data_version": 3465,
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "materials": {
+    "minecraft:stone": 1962,
+    "minecraft:andesite": 128,
+    "minecraft:stone_bricks": 150,
+    "minecraft:polished_andesite": 39,
+    "minecraft:cobblestone": 32,
+    "minecraft:coal_ore": 74,
+    "minecraft:stripped_spruce_log": 159,
+    "minecraft:air": 3524,
+    "minecraft:rail": 27,
+    "minecraft:spruce_planks": 633,
+    "minecraft:spruce_fence": 20,
+    "minecraft:spruce_slab": 18,
+    "minecraft:iron_ore": 28,
+    "minecraft:barrel": 4,
+    "minecraft:coal_block": 2,
+    "minecraft:stone_slab": 2,
+    "minecraft:lantern": 6,
+    "minecraft:chain": 12,
+    "minecraft:spruce_stairs": 4,
+    "minecraft:cauldron": 2,
+    "minecraft:crafting_table": 1,
+    "minecraft:anvil": 1,
+    "minecraft:grindstone": 1,
+    "minecraft:raw_iron_block": 2
+  },
+  "empty_containers": [
+    [
+      3,
+      2,
+      3
+    ],
+    [
+      4,
+      2,
+      20
+    ],
+    [
+      9,
+      2,
+      3
+    ],
+    [
+      23,
+      2,
+      4
+    ]
+  ],
+  "entities": 0,
+  "lanterns": [
+    [
+      6,
+      5,
+      7
+    ],
+    [
+      6,
+      5,
+      10
+    ],
+    [
+      6,
+      5,
+      14
+    ],
+    [
+      20,
+      5,
+      7
+    ],
+    [
+      20,
+      5,
+      10
+    ],
+    [
+      20,
+      5,
+      14
+    ]
+  ],
+  "interpretation": "Coal/iron ore walls, four grounded timber posts, crossing support beams, six chain lanterns, continuous rail with pedestrian lanes, empty barrels, workbench/anvil/grindstone and ore sorting bins. Reference minecarts are represented by stationary sorting bins off the railway; no minecart entities. Full roof retained; preview cutaway only.",
+  "nbt_air_policy": "All 6831 cells explicit, including air. Full-volume occupancy and entity/fluid/world-border preflight required before any integration.",
+  "deployment": "not_deployed",
+  "production_saves_modified": false,
+  "recipe": "tools/recipe.mjs",
+  "preview": "preview.png",
+  "qa": "qa.json"
+}

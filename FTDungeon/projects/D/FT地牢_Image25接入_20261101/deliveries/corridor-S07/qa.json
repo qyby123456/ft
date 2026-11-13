@@ -1,0 +1,145 @@
+{
+  "id": "corridor-S07",
+  "concept_id": "S07",
+  "status": "PASS",
+  "ready_for_unified_intake": true,
+  "deployed": false,
+  "player_save_modified": false,
+  "finished_at": "2026-11-03T12:09:06.925397+08:00",
+  "sha256": "ba47a1f1f426b18f8a6698217fb36a073cbc9fe649e4efc10bc050734afecb19",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\S07-crystal-cave-flooded.png",
+  "reference_sha256": "7775b4e93df8aca46065fcc18c12ceba8cf20979d263ceaf2947f539b9759be9",
+  "size": [
+    13,
+    11,
+    16
+  ],
+  "entrance": [
+    6,
+    2,
+    0
+  ],
+  "interior": [
+    6,
+    2,
+    3
+  ],
+  "exit": [
+    6,
+    2,
+    15
+  ],
+  "static": {
+    "status": "PASS",
+    "checks": 12,
+    "evidence": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S07\\qa\\static.json"
+  },
+  "forge_native": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "ticks_observed": 240,
+    "rotations": [
+      {
+        "rotation": "NONE",
+        "states_preserved": 2288,
+        "collision_reachable_positions": 56,
+        "continuous_dry_route_cells": 48,
+        "clear_height": 4,
+        "sealed_source_water_cells": 72,
+        "end_rods": 12,
+        "roof_anchored_cage_chains": 8,
+        "stable_iron_bars": 32,
+        "supported_crystals": 15,
+        "roof_and_base_blocks_verified": 416,
+        "fluid_leaks": 0,
+        "dropped_items": 0
+      },
+      {
+        "rotation": "CLOCKWISE_90",
+        "states_preserved": 2288,
+        "collision_reachable_positions": 56,
+        "continuous_dry_route_cells": 48,
+        "clear_height": 4,
+        "sealed_source_water_cells": 72,
+        "end_rods": 12,
+        "roof_anchored_cage_chains": 8,
+        "stable_iron_bars": 32,
+        "supported_crystals": 15,
+        "roof_and_base_blocks_verified": 416,
+        "fluid_leaks": 0,
+        "dropped_items": 0
+      },
+      {
+        "rotation": "CLOCKWISE_180",
+        "states_preserved": 2288,
+        "collision_reachable_positions": 56,
+        "continuous_dry_route_cells": 48,
+        "clear_height": 4,
+        "sealed_source_water_cells": 72,
+        "end_rods": 12,
+        "roof_anchored_cage_chains": 8,
+        "stable_iron_bars": 32,
+        "supported_crystals": 15,
+        "roof_and_base_blocks_verified": 416,
+        "fluid_leaks": 0,
+        "dropped_items": 0
+      },
+      {
+        "rotation": "COUNTERCLOCKWISE_90",
+        "states_preserved": 2288,
+        "collision_reachable_positions": 56,
+        "continuous_dry_route_cells": 48,
+        "clear_height": 4,
+        "sealed_source_water_cells": 72,
+        "end_rods": 12,
+        "roof_anchored_cage_chains": 8,
+        "stable_iron_bars": 32,
+        "supported_crystals": 15,
+        "roof_and_base_blocks_verified": 416,
+        "fluid_leaks": 0,
+        "dropped_items": 0
+      }
+    ],
+    "evidence": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S07\\qa\\forge-native.json",
+    "log": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S07\\qa\\forge-run.log"
+  },
+  "four_view_review": {
+    "status": "PASS",
+    "manifest": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S07\\four-views\\manifest.json",
+    "evidence": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S07\\qa\\visual-review.json",
+    "internal_views": 4,
+    "external_views": 4,
+    "final_nbt_unchanged_by_cutaway": true
+  },
+  "lodestone_preview": {
+    "status": "PASS",
+    "evidence": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S07\\qa\\lodestone.json",
+    "screenshot": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S07\\qa\\lodestone-preview.png"
+  },
+  "liquid_sealing": {
+    "status": "PASS",
+    "source_water_cells_per_rotation": 72,
+    "depth_blocks": 1,
+    "fluid_leaks": 0,
+    "dry_path_width": 3,
+    "dry_path_length": 16
+  },
+  "containers": {
+    "count": 0,
+    "inventory_items": 0,
+    "loot_tables": 0
+  },
+  "preplaced_entities": 0,
+  "dropped_items_after_updates": 0,
+  "intentional_deviations": [
+    "全幅积水改为两侧一格深密封浅水池，中间三格石面干燥直路，不要求玩家涉水。",
+    "封闭铁栅门改为两侧紫晶栅窗和中央开放拱口，保证一字贯通。",
+    "原版紫水晶不发光；照明来自末地烛，不伪称有着色光或光影反射。"
+  ],
+  "limits": [
+    "软件渲染与 Lodestone 预览不是整合包实机截图。",
+    "Forge 1.20.1/47.4.10 原生测试在本交付目录的独立测试世界运行，不是玩家存档游玩。",
+    "未分配正式槽位，未连接大厅，未部署 JAR。"
+  ]
+}

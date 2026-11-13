@@ -1,0 +1,211 @@
+{
+  "id": "S8R_IMG08",
+  "name": "天窗双层晶柱庭院",
+  "size": [
+    33,
+    23,
+    33
+  ],
+  "entrance": [
+    16,
+    3,
+    0
+  ],
+  "interior": [
+    16,
+    3,
+    7
+  ],
+  "connections": [
+    {
+      "role": "entrance",
+      "facing": "north",
+      "position": [
+        16,
+        3,
+        0
+      ],
+      "width": 5,
+      "minimum_height": 3
+    },
+    {
+      "role": "exit",
+      "facing": "east",
+      "position": [
+        32,
+        3,
+        16
+      ],
+      "width": 5,
+      "minimum_height": 3
+    }
+  ],
+  "route_targets": [
+    {
+      "label": "north",
+      "position": [
+        16,
+        3,
+        0
+      ]
+    },
+    {
+      "label": "north-inner",
+      "position": [
+        16,
+        3,
+        8
+      ]
+    },
+    {
+      "label": "spire-north",
+      "position": [
+        16,
+        3,
+        9
+      ]
+    },
+    {
+      "label": "spire-west",
+      "position": [
+        9,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "spire-south",
+      "position": [
+        16,
+        3,
+        23
+      ]
+    },
+    {
+      "label": "spire-east",
+      "position": [
+        23,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "east",
+      "position": [
+        32,
+        3,
+        16
+      ]
+    },
+    {
+      "label": "lava-front",
+      "position": [
+        10,
+        3,
+        27
+      ]
+    },
+    {
+      "label": "stair-foot",
+      "position": [
+        4,
+        3,
+        7
+      ]
+    },
+    {
+      "label": "stair-upper",
+      "position": [
+        4,
+        13,
+        18
+      ]
+    },
+    {
+      "label": "upper-west",
+      "position": [
+        4,
+        13,
+        21
+      ]
+    },
+    {
+      "label": "upper-south",
+      "position": [
+        16,
+        13,
+        28
+      ]
+    },
+    {
+      "label": "upper-east",
+      "position": [
+        28,
+        13,
+        16
+      ]
+    },
+    {
+      "label": "upper-north",
+      "position": [
+        16,
+        13,
+        4
+      ]
+    }
+  ],
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S8-crystal-geode\\out\\S8-08-courtyard.png",
+  "reference_sha256": "3291b270af7bf9414e00f83df28ddf58cc03486aa031bea7600da670847070b2",
+  "recipe_sha256": "3f0430d93acc39b44c401903c29f9de0dabfe905568dce9b72e550e231a97e17",
+  "sha256": "ce92b84da9a81b0501cffd3779fbfe2f2bfd986bfdb903df505beb650648d9c3",
+  "previous_acceptance": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-07-independent\\independent-details.json",
+  "skylight": {
+    "inclusive_box": [
+      [
+        11,
+        22,
+        11
+      ],
+      [
+        21,
+        22,
+        21
+      ]
+    ],
+    "air_columns": 121,
+    "intentional_open_roof": true
+  },
+  "upper_walkway_feet": 13,
+  "staircase": {
+    "x": [
+      3,
+      5
+    ],
+    "z": [
+      8,
+      17
+    ],
+    "rise": 10
+  },
+  "lava": {
+    "source_box": [
+      [
+        5,
+        2,
+        26
+      ],
+      [
+        7,
+        2,
+        28
+      ]
+    ],
+    "glass_cover_y": 3,
+    "world_ticks": "NOT_RUN"
+  },
+  "mechanisms": [],
+  "loot": null,
+  "runtime_slot": null,
+  "status": "AWAITING_INDEPENDENT_ACCEPTANCE",
+  "deployment": "NOT_DEPLOYED"
+}

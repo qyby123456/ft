@@ -1,0 +1,86 @@
+{
+  "id": "R4",
+  "sha256": "784ae6c6d271d0561bb00f339351f669f0fb758df8c2b80f6d27fcc7f00596f0",
+  "time": "2026-11-02T22:58:58.755139+08:00",
+  "reviewer_thread": "01a19c8f-6747-7572-a77a-6e90084bbd34",
+  "four_view_status": "PASS",
+  "retest_status": "PASS",
+  "hard_blockers": [],
+  "retest_evidence": {
+    "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\handover-20261102-01a19c8f\\reviews\\R4\\784ae6c6d271d0561bb00f339351f669f0fb758df8c2b80f6d27fcc7f00596f0\\native\\20261102-223443\\result.json",
+    "sha256": "64166a4379bb2d9e18ee43d8f547bb44728410b9ff837de5171e3e5859442d91",
+    "bytes": 1706
+  },
+  "render_manifest": {
+    "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\handover-20261102-01a19c8f\\reviews\\R4\\784ae6c6d271d0561bb00f339351f669f0fb758df8c2b80f6d27fcc7f00596f0\\four-views\\manifest.json",
+    "sha256": "cf3861bcb670844b633d610e1de107b285a9e7feb9a01d969751c7dfdd7cb35f",
+    "bytes": 4857
+  },
+  "actually_opened_images": [
+    {
+      "path": "D:\\ft工程文件\\image2.5\\dungeon-rooms-medium-random-thread3-20261102\\out\\R4-underground-spring-cave.png",
+      "sha256": "a8047daa62bd14344fbe2cfe04426b5577f5e2ddedbf2e2930c67d2c7be8b827",
+      "bytes": 2358655,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "expected_sha256": "a8047daa62bd14344fbe2cfe04426b5577f5e2ddedbf2e2930c67d2c7be8b827",
+      "matches_declared": true
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_R4_地下泉池洞穴_20261102\\preview.png",
+      "sha256": "f11282c963ffaeff64d69a059619e82c0af0a697c5a709bca16154ab29c37fe6",
+      "bytes": 685671,
+      "dimensions": [
+        1600,
+        1250
+      ]
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_R4_地下泉池洞穴_20261102\\preview\\plan.png",
+      "sha256": "f85b2cc5bbcf103c6e701abd100c63f1ebbd10782ed1908689e35a29fb8a2204",
+      "bytes": 113195,
+      "dimensions": [
+        1500,
+        1400
+      ]
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\handover-20261102-01a19c8f\\reviews\\R4\\784ae6c6d271d0561bb00f339351f669f0fb758df8c2b80f6d27fcc7f00596f0\\four-views\\interior-four-views.png",
+      "sha256": "4b7d1d333ff424f363a8e1b5604c6d43cfaaae78bdf27f431f2166dd32e77c5b",
+      "bytes": 2225377,
+      "dimensions": [
+        2800,
+        2160
+      ]
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\handover-20261102-01a19c8f\\reviews\\R4\\784ae6c6d271d0561bb00f339351f669f0fb758df8c2b80f6d27fcc7f00596f0\\four-views\\exterior-four-views.png",
+      "sha256": "3bfb48c989707c5f648c7d2afaaa1f506a05ee59884184ef40975ad9caa4bfc7",
+      "bytes": 1527550,
+      "dimensions": [
+        2800,
+        2160
+      ]
+    }
+  ],
+  "visual_review_method": "Opened and inspected original concept, delivered preview, dry-route plan, freshly rendered north/south/west/east interior cutaway sheet and all-four exterior sheet; paired findings with the exact-NBT static and freshly rerun isolated Forge tests.",
+  "design_translation": "Connected spring pools, T-shaped dry three-wide bridge, masonry columns/crossbeams, rear stepped cascade, supported lantern posts, anchored dripstone and a small empty-barrel bank preserve the cave/spring concept. Amethyst stays vanilla purple; no claimed blue shader light.",
+  "checks": {
+    "floating_or_clipped_furniture": "No floating/intersecting scenery observed in four internal views; lantern arms, empty barrel bank and dripstone are attached to real supports.",
+    "beam_column_joinery": "Four grounded stone columns and supported crossbeams; six bridge piers are verified by the static/native fixture, not inferred from a water shader.",
+    "routes_entry_safe_point": "North [8,3,0] and safe point [8,3,3] retain dry three-wide approach and bridge; 116 dry reachable positions in all four rotations. Core approach must respect feet Y=3.",
+    "water_seal": "193 connected water cells remain contained; final states compared after 200/240 ticks across four rotations, with external moat, perforated-pool and blocked-route negative checks passing.",
+    "inventory_entities": "Three empty barrel block entities; no reward inventory, loot or preplaced entities.",
+    "roof_shell": "Four exterior views show a continuous final roof/shell. Native fixture verifies foundation, roof, column supports, routes and envelope; no cutaway is written back into NBT."
+  },
+  "candidate_acceptance": "READY_FOR_UNIFIED_INTEGRATION_STAGE_ONLY_NOT_DEPLOYED",
+  "core_acceptance_conditions": [
+    "Keep the reserved ID/slot and exact candidate SHA. M07 is never M7.",
+    "Plan and test a real supported hall route and entrance ramp; validate whole-volume/margins, entities and occupancy refusal.",
+    "Use an independent persistent generation fingerprint; existing rooms and player alterations must not be overwritten.",
+    "Before shared core writes or deployment, report exact candidate JAR hash, changed files/dependencies and release conditions to the human coordinator."
+  ],
+  "limits": "Pass applies to this standalone room candidate and 240-tick isolated Forge placement, not shared-core connection, production migration, modpack client, multiplayer, FPS, or deployment. No NBT repair was needed; source SHA is unchanged."
+}

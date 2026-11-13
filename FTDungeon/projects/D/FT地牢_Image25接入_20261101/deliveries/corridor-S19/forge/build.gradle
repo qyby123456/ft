@@ -1,0 +1,25 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+group = 'net.farmingtales.s19qa'
+version = '1.0'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        gameTestServer {
+            workingDirectory project.file('../qa/forge-run')
+            property 'forge.enabledGameTestNamespaces', 'fts19qa'
+            property 'fts19.project', projectDir.parentFile.absolutePath
+            mods {
+                fts19qa { source sourceSets.main }
+            }
+        }
+    }
+}
+
+repositories { mavenCentral() }
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

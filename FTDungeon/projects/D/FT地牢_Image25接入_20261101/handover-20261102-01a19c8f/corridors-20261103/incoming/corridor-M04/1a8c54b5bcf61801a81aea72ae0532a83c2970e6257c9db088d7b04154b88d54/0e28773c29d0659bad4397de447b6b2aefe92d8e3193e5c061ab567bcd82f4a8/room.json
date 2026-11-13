@@ -1,0 +1,142 @@
+{
+  "id": "corridor-M04",
+  "source_id": "M04",
+  "name": "末地淹水吊笼长廊",
+  "kind": "medium",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "size": [
+    13,
+    12,
+    41
+  ],
+  "entrance": [
+    6,
+    2,
+    0
+  ],
+  "interior": [
+    6,
+    2,
+    2
+  ],
+  "exit": [
+    6,
+    2,
+    40
+  ],
+  "facing": "north",
+  "ports": [
+    {
+      "side": "north",
+      "center": [
+        6,
+        2,
+        0
+      ],
+      "width": 3,
+      "height": 4,
+      "floor_y": 1
+    },
+    {
+      "side": "south",
+      "center": [
+        6,
+        2,
+        40
+      ],
+      "width": 3,
+      "height": 4,
+      "floor_y": 1
+    }
+  ],
+  "corridor": {
+    "axis": "z",
+    "length_blocks": 41,
+    "length_chunks": 2.5625,
+    "straight": true,
+    "turns": 0,
+    "branches": 0,
+    "stair_transitions": 0,
+    "dry_path": {
+      "x": [
+        5,
+        7
+      ],
+      "feet_y": 2,
+      "z": [
+        0,
+        40
+      ],
+      "clear_height": 3,
+      "width": 3
+    }
+  },
+  "sha256": "1a8c54b5bcf61801a81aea72ae0532a83c2970e6257c9db088d7b04154b88d54",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M04-end-flooded.png",
+  "reference_sha256": "537f369f2598d7c3f603011fca9b64e69f2793fe458285bc44da1afdeee10eee",
+  "reference_batch": "D:/ft工程文件/image2.5/dungeon-corridors-20261103",
+  "palette": {
+    "minecraft:end_stone_bricks": 1094,
+    "minecraft:purpur_block": 1091,
+    "minecraft:obsidian": 98,
+    "minecraft:mossy_stone_bricks": 20,
+    "minecraft:air": 3489,
+    "minecraft:vine": 30,
+    "minecraft:purpur_pillar": 128,
+    "minecraft:end_rod": 20,
+    "minecraft:prismarine_bricks": 49,
+    "minecraft:water": 222,
+    "minecraft:purpur_slab": 64,
+    "minecraft:iron_bars": 64,
+    "minecraft:chain": 16,
+    "minecraft:sea_lantern": 7,
+    "minecraft:lantern": 4
+  },
+  "fluids": {
+    "water_sources": 222,
+    "basin_depth_blocks": 1,
+    "covered": false,
+    "contained": true,
+    "pools": [
+      {
+        "min": [
+          2,
+          1,
+          2
+        ],
+        "max": [
+          4,
+          1,
+          38
+        ]
+      },
+      {
+        "min": [
+          8,
+          1,
+          2
+        ],
+        "max": [
+          10,
+          1,
+          38
+        ]
+      }
+    ]
+  },
+  "design_changes": [
+    "Shallow flooding is kept in two 3-wide basins; a 3-wide level dry central causeway replaces the unsafe fully flooded main route.",
+    "The pictured dark end becomes a second open 3x4 portal; no door, branch, turn or staircase is introduced.",
+    "Cages are empty block-only decorations: no captive entities, spawners, loot or active portals."
+  ],
+  "preview": {
+    "file": "preview.png",
+    "source": "Actual final room.nbt, Lodestone default resource pack software WebGL rendering; not a Minecraft client screenshot or AI image."
+  },
+  "deployment": {
+    "deployed": false,
+    "player_saves_opened": false,
+    "integration_performed": false
+  }
+}

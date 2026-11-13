@@ -1,0 +1,61 @@
+{
+  "id": "CORRIDOR_S14",
+  "source_id": "S14",
+  "status": "PASS_INDEPENDENT_DELIVERY",
+  "timestamp": "2026-11-03T10:55:44.359488+08:00",
+  "sha256": "bb75401b9f8f5bbab4f1186d910bc3908dc631546008272e0076d534a27229b4",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/S14-end-overgrown.png",
+  "reference_sha256": "55d41c576a5d4061b182f784bc256c2ae56c7aee06df2d5b3020c825a442a1f2",
+  "size": [
+    13,
+    10,
+    16
+  ],
+  "records": 2080,
+  "non_air_blocks": 1538,
+  "checks": {
+    "static": "PASS",
+    "static_count": 15,
+    "native_registry": "PASS",
+    "native_four_rotation_placement": "PASS",
+    "native_stability_ticks": 240,
+    "four_view_self_review": "PASS",
+    "preview_provenance": "PASS"
+  },
+  "natural_vine_changes_by_rotation": {
+    "NONE": 7,
+    "CLOCKWISE_90": 2,
+    "CLOCKWISE_180": 4,
+    "COUNTERCLOCKWISE_90": 4
+  },
+  "evidence": {
+    "static": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S14\\qa\\static-qa.json",
+    "native_registry": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S14\\qa\\native-registry-qa.json",
+    "native_world": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S14\\qa\\native-world-qa.json",
+    "forge_log": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S14\\evidence\\forge-gametest-rerun-1.log",
+    "four_view_review": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S14\\qa\\four-view-review.json",
+    "four_view_sheet": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S14\\evidence\\four-view-contact-sheet.png",
+    "full_envelope": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S14\\evidence\\full-envelope.png",
+    "preview": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S14\\preview.png"
+  },
+  "history": {
+    "initial_native_compile": "FAIL: removed unsupported GameRules constant; no NBT changes",
+    "final_native_run": "BUILD SUCCESSFUL; all 1 required tests passed",
+    "preview_iteration": "Cutaway renderer corrected to preserve explicit original block properties; all 6 final views verify exact retained states."
+  },
+  "boundaries": {
+    "deployed": false,
+    "player_saves_opened": false,
+    "production_core_modified": false,
+    "other_deliveries_modified": false,
+    "paid_image_generation_used": false,
+    "production_id_reserved": false,
+    "full_modpack_gameplay_tested": false
+  },
+  "limitations": [
+    "240 ticks is bounded structural validation, not long-term random vine growth or server performance certification.",
+    "Only independent Forge 47.4.10 GameTest fixtures were used. No FT catalog, world-slot assignment, lobby connection, production idempotence or multiplayer/client gameplay was tested.",
+    "One synchronous four-fixture placement produced a server catch-up warning (28.715 s); performance is not certified.",
+    "Software preview is not a Minecraft screenshot; white end rods are not custom cyan lights."
+  ]
+}

@@ -1,0 +1,807 @@
+{
+  "id": "N03",
+  "name": "八角回廊楼梯枢纽",
+  "size": [
+    35,
+    18,
+    35
+  ],
+  "entrance": [
+    17,
+    1,
+    0
+  ],
+  "interior": [
+    17,
+    1,
+    2
+  ],
+  "facing": "north",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/hub/N03-hub-stair-hub.png",
+  "reference_sha256": "821cea10d8f31cdf296845e3d0c66f94bafe00a6cda7f3ca16be9e1d82e29ba8",
+  "floor_levels": {
+    "lower": 0,
+    "hub": 6,
+    "upper": 12
+  },
+  "ports": [
+    {
+      "id": "north-lower",
+      "facing": "north",
+      "feet": [
+        17,
+        1,
+        0
+      ],
+      "width": 3,
+      "height": 3,
+      "floor_y": 0
+    },
+    {
+      "id": "south-lower",
+      "facing": "south",
+      "feet": [
+        17,
+        1,
+        34
+      ],
+      "width": 3,
+      "height": 3,
+      "floor_y": 0
+    },
+    {
+      "id": "east-upper",
+      "facing": "east",
+      "feet": [
+        34,
+        13,
+        17
+      ],
+      "width": 3,
+      "height": 3,
+      "floor_y": 12
+    },
+    {
+      "id": "west-upper",
+      "facing": "west",
+      "feet": [
+        0,
+        13,
+        17
+      ],
+      "width": 3,
+      "height": 3,
+      "floor_y": 12
+    }
+  ],
+  "safe_points": [
+    {
+      "id": "entrance-refuge",
+      "feet": [
+        17,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "hub-north",
+      "feet": [
+        17,
+        7,
+        11
+      ]
+    },
+    {
+      "id": "hub-east",
+      "feet": [
+        23,
+        7,
+        17
+      ]
+    },
+    {
+      "id": "hub-south",
+      "feet": [
+        17,
+        7,
+        23
+      ]
+    },
+    {
+      "id": "hub-west",
+      "feet": [
+        11,
+        7,
+        17
+      ]
+    },
+    {
+      "id": "upper-east",
+      "feet": [
+        33,
+        13,
+        17
+      ]
+    },
+    {
+      "id": "upper-west",
+      "feet": [
+        1,
+        13,
+        17
+      ]
+    },
+    {
+      "id": "lower-south",
+      "feet": [
+        17,
+        1,
+        33
+      ]
+    }
+  ],
+  "stairs": [
+    {
+      "id": "north-rise",
+      "low": [
+        17,
+        1,
+        2
+      ],
+      "high": [
+        17,
+        7,
+        9
+      ],
+      "direction": [
+        0,
+        1
+      ],
+      "facing": "south",
+      "first": [
+        17,
+        1,
+        3
+      ],
+      "steps": 6,
+      "width": 3
+    },
+    {
+      "id": "south-rise",
+      "low": [
+        17,
+        1,
+        32
+      ],
+      "high": [
+        17,
+        7,
+        25
+      ],
+      "direction": [
+        0,
+        -1
+      ],
+      "facing": "north",
+      "first": [
+        17,
+        1,
+        31
+      ],
+      "steps": 6,
+      "width": 3
+    },
+    {
+      "id": "east-rise",
+      "low": [
+        25,
+        7,
+        17
+      ],
+      "high": [
+        32,
+        13,
+        17
+      ],
+      "direction": [
+        1,
+        0
+      ],
+      "facing": "east",
+      "first": [
+        26,
+        7,
+        17
+      ],
+      "steps": 6,
+      "width": 3
+    },
+    {
+      "id": "west-rise",
+      "low": [
+        9,
+        7,
+        17
+      ],
+      "high": [
+        2,
+        13,
+        17
+      ],
+      "direction": [
+        -1,
+        0
+      ],
+      "facing": "west",
+      "first": [
+        8,
+        7,
+        17
+      ],
+      "steps": 6,
+      "width": 3
+    }
+  ],
+  "shaft": {
+    "center": [
+      17,
+      17
+    ],
+    "footprint": "abs(x-17)<=3 && abs(z-17)<=3 && abs(x-17)+abs(z-17)<=5",
+    "floor_y": 0,
+    "guarded_floor_y": 6,
+    "ornamental_only": true,
+    "external_vertical_port": false
+  },
+  "pillars": [
+    [
+      10,
+      10
+    ],
+    [
+      23,
+      10
+    ],
+    [
+      10,
+      23
+    ],
+    [
+      23,
+      23
+    ]
+  ],
+  "vertical_connections": [
+    {
+      "from_feet_y": 1,
+      "to_feet_y": 7,
+      "flights": [
+        "north-rise",
+        "south-rise"
+      ]
+    },
+    {
+      "from_feet_y": 7,
+      "to_feet_y": 13,
+      "flights": [
+        "east-rise",
+        "west-rise"
+      ]
+    }
+  ],
+  "minimum_route_headroom": 3,
+  "title": "八角回廊楼梯枢纽",
+  "balustrade": [
+    [
+      13,
+      15
+    ],
+    [
+      13,
+      16
+    ],
+    [
+      13,
+      17
+    ],
+    [
+      13,
+      18
+    ],
+    [
+      13,
+      19
+    ],
+    [
+      14,
+      14
+    ],
+    [
+      14,
+      20
+    ],
+    [
+      15,
+      13
+    ],
+    [
+      15,
+      21
+    ],
+    [
+      16,
+      13
+    ],
+    [
+      16,
+      21
+    ],
+    [
+      17,
+      13
+    ],
+    [
+      17,
+      21
+    ],
+    [
+      18,
+      13
+    ],
+    [
+      18,
+      21
+    ],
+    [
+      19,
+      13
+    ],
+    [
+      19,
+      21
+    ],
+    [
+      20,
+      14
+    ],
+    [
+      20,
+      20
+    ],
+    [
+      21,
+      15
+    ],
+    [
+      21,
+      16
+    ],
+    [
+      21,
+      17
+    ],
+    [
+      21,
+      18
+    ],
+    [
+      21,
+      19
+    ]
+  ],
+  "lamps": [
+    {
+      "position": [
+        14,
+        8,
+        10
+      ],
+      "support": [
+        14,
+        7,
+        10
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        20,
+        8,
+        10
+      ],
+      "support": [
+        20,
+        7,
+        10
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        14,
+        8,
+        24
+      ],
+      "support": [
+        14,
+        7,
+        24
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        20,
+        8,
+        24
+      ],
+      "support": [
+        20,
+        7,
+        24
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        10,
+        8,
+        14
+      ],
+      "support": [
+        10,
+        7,
+        14
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        10,
+        8,
+        20
+      ],
+      "support": [
+        10,
+        7,
+        20
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        24,
+        8,
+        14
+      ],
+      "support": [
+        24,
+        7,
+        14
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        24,
+        8,
+        20
+      ],
+      "support": [
+        24,
+        7,
+        20
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        9,
+        14,
+        9
+      ],
+      "support": [
+        9,
+        15,
+        9
+      ],
+      "anchor": [
+        9,
+        17,
+        9
+      ],
+      "hanging": true
+    },
+    {
+      "position": [
+        25,
+        14,
+        9
+      ],
+      "support": [
+        25,
+        15,
+        9
+      ],
+      "anchor": [
+        25,
+        17,
+        9
+      ],
+      "hanging": true
+    },
+    {
+      "position": [
+        9,
+        14,
+        25
+      ],
+      "support": [
+        9,
+        15,
+        25
+      ],
+      "anchor": [
+        9,
+        17,
+        25
+      ],
+      "hanging": true
+    },
+    {
+      "position": [
+        25,
+        14,
+        25
+      ],
+      "support": [
+        25,
+        15,
+        25
+      ],
+      "anchor": [
+        25,
+        17,
+        25
+      ],
+      "hanging": true
+    },
+    {
+      "position": [
+        15,
+        3,
+        1
+      ],
+      "support": [
+        15,
+        2,
+        1
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        19,
+        3,
+        1
+      ],
+      "support": [
+        19,
+        2,
+        1
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        15,
+        3,
+        33
+      ],
+      "support": [
+        15,
+        2,
+        33
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        19,
+        3,
+        33
+      ],
+      "support": [
+        19,
+        2,
+        33
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        1,
+        14,
+        15
+      ],
+      "support": [
+        1,
+        13,
+        15
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        1,
+        14,
+        19
+      ],
+      "support": [
+        1,
+        13,
+        19
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        33,
+        14,
+        15
+      ],
+      "support": [
+        33,
+        13,
+        15
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        33,
+        14,
+        19
+      ],
+      "support": [
+        33,
+        13,
+        19
+      ],
+      "hanging": false
+    },
+    {
+      "position": [
+        6,
+        8,
+        24
+      ],
+      "support": [
+        6,
+        7,
+        24
+      ],
+      "hanging": false
+    }
+  ],
+  "signs": [
+    {
+      "position": [
+        17,
+        4,
+        1
+      ],
+      "support": [
+        17,
+        4,
+        0
+      ],
+      "facing": "south",
+      "lines": [
+        "N03 NORTH",
+        "LOWER +0",
+        "HUB +6",
+        "STAIRS AHEAD"
+      ]
+    },
+    {
+      "position": [
+        17,
+        4,
+        33
+      ],
+      "support": [
+        17,
+        4,
+        34
+      ],
+      "facing": "north",
+      "lines": [
+        "N03 SOUTH",
+        "LOWER +0",
+        "HUB +6",
+        "STAIRS AHEAD"
+      ]
+    },
+    {
+      "position": [
+        33,
+        16,
+        17
+      ],
+      "support": [
+        34,
+        16,
+        17
+      ],
+      "facing": "west",
+      "lines": [
+        "N03 EAST",
+        "UPPER +12",
+        "HUB +6",
+        "MIND THE EDGE"
+      ]
+    },
+    {
+      "position": [
+        1,
+        16,
+        17
+      ],
+      "support": [
+        0,
+        16,
+        17
+      ],
+      "facing": "east",
+      "lines": [
+        "N03 WEST",
+        "UPPER +12",
+        "HUB +6",
+        "MIND THE EDGE"
+      ]
+    }
+  ],
+  "map_table": {
+    "from": [
+      4,
+      7,
+      22
+    ],
+    "to": [
+      6,
+      8,
+      24
+    ]
+  },
+  "schema_version": 1,
+  "category": "transport_hub",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "sha256": "3c2488468131a5b283fbc80377ae4e62c4837f0d9aed58d175602dbe04f8ccb0",
+  "block_records": 22050,
+  "block_counts": {
+    "minecraft:air": 11781,
+    "minecraft:stone_bricks": 8894,
+    "minecraft:mossy_stone_bricks": 303,
+    "minecraft:cracked_stone_bricks": 78,
+    "minecraft:deepslate_bricks": 617,
+    "minecraft:stone_brick_slab": 96,
+    "minecraft:chiseled_stone_bricks": 42,
+    "minecraft:lantern": 21,
+    "minecraft:oak_wall_sign": 4,
+    "minecraft:bookshelf": 12,
+    "minecraft:oak_planks": 16,
+    "minecraft:stone_brick_stairs": 72,
+    "minecraft:blue_carpet": 2,
+    "minecraft:lime_carpet": 4,
+    "minecraft:yellow_carpet": 2,
+    "minecraft:chain": 8,
+    "minecraft:polished_andesite": 96,
+    "minecraft:cartography_table": 2
+  },
+  "external_vertical_ports": [],
+  "deployed": false,
+  "player_saves_modified": false,
+  "interfaces_note": "Four horizontal external mouths on two elevations. Vertical travel is internal stairs: feet 1 ↔ 7 ↔ 13. Central shaft sealed and nontraversable."
+}

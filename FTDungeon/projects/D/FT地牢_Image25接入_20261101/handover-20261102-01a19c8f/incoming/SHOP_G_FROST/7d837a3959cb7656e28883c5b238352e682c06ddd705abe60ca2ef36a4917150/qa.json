@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "id": "SHOP_G_FROST",
+  "variant": "G",
+  "completed_at": "2026-11-02T10:46:59+08:00",
+  "scope": "Standalone G Frost Shop candidate; not core registration, deployment or full modpack client verification.",
+  "structure": {
+    "path": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102\\out\\room.nbt",
+    "sha256": "7d837a3959cb7656e28883c5b238352e682c06ddd705abe60ca2ef36a4917150",
+    "size": [
+      17,
+      10,
+      15
+    ],
+    "data_version": 3465,
+    "records": 2550,
+    "nonair_blocks": 1198,
+    "entities": 0,
+    "block_entities": 2
+  },
+  "reference": {
+    "path": "D:\\ft工程文件\\image2.5\\dungeon-shop-variants-thread3-20261102\\out\\shop-variant-G-frost-shop.png",
+    "sha256": "defa7b24b65ee89ec5db3d7575826363f295da10b0b34a397c8a606888af2df1",
+    "copied_reference": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102\\reference\\frost-shop-design.png"
+  },
+  "static": {
+    "status": "PASS",
+    "passed": 20,
+    "failed": 0,
+    "reachable_ground_cells": 155,
+    "report": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102\\qa\\static.json"
+  },
+  "native": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "java": "17.0.8",
+    "rotations": 4,
+    "stabilization_ticks": 100,
+    "records_checked_after_ticks": 10200,
+    "missing_support_negative_probes": 4,
+    "blocked_aisle_negative_probes": 4,
+    "world_captures": [
+      {
+        "path": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102\\qa\\native-placed-none.nbt",
+        "sha256": "76ad2f6544a5dfd850a8fb2245ef2854cd429b90a19dfbc1a97534bcceaacf55",
+        "size": [
+          17,
+          10,
+          15
+        ],
+        "capture_matches_source": true
+      },
+      {
+        "path": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102\\qa\\native-placed-clockwise_90.nbt",
+        "sha256": "5034e5a1eb85f80f3e3be2d84fd81b551540e789c046aa91da8929dff3706266",
+        "size": [
+          15,
+          10,
+          17
+        ],
+        "capture_matches_source": true
+      },
+      {
+        "path": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102\\qa\\native-placed-clockwise_180.nbt",
+        "sha256": "6b0be34e3762df454978f9f7a6e1a89a19378cd0333692ff4b108b04e96db7b3",
+        "size": [
+          17,
+          10,
+          15
+        ],
+        "capture_matches_source": true
+      },
+      {
+        "path": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102\\qa\\native-placed-counterclockwise_90.nbt",
+        "sha256": "334d102f9562fe1db6d316e286285861b923e1b1d3a7f81315eb3f27e7df2a23",
+        "size": [
+          15,
+          10,
+          17
+        ],
+        "capture_matches_source": true
+      }
+    ],
+    "report": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102\\qa\\native.json",
+    "log": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102\\qa\\forge-gametest.log"
+  },
+  "visual": {
+    "status": "PASS",
+    "report": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102\\qa\\visual-review.json",
+    "preview_size": [
+      1536,
+      1200
+    ],
+    "preview_sha256": "3c134fd831eb0ae7c97f455b279a3c306f86a3aa05430641afc7059e38750f03",
+    "four_views": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102\\preview\\four-views.png",
+    "native_world_capture_render": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102\\preview\\native-world-capture.png",
+    "not_in_game_screenshot": true
+  },
+  "reproducibility": {
+    "status": "PASS",
+    "report": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102\\qa\\reproducibility.json"
+  },
+  "safety": {
+    "reward_items": 0,
+    "loot_tables": 0,
+    "preplaced_entities": 0,
+    "fluid_blocks": 0,
+    "independent_pillars": 4,
+    "pillar_full_height_air_ring": 1,
+    "counter_air_ring": 1,
+    "hanging_cold_lamps": 2,
+    "frost_icicles": 7,
+    "floor_display_cases": 2
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "FAIL",
+      "reason": "Verification fixture retained a square-room world-capture count and bounding box. Native placement/support/route checks succeeded; final capture assertion failed. Fixed only verification code; delivered NBT unchanged.",
+      "evidence": "qa/previous-20261102-103603-native.json"
+    },
+    {
+      "attempt": 2,
+      "status": "FAIL",
+      "reason": "Added snow light check ran synchronously before light-engine propagation completed, reporting melting-strength light. Deferred this asynchronous check to the existing 100-tick verification, without changing source NBT.",
+      "evidence": "qa/previous-20261102-104014-native.json"
+    },
+    {
+      "attempt": 3,
+      "status": "PASS",
+      "reason": "Native four-rotation placement, neighbor notifications, 100 tick survival and snow light, inventories and complete rectangular world captures all passed."
+    }
+  ],
+  "parallel_boundaries": {
+    "writes_only": "D:\\ft工程文件\\FT地牢_商店变体G_冰霜商店_20261102",
+    "modified_other_rooms": false,
+    "modified_core": false,
+    "deployed_jar": false,
+    "opened_or_modified_production_save": false,
+    "paid_image_generation": false
+  },
+  "integration": {
+    "status": "STANDALONE_CANDIDATE_NOT_REGISTERED",
+    "id_is_provisional": true,
+    "assigned_slot": null,
+    "deployed": false,
+    "requires_coordinator_acceptance": true
+  },
+  "design_adaptations": [
+    "概念图约11×9扩展为17×15以保证四根独立柱的全高八邻域净空、真实展柜和安全通路。",
+    "原版无冰砖/冻结药瓶/冻鱼/天平/无实体武器架方块，以石英砖、空酿造台、蓝冰、紫水晶、金质测重板和蓝冰斧形浮雕表达；不放入真实商品或奖励。",
+    "不使用会融化的普通冰、真实水或粉雪。玻璃细柱在蓝冰帽与完整屋顶下表达冰锥，白地毯只作稳定霜顶。"
+  ],
+  "limitations": [
+    "No FT catalog slot, gallery walkway, idempotence or production deployment tested.",
+    "No full modpack client, multiplayer, FPS or merchant trade behavior tested.",
+    "Native world capture is machine evidence, not an in-game screenshot.",
+    "17×10×15 XYZ, intentionally larger than the concept sketch to preserve detached pillars and legal 3×3 glass display cases.",
+    "G shop visual architecture only; no shopkeeper, real stock, trade UI, FT catalog slot or corridor deployed."
+  ]
+}

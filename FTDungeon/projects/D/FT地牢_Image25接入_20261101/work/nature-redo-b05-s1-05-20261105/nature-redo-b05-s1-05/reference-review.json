@@ -1,0 +1,40 @@
+{
+  "status": "PENDING_INDEPENDENT_REVIEW",
+  "reference": {
+    "path": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S1-mossy-forest\\out\\S1-05-corridor.png",
+    "sha256": "7a41bfca86ec529ac38a01ab59a2d3fd67ff60a6d2bc6baf746b3a285486dffe",
+    "bytes": 2478023
+  },
+  "structure": {
+    "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b05-s1-05-20261105\\nature-redo-b05-s1-05\\room.nbt",
+    "sha256": "c5d7a612b19b3eea25c33bcc3cafacff820cdaf7242cc6abb74fe78471e6c38d",
+    "bytes": 21582
+  },
+  "landmarks": [
+    "Closed low stone ceiling with crossbeams",
+    "Straight dry central route and far arched opening",
+    "Alternating side-root and masonry supports",
+    "Asymmetric shallow side pools",
+    "Hanging berry vines and mushrooms on side plinths"
+  ],
+  "adaptations": [
+    "15x12x37 integer interpretation, not exact image measurement.",
+    "Continuous closed roof; light shafts and outside forest omitted.",
+    "Potted mushrooms on solid mossy plinths replace naturally scattered mushrooms.",
+    "Stepped full-block roots replace sloping root outlines; source-water side pools are contained.",
+    "No containers, encounters, mechanisms, loot or branches."
+  ],
+  "cutaway_rules": {
+    "source_nbt_sha256": "c5d7a612b19b3eea25c33bcc3cafacff820cdaf7242cc6abb74fe78471e6c38d",
+    "source_is_final_complete_nbt": true,
+    "derived_nbt_files": [],
+    "roof": "Display copy only: hide y>=11 for non-full views.",
+    "hero": "Additionally hide x<=1 or z>=35 at y>=2.",
+    "reverse_overview": "Additionally hide x>=13 or z<=1 at y>=2.",
+    "directional": "At y>=2 hide north z<=1, south z>=35, west x<=1 or east x>=13 respectively.",
+    "full": "No blocks hidden: both player views, roots-pool-detail and four exterior views.",
+    "traceability": "qa/render.json records source SHA, camera, cut mode, displayed records and screenshot SHA. Renderer constructs display structures in memory; final source is rehashed after rendering.",
+    "native_nbt_modified": false
+  },
+  "next_image_authorized": false
+}

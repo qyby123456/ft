@@ -1,0 +1,73 @@
+{
+  "id": "corridor-M05",
+  "status": "PASS",
+  "sha256": "bf0496511a4076c541dcd7b1b1001a98179317636c608ef275c9bb2473f452d7",
+  "reference_sha256": "40b8d7e4dd5dffbfcbfff257e9ba5e7235bdfb4d57d356d24de76bb21671c8ca",
+  "size": [
+    19,
+    12,
+    40
+  ],
+  "data_version": 3465,
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "static_checks": {
+    "reference_sha256": "PASS",
+    "gzip_single_palette_java_1_20_1": "PASS",
+    "explicit_volume_bounds_unique_coordinates": "PASS",
+    "straight_40_block_axis_5_wide_3_high": "PASS",
+    "two_open_endpoints_and_full_roof": "PASS",
+    "ten_closed_side_cells": "PASS",
+    "no_fluid_fire_hazard_entities_inventory_or_loot_payload": "PASS"
+  },
+  "native": {
+    "status": "PASS",
+    "method": "StructureTemplate.placeInWorld in isolated Forge GameTest server",
+    "rotations": [
+      "NONE",
+      "CLOCKWISE_90",
+      "CLOCKWISE_180",
+      "COUNTERCLOCKWISE_90"
+    ],
+    "ticks_observed": 240,
+    "forced_neighbor_shape_and_event_updates": true,
+    "preserved_records_per_rotation": 9120,
+    "straight_route_positions_per_rotation": 200,
+    "reachable_foot_positions_per_rotation": 260,
+    "roof_blocks_per_rotation": 1520,
+    "no_dropped_items": true,
+    "no_fluid": true,
+    "attachments_can_survive": true,
+    "complete_properties_registry_validation_and_native_roundtrip": true,
+    "details": "qa/forge-native.json",
+    "log": "qa/forge-run.log"
+  },
+  "visual": {
+    "status": "PASS",
+    "renderer": "Lodestone 0.6.0 / ThreeStructureRenderer",
+    "source": "room.nbt",
+    "complete_exterior_views": 4,
+    "interior_views": 4,
+    "optional_cutaway_views": 1,
+    "sheet": "previews/four-directions-sheet.png",
+    "details": "qa/visual.json",
+    "cutaway_changes_final_nbt": false
+  },
+  "scope": {
+    "deployed": false,
+    "core_source_modified": false,
+    "player_saves_modified": false,
+    "image_api_called": false,
+    "test_world": "qa/forge-runtime/world (new isolated disposable QA world only)"
+  },
+  "limits": [
+    "No modpack-client screenshot, player-world placement, hall integration, FPS or multiplayer test",
+    "The ten side-cell doors are closed decoration, not a functional prison gameplay system",
+    "Orange glow is safely simulated by covered shroomlight, not fluid lava"
+  ],
+  "native_log_notes": [
+    "The first isolated startup creates its own config and server.properties; missing-file startup messages are retained in the raw log.",
+    "The GameTest log warns that a spawned server was temporarily behind schedule; this is not a client FPS/performance measurement.",
+    "Forge/Gradle deprecation notices and renderer default-pack warnings do not replace the required test-pass assertions."
+  ]
+}

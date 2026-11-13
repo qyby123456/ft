@@ -1,0 +1,105 @@
+{
+  "status": "PRODUCER_TECHNICAL_PASS_PENDING_INDEPENDENT_REVIEW",
+  "source_nbt_sha256": "07bc6264e9e02738a2c55e5738abcd09122d2b118dba307fe6c5bf2bda4326e7",
+  "static": {
+    "id": "nature-redo-b06-s1-06",
+    "status": "PASS",
+    "sha256": "07bc6264e9e02738a2c55e5738abcd09122d2b118dba307fe6c5bf2bda4326e7",
+    "size": [
+      25,
+      12,
+      25
+    ],
+    "records": 7500,
+    "palette": {
+      "minecraft:stone_bricks": 2761,
+      "minecraft:moss_block": 104,
+      "minecraft:cracked_stone_bricks": 276,
+      "minecraft:mossy_stone_bricks": 1409,
+      "minecraft:coarse_dirt": 35,
+      "minecraft:air": 2217,
+      "minecraft:oak_leaves": 108,
+      "minecraft:dark_oak_log": 553,
+      "minecraft:water": 8,
+      "minecraft:cave_vines": 7,
+      "minecraft:cave_vines_plant": 14,
+      "minecraft:lantern": 5,
+      "minecraft:potted_red_mushroom": 3
+    },
+    "reachable_feet": 272,
+    "required_route_feet": 195,
+    "water_cells": 8,
+    "containers": 0,
+    "noncontainer_block_entities": 0,
+    "roof_exceptions": 0,
+    "scope": "Static NBT bounds, full explicit volume, walkability, 3-high route, sealed water, vine support, empty inventory, complete roof except declared courtyard skylight. Not native engine validation."
+  },
+  "support": {
+    "status": "PASS",
+    "source_nbt_sha256": "07bc6264e9e02738a2c55e5738abcd09122d2b118dba307fe6c5bf2bda4326e7",
+    "method": "Six-face graph from Y=0, all nonair/nonfluid blocks including leaves and hanging decoration. Geometric connectivity; native survival checked separately.",
+    "nonfluid_blocks": 5275,
+    "ground_connected_blocks": 5275,
+    "detached_blocks": []
+  },
+  "native_reports": [
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b06-s1-06-20261105\\nature-redo-b06-s1-06\\forge-none.json",
+      "sha256": "f6deffc99debe9468cbaf20e432580c2c85074ff429b4894500406fbac223083",
+      "bytes": 1018
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b06-s1-06-20261105\\nature-redo-b06-s1-06\\forge-clockwise_90.json",
+      "sha256": "9df1a051435c4665d942ac80a9a732cdb8c9a69eee30475bbc8cadd2caf7fa53",
+      "bytes": 1034
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b06-s1-06-20261105\\nature-redo-b06-s1-06\\forge-clockwise_180.json",
+      "sha256": "e5e592090df9f899444f53bc987f8f9e62290f13af05b0b982322e2a5bd581f6",
+      "bytes": 1036
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b06-s1-06-20261105\\nature-redo-b06-s1-06\\forge-counterclockwise_90.json",
+      "sha256": "e299b20ad2d5137deb727c414b6047f782af267ca6a4221323f07caefeabe499",
+      "bytes": 1048
+    }
+  ],
+  "native_capture_exact_comparisons": [
+    {
+      "rotation": "none",
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b06-s1-06-20261105\\nature-redo-b06-s1-06\\native-placed-none.nbt",
+      "sha256": "c144fd0af4a71500cc2a255ba1492ae631537b985fa04596f18ebe7e8c58d586",
+      "bytes": 23057,
+      "matches_rotated_source_nbt": true,
+      "exact_records_compared": 7500
+    },
+    {
+      "rotation": "clockwise_90",
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b06-s1-06-20261105\\nature-redo-b06-s1-06\\native-placed-clockwise_90.nbt",
+      "sha256": "7b5a3e1eaa74f043ea844d7d7f8a2d9b95420330075fb45beb828e017c5fab96",
+      "bytes": 23359,
+      "matches_rotated_source_nbt": true,
+      "exact_records_compared": 7500
+    },
+    {
+      "rotation": "clockwise_180",
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b06-s1-06-20261105\\nature-redo-b06-s1-06\\native-placed-clockwise_180.nbt",
+      "sha256": "8050672403caf74c05de02cfb7a83795318ccb61f7df21c266773409fce8f5dd",
+      "bytes": 23112,
+      "matches_rotated_source_nbt": true,
+      "exact_records_compared": 7500
+    },
+    {
+      "rotation": "counterclockwise_90",
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b06-s1-06-20261105\\nature-redo-b06-s1-06\\native-placed-counterclockwise_90.nbt",
+      "sha256": "18be9c27250e68ef4b17b35b40558c48a785d52c8f65246998fbd265f1830898",
+      "bytes": 23360,
+      "matches_rotated_source_nbt": true,
+      "exact_records_compared": 7500
+    }
+  ],
+  "test_count": 4,
+  "render_views": 14,
+  "random_tick_speed": 0,
+  "scope": "400 forced fluid/neighbor ticks per rotation and native body-route checks; no natural random tick certification, manual interaction, gameplay or deployment."
+}

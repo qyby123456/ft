@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "id": "M1",
+  "producer": "bloodthorn-chapel-20261101",
+  "room_sha256": "3b65ac9c79ddb3a765ad51f6871b5c643d7a3651114c4b60038a2602a08f3dfb",
+  "size": [
+    15,
+    12,
+    15
+  ],
+  "blocks": 1790,
+  "palette": 65,
+  "geometry": {
+    "status": "PASS",
+    "entrance_opening_wh": [
+      3,
+      3
+    ],
+    "opening_depth": 2,
+    "threshold_support_in_template": true,
+    "full_walls_and_roof": true,
+    "reachable_positions": 123,
+    "routes": {
+      "safe_interior": {
+        "foot": [
+          7,
+          2,
+          3
+        ],
+        "reachable": true
+      },
+      "brazier_side": {
+        "foot": [
+          6,
+          4,
+          7
+        ],
+        "reachable": true
+      },
+      "altar_front": {
+        "foot": [
+          7,
+          2,
+          5
+        ],
+        "reachable": true
+      },
+      "totem_front": {
+        "foot": [
+          7,
+          2,
+          12
+        ],
+        "reachable": true
+      },
+      "relic_door_inside": {
+        "foot": [
+          12,
+          2,
+          9
+        ],
+        "reachable": true
+      }
+    },
+    "hanging_cage_anchors": [
+      {
+        "chain": [
+          2,
+          9,
+          7
+        ],
+        "anchor": [
+          2,
+          10,
+          7
+        ],
+        "status": "PASS"
+      },
+      {
+        "chain": [
+          12,
+          9,
+          7
+        ],
+        "anchor": [
+          12,
+          10,
+          7
+        ],
+        "status": "PASS"
+      },
+      {
+        "chain": [
+          3,
+          9,
+          11
+        ],
+        "anchor": [
+          3,
+          10,
+          11
+        ],
+        "status": "PASS"
+      },
+      {
+        "chain": [
+          11,
+          9,
+          11
+        ],
+        "anchor": [
+          11,
+          10,
+          11
+        ],
+        "status": "PASS"
+      }
+    ],
+    "campfire_to_wood_chebyshev_min": 5,
+    "spreading_fire_or_lava": false,
+    "entities": 0,
+    "door_assumption": "Side relic-room iron door opens through its two supported pressure plates; no runtime redstone simulation."
+  },
+  "native_format": {
+    "block_entities_loaded": 10,
+    "palette": 65,
+    "sha256": "3b65ac9c79ddb3a765ad51f6871b5c643d7a3651114c4b60038a2602a08f3dfb",
+    "size": "15, 12, 15",
+    "id": "M1",
+    "roundtrip": "PASS",
+    "blocks": 1790
+  },
+  "reference_sha256": "b7465894b95e405910fb73f4addda8664c064be321f12a20a029045edefab0c4",
+  "source_standalone_sha256": "751578f6550695414f8eb9d127c547f9651818bd229b19afb1c8771b12e36e04",
+  "standalone_unchanged": true,
+  "core_modified": false,
+  "deployed": false,
+  "worlds_modified": false,
+  "scope": "Independent M1 import candidate only. Not a live-world gameplay test; no core edits, deployment, rewards or mob runtime."
+}

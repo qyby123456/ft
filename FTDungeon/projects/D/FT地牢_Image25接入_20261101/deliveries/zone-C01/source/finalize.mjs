@@ -1,0 +1,41 @@
+import fs from 'node:fs/promises'
+import path from 'node:path'
+import {fileURLToPath} from 'node:url'
+import {createHash} from 'node:crypto'
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+const hash = bytes => createHash('sha256').update(bytes).digest('hex')
+const reference = 'D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/corners/C01-corners-stone-corner-watchpost.png'
+const referenceHash = '142725fdc2c276c07c3929fa9f5151cc1341ab226dd91686d070a0ca10a1d8cb'
+if (hash(await fs.readFile(reference)) !== referenceHash) throw new Error('Reference fingerprint mismatch')
+const metadata = {
+  id: 'C01', name: '石角岗哨', category: 'corner_room', size: [19, 11, 19], dataVersion: 3465,
+  entrance: [9, 2, 0], interior: [9, 2, 3], facing: 'north', exit: [18, 2, 9], exitFacing: 'east',
+  safeLanding: [9, 2, 3], bend: [9, 2, 9], exitInterior: [15, 2, 9],
+  ports: [
+    {id: 'entrance', side: 'north', feet: [9, 2, 0], opening: {from: [8, 2, 0], to: [10, 5, 1]}, width: 3, clearHeight: 4},
+    {id: 'exit', side: 'east', feet: [18, 2, 9], opening: {from: [17, 2, 8], to: [18, 5, 10]}, width: 3, clearHeight: 4}
+  ],
+  route: {type: 'orthogonal_corner', width: 3, feetY: 2, minimumClearHeight: 3, centerline: [[9, 2, 0], [9, 2, 9], [18, 2, 9]],
+    rectangles: [{from: [8, 2, 0], to: [10, 4, 10]}, {from: [8, 2, 8], to: [18, 4, 10]}]},
+  sha256: hash(await fs.readFile(path.join(root, 'room.nbt'))), reference, referenceSha256: referenceHash,
+  coordinateSystem: '+X east, +Y up, +Z south; all ports and landing positions are player feet; floor blocks y=1',
+  rotatedPortsNormalized: [
+    {rotation: 'NONE', entranceSide: 'north', exitSide: 'east', entrance: [9, 2, 0], exit: [18, 2, 9], safeLanding: [9, 2, 3]},
+    {rotation: 'CLOCKWISE_90', entranceSide: 'east', exitSide: 'south', entrance: [18, 2, 9], exit: [9, 2, 18], safeLanding: [15, 2, 9]},
+    {rotation: 'CLOCKWISE_180', entranceSide: 'south', exitSide: 'west', entrance: [9, 2, 18], exit: [0, 2, 9], safeLanding: [9, 2, 15]},
+    {rotation: 'COUNTERCLOCKWISE_90', entranceSide: 'west', exitSide: 'north', entrance: [0, 2, 9], exit: [9, 2, 0], safeLanding: [3, 2, 9]}
+  ],
+  placementPreconditions: ['Validate the complete 19x11x19 destination volume, including explicit air, before placement.', 'Reject occupied, fluid-filled or entity-occupied destinations; never clear a player world.', 'Use independent persistent room identity and do not overwrite previously generated structures or player edits.', 'Connect external passage floors at template y=1 and player feet at y=2.'],
+  paletteIntent: 'Weathered stone-brick guardroom, freestanding load-bearing piers, barred arrow slits, red/gold carpet and banner, map desk, weapon rack, supported lanterns, empty stores',
+  deployment: 'standalone_delivery_only', productionModified: false,
+  designDeviations: [
+    '概念图的展示剖面补为封闭的双层石屋顶；剖视仅隐藏渲染副本。',
+    '为可接入拐角动线，在北墙中央与东墙中央增设三宽四高门洞，地面以平整石砖引导，全部保持同一脚部高度 y=2。',
+    '手绘地图、纸张、矛尖和复杂花纹以原版制图台、书架、铜制避雷针枪架、红黄地毯与旗帜替代；无自定义贴图或武器实体。',
+    '图中台阶降差和低矮前墙改为齐平通路与完整外壳；墙边存储均为空桶，无战利品。',
+    '成品固定 19×11×19，四根独立石柱承接屋顶梁；家具贴南、西侧，主路预留三格宽。'
+  ]
+}
+await fs.writeFile(path.join(root, 'room.json'), JSON.stringify(metadata, null, 2) + '\n')
+process.stdout.write(JSON.stringify({id: metadata.id, size: metadata.size, sha256: metadata.sha256}) + '\n')

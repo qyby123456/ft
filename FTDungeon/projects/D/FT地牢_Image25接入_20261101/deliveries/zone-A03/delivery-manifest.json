@@ -1,0 +1,205 @@
+{
+  "id": "A03",
+  "date": "2026-11-03",
+  "status": "PASS",
+  "structure_sha256": "99e2c33ebf29feb673fc6677c027a73fe7f7d158102eb37a7a9abdc612666c67",
+  "reference_sha256": "413f30992df8f88ee93bdffd0c1ada33f1e33d0ccc4a47e1186f45fa5ded37b5",
+  "deployed": false,
+  "excludes": [
+    "native/.gradle",
+    "native/build",
+    "qa/forge-run disposable server world"
+  ],
+  "artifacts": [
+    {
+      "path": "README.md",
+      "bytes": 5336,
+      "sha256": "e34f894638a0acd554a140909d917926cfeffd5cb780dd39af2e68cd0280a00d"
+    },
+    {
+      "path": "native/build.gradle",
+      "bytes": 753,
+      "sha256": "154a4151fe8863f25ae8474ef43e78d23ff51e12034f020a85d953463e1f7abc"
+    },
+    {
+      "path": "native/gradle.properties",
+      "bytes": 98,
+      "sha256": "9fffd345ffb3223415e507ed0e65a55fe704bae27d7d0d25a509c00e845a4032"
+    },
+    {
+      "path": "native/settings.gradle",
+      "bytes": 181,
+      "sha256": "7f9ad9c2c81e96038726291784d3e7f0ff3fc8558a1d2c93043dd178e475feb4"
+    },
+    {
+      "path": "native/src/main/java/net/farmingtales/a03qa/A03PlacementTests.java",
+      "bytes": 20715,
+      "sha256": "0078c40c93189ea467777acbd6cfffcef854cf6743db03b7e67a88e9d73eccf7"
+    },
+    {
+      "path": "native/src/main/resources/META-INF/mods.toml",
+      "bytes": 472,
+      "sha256": "1d6a073000bf694c465b3190fb2e73d6227cc10a673358e56483a93385c8a2b6"
+    },
+    {
+      "path": "native/src/main/resources/data/fta03qa/structures/empty.nbt",
+      "bytes": 128,
+      "sha256": "6b758ca24c6be982c94f72fda2a204ee827872cc8978f7b7c84add1a067e4185"
+    },
+    {
+      "path": "native/src/main/resources/pack.mcmeta",
+      "bytes": 81,
+      "sha256": "362f1cb2bb4b7da824477da5e69ba1716b73649e59102f60a60d6cf5c861386c"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 419601,
+      "sha256": "644f4d1ef14096533f92de6507ab8cfa1bf5d652a686441327a378adb638102f"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 2575,
+      "sha256": "c19deb9656524a8fb66760a90b79dbd9c259c83401f842c1d0809347a8b78634"
+    },
+    {
+      "path": "qa/forge-gametest.log",
+      "bytes": 9662,
+      "sha256": "32deec6da2a873c07c1794e1daf990b4c7fb165071717fb6c5961b720a727f95"
+    },
+    {
+      "path": "qa/forge-placement.json",
+      "bytes": 6694,
+      "sha256": "c53720696ba9c9b279ffb75cf7f43f606432cf266c04b4fcfe7d38f8418c0a7e"
+    },
+    {
+      "path": "qa/materials.json",
+      "bytes": 879,
+      "sha256": "339999bdfff56dc3be6024c4e8fee77f7e250c47dce5529d64507a9046a625be"
+    },
+    {
+      "path": "qa/reference-evidence.json",
+      "bytes": 1014,
+      "sha256": "b3b6bdcbd55810ef5c6faf86163cc702fbb6b05bae6e4c627e998e3b10bb077c"
+    },
+    {
+      "path": "qa/static.json",
+      "bytes": 4012,
+      "sha256": "2f051cbd5445c2d5679bac794f64068588a8248f03531c6f624bdde60c01251d"
+    },
+    {
+      "path": "qa/visual-review.json",
+      "bytes": 903,
+      "sha256": "082fb6d8f405ed9301e5ecb8d811d2084d7a2522914b50e7c495f30e1bfd0c76"
+    },
+    {
+      "path": "review.html",
+      "bytes": 2666,
+      "sha256": "461604c8d46fcb631112664bfb6b4cd0d85c6f9998f7bbe053eead5d9f5ef5d8"
+    },
+    {
+      "path": "room.json",
+      "bytes": 2664,
+      "sha256": "3fdcc8d13d78305dab0f8ef020ea65730fbb8f5d24383c7d1b6ade4fecded357"
+    },
+    {
+      "path": "room.nbt",
+      "bytes": 12843,
+      "sha256": "99e2c33ebf29feb673fc6677c027a73fe7f7d158102eb37a7a9abdc612666c67"
+    },
+    {
+      "path": "source/build-a03.mjs",
+      "bytes": 6774,
+      "sha256": "a3e602d422b7be945f0c0ac96d972572f18ac996a135aab819b293a719c32e88"
+    },
+    {
+      "path": "source/capture-views.mjs",
+      "bytes": 4332,
+      "sha256": "cb07b708b4c1f9f86bba9bad1ff126a3b8ef9cd3fccfe73d6efe0318853e64a3"
+    },
+    {
+      "path": "source/finalize-a03.mjs",
+      "bytes": 8154,
+      "sha256": "4ead20c9141bc84c077cb3221862c1c21ca3b307a6c2f4b93a553200b9509b4e"
+    },
+    {
+      "path": "source/run-forge.ps1",
+      "bytes": 1092,
+      "sha256": "c8f0b89a20529d67f2e3eb7bbdc9185bda8fa7a3b22046a424e11b6d29519df9"
+    },
+    {
+      "path": "source/verify-a03.mjs",
+      "bytes": 11137,
+      "sha256": "d336780316289442d994d4e9caebab37299245499984ae72d4e86148bffdf4c9"
+    },
+    {
+      "path": "source/viewer-a03.js",
+      "bytes": 3475,
+      "sha256": "bc8a08693b3a0d85e63eb0339aa3f8e6e2a58f443023e11d26e8e4a656e6dd31"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 560,
+      "sha256": "7f118348479f5ec55aad98e8417df642c2679563e520eed7442d62099817ba6d"
+    },
+    {
+      "path": "views/entrance-eye.png",
+      "bytes": 491174,
+      "sha256": "98b8b20e0be7d8cc9086a5bea49ddf2922657bae6827882bf33fe9321819d11a"
+    },
+    {
+      "path": "views/exterior-east.png",
+      "bytes": 415637,
+      "sha256": "bfcef3c6f95e491e3899befa82f0fbe6fa26d2a72f0a3c526e78c672bd50fb53"
+    },
+    {
+      "path": "views/exterior-four-views.png",
+      "bytes": 961761,
+      "sha256": "0012aa4c7d563fc1b46d918476a6f925bac611c2f68c8efb6be621d1a1dfb89e"
+    },
+    {
+      "path": "views/exterior-north.png",
+      "bytes": 414404,
+      "sha256": "d58ab2f0ad76ceeeed74fcb4906d3bf6ba69e95d16d9235fcf13ee654158b02e"
+    },
+    {
+      "path": "views/exterior-south.png",
+      "bytes": 332897,
+      "sha256": "8f3c241a81ce1b0593287a7934789f8270874e8aa5c2b52538be5c3ee32f6b83"
+    },
+    {
+      "path": "views/exterior-west.png",
+      "bytes": 375820,
+      "sha256": "53e2029c9d8392ea14cea7587fc226c01300f79e19bd5e850892d6b601c32add"
+    },
+    {
+      "path": "views/interior-east.png",
+      "bytes": 436755,
+      "sha256": "4fcc685e49da30acf710380d15a7633017649219b5e1aff15fe05f5efb928690"
+    },
+    {
+      "path": "views/interior-four-views.png",
+      "bytes": 914445,
+      "sha256": "9c4e6ed14fdd0eca84d07c7ed1771b20a3d2f5a733805af0dbb7fd58d36ef669"
+    },
+    {
+      "path": "views/interior-north.png",
+      "bytes": 423358,
+      "sha256": "ee67b4c9f37d92c7bbf8d6cfb636baa7c8bfe34656d32342e93e9d684de1e024"
+    },
+    {
+      "path": "views/interior-south.png",
+      "bytes": 424751,
+      "sha256": "79c6b658f3900e8f84d178ec1eab6a16871bee053615655f37ad882e0f00adcb"
+    },
+    {
+      "path": "views/interior-west.png",
+      "bytes": 454299,
+      "sha256": "5eaf584f4eac9c71e1418ccb692161337088d8e35b8b727afc4050bbce0dd329"
+    },
+    {
+      "path": "views/manifest.json",
+      "bytes": 5815,
+      "sha256": "fd6d5ec9e067faada667cc99cdddc83e5b0556a02b166b77f26be636ad1d6e83"
+    }
+  ]
+}

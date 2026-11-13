@@ -1,0 +1,109 @@
+{
+  "id": "corridor-M08",
+  "source_id": "M08",
+  "name": "焚烬熔炉直廊",
+  "category": "corridor",
+  "length_class": "medium",
+  "size": [
+    17,
+    13,
+    41
+  ],
+  "entrance": [
+    8,
+    3,
+    0
+  ],
+  "interior": [
+    8,
+    3,
+    3
+  ],
+  "exit": [
+    8,
+    3,
+    40
+  ],
+  "facing": "north",
+  "axis": "z",
+  "length_blocks": 41,
+  "length_chunks": 2.5625,
+  "straight": true,
+  "branches": 0,
+  "stairs": 0,
+  "clear_path": {
+    "x": [
+      6,
+      10
+    ],
+    "feet_y": 3,
+    "z": [
+      0,
+      40
+    ],
+    "width": 5,
+    "minimum_clear_height": 3,
+    "level_floor": true
+  },
+  "ports": [
+    {
+      "name": "north",
+      "feet": [
+        8,
+        3,
+        0
+      ],
+      "facing": "north",
+      "opening_width": 5,
+      "minimum_clear_height": 5
+    },
+    {
+      "name": "south",
+      "feet": [
+        8,
+        3,
+        40
+      ],
+      "facing": "south",
+      "opening_width": 5,
+      "minimum_clear_height": 5
+    }
+  ],
+  "data_version": 3465,
+  "minecraft": "1.20.1",
+  "sha256": "a5d2baf51f87f97d0cecc5ff473391da932752cb13a456bbe6b8889bbb6bfe51",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M08-forge-lava-burnt.png",
+  "reference_sha256": "ea87fc89e452e478a91bca5ea505acea8b97d2da8bd468a07108db61f7e46050",
+  "reference_features": [
+    "parallel blackstone forge walls",
+    "eight glazed lava forge windows",
+    "eight anvils",
+    "eight empty hanging iron cages",
+    "covered orange lava floor seams",
+    "soot and cracked masonry",
+    "flat straight path with two distant arches"
+  ],
+  "safety": {
+    "floor_lava_glazed": true,
+    "wall_lava_glazed": true,
+    "open_fire": false,
+    "flammable_structure": false,
+    "loot": false,
+    "entities": false,
+    "spawners": false,
+    "command_blocks": false
+  },
+  "integration": {
+    "deployed": false,
+    "player_save_modified": false,
+    "modifies_existing_core": false,
+    "explicit_air_requires_volume_occupancy_check": true
+  },
+  "evidence": {
+    "preview": "preview.png",
+    "four_direction_views": "preview/index.html",
+    "static_qa": "qa/static.json",
+    "forge_native": "qa/native.json",
+    "aggregate": "qa.json"
+  }
+}

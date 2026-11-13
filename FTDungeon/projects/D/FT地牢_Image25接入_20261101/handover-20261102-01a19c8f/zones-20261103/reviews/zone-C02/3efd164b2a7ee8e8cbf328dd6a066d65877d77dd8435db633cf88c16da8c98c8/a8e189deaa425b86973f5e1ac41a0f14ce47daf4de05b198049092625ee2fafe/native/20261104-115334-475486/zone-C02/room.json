@@ -1,0 +1,211 @@
+{
+  "id": "C02",
+  "name": "淹水拐弯·苔石蓄水柱厅",
+  "size": [
+    19,
+    11,
+    19
+  ],
+  "entrance": [
+    9,
+    2,
+    0
+  ],
+  "interior": [
+    9,
+    2,
+    9
+  ],
+  "exit": [
+    18,
+    2,
+    9
+  ],
+  "facing": "north",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/corners/C02-corners-flooded-corner-bend.png",
+  "reference_sha256": "4b61ed5b869a18e1ca6c8ccd51de3972b17b7a4e2998d20b2a8429f5420f12d8",
+  "pillars": [
+    [
+      4,
+      5
+    ],
+    [
+      14,
+      5
+    ],
+    [
+      4,
+      14
+    ],
+    [
+      14,
+      14
+    ]
+  ],
+  "hanging_lights": [
+    [
+      4,
+      9
+    ],
+    [
+      14,
+      9
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      14
+    ]
+  ],
+  "barrels": [
+    [
+      3,
+      2,
+      16
+    ],
+    [
+      5,
+      2,
+      16
+    ]
+  ],
+  "category": "corner_room",
+  "canonical_id": "zone-C02",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "sha256": "3efd164b2a7ee8e8cbf328dd6a066d65877d77dd8435db633cf88c16da8c98c8",
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        9,
+        2,
+        0
+      ],
+      "outward": [
+        0,
+        0,
+        -1
+      ],
+      "bounds": [
+        [
+          8,
+          2,
+          0
+        ],
+        [
+          10,
+          5,
+          0
+        ]
+      ],
+      "opening": [
+        3,
+        4
+      ]
+    },
+    {
+      "side": "east",
+      "feet": [
+        18,
+        2,
+        9
+      ],
+      "outward": [
+        1,
+        0,
+        0
+      ],
+      "bounds": [
+        [
+          18,
+          2,
+          8
+        ],
+        [
+          18,
+          5,
+          10
+        ]
+      ],
+      "opening": [
+        3,
+        4
+      ]
+    }
+  ],
+  "floor_y": 1,
+  "walkway": {
+    "type": "north_to_east_90_degree_bend",
+    "feet_y": 2,
+    "minimum_width": 3,
+    "clear_height": 3,
+    "cells": 57,
+    "segments": [
+      [
+        [
+          8,
+          2,
+          0
+        ],
+        [
+          10,
+          4,
+          10
+        ]
+      ],
+      [
+        [
+          8,
+          2,
+          8
+        ],
+        [
+          18,
+          4,
+          10
+        ]
+      ]
+    ],
+    "same_level": true,
+    "dry": true,
+    "guarded_edges": 34
+  },
+  "flooded": {
+    "source_blocks": 131,
+    "y": 1,
+    "depth": 1,
+    "vertical_sides_and_base_sealed": true,
+    "liquid_below_player_feet": true
+  },
+  "roof": {
+    "complete": true,
+    "y": 10,
+    "preview_cutaways_only": true
+  },
+  "block_entities": 2,
+  "inventory_items": 0,
+  "entities": 0,
+  "loot_tables": 0,
+  "builder": {
+    "skill": "minecraft-builder-skill",
+    "renderer": "Lodestone 0.6.0",
+    "recipe": "source/recipe.mjs",
+    "explicit_volume": true
+  },
+  "design_translation": [
+    "保留苔裂石柱、铁栅壁龛、暖色链灯、浅水与靠墙空木桶。",
+    "参考图大面积淹水地面增加三格宽带栏杆的石质 L 通路；北中央入口转向东中央出口，同高无需跳跃。",
+    "原图剖面和开放边界改为完整外墙与完整屋顶；铁栅后保留实体背墙，水仅位于 y=1 的一格深密封池。",
+    "省略原图非原版绳圈和箱子贴图，不添加未知模型或模组方块。"
+  ],
+  "integration": {
+    "deployed": false,
+    "production_world_modified": false,
+    "core_modified": false,
+    "receiver_review_required": true
+  }
+}

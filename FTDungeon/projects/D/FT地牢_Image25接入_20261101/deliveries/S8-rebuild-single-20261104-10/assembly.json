@@ -1,0 +1,91 @@
+{
+  "source": "incoming/S8R_IMG10/overview.nbt",
+  "source_sha256": "bdb3d81c6b955badcc41ed2290ff540a13f6dca820f6b61f3923d3465e897e41",
+  "size": [
+    67,
+    19,
+    73
+  ],
+  "parts": [
+    {
+      "order": 1,
+      "path": "parts/part-01.nbt",
+      "origin_offset": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        34,
+        19,
+        37
+      ],
+      "explicit_cells": 23902,
+      "block_entities": 1,
+      "sha256": "250f8534493c8a75aff27cd65375eb614a9abe3c403d412acf3dece1177c444f"
+    },
+    {
+      "order": 2,
+      "path": "parts/part-02.nbt",
+      "origin_offset": [
+        0,
+        0,
+        37
+      ],
+      "size": [
+        34,
+        19,
+        36
+      ],
+      "explicit_cells": 23256,
+      "block_entities": 0,
+      "sha256": "f1440d2a406603c2820461e7cbbd219ea0fb681dd9fbf7808f0d87a198b88562"
+    },
+    {
+      "order": 3,
+      "path": "parts/part-03.nbt",
+      "origin_offset": [
+        34,
+        0,
+        0
+      ],
+      "size": [
+        33,
+        19,
+        37
+      ],
+      "explicit_cells": 23199,
+      "block_entities": 3,
+      "sha256": "eb0e724afced1d2103087b78d20592d367fb76698db8c277cd03f54b4e512821"
+    },
+    {
+      "order": 4,
+      "path": "parts/part-04.nbt",
+      "origin_offset": [
+        34,
+        0,
+        37
+      ],
+      "size": [
+        33,
+        19,
+        36
+      ],
+      "explicit_cells": 22572,
+      "block_entities": 0,
+      "sha256": "42ebafa57b483bfda5eac34c8c11f14f4da8d530bc06c6cc0cee7b2bfa13d59d"
+    }
+  ],
+  "placement": "Origin O is source min corner. Place each part at O+origin_offset in listed order, with identical rotation/no mirroring for every part. Parts are disjoint, order deterministic.",
+  "explicit_air_policy": "Every cell is explicit, including air; place with integrity 1 and never ignore air. Clears any preexisting blocks inside the entire source volume. Stage only in empty disposable test world. No world deployment performed.",
+  "entity_coordinate_policy": "Supplied block entity payloads omit x/y/z, vanilla placement binds them to destination position; state and full payload compared exactly after coordinate translation.",
+  "reconstruction": {
+    "status": "PASS_EXACT",
+    "cells": 92929,
+    "block_entities": 4,
+    "all_block_names_properties_and_full_entity_tags_equal": true,
+    "overlap_cells": 0,
+    "missing_cells": 0
+  },
+  "world_placement": "NOT_RUN"
+}

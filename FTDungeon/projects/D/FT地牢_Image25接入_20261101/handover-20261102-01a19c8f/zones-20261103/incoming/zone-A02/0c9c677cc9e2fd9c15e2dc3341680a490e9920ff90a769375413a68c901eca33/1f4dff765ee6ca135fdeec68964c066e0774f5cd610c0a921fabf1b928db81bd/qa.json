@@ -1,0 +1,65 @@
+{
+  "id": "zone-A02",
+  "name": "A02 塌毁卧室",
+  "status": "PASS",
+  "sha256": "0c9c677cc9e2fd9c15e2dc3341680a490e9920ff90a769375413a68c901eca33",
+  "source_sha256": "946dadb0601ffabfb9257ad4ef5455225a146fa6be1abcb324ddac169ee833b4",
+  "size": [
+    21,
+    12,
+    21
+  ],
+  "static": {
+    "status": "PASS",
+    "report": "qa/static.json",
+    "records": 5292,
+    "solid_blocks": 2152,
+    "route_width": 3,
+    "route_clear_height": 4,
+    "roof_retained_cells": 393,
+    "roof_collapse_cells": 48,
+    "reachable_landmarks": 6
+  },
+  "visual": {
+    "status": "PASS",
+    "report": "qa/visual.json",
+    "views": 8,
+    "sheet": "views/eight-view-sheet.png",
+    "renderer": "Minecraft Builder / Lodestone",
+    "in_game_screenshots": false
+  },
+  "native_forge": {
+    "status": "PASS",
+    "report": "qa/native.json",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "settle_ticks": 400,
+    "records_each_phase": 21168,
+    "neighbor_updates_explicit": true,
+    "player_collision_volume": [
+      0.6,
+      1.8,
+      0.6
+    ],
+    "production_save_used": false,
+    "full_modpack_playtest": false
+  },
+  "preserved_failures": [
+    {
+      "file": "qa/static-attempt1-roof-mask.json",
+      "reason": "Initial static roof mask omitted intentionally collapsed wall-edge roof cells; corrected mask and retained northeast column cap before final NBT."
+    },
+    {
+      "file": "qa/gametest-20261103-124624.log",
+      "reason": "First Forge run could not load empty test fixture because test resource pack lacked pack.mcmeta; fixed isolated test resources, rerun passed."
+    }
+  ],
+  "successful_log": "qa/gametest-20261103-135843.log",
+  "deployment": "NOT DEPLOYED; standalone candidate only",
+  "limitations": [
+    "Forge acceptance uses isolated vanilla + Forge 47.4.10, not the complete modpack.",
+    "Decorative bed blocks retain native interactions; gameplay logic and integration are outside this standalone delivery.",
+    "NBT explicit air requires an empty placement slot; do not paste over an occupied world."
+  ]
+}

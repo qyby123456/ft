@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "id": "zone-H05",
+  "name": "穹顶大殿",
+  "sha256": "8ac1fcb78cd2dfe439254ddcf669fb6501ab4bf8e95a929e7dbbaebe56a4d68c",
+  "reference_sha256": "2985f763563c014582ded69a7fcd8b950098934ddf5452a5c5b7ade2ed6b805c",
+  "size": [
+    31,
+    27,
+    39
+  ],
+  "records": 32643,
+  "non_air": 11298,
+  "static": {
+    "status": "PASS",
+    "checks": 11,
+    "evidence": "qa/static.json"
+  },
+  "reference": {
+    "status": "PASS",
+    "evidence": "qa/reference.json",
+    "batch_manifests": "reference/"
+  },
+  "visual": {
+    "status": "PASS",
+    "evidence": "qa/visual-review.json",
+    "four_views": "views/8ac1fcb78cd2dfe4/zone-H05/",
+    "preview": "preview.png",
+    "preview_kind": "Lodestone 0.6.0 exact NBT interior software render, not a game screenshot",
+    "cutaway_changes_nbt": false
+  },
+  "forge": {
+    "status": "PASS",
+    "evidence": "qa/native.json",
+    "log": "qa/forge-h05-attempt4.log",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "records_per_rotation": 32643,
+    "total_placed_records": 130572,
+    "stability_ticks": 400,
+    "neighbor_shape_updates": 130572,
+    "explicit_random_ticks": 0,
+    "full_modpack_client_playtest": false
+  },
+  "safety": {
+    "north_entrance": [
+      15,
+      2,
+      0
+    ],
+    "safe_point": [
+      15,
+      2,
+      5
+    ],
+    "main_aisle_width": 5,
+    "main_aisle_headroom": 4,
+    "safe_footprint": [
+      5,
+      5
+    ],
+    "grounded_piers": 6,
+    "anchored_chandeliers": 4,
+    "complete_two_layer_vault_columns": 1209,
+    "exterior_air_flood_leaks": 0,
+    "active_fluid_or_fire": false,
+    "entities": 0,
+    "block_entities": 0,
+    "inventories": 0,
+    "loot_or_mob_logic": false
+  },
+  "changes_after_rejection": [
+    {
+      "stage": "static",
+      "cause": "12 decorative corbel blocks were only diagonal contacts",
+      "resolution": "built continuous masonry back to the pier spine",
+      "evidence": "qa/history/static-before-corbel-support.json"
+    },
+    {
+      "stage": "Forge attempt1",
+      "cause": "test terrain occupied the verification volume at y=100",
+      "resolution": "moved isolated fixtures to y=240; reran in a fresh world",
+      "evidence": "qa/forge-attempt1.log"
+    },
+    {
+      "stage": "Forge attempt2",
+      "cause": "player collision sampler skipped the carpet lip at the stair landing",
+      "resolution": "sampled both the stair top and 1/16 carpet lift before crossing the landing",
+      "evidence": "qa/forge-attempt2.log"
+    },
+    {
+      "stage": "Forge attempt3",
+      "cause": "ForgeGradle remote environment certificate check stalled despite offline dependency mode",
+      "resolution": "preserved thread dump, stopped only verified H05 Gradle processes, disabled remote check for this isolated build and passed in fresh attempt4 world",
+      "evidence": "qa/gradle-attempt3-thread-dump.txt"
+    }
+  ],
+  "deviations": [
+    "Concept cutaway converted to fully enclosed three-span vaulted hall.",
+    "Blueprint scaled to 31 x 27 x 39 with six grounded piers.",
+    "Five-wide flush red-wool runner used for the level main aisle; actual carpet retained on the dais.",
+    "Teal and gold heraldry uses terracotta inlays rather than custom banner textures.",
+    "Crates and bookshelves are decorative; no inventories, loot, mobs, rewards or active FT interactions.",
+    "Vanilla default-pack lighting differs from the image concept; previews are software renders."
+  ],
+  "production_files_changed": false,
+  "deployed": false,
+  "limitations": [
+    "Isolated Forge GameTest verifies actual ServerLevel placement, native collision and survival after neighbor updates and 400 ticks; no full modpack client FPS or multiplayer run.",
+    "Safe point describes dry supported collision clearance; natural mob spawning was disabled only inside the QA fixture and production gameplay rules remain for the integrator.",
+    "Stair ascent uses native collision boxes and <=0.6-block support-height transitions; no human-controlled player client was launched."
+  ]
+}

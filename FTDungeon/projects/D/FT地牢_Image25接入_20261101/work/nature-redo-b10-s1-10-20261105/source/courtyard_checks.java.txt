@@ -1,0 +1,106 @@
+    private static Vec3 courtFeet(JsonArray node, Fixture fixture) {
+        double height = node.get(1).getAsDouble();
+        BlockPos point = world(new BlockPos(node.get(0).getAsInt(), (int) Math.floor(height), node.get(2).getAsInt()), fixture);
+        return new Vec3(point.getX() + 0.5, point.getY() + height - Math.floor(height), point.getZ() + 0.5);
+    }
+
+    private static AABB courtBody(Vec3 feet) {
+        return new AABB(feet.x - 0.3, feet.y + 0.00001, feet.z - 0.3, feet.x + 0.3, feet.y + 1.8, feet.z + 0.3);
+    }
+
+    private static boolean courtStanding(ServerLevel level, Vec3 feet) {
+        AABB support = new AABB(feet.x - 0.29, feet.y - 0.025, feet.z - 0.29, feet.x + 0.29, feet.y - 0.00001, feet.z + 0.29);
+        return level.noCollision(courtBody(feet)) && !level.noCollision(support);
+    }
+
+    private static boolean courtEdge(ServerLevel level, Vec3 start, Vec3 end) {
+        if (Math.abs(start.y - end.y) > 0.50001) return false;
+        double raised = Math.max(start.y, end.y);
+        Vec3 startUp = new Vec3(start.x, raised, start.z);
+        Vec3 endUp = new Vec3(end.x, raised, end.z);
+        return level.noCollision(courtBody(start).minmax(courtBody(startUp)))
+                && level.noCollision(courtBody(startUp).minmax(courtBody(endUp)))
+                && level.noCollision(courtBody(endUp).minmax(courtBody(end)));
+    }
+
+    private static void inspectCourt(Fixture fixture) {
+        JsonArray route = fixture.spec.getAsJsonArray("body_route");
+        List<Vec3> points = new ArrayList<>();
+        int start = -1;
+        for (int index = 0; index < route.size(); index++) {
+            JsonArray node = route.get(index).getAsJsonArray();
+            Vec3 feet = courtFeet(node, fixture);
+            require(courtStanding(fixture.level, feet), "Courtyard body or floor obstructed " + node);
+            points.add(feet);
+            if (node.equals(fixture.spec.getAsJsonArray("entrance"))) start = index;
+        }
+        require(start >= 0, "Entry missing from declared body route");
+        Set<Integer> visited = new HashSet<>();
+        ArrayDeque<Integer> queue = new ArrayDeque<>();
+        visited.add(start);
+        queue.add(start);
+        while (!queue.isEmpty()) {
+            int current = queue.remove();
+            JsonArray left = route.get(current).getAsJsonArray();
+            for (int next = 0; next < points.size(); next++) {
+                if (visited.contains(next)) continue;
+                JsonArray right = route.get(next).getAsJsonArray();
+                int distance = Math.abs(left.get(0).getAsInt() - right.get(0).getAsInt()) + Math.abs(left.get(2).getAsInt() - right.get(2).getAsInt());
+                if (distance == 1 && courtEdge(fixture.level, points.get(current), points.get(next))) { visited.add(next); queue.add(next); }
+            }
+        }
+        require(visited.size() == points.size(), "Courtyard upper/stair targets unreachable " + visited.size() + "/" + points.size());
+        for(var encoded : fixture.spec.getAsJsonArray("regions")) {
+            JsonArray anchor = encoded.getAsJsonObject().getAsJsonArray("anchor");
+            require(points.contains(courtFeet(anchor,fixture)),"Region anchor missing from verified body route: "+anchor);
+        }
+        int lidAir = 0;
+        for(var encoded : fixture.spec.getAsJsonArray("chest_contracts")) {
+        JsonObject contract = encoded.getAsJsonObject();
+        BlockPos chest = world(position(contract.getAsJsonArray("position")),fixture);
+        BlockState chestState = fixture.level.getBlockState(chest);
+        require(chestState.is(Blocks.CHEST) && chestState.getMenuProvider(fixture.level,chest) != null,"Chest menu unavailable");
+        Vec3 front = courtFeet(contract.getAsJsonArray("front_feet"),fixture);
+        require(points.contains(front) && courtStanding(fixture.level,front),"Chest front outside body route");
+        Vec3 eye = front.add(0,1.62,0);
+        Vec3 target = Vec3.atCenterOf(chest);
+        var hit = fixture.level.clip(new ClipContext(eye,target,ClipContext.Block.OUTLINE,ClipContext.Fluid.NONE,null));
+        require(eye.distanceToSqr(target)<=4.5*4.5 && hit.getType()==HitResult.Type.BLOCK && hit.getBlockPos().equals(chest),"Chest front ray obstructed");
+        JsonArray limits=contract.getAsJsonArray("lid_clearance_box");
+        BlockPos low=position(limits.get(0).getAsJsonArray());
+        BlockPos high=position(limits.get(1).getAsJsonArray());
+        for(BlockPos local:BlockPos.betweenClosed(low,high)) {
+            require(fixture.level.getBlockState(world(local,fixture)).isAir(),"Conservative chest lid envelope obstructed");
+            lidAir++;
+        }
+        }
+        int roofColumns=0;
+        for(int across=0;across<61;across++)for(int forward=0;forward<61;forward++) {
+            boolean exempt=false;
+            for(var item:fixture.spec.getAsJsonArray("roof_exceptions")) {
+                JsonArray pair=item.getAsJsonArray();
+                if(pair.get(0).getAsInt()==across&&pair.get(1).getAsInt()==forward) {exempt=true;break;}
+            }
+            if(!exempt) {require(!fixture.level.getBlockState(world(new BlockPos(across,12,forward),fixture)).isAir(),"Indoor roof missing");roofColumns++;}
+        }
+        for(int vertical=2;vertical<13;vertical++)require(fixture.level.getBlockState(world(new BlockPos(33,vertical,46),fixture)).isAir(),"Real courtyard sky column blocked");
+        Map<String,Object> report = new LinkedHashMap<>();
+        report.put("status","PASS");
+        report.put("source_nbt_sha256",fixture.hash);
+        report.put("body_targets",points.size());
+        report.put("reached_targets",visited.size());
+        report.put("upper_targets",fixture.spec.get("upper_count").getAsInt());
+        report.put("stair_targets",fixture.spec.get("stair_count").getAsInt());
+        report.put("body","0.6x1.8 native AABB, support slice and raised edge sweeps; max half-step0.5; no jump/fly shortcut");
+        report.put("chest_front_reachable",true);
+        report.put("chest_front_ray_clear",true);
+        report.put("chest_menu_provider",true);
+        report.put("conservative_lid_air_cells",lidAir);
+        report.put("closed_roof_columns",roofColumns);
+        report.put("region_anchors",fixture.spec.getAsJsonArray("regions").size());
+        report.put("true_sky_column",List.of(33,2,46));
+        report.put("loot_assigned",false);
+        report.put("source_modified_for_analysis",false);
+        try { Files.writeString(fixture.root.resolve("overview-analysis-" + fixture.rotation.name().toLowerCase() + ".json"),new GsonBuilder().setPrettyPrinting().create().toJson(report)+"\n"); }
+        catch(Exception exception) { throw new IllegalStateException(exception); }
+    }

@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "scope": "INDEPENDENT_F_TEMPLATE_STATIC_AND_FORGE_NATIVE_PLACEMENT_ONLY",
+  "id": "SHOP_F_DARK_IRON",
+  "id_is_provisional": true,
+  "assigned_slot": null,
+  "deployed": false,
+  "structure_sha256": "58248b332aadc2863f48316bb1094d5579aca7b9fabff2709ddfbf10f2c9794a",
+  "reference_sha256": "28ba3cc97775b9f94cb68083d19dee1778079488f678f22bdfd0b5cdfe08e65f",
+  "size": [
+    17,
+    11,
+    17
+  ],
+  "entrance": [
+    8,
+    1,
+    0
+  ],
+  "interior": [
+    8,
+    1,
+    5
+  ],
+  "summary": {
+    "static_checks_passed": 29,
+    "native_rotations_passed": 4,
+    "records_checked_after_200_ticks": 12716,
+    "block_entities_per_room": 12,
+    "reachable_foot_positions_per_rotation": 172,
+    "sealed_lava_sources_per_room": 2,
+    "negative_native_controls": 12,
+    "active_fluid_ticking_canaries": 4,
+    "unexpected_entities": 0,
+    "reward_inventory": 0
+  },
+  "artifacts": {
+    "out/room.nbt": "58248b332aadc2863f48316bb1094d5579aca7b9fabff2709ddfbf10f2c9794a",
+    "out/room.json": "1bd6306bc83d5c4791f13281f6fcbe2b6cd8de16ce5b6324a6eedbc916ab32f8",
+    "out/preview.png": "fe8e79beb423f1b0cefd7277e6655e05b2c83627979db9b2201555556401112a",
+    "qa/static.json": "abf35bf8abaad0c3d4bd72e9f93a123c23affca20c2957e3f7a2f8e121bad1a3",
+    "qa/native.json": "288e087833a4bb579c6f2addcb287b4205961576989fa24953a014c25bfadc13",
+    "qa/forge-gametest.log": "f4ce494e3b66a10ccf889fe468cfd8553d6118e3a2d9b16ec727a238bd5751d7",
+    "qa/capture-audit.json": "8f7040b9ce18406e85db6d0dbaf545938f87433f70fbb48201c82cb52ed24212",
+    "qa/reproducibility.json": "51232685bbb1c0044e9112d8d70ed0702bae3b87f5aeeb00345a45a73fcf17dc",
+    "qa/render-manifest.json": "b151de66764440b6828a6c092ca159375e651f4e8cd77dd0749c2b591a3d3f06",
+    "qa/visual-review.json": "54894eb11479e95a0fceb80927ddbae724f7b8b9d08dbaddfda278213f5ddf6c"
+  },
+  "native_world_captures": [
+    "qa\\native-placed-none.nbt",
+    "qa\\native-placed-clockwise_90.nbt",
+    "qa\\native-placed-clockwise_180.nbt",
+    "qa\\native-placed-counterclockwise_90.nbt"
+  ],
+  "warnings": [
+    "STYLES.md named in upstream README was absent; this discrepancy is preserved in input-fingerprints.json.",
+    "First Forge startup generated local server defaults and issued standard missing server.properties/FML config and deprecation warnings, but the required native test passed.",
+    "Full game client, gameplay, trade, multiplayer, FPS, FT hallway placement, room catalog allocation, occupied-volume refusal and idempotent core integration are NOT tested."
+  ],
+  "coordinator_action": "Review the four artifacts, assign a real catalog ID/slot, perform FT integration safety/regression checks and only then coordinate any deployment. Do not install the QA mod into a player instance.",
+  "production_safety": "No client, player save, deployed JAR, other room or FT core source was opened for writing. Only this independent project and shared tool caches were used."
+}

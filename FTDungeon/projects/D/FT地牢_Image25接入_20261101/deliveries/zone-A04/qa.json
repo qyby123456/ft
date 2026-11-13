@@ -1,0 +1,157 @@
+{
+  "schema": "ft-independent-zone-room-delivery-v1",
+  "id": "A04",
+  "delivery_id": "zone-A04",
+  "name": "砸毁工坊",
+  "status": "PASS",
+  "sha256": "6bb3b157f5a457515cc39cbb9f8532526823f8e28dc0c1a80c45e509ee89ff7e",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/abandoned/A04-abandoned-smashed-workshop.png",
+  "reference_sha256": "514982633d51b5b667a0edac720160ec3ae2ce16c92df65df478be0ea824f7c2",
+  "size": [
+    19,
+    11,
+    19
+  ],
+  "entrance": [
+    9,
+    1,
+    0
+  ],
+  "interior": [
+    9,
+    1,
+    3
+  ],
+  "facing": "north",
+  "static": {
+    "status": "PASS",
+    "report": "qa/static.json",
+    "checks": 19,
+    "records": 3971,
+    "palette": 35,
+    "nonair": 1920
+  },
+  "four_direction_views": {
+    "status": "PASS",
+    "interior_views": 4,
+    "full_shell_views": 4,
+    "eye_views": 2,
+    "report": "views/manifest.json",
+    "visual_review": "qa/visual-review.json",
+    "nbt_unchanged": true
+  },
+  "forge": {
+    "status": "PASS",
+    "runtime": "Forge 47.4.10 / Minecraft Java 1.20.1",
+    "report": "qa/native.json",
+    "log": "qa/forge-gametest.log",
+    "rotations": 4,
+    "stability_ticks": 240,
+    "forced_tick_chunks": true,
+    "records_checked_after_ticks": 15884,
+    "roundtrip_captures": 4,
+    "reachable_level_feet_per_rotation": 240,
+    "reachable_targets_per_rotation": 7,
+    "empty_containers_per_rotation": 5,
+    "negative_probes_per_rotation": [
+      "occupied_air_cell",
+      "missing_chain",
+      "blocked_safety_point",
+      "missing_floor",
+      "nonempty_inventory"
+    ]
+  },
+  "safety": {
+    "north_entrance_width": 3,
+    "north_entrance_height": 3,
+    "solid_floor": true,
+    "complete_roof": true,
+    "fixtures_supported": true,
+    "container_loot": false,
+    "entities": 0,
+    "fluids": 0,
+    "hazardous_route_blocks": 0
+  },
+  "evidence_level": "Static final-NBT audit, producer visual review and isolated headless Forge GameTest placement/stability. Full modpack client play, multiplayer and FPS have not been tested.",
+  "integration": {
+    "state": "independent_candidate_not_deployed",
+    "unique_runtime_slot": null,
+    "receiver_acceptance": "pending",
+    "full_volume_occupancy_preflight_required": true,
+    "connect_hall_to_north_port_required": true,
+    "rotation_must_transform_ports_and_block_states": true,
+    "preserve_existing_world_and_player_edits": true
+  },
+  "boundaries": {
+    "formal_instance_modified": false,
+    "player_saves_modified": false,
+    "other_delivery_ids_modified": false,
+    "deployed": false
+  },
+  "evidence": [
+    {
+      "path": "room.nbt",
+      "sha256": "6bb3b157f5a457515cc39cbb9f8532526823f8e28dc0c1a80c45e509ee89ff7e"
+    },
+    {
+      "path": "room.json",
+      "sha256": "ff48ee9002a6f59955bb8bb7c28e6e8867bb72ca79d1a9f0d69a2830d2579685"
+    },
+    {
+      "path": "preview.png",
+      "sha256": "e9532675bd7d28e00beefc21b4885aafe95968526f0e7cf431f07c3f39e47158"
+    },
+    {
+      "path": "qa/static.json",
+      "sha256": "8f1698c079ac6d97c087443a617e446a0bc1331855400c75137d599e981efd8a"
+    },
+    {
+      "path": "qa/native.json",
+      "sha256": "a42c25017aa46abb81c41c85f1e2ce9182285375360ad7eb7fb02ba73104611a"
+    },
+    {
+      "path": "qa/visual-review.json",
+      "sha256": "6fc70644e5ddb70897e888393478ab3b9841cdc6f19497225f13dc205af83faa"
+    },
+    {
+      "path": "qa/provenance.json",
+      "sha256": "09c7812a744c4e7e1cb0d56bf9a83efd32bdaa26efddba28030cf2bbd382c9f5"
+    },
+    {
+      "path": "qa/forge-gametest.log",
+      "sha256": "5a7a3a24839e832717c21c5ebe751cc19fa0a2102a247c260eeb61731cb7a952"
+    },
+    {
+      "path": "views/manifest.json",
+      "sha256": "726386fb6e7f68782768d54f807cfdc5c4dacd529a1718d3d21d2a4c5318942b"
+    },
+    {
+      "path": "views/interior-four-views.png",
+      "sha256": "43b9adc43dddef257fda6f8371492c499c2b4b305809f60e4ba8acce6d7a014f"
+    },
+    {
+      "path": "views/exterior-four-views.png",
+      "sha256": "478244646c3f8adcffa056313bb7c81bdd3c90825d34ffd3f2d0a0949ee61a98"
+    },
+    {
+      "path": "views/four-direction-review.png",
+      "sha256": "a08abf7af23966b4f7fe6e0c373448213724ab70d86790dd4afdb9f77ef07837"
+    },
+    {
+      "path": "qa\\placed-none.nbt",
+      "sha256": "67f4793445e002f1cc95f2794293004246e06ba0a3275c5d06f9b939c0914fe0"
+    },
+    {
+      "path": "qa\\placed-clockwise_90.nbt",
+      "sha256": "4f4a59540e032ac02017dad735f3524ed17e2fa2cc6dddb50e6b3eb2e4fb5e87"
+    },
+    {
+      "path": "qa\\placed-clockwise_180.nbt",
+      "sha256": "3075332204b63b3245d738294a366c53180b6931cd76f11a6ca1aa454ee517d9"
+    },
+    {
+      "path": "qa\\placed-counterclockwise_90.nbt",
+      "sha256": "1d972f621aabf84308de0c4792eb59a4a37cf50d06b1416c4a0250ce0d4a9d38"
+    }
+  ]
+}

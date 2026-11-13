@@ -1,0 +1,35 @@
+{
+  "status": "PENDING_INDEPENDENT_REVIEW",
+  "reference": {
+    "path": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S1-mossy-forest\\out\\S1-03-small-room.png",
+    "sha256": "cd8685c13f8f0e7a9011ed0d7904a8103f0c04e0d02ad063352855282ce3c8fe",
+    "bytes": 2755230
+  },
+  "structure": {
+    "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b03-s1-03-20261105\\nature-redo-b03-s1-03\\room.nbt",
+    "sha256": "c135fdaeb27306b9a018dca393f00c21225d7dcb7595341b6a2f466f6deac2d3",
+    "bytes": 12393
+  },
+  "image_landmarks": [
+    "Single central chest on low stone platform",
+    "Two back-wall shelves with small mushroom and pot",
+    "Back-left rooted trunk with stepped overhead branches",
+    "West/east side doors",
+    "Left-root and front-right small shallow pools"
+  ],
+  "adaptations": [
+    "19x12x17 integer interpretation, not an exact image measurement.",
+    "Full roof and near walls enclose the image cutaway; only west/east ports remain.",
+    "Potted mushroom/empty pots on grounded solid shelves replace loose mushrooms and small vessels.",
+    "Roots use stepped full blocks; no shader rays or exterior forest.",
+    "One empty raised chest; no loot, encounter or mechanism."
+  ],
+  "cutaway_rules": {
+    "roof": "Display only: hide y>=11.",
+    "hero": "Additionally hide x<=1 or z>=15 at y>=2.",
+    "directional": "At y>=2 hide north z<=1, south z>=15, west x<=1 or east x>=17 respectively.",
+    "full": "No blocks removed, including player-interior and four exterior views.",
+    "native_nbt_modified": false
+  },
+  "next_image_authorized": false
+}

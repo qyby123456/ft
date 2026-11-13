@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "source": "Thread mapping update received in this conversation",
+  "scope": "Local routing reference; does not assign images or authorize cross-group work",
+  "groups": [
+    {
+      "group": 3,
+      "active_thread": "01a1a641-701c-7992-9a62-60f463f809e8",
+      "retired_thread": "01a1a5df-7c46-7fc0-a33d-cfc5b059d4d3"
+    },
+    {
+      "group": 4,
+      "active_thread": "01a1a641-75c7-77b2-ab5e-a3321f6da54e",
+      "retired_thread": "01a1a5df-9064-78f2-8799-cf72f1fbda1e"
+    },
+    {
+      "group": 5,
+      "active_thread": "01a1a641-7a80-7a41-913f-cb6cf6e8adb1",
+      "retired_thread": "01a1a5df-a60b-7f02-877f-856a3b8f501e"
+    },
+    {
+      "group": 8,
+      "active_thread": "01a1a64f-3e44-7c72-ab6d-8d3efa9147a3",
+      "retired_thread": "01a1a5df-ead1-7fa3-ba71-2cf0013e1e97",
+      "retired_status_as_reported": "SYSTEM_ERROR_INVALID_ARCHIVED",
+      "excluded_output": "nature-b1-S8-crystal",
+      "excluded_module_count": 9,
+      "exclusion_reason": "Batch generation violated the one-image-at-a-time rule",
+      "resume_checkpoint": "S8-rebuild-single-20261104-01",
+      "assigned_image_order": 1,
+      "next_image_locked_until": "Current image preview and duplicate review complete, with independent auditor PASS registration",
+      "checkpoint_status": "REPORTED_NOT_INDEPENDENTLY_INSPECTED_IN_THIS_THREAD"
+    }
+  ],
+  "retired_output_policy": "FAILURE_COMPARISON_ONLY_NEVER_MERGE",
+  "dispatch_and_receipt_policy": "Use only the listed active thread for its original group; still require independent audit registration before accepting a module",
+  "local_producer_group": "S1_MOSSY_FOREST",
+  "local_assigned_image": "S1-01",
+  "local_next_image_locked": true,
+  "cross_group_reassignment": false,
+  "messages_sent": false
+}

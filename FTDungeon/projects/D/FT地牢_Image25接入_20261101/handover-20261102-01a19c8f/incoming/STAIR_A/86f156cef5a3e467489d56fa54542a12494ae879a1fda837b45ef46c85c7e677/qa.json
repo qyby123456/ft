@@ -1,0 +1,148 @@
+{
+  "id": "STAIR_A",
+  "name": "石砖折返楼梯间",
+  "status": "PASS_INDEPENDENT_DELIVERY_NOT_DEPLOYED",
+  "generated_at": "2026-11-02T12:43:00+08:00",
+  "room_sha256": "86f156cef5a3e467489d56fa54542a12494ae879a1fda837b45ef46c85c7e677",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-stair-rooms-20261102\\out\\stair-switchback.png",
+  "reference_sha256": "5c5f70a5a6fc3ca28abdb037c32f3c8ba3d95d14f0d2a2b3bdc60fc5f1c75d1e",
+  "size": [
+    23,
+    19,
+    25
+  ],
+  "data_version": 3465,
+  "block_records_including_air": 10925,
+  "non_air_blocks": 3973,
+  "static": {
+    "status": "PASS",
+    "checks": 43,
+    "report": "qa/static.json"
+  },
+  "native_forge": {
+    "status": "PASS",
+    "runtime": "Minecraft Java 1.20.1 / Forge 47.4.10 / isolated headless GameTest",
+    "rotations_passed": 4,
+    "records_checked_initial": 43700,
+    "records_checked_after_100_ticks": 43700,
+    "elapsed_world_ticks": 100,
+    "stairs_per_rotation": 36,
+    "guards_per_rotation": 53,
+    "decor_supports_per_rotation": 24,
+    "portals_3x3_per_rotation": 3,
+    "empty_containers_per_rotation": 2,
+    "bidirectional_three_lane_routes_across_rotations": 48,
+    "native_collision_samples_after_ticks": 6960,
+    "maximum_vertical_step": 0.5,
+    "walking_body": {
+      "width": 0.6,
+      "height": 1.8,
+      "sample_spacing": 0.25,
+      "required_maximum_step": 0.6
+    },
+    "registry_states_entities_roundtrip": "PASS",
+    "negative_probes": {
+      "missing_lantern_support": 4,
+      "missing_safety_guard": 4,
+      "missing_tread_support": 4,
+      "blocked_middle_aisle": 4
+    },
+    "checks": [
+      "native StructureTemplate.placeInWorld at 0/90/180/270 degrees",
+      "exact post-placement state equality for every record, including air",
+      "BlockState.canSurvive and explicit tread/rail/lantern/chain support",
+      "neighbor-shape fixed point, full neighbor updates, forced loaded chunks and 100 world ticks",
+      "three-wide north portals with three-block headroom and full dry floors",
+      "both directions on three lanes of lower and upper connections with native 0.6x1.8 collision boxes",
+      "safe landing, no liquid or cobweb on routes, no entities/drops and empty native container inventories"
+    ],
+    "report": "qa/native.json",
+    "log": "qa/forge-gametest.log"
+  },
+  "preview": {
+    "file": "preview.png",
+    "sha256": "67cef3a9cf358917abbca363d1eb78f541c80ab76dfc6f0d80331846c649ea70",
+    "size": [
+      1800,
+      1720
+    ],
+    "source": "actual delivered NBT and original vanilla models/textures; full roof retained in source",
+    "client_screenshot": false,
+    "native_capture_preview": "preview/native-world-capture.png"
+  },
+  "production_scope": {
+    "deployed": false,
+    "core_modified": false,
+    "player_saves_opened_or_modified": false,
+    "other_rooms_modified": false,
+    "image_api_called": false,
+    "external_ft_corridors_tested": false,
+    "saved_data_idempotence_tested": false,
+    "full_modpack_client_or_multiplayer_tested": false
+  },
+  "integration_requirements": [
+    "Primary entrance feet are six blocks above the lower interface; the external connector must match Y=7.",
+    "Lower and upper north interfaces reserve three-wide dry landings; external corridors and fall protection are the integrator responsibility.",
+    "Air records do not authorize clearing occupied production volume. Validate complete volume plus buffer before placement.",
+    "Candidate ID, slot, FT route, saved-data idempotence, return portal and mob rules require the sole integration owner."
+  ],
+  "known_limitations": [
+    "No production FT catalog, slot, actual external corridors, mob rules, return or SavedData idempotence tested.",
+    "Three north portals require separately reserved exterior landings and fall protection before production use.",
+    "No full-modpack client, multiplayer, FPS or human gameplay acceptance. Captures are native world NBT, not screenshots.",
+    "Headless GameTest log reports one initialization overload warning; no FPS, real-time latency or full-modpack performance claim.",
+    "Collision probe verifies fixed-width walking and native stepping; it is not a human/client input simulation, jump or sprint acceptance."
+  ],
+  "evidence": [
+    {
+      "file": "qa/static.json",
+      "sha256": "e94cba2d348826d3da7fb108459f57d521c30b3ab2587d5d55a4bf58f1c4ab13",
+      "bytes": 7112
+    },
+    {
+      "file": "qa/native.json",
+      "sha256": "24afa0b6f598db46be6902bf1a89e78912e2000dc9a56fb25cec5e6d3c25969e",
+      "bytes": 13510
+    },
+    {
+      "file": "qa/forge-gametest.log",
+      "sha256": "94baae2a28feb46c43ce5626054f8c49b2e18ec77f18d51272181d754101c819",
+      "bytes": 29676
+    },
+    {
+      "file": "qa/blueprint.json",
+      "sha256": "9ffee68f68f101774d85e85a327ac10815506be699585d3ae84a4f2e79b06d8c",
+      "bytes": 25264
+    },
+    {
+      "file": "qa/render-manifest.json",
+      "sha256": "d63f539b4a687b9248321c6deb81def6903e296a480f4582f28228f0b013ba98",
+      "bytes": 2249
+    },
+    {
+      "file": "out/materials.json",
+      "sha256": "560517f36eca868055ead269cd81c00c30708b7a8a6e356b4f2c3ff6a185e11e",
+      "bytes": 648
+    },
+    {
+      "file": "qa/native-placed-none.nbt",
+      "sha256": "d5e7501e794b2fc2acc2494b1746e74f6853bcf9eedd2639babd495ae06f80ad",
+      "bytes": 32414
+    },
+    {
+      "file": "qa/native-placed-clockwise_90.nbt",
+      "sha256": "bfd6c5cd7b0788ca9356aa90aa3ea04908695f2aa375cd0912c51c693d4910c5",
+      "bytes": 32295
+    },
+    {
+      "file": "qa/native-placed-clockwise_180.nbt",
+      "sha256": "7ea52c4b594ba163c2935570cb11da772b0b56a6a44745c06f623e5ed6cdfd71",
+      "bytes": 32289
+    },
+    {
+      "file": "qa/native-placed-counterclockwise_90.nbt",
+      "sha256": "17938d275084bcfa08d9be50b25859f0ee28d7b7235e6c4065c59d9d705d6f8f",
+      "bytes": 32327
+    }
+  ]
+}

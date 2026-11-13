@@ -1,0 +1,225 @@
+{
+  "schema": "ft-independent-zone-room-v1",
+  "id": "P03",
+  "name": "熔岩泡跳台",
+  "category": "parkour",
+  "size": [
+    27,
+    13,
+    29
+  ],
+  "entrance": [
+    13,
+    5,
+    0
+  ],
+  "interior": [
+    13,
+    5,
+    3
+  ],
+  "exit": [
+    13,
+    5,
+    28
+  ],
+  "facing": "north",
+  "sha256": "c95e063e7461496ab421f6c5e8d0642f9db3819330105db02fbcdd614927a161",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/parkour/P03-parkour-lava-bubble-jumps.png",
+  "reference_sha256": "2c844d5d29371dfc8e529c47aa77f3b61c48d64d3364aca57e365532e75dd6d3",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        13,
+        5,
+        0
+      ],
+      "width": 3,
+      "clear_height": 4
+    },
+    {
+      "side": "south",
+      "feet": [
+        13,
+        5,
+        28
+      ],
+      "width": 3,
+      "clear_height": 4
+    }
+  ],
+  "floor_y": 4,
+  "player_feet_y": 5,
+  "roof_included": true,
+  "parkour": {
+    "platform_top_y": 5,
+    "pad_count": 4,
+    "pad_size": [
+      3,
+      3
+    ],
+    "jumps": [
+      {
+        "index": 1,
+        "takeoff": [
+          11.5,
+          5,
+          5.5
+        ],
+        "landing": [
+          11.5,
+          5,
+          7.5
+        ],
+        "distance": 2,
+        "height_change": 0,
+        "ticks": 12,
+        "horizontal_speed_per_tick": 0.18181818181818182,
+        "player_width": 0.6,
+        "player_height": 1.8
+      },
+      {
+        "index": 2,
+        "takeoff": [
+          12.5,
+          5,
+          9.5
+        ],
+        "landing": [
+          13.5,
+          5,
+          11.5
+        ],
+        "distance": 2.23606797749979,
+        "height_change": 0,
+        "ticks": 12,
+        "horizontal_speed_per_tick": 0.20327890704543544,
+        "player_width": 0.6,
+        "player_height": 1.8
+      },
+      {
+        "index": 3,
+        "takeoff": [
+          13.5,
+          5,
+          13.5
+        ],
+        "landing": [
+          12.5,
+          5,
+          15.5
+        ],
+        "distance": 2.23606797749979,
+        "height_change": 0,
+        "ticks": 12,
+        "horizontal_speed_per_tick": 0.20327890704543544,
+        "player_width": 0.6,
+        "player_height": 1.8
+      },
+      {
+        "index": 4,
+        "takeoff": [
+          12.5,
+          5,
+          17.5
+        ],
+        "landing": [
+          13.5,
+          5,
+          19.5
+        ],
+        "distance": 2.23606797749979,
+        "height_change": 0,
+        "ticks": 12,
+        "horizontal_speed_per_tick": 0.20327890704543544,
+        "player_width": 0.6,
+        "player_height": 1.8
+      },
+      {
+        "index": 5,
+        "takeoff": [
+          14.5,
+          5,
+          21.5
+        ],
+        "landing": [
+          14.5,
+          5,
+          23.5
+        ],
+        "distance": 2,
+        "height_change": 0,
+        "ticks": 12,
+        "horizontal_speed_per_tick": 0.18181818181818182,
+        "player_width": 0.6,
+        "player_height": 1.8
+      }
+    ],
+    "checkpoint": [
+      13,
+      5,
+      3
+    ],
+    "difficulty": "easy; no sprint or potion required"
+  },
+  "recovery": {
+    "type": "full glass safety floor over sealed lava; northwest return stair",
+    "catch_feet_y": 3,
+    "maximum_fall_blocks": 2,
+    "stairs": {
+      "east_range": [
+        5,
+        7
+      ],
+      "south_range": [
+        5,
+        6
+      ],
+      "from": [
+        6,
+        3,
+        7
+      ],
+      "to": [
+        6,
+        5,
+        4
+      ]
+    },
+    "walk_back_to_entrance": true,
+    "exit_requires_elevated_route": true
+  },
+  "lava": {
+    "cells": 289,
+    "sources_only": true,
+    "min": [
+      5,
+      1,
+      6
+    ],
+    "max": [
+      21,
+      1,
+      22
+    ],
+    "bottom": "solid polished blackstone at y=0",
+    "lid": "full glass at y=2",
+    "never_exposed_to_player": true
+  },
+  "placement": {
+    "mode": "isolated delivery only; not deployed",
+    "full_volume_preflight_required": true,
+    "explicit_air": true,
+    "occupied_volume_must_be_refused": true,
+    "native_rotation_required": true
+  },
+  "visual_adaptations": [
+    "solid roof retained; cutaway only in previews",
+    "transparent safety lid preserves visible lava and guarantees harmless misses",
+    "wood crates replaced by nonflammable carved stone crates",
+    "four offset 3x3 pads prioritize easy repeatable jumps"
+  ]
+}

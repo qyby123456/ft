@@ -1,0 +1,104 @@
+{
+  "id": "S6-REDO-10",
+  "sha256": "60110084bb9152d03e3709482b9c1b7eae89be088eb04c2b2ee2526d0655c401",
+  "status": "READY_FOR_REVIEW_NOT_ACCEPTED",
+  "acceptance": "PENDING_INDEPENDENT_REVIEW",
+  "checks": {
+    "native_template_load_save": "PASS",
+    "native_route_targets": 33,
+    "body_route_targets": 33,
+    "body_reachable_grid_points": 10410,
+    "half_height_stair_points": 22,
+    "lantern_survival": 12,
+    "native_fire_odds": "ALL_ZERO",
+    "sealed_source_lava": 179,
+    "empty_actual_chests": 3,
+    "major_regions": 8,
+    "exact_reassembled_coordinates": 85410,
+    "parts_all_dimensions_le_48": true,
+    "lodestone_actual_screenshots": 17,
+    "exact_derivative_provenance": true,
+    "previous_manifest_files_unchanged": [
+      {
+        "folder": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S6-redo-single-20261104-01\\01-large-chamber-r3",
+        "verified_file_count": 46,
+        "manifest_sha256": "642e34961fb931822640b8b4a39f21c2ff779eb63ed172f4b7b6ee86b1765694",
+        "status": "ALL_HASHES_UNCHANGED"
+      },
+      {
+        "folder": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S6-redo-single-20261104-01\\02-medium-room",
+        "verified_file_count": 102,
+        "manifest_sha256": "eb17675800fefc28cb6a3a6d7af9961fab3d6a28351cd50e14a3acf7c0d29b6b",
+        "status": "ALL_HASHES_UNCHANGED"
+      },
+      {
+        "folder": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S6-redo-single-20261104-01\\02-medium-room-r2",
+        "verified_file_count": 75,
+        "manifest_sha256": "2d79c1c3b984c7c705a3e45d0a9f6520ed40772eae629171cf274c820da668c2",
+        "status": "ALL_HASHES_UNCHANGED"
+      },
+      {
+        "folder": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S6-redo-single-20261104-01\\03-small-room",
+        "verified_file_count": 104,
+        "manifest_sha256": "bb9876db0ce0f68f3ebd235c1cc629818ad8358cdc6b1a960852c67cb416f23d",
+        "status": "ALL_HASHES_UNCHANGED"
+      },
+      {
+        "folder": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S6-redo-single-20261104-01\\04-great-hall",
+        "verified_file_count": 87,
+        "manifest_sha256": "2a9d7073cd6dfa2ad81aaa6b5b6a4427a964f51c1016b9e740299725511c767e",
+        "status": "ALL_HASHES_UNCHANGED"
+      },
+      {
+        "folder": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S6-redo-single-20261104-01\\05-corridor",
+        "verified_file_count": 84,
+        "manifest_sha256": "74b7b142456ddc6de1efc4434b9a6805906aa44c85b49914edcbe235a58fb073",
+        "status": "ALL_HASHES_UNCHANGED"
+      },
+      {
+        "folder": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S6-redo-single-20261104-01\\06-corner",
+        "verified_file_count": 77,
+        "manifest_sha256": "42401337b0c3dda451d10cc3fdd4094dfdfd55cbd92894b493a772c2f0eaa58e",
+        "status": "ALL_HASHES_UNCHANGED"
+      },
+      {
+        "folder": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S6-redo-single-20261104-01\\07-entrance",
+        "verified_file_count": 82,
+        "manifest_sha256": "f00f2ad27945ff82d0c07efe8411612e173085b53dba237c77db8652d9b29182",
+        "status": "ALL_HASHES_UNCHANGED"
+      },
+      {
+        "folder": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S6-redo-single-20261104-01\\08-courtyard",
+        "verified_file_count": 95,
+        "manifest_sha256": "e26880f573422de1911f0e92616a756161057ac2df6bd6f5f359cce134375fde",
+        "status": "ALL_HASHES_UNCHANGED"
+      },
+      {
+        "folder": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S6-redo-single-20261104-01\\09-treasure",
+        "verified_file_count": 88,
+        "manifest_sha256": "3750729d31654da876bca02716b0ba260c13645a751dc2054f52ac75dc5ce7e4",
+        "status": "ALL_HASHES_UNCHANGED"
+      }
+    ],
+    "exact_classified_geometry_peer_count": 79
+  },
+  "visual_review": "Full source roof envelope, inside routes/regions and source cutaway inspected; fidelity remains subject to independent review.",
+  "geometry_revisions": 2,
+  "reference_adaptations": [
+    "65x18x73 block interpretation, solid region roofs except open central courtyard",
+    "Glass-enclosed source lava replaces exposed lava surfaces; shroomlight replaces fire and smoke",
+    "Three actual vanilla wooden chests, empty inventories, no loot configured",
+    "Open entry arch without door leaves; no closed-door state substitute"
+  ],
+  "runtime": "NOT_RUN",
+  "limitations": [
+    "Discrete vanilla native body collision sampling is not continuous player physics",
+    "No world ticks, fluid/fire/neighbor updates, animated lid/menu interaction, spawning, rotation or gameplay tests",
+    "Mathematical shard equivalence does not certify sequential live-tick placement; seams may temporarily expose lava",
+    "Explicit air must be placed and clears the entire bounding box",
+    "Inspection crops remove roofs or boundaries and must not be deployed",
+    "Exact classified geometry fingerprints do not establish semantic or global uniqueness"
+  ],
+  "S6_11": "LOCKED_NOT_STARTED",
+  "deployment": "NOT_PERFORMED"
+}

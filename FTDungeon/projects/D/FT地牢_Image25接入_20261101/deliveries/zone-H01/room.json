@@ -1,0 +1,259 @@
+{
+  "id": "H01",
+  "name": "残金王座大厅",
+  "category": "halls",
+  "size": [
+    29,
+    18,
+    33
+  ],
+  "entrance": [
+    14,
+    2,
+    0
+  ],
+  "interior": [
+    14,
+    2,
+    4
+  ],
+  "facing": "north",
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        14,
+        2,
+        0
+      ],
+      "width": 5,
+      "clear_height": 6
+    }
+  ],
+  "floor_y": 1,
+  "player_feet_y": 2,
+  "throne_approach": [
+    14,
+    4,
+    26
+  ],
+  "main_route": {
+    "min": [
+      12,
+      2,
+      0
+    ],
+    "max": [
+      16,
+      4,
+      22
+    ],
+    "width": 5,
+    "clearance_height": 3
+  },
+  "dais": {
+    "min": [
+      8,
+      2,
+      23
+    ],
+    "max": [
+      20,
+      3,
+      30
+    ],
+    "stairs": [
+      {
+        "z": 23,
+        "y": 2,
+        "facing": "south"
+      },
+      {
+        "z": 24,
+        "y": 3,
+        "facing": "south"
+      }
+    ],
+    "landing_feet_y": 4
+  },
+  "safe_points": [
+    [
+      14,
+      2,
+      4
+    ],
+    [
+      14,
+      2,
+      12
+    ],
+    [
+      14,
+      2,
+      21
+    ],
+    [
+      14,
+      4,
+      26
+    ]
+  ],
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/halls/H01-halls-throne-hall-dais.png",
+  "reference_sha256": "5b1cd83ecf19000c21254810b1e571d63ed0fde16c12a0fd09601a925c01f492",
+  "sha256": "2cf72715954f54dcb2425b0c9e72742b48dc59bcc2c0292405409636a4bd6c16",
+  "data_version": 3465,
+  "minecraft": "1.20.1",
+  "forge_test_target": "47.4.10",
+  "nbt_air_policy": "Explicit air; all 17226 cells recorded. Full-volume occupancy preflight required before integration.",
+  "complete_roof": true,
+  "materials": {
+    "minecraft:stone_bricks": 4624,
+    "minecraft:polished_andesite": 704,
+    "minecraft:light_blue_stained_glass": 64,
+    "minecraft:deepslate_bricks": 1914,
+    "minecraft:mossy_stone_bricks": 43,
+    "minecraft:cracked_stone_bricks": 57,
+    "minecraft:air": 9197,
+    "minecraft:bookshelf": 12,
+    "minecraft:spruce_slab": 4,
+    "minecraft:red_wool": 268,
+    "minecraft:yellow_terracotta": 62,
+    "minecraft:cobweb": 6,
+    "minecraft:barrel": 6,
+    "minecraft:red_wall_banner": 6,
+    "minecraft:chiseled_stone_bricks": 159,
+    "minecraft:gold_block": 38,
+    "minecraft:polished_andesite_stairs": 26,
+    "minecraft:campfire": 4,
+    "minecraft:lantern": 6,
+    "minecraft:chain": 18,
+    "minecraft:polished_andesite_slab": 2,
+    "minecraft:iron_bars": 6
+  },
+  "block_entities": [
+    {
+      "pos": [
+        3,
+        2,
+        4
+      ],
+      "block": "minecraft:barrel",
+      "id": "minecraft:barrel"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        5
+      ],
+      "block": "minecraft:barrel",
+      "id": "minecraft:barrel"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        4
+      ],
+      "block": "minecraft:barrel",
+      "id": "minecraft:barrel"
+    },
+    {
+      "pos": [
+        3,
+        10,
+        7
+      ],
+      "block": "minecraft:red_wall_banner",
+      "id": "minecraft:banner"
+    },
+    {
+      "pos": [
+        3,
+        10,
+        17
+      ],
+      "block": "minecraft:red_wall_banner",
+      "id": "minecraft:banner"
+    },
+    {
+      "pos": [
+        3,
+        10,
+        27
+      ],
+      "block": "minecraft:red_wall_banner",
+      "id": "minecraft:banner"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        4
+      ],
+      "block": "minecraft:barrel",
+      "id": "minecraft:barrel"
+    },
+    {
+      "pos": [
+        25,
+        2,
+        5
+      ],
+      "block": "minecraft:barrel",
+      "id": "minecraft:barrel"
+    },
+    {
+      "pos": [
+        25,
+        2,
+        25
+      ],
+      "block": "minecraft:barrel",
+      "id": "minecraft:barrel"
+    },
+    {
+      "pos": [
+        25,
+        10,
+        7
+      ],
+      "block": "minecraft:red_wall_banner",
+      "id": "minecraft:banner"
+    },
+    {
+      "pos": [
+        25,
+        10,
+        17
+      ],
+      "block": "minecraft:red_wall_banner",
+      "id": "minecraft:banner"
+    },
+    {
+      "pos": [
+        25,
+        10,
+        27
+      ],
+      "block": "minecraft:red_wall_banner",
+      "id": "minecraft:banner"
+    }
+  ],
+  "design_deviations": [
+    "概念图为敞开的剖视展示；最终模板补齐北立面、完整双层屋顶和六格高北入口，剖切只作用于预览。",
+    "主红毯用与地板齐平的红色羊毛配黄陶/金块边线表示，避免薄地毯改变接入脚位；王座台使用两级可走楼梯。",
+    "原图自由布幔和金属圆柱按整方块实现为红羊毛垂幔、金边石柱及原版带金花纹旗帜。",
+    "火盆用离路的石质高座营火表示；武器架为无实体铁栏/金饰陈设，木桶无库存，不添加战利品或怪物。",
+    "扩为29×18×33格以保留五格中轴和家具旁通道；整体比例、窗格及陈设按可行走尺度调整。"
+  ],
+  "build_recipe": "tools/recipe.mjs",
+  "deployment": "not_deployed",
+  "production_saves_modified": false,
+  "integration_notes": [
+    "Only one north port; this is a terminal throne hall.",
+    "Do not deploy the disposable native-qa fixture.",
+    "Rotate coordinates and block states together using the same vanilla transform.",
+    "Refuse occupied volume including explicit air; preserve per-room generation markers and player edits."
+  ]
+}

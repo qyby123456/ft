@@ -1,0 +1,420 @@
+{
+  "id": "zone-P02",
+  "source_id": "P02",
+  "name": "苔石水渠跳台",
+  "kind": "water-channel-parkour",
+  "size": [
+    17,
+    11,
+    39
+  ],
+  "entrance": [
+    8,
+    3,
+    0
+  ],
+  "interior": [
+    8,
+    3,
+    3
+  ],
+  "exit": [
+    8,
+    3,
+    38
+  ],
+  "facing": "north",
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        8,
+        3,
+        0
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "side": "south",
+      "feet": [
+        8,
+        3,
+        38
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "safe_points": [
+    {
+      "id": "entry",
+      "feet": [
+        8,
+        3,
+        3
+      ]
+    },
+    {
+      "id": "midpoint-rest",
+      "feet": [
+        8,
+        3,
+        19
+      ]
+    },
+    {
+      "id": "exit",
+      "feet": [
+        8,
+        3,
+        36
+      ]
+    }
+  ],
+  "parkour": {
+    "difficulty": "easy",
+    "jumps": 8,
+    "edge_gap_blocks": 1,
+    "platform_top_y": 3,
+    "minimum_platform_size": [
+      3,
+      3
+    ],
+    "platforms": [
+      {
+        "id": "start",
+        "min": [
+          5,
+          2,
+          1
+        ],
+        "max": [
+          11,
+          2,
+          4
+        ]
+      },
+      {
+        "id": "A",
+        "min": [
+          6,
+          2,
+          6
+        ],
+        "max": [
+          8,
+          2,
+          8
+        ]
+      },
+      {
+        "id": "B",
+        "min": [
+          8,
+          2,
+          10
+        ],
+        "max": [
+          10,
+          2,
+          12
+        ]
+      },
+      {
+        "id": "C",
+        "min": [
+          6,
+          2,
+          14
+        ],
+        "max": [
+          8,
+          2,
+          16
+        ]
+      },
+      {
+        "id": "checkpoint",
+        "min": [
+          5,
+          2,
+          18
+        ],
+        "max": [
+          11,
+          2,
+          21
+        ]
+      },
+      {
+        "id": "D",
+        "min": [
+          8,
+          2,
+          23
+        ],
+        "max": [
+          10,
+          2,
+          25
+        ]
+      },
+      {
+        "id": "E",
+        "min": [
+          6,
+          2,
+          27
+        ],
+        "max": [
+          8,
+          2,
+          29
+        ]
+      },
+      {
+        "id": "F",
+        "min": [
+          8,
+          2,
+          31
+        ],
+        "max": [
+          10,
+          2,
+          33
+        ]
+      },
+      {
+        "id": "finish",
+        "min": [
+          7,
+          2,
+          35
+        ],
+        "max": [
+          9,
+          2,
+          37
+        ]
+      }
+    ],
+    "route": [
+      {
+        "from": "start",
+        "to": "A",
+        "clear_gap_blocks": 1,
+        "height_delta": 0,
+        "minimum_headroom": 4,
+        "takeoff_xz": [
+          8.5,
+          4.72
+        ],
+        "landing_first_cell_xz": [
+          8.5,
+          6.5
+        ]
+      },
+      {
+        "from": "A",
+        "to": "B",
+        "clear_gap_blocks": 1,
+        "height_delta": 0,
+        "minimum_headroom": 4,
+        "takeoff_xz": [
+          8.5,
+          8.72
+        ],
+        "landing_first_cell_xz": [
+          8.5,
+          10.5
+        ]
+      },
+      {
+        "from": "B",
+        "to": "C",
+        "clear_gap_blocks": 1,
+        "height_delta": 0,
+        "minimum_headroom": 4,
+        "takeoff_xz": [
+          8.5,
+          12.72
+        ],
+        "landing_first_cell_xz": [
+          8.5,
+          14.5
+        ]
+      },
+      {
+        "from": "C",
+        "to": "checkpoint",
+        "clear_gap_blocks": 1,
+        "height_delta": 0,
+        "minimum_headroom": 4,
+        "takeoff_xz": [
+          8.5,
+          16.72
+        ],
+        "landing_first_cell_xz": [
+          8.5,
+          18.5
+        ]
+      },
+      {
+        "from": "checkpoint",
+        "to": "D",
+        "clear_gap_blocks": 1,
+        "height_delta": 0,
+        "minimum_headroom": 4,
+        "takeoff_xz": [
+          8.5,
+          21.72
+        ],
+        "landing_first_cell_xz": [
+          8.5,
+          23.5
+        ]
+      },
+      {
+        "from": "D",
+        "to": "E",
+        "clear_gap_blocks": 1,
+        "height_delta": 0,
+        "minimum_headroom": 4,
+        "takeoff_xz": [
+          8.5,
+          25.72
+        ],
+        "landing_first_cell_xz": [
+          8.5,
+          27.5
+        ]
+      },
+      {
+        "from": "E",
+        "to": "F",
+        "clear_gap_blocks": 1,
+        "height_delta": 0,
+        "minimum_headroom": 4,
+        "takeoff_xz": [
+          8.5,
+          29.72
+        ],
+        "landing_first_cell_xz": [
+          8.5,
+          31.5
+        ]
+      },
+      {
+        "from": "F",
+        "to": "finish",
+        "clear_gap_blocks": 1,
+        "height_delta": 0,
+        "minimum_headroom": 4,
+        "takeoff_xz": [
+          8.5,
+          33.72
+        ],
+        "landing_first_cell_xz": [
+          8.5,
+          35.5
+        ]
+      }
+    ],
+    "reversible": true
+  },
+  "recovery": {
+    "water_depth_blocks": 1,
+    "basin_floor_y": 1,
+    "water_y": 2,
+    "max_failure_drop_from_walkway": 1,
+    "stair_ports": [
+      {
+        "side": "west",
+        "feet": [
+          4,
+          3,
+          8
+        ]
+      },
+      {
+        "side": "east",
+        "feet": [
+          12,
+          3,
+          8
+        ]
+      },
+      {
+        "side": "west",
+        "feet": [
+          4,
+          3,
+          16
+        ]
+      },
+      {
+        "side": "east",
+        "feet": [
+          12,
+          3,
+          16
+        ]
+      },
+      {
+        "side": "west",
+        "feet": [
+          4,
+          3,
+          24
+        ]
+      },
+      {
+        "side": "east",
+        "feet": [
+          12,
+          3,
+          24
+        ]
+      },
+      {
+        "side": "west",
+        "feet": [
+          4,
+          3,
+          32
+        ]
+      },
+      {
+        "side": "east",
+        "feet": [
+          12,
+          3,
+          32
+        ]
+      }
+    ],
+    "return": "Both side galleries return to the north starting deck. Midpoint is a dry rest platform; no spawnpoint or teleport is installed."
+  },
+  "sha256": "6a147a2b744cf8f6e4ea425c84f54591c2dcd65459e09da0191dd0c000800fcf",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/parkour/P02-parkour-water-channel-jumps.png",
+  "reference_sha256": "518f9e89fadea35943d46096f0fb7d5eae409ef8718eaf15f1151cb9ef4a22c9",
+  "source_documents": [
+    "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/README.md",
+    "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/docs/manifest.json",
+    "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/docs/verify.json",
+    "D:/ft工程文件/FT地牢_Image25接入_20261101/CONTRACT.md"
+  ],
+  "reference_adaptations": [
+    "完整石屋顶仅在预览中剖切。",
+    "跳台设为有基座的3×3落脚面，八次同高一格净空短跳。",
+    "保留两侧木栏、苔石柱梁、空木桶与青色旗帜。",
+    "水深一格；四组双侧含水台阶提供失败恢复。",
+    "末端玻璃护面封闭水景避免瀑布冲刷跳台；出口位于南侧中轴。",
+    "南端两侧设挡墙，阻止侧廊直接步行绕过跳跃路线；水中恢复不作计分或强制挑战。"
+  ],
+  "integrated": false,
+  "deployed": false,
+  "runtime_scope": "Vanilla Java 1.20.1 structure. No FT logic, deployment, slot allocation, command blocks or player-save changes."
+}

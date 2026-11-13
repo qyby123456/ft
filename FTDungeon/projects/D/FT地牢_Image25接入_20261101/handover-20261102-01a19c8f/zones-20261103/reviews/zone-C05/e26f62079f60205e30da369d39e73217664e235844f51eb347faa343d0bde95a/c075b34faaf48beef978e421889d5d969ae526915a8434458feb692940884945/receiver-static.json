@@ -1,0 +1,58 @@
+{
+  "id": "zone-C05",
+  "candidate_sha256": "e26f62079f60205e30da369d39e73217664e235844f51eb347faa343d0bde95a",
+  "bundle_sha256": "c075b34faaf48beef978e421889d5d969ae526915a8434458feb692940884945",
+  "status": "PASS_INTAKE_ONLY",
+  "size": [
+    25,
+    14,
+    25
+  ],
+  "blocks": 8750,
+  "block_entities": 0,
+  "category": "corners",
+  "producer_metadata_id": "zone-C05",
+  "interfaces_as_declared": {
+    "entrance": [
+      12,
+      2,
+      0
+    ],
+    "interior": [
+      12,
+      2,
+      4
+    ],
+    "exit": [
+      24,
+      2,
+      12
+    ],
+    "ports": [
+      {
+        "name": "north",
+        "feet": [
+          12,
+          2,
+          0
+        ],
+        "facing": "north",
+        "width": 5,
+        "height": 5
+      },
+      {
+        "name": "east",
+        "feet": [
+          24,
+          2,
+          12
+        ],
+        "facing": "east",
+        "width": 5,
+        "height": 5
+      }
+    ]
+  },
+  "category_path_status": "NOT_VERIFIED",
+  "limitations": "No straight-corridor rule applied; supports, liquids, collision, jumps, ports and visuals still need independent receiver tests"
+}

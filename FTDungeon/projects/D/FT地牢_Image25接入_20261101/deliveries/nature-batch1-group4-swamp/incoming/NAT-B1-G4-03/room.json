@@ -1,0 +1,381 @@
+{
+  "id": "NAT-B1-G4-03",
+  "name": "湿地藏宝小室",
+  "kind": "small-room",
+  "size": [
+    7,
+    8,
+    7
+  ],
+  "entrance": [
+    3,
+    2,
+    0
+  ],
+  "interior": [
+    3,
+    2,
+    2
+  ],
+  "facing": "north",
+  "exits": [],
+  "topology": {
+    "pattern": "supporting_small-room"
+  },
+  "vertical_layers": {
+    "foundation": 0,
+    "sealed_water": 1,
+    "dry_walk_feet": 2,
+    "observation_feet": null
+  },
+  "mechanisms": {
+    "active": false,
+    "passive": "water separates dry islets, enforcing dog-leg circulation; no reward, trap or redstone claims"
+  },
+  "source_evidence": {
+    "id": "NAT-B1-G4-03",
+    "source_nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\crypt_sm.nbt",
+    "source_sha256": "63f9e1987d80e2f076b6d05a15114daee457d989a42d6a570c0868db0e5eeaf5",
+    "source_details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\crypt_sm.json",
+    "source_details_sha256": "4ec2059d510fed9a0bc546b639c574f8161835ea4886ff8896f895156efbd692",
+    "source_size": [
+      7,
+      8,
+      7
+    ],
+    "output_size": [
+      7,
+      8,
+      7
+    ],
+    "source_palette_names": [
+      "minecraft:air",
+      "minecraft:black_wall_banner",
+      "minecraft:chest",
+      "minecraft:chiseled_stone_bricks",
+      "minecraft:cobblestone",
+      "minecraft:jigsaw",
+      "minecraft:polished_andesite",
+      "minecraft:polished_andesite_stairs",
+      "minecraft:skeleton_skull",
+      "minecraft:smooth_stone_slab",
+      "minecraft:spawner",
+      "minecraft:stone_brick_stairs",
+      "minecraft:stone_brick_wall",
+      "minecraft:stone_bricks"
+    ],
+    "source_top_blocks": [
+      [
+        "minecraft:stone_bricks",
+        209
+      ],
+      [
+        "minecraft:air",
+        104
+      ],
+      [
+        "minecraft:stone_brick_wall",
+        26
+      ],
+      [
+        "minecraft:cobblestone",
+        24
+      ],
+      [
+        "minecraft:stone_brick_stairs",
+        12
+      ],
+      [
+        "minecraft:polished_andesite_stairs",
+        6
+      ],
+      [
+        "minecraft:smooth_stone_slab",
+        3
+      ],
+      [
+        "minecraft:chiseled_stone_bricks",
+        2
+      ],
+      [
+        "minecraft:polished_andesite",
+        1
+      ],
+      [
+        "minecraft:spawner",
+        1
+      ],
+      [
+        "minecraft:chest",
+        1
+      ],
+      [
+        "minecraft:skeleton_skull",
+        1
+      ]
+    ],
+    "source_connectors_raw": [
+      {
+        "pos": [
+          4,
+          1,
+          0
+        ],
+        "state": {
+          "Properties": {
+            "orientation": "north_up"
+          },
+          "Name": "minecraft:jigsaw"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        }
+      }
+    ],
+    "inherited_role": "small single-entry terminal chamber",
+    "declared_changes": "Preserve 7x8x7 envelope and north-only topology; move connector from x4 to x3, feet y1 to y2; remove tomb gameplay."
+  },
+  "connection_points": [
+    {
+      "face": "north",
+      "position": [
+        3,
+        2,
+        0
+      ],
+      "aperture": [
+        3,
+        3
+      ],
+      "coordinates": "relative XYZ player feet",
+      "clearance_required_outside": true
+    }
+  ],
+  "open_sky": false,
+  "footprint": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      6
+    ]
+  ],
+  "reference": "D:/ft工程文件/image2.5/nature-dungeon-styles-20261104/S4-swamp-wetland/out/S4-03-small-room.png",
+  "design_deviations": [
+    "Concept cutaways are preview only; non-courtyard modules have complete roofs.",
+    "Flooded floors replaced by sealed shallow side pools and dry full-block circulation.",
+    "Vanilla 1.20.1 only. No entities, rewards or spawners."
+  ],
+  "sha256": "3e7fa5b7bdc0f3eba79a947e555f10aa3ec195229b91185653426ee6d758ce48",
+  "reference_sha256": "ccbd8491fab9ea689ff4032691f434bf068ff306ddcea040be83ede649d5f6d0",
+  "integration_status": "isolated_candidate_not_deployed",
+  "source_palette_retained": [
+    "minecraft:chest",
+    "minecraft:stone_bricks"
+  ],
+  "theme_palette_additions": [
+    "minecraft:cracked_stone_bricks",
+    "minecraft:dark_oak_log",
+    "minecraft:dark_oak_planks",
+    "minecraft:mossy_cobblestone",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:mud_bricks",
+    "minecraft:ochre_froglight"
+  ],
+  "dry_graph_sha256": "f0b44f506fb88ff7612faded2bcb9226ff94d1e4d7997664a9552efca700d1cb"
+}

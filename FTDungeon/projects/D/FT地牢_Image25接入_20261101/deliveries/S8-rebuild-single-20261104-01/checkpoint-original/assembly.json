@@ -1,0 +1,73 @@
+{
+  "size": [
+    23,
+    13,
+    23
+  ],
+  "chunk_limited": false,
+  "size_basis": "single reference image proportions; not a block-exact survey",
+  "modules": [
+    {
+      "id": "S8R_IMG01",
+      "nbt": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-01\\incoming\\S8R_IMG01\\room.nbt",
+      "local_origin": [
+        0,
+        0,
+        0
+      ],
+      "placement_order": 1,
+      "connection_anchors": [
+        {
+          "role": "entrance",
+          "facing": "north",
+          "position": [
+            11,
+            1,
+            0
+          ],
+          "width": 3,
+          "height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "south",
+          "position": [
+            11,
+            1,
+            22
+          ],
+          "width": 3,
+          "height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "east",
+          "position": [
+            22,
+            1,
+            12
+          ],
+          "width": 3,
+          "height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "west",
+          "position": [
+            0,
+            1,
+            12
+          ],
+          "width": 3,
+          "height": 3
+        }
+      ]
+    }
+  ],
+  "split": false,
+  "split_reason": "23x13x23 fits one Java structure NBT; no 16-block chunk constraint",
+  "bounds_policy": "check full 23x13x23 volume and entities before placement; reject occupied volume; explicit air can erase world blocks",
+  "rotation": "rotate blocks and all anchors together; quarter turn clockwise [x,y,z] -> [22-z,y,x]; north->east->south->west",
+  "world_origin": "assigned by coordinator; not reserved",
+  "world_placement": "NOT_RUN"
+}

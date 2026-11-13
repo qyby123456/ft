@@ -1,0 +1,66 @@
+{
+  "id": "M07",
+  "name": "枯井水牢",
+  "size": [
+    15,
+    13,
+    17
+  ],
+  "entrance": [
+    7,
+    4,
+    0
+  ],
+  "interior": [
+    7,
+    4,
+    3
+  ],
+  "facing": "north",
+  "sha256": "c12bd3be22bae6be4cb7da9a547de541fe2dac0f27839cc7352872a27ec87576",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-rooms-medium-random-20261102\\out\\M07-oubliette-well-hero.png",
+  "reference_sha256": "66b0acc53cad4302ad7daa3589df6181055e2ce89b84947fbb565ce835c6d775",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "tier": "medium",
+  "safe_points": [
+    [
+      3,
+      4,
+      9
+    ],
+    [
+      11,
+      4,
+      9
+    ],
+    [
+      7,
+      4,
+      13
+    ],
+    [
+      7,
+      4,
+      15
+    ]
+  ],
+  "deployed": false,
+  "id_note": "M07 retains its leading zero and is not the existing third-batch M7 room",
+  "adaptations": [
+    "概念图约13×15×13，按可建造的3格北接口、牢龛、环路和暗渠扩为15×13×17（XYZ）。",
+    "完整地基厚4格，入口脚位Y=4，接入方需提供相应阶梯；不允许将入口误作Y=1。",
+    "中央方井为5×5石砌井圈、3×3有盖井腔，中央铁支柱与四侧井圈承托闭合铁活板门。",
+    "33格真实水源全部位于封闭井腔或东侧有盖暗渠，主环路无水；地表湿痕以石材表达。",
+    "梁、锁链、灯和墙钩均有明确支撑；石顶与木衬层完整，剖切只影响预览。",
+    "绞盘/拉杆/锁链/牢龛为建筑装饰，不新增脚本机关、怪物、波次、奖励或实体。"
+  ],
+  "integration": {
+    "copy_only_after_coordinator_review": true,
+    "requires_whole_volume_and_margin_occupancy_refusal": true,
+    "requires_hall_connection_and_independent_generation_marker": true,
+    "north_interface_width": 3,
+    "north_interface_height": 3,
+    "entrance_feet_y": 4
+  }
+}

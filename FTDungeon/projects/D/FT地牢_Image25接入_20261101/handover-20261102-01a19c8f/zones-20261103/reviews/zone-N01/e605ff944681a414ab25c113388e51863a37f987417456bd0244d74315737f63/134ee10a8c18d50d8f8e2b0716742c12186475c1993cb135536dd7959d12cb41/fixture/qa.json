@@ -1,0 +1,78 @@
+{
+  "id": "N01",
+  "status": "PASS",
+  "sha256": "e605ff944681a414ab25c113388e51863a37f987417456bd0244d74315737f63",
+  "reference_sha256": "fc72ab0f0f5650c07a959cf31a1de9bbb263af60ca5d7356d6255d35fac954fc",
+  "size": [
+    25,
+    12,
+    25
+  ],
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "data_version": 3465,
+  "static": "PASS",
+  "four_direction_interior_and_exterior_views": "PASS",
+  "forge_placement_rotations": 4,
+  "native_records_per_phase": 30000,
+  "stability_ticks": 400,
+  "ordered_port_paths_per_rotation": 12,
+  "ordered_port_paths_per_phase": 48,
+  "external_connectors_per_rotation": 4,
+  "center_safe": [
+    12,
+    2,
+    9
+  ],
+  "port_aperture": [
+    5,
+    5
+  ],
+  "protected_route_width": 3,
+  "protected_route_clearance": 5,
+  "protected_route_cells": 168,
+  "block_entities": 12,
+  "entities": 0,
+  "containers": 0,
+  "negative_probes_rejected": [
+    "missing_route_floor",
+    "blocked_port",
+    "ring_headroom_loss",
+    "unsafe_center",
+    "standing_lantern_support_loss",
+    "hanging_lantern_support_loss",
+    "sign_backing_loss"
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "method": "Agent inspected cutaway, plan, four-interior, four-exterior and interface-plan images",
+    "original_nbt_four_interior_and_exterior": true,
+    "complete_roof": true,
+    "four_ports_clear": true,
+    "compass_floor_and_central_wayfinder": true,
+    "pillars_separate_from_props": true,
+    "safe_area_and_ring_visible": true,
+    "cutaway_note": "Roof, upper beams, camera-facing walls and front pillar upper segment hidden only for cutaway; suspended chain endpoints are section cuts.",
+    "game_screenshot": false
+  },
+  "deployment": "NOT_DEPLOYED",
+  "production_save_used": false,
+  "production_mods_modified": false,
+  "full_modpack_client_playtest": false,
+  "evidence": [
+    "qa/static.json",
+    "qa/forge-native.json",
+    "qa/forge-run.log",
+    "qa/views.json",
+    "qa/interface-plan.json",
+    "qa/reference.json",
+    "qa/visual-review.json"
+  ],
+  "limits": [
+    "Isolated Forge is not a complete modpack/client/multiplayer/FPS playtest.",
+    "Software previews are not game screenshots.",
+    "Explicit air requires a full rotated-volume occupancy check before any future placement.",
+    "N/E/S/W signs label template-local ports and rotate with the structure.",
+    "Safety describes geometry and inherent hazards, not runtime mob exclusion."
+  ]
+}

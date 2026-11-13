@@ -1,0 +1,228 @@
+{
+  "id": "zone-P04",
+  "producer_metadata_id": "P04",
+  "name": "崩裂岩沿",
+  "category": "parkour_passage",
+  "size": [
+    23,
+    16,
+    27
+  ],
+  "entrance": [
+    11,
+    5,
+    0
+  ],
+  "interior": [
+    11,
+    5,
+    3
+  ],
+  "exit": [
+    11,
+    5,
+    26
+  ],
+  "facing": "north",
+  "connectors": [
+    {
+      "side": "north",
+      "position": [
+        11,
+        5,
+        0
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "side": "south",
+      "position": [
+        11,
+        5,
+        26
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "safe_points": [
+    {
+      "id": "entry",
+      "feet": [
+        11,
+        5,
+        3
+      ]
+    },
+    {
+      "id": "midpoint",
+      "feet": [
+        4,
+        6,
+        14
+      ]
+    },
+    {
+      "id": "last_ledge",
+      "feet": [
+        4,
+        6,
+        22
+      ]
+    },
+    {
+      "id": "exit",
+      "feet": [
+        11,
+        5,
+        26
+      ]
+    }
+  ],
+  "route": {
+    "direction": "north entry -> west ledges -> south gallery -> south exit",
+    "jumps": [
+      {
+        "id": "J1",
+        "takeoff": [
+          3.5,
+          5,
+          7.65
+        ],
+        "landing_z": [
+          9.3,
+          11.7
+        ],
+        "landing_y": 5,
+        "gap_z": 8,
+        "gap_blocks": 1,
+        "rise": 0
+      },
+      {
+        "id": "J2",
+        "takeoff": [
+          3.5,
+          5,
+          11.65
+        ],
+        "landing_z": [
+          13.3,
+          15.7
+        ],
+        "landing_y": 6,
+        "gap_z": 12,
+        "gap_blocks": 1,
+        "rise": 1
+      },
+      {
+        "id": "J3",
+        "takeoff": [
+          3.5,
+          6,
+          15.65
+        ],
+        "landing_z": [
+          17.3,
+          19.7
+        ],
+        "landing_y": 6,
+        "gap_z": 16,
+        "gap_blocks": 1,
+        "rise": 0
+      },
+      {
+        "id": "J4",
+        "takeoff": [
+          3.5,
+          6,
+          19.65
+        ],
+        "landing_z": [
+          21.3,
+          23.7
+        ],
+        "landing_y": 6,
+        "gap_z": 20,
+        "gap_blocks": 1,
+        "rise": 0
+      }
+    ],
+    "minimum_path_width": 2,
+    "minimum_headroom": 3,
+    "max_gap_blocks": 1,
+    "max_rise_blocks": 1,
+    "requires_sprint": false,
+    "requires_potion_or_equipment": false,
+    "checkpoint_semantics": "Physical resting platforms only; no automatic teleport, respawn or persistent checkpoint."
+  },
+  "recovery": {
+    "floor_y": 2,
+    "feet_y": 3,
+    "maximum_drop": 3,
+    "stairs_x": [
+      17,
+      19
+    ],
+    "stair_z": [
+      7,
+      6
+    ],
+    "route_feet": [
+      [
+        7,
+        3,
+        12
+      ],
+      [
+        18,
+        3,
+        12
+      ],
+      [
+        18,
+        3,
+        8
+      ],
+      [
+        18,
+        5,
+        5
+      ],
+      [
+        11,
+        5,
+        3
+      ]
+    ],
+    "returns_to": "entry",
+    "no_void_or_trap": true
+  },
+  "minecraft_version": "1.20.1",
+  "data_version": 3465,
+  "sha256": "90b84af4d54f49711893225c8ba5314e0f66c0c7dbd8d3dd17b68e66b1059dc7",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/parkour/P04-parkour-crumbling-ledge-path.png",
+  "reference_sha256": "27d3620f3637684e1c7482b31aa49f601a6531c0cd3762d1d6822808262169ea",
+  "source_batch": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103",
+  "builder": {
+    "skill": "C:/Users/YOUR_USERNAME/.codex/skills/minecraft-builder-skill",
+    "recipe": "tools/recipe.mjs",
+    "runner": "scripts/run-build.mjs",
+    "lodestone": "0.6.0",
+    "explicit_air": true
+  },
+  "adaptations": [
+    "The concept is an open dollhouse; the final dungeon has a complete roof and two 3x3 open connectors at equal elevation. Cutaways affect renders only.",
+    "Broken ledges are static wall-anchored stone and corbels, with four one-block gaps; no timed collapse, falling block or world mutation is implemented.",
+    "A continuous recovery floor keeps all intentional falls within three blocks, with a dedicated three-wide return stair; the pit is shallower than the concept.",
+    "The midpoint and final ledge are enlarged physical rest platforms; a south gallery and short stair make the exit reachable.",
+    "Spruce log crates and a red wool wall inlay replace concept containers and cloth; there are no inventories, loot or block entities."
+  ],
+  "scope": {
+    "deployed": false,
+    "production_save_access": false,
+    "core_integration_tested": false,
+    "dedicated_qa_world_only": true,
+    "unique_integration_slot": null
+  }
+}

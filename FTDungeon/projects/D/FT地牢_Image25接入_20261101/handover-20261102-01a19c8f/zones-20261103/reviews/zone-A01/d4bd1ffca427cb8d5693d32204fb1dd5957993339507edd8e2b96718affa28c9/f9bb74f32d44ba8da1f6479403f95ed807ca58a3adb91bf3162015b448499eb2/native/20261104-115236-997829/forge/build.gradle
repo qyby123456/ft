@@ -1,0 +1,19 @@
+plugins { id 'net.minecraftforge.gradle' version '6.0.54' }
+group = 'net.farmingtales.zonereceiver'
+version = '1.0'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        gameTestServer {
+            jvmArgs '-XX:ActiveProcessorCount=2', '-Xms128m', '-Xmx1024m'
+            workingDirectory project.file('../server')
+            property 'forge.enabledGameTestNamespaces', 'ftzonereceiver'
+            property 'ftreceiver.root', projectDir.parentFile.absolutePath
+            mods { ftzonereceiver { source sourceSets.main } }
+        }
+    }
+}
+repositories { mavenCentral() }
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

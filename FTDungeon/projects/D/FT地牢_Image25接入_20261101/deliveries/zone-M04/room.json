@@ -1,0 +1,129 @@
+{
+  "id": "zone-M04",
+  "source_id": "M04",
+  "batch": "dungeon-zone-batch-20261103",
+  "category": "mine_room",
+  "name": "熔岩矿脉",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "size": [
+    25,
+    14,
+    25
+  ],
+  "entrance": [
+    12,
+    3,
+    0
+  ],
+  "interior": [
+    12,
+    3,
+    4
+  ],
+  "facing": "north",
+  "sha256": "a52413917ad6cd7f9db2627b2a98fb198472e122a1aa9b7434666449808b2e67",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/mines/M04-mines-lava-seam-mine.png",
+  "reference_sha256": "8f286ff92140350e6a640892d251f870954b4e1ead0117ae5cce2f50950d5ac2",
+  "ports": [
+    {
+      "side": "north",
+      "center": [
+        12,
+        3,
+        0
+      ],
+      "width": 3,
+      "height": 4,
+      "floor_y": 2
+    }
+  ],
+  "safe_route": {
+    "min": [
+      11,
+      3,
+      0
+    ],
+    "max": [
+      13,
+      3,
+      23
+    ],
+    "width": 3,
+    "clear_height": 3
+  },
+  "safe_landing": {
+    "min": [
+      10,
+      3,
+      2
+    ],
+    "max": [
+      14,
+      3,
+      6
+    ]
+  },
+  "lava": {
+    "sources": 57,
+    "min": [
+      3,
+      1,
+      13
+    ],
+    "max": [
+      21,
+      1,
+      15
+    ],
+    "sealed_faces": 6,
+    "cap": "orange_stained_glass; central polished_andesite bridge",
+    "guardrail": "iron_bars",
+    "open_lava_surface": false
+  },
+  "palette": {
+    "minecraft:deepslate_tiles": 1301,
+    "minecraft:polished_blackstone_bricks": 939,
+    "minecraft:cracked_deepslate_bricks": 166,
+    "minecraft:deepslate_bricks": 690,
+    "minecraft:deepslate_coal_ore": 7,
+    "minecraft:deepslate_copper_ore": 15,
+    "minecraft:polished_basalt": 170,
+    "minecraft:air": 5010,
+    "minecraft:barrel": 7,
+    "minecraft:iron_bars": 48,
+    "minecraft:lava": 57,
+    "minecraft:orange_stained_glass": 54,
+    "minecraft:rail": 26,
+    "minecraft:deepslate_iron_ore": 15,
+    "minecraft:stripped_spruce_log": 86,
+    "minecraft:iron_block": 8,
+    "minecraft:lantern": 6,
+    "minecraft:chain": 18,
+    "minecraft:glowstone": 14,
+    "minecraft:polished_andesite": 88,
+    "minecraft:chiseled_polished_blackstone": 12,
+    "minecraft:anvil": 1,
+    "minecraft:polished_blackstone_button": 4,
+    "minecraft:furnace": 1,
+    "minecraft:spruce_trapdoor": 4,
+    "minecraft:coal_block": 2,
+    "minecraft:blast_furnace": 1
+  },
+  "design_changes": [
+    "Concept open lava replaced by six-face fully sealed source channel beneath transparent full glass blocks, with iron guards and three-wide stone bridge.",
+    "Forge uses enclosed solid glowstone and orange glass, no live fire; empty unlit furnaces cannot emit fuel or rewards.",
+    "Coal handcart is stationary block-built decoration; no minecart or other entity.",
+    "Full roof retained; software cutaway views alone hide roof and near walls."
+  ],
+  "deployment": {
+    "deployed": false,
+    "formal_files_modified": false,
+    "player_saves_opened": false,
+    "integration_performed": false,
+    "ready_for_unified_integration": false
+  },
+  "preview": {
+    "source": "Actual final room.nbt via Minecraft Builder/Lodestone software WebGL."
+  }
+}

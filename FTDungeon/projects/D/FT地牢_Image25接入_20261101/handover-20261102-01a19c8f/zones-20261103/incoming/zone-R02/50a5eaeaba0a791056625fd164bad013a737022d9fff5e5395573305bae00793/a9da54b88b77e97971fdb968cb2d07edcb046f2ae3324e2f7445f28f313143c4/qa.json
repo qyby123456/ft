@@ -1,0 +1,65 @@
+{
+  "id": "zone-R02",
+  "design_id": "R02",
+  "status": "PASS",
+  "structure_sha256": "50a5eaeaba0a791056625fd164bad013a737022d9fff5e5395573305bae00793",
+  "reference_sha256": "750661cfb67285196ab621178b07f857da3df6e804593cad03bd9cf301604512",
+  "static": {
+    "status": "PASS",
+    "tests": 16,
+    "report": "qa/static.json",
+    "explicit_records": 4851,
+    "non_air_blocks": 2800,
+    "reachable_foot_positions": 195
+  },
+  "reference": {
+    "status": "PASS",
+    "report": "qa/reference.json",
+    "manifest_and_verify_matched": true
+  },
+  "four_view": {
+    "status": "PASS",
+    "internal_directions": 4,
+    "full_shell_directions": 4,
+    "total_render_views": 11,
+    "roof_and_entry_reviewed": true,
+    "report": "qa/four-view-review.json",
+    "render_evidence": "qa/render-evidence.json",
+    "sheet": "preview/four-view-sheet.png",
+    "overview_roof_entrance": "preview/overview-roof-entrance.png"
+  },
+  "forge_native": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "records_per_rotation": 4851,
+    "records_after_ticks": 19404,
+    "stabilization_ticks": 200,
+    "world_ticks_elapsed": 200,
+    "forced_fixture_chunks": 30,
+    "all_fixture_chunks_forced_throughout": true,
+    "collision_negative_probes": 4,
+    "banner_support_negative_probes": 4,
+    "table_lamp_support_negative_probes": 4,
+    "native_captures_match": true,
+    "empty_or_decorative_block_entities": 8,
+    "random_tick_speed": 3,
+    "report": "qa/forge-native.json",
+    "process": "qa/forge-process.json",
+    "log": "qa/forge-run.log"
+  },
+  "fixture_revision_history": "qa/fixture-revisions.json",
+  "integration_readiness": "Standalone candidate ready for coordinator review; no FT slot or route assigned by this thread",
+  "deployed": false,
+  "production_instance_modified": false,
+  "player_saves_modified": false,
+  "other_delivery_folders_modified": false,
+  "paid_image_calls": 0,
+  "limitations": [
+    "Isolated Forge fixture only; no production deployment or player save modified",
+    "No FT integration slot, occupied-volume refusal or persistent idempotence test",
+    "Software render is not a full modpack client or multiplayer performance test"
+  ],
+  "generated_at": "2026-11-03 19:38:07 Asia/Shanghai"
+}

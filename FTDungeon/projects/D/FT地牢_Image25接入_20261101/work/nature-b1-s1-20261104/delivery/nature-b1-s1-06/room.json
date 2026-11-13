@@ -1,0 +1,311 @@
+{
+  "id": "nature-b1-s1-06",
+  "number": "06",
+  "type": "corner",
+  "name": "古木转角",
+  "size": [
+    15,
+    10,
+    15
+  ],
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        7,
+        2,
+        0
+      ],
+      "width": 3,
+      "clearHeight": 3,
+      "outward": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "side": "east",
+      "feet": [
+        14,
+        2,
+        7
+      ],
+      "width": 3,
+      "clearHeight": 3,
+      "outward": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "source_evidence": {
+    "source": "hallways/hallway_turn",
+    "size": [
+      15,
+      10,
+      15
+    ],
+    "rule": "Triple the measured 5x5 corner module footprint for 3-wide dry passage and distinct corner/root bay; normalize turn to north/east."
+  },
+  "sha256": "8109545607034528645ba4a2afa843b69250e6de84269b5c92d49a07e6f6df2d",
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    3
+  ],
+  "facing": "north",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S1-mossy-forest\\out\\S1-06-corner.png",
+  "reference_sha256": "5536e9592a1210cc9057667aedaac6f94832bfecb02d2bdc60133043ed64c468",
+  "group_fingerprint": "b94c1b8e2be1885e50fc5af3c35b7dde363a5ad1f449f1578a18c1348537cc13",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "rotation_pivot": [
+    0,
+    0,
+    0
+  ],
+  "feet_y": 2,
+  "route": [
+    [
+      6,
+      2,
+      0
+    ],
+    [
+      6,
+      2,
+      1
+    ],
+    [
+      6,
+      2,
+      2
+    ],
+    [
+      6,
+      2,
+      3
+    ],
+    [
+      6,
+      2,
+      4
+    ],
+    [
+      6,
+      2,
+      5
+    ],
+    [
+      6,
+      2,
+      6
+    ],
+    [
+      6,
+      2,
+      7
+    ],
+    [
+      6,
+      2,
+      8
+    ],
+    [
+      7,
+      2,
+      0
+    ],
+    [
+      7,
+      2,
+      1
+    ],
+    [
+      7,
+      2,
+      2
+    ],
+    [
+      7,
+      2,
+      3
+    ],
+    [
+      7,
+      2,
+      4
+    ],
+    [
+      7,
+      2,
+      5
+    ],
+    [
+      7,
+      2,
+      6
+    ],
+    [
+      7,
+      2,
+      7
+    ],
+    [
+      7,
+      2,
+      8
+    ],
+    [
+      8,
+      2,
+      0
+    ],
+    [
+      8,
+      2,
+      1
+    ],
+    [
+      8,
+      2,
+      2
+    ],
+    [
+      8,
+      2,
+      3
+    ],
+    [
+      8,
+      2,
+      4
+    ],
+    [
+      8,
+      2,
+      5
+    ],
+    [
+      8,
+      2,
+      6
+    ],
+    [
+      8,
+      2,
+      7
+    ],
+    [
+      8,
+      2,
+      8
+    ],
+    [
+      9,
+      2,
+      6
+    ],
+    [
+      9,
+      2,
+      7
+    ],
+    [
+      9,
+      2,
+      8
+    ],
+    [
+      10,
+      2,
+      6
+    ],
+    [
+      10,
+      2,
+      7
+    ],
+    [
+      10,
+      2,
+      8
+    ],
+    [
+      11,
+      2,
+      6
+    ],
+    [
+      11,
+      2,
+      7
+    ],
+    [
+      11,
+      2,
+      8
+    ],
+    [
+      12,
+      2,
+      6
+    ],
+    [
+      12,
+      2,
+      7
+    ],
+    [
+      12,
+      2,
+      8
+    ],
+    [
+      13,
+      2,
+      6
+    ],
+    [
+      13,
+      2,
+      7
+    ],
+    [
+      13,
+      2,
+      8
+    ],
+    [
+      14,
+      2,
+      6
+    ],
+    [
+      14,
+      2,
+      7
+    ],
+    [
+      14,
+      2,
+      8
+    ]
+  ],
+  "roof_exceptions": [],
+  "status": "CANDIDATE_NOT_INTEGRATED",
+  "deviations": [
+    "Concept lighting is not reproduced as shader effects.",
+    "No closed door blocks the three-block-wide entrance.",
+    "Dimensions are integer block approximations; every entrance uses feet Y=2.",
+    "Treasure chests are intentionally empty; rewards and encounters are not implemented."
+  ],
+  "connections": "Align opposing port feet at matching height with a supported three-wide, three-high dry connector. Minecraft native structure rotation is around local [0,0,0], not the room center. Validate the entire bounding volume before placement. No automatic world placement is included."
+}

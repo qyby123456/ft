@@ -1,0 +1,39 @@
+{
+  "status": "PENDING_INDEPENDENT_REVIEW",
+  "reference": {
+    "path": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S1-mossy-forest\\out\\S1-06-corner.png",
+    "sha256": "5536e9592a1210cc9057667aedaac6f94832bfecb02d2bdc60133043ed64c468",
+    "bytes": 2266792
+  },
+  "structure": {
+    "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b06-s1-06-20261105\\nature-redo-b06-s1-06\\room.nbt",
+    "sha256": "07bc6264e9e02738a2c55e5738abcd09122d2b118dba307fe6c5bf2bda4326e7",
+    "bytes": 23607
+  },
+  "landmarks": [
+    "Opaque thick masonry inner bend",
+    "Single 90-degree west-to-north route, not a straight corridor",
+    "Root-wrapped corner pillar and branched overhead beams",
+    "Shallow side pool",
+    "Hanging berry vines and potted mushroom approximation"
+  ],
+  "adaptations": [
+    "25x12x25 integer interpretation; world orientation west-to-north is an explicit convention.",
+    "Opaque solid inner-corner core and complete 625-column roof; no hidden room or diagonal shortcut.",
+    "Potted mushrooms on solid plinths replace naturally scattered mushrooms; full blocks approximate sloped roots.",
+    "Source-water side pool contained; no exterior forest, light shafts, particles, containers, loot or mechanisms."
+  ],
+  "cutaway_rules": {
+    "source_nbt_sha256": "07bc6264e9e02738a2c55e5738abcd09122d2b118dba307fe6c5bf2bda4326e7",
+    "source_is_final_complete_nbt": true,
+    "derived_nbt_files": [],
+    "roof": "Display copy only: hide y>=11 for non-full views.",
+    "hero": "Additionally hide x>=23 or z>=23 at y>=2. Solid inner core is NOT removed.",
+    "reverse_overview": "Full source, no blocks hidden; reverse overview intentionally shows the opaque outer back of the wall core.",
+    "directional": "At y>=2 hide north z<=1, south z>=23, west x<=1 or east x>=23 respectively. Interior wall core remains.",
+    "full": "No blocks hidden: all three player views, roots-pool-detail, reverse-overview and four exterior views.",
+    "traceability": "qa/render.json records source SHA, camera, cut mode, displayed records and screenshot SHA. Renderer constructs display structures in memory; final source is rehashed after rendering.",
+    "native_nbt_modified": false
+  },
+  "next_image_authorized": false
+}

@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "id": "zone-A01",
+  "design_id": "A01",
+  "sha256": "d4bd1ffca427cb8d5693d32204fb1dd5957993339507edd8e2b96718affa28c9",
+  "reference_sha256": "e28fe9c5d774a0f141b616ebeb683f09bc6a8c0bc90fe74e39d88b4f1f2d9a0d",
+  "size": [
+    17,
+    11,
+    17
+  ],
+  "summary": {
+    "static_checks": 15,
+    "full_volume_records": 3179,
+    "non_air_blocks": 1596,
+    "entrance": [
+      8,
+      2,
+      0
+    ],
+    "interior": [
+      8,
+      2,
+      4
+    ],
+    "full_roof_cells": 289,
+    "dry_reachable_feet_per_rotation": 181,
+    "interior_views": 4,
+    "exterior_views": 4,
+    "native_rotations_passed": 4,
+    "native_records_compared_per_phase": 12716,
+    "native_checks_phases": [
+      "immediate",
+      "after_400_ticks"
+    ],
+    "native_stability_ticks": 400,
+    "neighbor_notifications": 12716,
+    "directional_shape_checks": 76296,
+    "forced_random_ticks": 0,
+    "reason_no_forced_random_ticks": "No selected block state reports random ticking; randomTickSpeed=3 remained active.",
+    "empty_barrels": 3,
+    "inventory_items": 0,
+    "entities": 0,
+    "live_fluids": 0
+  },
+  "evidence": {
+    "static": "qa/static.json",
+    "native": "qa/native.json",
+    "reference": "qa/reference.json",
+    "render": "qa/render.json",
+    "visual": "qa/visual-review.json",
+    "native_run": "evidence/native-run.json",
+    "log": "evidence/forge-gametest-a01-attempt1-20261103.log",
+    "internal_sheet": "views/interior-four.png",
+    "external_sheet": "views/exterior-four.png"
+  },
+  "history": [
+    {
+      "stage": "static checker attempt 1",
+      "result": "Checker schema mismatch: verify.json uses records, manifest.json uses files; no room defect.",
+      "retained_evidence": "evidence/static-attempt1.json",
+      "resolved": true
+    }
+  ],
+  "deviations_from_concept": [
+    "Closed solid roof added above the concept cutaway.",
+    "Tilted bookcase and fallen chair use stable axis-aligned bookshelves and stairs.",
+    "Paper and loose books use white/brown carpet, without item entities or readable books.",
+    "Worn red rug is flush wool flooring to keep the main lane flat.",
+    "Fireplace is cold, with blackstone ash and no fire or fuel."
+  ],
+  "limitations": [
+    "Lodestone renders are software previews, not Minecraft client screenshots.",
+    "Isolated Forge 47.4.10 GameTest is not a full modpack or multiplayer playtest.",
+    "Natural mob spawning is disabled only in the isolated fixture; safe point checks cover geometry and dry collision space."
+  ],
+  "deployed": false,
+  "production_saves_touched": false,
+  "parallel_directories_modified": false
+}

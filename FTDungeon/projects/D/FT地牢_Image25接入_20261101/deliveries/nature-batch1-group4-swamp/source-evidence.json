@@ -1,0 +1,1365 @@
+{
+  "authority": "Raw extracted Mod NBT plus local extraction summaries; images are secondary mood references only.",
+  "method": "New procedural geometry derived from verified envelopes and documented topology, NOT raw asset copy or runtime port.",
+  "summaries": [
+    {
+      "path": "D:\\ft工程文件\\结构参考_20261103\\README.md",
+      "sha256": "4cbd3e7db673349053c8fd26125370d37e43d6ecff49b96852e1ecb5f136a05c"
+    },
+    {
+      "path": "D:\\ft工程文件\\结构参考_20261103\\LEARNING_NOTES.md",
+      "sha256": "5457acfac5ee05e0e4ab3b576d7ff5614a1348d69edafd4664c05d966952c59b"
+    },
+    {
+      "path": "D:\\ft工程文件\\结构参考_20261103\\SAMPLE_CATALOG.md",
+      "sha256": "5271764d13a3af3fcecdcc6ef6eedb602976d2c9b962d27b30fe86c6486493b6"
+    },
+    {
+      "path": "D:\\ft工程文件\\结构参考_20261103\\EVIDENCE.md",
+      "sha256": "c1a95f1966a7b2e3273cf6cbeaca10cc8aeb40468b1e5da93fc83f71f33d8e7a"
+    }
+  ],
+  "modules": [
+    {
+      "id": "NAT-B1-G4-01",
+      "source_nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\junction_md.nbt",
+      "source_sha256": "43dd154c633eeaeea32160917ac5d1826a7e2270c39404c21e47aa5407316da0",
+      "source_details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\junction_md.json",
+      "source_details_sha256": "d35a8a6b12eb3e410bc5e2f7cce793db10b2d3b7d4249a67156ee67314fd8b0d",
+      "source_size": [
+        19,
+        16,
+        19
+      ],
+      "output_size": [
+        19,
+        16,
+        19
+      ],
+      "source_palette_names": [
+        "minecraft:air",
+        "minecraft:andesite_wall",
+        "minecraft:chiseled_polished_blackstone",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:cobblestone",
+        "minecraft:crimson_button",
+        "minecraft:gray_wall_banner",
+        "minecraft:infested_stone_bricks",
+        "minecraft:jigsaw",
+        "minecraft:lantern",
+        "minecraft:polished_andesite_slab",
+        "minecraft:polished_blackstone_slab",
+        "minecraft:polished_blackstone_stairs",
+        "minecraft:spawner",
+        "minecraft:stone_brick_slab",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_bricks",
+        "minecraft:water",
+        "minecraft:yellow_stained_glass"
+      ],
+      "source_top_blocks": [
+        [
+          "minecraft:air",
+          2990
+        ],
+        [
+          "minecraft:stone_bricks",
+          1737
+        ],
+        [
+          "minecraft:stone_brick_stairs",
+          164
+        ],
+        [
+          "minecraft:stone_brick_wall",
+          146
+        ],
+        [
+          "minecraft:stone_brick_slab",
+          78
+        ],
+        [
+          "minecraft:water",
+          48
+        ],
+        [
+          "minecraft:cobblestone",
+          10
+        ],
+        [
+          "minecraft:yellow_stained_glass",
+          9
+        ],
+        [
+          "minecraft:andesite_wall",
+          8
+        ],
+        [
+          "minecraft:gray_wall_banner",
+          8
+        ],
+        [
+          "minecraft:chiseled_stone_bricks",
+          5
+        ],
+        [
+          "minecraft:polished_andesite_slab",
+          4
+        ]
+      ],
+      "source_connectors_raw": [
+        {
+          "pos": [
+            0,
+            1,
+            8
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "north_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:starts",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        },
+        {
+          "pos": [
+            8,
+            1,
+            18
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "west_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:starts",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=none,south=none,north=tall,up=true,west=none]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        },
+        {
+          "pos": [
+            10,
+            1,
+            0
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "north_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:hall_doorway",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        },
+        {
+          "pos": [
+            18,
+            1,
+            10
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "south_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:starts",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=none,south=none,north=none,up=true,west=tall]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        }
+      ],
+      "inherited_role": "junction footprint and multi-exit circulation",
+      "declared_changes": "Preserve 19x16x19 envelope; normalize offset interfaces to central N/S/E; cap W; replace junction centerpiece with rooted wetland tree."
+    },
+    {
+      "id": "NAT-B1-G4-02",
+      "source_nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\armoury_md.nbt",
+      "source_sha256": "e9bdc949c8cae69e130d32ac415b9a7a2976ab00a964e041a67bd41a962412b0",
+      "source_details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\armoury_md.json",
+      "source_details_sha256": "793414204cff11d18707cad4eacb715143bfbc510b281589b8c3c754fa958ba6",
+      "source_size": [
+        13,
+        8,
+        13
+      ],
+      "output_size": [
+        13,
+        8,
+        13
+      ],
+      "source_palette_names": [
+        "minecraft:air",
+        "minecraft:anvil",
+        "minecraft:barrel",
+        "minecraft:chest",
+        "minecraft:coal_block",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone_stairs",
+        "minecraft:gray_wall_banner",
+        "minecraft:grindstone",
+        "minecraft:iron_bars",
+        "minecraft:iron_ore",
+        "minecraft:jigsaw",
+        "minecraft:lantern",
+        "minecraft:lava",
+        "minecraft:polished_andesite_slab",
+        "minecraft:polished_andesite_stairs",
+        "minecraft:smithing_table",
+        "minecraft:spruce_planks",
+        "minecraft:spruce_slab",
+        "minecraft:spruce_trapdoor",
+        "minecraft:stone_brick_slab",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_bricks",
+        "minecraft:yellow_stained_glass"
+      ],
+      "source_top_blocks": [
+        [
+          "minecraft:stone_bricks",
+          583
+        ],
+        [
+          "minecraft:air",
+          521
+        ],
+        [
+          "minecraft:stone_brick_wall",
+          66
+        ],
+        [
+          "minecraft:stone_brick_stairs",
+          64
+        ],
+        [
+          "minecraft:stone_brick_slab",
+          45
+        ],
+        [
+          "minecraft:cobblestone",
+          20
+        ],
+        [
+          "minecraft:barrel",
+          8
+        ],
+        [
+          "minecraft:iron_bars",
+          6
+        ],
+        [
+          "minecraft:coal_block",
+          5
+        ],
+        [
+          "minecraft:yellow_stained_glass",
+          4
+        ],
+        [
+          "minecraft:lantern",
+          4
+        ],
+        [
+          "minecraft:polished_andesite_stairs",
+          4
+        ]
+      ],
+      "source_connectors_raw": [
+        {
+          "pos": [
+            10,
+            1,
+            0
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "north_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:hall_doorway",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        }
+      ],
+      "inherited_role": "single-entry functional side room",
+      "declared_changes": "Preserve 13x8x13 and single north entrance; center the off-axis connector; replace racks with dry stone worktable and empty storage."
+    },
+    {
+      "id": "NAT-B1-G4-03",
+      "source_nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\crypt_sm.nbt",
+      "source_sha256": "63f9e1987d80e2f076b6d05a15114daee457d989a42d6a570c0868db0e5eeaf5",
+      "source_details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\crypt_sm.json",
+      "source_details_sha256": "4ec2059d510fed9a0bc546b639c574f8161835ea4886ff8896f895156efbd692",
+      "source_size": [
+        7,
+        8,
+        7
+      ],
+      "output_size": [
+        7,
+        8,
+        7
+      ],
+      "source_palette_names": [
+        "minecraft:air",
+        "minecraft:black_wall_banner",
+        "minecraft:chest",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:cobblestone",
+        "minecraft:jigsaw",
+        "minecraft:polished_andesite",
+        "minecraft:polished_andesite_stairs",
+        "minecraft:skeleton_skull",
+        "minecraft:smooth_stone_slab",
+        "minecraft:spawner",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_bricks"
+      ],
+      "source_top_blocks": [
+        [
+          "minecraft:stone_bricks",
+          209
+        ],
+        [
+          "minecraft:air",
+          104
+        ],
+        [
+          "minecraft:stone_brick_wall",
+          26
+        ],
+        [
+          "minecraft:cobblestone",
+          24
+        ],
+        [
+          "minecraft:stone_brick_stairs",
+          12
+        ],
+        [
+          "minecraft:polished_andesite_stairs",
+          6
+        ],
+        [
+          "minecraft:smooth_stone_slab",
+          3
+        ],
+        [
+          "minecraft:chiseled_stone_bricks",
+          2
+        ],
+        [
+          "minecraft:polished_andesite",
+          1
+        ],
+        [
+          "minecraft:spawner",
+          1
+        ],
+        [
+          "minecraft:chest",
+          1
+        ],
+        [
+          "minecraft:skeleton_skull",
+          1
+        ]
+      ],
+      "source_connectors_raw": [
+        {
+          "pos": [
+            4,
+            1,
+            0
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "north_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:hall_doorway",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        }
+      ],
+      "inherited_role": "small single-entry terminal chamber",
+      "declared_changes": "Preserve 7x8x7 envelope and north-only topology; move connector from x4 to x3, feet y1 to y2; remove tomb gameplay."
+    },
+    {
+      "id": "NAT-B1-G4-04",
+      "source_nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\prison_lg.nbt",
+      "source_sha256": "6acc5a10a095666abd011f6a71267663a4f5cd9889225969a48fbeb74b606b7f",
+      "source_details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\prison_lg.json",
+      "source_details_sha256": "66e2b00b65fcdb2080c17251a6686a9f26b33aa0afd2599fff0713d26de93ce9",
+      "source_size": [
+        19,
+        8,
+        19
+      ],
+      "output_size": [
+        19,
+        8,
+        19
+      ],
+      "source_palette_names": [
+        "minecraft:air",
+        "minecraft:andesite_slab",
+        "minecraft:cauldron",
+        "minecraft:chain",
+        "minecraft:chest",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:cobblestone",
+        "minecraft:cyan_terracotta",
+        "minecraft:iron_bars",
+        "minecraft:iron_door",
+        "minecraft:jigsaw",
+        "minecraft:lever",
+        "minecraft:orange_stained_glass",
+        "minecraft:polished_andesite_slab",
+        "minecraft:spawner",
+        "minecraft:stone_brick_slab",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_bricks",
+        "minecraft:yellow_stained_glass"
+      ],
+      "source_top_blocks": [
+        [
+          "minecraft:stone_bricks",
+          1257
+        ],
+        [
+          "minecraft:air",
+          1078
+        ],
+        [
+          "minecraft:stone_brick_wall",
+          152
+        ],
+        [
+          "minecraft:cobblestone",
+          144
+        ],
+        [
+          "minecraft:stone_brick_stairs",
+          98
+        ],
+        [
+          "minecraft:cyan_terracotta",
+          42
+        ],
+        [
+          "minecraft:iron_bars",
+          30
+        ],
+        [
+          "minecraft:andesite_slab",
+          18
+        ],
+        [
+          "minecraft:iron_door",
+          12
+        ],
+        [
+          "minecraft:chain",
+          12
+        ],
+        [
+          "minecraft:yellow_stained_glass",
+          6
+        ],
+        [
+          "minecraft:chiseled_stone_bricks",
+          6
+        ]
+      ],
+      "source_connectors_raw": [
+        {
+          "pos": [
+            8,
+            1,
+            18
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "south_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:hall_doorway",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=none,south=none,north=none,up=true,west=tall]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        },
+        {
+          "pos": [
+            10,
+            1,
+            0
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "north_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:hall_doorway",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        }
+      ],
+      "inherited_role": "axial north/south circulation and side bays",
+      "declared_changes": "Preserve 19x8x19 envelope and N/S topology; replace cells with paired supported column rows; align both portals to x9."
+    },
+    {
+      "id": "NAT-B1-G4-05",
+      "source_nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\hallways\\hallway_2.nbt",
+      "source_sha256": "8dd6284d9f46dbcf5df2f1093a068a99d7482e72f4425f2cf00bd0848f5086de",
+      "source_details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\hallways\\hallway_2.json",
+      "source_details_sha256": "d6e9781c967bcaadc364d47d32e42254cd23faafe9c5020a70a8d41c269d4b2e",
+      "source_size": [
+        5,
+        8,
+        5
+      ],
+      "output_size": [
+        9,
+        8,
+        19
+      ],
+      "source_palette_names": [
+        "minecraft:air",
+        "minecraft:jigsaw",
+        "minecraft:stone_brick_slab",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_bricks",
+        "minecraft:yellow_stained_glass"
+      ],
+      "source_top_blocks": [
+        [
+          "minecraft:air",
+          116
+        ],
+        [
+          "minecraft:stone_bricks",
+          38
+        ],
+        [
+          "minecraft:stone_brick_wall",
+          20
+        ],
+        [
+          "minecraft:stone_brick_stairs",
+          16
+        ],
+        [
+          "minecraft:stone_brick_slab",
+          5
+        ],
+        [
+          "minecraft:jigsaw",
+          4
+        ],
+        [
+          "minecraft:yellow_stained_glass",
+          1
+        ]
+      ],
+      "source_connectors_raw": [
+        {
+          "pos": [
+            0,
+            1,
+            3
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "west_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:hallway",
+            "pool": "betterstrongholds:hall_doorway",
+            "final_state": "minecraft:air",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hall_doorway"
+          }
+        },
+        {
+          "pos": [
+            1,
+            1,
+            0
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "north_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "minecraft:empty",
+            "pool": "betterstrongholds:hall_wall",
+            "final_state": "minecraft:air",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hall_wall"
+          }
+        },
+        {
+          "pos": [
+            3,
+            1,
+            4
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "south_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "minecraft:empty",
+            "pool": "betterstrongholds:hall_wall",
+            "final_state": "minecraft:air",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hall_wall"
+          }
+        },
+        {
+          "pos": [
+            4,
+            1,
+            1
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "east_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:hallway",
+            "pool": "betterstrongholds:hall_doorway",
+            "final_state": "minecraft:air",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hall_doorway"
+          }
+        }
+      ],
+      "inherited_role": "repeated straight circulation module",
+      "declared_changes": "Source 5x8x5; rotate its active W/E hall semantics to N/S, repeat three segments and add two-block wetland margins: 9x8x19."
+    },
+    {
+      "id": "NAT-B1-G4-06",
+      "source_nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\hallways\\hallway_turn.nbt",
+      "source_sha256": "94c57a9a43219a93c26181a1254bd9e0ecc6a8fc13bac0357f469f983b86df60",
+      "source_details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\hallways\\hallway_turn.json",
+      "source_details_sha256": "14b0208571cfcaaca02d342c119c10518d9811eabdd3c8459795eb356ad5611f",
+      "source_size": [
+        5,
+        8,
+        5
+      ],
+      "output_size": [
+        13,
+        8,
+        13
+      ],
+      "source_palette_names": [
+        "minecraft:air",
+        "minecraft:jigsaw",
+        "minecraft:stone_brick_slab",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_bricks",
+        "minecraft:yellow_stained_glass"
+      ],
+      "source_top_blocks": [
+        [
+          "minecraft:air",
+          106
+        ],
+        [
+          "minecraft:stone_bricks",
+          46
+        ],
+        [
+          "minecraft:stone_brick_wall",
+          25
+        ],
+        [
+          "minecraft:stone_brick_stairs",
+          13
+        ],
+        [
+          "minecraft:stone_brick_slab",
+          5
+        ],
+        [
+          "minecraft:jigsaw",
+          4
+        ],
+        [
+          "minecraft:yellow_stained_glass",
+          1
+        ]
+      ],
+      "source_connectors_raw": [
+        {
+          "pos": [
+            0,
+            1,
+            3
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "west_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:hallway",
+            "pool": "betterstrongholds:hall_doorway",
+            "final_state": "minecraft:air",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hall_doorway"
+          }
+        },
+        {
+          "pos": [
+            1,
+            1,
+            0
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "north_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "minecraft:empty",
+            "pool": "betterstrongholds:hall_wall",
+            "final_state": "minecraft:air",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hall_wall"
+          }
+        },
+        {
+          "pos": [
+            3,
+            1,
+            4
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "south_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:hallway",
+            "pool": "betterstrongholds:hall_doorway",
+            "final_state": "minecraft:air",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hall_doorway"
+          }
+        },
+        {
+          "pos": [
+            4,
+            1,
+            1
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "east_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "minecraft:empty",
+            "pool": "betterstrongholds:hall_wall",
+            "final_state": "stone_brick_wall[east=none,north=tall,south=none,up=true,west=none]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hall_wall"
+          }
+        }
+      ],
+      "inherited_role": "turn module separated from wall/doorway sockets",
+      "declared_changes": "Source 5x8x5; widen each axis to 2*5+3=13 for dry 3-wide bend plus wall/lamps; select N/E as external connection faces. Source raw faces are NOT claimed unchanged."
+    },
+    {
+      "id": "NAT-B1-G4-07",
+      "source_nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\armoury_md.nbt",
+      "source_sha256": "e9bdc949c8cae69e130d32ac415b9a7a2976ab00a964e041a67bd41a962412b0",
+      "source_details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\armoury_md.json",
+      "source_details_sha256": "793414204cff11d18707cad4eacb715143bfbc510b281589b8c3c754fa958ba6",
+      "source_size": [
+        13,
+        8,
+        13
+      ],
+      "output_size": [
+        13,
+        8,
+        13
+      ],
+      "source_palette_names": [
+        "minecraft:air",
+        "minecraft:anvil",
+        "minecraft:barrel",
+        "minecraft:chest",
+        "minecraft:coal_block",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone_stairs",
+        "minecraft:gray_wall_banner",
+        "minecraft:grindstone",
+        "minecraft:iron_bars",
+        "minecraft:iron_ore",
+        "minecraft:jigsaw",
+        "minecraft:lantern",
+        "minecraft:lava",
+        "minecraft:polished_andesite_slab",
+        "minecraft:polished_andesite_stairs",
+        "minecraft:smithing_table",
+        "minecraft:spruce_planks",
+        "minecraft:spruce_slab",
+        "minecraft:spruce_trapdoor",
+        "minecraft:stone_brick_slab",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_bricks",
+        "minecraft:yellow_stained_glass"
+      ],
+      "source_top_blocks": [
+        [
+          "minecraft:stone_bricks",
+          583
+        ],
+        [
+          "minecraft:air",
+          521
+        ],
+        [
+          "minecraft:stone_brick_wall",
+          66
+        ],
+        [
+          "minecraft:stone_brick_stairs",
+          64
+        ],
+        [
+          "minecraft:stone_brick_slab",
+          45
+        ],
+        [
+          "minecraft:cobblestone",
+          20
+        ],
+        [
+          "minecraft:barrel",
+          8
+        ],
+        [
+          "minecraft:iron_bars",
+          6
+        ],
+        [
+          "minecraft:coal_block",
+          5
+        ],
+        [
+          "minecraft:yellow_stained_glass",
+          4
+        ],
+        [
+          "minecraft:lantern",
+          4
+        ],
+        [
+          "minecraft:polished_andesite_stairs",
+          4
+        ]
+      ],
+      "source_connectors_raw": [
+        {
+          "pos": [
+            10,
+            1,
+            0
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "north_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:hall_doorway",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        }
+      ],
+      "inherited_role": "threshold chamber plus separate doorway semantics",
+      "declared_changes": "Preserve 13x8x13 envelope; replace armoury furnishings with guard pedestals; add declared south exit for entrance vestibule use."
+    },
+    {
+      "id": "NAT-B1-G4-08",
+      "source_nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\junction_md.nbt",
+      "source_sha256": "43dd154c633eeaeea32160917ac5d1826a7e2270c39404c21e47aa5407316da0",
+      "source_details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\junction_md.json",
+      "source_details_sha256": "d35a8a6b12eb3e410bc5e2f7cce793db10b2d3b7d4249a67156ee67314fd8b0d",
+      "source_size": [
+        19,
+        16,
+        19
+      ],
+      "output_size": [
+        19,
+        16,
+        19
+      ],
+      "source_palette_names": [
+        "minecraft:air",
+        "minecraft:andesite_wall",
+        "minecraft:chiseled_polished_blackstone",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:cobblestone",
+        "minecraft:crimson_button",
+        "minecraft:gray_wall_banner",
+        "minecraft:infested_stone_bricks",
+        "minecraft:jigsaw",
+        "minecraft:lantern",
+        "minecraft:polished_andesite_slab",
+        "minecraft:polished_blackstone_slab",
+        "minecraft:polished_blackstone_stairs",
+        "minecraft:spawner",
+        "minecraft:stone_brick_slab",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_bricks",
+        "minecraft:water",
+        "minecraft:yellow_stained_glass"
+      ],
+      "source_top_blocks": [
+        [
+          "minecraft:air",
+          2990
+        ],
+        [
+          "minecraft:stone_bricks",
+          1737
+        ],
+        [
+          "minecraft:stone_brick_stairs",
+          164
+        ],
+        [
+          "minecraft:stone_brick_wall",
+          146
+        ],
+        [
+          "minecraft:stone_brick_slab",
+          78
+        ],
+        [
+          "minecraft:water",
+          48
+        ],
+        [
+          "minecraft:cobblestone",
+          10
+        ],
+        [
+          "minecraft:yellow_stained_glass",
+          9
+        ],
+        [
+          "minecraft:andesite_wall",
+          8
+        ],
+        [
+          "minecraft:gray_wall_banner",
+          8
+        ],
+        [
+          "minecraft:chiseled_stone_bricks",
+          5
+        ],
+        [
+          "minecraft:polished_andesite_slab",
+          4
+        ]
+      ],
+      "source_connectors_raw": [
+        {
+          "pos": [
+            0,
+            1,
+            8
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "north_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:starts",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        },
+        {
+          "pos": [
+            8,
+            1,
+            18
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "west_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:starts",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=none,south=none,north=tall,up=true,west=none]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        },
+        {
+          "pos": [
+            10,
+            1,
+            0
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "north_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:hall_doorway",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        },
+        {
+          "pos": [
+            18,
+            1,
+            10
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "south_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:starts",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=none,south=none,north=none,up=true,west=tall]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        }
+      ],
+      "inherited_role": "multi-exit central open gathering space",
+      "declared_changes": "Preserve 19x16x19 envelope; remove roof interior only for courtyard; normalize to N/S/E, cap W and separate dry routes from pools."
+    },
+    {
+      "id": "NAT-B1-G4-09",
+      "source_nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\treasure_room_lg.nbt",
+      "source_sha256": "ddcb67048585585d56c4fb32af9be6668c72562515924ef33e682152cbf2c0fe",
+      "source_details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\treasure_room_lg.json",
+      "source_details_sha256": "b731f27696a3bc5d6cdb4450851a0cf1b0d7b124dab2636b2f4afcdbcb93cd75",
+      "source_size": [
+        19,
+        16,
+        19
+      ],
+      "output_size": [
+        19,
+        16,
+        19
+      ],
+      "source_palette_names": [
+        "minecraft:air",
+        "minecraft:anvil",
+        "minecraft:chiseled_stone_bricks",
+        "minecraft:gray_wall_banner",
+        "minecraft:jigsaw",
+        "minecraft:lantern",
+        "minecraft:lectern",
+        "minecraft:polished_andesite",
+        "minecraft:polished_andesite_slab",
+        "minecraft:polished_andesite_stairs",
+        "minecraft:smithing_table",
+        "minecraft:stone_brick_slab",
+        "minecraft:stone_brick_stairs",
+        "minecraft:stone_brick_wall",
+        "minecraft:stone_bricks",
+        "minecraft:wall_torch",
+        "minecraft:yellow_stained_glass"
+      ],
+      "source_top_blocks": [
+        [
+          "minecraft:air",
+          2921
+        ],
+        [
+          "minecraft:stone_bricks",
+          1703
+        ],
+        [
+          "minecraft:stone_brick_stairs",
+          225
+        ],
+        [
+          "minecraft:stone_brick_slab",
+          84
+        ],
+        [
+          "minecraft:stone_brick_wall",
+          73
+        ],
+        [
+          "minecraft:polished_andesite_stairs",
+          14
+        ],
+        [
+          "minecraft:wall_torch",
+          13
+        ],
+        [
+          "minecraft:yellow_stained_glass",
+          9
+        ],
+        [
+          "minecraft:polished_andesite",
+          9
+        ],
+        [
+          "minecraft:gray_wall_banner",
+          8
+        ],
+        [
+          "minecraft:chiseled_stone_bricks",
+          6
+        ],
+        [
+          "minecraft:polished_andesite_slab",
+          6
+        ]
+      ],
+      "source_connectors_raw": [
+        {
+          "pos": [
+            5,
+            1,
+            12
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "south_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "minecraft:empty",
+            "pool": "betterstrongholds:treasure_corner",
+            "final_state": "minecraft:air",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:treasure_corner"
+          }
+        },
+        {
+          "pos": [
+            9,
+            1,
+            12
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "south_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "minecraft:empty",
+            "pool": "betterstrongholds:treasure_portal",
+            "final_state": "minecraft:air",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:treasure_portal"
+          }
+        },
+        {
+          "pos": [
+            12,
+            1,
+            7
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "east_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "minecraft:empty",
+            "pool": "betterstrongholds:treasure_wall",
+            "final_state": "minecraft:air",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:treasure_wall"
+          }
+        },
+        {
+          "pos": [
+            12,
+            1,
+            13
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "east_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "minecraft:empty",
+            "pool": "betterstrongholds:treasure_corner",
+            "final_state": "minecraft:air",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:treasure_corner"
+          }
+        },
+        {
+          "pos": [
+            13,
+            1,
+            6
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "north_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "minecraft:empty",
+            "pool": "betterstrongholds:treasure_corner",
+            "final_state": "minecraft:air",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:treasure_corner"
+          }
+        },
+        {
+          "pos": [
+            18,
+            9,
+            10
+          ],
+          "state": {
+            "Properties": {
+              "orientation": "east_up"
+            },
+            "Name": "minecraft:jigsaw"
+          },
+          "nbt": {
+            "joint": "rollable",
+            "name": "betterstrongholds:hall_doorway",
+            "pool": "betterstrongholds:hallway",
+            "final_state": "stone_brick_wall[east=none,south=tall,north=none,up=true,west=none]",
+            "id": "minecraft:jigsaw",
+            "target": "betterstrongholds:hallway"
+          }
+        }
+      ],
+      "inherited_role": "terminal treasure chamber plus detail sockets",
+      "declared_changes": "Preserve 19x16x19 envelope and treasure function; omit all internal jigsaw detail sockets; replace elevated east entry with safe floor-level north entry; empty chest only, no loot or traps."
+    }
+  ],
+  "runtime_boundary": "Original YUNG jigsaw/pool/processor behavior is not reproduced. External explicit ports in room.json replace jigsaws. No processor placeholders are copied as visual material.",
+  "license": "Local private study; no redistribution authorization inferred."
+}

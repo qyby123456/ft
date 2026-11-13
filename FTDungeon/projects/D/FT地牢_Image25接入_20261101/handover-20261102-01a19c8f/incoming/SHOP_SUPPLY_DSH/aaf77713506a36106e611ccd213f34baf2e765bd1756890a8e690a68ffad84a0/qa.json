@@ -1,0 +1,220 @@
+{
+  "schema_version": 2,
+  "status": "PASS",
+  "generated_at": "2026-11-02T11:40:38.253750+08:00",
+  "id": "SHOP_SUPPLY_DSH",
+  "structure_sha256": "aaf77713506a36106e611ccd213f34baf2e765bd1756890a8e690a68ffad84a0",
+  "structure_size": [
+    11,
+    8,
+    11
+  ],
+  "record_count": 968,
+  "entrance": [
+    5,
+    1,
+    0
+  ],
+  "interior": [
+    5,
+    1,
+    3
+  ],
+  "static": {
+    "status": "PASS",
+    "checks": 25,
+    "report": "qa/static.json"
+  },
+  "native": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "java": "17.0.8",
+    "rotations": 4,
+    "records_after_100_ticks": 3872,
+    "block_entities_per_rotation": 11,
+    "reachable_foot_positions_per_rotation": 63,
+    "extra_world_entities": 0,
+    "missing_support_negative_probes": 4,
+    "blocked_path_negative_probes": 4,
+    "source_vs_unrotated_world_states": "EXACT_EQUAL",
+    "original_trading_table_pair_api": "PASS",
+    "report": "qa/native.json",
+    "log": "qa/forge-gametest.log"
+  },
+  "shop_policy": {
+    "room_type": "shop",
+    "spawn_points": false,
+    "candidate_parser_cases": 5,
+    "candidate_layout_negative_cases": 2,
+    "core_patch": "integration/shop-import.patch",
+    "patch_snapshot_roundtrip": "PASS",
+    "applied_to_shared_core": false,
+    "full_spawn_handler_runtime_tested": false
+  },
+  "dependencies": [
+    {
+      "mod_id": "ftdungeontrading",
+      "version": "1.2.0",
+      "file": "ft-dungeon-trading-forge-1.20.1-1.2.0.jar",
+      "sha256": "88e248923de4c17da275ed8af294914f413ede9ef43fa1b5f0f277d8879ec383"
+    }
+  ],
+  "visual": {
+    "status": "PASS",
+    "report": "qa/visual-review.json",
+    "images": [
+      {
+        "path": "preview/delivery-sheet.png",
+        "size": [
+          2480,
+          1650
+        ],
+        "sha256": "6418a0cc58d87a795827d6b09eb754fc31c3d041b3cfd14da111bb4ff66a1680"
+      },
+      {
+        "path": "preview/east.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "7fe4fbe2d202f597be10e2e5810fdda6e3154476625fb04140db40df46df8cee"
+      },
+      {
+        "path": "preview/exterior.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "f17d3bdffdb3f7d779f469553e68fa91fa52db9bdd20f3863080eaa554b8b0c6"
+      },
+      {
+        "path": "preview/four-views.png",
+        "size": [
+          3200,
+          2500
+        ],
+        "sha256": "e278a0aff5fda57c8ce6dca12d7822545af42b632fb39bdb8cf19dc44a6eb04a"
+      },
+      {
+        "path": "preview/native-world-capture.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "7f413bd7a2ae749ad831937bc143743c9131cbdb919f34696f29407c27e4c4ce"
+      },
+      {
+        "path": "preview/north.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "debe843e4eacea7221bca450ece63ea60449ee971d18456e9d3eafe8756d18ff"
+      },
+      {
+        "path": "preview/plan.png",
+        "size": [
+          1280,
+          1150
+        ],
+        "sha256": "ba752d70f964a40188df41b588f805a2a2a6ea3282cc75ef84ac5e3b677c8bc9"
+      },
+      {
+        "path": "preview/south.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "03ad8761dcc86d36bfea29aa05f57f0c55fde4e0d6113071809660dfcbd839e3"
+      },
+      {
+        "path": "preview/west.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "0f9e27d7bb03697a70b722333c6ed51047e94cb471e2dec76c4fe6ff752f864f"
+      },
+      {
+        "path": "out/preview.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "debe843e4eacea7221bca450ece63ea60449ee971d18456e9d3eafe8756d18ff"
+      }
+    ]
+  },
+  "reproducibility": {
+    "status": "PASS",
+    "report": "qa/reproducibility.json",
+    "static_negative_tests": "qa/static-negative-tests.json",
+    "python_syntax": "qa/python-syntax.json"
+  },
+  "references": {
+    "images": [
+      {
+        "file": "dungeon-shop-hero.png",
+        "source": "D:\\ft工程文件\\image2.5\\dungeon-shop-20261102\\out\\dungeon-shop-hero.png",
+        "sha256": "f26921137e349646d08690a5964a2235636945a41d39179d48d37d5cac68a355",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "file": "dungeon-shop-merchant.png",
+        "source": "D:\\ft工程文件\\image2.5\\dungeon-shop-20261102\\out\\dungeon-shop-merchant.png",
+        "sha256": "3be525340bb4602e9dbec01e8179fb45dd4acdbb5ecd2c081bdb69d60c0cc23e",
+        "size": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "file": "dungeon-shop-layout-checked.png",
+        "source": "D:\\ft工程文件\\image2.5\\dungeon-shop-20261102\\out\\dungeon-shop-layout-checked.png",
+        "sha256": "96449cd195ac4af7a88c9d4cef5b50dab898c232f8d01b81748e5a09270918b0",
+        "size": [
+          1536,
+          1324
+        ]
+      }
+    ],
+    "selected": "dungeon-shop-hero.png",
+    "layout_checked_actual_size": [
+      1536,
+      1324
+    ],
+    "source_manifest_stale_for_layout_checked": true,
+    "merchant_handoff_hash_typo": {
+      "declared_63_characters": "3be525340bb4602e9dbec01e8179fb45dd4acbb5ecd2c081bdb69d60c0cc23e",
+      "resolution": "Actual source and delivered copy both match the 64-character merchant digest in the original source manifest."
+    },
+    "note": "Copied source manifest is provenance only; the hashes above were recomputed from the delivered PNG files."
+  },
+  "integration": {
+    "status": "STANDALONE_TRADING_CANDIDATE_NOT_REGISTERED",
+    "id_is_provisional": true,
+    "assigned_slot": null,
+    "deployed": false,
+    "requires_coordinator_acceptance": true,
+    "requires_core_patch": "integration/shop-import.patch",
+    "ready_for_unpatched_core": false
+  },
+  "boundary": "Independent directory only; nine-room revisions, third-batch queue, core, runtime mods and production saves were not modified by this task.",
+  "limitations": [
+    "No FT catalog slot, gallery walkway, idempotence or production deployment tested.",
+    "No full modpack client, multiplayer, FPS or merchant trade behavior tested.",
+    "Native world capture is machine evidence, not an in-game screenshot.",
+    "Software previews do not simulate in-game illumination, shaders, biome tint, FPS or player perception.",
+    "Chest, skull and sign block-entity appearances are approximate; sign text is not drawn by the preview renderer.",
+    "Apart from the original modded trading table, ornaments use vanilla-block approximations rather than reproducing all non-grid AI concept details.",
+    "Software renders cannot establish spawn exclusion; the candidate core policy tests and not-yet-applied integration patch are separately documented.",
+    "Snapshot-based patch; receiver must rebase against current shared core and run its full regression tests.",
+    "Catalog and layout candidates are compiled and exercised by isolated Forge QA. The full DungeonSpawnPoints handler is not compiled or executed here.",
+    "Spawn catalog is cached for the current round. Restart or begin a new round after importing metadata; this patch does not provide hot-reload invalidation.",
+    "This excludes FT encounter points, not vanilla natural spawning, external mob systems or previously existing entities."
+  ]
+}

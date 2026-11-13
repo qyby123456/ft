@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "timestamp_china": "2026-11-02T12:55:10+08:00",
+  "id": "STAIR_D_NETHER_HALL",
+  "name": "下界黑石楼梯厅 · 楼梯 D",
+  "size": [
+    29,
+    23,
+    33
+  ],
+  "records": 22011,
+  "structure_sha256": "8a4b082ac3859cf3504541cafc26c4368f92d448e24924353d55b7a7a6bf7656",
+  "metadata_sha256": "7795965de3ef06321cf09b89c01003b2bf0d85e62f1ada25c2e9b3bd1125672c",
+  "preview_sha256": "d294147076b4a78912aae1182570bb64ecb6a85182f668b316b5159abd98d622",
+  "reference_sha256": "9d5461ff3fa0058ba614ab44a1d24f55c373f0b321fa35cab6eafc2e8a7a0736",
+  "static_checks": 292,
+  "static_negative_rejections": 7,
+  "native": {
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "java": "17.0.8",
+    "rotations": 4,
+    "stabilization_ticks": 200,
+    "records_checked_after_ticks": 88044,
+    "real_sealed_lava_sources_per_rotation": 16,
+    "state_drift": 0,
+    "fluid_leaks": 0,
+    "unexpected_entities": 0,
+    "negative_rejections": 20,
+    "native_body": [
+      0.6,
+      1.8
+    ],
+    "route_sampling_blocks": 0.25,
+    "stairs_supported_per_rotation": 112,
+    "stair_lanes_bidirectionally_checked_per_rotation": 21
+  },
+  "interfaces": [
+    {
+      "id": "north_main",
+      "feet": [
+        14,
+        7,
+        0
+      ],
+      "facing": "north",
+      "clear_width": 3,
+      "clear_height": 3
+    },
+    {
+      "id": "south_upper",
+      "feet": [
+        14,
+        17,
+        32
+      ],
+      "facing": "south",
+      "clear_width": 3,
+      "clear_height": 3
+    },
+    {
+      "id": "south_lower",
+      "feet": [
+        22,
+        1,
+        32
+      ],
+      "facing": "south",
+      "clear_width": 3,
+      "clear_height": 3
+    }
+  ],
+  "independent_world_capture_comparison": "PASS",
+  "reproducibility": "PASS",
+  "integration": {
+    "status": "STANDALONE_CANDIDATE_NOT_REGISTERED",
+    "id_is_provisional": true,
+    "deployed": false,
+    "coordinator_thread": "01a157ef-83ef-7e51-8671-2d7f9db88086",
+    "requires_coordinator_acceptance": true
+  },
+  "evidence": [
+    {
+      "file": "qa/static.json",
+      "sha256": "4e54fd4e7df1489733115c0c8fa9761a0b17087008d6e7767ec2b1046fd82ae9"
+    },
+    {
+      "file": "qa/native.json",
+      "sha256": "ca36a1aaa05625bd1ac4687131c6e1320ebc986ffc8c6a016492e543a394ec9b"
+    },
+    {
+      "file": "qa/capture-verification.json",
+      "sha256": "f362072d60ecf67b4f69405785fde354b8d36519b63bd7a10a1b95c3563f0eb4"
+    },
+    {
+      "file": "qa/forge-gametest.log",
+      "sha256": "7214119d8ce85517998b6552893a8cd536c7045ff7cacfd0a08693de8315360a"
+    },
+    {
+      "file": "qa/render-manifest.json",
+      "sha256": "43b2d058bbc0bf5d0c9821bdc2b5b1a9b87ae197a97f23ea6010fb6e41ea1baf"
+    },
+    {
+      "file": "qa/visual-review.json",
+      "sha256": "71f2244430ed064c42231d816b5d6782d47616b8e2c4ae97298045ae0cb3b28b"
+    },
+    {
+      "file": "qa/reproducibility.json",
+      "sha256": "b4bb052ee03c5b28482043662ee7446b7c9fa7033d62876aa13cb4bea1928697"
+    },
+    {
+      "file": "qa/boundary-report.json",
+      "sha256": "2c279e88f7e4750fbcd666462211e5e731a4a84906f2a5bbce5e983e3918a10f"
+    }
+  ],
+  "limitations": [
+    "Not a full modpack client screenshot or multiplayer/FPS run",
+    "No FT-core hallway/occupancy/idempotence/integration/deployment test",
+    "Transit interfaces are declared relative coordinates only; coordinator must connect actual floors"
+  ],
+  "runtime_notes": [
+    "Forge first startup generated default server.properties",
+    "Forge version check network timeout did not fail offline Gradle or GameTest",
+    "One bulk fixture placement overload warning; no claim of client or multiplayer performance"
+  ]
+}

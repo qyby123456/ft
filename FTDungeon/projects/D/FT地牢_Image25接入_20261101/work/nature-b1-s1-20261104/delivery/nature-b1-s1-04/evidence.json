@@ -1,0 +1,78 @@
+{
+  "input_manifest": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-b1-s1-20261104\\evidence\\input-manifest.json",
+  "input_fingerprint": "59ce8746393ea2462458a478c2c5ce33192fb347eb3cdf0ec003697620a0d58e",
+  "source": {
+    "path": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\mess.nbt",
+    "sha256": "6288f048e9871b78aaa3744a2bd278512e9fb1fc11bd8d2dbd667b41900a2e08",
+    "bytes": 7124,
+    "archive_entry": "data/betterstrongholds/structures/rooms/mess.nbt",
+    "archive_matches": true,
+    "size": [
+      13,
+      8,
+      19
+    ],
+    "records": 1976,
+    "connectors": [
+      {
+        "pos": [
+          12,
+          1,
+          10
+        ],
+        "state": {
+          "orientation": "east_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=none,south=tall,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        }
+      }
+    ],
+    "palette": [
+      "minecraft:air",
+      "minecraft:chest",
+      "minecraft:cobblestone",
+      "minecraft:crimson_button",
+      "minecraft:cyan_terracotta",
+      "minecraft:gray_wall_banner",
+      "minecraft:jigsaw",
+      "minecraft:oak_pressure_plate",
+      "minecraft:oak_slab",
+      "minecraft:oak_stairs",
+      "minecraft:orange_stained_glass",
+      "minecraft:polished_blackstone",
+      "minecraft:polished_blackstone_slab",
+      "minecraft:polished_blackstone_stairs",
+      "minecraft:scaffolding",
+      "minecraft:spruce_slab",
+      "minecraft:spruce_trapdoor",
+      "minecraft:stone_brick_slab",
+      "minecraft:stone_brick_stairs",
+      "minecraft:stone_brick_wall",
+      "minecraft:stone_bricks",
+      "minecraft:wall_torch",
+      "minecraft:yellow_stained_glass"
+    ],
+    "details": {
+      "path": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\mess.json",
+      "sha256": "0f82e88a18de212b22ec40bd142112cced648886282e1cdcd32b4207de45ce4c",
+      "bytes": 10658
+    }
+  },
+  "adaptation": {
+    "source": "rooms/mess",
+    "size": [
+      21,
+      12,
+      17
+    ],
+    "rule": "Rotate the measured 13x8x19 communal hall footprint, add side aisles and overhead beam clearance; four FT exits are an adaptation."
+  },
+  "image_role": "Secondary forest-theme reference, not geometric authority",
+  "runtime": "Source uses yungsapi:yung_jigsaw and custom processors. Output is original procedural vanilla geometry with FT-compatible ports, NOT drop-in YUNG jigsaw content and NOT a copy of source NBT geometry."
+}

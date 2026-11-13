@@ -1,0 +1,19 @@
+{
+  "batch": "S6-redo-single-20261104-01",
+  "module": "S6-REDO-01",
+  "split_required": false,
+  "size": [21, 13, 21],
+  "crosses_single_chunk_footprint": true,
+  "local_origin": [0, 0, 0],
+  "world_origin": null,
+  "coordinate_system": "+X east, +Y up, +Z south",
+  "assembly_order": [{"step": 1, "file": "room.nbt", "relative_origin": [0, 0, 0], "rotation": "NONE"}],
+  "connection_anchors": [
+    {"role": "entrance", "feet": [10, 2, 0], "outward": "north", "clearance": [3, 3]},
+    {"role": "rear_left_exit", "feet": [5, 2, 20], "outward": "south", "clearance": [3, 3]},
+    {"role": "rear_right_exit", "feet": [15, 2, 20], "outward": "south", "clearance": [3, 3]}
+  ],
+  "interior_safe_feet": [10, 2, 2],
+  "external_assembly": "Not executed; next template must have opposing normal, same feet height, transformed coordinates and full volume collision rejection",
+  "acceptance": "PENDING_COORDINATOR_REVIEW"
+}

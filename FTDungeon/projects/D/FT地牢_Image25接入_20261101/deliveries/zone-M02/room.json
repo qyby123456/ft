@@ -1,0 +1,106 @@
+{
+  "id": "zone-M02",
+  "name": "淹水矿井",
+  "category": "mines",
+  "size": [
+    25,
+    15,
+    25
+  ],
+  "entrance": [
+    12,
+    4,
+    0
+  ],
+  "interior": [
+    12,
+    4,
+    20
+  ],
+  "facing": "north",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/mines/M02-mines-flooded-mine-shaft.png",
+  "reference_sha256": "099696aab9cb43fce0acb8e3b79d54087cf1876b87204aa1d110822dec505965",
+  "reference_batch": "dungeon-zone-batch-20261103",
+  "distinct_from": "corridor-M02",
+  "water_levels": [
+    1,
+    2
+  ],
+  "deck_y": 3,
+  "roof_y": [
+    13,
+    14
+  ],
+  "pillars": [
+    [
+      4,
+      4
+    ],
+    [
+      19,
+      4
+    ],
+    [
+      4,
+      19
+    ],
+    [
+      19,
+      19
+    ]
+  ],
+  "suspension": [
+    [
+      7,
+      8
+    ],
+    [
+      17,
+      16
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      12,
+      20
+    ]
+  ],
+  "dry_rectangles": [
+    [
+      11,
+      0,
+      13,
+      22
+    ],
+    [
+      3,
+      11,
+      21,
+      13
+    ],
+    [
+      10,
+      19,
+      14,
+      22
+    ]
+  ],
+  "adaptations": [
+    "Independent square mine room with one north interface, distinct from archive corridor-M02.",
+    "Guarded raised boardwalk replaces unsafe broken crossing; water stays below deck.",
+    "Four 2x2 headframe piers join foundation to roof beams; broken brace becomes a supported stepped buttress.",
+    "Submerged rails use waterlogging; tipped minecart and crates are inert block sculptures without entities or inventory.",
+    "Complete double rock roof; cutaways change render copies only."
+  ],
+  "sha256": "e5cf0a5562d62ffd06d5467474f0a3cd548d4a00b5a40b53c15a1ab59f57f505",
+  "data_version": 3465,
+  "block_count": 9375,
+  "palette_count": 46,
+  "fluid_cells": 901,
+  "builder": "Minecraft Builder skill / Lodestone 0.6.0",
+  "deployment": "not_deployed",
+  "entity_count": 0,
+  "inventory_count": 0
+}

@@ -1,0 +1,373 @@
+{
+  "id": "P05",
+  "name": "石柱跃厅",
+  "size": [
+    17,
+    14,
+    29
+  ],
+  "entrance": [
+    8,
+    5,
+    0
+  ],
+  "interior": [
+    8,
+    5,
+    2
+  ],
+  "exit": [
+    8,
+    5,
+    28
+  ],
+  "facing": "north",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/parkour/P05-parkour-pillar-hop-hall.png",
+  "reference_sha256": "671abf0d3795ca83ff0554600bbee74ef6a1f3894325624155a06dcfc6f193df",
+  "pillars": [
+    {
+      "id": 1,
+      "from": [
+        7,
+        1,
+        6
+      ],
+      "to": [
+        8,
+        4,
+        7
+      ],
+      "landing_bounds": [
+        [
+          7,
+          5,
+          6
+        ],
+        [
+          8,
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "from": [
+        7,
+        1,
+        10
+      ],
+      "to": [
+        8,
+        4,
+        11
+      ],
+      "landing_bounds": [
+        [
+          7,
+          5,
+          10
+        ],
+        [
+          8,
+          5,
+          11
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "from": [
+        7,
+        1,
+        14
+      ],
+      "to": [
+        8,
+        4,
+        15
+      ],
+      "landing_bounds": [
+        [
+          7,
+          5,
+          14
+        ],
+        [
+          8,
+          5,
+          15
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "from": [
+        7,
+        1,
+        18
+      ],
+      "to": [
+        8,
+        4,
+        19
+      ],
+      "landing_bounds": [
+        [
+          7,
+          5,
+          18
+        ],
+        [
+          8,
+          5,
+          19
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "from": [
+        7,
+        1,
+        22
+      ],
+      "to": [
+        8,
+        4,
+        23
+      ],
+      "landing_bounds": [
+        [
+          7,
+          5,
+          22
+        ],
+        [
+          8,
+          5,
+          23
+        ]
+      ]
+    }
+  ],
+  "recovery_ladders": [
+    {
+      "x": 3,
+      "z": 4,
+      "y": [
+        1,
+        4
+      ],
+      "facing": "south"
+    },
+    {
+      "x": 13,
+      "z": 4,
+      "y": [
+        1,
+        4
+      ],
+      "facing": "south"
+    }
+  ],
+  "sha256": "a752b63daf9f83cacd648be941a3bcb8dee63d2d6e704f9b0f1abde5b250e4d3",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "type": "independent_parkour_room",
+  "generator": "Minecraft Builder Skill / Lodestone 0.6.0",
+  "entrance_clearance": [
+    3,
+    3
+  ],
+  "ports": [
+    {
+      "side": "north",
+      "position": [
+        8,
+        5,
+        0
+      ],
+      "bounds": [
+        [
+          7,
+          5,
+          0
+        ],
+        [
+          9,
+          7,
+          0
+        ]
+      ],
+      "marker": "yellow_terracotta"
+    },
+    {
+      "side": "south",
+      "position": [
+        8,
+        5,
+        28
+      ],
+      "bounds": [
+        [
+          7,
+          5,
+          28
+        ],
+        [
+          9,
+          7,
+          28
+        ]
+      ],
+      "marker": "lime_terracotta"
+    }
+  ],
+  "parkour": {
+    "pillars": 5,
+    "jumps": 6,
+    "direction": "north to south",
+    "reversible": true,
+    "feet_y": 5,
+    "pillar_top_y": 4,
+    "empty_gap": 2,
+    "vertical_change": 0,
+    "landing_size": [
+      2,
+      2
+    ],
+    "legs": [
+      {
+        "leg": 1,
+        "takeoff": [
+          8,
+          5,
+          3.6
+        ],
+        "destination_z": [
+          6,
+          7
+        ],
+        "empty_block_gap": 2,
+        "vertical_change": 0,
+        "target_width": 2
+      },
+      {
+        "leg": 2,
+        "takeoff": [
+          8,
+          5,
+          7.6
+        ],
+        "destination_z": [
+          10,
+          11
+        ],
+        "empty_block_gap": 2,
+        "vertical_change": 0,
+        "target_width": 2
+      },
+      {
+        "leg": 3,
+        "takeoff": [
+          8,
+          5,
+          11.6
+        ],
+        "destination_z": [
+          14,
+          15
+        ],
+        "empty_block_gap": 2,
+        "vertical_change": 0,
+        "target_width": 2
+      },
+      {
+        "leg": 4,
+        "takeoff": [
+          8,
+          5,
+          15.6
+        ],
+        "destination_z": [
+          18,
+          19
+        ],
+        "empty_block_gap": 2,
+        "vertical_change": 0,
+        "target_width": 2
+      },
+      {
+        "leg": 5,
+        "takeoff": [
+          8,
+          5,
+          19.6
+        ],
+        "destination_z": [
+          22,
+          23
+        ],
+        "empty_block_gap": 2,
+        "vertical_change": 0,
+        "target_width": 2
+      },
+      {
+        "leg": 6,
+        "takeoff": [
+          8,
+          5,
+          23.6
+        ],
+        "destination_z": [
+          26,
+          28
+        ],
+        "empty_block_gap": 2,
+        "vertical_change": 0,
+        "target_width": 2
+      }
+    ]
+  },
+  "recovery": {
+    "basin_y": 1,
+    "depth": 1,
+    "fluid_cells": 304,
+    "return_to": "north entrance",
+    "ladders": [
+      {
+        "x": 3,
+        "z": 4,
+        "y": [
+          1,
+          4
+        ],
+        "facing": "south"
+      },
+      {
+        "x": 13,
+        "z": 4,
+        "y": [
+          1,
+          4
+        ],
+        "facing": "south"
+      }
+    ],
+    "all_water_cells_connected": true,
+    "south_bank_has_no_recovery_ladder": true
+  },
+  "roof": {
+    "complete": true,
+    "y": 12,
+    "cutaway_preview_only": true
+  },
+  "records": 6902,
+  "explicit_air": 3979,
+  "entities": 0,
+  "block_entities": 0,
+  "deployment": "NOT_DEPLOYED",
+  "production_files_modified": false,
+  "placement_contract": "Future integrator must reject occupied full volume before placing explicit air; retain persistent one-time generation markers."
+}

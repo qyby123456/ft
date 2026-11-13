@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P02 · 苔石水渠跳台</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #101b1d; color: #eee6d0; font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif; }
+    header { height: 94px; display: flex; align-items: center; justify-content: space-between; padding: 18px 36px; background: #142528; border-bottom: 1px solid #42656a; }
+    h1 { margin: 0; font-size: 27px; font-weight: 600; }
+    h1 span { color: #7bd2d3; margin-right: 18px; }
+    .sub { margin-top: 8px; color: #a4bab6; font-size: 14px; letter-spacing: .7px; }
+    .tag { color: #c7b98d; text-align: right; line-height: 22px; font-size: 14px; }
+    main { position: relative; height: calc(100vh - 162px); }
+    canvas { display: block; width: 100%; height: 100%; }
+    #label { position: absolute; left: 36px; top: 18px; padding: 10px 14px; background: #122329df; border-left: 3px solid #67c9cb; }
+    #loading { position: absolute; top: 45%; left: 38%; color: #e1d2a4; }
+    footer { height: 68px; display: flex; justify-content: space-between; padding: 12px 36px; background: #142528; border-top: 1px solid #42656a; color: #b5c2b9; font-size: 13px; line-height: 21px; }
+    footer b { color: #e3d4ab; font-weight: 500; }
+  </style>
+</head>
+<body>
+  <header><div><h1><span>P02</span>苔石水渠跳台</h1><div class="sub">WATER CHANNEL · EIGHT SHORT JUMPS · SHALLOW RECOVERY · MIDPOINT REST</div></div><div class="tag">实际 NBT · Lodestone<br>17 × 11 × 39 / Java 1.20.1</div></header>
+  <main><canvas id="scene"></canvas><div id="label">读取实际结构</div><div id="loading">加载原版纹理与 NBT…</div></main>
+  <footer><div><b>八次同高短跳 · 一格深水 · 双侧台阶恢复</b><br>完整屋顶保存在交付 NBT，剖视仅用于检查。中途平台提供落脚休息。</div><div id="fingerprint">校验结构指纹</div></footer>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

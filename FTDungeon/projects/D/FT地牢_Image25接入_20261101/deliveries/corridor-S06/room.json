@@ -1,0 +1,99 @@
+{
+  "id": "corridor-S06",
+  "design_id": "S06",
+  "name": "浅淹苔石短拱廊",
+  "schema_version": 1,
+  "size": [
+    13,
+    10,
+    16
+  ],
+  "entrance": [
+    6,
+    2,
+    0
+  ],
+  "interior": [
+    6,
+    2,
+    2
+  ],
+  "exit": [
+    6,
+    2,
+    15
+  ],
+  "facing": "north",
+  "shaft_axis": "north-south",
+  "length_blocks": 16,
+  "corridor_type": "short_straight",
+  "sha256": "e63afe337dfafa98704f68c643bfac7b19c3f97a78667aa224c7a195f95fc3f6",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/S06-flooded-intact.png",
+  "reference_sha256": "72daa317fc6e42fb149d4fc138f88c73beea0b01177fb7d4eeef58868c014200",
+  "data_version": 3465,
+  "minecraft_version": "1.20.1",
+  "generator": {
+    "skill": "minecraft-builder-skill",
+    "recipe": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S06\\recipe.mjs"
+  },
+  "route": {
+    "feet_y": 2,
+    "min_x": 5,
+    "max_x": 7,
+    "min_z": 0,
+    "max_z": 15,
+    "clear_height": 3,
+    "floor_y": 1,
+    "floor_type": "full_blocks",
+    "step_free": true
+  },
+  "connectors": [
+    {
+      "face": "north",
+      "feet": [
+        6,
+        2,
+        0
+      ],
+      "width": 3,
+      "clear_height": 3
+    },
+    {
+      "face": "south",
+      "feet": [
+        6,
+        2,
+        15
+      ],
+      "width": 3,
+      "clear_height": 3
+    }
+  ],
+  "fluids": {
+    "type": "minecraft:water",
+    "source_blocks": 42,
+    "y": 1,
+    "x_columns": [
+      3,
+      4,
+      8,
+      9
+    ],
+    "z_range": [
+      2,
+      13
+    ],
+    "contained": true
+  },
+  "visual_adjustments": [
+    "Reference shallow flooding is retained in sealed side basins; a level 3-block-wide dry center causeway protects traversal.",
+    "The concept far-end wall becomes an open south arch so the corridor actually connects north to south.",
+    "Five complete stone arch ribs retain the intact condition; moss and supported vines supply the damp atmosphere."
+  ],
+  "scope": {
+    "independent_asset": true,
+    "deployed": false,
+    "player_saves_modified": false,
+    "shared_core_modified": false
+  }
+}

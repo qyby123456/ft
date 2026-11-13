@@ -1,0 +1,4097 @@
+[
+  {
+    "template": "betterstrongholds:rooms/junction_md",
+    "nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\junction_md.nbt",
+    "details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\junction_md.json",
+    "sha256": "43dd154c633eeaeea32160917ac5d1826a7e2270c39404c21e47aa5407316da0",
+    "source_size": [
+      19,
+      16,
+      19
+    ],
+    "output_size": [
+      19,
+      16,
+      19
+    ],
+    "source_connectors": [
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:starts",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          0,
+          1,
+          8
+        ],
+        "state": 67
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:starts",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=none,south=none,north=tall,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          8,
+          1,
+          18
+        ],
+        "state": 68
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          10,
+          1,
+          0
+        ],
+        "state": 67
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:starts",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=none,south=none,north=none,up=true,west=tall]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          18,
+          1,
+          10
+        ],
+        "state": 69
+      }
+    ],
+    "source_palette": [
+      {
+        "Name": "minecraft:stone_bricks"
+      },
+      {
+        "Name": "minecraft:yellow_stained_glass"
+      },
+      {
+        "Name": "minecraft:infested_stone_bricks"
+      },
+      {
+        "Name": "minecraft:chiseled_stone_bricks"
+      },
+      {
+        "Name": "minecraft:cobblestone"
+      },
+      {
+        "Name": "minecraft:chiseled_polished_blackstone"
+      },
+      {
+        "Name": "minecraft:air"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:andesite_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:andesite_wall"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "low",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "low",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "low",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "level": "0"
+        },
+        "Name": "minecraft:water"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "none",
+          "west": "low",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "low",
+          "west": "low",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:stone_brick_slab"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "low",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "low",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "low",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "low",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_left",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_right",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "true",
+          "type": "bottom"
+        },
+        "Name": "minecraft:stone_brick_slab"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "true",
+          "south": "none",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_right",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_left",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "tall",
+          "west": "none",
+          "up": "false"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "low",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "level": "8"
+        },
+        "Name": "minecraft:water"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "false"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "hanging": "true"
+        },
+        "Name": "minecraft:lantern"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:polished_andesite_slab"
+      },
+      {
+        "Properties": {
+          "level": "1"
+        },
+        "Name": "minecraft:water"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:polished_blackstone_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:polished_blackstone_slab"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:polished_blackstone_slab"
+      },
+      {
+        "Properties": {
+          "face": "wall",
+          "powered": "false",
+          "facing": "west"
+        },
+        "Name": "minecraft:crimson_button"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:polished_blackstone_stairs"
+      },
+      {
+        "Properties": {
+          "face": "wall",
+          "powered": "false",
+          "facing": "east"
+        },
+        "Name": "minecraft:crimson_button"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "orientation": "north_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "west_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "south_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Name": "minecraft:spawner"
+      },
+      {
+        "Properties": {
+          "facing": "east"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      },
+      {
+        "Properties": {
+          "facing": "south"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      },
+      {
+        "Properties": {
+          "facing": "north"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      },
+      {
+        "Properties": {
+          "facing": "west"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      }
+    ],
+    "adaptation": "保留19格交汇房平面和16格高度；多出口；原创晶核替换中心装饰",
+    "palette_mapping": {
+      "stone_bricks": "deepslate_bricks",
+      "chiseled_stone_bricks": "chiseled_deepslate",
+      "stone_brick_stairs": "polished_deepslate_stairs",
+      "accent": "calcite / amethyst_block / amethyst_cluster",
+      "lighting": "sea_lantern"
+    },
+    "connector_adaptation": "Read original directional jigsaw evidence; replace runtime jigsaws with metadata connections and dry 3x3 north entrance at feet y=1 under FT contract. No YUNG processor, pool, traps, entities or loot dependency copied.",
+    "geometry": "original procedural construction; not redistributed source geometry"
+  },
+  {
+    "template": "betterstrongholds:rooms/armoury_md",
+    "nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\armoury_md.nbt",
+    "details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\armoury_md.json",
+    "sha256": "e9bdc949c8cae69e130d32ac415b9a7a2976ab00a964e041a67bd41a962412b0",
+    "source_size": [
+      13,
+      8,
+      13
+    ],
+    "output_size": [
+      13,
+      8,
+      13
+    ],
+    "source_connectors": [
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          10,
+          1,
+          0
+        ],
+        "state": 50
+      }
+    ],
+    "source_palette": [
+      {
+        "Name": "minecraft:stone_bricks"
+      },
+      {
+        "Name": "minecraft:yellow_stained_glass"
+      },
+      {
+        "Name": "minecraft:coal_block"
+      },
+      {
+        "Name": "minecraft:smithing_table"
+      },
+      {
+        "Name": "minecraft:iron_ore"
+      },
+      {
+        "Name": "minecraft:cobblestone"
+      },
+      {
+        "Name": "minecraft:spruce_planks"
+      },
+      {
+        "Properties": {
+          "east": "low",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "low",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Name": "minecraft:air"
+      },
+      {
+        "Properties": {
+          "facing": "east"
+        },
+        "Name": "minecraft:anvil"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "powered": "false",
+          "facing": "west",
+          "open": "true"
+        },
+        "Name": "minecraft:spruce_trapdoor"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:spruce_slab"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "face": "floor",
+          "facing": "east"
+        },
+        "Name": "minecraft:grindstone"
+      },
+      {
+        "Properties": {
+          "level": "0"
+        },
+        "Name": "minecraft:lava"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "low",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "false",
+          "north": "false",
+          "west": "false"
+        },
+        "Name": "minecraft:iron_bars"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "true",
+          "north": "false",
+          "west": "false"
+        },
+        "Name": "minecraft:iron_bars"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "false",
+          "north": "false",
+          "west": "true"
+        },
+        "Name": "minecraft:iron_bars"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "true",
+          "north": "false",
+          "west": "true"
+        },
+        "Name": "minecraft:iron_bars"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "tall",
+          "west": "low",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "hanging": "false"
+        },
+        "Name": "minecraft:lantern"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "hanging": "true"
+        },
+        "Name": "minecraft:lantern"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:polished_andesite_slab"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "south"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "north"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:cobblestone_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:cobblestone_stairs"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "false"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:stone_brick_slab"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "facing": "up",
+          "open": "false"
+        },
+        "Name": "minecraft:barrel"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "facing": "east",
+          "type": "single"
+        },
+        "Name": "minecraft:chest"
+      },
+      {
+        "Properties": {
+          "orientation": "north_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "facing": "west",
+          "type": "single"
+        },
+        "Name": "minecraft:chest"
+      },
+      {
+        "Properties": {
+          "facing": "north"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      },
+      {
+        "Properties": {
+          "facing": "west"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      }
+    ],
+    "adaptation": "保留13x8x13尺寸；武器陈设改为晶体研究书架",
+    "palette_mapping": {
+      "stone_bricks": "deepslate_bricks",
+      "chiseled_stone_bricks": "chiseled_deepslate",
+      "stone_brick_stairs": "polished_deepslate_stairs",
+      "accent": "calcite / amethyst_block / amethyst_cluster",
+      "lighting": "sea_lantern"
+    },
+    "connector_adaptation": "Read original directional jigsaw evidence; replace runtime jigsaws with metadata connections and dry 3x3 north entrance at feet y=1 under FT contract. No YUNG processor, pool, traps, entities or loot dependency copied.",
+    "geometry": "original procedural construction; not redistributed source geometry"
+  },
+  {
+    "template": "betterstrongholds:rooms/crypt_sm",
+    "nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\crypt_sm.nbt",
+    "details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\crypt_sm.json",
+    "sha256": "63f9e1987d80e2f076b6d05a15114daee457d989a42d6a570c0868db0e5eeaf5",
+    "source_size": [
+      7,
+      8,
+      7
+    ],
+    "output_size": [
+      9,
+      8,
+      9
+    ],
+    "source_connectors": [
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          4,
+          1,
+          0
+        ],
+        "state": 22
+      }
+    ],
+    "source_palette": [
+      {
+        "Name": "minecraft:stone_bricks"
+      },
+      {
+        "Name": "minecraft:cobblestone"
+      },
+      {
+        "Name": "minecraft:polished_andesite"
+      },
+      {
+        "Name": "minecraft:chiseled_stone_bricks"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Name": "minecraft:air"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:smooth_stone_slab"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "false"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Name": "minecraft:spawner"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "facing": "west",
+          "type": "single"
+        },
+        "Name": "minecraft:chest"
+      },
+      {
+        "Properties": {
+          "rotation": "14"
+        },
+        "Name": "minecraft:skeleton_skull"
+      },
+      {
+        "Properties": {
+          "orientation": "north_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "facing": "north"
+        },
+        "Name": "minecraft:black_wall_banner"
+      }
+    ],
+    "adaptation": "7x8x7侧室扩为9x8x9以容纳三格接口；墓室改空箱晶簇密室",
+    "palette_mapping": {
+      "stone_bricks": "deepslate_bricks",
+      "chiseled_stone_bricks": "chiseled_deepslate",
+      "stone_brick_stairs": "polished_deepslate_stairs",
+      "accent": "calcite / amethyst_block / amethyst_cluster",
+      "lighting": "sea_lantern"
+    },
+    "connector_adaptation": "Read original directional jigsaw evidence; replace runtime jigsaws with metadata connections and dry 3x3 north entrance at feet y=1 under FT contract. No YUNG processor, pool, traps, entities or loot dependency copied.",
+    "geometry": "original procedural construction; not redistributed source geometry"
+  },
+  {
+    "template": "betterstrongholds:rooms/prison_lg",
+    "nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\prison_lg.nbt",
+    "details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\prison_lg.json",
+    "sha256": "6acc5a10a095666abd011f6a71267663a4f5cd9889225969a48fbeb74b606b7f",
+    "source_size": [
+      19,
+      8,
+      19
+    ],
+    "output_size": [
+      19,
+      8,
+      19
+    ],
+    "source_connectors": [
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=none,south=none,north=none,up=true,west=tall]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          8,
+          1,
+          18
+        ],
+        "state": 44
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          10,
+          1,
+          0
+        ],
+        "state": 45
+      }
+    ],
+    "source_palette": [
+      {
+        "Name": "minecraft:stone_bricks"
+      },
+      {
+        "Name": "minecraft:cobblestone"
+      },
+      {
+        "Name": "minecraft:yellow_stained_glass"
+      },
+      {
+        "Name": "minecraft:cyan_terracotta"
+      },
+      {
+        "Name": "minecraft:orange_stained_glass"
+      },
+      {
+        "Name": "minecraft:chiseled_stone_bricks"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Name": "minecraft:air"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "low",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:andesite_slab"
+      },
+      {
+        "Name": "minecraft:cauldron"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "false",
+          "waterlogged": "false",
+          "south": "true",
+          "north": "true",
+          "west": "false"
+        },
+        "Name": "minecraft:iron_bars"
+      },
+      {
+        "Properties": {
+          "hinge": "left",
+          "half": "lower",
+          "powered": "false",
+          "facing": "west",
+          "open": "false"
+        },
+        "Name": "minecraft:iron_door"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "hinge": "left",
+          "half": "lower",
+          "powered": "false",
+          "facing": "east",
+          "open": "false"
+        },
+        "Name": "minecraft:iron_door"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "low",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "axis": "y"
+        },
+        "Name": "minecraft:chain"
+      },
+      {
+        "Properties": {
+          "hinge": "left",
+          "half": "upper",
+          "powered": "false",
+          "facing": "west",
+          "open": "false"
+        },
+        "Name": "minecraft:iron_door"
+      },
+      {
+        "Properties": {
+          "face": "wall",
+          "powered": "false",
+          "facing": "east"
+        },
+        "Name": "minecraft:lever"
+      },
+      {
+        "Properties": {
+          "face": "wall",
+          "powered": "false",
+          "facing": "west"
+        },
+        "Name": "minecraft:lever"
+      },
+      {
+        "Properties": {
+          "hinge": "left",
+          "half": "upper",
+          "powered": "false",
+          "facing": "east",
+          "open": "false"
+        },
+        "Name": "minecraft:iron_door"
+      },
+      {
+        "Properties": {
+          "east": "low",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "false",
+          "waterlogged": "false",
+          "south": "false",
+          "north": "true",
+          "west": "true"
+        },
+        "Name": "minecraft:iron_bars"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "false",
+          "north": "true",
+          "west": "false"
+        },
+        "Name": "minecraft:iron_bars"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "low",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "low",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "false",
+          "waterlogged": "false",
+          "south": "true",
+          "north": "false",
+          "west": "true"
+        },
+        "Name": "minecraft:iron_bars"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "true",
+          "north": "false",
+          "west": "false"
+        },
+        "Name": "minecraft:iron_bars"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "low",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "false"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:stone_brick_slab"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:polished_andesite_slab"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "facing": "east",
+          "type": "single"
+        },
+        "Name": "minecraft:chest"
+      },
+      {
+        "Name": "minecraft:spawner"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "facing": "north",
+          "type": "single"
+        },
+        "Name": "minecraft:chest"
+      },
+      {
+        "Properties": {
+          "orientation": "south_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "north_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "facing": "west",
+          "type": "single"
+        },
+        "Name": "minecraft:chest"
+      }
+    ],
+    "adaptation": "保留19x8x19外包尺寸；监狱分格改双排承重柱大厅",
+    "palette_mapping": {
+      "stone_bricks": "deepslate_bricks",
+      "chiseled_stone_bricks": "chiseled_deepslate",
+      "stone_brick_stairs": "polished_deepslate_stairs",
+      "accent": "calcite / amethyst_block / amethyst_cluster",
+      "lighting": "sea_lantern"
+    },
+    "connector_adaptation": "Read original directional jigsaw evidence; replace runtime jigsaws with metadata connections and dry 3x3 north entrance at feet y=1 under FT contract. No YUNG processor, pool, traps, entities or loot dependency copied.",
+    "geometry": "original procedural construction; not redistributed source geometry"
+  },
+  {
+    "template": "betterstrongholds:hallways/hallway_2",
+    "nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\hallways\\hallway_2.nbt",
+    "details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\hallways\\hallway_2.json",
+    "sha256": "8dd6284d9f46dbcf5df2f1093a068a99d7482e72f4425f2cf00bd0848f5086de",
+    "source_size": [
+      5,
+      8,
+      5
+    ],
+    "output_size": [
+      9,
+      8,
+      21
+    ],
+    "source_connectors": [
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hallway",
+          "pool": "betterstrongholds:hall_doorway",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_doorway"
+        },
+        "pos": [
+          0,
+          1,
+          3
+        ],
+        "state": 8
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:hall_wall",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_wall"
+        },
+        "pos": [
+          1,
+          1,
+          0
+        ],
+        "state": 9
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:hall_wall",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_wall"
+        },
+        "pos": [
+          3,
+          1,
+          4
+        ],
+        "state": 10
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hallway",
+          "pool": "betterstrongholds:hall_doorway",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_doorway"
+        },
+        "pos": [
+          4,
+          1,
+          1
+        ],
+        "state": 11
+      }
+    ],
+    "source_palette": [
+      {
+        "Name": "minecraft:stone_bricks"
+      },
+      {
+        "Name": "minecraft:yellow_stained_glass"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Name": "minecraft:air"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:stone_brick_slab"
+      },
+      {
+        "Properties": {
+          "orientation": "west_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "north_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "south_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "east_up"
+        },
+        "Name": "minecraft:jigsaw"
+      }
+    ],
+    "adaptation": "5x8x5走廊保留8格高度；横向加厚到9；纵向四段加端墙到21；双向通道",
+    "palette_mapping": {
+      "stone_bricks": "deepslate_bricks",
+      "chiseled_stone_bricks": "chiseled_deepslate",
+      "stone_brick_stairs": "polished_deepslate_stairs",
+      "accent": "calcite / amethyst_block / amethyst_cluster",
+      "lighting": "sea_lantern"
+    },
+    "connector_adaptation": "Read original directional jigsaw evidence; replace runtime jigsaws with metadata connections and dry 3x3 north entrance at feet y=1 under FT contract. No YUNG processor, pool, traps, entities or loot dependency copied.",
+    "geometry": "original procedural construction; not redistributed source geometry"
+  },
+  {
+    "template": "betterstrongholds:hallways/hallway_turn",
+    "nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\hallways\\hallway_turn.nbt",
+    "details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\hallways\\hallway_turn.json",
+    "sha256": "94c57a9a43219a93c26181a1254bd9e0ecc6a8fc13bac0357f469f983b86df60",
+    "source_size": [
+      5,
+      8,
+      5
+    ],
+    "output_size": [
+      15,
+      8,
+      15
+    ],
+    "source_connectors": [
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hallway",
+          "pool": "betterstrongholds:hall_doorway",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_doorway"
+        },
+        "pos": [
+          0,
+          1,
+          3
+        ],
+        "state": 15
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:hall_wall",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_wall"
+        },
+        "pos": [
+          1,
+          1,
+          0
+        ],
+        "state": 16
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hallway",
+          "pool": "betterstrongholds:hall_doorway",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_doorway"
+        },
+        "pos": [
+          3,
+          1,
+          4
+        ],
+        "state": 17
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:hall_wall",
+          "final_state": "stone_brick_wall[east=none,north=tall,south=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_wall"
+        },
+        "pos": [
+          4,
+          1,
+          1
+        ],
+        "state": 18
+      }
+    ],
+    "source_palette": [
+      {
+        "Name": "minecraft:stone_bricks"
+      },
+      {
+        "Name": "minecraft:yellow_stained_glass"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Name": "minecraft:air"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:stone_brick_slab"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "orientation": "west_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "north_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "south_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "east_up"
+        },
+        "Name": "minecraft:jigsaw"
+      }
+    ],
+    "adaptation": "5x8x5转角平面放大3倍；保留8格高度与90度出口；非矩形L壳",
+    "palette_mapping": {
+      "stone_bricks": "deepslate_bricks",
+      "chiseled_stone_bricks": "chiseled_deepslate",
+      "stone_brick_stairs": "polished_deepslate_stairs",
+      "accent": "calcite / amethyst_block / amethyst_cluster",
+      "lighting": "sea_lantern"
+    },
+    "connector_adaptation": "Read original directional jigsaw evidence; replace runtime jigsaws with metadata connections and dry 3x3 north entrance at feet y=1 under FT contract. No YUNG processor, pool, traps, entities or loot dependency copied.",
+    "geometry": "original procedural construction; not redistributed source geometry"
+  },
+  {
+    "template": "betterstrongholds:rooms/armoury_md",
+    "nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\armoury_md.nbt",
+    "details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\armoury_md.json",
+    "sha256": "e9bdc949c8cae69e130d32ac415b9a7a2976ab00a964e041a67bd41a962412b0",
+    "source_size": [
+      13,
+      8,
+      13
+    ],
+    "output_size": [
+      13,
+      8,
+      13
+    ],
+    "source_connectors": [
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          10,
+          1,
+          0
+        ],
+        "state": 50
+      }
+    ],
+    "source_palette": [
+      {
+        "Name": "minecraft:stone_bricks"
+      },
+      {
+        "Name": "minecraft:yellow_stained_glass"
+      },
+      {
+        "Name": "minecraft:coal_block"
+      },
+      {
+        "Name": "minecraft:smithing_table"
+      },
+      {
+        "Name": "minecraft:iron_ore"
+      },
+      {
+        "Name": "minecraft:cobblestone"
+      },
+      {
+        "Name": "minecraft:spruce_planks"
+      },
+      {
+        "Properties": {
+          "east": "low",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "low",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Name": "minecraft:air"
+      },
+      {
+        "Properties": {
+          "facing": "east"
+        },
+        "Name": "minecraft:anvil"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "powered": "false",
+          "facing": "west",
+          "open": "true"
+        },
+        "Name": "minecraft:spruce_trapdoor"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:spruce_slab"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "face": "floor",
+          "facing": "east"
+        },
+        "Name": "minecraft:grindstone"
+      },
+      {
+        "Properties": {
+          "level": "0"
+        },
+        "Name": "minecraft:lava"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "low",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "false",
+          "north": "false",
+          "west": "false"
+        },
+        "Name": "minecraft:iron_bars"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "true",
+          "north": "false",
+          "west": "false"
+        },
+        "Name": "minecraft:iron_bars"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "false",
+          "north": "false",
+          "west": "true"
+        },
+        "Name": "minecraft:iron_bars"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "true",
+          "north": "false",
+          "west": "true"
+        },
+        "Name": "minecraft:iron_bars"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "tall",
+          "west": "low",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "hanging": "false"
+        },
+        "Name": "minecraft:lantern"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "hanging": "true"
+        },
+        "Name": "minecraft:lantern"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:polished_andesite_slab"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "south"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "north"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:cobblestone_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:cobblestone_stairs"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "false"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:stone_brick_slab"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "facing": "up",
+          "open": "false"
+        },
+        "Name": "minecraft:barrel"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "facing": "east",
+          "type": "single"
+        },
+        "Name": "minecraft:chest"
+      },
+      {
+        "Properties": {
+          "orientation": "north_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "facing": "west",
+          "type": "single"
+        },
+        "Name": "minecraft:chest"
+      },
+      {
+        "Properties": {
+          "facing": "north"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      },
+      {
+        "Properties": {
+          "facing": "west"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      }
+    ],
+    "adaptation": "保留13x8x13；改入口守卫龛和休息凳；南北贯通",
+    "palette_mapping": {
+      "stone_bricks": "deepslate_bricks",
+      "chiseled_stone_bricks": "chiseled_deepslate",
+      "stone_brick_stairs": "polished_deepslate_stairs",
+      "accent": "calcite / amethyst_block / amethyst_cluster",
+      "lighting": "sea_lantern"
+    },
+    "connector_adaptation": "Read original directional jigsaw evidence; replace runtime jigsaws with metadata connections and dry 3x3 north entrance at feet y=1 under FT contract. No YUNG processor, pool, traps, entities or loot dependency copied.",
+    "geometry": "original procedural construction; not redistributed source geometry"
+  },
+  {
+    "template": "betterstrongholds:rooms/junction_md",
+    "nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\junction_md.nbt",
+    "details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\junction_md.json",
+    "sha256": "43dd154c633eeaeea32160917ac5d1826a7e2270c39404c21e47aa5407316da0",
+    "source_size": [
+      19,
+      16,
+      19
+    ],
+    "output_size": [
+      19,
+      16,
+      19
+    ],
+    "source_connectors": [
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:starts",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          0,
+          1,
+          8
+        ],
+        "state": 67
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:starts",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=none,south=none,north=tall,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          8,
+          1,
+          18
+        ],
+        "state": 68
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          10,
+          1,
+          0
+        ],
+        "state": 67
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:starts",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=none,south=none,north=none,up=true,west=tall]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          18,
+          1,
+          10
+        ],
+        "state": 69
+      }
+    ],
+    "source_palette": [
+      {
+        "Name": "minecraft:stone_bricks"
+      },
+      {
+        "Name": "minecraft:yellow_stained_glass"
+      },
+      {
+        "Name": "minecraft:infested_stone_bricks"
+      },
+      {
+        "Name": "minecraft:chiseled_stone_bricks"
+      },
+      {
+        "Name": "minecraft:cobblestone"
+      },
+      {
+        "Name": "minecraft:chiseled_polished_blackstone"
+      },
+      {
+        "Name": "minecraft:air"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:andesite_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:andesite_wall"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "low",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "low",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "low",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "level": "0"
+        },
+        "Name": "minecraft:water"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "none",
+          "west": "low",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "low",
+          "west": "low",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:stone_brick_slab"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "low",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "low",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "low",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "low",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_left",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_right",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "true",
+          "type": "bottom"
+        },
+        "Name": "minecraft:stone_brick_slab"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "true",
+          "south": "none",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_right",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "true",
+          "shape": "inner_left",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "tall",
+          "west": "none",
+          "up": "false"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "low",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "level": "8"
+        },
+        "Name": "minecraft:water"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "false"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "hanging": "true"
+        },
+        "Name": "minecraft:lantern"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:polished_andesite_slab"
+      },
+      {
+        "Properties": {
+          "level": "1"
+        },
+        "Name": "minecraft:water"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:polished_blackstone_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:polished_blackstone_slab"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:polished_blackstone_slab"
+      },
+      {
+        "Properties": {
+          "face": "wall",
+          "powered": "false",
+          "facing": "west"
+        },
+        "Name": "minecraft:crimson_button"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:polished_blackstone_stairs"
+      },
+      {
+        "Properties": {
+          "face": "wall",
+          "powered": "false",
+          "facing": "east"
+        },
+        "Name": "minecraft:crimson_button"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "orientation": "north_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "west_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "south_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Name": "minecraft:spawner"
+      },
+      {
+        "Properties": {
+          "facing": "east"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      },
+      {
+        "Properties": {
+          "facing": "south"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      },
+      {
+        "Properties": {
+          "facing": "north"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      },
+      {
+        "Properties": {
+          "facing": "west"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      }
+    ],
+    "adaptation": "保留19x16x19交汇外包；中心屋顶开9x9天井；非楼层复制",
+    "palette_mapping": {
+      "stone_bricks": "deepslate_bricks",
+      "chiseled_stone_bricks": "chiseled_deepslate",
+      "stone_brick_stairs": "polished_deepslate_stairs",
+      "accent": "calcite / amethyst_block / amethyst_cluster",
+      "lighting": "sea_lantern"
+    },
+    "connector_adaptation": "Read original directional jigsaw evidence; replace runtime jigsaws with metadata connections and dry 3x3 north entrance at feet y=1 under FT contract. No YUNG processor, pool, traps, entities or loot dependency copied.",
+    "geometry": "original procedural construction; not redistributed source geometry"
+  },
+  {
+    "template": "betterstrongholds:rooms/treasure_room_lg",
+    "nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\treasure_room_lg.nbt",
+    "details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\treasure_room_lg.json",
+    "sha256": "ddcb67048585585d56c4fb32af9be6668c72562515924ef33e682152cbf2c0fe",
+    "source_size": [
+      19,
+      16,
+      19
+    ],
+    "output_size": [
+      19,
+      16,
+      19
+    ],
+    "source_connectors": [
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_corner",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_corner"
+        },
+        "pos": [
+          5,
+          1,
+          12
+        ],
+        "state": 52
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_portal",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_portal"
+        },
+        "pos": [
+          9,
+          1,
+          12
+        ],
+        "state": 52
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_wall",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_wall"
+        },
+        "pos": [
+          12,
+          1,
+          7
+        ],
+        "state": 53
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_corner",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_corner"
+        },
+        "pos": [
+          12,
+          1,
+          13
+        ],
+        "state": 53
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_corner",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_corner"
+        },
+        "pos": [
+          13,
+          1,
+          6
+        ],
+        "state": 54
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=none,south=tall,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          18,
+          9,
+          10
+        ],
+        "state": 53
+      }
+    ],
+    "source_palette": [
+      {
+        "Name": "minecraft:stone_bricks"
+      },
+      {
+        "Name": "minecraft:yellow_stained_glass"
+      },
+      {
+        "Name": "minecraft:smithing_table"
+      },
+      {
+        "Name": "minecraft:chiseled_stone_bricks"
+      },
+      {
+        "Name": "minecraft:polished_andesite"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Name": "minecraft:air"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:stone_brick_slab"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "facing": "south"
+        },
+        "Name": "minecraft:anvil"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "facing": "east"
+        },
+        "Name": "minecraft:wall_torch"
+      },
+      {
+        "Properties": {
+          "facing": "west"
+        },
+        "Name": "minecraft:wall_torch"
+      },
+      {
+        "Properties": {
+          "facing": "north"
+        },
+        "Name": "minecraft:wall_torch"
+      },
+      {
+        "Properties": {
+          "facing": "south"
+        },
+        "Name": "minecraft:wall_torch"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:stone_brick_slab"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "hanging": "true"
+        },
+        "Name": "minecraft:lantern"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:polished_andesite_slab"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:polished_andesite_slab"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "hanging": "false"
+        },
+        "Name": "minecraft:lantern"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "tall",
+          "west": "none",
+          "up": "false"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "orientation": "south_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "east_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "north_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "has_book": "false",
+          "powered": "false",
+          "facing": "east"
+        },
+        "Name": "minecraft:lectern"
+      },
+      {
+        "Properties": {
+          "facing": "south"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      },
+      {
+        "Properties": {
+          "facing": "east"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      },
+      {
+        "Properties": {
+          "facing": "north"
+        },
+        "Name": "minecraft:gray_wall_banner"
+      }
+    ],
+    "adaptation": "保留19x16x19宝藏终点尺度；移除战利品机制，仅保留空箱台座",
+    "palette_mapping": {
+      "stone_bricks": "deepslate_bricks",
+      "chiseled_stone_bricks": "chiseled_deepslate",
+      "stone_brick_stairs": "polished_deepslate_stairs",
+      "accent": "calcite / amethyst_block / amethyst_cluster",
+      "lighting": "sea_lantern"
+    },
+    "connector_adaptation": "Read original directional jigsaw evidence; replace runtime jigsaws with metadata connections and dry 3x3 north entrance at feet y=1 under FT contract. No YUNG processor, pool, traps, entities or loot dependency copied.",
+    "geometry": "original procedural construction; not redistributed source geometry"
+  }
+]

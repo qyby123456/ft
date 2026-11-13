@@ -1,0 +1,66 @@
+{
+  "id": "zone-C04",
+  "name": "焦毁塌角",
+  "status": "PASS",
+  "sha256": "aca307fde4fc5fba665124a9afff3772a3c29d1308ed249084423cc2dcb64bc5",
+  "size": [
+    25,
+    13,
+    25
+  ],
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/corners/C04-corners-burnt-corner-collapse.png",
+  "reference_sha256": "2c960f11d1cb074939998fd525e3059bd3c21adae2c7c005c75de3317d96ce0c",
+  "static": {
+    "status": "PASS",
+    "evidence": "qa/static.json",
+    "complete_volume_records": 8125,
+    "non_air_blocks": 3744,
+    "protected_route_positions": 75,
+    "disconnected_non_air": 0,
+    "hazardous_blocks": 0
+  },
+  "native": {
+    "status": "PASS",
+    "evidence": "qa/forge-native.json",
+    "log": "qa/forge-run.log",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": [
+      "NONE",
+      "CLOCKWISE_90",
+      "CLOCKWISE_180",
+      "COUNTERCLOCKWISE_90"
+    ],
+    "ticks_observed": 240,
+    "forced_neighbor_updates": true,
+    "fixture_floor_world_y": 200
+  },
+  "views": {
+    "status": "PASS",
+    "evidence": "qa/views.json",
+    "visual_review": "qa/visual-review.json",
+    "interior_four_views": "preview/interior-sheet.png",
+    "exterior_four_views": "preview/exterior-sheet.png",
+    "entrance_eye_views": "preview/eye-sheet.png",
+    "actual_nbt_render": true,
+    "original_nbt_modified_for_views": false
+  },
+  "earlier_attempt": {
+    "outcome": "ENVIRONMENT_CONTAMINATION",
+    "log": "qa/forge-attempt1-natural-terrain-fluid.log",
+    "reason": "Default GameTest helper origin was underground; natural terrain lava entered an intentionally open connector after neighbor updates. Final test moves all four fixtures to world y=200."
+  },
+  "deployment": {
+    "performed": false,
+    "production_save_modified": false,
+    "production_jar_modified": false,
+    "resource_pack_modified": false,
+    "production_configuration_modified": false,
+    "parallel_delivery_modified": false
+  },
+  "limitations": [
+    "Independent vanilla 1.20.1 structure delivery; no core routing integration or deployment",
+    "Forge GameTest server validation and Lodestone previews; not a full modpack client, FPS or multiplayer play test",
+    "Integrator must validate entire target volume including explicit air and keep both connector approaches free of terrain and fluid"
+  ]
+}

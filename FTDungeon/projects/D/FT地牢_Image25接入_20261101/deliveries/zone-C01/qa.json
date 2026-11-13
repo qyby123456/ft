@@ -1,0 +1,316 @@
+{
+  "schema": "ft-room-delivery-qa/v1",
+  "id": "C01",
+  "name": "石角岗哨",
+  "status": "PASS",
+  "evidenceLevel": "static + actual NBT Lodestone render + isolated Minecraft 1.20.1 Forge 47.4.10 native GameTest",
+  "date": "2026-11-03",
+  "timezone": "Asia/Shanghai",
+  "structure_sha256": "b385c2851f552bc37b03ca3085eb9461d6986e430340c84199017b7de56efc7f",
+  "design": {
+    "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/corners/C01-corners-stone-corner-watchpost.png",
+    "sha256": "142725fdc2c276c07c3929fa9f5151cc1341ab226dd91686d070a0ca10a1d8cb",
+    "matched_manifest": true,
+    "matched_verify": true,
+    "manifest_record": {
+      "file": "out/corners/C01-corners-stone-corner-watchpost.png",
+      "category": "corners",
+      "bytes": 1883462,
+      "sha256": "142725fdc2c276c07c3929fa9f5151cc1341ab226dd91686d070a0ca10a1d8cb",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "ok": true
+    }
+  },
+  "geometry": {
+    "size": [
+      19,
+      11,
+      19
+    ],
+    "entrance": [
+      9,
+      2,
+      0
+    ],
+    "exit": [
+      18,
+      2,
+      9
+    ],
+    "safeLanding": [
+      9,
+      2,
+      3
+    ],
+    "width": 3,
+    "port_clear_height": 4,
+    "minimum_route_clear_height": 3,
+    "route_cells": 57,
+    "full_roof": true
+  },
+  "static": {
+    "status": "PASS",
+    "report": "qa/static.json",
+    "records": 3971,
+    "checks": 17,
+    "palette_states": 31,
+    "unsupported_custom_blocks": 0,
+    "entities": 0,
+    "loot_tables": 0
+  },
+  "native": {
+    "status": "PASS",
+    "report": "qa/forge.json",
+    "log": "qa/forge-run.log",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": [
+      {
+        "rotation": "NONE",
+        "records_exact": 3971,
+        "can_survive_checks": 3971,
+        "collision_tested_corner_cells": 57,
+        "safe_landing": "49, -34, 43",
+        "entrance": "49, -34, 40",
+        "exit": "58, -34, 49",
+        "entry_side": "north",
+        "empty_barrels": 6,
+        "banner_patterns": 2,
+        "supported_lanterns": 7,
+        "floor_and_roof_cells": 361,
+        "entities": 0,
+        "status": "PASS",
+        "world_capture": "qa\\captures\\none.nbt",
+        "capture_sha256": "959e518c3bad3e79db5f2322d789311d96127a5f35b87a316ba569f10c4d12e0",
+        "capture_matches_rotated_source": true
+      },
+      {
+        "rotation": "CLOCKWISE_90",
+        "records_exact": 3971,
+        "can_survive_checks": 3971,
+        "collision_tested_corner_cells": 57,
+        "safe_landing": "101, -34, 49",
+        "entrance": "104, -34, 49",
+        "exit": "95, -34, 58",
+        "entry_side": "east",
+        "empty_barrels": 6,
+        "banner_patterns": 2,
+        "supported_lanterns": 7,
+        "floor_and_roof_cells": 361,
+        "entities": 0,
+        "status": "PASS",
+        "world_capture": "qa\\captures\\clockwise_90.nbt",
+        "capture_sha256": "41a14f2a3103a17f747c2b0d584b6bbacd0bc21d22c5d04fab073b0b19ebae43",
+        "capture_matches_rotated_source": true
+      },
+      {
+        "rotation": "CLOCKWISE_180",
+        "records_exact": 3971,
+        "can_survive_checks": 3971,
+        "collision_tested_corner_cells": 57,
+        "safe_landing": "159, -34, 37",
+        "entrance": "159, -34, 40",
+        "exit": "150, -34, 31",
+        "entry_side": "south",
+        "empty_barrels": 6,
+        "banner_patterns": 2,
+        "supported_lanterns": 7,
+        "floor_and_roof_cells": 361,
+        "entities": 0,
+        "status": "PASS",
+        "world_capture": "qa\\captures\\clockwise_180.nbt",
+        "capture_sha256": "f89dcb9d45de7ef703592656983a2beed1042628d291551e88310f99009e9879",
+        "capture_matches_rotated_source": true
+      },
+      {
+        "rotation": "COUNTERCLOCKWISE_90",
+        "records_exact": 3971,
+        "can_survive_checks": 3971,
+        "collision_tested_corner_cells": 57,
+        "safe_landing": "235, -34, 31",
+        "entrance": "232, -34, 31",
+        "exit": "241, -34, 22",
+        "entry_side": "west",
+        "empty_barrels": 6,
+        "banner_patterns": 2,
+        "supported_lanterns": 7,
+        "floor_and_roof_cells": 361,
+        "entities": 0,
+        "status": "PASS",
+        "world_capture": "qa\\captures\\counterclockwise_90.nbt",
+        "capture_sha256": "7aad413762e5f58f449dfb9ccc06604aee2f7b0a893eed56225e60be68b9e089",
+        "capture_matches_rotated_source": true
+      }
+    ],
+    "stabilized_ticks": 160,
+    "exact_block_comparisons_after_ticks": 15884,
+    "negative_missing_support_probes": 4,
+    "negative_blocked_path_probes": 4,
+    "all_six_face_shape_updates": true,
+    "registry_properties_roundtrip": "PASS",
+    "exact_block_entity_capture_comparison": {
+      "status": "PASS",
+      "report": "qa/capture-block-entities.json",
+      "empty_barrels": 24,
+      "patterned_banners": 4
+    }
+  },
+  "visualization": {
+    "status": "PASS",
+    "report": "qa/render.json",
+    "actual_nbt_render": true,
+    "nbt_unchanged": true,
+    "preview": "preview.png",
+    "review_sheet": "views/review-sheet.png",
+    "four_interior_cutaways": [
+      "views/north-interior.png",
+      "views/south-interior.png",
+      "views/west-interior.png",
+      "views/east-interior.png"
+    ],
+    "four_full_shell_views": [
+      "views/north-exterior.png",
+      "views/south-exterior.png",
+      "views/west-exterior.png",
+      "views/east-exterior.png"
+    ],
+    "top_down": "views/top-interior.png",
+    "visual_review": {
+      "status": "PASS",
+      "inspected": [
+        "preview.png",
+        "views/review-sheet.png",
+        "views/top-interior.png",
+        "views/north-interior.png",
+        "views/south-interior.png",
+        "views/west-interior.png",
+        "views/east-interior.png",
+        "views/north-exterior.png",
+        "views/south-exterior.png",
+        "views/west-exterior.png",
+        "views/east-exterior.png"
+      ],
+      "findings": [
+        "North-to-east L route remains clear.",
+        "Desk, chair, empty stores and weapon rack sit outside the three-wide route.",
+        "All four exterior viewpoints retain the complete roof and perimeter shell.",
+        "Cutaway chains terminate at hidden roof copies only; final NBT ceiling anchors remain intact."
+      ]
+    },
+    "known_renderer_limitations": [
+      "Lodestone previews show the banner cloth as red; exact gold pattern/color NBT is verified in all four native world captures."
+    ]
+  },
+  "design_deviations": [
+    "概念图的展示剖面补为封闭的双层石屋顶；剖视仅隐藏渲染副本。",
+    "为可接入拐角动线，在北墙中央与东墙中央增设三宽四高门洞，地面以平整石砖引导，全部保持同一脚部高度 y=2。",
+    "手绘地图、纸张、矛尖和复杂花纹以原版制图台、书架、铜制避雷针枪架、红黄地毯与旗帜替代；无自定义贴图或武器实体。",
+    "图中台阶降差和低矮前墙改为齐平通路与完整外壳；墙边存储均为空桶，无战利品。",
+    "成品固定 19×11×19，四根独立石柱承接屋顶梁；家具贴南、西侧，主路预留三格宽。"
+  ],
+  "rejected_iterations": [
+    {
+      "folder": "qa/rejected-initial",
+      "reason": "Chair back intersected a pier; corrected before final delivery. First native test encountered external fixture blocks beside boundary bars."
+    },
+    {
+      "folder": "qa/rejected-fixture-contamination",
+      "reason": "Old fixture drops remained in the isolated test world; rebuilt the bounded QA fixture without drops and cleared old test entities before placement. Final comparison still covers every block after neighbor updates and ticks."
+    },
+    {
+      "folder": "qa/pre-final-chair",
+      "reason": "Earlier passing native iteration retained for provenance; final chair back was moved to touch its stair seat, then all static/render/native checks were repeated for the final fingerprint."
+    }
+  ],
+  "delivery_scope": {
+    "directory": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\zone-C01",
+    "standalone_only": true,
+    "deployed": false,
+    "player_saves_modified": false,
+    "production_jars_modified": false,
+    "production_resource_packs_modified": false,
+    "production_configs_modified": false,
+    "parallel_deliveries_modified": false
+  },
+  "limitations": [
+    "软件图为实际 NBT 的 Lodestone 渲染，非 Minecraft 客户端截图。",
+    "原生证据来自独立 Forge GameTest；未宣称整合包客户端、多人、FPS 或 FT 正式接入验收。",
+    "正式接入仍须完整体积占用/实体/液体检查与独立持久生成标记。"
+  ],
+  "evidence": [
+    {
+      "file": "room.nbt",
+      "sha256": "b385c2851f552bc37b03ca3085eb9461d6986e430340c84199017b7de56efc7f"
+    },
+    {
+      "file": "room.json",
+      "sha256": "cc7466d9a7d58c95045890867fe5453c70022cc74c54e12df560d4c23798ddc3"
+    },
+    {
+      "file": "preview.png",
+      "sha256": "550e8959e39528c78a578a12a54e108069a682e8ebed8a16d86a7f846c0a58c4"
+    },
+    {
+      "file": "views/review-sheet.png",
+      "sha256": "4b808dc07db85dac2b30821f30a9e20a099c86c2d3e31e7b9fd28677e928f665"
+    },
+    {
+      "file": "qa/static.json",
+      "sha256": "f9fd6d7374decb3b7f9339d42505ee79d3ea04062e56e14b3fc5448237ce09be"
+    },
+    {
+      "file": "qa/render.json",
+      "sha256": "b3c87ae1a6e5b4f4d42a834e87716015d3fa2002c1fd535781dd7c58c6da0946"
+    },
+    {
+      "file": "qa/forge.json",
+      "sha256": "6fd1d32779bac8dcfb18e4290d4162fad6f90bf3a148cf79302ca5bf01f379c0"
+    },
+    {
+      "file": "qa/forge-run.log",
+      "sha256": "a41a61b3c18be71380275cda5bab64c905b2af91ecfed15a5f2c6fb1d4ad3804"
+    },
+    {
+      "file": "qa/native-roundtrip.nbt",
+      "sha256": "959e518c3bad3e79db5f2322d789311d96127a5f35b87a316ba569f10c4d12e0"
+    },
+    {
+      "file": "qa/capture-block-entities.json",
+      "sha256": "4771e35eb350d610543b4648d196be5e4c911bc2409eb669bc051cec5c3cb4dd"
+    },
+    {
+      "file": "qa\\captures\\none.nbt",
+      "sha256": "959e518c3bad3e79db5f2322d789311d96127a5f35b87a316ba569f10c4d12e0"
+    },
+    {
+      "file": "qa\\captures\\clockwise_90.nbt",
+      "sha256": "41a14f2a3103a17f747c2b0d584b6bbacd0bc21d22c5d04fab073b0b19ebae43"
+    },
+    {
+      "file": "qa\\captures\\clockwise_180.nbt",
+      "sha256": "f89dcb9d45de7ef703592656983a2beed1042628d291551e88310f99009e9879"
+    },
+    {
+      "file": "qa\\captures\\counterclockwise_90.nbt",
+      "sha256": "7aad413762e5f58f449dfb9ccc06604aee2f7b0a893eed56225e60be68b9e089"
+    }
+  ],
+  "provenance": [
+    {
+      "path": "D:\\ft工程文件\\image2.5\\dungeon-zone-batch-20261103\\README.md",
+      "sha256": "45a8eda9fbdc4b7db4795bc6d4e9095cd614890b2d479cd5e32f35ee45dc8ff2"
+    },
+    {
+      "path": "D:\\ft工程文件\\image2.5\\dungeon-zone-batch-20261103\\docs\\manifest.json",
+      "sha256": "3ec0b61e4bf71cf8aa56cab60ecd65d0e827b453339afea9e52b71394ba73ac7"
+    },
+    {
+      "path": "D:\\ft工程文件\\image2.5\\dungeon-zone-batch-20261103\\docs\\verify.json",
+      "sha256": "33d141b3efbe6271ac2b8b4fbf62e9ecf6f001076af9c477d05913cec838e11c"
+    }
+  ]
+}

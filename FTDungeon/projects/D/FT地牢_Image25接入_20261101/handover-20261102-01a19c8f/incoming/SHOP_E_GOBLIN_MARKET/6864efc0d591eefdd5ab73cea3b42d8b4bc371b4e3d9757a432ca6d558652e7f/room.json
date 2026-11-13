@@ -1,0 +1,57 @@
+{
+  "id": "SHOP_E_GOBLIN_MARKET",
+  "name": "哥布林黑市·拼棚赃物铺",
+  "size": [
+    13,
+    9,
+    13
+  ],
+  "entrance": [
+    6,
+    1,
+    0
+  ],
+  "interior": [
+    6,
+    1,
+    4
+  ],
+  "facing": "north",
+  "sha256": "6864efc0d591eefdd5ab73cea3b42d8b4bc371b4e3d9757a432ca6d558652e7f",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-shop-variants-20261102\\out\\shop-variant-E-goblin-market.png",
+  "reference_sha256": "7eec11d6c267cb7b9a58c307ea2ae3ad5601fd8fcb34b924f172101395365746",
+  "minecraft_version": "1.20.1",
+  "data_version": 3465,
+  "integration": {
+    "status": "STANDALONE_CANDIDATE_NOT_REGISTERED",
+    "id_is_provisional": true,
+    "assigned_slot": null,
+    "deployed": false,
+    "requires_coordinator_acceptance": true
+  },
+  "layout": {
+    "clear_internal_floor_size": [
+      11,
+      11
+    ],
+    "counter_size": [
+      7,
+      1
+    ],
+    "minimum_counter_clearance_blocks": 1,
+    "main_aisle_width_blocks": 3,
+    "main_aisle_height_blocks": 3,
+    "roof": "complete",
+    "wall_corner_pillars": 4,
+    "awning": "Wall-spanning wooden frame and two wall-side posts, red/green/brown wool patchwork.",
+    "suspended_pots": 2
+  },
+  "substitutions": [
+    "地毯改为地板内嵌红绿陶瓦，入口到柜台始终三格净宽、三格净高。",
+    "拼布用红/绿/棕羊毛落块，木框横跨墙线；垂布仅在柜台上方，不侵入走道。",
+    "金币改为无库存的黄色蜡烛束与陶瓦配色，不设置金块奖励或掉落物。",
+    "两只空炼药锅由连续双链固定到雨棚木框；不点火、不装液体、不生成物品。",
+    "赃物使用空桶、空箱、空酿造台、花盆、头骨和贴墙空铁笼，无战利品表。",
+    "哥布林仅是风格名；不添加哥布林、店主、笼中生物或其他实体，不提供交易、波次或奖励逻辑。"
+  ]
+}

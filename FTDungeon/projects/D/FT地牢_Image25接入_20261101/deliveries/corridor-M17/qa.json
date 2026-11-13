@@ -1,0 +1,117 @@
+{
+  "id": "M17",
+  "status": "PASS",
+  "sha256": "cd21edb25d954b99102b6b6fa72b84b6ddbd8a43284e9b1e1a553cca9fbce36f",
+  "reference_sha256": "29a6f9575aae21c6ea8f5863b62cde1aa63e7de9d9273248d82e51ff0325bf50",
+  "timestamp": "2026-11-03T11:40:10.733532+08:00",
+  "acceptance_level": "independent_structure_qa_pass",
+  "ready_for_integrator_review": true,
+  "global_slot_assigned": false,
+  "dimensions": [
+    17,
+    13,
+    41
+  ],
+  "entrance": [
+    8,
+    3,
+    0
+  ],
+  "interior": [
+    8,
+    3,
+    3
+  ],
+  "exit": [
+    8,
+    3,
+    40
+  ],
+  "static": {
+    "status": "PASS",
+    "checks": 16,
+    "report": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-M17\\qa\\static-qa.json"
+  },
+  "four_view": {
+    "status": "PASS",
+    "source_is_final_nbt": true,
+    "interior_views": 4,
+    "full_shell_views": 4,
+    "visual_review": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-M17\\qa\\four-view-review.json",
+    "interior_sheet": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-M17\\views\\interior-four-views.png",
+    "exterior_sheet": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-M17\\views\\exterior-four-views.png"
+  },
+  "native_forge": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "facings": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "stable_ticks": 600,
+    "exact_states_per_rotation": 9061,
+    "neighbor_notifications_per_rotation": 9061,
+    "scheduled_fluid_ticks_per_rotation": 204,
+    "state_changes": 0,
+    "report": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-M17\\qa\\native-world-qa.json",
+    "registry_report": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-M17\\qa\\native-registry-qa.json",
+    "successful_log": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-M17\\evidence\\forge-gametest-20261103-104448.log",
+    "fixture_rollback": "PASS"
+  },
+  "liquid_seals": {
+    "status": "PASS",
+    "water_sources": 174,
+    "lava_sources": 30,
+    "water_depth": 1,
+    "lava_fully_glazed": true,
+    "outside_halo_cells_checked_per_rotation": 7004,
+    "leaks_or_outside_changes": 0
+  },
+  "route": {
+    "status": "PASS",
+    "dry_width": 5,
+    "length": 41,
+    "feet_y": 3,
+    "native_player_volume": [
+      0.6,
+      1.8
+    ],
+    "swept_collision_checked": true,
+    "reachable_feet": 209,
+    "both_directions": true,
+    "turns": 0,
+    "branches": 0,
+    "stairs_in_route": 0
+  },
+  "containers": 0,
+  "template_entities": 0,
+  "block_entities": 0,
+  "preview": {
+    "status": "PASS",
+    "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-M17\\preview.png",
+    "sha256": "da7f0218a6b564f09852d4180a813ed73e729a8adddc868981b807bd928f8eda",
+    "renderer": "Minecraft Builder / Lodestone 0.6.0",
+    "nbt_server_payload_sha256_verified": true,
+    "report": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-M17\\qa\\lodestone-preview.json",
+    "is_gameplay_screenshot": false
+  },
+  "known_limitations": [
+    "Preview lighting, liquid coloring and transparency are approximations.",
+    "FT core integration, global placement and client gameplay remain with the integration owner."
+  ],
+  "historical_attempts": [
+    {
+      "status": "REJECTED_OCCUPIED_QA_FIXTURE",
+      "report": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-M17\\evidence\\native-attempt1-fixture-occupied.json",
+      "resolved": "Changed only the isolated test fixture from terrain height to verified empty air at y=248; the final NBT was unchanged."
+    }
+  ],
+  "deployed": false,
+  "player_worlds_modified": false,
+  "production_jar_modified": false,
+  "production_integration_tested": false,
+  "client_gameplay_tested": false
+}

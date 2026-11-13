@@ -1,0 +1,174 @@
+{
+  "id": "M10",
+  "name": "熔渣铸造间",
+  "english_name": "Slag Foundry",
+  "theme": "灼热铸造间",
+  "size": [
+    17,
+    11,
+    17
+  ],
+  "entrance": [
+    8,
+    2,
+    0
+  ],
+  "interior": [
+    8,
+    2,
+    4
+  ],
+  "facing": "north",
+  "sha256": "f60332bfa687c834b1ef86f0d1c41f3c2d65f256b11bf088d46a9c9ebe329515",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-rooms-medium-random-20261102\\out\\M10-slag-foundry-hero.png",
+  "reference_sha256": "1fcca8784da261c65ee881026b0c6a1d2640a31c86195f1c6c3287c1f0e232f4",
+  "reference_size": [
+    1536,
+    1024
+  ],
+  "minecraft_version": "1.20.1",
+  "data_version": 3465,
+  "template_id_proposal": "ftdungeonmobs:image25/m10",
+  "coordinate_convention": "relative integer XYZ; entrance/interior are player feet, not floor blocks",
+  "entrance_clearance": {
+    "width": 3,
+    "height": 3,
+    "straight_depth": 6,
+    "floor_y": 1
+  },
+  "heat_sources": {
+    "lava": [
+      [
+        2,
+        2,
+        6
+      ],
+      [
+        2,
+        2,
+        7
+      ],
+      [
+        2,
+        2,
+        8
+      ],
+      [
+        2,
+        2,
+        9
+      ],
+      [
+        2,
+        2,
+        10
+      ],
+      [
+        2,
+        2,
+        11
+      ]
+    ],
+    "fire": [
+      [
+        4,
+        3,
+        14
+      ],
+      [
+        5,
+        3,
+        14
+      ],
+      [
+        11,
+        3,
+        14
+      ],
+      [
+        12,
+        3,
+        14
+      ]
+    ],
+    "containment": "full stone boundaries and full glass covers/fronts; fire on netherrack; no combustible construction"
+  },
+  "landmark_feet": [
+    [
+      8,
+      2,
+      6
+    ],
+    [
+      5,
+      2,
+      7
+    ],
+    [
+      5,
+      2,
+      11
+    ],
+    [
+      6,
+      2,
+      9
+    ],
+    [
+      10,
+      2,
+      9
+    ],
+    [
+      8,
+      2,
+      12
+    ],
+    [
+      4,
+      2,
+      12
+    ],
+    [
+      12,
+      2,
+      12
+    ],
+    [
+      12,
+      2,
+      7
+    ],
+    [
+      13,
+      2,
+      6
+    ],
+    [
+      8,
+      2,
+      14
+    ]
+  ],
+  "features": [
+    "双座密封铸造炉与烟囱",
+    "玻璃全封闭熔渣槽与铁格盖饰",
+    "石台铁砧",
+    "工具墙、磨石、地轨",
+    "原矿与煤矿石堆",
+    "三盏锚固吊灯",
+    "完整耐火屋顶与干燥环路"
+  ],
+  "adaptations": [
+    "为三格北接口与设备环路将概念占地合理落地为17×17，高11格",
+    "木梁/木箱改成玄武岩梁与铁矿堆，避免火源附近可燃件",
+    "煤炭块在原生验收中确认可燃，替换为不可燃的深层煤矿石",
+    "工具墙使用原版杠杆/绊线钩静态陈设，不用物品实体",
+    "炉窗和熔槽用完整玻璃封闭，剖切只用于预览"
+  ],
+  "inventory": "none",
+  "loot": "none",
+  "entities": 0,
+  "deployed": false,
+  "integration_boundary": "Independent delivery only; coordinator assigns fixed slot and hallway. Do not write production saves or overwrite existing templates."
+}

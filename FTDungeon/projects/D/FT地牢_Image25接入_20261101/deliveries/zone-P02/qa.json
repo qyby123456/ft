@@ -1,0 +1,90 @@
+{
+  "id": "zone-P02",
+  "status": "PASS",
+  "size": [
+    17,
+    11,
+    39
+  ],
+  "structure_sha256": "6a147a2b744cf8f6e4ea425c84f54591c2dcd65459e09da0191dd0c000800fcf",
+  "reference_sha256": "518f9e89fadea35943d46096f0fb7d5eae409ef8718eaf15f1151cb9ef4a22c9",
+  "checks": {
+    "static": {
+      "status": "PASS",
+      "evidence": "qa/static.json",
+      "complete_explicit_volume": 7293,
+      "eight_gap_checks": 8
+    },
+    "source_documents_and_hashes": {
+      "status": "PASS",
+      "evidence": "qa/static.json"
+    },
+    "four_direction_interior_and_shell_review": {
+      "status": "PASS",
+      "evidence": "qa/four-view-review.json",
+      "interior_sheet": "preview/four-view-sheet.png",
+      "shell_sheet": "preview/four-shell-sheet.png"
+    },
+    "forge_native": {
+      "status": "PASS",
+      "evidence": "qa/native.json",
+      "log": "qa/forge-20261103-p02-final-2.log",
+      "minecraft": "1.20.1",
+      "forge": "47.4.10",
+      "rotations": 4,
+      "stabilization_ticks": 200,
+      "unchanged_records_per_rotation": 7293,
+      "escaped_fluid_cells": 0,
+      "empty_block_entities_per_rotation": 7
+    },
+    "route_and_recovery": {
+      "status": "PASS",
+      "evidence": "qa/route-summary.json",
+      "after_200_ticks_native_jumps": 64,
+      "after_200_ticks_native_fall_stair_recoveries": 32,
+      "negative_blocked_port_probes": 4,
+      "negative_basin_hole_probes": 4
+    },
+    "preview_integrity": {
+      "status": "PASS",
+      "evidence": "qa/render.json",
+      "png_count": 19,
+      "source_nbt_hash_matched": true,
+      "native_capture_hashes_matched": 4
+    }
+  },
+  "ready_for_unified_review": true,
+  "integrated": false,
+  "deployed": false,
+  "production_world_modified": false,
+  "artifacts": {
+    "template": "room.nbt",
+    "metadata": "room.json",
+    "preview": "preview.png",
+    "qa": "qa.json",
+    "checksums": "checksums.sha256",
+    "interior_four_views": "preview/four-view-sheet.png",
+    "shell_four_views": "preview/four-shell-sheet.png",
+    "native_placements": "preview/native-placement-sheet.png",
+    "recipe": "recipe.mjs"
+  },
+  "retained_failed_attempts": [
+    {
+      "log": "qa/forge-20261103-p02-initial.log",
+      "cause": "GameTest pack metadata missing; added pack.mcmeta before native acceptance."
+    },
+    {
+      "log": "qa/forge-20261103-p02-native-2.log",
+      "cause": "Generated terrain water entered the test perimeter; moved the isolated fixture to Y=160."
+    },
+    {
+      "log": "qa/forge-20261103-p02-final.log",
+      "cause": "512 MiB test JVM exhausted memory before completing GameTest. Gradle returned success despite no fresh report; final runner now requires fresh PASS report and explicit GameTest success."
+    }
+  ],
+  "limitations": [
+    "Independent candidate awaiting coordinator acceptance, external approach construction and slot allocation.",
+    "Evidence covers isolated Forge structure placement and native server-side collision/travel probes, not full-modpack client gameplay, multiplayer or FPS.",
+    "The midpoint is a dry rest platform, not a respawn/checkpoint command. The shallow-water route is intentionally recoverable and does not enforce a score or prevent deliberate swimming."
+  ]
+}

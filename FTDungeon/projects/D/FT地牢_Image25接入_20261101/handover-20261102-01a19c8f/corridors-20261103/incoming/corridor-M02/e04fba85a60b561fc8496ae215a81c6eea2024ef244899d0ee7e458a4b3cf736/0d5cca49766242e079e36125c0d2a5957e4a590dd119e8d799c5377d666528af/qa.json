@@ -1,0 +1,168 @@
+{
+  "id": "corridor-M02",
+  "status": "PASS",
+  "generated_at": "2026-11-03T11:01:12.100254+08:00",
+  "structure_sha256": "e04fba85a60b561fc8496ae215a81c6eea2024ef244899d0ee7e458a4b3cf736",
+  "reference_sha256": "96e45b7d9176fdc57b70e99af2dfde21638295e60f263d90b3cdb9099c8d6ccc",
+  "static": {
+    "status": "PASS",
+    "tests": 14,
+    "report": "qa/static.json"
+  },
+  "native": {
+    "status": "PASS",
+    "runtime": "Minecraft 1.20.1 / Forge 47.4.10 / Java 17.0.8",
+    "rotations": 4,
+    "ticks": 200,
+    "records_compared_each_phase": 36244,
+    "water_sources_each_rotation": 222,
+    "water_leaks": 0,
+    "negative_probes": {
+      "roof_hole": 4,
+      "open_water_boundary": 4,
+      "missing_cage_chain": 4,
+      "blocked_entrance": 4
+    },
+    "report": "qa/forge-native.json",
+    "log": "qa/forge-m02-final-02.log"
+  },
+  "visual": {
+    "status": "PASS",
+    "type": "Actual NBT software renderer, not a client screenshot",
+    "render_manifest": "qa/render-manifest.json",
+    "exterior_views": [
+      "views\\exterior-north.png",
+      "views\\exterior-east.png",
+      "views\\exterior-south.png",
+      "views\\exterior-west.png"
+    ],
+    "interior_views": [
+      "views\\interior-north.png",
+      "views\\interior-east-cutaway.png",
+      "views\\interior-south.png",
+      "views\\interior-west-cutaway.png"
+    ],
+    "image_integrity_checks": [
+      {
+        "path": "views\\exterior-north.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "rgb_stddev": [
+          39.974804140270244,
+          26.856221473981847,
+          20.210261115989745
+        ],
+        "passed": true
+      },
+      {
+        "path": "views\\exterior-east.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "rgb_stddev": [
+          51.35790958055395,
+          32.06161487739025,
+          23.52968716766626
+        ],
+        "passed": true
+      },
+      {
+        "path": "views\\exterior-south.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "rgb_stddev": [
+          30.632969059724445,
+          21.403153027675753,
+          17.788899499626666
+        ],
+        "passed": true
+      },
+      {
+        "path": "views\\exterior-west.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "rgb_stddev": [
+          46.20987703575149,
+          29.568174687816093,
+          22.42924626416105
+        ],
+        "passed": true
+      },
+      {
+        "path": "views\\interior-north.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "rgb_stddev": [
+          60.755741906904085,
+          50.17038057608115,
+          56.11079881245386
+        ],
+        "passed": true
+      },
+      {
+        "path": "views\\interior-east-cutaway.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "rgb_stddev": [
+          58.172672995639736,
+          41.17844677449159,
+          33.67873161049639
+        ],
+        "passed": true
+      },
+      {
+        "path": "views\\interior-south.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "rgb_stddev": [
+          57.74755335158418,
+          47.911245708300314,
+          54.4596065444924
+        ],
+        "passed": true
+      },
+      {
+        "path": "views\\interior-west-cutaway.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "rgb_stddev": [
+          54.695395959880564,
+          37.52870870526447,
+          30.422550715577593
+        ],
+        "passed": true
+      }
+    ],
+    "cutaway_render_only": true,
+    "roof_intact_in_room_nbt": true,
+    "assistant_visual_review": "Inspected actual NBT perspective and contact sheets; straight route, shelves, cage supports, bounded water and roof confirmed."
+  },
+  "deployment": {
+    "deployed": false,
+    "production_save_opened": false,
+    "formal_mods_modified": false,
+    "ft_core_modified": false
+  },
+  "limitations": [
+    "No FT core registration, hall connection, idempotence, occupancy rejection or production deployment tested.",
+    "No full-modpack player-client screenshot or gameplay validation.",
+    "200 ticks is bounded isolated-runtime evidence, not a long-running stability guarantee.",
+    "Lava glow uses safe shroomlights behind orange stained glass; no live lava.",
+    "The source concept floods the full floor; a level dry 3-wide central causeway is an intentional safety adaptation."
+  ]
+}

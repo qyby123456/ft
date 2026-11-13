@@ -1,0 +1,105 @@
+{
+  "id": "zone-A01",
+  "design_id": "A01",
+  "name": "废弃书房",
+  "category": "abandoned_room",
+  "size": [
+    17,
+    11,
+    17
+  ],
+  "entrance": [
+    8,
+    2,
+    0
+  ],
+  "interior": [
+    8,
+    2,
+    4
+  ],
+  "facing": "north",
+  "safe_points": [
+    [
+      8,
+      2,
+      4
+    ]
+  ],
+  "ports": [
+    {
+      "facing": "north",
+      "feet": [
+        8,
+        2,
+        0
+      ],
+      "opening": [
+        3,
+        4
+      ],
+      "purpose": "entry_and_return"
+    }
+  ],
+  "path": {
+    "x": [
+      7,
+      9
+    ],
+    "z": [
+      0,
+      14
+    ],
+    "feet_y": 2,
+    "clear_height": 4
+  },
+  "data_version": 3465,
+  "sha256": "d4bd1ffca427cb8d5693d32204fb1dd5957993339507edd8e2b96718affa28c9",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/abandoned/A01-abandoned-ruined-study.png",
+  "reference_sha256": "e28fe9c5d774a0f141b616ebeb683f09bc6a8c0bc90fe74e39d88b4f1f2d9a0d",
+  "builder": "Minecraft Builder Skill / Lodestone 0.6.0",
+  "recipe": "recipe.mjs",
+  "entities": 0,
+  "block_entities": 3,
+  "containers": [
+    {
+      "type": "minecraft:barrel",
+      "position": [
+        2,
+        2,
+        2
+      ],
+      "item_count": 0,
+      "loot_table": false
+    },
+    {
+      "type": "minecraft:barrel",
+      "position": [
+        13,
+        2,
+        14
+      ],
+      "item_count": 0,
+      "loot_table": false
+    },
+    {
+      "type": "minecraft:barrel",
+      "position": [
+        14,
+        2,
+        3
+      ],
+      "item_count": 0,
+      "loot_table": false
+    }
+  ],
+  "adaptations": [
+    "Closed solid roof added above the concept cutaway.",
+    "Tilted bookcase and fallen chair use stable axis-aligned bookshelves and stairs.",
+    "Paper and loose books use white/brown carpet, without item entities or readable books.",
+    "Worn red rug is flush wool flooring to keep the main lane flat.",
+    "Fireplace is cold, with blackstone ash and no fire or fuel."
+  ],
+  "deployed": false,
+  "production_saves_touched": false
+}

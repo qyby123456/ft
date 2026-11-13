@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ftcorridors08qa"
+version="1.0"
+displayName="Corridor S08 Isolated Verification Only"
+description='''Headless isolated QA only. Never deploy into a player instance.'''
+[[dependencies.ftcorridors08qa]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ftcorridors08qa]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

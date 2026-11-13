@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "synthetic_test_data_only": true,
+  "not_producer_deliveries": true,
+  "native_runtime_executed": false,
+  "cases": [
+    {
+      "case": "short_16",
+      "result": "PASS_INTAKE_ONLY"
+    },
+    {
+      "case": "medium_32",
+      "result": "PASS_INTAKE_ONLY"
+    },
+    {
+      "case": "medium_48",
+      "result": "PASS_INTAKE_ONLY"
+    },
+    {
+      "case": "wrong_medium_length",
+      "result": "PASS_EXPECTED_REJECTION",
+      "reason": "Corridor length outside assigned tier"
+    },
+    {
+      "case": "blocked_far_exit",
+      "result": "PASS_EXPECTED_REJECTION",
+      "reason": "Blocked/hazardous main lane: 4,15"
+    },
+    {
+      "case": "lava_on_main_lane",
+      "result": "PASS_EXPECTED_REJECTION",
+      "reason": "Blocked/hazardous main lane: 4,8"
+    },
+    {
+      "case": "stair_on_main_lane",
+      "result": "PASS_EXPECTED_REJECTION",
+      "reason": "Unsafe/non-full floor candidate: 4,8"
+    },
+    {
+      "case": "missing_roof",
+      "result": "PASS_EXPECTED_REJECTION",
+      "reason": "Missing roof above main lane"
+    },
+    {
+      "case": "spawner",
+      "result": "PASS_EXPECTED_REJECTION",
+      "reason": "Non-vanilla/forbidden block"
+    },
+    {
+      "case": "non_vanilla",
+      "result": "PASS_EXPECTED_REJECTION",
+      "reason": "Non-vanilla/forbidden block"
+    },
+    {
+      "case": "entity",
+      "result": "PASS_EXPECTED_REJECTION",
+      "reason": "Entities are not allowed"
+    }
+  ]
+}

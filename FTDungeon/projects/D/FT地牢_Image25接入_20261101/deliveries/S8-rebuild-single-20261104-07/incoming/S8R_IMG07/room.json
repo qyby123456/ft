@@ -1,0 +1,177 @@
+{
+  "id": "S8R_IMG07",
+  "name": "重门守卫入口前厅",
+  "size": [
+    25,
+    15,
+    27
+  ],
+  "entrance": [
+    12,
+    2,
+    0
+  ],
+  "interior": [
+    12,
+    4,
+    7
+  ],
+  "connections": [
+    {
+      "role": "entrance",
+      "facing": "north",
+      "position": [
+        12,
+        2,
+        0
+      ],
+      "width": 3,
+      "minimum_height": 3
+    },
+    {
+      "role": "exit",
+      "facing": "south",
+      "position": [
+        12,
+        4,
+        26
+      ],
+      "width": 5,
+      "minimum_height": 3
+    }
+  ],
+  "route_targets": [
+    {
+      "label": "north",
+      "position": [
+        12,
+        2,
+        0
+      ]
+    },
+    {
+      "label": "porch",
+      "position": [
+        12,
+        2,
+        1
+      ]
+    },
+    {
+      "label": "gate-inside",
+      "position": [
+        12,
+        4,
+        6
+      ]
+    },
+    {
+      "label": "center",
+      "position": [
+        12,
+        4,
+        15
+      ]
+    },
+    {
+      "label": "back",
+      "position": [
+        12,
+        4,
+        23
+      ]
+    },
+    {
+      "label": "south",
+      "position": [
+        12,
+        4,
+        26
+      ]
+    },
+    {
+      "label": "west-guard",
+      "position": [
+        3,
+        4,
+        20
+      ]
+    },
+    {
+      "label": "east-guard",
+      "position": [
+        21,
+        4,
+        20
+      ]
+    },
+    {
+      "label": "map-front",
+      "position": [
+        5,
+        4,
+        13
+      ]
+    },
+    {
+      "label": "crates-front",
+      "position": [
+        5,
+        4,
+        15
+      ]
+    },
+    {
+      "label": "brazier-front",
+      "position": [
+        19,
+        4,
+        17
+      ]
+    },
+    {
+      "label": "west-circulation",
+      "position": [
+        7,
+        4,
+        17
+      ]
+    },
+    {
+      "label": "east-circulation",
+      "position": [
+        17,
+        4,
+        17
+      ]
+    }
+  ],
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S8-crystal-geode\\out\\S8-07-entrance.png",
+  "reference_sha256": "d1e4a0a73e6fdc49cf9d5309fe1c3ccef25285b6cca755848b13738887d0b778",
+  "recipe_sha256": "05f4ab56a35594abb0984051b8a5f5fcc319bd5a7dabce4cede2c7872d540132",
+  "sha256": "ad71c099fe5f87345f34d659655075a4ca0025952119b96247f88ff527a76bd7",
+  "previous_acceptance": "D:\\ft工程文件\\FT地牢_独立复核_20261104_01a1a685\\S8-06-independent\\independent-details.json",
+  "gate": {
+    "positions": [
+      [
+        11,
+        4,
+        4
+      ],
+      [
+        12,
+        4,
+        4
+      ]
+    ],
+    "type": "paired dark_oak_door",
+    "delivered_state": "open=true",
+    "interaction": "NOT_RUN"
+  },
+  "block_entities": "four explicit empty barrels and two plain purple banners",
+  "mechanisms": [],
+  "loot": null,
+  "runtime_slot": null,
+  "status": "AWAITING_INDEPENDENT_ACCEPTANCE",
+  "deployment": "NOT_DEPLOYED"
+}

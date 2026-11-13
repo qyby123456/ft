@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="corridors05qa"
+version="1.0"
+displayName="S05 Corridor Isolated Verification Only"
+description='''Headless structure QA; never install in a player instance.'''
+[[dependencies.corridors05qa]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.corridors05qa]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

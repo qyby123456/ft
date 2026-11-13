@@ -1,0 +1,102 @@
+{
+  "id": "corridor-M08",
+  "status": "PASS",
+  "passed": true,
+  "created_at": "2026-11-03T03:14:00.243Z",
+  "sha256": "a5d2baf51f87f97d0cecc5ff473391da932752cb13a456bbe6b8889bbb6bfe51",
+  "size": [
+    17,
+    13,
+    41
+  ],
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M08-forge-lava-burnt.png",
+  "reference_sha256": "ea87fc89e452e478a91bca5ea505acea8b97d2da8bd468a07108db61f7e46050",
+  "checks": [
+    {
+      "name": "reference_sha256",
+      "passed": true
+    },
+    {
+      "name": "medium_length_32_to_48",
+      "passed": true
+    },
+    {
+      "name": "straight_flat_five_wide_route",
+      "passed": true
+    },
+    {
+      "name": "complete_roof_and_foundation",
+      "passed": true
+    },
+    {
+      "name": "native_java_1_20_1_palette_and_roundtrip",
+      "passed": true
+    },
+    {
+      "name": "four_rotations_600_ticks_exact_states",
+      "passed": true
+    },
+    {
+      "name": "all_lava_fully_enclosed",
+      "passed": true
+    },
+    {
+      "name": "all_eight_cages_anchored",
+      "passed": true
+    },
+    {
+      "name": "all_eight_anvils_supported",
+      "passed": true
+    },
+    {
+      "name": "both_ports_reachable_and_returnable",
+      "passed": true
+    },
+    {
+      "name": "no_drops_or_unexpected_entities",
+      "passed": true
+    },
+    {
+      "name": "four_direction_internal_external_previews",
+      "passed": true
+    },
+    {
+      "name": "assistant_visual_review",
+      "passed": true
+    },
+    {
+      "name": "no_deployment_or_player_save_edits",
+      "passed": true
+    }
+  ],
+  "evidence": {
+    "static": "qa/static.json",
+    "native": "qa/native.json",
+    "render": "qa/render.json",
+    "visual": "qa/visual-review.json",
+    "logs": [
+      {
+        "file": "qa/gametest-20261103-100920.log",
+        "status": "FAIL",
+        "failure": "Fixture area occupied: MutableBlockPos{x=127, y=99, z=127}"
+      },
+      {
+        "file": "qa/gametest-20261103-103521.log",
+        "status": "FAIL",
+        "failure": "Flammable structural material"
+      },
+      {
+        "file": "qa/gametest-20261103-104143.log",
+        "status": "PASS",
+        "failure": null
+      }
+    ],
+    "gallery": "preview/index.html"
+  },
+  "limitations": [
+    "Lodestone software renders are not screenshots from a modpack client.",
+    "Forge 47.4.10 isolated GameTestServer verifies native placement, not full-modpack multiplayer, FPS or gameplay.",
+    "No production JAR deployment, dungeon-core integration, player-world command or player-save access occurred.",
+    "Integration must check the entire explicit-air-inclusive volume before placement and persist an independent generated marker."
+  ]
+}

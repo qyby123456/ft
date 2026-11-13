@@ -1,0 +1,110 @@
+{
+  "id": "P05",
+  "name": "石柱跃厅",
+  "status": "PASS",
+  "sha256": "a752b63daf9f83cacd648be941a3bcb8dee63d2d6e704f9b0f1abde5b250e4d3",
+  "reference_sha256": "671abf0d3795ca83ff0554600bbee74ef6a1f3894325624155a06dcfc6f193df",
+  "size": [
+    17,
+    14,
+    29
+  ],
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "data_version": 3465,
+  "static": "PASS",
+  "reference_batch_manifest_and_verify": "PASS",
+  "pillars_continuously_supported": 5,
+  "parkour": {
+    "status": "PASS",
+    "landing_size": [
+      2,
+      2
+    ],
+    "empty_gap_blocks": 2,
+    "vertical_change": 0,
+    "legs_per_direction": 6,
+    "rotations": 4,
+    "phases": 2,
+    "native_swept_jumps": 96,
+    "native_climb_sweeps": 16,
+    "forward_and_reverse": true
+  },
+  "recovery": {
+    "status": "PASS",
+    "water_depth": 1,
+    "connected_fluid_cells": 304,
+    "north_bank_ladders": 2,
+    "ladder_support": "PASS",
+    "south_bank_recovery_ladder": false
+  },
+  "original_nbt_four_interior_and_four_exterior_views": "PASS",
+  "view_count": 11,
+  "visual_review": {
+    "status": "PASS",
+    "method": "Agent inspection of actual NBT overview, four interior, four exterior and top plan",
+    "entrance_exit_markers": true,
+    "five_pillars_readable": true,
+    "rooted_pillars": true,
+    "no_visible_floating_fixtures_in_full_views": true,
+    "complete_roof": true,
+    "cutaway_display_only": true,
+    "previews_are_software_renders": true
+  },
+  "native_placement_rotations": 4,
+  "records_per_phase": 27608,
+  "stability_ticks": 400,
+  "unchanged_after_neighbor_and_fluid_ticks": true,
+  "native_can_survive": "PASS",
+  "water_seal": "PASS",
+  "negative_probes_rejected": [
+    "missing_pillar_root",
+    "broken_water_dam",
+    "missing_ladder_support",
+    "missing_lamp_anchor",
+    "blocked_port",
+    "blocked_jump_arc"
+  ],
+  "qa_fixture_revisions": [
+    {
+      "file": "qa/forge-run-20261103-124238-098.log",
+      "result": "REJECTED",
+      "issue": "Y=100 test boundary overlapped random terrain",
+      "correction": "Moved isolated fixtures to Y=300; NBT unchanged"
+    },
+    {
+      "file": "qa/forge-run-20261103-125052-997.log",
+      "result": "REJECTED",
+      "issue": "Rotated grounded AABB exact contact produced floating-point collision recheck",
+      "correction": "Deflate only recheck AABB by 1e-7; native movement retains full 0.6x1.8 dimensions; NBT unchanged"
+    }
+  ],
+  "entities": 0,
+  "block_entities": 0,
+  "loot_tables": 0,
+  "deployment": "NOT_DEPLOYED",
+  "production_save_used": false,
+  "production_files_modified": false,
+  "full_modpack_client_playtest": false,
+  "limits": [
+    "Deterministic ballistic and climb clearance checks with native swept collisions; keyboard input, acceleration, water motor, full modpack and multiplayer are not playtested.",
+    "Software previews are distinct from client screenshots.",
+    "Full-volume occupation rejection and persistent generation markers are required before future integration."
+  ],
+  "evidence": {
+    "static": "qa/static.json",
+    "native": "qa/forge-native.json",
+    "native_log": "qa/forge-run.log",
+    "views": "qa/views.json",
+    "composites": "qa/composites.json",
+    "interior": "preview/four-interior.png",
+    "exterior": "preview/four-exterior.png",
+    "gallery": "preview/index.html",
+    "hashes": "qa/SHA256SUMS.txt"
+  },
+  "delivery_hashes": {
+    "room.nbt": "a752b63daf9f83cacd648be941a3bcb8dee63d2d6e704f9b0f1abde5b250e4d3",
+    "room.json": "4e11bcccb93ef85f3977ff8423175a9bd71c43392335f2c6b1b298a80429e9a9",
+    "preview.png": "b13c52c45e46491ca7e9df90811c8972645cb94ccc30a4fce4e3d4af0cc7700a"
+  }
+}

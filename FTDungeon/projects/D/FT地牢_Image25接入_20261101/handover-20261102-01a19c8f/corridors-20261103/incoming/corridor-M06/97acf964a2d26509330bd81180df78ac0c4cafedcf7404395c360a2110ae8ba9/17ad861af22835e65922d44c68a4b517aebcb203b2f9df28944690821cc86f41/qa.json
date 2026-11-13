@@ -1,0 +1,141 @@
+{
+  "status": "PASS",
+  "id": "corridor-M06",
+  "source_id": "M06",
+  "name": "焚痕冰封牢狱直廊",
+  "completed_at": "2026-11-03 11:07:29 Asia/Shanghai",
+  "sha256": "97acf964a2d26509330bd81180df78ac0c4cafedcf7404395c360a2110ae8ba9",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M06-frozen-prison-burnt.png",
+  "reference_sha256": "3a7bc9bffe8a727ca0b05ca07b492fe1623ac2c0e82c26ada0867b144d19eadf",
+  "size": [
+    15,
+    13,
+    40
+  ],
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    4
+  ],
+  "exit": [
+    7,
+    2,
+    39
+  ],
+  "static": {
+    "status": "PASS",
+    "checks": 13,
+    "records": 7800,
+    "evidence": "qa/static.json"
+  },
+  "visuals": {
+    "status": "PASS",
+    "evidence": "qa/render.json",
+    "directions": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "interior_cutaway_views": 4,
+    "complete_exterior_views": 4,
+    "eye_level_views": 2,
+    "visually_inspected": true,
+    "software_render_not_game_screenshot": true,
+    "roof_unchanged_in_nbt": true
+  },
+  "forge": {
+    "status": "PASS",
+    "evidence": "qa/native.json",
+    "log": "qa/forge-gametest.log",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "records_per_rotation": 7800,
+    "total_placed_records": 31200,
+    "stability_ticks": 400,
+    "actual_server_level_placement": true,
+    "native_neighbor_shape_updates": true,
+    "safe_route_and_return_all_rotations": true,
+    "production_world_used": false
+  },
+  "native_snapshot_reread": {
+    "status": "PASS",
+    "evidence": "qa/native-snapshots.json",
+    "native_roundtrips": 1,
+    "actual_settled_world_rotations": 4,
+    "matched_records": 39000
+  },
+  "safety": {
+    "production_deployed": false,
+    "production_save_modified": false,
+    "other_room_modified": false,
+    "paid_image_generation_called": false,
+    "entities": 0,
+    "block_entities": 0,
+    "live_fluids": 0,
+    "real_fire": 0
+  },
+  "limitations": [
+    "Not a complete modpack client or multiplayer playtest.",
+    "Not deployed or linked into the live dungeon; the integrator must validate destination occupancy, entities, fluids, boundaries, persistence and return routes before placement.",
+    "Explicit air records are not authorization to overwrite existing structures.",
+    "First Forge attempt failed before structure testing because test-pack metadata was missing; second attempt safely refused naturally occupied test volume at y=100; third attempt exposed generic Lodestone iron-bar connection drift next to candles. Logs and the rejected NBT are retained; final fixtures use y=240 and explicit native-compatible iron-bar states.",
+    "Software previews do not reproduce client candle particles, dynamic lighting or shaders; review views use brighter inspection lighting."
+  ],
+  "files": {
+    "room.nbt": "97acf964a2d26509330bd81180df78ac0c4cafedcf7404395c360a2110ae8ba9",
+    "room.json": "3bcda1cfe9e0546bcfa4fe379172b2251cf1f8f0f5a9cc844f8b7ac195f72c57",
+    "preview.png": "b0e3c130c9b32d855ddc4b642b9bb391a0fcc3cef6b1043d04fe82fc20219a44",
+    "recipe.mjs": "2dfe232a73e6f01a806958a45ddef7126767c89736ea5dac30254828af7b87ca",
+    "summary.json": "5fbc2dc262969b6965b3cb7ffd9fb00237cdcba5b2b4f0c4c864319ff538b86a",
+    "README.md": "a5db76707ea93e9fe3884efab65a3cf3a36ab70f3552a130a9ce44c6394bf0e5",
+    "Run-QA.ps1": "9abddfdf80be8ee2c220d984c710e6b3dad0a81d1a0fcc04988e2ea3e4ff5789",
+    "tools/static-qa.mjs": "3498b583de5babe312fe80aa245b9d87b6fc9d8bad087b676f9b27a9aef50f2b",
+    "tools/review-native-snapshots.mjs": "cdcd2ccdc61b85073afe2e2fde6a12c3bf27517b017e8b4fa3a3e1471525e0c3",
+    "tools/finalize.mjs": "7100f72a12f9513bd6e24850219538c03710f3c3d926a39a549388881e20c33b",
+    "tools/viewer.html": "5f9da43e278284459a4f85897ba8e72eff773363e52605f0ed1bdc30c70846ef",
+    "tools/viewer.mjs": "42d843b4ac181a74734b46c4e88b54c49291fcab8edb28b1469b15ea34fc72ce",
+    "tools/preview-server.mjs": "a891688a5e8244f06dc7b8c5734e40b06f79a43bfad4c261e4c5d61e85de9738",
+    "tools/capture-preview.mjs": "9f2eac143dcd1969f1734238e7afeb4a2317527c59950f28a6045401e8fbf605",
+    "native-test/build.gradle": "da167e163fd17fe594a8e8a946f142b6b9a14fb91005dc05815bf9e1ea861121",
+    "native-test/settings.gradle": "ade96554c2fdd239a88b8c7cfdc01eee96c7d26012aa87832557535bee1bc372",
+    "native-test/gradle.properties": "91418faae9236f35999e2e166ba3c243bff21fc85b694b57ba6f22172d343ae7",
+    "native-test/src/main/java/net/farmingtales/corridorm06/CorridorM06Test.java": "1d2da40162fca9653e95bb427e2496e1c7ff70d3f2ae81e609a2a770406cd1d2",
+    "native-test/src/main/resources/META-INF/mods.toml": "fd24b5dfa347894fc0a80f2aa49aae6fa0483bdf38390f04a7d15b67d64aa759",
+    "native-test/src/main/resources/pack.mcmeta": "c871ded6a156c7d16ae0f328eb922b83610ebae2dcc5f86fa2a9debcadde1d3b",
+    "native-test/src/main/resources/data/ftcorridorm06qa/structures/empty.nbt": "2208e365062839f075ed1d5c630ab347b9bbda7f85ac413e4fff8fc96bd43bca",
+    "qa/static.json": "89899668c7163325c32702c0132d5b3823e05ba78e0ab4a92b5085e06682f270",
+    "qa/native.json": "e72767239511d00d05d51dc75049b144a34f8f317b592afad460039f72c8780e",
+    "qa/native-snapshots.json": "f52def1d08e30cc998842d67368020b21cac7759f89f650f5ddc98ac093995b2",
+    "qa/render.json": "a3d7c0318e307f38a1c1cdf58e988c2bc8a3e6200311e72877174ed84888d9f0",
+    "qa/render-capture.log": "49a7bbd39570747cad3f8f280ec62f2d8c2f9d80866ce9c25fa20621a9b2579e",
+    "qa/forge-gametest.log": "3ce919f947d311cc9579ede4f2eb692e3eacc10c42681645c0eb1e67f4c39143",
+    "qa/forge-gametest-attempt1-missing-pack-metadata.log": "ef9f217322124edffcb6a568f5280122641a200f12c05645a614c39dd64ba006",
+    "qa/forge-gametest-attempt2-terrain-occupied.log": "6326e542fb34dfce903cc51e52fb0170564b376150edeccde395e4ffbce1af29",
+    "qa/forge-gametest-attempt3-iron-bar-shape-drift.log": "5dde5856d82789e7e613bd6733d6b27f342df8a716f7f15461bce8571e03c1f5",
+    "qa/attempt3-before-iron-bar-repair.nbt": "850b8248a17ee95c3bcf7b9a36ac889b74954e95ae91706138070ead465a44a1",
+    "qa/attempt3-before-iron-bar-repair.json": "82e72ecc68dc0aa9c301dc980c263d00fe4219b2d987a70b9bc11d7bb4b964c9",
+    "qa/native-roundtrip.nbt": "dbbfd8cc2e971b91bd07eaa6c99ac570df61509e19c58e3f4f95967b852da53f",
+    "preview/four-direction-interior-exterior.png": "e4e926bbe4e411f12cc61923e58143894756a5c8c6b8aa138a43fa1c77f67742",
+    "preview/north-exterior.png": "d7089683f22fe2c227a2179a0dad91a847c3b18c3a939bdbab500a0e5d03ac01",
+    "preview/south-exterior.png": "6d237d0960560f5fdeb3cc2d4358083dd0210862d86421a0e1adc353a2ea72d3",
+    "preview/west-exterior.png": "5a776a76a8ed53cd9ec7606f4a9c994eed9201355e863ce25a6e3e5ba6d01dbf",
+    "preview/east-exterior.png": "a38ad0e6f06a5784c3ba489723403a4e2e5b66eb8023741bb8911ddac0b9bc30",
+    "preview/north-interior.png": "b65a465c2ed40e40d4c0b10aef8a3682dd7e633e2de2a894f208e21c99ef9fb8",
+    "preview/south-interior.png": "8a4b134320e311528bf3a803388d33820fb83f02346481a087184d94c9e34f9e",
+    "preview/west-interior.png": "df37f96cff6ef1a7006c06e7a3f46e8a11fefed2c4a94d85b180ae153c5869f0",
+    "preview/east-interior.png": "936829c792ee3ac7a31b1a354bcfc8a766d0d079a5df9c7b6f6c464b8744c644",
+    "preview/hero.png": "b0e3c130c9b32d855ddc4b642b9bb391a0fcc3cef6b1043d04fe82fc20219a44",
+    "preview/reverse.png": "1a77861070a0a768c928eed842d7ce4daf8601db10335b17e7581c8dd59b316d",
+    "qa/native-placed-none.nbt": "dbbfd8cc2e971b91bd07eaa6c99ac570df61509e19c58e3f4f95967b852da53f",
+    "qa/native-placed-clockwise_90.nbt": "87514a82d879ee9bd7cd346e039b808aa4d68af0ed9070df89212241512a791b",
+    "qa/native-placed-clockwise_180.nbt": "5d0b9e1827b08940de3393b77ddac4c35138c8e03666697beb1195f1d756ddb9",
+    "qa/native-placed-counterclockwise_90.nbt": "f83565d97d3acc2c863ff8ef17f3bdccaa84b2e601768890f57e53cbbcace616"
+  }
+}

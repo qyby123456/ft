@@ -1,0 +1,100 @@
+{
+  "id": "corridor-M03",
+  "status": "PASS",
+  "time": "2026-11-03T11:13:33.822856+08:00",
+  "structure_sha256": "a2b0b27d1d046aab771cfa84fea24d3985273b74380c7a19d62af3ea44d9e5ca",
+  "reference_sha256": "2bd12059b40ca01c7f4576e3af80f099382dc20b1c87ae34128332f5391c33ea",
+  "size": [
+    13,
+    12,
+    41
+  ],
+  "length_chunks": 2.5625,
+  "entrance": [
+    6,
+    1,
+    0
+  ],
+  "interior": [
+    6,
+    1,
+    4
+  ],
+  "exit": [
+    6,
+    1,
+    40
+  ],
+  "summary": {
+    "static_checks": "PASS",
+    "nbt_records": 6396,
+    "non_air_blocks": 3468,
+    "palette_states": 18,
+    "straight_corridor_clear_width": 5,
+    "straight_corridor_clear_height": 3,
+    "straight_lane_positions": 205,
+    "turns_side_branches_or_traversal_stairs": 0,
+    "roof_complete": true,
+    "fluids_hazard_blocks_rewards_or_preplaced_entities": 0,
+    "lit_candle_clusters": 20,
+    "banner_block_entities": 10,
+    "native_registry_properties_nbt_roundtrip": "PASS",
+    "forge_placements": "4/4 PASS",
+    "forced_chunk_ticks": 200,
+    "native_records_after_ticks": 25584,
+    "world_capture_semantic_mismatches": 0,
+    "missing_support_negative_probes": 8,
+    "blocked_aisle_negative_probes": 4,
+    "interior_views": 4,
+    "exterior_views": 4,
+    "uncut_axis_perspectives": 2
+  },
+  "visual_review": {
+    "status": "PASS",
+    "review_method": "Assistant visually inspected north and south full-template axis perspectives, the four-direction interior sheet and exterior sheet.",
+    "observations": [
+      "Continuous level red runner and dry red side inlays; both portals remain open.",
+      "Six repeating arches, five paired banner/candle bays, complete roof.",
+      "No cutaway edits are applied to room.nbt."
+    ],
+    "renderer": "Minecraft 1.20.1 asset/block-model textured software renderer",
+    "game_screenshot": false,
+    "approximations": [
+      "Banner cloth and sigil entity appearance approximated from the actual banner state and fixed three-layer pattern.",
+      "Software candle shading is an illustrative light approximation, not Minecraft light simulation."
+    ],
+    "lodestone": {
+      "generation": "Minecraft Builder Lodestone recipe and gzip roundtrip PASS",
+      "preview_server": "http://127.0.0.1:5303/",
+      "headless_capture": "Rejected: captured loading screen; qa/lodestone-loading-rejected.png is not acceptance imagery."
+    }
+  },
+  "evidence": {
+    "builder": "builder/summary.json",
+    "static": "qa/static.json",
+    "forge": "qa/native.json",
+    "forge_log": "qa/forge-gametest.log",
+    "forge_raw_log": "qa/forge-latest.log",
+    "capture_review": "qa/capture-review.json",
+    "visuals": "qa/visuals.json",
+    "interior_sheet": "views/interior-four-directions.png",
+    "exterior_sheet": "views/exterior-four-directions.png",
+    "preview": "preview.png"
+  },
+  "native_log_notes": [
+    "Initial disposable fixture generated missing server.properties and Forge config files.",
+    "Forge update check/network, deprecation and temporary DUMMY block-entity warnings were logged; retained in raw logs. Final native state/survival/banner and independent capture comparisons all pass."
+  ],
+  "scope": {
+    "deployed": false,
+    "player_saves_touched": false,
+    "ft_core_modified": false,
+    "parallel_deliveries_modified": false,
+    "writes_confined_to": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-M03",
+    "scratch_world": "forge/run/world (isolated GameTest only)"
+  },
+  "limitations": [
+    "No full modpack client, multiplayer, performance, production integration, gallery road, saved-data idempotence, combat or loot behavior tested.",
+    "Explicit air in the full template must not be used as authorization to clear occupied terrain; integration owner must validate the complete placement volume first."
+  ]
+}

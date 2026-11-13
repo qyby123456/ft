@@ -1,0 +1,171 @@
+{
+  "status": "PASS",
+  "generated_at": "2026-11-02T10:38:31.174547+08:00",
+  "id": "SHOP_D_NETHER_BARTER",
+  "structure_sha256": "d660b18fa96995ece7c51dd1a000b800480802d2fe9e2e2b52d05f2d12791292",
+  "structure_size": [
+    13,
+    9,
+    13
+  ],
+  "records": 1521,
+  "entrance": [
+    6,
+    1,
+    0
+  ],
+  "interior": [
+    6,
+    1,
+    3
+  ],
+  "reference": {
+    "source": "D:\\ft工程文件\\image2.5\\dungeon-shop-variants-20261102\\out\\shop-variant-D-nether-barter.png",
+    "sha256": "adc38f2ab9553f7c40975172b105a362ae8b32655d02ecbf73a1aa6e850c8821",
+    "actual_size": [
+      1536,
+      1024
+    ],
+    "source_styles_md_present": false
+  },
+  "static": {
+    "status": "PASS",
+    "report": "qa/static.json",
+    "checks": 18,
+    "negative_probes": 8
+  },
+  "native": {
+    "status": "PASS",
+    "report": "qa/native.json",
+    "log": "qa/forge-gametest.log",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "stabilization_ticks": 200,
+    "records_after_ticks": 6084,
+    "reachable_foot_positions_per_rotation": 94,
+    "block_entities_per_rotation": 6,
+    "extra_world_entities": 0,
+    "negative_probes": 12,
+    "source_vs_unrotated_world_states": "EXACT_EQUAL"
+  },
+  "visual": {
+    "status": "PASS",
+    "report": "qa/visual-review.json",
+    "render_manifest": "qa/render-manifest.json",
+    "images": [
+      {
+        "path": "preview/delivery-sheet.png",
+        "size": [
+          2480,
+          1650
+        ],
+        "sha256": "553a86cc3966438ea064b833387aeff3c58afa30c68978c86c8bbe678f64e404"
+      },
+      {
+        "path": "preview/east.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "241b9e761fd86aa307484ea252b677305dae9cd9118a69ac6ca405057d023e65"
+      },
+      {
+        "path": "preview/exterior.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "50a9d0dea535140a4a12c54ec98bc2d6cc1f01a3fdee07d7b143288bb658606f"
+      },
+      {
+        "path": "preview/four-views.png",
+        "size": [
+          3200,
+          2500
+        ],
+        "sha256": "974264e7201ec0e0c388f73cf237e8297f0f3bc2fb425684ab3dde2de8564bcf"
+      },
+      {
+        "path": "preview/native-world-capture.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "017fd9b5a8c9f50b2c3e3a1d15f369a9c38a00a7586c259c0ea0955a858b555e"
+      },
+      {
+        "path": "preview/north.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "04544a82fe8e244f1638e8a5c51507ac4633f1f36e76c5c8546f276839b8ee92"
+      },
+      {
+        "path": "preview/plan.png",
+        "size": [
+          1280,
+          1150
+        ],
+        "sha256": "4f85c79346147aabb7e0b70c692276ecc757c960365d15311561894ede1bf35c"
+      },
+      {
+        "path": "preview/south.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "37203d21d81a3aa75191d59ebee84c55f510488e49fb45f680cdc550d1e5822e"
+      },
+      {
+        "path": "preview/west.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "895683a236f2374f3047662d50ca6fb7a42ff11fc45da2b2b7d64d9174fcc125"
+      },
+      {
+        "path": "out/preview.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "04544a82fe8e244f1638e8a5c51507ac4633f1f36e76c5c8546f276839b8ee92"
+      }
+    ]
+  },
+  "reproducibility": {
+    "status": "PASS",
+    "report": "qa/reproducibility.json"
+  },
+  "integration": {
+    "status": "STANDALONE_CANDIDATE_NOT_REGISTERED",
+    "id_is_provisional": true,
+    "assigned_slot": null,
+    "deployed": false,
+    "coordinator_thread": "01a19758-b0e5-75c2-822a-4860527a1e8b",
+    "requires_coordinator_acceptance": true
+  },
+  "gameplay": {
+    "merchant_entities": 0,
+    "trade_logic": false,
+    "reward_logic": false,
+    "loot_tables": 0,
+    "inventory_items": 0
+  },
+  "limitations": [
+    "Independent structure candidate only; no registered FT catalog ID/slot, core source edit or deployment.",
+    "No full modpack client, multiplayer, FPS, player screenshot or trade/reward verification.",
+    "No live-world clearing, hallway, occupancy refusal, idempotence or persistence test; coordinator must validate integration.",
+    "Soul-fire visual uses safe soul lanterns; lava visual uses sealed magma and safe full-block shroomlight floor.",
+    "Software render uses native models/textures with approximate skull appearance and transparency; no native lighting."
+  ],
+  "provenance": {
+    "copied_utilities_from": "D:/ft工程文件/FT地牢_补给商店_独立交付_20261102",
+    "source_project_modified": false,
+    "nbtio_sha256": "3b1d85f5e032fba12287355b2f9616d8ad5505ae6c7ea97cc06ca74067a34586",
+    "source_styles_md_note": "Mentioned by source README but file absent; source files left untouched."
+  }
+}

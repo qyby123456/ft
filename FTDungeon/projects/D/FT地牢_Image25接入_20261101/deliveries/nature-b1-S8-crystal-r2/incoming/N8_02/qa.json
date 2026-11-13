@@ -1,0 +1,94 @@
+{
+  "id": "N8_02",
+  "status": "PASS",
+  "checks": [
+    "1.20.1 dimensions and DataVersion",
+    "NBT SHA256",
+    "all positions in bounds",
+    "complete roof over footprint",
+    "dry supported 3x3 opening",
+    "empty containers",
+    "entrance to safe point",
+    "lever support and direct output adjacency",
+    "no fluids, hazards or forbidden blocks",
+    "no spawned entities",
+    "reachable north connection",
+    "reachable south connection",
+    "route target entrance-north",
+    "route target exit-south",
+    "route target left-gate",
+    "route target right-gate",
+    "route target safe-point",
+    "unique block positions",
+    "vanilla control components"
+  ],
+  "reachable_floor_positions": 104,
+  "reachable_height_levels": [
+    1
+  ],
+  "verified_route_targets": [
+    {
+      "label": "safe-point",
+      "position": [
+        6,
+        1,
+        2
+      ]
+    },
+    {
+      "label": "right-gate",
+      "position": [
+        10,
+        1,
+        4
+      ]
+    },
+    {
+      "label": "left-gate",
+      "position": [
+        2,
+        1,
+        8
+      ]
+    },
+    {
+      "label": "entrance-north",
+      "position": [
+        6,
+        1,
+        0
+      ]
+    },
+    {
+      "label": "exit-south",
+      "position": [
+        6,
+        1,
+        12
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "label": "lens-test",
+      "input": [
+        10,
+        2,
+        6
+      ],
+      "output": [
+        10,
+        1,
+        6
+      ],
+      "kind": "independent-lamp-test",
+      "locks_route": false
+    }
+  ],
+  "mechanism_ticks": "NOT_RUN",
+  "sha256": "7dc2c25b8f5763867fc1628a5ff6792770f26d053b239e694e5d5a1ac8fcb1d4",
+  "nbt_blocks": 1352,
+  "solid_and_detail_blocks": 670,
+  "world_placement": "NOT_RUN",
+  "gameplay": "NOT_RUN"
+}

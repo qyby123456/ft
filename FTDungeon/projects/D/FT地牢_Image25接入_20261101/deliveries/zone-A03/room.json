@@ -1,0 +1,141 @@
+{
+  "id": "A03",
+  "name": "荒废厨房",
+  "category": "abandoned",
+  "size": [
+    19,
+    11,
+    19
+  ],
+  "entrance": [
+    9,
+    1,
+    0
+  ],
+  "interior": [
+    9,
+    1,
+    4
+  ],
+  "facing": "north",
+  "sha256": "99e2c33ebf29feb673fc6677c027a73fe7f7d158102eb37a7a9abdc612666c67",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/abandoned/A03-abandoned-derelict-kitchen.png",
+  "reference_sha256": "413f30992df8f88ee93bdffd0c1ada33f1e33d0ccc4a47e1186f45fa5ded37b5",
+  "minecraft": "1.20.1",
+  "dataVersion": 3465,
+  "opening": {
+    "min": [
+      8,
+      1,
+      0
+    ],
+    "max": [
+      10,
+      4,
+      0
+    ],
+    "width": 3,
+    "height": 4,
+    "feet_y": 1,
+    "floor_y": 0
+  },
+  "approach": {
+    "min": [
+      8,
+      1,
+      0
+    ],
+    "max": [
+      10,
+      3,
+      6
+    ],
+    "width": 3,
+    "min_clear_height": 3
+  },
+  "inspection_points": [
+    [
+      9,
+      1,
+      0
+    ],
+    [
+      9,
+      1,
+      4
+    ],
+    [
+      5,
+      1,
+      9
+    ],
+    [
+      5,
+      1,
+      11
+    ],
+    [
+      9,
+      1,
+      6
+    ],
+    [
+      14,
+      1,
+      10
+    ],
+    [
+      14,
+      1,
+      14
+    ],
+    [
+      9,
+      1,
+      15
+    ]
+  ],
+  "roof": {
+    "plane_y": 9,
+    "complete": true,
+    "cutaway_display_only": true
+  },
+  "contents": {
+    "barrels": 3,
+    "furnace": 1,
+    "cold_campfire": 1,
+    "cauldrons": 2,
+    "hanging_lanterns": 5,
+    "hanging_utensil_analogues": 3,
+    "inventories_empty": true,
+    "loot_tables": false
+  },
+  "reference_features": [
+    "灰色老化石砖与苔痕",
+    "石砌壁炉与烟囱",
+    "中央四脚木长桌与矮凳",
+    "两侧木柜架和空储物桶",
+    "壁挂锅具与暖色链灯",
+    "高处蛛网、旧布和枯盆栽"
+  ],
+  "safe_adaptations": [
+    "补齐完整石屋顶",
+    "北侧中央三格宽四格高入口",
+    "入口至安全点三格宽净空",
+    "冷营火与熄灭熔炉保持无伤害状态",
+    "锅具以梁下砂轮表现，家具和吊挂均有支撑",
+    "仅三个空木桶，无战利品"
+  ],
+  "deployment": {
+    "authorized": false,
+    "deployed": false,
+    "target": "independent review only",
+    "integration_required": [
+      "validate full cuboid including explicit air and approach",
+      "reject occupancy/liquids/entities/boundary conflicts",
+      "persistent idempotent per-room marker",
+      "rotate room metadata with the same StructureTemplate origin transform"
+    ]
+  },
+  "coordinate_note": "Relative XYZ, entrance and interior use player feet positions. North is z=0. Explicit air never grants permission to clear occupied world space."
+}

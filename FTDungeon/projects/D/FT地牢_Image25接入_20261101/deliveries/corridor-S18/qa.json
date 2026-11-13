@@ -1,0 +1,205 @@
+{
+  "id": "CORRIDOR_S18",
+  "design_id": "S18",
+  "status": "PASS",
+  "delivery_state": "READY_FOR_UNIFIED_INTAKE",
+  "sha256": "c30bdd7df8c209e3544e384ee88bc208cafa55523ceb516844f7c55d2e46a03f",
+  "reference_sha256": "90f93164051207db586026e4c3b910809ba98e07acfc3529de12e5436f921e9f",
+  "size": [
+    15,
+    11,
+    16
+  ],
+  "entrance": [
+    7,
+    3,
+    0
+  ],
+  "interior": [
+    7,
+    3,
+    2
+  ],
+  "exit": [
+    7,
+    3,
+    15
+  ],
+  "static_qa": {
+    "status": "PASS",
+    "file": "qa/static-qa.json",
+    "checks": 15
+  },
+  "four_view_review": {
+    "status": "PASS",
+    "file": "qa/visual-review.json",
+    "interior": "preview/interior-four-views.png",
+    "exterior": "preview/exterior-four-views.png"
+  },
+  "forge_native": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "directions": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "records_per_direction": 2640,
+    "ticks_per_direction": 400,
+    "checkpoints": [
+      0,
+      40,
+      120,
+      400
+    ],
+    "reachable_positions": [
+      56,
+      56,
+      56,
+      56
+    ],
+    "log": "qa/forge-gametest.log"
+  },
+  "liquid_safety": {
+    "status": "PASS",
+    "lava": 12,
+    "water": 48,
+    "explicit_fluid_tick_scheduling": true,
+    "full_cube_lava_enclosures": true,
+    "water_floor_and_sides": true,
+    "dry_route": "3x16 blocks with 3-block headroom",
+    "leaks_in_exterior_halo": 0,
+    "state_changes": 0
+  },
+  "images": [
+    {
+      "file": "preview.png",
+      "sha256": "e48b1d12bc9fe6ac60208c1d7874f279411514bac93b817b9387f7052c9b5ae2",
+      "size": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "file": "preview/exterior-east.png",
+      "sha256": "2f04068517374656b87108c7e4b2e12a3bdc7674ae335597c900b980227f25ac",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "preview/exterior-four-views.png",
+      "sha256": "094bf19a2aa154f42b5171b3bef3a27adb4e366c261b660661583a61a7f67d85",
+      "size": [
+        2400,
+        1800
+      ]
+    },
+    {
+      "file": "preview/exterior-north.png",
+      "sha256": "a57136619baa04f5c7306b01a7f34cc41cdde76584b3cd8696744782b862f316",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "preview/exterior-south.png",
+      "sha256": "1573784a422a0c06d2de12f01debe30acb474a1769588263c709445f8d0c4e66",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "preview/exterior-west.png",
+      "sha256": "3d72257bc323a9d927d0dbf40193699b4a2e64c47f9a3695cc2e9876f05d5b7f",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "preview/floorplan.png",
+      "sha256": "ad4ac990c53c40cb8b83ec0c1c3c401e1f84e4995358a0c68814bda03552e5b6",
+      "size": [
+        1100,
+        1070
+      ]
+    },
+    {
+      "file": "preview/interior-east.png",
+      "sha256": "075bc269c23f8b39c2dbfcbd79a3504a513e795434aa565c47230c0d11d012a3",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "preview/interior-four-views.png",
+      "sha256": "5c344cc8b7d3eef3309ac13de488a8adea4392a327a8dba8a6b390de8f7e160b",
+      "size": [
+        2400,
+        1800
+      ]
+    },
+    {
+      "file": "preview/interior-north.png",
+      "sha256": "1e6bcac80433094ffd8a6be3799d2c4e190f1be81fbbe83305f6a078cf1efe33",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "preview/interior-south.png",
+      "sha256": "ac3845deb30f8a22e86ed9b076e379480b0d7f7031801d8581e7ef3d5d8fbbd3",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "preview/interior-west.png",
+      "sha256": "d8ae0e5cd8f51dbdfc3621bb67cc4b8407bf1d79b8de4ad1128e4278ba21bf64",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "preview/lodestone-exterior.png",
+      "sha256": "11858427c90897e8c8e6555e638b54bfcfaaa49e326bab820e45476ac8aad6b9",
+      "size": [
+        1400,
+        950
+      ]
+    },
+    {
+      "file": "preview/lodestone-interior-north.png",
+      "sha256": "0b762b45524e92cc848dfd0e4809ce1b59e1de9eea0defd809bc0ebf6ce71dfd",
+      "size": [
+        1400,
+        950
+      ]
+    }
+  ],
+  "scope": {
+    "deployment": false,
+    "player_saves_touched": false,
+    "modpack_files_changed": false,
+    "global_slot_assigned": false,
+    "entities": 0,
+    "block_entities": 0,
+    "containers": 0,
+    "reward_inventory": false
+  },
+  "limits": "Final NBT based software imagery and isolated vanilla+Forge placement/physics verification. Full modpack client, integrated corridor connections and live player-world play remain untested.",
+  "revision_notes": [
+    "Initial endpoint bars changed connections under native neighbor updates; retained failure evidence and moved bar strips one block inward with stone jambs.",
+    "Visual review closed the upper endwall slot and both arch-to-roof corner gaps; final four-direction tests were rerun against this exact SHA-256."
+  ]
+}

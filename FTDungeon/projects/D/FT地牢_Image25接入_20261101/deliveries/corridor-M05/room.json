@@ -1,0 +1,225 @@
+{
+  "id": "corridor-M05",
+  "design_id": "M05",
+  "name": "M05 灰石铁狱直廊",
+  "size": [
+    19,
+    12,
+    40
+  ],
+  "entrance": [
+    9,
+    2,
+    0
+  ],
+  "interior": [
+    9,
+    2,
+    3
+  ],
+  "exit": [
+    9,
+    2,
+    39
+  ],
+  "facing": "north",
+  "sha256": "bf0496511a4076c541dcd7b1b1001a98179317636c608ef275c9bb2473f452d7",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M05-prison-cells-intact.png",
+  "reference_sha256": "40b8d7e4dd5dffbfcbfff257e9ba5e7235bdfb4d57d356d24de76bb21671c8ca",
+  "length_class": "medium",
+  "length_blocks": 40,
+  "length_chunks": 2.5,
+  "axis": "z",
+  "connection_points": [
+    {
+      "side": "north",
+      "position": [
+        9,
+        2,
+        0
+      ]
+    },
+    {
+      "side": "south",
+      "position": [
+        9,
+        2,
+        39
+      ]
+    }
+  ],
+  "clear_main_route": {
+    "xRange": [
+      7,
+      11
+    ],
+    "feetY": 2,
+    "zRange": [
+      0,
+      39
+    ],
+    "minimumHeight": 3
+  },
+  "cells": [
+    {
+      "side": "west",
+      "bay": 1,
+      "frontX": 5,
+      "zRange": [
+        3,
+        8
+      ],
+      "door": [
+        5,
+        2,
+        5
+      ],
+      "accessibleFromMainRoute": false
+    },
+    {
+      "side": "east",
+      "bay": 1,
+      "frontX": 13,
+      "zRange": [
+        3,
+        8
+      ],
+      "door": [
+        13,
+        2,
+        5
+      ],
+      "accessibleFromMainRoute": false
+    },
+    {
+      "side": "west",
+      "bay": 2,
+      "frontX": 5,
+      "zRange": [
+        10,
+        15
+      ],
+      "door": [
+        5,
+        2,
+        12
+      ],
+      "accessibleFromMainRoute": false
+    },
+    {
+      "side": "east",
+      "bay": 2,
+      "frontX": 13,
+      "zRange": [
+        10,
+        15
+      ],
+      "door": [
+        13,
+        2,
+        12
+      ],
+      "accessibleFromMainRoute": false
+    },
+    {
+      "side": "west",
+      "bay": 3,
+      "frontX": 5,
+      "zRange": [
+        17,
+        22
+      ],
+      "door": [
+        5,
+        2,
+        19
+      ],
+      "accessibleFromMainRoute": false
+    },
+    {
+      "side": "east",
+      "bay": 3,
+      "frontX": 13,
+      "zRange": [
+        17,
+        22
+      ],
+      "door": [
+        13,
+        2,
+        19
+      ],
+      "accessibleFromMainRoute": false
+    },
+    {
+      "side": "west",
+      "bay": 4,
+      "frontX": 5,
+      "zRange": [
+        24,
+        29
+      ],
+      "door": [
+        5,
+        2,
+        26
+      ],
+      "accessibleFromMainRoute": false
+    },
+    {
+      "side": "east",
+      "bay": 4,
+      "frontX": 13,
+      "zRange": [
+        24,
+        29
+      ],
+      "door": [
+        13,
+        2,
+        26
+      ],
+      "accessibleFromMainRoute": false
+    },
+    {
+      "side": "west",
+      "bay": 5,
+      "frontX": 5,
+      "zRange": [
+        31,
+        36
+      ],
+      "door": [
+        5,
+        2,
+        33
+      ],
+      "accessibleFromMainRoute": false
+    },
+    {
+      "side": "east",
+      "bay": 5,
+      "frontX": 13,
+      "zRange": [
+        31,
+        36
+      ],
+      "door": [
+        13,
+        2,
+        33
+      ],
+      "accessibleFromMainRoute": false
+    }
+  ],
+  "adaptations": [
+    "Safe orange-glass-covered shroomlight replaces exposed lava glow; no fluid or fire.",
+    "Ten closed side cells are decorative recesses, not branches.",
+    "Stepped corbels evoke the reference arches while preserving an intact supported shell."
+  ],
+  "data_version": 3465,
+  "minecraft": "1.20.1",
+  "palette_count": 27,
+  "placement_requires_empty_volume": true,
+  "deployment_status": "NOT_DEPLOYED"
+}

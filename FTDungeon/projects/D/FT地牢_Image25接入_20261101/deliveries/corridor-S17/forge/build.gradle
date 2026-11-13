@@ -1,0 +1,26 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+group = 'net.farmingtales.verification'
+version = '1.0'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        gameTestServer {
+            workingDirectory project.file(System.getProperty('s17qa.runDir', 'run-isolated'))
+            property 'forge.enabledGameTestNamespaces', 'fts17qa'
+            property 's17qa.root', projectDir.parentFile.absolutePath
+            jvmArgs '-Xms128M', '-Xmx1024M', '-XX:ActiveProcessorCount=2'
+            mods {
+                fts17qa { source sourceSets.main }
+            }
+        }
+    }
+}
+
+repositories { mavenCentral() }
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

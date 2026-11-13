@@ -1,0 +1,44 @@
+{
+  "id": "corridor-S09",
+  "status": "PASS",
+  "sha256": "c03ecabc108e734e0c7d61e6c6b57b0cc1496fabb57e7db141423f0386df6025",
+  "reference_sha256": "eeb80b6a2cf8e64e3ec92740ed43119b714b7b9e72d671c339484cfd886d6c26",
+  "size": [
+    11,
+    9,
+    16
+  ],
+  "static_qa": {
+    "status": "PASS",
+    "path": "qa/static.json"
+  },
+  "four_direction_interior_and_exterior_views": {
+    "status": "PASS",
+    "count": 8,
+    "manifest": "views/manifest.json",
+    "review": "qa/visual-review.json"
+  },
+  "forge_native_placement_stability": {
+    "status": "PASS",
+    "rotations": 4,
+    "ticks": 240,
+    "path": "qa/forge-native.json",
+    "log": "qa/forge-run.log"
+  },
+  "preview": {
+    "path": "preview.png",
+    "sha256": "b9d43225a4e6f796acc1929f4bb8fd58e8ff2d181104053f93a553a9db91b632",
+    "kind": "software render of final NBT, not a game screenshot or AI image"
+  },
+  "route": "3 wide x 3 high x 16 long; north entrance to south exit; no cobweb/fire/liquid crossing",
+  "ready_for_independent_integration_review": true,
+  "slot_assigned": false,
+  "deployed": false,
+  "player_saves_modified": false,
+  "production_jar_modified": false,
+  "full_modpack_client_tested": false,
+  "limits": [
+    "Forge evidence is an isolated 1.20.1/47.4.10 GameTest, not full-modpack client/FPS/multiplayer acceptance.",
+    "No core catalog, permanent location, hall connector or gameplay logic added."
+  ]
+}

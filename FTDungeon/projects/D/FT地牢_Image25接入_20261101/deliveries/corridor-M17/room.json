@@ -1,0 +1,83 @@
+{
+  "id": "M17",
+  "batch": "dungeon-corridors-20261103",
+  "kind": "straight_medium_corridor",
+  "name": "紫晶浅水拱廊",
+  "size": [
+    17,
+    13,
+    41
+  ],
+  "entrance": [
+    8,
+    3,
+    0
+  ],
+  "interior": [
+    8,
+    3,
+    3
+  ],
+  "exit": [
+    8,
+    3,
+    40
+  ],
+  "exit_interior": [
+    8,
+    3,
+    37
+  ],
+  "facing": "north",
+  "exit_facing": "south",
+  "sha256": "cd21edb25d954b99102b6b6fa72b84b6ddbd8a43284e9b1e1a553cca9fbce36f",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\M17-crystal-cave-flooded.png",
+  "reference_sha256": "29a6f9575aae21c6ea8f5863b62cde1aa63e7de9d9273248d82e51ff0325bf50",
+  "minecraft_version": "1.20.1",
+  "data_version": 3465,
+  "generator": "minecraft-builder-skill / Lodestone 0.6.0",
+  "route": {
+    "axis": "+Z",
+    "width": 5,
+    "x_inclusive": [
+      6,
+      10
+    ],
+    "feet_y": 3,
+    "floor_y": 2,
+    "headroom_min": 5,
+    "length_blocks": 41,
+    "length_chunks": 2.5625,
+    "stairs": false,
+    "branches": false,
+    "dry": true
+  },
+  "liquids": {
+    "water_y": 2,
+    "water_depth_blocks": 1,
+    "water_sources": 174,
+    "lava_sources": 30,
+    "lava_glazed": true,
+    "source_only": true,
+    "water_sealed_from_ports": true
+  },
+  "containers": 0,
+  "entities": 0,
+  "block_entities": 0,
+  "full_volume_air_explicit": true,
+  "design_adaptations": [
+    "保留灰石紫晶、浅水、六道拱、苔痕与橙色熔岩壁光。",
+    "参考图中心浸水改为五格宽等高干燥石脊，两侧为一格深浅水，保证双向步行。",
+    "裸露熔岩改为完整玻璃封闭的壁内竖槽，底、顶、两端与背面均密封。",
+    "原版紫晶不产生紫色动态光；使用紫晶、紫玻璃与珠光蛙明灯表现，不承诺光影包反射。",
+    "破损以裂纹、侵蚀和苔石表现，拱券仍与墙顶连续连接。"
+  ],
+  "integration": {
+    "deployed": false,
+    "player_worlds_modified": false,
+    "global_slot_assigned": false,
+    "overwrite_policy": "Integration must reject occupied complete volume including explicit air; never clear a player world unconditionally.",
+    "port_floor_top_y": 3,
+    "require_connector_feet_y": 3
+  }
+}

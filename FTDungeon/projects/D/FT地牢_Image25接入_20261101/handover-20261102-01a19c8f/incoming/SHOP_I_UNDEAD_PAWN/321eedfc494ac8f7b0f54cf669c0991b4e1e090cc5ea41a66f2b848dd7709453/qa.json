@@ -1,0 +1,79 @@
+{
+  "status": "PASS_STANDALONE_CANDIDATE",
+  "generated_at": "2026-11-02T10:41:19+08:00",
+  "room_id": "SHOP_I_UNDEAD_PAWN",
+  "variant": "I",
+  "structure_sha256": "321eedfc494ac8f7b0f54cf669c0991b4e1e090cc5ea41a66f2b848dd7709453",
+  "design_sha256": "0476c4fbf32422720ff0a91fd80ff8baa64e2514ae3f01d28499cfb67b29d6e9",
+  "size": [
+    13,
+    8,
+    11
+  ],
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "java": "17.0.8",
+  "checks": {
+    "static_layout_empty_inventory_supports": true,
+    "forge_registry_states_block_entities_roundtrip": true,
+    "native_four_rotations_100_tick_stability": true,
+    "native_collision_survival_anchor_faces_guards": true,
+    "native_negative_support_and_collision_probes": true,
+    "native_none_capture_equals_all_source_states": true,
+    "all_four_capture_fingerprints_verified": true,
+    "actual_nbt_four_view_visual_review": true,
+    "deterministic_rebuild": true
+  },
+  "native_records": 4576,
+  "native_rotations": 4,
+  "stabilization_ticks": 100,
+  "block_entities_per_rotation": 16,
+  "reachable_foot_positions_per_rotation": [
+    61,
+    61,
+    61,
+    61
+  ],
+  "preplaced_entities": 0,
+  "reward_inventory_entries": 0,
+  "trade_logic_added": false,
+  "evidence": {
+    "static": "qa/static.json",
+    "native": "qa/native.json",
+    "native_log": "qa/forge-gametest.log",
+    "world_captures": [
+      {
+        "file": "qa\\native-placed-none.nbt",
+        "sha256": "17d7f8a4b8468cba23004bfa0f802b1af6ae61dc4d48e2006efc0d2620f322dd"
+      },
+      {
+        "file": "qa\\native-placed-clockwise_90.nbt",
+        "sha256": "4e3ba6071de0c2f5b60a9608ffd80f76f267eefc1a2bf509a6ba44e299525b6e"
+      },
+      {
+        "file": "qa\\native-placed-clockwise_180.nbt",
+        "sha256": "d735a826f2dfc0860340a32304f58a5e228f9eb656ac7f3756bbfe54a1474feb"
+      },
+      {
+        "file": "qa\\native-placed-counterclockwise_90.nbt",
+        "sha256": "09555138b2d26ffa9a1719992494daf222e9b1b4b541039b6e2e9258ab6a8d9d"
+      }
+    ],
+    "render": "qa/render-manifest.json",
+    "visual": "qa/visual-review.json",
+    "reproducibility": "qa/reproducibility.json"
+  },
+  "integration": {
+    "status": "STANDALONE_CANDIDATE_NOT_REGISTERED",
+    "id_is_provisional": true,
+    "assigned_slot": null,
+    "deployed": false,
+    "requires_coordinator_acceptance": true
+  },
+  "limitations": [
+    "No formal catalog ID/slot assignment, FT gallery route, core idempotence/persistence or production JAR deployment tested.",
+    "No full FarmingTales client, actual player screenshot, multiplayer, FPS or functional trade validation.",
+    "Software previews use actual NBT states with documented cutaway and approximate block-entity appearances; they are not gameplay screenshots.",
+    "Soul campfires remain damaging if a player deliberately climbs or dismantles guards; the ground-level entry, safe point and circulation do not traverse them."
+  ]
+}

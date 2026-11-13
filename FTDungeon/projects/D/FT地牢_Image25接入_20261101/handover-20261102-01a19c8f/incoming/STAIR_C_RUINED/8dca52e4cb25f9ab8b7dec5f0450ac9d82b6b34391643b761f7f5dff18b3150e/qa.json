@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "id": "STAIR_C_RUINED",
+  "room_sha256": "8dca52e4cb25f9ab8b7dec5f0450ac9d82b6b34391643b761f7f5dff18b3150e",
+  "reference_sha256": "88c6aa37c0987bac1df530c263e96a0424528e3f51b3797b1c18ab5fb491fab5",
+  "size": [
+    23,
+    18,
+    25
+  ],
+  "verified_at": "2026-11-02T13:03:00.786820+08:00",
+  "static": {
+    "status": "PASS",
+    "checks": 36,
+    "report": "qa/static.json"
+  },
+  "native": {
+    "status": "PASS",
+    "rotations": 4,
+    "stabilization_ticks": 100,
+    "records_after_ticks": 41400,
+    "negative_probes": 24,
+    "report": "qa/native.json",
+    "log": "qa/forge-gametest.log"
+  },
+  "reproducibility": {
+    "status": "PASS",
+    "report": "qa/reproducibility.json"
+  },
+  "visual": {
+    "status": "PASS",
+    "report": "qa/visual-review.json",
+    "software_render_only": true
+  },
+  "entrance": [
+    11,
+    6,
+    0
+  ],
+  "interfaces": [
+    {
+      "name": "main",
+      "feet": [
+        11,
+        6,
+        0
+      ],
+      "interior": [
+        11,
+        6,
+        4
+      ],
+      "facing": "north",
+      "width": 3,
+      "height": 3
+    },
+    {
+      "name": "upper",
+      "feet": [
+        11,
+        12,
+        24
+      ],
+      "interior": [
+        11,
+        12,
+        20
+      ],
+      "facing": "south",
+      "width": 3,
+      "height": 3
+    },
+    {
+      "name": "lower",
+      "feet": [
+        11,
+        1,
+        24
+      ],
+      "interior": [
+        11,
+        1,
+        20
+      ],
+      "facing": "south",
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "deployed": false,
+  "ft_core_modified": false,
+  "player_saves_opened": false,
+  "assigned_slot": null,
+  "limitations": [
+    "Independent candidate only; no core catalog, fixed slot, connecting roads or native FT lifecycle tests.",
+    "Local main entrance Y=6, upper exit Y=12, lower exit Y=1: receiving installer must respect these offsets.",
+    "No full-modpack client screenshot, live player input, multiplayer or FPS acceptance.",
+    "Source upper break is translated into two missing columns plus a preserved three-wide side lane; blue breach is sealed glass.",
+    "Sky fixtures use shape-safe native placement and then normal neighbor updates; earlier ground fixtures saw unrelated mineshaft/terrain drops, archived locally rather than presented as passing evidence."
+  ]
+}

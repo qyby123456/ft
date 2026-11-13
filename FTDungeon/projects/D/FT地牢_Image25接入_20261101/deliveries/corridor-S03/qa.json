@@ -1,0 +1,59 @@
+{
+  "id": "corridor-S03",
+  "status": "PASS",
+  "nbt_sha256": "38d93630e08fa87d7c2ac7390d5bc4033d60febc7f565e49caa094abca5405f5",
+  "reference_sha256": "f33bb90a2418cf5d68bc2bc894e9931af8d3d54a6cb8285f7b3c30d9c8e3e1d2",
+  "size": [
+    11,
+    10,
+    16
+  ],
+  "length_blocks": 16,
+  "records": 1760,
+  "non_air_blocks": 1181,
+  "native_palette_states": 26,
+  "checks": {
+    "static": "PASS",
+    "four_view_visual_review": "PASS",
+    "native_1_20_1_registry_properties_and_roundtrip": "PASS",
+    "forge_47_4_10_actual_placement_four_rotations": "PASS",
+    "native_block_survival": "PASS",
+    "three_wide_player_collision_route_both_directions": "PASS",
+    "complete_floor_and_roof": "PASS",
+    "post_neighbor_updates_and_200_ticks": "PASS",
+    "four_explicit_vine_random_tick_sweeps": "PASS",
+    "initially_empty_fixture_restoration": "PASS",
+    "reference_fingerprint": "PASS"
+  },
+  "evidence": {
+    "static-qa": "qa/static-qa.json",
+    "native-registry-qa": "qa/native-registry-qa.json",
+    "native-world-qa": "qa/native-world-qa.json",
+    "preview-provenance": "qa/preview-provenance.json",
+    "visual-review": "qa/visual-review.json"
+  },
+  "visuals": {
+    "preview": "preview.png",
+    "four_views": "qa/four-views.png",
+    "raw_views": "qa/views/"
+  },
+  "native_log": "qa/forge-gametest.log",
+  "stability_ticks": 200,
+  "rotations": [
+    "NONE",
+    "CLOCKWISE_90",
+    "CLOCKWISE_180",
+    "COUNTERCLOCKWISE_90"
+  ],
+  "vine_growth_note": "原生随机刻允许藤蔓自然生长或面状态更新；四方向分别有1/4/3/6处自然变化，无结构方块损失或改动。每次复测变化数可不同。",
+  "scope_limits": [
+    "软件 WebGL 四视图不是 Minecraft 客户端截图。",
+    "Forge 原生隔离 GameTest 不是完整整合包客户端、多人与性能验收。",
+    "未接入 FT 路网、未修改核心源码、未部署模组、未访问玩家存档。",
+    "模板含显式空气；此 QA 不提供生产覆盖权限，接入前必须拒绝整块体积的占用、流体与实体。"
+  ],
+  "player_worlds_opened": false,
+  "production_integration_tested": false,
+  "client_gameplay_tested": false,
+  "deployed": false
+}

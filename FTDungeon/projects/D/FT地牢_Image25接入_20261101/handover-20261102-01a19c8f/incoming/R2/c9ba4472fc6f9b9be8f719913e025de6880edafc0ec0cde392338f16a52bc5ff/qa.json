@@ -1,0 +1,114 @@
+{
+  "id": "R2",
+  "name": "废弃厨房食堂",
+  "status": "PASS",
+  "sha256": "c9ba4472fc6f9b9be8f719913e025de6880edafc0ec0cde392338f16a52bc5ff",
+  "size": [
+    15,
+    9,
+    15
+  ],
+  "entrance": [
+    7,
+    1,
+    0
+  ],
+  "interior": [
+    7,
+    1,
+    3
+  ],
+  "reference_sha256": "8dab754ca881b61b789b78e3cfe09f12f26f6be4bbc56ea583f298cdb244865d",
+  "static_checks": 82,
+  "static_reachable_feet": 106,
+  "native_rotations": [
+    {
+      "supported_furniture_cells": 42,
+      "states_preserved": 2025,
+      "inventory_items": 0,
+      "supported_herbs": 4,
+      "anchored_chains": 5,
+      "rotation": "NONE",
+      "collision_reachable_feet": 106,
+      "stone_enclosed_campfire": 1,
+      "native_block_entities": 7,
+      "supported_hanging_lanterns": 2
+    },
+    {
+      "supported_furniture_cells": 42,
+      "states_preserved": 2025,
+      "inventory_items": 0,
+      "supported_herbs": 4,
+      "anchored_chains": 5,
+      "rotation": "CLOCKWISE_90",
+      "collision_reachable_feet": 106,
+      "stone_enclosed_campfire": 1,
+      "native_block_entities": 7,
+      "supported_hanging_lanterns": 2
+    },
+    {
+      "supported_furniture_cells": 42,
+      "states_preserved": 2025,
+      "inventory_items": 0,
+      "supported_herbs": 4,
+      "anchored_chains": 5,
+      "rotation": "CLOCKWISE_180",
+      "collision_reachable_feet": 106,
+      "stone_enclosed_campfire": 1,
+      "native_block_entities": 7,
+      "supported_hanging_lanterns": 2
+    },
+    {
+      "supported_furniture_cells": 42,
+      "states_preserved": 2025,
+      "inventory_items": 0,
+      "supported_herbs": 4,
+      "anchored_chains": 5,
+      "rotation": "COUNTERCLOCKWISE_90",
+      "collision_reachable_feet": 106,
+      "stone_enclosed_campfire": 1,
+      "native_block_entities": 7,
+      "supported_hanging_lanterns": 2
+    }
+  ],
+  "ticks_observed": 240,
+  "forced_neighbor_and_shape_updates": true,
+  "full_floor_and_roof": true,
+  "north_3x3_interface": true,
+  "central_3x3_aisle": true,
+  "native_capture_comparison": "PASS: four rotations, all 8100 world states, 28 empty block entities",
+  "inventory_items": 0,
+  "loot_tables": 0,
+  "dropped_items": 0,
+  "fire_spread": false,
+  "free_fluids": 0,
+  "client_visual_tested": false,
+  "deployed": false,
+  "evidence": [
+    "qa/static.json",
+    "qa/forge-native.json",
+    "qa/forge-run.log",
+    "qa/native-capture-comparison.json",
+    "qa/render.json",
+    "qa/visual-review.json",
+    "preview/four-views.png",
+    "preview/exterior.png",
+    "preview/plan.png",
+    "preview/native-world.png"
+  ],
+  "limitations": [
+    "Not a full modpack client or multiplayer play test",
+    "Campfire does not spread fire in vanilla; no loose fire or lava was used",
+    "No FT core catalog, world connections or production deployment",
+    "Software projection is not a Minecraft client screenshot.",
+    "No emitted-light simulation, fire animation or smoke particles; animated textures use their first frame.",
+    "Foliage has approximate vanilla green tint; no resource-pack/shader validation.",
+    "Only the rendered copy removes the roof and near exterior wall layers; the delivered NBT retains them."
+  ],
+  "integration_required": [
+    "Register unique R2 template and persistent generation marker.",
+    "Create a walkable connector from the FT hall to the north interface.",
+    "Reject occupied/liquid/entity-bearing destinations across the entire volume, including recorded air.",
+    "Do not regenerate existing rooms, clear player worlds, or hot-replace a running production JAR."
+  ]
+}

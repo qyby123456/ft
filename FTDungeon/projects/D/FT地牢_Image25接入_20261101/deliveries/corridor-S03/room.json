@@ -1,0 +1,79 @@
+{
+  "id": "corridor-S03",
+  "reference_id": "S03",
+  "name": "蔓生废墟·魂灯吊笼短廊",
+  "category": "corridor",
+  "kind": "short",
+  "size": [
+    11,
+    10,
+    16
+  ],
+  "entrance": [
+    5,
+    1,
+    0
+  ],
+  "interior": [
+    5,
+    1,
+    2
+  ],
+  "exit": [
+    5,
+    1,
+    15
+  ],
+  "exit_interior": [
+    5,
+    1,
+    13
+  ],
+  "facing": "north",
+  "axis": "+Z",
+  "length_blocks": 16,
+  "clear_lane": {
+    "x": [
+      4,
+      6
+    ],
+    "feet_y": 1,
+    "clear_height": 3,
+    "z": [
+      0,
+      15
+    ]
+  },
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        5,
+        1,
+        0
+      ],
+      "opening_width": 5,
+      "opening_height": 4
+    },
+    {
+      "side": "south",
+      "feet": [
+        5,
+        1,
+        15
+      ],
+      "opening_width": 5,
+      "opening_height": 4
+    }
+  ],
+  "sha256": "38d93630e08fa87d7c2ac7390d5bc4033d60febc7f565e49caa094abca5405f5",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\S03-overgrown-ruins-overgrown.png",
+  "reference_sha256": "f33bb90a2418cf5d68bc2bc894e9931af8d3d54a6cb8285f7b3c30d9c8e3e1d2",
+  "data_version": 3465,
+  "minecraft_version": "1.20.1",
+  "entities": 0,
+  "block_entities": 0,
+  "deployment": "independent_only_not_deployed",
+  "reference_deviation": "原图尽头关闭木门改为无门开放拱口，确保一字贯通；未新增岔路或通行楼梯。",
+  "placement_note": "模板包含显式空气。接入前必须检查整个11×10×16体积及实体，拒绝占用，不得无条件覆盖或清空。"
+}

@@ -1,0 +1,193 @@
+{
+  "status": "PENDING_INDEPENDENT_REVIEW",
+  "reference": {
+    "path": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S1-mossy-forest\\out\\S1-10-overview.png",
+    "sha256": "052422469ae57f99ab5ce0a3b11f877d725d0079b9b89be750f24620c6ca7833",
+    "bytes": 3208212
+  },
+  "source_nbt": {
+    "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b10-s1-10-20261105\\nature-redo-b10-s1-10\\room.nbt",
+    "sha256": "6d77ca4a012b88665952f096e641e23d7167ffd84179726cdf5f8c2531d421f9",
+    "bytes": 151491
+  },
+  "landmarks": [
+    "Northwest small water shrine",
+    "West rectangular dining hall/table/crates",
+    "Large northeast bookshelf/gold altar hall",
+    "Small southwest red-floor chest room",
+    "Central open tree courtyard/pool",
+    "Southeast separate entry vestibule",
+    "Real north-south to east-west elbow corridor and other continuous links"
+  ],
+  "source_regions": [
+    {
+      "id": "water-shrine",
+      "name": "西北水景小室",
+      "bounds": [
+        14,
+        3,
+        29,
+        15
+      ],
+      "anchor": [
+        21,
+        2,
+        12
+      ],
+      "roof": true
+    },
+    {
+      "id": "dining",
+      "name": "西侧餐厅",
+      "bounds": [
+        3,
+        16,
+        25,
+        33
+      ],
+      "anchor": [
+        20,
+        2,
+        29
+      ],
+      "roof": true
+    },
+    {
+      "id": "great-hall",
+      "name": "东北藏书大厅",
+      "bounds": [
+        31,
+        3,
+        57,
+        27
+      ],
+      "anchor": [
+        47,
+        2,
+        20
+      ],
+      "roof": true
+    },
+    {
+      "id": "treasure",
+      "name": "西南宝藏小室",
+      "bounds": [
+        3,
+        39,
+        20,
+        53
+      ],
+      "anchor": [
+        8,
+        2,
+        46
+      ],
+      "roof": true
+    },
+    {
+      "id": "courtyard",
+      "name": "中央古树水庭",
+      "bounds": [
+        27,
+        31,
+        49,
+        49
+      ],
+      "anchor": [
+        31,
+        2,
+        46
+      ],
+      "roof": false
+    },
+    {
+      "id": "entrance",
+      "name": "东南入口门厅",
+      "bounds": [
+        43,
+        49,
+        57,
+        60
+      ],
+      "anchor": [
+        50,
+        2,
+        57
+      ],
+      "roof": true
+    },
+    {
+      "id": "east-west-corridor",
+      "name": "东西连接廊",
+      "bounds": [
+        24,
+        17,
+        34,
+        23
+      ],
+      "anchor": [
+        28,
+        2,
+        20
+      ],
+      "roof": true
+    },
+    {
+      "id": "elbow-north",
+      "name": "转角廊北段",
+      "bounds": [
+        19,
+        30,
+        25,
+        43
+      ],
+      "anchor": [
+        21,
+        2,
+        36
+      ],
+      "roof": true
+    },
+    {
+      "id": "elbow-east",
+      "name": "转角廊东段",
+      "bounds": [
+        23,
+        35,
+        33,
+        41
+      ],
+      "anchor": [
+        26,
+        2,
+        37
+      ],
+      "roof": true
+    },
+    {
+      "id": "hall-court-link",
+      "name": "大厅通庭院短廊",
+      "bounds": [
+        35,
+        25,
+        41,
+        33
+      ],
+      "anchor": [
+        38,
+        2,
+        29
+      ],
+      "roof": true
+    }
+  ],
+  "deviations": [
+    "61x13x61 single continuous source, six unequal destination rooms plus four corridor segments; not a montage or reuse of nine prior rooms.",
+    "True open central tree courtyard; other rooms and corridors fully roofed. Image cutaway represented only by explicit preview clipping.",
+    "No exterior forest/ravine/river background, loose illustrated props or shader rays. Grass foundation margin is inside source bounds.",
+    "Small water-shrine fall becomes sealed glazed source-water column. Main hall gold altar is one-block high and reached by two half-step transitions.",
+    "Two real empty chests, no loot or monsters. Entry is a permanently open arch; no doors/gates or open-only analysis.",
+    "Solid masonry/wood botanical interpretation of stone ornament and dining furniture; no gameplay runtime."
+  ],
+  "geometry_source": "Independently authored for image10; no pasted prior rooms, no preview montage."
+}

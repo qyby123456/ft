@@ -1,0 +1,101 @@
+{
+  "id": "M01",
+  "name": "狱火拱廊·完整段",
+  "kind": "medium",
+  "size": [
+    15,
+    13,
+    40
+  ],
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    3
+  ],
+  "exit": [
+    7,
+    2,
+    39
+  ],
+  "facing": "north",
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        7,
+        2,
+        0
+      ],
+      "width": 5,
+      "clear_height": 7
+    },
+    {
+      "side": "south",
+      "feet": [
+        7,
+        2,
+        39
+      ],
+      "width": 5,
+      "clear_height": 7
+    }
+  ],
+  "corridor_axis": "z",
+  "length_blocks": 40,
+  "length_chunks": 2.5,
+  "floor_y": 1,
+  "player_feet_y": 2,
+  "main_route": {
+    "min": [
+      5,
+      2,
+      0
+    ],
+    "max": [
+      9,
+      4,
+      39
+    ],
+    "width": 5,
+    "clearance_height": 3,
+    "level": true
+  },
+  "theme": "nether",
+  "condition": "intact",
+  "lighting": "paired hanging lanterns and contained lava",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M01-nether-intact.png",
+  "reference_sha256": "625157979074e1cedb8e14c9d4b8616d3a507004a759b509f6a76a20ead22be2",
+  "sha256": "ec735669a5ac8951a374457bae72b880886368fcc204feb3ebdd7fd4116f37e6",
+  "data_version": 3465,
+  "minecraft": "1.20.1",
+  "forge_verified_version": "47.4.10",
+  "nbt_air_policy": "explicit air, full 7800-cell volume; requires full-volume occupancy preflight before integration",
+  "image_interpretation": "Repeated blackstone stepped arch ribs, red Nether brick panels, dark floor borders, red central runner, paired hanging lanterns, interrupted recessed lava trenches. Broken-arches index interpreted as stepped haunches; intact shell retained.",
+  "deployment": "not_deployed",
+  "production_saves_modified": false,
+  "materials": {
+    "minecraft:blackstone": 600,
+    "minecraft:polished_blackstone_bricks": 1268,
+    "minecraft:red_nether_bricks": 1474,
+    "minecraft:chiseled_nether_bricks": 40,
+    "minecraft:nether_bricks": 632,
+    "minecraft:polished_blackstone_brick_slab": 68,
+    "minecraft:air": 3498,
+    "minecraft:chiseled_polished_blackstone": 8,
+    "minecraft:nether_brick_stairs": 80,
+    "minecraft:lantern": 10,
+    "minecraft:chain": 30,
+    "minecraft:lava": 48,
+    "minecraft:polished_blackstone_brick_stairs": 24,
+    "minecraft:polished_blackstone": 20
+  },
+  "decorative_stairs_only_above_y_7": true,
+  "build_recipe": "tools/recipe.mjs",
+  "preview": "preview.png",
+  "qa": "qa.json"
+}

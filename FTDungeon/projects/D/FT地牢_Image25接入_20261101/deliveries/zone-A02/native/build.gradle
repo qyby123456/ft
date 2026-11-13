@@ -1,0 +1,20 @@
+plugins { id 'net.minecraftforge.gradle' version '6.0.54' }
+group = 'net.farmingtales.zonea02qa'
+version = '1.0'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        gameTestServer {
+            jvmArgs "-XX:ActiveProcessorCount=2", "-Xmx1G"
+            workingDirectory project.file(project.findProperty('verificationRunDirectory') ?: '../qa/forge-run')
+            property 'forge.enabledGameTestNamespaces', 'ftzonea02qa'
+            property 'ftzonea02.project', projectDir.parentFile.absolutePath
+            mods { ftzonea02qa { source sourceSets.main } }
+        }
+    }
+}
+repositories { mavenCentral() }
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+

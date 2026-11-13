@@ -1,0 +1,184 @@
+{
+  "id": "A04",
+  "delivery_id": "zone-A04",
+  "name": "砸毁工坊",
+  "category": "abandoned",
+  "size": [
+    19,
+    11,
+    19
+  ],
+  "entrance": [
+    9,
+    1,
+    0
+  ],
+  "interior": [
+    9,
+    1,
+    3
+  ],
+  "facing": "north",
+  "floor_y": 0,
+  "player_feet_y": 1,
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        9,
+        1,
+        0
+      ],
+      "width": 3,
+      "clear_height": 3
+    }
+  ],
+  "main_route": {
+    "min": [
+      8,
+      1,
+      0
+    ],
+    "max": [
+      10,
+      3,
+      14
+    ],
+    "width": 3,
+    "clearance_height": 3,
+    "level": true
+  },
+  "interaction_points": {
+    "workbench": [
+      9,
+      1,
+      14
+    ],
+    "anvil": [
+      12,
+      1,
+      7
+    ],
+    "grindstone": [
+      7,
+      1,
+      12
+    ],
+    "west_barrel": [
+      3,
+      1,
+      13
+    ],
+    "chest": [
+      15,
+      1,
+      15
+    ],
+    "east_barrels": [
+      15,
+      1,
+      14
+    ]
+  },
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/abandoned/A04-abandoned-smashed-workshop.png",
+  "reference_sha256": "514982633d51b5b667a0edac720160ec3ae2ce16c92df65df478be0ea824f7c2",
+  "sha256": "6bb3b157f5a457515cc39cbb9f8532526823f8e28dc0c1a80c45e509ee89ff7e",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "air_policy": "Explicit air fills all 3971 cells; integration must reject any occupied cell in the full volume before placement.",
+  "design_adaptations": [
+    "Concept ceiling opening becomes sealed cracked-stone repair patch. Preview cutaway never changes final NBT.",
+    "Vanilla wall grindstone, suspended chains and attached buttons interpret the tool rack without entities or custom models.",
+    "Fallen lanterns remain supported standing lantern blocks. Stone and timber rubble stays outside the central safe route."
+  ],
+  "roof": "Complete stone layer at y=10, timber lining at y=9, no skylight opening.",
+  "containers": [
+    {
+      "position": [
+        2,
+        1,
+        13
+      ],
+      "type": "minecraft:barrel",
+      "empty": true,
+      "loot_table": false
+    },
+    {
+      "position": [
+        15,
+        1,
+        11
+      ],
+      "type": "minecraft:furnace",
+      "empty": true,
+      "loot_table": false
+    },
+    {
+      "position": [
+        15,
+        1,
+        16
+      ],
+      "type": "minecraft:chest",
+      "empty": true,
+      "loot_table": false
+    },
+    {
+      "position": [
+        16,
+        1,
+        14
+      ],
+      "type": "minecraft:barrel",
+      "empty": true,
+      "loot_table": false
+    },
+    {
+      "position": [
+        16,
+        2,
+        14
+      ],
+      "type": "minecraft:barrel",
+      "empty": true,
+      "loot_table": false
+    }
+  ],
+  "materials": {
+    "minecraft:mossy_stone_bricks": 175,
+    "minecraft:cracked_stone_bricks": 191,
+    "minecraft:stone_bricks": 940,
+    "minecraft:andesite": 55,
+    "minecraft:black_stained_glass": 9,
+    "minecraft:stripped_spruce_log": 143,
+    "minecraft:air": 2051,
+    "minecraft:spruce_trapdoor": 10,
+    "minecraft:spruce_planks": 296,
+    "minecraft:cobblestone_slab": 8,
+    "minecraft:lantern": 4,
+    "minecraft:barrel": 3,
+    "minecraft:spruce_slab": 16,
+    "minecraft:stone_button": 8,
+    "minecraft:chiseled_stone_bricks": 13,
+    "minecraft:stonecutter": 1,
+    "minecraft:grindstone": 2,
+    "minecraft:crafting_table": 1,
+    "minecraft:chain": 10,
+    "minecraft:polished_andesite": 6,
+    "minecraft:smithing_table": 1,
+    "minecraft:cobbled_deepslate": 20,
+    "minecraft:fletching_table": 1,
+    "minecraft:chipped_anvil": 1,
+    "minecraft:furnace": 1,
+    "minecraft:chest": 1,
+    "minecraft:cobblestone": 3,
+    "minecraft:spruce_stairs": 1
+  },
+  "deployment": "not_deployed",
+  "production_saves_modified": false,
+  "recipe": "source/recipe.mjs",
+  "preview": "preview.png",
+  "qa": "qa.json",
+  "native_qa": "qa/native.json",
+  "views": "views/manifest.json"
+}

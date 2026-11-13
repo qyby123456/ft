@@ -1,0 +1,106 @@
+{
+  "id": "corridor-S05",
+  "design_id": "S05",
+  "name": "黑石积水吊笼短廊",
+  "size": [
+    11,
+    10,
+    16
+  ],
+  "entrance": [
+    5,
+    2,
+    0
+  ],
+  "interior": [
+    5,
+    2,
+    3
+  ],
+  "exit": [
+    5,
+    2,
+    15
+  ],
+  "facing": "north",
+  "axis": "+Z",
+  "length_blocks": 16,
+  "length_chunks": 1,
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        5,
+        2,
+        0
+      ],
+      "width": 3,
+      "height": 4
+    },
+    {
+      "side": "south",
+      "feet": [
+        5,
+        2,
+        15
+      ],
+      "width": 3,
+      "height": 4
+    }
+  ],
+  "main_route": {
+    "x": [
+      4,
+      6
+    ],
+    "feet_y": 2,
+    "z": [
+      0,
+      15
+    ],
+    "clear_width": 3,
+    "clear_height": 3,
+    "floor_y": 1,
+    "dry": true
+  },
+  "water": {
+    "source_blocks": 52,
+    "y": 1,
+    "x_columns": [
+      2,
+      3,
+      7,
+      8
+    ],
+    "z": [
+      1,
+      14
+    ],
+    "depth_blocks": 1,
+    "sealed": true
+  },
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "sha256": "c31084a7ac041e079595c0549205ae72a903efb86d5e2eb469c798e1ab3a0076",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\S05-blackstone-deepslate-flooded.png",
+  "reference_sha256": "07435538db7e9d2361a768877170d8b9e622b7e49109fca0ec677e35ecf95c1a",
+  "batch_documents": [
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\README.md",
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\SPEC.md",
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\manifest.json"
+  ],
+  "builder_recipe": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S05\\tools\\corridor-s05.mjs",
+  "adaptations": [
+    "The fully flooded floor becomes two shallow side channels and a level dry three-block-wide central path.",
+    "The closed far door becomes an open south arch for a genuinely through corridor.",
+    "Algae are low mossy stone-brick accents, not unsupported vines.",
+    "Iron cages are empty block-built decoration with four roof-anchored chains, no entities or rewards."
+  ],
+  "integration": {
+    "deployed": false,
+    "assigned_core_slot": null,
+    "player_saves_touched": false,
+    "occupancy_check_required_for_entire_volume": true,
+    "explicit_air_is_not_permission_to_clear": true
+  }
+}

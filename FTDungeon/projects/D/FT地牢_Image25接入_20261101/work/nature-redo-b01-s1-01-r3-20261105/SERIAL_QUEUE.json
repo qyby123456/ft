@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "scope": "Current producer thread, S1 first-image set only; not a registry for other producers",
+  "producer_thread_id": "01a1a5d9-5140-7b70-98a8-87038e91e268",
+  "mode": "ONE_REFERENCE_PER_THREAD_UNTIL_AUDITOR_REGISTERED_PASS",
+  "max_assigned_references": 1,
+  "assigned_reference": "S1-01-large-chamber.png",
+  "assigned_module": "nature-redo-b01-s1-01",
+  "current_nbt_sha256": "1174e5ae0e8824d1f0ab4ff78498fe7ffbe71a1561603145c7d69c5894e5ddea",
+  "technical_checks": "PASS_NOT_AUDIT_ACCEPTANCE",
+  "reference_consistency": "R2_TREE_COMPOSITION_NOT_REQUESTED_FOR_REWORK_PER_REVIEWER_R3_CONNECTION_REVIEW_PENDING",
+  "reference_scale_review": "PENDING_OVERALL_SIZE_HEIGHT_SPAN_PROPORTIONS_AND_LANDMARK_SCALE",
+  "scale_policy": "Preserve reference scale; no chunk or single-NBT convenience cap. Split large geometry only with explicit origins, anchors, order and assembled validation.",
+  "group_ownership": "S1_MOSSY_FOREST_ONLY_NO_CROSS_GROUP_ASSIGNMENT",
+  "wait_for_other_groups": false,
+  "auditor_registration": null,
+  "audit_request_status": "PREPARED_LOCALLY_NOT_CONFIRMED_RECEIVED",
+  "ready_for_unified_integration": false,
+  "next_reference_unlock": false,
+  "forbidden": [
+    "MULTI_IMAGE_ASSIGNMENT",
+    "BATCH_GENERATION",
+    "TEMPLATE_COPY_AND_RESKIN",
+    "START_NEXT_BEFORE_AUDIT_PASS",
+    "SELF_APPROVED_UNLOCK"
+  ],
+  "queue": [
+    {
+      "order": 1,
+      "reference": "S1-01-large-chamber.png",
+      "status": "ASSIGNED_PENDING_INDEPENDENT_AUDIT",
+      "assigned_thread": "01a1a5d9-5140-7b70-98a8-87038e91e268"
+    },
+    {
+      "order": 2,
+      "reference": "S1-02-medium-room.png",
+      "status": "QUEUED_LOCKED_UNASSIGNED"
+    },
+    {
+      "order": 3,
+      "reference": "S1-03-small-room.png",
+      "status": "QUEUED_LOCKED_UNASSIGNED"
+    },
+    {
+      "order": 4,
+      "reference": "S1-04-great-hall.png",
+      "status": "QUEUED_LOCKED_UNASSIGNED"
+    },
+    {
+      "order": 5,
+      "reference": "S1-05-corridor.png",
+      "status": "QUEUED_LOCKED_UNASSIGNED"
+    },
+    {
+      "order": 6,
+      "reference": "S1-06-corner.png",
+      "status": "QUEUED_LOCKED_UNASSIGNED"
+    },
+    {
+      "order": 7,
+      "reference": "S1-07-entrance.png",
+      "status": "QUEUED_LOCKED_UNASSIGNED"
+    },
+    {
+      "order": 8,
+      "reference": "S1-08-courtyard.png",
+      "status": "QUEUED_LOCKED_UNASSIGNED"
+    },
+    {
+      "order": 9,
+      "reference": "S1-09-treasure.png",
+      "status": "QUEUED_LOCKED_UNASSIGNED"
+    },
+    {
+      "order": 10,
+      "reference": "S1-10-overview.png",
+      "status": "QUEUED_LOCKED_UNASSIGNED"
+    }
+  ],
+  "unlock_requires": [
+    "Independent auditor thread identity",
+    "Auditor PASS registration evidence path",
+    "Registration matches reference image SHA-256",
+    "Registration matches current final NBT SHA-256",
+    "NBT load and connection checks",
+    "Lodestone previews and reference consistency approved",
+    "Cross-module duplicate review passed"
+  ],
+  "on_rejection": "Keep this image assigned, rework only this module, regenerate evidence; do not assign next image",
+  "old_versions": "Excluded; see EXCLUDED_VERSIONS.json"
+}

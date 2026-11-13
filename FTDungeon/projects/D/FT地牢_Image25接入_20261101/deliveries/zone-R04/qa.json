@@ -1,0 +1,74 @@
+{
+  "id": "zone-R04",
+  "name": "焦毁营房",
+  "status": "PASS",
+  "sha256": "da8e9f21e39d9bd24991261eff4f04d56dde825a545b8c7e857459c3f9ef185f",
+  "reference_sha256": "e04fa19324a4906d5110666f5b274868dd296e3f14f4d4657e2811de960b506a",
+  "size": [
+    25,
+    13,
+    25
+  ],
+  "data_version": 3465,
+  "entrance": [
+    12,
+    2,
+    0
+  ],
+  "interior": [
+    12,
+    2,
+    5
+  ],
+  "exit": [
+    12,
+    2,
+    24
+  ],
+  "facing": "north",
+  "static": {
+    "status": "PASS",
+    "checks": 94,
+    "records": 8125,
+    "non_air": 3366,
+    "palette_count": 37,
+    "evidence": "qa/static.json"
+  },
+  "visual": {
+    "status": "PASS",
+    "interior_directions": 4,
+    "exterior_directions": 4,
+    "rendered_views": 11,
+    "evidence": "qa/visual.json"
+  },
+  "native": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "settle_ticks": 600,
+    "state_comparisons": 65000,
+    "reachable_feet_per_rotation": 440,
+    "survival_checks_per_rotation": 3366,
+    "boundary_checks_per_rotation": 2810,
+    "neighbor_updates": true,
+    "entities": 0,
+    "evidence": "qa/native.json",
+    "log": "qa/forge.log"
+  },
+  "four_piece": [
+    "room.nbt",
+    "room.json",
+    "preview.png",
+    "qa.json"
+  ],
+  "deployed": false,
+  "production_save_modified": false,
+  "formal_files_modified": false,
+  "full_modpack_playtest": false,
+  "limitations": [
+    "Software preview is not a client screenshot.",
+    "Isolated Forge native test does not claim full-modpack or multiplayer acceptance.",
+    "Concept roof gaps are glass-sealed; bunk beds, cloth, ash, bones and helmet are static block approximations."
+  ]
+}
