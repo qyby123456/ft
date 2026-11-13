@@ -1,0 +1,66 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
+}
+
+group = 'net.farmingtales'
+version = '1.0.0'
+
+base {
+    archivesName = 'qys-progressive-taxation'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            mods {
+                ftecon { source sourceSets.main }
+            }
+        }
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            mods {
+                ftecon { source sourceSets.main }
+            }
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'
+
+    // SDM 商店(编译期引用其条目/网络类；运行期由整合包提供)
+    compileOnly fileTree('libs') { include '*.jar' }
+    // Mixin（编译注解用；运行期 Forge 自带）
+    compileOnly 'org.spongepowered:mixin:0.8.5'
+}
+
+jar {
+    manifest {
+        attributes 'Specification-Title': 'ftecon',
+                   'Specification-Version': project.version,
+                   'Implementation-Title': "qy's progressive taxation",
+                   'Implementation-Version': project.version
+    }
+}
