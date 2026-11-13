@@ -1,0 +1,85 @@
+{
+  "recipient_thread": "01a19758-b0e5-75c2-822a-4860527a1e8b",
+  "room_id": "S6",
+  "status": "READY_FOR_INTEGRATION_REVIEW_NOT_DEPLOYED",
+  "delivery_directory": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\out\\S6",
+  "files": {
+    "room.nbt": {
+      "bytes": 2186,
+      "sha256": "a6bc3ca26e1526701362621650fd597c2e42e7c87d30171e70470c4cfd7c15df"
+    },
+    "room.json": {
+      "bytes": 1416,
+      "sha256": "60651e42c24a6c361859d7efcbf77d492f24c896a1b117f5a02749b3a60ef756"
+    },
+    "preview.png": {
+      "bytes": 401423,
+      "sha256": "5fadeb1b840d3f36e06e3772aeaddfb8815897f06634222c981a5bcd7bd6b7aa"
+    },
+    "qa.json": {
+      "bytes": 7268,
+      "sha256": "fce26ef329265d938f472ce3b3fe7566afbf89cf0bf99ff32dc9ad77f7cde80e"
+    }
+  },
+  "reference": {
+    "path": "D:\\ft工程文件\\image2.5\\dungeon-design-batch3-20261101\\out\\S6-nether-soul-shrine-hero.png",
+    "sha256": "cd80e2ae91d8d5b47d80243422a87abcab5e0d68d8fda13d9c41365fea2b15a7",
+    "verified": true
+  },
+  "structure_sha256": "a6bc3ca26e1526701362621650fd597c2e42e7c87d30171e70470c4cfd7c15df",
+  "size_xyz": [
+    9,
+    7,
+    9
+  ],
+  "entrance": [
+    4,
+    1,
+    0
+  ],
+  "interior": [
+    4,
+    1,
+    2
+  ],
+  "facing": "north",
+  "validation": {
+    "static": "PASS",
+    "forge": "1.20.1-47.4.10",
+    "native_placement": "PASS, four rotations, 240 ticks, forced neighbor/fluid updates",
+    "native_roundtrip": "EXACT_MATCH",
+    "safe_reachable_positions_per_rotation": 31,
+    "dripstone_native_lava_resolution": "PASS",
+    "reward_inventory_items": 0,
+    "loot_tables": 0
+  },
+  "evidence": {
+    "static": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\static.json",
+    "forge_native": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\forge-native.json",
+    "forge_log": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\forge-run.log",
+    "native_roundtrip": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\native-roundtrip.nbt",
+    "render_manifest": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\render.json",
+    "four_views": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\four-views.png",
+    "complete_exterior": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\exterior.png"
+  },
+  "design_adaptations": [
+    "概念图7×7 h5扩为9×9 h7，为三格北接口、绕行通路、灯链与封闭熔岩滴落装置留出原版方块空间。",
+    "概念图熔岩细线改为镀金黑石嵌线；真实熔岩集中于两个封闭玻璃壁龛。",
+    "东龛为真实熔岩储液、实体支撑和向下滴水石锥，展示原版熔岩滴落粒子；不放炼药锅，不产生可领取熔岩库存。",
+    "西龛为封闭熔岩落流；骨骼装饰为三颗无持有物、无玩家头颅数据的原版骷髅头。",
+    "剖切仅用于软件预览，NBT保留完整屋顶与唯一北开口。"
+  ],
+  "deployment_authorized": false,
+  "integration_constraints": [
+    "Dense 9x7x9 structure includes air; check full destination volume before placing, never unconditionally clear an occupied volume",
+    "Only north opening, 3 wide by 3 high with full in-template floor",
+    "Keep independent persistent generation marker, preserve player changes on re-entry",
+    "No other room, player save or installed JAR was modified"
+  ],
+  "limitations": [
+    "No full modpack client screenshot/FPS or multiplayer play test",
+    "Lava-drip source/support/airspace verified; client particle appearance is not visually tested",
+    "No FT core catalog/connection deployment in this independent structure task"
+  ],
+  "thread_message_sent": false
+}
