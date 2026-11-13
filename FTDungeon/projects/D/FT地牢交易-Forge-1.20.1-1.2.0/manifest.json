@@ -1,0 +1,256 @@
+{
+  "name": "FT Dungeon Trading",
+  "version": "1.2.0",
+  "minecraft": "1.20.1",
+  "forge_tested": "47.4.10",
+  "java": 17,
+  "deployed": false,
+  "client_tested": false,
+  "gametest_assertions": 206,
+  "model": {
+    "version": "1.2.0",
+    "components": 52,
+    "declared_faces": 270,
+    "textures": 1,
+    "texture_pixels": 16384,
+    "cutout_planes": 2,
+    "cutout_components": [
+      "Cobweb / front left",
+      "Cobweb / right rear"
+    ],
+    "transparent_shells": 0,
+    "geometry_animation_copies": 0,
+    "removed_hidden_faces": 34,
+    "dynamic_product_previews_maximum": 6,
+    "client_tested": false,
+    "texture_style": "coarse clustered pixels; tabletop 64x32 at unchanged density, small props 8x8",
+    "footprint_blocks": [
+      2,
+      1
+    ],
+    "assembled_block_components": 58,
+    "assembled_block_faces": 294,
+    "parts": {
+      "left": {
+        "components": 34,
+        "faces": 174
+      },
+      "right": {
+        "components": 24,
+        "faces": 120
+      }
+    },
+    "geometry_changes": {
+      "removed_decorations": [
+        "coins",
+        "emerald",
+        "painted key",
+        "brass candle base"
+      ],
+      "dust_removed_from": [
+        "desktop",
+        "storage shelf"
+      ],
+      "candle_base": "two thin connected wax pools",
+      "prop_proportions_preserved": true
+    }
+  },
+  "files": {
+    "docs/API.md": {
+      "bytes": 8314,
+      "sha256": "c768fe1933780a742ce87b0fa6814a49586c0605c88c2cb93475d00289db2236"
+    },
+    "docs/DATAPACK.md": {
+      "bytes": 4905,
+      "sha256": "1f57733095ff06900a6c50c7f4088f0ed0abf9dd10991ded5529d34b75c9cec2"
+    },
+    "docs/REMODEL-DESIGN.md": {
+      "bytes": 4262,
+      "sha256": "ee5debf9c59fae1c2598bdd34d35532d4021b76841500a6fbdac418ee3ae48f9"
+    },
+    "docs/VERIFICATION.md": {
+      "bytes": 5925,
+      "sha256": "db6674162c7f179edc8c08fcfb5961ac156c8d2f824458fe19aaf55b69f727c1"
+    },
+    "FT地牢交易-Forge-1.20.1-1.2.0.jar": {
+      "bytes": 75938,
+      "sha256": "88e248923de4c17da275ed8af294914f413ede9ef43fa1b5f0f277d8879ec383"
+    },
+    "FT地牢交易-可构建源码-1.2.0.zip": {
+      "bytes": 4862667,
+      "sha256": "0bc53fed00cad64d024bb4ff5fbf0e4bdd232da3b71f92d3e77a5cb81ac2d495"
+    },
+    "README.md": {
+      "bytes": 6540,
+      "sha256": "c411abb0a677310e63bd506421389e0412d010a297e38fc66027ed2664cde39f"
+    },
+    "两格长桌与融蜡对照.png": {
+      "bytes": 338523,
+      "sha256": "f365df13f4ab77645991887d49e1b960c04d86c3c8aad194afaa1f43a334c334"
+    },
+    "交易数据包示例.zip": {
+      "bytes": 650,
+      "sha256": "4cc58e3a9f17784a5afa3298638be291658660c3a220a1a34c8fa76cf73740e2"
+    },
+    "像素与体块优化对照.png": {
+      "bytes": 607299,
+      "sha256": "c8c4c77cde925b40fbc4ebfc2b3e9c6bfa8d2f4575f48770bded188f5f23761c"
+    },
+    "地牢交易桌预览.png": {
+      "bytes": 285445,
+      "sha256": "de50d08155ca264e7dab301a9e24a74682c990b6487fb7179f55eb25b1c09d57"
+    },
+    "新旧模型对照.png": {
+      "bytes": 376177,
+      "sha256": "fa4d5d9f83e1e5194b905cf043fefa5f78afbe63e0ebfd5a7c2fadd779760b68"
+    },
+    "模型源文件/budget.json": {
+      "bytes": 210,
+      "sha256": "515aecf43aad407462d26bc937435da76639228cd079fae6b222e58b35a16cab"
+    },
+    "模型源文件/hidden-face-proofs.json": {
+      "bytes": 4065,
+      "sha256": "597755e5310d9eb9a1897ab155b6ee89e4259dd348e30c8adc4bf379afe34f43"
+    },
+    "模型源文件/model-report.json": {
+      "bytes": 1088,
+      "sha256": "79ead68123a0d7a46086eff9c8a9dbbf1284f02248b7e6cdff5cf1a7d34052e5"
+    },
+    "模型源文件/trading_table.png": {
+      "bytes": 1982,
+      "sha256": "e142f1045c09fb3f29eebefa1e80f032b679747b1205cfabb8c5cfd81b349dac"
+    },
+    "模型源文件/地牢交易桌.bbmodel": {
+      "bytes": 92152,
+      "sha256": "e922cfbece2d992111c47716fd2ee533b7424d56a6923bba8ae35fd6f3d78f80"
+    },
+    "陈设清理前后对照.png": {
+      "bytes": 358051,
+      "sha256": "ad9bf751e0a6127b46fe94b46c35e5dcbafec2961d3c664a20d1ab7ce24c4c85"
+    },
+    "验证记录/all-assembled-views.png": {
+      "bytes": 170937,
+      "sha256": "2167b1bbc3e90f81863f235f9471be89b2b1ed94e231026d80302814980e48a3"
+    },
+    "验证记录/all-displays.png": {
+      "bytes": 224335,
+      "sha256": "3cfd7fb87250067cc3a38b52f5e16c84d99dd9b878474a3569b7d48df1d46ea7"
+    },
+    "验证记录/all-views.png": {
+      "bytes": 170570,
+      "sha256": "17aaef9e98ffc6e4ddf16775683c047196a4634820f9247e242a9b4a46c398e3"
+    },
+    "验证记录/assembly-difference-back.png": {
+      "bytes": 4441,
+      "sha256": "2bf43855ffb3b68de210a3cf96e7c2d470fb4cc5f17e600ccf28f5fa49082ed4"
+    },
+    "验证记录/assembly-difference-bottom.png": {
+      "bytes": 4553,
+      "sha256": "1a7d4eec3bc8f802b2caf5f5fb29c3cc9ae45225dda500e10d2bc9032772077b"
+    },
+    "验证记录/assembly-difference-front.png": {
+      "bytes": 4651,
+      "sha256": "9f6bb0786588c829113b08cea8e8dab4737a158527834ff0fdfd333d2693900b"
+    },
+    "验证记录/assembly-difference-left.png": {
+      "bytes": 4238,
+      "sha256": "7da01b23367f44f2c901da8ac72004ec864a722df6232e9fd699c66433a8602f"
+    },
+    "验证记录/assembly-difference-oblique.png": {
+      "bytes": 5151,
+      "sha256": "17928f6992fa17e2f38e1342e421dc78099b46eaa5ef06b4d35ea0b0252862d8"
+    },
+    "验证记录/assembly-difference-rear-oblique.png": {
+      "bytes": 5097,
+      "sha256": "66555c207f8c0bc3b1e884b54bf6a939ff4f380030d5121962ef1a3aee6f4f54"
+    },
+    "验证记录/assembly-difference-right.png": {
+      "bytes": 4238,
+      "sha256": "7da01b23367f44f2c901da8ac72004ec864a722df6232e9fd699c66433a8602f"
+    },
+    "验证记录/assembly-difference-top.png": {
+      "bytes": 4287,
+      "sha256": "658589ac44233180b9e151ef548c83ccea6eac8e5052b1baace61f5ffbac47d3"
+    },
+    "验证记录/assembly-render-check.json": {
+      "bytes": 1767,
+      "sha256": "e902d175bd24e77695ce4110a37bc4317196160492bb2e3409d47f51d92904ed"
+    },
+    "验证记录/assembly-structure-check.json": {
+      "bytes": 357,
+      "sha256": "d1c179c767a0ad647b0bc343c2fb7f53bda8a9816bf96935940daabd157622f9"
+    },
+    "验证记录/blockbench-native-export.json": {
+      "bytes": 25979,
+      "sha256": "ba20d3e5681a74e3347e4b06dcd37cc83267cdb89b75278565e224b757af8967"
+    },
+    "验证记录/build-release.log": {
+      "bytes": 2123,
+      "sha256": "7f19d4cb904444abcec3fd059d03843099f465bc341b80a40b9f3e5044239250"
+    },
+    "验证记录/cost-audit.json": {
+      "bytes": 723,
+      "sha256": "6ff0a032eb14a384d48f3fb63fc7ec3387ac5776294d53fbd7e835761a995ab6"
+    },
+    "验证记录/decoration-cleanup-check.json": {
+      "bytes": 349,
+      "sha256": "4a9cf9707344bf3999ad3983db538ccd1864f9a43c93f297024d7783100d1bb9"
+    },
+    "验证记录/display-settings.json": {
+      "bytes": 2417,
+      "sha256": "495e5e7d05c349ed590a2bf5ebfa832802d2491de964a634574a9820bd6cb493"
+    },
+    "验证记录/gray-back.png": {
+      "bytes": 34103,
+      "sha256": "9d23ea63f0103147c52d83bee5779dfc52ccb7c0cca14925ddb033526a289682"
+    },
+    "验证记录/gray-front.png": {
+      "bytes": 34223,
+      "sha256": "3e346a8c7271a03ae351d31a8c26457a384a07cfb8703abcd03d631e1626e576"
+    },
+    "验证记录/gray-oblique.png": {
+      "bytes": 66033,
+      "sha256": "8c6b2e1b3ce17029bf9da902fa60f51cc527e6ebcd078f14f803a2935bbb4248"
+    },
+    "验证记录/gray-side.png": {
+      "bytes": 34025,
+      "sha256": "87cd8bec6ff394ae1ee36320c52321c8b2bd1020b49cac06f4592abd701d5a08"
+    },
+    "验证记录/jar-audit.json": {
+      "bytes": 296,
+      "sha256": "4cfad30933b19f91ecc1899bceefb0b45f1c71ecf7aa14d6ad2fe22c5af227cd"
+    },
+    "验证记录/minecraft-parser.json": {
+      "bytes": 249,
+      "sha256": "eefcd4b7664ca75d9ceed094597ce1013849f1711dc566297033767253406a1c"
+    },
+    "验证记录/model-audit.json": {
+      "bytes": 1222,
+      "sha256": "b7e4e1fa7264286d2cbeb69f73fc81155ec34afed2ab5dc0abc0eeffcbbc3621"
+    },
+    "验证记录/reference-study.json": {
+      "bytes": 5274,
+      "sha256": "39dcd1409a369dac6c0ae063c844668796547a3cdb8784e177ffc12d42dfa002"
+    },
+    "验证记录/resource-check.json": {
+      "bytes": 1002,
+      "sha256": "d610f929c27e81769471096e5c38f12ebe2671d3f893b506c842cd58d8e9a8e0"
+    },
+    "验证记录/roundtrip-render-check.json": {
+      "bytes": 433,
+      "sha256": "6d199e906040325d549b2dbf17f1cf3d1a8fc999663008a4a17ae2c2eb1d9d5f"
+    },
+    "验证记录/roundtrip.json": {
+      "bytes": 235,
+      "sha256": "9752fac39a24efc59ae23c38bdd1f508fccff02522c881a4251345cb8d064192"
+    },
+    "验证记录/runtime-release.log": {
+      "bytes": 9690,
+      "sha256": "0b818f35a8efccab9d9170ee9cfab8ca83ffa9647227ffbb12a8b13826b8bf01"
+    },
+    "验证记录/view-settings.json": {
+      "bytes": 890,
+      "sha256": "c2c41b81aace102182bc450d833050b3491f5faca92fe39a6da982f2932ed256"
+    }
+  }
+}
