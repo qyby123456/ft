@@ -1,0 +1,273 @@
+{
+  "id": "zone-P04",
+  "status": "PASS",
+  "producer_qa_status": "PASS",
+  "completed_at": "2026-11-03T18:57:06.210154+08:00",
+  "room_sha256": "90b84af4d54f49711893225c8ba5314e0f66c0c7dbd8d3dd17b68e66b1059dc7",
+  "reference_sha256": "27d3620f3637684e1c7482b31aa49f601a6531c0cd3762d1d6822808262169ea",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/parkour/P04-parkour-crumbling-ledge-path.png",
+  "size": [
+    23,
+    16,
+    27
+  ],
+  "static": {
+    "status": "PASS",
+    "report": "qa/static.json",
+    "explicit_records": 9936,
+    "non_air_records": 5132,
+    "connected_non_air_records": 5132
+  },
+  "four_views": {
+    "status": "PASS",
+    "review": "qa/four-view-review.json",
+    "renderer": "@mattzh72/lodestone 0.6.0 ThreeStructureRenderer",
+    "interior": {
+      "north": "views/interior-north.png",
+      "south": "views/interior-south.png",
+      "west": "views/interior-west.png",
+      "east": "views/interior-east.png"
+    },
+    "exterior": {
+      "north": "views/exterior-north.png",
+      "south": "views/exterior-south.png",
+      "west": "views/exterior-west.png",
+      "east": "views/exterior-east.png"
+    },
+    "sheet": "views/four-direction-review.png",
+    "source_nbt_hash_bound": true,
+    "separate_images_individually_reviewed": true
+  },
+  "forge_native": {
+    "status": "PASS",
+    "report": "qa/native.json",
+    "log": "qa/forge-gametest.log",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations_passed": 4,
+    "stabilization_ticks": 240,
+    "records_checked_after_ticks": 39744,
+    "state_drift": 0,
+    "negative_probes_detected": 16,
+    "isolated_test_world_only": true
+  },
+  "route": {
+    "status": "PASS",
+    "method": "Forge FakePlayer 0.6x1.8 entity, vanilla Entity.move collision, walk-jump velocity .21/.42 with .08 gravity and .98 vertical drag; scripted probes, not client keyboard playthrough.",
+    "four_rotations": true,
+    "jumps_per_rotation": 4,
+    "sprint_required": false,
+    "max_gap_blocks": 1,
+    "max_rise": 1,
+    "failure_sites_per_rotation": 4,
+    "maximum_recovery_drop": 3,
+    "return_stairs_both_directions": true,
+    "entry_safe_return": true,
+    "exit_reached": true,
+    "safe_points": [
+      {
+        "id": "entry",
+        "feet": [
+          11,
+          5,
+          3
+        ]
+      },
+      {
+        "id": "midpoint",
+        "feet": [
+          4,
+          6,
+          14
+        ]
+      },
+      {
+        "id": "last_ledge",
+        "feet": [
+          4,
+          6,
+          22
+        ]
+      },
+      {
+        "id": "exit",
+        "feet": [
+          11,
+          5,
+          26
+        ]
+      }
+    ]
+  },
+  "ready_for_receiver_review": true,
+  "ready_for_unified_integration": false,
+  "receiver_acceptance_required": true,
+  "deployed": false,
+  "production_save_access": false,
+  "limitations": [
+    "Software renders are not Minecraft client screenshots.",
+    "Native scripted FakePlayer collision probes are not a full modpack keyboard or multiplayer playtest.",
+    "Physical resting platforms do not implement automatic respawn or persistent checkpoints.",
+    "The crumbling look is static; no timed collapse is implemented.",
+    "Receiving-side acceptance, unique slot, hall links, occupied-volume rejection, idempotence and deployment remain outside producer scope."
+  ],
+  "test_iteration_notes": [
+    "Added missing ceiling support sockets after initial static check; final NBT has all six sockets.",
+    "Initial route probe reported a descending player before landing; the probe now waits for actual onGround.",
+    "One 512 MB isolated server startup ran out of heap; final successful run used 1536 MB and four active processors. Earlier logs are retained as previous-* files."
+  ],
+  "evidence": {
+    "README.md": {
+      "sha256": "e711fda7b451b832c84e3f88fac768cc16b2c70befebb780cec5a5a8b92547e3",
+      "bytes": 5138
+    },
+    "build.gradle": {
+      "sha256": "2660c74db31559055cfaee71cd28a64e9bded29e3ac22a379a21d3c7c764c8bf",
+      "bytes": 799
+    },
+    "gradle.properties": {
+      "sha256": "302a474106e7940f43ed526958f68f2bb20b8dbe5d4a5385e0f8646fb79a7ce1",
+      "bytes": 99
+    },
+    "preview.png": {
+      "sha256": "23de3867ac8cb1b39000f4d915c6500b800f0b5d5c9abf02f2a0f68f9b20e8ca",
+      "bytes": 655254
+    },
+    "qa/forge-gametest.log": {
+      "sha256": "fc65e7831d5a72751335a842bddbf8aca70169c74355954c8082874a9b8b1f82",
+      "bytes": 9553
+    },
+    "qa/four-view-review.json": {
+      "sha256": "35a48f8442d2d7ff581d4c5b26cc829aeca6d88b0cc7eda095d54bd788b147de",
+      "bytes": 4168
+    },
+    "qa/materials.json": {
+      "sha256": "4463c97a58c13b73f55b1d648aeac2aa60be0e6748f372292f1b582f5c753d15",
+      "bytes": 501
+    },
+    "qa/native.json": {
+      "sha256": "07ff3e28fa86efb836ba6473d28eab12aa7ab545a0c5829ed82f9075a300e16c",
+      "bytes": 17510
+    },
+    "qa/reference.json": {
+      "sha256": "4babe05357ef2bc151f3abf8731217e883b7f5a4ed4e37e4933aa90e521f6112",
+      "bytes": 412
+    },
+    "qa/render.json": {
+      "sha256": "baa0db22386d38f4a4ed3fc6ccff43d04027f9be595800e673876b728e46bdbc",
+      "bytes": 4191
+    },
+    "qa/static.json": {
+      "sha256": "74b1d83e3e5decd5e68e7a51816e5035d52a7f6d899f9bbfcfa796a68094ba0a",
+      "bytes": 3827
+    },
+    "room.json": {
+      "sha256": "68e838b3139b40dbdc046869205ecacdaf7d2af3269525c66d3d820a1f92cb30",
+      "bytes": 4558
+    },
+    "room.nbt": {
+      "sha256": "90b84af4d54f49711893225c8ba5314e0f66c0c7dbd8d3dd17b68e66b1059dc7",
+      "bytes": 29673
+    },
+    "settings.gradle": {
+      "sha256": "58d88ee473b11fcb17e11627791395538dd4652aa9631990e7fa5b9bd7eb28b3",
+      "bytes": 176
+    },
+    "src/main/java/net/farmingtales/zonep04qa/LedgeTests.java": {
+      "sha256": "1fd523619c21e00a7c4885f1410a9a460ba408a2ac009babe11fd97ce3032098",
+      "bytes": 23511
+    },
+    "src/main/java/net/farmingtales/zonep04qa/Verification.java": {
+      "sha256": "3dc4bb13f70b44891ffdcf504d3c58fd549d27ab159d2bc25cc9811ca8088c09",
+      "bytes": 165
+    },
+    "src/main/resources/META-INF/mods.toml": {
+      "sha256": "7112b6f8c87c2b07cdc157463f7a93358c52109498be5b2c780ac10de1ad6f58",
+      "bytes": 476
+    },
+    "src/main/resources/data/ftzonep04qa/structures/empty.nbt": {
+      "sha256": "dc32ac4870ecca11eb7e859958fff9e284e7d7c7466d05d3e32bc9323620868c",
+      "bytes": 128
+    },
+    "src/main/resources/pack.mcmeta": {
+      "sha256": "ab1be012a8a08046f416b43fd159771d0b93224ee15d875dec7f71b00207f8af",
+      "bytes": 73
+    },
+    "summary.json": {
+      "sha256": "4a66701763c704d05d573bf7378e2382e11c6bc875882d980c4da26c9eb60d9e",
+      "bytes": 556
+    },
+    "tools/audit.mjs": {
+      "sha256": "76ab924be2365861c8b49741257959f8721c45a93c964fa33dd38db27dfcc02f",
+      "bytes": 9313
+    },
+    "tools/contact_sheet.py": {
+      "sha256": "792102cf672c2ecf47a1412b8297840f6a46f12716a29160cabf3b952f278e13",
+      "bytes": 1518
+    },
+    "tools/finalize.py": {
+      "sha256": "f1727326edbedcf17a3b4ccff8761e36374e9c650eddc0dd078aa2c96ddebadc",
+      "bytes": 5277
+    },
+    "tools/preview-server.mjs": {
+      "sha256": "6d2daac0737b7ea6d6acb5c6887d5a7c65f6522b7c990b5f2742e0c9afb524d3",
+      "bytes": 2094
+    },
+    "tools/recipe.mjs": {
+      "sha256": "11c4c8641c68bbcdb96d30298ada0023c269ae3f71b69c27c305562f18fe891f",
+      "bytes": 4622
+    },
+    "tools/render.mjs": {
+      "sha256": "cd1d42ef7d8bfda54010f3c7363d58c84d7996469a6dd7bde9be0b3a78c1a1ed",
+      "bytes": 4279
+    },
+    "tools/run-native.ps1": {
+      "sha256": "8a09f840faaef162b6e2732c1e8401bd5b35cd936928f4ae48e72cc2685b07e9",
+      "bytes": 1117
+    },
+    "tools/viewer/index.html": {
+      "sha256": "6e1a8bbd77d6afd8bb35b13c50ef80a387af852185d36187630137be0f9f5cb5",
+      "bytes": 557
+    },
+    "tools/viewer/main.mjs": {
+      "sha256": "04a0c79f96e5583ae06b36f25f351a9adcb8cb84cea034955d10c9df8564d451",
+      "bytes": 3395
+    },
+    "views/exterior-east.png": {
+      "sha256": "5cfecdcd851c46e199dda97eed3316940a03d01ffe8fceda6897e90e3c692199",
+      "bytes": 308134
+    },
+    "views/exterior-north.png": {
+      "sha256": "7b773187ee1ebaa50f14c2e819998e92f06036014d1302e3e7a2ce1c9d46d99f",
+      "bytes": 274728
+    },
+    "views/exterior-south.png": {
+      "sha256": "7ac6f1a203a04bcdd0a2200dc6ad9b401de30d154a3370c902d47ac1a1eeed2d",
+      "bytes": 151221
+    },
+    "views/exterior-west.png": {
+      "sha256": "9ab166cc0dac98e4c8124316dca8df9ba16b35444ca7522a1fee5ca3a3ea92d2",
+      "bytes": 309703
+    },
+    "views/four-direction-review.png": {
+      "sha256": "0690798d356f3e3dccbe5253ee7e3b78cbb0a29305378ad968c2d2f8ae82e281",
+      "bytes": 1979412
+    },
+    "views/interior-east.png": {
+      "sha256": "adeb0413992b4944597954719e8f426361ba372a65928ecd7e8ec4eaf8763a73",
+      "bytes": 469557
+    },
+    "views/interior-north.png": {
+      "sha256": "51aa98dea10b69013690e146ba77b3ba0596d07de31d8e8487284151a302122f",
+      "bytes": 378560
+    },
+    "views/interior-south.png": {
+      "sha256": "2e368cea1dfb48e3c45fc5d3250b04c525e68f209fdf9ca5f9c8142e6f5685c8",
+      "bytes": 391997
+    },
+    "views/interior-west.png": {
+      "sha256": "5703e6f7ac68ed5d70133dff58994aaeeced93a65de9fa419accc96cb20926d1",
+      "bytes": 483699
+    }
+  }
+}

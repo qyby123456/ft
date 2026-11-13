@@ -1,0 +1,91 @@
+{
+  "id": "CORRIDOR_S19",
+  "design_id": "S19",
+  "name": "黑曜试炼短廊 · 金纹悬笼",
+  "category": "straight_corridor",
+  "kind": "short",
+  "size": [
+    15,
+    11,
+    16
+  ],
+  "length_blocks": 16,
+  "footprint_chunks_when_aligned": [
+    1,
+    1
+  ],
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    3
+  ],
+  "facing": "north",
+  "exit": [
+    7,
+    2,
+    15
+  ],
+  "exit_facing": "south",
+  "exit_interior": [
+    7,
+    2,
+    12
+  ],
+  "portal_clearance": [
+    3,
+    3
+  ],
+  "through_route": {
+    "axis": "z",
+    "x_range": [
+      6,
+      8
+    ],
+    "feet_y": 2,
+    "headroom": 3,
+    "z_range": [
+      0,
+      15
+    ],
+    "turns": 0,
+    "branches": 0,
+    "stairs": 0
+  },
+  "sha256": "8882eecd757c3e7ebb69435d761c3dd1b6beb72e673c3c7200721b46daf550e0",
+  "data_version": 3465,
+  "minecraft": "1.20.1",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/S19-obsidian-trial-intact.png",
+  "reference_sha256": "420458b3957e67b0f5c6b995fdf154363c12656f9027084270574e4c7b556c95",
+  "batch_spec": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/SPEC.md",
+  "design_traits": {
+    "theme": "obsidian-trial",
+    "condition": "intact",
+    "light": "end-rods",
+    "feature": "hanging-cages",
+    "cages": 4
+  },
+  "adaptations": [
+    "远端封闭金纹门转译为同主题开放拱门，确保一字贯通",
+    "熔岩缝转译为菌光体和橙色染色玻璃，零流体零伤害",
+    "金纹用原版金块与镶金黑石体素镶嵌，不含自定义贴图",
+    "末地烛采用原版白光；无人工青色光照或粒子"
+  ],
+  "suggested_resource_id": "ftdungeon:rooms/corridor_s19_obsidian_trial",
+  "slot_assigned": false,
+  "deployed": false,
+  "safety": {
+    "complete_roof": true,
+    "entities": 0,
+    "block_entities": 0,
+    "containers": 0,
+    "fluids": 0,
+    "generated_loot": false,
+    "clear_occupied_world": false
+  },
+  "placement_contract": "完整体积和外边界/实体/流体预检，占用拒绝；一次性持久标记；不得清空或覆盖玩家修改；由统一接入负责人分配唯一槽位"
+}

@@ -1,0 +1,281 @@
+{
+  "id": "N8_03",
+  "name": "晶簇密室",
+  "kind": "small",
+  "size": [
+    9,
+    8,
+    9
+  ],
+  "entrance": [
+    4,
+    1,
+    0
+  ],
+  "interior": [
+    4,
+    1,
+    2
+  ],
+  "facing": "north",
+  "open_sky": false,
+  "authority": {
+    "template": "betterstrongholds:rooms/crypt_sm",
+    "nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\crypt_sm.nbt",
+    "details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\crypt_sm.json",
+    "sha256": "63f9e1987d80e2f076b6d05a15114daee457d989a42d6a570c0868db0e5eeaf5",
+    "source_size": [
+      7,
+      8,
+      7
+    ],
+    "output_size": [
+      9,
+      8,
+      9
+    ],
+    "source_connectors": [
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        },
+        "pos": [
+          4,
+          1,
+          0
+        ],
+        "state": 22
+      }
+    ],
+    "source_palette": [
+      {
+        "Name": "minecraft:stone_bricks"
+      },
+      {
+        "Name": "minecraft:cobblestone"
+      },
+      {
+        "Name": "minecraft:polished_andesite"
+      },
+      {
+        "Name": "minecraft:chiseled_stone_bricks"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Name": "minecraft:air"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:polished_andesite_stairs"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "tall",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "tall",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:smooth_stone_slab"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "false"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Name": "minecraft:spawner"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "facing": "west",
+          "type": "single"
+        },
+        "Name": "minecraft:chest"
+      },
+      {
+        "Properties": {
+          "rotation": "14"
+        },
+        "Name": "minecraft:skeleton_skull"
+      },
+      {
+        "Properties": {
+          "orientation": "north_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "facing": "north"
+        },
+        "Name": "minecraft:black_wall_banner"
+      }
+    ],
+    "adaptation": "7x8x7侧室扩为9x8x9以容纳三格接口；墓室改空箱晶簇密室",
+    "palette_mapping": {
+      "stone_bricks": "deepslate_bricks",
+      "chiseled_stone_bricks": "chiseled_deepslate",
+      "stone_brick_stairs": "polished_deepslate_stairs",
+      "accent": "calcite / amethyst_block / amethyst_cluster",
+      "lighting": "sea_lantern"
+    },
+    "connector_adaptation": "Read original directional jigsaw evidence; replace runtime jigsaws with metadata connections and dry 3x3 north entrance at feet y=1 under FT contract. No YUNG processor, pool, traps, entities or loot dependency copied.",
+    "geometry": "original procedural construction; not redistributed source geometry"
+  },
+  "connections": [
+    {
+      "role": "entrance",
+      "facing": "north",
+      "position": [
+        4,
+        1,
+        0
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "role": "exit",
+      "facing": "east",
+      "position": [
+        8,
+        1,
+        4
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "sha256": "07448573e0a8c9698f4b7e5eff8a2a96520d3fd329950d9676009cc5bdd4ffd9",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S8-crystal-geode\\out\\S8-03-small-room.png",
+  "reference_sha256": "56d0466ec3d67a0f1c27bbda05ddf352be1d9f079b7f10baabd905e3452030d1",
+  "proposed_id": true,
+  "deployment": "NOT_DEPLOYED",
+  "container_policy": "empty; no loot table",
+  "coordinate_system": "+X east, +Y up, +Z south; positions are player feet"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "zone-M03",
+  "status": "PASS",
+  "ready_for_unified_integration": true,
+  "time": "2026-11-03T15:31:58.264976+08:00",
+  "structure_sha256": "f318cf2ca68ee38e98cdb7d35018bbc860da705de46d32030c0a8f85638b4aac",
+  "reference_sha256": "14d4e7e36cd29469c254e7a28b6e2f8dca7a94546d434be8abd9c5ec99b48241",
+  "size": [
+    23,
+    12,
+    25
+  ],
+  "entrance": [
+    11,
+    1,
+    0
+  ],
+  "interior": [
+    11,
+    1,
+    4
+  ],
+  "exit": [
+    11,
+    1,
+    24
+  ],
+  "summary": {
+    "static": "PASS",
+    "records": 6900,
+    "non_air_blocks": 3664,
+    "main_lane": "5 blocks wide, 4 blocks clear height, 25 blocks long",
+    "entrance_safe_point_exit_connected": true,
+    "roof": "two complete layers, y=10 and y=11",
+    "detached_components": 0,
+    "grounded_main_frames": 4,
+    "grounded_extra_side_posts": 2,
+    "supported_lanterns": 8,
+    "supported_rails": 8,
+    "empty_barrels": 6,
+    "fluids_gravity_blocks_hazards_entities_commands": 0,
+    "forge_placements": "4/4 PASS",
+    "forced_chunk_ticks": 200,
+    "native_records_checked_after_ticks": 27600,
+    "world_capture_semantic_mismatches": 0,
+    "negative_support_probes": 8,
+    "negative_blocked_route_probes": 4,
+    "interior_views": 4,
+    "exterior_views": 4,
+    "visual_review": "PASS"
+  },
+  "evidence": {
+    "builder": "builder/summary.json",
+    "static": "qa/static.json",
+    "forge": "qa/forge-native.json",
+    "forge_log": "qa/forge-gametest.log",
+    "forge_raw_log": "qa/forge-latest.log",
+    "capture_comparison": "qa/capture-review.json",
+    "visual_review": "qa/visual-review.json",
+    "render_manifest": "qa/render-manifest.json",
+    "interior_sheet": "views/interior-four-directions.png",
+    "exterior_sheet": "views/exterior-four-directions.png",
+    "four_direction_review": "views/four-direction-review.png",
+    "lodestone": "qa/lodestone-preview.json"
+  },
+  "scope": {
+    "deployed": false,
+    "production_source_modified": false,
+    "player_saves_touched": false,
+    "parallel_delivery_modified": false,
+    "neoforge_kubejs_resourcepack_config_modified": false,
+    "owned_output_root": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\zone-M03",
+    "isolated_test_world": "forge/run/world",
+    "integration_slot": null
+  },
+  "native_log_notes": [
+    "First disposable fixture generated its own server.properties and Forge configs.",
+    "Forge update-check timeout, ResourceLocation/Gradle deprecation, missing framework mods.toml notices, and startup lag are retained in raw logs. The GameTest and Gradle run ended successfully."
+  ],
+  "limitations": [
+    "Software/Lodestone renders are not Minecraft client screenshots; software face shading is not a light simulation.",
+    "No full modpack client, multiplayer, performance, production slot/roadway or persistent integration checks were performed.",
+    "Explicit air does not authorize clearing occupied terrain. The integration owner must validate the full placement volume, liquids and entities before use.",
+    "Reference entity minecart is represented by an empty cauldron mine hopper; no entities are included."
+  ]
+}

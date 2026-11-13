@@ -1,0 +1,39 @@
+{
+  "status": "PENDING_INDEPENDENT_REVIEW",
+  "reference": {
+    "path": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S1-mossy-forest\\out\\S1-07-entrance.png",
+    "sha256": "00a437ef2e9271115bc91aa7d6e9cb4e8648065a7da540b8aa3ed99d8828202b",
+    "bytes": 2933884
+  },
+  "structure": {
+    "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b07-s1-07-20261105\\nature-redo-b07-s1-07\\room.nbt",
+    "sha256": "8f693bd558354d9444e654300197c0f74b1b3870af9069d51897bb510de63133",
+    "bytes": 42295
+  },
+  "landmarks": [
+    "Closed front double gate and external half-steps",
+    "Raised courtyard and rear half-steps to taller portal",
+    "Left decorative supply crates",
+    "Right map mosaic and warm light pedestal",
+    "Root-covered walls with side pool and hanging vines"
+  ],
+  "adaptations": [
+    "27x17x29 integer interpretation; full protective roof and near outer shell added.",
+    "Two vanilla wooden doors replace wider illustrated gate; 2x2 door clearance explicitly declared, closed source blocks access.",
+    "Solid decorative wood crates replace loot containers; no inventories. Birch/moss wall mosaic approximates map, lantern pedestal approximates flame.",
+    "Two half-block rises at front and rear; total feet elevation 2 to 4. No full-block jump route.",
+    "No exterior forest, shader rays, particles, encounters or mechanisms."
+  ],
+  "cutaway_rules": {
+    "source_nbt_sha256": "8f693bd558354d9444e654300197c0f74b1b3870af9069d51897bb510de63133",
+    "candidate_state": "All four door halves closed; all screenshots render this same complete source.",
+    "analysis_derivative": "Native world memory only: exactly four open booleans set true, all other states compared, restored before capture. No open NBT candidate or open screenshot.",
+    "roof": "For non-full display views only hide y>=16.",
+    "hero": "Additionally hide x>=25 or z>=27 at y>=2.",
+    "directional": "At y>=2 hide north z<=1, south z>=27, west x<=1 or east x>=25 respectively.",
+    "full": "No removals in reverse-overview, all four human/detail views and four exterior views. The front gate barrier z23 remains even in hero.",
+    "derived_display_nbt_files": [],
+    "traceability": "qa/render.json records source SHA, camera, mode, displayed records and image SHA; in-memory display structures, source rehashed after rendering."
+  },
+  "next_image_authorized": false
+}

@@ -1,0 +1,185 @@
+{
+  "id": "zone-N01",
+  "candidate_sha256": "e605ff944681a414ab25c113388e51863a37f987417456bd0244d74315737f63",
+  "bundle_sha256": "134ee10a8c18d50d8f8e2b0716742c12186475c1993cb135536dd7959d12cb41",
+  "status": "PASS_INTAKE_ONLY",
+  "size": [
+    25,
+    12,
+    25
+  ],
+  "blocks": 7500,
+  "block_entities": 12,
+  "category": "hub",
+  "producer_metadata_id": "N01",
+  "interfaces_as_declared": {
+    "ports": [
+      {
+        "id": "N",
+        "direction": "north",
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "center": [
+          12,
+          2,
+          0
+        ],
+        "aperture": {
+          "from": [
+            10,
+            2,
+            0
+          ],
+          "to": [
+            14,
+            6,
+            0
+          ]
+        },
+        "throat": {
+          "from": [
+            10,
+            2,
+            0
+          ],
+          "to": [
+            14,
+            6,
+            2
+          ]
+        },
+        "floor_y": 1,
+        "width": 5,
+        "height": 5
+      },
+      {
+        "id": "E",
+        "direction": "east",
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "center": [
+          24,
+          2,
+          12
+        ],
+        "aperture": {
+          "from": [
+            24,
+            2,
+            10
+          ],
+          "to": [
+            24,
+            6,
+            14
+          ]
+        },
+        "throat": {
+          "from": [
+            22,
+            2,
+            10
+          ],
+          "to": [
+            24,
+            6,
+            14
+          ]
+        },
+        "floor_y": 1,
+        "width": 5,
+        "height": 5
+      },
+      {
+        "id": "S",
+        "direction": "south",
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "center": [
+          12,
+          2,
+          24
+        ],
+        "aperture": {
+          "from": [
+            10,
+            2,
+            24
+          ],
+          "to": [
+            14,
+            6,
+            24
+          ]
+        },
+        "throat": {
+          "from": [
+            10,
+            2,
+            22
+          ],
+          "to": [
+            14,
+            6,
+            24
+          ]
+        },
+        "floor_y": 1,
+        "width": 5,
+        "height": 5
+      },
+      {
+        "id": "W",
+        "direction": "west",
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "center": [
+          0,
+          2,
+          12
+        ],
+        "aperture": {
+          "from": [
+            0,
+            2,
+            10
+          ],
+          "to": [
+            0,
+            6,
+            14
+          ]
+        },
+        "throat": {
+          "from": [
+            0,
+            2,
+            10
+          ],
+          "to": [
+            2,
+            6,
+            14
+          ]
+        },
+        "floor_y": 1,
+        "width": 5,
+        "height": 5
+      }
+    ]
+  },
+  "category_path_status": "NOT_VERIFIED",
+  "limitations": "No straight-corridor rule applied; supports, liquids, collision, jumps, ports and visuals still need independent receiver tests"
+}

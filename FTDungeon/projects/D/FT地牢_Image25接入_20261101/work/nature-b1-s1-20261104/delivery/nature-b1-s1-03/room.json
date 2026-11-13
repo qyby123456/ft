@@ -1,0 +1,221 @@
+{
+  "id": "nature-b1-s1-03",
+  "number": "03",
+  "type": "small-room",
+  "name": "林根守望龛",
+  "size": [
+    9,
+    10,
+    9
+  ],
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        4,
+        2,
+        0
+      ],
+      "width": 3,
+      "clearHeight": 3,
+      "outward": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "side": "east",
+      "feet": [
+        8,
+        2,
+        4
+      ],
+      "width": 3,
+      "clearHeight": 3,
+      "outward": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "source_evidence": {
+    "source": "rooms/crypt_sm",
+    "size": [
+      9,
+      10,
+      9
+    ],
+    "rule": "Expand the measured small dead-end 7x8x7 by two per dimension; explicitly add an optional FT side connection."
+  },
+  "sha256": "c9dbc4de36b0ef56f85fe1060d77602fda0740de1ffb25f650da75b003790ed8",
+  "entrance": [
+    4,
+    2,
+    0
+  ],
+  "interior": [
+    4,
+    2,
+    3
+  ],
+  "facing": "north",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S1-mossy-forest\\out\\S1-03-small-room.png",
+  "reference_sha256": "cd8685c13f8f0e7a9011ed0d7904a8103f0c04e0d02ad063352855282ce3c8fe",
+  "group_fingerprint": "b94c1b8e2be1885e50fc5af3c35b7dde363a5ad1f449f1578a18c1348537cc13",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "rotation_pivot": [
+    0,
+    0,
+    0
+  ],
+  "feet_y": 2,
+  "route": [
+    [
+      3,
+      2,
+      0
+    ],
+    [
+      3,
+      2,
+      1
+    ],
+    [
+      3,
+      2,
+      2
+    ],
+    [
+      3,
+      2,
+      3
+    ],
+    [
+      3,
+      2,
+      4
+    ],
+    [
+      3,
+      2,
+      5
+    ],
+    [
+      4,
+      2,
+      0
+    ],
+    [
+      4,
+      2,
+      1
+    ],
+    [
+      4,
+      2,
+      2
+    ],
+    [
+      4,
+      2,
+      3
+    ],
+    [
+      4,
+      2,
+      4
+    ],
+    [
+      4,
+      2,
+      5
+    ],
+    [
+      5,
+      2,
+      0
+    ],
+    [
+      5,
+      2,
+      1
+    ],
+    [
+      5,
+      2,
+      2
+    ],
+    [
+      5,
+      2,
+      3
+    ],
+    [
+      5,
+      2,
+      4
+    ],
+    [
+      5,
+      2,
+      5
+    ],
+    [
+      6,
+      2,
+      3
+    ],
+    [
+      6,
+      2,
+      4
+    ],
+    [
+      6,
+      2,
+      5
+    ],
+    [
+      7,
+      2,
+      3
+    ],
+    [
+      7,
+      2,
+      4
+    ],
+    [
+      7,
+      2,
+      5
+    ],
+    [
+      8,
+      2,
+      3
+    ],
+    [
+      8,
+      2,
+      4
+    ],
+    [
+      8,
+      2,
+      5
+    ]
+  ],
+  "roof_exceptions": [],
+  "status": "CANDIDATE_NOT_INTEGRATED",
+  "deviations": [
+    "Concept lighting is not reproduced as shader effects.",
+    "No closed door blocks the three-block-wide entrance.",
+    "Dimensions are integer block approximations; every entrance uses feet Y=2.",
+    "Treasure chests are intentionally empty; rewards and encounters are not implemented."
+  ],
+  "connections": "Align opposing port feet at matching height with a supported three-wide, three-high dry connector. Minecraft native structure rotation is around local [0,0,0], not the room center. Validate the entire bounding volume before placement. No automatic world placement is included."
+}

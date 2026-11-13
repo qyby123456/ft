@@ -1,0 +1,114 @@
+{
+  "id": "CORRIDOR_S14",
+  "sourceId": "S14",
+  "deliveryId": "corridor-S14",
+  "name": "末地蔓生短廊",
+  "size": [
+    13,
+    10,
+    16
+  ],
+  "entrance": [
+    6,
+    1,
+    0
+  ],
+  "interior": [
+    6,
+    1,
+    2
+  ],
+  "exit": [
+    6,
+    1,
+    15
+  ],
+  "facing": "north",
+  "connectors": [
+    {
+      "name": "north",
+      "facing": "north",
+      "feet": [
+        6,
+        1,
+        0
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "name": "south",
+      "facing": "south",
+      "feet": [
+        6,
+        1,
+        15
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "sha256": "bb75401b9f8f5bbab4f1186d910bc3908dc631546008272e0076d534a27229b4",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/S14-end-overgrown.png",
+  "referenceSha256": "55d41c576a5d4061b182f784bc256c2ae56c7aee06df2d5b3020c825a442a1f2",
+  "dataVersion": 3465,
+  "compression": "gzip",
+  "type": "straight-through-corridor",
+  "lengthClass": "short",
+  "lengthBlocks": 16,
+  "axis": "z",
+  "floorY": 0,
+  "roofY": 9,
+  "reservedMainLane": {
+    "from": [
+      5,
+      1,
+      0
+    ],
+    "to": [
+      7,
+      3,
+      15
+    ]
+  },
+  "materialCounts": {
+    "minecraft:purpur_block": 425,
+    "minecraft:end_stone_bricks": 865,
+    "minecraft:end_stone": 10,
+    "minecraft:moss_block": 20,
+    "minecraft:obsidian": 60,
+    "minecraft:vine": 74,
+    "minecraft:air": 542,
+    "minecraft:purpur_pillar": 24,
+    "minecraft:iron_bars": 6,
+    "minecraft:end_rod": 12,
+    "minecraft:wall_torch": 6,
+    "minecraft:purpur_slab": 22,
+    "minecraft:purpur_stairs": 8,
+    "minecraft:hanging_roots": 6
+  },
+  "designNotes": [
+    "End-stone brick walls, purpur piers and arches, obsidian torch recesses, end-rod light strips, moss and supported vines/roots.",
+    "Two chipped purpur soffit segments are decorative only; structural lintels remain intact and connect to a complete roof.",
+    "The reference suggests a closed far purpur door; the delivery uses an open south arch to meet the straight-through corridor brief.",
+    "End rods retain original vanilla white light; cyan bloom in the reference is not claimed as an in-game shader effect.",
+    "S14 is the image-batch source ID, not a replacement for another room S14; CORRIDOR_S14 is an independent candidate ID for integrator allocation."
+  ],
+  "safety": {
+    "entities": 0,
+    "blockEntities": 0,
+    "containers": 0,
+    "realFluids": 0,
+    "commandBlocks": 0,
+    "spawners": 0,
+    "loot": 0,
+    "completeRoof": true
+  },
+  "integration": {
+    "status": "independent-delivery-only",
+    "deployed": false,
+    "playerSavesOpened": false,
+    "coreModified": false,
+    "slotAssigned": false
+  }
+}

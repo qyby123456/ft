@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved; original table model and implementation"
+
+[[mods]]
+modId="ftdungeontrading"
+version="1.0.0"
+displayName="FT地牢交易"
+description='''
+地牢交易桌：桌面分区展示付款与商品，右键预览，再次右键确认购买。
+数据包与 Java API 可自定义双方物品，支持有限库存、服务端原子结算与 Forge 扩展事件。
+本扩展独立于地牢难度及挑战机制，不依赖或修改此前已弃用的火盆模型。
+'''
+
+[[dependencies.ftdungeontrading]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,48)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ftdungeontrading]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

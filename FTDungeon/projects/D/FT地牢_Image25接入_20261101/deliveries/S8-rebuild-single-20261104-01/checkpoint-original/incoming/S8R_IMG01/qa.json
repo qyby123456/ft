@@ -1,0 +1,57 @@
+{
+  "status": "TECHNICAL_SELFCHECK_PASS_AWAITING_ACCEPTANCE",
+  "sha256": "bc3055ddc6979a24859f8d643ec652c0951a669ea3098c84c335adf11c8ed428",
+  "static": {
+    "status": "PASS",
+    "checks": [
+      "bounds",
+      "chain to roof",
+      "complete foundation",
+      "complete roof",
+      "crystal support",
+      "dry 3x3 east port",
+      "dry 3x3 north port",
+      "dry 3x3 south port",
+      "dry 3x3 west port",
+      "lantern support",
+      "no hazards or forbidden blocks",
+      "no spawned entities",
+      "size and 1.20.1 DataVersion",
+      "unique full-volume positions"
+    ],
+    "nbt_sha256": "bc3055ddc6979a24859f8d643ec652c0951a669ea3098c84c335adf11c8ed428",
+    "scope": "static structural checks; collision path checked separately with native engine"
+  },
+  "native": {
+    "id": "S8R_IMG01",
+    "status": "PASS",
+    "size": [
+      23,
+      13,
+      23
+    ],
+    "blocks": 6877,
+    "palette_states": 11,
+    "loaded_block_entities": 0,
+    "valid_written_books": 0,
+    "native_collision_path_reachable_positions": 346,
+    "sha256": "bc3055ddc6979a24859f8d643ec652c0951a669ea3098c84c335adf11c8ed428"
+  },
+  "all_declared_ports_and_route_targets_native_collision": "PASS",
+  "lodestone_browser": {
+    "status": "PASS",
+    "viewer_stats": "23 x 13 x 23 | 6,877 blocks",
+    "page_errors": [],
+    "screenshot": "lodestone-preview.png",
+    "source": "actual bundled Lodestone WebGL viewer with final complete NBT; not a concept image",
+    "url": "http://127.0.0.1:5588/?nbt=%2F__minecraft_builder__%2Fbuild.nbt&name=S8R_IMG01"
+  },
+  "duplicate_selfcheck": {
+    "compared": 73,
+    "exact_geometry_matches": 0,
+    "final_topology_audit": "AWAITING_COORDINATOR"
+  },
+  "world_placement": "NOT_RUN",
+  "forge_rotation_and_ticks": "NOT_RUN",
+  "gameplay": "NOT_RUN"
+}

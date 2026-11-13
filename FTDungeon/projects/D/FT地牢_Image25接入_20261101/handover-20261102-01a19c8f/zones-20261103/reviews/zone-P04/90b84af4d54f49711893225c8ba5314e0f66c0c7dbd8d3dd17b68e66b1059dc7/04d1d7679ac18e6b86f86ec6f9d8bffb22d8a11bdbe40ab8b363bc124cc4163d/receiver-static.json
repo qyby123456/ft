@@ -1,0 +1,132 @@
+{
+  "id": "zone-P04",
+  "candidate_sha256": "90b84af4d54f49711893225c8ba5314e0f66c0c7dbd8d3dd17b68e66b1059dc7",
+  "bundle_sha256": "04d1d7679ac18e6b86f86ec6f9d8bffb22d8a11bdbe40ab8b363bc124cc4163d",
+  "status": "PASS_INTAKE_ONLY",
+  "size": [
+    23,
+    16,
+    27
+  ],
+  "blocks": 9936,
+  "block_entities": 0,
+  "category": "parkour",
+  "producer_metadata_id": "zone-P04",
+  "interfaces_as_declared": {
+    "entrance": [
+      11,
+      5,
+      0
+    ],
+    "interior": [
+      11,
+      5,
+      3
+    ],
+    "exit": [
+      11,
+      5,
+      26
+    ],
+    "connectors": [
+      {
+        "side": "north",
+        "position": [
+          11,
+          5,
+          0
+        ],
+        "width": 3,
+        "height": 3
+      },
+      {
+        "side": "south",
+        "position": [
+          11,
+          5,
+          26
+        ],
+        "width": 3,
+        "height": 3
+      }
+    ],
+    "route": {
+      "direction": "north entry -> west ledges -> south gallery -> south exit",
+      "jumps": [
+        {
+          "id": "J1",
+          "takeoff": [
+            3.5,
+            5,
+            7.65
+          ],
+          "landing_z": [
+            9.3,
+            11.7
+          ],
+          "landing_y": 5,
+          "gap_z": 8,
+          "gap_blocks": 1,
+          "rise": 0
+        },
+        {
+          "id": "J2",
+          "takeoff": [
+            3.5,
+            5,
+            11.65
+          ],
+          "landing_z": [
+            13.3,
+            15.7
+          ],
+          "landing_y": 6,
+          "gap_z": 12,
+          "gap_blocks": 1,
+          "rise": 1
+        },
+        {
+          "id": "J3",
+          "takeoff": [
+            3.5,
+            6,
+            15.65
+          ],
+          "landing_z": [
+            17.3,
+            19.7
+          ],
+          "landing_y": 6,
+          "gap_z": 16,
+          "gap_blocks": 1,
+          "rise": 0
+        },
+        {
+          "id": "J4",
+          "takeoff": [
+            3.5,
+            6,
+            19.65
+          ],
+          "landing_z": [
+            21.3,
+            23.7
+          ],
+          "landing_y": 6,
+          "gap_z": 20,
+          "gap_blocks": 1,
+          "rise": 0
+        }
+      ],
+      "minimum_path_width": 2,
+      "minimum_headroom": 3,
+      "max_gap_blocks": 1,
+      "max_rise_blocks": 1,
+      "requires_sprint": false,
+      "requires_potion_or_equipment": false,
+      "checkpoint_semantics": "Physical resting platforms only; no automatic teleport, respawn or persistent checkpoint."
+    }
+  },
+  "category_path_status": "NOT_VERIFIED",
+  "limitations": "No straight-corridor rule applied; supports, liquids, collision, jumps, ports and visuals still need independent receiver tests"
+}

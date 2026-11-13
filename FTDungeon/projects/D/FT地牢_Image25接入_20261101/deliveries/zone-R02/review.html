@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>R02 废弃前哨 · 成品审阅</title><link rel="icon" href="data:,">
+<style>
+body{margin:0;background:#202428;color:#ede8dc;font:16px/1.6 "Microsoft YaHei",sans-serif}main{max-width:1280px;margin:auto;padding:24px}h1{margin:0 0 10px}p{color:#c6c1b6}nav{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0}button{padding:8px 14px;border:1px solid #80715e;background:#343637;color:#f0d0a2;border-radius:4px;cursor:pointer}img{max-width:100%;display:block;margin:14px auto;border:1px solid #41484b}code{overflow-wrap:anywhere;color:#d5bd98}a{color:#e4bd84}#current{color:#e9c492}
+</style>
+<main><h1>R02 · 废弃前哨</h1><p>独立成品：21×11×21，北入口 [10,1,0]，安全点 [10,1,6]。静态、视觉、Forge 四旋转与 200 tick 验收通过。以下均为实际 room.nbt 软件渲染，剖切只作用于渲染副本。</p><p><code>SHA-256 50a5eaeaba0a791056625fd164bad013a737022d9fff5e5395573305bae00793</code></p><nav id="views"></nav><div id="current"></div><img id="image" src="preview.png" alt="废弃前哨实际结构预览"><p>核心接入与部署另由协调方处理；本交付未修改正式实例和玩家存档。<a href="README.md">交付说明</a> · <a href="qa.json">QA 汇总</a> · <a href="manifest.json">哈希清单</a></p></main>
+<script>
+const views = [['总览','preview.png'],['四向内外合页','preview/four-view-sheet.png'],['屋顶入口合页','preview/overview-roof-entrance.png'],['北内','preview/north.png'],['南内','preview/south.png'],['西内','preview/west.png'],['东内','preview/east.png'],['北壳','preview/shell_north.png'],['南壳','preview/shell_south.png'],['西壳','preview/shell_west.png'],['东壳','preview/shell_east.png'],['完整屋顶','preview/roof.png'],['入口内部','preview/entrance.png']]
+for(const [label,file] of views){const button=document.createElement('button');button.textContent=label;button.onclick=()=>{document.getElementById('image').src=file;document.getElementById('current').textContent=label};document.getElementById('views').append(button)}
+</script>
+</html>

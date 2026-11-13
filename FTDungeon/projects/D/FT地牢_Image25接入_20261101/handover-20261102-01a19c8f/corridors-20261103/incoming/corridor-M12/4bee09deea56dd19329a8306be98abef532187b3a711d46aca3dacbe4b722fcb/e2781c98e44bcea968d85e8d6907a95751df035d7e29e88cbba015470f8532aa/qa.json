@@ -1,0 +1,50 @@
+{
+  "id": "corridor-M12",
+  "status": "PASS",
+  "sha256": "4bee09deea56dd19329a8306be98abef532187b3a711d46aca3dacbe4b722fcb",
+  "reference_sha256": "d525bbd2f9b7059a2ae60caf736231c753665a1b2b6c906194e497fa83db0e8f",
+  "size": [
+    13,
+    11,
+    40
+  ],
+  "static": {
+    "status": "PASS",
+    "report": "qa/static.json",
+    "checks": 15,
+    "records": 5720,
+    "non_air": 2911
+  },
+  "native_forge": {
+    "status": "PASS",
+    "report": "qa/native.json",
+    "execution": "qa/native-run.json",
+    "log": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-M12\\qa\\forge-corridor-m12-20261103-104749-816.log",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "placed_records": 22880,
+    "settled_ticks": 400
+  },
+  "four_direction_review": {
+    "status": "PASS",
+    "report": "qa/four-view-review.json",
+    "render_manifest": "qa/render.json",
+    "individual_views": 8,
+    "sheet": "preview/eight-view-review.png"
+  },
+  "scope": {
+    "candidate_only": true,
+    "production_deployed": false,
+    "player_save_used": false,
+    "core_source_modified": false,
+    "full_modpack_playtest": false,
+    "paid_image_generation_called": false
+  },
+  "limitations": [
+    "软件渲染不是整合包游戏截图；不模拟烛火粒子或完整游戏光照。",
+    "Forge 为仅加载验证夹具的隔离 GameTestServer，不代表完整整合包多人/FPS验收。",
+    "未分配正式接入槽位；不得与已有 M12 菌菇地窖 ID 混用。",
+    "NBT 明确记录整个体积（含空气）；接入必须先做全体积占用、实体和液体拒绝，禁止覆盖玩家建筑。"
+  ]
+}

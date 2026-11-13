@@ -1,0 +1,133 @@
+{
+  "id": "corridor-S05",
+  "design_id": "S05",
+  "name": "黑石积水吊笼短廊",
+  "status": "PASS",
+  "verified_at": "2026-11-03T11:36:52.958006+08:00",
+  "sha256": "c31084a7ac041e079595c0549205ae72a903efb86d5e2eb469c798e1ab3a0076",
+  "source_nbt_sha256": "c31084a7ac041e079595c0549205ae72a903efb86d5e2eb469c798e1ab3a0076",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\S05-blackstone-deepslate-flooded.png",
+  "reference_sha256": "07435538db7e9d2361a768877170d8b9e622b7e49109fca0ec677e35ecf95c1a",
+  "delivery_files": [
+    "room.nbt",
+    "room.json",
+    "preview.png",
+    "qa.json"
+  ],
+  "size": [
+    11,
+    10,
+    16
+  ],
+  "entrance": [
+    5,
+    2,
+    0
+  ],
+  "interior": [
+    5,
+    2,
+    3
+  ],
+  "exit": [
+    5,
+    2,
+    15
+  ],
+  "checks": {
+    "static": {
+      "status": "PASS",
+      "report": "qa/static.json"
+    },
+    "native_forge": {
+      "status": "PASS",
+      "report": "qa/native.json"
+    },
+    "four_view_render": {
+      "status": "PASS",
+      "report": "qa/render-manifest.json"
+    },
+    "lodestone": {
+      "status": "PASS",
+      "report": "qa/lodestone.json"
+    },
+    "visual_review": {
+      "status": "PASS",
+      "report": "qa/visual-review.json"
+    }
+  },
+  "static_checks_passed": 13,
+  "forge": {
+    "minecraft": "1.20.1",
+    "version": "47.4.10",
+    "rotation_count": 4,
+    "records_checked": 7040,
+    "stable_snapshot_ticks": [
+      200,
+      240
+    ],
+    "water_sources_per_rotation": 52,
+    "dry_feet_per_rotation": 48,
+    "native_captures": [
+      {
+        "path": "qa/native-placed-none.nbt",
+        "sha256": "1ffc3e872cf347ea26d0240ac937bcaec07b6172091c20309022bdc6b81373c1",
+        "records_match_source_with_native_defaults": 1760
+      },
+      {
+        "path": "qa/native-placed-clockwise_90.nbt",
+        "sha256": "1ffc3e872cf347ea26d0240ac937bcaec07b6172091c20309022bdc6b81373c1",
+        "records_match_source_with_native_defaults": 1760
+      },
+      {
+        "path": "qa/native-placed-clockwise_180.nbt",
+        "sha256": "1ffc3e872cf347ea26d0240ac937bcaec07b6172091c20309022bdc6b81373c1",
+        "records_match_source_with_native_defaults": 1760
+      },
+      {
+        "path": "qa/native-placed-counterclockwise_90.nbt",
+        "sha256": "1ffc3e872cf347ea26d0240ac937bcaec07b6172091c20309022bdc6b81373c1",
+        "records_match_source_with_native_defaults": 1760
+      }
+    ],
+    "negative_probes": {
+      "blocked_route": 4,
+      "perforated_pool_bed": 4,
+      "missing_cage_roof_anchor": 4
+    }
+  },
+  "liquid_sealing": "PASS: 52 one-block-deep source blocks remain within bed and side/threshold seals; external 1-block moat is dry after scheduled water updates.",
+  "walkability": "PASS: 3-wide by at least 3-high dry level passage, all 48 feet positions connected north to south in all rotations.",
+  "supports": "PASS: eight grounded beam columns, four roof-anchored cage chains, six supported wall torches; no state drift, unsupported blocks or item drops.",
+  "four_view_evidence": [
+    "preview/north.png",
+    "preview/south.png",
+    "preview/west.png",
+    "preview/east.png",
+    "preview/four-views.png",
+    "preview/exterior.png",
+    "preview/exterior-south.png",
+    "preview/native-four-views.png",
+    "preview/lodestone-interior.png",
+    "preview/plan.png"
+  ],
+  "prior_failed_attempt": {
+    "log": "qa/forge-20261103-101323.log",
+    "cause": "Missing pack.mcmeta excluded the QA fixture data pack, so GameTest could not find empty.nbt.",
+    "resolved_by": "Added pack_format 15 metadata, relaunched a fresh isolated world; subsequent test and Gradle build PASS."
+  },
+  "deployment": {
+    "deployed": false,
+    "production_jar_changed": false,
+    "player_saves_opened": false,
+    "core_slot_assigned": false,
+    "ready_for_coordinator_review": true
+  },
+  "limitations": [
+    "Software and Lodestone previews are rendered from actual final or native-capture NBT, not AI replacements or Minecraft client screenshots.",
+    "Forge evidence is an isolated 1.20.1/47.4.10 server; full-modpack gameplay, FPS and multiplayer were not tested.",
+    "No core integration, hallway connection, production-world occupancy/idempotence or deployment was performed.",
+    "Water simulation ran with scheduled ticks; random ticks and mob spawning were disabled.",
+    "Reference adaptation: dry central route replaces fully flooded floor and open arch replaces closed far door."
+  ]
+}

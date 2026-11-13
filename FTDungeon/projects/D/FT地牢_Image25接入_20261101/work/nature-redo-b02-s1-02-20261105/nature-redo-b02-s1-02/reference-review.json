@@ -1,0 +1,33 @@
+{
+  "status": "PENDING_INDEPENDENT_REVIEW",
+  "reference": {
+    "path": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S1-mossy-forest\\out\\S1-02-medium-room.png",
+    "sha256": "66cdda2e7fff580e89bd442017624faae0ef108209af30d5efa9806583ec53d1",
+    "bytes": 2882650
+  },
+  "structure": {
+    "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b02-s1-02-20261105\\nature-redo-b02-s1-02\\room.nbt",
+    "sha256": "f541344aa8a3a2f3cc47d1f4580efd9a06036b60bf5bfd43ca6b4ef6858467c2",
+    "bytes": 20201
+  },
+  "image_landmarks": [
+    "Low central square basin",
+    "Back-left desk and barrel",
+    "Back-right bookshelf and chest niche",
+    "Wall roots with hanging lamps and leaves",
+    "Front-side water pools"
+  ],
+  "adaptations": [
+    "23x13x21 integer interpretation, not exact image measurement",
+    "Full roof and walls; south connector added",
+    "Short waterfall represented by a sealed glazed source-water column"
+  ],
+  "cutaway_rules": {
+    "roof": "Display only: hide y>=12.",
+    "hero": "Additionally hide x<=1 or z>=19 at y>=2.",
+    "directional": "At y>=2 hide north z<=1, south z>=19, west x<=1 or east x>=21 respectively.",
+    "full": "No blocks removed, including player-interior and four exterior views.",
+    "native_nbt_modified": false
+  },
+  "next_image_authorized": false
+}

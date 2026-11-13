@@ -1,0 +1,60 @@
+{
+  "id": "corridor-M04",
+  "source_id": "M04",
+  "status": "PASS",
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "structure_sha256": "1a8c54b5bcf61801a81aea72ae0532a83c2970e6257c9db088d7b04154b88d54",
+  "reference_sha256": "537f369f2598d7c3f603011fca9b64e69f2793fe458285bc44da1afdeee10eee",
+  "size": [
+    13,
+    12,
+    41
+  ],
+  "length_blocks": 41,
+  "length_chunks": 2.5625,
+  "checks": {
+    "static_qa": "PASS",
+    "forge_four_rotations": "PASS",
+    "forge_repeated_placements": 8,
+    "elapsed_native_server_ticks": 200,
+    "source_water_blocks_per_rotation": 222,
+    "dry_route_cells_per_rotation": 123,
+    "structural_state_mismatches": 0,
+    "can_survive_failures": 0,
+    "leaked_fluid_blocks": 0,
+    "allowed_natural_vine_changes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "deterministic_rebuild": true,
+    "final_nbt_rendered_views": 10,
+    "decoded_png_files": 13
+  },
+  "evidence": {
+    "static": "qa/static-qa.json",
+    "forge": "qa/forge-placement.json",
+    "console": "qa/forge-console.log",
+    "render": "qa/render-qa.json",
+    "static_human_readable": "STATIC_QA.md",
+    "interior_four_views": "views/interior-four-views.png",
+    "exterior_four_views": "views/exterior-four-views.png",
+    "rebuild": "qa/rebuild/room.nbt",
+    "initial_failed_fixture_run": "qa/forge-console-initial-aquifer-failure.log",
+    "initial_failure_diagnosis": "qa/fixture-diagnosis.json"
+  },
+  "deployment": {
+    "deployed": false,
+    "player_saves_opened": false,
+    "mods_modified": false,
+    "existing_dungeon_modified": false
+  },
+  "limits": [
+    "Forge evidence is from an isolated vanilla-plus-test Forge GameTest server, not a full-modpack graphical client.",
+    "Preview images are final-NBT Lodestone software renders, not Minecraft screenshots.",
+    "No FT lobby connection, automatic placement, persistent generation marker or deployment is provided.",
+    "The default random tick speed remains 3; any harmless sidewall-vine growth is separately counted, never hidden as an exact match."
+  ]
+}

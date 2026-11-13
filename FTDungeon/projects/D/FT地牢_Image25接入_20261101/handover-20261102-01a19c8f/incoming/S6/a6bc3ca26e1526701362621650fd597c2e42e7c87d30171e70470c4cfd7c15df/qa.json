@@ -1,0 +1,269 @@
+{
+  "id": "S6",
+  "name": "地狱魂火祭坛",
+  "status": "PASS",
+  "sha256": "a6bc3ca26e1526701362621650fd597c2e42e7c87d30171e70470c4cfd7c15df",
+  "reference": {
+    "path": "D:\\ft工程文件\\image2.5\\dungeon-design-batch3-20261101\\out\\S6-nether-soul-shrine-hero.png",
+    "sha256": "cd80e2ae91d8d5b47d80243422a87abcab5e0d68d8fda13d9c41365fea2b15a7",
+    "verified": true
+  },
+  "size_xyz": [
+    9,
+    7,
+    9
+  ],
+  "footprint_xz": [
+    9,
+    9
+  ],
+  "height": 7,
+  "entrance": [
+    4,
+    1,
+    0
+  ],
+  "interior": [
+    4,
+    1,
+    2
+  ],
+  "facing": "north",
+  "static": {
+    "status": "PASS",
+    "passed": true,
+    "full_volume_blocks": 567,
+    "single_palette": true,
+    "floor_and_roof_columns": 81,
+    "north_opening": {
+      "width": 3,
+      "height": 3,
+      "full_floor": true,
+      "only_opening": true
+    },
+    "navigation": {
+      "dry_reachable_positions": 31,
+      "entrance": [
+        4,
+        1,
+        0
+      ],
+      "interior": [
+        4,
+        1,
+        2
+      ],
+      "required_safe_points": [
+        [
+          2,
+          1,
+          4
+        ],
+        [
+          6,
+          1,
+          4
+        ],
+        [
+          4,
+          1,
+          6
+        ],
+        [
+          4,
+          1,
+          7
+        ]
+      ],
+      "side_and_rear_route": true,
+      "full_block_floor_route": true
+    },
+    "support_checks": {
+      "wall_skull": 3,
+      "standing_soul_lantern": 4,
+      "soul_fire": 1,
+      "chain": 9,
+      "lava_dripstone": 1,
+      "soul_lantern": 3
+    },
+    "lava": {
+      "positions": [
+        [
+          1,
+          1,
+          7
+        ],
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          1,
+          4,
+          7
+        ],
+        [
+          1,
+          5,
+          7
+        ],
+        [
+          7,
+          5,
+          7
+        ]
+      ],
+      "sealed_sides_and_bottom": true,
+      "drip_reservoir": [
+        7,
+        5,
+        7
+      ],
+      "drip_support": [
+        7,
+        4,
+        7
+      ],
+      "drip_tip": [
+        7,
+        3,
+        7
+      ]
+    },
+    "inventory_items": 0,
+    "loot_tables": 0,
+    "entities": 0,
+    "block_entities": 3,
+    "reward_containers": 0,
+    "flammable_wood": 0,
+    "materials": {
+      "minecraft:air": 172,
+      "minecraft:chain": 9,
+      "minecraft:chiseled_polished_blackstone": 4,
+      "minecraft:cracked_nether_bricks": 30,
+      "minecraft:gilded_blackstone": 11,
+      "minecraft:glass": 10,
+      "minecraft:lava": 6,
+      "minecraft:nether_bricks": 32,
+      "minecraft:pointed_dripstone": 1,
+      "minecraft:polished_basalt": 14,
+      "minecraft:polished_blackstone": 9,
+      "minecraft:polished_blackstone_brick_slab": 4,
+      "minecraft:polished_blackstone_brick_stairs": 1,
+      "minecraft:polished_blackstone_bricks": 134,
+      "minecraft:quartz_pillar": 8,
+      "minecraft:red_nether_bricks": 110,
+      "minecraft:skeleton_wall_skull": 3,
+      "minecraft:soul_fire": 1,
+      "minecraft:soul_lantern": 7,
+      "minecraft:soul_soil": 1
+    },
+    "id": "S6",
+    "sha256": "a6bc3ca26e1526701362621650fd597c2e42e7c87d30171e70470c4cfd7c15df",
+    "reference_sha256": "cd80e2ae91d8d5b47d80243422a87abcab5e0d68d8fda13d9c41365fea2b15a7",
+    "roundtrip": "PASS"
+  },
+  "native": {
+    "id": "S6",
+    "status": "PASS",
+    "sha256": "a6bc3ca26e1526701362621650fd597c2e42e7c87d30171e70470c4cfd7c15df",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "test": "StructureTemplate.placeInWorld on isolated Forge GameTest server",
+    "ticks_observed": 240,
+    "forced_neighbor_updates": true,
+    "forced_lava_ticks": true,
+    "native_registry_and_properties": "PASS",
+    "native_structure_roundtrip": "PASS",
+    "native_dripstone_fluid_resolution": "LAVA at all four rotated tips via PointedDripstoneBlock.getCauldronFillFluidType",
+    "rotations": [
+      {
+        "states_preserved": 567,
+        "sealed_lava_cells": 6,
+        "collision_reachable_positions": 31,
+        "soul_fire": 1,
+        "supported_lava_dripstone": 1,
+        "soul_lanterns": 7,
+        "skulls": 3,
+        "rotation": "NONE",
+        "anchored_chains": 9
+      },
+      {
+        "states_preserved": 567,
+        "sealed_lava_cells": 6,
+        "collision_reachable_positions": 31,
+        "soul_fire": 1,
+        "supported_lava_dripstone": 1,
+        "soul_lanterns": 7,
+        "skulls": 3,
+        "rotation": "CLOCKWISE_90",
+        "anchored_chains": 9
+      },
+      {
+        "states_preserved": 567,
+        "sealed_lava_cells": 6,
+        "collision_reachable_positions": 31,
+        "soul_fire": 1,
+        "supported_lava_dripstone": 1,
+        "soul_lanterns": 7,
+        "skulls": 3,
+        "rotation": "CLOCKWISE_180",
+        "anchored_chains": 9
+      },
+      {
+        "states_preserved": 567,
+        "sealed_lava_cells": 6,
+        "collision_reachable_positions": 31,
+        "soul_fire": 1,
+        "supported_lava_dripstone": 1,
+        "soul_lanterns": 7,
+        "skulls": 3,
+        "rotation": "COUNTERCLOCKWISE_90",
+        "anchored_chains": 9
+      }
+    ],
+    "inventory_items": 0,
+    "loot_tables": 0,
+    "client_visual_tested": false,
+    "particle_emission_visually_observed": false,
+    "limitations": [
+      "No full modpack client screenshot/FPS or multiplayer play test",
+      "Lava-drip source/support/airspace verified; client particle appearance is not visually tested",
+      "No FT core catalog/connection deployment in this independent structure task"
+    ]
+  },
+  "native_roundtrip_block_state_and_block_entity_comparison": "EXACT_MATCH",
+  "preview": {
+    "source": "room.nbt",
+    "sha256": "5fadeb1b840d3f36e06e3772aeaddfb8815897f06634222c981a5bcd7bd6b7aa",
+    "size": [
+      1760,
+      1100
+    ],
+    "kind": "software vanilla-model cutaway",
+    "visually_reviewed": true,
+    "not_game_screenshot": true
+  },
+  "evidence": {
+    "static": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\static.json",
+    "forge_native": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\forge-native.json",
+    "forge_log": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\forge-run.log",
+    "native_roundtrip": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\native-roundtrip.nbt",
+    "render_manifest": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\render.json",
+    "four_views": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\four-views.png",
+    "complete_exterior": "D:\\ft工程文件\\FT地牢_S6_地狱魂火祭坛_20261102\\qa\\exterior.png"
+  },
+  "player_saves_modified": false,
+  "deployed_jars_modified": false,
+  "core_modified": false,
+  "other_rooms_modified": false,
+  "deployed": false,
+  "paid_image_calls": 0,
+  "integration_status": "Independent S6 delivery; core owner must register, connect and test before deploying"
+}

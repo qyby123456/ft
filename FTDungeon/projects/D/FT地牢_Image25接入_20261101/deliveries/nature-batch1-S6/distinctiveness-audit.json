@@ -1,0 +1,302 @@
+{
+  "revision": "S6-R2-distinct-topology",
+  "group": "S6",
+  "peer_documents_reviewed": [
+    {
+      "readme": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\nature-batch1-group4-swamp\\README.md",
+      "sha256": "77c1deb1f23ee87342534d41438baf529cd22e2a55a49a03a677106a24cb2835",
+      "scope": "read-only current design documentation comparison; not whole-group NBT similarity certification"
+    },
+    {
+      "readme": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\nature-S5-coral-ocean-20261104\\README.md",
+      "sha256": "277ec9186cc1e61470b106c32d99381cf43c9ebe2250a0f066f823e89d5226b8",
+      "scope": "read-only current design documentation comparison; not whole-group NBT similarity certification"
+    },
+    {
+      "readme": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\nature-b1-S8-crystal\\README.md",
+      "sha256": "189cee418e2a17b031532d2a138229da4ce6de14b02983b48cfe7e03631ed486",
+      "scope": "read-only current design documentation comparison; not whole-group NBT similarity certification"
+    }
+  ],
+  "other_groups_modified_or_imported": false,
+  "core_signature": [
+    "longitudinal opaque reactor spine with bilateral loops and rear reunion",
+    "alternating three-baffle lateral zigzag hall",
+    "mandatory 2-5-2 feet-height kiln crossing",
+    "well with ground bypass and two optional 2-5-2 side ledges"
+  ],
+  "rooms": [
+    {
+      "id": "NAT6-01",
+      "sha256": "a2d198a3fa34b60d4eb7e23ef95bae06e078971376a760f4eb23344dbd8ebec6",
+      "topology": "longitudinal solid reactor spine splits west/east routes with reunion behind core; north to east/west branches",
+      "vertical": "floor feet2; monumental core to y9, non-walkable landmark",
+      "landmark": "gilded inlet face and alternating hot inspection slots",
+      "pacing": "entry reveal -> side cover choice -> flank core -> regroup at rear",
+      "mechanism": "sealed lava visual core; no automatic reactor logic",
+      "waypoints": [
+        [
+          9,
+          2,
+          12
+        ],
+        [
+          27,
+          2,
+          12
+        ],
+        [
+          18,
+          2,
+          21
+        ]
+      ],
+      "blocked": [
+        [
+          18,
+          2,
+          6
+        ],
+        [
+          18,
+          2,
+          18
+        ]
+      ],
+      "topology_file": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\nature-batch1-S6\\incoming\\NAT6-01\\topology.json"
+    },
+    {
+      "id": "NAT6-02",
+      "sha256": "a61092b684a96301a26bdaa8c1f72b99feb18e48d8eefe696489e7e3acb4c4ee",
+      "topology": "west-edge dogleg around transverse divider, then side-route to east exit",
+      "vertical": "feet2 main route with low central plinth",
+      "landmark": "western lit end of blocking bulkhead",
+      "pacing": "lost sightline -> left turn -> chamber reveal",
+      "mechanism": "fixed sightline obstruction, not a moving door",
+      "waypoints": [
+        [
+          2,
+          2,
+          6
+        ],
+        [
+          12,
+          2,
+          10
+        ]
+      ],
+      "blocked": [
+        [
+          7,
+          2,
+          5
+        ]
+      ],
+      "topology_file": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\nature-batch1-S6\\incoming\\NAT6-02\\topology.json"
+    },
+    {
+      "id": "NAT6-03",
+      "sha256": "e8b3f7aaf428e93e793278823afaf2ca9d3d486fd8b31ba106a27a7ba8f4152a",
+      "topology": "single-ended maintenance bay, no through-route",
+      "vertical": "feet2; valve lever at y3",
+      "landmark": "manual thermal beacon switch next to sealed lava inspection strip",
+      "pacing": "quiet service stop -> optional switch -> backtrack",
+      "mechanism": "real vanilla lever on redstone lamp, initially unpowered; tick test pending",
+      "waypoints": [],
+      "blocked": [],
+      "topology_file": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\nature-batch1-S6\\incoming\\NAT6-03\\topology.json"
+    },
+    {
+      "id": "NAT6-04",
+      "sha256": "48b94306d77ed8b0c6ec8e9e12a692b5d22f3639e99412cdadad3e6599ecb312",
+      "topology": "three alternating W/E/W gap baffles force lateral zigzag despite north/south external ports",
+      "vertical": "feet2; baffles y2..5 allow visibility above but not straight passage",
+      "landmark": "lit alternating baffle ends",
+      "pacing": "three separated sightline/reposition beats, then south release",
+      "mechanism": "static cover; no spawned waves or trigger claims",
+      "waypoints": [
+        [
+          5,
+          2,
+          5
+        ],
+        [
+          24,
+          2,
+          8
+        ],
+        [
+          5,
+          2,
+          11
+        ]
+      ],
+      "blocked": [
+        [
+          14,
+          2,
+          4
+        ],
+        [
+          14,
+          2,
+          7
+        ],
+        [
+          14,
+          2,
+          10
+        ]
+      ],
+      "topology_file": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\nature-batch1-S6\\incoming\\NAT6-04\\topology.json"
+    },
+    {
+      "id": "NAT6-05",
+      "sha256": "676b60f254d55bfdc6d183ef530aa9ad850164b8d68b8c677d3f7f352a94c562",
+      "topology": "single mandatory elevated kiln crossing; no ground-level bypass",
+      "vertical": "feet2 -> stairs3/4 -> deck5 -> stairs4/3 -> feet2",
+      "landmark": "raised central heat-inspection deck over enclosed channels",
+      "pacing": "compress on ascent -> elevated exposed span -> descent release",
+      "mechanism": "passive grade separation, no timed lava or piston motion",
+      "waypoints": [
+        [
+          4,
+          5,
+          10
+        ]
+      ],
+      "blocked": [
+        [
+          4,
+          2,
+          10
+        ]
+      ],
+      "topology_file": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\nature-batch1-S6\\incoming\\NAT6-05\\topology.json"
+    },
+    {
+      "id": "NAT6-06",
+      "sha256": "23ffd05f9f2fb976d786e908d0e7e1be8af73ecdb05d904f5c82b6a5e33f277a",
+      "topology": "north/east elbow with solid blind inner quadrant; external elbow is shared connector vocabulary, not uniqueness claim",
+      "vertical": "feet2, no elevation trick",
+      "landmark": "two offset ember lamps mark blind turn",
+      "pacing": "blind 90-degree corner; transition connector only",
+      "mechanism": "none",
+      "waypoints": [
+        [
+          7,
+          2,
+          7
+        ]
+      ],
+      "blocked": [
+        [
+          3,
+          2,
+          3
+        ]
+      ],
+      "topology_file": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\nature-batch1-S6\\incoming\\NAT6-06\\topology.json"
+    },
+    {
+      "id": "NAT6-07",
+      "sha256": "fe9449712421e886da90ea40345fba4374de022752d330c11b82bff35741b389",
+      "topology": "two-ended threshold with optional side valve alcove, not core combat room",
+      "vertical": "feet2; high gilded portal lintel",
+      "landmark": "manual unpowered thermal beacon under double basalt uprights",
+      "pacing": "arrival and inspection before reactor zone",
+      "mechanism": "real vanilla lever on lamp; no lockout or prerequisite imposed",
+      "waypoints": [],
+      "blocked": [],
+      "topology_file": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\nature-batch1-S6\\incoming\\NAT6-07\\topology.json"
+    },
+    {
+      "id": "NAT6-08",
+      "sha256": "a2691fbb7f5f0ae622a13746049c3d5a6dedc5af16b41b9e4ee8021a27a08296",
+      "topology": "ground bypass around well plus two optional stepped side inspection ledges",
+      "vertical": "ground feet2, side stairs to feet5, open central skylight",
+      "landmark": "well core framed by paired elevated inspection ledges",
+      "pacing": "open sky respite -> choose low path or raised observation -> descend",
+      "mechanism": "passive dual-height traversal, no teleport or falling trap",
+      "waypoints": [
+        [
+          4,
+          5,
+          7
+        ],
+        [
+          10,
+          5,
+          7
+        ]
+      ],
+      "blocked": [
+        [
+          7,
+          2,
+          7
+        ]
+      ],
+      "topology_file": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\nature-batch1-S6\\incoming\\NAT6-08\\topology.json"
+    },
+    {
+      "id": "NAT6-09",
+      "sha256": "e698116552dbe6a2f040ccaf821ba68ca70473814941e038be1bb03cf0f45c5b",
+      "topology": "single-ended treasure bay with centerline blast baffle and bilateral approach to back altar",
+      "vertical": "feet2 approaches, altar platform with chest at y4",
+      "landmark": "paired hot baffle corners and gilded rear altar",
+      "pacing": "blocked direct sightline -> choose flank -> reveal final empty chest -> return",
+      "mechanism": "no reward distribution, no concealed moving trap",
+      "waypoints": [
+        [
+          2,
+          2,
+          6
+        ],
+        [
+          12,
+          2,
+          6
+        ]
+      ],
+      "blocked": [
+        [
+          7,
+          2,
+          5
+        ]
+      ],
+      "topology_file": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\nature-batch1-S6\\incoming\\NAT6-09\\topology.json"
+    }
+  ],
+  "mechanisms": "Two manually switched vanilla lamp beacons implemented; no timers, wave logic, trap, lava gates or automatic rewards claimed.",
+  "combat": "Geometry-based encounter pacing proposal only. No mobs, wave script or combat playtest.",
+  "global_matrix": "PENDING final coordinator audit, especially unavailable group1/2/3/7 final revisions. No all-groups uniqueness PASS claimed.",
+  "palette": {
+    "retained_authority": [
+      "nether_bricks",
+      "red_nether_bricks",
+      "polished_blackstone"
+    ],
+    "thermal_landmarks": [
+      "basalt",
+      "obsidian",
+      "gilded_blackstone",
+      "shroomlight",
+      "enclosed lava",
+      "orange_stained_glass"
+    ],
+    "mechanical_accents": [
+      "lever",
+      "redstone_lamp"
+    ],
+    "note": "Palette differences alone are not treated as topology uniqueness"
+  },
+  "final_revision_verification": {
+    "revision": "S6-R2-distinct-topology",
+    "native_connectors_and_design_waypoints": "PASS",
+    "implemented_lever_lamp_pairs": 2,
+    "lever_tick_test": "NOT_RUN",
+    "global_duplicate_matrix": "PENDING"
+  }
+}

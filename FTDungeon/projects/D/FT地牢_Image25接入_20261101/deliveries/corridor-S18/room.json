@@ -1,0 +1,66 @@
+{
+  "id": "CORRIDOR_S18",
+  "design_id": "S18",
+  "name": "浸水熔铸短廊",
+  "size": [
+    15,
+    11,
+    16
+  ],
+  "entrance": [
+    7,
+    3,
+    0
+  ],
+  "interior": [
+    7,
+    3,
+    2
+  ],
+  "exit": [
+    7,
+    3,
+    15
+  ],
+  "facing": "north",
+  "axis": "north-south",
+  "sha256": "c30bdd7df8c209e3544e384ee88bc208cafa55523ceb516844f7c55d2e46a03f",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\S18-forge-lava-flooded.png",
+  "reference_sha256": "90f93164051207db586026e4c3b910809ba98e07acfc3529de12e5436f921e9f",
+  "reference_documents": [
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\README.md",
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\manifest.json",
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\SPEC.md",
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\prompts\\S18-forge-lava-flooded.txt"
+  ],
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "placement": {
+    "foot_y": 3,
+    "floor_y": 2,
+    "dry_route_width": 3,
+    "end_openings": "3x3 minimum at z=0 and z=15",
+    "length_blocks": 16,
+    "turns": 0,
+    "branches": 0,
+    "stairs_on_route": 0
+  },
+  "liquids": {
+    "lava_sources": 12,
+    "water_sources": 48,
+    "lava_enclosure": "full solid blocks and full glass on all six faces",
+    "water": "one-block-deep recessed side gutters, fully floored and side-contained"
+  },
+  "reference_adaptations": [
+    "保留黑石与深板岩、四道拱框、六盏魂灯、六座铁砧、两侧橙色锻炉及苔绿墙面。",
+    "全地面浸水改为两侧各两格宽浅水槽；中央保留三格宽、全程无水无跳跃的干燥石路。",
+    "裸露熔岩炉槽改为墙内六面封闭的玻璃观察炉；与低位水槽完全隔离。",
+    "概念图尽头闭合铁门改为两侧铁栅与开放拱口，保证一字贯通；两端脚位均为 Y=3。",
+    "潮湿藻苔用完整苔石砖嵌墙表达，不使用可燃藤蔓；轻损仅为裂砖纹理，不破坏屋顶和梁柱。"
+  ],
+  "boundary": "Independent delivery only. No deployment, live world changes, global ID assignment, core source edits, or modpack edits.",
+  "entities": 0,
+  "block_entities": 0,
+  "containers": 0,
+  "loot": false
+}

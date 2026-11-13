@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "id": "CORRIDOR_S15",
+  "design_id": "S15",
+  "name": "陈旧监牢短廊",
+  "verified_at": "2026-11-03T11:13:59.723169+08:00",
+  "structure_sha256": "babb995e382f03b552787992e3cef645596a999b50a4c48ca905468db4730a89",
+  "reference_sha256": "f0c77a9be5e1d6db19c5874c431de002f2f17a21232f83a879bd774b2c6be09b",
+  "size": [
+    15,
+    10,
+    16
+  ],
+  "four_piece_delivery": [
+    "room.nbt",
+    "room.json",
+    "preview.png",
+    "qa.json"
+  ],
+  "static_qa": {
+    "status": "PASS",
+    "evidence": "qa/static.json",
+    "records": 2400,
+    "clear_passage": "3x3x16",
+    "supported_lamps": 4,
+    "supported_cages": 2
+  },
+  "four_view_qa": {
+    "status": "PASS",
+    "evidence": "qa/four-view-review.json",
+    "sheet": "preview/four-views.png",
+    "unresolved_findings": 0
+  },
+  "forge_native_qa": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "evidence": "qa/native.json",
+    "log": "qa/forge-gametest.log",
+    "rotations": 4,
+    "stability_ticks": 200,
+    "records_checked_after_ticks": 9600,
+    "forced_ticking_chunks": true,
+    "negative_probes": 16,
+    "capture_reload_matches": true
+  },
+  "software_preview": {
+    "status": "PASS",
+    "evidence": "qa/lodestone.json",
+    "is_game_screenshot": false
+  },
+  "inventory": {
+    "containers": 0,
+    "items": 0,
+    "loot_tables": 0,
+    "entities": 0
+  },
+  "evidence": [
+    {
+      "path": "qa/static.json",
+      "sha256": "b63c6ddb4be214b709f6895b0cac6e096b687038812354273a0da68ab42709e2"
+    },
+    {
+      "path": "qa/native.json",
+      "sha256": "f4ab4557e4d8b92f9a6b1d8633aebeab04a1bfdf643407948acb2ba474cd19e3"
+    },
+    {
+      "path": "qa/forge-gametest.log",
+      "sha256": "52f0c775735f1aff8fcc04ac38ab0aa224b86a76840ff3008a9dd266c081aaf4"
+    },
+    {
+      "path": "qa/render.json",
+      "sha256": "bd1aa718602dd371a419d6e4fe3be91fed40a7f36f7849e6cb0ef0520d7f2a6e"
+    },
+    {
+      "path": "qa/lodestone.json",
+      "sha256": "5a63cdd059573d4ef32b96def80b1e31ea548d760440b2783db4b1e460f3248e"
+    },
+    {
+      "path": "qa/four-view-review.json",
+      "sha256": "b1f0cbc93a0c65748ffa7fadf55190b8670780b440cf919e86ecf1f4e600ba70"
+    },
+    {
+      "path": "qa/materials.json",
+      "sha256": "550ca0d1db180346402e925a8b6ba87262b03aa1156ef05b73461d28b7985a1c"
+    },
+    {
+      "path": "qa/native-placed-none.nbt",
+      "sha256": "aedec2352aedd1a7601cbf7a79a79029a343cf1623a57eaa553d7ff59f427389"
+    },
+    {
+      "path": "qa/native-placed-clockwise_90.nbt",
+      "sha256": "9806488a3725f57c9dd7fc3e891c6b7550352006b642eb5bd7bf34fd072b8564"
+    },
+    {
+      "path": "qa/native-placed-clockwise_180.nbt",
+      "sha256": "688a52e164e399bd8e717ec4f55f0b1e104c56c2d24e308bc60be64e321efed7"
+    },
+    {
+      "path": "qa/native-placed-counterclockwise_90.nbt",
+      "sha256": "c927b7e49ff53daeb01fa2d6f9c0d71b7236ca6ffe01cf6beeae5f77bd32a756"
+    }
+  ],
+  "integration": {
+    "state": "standalone_not_deployed",
+    "ready_for_unified_integration_review": true,
+    "slot": null,
+    "production_jars_changed": false,
+    "player_saves_opened_or_modified": false
+  },
+  "limitations": [
+    "Isolated Forge GameTestServer, not full modpack client, multiplayer gameplay, FPS or user save validation.",
+    "NBT software previews use simulated lighting; no claim of exact vanilla/modpack visual fidelity.",
+    "Final world slot and corridor approach floors must be assigned by the unified integration stage."
+  ]
+}

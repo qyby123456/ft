@@ -1,0 +1,52 @@
+{
+  "id": "S20",
+  "status": "PASS",
+  "sha256": "341dbcfa3178fba8d8cf9501309d10fe89a4c1cd39cfcc2e51f9d3879dc4e4c1",
+  "reference_sha256": "f29b7371cb7f60007dc799b199dd6ceca086fe3b97baaa757ec98ef13b033112",
+  "size": [
+    11,
+    9,
+    16
+  ],
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "data_version": 3465,
+  "static": "PASS",
+  "four_direction_interior_and_exterior_views": "PASS",
+  "forge_placement_rotations": 4,
+  "native_records_per_phase": 6336,
+  "stability_ticks": 400,
+  "fluid_seal": "PASS",
+  "dry_two_way_route": "PASS",
+  "negative_probes_rejected": [
+    "missing_route_floor",
+    "blocked_route",
+    "broken_water_dam",
+    "missing_torch_support"
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "method": "agent visual inspection of overview, four-interior, four-exterior and top-plan images",
+    "complete_roof": true,
+    "both_ports_open": true,
+    "sealed_side_water": true,
+    "clear_center_rail": true,
+    "broken_arches_readable": true,
+    "images_are_software_previews": true,
+    "cutaways_labeled": true
+  },
+  "initial_test_fixture_issue": "First QA fixture used relative Y and overlapped isolated test terrain; moved to absolute Y=100. Original NBT unchanged. Rejected log retained.",
+  "deployment": "NOT_DEPLOYED",
+  "production_save_used": false,
+  "production_mods_modified": false,
+  "full_modpack_client_playtest": false,
+  "loot_tables": 0,
+  "block_entities": 0,
+  "entities": 0,
+  "limits": [
+    "Isolated Forge test is not a complete modpack/client/multiplayer/FPS playtest.",
+    "Preview cutaways do not modify the exported NBT.",
+    "Vanilla decorative ores remain mineable.",
+    "Explicit air records require a full-volume occupancy check before any future placement."
+  ]
+}

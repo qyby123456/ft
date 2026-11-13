@@ -1,0 +1,66 @@
+{
+  "id": "corridor-M07",
+  "name": "灾变暗铁残拱长廊",
+  "kind": "corridor",
+  "length_class": "medium",
+  "size": [
+    17,
+    13,
+    41
+  ],
+  "entrance": [
+    8,
+    1,
+    0
+  ],
+  "interior": [
+    8,
+    1,
+    3
+  ],
+  "exit": [
+    8,
+    1,
+    40
+  ],
+  "facing": "north",
+  "exit_facing": "south",
+  "axis": "+Z",
+  "portal": {
+    "width": 5,
+    "clear_height": 6,
+    "feet_y": 1
+  },
+  "main_route": {
+    "min_width": 5,
+    "min_clear_height": 3,
+    "floor_y": 0,
+    "stairs": false,
+    "branches": false
+  },
+  "sha256": "25de2806f4696546f285c949eb73ffdf58a9013867a413bf2cf72d917a07b215",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M07-cataclysm-dark-iron-damaged.png",
+  "reference_sha256": "7aa60a98ff9c54dbb9b5e61c76973619d89a107a8e906c4787e561dd08fcccfa",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "generator": "Minecraft Builder / Lodestone 0.6.0",
+  "recipe": "recipe/corridor-M07.mjs",
+  "design": {
+    "arches": 7,
+    "warm_hanging_lanterns": 7,
+    "chains": 14,
+    "arch_chips": 5,
+    "palette": [
+      "dark iron substitute: deepslate / blackstone",
+      "obsidian",
+      "gold",
+      "crimson decorative runes"
+    ]
+  },
+  "integration": {
+    "deployed": false,
+    "player_saves_accessed": false,
+    "distinct_from_existing_room_M07": true,
+    "requires_full_volume_occupancy_check": true
+  }
+}

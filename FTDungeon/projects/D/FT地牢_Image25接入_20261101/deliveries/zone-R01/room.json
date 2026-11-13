@@ -1,0 +1,204 @@
+{
+  "id": "zone-R01",
+  "name": "塌塔基座",
+  "size": [
+    25,
+    17,
+    25
+  ],
+  "entrance": [
+    12,
+    2,
+    0
+  ],
+  "interior": [
+    12,
+    2,
+    6
+  ],
+  "landing": [
+    12,
+    2,
+    12
+  ],
+  "stair_lower_landing": [
+    20,
+    2,
+    21
+  ],
+  "stair_upper_landing": [
+    20,
+    11,
+    9
+  ],
+  "upper_safe_point": [
+    20,
+    11,
+    5
+  ],
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/ruins/R01-ruins-collapsed-watchtower-base.png",
+  "reference_sha256": "cf5d8e795c7df413126bf76a2bb216637361a70807c43cf2e89987091a59e8c1",
+  "facing": "north",
+  "sha256": "43554dfc5dfb7a7b251e007945d37b3166849f63548406ea712b1ec327b29775",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "generator": "Minecraft Builder Skill / Lodestone 0.6.0",
+  "category": "ruins",
+  "reference_size": [
+    1536,
+    1024
+  ],
+  "independent_id": true,
+  "existing_R1_reused": false,
+  "entrance_clearance": [
+    3,
+    4
+  ],
+  "ports": [
+    {
+      "side": "north",
+      "position": [
+        12,
+        2,
+        0
+      ],
+      "bounds": [
+        [
+          11,
+          2,
+          0
+        ],
+        [
+          13,
+          5,
+          1
+        ]
+      ],
+      "clearance": [
+        3,
+        4
+      ]
+    }
+  ],
+  "floor_y": 1,
+  "ground_route": {
+    "spine": [
+      [
+        11,
+        2,
+        0
+      ],
+      [
+        13,
+        2,
+        22
+      ]
+    ],
+    "east_spur": [
+      [
+        11,
+        2,
+        20
+      ],
+      [
+        21,
+        2,
+        22
+      ]
+    ],
+    "dry": true,
+    "width": 3
+  },
+  "safe_landing": {
+    "center": [
+      12,
+      2,
+      12
+    ],
+    "bounds": [
+      [
+        10,
+        2,
+        10
+      ],
+      [
+        14,
+        2,
+        14
+      ]
+    ],
+    "clearance_height": 3
+  },
+  "stair": {
+    "width": 3,
+    "steps": 9,
+    "support": "solid stone wedge to floor",
+    "lower_landing": [
+      [
+        19,
+        2,
+        20
+      ],
+      [
+        21,
+        2,
+        22
+      ]
+    ],
+    "upper_landing": [
+      [
+        19,
+        11,
+        8
+      ],
+      [
+        21,
+        11,
+        10
+      ]
+    ],
+    "guardrails": true
+  },
+  "collapse": {
+    "open_roof": true,
+    "mezzanine_hole": [
+      [
+        9,
+        10,
+        5
+      ],
+      [
+        14,
+        10,
+        8
+      ]
+    ],
+    "guarded": true,
+    "unsupported_assemblies": 0
+  },
+  "roof": {
+    "complete": false,
+    "intentional_ruins": true,
+    "not_a_missing_delivery_layer": true
+  },
+  "records": 10625,
+  "explicit_air": 6513,
+  "block_entities": 6,
+  "entities": 0,
+  "empty_barrels": 4,
+  "banner_patterns": "two red wall banners with white rhombus",
+  "lighting": {
+    "lanterns": 6,
+    "suspended": 4,
+    "standing": 2
+  },
+  "deployment": "independent candidate only; no production files, saves, integration catalog or connection routes modified",
+  "placement_policy": "Preflight entire 25×17×25 volume including explicit air; reject occupancy/entities/fluids. No unconditional world clearing.",
+  "deviations": [
+    "概念图无精确尺度；落地为25×17×25，北侧中央增加3宽4高开放接口及5×5安全落点。",
+    "保留真实露天残塔和24格残层缺口；缺口、残层前缘、楼梯两侧加护栏。",
+    "右侧断损石阶改为三格宽、实心砌体承托的九级完整石阶，连接上下3×3落点。",
+    "两根独立落地双格石柱承托木梁；碎石逐层承托。细碎斜梁、残布和垂藤分别简化为落梁、旗帜/地毯、苔块/持久树叶。",
+    "NBT保留四周完整残墙；内视副本剖切。独立废墟采用真实露天残顶，与旧九间密闭房间完整屋顶契约有差异，后续接入需按露天废墟审查。"
+  ]
+}

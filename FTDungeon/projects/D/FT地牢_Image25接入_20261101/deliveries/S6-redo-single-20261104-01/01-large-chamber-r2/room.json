@@ -1,0 +1,106 @@
+{
+  "id": "S6-REDO-01-R2",
+  "name": "熔岩古殿·收尖石峰修订",
+  "batch": "S6-redo-single-20261104-01",
+  "size": [
+    29,
+    18,
+    29
+  ],
+  "facing": "north",
+  "entrance": [
+    14,
+    2,
+    0
+  ],
+  "interior": [
+    14,
+    2,
+    2
+  ],
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S6-volcanic-cavern\\out\\S6-01-large-chamber.png",
+  "reference_sha256": "3ae6251a95e1a5ef0f2319e18cf77501b54dfa5500b8ac7170590fe3a2802e29",
+  "sha256": "125d206d0b50efb6617265095739cd430501c1cd3884e0bec4d82122c5ed7a66",
+  "analysis_sha256": "bde701b686f7fdc5255b452c7f4afac4902d3a7925582fc4929d9a44ddb2bd26",
+  "recipe_sha256": "05a96af55f04837c8f4906e828469fa40ed5efe7278ca8d77deecc043f0cfd72",
+  "connectors": [
+    {
+      "facing": "north",
+      "position": [
+        14,
+        2,
+        0
+      ],
+      "width": 3,
+      "height": 5
+    },
+    {
+      "facing": "south",
+      "position": [
+        7,
+        2,
+        28
+      ],
+      "width": 3,
+      "height": 5
+    },
+    {
+      "facing": "south",
+      "position": [
+        21,
+        2,
+        28
+      ],
+      "width": 3,
+      "height": 5
+    }
+  ],
+  "validation_targets": [
+    [
+      7,
+      2,
+      28
+    ],
+    [
+      21,
+      2,
+      28
+    ],
+    [
+      8,
+      2,
+      14
+    ],
+    [
+      20,
+      2,
+      14
+    ],
+    [
+      14,
+      2,
+      8
+    ],
+    [
+      14,
+      2,
+      21
+    ],
+    [
+      14,
+      4,
+      11
+    ]
+  ],
+  "coordinate_system": "+X east, +Y up, +Z south; all connectors are player feet",
+  "source_primacy": "single reference image; unpacked data compatibility only",
+  "new_recipe_no_archived_imports": false,
+  "acceptance": "PENDING_COORDINATOR_REVIEW",
+  "next_reference_started": false,
+  "world_slot": null,
+  "deployment": "NOT_PERFORMED",
+  "revision": "R2-NEEDS_REVISION-response",
+  "supersedes": "01-large-chamber reviewed NEEDS_REVISION; retained unchanged",
+  "scale_rationale": "analysis.md door-height estimates, ratios and uncertainty; not single-chunk crossing as proof",
+  "revision_geometry": "own same-image candidate revised; checker infrastructure reused, no cross-group topology import"
+}

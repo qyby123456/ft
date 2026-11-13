@@ -1,0 +1,100 @@
+{
+  "id": "S11",
+  "delivery_id": "corridor-S11",
+  "name": "烬狱吊笼短廊",
+  "kind": "short",
+  "theme": "nether",
+  "condition": "burnt",
+  "length_blocks": 16,
+  "size": [
+    13,
+    12,
+    16
+  ],
+  "entrance": [
+    6,
+    3,
+    0
+  ],
+  "interior": [
+    6,
+    3,
+    3
+  ],
+  "facing": "north",
+  "exit": [
+    6,
+    3,
+    15
+  ],
+  "exit_interior": [
+    6,
+    3,
+    12
+  ],
+  "exit_facing": "south",
+  "ports": [
+    {
+      "name": "north",
+      "feet": [
+        6,
+        3,
+        0
+      ],
+      "facing": "north",
+      "clear_width": 5,
+      "clear_height": 4
+    },
+    {
+      "name": "south",
+      "feet": [
+        6,
+        3,
+        15
+      ],
+      "facing": "south",
+      "clear_width": 5,
+      "clear_height": 4
+    }
+  ],
+  "walkway": {
+    "axis": "z",
+    "feet_y": 3,
+    "x_range_inclusive": [
+      4,
+      8
+    ],
+    "z_range_inclusive": [
+      0,
+      15
+    ],
+    "turns": 0,
+    "branches": 0,
+    "stairs": 0
+  },
+  "sha256": "3e4d7506ba5dcec155bda6ed2260e6825e930495bcccffd2640ef6a7c5c1f387",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\S11-nether-burnt.png",
+  "reference_sha256": "2bdda4f75bf87f19ae80540a5de09af4b720dde05e515cdcd2631fba795d65a6",
+  "reference_documents": [
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\README.md",
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\manifest.json",
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\SPEC.md",
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\corridor_index.json"
+  ],
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "compression": "gzip",
+  "palette": "single",
+  "features": {
+    "hanging_cages": 4,
+    "wall_torches": 6,
+    "roof_anchored_chains": 8,
+    "sealed_lava_cells": 24
+  },
+  "safety_adaptation": "原图敞口侧沟改为有底、四面封边、橙色玻璃齐平盖板的真实熔岩槽；主路五格宽；吊笼底部高于三格通行净空。",
+  "roof": "Complete permanent roof at y=11; cutaways affect preview only.",
+  "placement_policy": "Independent candidate only. Validate the complete target volume before any future integration; never clear an occupied player world.",
+  "deployed": false,
+  "player_saves_touched": false,
+  "core_catalog_modified": false
+}

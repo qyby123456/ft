@@ -1,0 +1,113 @@
+{
+  "schema": "ft-independent-zone-room-v1",
+  "id": "H01",
+  "status": "PASS",
+  "sha256": "2cf72715954f54dcb2425b0c9e72742b48dc59bcc2c0292405409636a4bd6c16",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/halls/H01-halls-throne-hall-dais.png",
+  "reference_sha256": "5b1cd83ecf19000c21254810b1e571d63ed0fde16c12a0fd09601a925c01f492",
+  "size": [
+    29,
+    18,
+    33
+  ],
+  "entrance": [
+    14,
+    2,
+    0
+  ],
+  "interior": [
+    14,
+    2,
+    4
+  ],
+  "facing": "north",
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "checks": {
+    "reference_hash_and_both_batch_records": "PASS",
+    "static_nbt_geometry_28_checks": "PASS",
+    "full_explicit_volume_single_palette_1201": "PASS",
+    "north_five_wide_six_high_port": "PASS",
+    "main_aisle_three_high_and_four_safe_points": "PASS",
+    "two_stair_rows_bidirectional_real_collision": "PASS",
+    "supported_pillars_lights_braziers_and_banners": "PASS",
+    "complete_roof_and_sealed_sides": "PASS",
+    "vanilla_registry_properties_and_template_roundtrip": "PASS",
+    "native_four_rotations_and_200_ticks": "PASS",
+    "native_world_captures_match_rotated_source": "PASS",
+    "zero_entities_fluids_or_reward_stock": "PASS",
+    "occupied_air_blocked_route_and_missing_chain_negative_probes": "PASS",
+    "four_interior_four_exterior_plus_two_detail_views": "PASS",
+    "image_decode_source_binding_and_visual_review": "PASS"
+  },
+  "native_summary": {
+    "rotations": [
+      "NONE",
+      "CLOCKWISE_90",
+      "CLOCKWISE_180",
+      "COUNTERCLOCKWISE_90"
+    ],
+    "records_per_rotation": 17226,
+    "checked_after_ticks": 68904,
+    "stabilization_ticks": 200,
+    "collision_path_samples_per_rotation": 1090,
+    "player_collision_size": [
+      0.6,
+      1.8,
+      0.6
+    ],
+    "stair_max_step": 0.5,
+    "safe_waypoints": 4,
+    "supported_lanterns": 6,
+    "supported_braziers": 4,
+    "empty_barrels": 6,
+    "decorative_banners": 6,
+    "zero_world_entities": true,
+    "zero_fluids": true,
+    "negative_probes": {
+      "missing_chain_detected": 4,
+      "occupied_air_voxel_refused": 4,
+      "blocked_route_detected": 4
+    }
+  },
+  "evidence": {
+    "provenance": "qa/reference-provenance.json",
+    "static": "qa/static.json",
+    "native": "qa/native.json",
+    "native_log": "qa/forge-gametest.log",
+    "world_captures": [
+      "qa\\native-placed-none.nbt",
+      "qa\\native-placed-clockwise_90.nbt",
+      "qa\\native-placed-clockwise_180.nbt",
+      "qa\\native-placed-counterclockwise_90.nbt"
+    ],
+    "views": "qa/views.json",
+    "image_decode": "qa/image-decode.json",
+    "visual": "qa/visual-review.json",
+    "interior_sheet": "views/interior-sheet.png",
+    "exterior_sheet": "views/exterior-sheet.png",
+    "detail": "views/throne-detail.png"
+  },
+  "design_deviations": [
+    "概念图为敞开的剖视展示；最终模板补齐北立面、完整双层屋顶和六格高北入口，剖切只作用于预览。",
+    "主红毯用与地板齐平的红色羊毛配黄陶/金块边线表示，避免薄地毯改变接入脚位；王座台使用两级可走楼梯。",
+    "原图自由布幔和金属圆柱按整方块实现为红羊毛垂幔、金边石柱及原版带金花纹旗帜。",
+    "火盆用离路的石质高座营火表示；武器架为无实体铁栏/金饰陈设，木桶无库存，不添加战利品或怪物。",
+    "扩为29×18×33格以保留五格中轴和家具旁通道；整体比例、窗格及陈设按可行走尺度调整。"
+  ],
+  "boundaries": {
+    "deployed": false,
+    "production_saves_modified": false,
+    "production_jars_modified": false,
+    "production_resourcepacks_or_configs_modified": false,
+    "parallel_delivery_directories_modified": false,
+    "integration_routes_verified": false,
+    "modpack_client_playtest": false,
+    "isolated_test_world": "native-qa/run-isolated-h01"
+  },
+  "limitations": [
+    "Lodestone software views are not client gameplay screenshots.",
+    "Only standalone Forge placement verified; main-dungeon connection and return logic belong to integration.",
+    "Native test has initial world-generation overload and Gradle deprecation warnings; it completed successfully."
+  ]
+}

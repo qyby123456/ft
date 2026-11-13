@@ -1,0 +1,79 @@
+{
+  "id": "zone-R05",
+  "name": "破碎档案厅",
+  "status": "PASS",
+  "delivery_status": "INDEPENDENT_QA_PASSED_AWAITING_INTEGRATION",
+  "sha256": "380a7385e2180890c6372c831f3c93f2db3783ab8319a407598ac8bea5c18387",
+  "reference_sha256": "8440f06ed3f0330b74660e57fa1d51376a212541c49b7e540eaa7f9759b3a810",
+  "size": [
+    27,
+    16,
+    29
+  ],
+  "entrance": [
+    13,
+    2,
+    0
+  ],
+  "interior": [
+    13,
+    2,
+    4
+  ],
+  "checks": {
+    "static": {
+      "status": "PASS",
+      "count": 17,
+      "evidence": "qa/static-qa.json"
+    },
+    "four_direction_interior_exterior_visual_review": {
+      "status": "PASS",
+      "evidence": "qa/four-view-review.json",
+      "interior_sheet": "views/interior-four-views.png",
+      "exterior_sheet": "views/exterior-four-views.png"
+    },
+    "minecraft_builder_lodestone": {
+      "status": "PASS",
+      "evidence": "qa/lodestone-preview.json"
+    },
+    "forge_registry_and_properties": {
+      "status": "PASS",
+      "states": 42,
+      "evidence": "qa/native-registry-qa.json"
+    },
+    "forge_four_rotation_placement_stability": {
+      "status": "PASS",
+      "rotations": 4,
+      "stable_ticks": 600,
+      "records_each": 12528,
+      "state_changes_each": 0,
+      "bookshelves_each": 32,
+      "empty_containers_each": 2,
+      "survival_checks_each": 6404,
+      "support_checks_each": 243,
+      "reachable_feet_each": 417,
+      "halo_cells_unchanged_each": 7932,
+      "fixture_rollback": "PASS",
+      "evidence": "qa/native-world-qa.json",
+      "successful_log": "qa\\forge-gametest-20261103-162337.log"
+    }
+  },
+  "rejected_attempts_preserved": [
+    "Initial Forge startup lacked empty.snbt fixture; corrected isolated test scaffold.",
+    "First placed revision had cobweb replacing a gallery fence, and Lodestone overconnected its neighboring fence. Native exact-state check rejected it. Cobweb moved to a wall and final rebuild passed all rotations. See qa/native-world-first-fence-rejection.json and earlier Forge logs."
+  ],
+  "claims": {
+    "deployed": false,
+    "production_files_modified": false,
+    "player_worlds_opened": false,
+    "production_integration_tested": false,
+    "client_gameplay_tested": false,
+    "global_slot_allocated": false
+  },
+  "integration_requirements": [
+    "North entrance feet [13,2,0]; floor y=1. Connector must match elevation.",
+    "Independent dead-end hall with one north port, five blocks wide and five high.",
+    "Refuse occupied volume, including explicit air; no unconditional clearing.",
+    "Core owner must allocate unique slot and test hall connection before deployment."
+  ]
+}

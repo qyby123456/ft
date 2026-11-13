@@ -1,0 +1,183 @@
+{
+  "id": "zone-A02",
+  "status": "PASS",
+  "room_nbt_sha256": "0c9c677cc9e2fd9c15e2dc3341680a490e9920ff90a769375413a68c901eca33",
+  "source_image_sha256": "946dadb0601ffabfb9257ad4ef5455225a146fa6be1abcb324ddac169ee833b4",
+  "excluded": [
+    "native/build",
+    "native/.gradle",
+    "qa/forge-run-*"
+  ],
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 4201,
+      "sha256": "b63cd1f7269a39c878788f81ecc7b4a039d5c21879fb78a56dece5c952cdece3"
+    },
+    {
+      "file": "native/build.gradle",
+      "bytes": 845,
+      "sha256": "edcd910641f909537be829c561f7502abc4f8d0f1028fee10fe3ef6a68011643"
+    },
+    {
+      "file": "native/gradle.properties",
+      "bytes": 210,
+      "sha256": "a947ad6543343a6b4fe950b1fb60a72b392ba61926b14b90c69a8c49902ee398"
+    },
+    {
+      "file": "native/settings.gradle",
+      "bytes": 157,
+      "sha256": "602889832024ee25dd93f2db290a0de2cf06b83cd8862912123b1014addd2394"
+    },
+    {
+      "file": "native/src/main/java/net/farmingtales/zonea02qa/A02Verification.java",
+      "bytes": 19854,
+      "sha256": "31edb041794d511300ee2b849e7b0bd18ca46f0f3aed36d9b251adb37fef6a20"
+    },
+    {
+      "file": "native/src/main/resources/META-INF/mods.toml",
+      "bytes": 223,
+      "sha256": "7f390494132299eb9a2c862b78a046fce9e6ffcb179c837be4ce694d18320d99"
+    },
+    {
+      "file": "native/src/main/resources/data/ftzonea02qa/structures/empty.nbt",
+      "bytes": 128,
+      "sha256": "6b758ca24c6be982c94f72fda2a204ee827872cc8978f7b7c84add1a067e4185"
+    },
+    {
+      "file": "native/src/main/resources/pack.mcmeta",
+      "bytes": 80,
+      "sha256": "baa07d229486f5b46d18201a5d2690f923a9b8b7851104ea84b037dc46571c78"
+    },
+    {
+      "file": "preview.png",
+      "bytes": 735149,
+      "sha256": "09d33f84578aa49b6abed3236a93f5045e70af6a1c655eaa0203aa8683de9a37"
+    },
+    {
+      "file": "qa.json",
+      "bytes": 2073,
+      "sha256": "f7088975be002089bacadc6877f396055e21a023b66fb0e7bff5a802c236fac5"
+    },
+    {
+      "file": "qa/gametest-20261103-124624.log",
+      "bytes": 32046,
+      "sha256": "a1dbd83f9400c142f0e971812cf01c551b429033c9ae5965efcfee0c68224363"
+    },
+    {
+      "file": "qa/gametest-20261103-135843.log",
+      "bytes": 11746,
+      "sha256": "872fbfc7f3555e236bdb094c5fc3998a6ed09a4d3066d796f1cc6e1938bc0f5c"
+    },
+    {
+      "file": "qa/native.json",
+      "bytes": 5111,
+      "sha256": "cea95fabc1e300cc3a99c97de070c03887c564f999cd12d33f23ec4cf57682dc"
+    },
+    {
+      "file": "qa/static-attempt1-roof-mask.json",
+      "bytes": 2746,
+      "sha256": "51644bf0fa6b1bb86ec15a564512fbc83fc7f4718f41b4472417d1e62a8cc59f"
+    },
+    {
+      "file": "qa/static.json",
+      "bytes": 2314,
+      "sha256": "3047a4dd563143d1a3e78fa054cccc2e802c634c490761fae69eafcea98ff9e7"
+    },
+    {
+      "file": "qa/visual.json",
+      "bytes": 4894,
+      "sha256": "98008d57c0551451481960b010c2a7d2c82bda0bfb727fe6a44812fca0eefdf9"
+    },
+    {
+      "file": "room.json",
+      "bytes": 1754,
+      "sha256": "38b026f13bfc386baeb51a00a307b9162fd160d6c5d8bffca33b4ff7624eb0d2"
+    },
+    {
+      "file": "room.nbt",
+      "bytes": 16929,
+      "sha256": "0c9c677cc9e2fd9c15e2dc3341680a490e9920ff90a769375413a68c901eca33"
+    },
+    {
+      "file": "summary.json",
+      "bytes": 555,
+      "sha256": "e8752bd0f1fbdc819abb110ed792a45f87f18a19f74e4d280ffe83ca9de67295"
+    },
+    {
+      "file": "tools/capture-views.mjs",
+      "bytes": 4620,
+      "sha256": "34ff0f9717ea8e5cd064d35bc11b34e4049bcfdaa1d13f77e693cec67d96254d"
+    },
+    {
+      "file": "tools/contact-sheet.py",
+      "bytes": 1244,
+      "sha256": "45d3181c0cc2be11475a2cae50b5617a3d633c6c0035f58db1e7930a56acb80a"
+    },
+    {
+      "file": "tools/package-delivery.py",
+      "bytes": 2965,
+      "sha256": "6835009665aac4fe6c7dfcb964d48727c14fa693c01a6ee0a2a55d75a97a938d"
+    },
+    {
+      "file": "tools/recipe.mjs",
+      "bytes": 7569,
+      "sha256": "e52c8ad4f74a5c2df96fc86bc70b56daa27233f1f6dde6aec8232ed76ad1c49f"
+    },
+    {
+      "file": "tools/run-native.ps1",
+      "bytes": 1288,
+      "sha256": "38ce2a28e72727e041063c744f8e70a3e434d64091e249a4e2e2516412f35463"
+    },
+    {
+      "file": "tools/static-qa.mjs",
+      "bytes": 8102,
+      "sha256": "dddaae78c6bbd621a7bbe94960b1f8fab9cd27db9edd30ad81d8e484ed9512f5"
+    },
+    {
+      "file": "views/eight-view-sheet.png",
+      "bytes": 2142237,
+      "sha256": "64e2849820d5a8c68fffbfd03d8492505c2a75ab885cdd2e1e34256eba228547"
+    },
+    {
+      "file": "views/exterior-east.png",
+      "bytes": 709760,
+      "sha256": "3a4cd0c29e7b641d74279d86cd249f8c86ccdc7e1217dea0405b1061e5967881"
+    },
+    {
+      "file": "views/exterior-north.png",
+      "bytes": 729447,
+      "sha256": "c232e54f171e7a3ce366444c1444fe39f258c0e70849c5ceba629c887cefbdf1"
+    },
+    {
+      "file": "views/exterior-south.png",
+      "bytes": 569181,
+      "sha256": "8d5fcad38d069f811681f7c6ad1b1095d01299223178681d4a2af0491828337a"
+    },
+    {
+      "file": "views/exterior-west.png",
+      "bytes": 611667,
+      "sha256": "c65bb0286ad9041771596edff17a7b8f44d6a9859cc1c8d7eb659b2d55d91eb5"
+    },
+    {
+      "file": "views/interior-east.png",
+      "bytes": 773109,
+      "sha256": "55c7b4d929064d78edcdd1dced116750fc63f752ed045e097a1bb75b9f057c5b"
+    },
+    {
+      "file": "views/interior-north.png",
+      "bytes": 758913,
+      "sha256": "4977d218b3d31d1b4aeb5c92fb08c66e086fdc3d30129b0e7183f221bf7248dd"
+    },
+    {
+      "file": "views/interior-south.png",
+      "bytes": 738603,
+      "sha256": "32503522ccdc61db41dc41dd1ad28bfe510857850092bf0dda00f16923343fda"
+    },
+    {
+      "file": "views/interior-west.png",
+      "bytes": 774133,
+      "sha256": "de0c25fb511fdafea45aa717618f6b95043f92ae2e5dc2e197109ce51241d922"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "zone-R03",
+  "name": "蔓生废祠",
+  "category": "ruins",
+  "kind": "dungeon_zone_room",
+  "size": [
+    25,
+    16,
+    27
+  ],
+  "entrance": [
+    12,
+    2,
+    0
+  ],
+  "interior": [
+    12,
+    2,
+    4
+  ],
+  "safe_point": [
+    12,
+    2,
+    16
+  ],
+  "shrine_approach": [
+    12,
+    2,
+    19
+  ],
+  "facing": "north",
+  "sha256": "5035cce02b72189a0a75310657011031da7d3b58dd9a20ec97390ca0a79df326",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/ruins/R03-ruins-overgrown-ruined-shrine.png",
+  "reference_sha256": "b96b07a7f353a684e808da98efafdc11feca3b17fc72606d9859a8750be8fa58",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "generator": "Minecraft Builder / Lodestone 0.6.0",
+  "recipe": "recipe.mjs",
+  "portal": {
+    "width": 5,
+    "clear_height": 5,
+    "feet_y": 2
+  },
+  "main_route": {
+    "x_range": [
+      10,
+      14
+    ],
+    "z_range": [
+      0,
+      19
+    ],
+    "width": 5,
+    "clear_height": 3,
+    "floor_y": 1
+  },
+  "roof": {
+    "complete": true,
+    "y": 13,
+    "glass_skylight_cells": 135,
+    "cutaway_preview_only": true
+  },
+  "design": {
+    "intact_columns": 4,
+    "hanging_lanterns": 4,
+    "soul_lanterns": 2,
+    "shallow_water_cells": 24,
+    "fallen_column_segments": 2,
+    "broken_column_stumps": 1,
+    "vine_cells": 73,
+    "changes_from_concept": [
+      "Open concept roof replaced by continuous roof with glass skylight.",
+      "Round shrine aperture is a sealed stained glass recess.",
+      "Glowing mushrooms represented by supported soul lanterns.",
+      "Crate/barrel replaced by supported stone planter and floor rubble; no inventories."
+    ]
+  },
+  "source_documents": [
+    "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/README.md",
+    "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/docs/manifest.json",
+    "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/docs/verify.json",
+    "D:/ft工程文件/FT地牢_Image25接入_20261101/CONTRACT.md"
+  ],
+  "integration": {
+    "deployed": false,
+    "player_saves_accessed": false,
+    "production_files_modified": false,
+    "slot": null,
+    "requires_unique_slot_and_full_volume_occupancy_check": true,
+    "authoritative_final_acceptance_thread": "01a19c8f-6747-7572-a77a-6e90084bbd34"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "STAIR_C_RUINED",
+  "name": "破损楼梯间",
+  "size": [
+    23,
+    18,
+    25
+  ],
+  "entrance": [
+    11,
+    6,
+    0
+  ],
+  "interior": [
+    11,
+    6,
+    4
+  ],
+  "facing": "north",
+  "sha256": "8dca52e4cb25f9ab8b7dec5f0450ac9d82b6b34391643b761f7f5dff18b3150e",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-stair-rooms-20261102\\out\\stair-ruined.png",
+  "reference_sha256": "88c6aa37c0987bac1df530c263e96a0424528e3f51b3797b1c18ab5fb491fab5",
+  "reference_dimensions": [
+    1536,
+    1024
+  ],
+  "interfaces": [
+    {
+      "name": "main",
+      "feet": [
+        11,
+        6,
+        0
+      ],
+      "interior": [
+        11,
+        6,
+        4
+      ],
+      "facing": "north",
+      "width": 3,
+      "height": 3
+    },
+    {
+      "name": "upper",
+      "feet": [
+        11,
+        12,
+        24
+      ],
+      "interior": [
+        11,
+        12,
+        20
+      ],
+      "facing": "south",
+      "width": 3,
+      "height": 3
+    },
+    {
+      "name": "lower",
+      "feet": [
+        11,
+        1,
+        24
+      ],
+      "interior": [
+        11,
+        1,
+        20
+      ],
+      "facing": "south",
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "assigned_slot": null,
+  "deployment_status": "independent_candidate_not_deployed",
+  "coordinate_semantics": "All portal/interior coordinates are player feet relative to NBT origin. Main entrance is at local Y=6; connecting road placement must account for this.",
+  "runtime": {
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "DataVersion": 3465
+  },
+  "notes": [
+    "Full explicit volume includes air; installer must preflight the entire volume before any placement.",
+    "Upper original stair is visibly broken, but a preserved three-wide side lane connects the upper exit.",
+    "Lower fallen column occupies two of five stair columns, leaving three columns clear.",
+    "Three separate exits require coordinator-confirmed multi-level roads; no FT core integration is claimed."
+  ]
+}

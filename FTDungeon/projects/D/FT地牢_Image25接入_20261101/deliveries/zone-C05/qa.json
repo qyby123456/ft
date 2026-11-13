@@ -1,0 +1,83 @@
+{
+  "id": "zone-C05",
+  "status": "PASS",
+  "sha256": "e26f62079f60205e30da369d39e73217664e235844f51eb347faa343d0bde95a",
+  "reference_sha256": "790bb6fe1bbc37401333dd80f98c925abb13f1136459310848daaf7a41053a01",
+  "created_at": "2026-11-03T13:11:32+08:00",
+  "scope": "Independent producer delivery: static, eight individual software views, isolated Forge four rotations and tick stability.",
+  "checks": {
+    "static": "PASS",
+    "complete_roof": "PASS",
+    "supported_crystals_and_lanterns": "PASS",
+    "five_wide_three_high_dry_corner_route": "PASS",
+    "two_five_wide_five_high_ports": "PASS",
+    "water_containment": "PASS",
+    "eight_individual_views": "PASS",
+    "native_registry_and_properties": "PASS",
+    "native_four_rotations": "PASS",
+    "native_320_tick_stability": "PASS",
+    "native_capture_independent_comparison": "PASS",
+    "entities": 0,
+    "block_entities": 0,
+    "inventory_items": 0
+  },
+  "reports": {
+    "static": {
+      "path": "qa/static.json",
+      "sha256": "a72791927d08eeb05af2fb4b091bde824f2bcbb1ab8bac5e5e5447be55470749"
+    },
+    "visual-review": {
+      "path": "qa/visual-review.json",
+      "sha256": "02b6bc87bed978b5e2daec50e7b6ca08dd0f820202e28e65e3116c744e83fa59"
+    },
+    "native": {
+      "path": "qa/native.json",
+      "sha256": "c316d86b160e5b5fa8f6fc1b2d84bc32dd15bc2afca5a2793fe710417bde3bbe"
+    },
+    "render-manifest": {
+      "path": "qa/render-manifest.json",
+      "sha256": "aa5fff1abc2ff82790a710658df08610662711b0a9cda2d4d2433f9b994ff8d8"
+    },
+    "capture-comparison": {
+      "path": "qa/capture-comparison.json",
+      "sha256": "9c281a8689c0a53dd0eda2408c4ef698e7a57f5088618db71eced75486dee0fe"
+    }
+  },
+  "native_log": {
+    "path": "qa\\forge-20261103-124427-650.log",
+    "sha256": "28349ede4007c9666d00c7d75339232d39e55aadfa8b652c0725019fe9e76894"
+  },
+  "native": {
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "ticks": 320,
+    "records_per_snapshot": 35000,
+    "captured_records_compared": 35000,
+    "water_sources_per_rotation": 33,
+    "neighbor_updates": "UPDATE_ALL and explicit notifications",
+    "random_tick_speed": 3
+  },
+  "correction": {
+    "rejected_template_sha256": "29b46baba33ce2062a5d6674e7d89254851b13e3193609a7ff9fd1ab36d9ec19",
+    "final_template_sha256": "e26f62079f60205e30da369d39e73217664e235844f51eb347faa343d0bde95a",
+    "issue": "A decorative crystal bud replaced the second crate top, so its lantern dropped during native placement.",
+    "fix": "Move second crate/lantern to x=18,z=22; strengthen static standing-lantern check; rerun all final views and native QA."
+  },
+  "ready_for_receiver_review": true,
+  "ready_for_unified_integration": false,
+  "deployment": false,
+  "production_save_accessed": false,
+  "full_modpack_playtest": false,
+  "deviations": [
+    "概念图为开放剖视；最终结构补齐洞顶与四侧围护，仅软件预览剖切。",
+    "蓝紫巨晶用原版紫水晶块、芽簇、方解石和海晶灯转译；不模拟图中自发蓝光或使用模组方块。",
+    "矿车为实体，按无实体交付要求省略，保留六格废轨；木箱为无库存实心装饰。",
+    "为确保五格宽干燥拐角通路，水池与石柱移到主路侧边；入口按接入契约固定在北侧中央，增加东侧出口。"
+  ],
+  "limitations": [
+    "Software views are not in-game screenshots and do not reproduce shader glow.",
+    "Isolated Forge GameTest is not full modpack client or multiplayer playtesting.",
+    "Hall connections, occupancy/persistence/idempotence and deployment require subsequent receiver integration acceptance."
+  ]
+}

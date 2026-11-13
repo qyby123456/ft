@@ -1,0 +1,130 @@
+{
+  "schema": "ft-independent-zone-delivery-qa-v1",
+  "id": "zone-M01",
+  "batch_id": "M01",
+  "batch_type": "zone",
+  "name": "活跃矿道",
+  "status": "PASS",
+  "sha256": "8138c9601ce31b828ccd1fea88670cf81cde03455bde73d76d6b0e6c7c9837fd",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/mines/M01-mines-active-mine-tunnel.png",
+  "reference_sha256": "13dfd6e737c9fcbbee1b171b94d70c21b20e605140b101878cf369aaf2eb8038",
+  "size": [
+    27,
+    11,
+    23
+  ],
+  "entrance": [
+    13,
+    2,
+    22
+  ],
+  "interior": [
+    13,
+    2,
+    18
+  ],
+  "safe_point": [
+    13,
+    2,
+    18
+  ],
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "checks": {
+    "source_image_and_batch_hashes": "PASS",
+    "static_24_checks": "PASS",
+    "unique_explicit_6831_cell_volume": "PASS",
+    "grounded_timber_supports": "PASS",
+    "continuous_supported_rail": "PASS",
+    "route_ports_and_safe_point": "PASS",
+    "complete_roof_and_ceiling": "PASS",
+    "supported_hanging_lights": "PASS",
+    "empty_barrel_entities_only": "PASS",
+    "native_registry_and_states": "PASS",
+    "native_four_rotations_placement": "PASS",
+    "native_200_tick_stability": "PASS",
+    "native_four_world_captures": "PASS",
+    "five_negative_probes_each_rotation": "PASS",
+    "four_internal_four_external_two_eye_views": "PASS",
+    "visual_inspection": "PASS"
+  },
+  "native_summary": {
+    "rotations": [
+      "NONE",
+      "CLOCKWISE_90",
+      "CLOCKWISE_180",
+      "COUNTERCLOCKWISE_90"
+    ],
+    "records_per_rotation": 6831,
+    "checked_after_ticks": 27324,
+    "stabilization_ticks": 200,
+    "reachable_foot_positions_per_rotation": [
+      489,
+      489,
+      489,
+      489
+    ],
+    "pedestrian_route_cells": 158,
+    "rail_cells": 27,
+    "grounded_posts": 4,
+    "supported_lanterns": 6,
+    "empty_barrels": 4,
+    "roof_cells": 621,
+    "external_fluid_cells": 0,
+    "world_entities": 0,
+    "negative_probes": {
+      "occupied_air_voxel_refused": 4,
+      "missing_timber_pedestal_detected": 4,
+      "missing_chain_detected": 4,
+      "blocked_route_detected": 4,
+      "missing_rail_floor_detected": 4
+    },
+    "forced_chunk_ticking": true
+  },
+  "evidence": {
+    "static": "qa/static.json",
+    "native": "qa/native.json",
+    "native_log": "qa/forge-gametest.log",
+    "views": "qa/views.json",
+    "image_decode": "qa/image-decode.json",
+    "visual_review": "qa/visual-review.json",
+    "interior_sheet": "views/interior-sheet.png",
+    "exterior_sheet": "views/exterior-sheet.png",
+    "native_world_captures": [
+      "qa\\native-placed-none.nbt",
+      "qa\\native-placed-clockwise_90.nbt",
+      "qa\\native-placed-clockwise_180.nbt",
+      "qa\\native-placed-counterclockwise_90.nbt"
+    ],
+    "sha256_manifest": "delivery-manifest.json",
+    "sha256_sums": "SHA256SUMS.txt"
+  },
+  "adaptations": [
+    "Minecart shapes in the reference are represented by static sorting bins away from the rail; no entity or minecart is included.",
+    "Tool silhouettes and loose ore piles are represented with vanilla blocks and workstations.",
+    "Interior previews remove roof/ceiling and two near boundary walls only in browser memory; room.nbt stays complete."
+  ],
+  "safety": {
+    "deployed": false,
+    "production_saves_opened_or_modified": false,
+    "mods_directory_changed": false,
+    "shared_core_modified": false,
+    "other_deliveries_overwritten": false,
+    "paid_image_api_called": false,
+    "isolated_test_world": "native-qa/run-isolated/world"
+  },
+  "limitations": [
+    "Software renders are not Minecraft client screenshots.",
+    "No full FarmingTales client, multiplayer or FPS validation.",
+    "No FT core or return-portal integration test.",
+    "Native occupancy negative probe checks this fixture; production full-volume/world-border/entity/fluid preflight and persistent idempotence remain integration responsibilities.",
+    "Ore blocks are vanilla mineable building materials; no minecart entity or loose tool items."
+  ],
+  "integration_requirements": [
+    "Use zone-M01 as the distinct persistent identity.",
+    "Preflight full 27x11x23 volume including explicit air and reject occupied/entity/fluid/world-border conflicts.",
+    "Rotate ports, feet/safe points and block states with the same native transform.",
+    "Preserve generated/player-modified rooms and persistent generation markers.",
+    "Do not deploy the isolated QA harness."
+  ]
+}

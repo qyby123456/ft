@@ -1,0 +1,152 @@
+{
+  "id": "M5",
+  "name": "末地观星台",
+  "name_en": "End Stargazer Terrace",
+  "size": [
+    15,
+    10,
+    15
+  ],
+  "entrance": [
+    7,
+    1,
+    0
+  ],
+  "interior": [
+    7,
+    1,
+    2
+  ],
+  "facing": "north",
+  "sha256": "37689df85de484a955fe4be126a03f25b4d9f13646f7b7a65707268ab6370717",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-design-batch3-20261101\\out\\M5-end-stargazer-terrace-hero.png",
+  "reference_sha256": "dcd0ffbe2727cc55608994a09e224cac2a42d78bd1b60aca13d399d6cf858cae",
+  "template_id": "ftdungeonmobs:image25/m5",
+  "data_version": 3465,
+  "edition": "Minecraft Java 1.20.1",
+  "stage": "independent_delivery_not_deployed",
+  "north_opening": {
+    "minimum": [
+      6,
+      1,
+      0
+    ],
+    "maximum": [
+      8,
+      3,
+      0
+    ],
+    "width": 3,
+    "height": 3
+  },
+  "walk_stations": [
+    {
+      "name": "北侧观星台前",
+      "position": [
+        7,
+        1,
+        4
+      ]
+    },
+    {
+      "name": "西侧镜头观测位",
+      "position": [
+        4,
+        1,
+        7
+      ]
+    },
+    {
+      "name": "东侧观测位",
+      "position": [
+        10,
+        1,
+        7
+      ]
+    },
+    {
+      "name": "南侧破损门前",
+      "position": [
+        7,
+        1,
+        11
+      ]
+    }
+  ],
+  "landmarks": {
+    "telescope_lens": [
+      5,
+      5,
+      7
+    ],
+    "telescope_mount": [
+      7,
+      3,
+      7
+    ],
+    "broken_decorative_portal": [
+      7,
+      4,
+      13
+    ],
+    "inert_crystal_pedestals": [
+      [
+        3,
+        5,
+        11
+      ],
+      [
+        11,
+        5,
+        11
+      ]
+    ],
+    "roof": {
+      "y": 9,
+      "complete": true,
+      "kind": "glass_with_purpur_ribs"
+    },
+    "chorus_planters": [
+      [
+        2,
+        0,
+        3
+      ],
+      [
+        12,
+        0,
+        3
+      ],
+      [
+        1,
+        0,
+        7
+      ],
+      [
+        13,
+        0,
+        7
+      ],
+      [
+        1,
+        0,
+        12
+      ],
+      [
+        13,
+        0,
+        12
+      ]
+    ]
+  },
+  "adaptations": [
+    "保持15×15占地；高度由概念h8调整为10，容纳玻璃星顶、完整屋檐与望远镜。",
+    "遵守非花园完整屋顶契约，露天虚空改为透明玻璃星顶、紫玻璃侧窗与深色门后景；剖切只用于预览。",
+    "浮岛意境以末地石与紫珀承台转译；模板满铺225格连续底板，不制造虚空坑或模板外悬浮岛。",
+    "破损门只用黑曜石、末地石与紫珀装饰，不含活动传送门、末地传送门框或功能性门。",
+    "末地水晶改为固定紫晶、紫玻璃和黑曜石基座，无实体、爆炸物或奖励库存。",
+    "紫颂为末地石上合法支撑的竖直茎与age=5花，避免生长侵占干燥环路。"
+  ],
+  "preview_kind": "actual_nbt_software_cutaway_not_gameplay_screenshot",
+  "integration_policy": "Coordinator imports M5 only after reviewing evidence; never rebuild existing rooms."
+}

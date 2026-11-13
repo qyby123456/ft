@@ -1,0 +1,57 @@
+{
+  "id": "corridor-S02",
+  "status": "PASS",
+  "structure_sha256": "eaa0a378cfc7b75177dab329571022e1d569e7bbf656dce348e6825fd2e83d47",
+  "reference_sha256": "e068ca984a82719da731f79474db5a7d3cd0bbdade57e5bfaca420e46e665239",
+  "size": [
+    11,
+    9,
+    16
+  ],
+  "length_blocks": 16,
+  "length_chunks": 1,
+  "checks": {
+    "static": {
+      "status": "PASS",
+      "evidence": "qa/static.json"
+    },
+    "four_view_visual_review": {
+      "status": "PASS",
+      "evidence": "qa/four-view-review.json"
+    },
+    "forge_native": {
+      "status": "PASS",
+      "evidence": "qa/native.json",
+      "minecraft": "1.20.1",
+      "forge": "47.4.10",
+      "rotations": 4,
+      "stabilization_ticks": 200
+    },
+    "preview_integrity": {
+      "status": "PASS",
+      "evidence": "qa/render.json",
+      "checked_pngs": 13
+    },
+    "native_capture_render_integrity": {
+      "status": "PASS",
+      "capture_count": 4
+    }
+  },
+  "ready_for_unified_review": true,
+  "integrated": false,
+  "deployed": false,
+  "production_world_modified": false,
+  "limitations": [
+    "Independent candidate only; coordinator still performs unified acceptance and unique slot allocation.",
+    "Not full modpack-client, multiplayer or FPS acceptance."
+  ],
+  "artifacts": {
+    "template": "room.nbt",
+    "metadata": "room.json",
+    "preview": "preview.png",
+    "four_views": "preview/four-view-sheet.png",
+    "full_shell": "preview/shell.png",
+    "roof": "preview/roof.png",
+    "forge_captures": "preview/native-placement-sheet.png"
+  }
+}

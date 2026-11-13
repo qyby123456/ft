@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>S02 · 陈旧石砖短直廊</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #101718; color: #f2eadb; font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif; }
+    header { height: 94px; display: flex; align-items: center; justify-content: space-between; padding: 18px 36px; border-bottom: 1px solid #47504a; background: #142023; }
+    h1 { font-size: 26px; font-weight: 600; margin: 0; letter-spacing: 1px; }
+    .number { color: #e7be78; margin-right: 18px; }
+    .sub { color: #aab9b4; font-size: 14px; margin-top: 8px; letter-spacing: .5px; }
+    .tag { font-size: 13px; color: #d7c79c; padding: 8px 12px; border: 1px solid #6d725d; border-radius: 4px; text-align: right; }
+    main { position: relative; width: 100vw; height: calc(100vh - 162px); }
+    canvas { display: block; width: 100%; height: 100%; }
+    #label { position: absolute; top: 20px; left: 36px; padding: 9px 13px; background: #142023df; border-left: 3px solid #d7ac65; font-size: 15px; }
+    #loading { position: absolute; left: 40%; top: 45%; color: #ead7b6; }
+    footer { height: 68px; padding: 13px 36px; border-top: 1px solid #47504a; display: flex; justify-content: space-between; gap: 25px; background: #142023; }
+    footer div { color: #aebcb6; font-size: 13px; line-height: 21px; }
+    footer b { color: #e8dbc0; font-weight: 500; }
+  </style>
+</head>
+<body>
+  <header>
+    <div><h1><span class="number">S02</span>陈旧石砖短直廊</h1><div class="sub">AGED STONE BRICK · 16 BLOCKS · ONE CHUNK · TWO OPEN PORTS</div></div>
+    <div class="tag">实际 NBT · Lodestone<br>11 × 9 × 16 / Java 1.20.1</div>
+  </header>
+  <main><canvas id="scene"></canvas><div id="label">加载实际结构</div><div id="loading">加载原版纹理与 NBT…</div></main>
+  <footer><div><b>3 × 3 安全通路</b> · 裂纹石砖拱券 · 铁托壁火把 · 高角蛛网<br>剖切仅用于检查，交付 NBT 保留完整屋顶、地板与侧墙。</div><div id="fingerprint">NBT 指纹核对中</div></footer>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

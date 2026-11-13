@@ -1,0 +1,86 @@
+{
+  "id": "N8_06",
+  "status": "PASS",
+  "checks": [
+    "1.20.1 dimensions and DataVersion",
+    "NBT SHA256",
+    "all positions in bounds",
+    "complete roof over footprint",
+    "crystal support",
+    "dry supported 3x3 opening",
+    "empty containers",
+    "entrance to safe point",
+    "lever support and direct output adjacency",
+    "no fluids, hazards or forbidden blocks",
+    "no spawned entities",
+    "reachable east connection",
+    "reachable north connection",
+    "route target entrance-north",
+    "route target exit-east",
+    "route target rear-of-screen",
+    "route target safe-point",
+    "unique block positions",
+    "vanilla control components"
+  ],
+  "reachable_floor_positions": 83,
+  "reachable_height_levels": [
+    1
+  ],
+  "verified_route_targets": [
+    {
+      "label": "safe-point",
+      "position": [
+        7,
+        1,
+        2
+      ]
+    },
+    {
+      "label": "rear-of-screen",
+      "position": [
+        9,
+        1,
+        12
+      ]
+    },
+    {
+      "label": "entrance-north",
+      "position": [
+        7,
+        1,
+        0
+      ]
+    },
+    {
+      "label": "exit-east",
+      "position": [
+        14,
+        1,
+        11
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "label": "corner-test",
+      "input": [
+        12,
+        2,
+        13
+      ],
+      "output": [
+        12,
+        1,
+        13
+      ],
+      "kind": "independent-lamp-test",
+      "locks_route": false
+    }
+  ],
+  "mechanism_ticks": "NOT_RUN",
+  "sha256": "53b55cc90e597e828906a4fa40a20d0ee40352969e96129ce0cef74be3014810",
+  "nbt_blocks": 1800,
+  "solid_and_detail_blocks": 551,
+  "world_placement": "NOT_RUN",
+  "gameplay": "NOT_RUN"
+}

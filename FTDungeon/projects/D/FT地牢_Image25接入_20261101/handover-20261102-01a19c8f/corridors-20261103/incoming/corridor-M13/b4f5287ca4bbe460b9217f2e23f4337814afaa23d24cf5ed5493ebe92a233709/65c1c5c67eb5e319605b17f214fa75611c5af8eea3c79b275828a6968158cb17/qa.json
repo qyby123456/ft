@@ -1,0 +1,70 @@
+{
+  "id": "M13",
+  "name": "苔覆遗迹断拱长廊",
+  "status": "PASS",
+  "size": [
+    13,
+    11,
+    40
+  ],
+  "sha256": "b4f5287ca4bbe460b9217f2e23f4337814afaa23d24cf5ed5493ebe92a233709",
+  "reference_sha256": "1fdf0434a35e4261f88d3de7b228deaba30f1b0af06ad467d723c4509fba9e66",
+  "static": {
+    "status": "PASS",
+    "report": "qa/static.json",
+    "block_records": 5720,
+    "non_air_blocks": 3383,
+    "palette_states": 20
+  },
+  "visual": {
+    "status": "PASS",
+    "report": "qa/visual.json",
+    "actual_nbt_rendering": true,
+    "interior_views": 4,
+    "exterior_views": 4,
+    "additional_cutaway": 1
+  },
+  "forge_native": {
+    "status": "PASS",
+    "report": "qa/native.json",
+    "log": "qa/forge-gametest-java17.log",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "placements": 8,
+    "server_ticks": 220,
+    "observations": 68640
+  },
+  "safety": {
+    "entities": 0,
+    "block_entities": 0,
+    "fluids": 0,
+    "unsafe_blocks": 0,
+    "north_south_ports": "3x3 minimum",
+    "clear_lane": "x=5..7 y=1..3 z=0..39, flat continuous full-block floor"
+  },
+  "deployment": "NOT_DEPLOYED",
+  "player_saves": "NOT_OPENED_OR_MODIFIED",
+  "production_mods": "NOT_MODIFIED",
+  "limitations": [
+    "No modpack client/FPS/multiplayer test",
+    "Native repeat placement is not catalog SavedData idempotence",
+    "No corridor registration, occupancy integration or deployment claimed",
+    "Natural vine growth is retained; long-term plant spread is not a permanent immutable-state guarantee"
+  ],
+  "live_vines": "Natural random-tick vine additions/face updates are allowed outside the clear lane; load-bearing masonry and lighting must remain stable.",
+  "delivery_files": {
+    "room.nbt": {
+      "sha256": "b4f5287ca4bbe460b9217f2e23f4337814afaa23d24cf5ed5493ebe92a233709",
+      "bytes": 19246
+    },
+    "room.json": {
+      "sha256": "559bc61a9cd2958c36852bbcd07e3590fe05d10a41d8ee6bd655aff81dc04bbe",
+      "bytes": 2168
+    },
+    "preview.png": {
+      "sha256": "29f3fe01a35c8d9dc9c76d5c811147c2b56c35439a9de4add285dcfcee8e4c9f",
+      "bytes": 474577
+    }
+  }
+}

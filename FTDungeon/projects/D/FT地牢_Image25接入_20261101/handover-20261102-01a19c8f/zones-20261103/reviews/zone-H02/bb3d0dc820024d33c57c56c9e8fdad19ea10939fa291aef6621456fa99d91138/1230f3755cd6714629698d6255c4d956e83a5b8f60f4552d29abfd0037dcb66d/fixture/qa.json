@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "id": "H02",
+  "delivery_id": "zone-H02",
+  "sha256": "bb3d0dc820024d33c57c56c9e8fdad19ea10939fa291aef6621456fa99d91138",
+  "reference_sha256": "d11b8f4c4fd01d0058b779811853271a011e6da302ed27e5ca049cb162f60896",
+  "size": [
+    29,
+    16,
+    33
+  ],
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "checked_at_local": "2026-11-03T15:47:57",
+  "timezone": "Asia/Shanghai",
+  "checks": {
+    "single_palette_vanilla_nbt": "PASS",
+    "reference_manifest_verify": "PASS",
+    "static_safety": "PASS",
+    "three_wide_three_high_route": "PASS",
+    "entrance_safety_point_bidirectional": "PASS",
+    "supported_furniture_rubble_chains": "PASS",
+    "full_floor_and_roof": "PASS",
+    "four_interior_and_four_exterior_views": "PASS",
+    "forge_four_rotations_320_ticks": "PASS",
+    "native_roundtrip_and_world_capture_comparison": "PASS"
+  },
+  "measurements": {
+    "records_per_rotation": 15312,
+    "records_per_phase_four_rotations": 61248,
+    "non_air_per_rotation": 6392,
+    "route_feet_cells": 216,
+    "state_drift": 0,
+    "entities_or_drops": 0,
+    "forbidden_blocks": 0,
+    "full_floor_cells": 957,
+    "full_roof_cells": 957
+  },
+  "evidence": {
+    "static": "qa/static.json",
+    "forge_native": "qa/native.json",
+    "captures": "qa/capture-comparison.json",
+    "renders": "qa/render-manifest.json",
+    "visual_review": "qa/visual-review.json",
+    "furniture_detail": "qa/detail-render.json",
+    "reference": "qa/reference-verification.json",
+    "forge_log": "qa/forge-20261103-142151-546.log"
+  },
+  "deployment": {
+    "performed": false,
+    "production_files_modified": false,
+    "player_world_opened": false
+  },
+  "limitations": [
+    "隔离 Forge 原生放置验收，不是整合包客户端、多人与连接路线接入验收。",
+    "视图为实际 NBT 加原版模型纹理的软件渲染，非游戏截图；不模拟动态光照。",
+    "显式 air 记录包含整个体积；后续接入须先检查整个体积占用，不能对玩家世界盲放。"
+  ]
+}

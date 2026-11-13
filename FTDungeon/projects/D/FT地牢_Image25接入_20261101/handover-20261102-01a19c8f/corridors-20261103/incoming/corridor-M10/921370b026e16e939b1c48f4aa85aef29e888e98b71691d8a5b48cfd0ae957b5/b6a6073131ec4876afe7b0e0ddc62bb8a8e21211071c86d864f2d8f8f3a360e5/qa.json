@@ -1,0 +1,67 @@
+{
+  "id": "corridor-M10",
+  "status": "PASS",
+  "ready_for_coordinator_review": true,
+  "sha256": "921370b026e16e939b1c48f4aa85aef29e888e98b71691d8a5b48cfd0ae957b5",
+  "reference_sha256": "f0bfc91e258dab253c9d0272f516d54821e82b60357cbc6dcdb1510a722f3ab0",
+  "size": [
+    15,
+    11,
+    40
+  ],
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    3
+  ],
+  "exit": [
+    7,
+    2,
+    39
+  ],
+  "static": {
+    "status": "PASS",
+    "report": "qa/static.json",
+    "checks": 108,
+    "records": 6600,
+    "palette": 39
+  },
+  "four_view_review": {
+    "status": "PASS",
+    "report": "qa/visual.json",
+    "manifest": "views/manifest.json",
+    "interior_views": 4,
+    "exterior_views": 4,
+    "eye_views": 2
+  },
+  "forge_native": {
+    "status": "PASS",
+    "report": "qa/native.json",
+    "log": "qa/forge.log",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "settle_ticks": 600,
+    "state_comparisons": 52800,
+    "neighbor_and_shape_updates": true,
+    "complete_state_preservation": true,
+    "survival_checks_per_rotation": 4049,
+    "entities_after_settling": 0
+  },
+  "integration": {
+    "deployed": false,
+    "production_save_modified": false,
+    "coordinator_acceptance": "PENDING",
+    "slot_assigned": false
+  },
+  "limits": [
+    "Preview and four-view evidence use Lodestone software rendering, not Minecraft client screenshots.",
+    "Forge native proof uses an isolated GameTestServer with no production save or full modpack client.",
+    "Template includes explicit air; coordinator must validate the complete target volume and reject occupied placement before deployment."
+  ]
+}

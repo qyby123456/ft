@@ -1,0 +1,145 @@
+{
+  "id": "corridor-S07",
+  "concept_id": "S07",
+  "name": "紫晶积水短廊",
+  "size": [
+    13,
+    11,
+    16
+  ],
+  "entrance": [
+    6,
+    2,
+    0
+  ],
+  "interior": [
+    6,
+    2,
+    3
+  ],
+  "exit": [
+    6,
+    2,
+    15
+  ],
+  "facing": "north",
+  "axis": "z",
+  "length_blocks": 16,
+  "length_chunks": 1,
+  "walkway_width": 3,
+  "walkway_feet_y": 2,
+  "sha256": "ba47a1f1f426b18f8a6698217fb36a073cbc9fe649e4efc10bc050734afecb19",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\S07-crystal-cave-flooded.png",
+  "reference_sha256": "7775b4e93df8aca46065fcc18c12ceba8cf20979d263ceaf2947f539b9759be9",
+  "reference_documents": [
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\README.md",
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\SPEC.md",
+    "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\manifest.json"
+  ],
+  "minecraft_version": "1.20.1",
+  "data_version": 3465,
+  "format": "gzip Java single-palette structure",
+  "water": {
+    "source_y": 1,
+    "depth_blocks": 1,
+    "basins": [
+      {
+        "min": [
+          2,
+          1,
+          2
+        ],
+        "max": [
+          4,
+          1,
+          13
+        ]
+      },
+      {
+        "min": [
+          8,
+          1,
+          2
+        ],
+        "max": [
+          10,
+          1,
+          13
+        ]
+      }
+    ],
+    "expected_sources": 72
+  },
+  "safe_points": [
+    [
+      6,
+      2,
+      0
+    ],
+    [
+      6,
+      2,
+      3
+    ],
+    [
+      6,
+      2,
+      8
+    ],
+    [
+      6,
+      2,
+      12
+    ],
+    [
+      6,
+      2,
+      15
+    ]
+  ],
+  "apertures": {
+    "north": {
+      "min": [
+        5,
+        2,
+        0
+      ],
+      "max": [
+        7,
+        5,
+        0
+      ]
+    },
+    "south": {
+      "min": [
+        5,
+        2,
+        15
+      ],
+      "max": [
+        7,
+        5,
+        15
+      ]
+    }
+  },
+  "intentional_deviations": [
+    "全幅积水改为两侧一格深密封浅水池，中间三格石面干燥直路，不要求玩家涉水。",
+    "封闭铁栅门改为两侧紫晶栅窗和中央开放拱口，保证一字贯通。",
+    "原版紫水晶不发光；照明来自末地烛，不伪称有着色光或光影反射。"
+  ],
+  "features": [
+    "苔石砖/裂石砖双层外壳",
+    "两座顶链悬吊铁笼",
+    "十二支末地烛冷白灯条",
+    "双侧晶簇与屋顶紫晶脉",
+    "完整屋顶/地基/双端门槛"
+  ],
+  "integration": {
+    "deployed": false,
+    "player_save_modified": false,
+    "catalog_slot": null,
+    "note": "独立候选，唯一槽位与正式接入交给统一交接线程分配。"
+  },
+  "generator": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-S07\\source\\corridor-s07.mjs"
+}

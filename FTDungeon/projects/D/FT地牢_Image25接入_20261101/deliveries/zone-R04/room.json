@@ -1,0 +1,238 @@
+{
+  "id": "zone-R04",
+  "name": "焦毁营房",
+  "size": [
+    25,
+    13,
+    25
+  ],
+  "entrance": [
+    12,
+    2,
+    0
+  ],
+  "interior": [
+    12,
+    2,
+    5
+  ],
+  "exit": [
+    12,
+    2,
+    24
+  ],
+  "pillars": [
+    [
+      6,
+      6
+    ],
+    [
+      17,
+      6
+    ],
+    [
+      6,
+      17
+    ],
+    [
+      17,
+      17
+    ]
+  ],
+  "bunks": [
+    {
+      "minX": 2,
+      "maxX": 4,
+      "minZ": 9,
+      "maxZ": 15,
+      "ladder": [
+        5,
+        9,
+        "east"
+      ]
+    },
+    {
+      "minX": 20,
+      "maxX": 22,
+      "minZ": 9,
+      "maxZ": 15,
+      "ladder": [
+        19,
+        15,
+        "west"
+      ]
+    }
+  ],
+  "fallen": [
+    [
+      3,
+      2,
+      4
+    ],
+    [
+      4,
+      2,
+      4
+    ],
+    [
+      5,
+      3,
+      4
+    ],
+    [
+      6,
+      3,
+      4
+    ],
+    [
+      7,
+      4,
+      4
+    ],
+    [
+      18,
+      2,
+      20
+    ],
+    [
+      19,
+      2,
+      20
+    ],
+    [
+      20,
+      3,
+      20
+    ],
+    [
+      21,
+      3,
+      20
+    ],
+    [
+      22,
+      4,
+      20
+    ]
+  ],
+  "hanging": [
+    [
+      7,
+      11
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      17,
+      11
+    ],
+    [
+      17,
+      14
+    ]
+  ],
+  "standing": [
+    [
+      3,
+      3,
+      18
+    ],
+    [
+      21,
+      3,
+      6
+    ]
+  ],
+  "embers": [
+    [
+      5,
+      5
+    ],
+    [
+      20,
+      19
+    ]
+  ],
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/ruins/R04-ruins-burnt-ruined-barracks.png",
+  "reference_sha256": "e04fa19324a4906d5110666f5b274868dd296e3f14f4d4657e2811de960b506a",
+  "source_id": "R04",
+  "kind": "ruins",
+  "facing": "north",
+  "sha256": "da8e9f21e39d9bd24991261eff4f04d56dde825a545b8c7e857459c3f9ef185f",
+  "data_version": 3465,
+  "axis": "z",
+  "walkable_width": 3,
+  "walkable_height": 3,
+  "safe_points": [
+    [
+      12,
+      2,
+      5
+    ],
+    [
+      12,
+      2,
+      12
+    ]
+  ],
+  "connections": [
+    {
+      "side": "north",
+      "feet": [
+        12,
+        2,
+        0
+      ],
+      "aperture": [
+        3,
+        4
+      ]
+    },
+    {
+      "side": "south",
+      "feet": [
+        12,
+        2,
+        24
+      ],
+      "aperture": [
+        3,
+        4
+      ]
+    }
+  ],
+  "roof": {
+    "sealed": true,
+    "surface_y": 11,
+    "glass_skylights": 2,
+    "columns": 4
+  },
+  "features": {
+    "bunk_frames": 2,
+    "sleeping_decks": 4,
+    "fallen_beams": 2,
+    "lanterns": 6,
+    "cosmetic_embers": 2
+  },
+  "safety": {
+    "real_fire": false,
+    "fluids": false,
+    "damage_blocks": false,
+    "entities": false,
+    "block_entities": false,
+    "loot": false
+  },
+  "reference_adaptations": [
+    "破损屋顶两处由冷色整块玻璃封口，保留焦木梁与封闭石质顶盖。",
+    "双层床为落地立柱、上下床板和破布构成的静态装饰，无可睡眠床和物品实体。",
+    "斜落梁使用阶梯式体素并逐段垫实至地面；避开三格宽中央通路。",
+    "灰堆、骨骸、铜盔和焦旗为原版静态方块的象征性复刻，无库存或掉落实体。"
+  ],
+  "integration": {
+    "deployed": false,
+    "production_save_modified": false,
+    "slot_assigned": false
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "M07",
+  "sha256": "c12bd3be22bae6be4cb7da9a547de541fe2dac0f27839cc7352872a27ec87576",
+  "time": "2026-11-02T22:58:58.739604+08:00",
+  "reviewer_thread": "01a19c8f-6747-7572-a77a-6e90084bbd34",
+  "four_view_status": "PASS",
+  "retest_status": "PASS",
+  "hard_blockers": [],
+  "retest_evidence": {
+    "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\handover-20261102-01a19c8f\\reviews\\M07\\c12bd3be22bae6be4cb7da9a547de541fe2dac0f27839cc7352872a27ec87576\\native\\20261102-222211\\result.json",
+    "sha256": "bd6a988777dfabfe74e93f3638da29a89eb30c4311f57fa13011f6645acfdf37",
+    "bytes": 1717
+  },
+  "render_manifest": {
+    "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\handover-20261102-01a19c8f\\reviews\\M07\\c12bd3be22bae6be4cb7da9a547de541fe2dac0f27839cc7352872a27ec87576\\four-views\\manifest.json",
+    "sha256": "398df160931b8d72070eccd2868ab02efb4fd44136262ffae57c0d8b1d2bcbb6",
+    "bytes": 4859
+  },
+  "actually_opened_images": [
+    {
+      "path": "D:\\ft工程文件\\image2.5\\dungeon-rooms-medium-random-20261102\\out\\M07-oubliette-well-hero.png",
+      "sha256": "66b0acc53cad4302ad7daa3589df6181055e2ce89b84947fbb565ce835c6d775",
+      "bytes": 2198843,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "expected_sha256": "66b0acc53cad4302ad7daa3589df6181055e2ce89b84947fbb565ce835c6d775",
+      "matches_declared": true
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_M07_枯井水牢_20261102\\out\\M07\\preview.png",
+      "sha256": "66fc358d3935d53b15c3434b08f77ae0e701dd75d120b7eb7562c9ad0155fb56",
+      "bytes": 615882,
+      "dimensions": [
+        1920,
+        1250
+      ]
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_M07_枯井水牢_20261102\\qa\\floor-plan.png",
+      "sha256": "06b525be2ad51c3406903ba681f3f3026ec469c32ee8db4427989a9458a78315",
+      "bytes": 16888,
+      "dimensions": [
+        470,
+        600
+      ]
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\handover-20261102-01a19c8f\\reviews\\M07\\c12bd3be22bae6be4cb7da9a547de541fe2dac0f27839cc7352872a27ec87576\\four-views\\interior-four-views.png",
+      "sha256": "2b0dc6d07647d73a37704e653d8a1b3a368d85341294048e24faed21ce6a18d4",
+      "bytes": 1918610,
+      "dimensions": [
+        2800,
+        2160
+      ]
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\handover-20261102-01a19c8f\\reviews\\M07\\c12bd3be22bae6be4cb7da9a547de541fe2dac0f27839cc7352872a27ec87576\\four-views\\exterior-four-views.png",
+      "sha256": "82bac9428345a832e429c3c5ec4dabfecb2c456ca70ac9a475ba551c7780fad9",
+      "bytes": 1366166,
+      "dimensions": [
+        2800,
+        2160
+      ]
+    }
+  ],
+  "visual_review_method": "Opened and inspected original concept, delivered preview, dry-route plan, freshly rendered north/south/west/east interior cutaway sheet and all-four exterior sheet; paired findings with the exact-NBT static and freshly rerun isolated Forge tests.",
+  "design_translation": "Central stone well with closed iron grate, two prison alcoves, low-wall moss, wooden crossbeams, supported chains/hooks, four hanging lights, and covered east drain match the concept's functional layout. Non-grid rings, bucket rope and round well are vanilla approximations, not gameplay devices.",
+  "checks": {
+    "floating_or_clipped_furniture": "No unsupported or intersecting furniture observed in four interior views; verified wall hooks, skull floor support and chain attachment in native checks.",
+    "beam_column_joinery": "Three timber crossbeams bear on masonry pilasters; native and static full-height supports pass. Cutaway-only near-wall removal does not indicate a missing real support.",
+    "routes_entry_safe_point": "Three-wide north passage at [7,4,0] reaches [7,4,3] and the dry ring; 141 native reachable foot positions in every rotation. Requires core entrance ramp to local feet Y=4.",
+    "water_seal": "All 33 water-source cells remain sealed below closed grates and a covered drain; zero leaks/items after forced neighbor/fluid updates and 240 ticks per rotation.",
+    "inventory_entities": "Two skull block entities; no items, loot tables, preplaced mobs or reward inventory.",
+    "roof_shell": "All four complete exterior views retain roof and envelope. Native verification checks 510 roof blocks in each rotation; cutaway only removes in-memory roof for viewing."
+  },
+  "candidate_acceptance": "READY_FOR_UNIFIED_INTEGRATION_STAGE_ONLY_NOT_DEPLOYED",
+  "core_acceptance_conditions": [
+    "Keep the reserved ID/slot and exact candidate SHA. M07 is never M7.",
+    "Plan and test a real supported hall route and entrance ramp; validate whole-volume/margins, entities and occupancy refusal.",
+    "Use an independent persistent generation fingerprint; existing rooms and player alterations must not be overwritten.",
+    "Before shared core writes or deployment, report exact candidate JAR hash, changed files/dependencies and release conditions to the human coordinator."
+  ],
+  "limits": "Pass applies to this standalone room candidate and 240-tick isolated Forge placement, not shared-core connection, production migration, modpack client, multiplayer, FPS, or deployment. No NBT repair was needed; source SHA is unchanged."
+}

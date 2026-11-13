@@ -1,0 +1,211 @@
+{
+  "id": "L1",
+  "status": "PASS",
+  "minecraft": "1.20.1",
+  "size": [
+    25,
+    12,
+    25
+  ],
+  "sha256": "7ebcea45934377ebaf4e7b74f82cedc959a6d6781ceeea2c6ab8ad556b51730a",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-room-obsidian-trial-hall-20261101\\out\\dungeon-room-obsidian-trial-hall-hero.png",
+  "interface": {
+    "facing": "north",
+    "entrance_feet": [
+      12,
+      2,
+      0
+    ],
+    "interior_feet": [
+      12,
+      2,
+      4
+    ],
+    "opening_width": 3,
+    "opening_height": 3,
+    "local_z": 0,
+    "dry_full_block_support": true,
+    "no_closed_door": true
+  },
+  "geometry": {
+    "status": "PASS",
+    "size": [
+      25,
+      12,
+      25
+    ],
+    "solid_detail_blocks": 3355,
+    "template_cells_including_explicit_air": 7500,
+    "block_counts": {
+      "polished_blackstone_bricks": 1262,
+      "deepslate_tiles": 1056,
+      "obsidian": 505,
+      "polished_blackstone": 187,
+      "lava": 80,
+      "chiseled_polished_blackstone": 78,
+      "gilded_blackstone": 54,
+      "crying_obsidian": 52,
+      "gold_block": 25,
+      "polished_blackstone_brick_stairs": 12,
+      "iron_bars": 12,
+      "netherrack": 9,
+      "fire": 9,
+      "lantern": 6,
+      "chain": 4,
+      "amethyst_block": 2,
+      "barrel": 2
+    },
+    "entrance": [
+      12,
+      2,
+      0
+    ],
+    "interior": [
+      12,
+      2,
+      4
+    ],
+    "north_opening": {
+      "width": 3,
+      "height": 3,
+      "foot_y": 2,
+      "dry_full_block_threshold": true,
+      "inward_three_wide_dry_path_length": 7
+    },
+    "roof": "all 625 columns have a two-block-thick stepped sealed vault",
+    "walls": "all four boundaries closed except the single 3x3 north opening",
+    "lava": {
+      "sources": 80,
+      "y": 1,
+      "closed_bottom_and_sides": true,
+      "bridge_width": 3,
+      "bridges": 4
+    },
+    "walkability": {
+      "two_air_blocks_clearance": true,
+      "reachable_safe_cells": 411,
+      "anchors": {
+        "entrance": [
+          12,
+          2,
+          0
+        ],
+        "interior": [
+          12,
+          2,
+          4
+        ],
+        "north_platform": [
+          12,
+          3,
+          9
+        ],
+        "south_platform": [
+          12,
+          3,
+          15
+        ],
+        "west_platform": [
+          9,
+          3,
+          12
+        ],
+        "east_platform": [
+          15,
+          3,
+          12
+        ],
+        "north_bridge": [
+          12,
+          2,
+          5
+        ],
+        "south_bridge": [
+          12,
+          2,
+          19
+        ],
+        "west_bridge": [
+          5,
+          2,
+          12
+        ],
+        "east_bridge": [
+          19,
+          2,
+          12
+        ],
+        "rear_walkway": [
+          12,
+          2,
+          22
+        ],
+        "west_walkway": [
+          3,
+          2,
+          12
+        ],
+        "east_walkway": [
+          21,
+          2,
+          12
+        ]
+      }
+    },
+    "decorative_brazier": {
+      "vanilla_netherrack_fire": true,
+      "ft_interaction": false
+    },
+    "empty_barrels": 2,
+    "entities": 0,
+    "loot_tables": 0,
+    "spawners": 0,
+    "tick_functions": 0,
+    "source_reference_sha256": "56aa80aebe9a5f29d4bcf00fac536ee28efd49ca4c7d20fae82e787e259da50a",
+    "scope": "Deterministic voxel checks; native NBT and registry validation added separately. No game world, deployment, mob/reward logic, paid API calls or FT core changes."
+  },
+  "native_validation": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "size": [
+      25,
+      12,
+      25
+    ],
+    "palette_states": 21,
+    "template_cells": 7500,
+    "air_cells": 4145,
+    "solid_detail_blocks": 3355,
+    "vanilla_block_registry_and_properties": "PASS",
+    "unique_positions_and_bounds": "PASS",
+    "structure_template_roundtrip": "PASS",
+    "entities_or_block_entity_payloads": 0,
+    "scope": "Actual Minecraft 1.20.1 NBT decoder, registries and StructureTemplate; not a world or client gameplay test."
+  },
+  "blueprint_matches_compressed_nbt": true,
+  "preview": {
+    "status": "PASS",
+    "size": [
+      1600,
+      1100
+    ],
+    "sha256": "58a5358743d5c5b9891728457c98fc0958a86ae20ed7dd9a80a00bfa454955e3",
+    "render": "Actual template voxel positions with original vanilla textures; cutaway roof and near walls, simplified small models; not a game screenshot."
+  },
+  "scope": {
+    "only_production_and_qa": true,
+    "core_modified": false,
+    "deployed": false,
+    "world_modified": false,
+    "new_paid_image_requests": 0,
+    "mobs_or_rewards_added": false,
+    "barrels": "two empty decorative barrels with no LootTable or item payload",
+    "decorative_brazier": "vanilla netherrack fire, not an interactive FT brazier",
+    "previous_delivery_unchanged_sha256": "ff01cc6fe7191a699dd613ebb168d1d08c158c363b1f3124d1884ab1d222d8ea"
+  },
+  "caveats": [
+    "No Minecraft world/client/server gameplay test. The receiving integrator is responsible for placement, collision checks with neighbouring rooms and game-runtime acceptance.",
+    "Explicit minecraft:air occupies the full 25x12x25 template volume; do not place over existing builds without the integrator's protection checks.",
+    "Real lava and netherrack fire are damaging hazards; the entry and marked interior point are dry. No game rules are changed."
+  ]
+}

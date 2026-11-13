@@ -1,0 +1,45 @@
+{
+  "id": "corridor-S16",
+  "design_id": "S16",
+  "status": "PASS",
+  "structure_sha256": "bb4b419ca18defde5020e22b3dd2324934b7c16d82333321ea68eda20d67a959",
+  "reference_sha256": "253f2d0d39dd3a642e97a1022ad95c9f14e3fc7a321e18769430ae8c16f39fc4",
+  "static": {
+    "status": "PASS",
+    "tests": 14,
+    "report": "qa/static.json"
+  },
+  "four_view": {
+    "status": "PASS",
+    "report": "qa/four-view-review.json",
+    "render_evidence": "qa/render-evidence.json",
+    "sheet": "preview/four-view-sheet.png"
+  },
+  "forge_native": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "records_per_rotation": 1760,
+    "records_after_ticks": 7040,
+    "stabilization_ticks": 200,
+    "collision_negative_probes": 4,
+    "support_negative_probes": 4,
+    "native_captures_match": true,
+    "report": "qa/forge-native.json",
+    "process": "qa/forge-process.json",
+    "log": "qa/forge-run.log",
+    "fixture_vines_spread": false,
+    "fixture_random_tick_speed": 3
+  },
+  "integration_readiness": "standalone candidate ready for coordinator review; no production ID/slot assigned by this thread",
+  "deployed": false,
+  "player_saves_modified": false,
+  "paid_image_calls": 0,
+  "limitations": [
+    "No production deployment, FT slot, occupied-volume refusal or integration idempotence tested.",
+    "No full modpack client, FPS, multiplayer or player-world construction tested.",
+    "Vine spreading is disabled only in the disposable test world; it may grow naturally in a future deployment."
+  ],
+  "generated_at": "2026-11-03 11:34:14 Asia/Shanghai"
+}

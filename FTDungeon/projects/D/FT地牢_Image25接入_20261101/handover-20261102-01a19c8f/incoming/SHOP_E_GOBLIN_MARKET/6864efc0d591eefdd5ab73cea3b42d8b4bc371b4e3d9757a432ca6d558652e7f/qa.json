@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "generated_at": "2026-11-02T10:46:44.264515+08:00",
+  "id": "SHOP_E_GOBLIN_MARKET",
+  "structure_sha256": "6864efc0d591eefdd5ab73cea3b42d8b4bc371b4e3d9757a432ca6d558652e7f",
+  "reference_sha256": "7eec11d6c267cb7b9a58c307ea2ae3ad5601fd8fcb34b924f172101395365746",
+  "structure_size": [
+    13,
+    9,
+    13
+  ],
+  "record_count": 1521,
+  "entrance": [
+    6,
+    1,
+    0
+  ],
+  "interior": [
+    6,
+    1,
+    4
+  ],
+  "static": {
+    "status": "PASS",
+    "checks": 30,
+    "report": "qa/static.json"
+  },
+  "native": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "java": "17.0.8",
+    "rotations": 4,
+    "records_after_100_ticks": 6084,
+    "block_entities_per_rotation": 18,
+    "reachable_foot_positions_per_rotation": 92,
+    "suspended_pots_per_rotation": 2,
+    "unexpected_world_entities": 0,
+    "missing_lamp_chain_negative_probes": 4,
+    "missing_pot_chain_negative_probes": 4,
+    "blocked_aisle_negative_probes": 4,
+    "source_vs_unrotated_capture": "EXACT_STATE_EQUAL",
+    "report": "qa/native.json",
+    "log": "qa/forge-gametest.log"
+  },
+  "visual": {
+    "status": "PASS",
+    "report": "qa/visual-review.json",
+    "images": [
+      {
+        "path": "preview/delivery-sheet.png",
+        "sha256": "0dae8cc08f2b808091f212443ea585112c59dbb81e2e01e58a00c275bd9eb997",
+        "size": [
+          2480,
+          1650
+        ]
+      },
+      {
+        "path": "preview/east.png",
+        "sha256": "e33d10fbef351041cc94429a0a8d077557828add749d43d6645017eba6b22d45",
+        "size": [
+          1600,
+          1250
+        ]
+      },
+      {
+        "path": "preview/exterior.png",
+        "sha256": "fecabd5fe2cdaa26464465261521987bb247e31d158e484ae4ae622cd6089e13",
+        "size": [
+          1600,
+          1250
+        ]
+      },
+      {
+        "path": "preview/four-views.png",
+        "sha256": "b2c0d9f50afdaff736e5b2a1769cdeb3d51478fa9a1a63058dd5ed9e6f235f13",
+        "size": [
+          3200,
+          2500
+        ]
+      },
+      {
+        "path": "preview/furniture-under-awning.png",
+        "sha256": "eeee1b51395f5adba7bd32952e2e51c87d382e554062c66f45fea66a16c8c901",
+        "size": [
+          1600,
+          1250
+        ]
+      },
+      {
+        "path": "preview/native-world-capture.png",
+        "sha256": "06aa21ecc304631d018eee7786f982f8fe38218b6a3f688a6c6a3e370f104365",
+        "size": [
+          1600,
+          1250
+        ]
+      },
+      {
+        "path": "preview/north.png",
+        "sha256": "53149fb35a23a562cb77394097adaa2fdf5a5c69a1dfd3c7759d6b6ad7e95a8d",
+        "size": [
+          1600,
+          1250
+        ]
+      },
+      {
+        "path": "preview/plan.png",
+        "sha256": "fe4ab8c0cfbe7d51b0218817b123d90cac9ad47743efbcb31842ad45ddae9057",
+        "size": [
+          1280,
+          1150
+        ]
+      },
+      {
+        "path": "preview/south.png",
+        "sha256": "334b6268eb63d4f9a2feb2279a6405159f8934bc89baa052c37b635c050836e9",
+        "size": [
+          1600,
+          1250
+        ]
+      },
+      {
+        "path": "preview/west.png",
+        "sha256": "0bdb8a8586d22f02f70876e2e7cb36df779c92302c15c1c90b8d1a3950de5318",
+        "size": [
+          1600,
+          1250
+        ]
+      },
+      {
+        "path": "out/preview.png",
+        "sha256": "53149fb35a23a562cb77394097adaa2fdf5a5c69a1dfd3c7759d6b6ad7e95a8d",
+        "size": [
+          1600,
+          1250
+        ]
+      }
+    ]
+  },
+  "reproducibility": {
+    "status": "PASS",
+    "report": "qa/reproducibility.json"
+  },
+  "references": {
+    "selected": "shop-variant-E-goblin-market.png",
+    "source": "D:\\ft工程文件\\image2.5\\dungeon-shop-variants-20261102\\out\\shop-variant-E-goblin-market.png",
+    "sha256": "7eec11d6c267cb7b9a58c307ea2ae3ad5601fd8fcb34b924f172101395365746",
+    "size": [
+      1536,
+      1024
+    ],
+    "source_styles_md_present": false,
+    "note": "STYLES.md was absent at intake; README/manifest/DISPATCH and the PNG were verified. No image API was called."
+  },
+  "integration": {
+    "status": "STANDALONE_CANDIDATE_NOT_REGISTERED",
+    "id_is_provisional": true,
+    "assigned_slot": null,
+    "deployed": false,
+    "requires_coordinator_acceptance": true
+  },
+  "boundary": "Project, room and delivery writes are confined to the independent variant-E root; Gradle may update its normal shared cache/daemon bookkeeping. No runtime mods, production saves, core source, other rooms or shared queues were edited.",
+  "limitations": [
+    "No FT catalog slot, gallery walkway, idempotence or production deployment tested.",
+    "No full modpack client, multiplayer, FPS or merchant trade behavior tested.",
+    "Native world capture is machine evidence, not an in-game screenshot.",
+    "Software orthographic render; no client shader, light simulation, biome tint or player screenshot.",
+    "Cutaway removes roof Y=8, roof beams Y=7 and near exterior walls in memory only; furniture-under-awning.png also hides wool in memory, not in the actual template.",
+    "Source STYLES.md was absent at intake; README/manifest/DISPATCH were present.",
+    "18 block entities are 11 empty barrels, 4 empty chests, 1 empty brewing stand and 2 decorative skulls; no reward inventory or loot table."
+  ]
+}

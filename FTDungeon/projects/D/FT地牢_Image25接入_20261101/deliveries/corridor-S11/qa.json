@@ -1,0 +1,73 @@
+{
+  "id": "S11",
+  "delivery_id": "corridor-S11",
+  "status": "PASS",
+  "sha256": "3e4d7506ba5dcec155bda6ed2260e6825e930495bcccffd2640ef6a7c5c1f387",
+  "reference_sha256": "2bdda4f75bf87f19ae80540a5de09af4b720dde05e515cdcd2631fba795d65a6",
+  "size": [
+    13,
+    12,
+    16
+  ],
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "static": {
+    "status": "PASS",
+    "report": "qa/static.json",
+    "checks_passed": 18,
+    "safe_main_path_cells": 80
+  },
+  "four_view_review": {
+    "status": "PASS",
+    "report": "qa/renders.json",
+    "interior": "interior-four-views.png",
+    "exterior": "exterior-four-views.png"
+  },
+  "preview": {
+    "status": "PASS",
+    "report": "qa/lodestone-preview.json",
+    "file": "preview.png",
+    "renderer": "Lodestone ThreeStructureRenderer from final NBT"
+  },
+  "forge_native": {
+    "status": "PASS",
+    "report": "qa/forge-native.json",
+    "log": "qa/forge-run.log",
+    "rotations": 4,
+    "ticks_observed": 240,
+    "records_per_rotation": 2496,
+    "forced_lava_and_neighbor_updates": true,
+    "fluid_leaks": 0,
+    "dropped_items": 0
+  },
+  "artifacts": {
+    "room.nbt": {
+      "sha256": "3e4d7506ba5dcec155bda6ed2260e6825e930495bcccffd2640ef6a7c5c1f387",
+      "bytes": 8419
+    },
+    "room.json": {
+      "sha256": "91d9e78365ef8619457903d7620fe8b05542bf8754c663e5cef205d33612e3c0",
+      "bytes": 2425
+    },
+    "preview.png": {
+      "sha256": "7b755a4afe59a112b1e6e9319a28a0b86791b407640253453cfcfc6535ba1a2b",
+      "bytes": 882002
+    },
+    "interior-four-views.png": {
+      "sha256": "5eaaab616b444c91c30bf0b6ddeae9edf804a8fb5a8c9b3997b18d332d41f037",
+      "bytes": 1154669
+    },
+    "exterior-four-views.png": {
+      "sha256": "40bfa67959f6d71b43f1edab7953d673de928835b6d0278e5a556afbece9b71c",
+      "bytes": 985608
+    }
+  },
+  "deployed": false,
+  "player_saves_touched": false,
+  "core_catalog_modified": false,
+  "limits": [
+    "Not an actual modpack client screenshot or multiplayer/FPS playtest.",
+    "No gameplay traps, spawning, inventories or loot supplied.",
+    "Independent candidate only; no dungeon-core integration or live-world deployment."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "corridor-S16",
+  "design_id": "S16",
+  "name": "冰封牢狱·蔓生短廊",
+  "category": "straight_short_corridor",
+  "size": [
+    11,
+    10,
+    16
+  ],
+  "entrance": [
+    5,
+    1,
+    0
+  ],
+  "interior": [
+    5,
+    1,
+    2
+  ],
+  "exit": [
+    5,
+    1,
+    15
+  ],
+  "facing": "north",
+  "exits": [
+    {
+      "position": [
+        5,
+        1,
+        0
+      ],
+      "facing": "north"
+    },
+    {
+      "position": [
+        5,
+        1,
+        15
+      ],
+      "facing": "south"
+    }
+  ],
+  "length_blocks": 16,
+  "length_chunks": 1,
+  "clear_path": {
+    "x": [
+      3,
+      7
+    ],
+    "y": [
+      1,
+      3
+    ],
+    "z": [
+      0,
+      15
+    ],
+    "width": 5,
+    "height": 3
+  },
+  "dry_center_lane": {
+    "x": [
+      4,
+      6
+    ],
+    "y": 1,
+    "z": [
+      0,
+      15
+    ],
+    "width": 3
+  },
+  "sha256": "bb4b419ca18defde5020e22b3dd2324934b7c16d82333321ea68eda20d67a959",
+  "data_version": 3465,
+  "format": "gzip vanilla Java single palette structure NBT",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/S16-frozen-prison-overgrown.png",
+  "reference_sha256": "253f2d0d39dd3a642e97a1022ad95c9f14e3fc7a321e18769430ae8c16f39fc4",
+  "builder": "minecraft-builder-skill / Lodestone 0.6.0 / run-build.mjs",
+  "features": [
+    "four ribbed stone arches",
+    "six ice-blocked barred cell panels",
+    "six roof-anchored frozen chains",
+    "twelve end rods",
+    "wall and roof-supported vines",
+    "permanent packed and blue ice"
+  ],
+  "concept_adaptations": [
+    "North/south arches stay open instead of the concept closed far gate.",
+    "No meltable ice, snow layers, fluids or falling ice spikes.",
+    "Cells are sealed ornamental recesses, not additional branches."
+  ],
+  "placement_policy": "Coordinator must inspect the full volume including air and reject occupied/fluid/entity overlap before placement; never blindly clear a player world.",
+  "deployment": "not integrated; not deployed; no player save opened or modified"
+}

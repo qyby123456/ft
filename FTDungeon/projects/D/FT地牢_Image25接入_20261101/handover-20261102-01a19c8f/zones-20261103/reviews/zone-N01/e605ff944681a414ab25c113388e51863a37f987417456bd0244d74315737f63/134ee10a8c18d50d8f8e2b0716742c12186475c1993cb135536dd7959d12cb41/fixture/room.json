@@ -1,0 +1,473 @@
+{
+  "id": "N01",
+  "name": "四向枢纽 · 罗盘灯台",
+  "size": [
+    25,
+    12,
+    25
+  ],
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/hub/N01-hub-four-way-junction.png",
+  "reference_sha256": "fc72ab0f0f5650c07a959cf31a1de9bbb263af60ca5d7356d6255d35fac954fc",
+  "floor_y": 1,
+  "walking_y": 2,
+  "route_width": 3,
+  "minimum_route_headroom": 5,
+  "center_safe": [
+    12,
+    2,
+    9
+  ],
+  "safe_area": {
+    "from": [
+      11,
+      2,
+      8
+    ],
+    "to": [
+      13,
+      6,
+      10
+    ]
+  },
+  "central_obstacle": {
+    "from": [
+      11,
+      2,
+      11
+    ],
+    "to": [
+      13,
+      4,
+      13
+    ]
+  },
+  "ports": [
+    {
+      "id": "N",
+      "direction": "north",
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "center": [
+        12,
+        2,
+        0
+      ],
+      "aperture": {
+        "from": [
+          10,
+          2,
+          0
+        ],
+        "to": [
+          14,
+          6,
+          0
+        ]
+      },
+      "throat": {
+        "from": [
+          10,
+          2,
+          0
+        ],
+        "to": [
+          14,
+          6,
+          2
+        ]
+      },
+      "floor_y": 1,
+      "width": 5,
+      "height": 5
+    },
+    {
+      "id": "E",
+      "direction": "east",
+      "normal": [
+        1,
+        0,
+        0
+      ],
+      "center": [
+        24,
+        2,
+        12
+      ],
+      "aperture": {
+        "from": [
+          24,
+          2,
+          10
+        ],
+        "to": [
+          24,
+          6,
+          14
+        ]
+      },
+      "throat": {
+        "from": [
+          22,
+          2,
+          10
+        ],
+        "to": [
+          24,
+          6,
+          14
+        ]
+      },
+      "floor_y": 1,
+      "width": 5,
+      "height": 5
+    },
+    {
+      "id": "S",
+      "direction": "south",
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "center": [
+        12,
+        2,
+        24
+      ],
+      "aperture": {
+        "from": [
+          10,
+          2,
+          24
+        ],
+        "to": [
+          14,
+          6,
+          24
+        ]
+      },
+      "throat": {
+        "from": [
+          10,
+          2,
+          22
+        ],
+        "to": [
+          14,
+          6,
+          24
+        ]
+      },
+      "floor_y": 1,
+      "width": 5,
+      "height": 5
+    },
+    {
+      "id": "W",
+      "direction": "west",
+      "normal": [
+        -1,
+        0,
+        0
+      ],
+      "center": [
+        0,
+        2,
+        12
+      ],
+      "aperture": {
+        "from": [
+          0,
+          2,
+          10
+        ],
+        "to": [
+          0,
+          6,
+          14
+        ]
+      },
+      "throat": {
+        "from": [
+          0,
+          2,
+          10
+        ],
+        "to": [
+          2,
+          6,
+          14
+        ]
+      },
+      "floor_y": 1,
+      "width": 5,
+      "height": 5
+    }
+  ],
+  "pillars": [
+    {
+      "shaft": {
+        "from": [
+          4,
+          3,
+          4
+        ],
+        "to": [
+          5,
+          9,
+          5
+        ]
+      },
+      "base": {
+        "from": [
+          3,
+          2,
+          3
+        ],
+        "to": [
+          6,
+          2,
+          6
+        ]
+      },
+      "capital": {
+        "from": [
+          3,
+          10,
+          3
+        ],
+        "to": [
+          6,
+          10,
+          6
+        ]
+      }
+    },
+    {
+      "shaft": {
+        "from": [
+          19,
+          3,
+          4
+        ],
+        "to": [
+          20,
+          9,
+          5
+        ]
+      },
+      "base": {
+        "from": [
+          18,
+          2,
+          3
+        ],
+        "to": [
+          21,
+          2,
+          6
+        ]
+      },
+      "capital": {
+        "from": [
+          18,
+          10,
+          3
+        ],
+        "to": [
+          21,
+          10,
+          6
+        ]
+      }
+    },
+    {
+      "shaft": {
+        "from": [
+          4,
+          3,
+          19
+        ],
+        "to": [
+          5,
+          9,
+          20
+        ]
+      },
+      "base": {
+        "from": [
+          3,
+          2,
+          18
+        ],
+        "to": [
+          6,
+          2,
+          21
+        ]
+      },
+      "capital": {
+        "from": [
+          3,
+          10,
+          18
+        ],
+        "to": [
+          6,
+          10,
+          21
+        ]
+      }
+    },
+    {
+      "shaft": {
+        "from": [
+          19,
+          3,
+          19
+        ],
+        "to": [
+          20,
+          9,
+          20
+        ]
+      },
+      "base": {
+        "from": [
+          18,
+          2,
+          18
+        ],
+        "to": [
+          21,
+          2,
+          21
+        ]
+      },
+      "capital": {
+        "from": [
+          18,
+          10,
+          18
+        ],
+        "to": [
+          21,
+          10,
+          21
+        ]
+      }
+    }
+  ],
+  "hanging_lanterns": [
+    [
+      7,
+      7
+    ],
+    [
+      17,
+      7
+    ],
+    [
+      7,
+      17
+    ],
+    [
+      17,
+      17
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      16,
+      3
+    ],
+    [
+      21,
+      8
+    ],
+    [
+      21,
+      16
+    ],
+    [
+      16,
+      21
+    ],
+    [
+      8,
+      21
+    ],
+    [
+      3,
+      16
+    ],
+    [
+      3,
+      8
+    ]
+  ],
+  "rails": [
+    [
+      19,
+      2,
+      17
+    ],
+    [
+      20,
+      2,
+      17
+    ],
+    [
+      21,
+      2,
+      17
+    ],
+    [
+      22,
+      2,
+      17
+    ]
+  ],
+  "deployment": "NOT_DEPLOYED",
+  "sha256": "e605ff944681a414ab25c113388e51863a37f987417456bd0244d74315737f63",
+  "record_count": 7500,
+  "explicit_air": 3691,
+  "block_entities": 12,
+  "entities": 0,
+  "coordinate_system": "+X east, +Z south; Y=2 feet; all direction labels are template-local",
+  "rotation_pivot": [
+    0,
+    0,
+    0
+  ],
+  "adjacency_translation": {
+    "N": [
+      0,
+      0,
+      -25
+    ],
+    "E": [
+      25,
+      0,
+      0
+    ],
+    "S": [
+      0,
+      0,
+      25
+    ],
+    "W": [
+      -25,
+      0,
+      0
+    ]
+  },
+  "future_placement_requires_full_volume_occupancy_check": true
+}

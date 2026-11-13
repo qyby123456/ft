@@ -1,0 +1,880 @@
+{
+  "id": "NAT6-07",
+  "name": "熔岩门庭",
+  "kind": "entrance",
+  "size": [
+    13,
+    12,
+    19
+  ],
+  "entrance": [
+    6,
+    2,
+    0
+  ],
+  "interior": [
+    6,
+    2,
+    2
+  ],
+  "facing": "north",
+  "connectors": [
+    {
+      "facing": "north",
+      "position": [
+        6,
+        2,
+        0
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "facing": "south",
+      "position": [
+        6,
+        2,
+        18
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "sha256": "fe9449712421e886da90ea40345fba4374de022752d330c11b82bff35741b389",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S6-volcanic-cavern\\out\\S6-07-entrance.png",
+  "reference_sha256": "dbb4b096be04a77cafff11169da6c7fd0333c2f50851ed43c5efa63d42e543e6",
+  "coordinate_system": "+X east, +Y up, +Z south; all entrance/connector coordinates are feet",
+  "provisional_id": true,
+  "group": "nature-batch1-S6",
+  "adaptations": [
+    "sealed lava behind orange glass, no damaging magma floors",
+    "full roof except courtyard skylight",
+    "no outside scenery lava, smoke, particles or entities",
+    "dimensions adapted to modular entrance and safe routes",
+    "overview is layout reference, not a placeable module"
+  ],
+  "structure_evidence": {
+    "room": "NAT6-07",
+    "source_nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_nether_fortresses\\data\\betterfortresses\\structures\\battle_bridge\\battle_bridge_gate.nbt",
+    "source_nbt_sha256": "fb97c274f60b6797d38910f4e42ca9f499035b7585f6f65940202b149f5cd910",
+    "details_path": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_nether_fortresses\\betterfortresses\\battle_bridge\\battle_bridge_gate.json",
+    "details_sha256": "3a7836986e9ecc8668c4762ce044edc1e8fbf982a429189dc4a1514420eb55ac",
+    "source_size": [
+      11,
+      20,
+      19
+    ],
+    "source_records": 2999,
+    "source_palette": [
+      {
+        "Name": "minecraft:orange_terracotta"
+      },
+      {
+        "Name": "minecraft:nether_bricks"
+      },
+      {
+        "Name": "minecraft:red_nether_bricks"
+      },
+      {
+        "Name": "minecraft:chiseled_nether_bricks"
+      },
+      {
+        "Name": "minecraft:polished_blackstone"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:nether_brick_slab"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "south"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "north"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "south"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Name": "minecraft:air"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "north"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "south"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "south"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "false",
+          "waterlogged": "false",
+          "south": "true",
+          "north": "true",
+          "west": "false"
+        },
+        "Name": "minecraft:nether_brick_fence"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "north"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "true",
+          "north": "true",
+          "west": "false"
+        },
+        "Name": "minecraft:nether_brick_fence"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "true",
+          "north": "false",
+          "west": "true"
+        },
+        "Name": "minecraft:nether_brick_fence"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "false",
+          "north": "true",
+          "west": "true"
+        },
+        "Name": "minecraft:nether_brick_fence"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "south"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "false",
+          "waterlogged": "false",
+          "south": "true",
+          "north": "true",
+          "west": "true"
+        },
+        "Name": "minecraft:nether_brick_fence"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "north"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "south"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "north"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "south"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "north"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "north"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "south"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "west"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_left",
+          "facing": "north"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "inner_right",
+          "facing": "south"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "east": "true",
+          "waterlogged": "false",
+          "south": "true",
+          "north": "true",
+          "west": "true"
+        },
+        "Name": "minecraft:nether_brick_fence"
+      },
+      {
+        "Properties": {
+          "east": "low",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:nether_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "low",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:nether_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "low",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:nether_brick_wall"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "low",
+          "up": "true"
+        },
+        "Name": "minecraft:nether_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "south"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "north"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "east"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "east"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_right",
+          "facing": "west"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "outer_left",
+          "facing": "north"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "bottom"
+        },
+        "Name": "minecraft:nether_brick_slab"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:crimson_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:crimson_stairs"
+      },
+      {
+        "Properties": {
+          "face": "wall",
+          "powered": "false",
+          "facing": "north"
+        },
+        "Name": "minecraft:crimson_button"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:crimson_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:crimson_stairs"
+      },
+      {
+        "Properties": {
+          "orientation": "west_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "east_up"
+        },
+        "Name": "minecraft:jigsaw"
+      }
+    ],
+    "source_connectors": [
+      {
+        "pos": [
+          0,
+          6,
+          12
+        ],
+        "orientation": "west_up",
+        "joint": "rollable",
+        "name": "minecraft:empty",
+        "pool": "betterfortresses:battle_bridge",
+        "final_state": "minecraft:air",
+        "id": "minecraft:jigsaw",
+        "target": "betterfortresses:battle_bridge_split"
+      },
+      {
+        "pos": [
+          10,
+          6,
+          12
+        ],
+        "orientation": "east_up",
+        "joint": "rollable",
+        "name": "betterfortresses:battle_bridge_end",
+        "pool": "minecraft:empty",
+        "final_state": "minecraft:air",
+        "id": "minecraft:jigsaw",
+        "target": "minecraft:empty"
+      }
+    ],
+    "changes": "Actual gate footprint11x19 becomes13x19 with two protective side borders; height20 reduced to12 and arch rebuilt, retain two-ended gate function."
+  },
+  "revision": "S6-R2-distinct-topology",
+  "distinctive_design": {
+    "topology": "two-ended threshold with optional side valve alcove, not core combat room",
+    "vertical": "feet2; high gilded portal lintel",
+    "landmark": "manual unpowered thermal beacon under double basalt uprights",
+    "pacing": "arrival and inspection before reactor zone",
+    "mechanism": "real vanilla lever on lamp; no lockout or prerequisite imposed",
+    "waypoints": [],
+    "blocked": []
+  }
+}

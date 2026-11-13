@@ -1,0 +1,69 @@
+{
+  "overall_size": [
+    25,
+    15,
+    25
+  ],
+  "axis": "+X east, +Y up, +Z south",
+  "modules": [
+    {
+      "id": "S8R_IMG02",
+      "nbt": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-02\\incoming\\S8R_IMG02\\room.nbt",
+      "sha256": "475cde56f4a0e3994ed5823f56144476c959c499d0d2e7d745a5aeb59b46b8a7",
+      "size": [
+        25,
+        15,
+        25
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "local_origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation_pivot": [
+        12,
+        0,
+        12
+      ],
+      "placement_order": 1,
+      "dependencies": [],
+      "connection_anchors": [
+        {
+          "role": "entrance",
+          "facing": "north",
+          "position": [
+            12,
+            2,
+            0
+          ],
+          "width": 3,
+          "height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "south",
+          "position": [
+            14,
+            2,
+            24
+          ],
+          "width": 3,
+          "height": 3
+        }
+      ]
+    }
+  ],
+  "split": false,
+  "rotation": "clockwise [x,y,z]->[24-z,y,x]; rotate block states and all anchors; both port feet Y2",
+  "world_origin": null,
+  "overlap_policy": "one module; full25x15x25 explicit-air volume must be checked before placement; reject occupied volume, do not clear world",
+  "candidate_nbt_only": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-02\\incoming\\S8R_IMG02\\room.nbt",
+  "inspection_nbt_not_deployable": true,
+  "world_placement_and_400ticks": "NOT_RUN",
+  "deployment": "NOT_DEPLOYED"
+}

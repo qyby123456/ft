@@ -1,0 +1,418 @@
+{
+  "id": "corridor-M11",
+  "status": "PASS",
+  "sha256": "4121cbca43feca21af7d0d066004a67d9187634ac5e8d0b6f0b862d0248aba39",
+  "reference_sha256": "78c7104c420851a657b80c0e4194028b8d57f07a42721f6c7989925d0dd25e00",
+  "static": {
+    "status": "PASS",
+    "sha256": "4121cbca43feca21af7d0d066004a67d9187634ac5e8d0b6f0b862d0248aba39",
+    "checks": [
+      {
+        "check": "reference_sha256",
+        "passed": true,
+        "detail": "78c7104c420851a657b80c0e4194028b8d57f07a42721f6c7989925d0dd25e00"
+      },
+      {
+        "check": "gzip_single_palette_java_1_20_1",
+        "passed": true,
+        "detail": "gzip, DataVersion 3465, one palette"
+      },
+      {
+        "check": "medium_size",
+        "passed": true,
+        "detail": {
+          "size": [
+            15,
+            12,
+            40
+          ],
+          "axis_length_chunks": 2.5
+        }
+      },
+      {
+        "check": "full_volume_explicit",
+        "passed": true,
+        "detail": "7200 unique bounded positions, including explicit air"
+      },
+      {
+        "check": "no_template_entities",
+        "passed": true,
+        "detail": 0
+      },
+      {
+        "check": "vanilla_no_forbidden_blocks",
+        "passed": true,
+        "detail": []
+      },
+      {
+        "check": "complete_roof",
+        "passed": true,
+        "detail": {
+          "full_roof_cells": 600,
+          "required": 600
+        }
+      },
+      {
+        "check": "closed_parallel_side_walls",
+        "passed": true,
+        "detail": "No side exits or branches"
+      },
+      {
+        "check": "level_five_wide_straight_route",
+        "passed": true,
+        "detail": {
+          "safe_feet_cells": 200,
+          "width": 5,
+          "length": 40,
+          "headroom_minimum": 3,
+          "steps": 0
+        }
+      },
+      {
+        "check": "north_south_ports",
+        "passed": true,
+        "detail": {
+          "entrance": [
+            7,
+            2,
+            0
+          ],
+          "exit": [
+            7,
+            2,
+            39
+          ],
+          "minimum_clearance": [
+            3,
+            3
+          ]
+        }
+      },
+      {
+        "check": "entrance_interior_exit_reciprocal_path",
+        "passed": true,
+        "detail": {
+          "reachable_level_feet_cells": 200,
+          "undirected_graph": true
+        }
+      },
+      {
+        "check": "lava_containment_and_fire_escape_cap",
+        "passed": true,
+        "detail": {
+          "source_cells": 36,
+          "covered_cells": 36,
+          "top": "3x3 solid nonflammable cap around each source",
+          "main_lane_exposure": 0
+        }
+      },
+      {
+        "check": "skull_and_candle_support",
+        "passed": true,
+        "detail": {
+          "skulls": 22,
+          "lit_candle_clusters": 24
+        }
+      },
+      {
+        "check": "lit_candles",
+        "passed": true,
+        "detail": 24
+      },
+      {
+        "check": "anchored_mature_greenery",
+        "passed": true,
+        "detail": {
+          "cells": 40,
+          "mature_tips": 20,
+          "age": 25
+        }
+      },
+      {
+        "check": "skull_block_entities_only_no_loot",
+        "passed": true,
+        "detail": {
+          "block_entities": 22,
+          "inventories": 0
+        }
+      }
+    ],
+    "block_counts": {
+      "air": 2619,
+      "stone_bricks": 1977,
+      "mossy_stone_bricks": 727,
+      "polished_deepslate": 600,
+      "cracked_stone_bricks": 430,
+      "cobblestone": 155,
+      "smooth_sandstone": 147,
+      "bone_block": 114,
+      "stripped_dark_oak_log": 72,
+      "polished_andesite": 68,
+      "chiseled_stone_bricks": 58,
+      "lava": 36,
+      "orange_stained_glass": 36,
+      "dark_oak_trapdoor": 24,
+      "candle": 24,
+      "skeleton_skull": 22,
+      "moss_block": 20,
+      "cave_vines": 20,
+      "cave_vines_plant": 20,
+      "smooth_sandstone_stairs": 18,
+      "chiseled_sandstone": 11,
+      "mossy_cobblestone": 2
+    },
+    "scope": "Static NBT checks only; native placement reported separately"
+  },
+  "four_view": {
+    "status": "PASS",
+    "sha256": "4121cbca43feca21af7d0d066004a67d9187634ac5e8d0b6f0b862d0248aba39",
+    "renderer": "Lodestone ThreeStructureRenderer, vanilla default-pack, final room.nbt",
+    "source": "room.nbt",
+    "source_records": 7200,
+    "served_nbt_sha256": "4121cbca43feca21af7d0d066004a67d9187634ac5e8d0b6f0b862d0248aba39",
+    "hero": "preview.png",
+    "four_view_sheet": "four-views.png",
+    "views": [
+      {
+        "name": "north",
+        "mode": "cutaway",
+        "position": [
+          -25,
+          31,
+          -20
+        ],
+        "target": [
+          7.5,
+          4.5,
+          20
+        ],
+        "fov": 40,
+        "source_records": 7200,
+        "visible_records": 5076,
+        "omitted_records": 2124,
+        "file": "views/north.png",
+        "png_sha256": "095077c0dc143b0bcbcec7b167620adfa18429dd2b799f45aad00ead111c2515"
+      },
+      {
+        "name": "south",
+        "mode": "cutaway",
+        "position": [
+          40,
+          31,
+          60
+        ],
+        "target": [
+          7.5,
+          4.5,
+          20
+        ],
+        "fov": 40,
+        "source_records": 7200,
+        "visible_records": 5076,
+        "omitted_records": 2124,
+        "file": "views/south.png",
+        "png_sha256": "86370cd9f31bd3162c000a25fb884ca1ffbb576600824dd6c406d0192c6f3d8b"
+      },
+      {
+        "name": "west",
+        "mode": "cutaway",
+        "position": [
+          -43,
+          31,
+          12
+        ],
+        "target": [
+          7.5,
+          4.5,
+          20
+        ],
+        "fov": 43,
+        "source_records": 7200,
+        "visible_records": 5076,
+        "omitted_records": 2124,
+        "file": "views/west.png",
+        "png_sha256": "6726b1b6d1a28962835bf34443b838ff95d35272ccfb7c6a80cc84a4cc4a6863"
+      },
+      {
+        "name": "east",
+        "mode": "cutaway",
+        "position": [
+          58,
+          31,
+          28
+        ],
+        "target": [
+          7.5,
+          4.5,
+          20
+        ],
+        "fov": 43,
+        "source_records": 7200,
+        "visible_records": 5076,
+        "omitted_records": 2124,
+        "file": "views/east.png",
+        "png_sha256": "f7d36f684512ee23b14c973bf69bbbb175809b597d6a045c5abd695be16a0a28"
+      }
+    ],
+    "exterior": "views/exterior.png",
+    "comparison": "reference-comparison.png",
+    "browser_errors": [],
+    "cutaway_rule": "Preview copies only: omit y>=10 roof and y>=3 nearest side wall (x<=2 or x>=12) and nearest end (z=0 or z=39); final NBT remains unchanged",
+    "lighting": "Illustrative software lighting, warm hero and neutral overview; not Minecraft skylight, block-light or shader validation",
+    "special_model_limitations": "Lodestone special block/entity models and candle particle display may differ from the game; native skull block entities, rotations, support and lit candle states verified separately",
+    "visual_review": {
+      "performed": true,
+      "checks": [
+        "中轴一点透视贯通",
+        "四个剖向完整且无遮屏三角伪影",
+        "侧龛与肋拱可读",
+        "蔓生只占边带与高位",
+        "完整外壳保留屋顶与双端口"
+      ]
+    },
+    "timestamp": "2026-11-03T11:03:33.145685+08:00",
+    "not_ai_substitution": true,
+    "not_gameplay_screenshot": true
+  },
+  "forge_placement_stability": {
+    "status": "PASS",
+    "sha256": "4121cbca43feca21af7d0d066004a67d9187634ac5e8d0b6f0b862d0248aba39",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "evidence": "Actual isolated GameTestServer / ServerLevel / StructureTemplate.placeInWorld",
+    "rotations": 4,
+    "initial": [
+      {
+        "rotation": "NONE",
+        "records_exact": 7200,
+        "native_supported_blocks": 4581,
+        "valid_skull_block_entities": 22,
+        "lit_candle_clusters": 24,
+        "sealed_lava_sources": 36,
+        "anchored_vine_cells": 40,
+        "roof_full_cells": 600,
+        "level_main_route_feet_cells": 200,
+        "reachable_feet_positions": 200,
+        "boundary_air_cells": 2796,
+        "unexpected_entities": 0
+      },
+      {
+        "rotation": "CLOCKWISE_90",
+        "records_exact": 7200,
+        "native_supported_blocks": 4581,
+        "valid_skull_block_entities": 22,
+        "lit_candle_clusters": 24,
+        "sealed_lava_sources": 36,
+        "anchored_vine_cells": 40,
+        "roof_full_cells": 600,
+        "level_main_route_feet_cells": 200,
+        "reachable_feet_positions": 200,
+        "boundary_air_cells": 2796,
+        "unexpected_entities": 0
+      },
+      {
+        "rotation": "CLOCKWISE_180",
+        "records_exact": 7200,
+        "native_supported_blocks": 4581,
+        "valid_skull_block_entities": 22,
+        "lit_candle_clusters": 24,
+        "sealed_lava_sources": 36,
+        "anchored_vine_cells": 40,
+        "roof_full_cells": 600,
+        "level_main_route_feet_cells": 200,
+        "reachable_feet_positions": 200,
+        "boundary_air_cells": 2796,
+        "unexpected_entities": 0
+      },
+      {
+        "rotation": "COUNTERCLOCKWISE_90",
+        "records_exact": 7200,
+        "native_supported_blocks": 4581,
+        "valid_skull_block_entities": 22,
+        "lit_candle_clusters": 24,
+        "sealed_lava_sources": 36,
+        "anchored_vine_cells": 40,
+        "roof_full_cells": 600,
+        "level_main_route_feet_cells": 200,
+        "reachable_feet_positions": 200,
+        "boundary_air_cells": 2796,
+        "unexpected_entities": 0
+      }
+    ],
+    "after_400_ticks": [
+      {
+        "rotation": "NONE",
+        "records_exact": 7200,
+        "native_supported_blocks": 4581,
+        "valid_skull_block_entities": 22,
+        "lit_candle_clusters": 24,
+        "sealed_lava_sources": 36,
+        "anchored_vine_cells": 40,
+        "roof_full_cells": 600,
+        "level_main_route_feet_cells": 200,
+        "reachable_feet_positions": 200,
+        "boundary_air_cells": 2796,
+        "unexpected_entities": 0
+      },
+      {
+        "rotation": "CLOCKWISE_90",
+        "records_exact": 7200,
+        "native_supported_blocks": 4581,
+        "valid_skull_block_entities": 22,
+        "lit_candle_clusters": 24,
+        "sealed_lava_sources": 36,
+        "anchored_vine_cells": 40,
+        "roof_full_cells": 600,
+        "level_main_route_feet_cells": 200,
+        "reachable_feet_positions": 200,
+        "boundary_air_cells": 2796,
+        "unexpected_entities": 0
+      },
+      {
+        "rotation": "CLOCKWISE_180",
+        "records_exact": 7200,
+        "native_supported_blocks": 4581,
+        "valid_skull_block_entities": 22,
+        "lit_candle_clusters": 24,
+        "sealed_lava_sources": 36,
+        "anchored_vine_cells": 40,
+        "roof_full_cells": 600,
+        "level_main_route_feet_cells": 200,
+        "reachable_feet_positions": 200,
+        "boundary_air_cells": 2796,
+        "unexpected_entities": 0
+      },
+      {
+        "rotation": "COUNTERCLOCKWISE_90",
+        "records_exact": 7200,
+        "native_supported_blocks": 4581,
+        "valid_skull_block_entities": 22,
+        "lit_candle_clusters": 24,
+        "sealed_lava_sources": 36,
+        "anchored_vine_cells": 40,
+        "roof_full_cells": 600,
+        "level_main_route_feet_cells": 200,
+        "reachable_feet_positions": 200,
+        "boundary_air_cells": 2796,
+        "unexpected_entities": 0
+      }
+    ],
+    "explicit_neighbor_updates": true,
+    "random_tick_speed": 3,
+    "fire_tick_enabled": true,
+    "test_world": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\corridor-M11\\qa\\forge-run\\world",
+    "production_save_touched": false,
+    "full_modpack_playtest": false
+  },
+  "deterministic_rebuild": {
+    "status": "PASS",
+    "source": "Minecraft Builder ESM recipe",
+    "original_sha256": "4121cbca43feca21af7d0d066004a67d9187634ac5e8d0b6f0b862d0248aba39",
+    "rebuilt_sha256": "4121cbca43feca21af7d0d066004a67d9187634ac5e8d0b6f0b862d0248aba39",
+    "deterministic_bytes": true
+  },
+  "deployment": "NOT_DEPLOYED",
+  "production_save_touched": false,
+  "full_modpack_gameplay_test": "NOT_PERFORMED",
+  "evidence_boundary": "Static NBT, software/Lodestone preview and isolated Forge GameTestServer are separate evidence; no production hall integration or player-world placement performed"
+}

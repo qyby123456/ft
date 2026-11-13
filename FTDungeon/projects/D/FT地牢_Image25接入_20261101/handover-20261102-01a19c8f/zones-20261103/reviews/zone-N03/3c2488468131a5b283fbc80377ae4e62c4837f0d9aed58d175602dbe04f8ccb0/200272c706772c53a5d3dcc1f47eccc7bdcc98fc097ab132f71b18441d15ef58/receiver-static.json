@@ -1,0 +1,79 @@
+{
+  "id": "zone-N03",
+  "candidate_sha256": "3c2488468131a5b283fbc80377ae4e62c4837f0d9aed58d175602dbe04f8ccb0",
+  "bundle_sha256": "200272c706772c53a5d3dcc1f47eccc7bdcc98fc097ab132f71b18441d15ef58",
+  "status": "PASS_INTAKE_ONLY",
+  "size": [
+    35,
+    18,
+    35
+  ],
+  "blocks": 22050,
+  "block_entities": 4,
+  "category": "hub",
+  "producer_metadata_id": "N03",
+  "interfaces_as_declared": {
+    "entrance": [
+      17,
+      1,
+      0
+    ],
+    "interior": [
+      17,
+      1,
+      2
+    ],
+    "ports": [
+      {
+        "id": "north-lower",
+        "facing": "north",
+        "feet": [
+          17,
+          1,
+          0
+        ],
+        "width": 3,
+        "height": 3,
+        "floor_y": 0
+      },
+      {
+        "id": "south-lower",
+        "facing": "south",
+        "feet": [
+          17,
+          1,
+          34
+        ],
+        "width": 3,
+        "height": 3,
+        "floor_y": 0
+      },
+      {
+        "id": "east-upper",
+        "facing": "east",
+        "feet": [
+          34,
+          13,
+          17
+        ],
+        "width": 3,
+        "height": 3,
+        "floor_y": 12
+      },
+      {
+        "id": "west-upper",
+        "facing": "west",
+        "feet": [
+          0,
+          13,
+          17
+        ],
+        "width": 3,
+        "height": 3,
+        "floor_y": 12
+      }
+    ]
+  },
+  "category_path_status": "NOT_VERIFIED",
+  "limitations": "No straight-corridor rule applied; supports, liquids, collision, jumps, ports and visuals still need independent receiver tests"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "STAIR_D_NETHER_HALL",
+  "name": "下界黑石楼梯厅 · 楼梯 D",
+  "size": [
+    29,
+    23,
+    33
+  ],
+  "entrance": [
+    14,
+    7,
+    0
+  ],
+  "interior": [
+    14,
+    7,
+    4
+  ],
+  "facing": "north",
+  "sha256": "8a4b082ac3859cf3504541cafc26c4368f92d448e24924353d55b7a7a6bf7656",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-stair-rooms-20261102\\out\\stair-nether-hall.png",
+  "reference_sha256": "9d5461ff3fa0058ba614ab44a1d24f55c373f0b321fa35cab6eafc2e8a7a0736",
+  "minecraft_version": "1.20.1",
+  "data_version": 3465,
+  "interfaces": [
+    {
+      "id": "north_main",
+      "feet": [
+        14,
+        7,
+        0
+      ],
+      "facing": "north",
+      "clear_width": 3,
+      "clear_height": 3
+    },
+    {
+      "id": "south_upper",
+      "feet": [
+        14,
+        17,
+        32
+      ],
+      "facing": "south",
+      "clear_width": 3,
+      "clear_height": 3
+    },
+    {
+      "id": "south_lower",
+      "feet": [
+        22,
+        1,
+        32
+      ],
+      "facing": "south",
+      "clear_width": 3,
+      "clear_height": 3
+    }
+  ],
+  "integration": {
+    "status": "STANDALONE_CANDIDATE_NOT_REGISTERED",
+    "id_is_provisional": true,
+    "deployed": false,
+    "coordinator_thread": "01a157ef-83ef-7e51-8671-2d7f9db88086",
+    "requires_coordinator_acceptance": true
+  },
+  "layout": {
+    "main_floor_feet_y": 7,
+    "landing_feet_y": 13,
+    "upper_interface_feet_y": 17,
+    "lower_interface_feet_y": 1,
+    "grand_stair_width": 9,
+    "upper_stair_width": 7,
+    "descent_stair_width": 5,
+    "full_roof": true,
+    "real_lava_blocks": 16,
+    "lava_enclosure": "six-face full-collision blackstone/glass envelope"
+  },
+  "substitutions": [
+    "概念图落为29×23×33网格，3×3北入口保持中置；南侧分别设+10/-6高度接口。",
+    "熔岩保留真实源方块，但以黑石底侧和橙色玻璃顶完全密封，矮墙隔离步道。",
+    "平台火盆采用受支撑的暖色灯笼底座，消除裸火伤害和燃烧风险。",
+    "屋顶完整封闭；预览仅移除显示用近侧墙和屋顶，不改交付模板。"
+  ],
+  "gameplay": {
+    "entities": 0,
+    "loot_tables": 0,
+    "inventory_items": 0,
+    "combat_or_rewards": false
+  }
+}

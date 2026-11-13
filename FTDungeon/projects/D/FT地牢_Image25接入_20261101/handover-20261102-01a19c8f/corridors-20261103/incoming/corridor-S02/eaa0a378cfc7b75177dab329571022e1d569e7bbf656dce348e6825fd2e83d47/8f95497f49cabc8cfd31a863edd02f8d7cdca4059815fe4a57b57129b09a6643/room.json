@@ -1,0 +1,176 @@
+{
+  "id": "corridor-S02",
+  "source_id": "S02",
+  "name": "陈旧石砖短直廊",
+  "kind": "short-straight-corridor",
+  "size": [
+    11,
+    9,
+    16
+  ],
+  "length_blocks": 16,
+  "length_chunks": 1,
+  "axis": "z",
+  "facing": "north",
+  "entrance": [
+    5,
+    1,
+    0
+  ],
+  "interior": [
+    5,
+    1,
+    3
+  ],
+  "exit": [
+    5,
+    1,
+    15
+  ],
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        5,
+        1,
+        0
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "side": "south",
+      "feet": [
+        5,
+        1,
+        15
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "safe_lane": {
+    "min": [
+      4,
+      1,
+      0
+    ],
+    "max": [
+      6,
+      3,
+      15
+    ],
+    "full_floor_y": 0
+  },
+  "sha256": "eaa0a378cfc7b75177dab329571022e1d569e7bbf656dce348e6825fd2e83d47",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/S02-stone-brick-aged.png",
+  "reference_sha256": "e068ca984a82719da731f79474db5a7d3cd0bbdade57e5bfaca420e46e665239",
+  "source_documents": [
+    "D:/ft工程文件/image2.5/dungeon-corridors-20261103/SPEC.md",
+    "D:/ft工程文件/image2.5/dungeon-corridors-20261103/manifest.json",
+    "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/corridor_index.json",
+    "D:/ft工程文件/FT地牢_Image25接入_20261101/CONTRACT.md"
+  ],
+  "feature_coordinates": {
+    "arch_planes_z": [
+      0,
+      5,
+      10,
+      15
+    ],
+    "torch_positions": [
+      [
+        1,
+        3,
+        2
+      ],
+      [
+        1,
+        3,
+        7
+      ],
+      [
+        1,
+        3,
+        12
+      ],
+      [
+        9,
+        3,
+        2
+      ],
+      [
+        9,
+        3,
+        7
+      ],
+      [
+        9,
+        3,
+        12
+      ]
+    ],
+    "web_positions": [
+      [
+        1,
+        5,
+        1
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        1,
+        5,
+        14
+      ],
+      [
+        9,
+        5,
+        1
+      ],
+      [
+        9,
+        5,
+        11
+      ],
+      [
+        9,
+        5,
+        14
+      ]
+    ],
+    "chipped_corbel_positions": [
+      [
+        3,
+        5,
+        5
+      ],
+      [
+        8,
+        4,
+        10
+      ]
+    ],
+    "rubble_positions": [
+      [
+        2,
+        1,
+        3
+      ],
+      [
+        8,
+        1,
+        11
+      ]
+    ]
+  },
+  "reference_adaptations": [
+    "参考图尽头的关闭木门改为南侧常开拱口，满足一字贯通与三格宽通路。",
+    "破损仅缺少两处拱下装饰齿，不破坏承重墙、完整屋顶或主路。",
+    "角落蛛网位于 Y=5，碎石贴边；火把原生附着实体外墙，铁栏杆仅作为托架装饰。"
+  ],
+  "runtime_scope": "Vanilla Java 1.20.1 structure; no FT logic, deployment, slot allocation or player-save changes."
+}

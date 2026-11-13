@@ -1,0 +1,223 @@
+{
+  "id": "corridor-M07",
+  "name": "灾变暗铁残拱长廊",
+  "status": "PASS",
+  "sha256": "25de2806f4696546f285c949eb73ffdf58a9013867a413bf2cf72d917a07b215",
+  "created_at": "2026-11-03T11:01:11+08:00",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M07-cataclysm-dark-iron-damaged.png",
+  "reference_sha256": "7aa60a98ff9c54dbb9b5e61c76973619d89a107a8e906c4787e561dd08fcccfa",
+  "size": [
+    17,
+    13,
+    41
+  ],
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "static": {
+    "id": "corridor-M07",
+    "status": "PASS",
+    "sha256": "25de2806f4696546f285c949eb73ffdf58a9013867a413bf2cf72d917a07b215",
+    "size": [
+      17,
+      13,
+      41
+    ],
+    "checks": [
+      {
+        "name": "reference_full_sha256",
+        "status": "PASS"
+      },
+      {
+        "name": "gzip_single_palette_1_20_1",
+        "status": "PASS"
+      },
+      {
+        "name": "medium_41_block_length",
+        "status": "PASS"
+      },
+      {
+        "name": "complete_unique_in_bounds_volume",
+        "status": "PASS"
+      },
+      {
+        "name": "vanilla_no_entities_block_entities_loot_or_hazards",
+        "status": "PASS"
+      },
+      {
+        "name": "full_foundation_and_double_roof",
+        "status": "PASS"
+      },
+      {
+        "name": "parallel_solid_side_walls_no_branches",
+        "status": "PASS"
+      },
+      {
+        "name": "matching_north_south_5x6_open_portals",
+        "status": "PASS"
+      },
+      {
+        "name": "five_wide_three_high_flat_straight_route",
+        "status": "PASS"
+      },
+      {
+        "name": "bfs_entrance_interior_exit_reachable",
+        "status": "PASS"
+      },
+      {
+        "name": "seven_hanging_lanterns_fourteen_anchored_chains",
+        "status": "PASS"
+      },
+      {
+        "name": "five_arch_chips_not_roof_holes",
+        "status": "PASS"
+      },
+      {
+        "name": "rubble_supported_outside_main_route",
+        "status": "PASS"
+      },
+      {
+        "name": "obsidian_gold_crimson_and_cracked_stone_features",
+        "status": "PASS"
+      }
+    ],
+    "explicit_air_records": 3993,
+    "recorded_cells": 9061,
+    "conservative_reachable_feet": 387,
+    "material_counts": {
+      "minecraft:cracked_deepslate_tiles": 69,
+      "minecraft:deepslate_tiles": 310,
+      "minecraft:polished_blackstone_bricks": 1391,
+      "minecraft:deepslate_bricks": 1866,
+      "minecraft:cracked_deepslate_bricks": 335,
+      "minecraft:obsidian": 498,
+      "minecraft:gilded_blackstone": 301,
+      "minecraft:gold_block": 83,
+      "minecraft:red_glazed_terracotta": 63,
+      "minecraft:red_nether_bricks": 47,
+      "minecraft:air": 3993,
+      "minecraft:deepslate_brick_slab": 6,
+      "minecraft:polished_blackstone_brick_stairs": 73,
+      "minecraft:cracked_polished_blackstone_bricks": 5,
+      "minecraft:lantern": 7,
+      "minecraft:chain": 14
+    },
+    "limits": [
+      "Static checks are not native collision or client gameplay evidence."
+    ]
+  },
+  "four_view_qa": {
+    "status": "PASS",
+    "report": "qa/visual-review.json",
+    "render_evidence": "qa/render.json",
+    "sheet": "qa/four-views.png",
+    "views": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "additional": [
+      "preview.png",
+      "qa/views/reverse.png",
+      "qa/views/sealed.png"
+    ],
+    "nbt_modified_for_cutaway": false
+  },
+  "forge_placement_stability": {
+    "id": "corridor-M07",
+    "status": "PASS",
+    "sha256": "25de2806f4696546f285c949eb73ffdf58a9013867a413bf2cf72d917a07b215",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "java": "17.0.8",
+    "test": "StructureTemplate.placeInWorld in isolated Forge GameTest server",
+    "ticks_observed": 240,
+    "forced_neighbor_shape_and_event_updates": true,
+    "fixture_absolute_y": 180,
+    "preflight_empty_volume_with_one_block_margin": true,
+    "native_registry_complete_state_properties": "PASS",
+    "native_roundtrip": "PASS",
+    "rotations": [
+      {
+        "rotation": "NONE",
+        "states_preserved": 9061,
+        "collision_reachable_feet": 387,
+        "five_wide_route_cells": 205,
+        "hanging_lanterns": 7,
+        "anchored_chains": 14,
+        "double_roof_cells": 1394,
+        "dropped_items": 0,
+        "unexpected_fluids": 0
+      },
+      {
+        "rotation": "CLOCKWISE_90",
+        "states_preserved": 9061,
+        "collision_reachable_feet": 387,
+        "five_wide_route_cells": 205,
+        "hanging_lanterns": 7,
+        "anchored_chains": 14,
+        "double_roof_cells": 1394,
+        "dropped_items": 0,
+        "unexpected_fluids": 0
+      },
+      {
+        "rotation": "CLOCKWISE_180",
+        "states_preserved": 9061,
+        "collision_reachable_feet": 387,
+        "five_wide_route_cells": 205,
+        "hanging_lanterns": 7,
+        "anchored_chains": 14,
+        "double_roof_cells": 1394,
+        "dropped_items": 0,
+        "unexpected_fluids": 0
+      },
+      {
+        "rotation": "COUNTERCLOCKWISE_90",
+        "states_preserved": 9061,
+        "collision_reachable_feet": 387,
+        "five_wide_route_cells": 205,
+        "hanging_lanterns": 7,
+        "anchored_chains": 14,
+        "double_roof_cells": 1394,
+        "dropped_items": 0,
+        "unexpected_fluids": 0
+      }
+    ],
+    "player_aabb": "0.6 x 1.8",
+    "client_visual_tested": false,
+    "player_saves_accessed": false,
+    "deployed": false,
+    "limits": [
+      "No full modpack client or gameplay test",
+      "Not FT hall integration, occupancy, persistence or deployment verification"
+    ]
+  },
+  "roundtrip": {
+    "block_entities": 0,
+    "entities": 0,
+    "sha256": "25de2806f4696546f285c949eb73ffdf58a9013867a413bf2cf72d917a07b215",
+    "status": "PASS",
+    "recorded_cells": 9061,
+    "native_states_equal": true,
+    "id": "corridor-M07"
+  },
+  "fixture_history": {
+    "initial_attempt": "Initial placement succeeded; after neighbor updates natural terrain lava entered an open portal at low GameTest elevation. This run failed and is retained in timestamped log.",
+    "correction": "No template changes. All four fixtures moved to absolute Y=180; preflight verifies every cell and one-block margin are empty before placement.",
+    "initial_failure_not_hidden": true
+  },
+  "safety": {
+    "deployed": false,
+    "player_saves_accessed": false,
+    "other_room_templates_modified": false,
+    "chat_or_image_configuration_modified": false,
+    "paid_image_generation_called": false
+  },
+  "limits": [
+    "Software renders, not full modpack client screenshots or gameplay validation.",
+    "Vanilla deepslate/blackstone substitutes for dark iron; crimson patterns are decorative glazed terracotta and nether bricks, not functional/emissive custom runes.",
+    "No FT hall connection, runtime generator, persistence, occupancy-refusal, difficulty, rewards or deployment work performed.",
+    "Consumer must reject occupied full volume and surrounding margin; explicit air does not authorize clearing player builds.",
+    "corridor-M07 is not the pre-existing room M07 or M7."
+  ]
+}

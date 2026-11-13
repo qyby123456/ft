@@ -1,0 +1,99 @@
+{
+  "id": "S04",
+  "name": "陈旧菌洞短廊",
+  "size": [
+    11,
+    9,
+    16
+  ],
+  "entrance": [
+    5,
+    1,
+    0
+  ],
+  "interior": [
+    5,
+    1,
+    3
+  ],
+  "exit": [
+    5,
+    1,
+    15
+  ],
+  "exitInterior": [
+    5,
+    1,
+    12
+  ],
+  "facing": "north",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/S04-fungal-cave-aged.png",
+  "reference_sha256": "6160f7b8403ec6ee56e01a0e909423f918176c24b4a23981fa547597931c12e7",
+  "canonical_id": "corridor-S04",
+  "producer_metadata_id": "S04",
+  "reserved_intake_slot": 64,
+  "sha256": "11b8cd39ebf685ddb32ceb62211a0b8a58257d13ca0e31ca7261fb969a144baf",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "type": "corridor",
+  "length_class": "short",
+  "length_blocks": 16,
+  "axis": "z",
+  "clear_path": {
+    "x": [
+      4,
+      6
+    ],
+    "feet_y": 1,
+    "headroom_blocks": 3,
+    "z": [
+      0,
+      15
+    ]
+  },
+  "ports": [
+    {
+      "id": "north",
+      "feet": [
+        5,
+        1,
+        0
+      ],
+      "facing": "north",
+      "clear_width": 3,
+      "clear_height": 3,
+      "floor_y": 0
+    },
+    {
+      "id": "south",
+      "feet": [
+        5,
+        1,
+        15
+      ],
+      "facing": "south",
+      "clear_width": 3,
+      "clear_height": 3,
+      "floor_y": 0
+    }
+  ],
+  "block_records": 1584,
+  "non_air_blocks": 901,
+  "palette_states": 33,
+  "architecture": [
+    "Full earth roof and parallel closed side walls",
+    "Five weathered stone arches; center arch has a chipped crown",
+    "Four giant red mushrooms, mycelium shelves, hanging roots and off-path cobwebs",
+    "Cyan glass/sea-lantern recesses and upright white end-rod strips"
+  ],
+  "reference_adaptations": [
+    "The distant closed-looking panel is replaced with an open south arch to preserve a true through corridor",
+    "Cyan-white lighting uses vanilla sea lanterns, cyan glass and end rods; no custom glowing mushroom or shader"
+  ],
+  "placement_policy": "Independent authoring asset only. Explicit air is present; integrator must reject occupied/fluid/entity volume before placement. Never blindly clear a world.",
+  "deployment": {
+    "deployed": false,
+    "player_save_modified": false,
+    "core_catalog_modified": false
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "corridor-M16",
+  "status": "PASS",
+  "stage": "producer_delivery_ready_for_receiver_acceptance",
+  "sha256": "d60c6db9493324ef5343aa89e43846f01d02f57f105776a0a50fe77ba4765d19",
+  "reference_sha256": "3dd8be10bea89290f99a9af69dd387ed6ed38da08d08bf034fe1d83063cc7f1a",
+  "completed_at": "2026-11-03T10:57:03+08:00",
+  "checks": {
+    "static": "PASS",
+    "four_direction_final_nbt_visual_review": "PASS",
+    "minecraft_registry_and_properties": "PASS",
+    "native_structure_roundtrip": "PASS",
+    "forge_four_rotation_240_tick_stability": "PASS",
+    "forge_exit_code": 0
+  },
+  "metrics": {
+    "size": [
+      15,
+      11,
+      40
+    ],
+    "explicit_blocks_including_air": 6600,
+    "dry_path_width": 5,
+    "dry_headroom": 3,
+    "roof_blocks": 600,
+    "source_water_cells": 208,
+    "hanging_cages": 6,
+    "lanterns": 12,
+    "chains": 42,
+    "vines": 56,
+    "dropped_items": 0,
+    "fluid_leaks": 0
+  },
+  "evidence": [
+    {
+      "path": "room.json",
+      "sha256": "47eb2087536f0c5dabfa42e7f0edbafc05026f7b49a814d25c41a7825b4e8b37",
+      "bytes": 1775
+    },
+    {
+      "path": "summary.json",
+      "sha256": "bbefba8a1ae800609f8c879f639f65a77a17e4a93d21b21c8b4768add48be1d1",
+      "bytes": 567
+    },
+    {
+      "path": "preview.png",
+      "sha256": "e2b0282a0aeb40b6b5ae3b91c647b111069e371bc84e4ccc3d20480a2819b2b1",
+      "bytes": 702526
+    },
+    {
+      "path": "qa/static.json",
+      "sha256": "8eb0e237404bf6c75830c3c64593110f19b7a0498ac74cc26d781ec05729dbdf",
+      "bytes": 1711
+    },
+    {
+      "path": "qa/forge-native.json",
+      "sha256": "e806a51328479c0aa6121b82b260e1d3ce6da9b3afe6ce4cb68dbefcba41cc3c",
+      "bytes": 2585
+    },
+    {
+      "path": "qa/forge-result.json",
+      "sha256": "5d3416531a71561209402feae616ceb56c4df31e5bb32d0571ab6477a4f29555",
+      "bytes": 403
+    },
+    {
+      "path": "qa/forge-invocation.json",
+      "sha256": "0771f2ae28c04fb915d68c1833d3382271ba8db31777c1bdefc2e1afe40c49ed",
+      "bytes": 955
+    },
+    {
+      "path": "qa/forge-run.log",
+      "sha256": "40016070db72fdc0f094d1bc9ab86ff9311c96370e4a7f64b2589d9412f0f63b",
+      "bytes": 55555
+    },
+    {
+      "path": "qa/native-roundtrip.nbt",
+      "sha256": "469fa140cfbe1acc4204d203c11dc5baa7a5563463d73e6125c3b406a84c28d9",
+      "bytes": 20207
+    },
+    {
+      "path": "qa/visual-review.json",
+      "sha256": "112ab927947970fc7145fe7350fd1fa2334a76943b51452f70a85be439435fd3",
+      "bytes": 3595
+    },
+    {
+      "path": "views/manifest.json",
+      "sha256": "a1ae648582788527103f77f405c4d063b376fd16e95dd1785a476397298f26b4",
+      "bytes": 5872
+    },
+    {
+      "path": "views/contact-sheet.png",
+      "sha256": "f16559082e27ab4e858df275e5a8abc6e12de181c4bc003a46c29fdebfafc651",
+      "bytes": 742004
+    }
+  ],
+  "receiver_independent_acceptance": "PENDING",
+  "runtime_slot": null,
+  "deployed": false,
+  "formal_mods_configs_and_saves_modified": false,
+  "limits": [
+    "Forge 47.4.10 / Minecraft 1.20.1 headless isolated QA, not full modpack client gameplay",
+    "No hall connection, full-volume occupancy rejection or persistent-generation/idempotence integration implemented or tested",
+    "The receiving integration owner must assign a unique corridor-prefixed slot and independently accept this exact NBT hash before deployment"
+  ]
+}

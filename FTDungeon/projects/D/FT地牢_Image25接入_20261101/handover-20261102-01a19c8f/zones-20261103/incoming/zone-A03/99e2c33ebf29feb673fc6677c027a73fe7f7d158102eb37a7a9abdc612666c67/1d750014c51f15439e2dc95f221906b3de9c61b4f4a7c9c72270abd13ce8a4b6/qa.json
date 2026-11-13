@@ -1,0 +1,96 @@
+{
+  "id": "A03",
+  "name": "荒废厨房",
+  "status": "PASS",
+  "structure_sha256": "99e2c33ebf29feb673fc6677c027a73fe7f7d158102eb37a7a9abdc612666c67",
+  "reference_sha256": "413f30992df8f88ee93bdffd0c1ada33f1e33d0ccc4a47e1186f45fa5ded37b5",
+  "delivery": "independent",
+  "deployed": false,
+  "production_files_modified": false,
+  "player_worlds_read_or_modified": false,
+  "source": {
+    "status": "PASS",
+    "image_hash_matches": true,
+    "manifest_match": true,
+    "verify_match": true,
+    "evidence": "qa/reference-evidence.json"
+  },
+  "static": {
+    "status": "PASS",
+    "evidence": "qa/static.json",
+    "records": 3971,
+    "palette_states": 32,
+    "single_palette": true,
+    "explicit_air": 2213,
+    "roof_cells": 361,
+    "full_floor_cells": 361,
+    "dry_reachable_cells": 209,
+    "opening": [
+      3,
+      4
+    ],
+    "safety_waypoints": 8,
+    "furniture_support_columns": 10,
+    "supported_decorations": 13,
+    "hanging_lanterns": 5,
+    "wall_anchored_hanging_utensils": 3,
+    "empty_barrels": 3,
+    "empty_furnaces": 1,
+    "empty_campfires": 1,
+    "nonempty_inventory": 0,
+    "loot_tables": 0,
+    "liquids": 0,
+    "active_fire_sources": 0
+  },
+  "forge": {
+    "status": "PASS",
+    "evidence": "qa/forge-placement.json",
+    "log": "qa/forge-gametest.log",
+    "minecraft": "1.20.1",
+    "version": "47.4.10",
+    "rotations": 4,
+    "actual_placements": 8,
+    "neighbor_updates": true,
+    "post_placement_ticks": 200,
+    "exact_record_matches_per_rotation": 3971,
+    "native_reachable_floor_cells": 209,
+    "full_player_aabb": [
+      0.6,
+      1.8,
+      0.6
+    ],
+    "native_can_survive": true,
+    "random_tick_speed": 3,
+    "fire_ticks_enabled": true,
+    "player_world_used": false,
+    "isolated_fixture": "qa/forge-run"
+  },
+  "views": {
+    "status": "PASS",
+    "manifest": "views/manifest.json",
+    "visual_review": "qa/visual-review.json",
+    "exterior_directions": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "interior_directions": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "final_nbt_based": true,
+    "same_structure_sha256": true,
+    "complete_roof_in_nbt": true,
+    "cutaway_is_display_only": true,
+    "captures": 10,
+    "composite_sheets": 2,
+    "game_client_screenshots": false
+  },
+  "limits": [
+    "Software rendering and an isolated native Forge GameTest server are the delivered verification levels.",
+    "No full modpack client playtest, player save placement, lobby connection, persistent generation or deployment was performed."
+  ]
+}

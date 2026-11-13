@@ -1,0 +1,71 @@
+{
+  "id": "STAIR_A",
+  "name": "石砖折返楼梯间",
+  "size": [
+    23,
+    19,
+    25
+  ],
+  "entrance": [
+    11,
+    7,
+    0
+  ],
+  "interior": [
+    11,
+    7,
+    16
+  ],
+  "facing": "north",
+  "sha256": "86f156cef5a3e467489d56fa54542a12494ae879a1fda837b45ef46c85c7e677",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-stair-rooms-20261102\\out\\stair-switchback.png",
+  "reference_sha256": "5c5f70a5a6fc3ca28abdb037c32f3c8ba3d95d14f0d2a2b3bdc60fc5f1c75d1e",
+  "data_version": 3465,
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "connections": [
+    {
+      "id": "middle",
+      "feet": [
+        11,
+        7,
+        0
+      ],
+      "facing": "north",
+      "role": "FT primary entrance",
+      "width": 3,
+      "height": 3
+    },
+    {
+      "id": "lower",
+      "feet": [
+        7,
+        1,
+        0
+      ],
+      "facing": "north",
+      "role": "lower connection reservation",
+      "width": 3,
+      "height": 3
+    },
+    {
+      "id": "upper",
+      "feet": [
+        15,
+        13,
+        0
+      ],
+      "facing": "north",
+      "role": "upper connection reservation",
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "delivery_state": "independent_candidate_not_deployed",
+  "integration_notes": [
+    "Primary entrance feet are six blocks above the lower interface; the external connector must match Y=7.",
+    "Lower and upper north interfaces reserve three-wide dry landings; external corridors and fall protection are the integrator responsibility.",
+    "Air records do not authorize clearing occupied production volume. Validate complete volume plus buffer before placement.",
+    "Candidate ID, slot, FT route, saved-data idempotence, return portal and mob rules require the sole integration owner."
+  ]
+}

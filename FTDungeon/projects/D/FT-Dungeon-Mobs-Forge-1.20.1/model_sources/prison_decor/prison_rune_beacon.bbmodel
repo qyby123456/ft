@@ -1,0 +1,1915 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "禁文立碑灯",
+  "model_identifier": "prison_rune_beacon",
+  "resolution": {
+    "width": 32,
+    "height": 32
+  },
+  "elements": [
+    {
+      "name": "runestone plinth / forged sole",
+      "type": "cube",
+      "uuid": "cbc1d3fc-b787-54ce-8dee-1a5e57b8ca12",
+      "from": [
+        1,
+        0,
+        2
+      ],
+      "to": [
+        15,
+        1,
+        14
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            30,
+            30,
+            32
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            2,
+            30,
+            30,
+            32
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            4,
+            30,
+            28,
+            32
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            4,
+            30,
+            28,
+            32
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            2,
+            4,
+            30,
+            28
+          ],
+          "texture": 1
+        },
+        "down": {
+          "uv": [
+            2,
+            4,
+            30,
+            28
+          ],
+          "texture": 2,
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "runestone plinth / carved load-bearing block",
+      "type": "cube",
+      "uuid": "09732a01-d78a-5caf-94ed-69ea3cb722a0",
+      "from": [
+        2,
+        1,
+        3
+      ],
+      "to": [
+        14,
+        3,
+        13
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            26,
+            28,
+            30
+          ],
+          "texture": 4
+        },
+        "south": {
+          "uv": [
+            4,
+            26,
+            28,
+            30
+          ],
+          "texture": 4
+        },
+        "west": {
+          "uv": [
+            6,
+            26,
+            26,
+            30
+          ],
+          "texture": 4
+        },
+        "east": {
+          "uv": [
+            6,
+            26,
+            26,
+            30
+          ],
+          "texture": 4
+        },
+        "up": {
+          "uv": [
+            4,
+            6,
+            28,
+            26
+          ],
+          "texture": 1
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "runestone / narrow stone socket",
+      "type": "cube",
+      "uuid": "83042fce-e38b-57e8-bd54-b1764adb1413",
+      "from": [
+        4,
+        3,
+        5
+      ],
+      "to": [
+        12,
+        4,
+        11
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            24,
+            24,
+            26
+          ],
+          "texture": 4
+        },
+        "south": {
+          "uv": [
+            8,
+            24,
+            24,
+            26
+          ],
+          "texture": 4
+        },
+        "west": {
+          "uv": [
+            10,
+            24,
+            22,
+            26
+          ],
+          "texture": 4
+        },
+        "east": {
+          "uv": [
+            10,
+            24,
+            22,
+            26
+          ],
+          "texture": 4
+        },
+        "up": {
+          "uv": [
+            8,
+            10,
+            24,
+            22
+          ],
+          "texture": 4
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "runestone / inscribed deep tablet",
+      "type": "cube",
+      "uuid": "3b1c9f8a-c7f8-581f-8cfb-462875499a59",
+      "from": [
+        5,
+        4,
+        6
+      ],
+      "to": [
+        11,
+        12,
+        10
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            8,
+            22,
+            24
+          ],
+          "texture": 5
+        },
+        "south": {
+          "uv": [
+            10,
+            8,
+            22,
+            24
+          ],
+          "texture": 6
+        },
+        "west": {
+          "uv": [
+            12,
+            8,
+            20,
+            24
+          ],
+          "texture": 6
+        },
+        "east": {
+          "uv": [
+            12,
+            8,
+            20,
+            24
+          ],
+          "texture": 6
+        },
+        "up": {
+          "uv": [
+            10,
+            12,
+            22,
+            20
+          ],
+          "texture": 6
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "runestone / tapering crown shoulder",
+      "type": "cube",
+      "uuid": "e5d563a5-3f38-529f-94fa-a745f0c64315",
+      "from": [
+        6,
+        12,
+        6
+      ],
+      "to": [
+        10,
+        14,
+        10
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            4,
+            20,
+            8
+          ],
+          "texture": 4
+        },
+        "south": {
+          "uv": [
+            12,
+            4,
+            20,
+            8
+          ],
+          "texture": 4
+        },
+        "west": {
+          "uv": [
+            12,
+            4,
+            20,
+            8
+          ],
+          "texture": 4
+        },
+        "east": {
+          "uv": [
+            12,
+            4,
+            20,
+            8
+          ],
+          "texture": 4
+        },
+        "up": {
+          "uv": [
+            12,
+            12,
+            20,
+            20
+          ],
+          "texture": 4
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "runestone / narrow crown peak",
+      "type": "cube",
+      "uuid": "ecfbfe36-f628-5e6c-9ff8-464516d8e687",
+      "from": [
+        7,
+        14,
+        7
+      ],
+      "to": [
+        9,
+        15,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            2,
+            18,
+            4
+          ],
+          "texture": 4
+        },
+        "south": {
+          "uv": [
+            14,
+            2,
+            18,
+            4
+          ],
+          "texture": 4
+        },
+        "west": {
+          "uv": [
+            14,
+            2,
+            18,
+            4
+          ],
+          "texture": 4
+        },
+        "east": {
+          "uv": [
+            14,
+            2,
+            18,
+            4
+          ],
+          "texture": 4
+        },
+        "up": {
+          "uv": [
+            14,
+            14,
+            18,
+            18
+          ],
+          "texture": 4
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "runestone / west buttress foot",
+      "type": "cube",
+      "uuid": "b188529b-eb17-5e6f-9a46-bf5afc02ec77",
+      "from": [
+        4,
+        4,
+        6
+      ],
+      "to": [
+        5,
+        7,
+        10
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            22,
+            18,
+            24,
+            24
+          ],
+          "texture": 4
+        },
+        "south": {
+          "uv": [
+            8,
+            18,
+            10,
+            24
+          ],
+          "texture": 4
+        },
+        "west": {
+          "uv": [
+            12,
+            18,
+            20,
+            24
+          ],
+          "texture": 4
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "up": {
+          "uv": [
+            8,
+            12,
+            10,
+            20
+          ],
+          "texture": 4
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "runestone / east buttress foot",
+      "type": "cube",
+      "uuid": "17feb02b-43a7-5511-865a-bc178fab96f2",
+      "from": [
+        11,
+        4,
+        6
+      ],
+      "to": [
+        12,
+        7,
+        10
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            18,
+            10,
+            24
+          ],
+          "texture": 4
+        },
+        "south": {
+          "uv": [
+            22,
+            18,
+            24,
+            24
+          ],
+          "texture": 4
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            12,
+            18,
+            20,
+            24
+          ],
+          "texture": 4
+        },
+        "up": {
+          "uv": [
+            22,
+            12,
+            24,
+            20
+          ],
+          "texture": 4
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "seal support / west load-bearing post",
+      "type": "cube",
+      "uuid": "86dc9ec4-67d8-5319-8c07-38f0169658a7",
+      "from": [
+        2,
+        3,
+        7
+      ],
+      "to": [
+        3,
+        8,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            26,
+            16,
+            28,
+            26
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            4,
+            16,
+            6,
+            26
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            16,
+            18,
+            26
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            16,
+            18,
+            26
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "seal support / east load-bearing post",
+      "type": "cube",
+      "uuid": "2216c56b-b3f2-51d5-a9c9-853aa6d84207",
+      "from": [
+        13,
+        3,
+        7
+      ],
+      "to": [
+        14,
+        8,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            16,
+            6,
+            26
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            26,
+            16,
+            28,
+            26
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            16,
+            18,
+            26
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            16,
+            18,
+            26
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "iron sealing hoop / front span",
+      "type": "cube",
+      "uuid": "1b6cb42a-9c6e-52fa-a93c-be9160961dd8",
+      "from": [
+        2,
+        8,
+        4
+      ],
+      "to": [
+        14,
+        9,
+        5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            14,
+            28,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            4,
+            14,
+            28,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            8,
+            14,
+            10,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            22,
+            14,
+            24,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            4,
+            8,
+            28,
+            10
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            4,
+            22,
+            28,
+            24
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "iron sealing hoop / rear span",
+      "type": "cube",
+      "uuid": "06df5471-ba8c-52a2-a51e-8e840c5ecb25",
+      "from": [
+        2,
+        8,
+        11
+      ],
+      "to": [
+        14,
+        9,
+        12
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            14,
+            28,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            4,
+            14,
+            28,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            22,
+            14,
+            24,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            8,
+            14,
+            10,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            4,
+            22,
+            28,
+            24
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            4,
+            8,
+            28,
+            10
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "iron sealing hoop / west return",
+      "type": "cube",
+      "uuid": "243fb078-0928-5771-8738-cf20e05710c5",
+      "from": [
+        2,
+        8,
+        5
+      ],
+      "to": [
+        3,
+        9,
+        11
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            10,
+            14,
+            22,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            14,
+            22,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            4,
+            10,
+            6,
+            22
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            4,
+            10,
+            6,
+            22
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "iron sealing hoop / east return",
+      "type": "cube",
+      "uuid": "57ac70c1-668b-500d-be14-962c24815b70",
+      "from": [
+        13,
+        8,
+        5
+      ],
+      "to": [
+        14,
+        9,
+        11
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            10,
+            14,
+            22,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            14,
+            22,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            26,
+            10,
+            28,
+            22
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            26,
+            10,
+            28,
+            22
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "binding / front iron key",
+      "type": "cube",
+      "uuid": "8858555f-9382-5685-b4d5-d40f5241777c",
+      "from": [
+        7,
+        8,
+        5
+      ],
+      "to": [
+        9,
+        9,
+        6
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            10,
+            14,
+            12,
+            16
+          ],
+          "texture": 3
+        },
+        "east": {
+          "uv": [
+            20,
+            14,
+            22,
+            16
+          ],
+          "texture": 3
+        },
+        "up": {
+          "uv": [
+            14,
+            10,
+            18,
+            12
+          ],
+          "texture": 3
+        },
+        "down": {
+          "uv": [
+            14,
+            20,
+            18,
+            22
+          ],
+          "texture": 3
+        }
+      }
+    },
+    {
+      "name": "binding / rear iron key",
+      "type": "cube",
+      "uuid": "c6614602-0dac-5962-8bb9-98e579babe2f",
+      "from": [
+        7,
+        8,
+        10
+      ],
+      "to": [
+        9,
+        9,
+        11
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            20,
+            14,
+            22,
+            16
+          ],
+          "texture": 3
+        },
+        "east": {
+          "uv": [
+            10,
+            14,
+            12,
+            16
+          ],
+          "texture": 3
+        },
+        "up": {
+          "uv": [
+            14,
+            20,
+            18,
+            22
+          ],
+          "texture": 3
+        },
+        "down": {
+          "uv": [
+            14,
+            10,
+            18,
+            12
+          ],
+          "texture": 3
+        }
+      }
+    },
+    {
+      "name": "upper restraint / west rising horn",
+      "type": "cube",
+      "uuid": "239388cf-e5b5-5008-8b4d-ee909c539be7",
+      "from": [
+        2,
+        9,
+        7
+      ],
+      "to": [
+        3,
+        12,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            26,
+            8,
+            28,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            4,
+            8,
+            6,
+            14
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            8,
+            18,
+            14
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            8,
+            18,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            4,
+            14,
+            6,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "upper restraint / west inward hook",
+      "type": "cube",
+      "uuid": "3f305137-1d98-51b8-a4d3-4600d74b0e34",
+      "from": [
+        3,
+        11,
+        7
+      ],
+      "to": [
+        5,
+        12,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            22,
+            8,
+            26,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            6,
+            8,
+            10,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "up": {
+          "uv": [
+            6,
+            14,
+            10,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            6,
+            14,
+            10,
+            18
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "upper restraint / east rising horn",
+      "type": "cube",
+      "uuid": "86e19b05-400a-5f55-afc2-3cfed148a2cd",
+      "from": [
+        13,
+        9,
+        7
+      ],
+      "to": [
+        14,
+        12,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            8,
+            6,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            26,
+            8,
+            28,
+            14
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            8,
+            18,
+            14
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            8,
+            18,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            26,
+            14,
+            28,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "upper restraint / east inward hook",
+      "type": "cube",
+      "uuid": "83251d77-9588-5143-ac95-3b27e312ac8e",
+      "from": [
+        11,
+        11,
+        7
+      ],
+      "to": [
+        13,
+        12,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            8,
+            10,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            22,
+            8,
+            26,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "up": {
+          "uv": [
+            22,
+            14,
+            26,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            22,
+            14,
+            26,
+            18
+          ],
+          "texture": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "cbc1d3fc-b787-54ce-8dee-1a5e57b8ca12",
+    "09732a01-d78a-5caf-94ed-69ea3cb722a0",
+    "83042fce-e38b-57e8-bd54-b1764adb1413",
+    "3b1c9f8a-c7f8-581f-8cfb-462875499a59",
+    "e5d563a5-3f38-529f-94fa-a745f0c64315",
+    "ecfbfe36-f628-5e6c-9ff8-464516d8e687",
+    "b188529b-eb17-5e6f-9a46-bf5afc02ec77",
+    "17feb02b-43a7-5511-865a-bc178fab96f2",
+    "86dc9ec4-67d8-5319-8c07-38f0169658a7",
+    "2216c56b-b3f2-51d5-a9c9-853aa6d84207",
+    "1b6cb42a-9c6e-52fa-a93c-be9160961dd8",
+    "06df5471-ba8c-52a2-a51e-8e840c5ecb25",
+    "243fb078-0928-5771-8738-cf20e05710c5",
+    "57ac70c1-668b-500d-be14-962c24815b70",
+    "8858555f-9382-5685-b4d5-d40f5241777c",
+    "c6614602-0dac-5962-8bb9-98e579babe2f",
+    "239388cf-e5b5-5008-8b4d-ee909c539be7",
+    "3f305137-1d98-51b8-a4d3-4600d74b0e34",
+    "86e19b05-400a-5f55-afc2-3cfed148a2cd",
+    "83251d77-9588-5143-ac95-3b27e312ac8e"
+  ],
+  "textures": [
+    {
+      "name": "remake-lighting_00.png",
+      "id": "0",
+      "uuid": "07cbedd1-589c-5995-ade2-e80183920b47",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzUlEQVR4nGM0sHX/zzCAgIlhgAGLrqHhwDrg7u07A+uAb18+M4zsNMBAAuATFMIQ+/T+Hf0c8IlCywZlFDCNOoBhNAoGGLBo6OgOrAMunTs7sA5gY2MbfLlAWEx8YB1AC4DLU0wMAwxYqGXQl2/fMMR4uLjo5wAeIiwblFHANGIc8PbVS+Id8BaHYnKAB897MB60UcBCawt2fBHE7wAlVTVauwG/A65duYxTMkAYUbhseMtFGwcwMjLilNz4jhvOxqOMMge8f/eWNiYTCQBHziimJVIxZQAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "remake-lighting_01.png",
+      "id": "1",
+      "uuid": "70406f67-2af5-584a-b656-decffd36db2c",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAz0lEQVR4nGMsae3+zzCAgIlhgAHLrQdPwYznz1/S1eIPr18PkhBgwOEyWgEBUVEUPhMlhmnq6VA/BHC5lFJ1uEKWhVY+IxawYBO8fukK0T6jFDDRxZbB7AAWahsoKSmOIYavkGNiGGDANOyi4DmJdQoTwwADplEHMAzmRMjJw02UId+/fB2mIfCdAp8NmRBgGnYlIQjIYamQSGoRgUCE/GMGdLDioSwDtQELLokZZziwiBLXYialZc3EMMCABV2AXm3BwRcCH2jcI8IFBjwEAALVLrqVGi+3AAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "remake-lighting_02.png",
+      "id": "2",
+      "uuid": "202167c0-f2c1-5f90-ba50-7ba9fecdcd80",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAjElEQVR4nGOUVjP4zzCAgGkgLR8UDmBB5ggIC9PF0g9v3w7SEMDmQlyAS1AEhf/t/RuCerCFMBPDAAOmUQcwjEbBAAOmEe8AFmIKGWIAcXowK16mER8FTIMyDXwjomIhpzJiG62MBmMaYBp1AMNoFAzGgkiAqP7Bf4KFzNALgQ9E9AeoDZjobuNgcwAA1SAWQYsPk30AAAAASUVORK5CYII="
+    },
+    {
+      "name": "remake-lighting_03.png",
+      "id": "3",
+      "uuid": "caa92045-6023-54d7-b912-2d252a41ee68",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA1UlEQVR4nGPszbb5zzCAgGkgLSfaASoKYgPrAFoCFjNTTYKK3r1+y0CMOnIAY0GwEcFE6GihwLD/xAOaOIBFVoKLKIXEqhtyaYBpRDhABU82Zjy8IPU/MblASFSYbAfg089Ij1yATz8LvXIBLv1MDAMMmAbaASyUaH784juGmKwEJ/0cIEuiZYMyCphGHcAwFKLgzoNXA+sAWgImmpo+6gAiAIu6hiwDrcHfHz8ZcNnDmOCuT/OuWaCLMsP6PXexyrHoqvDS2n5wNsZlDxPDAAOmEe8AAG4+L+p+KCVYAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "remake-lighting_07.png",
+      "id": "4",
+      "uuid": "26fd35c7-931b-5688-bf89-e27857efa62c",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA2UlEQVR4nGM09Yn8zzCAgGkgLR91AAiwEAoiZWVFioL47t37lDngLgEDsIEPr1/D2QKiopQ5gBxAyFKSHPDl82cGSgAPLy9lDuAhYMCAlgMfXr9mkJQUHzgHUAOw4JNE9t3z5y8ZaAGYGAZzCDzH4WvkfE5pyLDQOp8P+ihgGnUAAw0AciIdjYKRmwg/vH4Nr6zwVVgstLAcVlARU1OyMNAQEFNMMzEMMGCRU5AfWAc8evCQoCIDjg9w9oUfAlR1ABPDAAMWYorNAyi819R1gAAV63ZywIBHAQCIETN0CdGzxAAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "remake-lighting_14.png",
+      "id": "5",
+      "uuid": "c8b95fa9-4f2f-5c05-9b8f-6ef9985b834c",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABcElEQVR4nGM09Yn8zzCAgGkgLR91AAiwEAoiZWVFioL47t37lDngLgEDsIEPr1/D2QKiopQ5gBxAyFKSHPDl82cGSgAPLy9lDuCBGvDm1SuSLBYREyNKHQsphurq64LpYwcPYpW3srcH05cvXibaTBZSHPDo0RMwveTMWoYZd99gyB8JT2eQUVQmxUgGvA6QlBSHs5GjIMYkGEOtzcqZJFlMlANwAZgvn9y/S7bFRDng+fOXRBkCCnpkh5ECGImtDUFRwC8oSJShH9+/JzoXMDEMMGAadQADiQCU8hU6ysA0jA/D5AAWSqMAORtSvSAiBMA+h2ZBuhZEGcoiDAwUFkBkO0BGURlrUQyTc5X6xrDmPaJRoqmng7dQYyHFclABAwK8AkI45UGWwxolyHUJLsBCrOXElmykFuVMDAMMWOQU5AfWAY8ePCSoyIDjA5x94YcAVR3AxDDAgAW5DY8LHEDhvaauAwRIaMPTAgx4FAAAahRv+oNwQsAAAAAASUVORK5CYII="
+    },
+    {
+      "name": "remake-lighting_15.png",
+      "id": "6",
+      "uuid": "7017abf6-287c-522c-8c7d-cfd3134508f5",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABMUlEQVR4nGM09Yn8zzCAgGkgLR91AAiwEAoiZWVFioL47t37lDngLgEDsIEPr1/D2QKiopQ5gBxAyFKSHPDl82cGSgAPLy9lDuCBGvDm1SuSLBYREyNKHQsphurq6xKl7vLFy0SbyUKKAx49esJA15JQUlIcjtEBd5AXw4vnz2nrAHyA+9RFBmoAFnySz5+/pIolZDuAENAzNUHhv3rylIFuDrh0+gyGmISkJP0cIEGGZVR1AAig5wK6hsCApwHktEBJdDAxDDBgokTzPRkZih3AQolmnhMnGXhwBD+sUaKpp4O3UGMhxcKP79+T1CjBVoeQ7QARIut3UotyJoYBBixyCvID64BHDx4SVGTA8QHOvvBDgKoOYGIYYMCC3IbHBQ6g8F5T1wECJLThaQEGPAoAmBRIotUX/7QAAAAASUVORK5CYII="
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.63,
+        0.63,
+        0.63
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  }
+}

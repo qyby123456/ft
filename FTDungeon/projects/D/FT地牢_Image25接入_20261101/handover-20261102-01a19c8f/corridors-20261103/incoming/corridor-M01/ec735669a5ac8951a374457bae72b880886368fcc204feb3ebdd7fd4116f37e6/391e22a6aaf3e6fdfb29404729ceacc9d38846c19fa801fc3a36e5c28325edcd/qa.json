@@ -1,0 +1,113 @@
+{
+  "schema": "ft-independent-corridor-delivery-v1",
+  "id": "M01",
+  "status": "PASS",
+  "sha256": "ec735669a5ac8951a374457bae72b880886368fcc204feb3ebdd7fd4116f37e6",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M01-nether-intact.png",
+  "reference_sha256": "625157979074e1cedb8e14c9d4b8616d3a507004a759b509f6a76a20ead22be2",
+  "size": [
+    15,
+    13,
+    40
+  ],
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    3
+  ],
+  "exit": [
+    7,
+    2,
+    39
+  ],
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "checks": {
+    "static_nbt_geometry": "PASS",
+    "original_reference_hash": "PASS",
+    "forty_block_straight_corridor": "PASS",
+    "five_wide_three_high_flat_route": "PASS",
+    "no_turns_branches_or_route_stairs": "PASS",
+    "complete_roof_shell": "PASS",
+    "vanilla_registry_states_and_native_roundtrip": "PASS",
+    "native_four_rotations_placement": "PASS",
+    "native_200_tick_stability": "PASS",
+    "native_voxel_captures_match_rotated_source": "PASS",
+    "lava_bottom_sides_and_outside_halo": "PASS",
+    "hanging_light_supports": "PASS",
+    "zero_entities_and_reward_stock": "PASS",
+    "negative_probes_detect_faults": "PASS",
+    "four_internal_and_four_external_views": "PASS",
+    "visual_inspection": "PASS"
+  },
+  "native_summary": {
+    "rotations": [
+      "NONE",
+      "CLOCKWISE_90",
+      "CLOCKWISE_180",
+      "COUNTERCLOCKWISE_90"
+    ],
+    "records_per_rotation": 7800,
+    "checked_after_ticks": 31200,
+    "stabilization_ticks": 200,
+    "source_lava_cells": 48,
+    "supported_lanterns": 10,
+    "reachable_foot_positions_per_rotation": 296,
+    "main_route_foot_positions": 200,
+    "external_fluid_cells": 0,
+    "dropped_entities": 0,
+    "negative_probes": {
+      "missing_lava_floor_detected": 4,
+      "blocked_route_detected": 4,
+      "missing_chain_detected": 4,
+      "occupied_air_voxel_refused": 4
+    },
+    "forced_chunk_ticking": true,
+    "scheduled_lava_ticks": true
+  },
+  "evidence": {
+    "static": "qa/static.json",
+    "native": "qa/native.json",
+    "native_log": "qa/forge-gametest.log",
+    "render_manifest": "qa/views.json",
+    "image_decode": "qa/image-decode.json",
+    "visual_review": "qa/visual-review.json",
+    "interior_sheet": "views/interior-sheet.png",
+    "exterior_sheet": "views/exterior-sheet.png",
+    "native_world_captures": [
+      "qa\\native-placed-none.nbt",
+      "qa\\native-placed-clockwise_90.nbt",
+      "qa\\native-placed-clockwise_180.nbt",
+      "qa\\native-placed-counterclockwise_90.nbt"
+    ]
+  },
+  "first_native_attempt": {
+    "status": "compile_failed_then_fixed",
+    "cause": "1.20.1 gamerule official mapping constant is RULE_DAYLIGHT, not RULE_DODAYLIGHTCYCLE",
+    "evidence": "qa/attempt-1-compile.log"
+  },
+  "not_tested": [
+    "Full FarmingTales modpack client rendering/playthrough, FPS, multiplayer.",
+    "FT core integration, dungeon route connections, existing return-portal behavior."
+  ],
+  "safety": {
+    "deployed": false,
+    "production_saves_opened_or_modified": false,
+    "mods_directory_changed": false,
+    "shared_core_modified": false,
+    "paid_image_api_called": false,
+    "isolated_test_world": "native-qa/run-isolated/world"
+  },
+  "integration_requirements": [
+    "Preflight entire 15x13x40 volume including explicit air plus entity/fluid/world-border checks before any placeInWorld call.",
+    "Preserve persistent per-template generation markers and never overwrite an already generated/player-modified instance.",
+    "Use feet-coordinate metadata with floor at local y=1 and players at local y=2.",
+    "Keep both five-wide north/south openings and use native rotation for ports and block states.",
+    "Do not deploy the native-qa fixture mod or its disposable test world."
+  ]
+}

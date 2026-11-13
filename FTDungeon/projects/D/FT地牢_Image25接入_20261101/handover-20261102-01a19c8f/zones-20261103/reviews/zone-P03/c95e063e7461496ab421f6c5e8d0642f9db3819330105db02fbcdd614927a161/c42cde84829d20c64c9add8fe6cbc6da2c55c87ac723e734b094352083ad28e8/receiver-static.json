@@ -1,0 +1,167 @@
+{
+  "id": "zone-P03",
+  "candidate_sha256": "c95e063e7461496ab421f6c5e8d0642f9db3819330105db02fbcdd614927a161",
+  "bundle_sha256": "c42cde84829d20c64c9add8fe6cbc6da2c55c87ac723e734b094352083ad28e8",
+  "status": "PASS_INTAKE_ONLY",
+  "size": [
+    27,
+    13,
+    29
+  ],
+  "blocks": 10179,
+  "block_entities": 0,
+  "category": "parkour",
+  "producer_metadata_id": "P03",
+  "interfaces_as_declared": {
+    "entrance": [
+      13,
+      5,
+      0
+    ],
+    "interior": [
+      13,
+      5,
+      3
+    ],
+    "exit": [
+      13,
+      5,
+      28
+    ],
+    "ports": [
+      {
+        "side": "north",
+        "feet": [
+          13,
+          5,
+          0
+        ],
+        "width": 3,
+        "clear_height": 4
+      },
+      {
+        "side": "south",
+        "feet": [
+          13,
+          5,
+          28
+        ],
+        "width": 3,
+        "clear_height": 4
+      }
+    ],
+    "parkour": {
+      "platform_top_y": 5,
+      "pad_count": 4,
+      "pad_size": [
+        3,
+        3
+      ],
+      "jumps": [
+        {
+          "index": 1,
+          "takeoff": [
+            11.5,
+            5,
+            5.5
+          ],
+          "landing": [
+            11.5,
+            5,
+            7.5
+          ],
+          "distance": 2,
+          "height_change": 0,
+          "ticks": 12,
+          "horizontal_speed_per_tick": 0.18181818181818182,
+          "player_width": 0.6,
+          "player_height": 1.8
+        },
+        {
+          "index": 2,
+          "takeoff": [
+            12.5,
+            5,
+            9.5
+          ],
+          "landing": [
+            13.5,
+            5,
+            11.5
+          ],
+          "distance": 2.23606797749979,
+          "height_change": 0,
+          "ticks": 12,
+          "horizontal_speed_per_tick": 0.20327890704543544,
+          "player_width": 0.6,
+          "player_height": 1.8
+        },
+        {
+          "index": 3,
+          "takeoff": [
+            13.5,
+            5,
+            13.5
+          ],
+          "landing": [
+            12.5,
+            5,
+            15.5
+          ],
+          "distance": 2.23606797749979,
+          "height_change": 0,
+          "ticks": 12,
+          "horizontal_speed_per_tick": 0.20327890704543544,
+          "player_width": 0.6,
+          "player_height": 1.8
+        },
+        {
+          "index": 4,
+          "takeoff": [
+            12.5,
+            5,
+            17.5
+          ],
+          "landing": [
+            13.5,
+            5,
+            19.5
+          ],
+          "distance": 2.23606797749979,
+          "height_change": 0,
+          "ticks": 12,
+          "horizontal_speed_per_tick": 0.20327890704543544,
+          "player_width": 0.6,
+          "player_height": 1.8
+        },
+        {
+          "index": 5,
+          "takeoff": [
+            14.5,
+            5,
+            21.5
+          ],
+          "landing": [
+            14.5,
+            5,
+            23.5
+          ],
+          "distance": 2,
+          "height_change": 0,
+          "ticks": 12,
+          "horizontal_speed_per_tick": 0.18181818181818182,
+          "player_width": 0.6,
+          "player_height": 1.8
+        }
+      ],
+      "checkpoint": [
+        13,
+        5,
+        3
+      ],
+      "difficulty": "easy; no sprint or potion required"
+    }
+  },
+  "category_path_status": "NOT_VERIFIED",
+  "limitations": "No straight-corridor rule applied; supports, liquids, collision, jumps, ports and visuals still need independent receiver tests"
+}

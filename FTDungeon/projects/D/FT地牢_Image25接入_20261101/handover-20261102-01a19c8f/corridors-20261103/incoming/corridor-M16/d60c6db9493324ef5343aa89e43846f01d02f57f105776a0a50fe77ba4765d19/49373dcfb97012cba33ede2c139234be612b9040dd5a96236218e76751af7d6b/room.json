@@ -1,0 +1,83 @@
+{
+  "id": "corridor-M16",
+  "source_id": "M16",
+  "name": "苔石涵泉长廊",
+  "type": "straight_corridor",
+  "size": [
+    15,
+    11,
+    40
+  ],
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    4
+  ],
+  "exit": [
+    7,
+    2,
+    39
+  ],
+  "facing": "north",
+  "axis": "z",
+  "openings": [
+    {
+      "side": "north",
+      "feet": [
+        7,
+        2,
+        0
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "side": "south",
+      "feet": [
+        7,
+        2,
+        39
+      ],
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "dry_path": {
+    "from": [
+      5,
+      2,
+      0
+    ],
+    "to": [
+      9,
+      2,
+      39
+    ],
+    "width": 5,
+    "minimum_headroom": 3,
+    "floor_y": 1
+  },
+  "sha256": "d60c6db9493324ef5343aa89e43846f01d02f57f105776a0a50fe77ba4765d19",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M16-flooded-intact.png",
+  "reference_sha256": "3dd8be10bea89290f99a9af69dd387ed6ed38da08d08bf034fe1d83063cc7f1a",
+  "data_version": 3465,
+  "source_documents": [
+    "D:/ft工程文件/image2.5/dungeon-corridors-20261103/SPEC.md",
+    "D:/ft工程文件/image2.5/dungeon-corridors-20261103/README.md",
+    "D:/ft工程文件/image2.5/dungeon-corridors-20261103/manifest.json",
+    "D:/ft工程文件/FT地牢_Image25接入_20261101/CONTRACT.md"
+  ],
+  "design_adaptations": [
+    "原图满地浅水改为两侧浅水渠，中央五格为同高干燥直通步道。",
+    "原图敞开壁泉改为青色玻璃封闭涵泉，保留真实水体，避免高位水源淹路。",
+    "铁笼为无实体静态装饰，吊链锚在木梁；保留完整屋顶。"
+  ],
+  "deployment": "not_deployed",
+  "placement_world": "isolated QA only",
+  "runtime_slot": null
+}

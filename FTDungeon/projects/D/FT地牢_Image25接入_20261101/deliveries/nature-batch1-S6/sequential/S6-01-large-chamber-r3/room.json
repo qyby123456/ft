@@ -1,0 +1,123 @@
+{
+  "id": "NAT6-01-R3",
+  "name": "火山熔岩大殿·中央祭台",
+  "revision": "S6-01-R3-image-first-single",
+  "size": [
+    19,
+    12,
+    19
+  ],
+  "entrance": [
+    9,
+    2,
+    0
+  ],
+  "interior": [
+    9,
+    2,
+    2
+  ],
+  "facing": "north",
+  "sha256": "097298786e1dabc7735e20ee2ec315ab504d105c2057a958ca0a507618fdcf4b",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S6-volcanic-cavern\\out\\S6-01-large-chamber.png",
+  "reference_sha256": "3ae6251a95e1a5ef0f2319e18cf77501b54dfa5500b8ac7170590fe3a2802e29",
+  "analysis_path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\nature-batch1-S6\\sequential\\S6-01-large-chamber-r3\\REFERENCE_ANALYSIS.md",
+  "analysis_sha256": "53689c476b415dafbfd6f6c54169d6ed59d3d5a83b67671820cea7d434ba7308",
+  "connectors": [
+    {
+      "position": [
+        9,
+        2,
+        0
+      ],
+      "facing": "north",
+      "width": 3,
+      "height": 3,
+      "role": "entrance restored from cutaway"
+    },
+    {
+      "position": [
+        5,
+        2,
+        18
+      ],
+      "facing": "south",
+      "width": 3,
+      "height": 3,
+      "role": "visible rear left arch"
+    },
+    {
+      "position": [
+        13,
+        2,
+        18
+      ],
+      "facing": "south",
+      "width": 3,
+      "height": 3,
+      "role": "visible rear right arch"
+    }
+  ],
+  "validation_targets": [
+    [
+      5,
+      2,
+      18
+    ],
+    [
+      13,
+      2,
+      18
+    ],
+    [
+      5,
+      2,
+      9
+    ],
+    [
+      13,
+      2,
+      9
+    ],
+    [
+      9,
+      2,
+      5
+    ],
+    [
+      9,
+      2,
+      14
+    ],
+    [
+      9,
+      4,
+      7
+    ]
+  ],
+  "topology": "central terraced altar with low continuous circulation on all four sides; two rear arches, one restored north entrance",
+  "landmarks": [
+    "cut-corner 7x7 base and 5x5 upper altar",
+    "uneven obsidian peaks and front-view enclosed lava core",
+    "left/right enclosed lava falls",
+    "four corner columns with glowstone belts",
+    "four roof-supported chain lanterns"
+  ],
+  "image_drives": [
+    "19x19 footprint and 10-12 height estimate from single-image composition and its prompt",
+    "central altar instead of R2 longitudinal spine",
+    "perimeter lava and two visible rear arches"
+  ],
+  "compatibility_only": [
+    "Java 1.20.1 DataVersion3465",
+    "vanilla states checked against native registry",
+    "FT 3x3 north opening and full roof except cutaway previews"
+  ],
+  "adaptations": [
+    "lava fully enclosed behind orange glass; no exposed magma walking surface",
+    "hidden north entrance and complete roof reconstructed",
+    "no particles, smoke, mobs, waves, rewards or invented mechanism"
+  ],
+  "workflow": "one explicitly selected reference only; no S6-02 work in this revision",
+  "deployment": "NOT_PERFORMED"
+}

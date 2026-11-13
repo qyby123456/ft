@@ -1,0 +1,81 @@
+{
+  "id": "zone-M04",
+  "source_id": "M04",
+  "name": "熔岩矿脉",
+  "category": "mine_room",
+  "delivery_directory": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\zone-M04",
+  "status": "PRODUCER_PASS_AWAITING_RECEIVER",
+  "ready_for_unified_integration": false,
+  "structure_sha256": "a52413917ad6cd7f9db2627b2a98fb198472e122a1aa9b7434666449808b2e67",
+  "reference_sha256": "8f286ff92140350e6a640892d251f870954b4e1ead0117ae5cce2f50950d5ac2",
+  "size": [
+    25,
+    14,
+    25
+  ],
+  "entrance": [
+    12,
+    3,
+    0
+  ],
+  "interior": [
+    12,
+    3,
+    4
+  ],
+  "facing": "north",
+  "ports": [
+    {
+      "side": "north",
+      "center": [
+        12,
+        3,
+        0
+      ],
+      "width": 3,
+      "height": 4,
+      "floor_y": 2
+    }
+  ],
+  "four_piece_set": [
+    "room.nbt",
+    "room.json",
+    "preview.png",
+    "qa.json"
+  ],
+  "evidence": [
+    "qa/static.json",
+    "qa/render.json",
+    "qa/visual-review.json",
+    "qa/native.json",
+    "qa/capture-comparison.json",
+    "qa/reference.json"
+  ],
+  "review": "review.html",
+  "full_roof": true,
+  "lava": {
+    "sources": 57,
+    "min": [
+      3,
+      1,
+      13
+    ],
+    "max": [
+      21,
+      1,
+      15
+    ],
+    "sealed_faces": 6,
+    "cap": "orange_stained_glass; central polished_andesite bridge",
+    "guardrail": "iron_bars",
+    "open_lava_surface": false
+  },
+  "deployment": {
+    "deployed": false,
+    "formal_files_modified": false,
+    "player_saves_opened": false,
+    "integration_performed": false,
+    "ready_for_unified_integration": false
+  },
+  "identity_warning": "zone-M04 mine room belongs to dungeon-zone-batch-20261103. Distinct from corridor-M04 flooded End corridor."
+}

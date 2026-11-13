@@ -1,0 +1,93 @@
+{
+  "size": [
+    35,
+    21,
+    35
+  ],
+  "single_chunk_constraint": false,
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "axes": "+X east, +Y up, +Z south",
+  "modules": [
+    {
+      "id": "S8R_IMG01",
+      "nbt": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-01\\incoming\\S8R_IMG01\\room.nbt",
+      "sha256": "ee50ce32006d15b24ae2b2932bbf4ebbef6683ae8b9ee33ca4781348ac0fa798",
+      "size": [
+        35,
+        21,
+        35
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "rotation_pivot": [
+        17,
+        0,
+        17
+      ],
+      "placement_order": 1,
+      "dependencies": [],
+      "connection_anchors": [
+        {
+          "role": "entrance",
+          "facing": "north",
+          "position": [
+            17,
+            1,
+            0
+          ],
+          "width": 3,
+          "height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "south",
+          "position": [
+            17,
+            3,
+            34
+          ],
+          "width": 3,
+          "height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "east",
+          "position": [
+            34,
+            3,
+            18
+          ],
+          "width": 3,
+          "height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "west",
+          "position": [
+            0,
+            3,
+            18
+          ],
+          "width": 3,
+          "height": 3
+        }
+      ]
+    }
+  ],
+  "split": false,
+  "split_reason": "35x21x35 is below Java structure limits; no chunk-size cap imposed",
+  "interface_elevation_warning": "north entrance feet Y1; all other ports feet Y3; never connect equal world origins assuming equal port heights",
+  "rotation_clockwise": "[x,y,z] -> [34-z,y,x]; rotate block states and all anchors together; north->east->south->west",
+  "bounds_policy": "Explicit air present. Check the entire 35x21x35 world volume, entities, fluids and borders; reject any conflict rather than clearing existing content.",
+  "world_origin": null,
+  "runtime_slot": null,
+  "deployment": "NOT_DEPLOYED",
+  "world_placement_and_400tick_stability": "NOT_RUN"
+}

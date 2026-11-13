@@ -1,0 +1,544 @@
+{
+  "project": "地牢走道 · 40 张（一字贯通 · 中/短两档）",
+  "date": "2026-11-03",
+  "request_quote": "由你发布任务和子线程绘制地牢走道图片（一字贯通）分为中，短两种（2~3区块，1区块）总计40个图片左右，交给image生成，注意风格不要太重复",
+  "counts": {
+    "total": 40,
+    "medium": 20,
+    "short": 20
+  },
+  "style": {
+    "model": "gpt-image-2.5-flare",
+    "size": "1536x1024",
+    "quality": "high",
+    "n": 1,
+    "composition": "one-point perspective straight-through corridor (一字贯通), no turns/branches/stairs"
+  },
+  "sheets": {
+    "medium": {
+      "path": "out/corridors-medium-sheet.png",
+      "size": [
+        2160,
+        1526
+      ],
+      "bytes": 3665717,
+      "sha256": "c1c545162d588316b694d403973a54712ed8bae7e3fdb802f2b3b642a0b582da"
+    },
+    "short": {
+      "path": "out/corridors-short-sheet.png",
+      "size": [
+        2160,
+        1526
+      ],
+      "bytes": 3531624,
+      "sha256": "1cd3e61f274bb6c2ea24dfd3d3c54b1314614b6c302b524ff85348435131566f"
+    }
+  },
+  "images": [
+    {
+      "id": "M01",
+      "name": "M01-nether-intact",
+      "path": "out/M01-nether-intact.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1750804,
+      "sha256": "625157979074e1cedb8e14c9d4b8616d3a507004a759b509f6a76a20ead22be2",
+      "kind": "medium"
+    },
+    {
+      "id": "M02",
+      "name": "M02-archive-library-flooded",
+      "path": "out/M02-archive-library-flooded.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1842056,
+      "sha256": "96e45b7d9176fdc57b70e99af2dfde21638295e60f263d90b3cdb9099c8d6ccc",
+      "kind": "medium"
+    },
+    {
+      "id": "M03",
+      "name": "M03-blood-ritual-intact",
+      "path": "out/M03-blood-ritual-intact.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1610499,
+      "sha256": "2bd12059b40ca01c7f4576e3af80f099382dc20b1c87ae34128332f5391c33ea",
+      "kind": "medium"
+    },
+    {
+      "id": "M04",
+      "name": "M04-end-flooded",
+      "path": "out/M04-end-flooded.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 2050971,
+      "sha256": "537f369f2598d7c3f603011fca9b64e69f2793fe458285bc44da1afdeee10eee",
+      "kind": "medium"
+    },
+    {
+      "id": "M05",
+      "name": "M05-prison-cells-intact",
+      "path": "out/M05-prison-cells-intact.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1898332,
+      "sha256": "40b8d7e4dd5dffbfcbfff257e9ba5e7235bdfb4d57d356d24de76bb21671c8ca",
+      "kind": "medium"
+    },
+    {
+      "id": "M06",
+      "name": "M06-frozen-prison-burnt",
+      "path": "out/M06-frozen-prison-burnt.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1998677,
+      "sha256": "3a7bc9bffe8a727ca0b05ca07b492fe1623ac2c0e82c26ada0867b144d19eadf",
+      "kind": "medium"
+    },
+    {
+      "id": "M07",
+      "name": "M07-cataclysm-dark-iron-damaged",
+      "path": "out/M07-cataclysm-dark-iron-damaged.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 2003460,
+      "sha256": "7aa60a98ff9c54dbb9b5e61c76973619d89a107a8e906c4787e561dd08fcccfa",
+      "kind": "medium"
+    },
+    {
+      "id": "M08",
+      "name": "M08-forge-lava-burnt",
+      "path": "out/M08-forge-lava-burnt.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1830561,
+      "sha256": "ea87fc89e452e478a91bca5ea505acea8b97d2da8bd468a07108db61f7e46050",
+      "kind": "medium"
+    },
+    {
+      "id": "M09",
+      "name": "M09-obsidian-trial-damaged",
+      "path": "out/M09-obsidian-trial-damaged.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1886449,
+      "sha256": "485e717ae64f6bc8b0ba8ba59512a904b2bc43fced70389aa6df650440f70de9",
+      "kind": "medium"
+    },
+    {
+      "id": "M10",
+      "name": "M10-abandoned-mine-burnt",
+      "path": "out/M10-abandoned-mine-burnt.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1965206,
+      "sha256": "f0bfc91e258dab253c9d0272f516d54821e82b60357cbc6dcdb1510a722f3ab0",
+      "kind": "medium"
+    },
+    {
+      "id": "M11",
+      "name": "M11-bone-crypt-overgrown",
+      "path": "out/M11-bone-crypt-overgrown.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1983643,
+      "sha256": "78c7104c420851a657b80c0e4194028b8d57f07a42721f6c7989925d0dd25e00",
+      "kind": "medium"
+    },
+    {
+      "id": "M12",
+      "name": "M12-stone-brick-aged",
+      "path": "out/M12-stone-brick-aged.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1708311,
+      "sha256": "d525bbd2f9b7059a2ae60caf736231c753665a1b2b6c906194e497fa83db0e8f",
+      "kind": "medium"
+    },
+    {
+      "id": "M13",
+      "name": "M13-overgrown-ruins-overgrown",
+      "path": "out/M13-overgrown-ruins-overgrown.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1909743,
+      "sha256": "1fdf0434a35e4261f88d3de7b228deaba30f1b0af06ad467d723c4509fba9e66",
+      "kind": "medium"
+    },
+    {
+      "id": "M14",
+      "name": "M14-fungal-cave-aged",
+      "path": "out/M14-fungal-cave-aged.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1820339,
+      "sha256": "aeea1468c5e12912daa7b14bded792897778cd3331cca76999c302646e11ea31",
+      "kind": "medium"
+    },
+    {
+      "id": "M15",
+      "name": "M15-blackstone-deepslate-overgrown",
+      "path": "out/M15-blackstone-deepslate-overgrown.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1743739,
+      "sha256": "501484bf3ef3bc469ec605adcadc0170fda464876eb3dcb94641d26a115b250b",
+      "kind": "medium"
+    },
+    {
+      "id": "M16",
+      "name": "M16-flooded-intact",
+      "path": "out/M16-flooded-intact.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1885869,
+      "sha256": "3dd8be10bea89290f99a9af69dd387ed6ed38da08d08bf034fe1d83063cc7f1a",
+      "kind": "medium"
+    },
+    {
+      "id": "M17",
+      "name": "M17-crystal-cave-flooded",
+      "path": "out/M17-crystal-cave-flooded.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 2207460,
+      "sha256": "29a6f9575aae21c6ea8f5863b62cde1aa63e7de9d9273248d82e51ff0325bf50",
+      "kind": "medium"
+    },
+    {
+      "id": "M18",
+      "name": "M18-ice-frost-intact",
+      "path": "out/M18-ice-frost-intact.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1853769,
+      "sha256": "8d2f06845f6e1310619e555ab8d3d9cf389cc8415cafa70f728eb94127a11ea8",
+      "kind": "medium"
+    },
+    {
+      "id": "M19",
+      "name": "M19-webbed-spider-flooded",
+      "path": "out/M19-webbed-spider-flooded.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1960366,
+      "sha256": "8f3c423cf62ca1d8fd47704f0635c2e478d037295f5a6531a16468ba2a5f927f",
+      "kind": "medium"
+    },
+    {
+      "id": "M20",
+      "name": "M20-copper-machinery-intact",
+      "path": "out/M20-copper-machinery-intact.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 2134729,
+      "sha256": "ba38b1a755aed26654acd83aa1cfc4fdeb3b722e989f7f80ce963b3096acbae5",
+      "kind": "medium"
+    },
+    {
+      "id": "S01",
+      "name": "S01-bone-crypt-overgrown",
+      "path": "out/S01-bone-crypt-overgrown.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1955709,
+      "sha256": "31b3e9c04d8f1e6c562edea2bbd7c9b99c02d1c7280fd89e922f5ec214cfded0",
+      "kind": "short"
+    },
+    {
+      "id": "S02",
+      "name": "S02-stone-brick-aged",
+      "path": "out/S02-stone-brick-aged.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1664688,
+      "sha256": "e068ca984a82719da731f79474db5a7d3cd0bbdade57e5bfaca420e46e665239",
+      "kind": "short"
+    },
+    {
+      "id": "S03",
+      "name": "S03-overgrown-ruins-overgrown",
+      "path": "out/S03-overgrown-ruins-overgrown.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1875659,
+      "sha256": "f33bb90a2418cf5d68bc2bc894e9931af8d3d54a6cb8285f7b3c30d9c8e3e1d2",
+      "kind": "short"
+    },
+    {
+      "id": "S04",
+      "name": "S04-fungal-cave-aged",
+      "path": "out/S04-fungal-cave-aged.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1917918,
+      "sha256": "6160f7b8403ec6ee56e01a0e909423f918176c24b4a23981fa547597931c12e7",
+      "kind": "short"
+    },
+    {
+      "id": "S05",
+      "name": "S05-blackstone-deepslate-flooded",
+      "path": "out/S05-blackstone-deepslate-flooded.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1570165,
+      "sha256": "07435538db7e9d2361a768877170d8b9e622b7e49109fca0ec677e35ecf95c1a",
+      "kind": "short"
+    },
+    {
+      "id": "S06",
+      "name": "S06-flooded-intact",
+      "path": "out/S06-flooded-intact.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1620394,
+      "sha256": "72daa317fc6e42fb149d4fc138f88c73beea0b01177fb7d4eeef58868c014200",
+      "kind": "short"
+    },
+    {
+      "id": "S07",
+      "name": "S07-crystal-cave-flooded",
+      "path": "out/S07-crystal-cave-flooded.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1912246,
+      "sha256": "7775b4e93df8aca46065fcc18c12ceba8cf20979d263ceaf2947f539b9759be9",
+      "kind": "short"
+    },
+    {
+      "id": "S08",
+      "name": "S08-ice-frost-intact",
+      "path": "out/S08-ice-frost-intact.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1652930,
+      "sha256": "5d95e20ec07b165939bf147ee8368de8fe12ec1d66b0ace897f3d904dde06758",
+      "kind": "short"
+    },
+    {
+      "id": "S09",
+      "name": "S09-webbed-spider-burnt",
+      "path": "out/S09-webbed-spider-burnt.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1977856,
+      "sha256": "eeb80b6a2cf8e64e3ec92740ed43119b714b7b9e72d671c339484cfd886d6c26",
+      "kind": "short"
+    },
+    {
+      "id": "S10",
+      "name": "S10-copper-machinery-damaged",
+      "path": "out/S10-copper-machinery-damaged.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1945674,
+      "sha256": "c6a7c3600395f94a6af3160b9fed188cc08906428831ecfb684844e5e6db6907",
+      "kind": "short"
+    },
+    {
+      "id": "S11",
+      "name": "S11-nether-burnt",
+      "path": "out/S11-nether-burnt.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1728249,
+      "sha256": "2bdda4f75bf87f19ae80540a5de09af4b720dde05e515cdcd2631fba795d65a6",
+      "kind": "short"
+    },
+    {
+      "id": "S12",
+      "name": "S12-archive-library-damaged",
+      "path": "out/S12-archive-library-damaged.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1843952,
+      "sha256": "0aaf6c72391d8b31fd4926350422149041b8cbf10a206b2b833672af1bca39dd",
+      "kind": "short"
+    },
+    {
+      "id": "S13",
+      "name": "S13-blood-ritual-aged",
+      "path": "out/S13-blood-ritual-aged.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1663108,
+      "sha256": "91a5ac1e968b27eaab5641524e3923b5dff855fd885d1cf84237b5c46bc0e8c4",
+      "kind": "short"
+    },
+    {
+      "id": "S14",
+      "name": "S14-end-overgrown",
+      "path": "out/S14-end-overgrown.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1975078,
+      "sha256": "55d41c576a5d4061b182f784bc256c2ae56c7aee06df2d5b3020c825a442a1f2",
+      "kind": "short"
+    },
+    {
+      "id": "S15",
+      "name": "S15-prison-cells-aged",
+      "path": "out/S15-prison-cells-aged.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1921103,
+      "sha256": "f0c77a9be5e1d6db19c5874c431de002f2f17a21232f83a879bd774b2c6be09b",
+      "kind": "short"
+    },
+    {
+      "id": "S16",
+      "name": "S16-frozen-prison-overgrown",
+      "path": "out/S16-frozen-prison-overgrown.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1775414,
+      "sha256": "253f2d0d39dd3a642e97a1022ad95c9f14e3fc7a321e18769430ae8c16f39fc4",
+      "kind": "short"
+    },
+    {
+      "id": "S17",
+      "name": "S17-cataclysm-dark-iron-intact",
+      "path": "out/S17-cataclysm-dark-iron-intact.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1945171,
+      "sha256": "18a1c608777d9f99e6e4faaaa95f556bbf3017db07944b47868dd329ebcd8ddb",
+      "kind": "short"
+    },
+    {
+      "id": "S18",
+      "name": "S18-forge-lava-flooded",
+      "path": "out/S18-forge-lava-flooded.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1608910,
+      "sha256": "90f93164051207db586026e4c3b910809ba98e07acfc3529de12e5436f921e9f",
+      "kind": "short"
+    },
+    {
+      "id": "S19",
+      "name": "S19-obsidian-trial-intact",
+      "path": "out/S19-obsidian-trial-intact.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1816799,
+      "sha256": "420458b3957e67b0f5c6b995fdf154363c12656f9027084270574e4c7b556c95",
+      "kind": "short"
+    },
+    {
+      "id": "S20",
+      "name": "S20-abandoned-mine-flooded",
+      "path": "out/S20-abandoned-mine-flooded.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1732569,
+      "sha256": "f29b7371cb7f60007dc799b199dd6ceca086fe3b97baaa757ec98ef13b033112",
+      "kind": "short"
+    }
+  ],
+  "matrix": {
+    "themes": 20,
+    "conditions": 6,
+    "lights": 6,
+    "features": 10,
+    "index": "out/corridor_index.json"
+  },
+  "execution": {
+    "planned": "3 线程（A 13 / B 13 / C 14）拆分",
+    "threadB_archived": "B 会话已归档→Lead 兜底",
+    "api_issue": "imagegen CLI b64_json=None（服务端只返 URL）→改用 `node gen.mjs --url` + 重命名",
+    "final": "40/40 落盘（Lead 兜底为主 + 线程A/C 补位）；存在性检查防覆盖；失败请求无图"
+  },
+  "limits": [
+    "AI 概念图，非实机截图",
+    "方块纹理/比例可能与游戏内不同",
+    "服务端格式变化导致 CLI 失败，已用 URL 链路绕开；所有失败无图"
+  ],
+  "files": {
+    "spec": "SPEC.md",
+    "dispatch": "DISPATCH.md",
+    "prompts": "prompts/",
+    "index": "out/corridor_index.json",
+    "meta": "out/corridors_meta.json"
+  }
+}

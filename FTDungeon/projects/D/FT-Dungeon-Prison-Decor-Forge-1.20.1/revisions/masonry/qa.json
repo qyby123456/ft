@@ -1,0 +1,556 @@
+{
+  "schema_version": 1,
+  "lane": "masonry",
+  "revision": "remake-06-08-20261103",
+  "status": "passed_offline_authoring_checks_not_runtime_acceptance",
+  "scope": {
+    "numbers": [
+      6,
+      7,
+      8
+    ],
+    "ids": [
+      "prison_brick_slab",
+      "prison_fluted_pillar",
+      "prison_cornice"
+    ],
+    "baseline_read_only": true,
+    "shared_editor_touched": false,
+    "game_launched": false
+  },
+  "checks": {
+    "definition_count_exactly_3": true,
+    "all_box_budgets_passed": true,
+    "all_integer_endpoints": true,
+    "all_positive_volumes": true,
+    "zero_rotations": true,
+    "zero_volume_overlaps": true,
+    "zero_visible_coplanar_duplicates": true,
+    "face_connected_no_floating_boxes": true,
+    "mount_interfaces_passed": true,
+    "uv_projection_bounds_passed": true,
+    "native_slab_dedicated_top_bottom_side": true,
+    "native_slab_upper_lower_edge_halves_identical": true,
+    "pillar_four_real_flutes": true,
+    "pillar_stack_interfaces_equal": true,
+    "cornice_true_central_through_void": true
+  },
+  "models": [
+    {
+      "id": "prison_brick_slab",
+      "boxes": 1,
+      "box_budget": 12,
+      "raw_declared_faces": 6,
+      "fully_occluded_box_faces_parent_may_prune": 0,
+      "visible_or_partly_visible_box_faces": 6,
+      "exterior_unit_square_area": 1024,
+      "volume_unit_cubes": 2048,
+      "integer_grid_0_to_16": true,
+      "positive_volumes": true,
+      "zero_rotations": true,
+      "overlapping_volume_units": 0,
+      "duplicate_visible_unit_planes": 0,
+      "face_connected_components": 1,
+      "floating_boxes": [],
+      "each_box_has_exterior_contribution": true,
+      "mount_interface_passed": true,
+      "uv_projection_in_tile_bounds": true,
+      "native_slab_preview": "one 16x8x16 box; upper and double states are integration work, not exported here"
+    },
+    {
+      "id": "prison_fluted_pillar",
+      "boxes": 12,
+      "box_budget": 12,
+      "raw_declared_faces": 72,
+      "fully_occluded_box_faces_parent_may_prune": 25,
+      "visible_or_partly_visible_box_faces": 47,
+      "exterior_unit_square_area": 1472,
+      "volume_unit_cubes": 1560,
+      "integer_grid_0_to_16": true,
+      "positive_volumes": true,
+      "zero_rotations": true,
+      "overlapping_volume_units": 0,
+      "duplicate_visible_unit_planes": 0,
+      "face_connected_components": 1,
+      "floating_boxes": [],
+      "each_box_has_exterior_contribution": true,
+      "mount_interface_passed": true,
+      "uv_projection_in_tile_bounds": true,
+      "four_real_flutes": {
+        "width": 2,
+        "depth": 2,
+        "height": 9,
+        "empty_volume_units_total": 144
+      },
+      "stacking_interface": {
+        "top_equals_bottom": true,
+        "size": [
+          14,
+          14
+        ],
+        "area": 196
+      }
+    },
+    {
+      "id": "prison_cornice",
+      "boxes": 11,
+      "box_budget": 12,
+      "raw_declared_faces": 66,
+      "fully_occluded_box_faces_parent_may_prune": 18,
+      "visible_or_partly_visible_box_faces": 48,
+      "exterior_unit_square_area": 1144,
+      "volume_unit_cubes": 1486,
+      "integer_grid_0_to_16": true,
+      "positive_volumes": true,
+      "zero_rotations": true,
+      "overlapping_volume_units": 0,
+      "duplicate_visible_unit_planes": 0,
+      "face_connected_components": 1,
+      "floating_boxes": [],
+      "each_box_has_exterior_contribution": true,
+      "mount_interface_passed": true,
+      "uv_projection_in_tile_bounds": true,
+      "central_through_negative_space": {
+        "bounds": [
+          [
+            5,
+            0,
+            0
+          ],
+          [
+            11,
+            10,
+            16
+          ]
+        ],
+        "width": 6,
+        "height": 10,
+        "empty_volume_units": 960,
+        "passed": true
+      },
+      "three_coping_front_positions": [
+        2,
+        4,
+        7
+      ],
+      "paired_structural_corbels": true
+    }
+  ],
+  "texture": {
+    "path": "atlas.png",
+    "size": [
+      128,
+      128
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      255,
+      255
+    ],
+    "tiles": 16,
+    "tile_size": [
+      32,
+      32
+    ],
+    "used_tiles": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "source_palette_colors": 10,
+    "texels_per_model_unit": 2,
+    "total_texels_one_frame": 16384,
+    "rgba_uncompressed_bytes_not_gpu_memory": 65536,
+    "glow_tiles": [],
+    "animation_frames": 1,
+    "paid_image_api_calls": 0
+  },
+  "rendering": {
+    "renderer": "Pillow software orthographic triangle rasterizer with depth buffer",
+    "filter": "nearest",
+    "background": "#1b2934",
+    "face_light_factors": {
+      "north": 0.94,
+      "south": 0.84,
+      "west": 0.86,
+      "east": 0.78,
+      "up": 1.0,
+      "down": 0.64
+    },
+    "center": [
+      8,
+      8,
+      8
+    ],
+    "scale_pixels_per_unit": "viewport_width / 26",
+    "vertical_center": "viewport_height * 0.51",
+    "principal_views": [
+      "front",
+      "side",
+      "back",
+      "iso"
+    ],
+    "additional_checks": [
+      "underside",
+      "gray-iso",
+      "icon64",
+      "gray-icon64"
+    ],
+    "view_count_total": 24,
+    "evidence": [
+      {
+        "id": "prison_brick_slab",
+        "view": "front",
+        "path": "work/renders/prison_brick_slab/front.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 0,
+        "elevation_degrees": 0,
+        "gray": false,
+        "foreground_pixels": 12324
+      },
+      {
+        "id": "prison_brick_slab",
+        "view": "side",
+        "path": "work/renders/prison_brick_slab/side.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 90,
+        "elevation_degrees": 0,
+        "gray": false,
+        "foreground_pixels": 12324
+      },
+      {
+        "id": "prison_brick_slab",
+        "view": "back",
+        "path": "work/renders/prison_brick_slab/back.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 180,
+        "elevation_degrees": 0,
+        "gray": false,
+        "foreground_pixels": 12324
+      },
+      {
+        "id": "prison_brick_slab",
+        "view": "iso",
+        "path": "work/renders/prison_brick_slab/iso.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": 28,
+        "gray": false,
+        "foreground_pixels": 26952
+      },
+      {
+        "id": "prison_brick_slab",
+        "view": "underside",
+        "path": "work/renders/prison_brick_slab/underside.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": -28,
+        "gray": false,
+        "foreground_pixels": 26952
+      },
+      {
+        "id": "prison_brick_slab",
+        "view": "gray-iso",
+        "path": "work/renders/prison_brick_slab/gray-iso.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": 28,
+        "gray": true,
+        "foreground_pixels": 26952
+      },
+      {
+        "id": "prison_brick_slab",
+        "view": "icon64",
+        "path": "work/renders/prison_brick_slab/icon64.png",
+        "size": [
+          64,
+          64
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": 28,
+        "gray": false,
+        "foreground_pixels": 1666
+      },
+      {
+        "id": "prison_brick_slab",
+        "view": "gray-icon64",
+        "path": "work/renders/prison_brick_slab/gray-icon64.png",
+        "size": [
+          64,
+          64
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": 28,
+        "gray": true,
+        "foreground_pixels": 1666
+      },
+      {
+        "id": "prison_fluted_pillar",
+        "view": "front",
+        "path": "work/renders/prison_fluted_pillar/front.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 0,
+        "elevation_degrees": 0,
+        "gray": false,
+        "foreground_pixels": 15326
+      },
+      {
+        "id": "prison_fluted_pillar",
+        "view": "side",
+        "path": "work/renders/prison_fluted_pillar/side.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 90,
+        "elevation_degrees": 0,
+        "gray": false,
+        "foreground_pixels": 15326
+      },
+      {
+        "id": "prison_fluted_pillar",
+        "view": "back",
+        "path": "work/renders/prison_fluted_pillar/back.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 180,
+        "elevation_degrees": 0,
+        "gray": false,
+        "foreground_pixels": 15326
+      },
+      {
+        "id": "prison_fluted_pillar",
+        "view": "iso",
+        "path": "work/renders/prison_fluted_pillar/iso.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": 28,
+        "gray": false,
+        "foreground_pixels": 28896
+      },
+      {
+        "id": "prison_fluted_pillar",
+        "view": "underside",
+        "path": "work/renders/prison_fluted_pillar/underside.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": -28,
+        "gray": false,
+        "foreground_pixels": 28896
+      },
+      {
+        "id": "prison_fluted_pillar",
+        "view": "gray-iso",
+        "path": "work/renders/prison_fluted_pillar/gray-iso.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": 28,
+        "gray": true,
+        "foreground_pixels": 28896
+      },
+      {
+        "id": "prison_fluted_pillar",
+        "view": "icon64",
+        "path": "work/renders/prison_fluted_pillar/icon64.png",
+        "size": [
+          64,
+          64
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": 28,
+        "gray": false,
+        "foreground_pixels": 1805
+      },
+      {
+        "id": "prison_fluted_pillar",
+        "view": "gray-icon64",
+        "path": "work/renders/prison_fluted_pillar/gray-icon64.png",
+        "size": [
+          64,
+          64
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": 28,
+        "gray": true,
+        "foreground_pixels": 1805
+      },
+      {
+        "id": "prison_cornice",
+        "view": "front",
+        "path": "work/renders/prison_cornice/front.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 0,
+        "elevation_degrees": 0,
+        "gray": false,
+        "foreground_pixels": 15006
+      },
+      {
+        "id": "prison_cornice",
+        "view": "side",
+        "path": "work/renders/prison_cornice/side.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 90,
+        "elevation_degrees": 0,
+        "gray": false,
+        "foreground_pixels": 12673
+      },
+      {
+        "id": "prison_cornice",
+        "view": "back",
+        "path": "work/renders/prison_cornice/back.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 180,
+        "elevation_degrees": 0,
+        "gray": false,
+        "foreground_pixels": 15006
+      },
+      {
+        "id": "prison_cornice",
+        "view": "iso",
+        "path": "work/renders/prison_cornice/iso.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": 28,
+        "gray": false,
+        "foreground_pixels": 24173
+      },
+      {
+        "id": "prison_cornice",
+        "view": "underside",
+        "path": "work/renders/prison_cornice/underside.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": -28,
+        "gray": false,
+        "foreground_pixels": 28897
+      },
+      {
+        "id": "prison_cornice",
+        "view": "gray-iso",
+        "path": "work/renders/prison_cornice/gray-iso.png",
+        "size": [
+          256,
+          256
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": 28,
+        "gray": true,
+        "foreground_pixels": 24173
+      },
+      {
+        "id": "prison_cornice",
+        "view": "icon64",
+        "path": "work/renders/prison_cornice/icon64.png",
+        "size": [
+          64,
+          64
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": 28,
+        "gray": false,
+        "foreground_pixels": 1497
+      },
+      {
+        "id": "prison_cornice",
+        "view": "gray-icon64",
+        "path": "work/renders/prison_cornice/gray-icon64.png",
+        "size": [
+          64,
+          64
+        ],
+        "yaw_degrees": 35,
+        "elevation_degrees": 28,
+        "gray": true,
+        "foreground_pixels": 1497
+      }
+    ]
+  },
+  "reproducibility": {
+    "passed": true,
+    "method": "Two independently rebuilt in-memory payloads and all 24 render PNGs compared byte-for-byte before writing.",
+    "compared_deliverables": [
+      "definitions.json",
+      "atlas.png",
+      "tilemap.json",
+      "contact-sheet.png"
+    ],
+    "compared_preview_pngs": 24,
+    "pillow_version": "13.0.0",
+    "font": "C:/Windows/Fonts/segoeui.ttf",
+    "font_sha256": "704eada12961a27fd271f7d3b09e2066520e758390c1776744eff430fee30f6e",
+    "generator_sha256": "f888e58048e37a63b5361d7b2e71b144fc53bad7e97be4d132584645c220b7d8"
+  },
+  "artifact_sha256": {
+    "definitions.json": "f22add84aef9934313708e2e64e0ddadb94e95591ec4771bf1cf67a37e8ec11c",
+    "atlas.png": "03b3ae5a8f1a966098f41ce3b967e870b972008e1b0b8ebe1dc2b5c5f6662f82",
+    "tilemap.json": "56aeca2ed51cff99dd0520ac12f1cc4a48c9d6bc1ba955e2a6c5cd20d7f3f446",
+    "contact-sheet.png": "3721d4eb0beb4e494e1442899902a8ad893c2ed1a231794e62a65d8c986f81b9"
+  },
+  "limitations": [
+    "No Blockbench session was opened or modified.",
+    "No Java model, bbmodel, native slab states, Forge jar or in-game validation is claimed here; parent handles integration and final export audits.",
+    "Reported raw faces precede parent hidden-face pruning; unit-square exterior area is not a runtime quad count or draw-call count.",
+    "Visual evidence is a neutral software preview, not proof of client lighting, collision, performance or placement behavior.",
+    "The other fifteen baseline models and native slab runtime integration require parent-level byte checks."
+  ]
+}

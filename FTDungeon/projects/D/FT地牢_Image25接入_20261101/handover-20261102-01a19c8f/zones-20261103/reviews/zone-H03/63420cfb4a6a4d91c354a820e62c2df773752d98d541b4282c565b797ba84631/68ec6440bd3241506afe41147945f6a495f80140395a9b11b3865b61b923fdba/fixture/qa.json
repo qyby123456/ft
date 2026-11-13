@@ -1,0 +1,131 @@
+{
+  "id": "zone-H03",
+  "status": "PASS",
+  "sha256": "63420cfb4a6a4d91c354a820e62c2df773752d98d541b4282c565b797ba84631",
+  "reference_sha256": "c8bfb5116ed1f75a9870537c25f27aa8be7bb21113e79c6e13eefeac0aba7158",
+  "size": [
+    29,
+    16,
+    35
+  ],
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "forge": "47.4.10",
+  "static": {
+    "status": "PASS",
+    "checks": {
+      "reference_and_both_batch_manifests": "PASS",
+      "gzip_single_palette_java_1_20_1": "PASS",
+      "explicit_volume_unique_coordinates_no_entities": "PASS",
+      "vanilla_nonhazardous_palette": "PASS",
+      "five_wide_three_high_main_route": "PASS",
+      "north_entrance_floor_and_interior_connected": "PASS",
+      "complete_double_layer_roof_and_closed_shell": "PASS",
+      "four_continuous_pillars_and_joined_beams": "PASS",
+      "all_candles_have_solid_top_support": "PASS",
+      "two_chain_anchored_chandeliers": "PASS",
+      "eleven_supported_patterned_banners": "PASS",
+      "supported_altar_and_two_rows_of_stairs": "PASS",
+      "no_inventory_loot_or_command_payload": "PASS"
+    },
+    "explicit_records": 16240,
+    "non_air_blocks": 6876,
+    "details": "qa/static.json"
+  },
+  "native": {
+    "status": "PASS",
+    "method": "StructureTemplate.placeInWorld in isolated Forge GameTest server; Entity.move with FakePlayer for stair ascent/return",
+    "rotations": [
+      {
+        "rotation": "NONE",
+        "states_preserved": 16240,
+        "main_route_positions": 135,
+        "reachable_ground_foot_positions": 647,
+        "native_player_stair_ascent_and_return": "PASS: 580 Entity.move collision steps, 0.1 block per step, 0.6 step height",
+        "roof_blocks": 2030,
+        "continuous_pillars": 4,
+        "candle_groups": 36,
+        "individual_candles": 140,
+        "anchored_chain_blocks": 10,
+        "supported_patterned_banners": 11,
+        "dropped_items": 0
+      },
+      {
+        "rotation": "CLOCKWISE_90",
+        "states_preserved": 16240,
+        "main_route_positions": 135,
+        "reachable_ground_foot_positions": 647,
+        "native_player_stair_ascent_and_return": "PASS: 580 Entity.move collision steps, 0.1 block per step, 0.6 step height",
+        "roof_blocks": 2030,
+        "continuous_pillars": 4,
+        "candle_groups": 36,
+        "individual_candles": 140,
+        "anchored_chain_blocks": 10,
+        "supported_patterned_banners": 11,
+        "dropped_items": 0
+      },
+      {
+        "rotation": "CLOCKWISE_180",
+        "states_preserved": 16240,
+        "main_route_positions": 135,
+        "reachable_ground_foot_positions": 647,
+        "native_player_stair_ascent_and_return": "PASS: 580 Entity.move collision steps, 0.1 block per step, 0.6 step height",
+        "roof_blocks": 2030,
+        "continuous_pillars": 4,
+        "candle_groups": 36,
+        "individual_candles": 140,
+        "anchored_chain_blocks": 10,
+        "supported_patterned_banners": 11,
+        "dropped_items": 0
+      },
+      {
+        "rotation": "COUNTERCLOCKWISE_90",
+        "states_preserved": 16240,
+        "main_route_positions": 135,
+        "reachable_ground_foot_positions": 647,
+        "native_player_stair_ascent_and_return": "PASS: 580 Entity.move collision steps, 0.1 block per step, 0.6 step height",
+        "roof_blocks": 2030,
+        "continuous_pillars": 4,
+        "candle_groups": 36,
+        "individual_candles": 140,
+        "anchored_chain_blocks": 10,
+        "supported_patterned_banners": 11,
+        "dropped_items": 0
+      }
+    ],
+    "ticks_observed": 240,
+    "forced_neighbor_shape_and_event_updates": true,
+    "details": "qa/forge-native.json",
+    "log": "qa/forge-run.log",
+    "roundtrip": "qa/native-roundtrip.nbt"
+  },
+  "visual": {
+    "status": "PASS",
+    "renderer": "Lodestone 0.6.0 / ThreeStructureRenderer",
+    "source": "room.nbt",
+    "internal_sections": 4,
+    "complete_shells": 4,
+    "intact_interiors": 2,
+    "sheet": "previews/four-directions-sheet.png",
+    "details": "qa/visual.json",
+    "cutaway_changes_nbt": false
+  },
+  "scope": {
+    "deployed": false,
+    "official_files_modified": false,
+    "other_deliveries_modified": false,
+    "player_saves_modified": false,
+    "image_api_called": false,
+    "test_world": "qa/forge-runtime/world: newly created isolated GameTest world only"
+  },
+  "limits": [
+    "Independent vanilla/Forge placement and software rendering; no modpack-client, multiplayer, FPS or existing-hall integration claim",
+    "No combat, rewards, entities or automatic loot are added",
+    "Lodestone software renders the purple wall banners as simple purple faces; native Forge independently confirms two gold pattern records in all eleven banner block entities.",
+    "Stone and gold trims are block-scale interpretations of the concept, not a pixel-identical reproduction."
+  ],
+  "log_notes": [
+    "First-run missing server.properties and corrected local config are retained in the raw log.",
+    "Forge version-check timeout, obsolete API warning and transient server behind-schedule warning are retained; required test and build both passed. These do not constitute client performance measurements."
+  ]
+}

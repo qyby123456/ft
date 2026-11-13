@@ -1,0 +1,62 @@
+{
+  "id": "corridor-S13",
+  "name": "陈旧血誓祭仪短廊",
+  "size": [
+    15,
+    11,
+    16
+  ],
+  "entrance": [
+    7,
+    1,
+    0
+  ],
+  "interior": [
+    7,
+    1,
+    3
+  ],
+  "exit": [
+    7,
+    1,
+    15
+  ],
+  "exit_interior": [
+    7,
+    1,
+    12
+  ],
+  "facing": "north",
+  "exit_facing": "south",
+  "sha256": "e0dea56d7299795c44c5717160ba1dc1cd07db5799d04e6a4c48a898ad0dddd8",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\S13-blood-ritual-aged.png",
+  "reference_sha256": "91a5ac1e968b27eaab5641524e3923b5dff855fd885d1cf84237b5c46bc0e8c4",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "type": "straight_corridor",
+  "length_blocks": 16,
+  "length_chunks": 1,
+  "main_aisle": {
+    "x": [
+      6,
+      8
+    ],
+    "feet_y": 1,
+    "clear_height": 3,
+    "z": [
+      0,
+      15
+    ]
+  },
+  "template_candidate": "ftdungeonmobs:image25/corridor_s13",
+  "source_recipe": "source/corridor-s13.mjs",
+  "builder": "minecraft-builder-skill / Lodestone 0.6.0",
+  "deployment_status": "not_deployed",
+  "integration_status": "producer_delivery_only",
+  "design_adaptations": [
+    "概念图封闭栅门改为升起的门栅，北南均保留至少三宽三高开口。",
+    "血痕与血槽以实心红色地砖表现；无流体、伤害、红石或刷怪机制。",
+    "仅原版1.20.1：末地烛光为原生白光，不伪造青色动态光照。",
+    "四座吊笼为空装饰，铁盖中央承重点、铁链与木梁相接；无实体或容器。"
+  ]
+}

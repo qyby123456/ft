@@ -1,0 +1,55 @@
+{
+  "id": "SHOP_D_NETHER_BARTER",
+  "name": "地狱以物易物商店 · 变体 D",
+  "size": [
+    13,
+    9,
+    13
+  ],
+  "entrance": [
+    6,
+    1,
+    0
+  ],
+  "interior": [
+    6,
+    1,
+    3
+  ],
+  "facing": "north",
+  "sha256": "d660b18fa96995ece7c51dd1a000b800480802d2fe9e2e2b52d05f2d12791292",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-shop-variants-20261102\\out\\shop-variant-D-nether-barter.png",
+  "reference_sha256": "adc38f2ab9553f7c40975172b105a362ae8b32655d02ecbf73a1aa6e850c8821",
+  "minecraft_version": "1.20.1",
+  "data_version": 3465,
+  "integration": {
+    "status": "STANDALONE_CANDIDATE_NOT_REGISTERED",
+    "id_is_provisional": true,
+    "assigned_slot": null,
+    "deployed": false,
+    "coordinator_thread": "01a19758-b0e5-75c2-822a-4860527a1e8b",
+    "requires_coordinator_acceptance": true
+  },
+  "layout": {
+    "roof": "complete",
+    "pillars": "embedded in wall corners",
+    "main_aisle_width_blocks": 3,
+    "main_aisle_height_blocks": 3,
+    "minimum_counter_clearance_blocks": 1
+  },
+  "substitutions": [
+    "内部扩为11×11以保留柜台四侧净空、后墙货架与隔离笼。",
+    "四根金带黑石柱嵌入墙角，修正概念图独立立柱与入口空间冲突。",
+    "魂火采用原版灵魂灯笼，不使用可伤人裸魂火。",
+    "流动熔岩池改为六面封闭的岩浆块展示箱；地面发光缝改为完整菌光体地板。",
+    "小金锭、天平、药瓶艺术比例改为金块、受支撑铁砧、空酿造台与花盆，不投放物品实体。",
+    "铁笼为空装饰；红纹为内嵌陶瓦；木桶为空且与裸火、熔岩完全隔离。"
+  ],
+  "gameplay": {
+    "merchant_entities": 0,
+    "trade_logic": false,
+    "reward_logic": false,
+    "loot_tables": 0,
+    "inventory_items": 0
+  }
+}

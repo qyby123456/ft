@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "id": "SHOP_H_SWAMP_WITCH",
+  "variant": "H",
+  "name": "沼泽女巫药铺",
+  "source_sha256": "9c616c3a3ef0eaf5ea2fa60c30e397f58ff721398c7a597cf92a6b15f239c2d3",
+  "reference_sha256": "0c7a6641ef53e737e675dbedbcaf2f3c88f4afc475eabf5de38fb3ba9718fc20",
+  "minecraft_version": "1.20.1",
+  "forge_version": "47.4.10",
+  "created_at": "2026-11-02T10:41:24+08:00",
+  "static": {
+    "status": "PASS",
+    "report": "../qa/static.json",
+    "records": 2250,
+    "non_air": 1135,
+    "negative_probes": 7,
+    "reproducible": "PASS"
+  },
+  "native": {
+    "status": "PASS",
+    "report": "../qa/native.json",
+    "log": "../qa/forge-gametest.log",
+    "rotations": 4,
+    "stabilization_ticks": 100,
+    "records_checked": 9000,
+    "reachable_feet_each_rotation": 137,
+    "inventory_items": 0,
+    "empty_block_entities_each_rotation": 9,
+    "unexpected_entities": 0,
+    "world_recapture": "../qa/native-capture-comparison.json",
+    "random_tick_speed": 0,
+    "scheduled_water_ticks_enabled": true
+  },
+  "supports": {
+    "four_floor_to_ceiling_pillars": "PASS",
+    "pillar_ring_and_counter_clearance": "PASS",
+    "two_chain_supported_lamps": "PASS",
+    "two_closed_ceiling_anchored_cages": "PASS",
+    "wall_vines": "PASS",
+    "hanging_roots": "PASS",
+    "specimens_and_shelves": "PASS",
+    "contained_basin_lily_reed": "PASS"
+  },
+  "visual": {
+    "status": "PASS",
+    "review": "../qa/visual-review.json",
+    "render_manifest": "../qa/render-manifest.json",
+    "images": [
+      {
+        "file": "out/preview.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "bd065667dacbbed041c89459a44dbb285e0ccfb67ed20f3ce4e1d4f375ee2f35"
+      },
+      {
+        "file": "preview/four-views.png",
+        "size": [
+          3200,
+          2500
+        ],
+        "sha256": "c9c61141be290269ef654e09f6183b542017ac6badee36599140b096efc7f375"
+      },
+      {
+        "file": "preview/plan.png",
+        "size": [
+          1500,
+          1250
+        ],
+        "sha256": "d3e0998368e470b3ff037bd7baf93daf7867e2a11e6a20d61e0ec4b4f61deefa"
+      },
+      {
+        "file": "preview/exterior.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "029f0f1c1f1bc0ed7a8aeb8434182618f86e923d66b0f9f38773a0a9b87e97c9"
+      },
+      {
+        "file": "preview/native-world-capture.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "420402dad0bdecfc2d01047ece8cf8686a10b2a62345ffb67b1e0c4e479a840c"
+      }
+    ]
+  },
+  "integration": {
+    "status": "NOT_INTEGRATED_NOT_DEPLOYED",
+    "provisional_id": true,
+    "assigned_slot": null,
+    "coordinator_thread": "01a19758-b0e5-75c2-822a-4860527a1e8b",
+    "handoff": "../HANDOFF.md",
+    "coordinator_notification": "PREPARED_NOT_SENT_PENDING_DIRECT_HUMAN_AUTHORIZATION"
+  },
+  "boundaries": {
+    "only_variant": "H",
+    "other_rooms_modified": false,
+    "production_worlds_opened": false,
+    "deployed_jars_modified": false,
+    "core_source_modified": false,
+    "incoming_written": false,
+    "paid_image_requests": 0,
+    "player_client_started": false
+  },
+  "limitations": [
+    "Headless isolated Forge GameTest is not full modpack client, multiplayer, FPS or player perspective verification.",
+    "No FT catalog slot, actual lobby road, persistence, idempotence or production deployment validation in this standalone handoff.",
+    "Random block growth was disabled for deterministic verification; scheduled fluid ticks and 100-tick source stability were checked. Vines and sugar cane can grow during longer normal play.",
+    "This is a display shop with empty containers and brewing stands, not a functional merchant or reward system.",
+    "Software previews use approximate plant/water tint, simplified sign board and no true dynamic lighting."
+  ]
+}

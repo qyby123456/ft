@@ -1,0 +1,78 @@
+{
+  "id": "S01",
+  "name": "蔓生白骨吊笼短廊",
+  "size": [
+    13,
+    11,
+    16
+  ],
+  "entrance": [
+    6,
+    2,
+    0
+  ],
+  "interior": [
+    6,
+    2,
+    2
+  ],
+  "exit": [
+    6,
+    2,
+    15
+  ],
+  "facing": "north",
+  "exit_facing": "south",
+  "sha256": "ddffe5b7ae911eae4472afe3f4c287587be961ae7df2bc2b803ea209d106fef3",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\S01-bone-crypt-overgrown.png",
+  "reference_sha256": "31b3e9c04d8f1e6c562edea2bbd7c9b99c02d1c7280fd89e922f5ec214cfded0",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "axis": "z",
+  "length_blocks": 16,
+  "length_chunks": 1,
+  "portal_width": 3,
+  "portal_clear_height": 3,
+  "floor_y": 1,
+  "explicit_air": true,
+  "rotation_supported": [
+    "NONE",
+    "CLOCKWISE_90",
+    "CLOCKWISE_180",
+    "COUNTERCLOCKWISE_90"
+  ],
+  "ports": [
+    {
+      "name": "north",
+      "feet": [
+        6,
+        2,
+        0
+      ],
+      "outward": "north"
+    },
+    {
+      "name": "south",
+      "feet": [
+        6,
+        2,
+        15
+      ],
+      "outward": "south"
+    }
+  ],
+  "theme": {
+    "theme": "bone-crypt",
+    "condition": "overgrown",
+    "light": "end-rods",
+    "feature": "hanging-cages"
+  },
+  "adaptations": [
+    "South arch intentionally open rather than concept closed door; straight-through takes priority.",
+    "Side timber panels are sealed burial fronts, not doors or branches.",
+    "Persistent azalea leaves and supported glow lichen stand in for uncontrolled growing vines.",
+    "Cage bones use supported vanilla skulls and bone blocks; no entities."
+  ],
+  "deployment": "not deployed; isolated delivery only",
+  "placement_policy": "Validate all 2288 cells and surrounding entities before first placement. Explicit air does not authorize clearing. Never overwrite a generated or occupied room."
+}

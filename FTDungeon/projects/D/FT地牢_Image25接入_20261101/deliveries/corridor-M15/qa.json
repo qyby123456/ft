@@ -1,0 +1,102 @@
+{
+  "id": "corridor-M15",
+  "status": "PASS",
+  "timestamp": "2026-11-03T10:28:33.995887+08:00",
+  "sha256": "3bde7a0d8d39e57c359a861364be2899722d3c1607e64fd5341e7cfe21ad7620",
+  "checks": {
+    "reference_sha256": {
+      "status": "PASS",
+      "detail": "501484bf3ef3bc469ec605adcadc0170fda464876eb3dcb94641d26a115b250b"
+    },
+    "gzip_nbt_1_20_1": {
+      "status": "PASS",
+      "detail": "gzip / DataVersion 3465 / single palette"
+    },
+    "medium_straight_size": {
+      "status": "PASS",
+      "detail": "40 blocks = 2.5 chunks, straight Z axis; no stairs in travel surface"
+    },
+    "complete_unique_volume": {
+      "status": "PASS",
+      "detail": "7200 explicit records including air; importer must check entire volume, never blindly clear"
+    },
+    "no_entities_or_block_entities": {
+      "status": "PASS",
+      "detail": "No mobs, containers, loot, spawners, commands or block entities"
+    },
+    "vanilla_no_hazards": {
+      "status": "PASS",
+      "detail": "Native registry/property validity is independently checked by Forge"
+    },
+    "continuous_floor_and_roof": {
+      "status": "PASS",
+      "detail": "600 full floor blocks and 600 full roof blocks; broken arches are only decorative ribs"
+    },
+    "no_side_branches": {
+      "status": "PASS",
+      "detail": "Both long sides have complete two-block-thick shell; niches are blind"
+    },
+    "five_wide_five_high_straight_route": {
+      "status": "PASS",
+      "detail": "x=5..9, feet y=1, z=0..39; no obstacles or level changes"
+    },
+    "static_attachments_supported": {
+      "status": "PASS",
+      "detail": "222 attachment checks; native canSurvive and 200 tick checks are separate"
+    },
+    "entrance_exit_walkable": {
+      "status": "PASS",
+      "detail": "343 connected floor cells; native player collision AABB is additionally checked"
+    }
+  },
+  "palette_states": 24,
+  "records": 7200,
+  "materials": {
+    "minecraft:moss_block": 42,
+    "minecraft:deepslate_tiles": 940,
+    "minecraft:deepslate_bricks": 608,
+    "minecraft:polished_blackstone_bricks": 1344,
+    "minecraft:cracked_polished_blackstone_bricks": 176,
+    "minecraft:chiseled_polished_blackstone": 90,
+    "minecraft:air": 3615,
+    "minecraft:vine": 152,
+    "minecraft:chiseled_deepslate": 40,
+    "minecraft:polished_blackstone_brick_stairs": 12,
+    "minecraft:cracked_deepslate_bricks": 40,
+    "minecraft:mangrove_roots": 26,
+    "minecraft:moss_carpet": 18,
+    "minecraft:cobbled_deepslate": 2,
+    "minecraft:cobbled_deepslate_slab": 2,
+    "minecraft:candle": 12,
+    "minecraft:chain": 24,
+    "minecraft:deepslate_brick_stairs": 18,
+    "minecraft:oak_leaves": 16,
+    "minecraft:cracked_deepslate_tiles": 23
+  },
+  "native_result": "qa/native-world-qa.json",
+  "native_result_included_in_static_status": false,
+  "client_gameplay_tested": false,
+  "deployed": false,
+  "native": {
+    "status": "PASS",
+    "registry": "qa/native-registry-qa.json",
+    "placement_stability": "qa/native-world-qa.json",
+    "log": "evidence/forge-gametest.log",
+    "rotations": 4,
+    "stable_ticks": 200,
+    "records_per_snapshot": 28800
+  },
+  "views": {
+    "status": "PASS",
+    "count": 8,
+    "report": "qa/view-render-qa.json",
+    "interior_sheet": "four-view-interior.png",
+    "exterior_sheet": "four-view-exterior.png"
+  },
+  "limits": [
+    "Not a full modpack client or multiplayer playtest.",
+    "Not deployed, no production integration and no player save access.",
+    "East/west interior images are view-only cutaways; final NBT roof and long side walls remain complete.",
+    "Lodestone preview uses presentation lighting and does not simulate flame particles or exact Forge light transport."
+  ]
+}

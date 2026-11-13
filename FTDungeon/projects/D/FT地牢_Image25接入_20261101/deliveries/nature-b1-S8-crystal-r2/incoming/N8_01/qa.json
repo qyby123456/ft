@@ -1,0 +1,133 @@
+{
+  "id": "N8_01",
+  "status": "PASS",
+  "checks": [
+    "1.20.1 dimensions and DataVersion",
+    "NBT SHA256",
+    "all positions in bounds",
+    "complete roof over footprint",
+    "crystal support",
+    "dry supported 3x3 opening",
+    "empty containers",
+    "entrance to safe point",
+    "lever support and direct output adjacency",
+    "no fluids, hazards or forbidden blocks",
+    "no spawned entities",
+    "reachable east connection",
+    "reachable north connection",
+    "reachable south connection",
+    "route target east-upper-landing",
+    "route target entrance-north",
+    "route target exit-east",
+    "route target exit-south",
+    "route target first-core-west-loop",
+    "route target safe-point",
+    "route target second-core-south-loop",
+    "unique block positions",
+    "vanilla control components"
+  ],
+  "reachable_floor_positions": 281,
+  "reachable_height_levels": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "verified_route_targets": [
+    {
+      "label": "safe-point",
+      "position": [
+        9,
+        1,
+        2
+      ]
+    },
+    {
+      "label": "east-upper-landing",
+      "position": [
+        16,
+        5,
+        9
+      ]
+    },
+    {
+      "label": "first-core-west-loop",
+      "position": [
+        3,
+        1,
+        8
+      ]
+    },
+    {
+      "label": "second-core-south-loop",
+      "position": [
+        12,
+        1,
+        15
+      ]
+    },
+    {
+      "label": "entrance-north",
+      "position": [
+        9,
+        1,
+        0
+      ]
+    },
+    {
+      "label": "exit-south",
+      "position": [
+        9,
+        1,
+        18
+      ]
+    },
+    {
+      "label": "exit-east",
+      "position": [
+        18,
+        5,
+        9
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "label": "near-focus",
+      "input": [
+        3,
+        2,
+        5
+      ],
+      "output": [
+        3,
+        1,
+        5
+      ],
+      "kind": "independent-lamp-test",
+      "locks_route": false
+    },
+    {
+      "label": "far-focus",
+      "input": [
+        9,
+        2,
+        14
+      ],
+      "output": [
+        9,
+        1,
+        14
+      ],
+      "kind": "independent-lamp-test",
+      "locks_route": false
+    }
+  ],
+  "mechanism_ticks": "NOT_RUN",
+  "sha256": "8119bc311322751f03f6d758cbded6cd1c954c74f5af2731577d0500f1761b9b",
+  "nbt_blocks": 5776,
+  "solid_and_detail_blocks": 1881,
+  "world_placement": "NOT_RUN",
+  "gameplay": "NOT_RUN"
+}

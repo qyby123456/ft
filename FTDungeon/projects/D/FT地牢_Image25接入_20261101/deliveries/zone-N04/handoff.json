@@ -1,0 +1,159 @@
+{
+  "id": "zone-N04",
+  "name": "寻门枢纽",
+  "status": "READY_FOR_INDEPENDENT_REVIEW",
+  "producer_qa": "PASS",
+  "deployed": false,
+  "directory": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\zone-N04",
+  "sha256": "14c978b39244c763c15356388bd1176b1b2452ef37f3a5bed6963890be7cc8d5",
+  "reference_sha256": "81f17850087057a9a0c1925f1fe747220c5a8e163003799c55fa5a97a1b756c3",
+  "size": [
+    35,
+    16,
+    35
+  ],
+  "files": [
+    {
+      "path": "room.nbt",
+      "bytes": 58638,
+      "sha256": "14c978b39244c763c15356388bd1176b1b2452ef37f3a5bed6963890be7cc8d5"
+    },
+    {
+      "path": "room.json",
+      "bytes": 4406,
+      "sha256": "54d1bad9e0e8a69491614a7a4c34aa424601db7915a990a53a136f679b7ba4c4"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 995997,
+      "sha256": "6a722ab366171a29074bd9ea7bb9665e847df30210821f678f59660107d05791"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 1954,
+      "sha256": "63c3e26069082e1e5366968213d306ee56c2b45ea8529078009c2e52cd19528f"
+    }
+  ],
+  "entrance": [
+    17,
+    2,
+    0
+  ],
+  "interior": [
+    17,
+    2,
+    17
+  ],
+  "openings": [
+    {
+      "side": "north",
+      "feet": [
+        17,
+        2,
+        0
+      ],
+      "outward": [
+        0,
+        0,
+        -1
+      ],
+      "material": "amethyst / blackstone",
+      "width": 5,
+      "clear_height": 5,
+      "floor_y": 1
+    },
+    {
+      "side": "east",
+      "feet": [
+        34,
+        2,
+        17
+      ],
+      "outward": [
+        1,
+        0,
+        0
+      ],
+      "material": "deepslate / blackstone",
+      "width": 5,
+      "clear_height": 5,
+      "floor_y": 1
+    },
+    {
+      "side": "south",
+      "feet": [
+        17,
+        2,
+        34
+      ],
+      "outward": [
+        0,
+        0,
+        1
+      ],
+      "material": "waxed oxidized copper / red bricks",
+      "width": 5,
+      "clear_height": 5,
+      "floor_y": 1
+    },
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        17
+      ],
+      "outward": [
+        -1,
+        0,
+        0
+      ],
+      "material": "sandstone",
+      "width": 5,
+      "clear_height": 5,
+      "floor_y": 1
+    }
+  ],
+  "safe_points": [
+    [
+      17,
+      2,
+      17
+    ],
+    [
+      17,
+      2,
+      6
+    ],
+    [
+      6,
+      2,
+      17
+    ],
+    [
+      28,
+      2,
+      17
+    ],
+    [
+      17,
+      2,
+      28
+    ]
+  ],
+  "runtime_teleport": false,
+  "runtime_slot": null,
+  "evidence_manifest": "delivery-manifest.json",
+  "readme": "README.md",
+  "requirements": [
+    "验证整个 35x16x35 体积及液体/实体占用，包括空气记录；不得无条件清空。",
+    "为 zone-N04 分配独立槽位与持久标记；入口安全点随原点和旋转一起变换。",
+    "四向外接走廊由接入负责人布置；本交付不包含大厅接线、回程门或传送实现。"
+  ],
+  "limits": [
+    "未部署；未修改正式实例、核心源码、玩家世界或并行ID。",
+    "无运行时传送；寻门仅为紫晶罗盘、门廊与方向材质的静态主题。",
+    "软件视觉与独立Forge测试不等于完整整合包客户端、多人或FPS验收。",
+    "大厅外接、占用拒绝、持久幂等与槽位由统一接入负责人独立实现并复核。"
+  ]
+}

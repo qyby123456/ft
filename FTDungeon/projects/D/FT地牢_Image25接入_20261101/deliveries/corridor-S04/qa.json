@@ -1,0 +1,198 @@
+{
+  "id": "corridor-S04",
+  "producer_metadata_id": "S04",
+  "name": "陈旧菌洞短廊",
+  "status": "PASS",
+  "acceptance_level": "PRODUCER_COMPLETE_AWAITING_INDEPENDENT_RECEIVER_ACCEPTANCE",
+  "sha256": "11b8cd39ebf685ddb32ceb62211a0b8a58257d13ca0e31ca7261fb969a144baf",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/S04-fungal-cave-aged.png",
+  "reference_sha256": "6160f7b8403ec6ee56e01a0e909423f918176c24b4a23981fa547597931c12e7",
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "data_version": 3465,
+  "size": [
+    11,
+    9,
+    16
+  ],
+  "length_class": "short",
+  "length_blocks": 16,
+  "axis": "z",
+  "entrance": [
+    5,
+    1,
+    0
+  ],
+  "interior": [
+    5,
+    1,
+    3
+  ],
+  "exit": [
+    5,
+    1,
+    15
+  ],
+  "exit_interior": [
+    5,
+    1,
+    12
+  ],
+  "checks": {
+    "static": "PASS",
+    "final_nbt_renderer_views": "PASS",
+    "eight_individual_producer_visual_reviews": "PASS",
+    "vanilla_registry_and_full_states": "PASS",
+    "native_nbt_roundtrip": "PASS",
+    "forge_real_four_rotation_placement": "PASS",
+    "forced_neighbor_updates": "PASS",
+    "ticks_240_exact_state_stability": "PASS",
+    "three_wide_three_high_route_both_ways": "PASS",
+    "native_supports_and_no_item_drops": "PASS",
+    "full_roof_and_closed_side_walls": "PASS",
+    "no_entities_inventory_loot_or_liquid": "PASS"
+  },
+  "native": {
+    "report": "qa/forge-native.json",
+    "log": "qa/forge-run.log",
+    "rotations": 4,
+    "ticks_observed": 240,
+    "records_per_rotation": 1584,
+    "non_air_per_rotation": 901,
+    "reachable_route_cells_per_rotation": 48,
+    "dropped_items": 0,
+    "test_world": "forge/run/s04-isolated-gametest",
+    "player_worlds_accessed": false
+  },
+  "visual": {
+    "report": "qa/visual-review.json",
+    "renderer_report": "qa/render.json",
+    "overview": "preview/four-directions.png",
+    "views": [
+      "preview/north-exterior.png",
+      "preview/north-interior.png",
+      "preview/east-exterior.png",
+      "preview/east-interior.png",
+      "preview/south-exterior.png",
+      "preview/south-interior.png",
+      "preview/west-exterior.png",
+      "preview/west-interior.png"
+    ]
+  },
+  "adaptations": [
+    "The distant closed-looking panel is replaced with an open south arch to preserve a true through corridor",
+    "Cyan-white lighting uses vanilla sea lanterns, cyan glass and end rods; no custom glowing mushroom or shader"
+  ],
+  "integration": {
+    "ready_for_unified_integration": false,
+    "receiver_acceptance": "PENDING",
+    "core_catalog_modified": false,
+    "deployed": false,
+    "player_save_modified": false,
+    "reserved_intake_slot": 64,
+    "note": "Reserved intake slot only. Producer PASS does not replace independent receiver acceptance or runtime integration tests."
+  },
+  "limits": [
+    "Lodestone renders and isolated Forge GameTests are distinct from full-modpack client gameplay.",
+    "Hall route connection, both-end external adapters, occupancy rejection, persistence/idempotence and existing-world migration belong to the core integrator.",
+    "Explicit air records require whole-volume preflight. Do not clear or overwrite occupied player space."
+  ],
+  "evidence": {
+    "room.nbt": {
+      "sha256": "11b8cd39ebf685ddb32ceb62211a0b8a58257d13ca0e31ca7261fb969a144baf",
+      "bytes": 5996
+    },
+    "room.json": {
+      "sha256": "a597ad4838a2060f4cac3d7db7cf2470252b79f825cc619ae2466de48c35211e",
+      "bytes": 2240
+    },
+    "preview.png": {
+      "sha256": "58e667100b1980df2089e2138a4d346365552c4ffc53c1cb3314b88d0e39d567",
+      "bytes": 457469
+    },
+    "preview/four-directions.png": {
+      "sha256": "928f74f52102012d196e88073d14c270957d161041c616baa75e6dcc2dda5a9f",
+      "bytes": 2676358
+    },
+    "qa/static.json": {
+      "sha256": "b338e015be34d4b5c8ddbc8d65089b779760eacd45d6db334272f31f4d485ac6",
+      "bytes": 1957
+    },
+    "qa/forge-native.json": {
+      "sha256": "5d73701a9994b257adbe8b2c006e5e1d409bedaa4b7521d40eda8dcf3f087a9e",
+      "bytes": 2181
+    },
+    "qa/native-roundtrip.nbt": {
+      "sha256": "0b3c3fd432fc69b3bfa9f7c01911b0fe9961734db8ea3dd2958dea73864ba5ca",
+      "bytes": 5714
+    },
+    "qa/forge-run.log": {
+      "sha256": "7829ccffe3e21bb3999d2899c0dd00ece968bbe3127f00ebf35b69519df56b2e",
+      "bytes": 28985
+    },
+    "qa/render.json": {
+      "sha256": "9c6dee093591d7f37e142a07c247b0debb021f8e3b3c97f1beb3583abf7e1dc2",
+      "bytes": 5400
+    },
+    "qa/visual-review.json": {
+      "sha256": "ccd422d83ee4a57dc48143cab413ff4d6e649f20885d8ea1ef55e0c68a29f8d1",
+      "bytes": 3651
+    },
+    "recipe.mjs": {
+      "sha256": "7f98021a79e40364bf12ff22db58a5d4d4d138564861212570ee18cdc57e3fbf",
+      "bytes": 6416
+    },
+    "tools/inspect.mjs": {
+      "sha256": "18ca3e8162edf9ed5ce7fc21a21d25f063512b382fed6e1fbb91322961337914",
+      "bytes": 6174
+    },
+    "tools/capture.mjs": {
+      "sha256": "e377b9418fa2b3ec976027b18edc8a6794e6364860d4770b998a14ea47321fc9",
+      "bytes": 5428
+    },
+    "tools/finalize.mjs": {
+      "sha256": "a22cd6fe437c8206f78665efd984d000c4a57ba3e22ad13c1ad899aa5cd47a67",
+      "bytes": 7886
+    },
+    "forge/build.gradle": {
+      "sha256": "170bf12ceb09733967bb6ed9912683b15f90a44697080d3ff451896b7feefc27",
+      "bytes": 848
+    },
+    "forge/src/main/java/net/farmingtales/corridorqa/CorridorPlacementTests.java": {
+      "sha256": "2dc65e796956984a3bdb8455d2876baf17628d76416a909fd1c8a56bdfc5c811",
+      "bytes": 14377
+    },
+    "preview/north-exterior.png": {
+      "sha256": "eba983510677b025eec157d62973a62643bacd56ff5571cddbe19cb4cb3599bf",
+      "bytes": 362942
+    },
+    "preview/north-interior.png": {
+      "sha256": "58e667100b1980df2089e2138a4d346365552c4ffc53c1cb3314b88d0e39d567",
+      "bytes": 457469
+    },
+    "preview/east-exterior.png": {
+      "sha256": "ef78ec2f93a5d26ad2fdd37809b01995726adf8af08b9f3f811181c74d0c98a4",
+      "bytes": 329967
+    },
+    "preview/east-interior.png": {
+      "sha256": "5ed55158878faaf4e57c63b3fdff2fa46348f9c0b25caf7b8614366cf9b5accc",
+      "bytes": 424235
+    },
+    "preview/south-exterior.png": {
+      "sha256": "43a4bfa324529442274b4b8e63481a0273ac8f46a79cd8aa2ce2df867c00e9a0",
+      "bytes": 354794
+    },
+    "preview/south-interior.png": {
+      "sha256": "181d9cad50f9ef8f41693db3168c3f5d8773edcb63d2eef95573ee06e0955ef1",
+      "bytes": 457399
+    },
+    "preview/west-exterior.png": {
+      "sha256": "b709154337fdb98e0fee8c8c018ca85296cf0b3c0312263bb603fc63a8b2a7c1",
+      "bytes": 365895
+    },
+    "preview/west-interior.png": {
+      "sha256": "99b74d92c56bae5cdd86b00e8658c31e1a47cbea368640728ab4bf593dc694f7",
+      "bytes": 445761
+    }
+  }
+}

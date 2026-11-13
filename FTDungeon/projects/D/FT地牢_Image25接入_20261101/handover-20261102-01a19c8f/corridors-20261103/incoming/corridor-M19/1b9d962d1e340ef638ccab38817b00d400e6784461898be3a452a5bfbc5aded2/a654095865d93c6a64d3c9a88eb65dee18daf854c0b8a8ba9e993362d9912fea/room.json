@@ -1,0 +1,83 @@
+{
+  "id": "corridor-M19",
+  "source_id": "M19",
+  "name": "苔砖蛛巢积水直廊",
+  "type": "straight_corridor",
+  "length_class": "medium",
+  "size": [
+    15,
+    12,
+    41
+  ],
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    4
+  ],
+  "exit": [
+    7,
+    2,
+    40
+  ],
+  "facing": "north",
+  "ports": [
+    {
+      "side": "north",
+      "feet": [
+        7,
+        2,
+        0
+      ],
+      "clearance": [
+        3,
+        3
+      ]
+    },
+    {
+      "side": "south",
+      "feet": [
+        7,
+        2,
+        40
+      ],
+      "clearance": [
+        3,
+        3
+      ]
+    }
+  ],
+  "safe_path": {
+    "x": [
+      6,
+      8
+    ],
+    "feet_y": 2,
+    "z": [
+      0,
+      40
+    ],
+    "width": 3,
+    "minimum_headroom": 3,
+    "dry": true
+  },
+  "sha256": "1b9d962d1e340ef638ccab38817b00d400e6784461898be3a452a5bfbc5aded2",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\M19-webbed-spider-flooded.png",
+  "reference_sha256": "8f3c423cf62ca1d8fd47704f0635c2e478d037295f5a6531a16468ba2a5f927f",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "block_records": 7380,
+  "explicit_air": true,
+  "deployment": "not_deployed",
+  "persistent_world_modified": false,
+  "design_adaptations": [
+    "原图满地浅水调整为中央三格干燥堤道，两侧保留真实一格深水；北南端均封水。",
+    "卵囊由方解石和石英半砖表示；无实体、刷怪笼或战利品。",
+    "六跨石拱、五盏暖色链灯、十处丝网壁龛，两个局部缺损拱肩不影响屋顶承重。"
+  ],
+  "integration_note": "独立资产，未分配大厅槽位。接入方须先检查完整7380格体积（含显式空气），不得覆盖占用区或重复重建。"
+}

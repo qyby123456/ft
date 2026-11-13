@@ -1,0 +1,158 @@
+{
+  "id": "M10",
+  "name": "熔渣铸造间",
+  "status": "PASS",
+  "delivery_state": "INDEPENDENT_NOT_INTEGRATED_NOT_DEPLOYED",
+  "checked_at": "2026-11-02T12:48:33+08:00",
+  "size": [
+    17,
+    11,
+    17
+  ],
+  "entrance": [
+    8,
+    2,
+    0
+  ],
+  "interior": [
+    8,
+    2,
+    4
+  ],
+  "structure_sha256": "f60332bfa687c834b1ef86f0d1c41f3c2d65f256b11bf088d46a9c9ebe329515",
+  "reference_sha256": "1fcca8784da261c65ee881026b0c6a1d2640a31c86195f1c6c3287c1f0e232f4",
+  "static": {
+    "status": "PASS",
+    "report": "qa/static.json",
+    "records": 3179,
+    "non_air": 1673,
+    "palette_states": 32
+  },
+  "forge_native": {
+    "status": "PASS",
+    "report": "qa/native.json",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "java": "17.0.8",
+    "rotations": 4,
+    "records_per_snapshot": 12716,
+    "settle_ticks": 600,
+    "implementation": "Isolated GameTestServer / ServerLevel / StructureTemplate.placeInWorld",
+    "successful_log": "qa/gametest-20261102-123320.log"
+  },
+  "safety": {
+    "lava_cells_sealed_on_six_faces": 6,
+    "fire_cells_sealed_on_six_faces": 4,
+    "netherrack_fire_bases": true,
+    "flammable_blocks": 0,
+    "complete_roof_cells": 289,
+    "entrance_clearance": [
+      3,
+      3,
+      6
+    ],
+    "dry_landmark_routes_per_rotation": 11,
+    "native_reachable_dry_feet_per_rotation": [
+      163,
+      163,
+      163,
+      163
+    ],
+    "supported_devices_per_rotation": 9,
+    "supported_wall_tools_per_rotation": 6,
+    "anchored_lamps_per_rotation": 3,
+    "unexpected_entities": 0,
+    "block_entities": 0,
+    "reward_inventory": 0
+  },
+  "preview": {
+    "status": "PASS",
+    "path": "preview.png",
+    "sha256": "1f04e1f5fea6d19d35ab56dc873b9f34e78c66db772ab52e0c2e8e73c132b9f2",
+    "size": [
+      1536,
+      1024
+    ],
+    "source": "actual room.nbt; Minecraft block model CPU render",
+    "game_screenshot": false
+  },
+  "visual_review": {
+    "status": "PASS",
+    "report": "qa/visual-review.json"
+  },
+  "failure_history": "qa/attempts.json",
+  "evidence": {
+    "qa/static.json": {
+      "sha256": "9a0a46bb1fa9bde8e0ebb40fb5dd4d90df118ffb90819eb07693e304559df8b5",
+      "bytes": 2814
+    },
+    "qa/native.json": {
+      "sha256": "79b221e514858bcae896c9c7db830beee868c739bb5bf2c90f4f5d2c21c708b1",
+      "bytes": 4758
+    },
+    "qa/render.json": {
+      "sha256": "80f9a24d66bd2f2c7983758d92af58c8d86b1f6d0dbceb5f71fed7999a1ed3e0",
+      "bytes": 3077
+    },
+    "qa/visual-review.json": {
+      "sha256": "cb71a5747b70f93607b799374b2576f4e0d8633879fee085828781b9add5bc4b",
+      "bytes": 1419
+    },
+    "qa/attempts.json": {
+      "sha256": "5dd555b10ab77d8b592eaeda50cef87bb965204d871a6c4a1ba08a967bad192d",
+      "bytes": 821
+    },
+    "qa/four-views.png": {
+      "sha256": "c5fe21629a6ffaead35ed811776040d653badb082f668c442eb5b785789ca510",
+      "bytes": 1354895
+    },
+    "qa/exterior.png": {
+      "sha256": "6401672fcf7edbc17f81871c3688253fb7ee99db815ad5640c30510b97f806c4",
+      "bytes": 343020
+    },
+    "qa/floorplan.png": {
+      "sha256": "9a8b6d6844777125a2e5b6d92b846ecf6fe2ca855d2f9b066ccfbf55f7c2c542",
+      "bytes": 19811
+    },
+    "qa/heat-sections.png": {
+      "sha256": "ffbece3f1e0d02b941ee9a5b46f640f3221cc94704378ff952612a02148c3b84",
+      "bytes": 57035
+    },
+    "qa/gametest-20261102-123320.log": {
+      "sha256": "b7323d7d9536135bd88113de2ca90336486c64020dccf9a2f6a1d57d412efad6",
+      "bytes": 24617
+    },
+    "tools/M10Verification.java": {
+      "sha256": "e0bb6f072e7e9d95cc068fc9505ad361ccb31f83a0e92e966b70efa376415c76",
+      "bytes": 21823
+    },
+    "tools/build_m10.py": {
+      "sha256": "8ab1d58fe45f08952a950c54f00360ae235f3a99f633eacfb63eb2a6f3153610",
+      "bytes": 16018
+    },
+    "tools/render_m10.py": {
+      "sha256": "e652ec35aa6de7232783b57005f0b295b578df33e693e3a0f7b2626b1714b447",
+      "bytes": 10056
+    }
+  },
+  "boundaries": {
+    "independent_directory_only": true,
+    "deployed": false,
+    "production_save_accessed": false,
+    "production_core_modified": false,
+    "parallel_deliveries_modified": false,
+    "image_api_called": false
+  },
+  "remaining_for_coordinator": [
+    "Assign fixed slot and walkable connection from existing FT hall",
+    "Validate whole-volume occupancy refusal, world border and idempotence",
+    "Review persistence, return route and five difficulty tiers",
+    "Package and deploy only in a coordinated stopped-game release"
+  ],
+  "limits": [
+    "Native isolated Forge GameTest is not a full-modpack client or multiplayer playtest",
+    "600 ticks is a bounded functional stability check, not long-term performance validation",
+    "Software rendering approximates fluid shape/animation and does not bake game lighting",
+    "No deployment or shared registry/incoming edits were performed"
+  ]
+}

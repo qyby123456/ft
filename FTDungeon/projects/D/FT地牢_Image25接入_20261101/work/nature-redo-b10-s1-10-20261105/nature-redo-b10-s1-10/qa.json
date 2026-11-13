@@ -1,0 +1,110 @@
+{
+  "status": "PRODUCER_TECHNICAL_PASS_PENDING_INDEPENDENT_REVIEW",
+  "sha256": "6d77ca4a012b88665952f096e641e23d7167ffd84179726cdf5f8c2531d421f9",
+  "static": {
+    "id": "nature-redo-b10-s1-10",
+    "status": "PASS",
+    "sha256": "6d77ca4a012b88665952f096e641e23d7167ffd84179726cdf5f8c2531d421f9",
+    "size": [
+      61,
+      13,
+      61
+    ],
+    "records": 48373,
+    "palette": {
+      "minecraft:stone": 3721,
+      "minecraft:grass_block": 1421,
+      "minecraft:air": 33272,
+      "minecraft:cracked_stone_bricks": 1248,
+      "minecraft:mossy_stone_bricks": 4474,
+      "minecraft:stone_bricks": 2547,
+      "minecraft:moss_block": 519,
+      "minecraft:dark_oak_log": 554,
+      "minecraft:oak_leaves": 313,
+      "minecraft:stripped_oak_log": 8,
+      "minecraft:bookshelf": 33,
+      "minecraft:potted_red_mushroom": 4,
+      "minecraft:lantern": 13,
+      "minecraft:cave_vines": 8,
+      "minecraft:cave_vines_plant": 8,
+      "minecraft:red_terracotta": 20,
+      "minecraft:oak_log": 4,
+      "minecraft:chest": 2,
+      "minecraft:oak_planks": 40,
+      "minecraft:oak_stairs": 6,
+      "minecraft:mossy_cobblestone": 37,
+      "minecraft:water": 46,
+      "minecraft:glass": 4,
+      "minecraft:chiseled_stone_bricks": 48,
+      "minecraft:gold_block": 20,
+      "minecraft:stone_brick_slab": 3
+    },
+    "reachable_feet": 3058,
+    "required_route_feet": 530,
+    "water_cells": 46,
+    "containers": 2,
+    "noncontainer_block_entities": 0,
+    "roof_exceptions": 1781,
+    "scope": "Static NBT bounds, full explicit volume, walkability, 3-high route, sealed water, vine support, empty inventory, complete roof except declared courtyard skylight. Not native engine validation."
+  },
+  "support": {
+    "status": "PASS",
+    "source_nbt_sha256": "6d77ca4a012b88665952f096e641e23d7167ffd84179726cdf5f8c2531d421f9",
+    "method": "Six-face graph from Y=0, all nonair/nonfluid blocks including leaves and hanging decoration. Geometric connectivity; native survival checked separately.",
+    "nonfluid_blocks": 15055,
+    "ground_connected_blocks": 15055,
+    "detached_blocks": []
+  },
+  "native": [
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b10-s1-10-20261105\\nature-redo-b10-s1-10\\forge-none.json",
+      "sha256": "47f35411cccd99fc39bb171a3724b2a5ac6c5e546407e05d3bc08da99e2c8f56",
+      "bytes": 1030
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b10-s1-10-20261105\\nature-redo-b10-s1-10\\forge-clockwise_90.json",
+      "sha256": "58c1d6b47c69689c65a0c1ed0909ba46f68ff19cdf31f871d26623d3f7fd6a6a",
+      "bytes": 1046
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b10-s1-10-20261105\\nature-redo-b10-s1-10\\forge-clockwise_180.json",
+      "sha256": "90bd2b04b84a57e3330a135a8cd42b532d43e56a29631480d3312af144aad00c",
+      "bytes": 1048
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b10-s1-10-20261105\\nature-redo-b10-s1-10\\forge-counterclockwise_90.json",
+      "sha256": "f07e1b05d14a99bb10efb398b1b2f856ae9db0ac50df33c4c30de6efc243d742",
+      "bytes": 1060
+    }
+  ],
+  "specialized_native": [
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b10-s1-10-20261105\\nature-redo-b10-s1-10\\overview-analysis-none.json",
+      "sha256": "2096bbc7c7e131459ed4335bb8fa744a29f2efae3c357713e8e275d65b48fe79",
+      "bytes": 623
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b10-s1-10-20261105\\nature-redo-b10-s1-10\\overview-analysis-clockwise_90.json",
+      "sha256": "2096bbc7c7e131459ed4335bb8fa744a29f2efae3c357713e8e275d65b48fe79",
+      "bytes": 623
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b10-s1-10-20261105\\nature-redo-b10-s1-10\\overview-analysis-clockwise_180.json",
+      "sha256": "2096bbc7c7e131459ed4335bb8fa744a29f2efae3c357713e8e275d65b48fe79",
+      "bytes": 623
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b10-s1-10-20261105\\nature-redo-b10-s1-10\\overview-analysis-counterclockwise_90.json",
+      "sha256": "2096bbc7c7e131459ed4335bb8fa744a29f2efae3c357713e8e275d65b48fe79",
+      "bytes": 623
+    }
+  ],
+  "captures": "qa/capture-comparisons.json",
+  "render": "qa/render.json",
+  "shards": "shards/ASSEMBLY.json",
+  "real_player_interaction": "NOT_RUN",
+  "gameplay": "NOT_RUN",
+  "deployment": "NOT_RUN",
+  "natural_random_ticks": "NOT_CERTIFIED",
+  "integrated": false
+}

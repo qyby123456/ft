@@ -1,0 +1,129 @@
+{
+  "input_manifest": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-b1-s1-20261104\\evidence\\input-manifest.json",
+  "input_fingerprint": "59ce8746393ea2462458a478c2c5ce33192fb347eb3cdf0ec003697620a0d58e",
+  "source": {
+    "path": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\junction_md.nbt",
+    "sha256": "43dd154c633eeaeea32160917ac5d1826a7e2270c39404c21e47aa5407316da0",
+    "bytes": 16984,
+    "archive_entry": "data/betterstrongholds/structures/rooms/junction_md.nbt",
+    "archive_matches": true,
+    "size": [
+      19,
+      16,
+      19
+    ],
+    "records": 5224,
+    "connectors": [
+      {
+        "pos": [
+          0,
+          1,
+          8
+        ],
+        "state": {
+          "orientation": "north_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:starts",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        }
+      },
+      {
+        "pos": [
+          8,
+          1,
+          18
+        ],
+        "state": {
+          "orientation": "west_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:starts",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=none,south=none,north=tall,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        }
+      },
+      {
+        "pos": [
+          10,
+          1,
+          0
+        ],
+        "state": {
+          "orientation": "north_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        }
+      },
+      {
+        "pos": [
+          18,
+          1,
+          10
+        ],
+        "state": {
+          "orientation": "south_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:starts",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=none,south=none,north=none,up=true,west=tall]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        }
+      }
+    ],
+    "palette": [
+      "minecraft:air",
+      "minecraft:andesite_wall",
+      "minecraft:chiseled_polished_blackstone",
+      "minecraft:chiseled_stone_bricks",
+      "minecraft:cobblestone",
+      "minecraft:crimson_button",
+      "minecraft:gray_wall_banner",
+      "minecraft:infested_stone_bricks",
+      "minecraft:jigsaw",
+      "minecraft:lantern",
+      "minecraft:polished_andesite_slab",
+      "minecraft:polished_blackstone_slab",
+      "minecraft:polished_blackstone_stairs",
+      "minecraft:spawner",
+      "minecraft:stone_brick_slab",
+      "minecraft:stone_brick_stairs",
+      "minecraft:stone_brick_wall",
+      "minecraft:stone_bricks",
+      "minecraft:water",
+      "minecraft:yellow_stained_glass"
+    ],
+    "details": {
+      "path": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\junction_md.json",
+      "sha256": "d35a8a6b12eb3e410bc5e2f7cce793db10b2d3b7d4249a67156ee67314fd8b0d",
+      "bytes": 17851
+    }
+  },
+  "adaptation": {
+    "source": "rooms/junction_md",
+    "size": [
+      19,
+      16,
+      19
+    ],
+    "rule": "Keep measured 19x16x19 traffic-junction envelope; FT entrance/ports are normalized, not original YUNG jigsaws."
+  },
+  "image_role": "Secondary forest-theme reference, not geometric authority",
+  "runtime": "Source uses yungsapi:yung_jigsaw and custom processors. Output is original procedural vanilla geometry with FT-compatible ports, NOT drop-in YUNG jigsaw content and NOT a copy of source NBT geometry."
+}

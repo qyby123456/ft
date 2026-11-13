@@ -1,0 +1,109 @@
+{
+  "id": "corridor-S09",
+  "concept_id": "S09",
+  "name": "焚痕蛛巢短廊",
+  "size": [
+    11,
+    9,
+    16
+  ],
+  "entrance": [
+    5,
+    1,
+    0
+  ],
+  "interior": [
+    5,
+    1,
+    2
+  ],
+  "exit": [
+    5,
+    1,
+    15
+  ],
+  "facing": "north",
+  "axis": "z",
+  "ports": [
+    {
+      "facing": "north",
+      "feet": [
+        5,
+        1,
+        0
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "facing": "south",
+      "feet": [
+        5,
+        1,
+        15
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "protected_route": {
+    "minimum": [
+      4,
+      1,
+      0
+    ],
+    "maximum": [
+      6,
+      3,
+      15
+    ],
+    "clearance": [
+      3,
+      3,
+      16
+    ]
+  },
+  "sha256": "c03ecabc108e734e0c7d61e6c6b57b0cc1496fabb57e7db141423f0386df6025",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\S09-webbed-spider-burnt.png",
+  "reference_sha256": "eeb80b6a2cf8e64e3ec92740ed43119b714b7b9e72d671c339484cfd886d6c26",
+  "data_version": 3465,
+  "minecraft": "Java 1.20.1",
+  "format": "gzip single-palette vanilla structure NBT; explicit air records",
+  "builder": "minecraft-builder-skill / Lodestone run-build.mjs",
+  "recipe": "source/build-s09.mjs",
+  "rebuild_options": [
+    "--name",
+    "room",
+    "--data-version",
+    "3465",
+    "--no-block-state-updates"
+  ],
+  "block_state_note": "Iron-bar connections are explicitly authored against full solid neighbours; automatic Lodestone connections must remain disabled for this recipe.",
+  "length_class": "short / one chunk (16 blocks)",
+  "features": [
+    "4 suspended iron cages",
+    "3 soul lanterns",
+    "4 ivory egg-sac representations",
+    "6 skeleton skulls",
+    "off-route cobwebs",
+    "soot patches",
+    "4 non-damaging ember lights"
+  ],
+  "design_adaptations": [
+    "Reference closed end door is an open 3x3 arch for north-south through travel.",
+    "Egg sacs use mushroom stems and sandstone caps; no custom blocks or entities.",
+    "Charred beams use nonflammable basalt. Ember niches use shroomlights, not fire or magma.",
+    "Cages are static decoration; no spawner, scripted trap or loot."
+  ],
+  "placement": {
+    "world_slot": null,
+    "origin_is_floor_y": 0,
+    "player_feet_y": 1,
+    "validate_entire_volume_before_placement": true,
+    "do_not_overwrite_occupied_volume": true,
+    "integration_owner_assigns_slot": true
+  },
+  "deployed": false,
+  "player_saves_modified": false,
+  "paid_image_generation_invoked": false
+}

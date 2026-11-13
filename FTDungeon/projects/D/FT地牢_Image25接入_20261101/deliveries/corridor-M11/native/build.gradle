@@ -1,0 +1,29 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+group = 'net.farmingtales.corridorm11qa'
+version = '1.0'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+def qaRun = project.findProperty('qaRun') ?: 'run-' + new Date().format('yyyyMMdd-HHmmss-SSS')
+if (!(qaRun ==~ /[A-Za-z0-9_-]+/)) {
+    throw new GradleException('qaRun must be a single safe directory name')
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        gameTestServer {
+            workingDirectory project.file('../qa/forge-run/' + qaRun)
+            property 'forge.enabledGameTestNamespaces', 'ftcorridorm11qa'
+            property 'corridorm11.delivery', projectDir.parentFile.absolutePath
+            mods {
+                ftcorridorm11qa { source sourceSets.main }
+            }
+        }
+    }
+}
+
+repositories { mavenCentral() }
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

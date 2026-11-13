@@ -1,0 +1,57 @@
+{
+  "id": "corridor-S08",
+  "status": "PASS",
+  "structure_sha256": "ee9758dd990f9efa4eb4d9d61edca0bb546d261445597847cd46594e2dde41d8",
+  "producer_thread_id": "01a19f19-87b3-7760-bd8f-467086bad426",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-corridors-20261103\\out\\S08-ice-frost-intact.png",
+  "reference_sha256": "5d95e20ec07b165939bf147ee8368de8fe12ec1d66b0ace897f3d904dde06758",
+  "size": [
+    11,
+    10,
+    16
+  ],
+  "generated_at": "2026-11-03T11:00:37.379785+08:00",
+  "static": {
+    "status": "PASS",
+    "report": "qa/static.json",
+    "checks": 31
+  },
+  "four_view": {
+    "status": "PASS",
+    "render_report": "qa/render.json",
+    "visual_report": "qa/visual.json",
+    "interior": "views/four-interior.png",
+    "exterior": "views/four-exterior.png",
+    "directions": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "source_nbt_unchanged": true
+  },
+  "forge": {
+    "status": "PASS",
+    "report": "qa/forge.json",
+    "log": "qa/forge-run.log",
+    "minecraft": "1.20.1",
+    "version": "47.4.10",
+    "rotations": 4,
+    "stabilization_ticks": 120,
+    "records_checked_after_ticks": 7040,
+    "negative_support_probes": 4,
+    "negative_collision_probes": 4,
+    "world_capture_roundtrip": true
+  },
+  "independent_delivery_ready": true,
+  "coordinator_acceptance": "pending",
+  "integration_slot": null,
+  "deployed": false,
+  "production_saves_touched": false,
+  "limitations": [
+    "Ice floor intentionally retains normal vanilla ice slipperiness.",
+    "No unique FT integration slot is assigned by this delivery.",
+    "Isolated Forge GameTest, not full modpack client/multiplayer/FPS verification.",
+    "No FT catalog slot, production placement, deployment or player save modified."
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "zone-N04",
+  "source_id": "N04",
+  "name": "寻门枢纽",
+  "category": "hub",
+  "size": [
+    35,
+    16,
+    35
+  ],
+  "data_version": 3465,
+  "entrance": [
+    17,
+    2,
+    0
+  ],
+  "interior": [
+    17,
+    2,
+    17
+  ],
+  "safe_points": [
+    [
+      17,
+      2,
+      17
+    ],
+    [
+      17,
+      2,
+      6
+    ],
+    [
+      6,
+      2,
+      17
+    ],
+    [
+      28,
+      2,
+      17
+    ],
+    [
+      17,
+      2,
+      28
+    ]
+  ],
+  "facing": "north",
+  "openings": [
+    {
+      "side": "north",
+      "feet": [
+        17,
+        2,
+        0
+      ],
+      "outward": [
+        0,
+        0,
+        -1
+      ],
+      "material": "amethyst / blackstone",
+      "width": 5,
+      "clear_height": 5,
+      "floor_y": 1
+    },
+    {
+      "side": "east",
+      "feet": [
+        34,
+        2,
+        17
+      ],
+      "outward": [
+        1,
+        0,
+        0
+      ],
+      "material": "deepslate / blackstone",
+      "width": 5,
+      "clear_height": 5,
+      "floor_y": 1
+    },
+    {
+      "side": "south",
+      "feet": [
+        17,
+        2,
+        34
+      ],
+      "outward": [
+        0,
+        0,
+        1
+      ],
+      "material": "waxed oxidized copper / red bricks",
+      "width": 5,
+      "clear_height": 5,
+      "floor_y": 1
+    },
+    {
+      "side": "west",
+      "feet": [
+        0,
+        2,
+        17
+      ],
+      "outward": [
+        -1,
+        0,
+        0
+      ],
+      "material": "sandstone",
+      "width": 5,
+      "clear_height": 5,
+      "floor_y": 1
+    }
+  ],
+  "sha256": "14c978b39244c763c15356388bd1176b1b2452ef37f3a5bed6963890be7cc8d5",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/hub/N04-hub-portalfinder-hub.png",
+  "reference_sha256": "81f17850087057a9a0c1925f1fe747220c5a8e163003799c55fa5a97a1b756c3",
+  "full_volume_air_records": true,
+  "runtime_teleport": false,
+  "runtime_slot": null,
+  "deployment": "not_deployed",
+  "source_documents": [
+    "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/README.md",
+    "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/docs/manifest.json",
+    "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/docs/verify.json"
+  ],
+  "contract": "D:/ft工程文件/FT地牢_Image25接入_20261101/CONTRACT.md",
+  "design_adaptations": [
+    "紫晶寻门以可步行实体门廊、上部门楣玻璃和方向地坪表达；不含传送门方块、命令或跨维度传送逻辑。",
+    "四向门廊分别采用紫晶、深板岩、红砖锈铜、砂岩；所有出口接同高五格宽十字主路。",
+    "概念图敞顶展示改为完整双层屋顶；仅软件剖切隐藏屋顶或观察侧墙。",
+    "木箱为去皮云杉原木静态摆件，纹章为紫色混凝土与紫晶；无库存、奖励或旗帜方块实体。"
+  ],
+  "route": {
+    "type": "five-wide cardinal cross",
+    "floor_y": 1,
+    "feet_y": 2,
+    "minimum_headroom": 5,
+    "hub": [
+      17,
+      2,
+      17
+    ]
+  },
+  "materials": {
+    "minecraft:deepslate_tiles": 3667,
+    "minecraft:cracked_stone_bricks": 253,
+    "minecraft:stone_bricks": 3260,
+    "minecraft:andesite": 43,
+    "minecraft:polished_deepslate": 1048,
+    "minecraft:air": 10216,
+    "minecraft:smooth_sandstone": 55,
+    "minecraft:bookshelf": 16,
+    "minecraft:sandstone": 105,
+    "minecraft:dark_oak_planks": 16,
+    "minecraft:purple_concrete": 32,
+    "minecraft:chiseled_sandstone": 19,
+    "minecraft:polished_blackstone": 8,
+    "minecraft:amethyst_block": 83,
+    "minecraft:stripped_spruce_log": 16,
+    "minecraft:polished_blackstone_bricks": 300,
+    "minecraft:chiseled_stone_bricks": 44,
+    "minecraft:lantern": 12,
+    "minecraft:chain": 32,
+    "minecraft:smooth_stone": 48,
+    "minecraft:bricks": 55,
+    "minecraft:waxed_oxidized_cut_copper": 105,
+    "minecraft:purple_stained_glass": 19,
+    "minecraft:waxed_oxidized_copper": 19,
+    "minecraft:sea_lantern": 4,
+    "minecraft:lodestone": 1,
+    "minecraft:deepslate_bricks": 105,
+    "minecraft:chiseled_polished_blackstone": 19
+  },
+  "integration_requirements": [
+    "验证整个 35x16x35 体积及液体/实体占用，包括空气记录；不得无条件清空。",
+    "为 zone-N04 分配独立槽位与持久标记；入口安全点随原点和旋转一起变换。",
+    "四向外接走廊由接入负责人布置；本交付不包含大厅接线、回程门或传送实现。"
+  ]
+}

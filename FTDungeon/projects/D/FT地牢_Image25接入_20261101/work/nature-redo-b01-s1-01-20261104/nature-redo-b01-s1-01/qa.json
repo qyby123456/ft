@@ -1,0 +1,261 @@
+{
+  "status": "TECHNICAL_PASS_VISUAL_ACCEPTANCE_PENDING_NOT_A_CANDIDATE",
+  "id": "nature-redo-b01-s1-01",
+  "sha256": "ca9efd56f98374bdb17a7154e8a8dc67e3d2d5578ad4be90a1734e2bdfebee7c",
+  "static": {
+    "id": "nature-redo-b01-s1-01",
+    "status": "PASS",
+    "sha256": "ca9efd56f98374bdb17a7154e8a8dc67e3d2d5578ad4be90a1734e2bdfebee7c",
+    "size": [
+      25,
+      15,
+      25
+    ],
+    "records": 9375,
+    "palette": {
+      "minecraft:stone_bricks": 1347,
+      "minecraft:moss_block": 147,
+      "minecraft:mossy_stone_bricks": 1400,
+      "minecraft:cracked_stone_bricks": 292,
+      "minecraft:air": 5650,
+      "minecraft:chiseled_stone_bricks": 39,
+      "minecraft:dark_oak_log": 195,
+      "minecraft:oak_leaves": 247,
+      "minecraft:cave_vines": 6,
+      "minecraft:cave_vines_plant": 12,
+      "minecraft:water": 6,
+      "minecraft:lantern": 4,
+      "minecraft:stone_brick_stairs": 30
+    },
+    "reachable_feet": 420,
+    "required_route_feet": 164,
+    "water_cells": 6,
+    "containers": 0,
+    "roof_exceptions": 0,
+    "scope": "Static NBT bounds, full explicit volume, walkability, 3-high route, sealed water, vine support, empty inventory, complete roof except declared courtyard skylight. Not native engine validation."
+  },
+  "native": {
+    "status": "PASS",
+    "tests": 4,
+    "stability_ticks": 400,
+    "reports": [
+      {
+        "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b01-s1-01-20261104\\nature-redo-b01-s1-01\\forge-none.json",
+        "sha256": "6b991318e127a2f96fe8dd434fbfd220daa630e4806044499bf9ff62eccea72e",
+        "bytes": 909
+      },
+      {
+        "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b01-s1-01-20261104\\nature-redo-b01-s1-01\\forge-clockwise_90.json",
+        "sha256": "e81bc2a83dcc12ea24850b5c817cc7d6d4c12ae8c28f28e868db00254296c978",
+        "bytes": 925
+      },
+      {
+        "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b01-s1-01-20261104\\nature-redo-b01-s1-01\\forge-clockwise_180.json",
+        "sha256": "6701e60ed167202d04fafad3fc13a6c3f9aaf6a9bb0a5914ab0a908f4a0afd22",
+        "bytes": 927
+      },
+      {
+        "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b01-s1-01-20261104\\nature-redo-b01-s1-01\\forge-counterclockwise_90.json",
+        "sha256": "247abc1bf7d2e275bc46529ac088e074f39ea93670331efa9b9f9fba397a79b9",
+        "bytes": 939
+      }
+    ],
+    "captures": [
+      {
+        "rotation": "none",
+        "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b01-s1-01-20261104\\nature-redo-b01-s1-01\\native-placed-none.nbt",
+        "sha256": "0716bf1d3c8e290ca8ea748c2aa75a91f4313e07232c6c7b74686ca62c80215f",
+        "bytes": 28410,
+        "matches_rotated_final_nbt": true
+      },
+      {
+        "rotation": "clockwise_90",
+        "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b01-s1-01-20261104\\nature-redo-b01-s1-01\\native-placed-clockwise_90.nbt",
+        "sha256": "c1ce0463db4e209fa5cccc19175ad5700e9088da1bb83203d2503d50bd41c886",
+        "bytes": 28420,
+        "matches_rotated_final_nbt": true
+      },
+      {
+        "rotation": "clockwise_180",
+        "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b01-s1-01-20261104\\nature-redo-b01-s1-01\\native-placed-clockwise_180.nbt",
+        "sha256": "8cb96c513a99166b2845ac09f0ca73380972500cff6b3a6619f221b5acafe6b0",
+        "bytes": 28379,
+        "matches_rotated_final_nbt": true
+      },
+      {
+        "rotation": "counterclockwise_90",
+        "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b01-s1-01-20261104\\nature-redo-b01-s1-01\\native-placed-counterclockwise_90.nbt",
+        "sha256": "f5ecde9bdf57f2621c1751a9f9a8676d02a874e8bbd8e129d4b749cb6152a33f",
+        "bytes": 28230,
+        "matches_rotated_final_nbt": true
+      }
+    ],
+    "capture_verifier": {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-b1-s1-20261104\\source\\finalize.py",
+      "sha256": "6b5a070b4a73abe2ef20dc883c4eebfceaa8b333c0fa7b33b5d67882dc88aa23",
+      "bytes": 14233
+    },
+    "random_tick_speed": 0,
+    "fluid_ticks_forced": true
+  },
+  "render": {
+    "status": "PASS_RENDERED_NOT_RECEIVER_APPROVED",
+    "renderer": "Minecraft Builder Lodestone WebGL",
+    "source_nbt_sha256": "ca9efd56f98374bdb17a7154e8a8dc67e3d2d5578ad4be90a1734e2bdfebee7c",
+    "actual_nbt_render": true,
+    "source_nbt_unchanged": true,
+    "views": [
+      {
+        "id": "hero",
+        "mode": "hero",
+        "file": "preview.png",
+        "position": [
+          50,
+          37.5,
+          -25
+        ],
+        "source_records": 9375,
+        "displayed_records": 7598,
+        "cutaway_display_only": true,
+        "sha256": "def96ee804e054b34e8dc589b5acfd1c19df8c36c2953a7166caaadbf9a74a1c"
+      },
+      {
+        "id": "north-interior",
+        "mode": "north",
+        "file": "views/north-interior.png",
+        "position": [
+          21.875,
+          37.5,
+          -40
+        ],
+        "source_records": 9375,
+        "displayed_records": 8150,
+        "cutaway_display_only": true,
+        "sha256": "3563dd707c598d243ad45980e91db6ada96ce93b8c3139bd0cd97df09a2fc6d3"
+      },
+      {
+        "id": "south-interior",
+        "mode": "south",
+        "file": "views/south-interior.png",
+        "position": [
+          3.125,
+          37.5,
+          65
+        ],
+        "source_records": 9375,
+        "displayed_records": 8150,
+        "cutaway_display_only": true,
+        "sha256": "e7202156b34cbad18d348cb8fd0ca801373ace113b88238af722b5838d4fb1f6"
+      },
+      {
+        "id": "west-interior",
+        "mode": "west",
+        "file": "views/west-interior.png",
+        "position": [
+          -40,
+          37.5,
+          3.125
+        ],
+        "source_records": 9375,
+        "displayed_records": 8150,
+        "cutaway_display_only": true,
+        "sha256": "4eab84ba2347e353db75fbf6255783c109087bfc26022719035cab2240c7353f"
+      },
+      {
+        "id": "east-interior",
+        "mode": "east",
+        "file": "views/east-interior.png",
+        "position": [
+          65,
+          37.5,
+          21.875
+        ],
+        "source_records": 9375,
+        "displayed_records": 8150,
+        "cutaway_display_only": true,
+        "sha256": "9a99b5c14282e05a5dab5865d32c0dbb5406904a50352beb2829af5041b1ddcf"
+      },
+      {
+        "id": "north-exterior",
+        "mode": "full",
+        "file": "views/north-exterior.png",
+        "position": [
+          21.875,
+          37.5,
+          -40
+        ],
+        "source_records": 9375,
+        "displayed_records": 9375,
+        "cutaway_display_only": false,
+        "sha256": "9ac47291d5dcadc3bf6a0e557b0524aa7f451474a5a384c30d86e733a500034f"
+      },
+      {
+        "id": "south-exterior",
+        "mode": "full",
+        "file": "views/south-exterior.png",
+        "position": [
+          3.125,
+          37.5,
+          65
+        ],
+        "source_records": 9375,
+        "displayed_records": 9375,
+        "cutaway_display_only": false,
+        "sha256": "e5b9d30dac7f9540ce13ac6406f2edec9ce1dd865412903cda1deb874c32503d"
+      },
+      {
+        "id": "west-exterior",
+        "mode": "full",
+        "file": "views/west-exterior.png",
+        "position": [
+          -40,
+          37.5,
+          3.125
+        ],
+        "source_records": 9375,
+        "displayed_records": 9375,
+        "cutaway_display_only": false,
+        "sha256": "2f0fc2e592602170e7f5922ac3f8325f7d7b47fa7ff58591415de4d954d80797"
+      },
+      {
+        "id": "east-exterior",
+        "mode": "full",
+        "file": "views/east-exterior.png",
+        "position": [
+          65,
+          37.5,
+          21.875
+        ],
+        "source_records": 9375,
+        "displayed_records": 9375,
+        "cutaway_display_only": false,
+        "sha256": "855df535f170dc5a0259750de8a08ecdfe9859ad9e5302eef0d5f2ff90390cc8"
+      }
+    ],
+    "errors": [],
+    "limitations": "Software preview, not a Minecraft client screenshot. Cutaway affects display copies only."
+  },
+  "reference_consistency": {
+    "status": "PENDING_ACCEPTANCE",
+    "report": {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b01-s1-01-20261104\\reference-review.json",
+      "sha256": "39639148723c23f794f00673cd32bcffac43e36e500e28dac3ebdf9758e001f4",
+      "bytes": 1938
+    }
+  },
+  "diversity": {
+    "snapshot_rooms": 76,
+    "snapshot_pairs": 2850,
+    "high_similarity_current": [],
+    "status": "SNAPSHOT_ONLY_FINAL_GLOBAL_AUDIT_PENDING"
+  },
+  "ready_for_unified_integration": false,
+  "next_batch_locked": true,
+  "production_saves_accessed": false,
+  "limits": [
+    "No actual client or multiplayer playtest.",
+    "No occupied-volume refusal or persistence/idempotence test.",
+    "No puzzle, wave or reward runtime.",
+    "Reference fidelity is explicitly unaccepted; previous results are excluded."
+  ]
+}

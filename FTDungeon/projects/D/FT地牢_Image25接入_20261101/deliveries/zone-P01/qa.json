@@ -1,0 +1,136 @@
+{
+  "schema": "ft-independent-zone-room-v1",
+  "id": "P01",
+  "status": "PASS",
+  "sha256": "6d7f1cac5922f0c4a4702bd78ec0677f46655c0ccdfd347a85842cda103b29c3",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/parkour/P01-parkour-gap-jump-pit.png",
+  "reference_sha256": "d8809777350e5a681cd94c59af4d328631e02ef5bc2226f1ebe859a6e8de7603",
+  "size": [
+    19,
+    14,
+    29
+  ],
+  "entrance": [
+    9,
+    5,
+    0
+  ],
+  "interior": [
+    9,
+    5,
+    3
+  ],
+  "exit": [
+    9,
+    5,
+    28
+  ],
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "checks": {
+    "static_geometry_and_reference": "PASS",
+    "full_roof_and_foundation": "PASS",
+    "three_wide_four_high_ports": "PASS",
+    "four_two_cell_jumps_with_six_cell_clearance": "PASS",
+    "all_84_pit_cells_recoverable": "PASS",
+    "no_walk_only_bypass": "PASS",
+    "native_registry_and_roundtrip": "PASS",
+    "forge_four_rotations_placement": "PASS",
+    "forge_200_tick_stability": "PASS",
+    "four_world_captures_match_source": "PASS",
+    "native_forward_reverse_jumps": "PASS",
+    "native_direct_and_failed_jump_landings": "PASS",
+    "vanilla_fall_damage_upper_bound": "PASS",
+    "negative_probes": "PASS",
+    "four_interior_four_exterior_views": "PASS",
+    "visual_review": "PASS"
+  },
+  "native_summary": {
+    "rotations": [
+      "NONE",
+      "CLOCKWISE_90",
+      "CLOCKWISE_180",
+      "COUNTERCLOCKWISE_90"
+    ],
+    "records_per_rotation": 7714,
+    "records_checked_after_ticks": 30856,
+    "stabilization_ticks": 200,
+    "lights_supported_per_rotation": 14,
+    "recoverable_pit_floor_cells_per_rotation": 84,
+    "entry_connected_foot_cells_per_rotation": 244,
+    "native_jump_passes_after_ticks": 32,
+    "native_fall_passes_after_ticks": 64,
+    "forward_and_reverse": true,
+    "maximum_failed_jump_fall_blocks": 4.252203340253715,
+    "maximum_failed_jump_damage_hp": 2,
+    "straight_step_off_damage_hp": 0,
+    "damage_evidence": "Native calculateFallDamage; FakePlayer health does not establish zero damage",
+    "negative_probes": {
+      "missing_recovery_floor_detected": 4,
+      "occupied_air_detected": 4,
+      "missing_lamp_support_detected": 4,
+      "blocked_jump_detected": 4
+    }
+  },
+  "evidence": {
+    "static": "qa/static.json",
+    "reference": "qa/reference.json",
+    "native": "qa/native.json",
+    "native_log": "qa/forge-gametest.log",
+    "render_manifest": "qa/views.json",
+    "image_decode": "qa/image-decode.json",
+    "visual_review": "qa/visual-review.json",
+    "interior_sheet": "views/interior-sheet.png",
+    "exterior_sheet": "views/exterior-sheet.png",
+    "native_world_captures": [
+      "qa\\native-placed-none.nbt",
+      "qa\\native-placed-clockwise_90.nbt",
+      "qa\\native-placed-clockwise_180.nbt",
+      "qa\\native-placed-counterclockwise_90.nbt"
+    ]
+  },
+  "attempts": [
+    {
+      "number": 1,
+      "status": "failed_fixture_resource_then_fixed",
+      "reason": "Missing pack.mcmeta prevented empty GameTest template discovery",
+      "log": "qa/attempt-1-fixture-template.log"
+    },
+    {
+      "number": 2,
+      "status": "passed_before_apex_audit",
+      "log": "qa/attempt-2-passed-before-apex-audit.log"
+    },
+    {
+      "number": 3,
+      "status": "occupied_fixture_refused_as_designed",
+      "reason": "Enhanced test attempted to reuse occupied isolated world; runner now uses unique directories",
+      "log": "qa/attempt-3-refused-reused-test-world.log"
+    },
+    {
+      "number": 4,
+      "status": "PASS",
+      "log": "qa/forge-gametest.log"
+    }
+  ],
+  "safety": {
+    "deployed": false,
+    "production_instance_modified": false,
+    "production_saves_opened_or_modified": false,
+    "other_room_sources_modified": false,
+    "shared_core_modified": false,
+    "paid_image_api_called": false,
+    "isolated_test_worlds_only": true
+  },
+  "not_tested": [
+    "Full FarmingTales modpack client human playthrough, FPS, multiplayer.",
+    "FT core route integration, persistent generation markers, existing return portals.",
+    "Modified physics, jump boosts or critically low health fall survivability."
+  ],
+  "integration_requirements": [
+    "Preflight all 7714 cells including explicit air, entities, fluids and world boundary before placement.",
+    "Reject occupied volumes; preserve a persistent per-room generation marker and player changes.",
+    "Rotate both ports and block states using the same native rotation.",
+    "Do not deploy the QA fixture mod or its disposable worlds."
+  ]
+}

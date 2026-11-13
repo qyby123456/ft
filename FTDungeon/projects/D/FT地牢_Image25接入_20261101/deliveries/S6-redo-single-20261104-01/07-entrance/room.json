@@ -1,0 +1,169 @@
+{
+  "id": "S6-REDO-07",
+  "name": "熔岩门楼与警戒前庭",
+  "batch": "S6-redo-single-20261104-01",
+  "size": [
+    27,
+    16,
+    33
+  ],
+  "facing": "north",
+  "entrance": [
+    13,
+    3,
+    0
+  ],
+  "interior": [
+    13,
+    5,
+    12
+  ],
+  "connectors": [
+    {
+      "facing": "north",
+      "position": [
+        13,
+        3,
+        0
+      ],
+      "width": 3,
+      "height": 5,
+      "depth": 2
+    },
+    {
+      "facing": "south",
+      "position": [
+        13,
+        5,
+        32
+      ],
+      "width": 3,
+      "height": 5,
+      "depth": 2
+    }
+  ],
+  "validation_targets": [
+    [
+      13,
+      3,
+      2
+    ],
+    [
+      13,
+      4,
+      5
+    ],
+    [
+      13,
+      4,
+      6
+    ],
+    [
+      12,
+      5,
+      9
+    ],
+    [
+      13,
+      5,
+      9
+    ],
+    [
+      13,
+      5,
+      12
+    ],
+    [
+      13,
+      5,
+      18
+    ],
+    [
+      13,
+      5,
+      24
+    ],
+    [
+      13,
+      5,
+      28
+    ],
+    [
+      13,
+      5,
+      32
+    ],
+    [
+      6,
+      5,
+      22
+    ],
+    [
+      20,
+      5,
+      22
+    ],
+    [
+      6,
+      5,
+      23
+    ],
+    [
+      20,
+      5,
+      23
+    ],
+    [
+      5,
+      5,
+      12
+    ],
+    [
+      9,
+      5,
+      14
+    ]
+  ],
+  "door": {
+    "type": "minecraft:dark_oak_door",
+    "lower_halves": [
+      [
+        12,
+        5,
+        9
+      ],
+      [
+        13,
+        5,
+        9
+      ]
+    ],
+    "state": "OPEN",
+    "opening_width": 2,
+    "interaction": "NOT_RUN"
+  },
+  "stair_rises": [
+    {
+      "z": 4,
+      "feet_from": 3,
+      "feet_to": 4
+    },
+    {
+      "z": 7,
+      "feet_from": 4,
+      "feet_to": 5
+    }
+  ],
+  "roof": "OPEN_COURT; covered gate lintel, guard niches and rear passage only",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S6-volcanic-cavern\\out\\S6-07-entrance.png",
+  "reference_sha256": "dbb4b096be04a77cafff11169da6c7fd0333c2f50851ed43c5efa63d42e543e6",
+  "analysis_sha256": "79cad2a4d335a7b2600862a518917c8ba207cdbd41714f1eaf6b49f69bcf62fe",
+  "recipe_sha256": "f9ca13723108fa655ca8040bd22da668873bd8a27a68cba9192f5533760120ae",
+  "sha256": "320609e2afcd253650c5bb4ba8ef2b07fef6fd0efb0d89b365e72935d56a0f6e",
+  "coordinate_system": "+X east,+Y up,+Z south; positions are feet cells",
+  "acceptance": "PENDING_INDEPENDENT_REVIEW",
+  "next_reference_started": false,
+  "world_slot": null,
+  "deployment": "NOT_PERFORMED",
+  "geometry": "fresh stepped entrance, paired physical doors, open court and two guard alcoves before rear arch"
+}

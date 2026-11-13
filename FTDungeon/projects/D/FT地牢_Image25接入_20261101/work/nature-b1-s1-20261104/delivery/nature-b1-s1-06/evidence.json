@@ -1,0 +1,116 @@
+{
+  "input_manifest": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-b1-s1-20261104\\evidence\\input-manifest.json",
+  "input_fingerprint": "59ce8746393ea2462458a478c2c5ce33192fb347eb3cdf0ec003697620a0d58e",
+  "source": {
+    "path": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\hallways\\hallway_turn.nbt",
+    "sha256": "94c57a9a43219a93c26181a1254bd9e0ecc6a8fc13bac0357f469f983b86df60",
+    "bytes": 1210,
+    "archive_entry": "data/betterstrongholds/structures/hallways/hallway_turn.nbt",
+    "archive_matches": true,
+    "size": [
+      5,
+      8,
+      5
+    ],
+    "records": 200,
+    "connectors": [
+      {
+        "pos": [
+          0,
+          1,
+          3
+        ],
+        "state": {
+          "orientation": "west_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hallway",
+          "pool": "betterstrongholds:hall_doorway",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_doorway"
+        }
+      },
+      {
+        "pos": [
+          1,
+          1,
+          0
+        ],
+        "state": {
+          "orientation": "north_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:hall_wall",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_wall"
+        }
+      },
+      {
+        "pos": [
+          3,
+          1,
+          4
+        ],
+        "state": {
+          "orientation": "south_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hallway",
+          "pool": "betterstrongholds:hall_doorway",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_doorway"
+        }
+      },
+      {
+        "pos": [
+          4,
+          1,
+          1
+        ],
+        "state": {
+          "orientation": "east_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:hall_wall",
+          "final_state": "stone_brick_wall[east=none,north=tall,south=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_wall"
+        }
+      }
+    ],
+    "palette": [
+      "minecraft:air",
+      "minecraft:jigsaw",
+      "minecraft:stone_brick_slab",
+      "minecraft:stone_brick_stairs",
+      "minecraft:stone_brick_wall",
+      "minecraft:stone_bricks",
+      "minecraft:yellow_stained_glass"
+    ],
+    "details": {
+      "path": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\hallways\\hallway_turn.json",
+      "sha256": "14b0208571cfcaaca02d342c119c10518d9811eabdd3c8459795eb356ad5611f",
+      "bytes": 5749
+    }
+  },
+  "adaptation": {
+    "source": "hallways/hallway_turn",
+    "size": [
+      15,
+      10,
+      15
+    ],
+    "rule": "Triple the measured 5x5 corner module footprint for 3-wide dry passage and distinct corner/root bay; normalize turn to north/east."
+  },
+  "image_role": "Secondary forest-theme reference, not geometric authority",
+  "runtime": "Source uses yungsapi:yung_jigsaw and custom processors. Output is original procedural vanilla geometry with FT-compatible ports, NOT drop-in YUNG jigsaw content and NOT a copy of source NBT geometry."
+}

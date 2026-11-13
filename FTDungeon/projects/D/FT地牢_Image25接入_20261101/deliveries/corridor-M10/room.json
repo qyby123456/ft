@@ -1,0 +1,86 @@
+{
+  "id": "corridor-M10",
+  "source_id": "M10",
+  "name": "焚毁废弃矿道",
+  "kind": "medium",
+  "size": [
+    15,
+    11,
+    40
+  ],
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    3
+  ],
+  "exit": [
+    7,
+    2,
+    39
+  ],
+  "facing": "north",
+  "sha256": "921370b026e16e939b1c48f4aa85aef29e888e98b71691d8a5b48cfd0ae957b5",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M10-abandoned-mine-burnt.png",
+  "reference_sha256": "f0bfc91e258dab253c9d0272f516d54821e82b60357cbc6dcdb1510a722f3ab0",
+  "data_version": 3465,
+  "length_chunks": 2.5,
+  "axis": "z",
+  "walkable_width": 3,
+  "walkable_height": 3,
+  "connections": [
+    {
+      "side": "north",
+      "feet": [
+        7,
+        2,
+        0
+      ],
+      "aperture": [
+        3,
+        3
+      ]
+    },
+    {
+      "side": "south",
+      "feet": [
+        7,
+        2,
+        39
+      ],
+      "aperture": [
+        3,
+        3
+      ]
+    }
+  ],
+  "features": {
+    "timber_frames": 7,
+    "hanging_cages": 3,
+    "rails": 36,
+    "lanterns": 12,
+    "sealed_cosmetic_ember_pockets": 4
+  },
+  "safety": {
+    "real_fire": false,
+    "real_lava": false,
+    "fluids": false,
+    "entities": false,
+    "containers": false,
+    "loot": false
+  },
+  "reference_adaptations": [
+    "以黑石、煤矿、深板岩表现焦痕，保留承重木框，不以真火焚烧木构件。",
+    "余烬为菌光体加橙色玻璃和铁盖的装饰，无火伤与流体。",
+    "单格原版铁轨代表概念图的宽铁轨；主路保持三格宽三格高。"
+  ],
+  "integration": {
+    "deployed": false,
+    "production_save_modified": false,
+    "slot_assigned": false
+  }
+}

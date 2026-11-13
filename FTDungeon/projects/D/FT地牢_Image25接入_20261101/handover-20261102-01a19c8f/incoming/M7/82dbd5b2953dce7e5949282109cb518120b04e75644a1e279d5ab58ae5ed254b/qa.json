@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "id": "M7",
+  "name": "暗铁献祭地窖",
+  "completed_at": "2026-11-02T10:27:37+08:00",
+  "size": [
+    19,
+    14,
+    19
+  ],
+  "entrance": [
+    9,
+    3,
+    0
+  ],
+  "interior": [
+    9,
+    3,
+    4
+  ],
+  "reference_sha256": "c9b49119f192c80c1d8aca9299efc8787ec1d7cafdb342745c78fea180f057be",
+  "structure_sha256": "82dbd5b2953dce7e5949282109cb518120b04e75644a1e279d5ab58ae5ed254b",
+  "static": {
+    "status": "PASS",
+    "evidence": "D:/ft工程文件/M7_暗铁献祭地窖_20261102/qa/static.json",
+    "checks": 203,
+    "records": 5054,
+    "non_air_blocks": 2505,
+    "reachable_floor_positions": 201
+  },
+  "native_placement": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "ticks": 120,
+    "evidence": "D:/ft工程文件/M7_暗铁献祭地窖_20261102/qa/native-placement.json",
+    "log": "D:/ft工程文件/M7_暗铁献祭地窖_20261102/qa/forge-gametest-final.log",
+    "log_sha256": "8d9e523ae21329bd108b982463d3b013ead149b6f68ea092686e094fca578fd0",
+    "required_gametests_passed": 1,
+    "build_successful": true
+  },
+  "preview": {
+    "status": "PASS",
+    "kind": "software_from_exact_nbt_not_game_screenshot",
+    "sha256": "34df72598a5cbe73199b18864586191f32d346d60ddd1282279a2d8707df3a99",
+    "four_views": "D:/ft工程文件/M7_暗铁献祭地窖_20261102/preview/four-views.png"
+  },
+  "reward_inventory_items": 0,
+  "spawned_entities": 0,
+  "deployment": "NOT_DEPLOYED",
+  "integration": "AWAITING_INTEGRATOR_ACCEPTANCE_AND_SLOT",
+  "boundaries": [
+    "All authored assets, scripts and QA stay in the independent M7 project; Gradle uses existing shared dependency caches",
+    "No other room templates or integration catalog were modified",
+    "No player saves or installed JARs were opened for construction",
+    "No paid image generation was requested"
+  ],
+  "not_claimed": [
+    "full-modpack client screenshot or playtest",
+    "multiplayer acceptance",
+    "formal slot assignment",
+    "lobby route and return portal integration",
+    "runtime idempotence and occupancy rejection for formal deployment"
+  ]
+}

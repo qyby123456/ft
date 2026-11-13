@@ -1,0 +1,103 @@
+{
+  "status": "PRODUCER_CHECKS_PASS_INDEPENDENT_REGISTRATION_REQUIRED",
+  "sha256": "ee50ce32006d15b24ae2b2932bbf4ebbef6683ae8b9ee33ca4781348ac0fa798",
+  "reference_sha256": "f2e531d13b1f437bc45d4ad458b5ffbe09c016b818d204c49c29b603aa1bda74",
+  "recipe_sha256": "58e60abb2981b790aaaf1f6829db798fedebcd696f2d6a62c00575efd86367d1",
+  "static": {
+    "status": "PASS",
+    "checks": [
+      "bounds",
+      "chain to roof",
+      "complete foundation",
+      "complete roof",
+      "crystal support",
+      "dry 3x3 east port",
+      "dry 3x3 north port",
+      "dry 3x3 south port",
+      "dry 3x3 west port",
+      "lantern support",
+      "no hazards or forbidden blocks",
+      "no spawned entities",
+      "size and 1.20.1 DataVersion",
+      "unique full-volume positions"
+    ],
+    "nbt_sha256": "ee50ce32006d15b24ae2b2932bbf4ebbef6683ae8b9ee33ca4781348ac0fa798",
+    "scope": "static structural checks; collision path checked separately with native engine"
+  },
+  "native": {
+    "id": "S8R_IMG01",
+    "status": "PASS",
+    "size": [
+      35,
+      21,
+      35
+    ],
+    "blocks": 25725,
+    "palette_states": 12,
+    "loaded_block_entities": 0,
+    "valid_written_books": 0,
+    "native_collision_path_reachable_positions": 789,
+    "sha256": "ee50ce32006d15b24ae2b2932bbf4ebbef6683ae8b9ee33ca4781348ac0fa798",
+    "rotated_anchors_states_and_path_checks": [
+      {
+        "status": "PASS",
+        "checked_targets": 9,
+        "entrance": [
+          17,
+          1,
+          0
+        ],
+        "degrees_clockwise": 0
+      },
+      {
+        "status": "PASS",
+        "checked_targets": 9,
+        "entrance": [
+          34,
+          1,
+          17
+        ],
+        "degrees_clockwise": 90
+      },
+      {
+        "status": "PASS",
+        "checked_targets": 9,
+        "entrance": [
+          17,
+          1,
+          34
+        ],
+        "degrees_clockwise": 180
+      },
+      {
+        "status": "PASS",
+        "checked_targets": 9,
+        "entrance": [
+          0,
+          1,
+          17
+        ],
+        "degrees_clockwise": 270
+      }
+    ],
+    "world_placement_and_400tick_stability": "NOT_RUN"
+  },
+  "preview": {
+    "sha256": "077780a7898f0a9a9bf779c5c7e546aea2fe2ebc4bacfca7f078cff395b03dad",
+    "source": "actual Lodestone WebGL inspection of a verified air-cut derivative of final NBT",
+    "provenance": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-01\\qa\\takeover-preview-provenance.json"
+  },
+  "material_independent_screening": {
+    "comparisons": 74,
+    "exact_matches": 0,
+    "interior_iou_over_0_9": 0,
+    "full_report": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-01\\qa\\takeover-material-independent.json",
+    "global_final_audit": "NOT_COMPLETED"
+  },
+  "visual_producer_review": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-01\\qa\\takeover-visual-review.json",
+  "world_placement_and_400tick_stability": "NOT_RUN",
+  "forge_neighbor_updates_chunk_reload_gameplay": "NOT_RUN",
+  "independent_acceptance": null,
+  "next_image_locked": true,
+  "deployment": "NOT_DEPLOYED"
+}

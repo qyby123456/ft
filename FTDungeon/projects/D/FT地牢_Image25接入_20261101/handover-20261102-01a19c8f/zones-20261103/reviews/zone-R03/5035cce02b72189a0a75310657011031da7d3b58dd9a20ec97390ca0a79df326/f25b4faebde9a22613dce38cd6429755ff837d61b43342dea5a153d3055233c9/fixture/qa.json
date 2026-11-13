@@ -1,0 +1,80 @@
+{
+  "id": "zone-R03",
+  "status": "PASS",
+  "sha256": "5035cce02b72189a0a75310657011031da7d3b58dd9a20ec97390ca0a79df326",
+  "reference_sha256": "b96b07a7f353a684e808da98efafdc11feca3b17fc72606d9859a8750be8fa58",
+  "size": [
+    25,
+    16,
+    27
+  ],
+  "scope": "Independent room delivery ready for authoritative handover review and unique-slot assignment",
+  "static": {
+    "status": "PASS",
+    "checks": 14,
+    "explicit_records": 10800
+  },
+  "four_direction_review": {
+    "status": "PASS",
+    "internal_views": 4,
+    "external_views": 4,
+    "axis_views": 2,
+    "overview_views": 1,
+    "visual_report": "qa/visual-review.json",
+    "contact_sheet": "views/four-direction-review.png"
+  },
+  "forge": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "records_verified": 43200,
+    "ticks_observed": 240,
+    "random_tick_speed": 0,
+    "forced_neighbor_updates": true,
+    "collision_reachable_feet_each_rotation": 382,
+    "water_cells_each_rotation": 24,
+    "vines_survived_each_rotation": 73,
+    "roof_cells_each_rotation": 675,
+    "dropped_items": 0,
+    "escaped_fluids": 0,
+    "native_roundtrip": "PASS",
+    "log": "qa/forge-run.log",
+    "report": "qa/forge-native.json"
+  },
+  "four_files": {
+    "room.nbt": "5035cce02b72189a0a75310657011031da7d3b58dd9a20ec97390ca0a79df326",
+    "room.json": "e0849d6981c3d3a393d18af1a1d336ee73f80dd67a37571dffbeb81f27cf6dd5",
+    "preview.png": "b4f2217d63b786e3f2f80cc373d4bdaccfb75c0faaac6eeedd8b5c26c367ada9"
+  },
+  "evidence_sha256": {
+    "qa/static.json": "d3219883b482f9fc03089a845927228524da16645ef1119d1d2a2cd070865afe",
+    "qa/forge-native.json": "46b78393ea331707454c8e5e630d98df4eb478243ee840ff90dbd2ee5c410602",
+    "qa/render.json": "1b01fcb2e953185410e7c43519a61cd3529cbfdce54e8c04c2b988826c113856",
+    "qa/roundtrip.json": "91fae650365d9ea9a4d1e7093f0510329dfc153589ed9c0124547b16e637562b",
+    "qa/visual-review.json": "12b086149076541cc5d8d4b258bfd907788b64ec7bf061520623b3a70a1a0664"
+  },
+  "deployed": false,
+  "production_files_modified": false,
+  "player_saves_accessed": false,
+  "integration_slot": null,
+  "full_modpack_client_tested": false,
+  "limits": [
+    "Static and Lodestone screenshots are software evidence, not Minecraft client screenshots.",
+    "Forge testing used an isolated GameTest world at Y=180, forced chunks and randomTickSpeed=0. Vegetation random growth is not claimed stable indefinitely.",
+    "No FT hall route, unique slot, occupancy/persistence, multiplayer or full modpack gameplay acceptance is included."
+  ],
+  "previous_attempts": [
+    {
+      "type": "compile_failure",
+      "cause": "Official 1.20.1 mapping name POTTED_FLOWERING_AZALEA used after correcting the initial longer constant.",
+      "preserved": true
+    }
+  ],
+  "source_documents": [
+    "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/README.md",
+    "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/docs/manifest.json",
+    "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/docs/verify.json",
+    "D:/ft工程文件/FT地牢_Image25接入_20261101/CONTRACT.md"
+  ]
+}

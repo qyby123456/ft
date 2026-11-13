@@ -1,0 +1,312 @@
+{
+  "id": "corridor-M09",
+  "design_id": "M09",
+  "status": "PASS",
+  "date": "2026-11-03",
+  "timezone": "Asia/Shanghai",
+  "source_nbt_sha256": "5a776d5e6a96b0497aaf0411e289cebbc5d124a0b5b76b1e27897a0fd379abec",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M09-obsidian-trial-damaged.png",
+  "reference_sha256": "485e717ae64f6bc8b0ba8ba59512a904b2bc43fced70389aa6df650440f70de9",
+  "size": [
+    15,
+    12,
+    41
+  ],
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    3
+  ],
+  "exit": [
+    7,
+    2,
+    40
+  ],
+  "static": {
+    "status": "PASS",
+    "checks_passed": 9,
+    "checks": [
+      {
+        "name": "reference_sha256",
+        "status": "PASS"
+      },
+      {
+        "name": "gzip_single_palette_1201",
+        "status": "PASS"
+      },
+      {
+        "name": "medium_dimensions_explicit_volume",
+        "status": "PASS",
+        "details": {
+          "size": [
+            15,
+            12,
+            41
+          ],
+          "length_chunks": 2.5625,
+          "explicit_records": 7380
+        }
+      },
+      {
+        "name": "no_entities_block_entities_or_hazards",
+        "status": "PASS"
+      },
+      {
+        "name": "straight_three_wide_three_high_route",
+        "status": "PASS",
+        "details": {
+          "clear_cells": 369,
+          "safe_feet": 123,
+          "y": 2
+        }
+      },
+      {
+        "name": "north_south_openings_five_wide",
+        "status": "PASS"
+      },
+      {
+        "name": "continuous_roof_foundation_and_no_side_branches",
+        "status": "PASS"
+      },
+      {
+        "name": "candles_and_gold_buttons_supported",
+        "status": "PASS"
+      },
+      {
+        "name": "obsidian_trial_visual_features",
+        "status": "PASS"
+      }
+    ],
+    "explicit_records": 7380,
+    "non_air_blocks": 4628,
+    "report": "qa/static.json"
+  },
+  "forge": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "java": "17.0.8",
+    "placement_rotations": 4,
+    "rotations": [
+      {
+        "entities": 0,
+        "fluid_blocks": 0,
+        "rotation": "NONE",
+        "lit_candle_groups": 12,
+        "exact_block_records": 7380,
+        "safe_feet": 123,
+        "status": "PASS",
+        "supported_buttons": 24
+      },
+      {
+        "entities": 0,
+        "fluid_blocks": 0,
+        "rotation": "CLOCKWISE_90",
+        "lit_candle_groups": 12,
+        "exact_block_records": 7380,
+        "safe_feet": 123,
+        "status": "PASS",
+        "supported_buttons": 24
+      },
+      {
+        "entities": 0,
+        "fluid_blocks": 0,
+        "rotation": "CLOCKWISE_180",
+        "lit_candle_groups": 12,
+        "exact_block_records": 7380,
+        "safe_feet": 123,
+        "status": "PASS",
+        "supported_buttons": 24
+      },
+      {
+        "entities": 0,
+        "fluid_blocks": 0,
+        "rotation": "COUNTERCLOCKWISE_90",
+        "lit_candle_groups": 12,
+        "exact_block_records": 7380,
+        "safe_feet": 123,
+        "status": "PASS",
+        "supported_buttons": 24
+      }
+    ],
+    "stabilization_ticks": 240,
+    "stable_snapshot_ticks": [
+      200,
+      240
+    ],
+    "records_checked_after_ticks": 29520,
+    "path_feet_per_rotation": 123,
+    "negative_blocked_path_probes": 4,
+    "negative_unsupported_candle_probes": 4,
+    "report": "qa/forge.json",
+    "console": "qa/forge-console.log",
+    "native_captures": [
+      {
+        "rotation": "none",
+        "file": "qa/native-placed-none.nbt",
+        "sha256": "146924ba56f8ac47df5db7cf96e87a69ebb79ebebf2cca82c6c49660bde3e1ff",
+        "source_states_match": true,
+        "records": 7380
+      },
+      {
+        "rotation": "clockwise_90",
+        "file": "qa/native-placed-clockwise_90.nbt",
+        "sha256": "146924ba56f8ac47df5db7cf96e87a69ebb79ebebf2cca82c6c49660bde3e1ff",
+        "source_states_match": true,
+        "records": 7380
+      },
+      {
+        "rotation": "clockwise_180",
+        "file": "qa/native-placed-clockwise_180.nbt",
+        "sha256": "146924ba56f8ac47df5db7cf96e87a69ebb79ebebf2cca82c6c49660bde3e1ff",
+        "source_states_match": true,
+        "records": 7380
+      },
+      {
+        "rotation": "counterclockwise_90",
+        "file": "qa/native-placed-counterclockwise_90.nbt",
+        "sha256": "146924ba56f8ac47df5db7cf96e87a69ebb79ebebf2cca82c6c49660bde3e1ff",
+        "source_states_match": true,
+        "records": 7380
+      }
+    ]
+  },
+  "views": {
+    "status": "PASS",
+    "four_direction_interior": 4,
+    "four_direction_exterior": 4,
+    "other_views": [
+      "north-south axis",
+      "south-north axis",
+      "plan",
+      "native capture axis"
+    ],
+    "report": "qa/render.json",
+    "review": "qa/visual-review.json",
+    "contact_sheet": "views/four-direction-review.png"
+  },
+  "visual_review": {
+    "status": "PASS",
+    "reviewer": "Codex visual inspection of rendered images",
+    "source_nbt_sha256": "5a776d5e6a96b0497aaf0411e289cebbc5d124a0b5b76b1e27897a0fd379abec",
+    "inspected": [
+      "preview.png",
+      "views/four-direction-review.png",
+      "views/native-hero.png",
+      "views/plan.png",
+      "views/interior-west.png"
+    ],
+    "results": [
+      "Centered sightline runs straight through both portals, without turns, junctions or route stairs.",
+      "Six repeated obsidian/crying-obsidian arches, gold rune plates, warm candle groups and orange seams read clearly.",
+      "Wall-side rubble and missing shoulder stones communicate light damage while the central route stays clear.",
+      "All four complete exterior views show continuous roof, full floor and closed side walls; only north and south connect.",
+      "Native 240-tick capture visually matches the delivered layout; this is an NBT render, not an in-game screenshot."
+    ],
+    "intentional_differences_from_concept": [
+      "Vanilla materials cannot exactly reproduce illustrated gold glyphs; buttons on gold plates provide readable rune relief.",
+      "Real lava is replaced by sealed shroomlight/orange-glass seams for placement safety.",
+      "No custom shaders, texture pack or combat/trial scripting is included."
+    ]
+  },
+  "delivery_files": [
+    "room.nbt",
+    "room.json",
+    "preview.png",
+    "qa.json"
+  ],
+  "files": [
+    {
+      "file": "room.nbt",
+      "bytes": 23907,
+      "sha256": "5a776d5e6a96b0497aaf0411e289cebbc5d124a0b5b76b1e27897a0fd379abec"
+    },
+    {
+      "file": "room.json",
+      "bytes": 2103,
+      "sha256": "9ef89e40c8028b06881acc970c6675f58093a0bbd64942caf28def5465b2ec46"
+    },
+    {
+      "file": "preview.png",
+      "bytes": 646881,
+      "sha256": "7364a63ddecdd71a101b5a6a5cc830273dffaf08fd64492a3d0fcd25e80880fe"
+    },
+    {
+      "file": "views/four-direction-review.png",
+      "bytes": 1096631,
+      "sha256": "b8c879644697bd9c21a42e4ba6abde02e707b5dfdd277ac91c4339494d026688"
+    },
+    {
+      "file": "views/plan.png",
+      "bytes": 401266,
+      "sha256": "1cf2af442067a2da013b99c47a4a1b862166c10ff8747ad34bba4f55a179f1bd"
+    },
+    {
+      "file": "views/native-hero.png",
+      "bytes": 647723,
+      "sha256": "9072bd5a284532484e24877a433bfc3d444549ffd053aa2c994362434ee7f60e"
+    },
+    {
+      "file": "qa/static.json",
+      "bytes": 1467,
+      "sha256": "784498b7d677d3080a1b72edcb22b3b7ddc245a2e80f53c91cae6aa2968ce7c3"
+    },
+    {
+      "file": "qa/forge.json",
+      "bytes": 1846,
+      "sha256": "0cca974a7c2af6c9cafc414cd8040673befa3abf6b4f48473e6bedb73b57183f"
+    },
+    {
+      "file": "qa/render.json",
+      "bytes": 6228,
+      "sha256": "7e8de8e927711d73fc36f7df7ab1a2cc7f43f9f6bfbb910eb160651f8f6637d8"
+    },
+    {
+      "file": "qa/visual-review.json",
+      "bytes": 1285,
+      "sha256": "46feff4916594b415da644da6382379acc706e725bbfa096e0bf835df7d0bc4b"
+    },
+    {
+      "file": "qa/forge-invocation.json",
+      "bytes": 699,
+      "sha256": "e6b1f2b317082d1c8e5c6ac67fc0318d425f00fa4385d5620381d268dd768c6f"
+    },
+    {
+      "file": "qa/forge-console.log",
+      "bytes": 12922,
+      "sha256": "2b6bb243b4377e41c7264bb0d87ed8f9aaef6aaaa66ef322c33412af49661fca"
+    },
+    {
+      "file": "README.md",
+      "bytes": 5592,
+      "sha256": "767684a31887cb6bc9d024e3ae1cf8074fded68a16dec821fab15b9edd3472cd"
+    },
+    {
+      "file": "recipe.mjs",
+      "bytes": 5992,
+      "sha256": "856d5d447bcb08b461e095c2c061ae06ea21fb98de0f1d6f51db94a2db667748"
+    }
+  ],
+  "deployment": {
+    "status": "NOT_DEPLOYED",
+    "production_mods_changed": false,
+    "player_saves_opened": false,
+    "player_saves_modified": false,
+    "other_deliveries_changed": false
+  },
+  "limitations": [
+    "Isolated Forge 1.20.1 server test and software-rendered NBT are separate from an actual modpack client playtest.",
+    "No FT catalog/core integration, live hallway connection, whole-volume occupancy refusal or idempotence test is claimed.",
+    "All coordinates denote player feet; a future placement integrator must check the whole 15×12×41 volume before writing any block, including explicit air.",
+    "The optional Forge QA source is a test harness only, not a mod for deployment."
+  ],
+  "non_blocking_log_messages": [
+    "Forge update-check timeout only; unrelated to validation and BUILD SUCCESSFUL is recorded.",
+    "Fresh-world Forge default configuration corrections and Gradle deprecation warnings are not template failures."
+  ]
+}

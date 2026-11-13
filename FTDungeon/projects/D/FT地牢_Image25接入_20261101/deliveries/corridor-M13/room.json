@@ -1,0 +1,125 @@
+{
+  "id": "M13",
+  "name": "苔覆遗迹断拱长廊",
+  "type": "corridor",
+  "kind": "medium",
+  "size": [
+    13,
+    11,
+    40
+  ],
+  "entrance": [
+    6,
+    1,
+    0
+  ],
+  "interior": [
+    6,
+    1,
+    4
+  ],
+  "exit": [
+    6,
+    1,
+    39
+  ],
+  "facing": "north",
+  "axis": "north-south",
+  "length_blocks": 40,
+  "length_chunks": 2.5,
+  "ports": [
+    {
+      "name": "north",
+      "feet": [
+        6,
+        1,
+        0
+      ],
+      "outward": "north",
+      "clear_width": 3,
+      "clear_height": 3
+    },
+    {
+      "name": "south",
+      "feet": [
+        6,
+        1,
+        39
+      ],
+      "outward": "south",
+      "clear_width": 3,
+      "clear_height": 3
+    }
+  ],
+  "clear_lane": {
+    "x": [
+      5,
+      7
+    ],
+    "feet_y": 1,
+    "z": [
+      0,
+      39
+    ],
+    "height": 3,
+    "step_free": true
+  },
+  "sha256": "b4f5287ca4bbe460b9217f2e23f4337814afaa23d24cf5ed5493ebe92a233709",
+  "data_version": 3465,
+  "minecraft_version": "1.20.1",
+  "compression": "gzip",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M13-overgrown-ruins-overgrown.png",
+  "reference_sha256": "1fdf0434a35e4261f88d3de7b228deaba30f1b0af06ad467d723c4509fba9e66",
+  "reference_index": {
+    "theme": "overgrown-ruins",
+    "condition": "overgrown",
+    "light": "lanterns",
+    "feature": "broken-arches",
+    "palette": "gray-green stone, green vines, moss, dark wood"
+  },
+  "arch_stations_z": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    39
+  ],
+  "hanging_lanterns": [
+    [
+      6,
+      6,
+      4
+    ],
+    [
+      6,
+      6,
+      12
+    ],
+    [
+      6,
+      6,
+      20
+    ],
+    [
+      6,
+      6,
+      28
+    ],
+    [
+      6,
+      6,
+      36
+    ]
+  ],
+  "placement": {
+    "ignore_entities": true,
+    "keep_liquids": false,
+    "known_shape": true,
+    "block_flags": 18,
+    "explicit_air_is_not_permission_to_clear": true
+  },
+  "integration_status": "independent_delivery_not_deployed",
+  "live_growth": "Vines retain vanilla random-tick growth; persistent leaves do not decay.",
+  "scope": "Only M13 delivery assets; no production mods, registration, deployment or player saves changed."
+}

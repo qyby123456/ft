@@ -1,0 +1,69 @@
+{
+  "input_manifest": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-b1-s1-20261104\\evidence\\input-manifest.json",
+  "input_fingerprint": "59ce8746393ea2462458a478c2c5ce33192fb347eb3cdf0ec003697620a0d58e",
+  "source": {
+    "path": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\crypt_sm.nbt",
+    "sha256": "63f9e1987d80e2f076b6d05a15114daee457d989a42d6a570c0868db0e5eeaf5",
+    "bytes": 2182,
+    "archive_entry": "data/betterstrongholds/structures/rooms/crypt_sm.nbt",
+    "archive_matches": true,
+    "size": [
+      7,
+      8,
+      7
+    ],
+    "records": 392,
+    "connectors": [
+      {
+        "pos": [
+          4,
+          1,
+          0
+        ],
+        "state": {
+          "orientation": "north_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=tall,south=none,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        }
+      }
+    ],
+    "palette": [
+      "minecraft:air",
+      "minecraft:black_wall_banner",
+      "minecraft:chest",
+      "minecraft:chiseled_stone_bricks",
+      "minecraft:cobblestone",
+      "minecraft:jigsaw",
+      "minecraft:polished_andesite",
+      "minecraft:polished_andesite_stairs",
+      "minecraft:skeleton_skull",
+      "minecraft:smooth_stone_slab",
+      "minecraft:spawner",
+      "minecraft:stone_brick_stairs",
+      "minecraft:stone_brick_wall",
+      "minecraft:stone_bricks"
+    ],
+    "details": {
+      "path": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\crypt_sm.json",
+      "sha256": "4ec2059d510fed9a0bc546b639c574f8161835ea4886ff8896f895156efbd692",
+      "bytes": 7272
+    }
+  },
+  "adaptation": {
+    "source": "rooms/crypt_sm",
+    "size": [
+      9,
+      10,
+      9
+    ],
+    "rule": "Expand the measured small dead-end 7x8x7 by two per dimension; explicitly add an optional FT side connection."
+  },
+  "image_role": "Secondary forest-theme reference, not geometric authority",
+  "runtime": "Source uses yungsapi:yung_jigsaw and custom processors. Output is original procedural vanilla geometry with FT-compatible ports, NOT drop-in YUNG jigsaw content and NOT a copy of source NBT geometry."
+}

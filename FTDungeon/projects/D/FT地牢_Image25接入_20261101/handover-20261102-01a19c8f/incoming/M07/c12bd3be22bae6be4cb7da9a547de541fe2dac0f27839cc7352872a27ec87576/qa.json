@@ -1,0 +1,235 @@
+{
+  "id": "M07",
+  "name": "枯井水牢",
+  "status": "PASS",
+  "sha256": "c12bd3be22bae6be4cb7da9a547de541fe2dac0f27839cc7352872a27ec87576",
+  "size_xyz": [
+    15,
+    13,
+    17
+  ],
+  "data_version": 3465,
+  "block_records": 3315,
+  "entrance": [
+    7,
+    4,
+    0
+  ],
+  "interior": [
+    7,
+    4,
+    3
+  ],
+  "facing": "north",
+  "reference_sha256": "66b0acc53cad4302ad7daa3589df6181055e2ce89b84947fbb565ce835c6d775",
+  "static": {
+    "id": "M07",
+    "status": "PASS",
+    "checks": {
+      "reference_sha256": true,
+      "data_version_3465": true,
+      "dense_volume_3315_unique_positions": true,
+      "all_positions_inside_declared_volume": true,
+      "vanilla_namespace_only": true,
+      "no_preplaced_entities": true,
+      "no_forbidden_blocks_rewards_or_exposed_hazards": true,
+      "skull_block_entities_only_no_items_or_loot": true,
+      "continuous_solid_bottom_foundation": true,
+      "complete_two_layer_roof": true,
+      "only_north_3_by_3_interface": true,
+      "entrance_floor_and_three_deep_headroom": true,
+      "dry_entrance_interior_and_full_ring_routes": true,
+      "three_wide_front_approach": true,
+      "water_sources_in_interior_only": true,
+      "water_has_solid_sides_bottom_and_closed_lid": true,
+      "all_lantern_chains_hooks_controls_skulls_grates_supported": true,
+      "roof_beams_bear_on_full_height_masonry": true,
+      "well_guarded_all_four_sides": true,
+      "theme_features_present": true
+    },
+    "size": [
+      15,
+      13,
+      17
+    ],
+    "records": 3315,
+    "non_air_records": 2164,
+    "dry_reachable_positions": 122,
+    "water_source_cells": 33,
+    "materials": {
+      "air": 1151,
+      "cauldron": 1,
+      "chain": 30,
+      "chiseled_stone_bricks": 77,
+      "cobblestone": 12,
+      "cracked_stone_bricks": 90,
+      "grindstone": 1,
+      "hay_block": 7,
+      "iron_bars": 18,
+      "iron_block": 3,
+      "iron_trapdoor": 18,
+      "lantern": 4,
+      "lever": 1,
+      "mossy_stone_bricks": 406,
+      "polished_andesite": 101,
+      "skeleton_skull": 2,
+      "spruce_log": 39,
+      "spruce_planks": 255,
+      "stone_brick_slab": 22,
+      "stone_bricks": 1038,
+      "tripwire_hook": 4,
+      "wall_torch": 2,
+      "water": 33
+    },
+    "limitations": [
+      "Static structural checks are not Minecraft runtime evidence; see forge-native.json",
+      "The winch, lever, shackles and grates are architectural props, not scripted traps"
+    ],
+    "sha256": "c12bd3be22bae6be4cb7da9a547de541fe2dac0f27839cc7352872a27ec87576"
+  },
+  "forge_native": {
+    "id": "M07",
+    "status": "PASS",
+    "sha256": "c12bd3be22bae6be4cb7da9a547de541fe2dac0f27839cc7352872a27ec87576",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "test": "StructureTemplate.placeInWorld in isolated Forge GameTest server",
+    "ticks_observed": 240,
+    "native_registry_and_complete_properties": "PASS",
+    "native_structure_roundtrip": "PASS",
+    "forced_neighbor_shape_and_event_updates": true,
+    "forced_source_water_ticks": true,
+    "rotations": [
+      {
+        "rotation": "NONE",
+        "states_preserved": 3315,
+        "collision_reachable_positions": 141,
+        "skull_block_entities": 2,
+        "hanging_lanterns": 4,
+        "overhead_anchored_chains": 30,
+        "wall_anchored_hooks": 4,
+        "sealed_source_water_cells": 33,
+        "supported_closed_iron_grates": 18,
+        "stable_iron_bars": 18,
+        "roof_blocks_verified": 510,
+        "fluid_leaks": 0,
+        "dropped_items": 0
+      },
+      {
+        "rotation": "CLOCKWISE_90",
+        "states_preserved": 3315,
+        "collision_reachable_positions": 141,
+        "skull_block_entities": 2,
+        "hanging_lanterns": 4,
+        "overhead_anchored_chains": 30,
+        "wall_anchored_hooks": 4,
+        "sealed_source_water_cells": 33,
+        "supported_closed_iron_grates": 18,
+        "stable_iron_bars": 18,
+        "roof_blocks_verified": 510,
+        "fluid_leaks": 0,
+        "dropped_items": 0
+      },
+      {
+        "rotation": "CLOCKWISE_180",
+        "states_preserved": 3315,
+        "collision_reachable_positions": 141,
+        "skull_block_entities": 2,
+        "hanging_lanterns": 4,
+        "overhead_anchored_chains": 30,
+        "wall_anchored_hooks": 4,
+        "sealed_source_water_cells": 33,
+        "supported_closed_iron_grates": 18,
+        "stable_iron_bars": 18,
+        "roof_blocks_verified": 510,
+        "fluid_leaks": 0,
+        "dropped_items": 0
+      },
+      {
+        "rotation": "COUNTERCLOCKWISE_90",
+        "states_preserved": 3315,
+        "collision_reachable_positions": 141,
+        "skull_block_entities": 2,
+        "hanging_lanterns": 4,
+        "overhead_anchored_chains": 30,
+        "wall_anchored_hooks": 4,
+        "sealed_source_water_cells": 33,
+        "supported_closed_iron_grates": 18,
+        "stable_iron_bars": 18,
+        "roof_blocks_verified": 510,
+        "fluid_leaks": 0,
+        "dropped_items": 0
+      }
+    ],
+    "preplaced_entities": 0,
+    "inventory_items": 0,
+    "loot_tables": 0,
+    "client_visual_tested": false,
+    "limits": [
+      "No full modpack client screenshot, FPS or multiplayer play test",
+      "Static winch, shackles and grates are not scripted gameplay traps",
+      "No core catalog edits, hall connection, permanent-world placement or deployment"
+    ]
+  },
+  "roundtrip": {
+    "id": "M07",
+    "status": "PASS",
+    "sha256": "c12bd3be22bae6be4cb7da9a547de541fe2dac0f27839cc7352872a27ec87576",
+    "native_nbt": {
+      "path": "qa\\native-roundtrip.nbt",
+      "bytes": 10655,
+      "sha256": "cc1781947fb81d6d76d10a93d8a850c37c9b2ba56346afc1a560075f77dda32c"
+    },
+    "states_compared": 3315,
+    "block_entities_compared": 2,
+    "exact_states_equal": true,
+    "exact_block_entity_nbt_equal": true,
+    "entities_equal": true,
+    "size_and_data_version_equal": true,
+    "note": "Native serializer may reorder palette/records and gzip differently; decoded data, not compressed bytes, are compared"
+  },
+  "preview": {
+    "source": "Actual delivered NBT",
+    "software_render_only": true,
+    "image_dimensions": {
+      "out\\M07\\preview.png": [
+        1920,
+        1250
+      ],
+      "qa\\four-views.png": [
+        2400,
+        1900
+      ],
+      "qa\\exterior.png": [
+        1400,
+        1100
+      ],
+      "qa\\floor-plan.png": [
+        470,
+        600
+      ]
+    },
+    "visual_review": "qa/visual-review.json"
+  },
+  "evidence": {
+    "static": "qa/static.json",
+    "forge-native": "qa/forge-native.json",
+    "render": "qa/render.json",
+    "visual-review": "qa/visual-review.json"
+  },
+  "forge_log": "qa/forge-run.log",
+  "required_log_markers": [
+    "M07_FORGE_PLACEMENT_PASS",
+    "All 1 required tests passed",
+    "BUILD SUCCESSFUL"
+  ],
+  "paid_image_generation_calls": 0,
+  "deployed": false,
+  "limits": [
+    "No deployment, no FT core/catalog/route changes and no access to permanent player saves.",
+    "Software NBT previews are not in-game screenshots; no full-modpack client, multiplayer or FPS verification.",
+    "Winch, lever, shackles and grates are architectural props, not a scripted trap or reward mechanic.",
+    "Water is intentionally sealed below dry routes; no claim of a visible flowing water surface.",
+    "Integration must use entrance feet Y=4, keep M07 distinct from M7, refuse occupied whole volume plus margins, provide a hall connection and a separate persistent generation marker."
+  ]
+}

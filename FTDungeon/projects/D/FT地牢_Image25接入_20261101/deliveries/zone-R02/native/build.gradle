@@ -1,0 +1,21 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+group = 'net.farmingtales.zoner02qa'
+version = '1.0-verification-only'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        gameTestServer {
+            workingDirectory project.file('../qa/forge-run')
+            property 'forge.enabledGameTestNamespaces', 'zoner02qa'
+            property 'zoner02qa.root', projectDir.parentFile.absolutePath
+            jvmArgs '-Xmx1G', '-XX:ActiveProcessorCount=2'
+            mods { zoner02qa { source sourceSets.main } }
+        }
+    }
+}
+repositories { mavenCentral() }
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.10' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }

@@ -1,0 +1,94 @@
+{
+  "id": "zone-C02",
+  "candidate_sha256": "3efd164b2a7ee8e8cbf328dd6a066d65877d77dd8435db633cf88c16da8c98c8",
+  "bundle_sha256": "a8e189deaa425b86973f5e1ac41a0f14ce47daf4de05b198049092625ee2fafe",
+  "status": "PASS_INTAKE_ONLY",
+  "size": [
+    19,
+    11,
+    19
+  ],
+  "blocks": 3971,
+  "block_entities": 2,
+  "category": "corners",
+  "producer_metadata_id": "C02",
+  "interfaces_as_declared": {
+    "entrance": [
+      9,
+      2,
+      0
+    ],
+    "interior": [
+      9,
+      2,
+      9
+    ],
+    "exit": [
+      18,
+      2,
+      9
+    ],
+    "ports": [
+      {
+        "side": "north",
+        "feet": [
+          9,
+          2,
+          0
+        ],
+        "outward": [
+          0,
+          0,
+          -1
+        ],
+        "bounds": [
+          [
+            8,
+            2,
+            0
+          ],
+          [
+            10,
+            5,
+            0
+          ]
+        ],
+        "opening": [
+          3,
+          4
+        ]
+      },
+      {
+        "side": "east",
+        "feet": [
+          18,
+          2,
+          9
+        ],
+        "outward": [
+          1,
+          0,
+          0
+        ],
+        "bounds": [
+          [
+            18,
+            2,
+            8
+          ],
+          [
+            18,
+            5,
+            10
+          ]
+        ],
+        "opening": [
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  "category_path_status": "NOT_VERIFIED",
+  "limitations": "No straight-corridor rule applied; supports, liquids, collision, jumps, ports and visuals still need independent receiver tests"
+}

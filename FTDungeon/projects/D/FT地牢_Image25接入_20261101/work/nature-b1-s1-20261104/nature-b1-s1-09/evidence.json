@@ -1,0 +1,162 @@
+{
+  "input_manifest": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-b1-s1-20261104\\evidence\\input-manifest.json",
+  "input_fingerprint": "59ce8746393ea2462458a478c2c5ce33192fb347eb3cdf0ec003697620a0d58e",
+  "source": {
+    "path": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\rooms\\treasure_room_lg.nbt",
+    "sha256": "ddcb67048585585d56c4fb32af9be6668c72562515924ef33e682152cbf2c0fe",
+    "bytes": 17199,
+    "archive_entry": "data/betterstrongholds/structures/rooms/treasure_room_lg.nbt",
+    "archive_matches": true,
+    "size": [
+      19,
+      16,
+      19
+    ],
+    "records": 5083,
+    "connectors": [
+      {
+        "pos": [
+          5,
+          1,
+          12
+        ],
+        "state": {
+          "orientation": "south_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_corner",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_corner"
+        }
+      },
+      {
+        "pos": [
+          9,
+          1,
+          12
+        ],
+        "state": {
+          "orientation": "south_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_portal",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_portal"
+        }
+      },
+      {
+        "pos": [
+          12,
+          1,
+          7
+        ],
+        "state": {
+          "orientation": "east_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_wall",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_wall"
+        }
+      },
+      {
+        "pos": [
+          12,
+          1,
+          13
+        ],
+        "state": {
+          "orientation": "east_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_corner",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_corner"
+        }
+      },
+      {
+        "pos": [
+          13,
+          1,
+          6
+        ],
+        "state": {
+          "orientation": "north_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:treasure_corner",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:treasure_corner"
+        }
+      },
+      {
+        "pos": [
+          18,
+          9,
+          10
+        ],
+        "state": {
+          "orientation": "east_up"
+        },
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hall_doorway",
+          "pool": "betterstrongholds:hallway",
+          "final_state": "stone_brick_wall[east=none,south=tall,north=none,up=true,west=none]",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hallway"
+        }
+      }
+    ],
+    "palette": [
+      "minecraft:air",
+      "minecraft:anvil",
+      "minecraft:chiseled_stone_bricks",
+      "minecraft:gray_wall_banner",
+      "minecraft:jigsaw",
+      "minecraft:lantern",
+      "minecraft:lectern",
+      "minecraft:polished_andesite",
+      "minecraft:polished_andesite_slab",
+      "minecraft:polished_andesite_stairs",
+      "minecraft:smithing_table",
+      "minecraft:stone_brick_slab",
+      "minecraft:stone_brick_stairs",
+      "minecraft:stone_brick_wall",
+      "minecraft:stone_bricks",
+      "minecraft:wall_torch",
+      "minecraft:yellow_stained_glass"
+    ],
+    "details": {
+      "path": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\rooms\\treasure_room_lg.json",
+      "sha256": "b731f27696a3bc5d6cdb4450851a0cf1b0d7b124dab2636b2f4afcdbcb93cd75",
+      "bytes": 14208
+    }
+  },
+  "adaptation": {
+    "source": "rooms/treasure_room_lg",
+    "size": [
+      19,
+      16,
+      19
+    ],
+    "rule": "Keep measured 19x16x19 large treasure envelope, remove encounter/loot runtime; add one FT north entrance and empty container."
+  },
+  "image_role": "Secondary forest-theme reference, not geometric authority",
+  "runtime": "Source uses yungsapi:yung_jigsaw and custom processors. Output is original procedural vanilla geometry with FT-compatible ports, NOT drop-in YUNG jigsaw content and NOT a copy of source NBT geometry."
+}

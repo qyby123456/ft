@@ -1,0 +1,236 @@
+{
+  "id": "corridor-S06",
+  "status": "PASS",
+  "ready_for_independent_handoff": true,
+  "source_nbt_sha256": "e63afe337dfafa98704f68c643bfac7b19c3f97a78667aa224c7a195f95fc3f6",
+  "source_image_sha256": "72daa317fc6e42fb149d4fc138f88c73beea0b01177fb7d4eeef58868c014200",
+  "size": [
+    13,
+    10,
+    16
+  ],
+  "static_checks": 64,
+  "four_direction_interior_exterior": "PASS",
+  "final_nbt_software_preview": "PASS",
+  "forge": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": [
+      {
+        "no_block_entities_or_entities": true,
+        "records_checked": 2080,
+        "dry_route_cells": 48,
+        "lanterns": 8,
+        "status": "PASS",
+        "complete_roof": true,
+        "escaped_water": 0,
+        "supported_blocks": 2080,
+        "rotation": "NONE",
+        "water_sources": 42
+      },
+      {
+        "no_block_entities_or_entities": true,
+        "records_checked": 2080,
+        "dry_route_cells": 48,
+        "lanterns": 8,
+        "status": "PASS",
+        "complete_roof": true,
+        "escaped_water": 0,
+        "supported_blocks": 2080,
+        "rotation": "CLOCKWISE_90",
+        "water_sources": 42
+      },
+      {
+        "no_block_entities_or_entities": true,
+        "records_checked": 2080,
+        "dry_route_cells": 48,
+        "lanterns": 8,
+        "status": "PASS",
+        "complete_roof": true,
+        "escaped_water": 0,
+        "supported_blocks": 2080,
+        "rotation": "CLOCKWISE_180",
+        "water_sources": 42
+      },
+      {
+        "no_block_entities_or_entities": true,
+        "records_checked": 2080,
+        "dry_route_cells": 48,
+        "lanterns": 8,
+        "status": "PASS",
+        "complete_roof": true,
+        "escaped_water": 0,
+        "supported_blocks": 2080,
+        "rotation": "COUNTERCLOCKWISE_90",
+        "water_sources": 42
+      }
+    ],
+    "stabilized_ticks": [
+      200,
+      240
+    ],
+    "records_checked": 8320,
+    "fluid_ticks_enabled": true
+  },
+  "native_snapshots": [
+    {
+      "rotation": "none",
+      "path": "qa/native-placed-none.nbt",
+      "sha256": "20a412d958ea516f9a52fb5cc102162c2b776092fb324b28d10bd85625c2cedb",
+      "records": 2080,
+      "normalized_states_match_source": true
+    },
+    {
+      "rotation": "clockwise_90",
+      "path": "qa/native-placed-clockwise_90.nbt",
+      "sha256": "20a412d958ea516f9a52fb5cc102162c2b776092fb324b28d10bd85625c2cedb",
+      "records": 2080,
+      "normalized_states_match_source": true
+    },
+    {
+      "rotation": "clockwise_180",
+      "path": "qa/native-placed-clockwise_180.nbt",
+      "sha256": "20a412d958ea516f9a52fb5cc102162c2b776092fb324b28d10bd85625c2cedb",
+      "records": 2080,
+      "normalized_states_match_source": true
+    },
+    {
+      "rotation": "counterclockwise_90",
+      "path": "qa/native-placed-counterclockwise_90.nbt",
+      "sha256": "20a412d958ea516f9a52fb5cc102162c2b776092fb324b28d10bd85625c2cedb",
+      "records": 2080,
+      "normalized_states_match_source": true
+    }
+  ],
+  "evidence": [
+    {
+      "path": "room.nbt",
+      "bytes": 6699,
+      "sha256": "e63afe337dfafa98704f68c643bfac7b19c3f97a78667aa224c7a195f95fc3f6"
+    },
+    {
+      "path": "room.json",
+      "bytes": 2104,
+      "sha256": "cb1346b14a5e1cd09f2811d7f5b513207d24256369fab409d40877f3287b3c48"
+    },
+    {
+      "path": "preview.png",
+      "bytes": 313724,
+      "sha256": "d9e0e3e9e93cab59c464f60e98c53c26b70948ea16c4cce9b42818a53d64e54b"
+    },
+    {
+      "path": "recipe.mjs",
+      "bytes": 3641,
+      "sha256": "af6b4b9f2d2dd7897c6a66af60c7d45de3c59815f028874f935686fce9d3b86c"
+    },
+    {
+      "path": "qa/static.json",
+      "bytes": 8752,
+      "sha256": "b16299a38aa5eba3eae449b2768dfae513c7ed9697d70d24a4698a24bd5f2b3f"
+    },
+    {
+      "path": "qa/render.json",
+      "bytes": 4643,
+      "sha256": "a1014a7e920dff7558537355b7c7d5f42cf8bcafc6eeadf2a0f0ec6d66abaf5b"
+    },
+    {
+      "path": "qa/forge-native.json",
+      "bytes": 2166,
+      "sha256": "b0483ab80e87fc58ec43fe0ffc7e6fbe25a1aae2f0c98a9ed68b72f74dd18a40"
+    },
+    {
+      "path": "qa/forge-run.log",
+      "bytes": 11760,
+      "sha256": "1b35dd15fb818e09e5b908f3bfda1376a193b0be5241ea97de2a8b2b9783c7e3"
+    },
+    {
+      "path": "qa/visual-review.json",
+      "bytes": 2947,
+      "sha256": "28775f01eb4156b91e5e1f3301ea49724c89f14bf311b1f19e83803d3feb8bb2"
+    },
+    {
+      "path": "views/four-direction-review.png",
+      "bytes": 3569990,
+      "sha256": "720647a6bee168f2536d54978f39f537d37abd2754022c6ba1ff86af15e87941"
+    },
+    {
+      "path": "views/north-interior.png",
+      "bytes": 427030,
+      "sha256": "a03b9528e7f6b873910eeca8a889c4d312f3a35ee63c8f32df29885f504b7101"
+    },
+    {
+      "path": "views/north-exterior.png",
+      "bytes": 436148,
+      "sha256": "f6e4f485fa298d693bfc879e7b00b7c21111c796556682c936557e6feaaca5ae"
+    },
+    {
+      "path": "views/south-interior.png",
+      "bytes": 407950,
+      "sha256": "7b3b4cb51278f0d2718072b76a761b2332720c00420eab8c514cab6b97d5dedc"
+    },
+    {
+      "path": "views/south-exterior.png",
+      "bytes": 370143,
+      "sha256": "a3a5db3232bd029feebb226f044483010a1ab8ac32cbdda69f420107b6844845"
+    },
+    {
+      "path": "views/west-interior.png",
+      "bytes": 395604,
+      "sha256": "dbe53a30e9ee73bd22106221e43e02d34c3ee878ecdbcb2b0b4cd8c24344cdad"
+    },
+    {
+      "path": "views/west-exterior.png",
+      "bytes": 332601,
+      "sha256": "2a1b5c5644abf7aa7759cb2184d7ec9f317f4f99c466209ccf1e4eb9d11d4041"
+    },
+    {
+      "path": "views/east-interior.png",
+      "bytes": 430979,
+      "sha256": "79de4acd3010b182e19559504dabaa5d6ada8e853c431b74cf1fc9e1a6ea85e3"
+    },
+    {
+      "path": "views/east-exterior.png",
+      "bytes": 339459,
+      "sha256": "102fb05aba874155655d9044a584feb6c4adc2b5025df0e0e750558bfedf05dc"
+    },
+    {
+      "path": "views/plan.png",
+      "bytes": 254152,
+      "sha256": "c00bc8071c9523b6b7ad696711e9f53a406e7ac479830aa5122f05681901d621"
+    },
+    {
+      "path": "qa/native-placed-none.nbt",
+      "bytes": 6709,
+      "sha256": "20a412d958ea516f9a52fb5cc102162c2b776092fb324b28d10bd85625c2cedb"
+    },
+    {
+      "path": "qa/native-placed-clockwise_90.nbt",
+      "bytes": 6709,
+      "sha256": "20a412d958ea516f9a52fb5cc102162c2b776092fb324b28d10bd85625c2cedb"
+    },
+    {
+      "path": "qa/native-placed-clockwise_180.nbt",
+      "bytes": 6709,
+      "sha256": "20a412d958ea516f9a52fb5cc102162c2b776092fb324b28d10bd85625c2cedb"
+    },
+    {
+      "path": "qa/native-placed-counterclockwise_90.nbt",
+      "bytes": 6709,
+      "sha256": "20a412d958ea516f9a52fb5cc102162c2b776092fb324b28d10bd85625c2cedb"
+    }
+  ],
+  "scope": {
+    "deployed": false,
+    "player_saves_modified": false,
+    "shared_core_modified": false,
+    "official_instance_modified": false,
+    "test_world_only": true
+  },
+  "limitations": [
+    "Isolated Forge 47.4.10 server, not full-modpack client, multiplayer or FPS acceptance.",
+    "Random vine growth disabled; scheduled support/fluid ticks enabled.",
+    "No deployment, FT core integration, hall connection, occupancy or idempotence tested.",
+    "Unique integration slot, connection from FT hall, and final coordinator acceptance remain outside this independent corridor delivery."
+  ]
+}

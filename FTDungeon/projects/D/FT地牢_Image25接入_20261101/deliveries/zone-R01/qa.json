@@ -1,0 +1,120 @@
+{
+  "id": "zone-R01",
+  "name": "塌塔基座",
+  "status": "PASS",
+  "sha256": "43554dfc5dfb7a7b251e007945d37b3166849f63548406ea712b1ec327b29775",
+  "reference_sha256": "cf5d8e795c7df413126bf76a2bb216637361a70807c43cf2e89987091a59e8c1",
+  "size": [
+    25,
+    17,
+    25
+  ],
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "generator": "Minecraft Builder Skill / Lodestone 0.6.0",
+  "required_four_files": [
+    "room.nbt",
+    "room.json",
+    "preview.png",
+    "qa.json"
+  ],
+  "checks": {
+    "reference_verified_against_manifest_and_verify": true,
+    "original_reference_sha256_matches": true,
+    "full_unique_explicit_volume": 10625,
+    "non_air_blocks": 4112,
+    "explicit_air": 6513,
+    "unsupported_assemblies": 0,
+    "entrance_clearance": [
+      3,
+      4
+    ],
+    "dry_ground_route_cells": 103,
+    "safe_landing": [
+      12,
+      2,
+      12
+    ],
+    "safe_landing_size": [
+      5,
+      3,
+      5
+    ],
+    "three_wide_supported_stair_steps": 9,
+    "supported_lanterns": 6,
+    "empty_barrels": 4,
+    "patterned_wall_banners": 2,
+    "entities": 0,
+    "four_exterior_views_original_nbt": true,
+    "four_interior_views_display_cutaway": true,
+    "total_views": 11,
+    "forge_native_actual_rotations": 4,
+    "forge_ticks": 400,
+    "forge_records_per_snapshot": 42500,
+    "unchanged_block_states_both_snapshots": true,
+    "native_collision_samples_per_rotation": 184,
+    "native_negative_defects_detected": 6,
+    "boundary_air_cells_per_rotation": 3226,
+    "no_fluids_fire_gravity_blocks_or_scripted_rewards": true
+  },
+  "report_index": [
+    {
+      "file": "qa/static.json",
+      "status": "PASS",
+      "sha256": "4304bb6a8c5185e675eeda8d283e87f23b3e2f2d291f3483dbf8119322ea19b6"
+    },
+    {
+      "file": "qa/forge-native.json",
+      "status": "PASS",
+      "sha256": "d2bf8b71048cf83885b9f50f03e79d19b6715483888e8d2db195b45b97544436"
+    },
+    {
+      "file": "qa/views.json",
+      "status": "PASS",
+      "sha256": "cdac5c803f085a7916ce81d3d98d056f31728641b7ac087b4c087357ec509e7b"
+    },
+    {
+      "file": "qa/composites.json",
+      "status": "PASS",
+      "sha256": "9847074ba046b7525ac3e70ce34e9bc6bc5c5a8248d51bbaced2c18db1371af1"
+    }
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "inspected": [
+      "preview.png",
+      "preview/four-interior.png",
+      "preview/four-exterior.png",
+      "preview/cutaway.png",
+      "preview/exterior-north.png"
+    ],
+    "software_preview_only": true,
+    "displayed_cutaway_preserves_original_nbt": true,
+    "observation_side_attached_banners_hidden_with_removed_wall": true
+  },
+  "deviations": [
+    "概念图无精确尺度；落地为25×17×25，北侧中央增加3宽4高开放接口及5×5安全落点。",
+    "保留真实露天残塔和24格残层缺口；缺口、残层前缘、楼梯两侧加护栏。",
+    "右侧断损石阶改为三格宽、实心砌体承托的九级完整石阶，连接上下3×3落点。",
+    "两根独立落地双格石柱承托木梁；碎石逐层承托。细碎斜梁、残布和垂藤分别简化为落梁、旗帜/地毯、苔块/持久树叶。",
+    "NBT保留四周完整残墙；内视副本剖切。独立废墟采用真实露天残顶，与旧九间密闭房间完整屋顶契约有差异，后续接入需按露天废墟审查。"
+  ],
+  "fixture_history": {
+    "first_attempt": "qa/forge-run-20261103-153925-230.log",
+    "failure": "natural terrain occupied test boundary at Y99",
+    "correction": "fixture origin raised from Y100 to Y256; room NBT unchanged",
+    "final": "qa/forge-run.log"
+  },
+  "deployment": {
+    "installed": false,
+    "production_files_modified": false,
+    "player_save_used": false,
+    "other_ids_modified": false,
+    "existing_R1_reused": false
+  },
+  "limitations": [
+    "露天残顶与旧九间密闭房间屋顶条款有差异，后续需按露天废墟审查。",
+    "软件渲染、隔离Forge原生碰撞采样，不是整合包客户端真人游玩/FPS/联机验收。",
+    "含显式空气，后续放置必须预检整个体积并拒绝占用。"
+  ]
+}

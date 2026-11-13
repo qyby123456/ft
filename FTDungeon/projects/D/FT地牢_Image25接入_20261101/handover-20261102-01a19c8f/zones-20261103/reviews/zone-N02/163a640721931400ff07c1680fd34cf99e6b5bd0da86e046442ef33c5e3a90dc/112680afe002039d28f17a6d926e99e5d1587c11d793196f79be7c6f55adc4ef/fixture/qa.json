@@ -1,0 +1,117 @@
+{
+  "schema": "ft-independent-zone-delivery-v1",
+  "id": "N02",
+  "status": "PASS",
+  "sha256": "163a640721931400ff07c1680fd34cf99e6b5bd0da86e046442ef33c5e3a90dc",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/hub/N02-hub-minecart-station.png",
+  "reference_sha256": "e1d1ea587fe2cfd8299af84f4a372b5cc089d6e4247e51d8505dc02dad1800b3",
+  "size": [
+    33,
+    15,
+    31
+  ],
+  "entrance": [
+    16,
+    2,
+    0
+  ],
+  "interior": [
+    16,
+    2,
+    3
+  ],
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "checks": {
+    "original_reference_manifest_verify": "PASS",
+    "static_full_explicit_nbt": "PASS",
+    "native_registry_states_and_roundtrip": "PASS",
+    "full_roof": "PASS",
+    "five_wide_three_high_public_routes_no_rail_crossing": "PASS",
+    "five_platform_safe_points": "PASS",
+    "three_external_walking_attachments": "PASS",
+    "five_external_rail_attachments": "PASS",
+    "all_73_rails_supported": "PASS",
+    "all_7_hanging_lanterns_supported": "PASS",
+    "four_native_rotations": "PASS",
+    "native_200_tick_stability": "PASS",
+    "world_captures_equal_rotated_source": "PASS",
+    "four_negative_probes_per_rotation": "PASS",
+    "zero_fluids_entities_inventory_and_loot": "PASS",
+    "four_inside_and_four_outside_software_views": "PASS",
+    "three_eye_views": "PASS",
+    "visual_inspection": "PASS"
+  },
+  "native_summary": {
+    "rotations": [
+      "NONE",
+      "CLOCKWISE_90",
+      "CLOCKWISE_180",
+      "COUNTERCLOCKWISE_90"
+    ],
+    "records_per_rotation": 15345,
+    "checked_after_ticks": 61380,
+    "stabilization_ticks": 200,
+    "rails_per_rotation": 73,
+    "external_test_rails_per_rotation": 10,
+    "lanterns_per_rotation": 7,
+    "public_route_cells": 225,
+    "reachable_foot_positions_without_rail_crossings_per_rotation": 646,
+    "walking_ports": 3,
+    "rail_ports": 5,
+    "dropped_entities": 0,
+    "negative_probes": {
+      "occupied_air_voxel_refused": 4,
+      "missing_chain_detected": 4,
+      "missing_rail_floor_detected": 4,
+      "blocked_public_route_detected": 4
+    },
+    "forced_chunk_ticking": true,
+    "neighbor_updates": true
+  },
+  "evidence": {
+    "static": "qa/static.json",
+    "native": "qa/native.json",
+    "native_log": "qa/forge-gametest.log",
+    "rotated_interfaces": "qa/rotated-interfaces.json",
+    "rendered_views": "qa/views.json",
+    "image_decode": "qa/image-decode.json",
+    "visual_review": "qa/visual-review.json",
+    "interior_sheet": "views/interior-sheet.png",
+    "exterior_sheet": "views/exterior-sheet.png",
+    "native_world_captures": [
+      "qa\\native-placed-none.nbt",
+      "qa\\native-placed-clockwise_90.nbt",
+      "qa\\native-placed-clockwise_180.nbt",
+      "qa\\native-placed-counterclockwise_90.nbt"
+    ]
+  },
+  "design_adaptations": [
+    "AI junction overlaps replaced by three independent fixed vanilla track networks.",
+    "Level platform at feet y=2 and floor y=1 removes forced steps from public paths; yellow edge and iron bars separate track zones.",
+    "Cauldrons and timber piles are static maintenance props, not spawned minecarts or inventories.",
+    "Lever desk is decorative; it has no track control wiring or promised switching function.",
+    "Final NBT retains the complete roof; cutaway applies only to software preview."
+  ],
+  "safety": {
+    "deployed": false,
+    "core_modified": false,
+    "production_instance_modified": false,
+    "production_saves_opened_or_modified": false,
+    "other_deliveries_modified": false,
+    "paid_image_api_called": false,
+    "isolated_test_world": "native-qa/run-isolated/world"
+  },
+  "not_tested": [
+    "Full FarmingTales modpack client rendering/playthrough, performance or multiplayer.",
+    "Minecart movement, powered transport or automatic switching.",
+    "FT core route integration, generation-marker implementation, world-border/entity/fluid occupancy rejection beyond the isolated block occupancy probe."
+  ],
+  "integration_requirements": [
+    "Inspect entire rotated volume, including air, entity/fluid/world-border occupancy before placement.",
+    "Rotate local feet coordinates and block states together using native StructureTemplate rotation.",
+    "Maintain generation markers; never overwrite generated rooms or player changes.",
+    "Walk connections attach at feet y=2 with a full floor at y=1; rail continuation attaches at rail y=2 with full support y=1.",
+    "Three independent fixed tracks; no automatic switching, cart spawning, transport logic or powered runtime promised."
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "C03",
+  "name": "蔓生角落神龛",
+  "status": "PASS",
+  "source_nbt_sha256": "de59629577403c50075f606284cddfb40c0d1612d5cbbee95657822a0f9c2ad2",
+  "reference": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/out/corners/C03-corners-overgrown-corner-shrine.png",
+  "reference_sha256": "66ec2c533d55317d11a79016865dd7dc6c3b7c19d24d5786cc09d8508bbc9d27",
+  "primary_deliverables": [
+    "room.nbt",
+    "room.json",
+    "preview.png",
+    "qa.json"
+  ],
+  "size": [
+    19,
+    12,
+    19
+  ],
+  "static_checks_passed": 19,
+  "route": {
+    "entrance": [
+      9,
+      2,
+      0
+    ],
+    "interior": [
+      9,
+      2,
+      4
+    ],
+    "exit": [
+      18,
+      2,
+      9
+    ],
+    "width": 5,
+    "clear_height": 3,
+    "main_route_cells": 95,
+    "static_conservative_air_only_reachable_cells": 143,
+    "native_collision_reachable_cells": 162
+  },
+  "stability": {
+    "rotations_passed": 4,
+    "snapshots_ticks": [
+      0,
+      200,
+      240
+    ],
+    "records_per_rotation": 4332,
+    "total_records_after_ticks": 17328,
+    "native_captures_match_source": true,
+    "vines_per_rotation": 58,
+    "hanging_lanterns_per_rotation": 4,
+    "empty_barrels_per_rotation": 3,
+    "decorative_banners_per_rotation": 1,
+    "negative_probes_passed": 16,
+    "stable_between_200_and_240": true
+  },
+  "visuals": {
+    "original_screenshots": 11,
+    "interior_views": 4,
+    "exterior_views": 4,
+    "eye_views": 2,
+    "shrine_detail": 1,
+    "sheets": [
+      "views/interior-sheet.png",
+      "views/exterior-sheet.png"
+    ],
+    "renderer": "Minecraft Builder Lodestone 0.6.0 bundled viewer + Chromium WebGL",
+    "actual_nbt": true,
+    "cutaway_preview_only": true
+  },
+  "evidence": [
+    {
+      "file": "qa/static.json",
+      "status": "PASS",
+      "sha256": "9442bc1a9d9b10494338ab88c3d1a34389186026e7f15c6bf9c82c5a1cdef79a"
+    },
+    {
+      "file": "qa/forge-native.json",
+      "status": "PASS",
+      "sha256": "b56f1950454eadadc903c215c9e4f4126f2c1a5fd97a9d5a6b11e9b9e16657b1"
+    },
+    {
+      "file": "qa/capture-comparison.json",
+      "status": "PASS",
+      "sha256": "c1a46c58a2f51f50b99846f26e167aa000a71b6df18d352a680c2b17cbeba73f"
+    },
+    {
+      "file": "qa/views.json",
+      "status": "PASS",
+      "sha256": "87e928a007768277ca7f8ae413debfbed7b26ead9a990c3b09d5b35072ad19cc"
+    },
+    {
+      "file": "qa/image-decode.json",
+      "status": "PASS",
+      "sha256": "e192515a5d1d1cbc01913d4f66ffed19f47f4bf58b3b25510ef027c47b677eeb"
+    },
+    {
+      "file": "qa/visual-review.json",
+      "status": "PASS",
+      "sha256": "03173e2411439970affaabb8fd21e398dc0f321ad29ac3c1bad43161f14c9bed"
+    }
+  ],
+  "initial_attempt": {
+    "file": "qa/attempt-1-native.json",
+    "status": "FAIL",
+    "cause": "The canSurvive-only negative vine probe permits support inherited from a vine above. The probe now directly validates every enabled vine face against a full solid backing block. The NBT did not change."
+  },
+  "scope": {
+    "independent_delivery_only": true,
+    "deployed": false,
+    "production_instance_modified": false,
+    "core_modified": false,
+    "player_worlds_opened": false,
+    "other_deliveries_modified": false
+  },
+  "limitations": [
+    "Lodestone renders are software previews, not Minecraft client screenshots.",
+    "Isolated Forge 47.4.10 GameTest is not full-modpack client, multiplayer or FPS acceptance.",
+    "Random tick speed was zero to separate natural vine growth from placement/support stability; scheduled and neighbor ticks ran.",
+    "Main-hall integration, return portals, production occupancy rejection and persistence remain integration-owner responsibilities.",
+    "Static reachability requires explicit air and is conservative; native collision checks additionally allow noncolliding decoration."
+  ]
+}

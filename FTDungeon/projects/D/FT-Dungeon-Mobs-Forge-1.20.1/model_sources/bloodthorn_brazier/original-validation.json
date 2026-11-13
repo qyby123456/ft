@@ -1,0 +1,382 @@
+{
+  "name": "血棘祭炉",
+  "date": "2026-11-01",
+  "status": "PASS",
+  "checks": {
+    "legacy_java_export_target_selected": true,
+    "only_positive_integer_cuboids": true,
+    "no_geometry_animation": true,
+    "runtime_integer_cuboids": true,
+    "eleven_fire_cuboids_preserve_shade_false": true,
+    "actual_native_export_matches_authored_geometry_uv": true,
+    "saved_editable_reopen_matches_export": true,
+    "runtime_native_import_reexport_matches": true,
+    "texture_references_survive_roundtrip": true,
+    "integer_group_pivots_zero_rotation": true,
+    "each_cube_has_exactly_one_parent": true,
+    "hidden_face_removal_conservative": true,
+    "within_budget": true,
+    "opaque_cuboids_no_cards": true,
+    "texture_dimensions": true,
+    "vanilla_texture_animation_16_frames": true,
+    "all_16_texture_frames_distinct": true,
+    "embedded_textures_match_external_png": true,
+    "eight_view_roundtrip_pixel_identical": true,
+    "all_16_visible_frames_distinct": true,
+    "no_duplicate_geometry": true,
+    "one_connected_voxel_assembly": true,
+    "generic_audits_no_errors_warnings": true,
+    "resource_pack_format_15": true
+  },
+  "failures": [],
+  "geometry": {
+    "cuboids": 43,
+    "faces": 217,
+    "hidden_faces_removed": 41,
+    "groups": 14,
+    "bounds": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        16,
+        16
+      ]
+    ],
+    "minimum_dimension": 1,
+    "rotations": 0,
+    "plane_elements": 0,
+    "mesh_elements": 0,
+    "occupied_voxels": 1832,
+    "structural_voxel_center_height": 5.06
+  },
+  "textures": {
+    "body": [
+      64,
+      64
+    ],
+    "fire_strip": [
+      16,
+      256
+    ],
+    "fire_frame": [
+      16,
+      16
+    ],
+    "frames": 16,
+    "ticks_per_frame": 2,
+    "loop_seconds_at_20tps": 1.6,
+    "materials": 2,
+    "total_png_pixels": 8192,
+    "uncompressed_base_RGBA_bytes_not_measured_VRAM": 32768
+  },
+  "native_checks": {
+    "editable_reopen": {
+      "editable_reopened": true,
+      "uuid": "79883469-6bf1-75a5-3cbd-93e7b17a450e",
+      "java_block_version": "1.9.0",
+      "cubes": 43,
+      "groups": [
+        {
+          "name": "血棘祭炉_root",
+          "uuid": "9be5ae09-7cfe-57e1-b8ee-7ddf99db69d1",
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "root"
+        },
+        {
+          "name": "01_重底座",
+          "uuid": "32f68a78-3857-5fc3-a60e-5499119c99e9",
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "9be5ae09-7cfe-57e1-b8ee-7ddf99db69d1"
+        },
+        {
+          "name": "四角短足",
+          "uuid": "05db34b0-c029-5681-a7d1-4d0c27c48808",
+          "origin": [
+            8,
+            0,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "32f68a78-3857-5fc3-a60e-5499119c99e9"
+        },
+        {
+          "name": "两级方台",
+          "uuid": "aeb50ab3-dc2e-593c-8e6c-e424180cc60b",
+          "origin": [
+            8,
+            2,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "32f68a78-3857-5fc3-a60e-5499119c99e9"
+        },
+        {
+          "name": "02_黑铁方盆",
+          "uuid": "6c97c8a0-46d6-54d9-a81a-3dc8b01404a2",
+          "origin": [
+            8,
+            4,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "9be5ae09-7cfe-57e1-b8ee-7ddf99db69d1"
+        },
+        {
+          "name": "盆底与厚壁",
+          "uuid": "43ae9e22-122c-51ce-912a-097a9088b096",
+          "origin": [
+            8,
+            4,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "6c97c8a0-46d6-54d9-a81a-3dc8b01404a2"
+        },
+        {
+          "name": "方形压边",
+          "uuid": "32070640-557f-5b03-a9f9-18d820a5980b",
+          "origin": [
+            8,
+            9,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "6c97c8a0-46d6-54d9-a81a-3dc8b01404a2"
+        },
+        {
+          "name": "03_骨饰",
+          "uuid": "5bc6131d-b24e-502e-9f0a-4552f9a324ee",
+          "origin": [
+            8,
+            9,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "9be5ae09-7cfe-57e1-b8ee-7ddf99db69d1"
+        },
+        {
+          "name": "前后方颅面饰",
+          "uuid": "ad5e869d-06fe-55b1-a866-a8f3863e7e07",
+          "origin": [
+            8,
+            6,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "5bc6131d-b24e-502e-9f0a-4552f9a324ee"
+        },
+        {
+          "name": "四角阶梯骨齿",
+          "uuid": "ac3a8ea8-9c5c-510d-8f2e-2c98bc2dd215",
+          "origin": [
+            8,
+            10,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "5bc6131d-b24e-502e-9f0a-4552f9a324ee"
+        },
+        {
+          "name": "04_炭床",
+          "uuid": "4a76e1c9-a3d6-5d9b-8671-30f57196e987",
+          "origin": [
+            8,
+            7,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "9be5ae09-7cfe-57e1-b8ee-7ddf99db69d1"
+        },
+        {
+          "name": "05_血焰_仅纹理循环",
+          "uuid": "4cbef615-23fb-5af1-b682-1bb32530489a",
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "9be5ae09-7cfe-57e1-b8ee-7ddf99db69d1"
+        },
+        {
+          "name": "主焰",
+          "uuid": "c30bf891-7060-5d7b-b28c-dfb477ffe30e",
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "4cbef615-23fb-5af1-b682-1bb32530489a"
+        },
+        {
+          "name": "四向阶梯副焰",
+          "uuid": "966a8bb6-f7e2-5f80-8ea1-a27762663941",
+          "origin": [
+            8,
+            9,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "parent": "4cbef615-23fb-5af1-b682-1bb32530489a"
+        }
+      ],
+      "textures": [
+        {
+          "name": "bloodthorn_brazier.png",
+          "error": 0,
+          "width": 64,
+          "height": 64
+        },
+        {
+          "name": "bloodthorn_brazier_fire.png",
+          "error": 0,
+          "width": 16,
+          "height": 256
+        }
+      ]
+    },
+    "runtime_import": {
+      "runtime_reexported": true,
+      "uuid": "df8869d7-28bb-5bca-240c-98abb7087523",
+      "java_block_version": "1.9.0",
+      "cubes": 43,
+      "unshaded_fire": 11,
+      "textures": [
+        {
+          "name": "bloodthorn_brazier.png",
+          "error": 0,
+          "width": 64,
+          "height": 64,
+          "frames": 1
+        },
+        {
+          "name": "bloodthorn_brazier_fire.png",
+          "error": 0,
+          "width": 16,
+          "height": 256,
+          "frames": 16
+        }
+      ]
+    }
+  },
+  "render_comparison": {
+    "front": true,
+    "back": true,
+    "left": true,
+    "right": true,
+    "top": true,
+    "underside": true,
+    "hero": true,
+    "rear_hero": true
+  },
+  "runtime": {
+    "target": "Minecraft Java 1.20.1 / vanilla JSON cuboids and animated PNG",
+    "bone_runtime": "No entity bone animation: hierarchy is editable organization only",
+    "emission": "No shader/PBR/dynamic-light dependency; shade=false is not actual block light emission",
+    "client_tested": false,
+    "deployed": false,
+    "block_or_item_registered": false
+  },
+  "native_export_target": {
+    "uuid": "cd3160a5-3ba3-8b8b-5eb0-cec2881a9cc4",
+    "target_selector": "1.9.0",
+    "target_label": "1.9 - 1.21.5",
+    "shading": true,
+    "direction_override": false,
+    "unshaded_fire": 11
+  },
+  "reference_image": {
+    "dsh_attempted": true,
+    "dsh_session": "session-f0fe8140-9ae9-4b86-a7ca-de2ccc3f009d",
+    "generated": false,
+    "reason": "DSH reported no native image interface; all delivered views are actual model renders"
+  },
+  "limitations": [
+    "No Minecraft client render or FPS measurement",
+    "No full schema validation or arbitrary overlap/hidden-face proof",
+    "No custom animation expansion, bone transform baking or outline pairing verification",
+    "Pack version, item definitions and display contexts require separate checks",
+    "Orthographic preview uses nearest-pixel software raycasting, not Minecraft ambient occlusion or client lighting.",
+    "Integer pivots alone do not validate arbitrary future skeletal motion; no skeletal motion is included."
+  ],
+  "sha256": {
+    "可编辑模型\\血棘祭炉_暗黑血祭_整数方块.bbmodel": "bf2c5e146419f2824039f2840b79d31078bf5286c2f95ca0ae29d20d41023419",
+    "运行资源\\assets\\ftboss\\models\\block\\bloodthorn_brazier.json": "3e5b7826b780ba5ee511ac1d81954f4afcc708ab409c3609f2b2722e77de7a7a",
+    "运行资源\\assets\\ftboss\\models\\item\\bloodthorn_brazier.json": "d48bd2b4afedf45c5029c03e0d73e0074427802aedf5cdd1184241bba76a3ca9",
+    "运行资源\\assets\\ftboss\\textures\\block\\bloodthorn_brazier.png": "0e6744eb8f5909710982cd370c5b73ef3afd280d5a236ee38a625f19cdc171c3",
+    "运行资源\\assets\\ftboss\\textures\\block\\bloodthorn_brazier_fire.png": "0e8bd906b911101cc417bd6fd0097d689106a12c4514d393c35fc55d5951b058",
+    "运行资源\\assets\\ftboss\\textures\\block\\bloodthorn_brazier_fire.png.mcmeta": "6ff9e2a1d55317aa96feb030f03c9d550e0a8ff83c43a8b04966ac2137a25b33",
+    "运行资源\\pack.mcmeta": "2f094c5510da7c3faa671b50e18d930a2844b04f441506b8d37e47a01307c46c"
+  }
+}

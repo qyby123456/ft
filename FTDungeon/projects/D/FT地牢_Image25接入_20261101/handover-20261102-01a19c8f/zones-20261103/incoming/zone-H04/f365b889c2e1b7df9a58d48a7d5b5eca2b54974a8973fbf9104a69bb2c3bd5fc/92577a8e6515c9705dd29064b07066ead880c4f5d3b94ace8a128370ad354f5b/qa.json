@@ -1,0 +1,96 @@
+{
+  "id": "H04",
+  "name": "柱列中庭",
+  "status": "PASS",
+  "sha256": "f365b889c2e1b7df9a58d48a7d5b5eca2b54974a8973fbf9104a69bb2c3bd5fc",
+  "reference_sha256": "7f2d1443078ad7b3ae6611ce5af55ef41682bb80b2dbbcbde497c2bf50554e84",
+  "size": [
+    33,
+    23,
+    37
+  ],
+  "entrance": [
+    16,
+    2,
+    0
+  ],
+  "interior": [
+    16,
+    2,
+    7
+  ],
+  "facing": "north",
+  "evidence_levels": {
+    "static": "PASS",
+    "actual_nbt_software_views": "PASS",
+    "agent_visual_review": "PASS",
+    "forge_4_rotations_400_ticks": "PASS",
+    "full_modpack_client_playtest": "NOT_RUN",
+    "production_deployment": "NOT_PERFORMED"
+  },
+  "checks": {
+    "grounded_independent_pillars": 4,
+    "uninterrupted_pillar_to_beam_to_roof": true,
+    "complete_roof_cells": 1221,
+    "complete_foundation_and_floor": true,
+    "dry_ground_reachable_nodes": 668,
+    "upper_reachable_nodes": 256,
+    "clear_3_by_4_ports": 4,
+    "entrance_safe_point_two_way": true,
+    "stairs_count": 2,
+    "stairs_width": 3,
+    "stairs_steps": 8,
+    "native_player_collision_size": [
+      0.6,
+      1.8
+    ],
+    "stair_samples_each_rotation": 82,
+    "source_water_blocks": 40,
+    "sealed_fluid_faces": 200,
+    "supported_lanterns": 26,
+    "roof_anchored_pendants": 5,
+    "decorative_banners": 16,
+    "non_air_blocks": 12080,
+    "records_per_rotation": 28083,
+    "total_rotation_records": 112332,
+    "state_unchanged_after_ticks": 400,
+    "full_neighbor_updates": true,
+    "negative_probes_rejected": [
+      "missing_entrance_floor",
+      "blocked_entrance",
+      "broken_fountain_dam",
+      "missing_pillar_segment",
+      "broken_pendant_anchor",
+      "roof_hole"
+    ],
+    "generated_entities": 0,
+    "unexpected_block_entities": 0,
+    "gameplay_loot": false,
+    "render_views": 14,
+    "complete_exterior_directions": 4,
+    "cutaway_interior_directions": 4,
+    "unchanged_template_eye_directions": 4,
+    "browser_errors": 0
+  },
+  "reports": [
+    "qa/static.json",
+    "qa/forge-native.json",
+    "qa/views.json",
+    "qa/composites.json",
+    "qa/visual-review.json"
+  ],
+  "forge_log": "qa/forge-20261103-173643-675.log",
+  "source_fidelity_notes": [
+    "Complete roof and four walls reconstructed from the cutaway reference",
+    "Pillar spacing adjusted to keep two-wide dry circulation around the basin",
+    "Upper fountain water curtain expressed with cyan stained glass; only the sealed basin contains water",
+    "Native banner Patterns data preserved; software renderer may omit the golden pattern overlay"
+  ],
+  "isolation": {
+    "workspace": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\zone-H04",
+    "production_instance_modified": false,
+    "player_save_used": false,
+    "other_delivery_modified": false,
+    "new_paid_image_generation": false
+  }
+}

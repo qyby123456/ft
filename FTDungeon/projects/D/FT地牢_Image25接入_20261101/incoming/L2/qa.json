@@ -1,0 +1,340 @@
+{
+  "id": "L2",
+  "status": "PASS",
+  "sha256": "d0dbc83705bda46710fe53f0089857a8f77f44d46dd49b4142764b100cc4992b",
+  "geometry": {
+    "full_volume_explicit_air": true,
+    "north_opening_clear": true,
+    "internal_stair": true,
+    "enclosed_water_cells": 17,
+    "water_ice_caps": true,
+    "snow_supports": true,
+    "plant_supports": true,
+    "entities": 0,
+    "block_entity_nbt": 0,
+    "rewards_or_spawners": 0
+  },
+  "walkability": {
+    "status": "PASS",
+    "reachable_dry_cells": 248,
+    "entrance_to_interior": [
+      [
+        10,
+        1,
+        0
+      ],
+      [
+        10,
+        2,
+        1
+      ],
+      [
+        10,
+        2,
+        2
+      ],
+      [
+        10,
+        2,
+        3
+      ],
+      [
+        10,
+        2,
+        4
+      ],
+      [
+        10,
+        2,
+        5
+      ],
+      [
+        10,
+        2,
+        6
+      ]
+    ],
+    "targets": [
+      [
+        10,
+        2,
+        6
+      ],
+      [
+        10,
+        2,
+        7
+      ],
+      [
+        7,
+        2,
+        10
+      ],
+      [
+        13,
+        2,
+        10
+      ],
+      [
+        10,
+        2,
+        14
+      ],
+      [
+        10,
+        2,
+        18
+      ],
+      [
+        7,
+        2,
+        17
+      ],
+      [
+        14,
+        2,
+        16
+      ],
+      [
+        7,
+        2,
+        4
+      ]
+    ],
+    "method": "2-block clear foot/head cells; 1-block rise permitted only along internal south-facing stair; water and icy surfaces excluded"
+  },
+  "features": {
+    "north_interface": {
+      "entrance": [
+        10,
+        1,
+        0
+      ],
+      "opening_min": [
+        9,
+        1,
+        0
+      ],
+      "opening_max": [
+        11,
+        3,
+        0
+      ],
+      "internal_step": {
+        "position_min": [
+          9,
+          1,
+          1
+        ],
+        "position_max": [
+          11,
+          1,
+          1
+        ],
+        "facing": "south"
+      }
+    },
+    "walls": {
+      "height_above_main_floor": 5,
+      "solid_y": [
+        2,
+        6
+      ],
+      "snow_y": 7,
+      "roof": "open",
+      "inside_floor_y": 1
+    },
+    "ice_fountain": {
+      "minimum": [
+        8,
+        2,
+        8
+      ],
+      "maximum": [
+        12,
+        6,
+        12
+      ],
+      "footprint": [
+        5,
+        5
+      ],
+      "enclosed_source_water": 8,
+      "ice_cap_y": 3
+    },
+    "frozen_pond": {
+      "minimum": [
+        2,
+        1,
+        2
+      ],
+      "maximum": [
+        6,
+        4,
+        6
+      ],
+      "enclosed_source_water": 9,
+      "ice_cap_y": 2
+    },
+    "flower_bed_1": {
+      "minimum": [
+        3,
+        2,
+        7
+      ],
+      "maximum": [
+        6,
+        4,
+        9
+      ]
+    },
+    "flower_bed_2": {
+      "minimum": [
+        14,
+        2,
+        7
+      ],
+      "maximum": [
+        17,
+        4,
+        9
+      ]
+    },
+    "flower_bed_3": {
+      "minimum": [
+        3,
+        2,
+        13
+      ],
+      "maximum": [
+        6,
+        4,
+        15
+      ]
+    },
+    "flower_bed_4": {
+      "minimum": [
+        14,
+        2,
+        13
+      ],
+      "maximum": [
+        17,
+        4,
+        15
+      ]
+    },
+    "fir_3": {
+      "position": [
+        3,
+        2,
+        17
+      ],
+      "top_y": 11
+    },
+    "fir_17": {
+      "position": [
+        17,
+        2,
+        4
+      ],
+      "top_y": 9
+    },
+    "pergola": {
+      "minimum": [
+        4,
+        2,
+        16
+      ],
+      "maximum": [
+        8,
+        9,
+        19
+      ]
+    },
+    "hooded_statue": {
+      "minimum": [
+        14,
+        2,
+        17
+      ],
+      "maximum": [
+        16,
+        7,
+        19
+      ]
+    },
+    "lanterns": [
+      [
+        8,
+        4,
+        4
+      ],
+      [
+        12,
+        4,
+        4
+      ]
+    ]
+  },
+  "non_air_blocks": 1781,
+  "palette_states": 37,
+  "template_blocks": 5292,
+  "minecraft_registry": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "sha256": "d0dbc83705bda46710fe53f0089857a8f77f44d46dd49b4142764b100cc4992b",
+    "nbt_roundtrip": "PASS",
+    "palette_states": 37,
+    "volume_blocks": 5292,
+    "sealed_source_water_cells": 17,
+    "supported_snow_layers": 202,
+    "supported_lit_flowers": 8,
+    "supported_lanterns": 3,
+    "scope": "Actual Forge registry, StructureTemplate round-trip, full-face fluid containment and snow/plant/lantern support; not a client screenshot or installed world test."
+  },
+  "visual_review": {
+    "status": "PASS",
+    "reviewed": [
+      "preview.png",
+      "front.png",
+      "back.png",
+      "left.png",
+      "right.png"
+    ],
+    "final_nbt_decoded_for_render": true,
+    "main_preview_cutaway_only": "North and east upper perimeter walls hidden only in preview; actual NBT and four directional views retain complete walls.",
+    "checks": [
+      "No cropped trees/pergola",
+      "All four beds present",
+      "North 3x3 interface clear",
+      "Internal step remains in template",
+      "Dry path to atrium and around fountain",
+      "Pond and fountain ice caps retained"
+    ],
+    "limitation": "Software vanilla-texture illustration; selected non-cube meshes approximated. Not a Minecraft client screenshot."
+  },
+  "deployed": false,
+  "core_modified": false,
+  "player_saves_touched": false,
+  "legacy_delivery_overwritten": false,
+  "reference_sha256": "0145f595b6681b0554cad79c3f5e519138bf07a8f713949420b92b041841c7e3",
+  "incoming_directory": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\incoming\\L2",
+  "producer_source": "D:\\ft工程文件\\霜雪花园地牢_20261101\\L2北接口适配_20261101",
+  "publication": "incoming only; no core edits, no jar/pack installation, no player save access",
+  "integration_notes": [
+    "Template north is local z=0; entrance feet at [10,1,0], full block at y=0 under all three entry columns.",
+    "Internal south-facing stone-brick stair at local z=1 raises to main feet y=2. Keep the connector floor aligned with entrance.y-1.",
+    "SizeY=12 includes tall spruce and snow cap. Perimeter wall above main floor is 5 full blocks; courtyard is open to sky.",
+    "All 5292 volume cells, including air, are explicit. Integrator must preflight the entire volume before first placement; this file is not a clear command.",
+    "17 source-water cells are sealed on all six faces by source water or actual full-support faces, with non-melting packed-ice top caps.",
+    "No reward containers, mobs, spawners, command blocks, jigsaw blocks or structure blocks are included.",
+    "When integrating underground/no-skylight, retain local vanilla light blocks supporting flower illumination; no dimension weather or time overrides included."
+  ],
+  "artifact_sha256": {
+    "room.nbt": "d0dbc83705bda46710fe53f0089857a8f77f44d46dd49b4142764b100cc4992b",
+    "room.json": "15bb6dd92ff8d3105bbd86a25a790a17e0e61718f1b8b8dc9414bf85e0f492ba",
+    "preview.png": "fbbaccbbb59471c7dfbf8502096514e23407724a3a6d8020f0ebb69208cfb37c",
+    "four-views.png": "1f01c4853b525c03504fcfb5e82e75148dad61303201ebade29f5ca48a2c1cd1"
+  }
+}

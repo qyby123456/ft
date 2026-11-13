@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "generated_at": "2026-11-02T10:35:53.301564+08:00",
+  "id": "SHOP_B_MONSTER",
+  "variant": "B",
+  "structure_sha256": "68b5c406511795ec145a4d80be895c66e38199e5dfc24a9b21540b20e9c410fa",
+  "structure_size": [
+    11,
+    8,
+    11
+  ],
+  "record_count": 968,
+  "entrance": [
+    5,
+    1,
+    0
+  ],
+  "interior": [
+    5,
+    1,
+    3
+  ],
+  "reference_sha256": "c21adfa37ec561da27affb7def791fc78f5e727b74cb2dbb7b92666210522212",
+  "static": {
+    "status": "PASS",
+    "checks": 24,
+    "report": "qa/static.json"
+  },
+  "native": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "java": "17.0.8",
+    "rotations": 4,
+    "ticks": 100,
+    "records_after_ticks": 3872,
+    "block_entities_per_rotation": 8,
+    "support_links_per_rotation": 60,
+    "reachable_foot_positions_per_rotation": [
+      39,
+      39,
+      39,
+      39
+    ],
+    "extra_world_entities": 0,
+    "negative_probes": 16,
+    "source_vs_unrotated_world_states": "EXACT_EQUAL",
+    "report": "qa/native.json",
+    "log": "qa/forge-gametest.log"
+  },
+  "visual": {
+    "status": "PASS",
+    "report": "qa/visual-review.json",
+    "images": [
+      {
+        "path": "preview/counter-detail.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "4c3945f18b94912ee77323ef147c4aa1208226c7a05814ea8fcc58c39b7c518d"
+      },
+      {
+        "path": "preview/delivery-sheet.png",
+        "size": [
+          2480,
+          1650
+        ],
+        "sha256": "d0863b1e51eb231ce3a8dc5762337fc9ba48ba0ddb1c0a3a082a27428cc632eb"
+      },
+      {
+        "path": "preview/east.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "c559e41dfdd2ea766377e9d0f7b0f721e69946a5fcc5bc1028454146b0234aba"
+      },
+      {
+        "path": "preview/exterior.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "f5dd70e76f753759ca9eaef41e1e11ef6d62b6bf9c9b5ea0cefa40d3740966b0"
+      },
+      {
+        "path": "preview/four-views.png",
+        "size": [
+          3200,
+          2500
+        ],
+        "sha256": "58f5dc7ed2e456b00f366163cac4e203752d03e25b322cb76be7a5512971a99b"
+      },
+      {
+        "path": "preview/native-world-capture.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "8ddc744b2744fc7300ae57c60745cf029636dff199e11fc68b20d60f4b498a41"
+      },
+      {
+        "path": "preview/north.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "1bdc0762f44885a2e739c9cfd15ccfb34e9971526b0083d381d5ba654b365f63"
+      },
+      {
+        "path": "preview/plan.png",
+        "size": [
+          1280,
+          1150
+        ],
+        "sha256": "fb5d3627f41eef4d0c41694168ed3c5fb65b7312e12a30a2d8009a68e6192a87"
+      },
+      {
+        "path": "preview/south.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "9d6fa19fa0b4dad1fb772468858a85975aa5c3fadf0b9a216890aee923a992b2"
+      },
+      {
+        "path": "preview/west.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "d7c32182fc1bc70f49c20c2bfeffb0feca64626a6ce35143ebf70185f52f1d02"
+      },
+      {
+        "path": "out/preview.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "4c3945f18b94912ee77323ef147c4aa1208226c7a05814ea8fcc58c39b7c518d"
+      }
+    ]
+  },
+  "reproducibility": {
+    "status": "PASS",
+    "report": "qa/reproducibility.json"
+  },
+  "references": {
+    "variant": "B",
+    "images": [
+      {
+        "file": "shop-variant-B-monster-shop.png",
+        "source": "D:\\ft工程文件\\image2.5\\dungeon-shop-variants-20261102\\out\\shop-variant-B-monster-shop.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "sha256": "c21adfa37ec561da27affb7def791fc78f5e727b74cb2dbb7b92666210522212"
+      }
+    ],
+    "source_documents": [
+      {
+        "file": "SOURCE_README.md",
+        "sha256": "2527f8b6bc525fe51b2d30e98c760e0209a3fde9c5d6c19bf9b3d35aa5b00e18"
+      },
+      {
+        "file": "SOURCE_manifest.json",
+        "sha256": "81e204f76ab62d5fbeef4365a07c1c1fecd61877bdc3d62709369211c2b8f8d9"
+      },
+      {
+        "file": "SOURCE_DISPATCH.md",
+        "sha256": "0e33ffd76606bd14a49f5a8066fdfb76def997c0bebd3b4c7c9d0885a790cf85"
+      }
+    ],
+    "missing_source_document": "STYLES.md is named in README but absent from the supplied directory; not fabricated."
+  },
+  "integration": {
+    "status": "STANDALONE_CANDIDATE_NOT_REGISTERED",
+    "id_is_provisional": true,
+    "assigned_slot": null,
+    "deployed": false,
+    "requires_coordinator_acceptance": true,
+    "coordinator_thread": "01a19758-b0e5-75c2-822a-4860527a1e8b"
+  },
+  "boundary": "Task writes only within independent B root; no edits to other rooms, core source, deployed JARs, image API settings or production saves.",
+  "limitations": [
+    "No FT catalog slot, gallery walkway, idempotence or production deployment tested.",
+    "No full modpack client, multiplayer, FPS or merchant trade behavior tested.",
+    "Native world capture is machine evidence, not an in-game screenshot.",
+    "Software NBT render, not a full-modpack Minecraft screenshot or player test; no shader, light propagation or biome tint simulation.",
+    "Skulls use a simplified entity model and wall-sign text is not rendered; visual likeness is a vanilla-block translation, not pixel-exact reconstruction of the concept image.",
+    "Four-view/source/native previews hide only roof and near walls. Counter-detail/out preview explicitly also hides the Z=3 Y=6 beam for inspection; the source NBT is untouched.",
+    "No claim about FT core roads, allocated slots, production placement, multiplayer, FPS or merchant behavior."
+  ]
+}

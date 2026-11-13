@@ -1,0 +1,284 @@
+{
+  "id": "R1",
+  "status": "PASS",
+  "completed_at": "2026-11-02T12:34:47+08:00",
+  "timezone": "Asia/Shanghai",
+  "sha256": "8521470dc375874496f291b400695e29bc0980d36dd67526c9d0ea2c7d9e8760",
+  "static": {
+    "status": "PASS",
+    "sha256": "8521470dc375874496f291b400695e29bc0980d36dd67526c9d0ea2c7d9e8760",
+    "size": [
+      17,
+      11,
+      17
+    ],
+    "records": 3179,
+    "non_air_blocks": 1351,
+    "palette_states": 35,
+    "reachable_floor_cells": 178,
+    "collapse_blocks_checked": 54,
+    "checks": {
+      "size_and_data_version": true,
+      "full_explicit_volume_unique": true,
+      "vanilla_only": true,
+      "no_forbidden_or_route_hazards": true,
+      "full_floor": true,
+      "complete_roof": true,
+      "closed_perimeter_except_north_port": true,
+      "north_three_by_three_air_port": true,
+      "entrance_interior_two_way_route": true,
+      "three_wide_central_walkway": true,
+      "landmarks_reachable": true,
+      "collapse_grounded_no_floating": true,
+      "all_gravity_blocks_supported": true,
+      "grounded_posts_and_roof_frames": true,
+      "lantern_anchor_2_3_8": true,
+      "lantern_anchor_6_4_5": true,
+      "lantern_anchor_10_4_5": true,
+      "lantern_anchor_6_4_13": true,
+      "lantern_anchor_10_4_13": true,
+      "no_entities": true,
+      "six_empty_barrels_only": true
+    },
+    "materials": {
+      "minecraft:deepslate_bricks": 213,
+      "minecraft:cracked_deepslate_bricks": 154,
+      "minecraft:polished_andesite": 47,
+      "minecraft:cobbled_deepslate": 191,
+      "minecraft:tuff": 179,
+      "minecraft:cracked_stone_bricks": 12,
+      "minecraft:stone_bricks": 39,
+      "minecraft:deepslate_coal_ore": 6,
+      "minecraft:deepslate_iron_ore": 8,
+      "minecraft:polished_deepslate": 46,
+      "minecraft:rail": 19,
+      "minecraft:stripped_spruce_log": 67,
+      "minecraft:spruce_fence": 6,
+      "minecraft:gravel": 5,
+      "minecraft:cobbled_deepslate_slab": 5,
+      "minecraft:coal_block": 1,
+      "minecraft:cauldron": 1,
+      "minecraft:anvil": 1,
+      "minecraft:crafting_table": 1,
+      "minecraft:barrel": 6,
+      "minecraft:spruce_slab": 6,
+      "minecraft:lantern": 5,
+      "minecraft:tripwire_hook": 2,
+      "minecraft:chain": 8,
+      "minecraft:spruce_log": 34,
+      "minecraft:deepslate_tiles": 289
+    },
+    "scope": "static checks only; native collision and survival require Forge test"
+  },
+  "native": {
+    "status": "PASS",
+    "sha256": "8521470dc375874496f291b400695e29bc0980d36dd67526c9d0ea2c7d9e8760",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "evidence": "real isolated GameTestServer / ServerLevel / StructureTemplate.placeInWorld",
+    "rotations": 4,
+    "initial": [
+      {
+        "reachable_dry_player_positions": 178,
+        "player_collision_box": "0.6 x 1.8 blocks",
+        "reachable_landmarks": 6,
+        "grounded_collapse_blocks": 54,
+        "complete_floor_and_roof_cells": 578,
+        "two_way_entrance_route": true,
+        "rotation": "NONE",
+        "records": 3179,
+        "native_supported_blocks": 1351,
+        "empty_native_barrel_entities": 6,
+        "supported_lanterns": 5,
+        "stable_rails": 19,
+        "supported_gravity_blocks": 6,
+        "unchanged_boundary_air_cells": 1514,
+        "unwanted_entities": 0
+      },
+      {
+        "reachable_dry_player_positions": 178,
+        "player_collision_box": "0.6 x 1.8 blocks",
+        "reachable_landmarks": 6,
+        "grounded_collapse_blocks": 54,
+        "complete_floor_and_roof_cells": 578,
+        "two_way_entrance_route": true,
+        "rotation": "CLOCKWISE_90",
+        "records": 3179,
+        "native_supported_blocks": 1351,
+        "empty_native_barrel_entities": 6,
+        "supported_lanterns": 5,
+        "stable_rails": 19,
+        "supported_gravity_blocks": 6,
+        "unchanged_boundary_air_cells": 1514,
+        "unwanted_entities": 0
+      },
+      {
+        "reachable_dry_player_positions": 178,
+        "player_collision_box": "0.6 x 1.8 blocks",
+        "reachable_landmarks": 6,
+        "grounded_collapse_blocks": 54,
+        "complete_floor_and_roof_cells": 578,
+        "two_way_entrance_route": true,
+        "rotation": "CLOCKWISE_180",
+        "records": 3179,
+        "native_supported_blocks": 1351,
+        "empty_native_barrel_entities": 6,
+        "supported_lanterns": 5,
+        "stable_rails": 19,
+        "supported_gravity_blocks": 6,
+        "unchanged_boundary_air_cells": 1514,
+        "unwanted_entities": 0
+      },
+      {
+        "reachable_dry_player_positions": 178,
+        "player_collision_box": "0.6 x 1.8 blocks",
+        "reachable_landmarks": 6,
+        "grounded_collapse_blocks": 54,
+        "complete_floor_and_roof_cells": 578,
+        "two_way_entrance_route": true,
+        "rotation": "COUNTERCLOCKWISE_90",
+        "records": 3179,
+        "native_supported_blocks": 1351,
+        "empty_native_barrel_entities": 6,
+        "supported_lanterns": 5,
+        "stable_rails": 19,
+        "supported_gravity_blocks": 6,
+        "unchanged_boundary_air_cells": 1514,
+        "unwanted_entities": 0
+      }
+    ],
+    "after_400_ticks": [
+      {
+        "reachable_dry_player_positions": 178,
+        "player_collision_box": "0.6 x 1.8 blocks",
+        "reachable_landmarks": 6,
+        "grounded_collapse_blocks": 54,
+        "complete_floor_and_roof_cells": 578,
+        "two_way_entrance_route": true,
+        "rotation": "NONE",
+        "records": 3179,
+        "native_supported_blocks": 1351,
+        "empty_native_barrel_entities": 6,
+        "supported_lanterns": 5,
+        "stable_rails": 19,
+        "supported_gravity_blocks": 6,
+        "unchanged_boundary_air_cells": 1514,
+        "unwanted_entities": 0
+      },
+      {
+        "reachable_dry_player_positions": 178,
+        "player_collision_box": "0.6 x 1.8 blocks",
+        "reachable_landmarks": 6,
+        "grounded_collapse_blocks": 54,
+        "complete_floor_and_roof_cells": 578,
+        "two_way_entrance_route": true,
+        "rotation": "CLOCKWISE_90",
+        "records": 3179,
+        "native_supported_blocks": 1351,
+        "empty_native_barrel_entities": 6,
+        "supported_lanterns": 5,
+        "stable_rails": 19,
+        "supported_gravity_blocks": 6,
+        "unchanged_boundary_air_cells": 1514,
+        "unwanted_entities": 0
+      },
+      {
+        "reachable_dry_player_positions": 178,
+        "player_collision_box": "0.6 x 1.8 blocks",
+        "reachable_landmarks": 6,
+        "grounded_collapse_blocks": 54,
+        "complete_floor_and_roof_cells": 578,
+        "two_way_entrance_route": true,
+        "rotation": "CLOCKWISE_180",
+        "records": 3179,
+        "native_supported_blocks": 1351,
+        "empty_native_barrel_entities": 6,
+        "supported_lanterns": 5,
+        "stable_rails": 19,
+        "supported_gravity_blocks": 6,
+        "unchanged_boundary_air_cells": 1514,
+        "unwanted_entities": 0
+      },
+      {
+        "reachable_dry_player_positions": 178,
+        "player_collision_box": "0.6 x 1.8 blocks",
+        "reachable_landmarks": 6,
+        "grounded_collapse_blocks": 54,
+        "complete_floor_and_roof_cells": 578,
+        "two_way_entrance_route": true,
+        "rotation": "COUNTERCLOCKWISE_90",
+        "records": 3179,
+        "native_supported_blocks": 1351,
+        "empty_native_barrel_entities": 6,
+        "supported_lanterns": 5,
+        "stable_rails": 19,
+        "supported_gravity_blocks": 6,
+        "unchanged_boundary_air_cells": 1514,
+        "unwanted_entities": 0
+      }
+    ],
+    "negative_probes_rejected": [
+      "floor_hole",
+      "roof_hole",
+      "blocked_entrance",
+      "floating_collapse",
+      "broken_support_post",
+      "unanchored_lantern"
+    ],
+    "gravity_ticks_explicitly_scheduled": true,
+    "neighbor_updates_dispatched": true,
+    "random_tick_speed": 3,
+    "fire_tick_enabled": true,
+    "production_save_used": false,
+    "full_modpack_playtest": false
+  },
+  "preview": {
+    "status": "PASS",
+    "sha256": "616aff63c609774321bfae7a5359c4601a6ad9c0f13445de97362a1f85d68528",
+    "source_sha256": "8521470dc375874496f291b400695e29bc0980d36dd67526c9d0ea2c7d9e8760",
+    "game_screenshot": false,
+    "visual_review": "preview, all four cutaway views, complete roof exterior and floor plan inspected"
+  },
+  "evidence": {
+    "qa/static.json": {
+      "sha256": "89f84c3a028f595204568f545063fffb6dd52b77a3acd784aa9cdaeaa2d92445",
+      "bytes": 2128
+    },
+    "qa/native.json": {
+      "sha256": "b2f42374a24b29660c70e8b409bcc3dc579da6103ee4487f6f5553fe6b158100",
+      "bytes": 5199
+    },
+    "qa/render.json": {
+      "sha256": "bbad7fef8b6b34d9b94f009f0dcbc78abb2ea111713a65741f1034dc77292103",
+      "bytes": 3502
+    },
+    "qa/forge-native-console.log": {
+      "sha256": "ae558ec9b8403f744d32f2084d7d9fa98119b9b02cd50050fd6feccc9861a1f2",
+      "bytes": 20353
+    },
+    "qa/forge-server.log": {
+      "sha256": "7352d951f35799881c5727c62fc0a3e663acbaf90566425d2649fce81c99ccab",
+      "bytes": 20607
+    },
+    "qa/four-views.png": {
+      "sha256": "6c31b6096b90399b4a93f7fe290863b3495ef0fe7ee4b869def30510446f62e6",
+      "bytes": 1251728
+    },
+    "qa/exterior.png": {
+      "sha256": "25866ae1c791386ea0771b5e0d7afc7bfabaad717ef50f633b4af421ff7125b5",
+      "bytes": 446482
+    },
+    "qa/floorplan.png": {
+      "sha256": "7375f9a18a5eaaa4f36d25b0e6e490c9ad7e24a5ba0d7aa0f2bd784decc9ebdc",
+      "bytes": 39816
+    }
+  },
+  "limitations": [
+    "Isolated Forge GameTest, not a full modpack client/multiplayer/FPS playtest.",
+    "No production save, installed mod, FT core, shared incoming directory, catalog, fixed slot or connecting road was modified.",
+    "Shared-route access, occupancy refusal and persistent generation-marker idempotency remain integration-owner work, not claimed here.",
+    "Reference minecart is represented by a static empty cauldron ore tub; no entity or moving cart is included.",
+    "Preview removes roof and near-side walls only for viewing; delivered NBT roof is complete.",
+    "First-start Forge config/default-file warnings and a 10205 ms/204 tick overload warning are retained in the successful test log; no performance guarantee is made."
+  ]
+}

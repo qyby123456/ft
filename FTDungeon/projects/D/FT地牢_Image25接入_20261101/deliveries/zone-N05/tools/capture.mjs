@@ -1,0 +1,61 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { createHash } from 'node:crypto';
+import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
+import assert from 'node:assert/strict';
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const runtime = 'C:/Users/YOUR_USERNAME/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';
+const require = createRequire(path.join(runtime, '../package.json'));
+const { chromium } = require('playwright');
+const sharp = require('sharp');
+const hash = bytes => createHash('sha256').update(bytes).digest('hex');
+const sourceHash = hash(await fs.readFile(path.join(root, 'room.nbt')));
+let executablePath = chromium.executablePath();
+try { await fs.access(executablePath); } catch { executablePath = 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'; }
+const browser = await chromium.launch({ headless: true, executablePath, args: ['--enable-unsafe-swiftshader', '--use-angle=swiftshader', '--disable-gpu-sandbox', '--disable-dev-shm-usage'] });
+const errors = [];
+try {
+  const page = await browser.newPage({ viewport: { width: 1536, height: 1024 }, deviceScaleFactor: 1 });
+  page.on('pageerror', error => errors.push(String(error)));
+  page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
+  const server = process.env.N05_PREVIEW_SERVER ?? 'http://127.0.0.1:5195';
+  const route = '/@fs/' + root.replaceAll('\\', '/') + '/preview/viewer.mjs';
+  const html = (await fs.readFile(path.join(root, 'preview/viewer.html'), 'utf8')).replace('./viewer.mjs', route);
+  await page.route('**/n05-capture', request => request.fulfill({ status: 200, contentType: 'text/html', body: html }));
+  await page.goto(server + '/n05-capture', { waitUntil: 'domcontentloaded', timeout: 180000 });
+  await page.waitForFunction(() => window.n05?.ready, null, { timeout: 180000 });
+  assert.deepEqual(errors, []);
+  assert.equal(await page.evaluate(() => window.n05.sha256), sourceHash);
+  const names = await page.evaluate(() => window.n05.views);
+  const screenshots = [];
+  for (const name of names) {
+    const camera = await page.evaluate(name => window.n05.view(name), name);
+    await page.locator('select').evaluate((element,name) => { element.value = name; },name);
+    await page.waitForTimeout(250);
+    const destination = path.join(root, 'preview', name + '.png');
+    await page.screenshot({ path: destination, animations: 'disabled' });
+    const bytes = await fs.readFile(destination);
+    const metadata = await sharp(bytes).metadata();
+    const stats = await sharp(bytes).stats();
+    assert(metadata.width === 1536 && metadata.height === 1024 && stats.channels.some(channel => channel.stdev > 15));
+    screenshots.push({ name, file: 'preview/' + name + '.png', sha256: hash(bytes), width: metadata.width, height: metadata.height, camera });
+  }
+  assert.deepEqual(errors, []);
+  const layers = [];
+  const firstEight = screenshots.slice(0, 8);
+  const ordered = ['north','east','south','west'].flatMap(direction => firstEight.filter(item => item.name.startsWith(direction)));
+  for (let index = 0; index < ordered.length; index++) layers.push({ input: await sharp(path.join(root, ordered[index].file)).resize(768,512).png().toBuffer(), left: 24 + (index % 2) * 784, top: 96 + Math.floor(index / 2) * 528 });
+  const heading = Buffer.from('<svg width="1600" height="90"><style>text{font-family:Segoe UI,Arial;fill:#eee5d4}</style><text x="26" y="36" font-size="26">N05 / LIFT HUB · FOUR CARDINAL DIRECTIONS</text><text x="26" y="65" font-size="16">Full exteriors + declared interior sections · Static cage · NBT SHA-256 ' + sourceHash.slice(0,16) + '</text></svg>');
+  layers.push({ input: heading, left: 0, top: 0 });
+  await sharp({ create: { width:1600,height:96+4*528,channels:4,background:'#141c24' } }).composite(layers).png().toFile(path.join(root,'preview/four-directions.png'));
+  const detailLayers = [];
+  for (let index=8;index<screenshots.length;index++) detailLayers.push({input:await sharp(path.join(root,screenshots[index].file)).resize(768,512).png().toBuffer(),left:((index-8)%3)*780+12,top:Math.floor((index-8)/3)*524+72});
+  detailLayers.push({input:Buffer.from('<svg width="2352" height="60"><text x="22" y="39" font-size="27" fill="#e9e6df" font-family="Segoe UI">N05 / COMPLETE NBT · 4 entrances / upper and lower levels / 3 ladder landings</text></svg>'),left:0,top:0});
+  await sharp({create:{width:2352,height:1644,channels:4,background:'#15202a'}}).composite(detailLayers).png().toFile(path.join(root,'preview/full-interior-details.png'));
+  await fs.copyFile(path.join(root,'preview/north-interior.png'),path.join(root,'preview.png'));
+  assert.equal(hash(await fs.readFile(path.join(root,'room.nbt'))),sourceHash);
+  const report = { id:'zone-N05',status:'PASS',source_sha256:sourceHash,renderer:'Lodestone / ThreeStructureRenderer / vanilla default resource pack',screenshot_count:screenshots.length,cardinal_exterior_interior_count:8,full_main_level_cardinal_views:4,screenshots,console_errors:errors,source_nbt_unchanged:true,visual_review:'PENDING',limits:['Software renders, not full-modpack client captures.','Interior sections hide roof, upper deck/guards and near walls only in renderer memory. All nine extra views use the complete NBT.','No elevator motion or player climbing claim.'] };
+  await fs.writeFile(path.join(root,'qa/render.json'),JSON.stringify(report,null,2)+'\n');
+  console.log(JSON.stringify({status:'PASS',screenshots:screenshots.length,source_sha256:sourceHash}));
+} finally { await browser.close(); }

@@ -1,0 +1,119 @@
+{
+  "id": "N03",
+  "status": "PASS",
+  "structure_sha256": "3c2488468131a5b283fbc80377ae4e62c4837f0d9aed58d175602dbe04f8ccb0",
+  "reference_sha256": "821cea10d8f31cdf296845e3d0c66f94bafe00a6cda7f3ca16be9e1d82e29ba8",
+  "evidence": {
+    "static": "qa/static.json",
+    "forge": "qa/forge-native.json",
+    "forge_log": "qa/forge-gametest.log",
+    "render": "qa/render.json",
+    "visual_review": "qa/visual-review.json"
+  },
+  "checks": {
+    "static": {
+      "status": "PASS",
+      "checks": 14
+    },
+    "forge": {
+      "status": "PASS",
+      "rotations": 4,
+      "records_after_120_ticks": 88200,
+      "neighbor_updates_per_rotation": 22050,
+      "native_swept_stair_transitions_total": 1248,
+      "negative_probes": 8,
+      "world_recapture_matches": true
+    },
+    "render": {
+      "status": "PASS",
+      "views": 11,
+      "four_internal_directions": true,
+      "complete_exterior": true,
+      "cutaways_display_only": true
+    }
+  },
+  "ports": [
+    {
+      "id": "north-lower",
+      "facing": "north",
+      "feet": [
+        17,
+        1,
+        0
+      ],
+      "width": 3,
+      "height": 3,
+      "floor_y": 0
+    },
+    {
+      "id": "south-lower",
+      "facing": "south",
+      "feet": [
+        17,
+        1,
+        34
+      ],
+      "width": 3,
+      "height": 3,
+      "floor_y": 0
+    },
+    {
+      "id": "east-upper",
+      "facing": "east",
+      "feet": [
+        34,
+        13,
+        17
+      ],
+      "width": 3,
+      "height": 3,
+      "floor_y": 12
+    },
+    {
+      "id": "west-upper",
+      "facing": "west",
+      "feet": [
+        0,
+        13,
+        17
+      ],
+      "width": 3,
+      "height": 3,
+      "floor_y": 12
+    }
+  ],
+  "vertical_connections": [
+    {
+      "from_feet_y": 1,
+      "to_feet_y": 7,
+      "flights": [
+        "north-rise",
+        "south-rise"
+      ]
+    },
+    {
+      "from_feet_y": 7,
+      "to_feet_y": 13,
+      "flights": [
+        "east-rise",
+        "west-rise"
+      ]
+    }
+  ],
+  "external_vertical_ports": [],
+  "deviations": [
+    "Four orthogonal stairs connect floor elevations 0/6/12, rather than the concept perspective arrangement.",
+    "Full roof and exterior completed behind concept cutaway.",
+    "Solid stone and slab balustrades replace thin artistic spindles.",
+    "Colored carpet and cartography tables represent maps; wooden props replace inventory containers.",
+    "Larger 35-block octagonal room; no unsupported vines."
+  ],
+  "deployed": false,
+  "player_saves_modified": false,
+  "limitations": [
+    "Native geometric player-envelope validation; not a real client-controlled walking recording.",
+    "No FT core route integration, occupancy/idempotence deployment, multiplayer or modpack gameplay validated.",
+    "Software previews, not game screenshots; emissive light is approximate.",
+    "Four-view cutaways are display-only filters; source NBT is never edited."
+  ]
+}

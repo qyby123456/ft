@@ -1,0 +1,224 @@
+{
+  "id": "corridor-S10",
+  "status": "PASS",
+  "producer_qa_status": "PASS",
+  "completed_at": "2026-11-03T10:55:55.925486+08:00",
+  "room_sha256": "f0657f0745b8acc902a9bd65969663d3265bc9d31a4f46f4f3a827fcd421fb16",
+  "reference_sha256": "c6a7c3600395f94a6af3160b9fed188cc08906428831ecfb684844e5e6db6907",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/S10-copper-machinery-damaged.png",
+  "size": [
+    13,
+    11,
+    16
+  ],
+  "static": {
+    "status": "PASS",
+    "report": "qa/static.json",
+    "explicit_records": 2288,
+    "non_air_records": 1355
+  },
+  "four_views": {
+    "status": "PASS",
+    "review": "qa/four-view-review.json",
+    "renderer": "@mattzh72/lodestone 0.6.0 ThreeStructureRenderer",
+    "interior": {
+      "north": "views/interior-north.png",
+      "south": "views/interior-south.png",
+      "west": "views/interior-west.png",
+      "east": "views/interior-east.png"
+    },
+    "exterior": {
+      "north": "views/exterior-north.png",
+      "south": "views/exterior-south.png",
+      "west": "views/exterior-west.png",
+      "east": "views/exterior-east.png"
+    },
+    "source_nbt_hash_bound": true,
+    "separate_images_individually_reviewed": true
+  },
+  "forge_native": {
+    "status": "PASS",
+    "report": "qa/native.json",
+    "log": "qa/forge-gametest.log",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations_passed": 4,
+    "stabilization_ticks": 240,
+    "records_checked_after_ticks": 9152,
+    "state_drift": 0,
+    "negative_probes_detected": 12,
+    "isolated_test_world_only": true
+  },
+  "ready_for_receiver_review": true,
+  "ready_for_unified_integration": false,
+  "receiver_acceptance_required": true,
+  "deployed": false,
+  "production_save_access": false,
+  "limitations": [
+    "Software renders are not Minecraft client screenshots.",
+    "Independent receiving-side frozen-bundle visual/native acceptance remains required.",
+    "Hall connections, full-volume occupation rejection, persistent idempotence and deployment are not tested."
+  ],
+  "evidence": {
+    "README.md": {
+      "sha256": "69b2528b4a83d84c1be6e5ce2f370c31273666233b07ea08e28531e7355db7ae",
+      "bytes": 4640
+    },
+    "build.gradle": {
+      "sha256": "1024ce8bf823ab5ed3e0c9cf8647fdb7d207b5e0353e07e1b02275e82c66b167",
+      "bytes": 780
+    },
+    "gradle.properties": {
+      "sha256": "302a474106e7940f43ed526958f68f2bb20b8dbe5d4a5385e0f8646fb79a7ce1",
+      "bytes": 99
+    },
+    "preview.png": {
+      "sha256": "15070c329547a9e556d1ca0674c36d2b4c2b4a2f5e83fd40452ac2ffd79c7648",
+      "bytes": 398521
+    },
+    "qa/forge-gametest.log": {
+      "sha256": "defbef1091cc9901725675e174aa2432e42b02b7ea5547b0829e317e1547198d",
+      "bytes": 37040
+    },
+    "qa/four-view-review.json": {
+      "sha256": "840b5c02cdd0d1ba4ed7b854ed5e7455085d512e95082da9f0cc9b718e08722a",
+      "bytes": 3415
+    },
+    "qa/materials.json": {
+      "sha256": "8f5ff1e43192b94b7f67d2d2d38481c95f2af6006f31ff50357a2d4c14b779a9",
+      "bytes": 699
+    },
+    "qa/native.json": {
+      "sha256": "37d104033ccdc223d2f7830e05857314c3d07da9b652aef116455da67b14b2d4",
+      "bytes": 1749
+    },
+    "qa/reference.json": {
+      "sha256": "51f380d84fdbd02ccaf9a8901f7e5ce17deb95964b773cfe707f2fcfbacb76ad",
+      "bytes": 2034
+    },
+    "qa/render.json": {
+      "sha256": "01b8dfb8fa914aad653ef1e6550c9ff0ec03cf61fcc760b638e45df2f681e874",
+      "bytes": 3939
+    },
+    "qa/static.json": {
+      "sha256": "119a0b8ad8a4cc009f6359b5497fdfc9b4605568dff5eb1653e03dba3e029fdb",
+      "bytes": 1630
+    },
+    "room.json": {
+      "sha256": "de69751887b0df3328efe0eba31fce64f3b8c804289d10869d87ee2b812868f6",
+      "bytes": 2367
+    },
+    "room.nbt": {
+      "sha256": "f0657f0745b8acc902a9bd65969663d3265bc9d31a4f46f4f3a827fcd421fb16",
+      "bytes": 7908
+    },
+    "settings.gradle": {
+      "sha256": "8a1f1c1102dce27e79826485244ba65ccce8c3fd5664c9871a40f76576c783c1",
+      "bytes": 180
+    },
+    "src/main/java/net/farmingtales/corridors10qa/CorridorTests.java": {
+      "sha256": "5071666459c80faaae43c38a84e01433cf4c9f79b3cc87e3a167729c70a42bbe",
+      "bytes": 15517
+    },
+    "src/main/java/net/farmingtales/corridors10qa/Verification.java": {
+      "sha256": "51fe3972440e1894a26e41f06e4904c2f856e5fdbdada095982b1aceeee2295f",
+      "bytes": 173
+    },
+    "src/main/resources/META-INF/mods.toml": {
+      "sha256": "ea09cb0acc0232c246ac68d37e380eb7ae8dec7cf72e8b2c018e4725299a25ca",
+      "bytes": 492
+    },
+    "src/main/resources/data/ftcorridors10qa/structures/empty.nbt": {
+      "sha256": "dc32ac4870ecca11eb7e859958fff9e284e7d7c7466d05d3e32bc9323620868c",
+      "bytes": 128
+    },
+    "src/main/resources/pack.mcmeta": {
+      "sha256": "ab1be012a8a08046f416b43fd159771d0b93224ee15d875dec7f71b00207f8af",
+      "bytes": 73
+    },
+    "summary.json": {
+      "sha256": "0d8f6dd7ea6296501942b8da54d16c70749bec421d365a37ac6028dcff59b5fa",
+      "bytes": 567
+    },
+    "tools/audit.mjs": {
+      "sha256": "004688cf84b57c809cf0cad781e86e83b9a38a8ce275fa3cb338cee4d467ff6e",
+      "bytes": 6867
+    },
+    "tools/contact_sheet.py": {
+      "sha256": "4210ad7534eaa742606020cd79aeefeb8baa969d6f838937d661fd1cfe7d4ab7",
+      "bytes": 4373
+    },
+    "tools/finalize.py": {
+      "sha256": "e347a8e6571f6d29f236066ffde90be2159e95ad66dd907ab6b3731f795ccfff",
+      "bytes": 5653
+    },
+    "tools/preview-server.mjs": {
+      "sha256": "0871029d1f0c83d7cd9e4b765b3772c1c1aee75d9902d4fb814bf2ce06303284",
+      "bytes": 2094
+    },
+    "tools/recipe.mjs": {
+      "sha256": "8fb4e27b4ce9db4508c6c232d720440bc765a9c8f9d7d38390b1d82af8269c59",
+      "bytes": 4207
+    },
+    "tools/render.mjs": {
+      "sha256": "cd1d42ef7d8bfda54010f3c7363d58c84d7996469a6dd7bde9be0b3a78c1a1ed",
+      "bytes": 4279
+    },
+    "tools/run-native.ps1": {
+      "sha256": "8a09f840faaef162b6e2732c1e8401bd5b35cd936928f4ae48e72cc2685b07e9",
+      "bytes": 1117
+    },
+    "tools/viewer/index.html": {
+      "sha256": "d5b369e69511951f45f6c2ae875b73fa284563640fa8368895907311fdbe0cc9",
+      "bytes": 671
+    },
+    "tools/viewer/main.mjs": {
+      "sha256": "41851e0820e442ae79593b453abb9ab50707c10762adeabd77cd43519084b209",
+      "bytes": 3336
+    },
+    "views/exterior-east.png": {
+      "sha256": "563c54a1fc8e842e099f41aafa55b1dbd04f826ae2c1216fa1a455708dddf64a",
+      "bytes": 243072
+    },
+    "views/exterior-four-views.png": {
+      "sha256": "896f57cfe57bcf75935c42ce8035c37e5cf5781ac87fade473b5dad8d4cfbc67",
+      "bytes": 1179362
+    },
+    "views/exterior-north.png": {
+      "sha256": "7752ae5ae99f554a333897f3db6f2d6c7f9bf1439446a90a515aff447f3b4463",
+      "bytes": 291713
+    },
+    "views/exterior-south.png": {
+      "sha256": "07e4a307d714941f73e3cd615883f86f48054f3d80e9a2a24f3926d6fbac1e22",
+      "bytes": 213466
+    },
+    "views/exterior-west.png": {
+      "sha256": "e32ef4ee581429404443f308e9cc70cb23256282b751afd25c336bb4ebdf2e65",
+      "bytes": 253425
+    },
+    "views/interior-east.png": {
+      "sha256": "01c8afe27d9b64a79777650c9d505f4f2dd002d05b9f6f11309862029cd3e548",
+      "bytes": 338973
+    },
+    "views/interior-four-views.png": {
+      "sha256": "8b4463c53c538f38bbd73280a1186a709fb998b86b34b53afe3c6ddc1586df23",
+      "bytes": 1116338
+    },
+    "views/interior-north.png": {
+      "sha256": "57bfa5f1fb270dfe3a051909a4af3330d52ac0fec8b09bcf43288626c3bc15ad",
+      "bytes": 321361
+    },
+    "views/interior-south.png": {
+      "sha256": "c5ef6fd8c93aef88cf32f48f50690228d417b21bc2f5262802cf24ba745a0f5c",
+      "bytes": 321200
+    },
+    "views/interior-west.png": {
+      "sha256": "bee6575c0a7b31decbc688fa89be30c5e9edf37e4dc284c66cc1457815bdda32",
+      "bytes": 353533
+    },
+    "views/reference-comparison.png": {
+      "sha256": "fbf38a459aaea53085b998770996bb880da8c7dcbc06b4be269d1e8720e1e096",
+      "bytes": 1128960
+    }
+  }
+}

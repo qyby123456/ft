@@ -1,0 +1,334 @@
+{
+  "atlas": "atlas.png",
+  "size": [
+    128,
+    128
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "tile_size": [
+    32,
+    32
+  ],
+  "filter": "nearest",
+  "alpha": "fully_opaque",
+  "uv_policy": "minecraft_default_uv_projected_2_texels_per_model_unit",
+  "texels_per_model_unit": 2,
+  "exported_texture_size": [
+    32,
+    32
+  ],
+  "face_uv_override_fields": false,
+  "glow_tiles": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "non_glow_tiles": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "tiles": [
+    {
+      "index": 0,
+      "id": "riveted_plinth",
+      "purpose": "Cold forged iron with restrained rust and edge wear",
+      "glow": false,
+      "pixel_bounds": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "atlas_region_uv_0_16": [
+        0.0,
+        0.0,
+        4.0,
+        4.0
+      ]
+    },
+    {
+      "index": 1,
+      "id": "slate_worktop",
+      "purpose": "Inset slate worktop and carved plinth top",
+      "glow": false,
+      "pixel_bounds": [
+        32,
+        0,
+        64,
+        32
+      ],
+      "atlas_region_uv_0_16": [
+        4.0,
+        0.0,
+        8.0,
+        4.0
+      ]
+    },
+    {
+      "index": 2,
+      "id": "plinth_underside",
+      "purpose": "Dark structural underside, not luminous",
+      "glow": false,
+      "pixel_bounds": [
+        64,
+        0,
+        96,
+        32
+      ],
+      "atlas_region_uv_0_16": [
+        8.0,
+        0.0,
+        12.0,
+        4.0
+      ]
+    },
+    {
+      "index": 3,
+      "id": "aged_brass",
+      "purpose": "Brass vessel shoes and compression collars",
+      "glow": false,
+      "pixel_bounds": [
+        96,
+        0,
+        128,
+        32
+      ],
+      "atlas_region_uv_0_16": [
+        12.0,
+        0.0,
+        16.0,
+        4.0
+      ]
+    },
+    {
+      "index": 4,
+      "id": "horizontal_pipe",
+      "purpose": "Continuous iron pipe field, projected at two texels per unit",
+      "glow": false,
+      "pixel_bounds": [
+        0,
+        32,
+        32,
+        64
+      ],
+      "atlas_region_uv_0_16": [
+        0.0,
+        4.0,
+        4.0,
+        8.0
+      ]
+    },
+    {
+      "index": 5,
+      "id": "vertical_pipe",
+      "purpose": "Continuous vertical condenser tube field, no stretched full-tile frame",
+      "glow": false,
+      "pixel_bounds": [
+        32,
+        32,
+        64,
+        64
+      ],
+      "atlas_region_uv_0_16": [
+        4.0,
+        4.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "index": 6,
+      "id": "control_face",
+      "purpose": "Pressure dial and valve marks painted on housing",
+      "glow": false,
+      "pixel_bounds": [
+        64,
+        32,
+        96,
+        64
+      ],
+      "atlas_region_uv_0_16": [
+        8.0,
+        4.0,
+        12.0,
+        8.0
+      ]
+    },
+    {
+      "index": 7,
+      "id": "carved_cold_stone",
+      "purpose": "Cold slate stela, crown and base with chisel wear",
+      "glow": false,
+      "pixel_bounds": [
+        96,
+        32,
+        128,
+        64
+      ],
+      "atlas_region_uv_0_16": [
+        12.0,
+        4.0,
+        16.0,
+        8.0
+      ]
+    },
+    {
+      "index": 8,
+      "id": "cyan_body_front",
+      "purpose": "Cyan front/back crop windows, liquid boundary at global y7 / texture row18",
+      "glow": true,
+      "pixel_bounds": [
+        0,
+        64,
+        32,
+        96
+      ],
+      "atlas_region_uv_0_16": [
+        0.0,
+        8.0,
+        4.0,
+        12.0
+      ]
+    },
+    {
+      "index": 9,
+      "id": "cyan_body_side",
+      "purpose": "Cyan facets use the same global y7 / row18 boundary",
+      "glow": true,
+      "pixel_bounds": [
+        32,
+        64,
+        64,
+        96
+      ],
+      "atlas_region_uv_0_16": [
+        4.0,
+        8.0,
+        8.0,
+        12.0
+      ]
+    },
+    {
+      "index": 10,
+      "id": "cyan_transition",
+      "purpose": "Narrow cyan neck, shoulder, foot and planar ends",
+      "glow": true,
+      "pixel_bounds": [
+        64,
+        64,
+        96,
+        96
+      ],
+      "atlas_region_uv_0_16": [
+        8.0,
+        8.0,
+        12.0,
+        12.0
+      ]
+    },
+    {
+      "index": 11,
+      "id": "amber_body_front",
+      "purpose": "Amber front/back crop windows, liquid boundary at global y5.5 / row21",
+      "glow": true,
+      "pixel_bounds": [
+        96,
+        64,
+        128,
+        96
+      ],
+      "atlas_region_uv_0_16": [
+        12.0,
+        8.0,
+        16.0,
+        12.0
+      ]
+    },
+    {
+      "index": 12,
+      "id": "amber_body_side",
+      "purpose": "Amber facets use the same global y5.5 / row21 boundary",
+      "glow": true,
+      "pixel_bounds": [
+        0,
+        96,
+        32,
+        128
+      ],
+      "atlas_region_uv_0_16": [
+        0.0,
+        12.0,
+        4.0,
+        16.0
+      ]
+    },
+    {
+      "index": 13,
+      "id": "amber_transition",
+      "purpose": "Amber neck, shoulder, foot and planar ends",
+      "glow": true,
+      "pixel_bounds": [
+        32,
+        96,
+        64,
+        128
+      ],
+      "atlas_region_uv_0_16": [
+        4.0,
+        12.0,
+        8.0,
+        16.0
+      ]
+    },
+    {
+      "index": 14,
+      "id": "sealed_rune_face",
+      "purpose": "Cold incised stone, restrained cyan inscription",
+      "glow": true,
+      "pixel_bounds": [
+        64,
+        96,
+        96,
+        128
+      ],
+      "atlas_region_uv_0_16": [
+        8.0,
+        12.0,
+        12.0,
+        16.0
+      ]
+    },
+    {
+      "index": 15,
+      "id": "sealed_rune_reverse",
+      "purpose": "Dark side/back chisel relief with tiny rune accents",
+      "glow": true,
+      "pixel_bounds": [
+        96,
+        96,
+        128,
+        128
+      ],
+      "atlas_region_uv_0_16": [
+        12.0,
+        12.0,
+        16.0,
+        16.0
+      ]
+    }
+  ]
+}

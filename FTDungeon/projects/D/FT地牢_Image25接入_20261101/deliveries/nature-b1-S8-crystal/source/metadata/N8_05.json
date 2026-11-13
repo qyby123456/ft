@@ -1,0 +1,220 @@
+{
+  "id": "N8_05",
+  "name": "紫晶直廊",
+  "kind": "corridor",
+  "size": [
+    9,
+    8,
+    21
+  ],
+  "entrance": [
+    4,
+    1,
+    0
+  ],
+  "interior": [
+    4,
+    1,
+    2
+  ],
+  "facing": "north",
+  "open_sky": false,
+  "authority": {
+    "template": "betterstrongholds:hallways/hallway_2",
+    "nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_strongholds\\data\\betterstrongholds\\structures\\hallways\\hallway_2.nbt",
+    "details": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_strongholds\\betterstrongholds\\hallways\\hallway_2.json",
+    "sha256": "8dd6284d9f46dbcf5df2f1093a068a99d7482e72f4425f2cf00bd0848f5086de",
+    "source_size": [
+      5,
+      8,
+      5
+    ],
+    "output_size": [
+      9,
+      8,
+      21
+    ],
+    "source_connectors": [
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hallway",
+          "pool": "betterstrongholds:hall_doorway",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_doorway"
+        },
+        "pos": [
+          0,
+          1,
+          3
+        ],
+        "state": 8
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:hall_wall",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_wall"
+        },
+        "pos": [
+          1,
+          1,
+          0
+        ],
+        "state": 9
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "minecraft:empty",
+          "pool": "betterstrongholds:hall_wall",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_wall"
+        },
+        "pos": [
+          3,
+          1,
+          4
+        ],
+        "state": 10
+      },
+      {
+        "nbt": {
+          "joint": "rollable",
+          "name": "betterstrongholds:hallway",
+          "pool": "betterstrongholds:hall_doorway",
+          "final_state": "minecraft:air",
+          "id": "minecraft:jigsaw",
+          "target": "betterstrongholds:hall_doorway"
+        },
+        "pos": [
+          4,
+          1,
+          1
+        ],
+        "state": 11
+      }
+    ],
+    "source_palette": [
+      {
+        "Name": "minecraft:stone_bricks"
+      },
+      {
+        "Name": "minecraft:yellow_stained_glass"
+      },
+      {
+        "Properties": {
+          "east": "none",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "tall",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Name": "minecraft:air"
+      },
+      {
+        "Properties": {
+          "east": "tall",
+          "waterlogged": "false",
+          "south": "none",
+          "north": "none",
+          "west": "none",
+          "up": "true"
+        },
+        "Name": "minecraft:stone_brick_wall"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "top",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:stone_brick_stairs"
+      },
+      {
+        "Properties": {
+          "waterlogged": "false",
+          "type": "top"
+        },
+        "Name": "minecraft:stone_brick_slab"
+      },
+      {
+        "Properties": {
+          "orientation": "west_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "north_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "south_up"
+        },
+        "Name": "minecraft:jigsaw"
+      },
+      {
+        "Properties": {
+          "orientation": "east_up"
+        },
+        "Name": "minecraft:jigsaw"
+      }
+    ],
+    "adaptation": "5x8x5走廊保留8格高度；横向加厚到9；纵向四段加端墙到21；双向通道",
+    "palette_mapping": {
+      "stone_bricks": "deepslate_bricks",
+      "chiseled_stone_bricks": "chiseled_deepslate",
+      "stone_brick_stairs": "polished_deepslate_stairs",
+      "accent": "calcite / amethyst_block / amethyst_cluster",
+      "lighting": "sea_lantern"
+    },
+    "connector_adaptation": "Read original directional jigsaw evidence; replace runtime jigsaws with metadata connections and dry 3x3 north entrance at feet y=1 under FT contract. No YUNG processor, pool, traps, entities or loot dependency copied.",
+    "geometry": "original procedural construction; not redistributed source geometry"
+  },
+  "connections": [
+    {
+      "role": "entrance",
+      "facing": "north",
+      "position": [
+        4,
+        1,
+        0
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "role": "exit",
+      "facing": "south",
+      "position": [
+        4,
+        1,
+        20
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ]
+}

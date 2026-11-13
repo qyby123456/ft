@@ -1,0 +1,244 @@
+{
+  "id": "zone-M03",
+  "name": "塌方矿道",
+  "category": "mines",
+  "kind": "independent dungeon zone room",
+  "size": [
+    23,
+    12,
+    25
+  ],
+  "entrance": [
+    11,
+    1,
+    0
+  ],
+  "interior": [
+    11,
+    1,
+    4
+  ],
+  "exit": [
+    11,
+    1,
+    24
+  ],
+  "facing": "north",
+  "sha256": "f318cf2ca68ee38e98cdb7d35018bbc860da705de46d32030c0a8f85638b4aac",
+  "reference": "D:\\ft工程文件\\image2.5\\dungeon-zone-batch-20261103\\out\\mines\\M03-mines-collapsed-mine-tunnel.png",
+  "reference_sha256": "14d4e7e36cd29469c254e7a28b6e2f8dca7a94546d434be8abd9c5ec99b48241",
+  "reference_readme": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/README.md",
+  "reference_manifest": "D:/ft工程文件/image2.5/dungeon-zone-batch-20261103/docs/manifest.json",
+  "source_dsh_session": "cs_SqFKuWVLh1",
+  "minecraft": "1.20.1",
+  "data_version": 3465,
+  "portals": [
+    {
+      "face": "north",
+      "center": [
+        11,
+        1,
+        0
+      ],
+      "width": 5,
+      "height": 4
+    },
+    {
+      "face": "south",
+      "center": [
+        11,
+        1,
+        24
+      ],
+      "width": 5,
+      "height": 4
+    }
+  ],
+  "main_lane": {
+    "minimum_x": 9,
+    "maximum_x": 13,
+    "floor_y": 0,
+    "feet_y": 1,
+    "minimum_clear_height": 4,
+    "depth": [
+      0,
+      24
+    ]
+  },
+  "collapse_bounds": {
+    "from": [
+      2,
+      1,
+      13
+    ],
+    "to": [
+      7,
+      6,
+      22
+    ],
+    "traffic": "side bay only"
+  },
+  "frame_stations": [
+    3,
+    9,
+    15,
+    21
+  ],
+  "lantern_anchors": [
+    {
+      "kind": "lantern",
+      "position": [
+        9,
+        6,
+        3
+      ],
+      "chain": [
+        9,
+        7,
+        3
+      ],
+      "anchor": [
+        9,
+        8,
+        3
+      ]
+    },
+    {
+      "kind": "lantern",
+      "position": [
+        17,
+        6,
+        3
+      ],
+      "chain": [
+        17,
+        7,
+        3
+      ],
+      "anchor": [
+        17,
+        8,
+        3
+      ]
+    },
+    {
+      "kind": "lantern",
+      "position": [
+        9,
+        6,
+        9
+      ],
+      "chain": [
+        9,
+        7,
+        9
+      ],
+      "anchor": [
+        9,
+        8,
+        9
+      ]
+    },
+    {
+      "kind": "lantern",
+      "position": [
+        17,
+        6,
+        9
+      ],
+      "chain": [
+        17,
+        7,
+        9
+      ],
+      "anchor": [
+        17,
+        8,
+        9
+      ]
+    },
+    {
+      "kind": "lantern",
+      "position": [
+        9,
+        6,
+        15
+      ],
+      "chain": [
+        9,
+        7,
+        15
+      ],
+      "anchor": [
+        9,
+        8,
+        15
+      ]
+    },
+    {
+      "kind": "lantern",
+      "position": [
+        17,
+        6,
+        15
+      ],
+      "chain": [
+        17,
+        7,
+        15
+      ],
+      "anchor": [
+        17,
+        8,
+        15
+      ]
+    },
+    {
+      "kind": "lantern",
+      "position": [
+        9,
+        6,
+        21
+      ],
+      "chain": [
+        9,
+        7,
+        21
+      ],
+      "anchor": [
+        9,
+        8,
+        21
+      ]
+    },
+    {
+      "kind": "lantern",
+      "position": [
+        17,
+        6,
+        21
+      ],
+      "chain": [
+        17,
+        7,
+        21
+      ],
+      "anchor": [
+        17,
+        8,
+        21
+      ]
+    }
+  ],
+  "reference_adaptations": [
+    "塌方移至西侧支巷，北南主通路完整保留五格净宽。",
+    "斜断梁用有碎石承托的阶梯式原木表现。",
+    "不导出实体矿车；以空炼药锅作为报废矿斗保留轮廓。",
+    "概念图剖面补全两格厚顶棚及四面外壳，剖切仅用于渲染。",
+    "容器全部为空，不附带战利品或刷怪逻辑。"
+  ],
+  "deployed": false,
+  "player_saves_touched": false,
+  "integration_slot": null,
+  "integration_guard": "Validate the full volume, liquids and entities before placement. Explicit air is not clearance authorization."
+}

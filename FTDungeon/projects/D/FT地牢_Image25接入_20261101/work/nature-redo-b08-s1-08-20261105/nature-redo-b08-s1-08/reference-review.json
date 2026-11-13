@@ -1,0 +1,38 @@
+{
+  "status": "PENDING_INDEPENDENT_REVIEW",
+  "reference": {
+    "path": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S1-mossy-forest\\out\\S1-08-courtyard.png",
+    "sha256": "0de45b63b23f7fd704eb68cae1db65ba5b1856e370ab91852d8a0c5fc63a8489",
+    "bytes": 2845940
+  },
+  "source_nbt": {
+    "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b08-s1-08-20261105\\nature-redo-b08-s1-08\\room.nbt",
+    "sha256": "bfd3cbcda1e46ae8bf941c15a85b655b006b322d562e692fabf30f8958700463",
+    "bytes": 80466
+  },
+  "landmarks": [
+    "Rooted central large tree with asymmetric crown",
+    "Side pool and glazed short-water-column adaptation",
+    "Real central skylight",
+    "Reachable north-east-south U-gallery with inner fences",
+    "Explicit western half-step stair"
+  ],
+  "adaptations": [
+    "35x22x35 integer interpretation; true central 19x19 skylight, not a preview-only opening.",
+    "Explicit added western staircase: x3..5,z24..9,16 half steps rising feet2 to feet10; U gallery rather than unconnected decorative upper floor.",
+    "Illustrated short waterfall represented by sealed glazed source-water column adjoining pool; no open flowing waterfall.",
+    "Full-block stepped roots/stone geometry; loose mushrooms omitted. No exterior forest, shader rays, containers, entities or encounters."
+  ],
+  "cutaway_rules": {
+    "source_nbt_sha256": "bfd3cbcda1e46ae8bf941c15a85b655b006b322d562e692fabf30f8958700463",
+    "true_source_skylight": "x8..26/z8..26/y21 are already air in source; no preview edit required. Crown may cover some columns below.",
+    "non_full_roof_cut": "Only display copies hide y>=21, including 864 roof cells already distinguished from 361 real skylight cells.",
+    "hero": "Additionally at y>=2 hide x>=33 or z>=33. This is a cutaway, not full source.",
+    "directional": "At y>=2 hide north z<=1, south z>=33, west x<=1, east x>=33 respectively.",
+    "full": "No changes in full reverse overview, both ground human views, upper-human, stair-detail, pool-detail, true-skylight and all exterior views.",
+    "derived_display_nbt_files": [],
+    "analysis_source_modified": false,
+    "traceability": "qa/render.json records sourceSHA, camera, cutmode, displayed records and each screenshotSHA. Only in-memory display copies; source rehashed after render."
+  },
+  "next_image_authorized": false
+}

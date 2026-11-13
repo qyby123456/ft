@@ -1,0 +1,249 @@
+{
+  "status": "PASS",
+  "room_id": "R4",
+  "source_nbt_sha256": "784ae6c6d271d0561bb00f339351f669f0fb758df8c2b80f6d27fcc7f00596f0",
+  "reference": {
+    "path": "D:\\ft工程文件\\image2.5\\dungeon-rooms-medium-random-thread3-20261102\\out\\R4-underground-spring-cave.png",
+    "sha256": "a8047daa62bd14344fbe2cfe04426b5577f5e2ddedbf2e2930c67d2c7be8b827",
+    "pixels": [
+      1536,
+      1024
+    ]
+  },
+  "dimensions": [
+    17,
+    13,
+    19
+  ],
+  "entrance_feet": [
+    8,
+    3,
+    0
+  ],
+  "safe_interior_feet": [
+    8,
+    3,
+    3
+  ],
+  "facing": "north",
+  "static": {
+    "records": 4199,
+    "non_air": 2136,
+    "water_blocks": 193,
+    "connected_water_blocks": 193,
+    "empty_barrels": 3,
+    "reachable_dry_feet": 116
+  },
+  "static_negative_probes_rejected": 8,
+  "native": {
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "java": "17.0.8",
+    "stabilization_ticks": 240,
+    "stable_snapshot_ticks": [
+      200,
+      240
+    ],
+    "records_checked_after_ticks": 16796,
+    "rotations": [
+      {
+        "rotation": "NONE",
+        "fixture_world_origin": [
+          48,
+          256,
+          48
+        ],
+        "records": 4199,
+        "water_blocks": 193,
+        "empty_block_entities": 3,
+        "reachable_dry_feet": 116,
+        "foundation_roof_supports_routes_envelope_external_moat": "PASS"
+      },
+      {
+        "rotation": "CLOCKWISE_90",
+        "fixture_world_origin": [
+          112,
+          256,
+          48
+        ],
+        "records": 4199,
+        "water_blocks": 193,
+        "empty_block_entities": 3,
+        "reachable_dry_feet": 116,
+        "foundation_roof_supports_routes_envelope_external_moat": "PASS"
+      },
+      {
+        "rotation": "CLOCKWISE_180",
+        "fixture_world_origin": [
+          176,
+          256,
+          48
+        ],
+        "records": 4199,
+        "water_blocks": 193,
+        "empty_block_entities": 3,
+        "reachable_dry_feet": 116,
+        "foundation_roof_supports_routes_envelope_external_moat": "PASS"
+      },
+      {
+        "rotation": "COUNTERCLOCKWISE_90",
+        "fixture_world_origin": [
+          240,
+          256,
+          48
+        ],
+        "records": 4199,
+        "water_blocks": 193,
+        "empty_block_entities": 3,
+        "reachable_dry_feet": 116,
+        "foundation_roof_supports_routes_envelope_external_moat": "PASS"
+      }
+    ],
+    "negative_blocked_path_probes": 4,
+    "negative_perforated_pool_probes": 4,
+    "negative_missing_dripstone_anchor_probes": 4
+  },
+  "native_capture_comparison": "PASS",
+  "deterministic_rebuild": "PASS",
+  "visual_review": "PASS",
+  "water_containment": "Native bounded envelope, complete foundation, dry routes and external one-block liquid moat checked in four rotations after 240 scheduled ticks.",
+  "support_roof_entrance": "Every placed state canSurvive, four full-height columns, six piers, complete roof and north 3x3 opening pass.",
+  "attempts": [
+    "First bootstrap compile failed due to wrong StructureTemplate.load lookup argument; corrected; log retained.",
+    "Bootstrap native four-way run passed; seven water-fill cells and two fence connections were adopted as explicit states.",
+    "Two strict reruns correctly rejected old teardown drops, including asynchronous loading of saved fixture entities. Clearing suppresses shape/drop updates and the runner now creates a fresh timestamped isolated world for every run; no old world is deleted.",
+    "Another fresh underground fixture run found external moat water from natural terrain. Final fixtures are at world Y=256, isolated from terrain; the same full external-moat and zero-new-entity/drop checks remain enforced.",
+    "Final canonical source rebuilt deterministically and strict four-way QA rerun."
+  ],
+  "scope": {
+    "independent_delivery": true,
+    "ft_core_modified": false,
+    "shared_incoming_modified": false,
+    "production_save_modified": false,
+    "production_jar_deployed": false,
+    "paid_image_generation_called": false
+  },
+  "limitations": [
+    "Isolated Forge server, not a modpack client screenshot or multiplayer/FPS test.",
+    "No FT core/catalog, hallway connection, world occupancy/idempotence or deployment tested.",
+    "Random plant growth disabled; scheduled fluid and support updates remain active.",
+    "Software orthographic renderer, not an in-game screenshot.",
+    "Cutaway removes roof and near external walls only, not pillars/furniture.",
+    "Water is a static approximate blue volume; no shader, flowing-water mesh or emitted-light simulation.",
+    "Amethyst is purple and warped fungi cyan in vanilla; blue concept glow is not reproduced by a custom shader."
+  ],
+  "evidence": {
+    "room.nbt": {
+      "sha256": "784ae6c6d271d0561bb00f339351f669f0fb758df8c2b80f6d27fcc7f00596f0",
+      "bytes": 11470
+    },
+    "room.json": {
+      "sha256": "a34ab35724d3db980e4a3a58e9acfddff250bd1f1e5bb5ec96c19f1c07ba1929",
+      "bytes": 1194
+    },
+    "preview.png": {
+      "sha256": "f11282c963ffaeff64d69a059619e82c0af0a697c5a709bca16154ab29c37fe6",
+      "bytes": 685671
+    },
+    "blueprint.json": {
+      "sha256": "a58d9cb27833f2c7e6ff4fa26a6bb111c8c29004395cdb64c31cd4526ecfc184",
+      "bytes": 42198
+    },
+    "materials.json": {
+      "sha256": "ff899192a1f10466a5407b6a49086f4869c3e028d454e70ccdbe56a651e7e6b1",
+      "bytes": 710
+    },
+    "qa/static.json": {
+      "sha256": "4c4272c01d1e8841f85ec7cc7053934191f8268e654eccd0a5795e70250f8585",
+      "bytes": 1784
+    },
+    "qa/native.json": {
+      "sha256": "59988e4cf146997c377ee89fdb66669813514bf071c9376e0a05709780b53200",
+      "bytes": 2649
+    },
+    "qa/native-invocation.json": {
+      "sha256": "77f01ee0204add2ff5bf037a6f122b834b26ed7e397fa26eb15285eed9bfbc93",
+      "bytes": 463
+    },
+    "qa/forge-gametest.log": {
+      "sha256": "ad75d6cf2888881e6d999d2601011c4b0705a0b4032ae858f4dcddee34ed8a23",
+      "bytes": 20071
+    },
+    "qa/bootstrap-source.nbt": {
+      "sha256": "8185a7277cbc5df815e1f314c45cf83ea89a55abfa5fad08671288a33b7ae384",
+      "bytes": 11444
+    },
+    "qa/bootstrap-native.json": {
+      "sha256": "fe04d265745cd98eea2261250274974aeab90ac3397e5753f176f5501b62a962",
+      "bytes": 1826
+    },
+    "qa/bootstrap-forge-gametest.log": {
+      "sha256": "85fd2c1a2417cc4938132f194db11d0c79601503bf4d4fadc0bb3b0cfee8c5cd",
+      "bytes": 20291
+    },
+    "qa/equilibration.json": {
+      "sha256": "434954162d7ba336890ef51fbb77a90dbd065240651a56ea1e04e1cf937fe169",
+      "bytes": 3419
+    },
+    "qa/render-manifest.json": {
+      "sha256": "2a0f071e7147483d7ecb736434d0c584e12d82eb8850f2f83c8608984fc7bff1",
+      "bytes": 982
+    },
+    "qa/visual-review.json": {
+      "sha256": "a30beae0fb6b482b1c80bfa4f43245a7502e5f1d9380e0b7520e56b20ded7b4e",
+      "bytes": 1189
+    },
+    "qa/native-capture-comparison.json": {
+      "sha256": "3b677b7936f6bf3f8c23564793def9962e7cc44d5c18076c452a79e596198dee",
+      "bytes": 1438
+    },
+    "qa/reproducibility.json": {
+      "sha256": "07ea78961aed6e523335f61147fedeea0c236143412dd7880b620138157d1806",
+      "bytes": 363
+    },
+    "qa/rebuilt-final.nbt": {
+      "sha256": "784ae6c6d271d0561bb00f339351f669f0fb758df8c2b80f6d27fcc7f00596f0",
+      "bytes": 11470
+    },
+    "preview/four-views.png": {
+      "sha256": "4170a9b6c362103c6059ac46c28c2f30622542cc10bf0a370f519ebfed1b9012",
+      "bytes": 2760455
+    },
+    "preview/exterior.png": {
+      "sha256": "db346b68c685eda9681006ac1eefe95610e192f7bb3c6aefd6e04c6f1cc9a17f",
+      "bytes": 469548
+    },
+    "preview/plan.png": {
+      "sha256": "f85b2cc5bbcf103c6e701abd100c63f1ebbd10782ed1908689e35a29fb8a2204",
+      "bytes": 113195
+    },
+    "preview/native-capture.png": {
+      "sha256": "ec01f63798eb846186a86911e73d9eac4b746fce348b3fc3e7cb27ab1bef65ad",
+      "bytes": 682331
+    },
+    "reference/R4-underground-spring-cave.png": {
+      "sha256": "a8047daa62bd14344fbe2cfe04426b5577f5e2ddedbf2e2930c67d2c7be8b827",
+      "bytes": 2358655
+    },
+    "qa/native-placed-none.nbt": {
+      "sha256": "3564fda55eacb1272708bc42cd143a63df2352a67568239ba752972f1fa7ae6f",
+      "bytes": 11471
+    },
+    "qa/native-placed-clockwise_90.nbt": {
+      "sha256": "3564fda55eacb1272708bc42cd143a63df2352a67568239ba752972f1fa7ae6f",
+      "bytes": 11471
+    },
+    "qa/native-placed-clockwise_180.nbt": {
+      "sha256": "3564fda55eacb1272708bc42cd143a63df2352a67568239ba752972f1fa7ae6f",
+      "bytes": 11471
+    },
+    "qa/native-placed-counterclockwise_90.nbt": {
+      "sha256": "3564fda55eacb1272708bc42cd143a63df2352a67568239ba752972f1fa7ae6f",
+      "bytes": 11471
+    },
+    "qa/failed-underground-moat-diagnostics.json": {
+      "sha256": "9c5fd59a27e2b019e0a2de92028b609629679c9336c93ab43b87a6bc78ec8372",
+      "bytes": 22196
+    }
+  }
+}

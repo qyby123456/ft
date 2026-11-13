@@ -1,0 +1,113 @@
+{
+  "id": "M08",
+  "name": "藤蔓侵蚀回廊",
+  "status": "PASS",
+  "timestamp": "2026-11-02T12:41:28.086387+08:00",
+  "sha256": "bbc4f702c195e0c787ba57d7d417a1765311b1bcac3cc0fb965db39a5ef81699",
+  "reference_sha256": "b1b4990e31ee724aad3bbe2185b636bc392d6bd0e79b46190bc4c972be607f81",
+  "size": [
+    19,
+    11,
+    23
+  ],
+  "entrance": [
+    9,
+    1,
+    0
+  ],
+  "interior": [
+    9,
+    1,
+    2
+  ],
+  "facing": "north",
+  "records": 4807,
+  "non_air": 2016,
+  "static_checks_passed": 23,
+  "native_palette_states": 31,
+  "native_placement": {
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "rotations": 4,
+    "records_per_snapshot": 19228,
+    "stable_ticks": 200,
+    "random_tick_speed": 3,
+    "explicit_foliage_random_tick_sweeps": 4,
+    "native_player_collision_box": [
+      0.6,
+      1.8,
+      0.6
+    ],
+    "reachable_feet_each_rotation": [
+      307,
+      307,
+      307,
+      307
+    ],
+    "empty_barrels_each_rotation": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "natural_foliage_changes_after_200_ticks": [
+      31,
+      34,
+      35,
+      38
+    ],
+    "fixture_rollback": "PASS"
+  },
+  "native_log": {
+    "path": "D:\\ft工程文件\\FT地牢_M08_藤蔓侵蚀回廊_20261102\\evidence\\forge-gametest-attempt2.log",
+    "bytes": 11025,
+    "sha256": "e83a2bea82e6b050c1bd75d305330c44357668c76fece86d14b91215f4c607e0"
+  },
+  "evidence": {
+    "static": {
+      "path": "D:\\ft工程文件\\FT地牢_M08_藤蔓侵蚀回廊_20261102\\qa\\static-qa.json",
+      "sha256": "b4c361491d33a904aeb7d7173dff4f01d488701a4d17bba27d85f46c795f9a0d",
+      "status": "PASS"
+    },
+    "native_registry": {
+      "path": "D:\\ft工程文件\\FT地牢_M08_藤蔓侵蚀回廊_20261102\\qa\\native-registry-qa.json",
+      "sha256": "b068de9cdc3705681d3c2935df7712b0ca77a7dc22a2c0db804881962d7e120a",
+      "status": "PASS"
+    },
+    "native_world": {
+      "path": "D:\\ft工程文件\\FT地牢_M08_藤蔓侵蚀回廊_20261102\\qa\\native-world-qa.json",
+      "sha256": "d7b9f0503faae1feaf86138c7f5f0e68b09c0468fe82df34c55149d9bca0c607",
+      "status": "PASS"
+    },
+    "preview": {
+      "path": "D:\\ft工程文件\\FT地牢_M08_藤蔓侵蚀回廊_20261102\\qa\\preview-provenance.json",
+      "sha256": "66f4d2ea01ab7b9dac0ae7eb8e5a68ac9a6ed85e8e8dd95d7e5436760bed77e1",
+      "status": "PASS"
+    }
+  },
+  "visual_review": {
+    "path": "D:\\ft工程文件\\FT地牢_M08_藤蔓侵蚀回廊_20261102\\qa\\visual-review.json",
+    "bytes": 1676,
+    "sha256": "24eb838da5429e3ad5312f8b1db74139ea4356a83f75a44f744dcc2f97c913ba"
+  },
+  "preview": {
+    "path": "D:\\ft工程文件\\FT地牢_M08_藤蔓侵蚀回廊_20261102\\out\\preview.png",
+    "bytes": 767053,
+    "sha256": "3a8cfd23e1191da8727707c6ffb8a3866df25f1ac981f260155a9a4ab6996314"
+  },
+  "metadata": {
+    "path": "D:\\ft工程文件\\FT地牢_M08_藤蔓侵蚀回廊_20261102\\out\\room.json",
+    "bytes": 1591,
+    "sha256": "28f4414d7f2a11527f91feaf7f9323cd95b6209561167ae5e0e1e7b3dde733d5"
+  },
+  "support_clearance_entry_safe_point_roof": "PASS",
+  "deployment": "NOT_DEPLOYED",
+  "ft_core_or_hall_integration": "NOT_TESTED",
+  "client_multiplayer_gameplay": "NOT_TESTED",
+  "limitations": [
+    "Actual-NBT software preview is not a game screenshot; outline AABBs approximate plants, lanterns and alpha geometry; no shader lighting.",
+    "Native stability means structural integrity, valid surviving foliage and collision-safe routes after 200 ticks, not byte-identical living vegetation. Natural leaf distance updates/vine growth are counted.",
+    "No claim of unlimited-duration growth stability, FT integration, full-modpack gameplay or multiplayer testing.",
+    "Core must preflight complete volume before construction. Explicit template air never authorizes clearing existing blocks."
+  ]
+}

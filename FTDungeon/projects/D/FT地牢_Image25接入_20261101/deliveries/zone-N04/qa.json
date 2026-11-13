@@ -1,0 +1,61 @@
+{
+  "id": "zone-N04",
+  "name": "寻门枢纽",
+  "status": "PASS",
+  "producer_status": "PASS",
+  "consumer_acceptance": "PENDING_INDEPENDENT_REVIEW",
+  "sha256": "14c978b39244c763c15356388bd1176b1b2452ef37f3a5bed6963890be7cc8d5",
+  "reference_sha256": "81f17850087057a9a0c1925f1fe747220c5a8e163003799c55fa5a97a1b756c3",
+  "size": [
+    35,
+    16,
+    35
+  ],
+  "data_version": 3465,
+  "static": {
+    "status": "PASS",
+    "report": "qa/static.json",
+    "records": 19600,
+    "reachable_feet": 813,
+    "cross_route_width": 5,
+    "cross_route_clear_height": 5
+  },
+  "visual": {
+    "status": "PASS",
+    "report": "qa/visual-review.json",
+    "renderer": "Minecraft Builder / Lodestone",
+    "images": 13,
+    "directional_images": 12,
+    "client_screenshot": false
+  },
+  "forge": {
+    "status": "PASS",
+    "report": "qa/forge-native.json",
+    "result": "qa/forge-result.json",
+    "log": "qa/forge-run.log",
+    "minecraft": "1.20.1",
+    "version": "47.4.10",
+    "rotations": 4,
+    "ticks_observed": 240,
+    "forced_neighbor_updates": true,
+    "exit_code": 0,
+    "dropped_items": 0,
+    "target_y": 200
+  },
+  "rejected_attempt": {
+    "path": "qa/rejected-first-run/",
+    "reason": "Natural terrain fixture produced rail/torch/amethyst item drops absent from template; unchanged NBT passed clean flat-world retest."
+  },
+  "reference": "qa/source-provenance.json",
+  "entities": 0,
+  "block_entities": 0,
+  "fluids": 0,
+  "runtime_teleport": false,
+  "deployed": false,
+  "limits": [
+    "未部署；未修改正式实例、核心源码、玩家世界或并行ID。",
+    "无运行时传送；寻门仅为紫晶罗盘、门廊与方向材质的静态主题。",
+    "软件视觉与独立Forge测试不等于完整整合包客户端、多人或FPS验收。",
+    "大厅外接、占用拒绝、持久幂等与槽位由统一接入负责人独立实现并复核。"
+  ]
+}

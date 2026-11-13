@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "id": "SHOP_A_RUINED",
+  "name": "A·破损无人商店",
+  "generated_at": "2026-11-02T10:38:26.054811+08:00",
+  "structure_sha256": "2f6f6d9dafa9c4ee6d21f901c44c79350e20d5d959bb5a1a4c613cd781d565dd",
+  "structure_size": [
+    15,
+    9,
+    15
+  ],
+  "record_count": 2025,
+  "reference_sha256": "a5ec41abe1f7a491b3742e7221ea0c86530d681f0a6b83689c0c45c2ded7fe30",
+  "entrance": [
+    7,
+    1,
+    0
+  ],
+  "interior": [
+    7,
+    1,
+    3
+  ],
+  "static": {
+    "status": "PASS",
+    "checks": 31,
+    "report": "qa/static.json"
+  },
+  "native": {
+    "status": "PASS",
+    "minecraft": "1.20.1",
+    "forge": "47.4.10",
+    "java": "17.0.8",
+    "rotations": 4,
+    "stabilization_ticks": 100,
+    "records_checked_after_ticks": 8100,
+    "block_entities_per_rotation": 7,
+    "reachable_foot_positions_per_rotation": 139,
+    "extra_world_entities": 0,
+    "negative_missing_support_probes": 4,
+    "negative_blocked_aisle_probes": 4,
+    "negative_cobweb_aisle_probes": 4,
+    "negative_airborne_debris_probes": 4,
+    "grounded_debris_per_rotation": 13,
+    "attached_off_path_cobwebs_per_rotation": 10,
+    "report": "qa/native.json",
+    "log": "qa/forge-gametest.log"
+  },
+  "visual": {
+    "status": "PASS",
+    "report": "qa/visual-review.json",
+    "images": [
+      {
+        "path": "out\\preview.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "9ac3b3b7310bf63c7419b75fa869985965091281e36a1da0505983cebdf99c3f"
+      },
+      {
+        "path": "preview\\delivery-sheet.png",
+        "size": [
+          2400,
+          1710
+        ],
+        "sha256": "653a90e08dcaa08278d6210607ae3d1f5c5add0360cbb283edc6488ed5934074"
+      },
+      {
+        "path": "preview\\east.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "564d6f3552b694b856c2860879589cb2250a76871cb25372310d518633ec2bc7"
+      },
+      {
+        "path": "preview\\exterior.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "365402bf963b7593115afaeaf2f54a94f6f6d8d8a0f9ea51b1e9fb4e712e85f7"
+      },
+      {
+        "path": "preview\\four-views.png",
+        "size": [
+          3200,
+          2500
+        ],
+        "sha256": "764253e053370835f24d42f30734e2449bf6010d55032d37039935653a3096eb"
+      },
+      {
+        "path": "preview\\furniture-detail.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "15e1acbc12a18ffcc3a983a7abc42e7e276fca7013197633263ca16bd6106254"
+      },
+      {
+        "path": "preview\\native-world-capture.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "28224c798a815700f159c4379441605096b55aa83c6a460f7dab7641a8b4f3c7"
+      },
+      {
+        "path": "preview\\north.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "9ac3b3b7310bf63c7419b75fa869985965091281e36a1da0505983cebdf99c3f"
+      },
+      {
+        "path": "preview\\plan.png",
+        "size": [
+          1380,
+          1330
+        ],
+        "sha256": "3f0e92b7dbaf3263403db2a4e1cda36f0aaa15cc3d2465255f6f212ac4cfc451"
+      },
+      {
+        "path": "preview\\south.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "baba7ee804c4c1e063a304c800844528a5e3c17119f0e9846b2f3b40e5824a40"
+      },
+      {
+        "path": "preview\\west.png",
+        "size": [
+          1600,
+          1250
+        ],
+        "sha256": "a0125097a6d8a99bb1f3d2b0b02cf5940a559ced087c61e72a5af6e8a72d021e"
+      }
+    ]
+  },
+  "reproducibility": {
+    "status": "PASS",
+    "report": "qa/reproducibility.json",
+    "source_vs_unrotated_world_states": "EXACT_EQUAL"
+  },
+  "integration": {
+    "status": "STANDALONE_CANDIDATE_NOT_REGISTERED",
+    "id_is_provisional": true,
+    "assigned_slot": null,
+    "deployed": false,
+    "requires_coordinator_acceptance": true,
+    "coordinator_thread": "01a19758-b0e5-75c2-822a-4860527a1e8b"
+  },
+  "write_scope": {
+    "independent_root": "D:\\ft工程文件\\FT地牢_A_破损无人商店_独立交付_20261102",
+    "other_rooms_modified": false,
+    "production_saves_opened": false,
+    "deployed_jars_modified": false,
+    "core_catalog_modified": false,
+    "new_paid_image_requests": 0,
+    "source_image_modified": false
+  },
+  "evidence_limitations": [
+    "This is an independent candidate, not an integrated FT room or functional merchant.",
+    "Only headless isolated Minecraft 1.20.1 Forge 47.4.10 GameTest was run; not a full modpack client, player save, multiplayer or FPS test.",
+    "Visuals are NBT-based software renders, not in-game screenshots.",
+    "Concept-image tilt, loose items and floor holes translated to legal block states; no dropped entities or reward stock.",
+    "STYLES.md referenced by source README was absent on inspection; source manifest and verified A image remain authoritative."
+  ]
+}

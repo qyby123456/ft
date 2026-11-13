@@ -1,0 +1,2313 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "四臂锁环吊灯",
+  "model_identifier": "prison_iron_chandelier",
+  "resolution": {
+    "width": 32,
+    "height": 32
+  },
+  "elements": [
+    {
+      "name": "ceiling fixing plate",
+      "type": "cube",
+      "uuid": "cc693a4e-373c-5729-abfd-674e3a310455",
+      "from": [
+        5,
+        15,
+        5
+      ],
+      "to": [
+        11,
+        16,
+        11
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            0,
+            22,
+            2
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            10,
+            0,
+            22,
+            2
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            10,
+            0,
+            22,
+            2
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            10,
+            0,
+            22,
+            2
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            10,
+            10,
+            22,
+            22
+          ],
+          "texture": 1,
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            10,
+            10,
+            22,
+            22
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "central suspension stem",
+      "type": "cube",
+      "uuid": "f52cce6a-5756-5b76-902a-79a3a17c02b8",
+      "from": [
+        7,
+        9,
+        7
+      ],
+      "to": [
+        9,
+        15,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            2,
+            18,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            14,
+            2,
+            18,
+            14
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            2,
+            18,
+            14
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            2,
+            18,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "east west hanger beam",
+      "type": "cube",
+      "uuid": "d75e0f00-43b5-5570-b7c1-0663f02199d8",
+      "from": [
+        3,
+        8,
+        7
+      ],
+      "to": [
+        13,
+        9,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            14,
+            26,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            6,
+            14,
+            26,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            14,
+            18,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            14,
+            18,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            6,
+            14,
+            26,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            6,
+            14,
+            26,
+            18
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "north hanger beam",
+      "type": "cube",
+      "uuid": "648ca412-6c79-5029-8f40-eaf1e555b09f",
+      "from": [
+        7,
+        8,
+        3
+      ],
+      "to": [
+        9,
+        9,
+        7
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            14,
+            18,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            6,
+            14,
+            14,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            18,
+            14,
+            26,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            14,
+            6,
+            18,
+            14
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            14,
+            18,
+            18,
+            26
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "south hanger beam",
+      "type": "cube",
+      "uuid": "7b4e5646-e1c4-5e82-a8c2-25ed8e548d56",
+      "from": [
+        7,
+        8,
+        9
+      ],
+      "to": [
+        9,
+        9,
+        13
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            14,
+            14,
+            18,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            18,
+            14,
+            26,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            6,
+            14,
+            14,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            14,
+            18,
+            18,
+            26
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            14,
+            6,
+            18,
+            14
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "west tension link",
+      "type": "cube",
+      "uuid": "1dad41d9-8324-5af1-93b7-b02c9cf89a74",
+      "from": [
+        3,
+        6,
+        7
+      ],
+      "to": [
+        4,
+        8,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            24,
+            16,
+            26,
+            20
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            6,
+            16,
+            8,
+            20
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            16,
+            18,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            16,
+            18,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "east tension link",
+      "type": "cube",
+      "uuid": "75360216-5314-5ffc-8d43-73a0d90cf7f0",
+      "from": [
+        12,
+        6,
+        7
+      ],
+      "to": [
+        13,
+        8,
+        9
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            16,
+            8,
+            20
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            24,
+            16,
+            26,
+            20
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            14,
+            16,
+            18,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            14,
+            16,
+            18,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "north tension link",
+      "type": "cube",
+      "uuid": "1e5d1b25-0565-58e9-aacf-1335c169f701",
+      "from": [
+        7,
+        6,
+        3
+      ],
+      "to": [
+        9,
+        8,
+        4
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            16,
+            18,
+            20
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            14,
+            16,
+            18,
+            20
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            6,
+            16,
+            8,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            24,
+            16,
+            26,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "south tension link",
+      "type": "cube",
+      "uuid": "627818ce-0f82-5946-9b93-b4052f648d41",
+      "from": [
+        7,
+        6,
+        12
+      ],
+      "to": [
+        9,
+        8,
+        13
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            16,
+            18,
+            20
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            14,
+            16,
+            18,
+            20
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            24,
+            16,
+            26,
+            20
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            6,
+            16,
+            8,
+            20
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "north ring rail",
+      "type": "cube",
+      "uuid": "02b34f3c-93ca-5c8b-a1ff-a922bcf5ba0a",
+      "from": [
+        2,
+        4,
+        2
+      ],
+      "to": [
+        14,
+        6,
+        4
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            20,
+            28,
+            24
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            4,
+            20,
+            28,
+            24
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            4,
+            20,
+            8,
+            24
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            24,
+            20,
+            28,
+            24
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            4,
+            4,
+            28,
+            8
+          ],
+          "texture": 1
+        },
+        "down": {
+          "uv": [
+            4,
+            24,
+            28,
+            28
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "south ring rail",
+      "type": "cube",
+      "uuid": "e76b3c73-dce1-5469-bf5a-bf3ae0ad9be4",
+      "from": [
+        2,
+        4,
+        12
+      ],
+      "to": [
+        14,
+        6,
+        14
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            20,
+            28,
+            24
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            4,
+            20,
+            28,
+            24
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            24,
+            20,
+            28,
+            24
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            4,
+            20,
+            8,
+            24
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            4,
+            24,
+            28,
+            28
+          ],
+          "texture": 1
+        },
+        "down": {
+          "uv": [
+            4,
+            4,
+            28,
+            8
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "west ring rail",
+      "type": "cube",
+      "uuid": "6bae2e98-59b6-5b69-a916-12e43450c9d2",
+      "from": [
+        2,
+        4,
+        4
+      ],
+      "to": [
+        4,
+        6,
+        12
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            8,
+            20,
+            24,
+            24
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            8,
+            20,
+            24,
+            24
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            4,
+            8,
+            8,
+            24
+          ],
+          "texture": 1
+        },
+        "down": {
+          "uv": [
+            4,
+            8,
+            8,
+            24
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "east ring rail",
+      "type": "cube",
+      "uuid": "a464c82f-f53b-5835-b523-d9bde341e836",
+      "from": [
+        12,
+        4,
+        4
+      ],
+      "to": [
+        14,
+        6,
+        12
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            8,
+            20,
+            24,
+            24
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            8,
+            20,
+            24,
+            24
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            24,
+            8,
+            28,
+            24
+          ],
+          "texture": 1
+        },
+        "down": {
+          "uv": [
+            24,
+            8,
+            28,
+            24
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "north west candle pan",
+      "type": "cube",
+      "uuid": "ad048a72-5edc-558c-95f8-8eec0f78f3b0",
+      "from": [
+        2,
+        6,
+        2
+      ],
+      "to": [
+        5,
+        7,
+        5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            22,
+            18,
+            28,
+            20
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            4,
+            18,
+            10,
+            20
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            4,
+            18,
+            10,
+            20
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            22,
+            18,
+            28,
+            20
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            4,
+            4,
+            10,
+            10
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            4,
+            22,
+            10,
+            28
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "north east candle pan",
+      "type": "cube",
+      "uuid": "a4344414-e832-51ea-a65f-7116c4082067",
+      "from": [
+        11,
+        6,
+        2
+      ],
+      "to": [
+        14,
+        7,
+        5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            18,
+            10,
+            20
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            22,
+            18,
+            28,
+            20
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            4,
+            18,
+            10,
+            20
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            22,
+            18,
+            28,
+            20
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            22,
+            4,
+            28,
+            10
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            22,
+            22,
+            28,
+            28
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "south west candle pan",
+      "type": "cube",
+      "uuid": "4be7e4ba-c1d4-5aa9-8fea-5350e783750b",
+      "from": [
+        2,
+        6,
+        11
+      ],
+      "to": [
+        5,
+        7,
+        14
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            22,
+            18,
+            28,
+            20
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            4,
+            18,
+            10,
+            20
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            22,
+            18,
+            28,
+            20
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            4,
+            18,
+            10,
+            20
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            4,
+            22,
+            10,
+            28
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            4,
+            4,
+            10,
+            10
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "south east candle pan",
+      "type": "cube",
+      "uuid": "b756d2c2-0585-5d92-abb7-09142a1ae2c6",
+      "from": [
+        11,
+        6,
+        11
+      ],
+      "to": [
+        14,
+        7,
+        14
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            18,
+            10,
+            20
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            22,
+            18,
+            28,
+            20
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            22,
+            18,
+            28,
+            20
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            4,
+            18,
+            10,
+            20
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            22,
+            22,
+            28,
+            28
+          ],
+          "texture": 2
+        },
+        "down": {
+          "uv": [
+            22,
+            4,
+            28,
+            10
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "north west wax",
+      "type": "cube",
+      "uuid": "e8f6b2e0-213a-51f3-93ce-13a8bf3e2b43",
+      "from": [
+        3,
+        7,
+        3
+      ],
+      "to": [
+        4,
+        10,
+        4
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            24,
+            12,
+            26,
+            18
+          ],
+          "texture": 3
+        },
+        "south": {
+          "uv": [
+            6,
+            12,
+            8,
+            18
+          ],
+          "texture": 3
+        },
+        "west": {
+          "uv": [
+            6,
+            12,
+            8,
+            18
+          ],
+          "texture": 3
+        },
+        "east": {
+          "uv": [
+            24,
+            12,
+            26,
+            18
+          ],
+          "texture": 3
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "north east wax",
+      "type": "cube",
+      "uuid": "86b9afc2-7990-52c5-b6b9-9135a4c97b54",
+      "from": [
+        12,
+        7,
+        3
+      ],
+      "to": [
+        13,
+        9,
+        4
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            14,
+            8,
+            18
+          ],
+          "texture": 3
+        },
+        "south": {
+          "uv": [
+            24,
+            14,
+            26,
+            18
+          ],
+          "texture": 3
+        },
+        "west": {
+          "uv": [
+            6,
+            14,
+            8,
+            18
+          ],
+          "texture": 3
+        },
+        "east": {
+          "uv": [
+            24,
+            14,
+            26,
+            18
+          ],
+          "texture": 3
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "south west wax",
+      "type": "cube",
+      "uuid": "fd752171-e1b4-5af7-8fc8-d166fbc6355d",
+      "from": [
+        3,
+        7,
+        12
+      ],
+      "to": [
+        4,
+        9,
+        13
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            24,
+            14,
+            26,
+            18
+          ],
+          "texture": 3
+        },
+        "south": {
+          "uv": [
+            6,
+            14,
+            8,
+            18
+          ],
+          "texture": 3
+        },
+        "west": {
+          "uv": [
+            24,
+            14,
+            26,
+            18
+          ],
+          "texture": 3
+        },
+        "east": {
+          "uv": [
+            6,
+            14,
+            8,
+            18
+          ],
+          "texture": 3
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "south east wax",
+      "type": "cube",
+      "uuid": "4199272a-af23-582c-964d-56650376296c",
+      "from": [
+        12,
+        7,
+        12
+      ],
+      "to": [
+        13,
+        10,
+        13
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            12,
+            8,
+            18
+          ],
+          "texture": 3
+        },
+        "south": {
+          "uv": [
+            24,
+            12,
+            26,
+            18
+          ],
+          "texture": 3
+        },
+        "west": {
+          "uv": [
+            24,
+            12,
+            26,
+            18
+          ],
+          "texture": 3
+        },
+        "east": {
+          "uv": [
+            6,
+            12,
+            8,
+            18
+          ],
+          "texture": 3
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "north west flame",
+      "type": "cube",
+      "uuid": "f71870ee-78ea-5ec9-b2b2-b4e3f5f1f763",
+      "from": [
+        3,
+        10,
+        3
+      ],
+      "to": [
+        4,
+        12,
+        4
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            24,
+            8,
+            26,
+            12
+          ],
+          "texture": 4
+        },
+        "south": {
+          "uv": [
+            6,
+            8,
+            8,
+            12
+          ],
+          "texture": 4
+        },
+        "west": {
+          "uv": [
+            6,
+            8,
+            8,
+            12
+          ],
+          "texture": 4
+        },
+        "east": {
+          "uv": [
+            24,
+            8,
+            26,
+            12
+          ],
+          "texture": 4
+        },
+        "up": {
+          "uv": [
+            6,
+            6,
+            8,
+            8
+          ],
+          "texture": 4
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "north east flame",
+      "type": "cube",
+      "uuid": "1d0d1482-8f06-58a1-bfd8-a1d38f47d5bd",
+      "from": [
+        12,
+        9,
+        3
+      ],
+      "to": [
+        13,
+        11,
+        4
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            10,
+            8,
+            14
+          ],
+          "texture": 4
+        },
+        "south": {
+          "uv": [
+            24,
+            10,
+            26,
+            14
+          ],
+          "texture": 4
+        },
+        "west": {
+          "uv": [
+            6,
+            10,
+            8,
+            14
+          ],
+          "texture": 4
+        },
+        "east": {
+          "uv": [
+            24,
+            10,
+            26,
+            14
+          ],
+          "texture": 4
+        },
+        "up": {
+          "uv": [
+            24,
+            6,
+            26,
+            8
+          ],
+          "texture": 4
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "south west flame",
+      "type": "cube",
+      "uuid": "d96cae62-ee61-50e8-b1f5-7aeb3d7b8dd7",
+      "from": [
+        3,
+        9,
+        12
+      ],
+      "to": [
+        4,
+        11,
+        13
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            24,
+            10,
+            26,
+            14
+          ],
+          "texture": 4
+        },
+        "south": {
+          "uv": [
+            6,
+            10,
+            8,
+            14
+          ],
+          "texture": 4
+        },
+        "west": {
+          "uv": [
+            24,
+            10,
+            26,
+            14
+          ],
+          "texture": 4
+        },
+        "east": {
+          "uv": [
+            6,
+            10,
+            8,
+            14
+          ],
+          "texture": 4
+        },
+        "up": {
+          "uv": [
+            6,
+            24,
+            8,
+            26
+          ],
+          "texture": 4
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    },
+    {
+      "name": "south east flame",
+      "type": "cube",
+      "uuid": "c63c8421-ca09-57d1-b5cd-96fb1ecc1574",
+      "from": [
+        12,
+        10,
+        12
+      ],
+      "to": [
+        13,
+        12,
+        13
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            8,
+            8,
+            12
+          ],
+          "texture": 4
+        },
+        "south": {
+          "uv": [
+            24,
+            8,
+            26,
+            12
+          ],
+          "texture": 4
+        },
+        "west": {
+          "uv": [
+            24,
+            8,
+            26,
+            12
+          ],
+          "texture": 4
+        },
+        "east": {
+          "uv": [
+            6,
+            8,
+            8,
+            12
+          ],
+          "texture": 4
+        },
+        "up": {
+          "uv": [
+            24,
+            24,
+            26,
+            26
+          ],
+          "texture": 4
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "cc693a4e-373c-5729-abfd-674e3a310455",
+    "f52cce6a-5756-5b76-902a-79a3a17c02b8",
+    "d75e0f00-43b5-5570-b7c1-0663f02199d8",
+    "648ca412-6c79-5029-8f40-eaf1e555b09f",
+    "7b4e5646-e1c4-5e82-a8c2-25ed8e548d56",
+    "1dad41d9-8324-5af1-93b7-b02c9cf89a74",
+    "75360216-5314-5ffc-8d43-73a0d90cf7f0",
+    "1e5d1b25-0565-58e9-aacf-1335c169f701",
+    "627818ce-0f82-5946-9b93-b4052f648d41",
+    "02b34f3c-93ca-5c8b-a1ff-a922bcf5ba0a",
+    "e76b3c73-dce1-5469-bf5a-bf3ae0ad9be4",
+    "6bae2e98-59b6-5b69-a916-12e43450c9d2",
+    "a464c82f-f53b-5835-b523-d9bde341e836",
+    "ad048a72-5edc-558c-95f8-8eec0f78f3b0",
+    "a4344414-e832-51ea-a65f-7116c4082067",
+    "4be7e4ba-c1d4-5aa9-8fea-5350e783750b",
+    "b756d2c2-0585-5d92-abb7-09142a1ae2c6",
+    "e8f6b2e0-213a-51f3-93ce-13a8bf3e2b43",
+    "86b9afc2-7990-52c5-b6b9-9135a4c97b54",
+    "fd752171-e1b4-5af7-8fc8-d166fbc6355d",
+    "4199272a-af23-582c-964d-56650376296c",
+    "f71870ee-78ea-5ec9-b2b2-b4e3f5f1f763",
+    "1d0d1482-8f06-58a1-bfd8-a1d38f47d5bd",
+    "d96cae62-ee61-50e8-b1f5-7aeb3d7b8dd7",
+    "c63c8421-ca09-57d1-b5cd-96fb1ecc1574"
+  ],
+  "textures": [
+    {
+      "name": "lighting_00.png",
+      "id": "0",
+      "uuid": "33731c14-ecf0-5b14-b4c5-1d022dbe2513",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAArklEQVR4nGNU1Tb9z8DAwKCspsaADN6+fQtnf0BiEwt+/P4NZ3OwsuJUx8QwwIBp1AEMAwxYSFEsLi1NUM3Lp0+HcQi8JNF3QyIEmEYdwDAaBQMMmEYdwDDSo4CFkkqIGkUzE8NQCIGXNKiESHIAtYCJuSmcfebk6SEUBZSCYDlGMP1woKNA/vkZOBvGYmIYYMA00A5goUQzMa1kEFj76OkwDYGXeAqo0c4pA5EAAArnJaG7jYcKAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "lighting_01.png",
+      "id": "1",
+      "uuid": "722a85ef-13fb-5fa2-9e0d-51059261f3d2",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA6ElEQVR4nGM0snL5zzCAgAVEqGuoDYjlN2/cYmBiGGDANNAOYAER7z98hAu8evGSpha+fvMGzhYVEcEeAk7e7mD89OlTii0kZBYTw2CIAnSweNY8OPvnjx8MlABks4h2gLS0NNUcICIszMDOwYFTnolhgAHTqAMYRqNgpEcBCymKxSQkiFL36sWLYRoCr0jw2ZAJAaYR7wAWaoSAr/gvrOKbX7IN0ShwomKTzDPYH69ZLIQMwNeYgIFdH7GrYeegQpOMUkBxk4xSQMgsFmTO1StXGegNmBgGGLCACFr3hgg6AAZAXSV6AwCS5j2SkeXMbAAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "lighting_04.png",
+      "id": "2",
+      "uuid": "099a466d-406a-5d4e-92c2-9cf0140ecebb",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAlUlEQVR4nGPszbb5z8DAwGBmqsmADJ48fQlnP3v2joFScPXhNxS+tjwXmGZiGGDANOoAhpEeBSykapCVESVa7eMnr4dhCDwmwlekACaqmjbqADIAE8MAA6ZRBzCM9ChgIVXDaFH8eLQoHrG54Mx3OQwxE85HQz8EmEa8A1iIDQFYfKOWhPgbqKONUmIAE1GqaAgG3AEAHUQgy/WEOqMAAAAASUVORK5CYII="
+    },
+    {
+      "name": "lighting_06.png",
+      "id": "3",
+      "uuid": "e96744eb-46a5-5289-823f-3a7e4c24d494",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAApUlEQVR4nGN8cH7VfwYGBgZBAT4GZPD+wyc4G1nu9PnLcLaKojyKHmS1t25cg4uJSsgw3Ln/kAEbYGIYYMA06gCG0SgY6VHAQkvDQfmf7g64hVQADYkoYBpoB7CQowlbHTCyQoDSlD/0QuA0UhuA2oCJZiaPOmBYJUIVKhY8gy4EmEYdwDDSo4AFl8SHd6/JNlRASHTohADToI0CARKCkRIw4CEAAJgdGMq9ooeFAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "lighting_12.png",
+      "id": "4",
+      "uuid": "d582c104-9636-5ba5-9352-19942808c0ac",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAsElEQVR4nGPcm6H7nwEPsArXZiAXHFt5laAaJoYBBkwD7QAWcjVyGEZgFf9xfsXQCgGmIRsFxABsOQg9ZzAxDDBgGlRRYEVBoTNkQ4Bp2OUCDrQCilDBxEKqgcMuCphGvANYyAoBNjns4r8ejUYByYCJYaQ7gIWQAuSSjBaFEhPDYAqBY0itFXpVzSzUNhBb5YOvg8LEMMCAhSxdZJR4gzYEmIZUFPwgsdtFDBjwEAAAwz0g8qRAEe8AAAAASUVORK5CYII="
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.63,
+        0.63,
+        0.63
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  }
+}

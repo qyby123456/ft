@@ -1,0 +1,80 @@
+{
+  "final_nbt_sha256": "60110084bb9152d03e3709482b9c1b7eae89be088eb04c2b2ee2526d0655c401",
+  "world_origin": null,
+  "parts": [
+    {
+      "order": 1,
+      "file": "shards/part-01.nbt",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        33,
+        18,
+        37
+      ],
+      "sha256": "7eeb6b860940c41c9967de8bf7cba7b159b59cdc57ce3b814683e9b68b388b29",
+      "explicit_records": 21978,
+      "block_entities": 1
+    },
+    {
+      "order": 2,
+      "file": "shards/part-02.nbt",
+      "origin": [
+        33,
+        0,
+        0
+      ],
+      "size": [
+        32,
+        18,
+        37
+      ],
+      "sha256": "c6e1316d5b4846391decdc6e99ccfd5230f390f6f7b7f0da1197cfc9b47fb6b2",
+      "explicit_records": 21312,
+      "block_entities": 1
+    },
+    {
+      "order": 3,
+      "file": "shards/part-03.nbt",
+      "origin": [
+        0,
+        0,
+        37
+      ],
+      "size": [
+        33,
+        18,
+        36
+      ],
+      "sha256": "deb331ae47d9b93187ed52ca08f41db34d9c263677747c27dcbdfd9b7089b026",
+      "explicit_records": 21384,
+      "block_entities": 0
+    },
+    {
+      "order": 4,
+      "file": "shards/part-04.nbt",
+      "origin": [
+        33,
+        0,
+        37
+      ],
+      "size": [
+        32,
+        18,
+        36
+      ],
+      "sha256": "1b53a9130cdf3bb4215d2ebcce1bd2744bc9ff24afb7f1e41b8d9da0743a22c6",
+      "explicit_records": 20736,
+      "block_entities": 1
+    }
+  ],
+  "rotation": "NONE",
+  "order": "01,02,03,04; relative origins added to same chosen world origin",
+  "air_policy": "ALL explicit air MUST be placed; do not ignore air, do not independently fill/clear overlapping margins; disjoint cuboids partition entire source bounding box",
+  "block_entity_coordinate_policy": "Localize any existing internal x/y/z on split and restore on reassembly; preserve every other tag",
+  "placement_runtime": "NOT_RUN; seams may temporarily expose source lava or attachments; no claim that sequential live-tick placement is safe",
+  "deployment": "NOT_PERFORMED"
+}

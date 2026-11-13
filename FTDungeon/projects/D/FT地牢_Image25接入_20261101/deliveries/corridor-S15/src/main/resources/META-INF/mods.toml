@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ftcorridors15qa"
+version="1.0"
+displayName="FT Corridor S15 Isolated QA Only"
+description='''Isolated headless verification fixture. Never deploy to a player instance.'''
+[[dependencies.ftcorridors15qa]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ftcorridors15qa]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

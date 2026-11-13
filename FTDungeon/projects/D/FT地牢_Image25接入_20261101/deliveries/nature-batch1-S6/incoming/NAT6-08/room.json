@@ -1,0 +1,214 @@
+{
+  "id": "NAT6-08",
+  "name": "火山天井",
+  "kind": "courtyard",
+  "size": [
+    15,
+    12,
+    15
+  ],
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    2
+  ],
+  "facing": "north",
+  "connectors": [
+    {
+      "facing": "north",
+      "position": [
+        7,
+        2,
+        0
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "facing": "south",
+      "position": [
+        7,
+        2,
+        14
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "sha256": "a2691fbb7f5f0ae622a13746049c3d5a6dedc5af16b41b9e4ee8021a27a08296",
+  "reference": "D:\\ft工程文件\\image2.5\\nature-dungeon-styles-20261104\\S6-volcanic-cavern\\out\\S6-08-courtyard.png",
+  "reference_sha256": "c890c0c4d6e59898e23194ae04eec6efb1da95641e933139369d612b515fe13e",
+  "coordinate_system": "+X east, +Y up, +Z south; all entrance/connector coordinates are feet",
+  "provisional_id": true,
+  "group": "nature-batch1-S6",
+  "adaptations": [
+    "sealed lava behind orange glass, no damaging magma floors",
+    "full roof except courtyard skylight",
+    "no outside scenery lava, smoke, particles or entities",
+    "dimensions adapted to modular entrance and safe routes",
+    "overview is layout reference, not a placeable module"
+  ],
+  "structure_evidence": {
+    "room": "NAT6-08",
+    "source_nbt": "D:\\ft工程文件\\结构参考_20261103\\unpacked\\better_nether_fortresses\\data\\betterfortresses\\structures\\keep\\keep_well.nbt",
+    "source_nbt_sha256": "7a9289c6c0ec5fb300ae90047f9e43f07270c540874017cff6d777b8b61b009d",
+    "details_path": "D:\\ft工程文件\\结构参考_20261103\\nbt-details\\better_nether_fortresses\\betterfortresses\\keep\\keep_well.json",
+    "details_sha256": "3f488626ba3402d42625911d0927c4feca7262fdfd4c564f790be9bf3e5629df",
+    "source_size": [
+      7,
+      11,
+      7
+    ],
+    "source_records": 539,
+    "source_palette": [
+      {
+        "Name": "minecraft:yellow_terracotta"
+      },
+      {
+        "Name": "minecraft:red_nether_bricks"
+      },
+      {
+        "Name": "minecraft:nether_bricks"
+      },
+      {
+        "Name": "minecraft:ancient_debris"
+      },
+      {
+        "Name": "minecraft:chiseled_nether_bricks"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "west"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "level": "0"
+        },
+        "Name": "minecraft:lava"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "north"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "south"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:red_nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "half": "bottom",
+          "waterlogged": "false",
+          "shape": "straight",
+          "facing": "east"
+        },
+        "Name": "minecraft:nether_brick_stairs"
+      },
+      {
+        "Properties": {
+          "orientation": "up_west"
+        },
+        "Name": "minecraft:jigsaw"
+      }
+    ],
+    "source_connectors": [
+      {
+        "pos": [
+          3,
+          10,
+          3
+        ],
+        "orientation": "up_west",
+        "joint": "aligned",
+        "name": "betterfortresses:keep_well",
+        "pool": "minecraft:empty",
+        "final_state": "minecraft:lava",
+        "id": "minecraft:jigsaw",
+        "target": "minecraft:empty"
+      }
+    ],
+    "changes": "7x11x7 well module becomes two 7-wide bays plus wall=15x15 courtyard, height11 plus floor=12; open roof is explicit original image-driven adaptation."
+  },
+  "revision": "S6-R2-distinct-topology",
+  "distinctive_design": {
+    "topology": "ground bypass around well plus two optional stepped side inspection ledges",
+    "vertical": "ground feet2, side stairs to feet5, open central skylight",
+    "landmark": "well core framed by paired elevated inspection ledges",
+    "pacing": "open sky respite -> choose low path or raised observation -> descend",
+    "mechanism": "passive dual-height traversal, no teleport or falling trap",
+    "waypoints": [
+      [
+        4,
+        5,
+        7
+      ],
+      [
+        10,
+        5,
+        7
+      ]
+    ],
+    "blocked": [
+      [
+        7,
+        2,
+        7
+      ]
+    ]
+  }
+}

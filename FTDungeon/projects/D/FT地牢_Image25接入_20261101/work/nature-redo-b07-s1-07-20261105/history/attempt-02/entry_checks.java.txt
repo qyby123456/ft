@@ -1,0 +1,105 @@
+    private static Vec3 entryFeet(JsonArray node, Fixture fixture) {
+        double height = node.get(1).getAsDouble();
+        BlockPos point = world(new BlockPos(node.get(0).getAsInt(), (int) Math.floor(height), node.get(2).getAsInt()), fixture);
+        return new Vec3(point.getX() + 0.5, point.getY() + height - Math.floor(height), point.getZ() + 0.5);
+    }
+
+    private static AABB entryBody(Vec3 feet) {
+        return new AABB(feet.x - 0.3, feet.y + 0.00001, feet.z - 0.3, feet.x + 0.3, feet.y + 1.8, feet.z + 0.3);
+    }
+
+    private static boolean entryStanding(ServerLevel level, Vec3 feet) {
+        AABB support = new AABB(feet.x - 0.29, feet.y - 0.025, feet.z - 0.29, feet.x + 0.29, feet.y - 0.00001, feet.z + 0.29);
+        return level.noCollision(entryBody(feet)) && !level.noCollision(support);
+    }
+
+    private static boolean entryEdge(ServerLevel level, Vec3 start, Vec3 end) {
+        if (Math.abs(start.y - end.y) > 0.50001) return false;
+        double raised = Math.max(start.y, end.y);
+        Vec3 startUp = new Vec3(start.x, raised, start.z);
+        Vec3 endUp = new Vec3(end.x, raised, end.z);
+        return level.noCollision(entryBody(start).minmax(entryBody(startUp)))
+                && level.noCollision(entryBody(startUp).minmax(entryBody(endUp)))
+                && level.noCollision(entryBody(endUp).minmax(entryBody(end)));
+    }
+
+    private static Set<Integer> entryFlood(Fixture fixture, List<Vec3> points, JsonArray route) {
+        Set<Integer> visited = new HashSet<>();
+        ArrayDeque<Integer> queue = new ArrayDeque<>();
+        require(entryStanding(fixture.level, points.get(0)), "Entry external feet unsafe");
+        visited.add(0);
+        queue.add(0);
+        while (!queue.isEmpty()) {
+            int current = queue.remove();
+            for (int next = 0; next < points.size(); next++) {
+                if (visited.contains(next)) continue;
+                JsonArray left = route.get(current).getAsJsonArray();
+                JsonArray right = route.get(next).getAsJsonArray();
+                int distance = Math.abs(left.get(0).getAsInt() - right.get(0).getAsInt()) + Math.abs(left.get(2).getAsInt() - right.get(2).getAsInt());
+                if (distance == 1 && entryStanding(fixture.level, points.get(next)) && entryEdge(fixture.level, points.get(current), points.get(next))) {
+                    visited.add(next);
+                    queue.add(next);
+                }
+            }
+        }
+        return visited;
+    }
+
+    private static void inspectEntry(Fixture fixture) {
+        JsonArray route = fixture.spec.getAsJsonArray("entry_route");
+        List<Vec3> points = new ArrayList<>();
+        for (var node : route) points.add(entryFeet(node.getAsJsonArray(), fixture));
+        Map<BlockPos, BlockState> doors = new LinkedHashMap<>();
+        for (var encoded : fixture.spec.getAsJsonArray("doors")) {
+            BlockPos point = world(position(encoded.getAsJsonArray()), fixture);
+            BlockState state = fixture.level.getBlockState(point);
+            require(state.getBlock() instanceof net.minecraft.world.level.block.DoorBlock, "Missing native entry door");
+            require(!state.getValue(net.minecraft.world.level.block.DoorBlock.OPEN), "Candidate door not closed");
+            doors.put(point, state);
+        }
+        Set<Integer> closed = entryFlood(fixture, points, route);
+        int closedInterior = 0;
+        int doorBlocked = 0;
+        for (int index = 0; index < points.size(); index++) {
+            int depth = route.get(index).getAsJsonArray().get(2).getAsInt();
+            if (depth < 23 && closed.contains(index)) closedInterior++;
+            if (depth == 23) {
+                Vec3 inside = points.get(index);
+                BlockPos outsidePoint = world(new BlockPos(route.get(index).getAsJsonArray().get(0).getAsInt(), 2, 24), fixture);
+                Vec3 outside = new Vec3(outsidePoint.getX() + 0.5, outsidePoint.getY() + 0.5, outsidePoint.getZ() + 0.5);
+                if (!entryEdge(fixture.level, outside, inside)) doorBlocked++;
+            }
+        }
+        require(closedInterior == 0 && doorBlocked == 2, "Closed door failed to block inner access");
+        for (int across = 0; across < 27; across++) for (int height = 3; height <= 6; height++) {
+            if ((across == 12 || across == 13) && height <= 4) continue;
+            require(!fixture.level.getBlockState(world(new BlockPos(across, height, 23), fixture)).getCollisionShape(fixture.level, world(new BlockPos(across, height, 23), fixture)).isEmpty(), "Gap in front barrier");
+        }
+        int reached;
+        try {
+            for (var entry : doors.entrySet()) fixture.level.setBlock(entry.getKey(), entry.getValue().setValue(net.minecraft.world.level.block.DoorBlock.OPEN, true), Block.UPDATE_CLIENTS | Block.UPDATE_KNOWN_SHAPE);
+            for (var entry : fixture.states.entrySet()) {
+                BlockState expected = doors.containsKey(entry.getKey()) ? entry.getValue().setValue(net.minecraft.world.level.block.DoorBlock.OPEN, true) : entry.getValue();
+                require(fixture.level.getBlockState(entry.getKey()).equals(expected), "Analysis changed more than four open properties");
+            }
+            reached = entryFlood(fixture, points, route).size();
+            require(reached == points.size(), "Open-only entry route incomplete: " + reached + "/" + points.size());
+        } finally {
+            for (var entry : doors.entrySet()) fixture.level.setBlock(entry.getKey(), entry.getValue(), Block.UPDATE_CLIENTS | Block.UPDATE_KNOWN_SHAPE);
+        }
+        for (var entry : fixture.states.entrySet()) require(fixture.level.getBlockState(entry.getKey()).equals(entry.getValue()), "Closed source not restored after analysis");
+        Map<String, Object> report = new LinkedHashMap<>();
+        report.put("status", "PASS");
+        report.put("source_nbt_sha256", fixture.hash);
+        report.put("closed_route_reached", closed.size());
+        report.put("closed_interior_targets_reached", closedInterior);
+        report.put("blocked_door_columns", doorBlocked);
+        report.put("open_analysis_targets_reached", reached);
+        report.put("route_target_count", points.size());
+        report.put("only_changed_properties", "open=true on exactly four native door halves; all other block states compared");
+        report.put("closed_source_restored_before_capture", true);
+        report.put("body", "0.6x1.8 AABB, support slice and raised horizontal sweeps; maximum half-block step 0.5; geometric stair traversal, no client input simulation");
+        report.put("steps", fixture.spec.getAsJsonArray("steps"));
+        try { Files.writeString(fixture.root.resolve("entrance-analysis-" + fixture.rotation.name().toLowerCase() + ".json"), new GsonBuilder().setPrettyPrinting().create().toJson(report) + "\n"); }
+        catch (Exception exception) { throw new IllegalStateException(exception); }
+    }

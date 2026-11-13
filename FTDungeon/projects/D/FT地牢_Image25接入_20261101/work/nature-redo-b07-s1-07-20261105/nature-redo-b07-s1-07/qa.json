@@ -1,0 +1,129 @@
+{
+  "status": "PRODUCER_TECHNICAL_PASS_PENDING_INDEPENDENT_REVIEW",
+  "source_nbt_sha256": "8f693bd558354d9444e654300197c0f74b1b3870af9069d51897bb510de63133",
+  "static": {
+    "status": "PASS_STATIC_ONLY",
+    "source_nbt_sha256": "8f693bd558354d9444e654300197c0f74b1b3870af9069d51897bb510de63133",
+    "records": 13311,
+    "size": [
+      27,
+      17,
+      29
+    ],
+    "roof_columns": 783,
+    "water_cells": 8,
+    "route_targets": 80,
+    "doors_closed": true,
+    "containers": 0,
+    "palette": {
+      "minecraft:stone_bricks": 2489,
+      "minecraft:mossy_stone_bricks": 1852,
+      "minecraft:cracked_stone_bricks": 402,
+      "minecraft:moss_block": 111,
+      "minecraft:coarse_dirt": 14,
+      "minecraft:air": 7222,
+      "minecraft:dark_oak_log": 498,
+      "minecraft:oak_leaves": 605,
+      "minecraft:water": 8,
+      "minecraft:oak_log": 9,
+      "minecraft:dark_oak_planks": 51,
+      "minecraft:lantern": 5,
+      "minecraft:cave_vines": 4,
+      "minecraft:cave_vines_plant": 8,
+      "minecraft:chiseled_stone_bricks": 16,
+      "minecraft:stone_brick_slab": 5,
+      "minecraft:dark_oak_door": 4,
+      "minecraft:mossy_cobblestone": 4,
+      "minecraft:birch_planks": 4
+    },
+    "scope": "Bounds, closed source doors, supported half-step route air/slab/door vocabulary and explicit full roof; native closed/open/body/stair checks required."
+  },
+  "support": {
+    "status": "PASS",
+    "source_nbt_sha256": "8f693bd558354d9444e654300197c0f74b1b3870af9069d51897bb510de63133",
+    "method": "Six-face graph from Y=0, all nonair/nonfluid blocks including leaves and hanging decoration. Geometric connectivity; native survival checked separately.",
+    "nonfluid_blocks": 6081,
+    "ground_connected_blocks": 6081,
+    "detached_blocks": []
+  },
+  "native_reports": [
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b07-s1-07-20261105\\nature-redo-b07-s1-07\\forge-none.json",
+      "sha256": "05c18d2b5ca2e857ba077b9d85b660a16c7397d824cb3e2265a6e1f4e5402443",
+      "bytes": 1014
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b07-s1-07-20261105\\nature-redo-b07-s1-07\\forge-clockwise_90.json",
+      "sha256": "a0071663e0fe081c42647dedc1ef686305ca7c40102592060fa99e47811af03d",
+      "bytes": 1030
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b07-s1-07-20261105\\nature-redo-b07-s1-07\\forge-clockwise_180.json",
+      "sha256": "0962395e2bd2a28d4c7bab0f536cd2f51c620c4104ef46f239839eae4d254b26",
+      "bytes": 1032
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b07-s1-07-20261105\\nature-redo-b07-s1-07\\forge-counterclockwise_90.json",
+      "sha256": "1de328febec80fc8b192895ae15d59cbe312b147f784716ace649d063fcdb991",
+      "bytes": 1044
+    }
+  ],
+  "closed_open_analysis": [
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b07-s1-07-20261105\\nature-redo-b07-s1-07\\entrance-analysis-none.json",
+      "sha256": "7dcaa827718854f02db3eac14408ecbe4f8f064be53c523dfc439ff64adb5b62",
+      "bytes": 877
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b07-s1-07-20261105\\nature-redo-b07-s1-07\\entrance-analysis-clockwise_90.json",
+      "sha256": "7dcaa827718854f02db3eac14408ecbe4f8f064be53c523dfc439ff64adb5b62",
+      "bytes": 877
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b07-s1-07-20261105\\nature-redo-b07-s1-07\\entrance-analysis-clockwise_180.json",
+      "sha256": "7dcaa827718854f02db3eac14408ecbe4f8f064be53c523dfc439ff64adb5b62",
+      "bytes": 877
+    },
+    {
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b07-s1-07-20261105\\nature-redo-b07-s1-07\\entrance-analysis-counterclockwise_90.json",
+      "sha256": "7dcaa827718854f02db3eac14408ecbe4f8f064be53c523dfc439ff64adb5b62",
+      "bytes": 877
+    }
+  ],
+  "closed_capture_comparisons": [
+    {
+      "rotation": "none",
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b07-s1-07-20261105\\nature-redo-b07-s1-07\\native-placed-none.nbt",
+      "sha256": "196d6adaba1acf43c01b84f5d92dd6b17bf88a976d8f6f2b66cfbc47a671fdb4",
+      "bytes": 40535,
+      "matches_rotated_source_nbt": true,
+      "exact_records_compared": 13311
+    },
+    {
+      "rotation": "clockwise_90",
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b07-s1-07-20261105\\nature-redo-b07-s1-07\\native-placed-clockwise_90.nbt",
+      "sha256": "c5983ce6a1e591700e967ef1b080278d40186b7183f502864266be8e7da5182c",
+      "bytes": 39816,
+      "matches_rotated_source_nbt": true,
+      "exact_records_compared": 13311
+    },
+    {
+      "rotation": "clockwise_180",
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b07-s1-07-20261105\\nature-redo-b07-s1-07\\native-placed-clockwise_180.nbt",
+      "sha256": "4a0e528c1f72fb4a177b52011fd4af376e96ca5eb0f84ea96af6f298b1d5c582",
+      "bytes": 40302,
+      "matches_rotated_source_nbt": true,
+      "exact_records_compared": 13311
+    },
+    {
+      "rotation": "counterclockwise_90",
+      "path": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\work\\nature-redo-b07-s1-07-20261105\\nature-redo-b07-s1-07\\native-placed-counterclockwise_90.nbt",
+      "sha256": "30a6f6819bfdf759eb16afa5bd089c7ce514555901eaf4ca5ff2a2502348eba2",
+      "bytes": 39814,
+      "matches_rotated_source_nbt": true,
+      "exact_records_compared": 13311
+    }
+  ],
+  "render_views": 14,
+  "scope": "400 forced fluid/neighbor ticks per rotation, randomTickSpeed=0; native geometric closed/open/stair route. No natural random tick certification, actual player use, gameplay or deployment."
+}

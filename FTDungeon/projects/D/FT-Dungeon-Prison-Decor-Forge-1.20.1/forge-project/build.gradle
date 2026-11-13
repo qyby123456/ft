@@ -1,0 +1,70 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+group = 'net.farmingtales'
+version = '1.1.0'
+
+base {
+    archivesName = 'ft-dungeon-prison-decor-forge-1.20.1'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+sourceSets {
+    assetVerification {
+        java.srcDir 'tools/java'
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.runtimeClasspath
+    }
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        data {
+            workingDirectory project.file('run/datagen')
+            property 'ftdungeonprops.resources', file('src/main/resources').absolutePath
+            property 'ftdungeonprops.report', file('../qa/forge-native.json').absolutePath
+            args '--mod', 'ftdungeonprops', '--all', '--output', file('build/datagen').absolutePath,
+                 '--existing', file('src/main/resources').absolutePath
+            mods {
+                ftdungeonprops {
+                    source sourceSets.main
+                    source sourceSets.assetVerification
+                }
+            }
+        }
+    }
+}
+
+tasks.matching { it.name == 'runData' }.configureEach {
+    dependsOn 'assetVerificationClasses'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes 'Implementation-Title': 'FT Dungeon Prison Decor',
+                   'Implementation-Version': project.version,
+                   'Implementation-Vendor': '一颗大豆 / B站 UID355533780'
+    }
+    finalizedBy 'reobfJar'
+}

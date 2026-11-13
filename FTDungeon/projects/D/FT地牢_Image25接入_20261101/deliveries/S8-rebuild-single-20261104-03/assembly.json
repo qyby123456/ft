@@ -1,0 +1,67 @@
+{
+  "overall_size": [
+    17,
+    12,
+    17
+  ],
+  "axis": "+X east,+Y up,+Z south",
+  "modules": [
+    {
+      "id": "S8R_IMG03",
+      "nbt": "D:\\ft工程文件\\FT地牢_Image25接入_20261101\\deliveries\\S8-rebuild-single-20261104-03\\incoming\\S8R_IMG03\\room.nbt",
+      "sha256": "8db768f622ed5f0b676edea272993162d35297f95c8349b4059eb8dd2b42569c",
+      "size": [
+        17,
+        12,
+        17
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "local_origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation_pivot": [
+        8,
+        0,
+        8
+      ],
+      "placement_order": 1,
+      "dependencies": [],
+      "connection_anchors": [
+        {
+          "role": "entrance",
+          "facing": "north",
+          "position": [
+            8,
+            2,
+            0
+          ],
+          "width": 3,
+          "height": 3
+        },
+        {
+          "role": "exit",
+          "facing": "east",
+          "position": [
+            16,
+            2,
+            7
+          ],
+          "width": 3,
+          "height": 3
+        }
+      ]
+    }
+  ],
+  "split": false,
+  "rotation": "clockwise [x,y,z]->[16-z,y,x]; states and anchors together",
+  "world_origin": null,
+  "bounds_policy": "Check full17x12x17 explicit-air volume, entities, fluids and borders before placement; reject occupied volume, never clear it",
+  "world_placement_400ticks": "NOT_RUN",
+  "deployment": "NOT_DEPLOYED"
+}

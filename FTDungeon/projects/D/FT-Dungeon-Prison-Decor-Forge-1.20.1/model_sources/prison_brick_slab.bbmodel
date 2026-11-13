@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "雕边囚石台阶",
+  "model_identifier": "prison_brick_slab",
+  "resolution": {
+    "width": 32,
+    "height": 32
+  },
+  "elements": [
+    {
+      "name": "Structure 1",
+      "type": "cube",
+      "uuid": "2032691c-339f-51ec-b3ff-21320afbb993",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        16
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "autouv": 0,
+      "box_uv": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            16,
+            32,
+            32
+          ],
+          "texture": 2,
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            16,
+            32,
+            32
+          ],
+          "texture": 2,
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            16,
+            32,
+            32
+          ],
+          "texture": 2,
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            16,
+            32,
+            32
+          ],
+          "texture": 2,
+          "cullface": "east"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "texture": 1,
+          "cullface": "down"
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "2032691c-339f-51ec-b3ff-21320afbb993"
+  ],
+  "textures": [
+    {
+      "name": "remake-masonry_00.png",
+      "id": "0",
+      "uuid": "cc2c922f-086f-5f77-9015-697762f0f504",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABRElEQVR4nGNUNXf5z8DAwGDtYMtAD3D0wGEGZPtYYBIifFx0cQCyfW8+fUM44NaDpzSzzJ7tDBKPA0WOBRQUINeAHHD90hWaOOA6AwdDmbcMQ9fWJ2C+pp4OwgEMaABfWnj37j3YkeSkl6NfGRiklVgZnt67jyLOgs0SQuDBI4hPqAGYGAYYsGATfP78JZwtKSlOfwdIkmDp189fCKrh5uUhzQGkAJDhfDzcBNV9+vKVNg7AZ/iQSIRMI94BLPiyICUpn2wHfHj9mqAmYtSQ7QBrCtoFhOoKUBFOlbqAmnUFE8MAA6aBdgALPklicgSlFRYLrQymigMoBcjlBa4akYWBhgBfNTxoEiHTiHcAC7lZj1qVFQusrwbrLFCjoiHFDBZkDnKPhZYAVGHBKi0WmKCagjRdLIc5AAbAfUMQAPVUBwIAANKtcZ7Qy+xmAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "remake-masonry_01.png",
+      "id": "1",
+      "uuid": "ede760e7-34e0-5c65-a09a-ad192dc21ec5",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA5klEQVR4nGM09Yn8zzCAgAVEfHj9ekAsFxAVhTgAxqEngHmahVoGSkqK45R7/vwlTjkmhgEGLNQ0TEhIEIX/7t178hygra1BUOPVqzcwghlfUJPkgKtohg9IFGjjCQVqOpCFHpbgA0x0sWXUAaSkAW2kxEePdMAykFkQBEYTIRNdw3s0CoZ1e0CbiCocWzZnoZYDyC0/WBhoCNBDBZsjWajd2CQ2Koh2AAjYs51hQAYHf5kwUCsqWIhViM9SSgALNsEI+cdIvMcYLV5iWrsUOWDFQ1ksojeGeUH0YYA6qGAH0LtjigwAt+pCYaSY7Y0AAAAASUVORK5CYII="
+    },
+    {
+      "name": "remake-masonry_02.png",
+      "id": "2",
+      "uuid": "d04e9c58-cadd-5a7b-97bd-15b75a5ed2d0",
+      "mode": "bitmap",
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA0ElEQVR4nGMsae3+zzCAgOXNp28DaT8Do6q5y8CGgICo6EDaz8AiKSlOVwvt2c7A2Qd/mTAw4VN8/dIViizDph9kKQyDABM+zZp6OmQ7glj9TPg0gwA5jiBFPws2QZgmEK2mII0i9/z5S6wGIaclfPqJcgA+l4MsEhISRBF79+49hjpiQ47RL7VgQMsBJoYBBiyUZjWKHWDtYDuwDnjw6MnAOuDpvfsD6wB/P/eBdcCb0faA6Gh7ADcYbQ+AwGh7AB2MtgeoDVhG2wMPRnp7AAAjcZSX/+YjxQAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.63,
+        0.63,
+        0.63
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  }
+}

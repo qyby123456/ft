@@ -1,0 +1,97 @@
+{
+  "id": "corridor-M09",
+  "design_id": "M09",
+  "name": "黑曜试炼残拱长廊",
+  "minecraft_version": "1.20.1",
+  "data_version": 3465,
+  "size": [
+    15,
+    12,
+    41
+  ],
+  "entrance": [
+    7,
+    2,
+    0
+  ],
+  "interior": [
+    7,
+    2,
+    3
+  ],
+  "exit": [
+    7,
+    2,
+    40
+  ],
+  "facing": "north",
+  "connectors": [
+    {
+      "side": "north",
+      "feet": [
+        7,
+        2,
+        0
+      ],
+      "width": 5,
+      "height": 5
+    },
+    {
+      "side": "south",
+      "feet": [
+        7,
+        2,
+        40
+      ],
+      "width": 5,
+      "height": 5
+    }
+  ],
+  "corridor": {
+    "kind": "medium",
+    "length": 41,
+    "length_chunks": 2.5625,
+    "axis": "z",
+    "required_clearance": {
+      "min": [
+        6,
+        2,
+        0
+      ],
+      "max": [
+        8,
+        4,
+        40
+      ]
+    },
+    "branches": 0,
+    "stairs_on_route": false
+  },
+  "sha256": "5a776d5e6a96b0497aaf0411e289cebbc5d124a0b5b76b1e27897a0fd379abec",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/M09-obsidian-trial-damaged.png",
+  "reference_sha256": "485e717ae64f6bc8b0ba8ba59512a904b2bc43fced70389aa6df650440f70de9",
+  "palette": [
+    "obsidian",
+    "crying_obsidian",
+    "deepslate_bricks",
+    "deepslate_tiles",
+    "polished_blackstone_bricks",
+    "gold_block",
+    "gilded_blackstone",
+    "orange_stained_glass",
+    "shroomlight",
+    "candle"
+  ],
+  "design_translation": [
+    "Six repeated stepped ribs with three missing shoulder fragments; continuous sealed roof.",
+    "Twelve supported, lit multi-candle groups; gold plates carry dark stone button runes.",
+    "Orange glass and encased shroomlight safely approximate lava seams; no real lava or magma.",
+    "Side rubble never enters the straight three-wide, three-high required route."
+  ],
+  "entities": 0,
+  "block_entities": 0,
+  "loot": false,
+  "deployment": "not_deployed",
+  "player_saves_modified": false,
+  "integration": "Independent template only. Core owner must validate whole-volume occupancy, connector placement and idempotence before deployment."
+}

@@ -1,0 +1,96 @@
+{
+  "id": "corridor-S10",
+  "producer_metadata_id": "S10",
+  "name": "轻损锈铜机械短廊",
+  "size": [
+    13,
+    11,
+    16
+  ],
+  "entrance": [
+    6,
+    2,
+    0
+  ],
+  "interior": [
+    6,
+    2,
+    3
+  ],
+  "exit": [
+    6,
+    2,
+    15
+  ],
+  "facing": "north",
+  "connectors": [
+    {
+      "side": "north",
+      "position": [
+        6,
+        2,
+        0
+      ],
+      "width": 3,
+      "height": 3
+    },
+    {
+      "side": "south",
+      "position": [
+        6,
+        2,
+        15
+      ],
+      "width": 3,
+      "height": 3
+    }
+  ],
+  "main_path": {
+    "from": [
+      5,
+      2,
+      0
+    ],
+    "to": [
+      7,
+      4,
+      15
+    ],
+    "floor_y": 1,
+    "width": 3,
+    "clearance": 3,
+    "turns": 0,
+    "branches": 0,
+    "stairs": 0
+  },
+  "category": "short_straight_corridor",
+  "axis": "z",
+  "length_blocks": 16,
+  "minecraft_version": "1.20.1",
+  "data_version": 3465,
+  "sha256": "f0657f0745b8acc902a9bd65969663d3265bc9d31a4f46f4f3a827fcd421fb16",
+  "reference": "D:/ft工程文件/image2.5/dungeon-corridors-20261103/out/S10-copper-machinery-damaged.png",
+  "reference_sha256": "c6a7c3600395f94a6af3160b9fed188cc08906428831ecfb684844e5e6db6907",
+  "source_batch": "D:/ft工程文件/image2.5/dungeon-corridors-20261103",
+  "template_candidate": "ftdungeonmobs:image25/corridor_s10",
+  "reserved_queue_slot": 70,
+  "builder": {
+    "skill": "C:/Users/YOUR_USERNAME/.codex/skills/minecraft-builder-skill",
+    "recipe": "tools/recipe.mjs",
+    "runner": "scripts/run-build.mjs",
+    "lodestone": "0.6.0",
+    "explicit_air": true
+  },
+  "adaptations": [
+    "Java 1.20.1 has no copper grates: closed upper-half iron trapdoors over oxidized copper backing reproduce the grate rhythm outside the central lane.",
+    "Lightning rods represent copper pipes; gold blocks, targets and wall-mounted stone buttons represent passive gauges without entities, loot or mod blocks.",
+    "The reference far-end closed door is replaced by an open matching south arch for mandatory two-ended transit.",
+    "All copper is waxed to preserve the orange/teal design under random ticks; damage uses supported missing corbels and non-gravity stone slabs, not a broken weather shell."
+  ],
+  "scope": {
+    "deployed": false,
+    "production_save_access": false,
+    "core_integration_tested": false,
+    "dedicated_qa_world_only": true
+  }
+}

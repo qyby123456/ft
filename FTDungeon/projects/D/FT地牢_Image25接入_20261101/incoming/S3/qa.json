@@ -1,0 +1,234 @@
+{
+  "id": "S3",
+  "name": "炼金实验室",
+  "status": "PASS",
+  "passed": true,
+  "sha256": "d72f6fa1d576958417ed362f81f5a1866a96e991e1a45a833e2d7f15aecdb51c",
+  "size": [
+    9,
+    5,
+    9
+  ],
+  "entrance": [
+    4,
+    1,
+    0
+  ],
+  "interior": [
+    4,
+    1,
+    3
+  ],
+  "facing": "north",
+  "nbt": {
+    "passed": true,
+    "independent_parser": "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\versions\\FarmingTales_ForgeⅡ v1.5.2\\output\\world_export_20261031_1000000\\tools\\export_mca.py",
+    "positions": 405,
+    "block_entities": 4,
+    "entities": 0,
+    "data_version": 3465,
+    "sha256": "d72f6fa1d576958417ed362f81f5a1866a96e991e1a45a833e2d7f15aecdb51c"
+  },
+  "enclosure": {
+    "passed": true,
+    "floor_columns": 81,
+    "roof_columns": 81,
+    "wall_positions_checked": 96,
+    "only_opening": {
+      "side": "north",
+      "width": 3,
+      "height": 3
+    },
+    "entry_floor_inside_template": true,
+    "door_blocks": 0,
+    "protruding_entry_stones": 0
+  },
+  "navigation": {
+    "passed": true,
+    "reachable_positions": 40,
+    "reachable_ground_cells": 32,
+    "ground_walkable_cells": 32,
+    "ground_reachable_fraction": 1.0,
+    "stations": [
+      {
+        "name": "安全内点",
+        "position": [
+          4,
+          1,
+          3
+        ]
+      },
+      {
+        "name": "入口与符纹中央",
+        "position": [
+          4,
+          1,
+          3
+        ]
+      },
+      {
+        "name": "炼药操作位",
+        "position": [
+          3,
+          1,
+          5
+        ]
+      },
+      {
+        "name": "药锅操作位",
+        "position": [
+          4,
+          1,
+          5
+        ]
+      },
+      {
+        "name": "抄写桌前",
+        "position": [
+          6,
+          1,
+          4
+        ]
+      }
+    ],
+    "entrance_clearance": [
+      3,
+      3
+    ],
+    "cobweb_free_entry": true
+  },
+  "hazards": {
+    "passed": true,
+    "free_fluid_cells": 0,
+    "water_cauldron_cells": 1,
+    "all_fluid_sides_and_bases_sealed": true,
+    "lit_fire_sources": 0,
+    "flammable_blocks": 13,
+    "nearest_flammable_chebyshev_distance": null,
+    "minimum_fire_clearance_blocks": 3
+  },
+  "block_entities": {
+    "passed": true,
+    "types": {
+      "minecraft:brewing_stand": 3,
+      "minecraft:lectern": 1
+    },
+    "reward_containers": 0,
+    "loot_tables": 0,
+    "functional_decorative_items": 1,
+    "item_note": "仅保留讲台中的可读工作记录；所有酿造台及其它容器库存为空，不预装水瓶。"
+  },
+  "blocks": {
+    "passed": true,
+    "minecraft": "1.20.1",
+    "block_ids": 21,
+    "block_states": 23,
+    "namespaces": [
+      "minecraft"
+    ],
+    "render_property_checks": 14,
+    "non_rendered_properties": [
+      "minecraft:amethyst_cluster#waterlogged=false",
+      "minecraft:green_candle#waterlogged=false",
+      "minecraft:lantern#waterlogged=false",
+      "minecraft:lectern#has_book=true",
+      "minecraft:lectern#powered=false",
+      "minecraft:soul_lantern#waterlogged=false",
+      "minecraft:spruce_slab#waterlogged=false"
+    ],
+    "archive": "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\versions\\FarmingTales_ForgeⅡ v1.5.2\\FarmingTales_ForgeⅡ v1.5.2.jar",
+    "scope_note": "方块名称与模型可见属性按本机1.20.1资源校验，隐藏属性另行按已知原版取值校验；不代替游戏注册表和实机放置。"
+  },
+  "features": [
+    "中央后侧炼药台与装水炼药锅",
+    "两组瓶架、书架与药草台",
+    "带打开书本的抄写桌",
+    "紫晶、绿紫地面符纹与安全灯光"
+  ],
+  "landmarks": {
+    "alchemy_bench": [
+      [
+        3,
+        2,
+        6
+      ],
+      [
+        5,
+        1,
+        5
+      ]
+    ],
+    "potion_shelves": [
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        6
+      ]
+    ],
+    "writing_desk": [
+      [
+        7,
+        2,
+        4
+      ]
+    ],
+    "purple_rune_floor": [
+      [
+        4,
+        0,
+        4
+      ],
+      [
+        2,
+        0,
+        4
+      ],
+      [
+        6,
+        0,
+        4
+      ]
+    ]
+  },
+  "adaptations": [
+    "由7×7合理扩至9×9，保持小房间但不挤占三格宽入口",
+    "使用空酿造台、药草和紫晶表达炼金操作区，不预装可领取水瓶或奖励箱",
+    "紫色药锅雾气改为紫晶和紫色符纹；不加入命令方块或粒子函数",
+    "蜡烛不点燃，木质书架附近使用不会蔓延火焰的灯笼"
+  ],
+  "reference": {
+    "image": {
+      "path": "D:\\ft工程文件\\image2.5\\dungeon-design-batch2-20261101\\out\\S3-alchemist-lab-hero.png",
+      "sha256": "bf3b05d97d509f529a187b47a33e4448da6074373c533e43191286f798c4e017"
+    },
+    "prompt": {
+      "path": "D:\\ft工程文件\\image2.5\\dungeon-design-batch2-20261101\\prompts\\S3-alchemist-lab.txt",
+      "sha256": "2d68761286625d7c90a57381c14905b50e9dbcb31632df5e6eadfd647a3a1df3"
+    },
+    "styles": {
+      "path": "D:\\ft工程文件\\image2.5\\dungeon-design-batch2-20261101\\ROOM_STYLES_BATCH2.md",
+      "sha256": "746feb7005d0c20caf79dca661dfa85483b9fb21e35e0e9724b9cdbb6a5c5290"
+    }
+  },
+  "runtime_tested": false,
+  "preview_is_cutaway_only": true,
+  "generation_api_calls": 0,
+  "core_modified": false,
+  "saves_modified": false,
+  "deployed": false,
+  "preview": {
+    "path": "D:\\ft工程文件\\FT地牢_第二批_L3_L4_S3_制作_20261101\\out\\S3\\preview.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "0ed02fc85053e5c2f7170e69c9c7424ab9ec4f1412fcbf44497cf6d98ec1c2ce",
+    "source": "实际序列化NBT重新读取，剖视仅用于预览"
+  },
+  "room_json_sha256": "dc9797c9c306f07e81dd8f9d2bf4a54cde2d370a4d7db20ab446bdeccb09b4b6"
+}
