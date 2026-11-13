@@ -1,0 +1,1 @@
+execute if block 228 151 66 minecraft:air if block 228 150 66 ftdungeonmobs:dungeon_cracked_tiles[facing=north] store success score #v2b122 ftm_brick run setblock 228 151 66 ftdungeonmobs:dungeon_spawn_point[spent=false] keep
