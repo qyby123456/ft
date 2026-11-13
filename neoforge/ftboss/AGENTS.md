@@ -1,5 +1,13 @@
 # NeoForge continuation on C
 
+## Latest verified GitHub source persistence and next Boss work, 2026-11-13
+
+- The user explicitly confirmed commit author identity. Three reviewed commits are now pushed to codex/neoforge-source-20261113;source import head 204b13de017c6cb2c8b6e06513f4436e550ff412,tree 39a10e211d086135248cdceb405a01cb09f8f145. Original main 27d20d5e1d2eb960f4a64cde9bd21230efae766c andREADME remain byte-identical. No force push. Earlier pending-author/URL notes below are historical andsuperseded.
+- Fresh independent remote retrieval verified every one of1903source files plus the1904th import manifest against original SHA256;git fsck passes. github-sync/checkpoint-first-push-20261113.json records the scoped proof. Raw archives,JARs,worlds,SDKs andprivate/account/session data were not uploaded;large-artifact recovery remains unproven. Delete no local evidence on the basis of this source-only proof.
+- Direct Git HTTPS was intermittent;using the existing credential-free Windows system proxy for individual Git operations succeeded. No global proxy/credential settings changed andTLS verification stayed enabled. Use the existing Credential Manager account;do not request or store passwords/tokens in source.
+- Resume Boss work with an actual effective baseline for original Zicai Curios silence:positive damage andeligible owner,100natural ticks,noncosmetic equip denial andlossless logout/death/respawn/slot-missing restoration. Raw missing classes alone are not acceptance proof. Preserve original behavior andall failed evidence.
+- Both formal instances remain read-only with no further deployment;Stage27 stays SHA6563f431dca1871eb7870653b74550ba2f5c0f66c104eea90ce58a99ca30f7c0. Full Boss product remains incomplete/NOT-INSTALLABLE;all weapon andSession development/validation stays paused,same sole C writer. Future accepted increments require source review,push andfresh recovery proof.
+
 ## Latest supplied GitHub target and authentication gate, 2026-11-13
 
 - Existing target supplied directly: https://github.com/qyby123456/ft.git. Read verified;public repository,default main,one existing commit27d20d5e1d2eb960f4a64cde9bd21230efae766c andone README. Preserve that history and README;do not rewrite/force-push main. Authorized safe import branch codex/neoforge-source-20261113 and explicit neoforge/ftboss subdirectory.

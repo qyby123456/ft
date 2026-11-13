@@ -1,5 +1,9 @@
 # Full Boss migration and deployment requirements
 
+## Verified source persistence, 2026-11-13
+
+Three source commits pushed to `codex/neoforge-source-20261113`,head `204b13de017c6cb2c8b6e06513f4436e550ff412`. Fresh independent retrieval verifies1903source files plus one import manifest bySHA256;original main/README preserved. This is source recovery only;large raw artifacts remain local andmust not be deleted. Both formal instances remain read-only,no new deployment. Full Boss migration remains incomplete;weapons/Session paused. Next:original Zicai Curios silence effective native baseline,then complete behavior port.
+
 The active direct-user objective is 继续完成boss部分部署移植. This checklist preserves the complete requested end state; a passing scoped probe is not full completion. The same sole C writer retains authority. Weapon development, validation, lease/payment/Session and its noninstallable recovery JAR remain paused.
 
 | Requirement | Authoritative evidence/current state | Remaining proof |

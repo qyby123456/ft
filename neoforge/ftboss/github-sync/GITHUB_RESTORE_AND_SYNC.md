@@ -1,3 +1,13 @@
+# Verified GitHub source recovery, 2026-11-13
+
+The three reviewed source import commits are published on `codex/neoforge-source-20261113`,head `204b13de017c6cb2c8b6e06513f4436e550ff412`. Fresh independent remote retrieval matched SHA256 for all1903original source files andthe1904th import manifest;`git fsck --full` passed. Original main `27d20d5e1d2eb960f4a64cde9bd21230efae766c` andREADME are preserved. See `github-sync/checkpoint-first-push-20261113.json`. Earlier pending-author/URL paragraphs below are retained historical preparation notes.
+
+Restore the published branch into a separate directory;do not overwrite the sole C development workspace orformal instances. The imported project is under `neoforge/ftboss`. Source-only recovery is proven;raw evidence,archives,JARs,SDKs,worlds andprivate/session data were excluded andremain local. Their remote LFS/Release recovery is not established,so delete none ofthose originals.
+
+Git may need the existing Windows system proxy supplied per invocation. Read that configured route instead ofguessing a proxy orcredentials;keep TLS verification enabled. Author identity is confirmed andconfigured only in the persistence clone. No passwords/tokens are needed in source.
+
+Next Boss work is the original Zicai Curios silence contract andan effective native baseline. Full migration remains incomplete;weapons/Session paused. Both formal instances remain read-only;no new deployment is authorized.
+
 # Current target update, 2026-11-13
 
 Target: https://github.com/qyby123456/ft.git (existing public repository). main currently points to27d20d5e1d2eb960f4a64cde9bd21230efae766c andcontains one README. Preserve it. Source import uses only neoforge/ftboss on authorized local branch codex/neoforge-source-20261113. The persistence clone is github-sync/repositories/ft;the original sole C workspace remains the development authority.
