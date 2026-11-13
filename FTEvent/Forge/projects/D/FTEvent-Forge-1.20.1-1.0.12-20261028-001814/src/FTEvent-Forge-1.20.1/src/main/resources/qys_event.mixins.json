@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.farmingtales.qysevent.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "LevelRendererMixin",
+    "SlotPositionAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "CoreFacingMixin"
+  ]
+}
