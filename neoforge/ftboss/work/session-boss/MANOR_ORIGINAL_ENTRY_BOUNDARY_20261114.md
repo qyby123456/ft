@@ -1,5 +1,7 @@
 # Stage32 原版伤害入口边界修正
 
+本段源码及限定文字证据已推送 1a203ace40e838db65efc20e97a2a9f6c67495bb，40 个文件经独立远端逐 blob 大小/SHA256 恢复核验，完整 4607 文件树资源排除检查通过。核验并检查句柄后，仅清理 Git 工作副本 10 份重复 Java/Python 缓存（86017 字节），逐路径 skip-worktree；canonical 冻结输入、世界及全部资源保留。源码恢复入口 github-sync/checkpoint-manor-original-entry-20261114.json，预期缺失与清理入口 github-sync/checkpoint-manor-original-entry-cleanup-20261114.json。归档只含允许源码和文字证据，不含 JAR、模型、贴图、动画、音乐或音频；不代表完整管理分摊、认证全战斗或正式部署完成。
+
 2026-11-14。仅限定 Boss 入口移植修正；未认证完整战斗，NOT-INSTALLABLE，不部署。模型、贴图、动画、音乐、音频、嵌套资源以及 JAR/世界均不上传。
 
 ## 产品改动
