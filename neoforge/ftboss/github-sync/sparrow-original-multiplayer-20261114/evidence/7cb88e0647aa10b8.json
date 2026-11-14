@@ -1,0 +1,235 @@
+{
+  "proof": "checks=1374;actualDefinedMethods=342;allActualGraphsEqualComposition=true;exactEmitterIdempotent=true;negativeControls=2;originalHurtUnchanged=true;",
+  "originalSixMethodProof": "method=ftboss$shareManorDamage;mappedOriginalAndActualGraph=c4c72a8708603db2e46efd4c32d92f780e56f7797e7e493669870315e02b49f4\r\nmethod=sparrowShare;mappedOriginalAndActualGraph=1b7e36c8a2da907266d48ee5c3d04f33bdc6830a3cc5a1b90c71315938fea501\r\nmethod=youziMinionShare;mappedOriginalAndActualGraph=5bce2853353512a86a612ddf35e915387a5192afe05129f4d53425091550fd51\r\nmethod=nearbySparrow;mappedOriginalAndActualGraph=76c2798716745c276ab4f96a7ea112c832be726d84110a1984d490af30b1d20c\r\nmethod=blocksCombatDamage;mappedOriginalAndActualGraph=4920a9e4c9e02740b2d012377102b6b50b40f1887f199a08e69d574e8fc53c00\r\nmethod=m_6469_;mappedOriginalAndActualGraph=7b5cc70744f2dea2e8287d8f575fe592c20e3cc6446c75e5fe60da93b63fbcb6\r\nfailures=0;checks=32;completeMappedOriginalMethods=6;actualDefinedAsmMethods=6;originalShareOrderVerified=true;provenExistingEquivalentStackSites=3;negativeControls=2;",
+  "nativeReport": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\sparrow-original-multiplayer-native-v1-931da44e.json",
+  "candidateJarSha256": "9d713622cc8c8aa3d2e5b5fa340053a7eb45f8128247346c3152a14c975b886e",
+  "actualDefinedClasses": [
+    {
+      "class": "net/farmingtales/ftboss/boss/SparrowSupport",
+      "sha256": "e711a16b21ed30c54e2da53c2ad9e1d3e4dc4175b31ac2d3d7f8d7f5cef532c3"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+      "sha256": "9a46ed866f43647826b371cc16ee1d2a9d9c7eae5506c4c85b3fead0e383d614"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+      "sha256": "213ce7b89212c80738b6ee18ad5b206be2de5bde16b38b26f88ec4b95b401a91"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/SparrowAppearanceData$Entry",
+      "sha256": "fa11a19ccc4fcd80fbba198301d27935ad02116ae9fcbde1f7624b99d5d7520d"
+    },
+    {
+      "class": "net/farmingtales/ftboss/util/SparrowMultiplayerRules",
+      "sha256": "f9303bc845a8be841e1615d7f1d9491e3862896e57f4074d1a12ee6ba6a25c5b"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/NativeSparrowSavedDataAccess",
+      "sha256": "b1d66ae527b4ef8242b3de51147209bfe075f326335af91f7fcbd8616c2731e3"
+    },
+    {
+      "class": "net/farmingtales/ftboss/youzi/YouziSummonScaling",
+      "sha256": "12fb798c45a65f1baf7fd1383aa7c46a1be33b56c5859318a94d3cabcd1b6a10"
+    },
+    {
+      "class": "net/farmingtales/ftboss/util/YouziSummonRules",
+      "sha256": "2e7069c1f489cb8b30bced1befe4123707d8fe08ca020de1dfa2dae8b042445a"
+    },
+    {
+      "class": "net/farmingtales/ftboss/youzi/motion/YouziBodyNetwork",
+      "sha256": "09329e862210055475c9ba83dac20e6ef74be6b18b012424cf78f2a1bfbb4773"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/ai/NativeAnimationEmitterInstaller",
+      "sha256": "e60d0a4ade4f60df8eea60570c1afe060a6bdffa74eae6ca7b49580855cf56be"
+    },
+    {
+      "class": "net/farmingtales/ftboss/entity/EasterBossEntity",
+      "sha256": "87ebb403532475da503ccc41f0c6ed6ffa6a25f92e1c430fabb7d8debbc1b025"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/ai/ManorKiting",
+      "sha256": "048f2c921d51a454615984f286bc46a35ef284119e7be938e1c497070043e2da"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/ai/ManorFinalDamage",
+      "sha256": "12022b6a60c035077303428861f5df234f89df16cb6c320e70af7e13e0fe1a16"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/HiddenBossIntro",
+      "sha256": "9b9d4b094da458cde031ee583e0b28eda654dacb6ac7e3020381adc6fb1ec152"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/MeatBoss",
+      "sha256": "ca0519ac247aa55c16c2ac9c44b244119d87badc711b605640ae0afd412112f9"
+    },
+    {
+      "class": "net/minecraft/world/entity/LivingEntity",
+      "sha256": "39ba5a4e43ab4ad3328fe3118446dbaddfbb37eac1db2b0d67efa8613fa19e5a"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridge",
+      "sha256": "e32ec1c8d50beca8d5a4e28c5f8ea6f055714a4a818497c3425799b8173b02e7"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridge$Frame",
+      "sha256": "9bfdabff2937f587b7f9045eb8536521da54b9134f002b2bbe40c5f08fd4e6eb"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/ai/NativeManorDamageScopeAccess",
+      "sha256": "d167e030744b1cca72467fcdcf4701a23ff090f3f69fd2ed55fd0f5f8b66652c"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridgeInstaller",
+      "sha256": "8a83abcb27a53ec9b06f50c64e94c05fd52dd30422634f2d32349ee468e38010"
+    },
+    {
+      "class": "net/farmingtales/ftboss/event/NativeManorDamageEventFactory",
+      "sha256": "ffa68adfc3c4021178fb41408cb2c9bf46eda2aca73ada567831796fd446a9f7"
+    },
+    {
+      "class": "net/farmingtales/ftboss/boss/ai/NativeManorFinalDamageInstaller",
+      "sha256": "a32f249f0724499a399bc24b7d3476ea5654a7f429650761bab2fe38f56cf419"
+    },
+    {
+      "class": "net/farmingtales/ftboss/maque/support/MaqueSupportHooks",
+      "sha256": "7b64f5e86f0a904e7c54ffc03448b7c3c2a9d08b66a1f207f50261555563cc98"
+    },
+    {
+      "class": "net/farmingtales/ftboss/youzi/YouziCombatEvents",
+      "sha256": "5ef2a3ca91159f29be03e84e1d6ee84a77b3dc90700516c7f03eb1302c734fc7"
+    }
+  ],
+  "requestedCaptureNames": [
+    "net/farmingtales/ftboss/boss/SparrowSupport",
+    "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+    "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+    "net/farmingtales/ftboss/boss/SparrowAppearanceData$Entry",
+    "net/farmingtales/ftboss/util/SparrowMultiplayerRules",
+    "net/farmingtales/ftboss/boss/NativeSparrowSavedDataAccess",
+    "net/farmingtales/ftboss/youzi/YouziSummonScaling",
+    "net/farmingtales/ftboss/util/YouziSummonRules",
+    "net/farmingtales/ftboss/youzi/motion/YouziBodyNetwork",
+    "net/farmingtales/ftboss/boss/ai/NativeAnimationEmitterInstaller",
+    "net/farmingtales/ftboss/entity/EasterBossEntity",
+    "net/farmingtales/ftboss/boss/ai/ManorKiting",
+    "net/farmingtales/ftboss/boss/ai/ManorFinalDamage",
+    "net/farmingtales/ftboss/boss/HiddenBossIntro",
+    "net/farmingtales/ftboss/boss/MeatBoss",
+    "net/minecraft/world/entity/LivingEntity",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridge",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridge$Frame",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageScopeAccess",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridgeInstaller",
+    "net/farmingtales/ftboss/event/NativeManorDamageEventFactory",
+    "net/farmingtales/ftboss/boss/ai/NativeManorFinalDamageInstaller",
+    "net/farmingtales/ftboss/maque/support/MaqueSupportHooks",
+    "net/farmingtales/ftboss/youzi/YouziCombatEvents"
+  ],
+  "notNaturallyLoaded": [],
+  "noAdditionalClassForcedLoaded": true,
+  "actualHelpersExactlyCandidate": [
+    "net/farmingtales/ftboss/boss/SparrowSupport",
+    "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+    "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+    "net/farmingtales/ftboss/boss/SparrowAppearanceData$Entry",
+    "net/farmingtales/ftboss/util/SparrowMultiplayerRules",
+    "net/farmingtales/ftboss/boss/NativeSparrowSavedDataAccess",
+    "net/farmingtales/ftboss/youzi/YouziSummonScaling",
+    "net/farmingtales/ftboss/util/YouziSummonRules",
+    "net/farmingtales/ftboss/youzi/motion/YouziBodyNetwork",
+    "net/farmingtales/ftboss/boss/ai/NativeAnimationEmitterInstaller",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridge",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridge$Frame",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageScopeAccess",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridgeInstaller",
+    "net/farmingtales/ftboss/event/NativeManorDamageEventFactory",
+    "net/farmingtales/ftboss/boss/ai/NativeManorFinalDamageInstaller"
+  ],
+  "all342ActualMethodGraphsEqualProvenComposition": true,
+  "simulationArtifactGraphSnapshotOnly": true,
+  "simulationStackMapVerificationNotClaimed": true,
+  "actualDefinedClassParsedWithFrames": true,
+  "inputHashes": {
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tools\\audit_boss_sparrow_original_multiplayer_loaded_v1.py": "20821b8bd7db8747c1a9b3dee7333acf99e5d0e40bd8e9ef241eb568ebf03edf",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\sparrow-original-multiplayer-native-v1-931da44e.json": "41e6c858a48f8d1a83d6c09c420573e86c2932c2de0aa6d2bb7cf2bcd228bc25",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-sparrow-original-multiplayer-v1-20261114\\candidate-build-receipt.json": "67cbd5be78d88f7aa6b1f8877905e752e0a2e039a01fdba95d8babc488259d4b",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-sparrow-original-multiplayer-v1-20261114\\ftboss-boss-core-1.21.1-stage35-sparrow-original-multiplayer-NOT-INSTALLABLE.jar": "9d713622cc8c8aa3d2e5b5fa340053a7eb45f8128247346c3152a14c975b886e",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\LoadedBossClassCaptureV7.java": "dc5341bded71e5a92e6337d8ce1415955511fcaa2cd9b36ddc7f8ebc66bb65be",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\YouziOriginalSummonLoadedAuditV2.java": "d4eeff8be3d7ae43c0be5597f741e3fcb35e78164eefd0acff162fb2aa25c7bb",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\ManorOriginalDamageRoutingMappedAuditV1.java": "bd1ba41f768a8cc2e16cc764048ccce0c406688bc7d88acc21ed08ef55084630",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-routing-platform-audit-v1-20261114\\mapping-proof.json": "3a60bfcb01b0e456a7ca6426b92a27be2c555a332abfa3c6ba470a6c723b2f52",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\reference\\forge-current.jar": "c1734a148606397f8b2c79fbcc5c45961a5ffb1923ea051756fd45d03dc7a942",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-youzi-original-summon-v4-20261114\\simulated-after.class": "363eaed8a15bd870bdada9d529099c93442aa903d0cce46abdc1a46a9d00ad0a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_SparrowSupport.class": "e711a16b21ed30c54e2da53c2ad9e1d3e4dc4175b31ac2d3d7f8d7f5cef532c3",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_SparrowMultiplayerSupport.class": "9a46ed866f43647826b371cc16ee1d2a9d9c7eae5506c4c85b3fead0e383d614",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_SparrowAppearanceData.class": "213ce7b89212c80738b6ee18ad5b206be2de5bde16b38b26f88ec4b95b401a91",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_SparrowAppearanceData$Entry.class": "fa11a19ccc4fcd80fbba198301d27935ad02116ae9fcbde1f7624b99d5d7520d",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_util_SparrowMultiplayerRules.class": "f9303bc845a8be841e1615d7f1d9491e3862896e57f4074d1a12ee6ba6a25c5b",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_NativeSparrowSavedDataAccess.class": "b1d66ae527b4ef8242b3de51147209bfe075f326335af91f7fcbd8616c2731e3",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_youzi_YouziSummonScaling.class": "12fb798c45a65f1baf7fd1383aa7c46a1be33b56c5859318a94d3cabcd1b6a10",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_util_YouziSummonRules.class": "2e7069c1f489cb8b30bced1befe4123707d8fe08ca020de1dfa2dae8b042445a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_youzi_motion_YouziBodyNetwork.class": "09329e862210055475c9ba83dac20e6ef74be6b18b012424cf78f2a1bfbb4773",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_ai_NativeAnimationEmitterInstaller.class": "e60d0a4ade4f60df8eea60570c1afe060a6bdffa74eae6ca7b49580855cf56be",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_entity_EasterBossEntity.class": "87ebb403532475da503ccc41f0c6ed6ffa6a25f92e1c430fabb7d8debbc1b025",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_ai_ManorKiting.class": "048f2c921d51a454615984f286bc46a35ef284119e7be938e1c497070043e2da",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_ai_ManorFinalDamage.class": "12022b6a60c035077303428861f5df234f89df16cb6c320e70af7e13e0fe1a16",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_HiddenBossIntro.class": "9b9d4b094da458cde031ee583e0b28eda654dacb6ac7e3020381adc6fb1ec152",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_MeatBoss.class": "ca0519ac247aa55c16c2ac9c44b244119d87badc711b605640ae0afd412112f9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_minecraft_world_entity_LivingEntity.class": "39ba5a4e43ab4ad3328fe3118446dbaddfbb37eac1db2b0d67efa8613fa19e5a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_ai_NativeManorDamageBridge.class": "e32ec1c8d50beca8d5a4e28c5f8ea6f055714a4a818497c3425799b8173b02e7",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_ai_NativeManorDamageBridge$Frame.class": "9bfdabff2937f587b7f9045eb8536521da54b9134f002b2bbe40c5f08fd4e6eb",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_ai_NativeManorDamageScopeAccess.class": "d167e030744b1cca72467fcdcf4701a23ff090f3f69fd2ed55fd0f5f8b66652c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_ai_NativeManorDamageBridgeInstaller.class": "8a83abcb27a53ec9b06f50c64e94c05fd52dd30422634f2d32349ee468e38010",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_event_NativeManorDamageEventFactory.class": "ffa68adfc3c4021178fb41408cb2c9bf46eda2aca73ada567831796fd446a9f7",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_boss_ai_NativeManorFinalDamageInstaller.class": "a32f249f0724499a399bc24b7d3476ea5654a7f429650761bab2fe38f56cf419",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_maque_support_MaqueSupportHooks.class": "7b64f5e86f0a904e7c54ffc03448b7c3c2a9d08b66a1f207f50261555563cc98",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\captured-defined-classes\\net_farmingtales_ftboss_youzi_YouziCombatEvents.class": "5ef2a3ca91159f29be03e84e1d6ee84a77b3dc90700516c7f03eb1302c734fc7",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\SparrowOriginalStorageProofV1.java": "cdd28695b26cb675411ff1de6b92e1f299ae970b575c447f8072f7b530258da9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\SparrowOriginalSupportMappedAuditV1.java": "4cdb9b9e7e9d178b913eb541d32fd5e59de76dab85aac25bdd9c91c5e3a48475",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\game\\saves\\sparrow-original-multiplayer-native-v8\\data\\ftboss_sparrow_multiplayer.dat": "76c61e0315fe99efcc0fab4c557123eee05e81bb4ba98a57be35ebc8456a6175"
+  },
+  "nativeMatrixAccepted": true,
+  "cases": 18,
+  "playerFixtureProtection": {
+    "cappedHits": 224,
+    "creative": false,
+    "sourceCounts": {
+      "mob": 119,
+      "thorns": 72,
+      "magic": 4,
+      "evocation_magic": 25,
+      "wither": 2,
+      "onFire": 2
+    },
+    "survivabilityAcceptanceClaimed": false,
+    "invulnerableFlag": false,
+    "nativePreDamageCap": 0.01,
+    "largestPreCapDamage": 165.79352
+  },
+  "completeFightOrSurvivabilityAcceptanceClaimed": false,
+  "scopedOriginalIngressAndActualPositiveHealthWriteObserved": true,
+  "pureOriginalScalingBoundariesAccepted": true,
+  "unresolvedSharingGoldenMismatch": false,
+  "originalSharingBudgetFromAcceptedBeforeMitigationLessNativeArmorAndMagicReductions": true,
+  "authenticated": false,
+  "actualMultiplayerGameplayAccepted": false,
+  "fullManagedSparrowSharingMatrixAccepted": true,
+  "modelOrMusicUploaded": false,
+  "installable": false,
+  "deployed": false,
+  "fullBossMigrationComplete": false,
+  "fullOriginalSparrowGameplaySurfaceGraphExact": true,
+  "completeSparrowGameplayMethods": 11,
+  "fullOriginalMethodProof": "checks=17;selectedCompleteMethods=11;exactCompleteMethods=11;allSelectedMethodsExact=true;negativeControls=2;",
+  "nativeSavedFileAndPublicSerializationProof": "WARN StatusConsoleListener Advanced terminal features are not available in this environment\r\nchecks=38;actualNativeSavedFileDecoded=true;publicOriginalLoadSaveRoundtrip=true;originalRuleBoundaries=true;nativeWorldRestartClaimed=false;actualMultiplayerClaimed=false;",
+  "nativeSavedFilePath": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-original-multiplayer-native-v1-931da44e\\game\\saves\\sparrow-original-multiplayer-native-v8\\data\\ftboss_sparrow_multiplayer.dat",
+  "nativeSavedFileSha256": "76c61e0315fe99efcc0fab4c557123eee05e81bb4ba98a57be35ebc8456a6175",
+  "nativeSavedFileReadOnlyDuringProof": true,
+  "actualOriginalSparrowSupportRegressionAccepted": true,
+  "actualOriginalAppearanceStorageObserved": true,
+  "nativeWorldRestartAccepted": false,
+  "standaloneAttackerEventNativeAccepted": false,
+  "eventHooksStaticGraphAndLinkageAccepted": true
+}

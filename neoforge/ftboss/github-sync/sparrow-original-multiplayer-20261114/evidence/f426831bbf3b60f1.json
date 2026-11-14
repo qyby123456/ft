@@ -1,0 +1,297 @@
+{
+  "checks": 817,
+  "linkageReferences": 533,
+  "restoredWholeSupportMethods": 5,
+  "originalHelpersAdded": 4,
+  "nativeStorageAdaptersAdded": 1,
+  "negativeControls": 2,
+  "wholeOriginalMethodsReverseProven": 4,
+  "unchangedSupportLifecycleMethods": true,
+  "restoredSupportMethods": [
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowSupport",
+      "method": "tick",
+      "descriptor": "(Lnet/minecraft/server/MinecraftServer;)V",
+      "mappedOriginalGraph": "c58770b0f63b6e3c9df5329c723c0b77fe970965d5fac56fcd8e8743840818b7",
+      "portedGraph": "c58770b0f63b6e3c9df5329c723c0b77fe970965d5fac56fcd8e8743840818b7",
+      "adapter": "official-members-platform-and-holder"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowSupport",
+      "method": "hasVisited",
+      "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;)Z",
+      "mappedOriginalGraph": "333c15bef0b324a2def719ee22337afb3bcc26c5da03e32db2b11de5d2bc5155",
+      "portedGraph": "333c15bef0b324a2def719ee22337afb3bcc26c5da03e32db2b11de5d2bc5155",
+      "adapter": "official-members-platform-and-holder"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowSupport",
+      "method": "noteFightMember",
+      "descriptor": "(Lnet/minecraft/world/entity/Entity;)V",
+      "mappedOriginalGraph": "6fc3e96c274a3f54a28624c50997e613115af1653fb4654c505ebee71fa7ef09",
+      "portedGraph": "6fc3e96c274a3f54a28624c50997e613115af1653fb4654c505ebee71fa7ef09",
+      "adapter": "official-members-platform-and-holder"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowSupport",
+      "method": "beginStage",
+      "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)V",
+      "mappedOriginalGraph": "3dc08edf24b9d21d5dcceeb7b095ca33df56ee696a1db0d977e6348b32a5a3c5",
+      "portedGraph": "3dc08edf24b9d21d5dcceeb7b095ca33df56ee696a1db0d977e6348b32a5a3c5",
+      "adapter": "official-members-platform-and-holder"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowSupport",
+      "method": "spawnSparrow",
+      "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)V",
+      "mappedOriginalGraph": "e5e8db3e0dc2df6708cf727f2b5888b8777fed762a19dc2c71ee94d2455863bd",
+      "portedGraph": "e5e8db3e0dc2df6708cf727f2b5888b8777fed762a19dc2c71ee94d2455863bd",
+      "adapter": "official-members-platform-and-holder"
+    }
+  ],
+  "helperMethods": [
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+      "method": "\u003cinit\u003e",
+      "descriptor": "()V",
+      "mappedOriginalGraph": "234916121c1fefb136de4c0fa4e001576bb9fb923257e3b7c202d6642e9a5f7c",
+      "portedGraph": "234916121c1fefb136de4c0fa4e001576bb9fb923257e3b7c202d6642e9a5f7c",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+      "method": "eligible",
+      "descriptor": "(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z",
+      "mappedOriginalGraph": "9545915c76f7499ffaca8b26621fb7b8b63929f364502a2e5b1672a596ecbdf6",
+      "portedGraph": "9545915c76f7499ffaca8b26621fb7b8b63929f364502a2e5b1672a596ecbdf6",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+      "method": "participants",
+      "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)I",
+      "mappedOriginalGraph": "502924ecec8c8188b1da6fb299b7d72ae87a9a35f24f8646adfcf6e6b0082757",
+      "portedGraph": "502924ecec8c8188b1da6fb299b7d72ae87a9a35f24f8646adfcf6e6b0082757",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+      "method": "appearance",
+      "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/farmingtales/ftboss/entity/EasterBossEntity;Z)Lnet/farmingtales/ftboss/boss/SparrowAppearanceData$Entry;",
+      "mappedOriginalGraph": "7e9d2478bcaccaebf6a90cc9b1a0dca397348ec655f51ef8831357e9e1cbf84f",
+      "portedGraph": "7e9d2478bcaccaebf6a90cc9b1a0dca397348ec655f51ef8831357e9e1cbf84f",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+      "method": "exhausted",
+      "descriptor": "(ZLnet/minecraft/world/entity/LivingEntity;)Z",
+      "mappedOriginalGraph": "a43befeaaf504c836b1cf01fbef0b8336143220724e3300b5604c8e2e00c913f",
+      "portedGraph": "a43befeaaf504c836b1cf01fbef0b8336143220724e3300b5604c8e2e00c913f",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+      "method": "planned",
+      "descriptor": "(Lnet/farmingtales/ftboss/boss/ManorFightData;Ljava/util/UUID;I)Z",
+      "mappedOriginalGraph": "17adb09ae768c48f7d0ce5db0b7df1b208bd0ca3089fef3f4ecc864e12b466d5",
+      "portedGraph": "17adb09ae768c48f7d0ce5db0b7df1b208bd0ca3089fef3f4ecc864e12b466d5",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+      "method": "trial",
+      "descriptor": "(DLnet/minecraft/world/entity/LivingEntity;)D",
+      "mappedOriginalGraph": "a2dfb77fef1b48d17bb32fb21fbaf3655d2838f9e9df8df3af56c3e5e555da23",
+      "portedGraph": "a2dfb77fef1b48d17bb32fb21fbaf3655d2838f9e9df8df3af56c3e5e555da23",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+      "method": "spawned",
+      "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)V",
+      "mappedOriginalGraph": "58bb6ca07a66093d7d8f781139e44845c754d23105f111082662bc2dadb6b909",
+      "portedGraph": "58bb6ca07a66093d7d8f781139e44845c754d23105f111082662bc2dadb6b909",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+      "method": "note",
+      "descriptor": "(Lnet/minecraft/world/entity/Entity;)V",
+      "mappedOriginalGraph": "a19d67585ce9d0a233103f2a0f0f44088c96a9bed92a3ba7ef0e7f0e5794ea7f",
+      "portedGraph": "a19d67585ce9d0a233103f2a0f0f44088c96a9bed92a3ba7ef0e7f0e5794ea7f",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+      "method": "onDamage",
+      "descriptor": "(Lnet/neoforged/neoforge/event/entity/living/LivingDamageEvent$Pre;)V",
+      "mappedOriginalGraph": "b6f464b24e560bb67ad16d7197cecb6cbbd0d4b54080772fe6ef4660e1a33c78",
+      "portedGraph": "cef2a8be166b1fe90002b37633cc2fb083d1016490629e93d222b41fdf72d58d",
+      "adapter": "native-pre"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+      "method": "onTick",
+      "descriptor": "(Lnet/neoforged/neoforge/event/tick/ServerTickEvent$Post;)V",
+      "mappedOriginalGraph": "bb1bcb68a0809e9ceb1bb0568a83c8da019c610afc53e0abdf92399a46bcc7f5",
+      "portedGraph": "9591308165d8c8674668aa1ed50822f70c81ffb117dfddd0c1def9e76aae606f",
+      "adapter": "native-post"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+      "method": "\u003cinit\u003e",
+      "descriptor": "()V",
+      "mappedOriginalGraph": "71eb2c0640d741881b48559ce6db3251b6ab7a3af73514bc2ab79f5a1554ed6e",
+      "portedGraph": "71eb2c0640d741881b48559ce6db3251b6ab7a3af73514bc2ab79f5a1554ed6e",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+      "method": "get",
+      "descriptor": "(Lnet/minecraft/server/MinecraftServer;)Lnet/farmingtales/ftboss/boss/SparrowAppearanceData;",
+      "mappedOriginalGraph": "4964c8d8b2f5bf47df576a3ebf2875823aad6ab3e264d98831bf41a288b6a1a8",
+      "portedGraph": "76978991ad04d12a4ce5ab2e8101da947635c3da65e475e8770e8f7517fecfe6",
+      "adapter": "saved-factory"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+      "method": "find",
+      "descriptor": "(Ljava/util/UUID;I)Lnet/farmingtales/ftboss/boss/SparrowAppearanceData$Entry;",
+      "mappedOriginalGraph": "12e6b9deb51216c9b837197dbb670257eafbf113ec4f85575eb33a198aa3e247",
+      "portedGraph": "12e6b9deb51216c9b837197dbb670257eafbf113ec4f85575eb33a198aa3e247",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+      "method": "entry",
+      "descriptor": "(Ljava/util/UUID;IZ)Lnet/farmingtales/ftboss/boss/SparrowAppearanceData$Entry;",
+      "mappedOriginalGraph": "f8150f31fb84b7152fcf8549712f6bbe392a8e8fc8632383df49b274d71578b8",
+      "portedGraph": "f8150f31fb84b7152fcf8549712f6bbe392a8e8fc8632383df49b274d71578b8",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+      "method": "prune",
+      "descriptor": "(Lnet/farmingtales/ftboss/boss/ManorFightData;)V",
+      "mappedOriginalGraph": "deed792cc2bac9c3c98f2f6e8da54eedfc1ba9a1971b5f9f90eb703e8b3b5954",
+      "portedGraph": "deed792cc2bac9c3c98f2f6e8da54eedfc1ba9a1971b5f9f90eb703e8b3b5954",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+      "method": "onCooldown",
+      "descriptor": "(Lnet/farmingtales/ftboss/boss/SparrowAppearanceData$Entry;J)Z",
+      "mappedOriginalGraph": "60db104231345657c04db26d6eda520948a625a292ebdd1548490abdbe199e33",
+      "portedGraph": "60db104231345657c04db26d6eda520948a625a292ebdd1548490abdbe199e33",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+      "method": "markAppearance",
+      "descriptor": "(Lnet/farmingtales/ftboss/boss/SparrowAppearanceData$Entry;J)V",
+      "mappedOriginalGraph": "cfc1e7ef008deaed1b693b896ca7a5cf7f1c4aad21ce85de38d0267f36a715c9",
+      "portedGraph": "cfc1e7ef008deaed1b693b896ca7a5cf7f1c4aad21ce85de38d0267f36a715c9",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+      "method": "load",
+      "descriptor": "(Lnet/minecraft/nbt/CompoundTag;)Lnet/farmingtales/ftboss/boss/SparrowAppearanceData;",
+      "mappedOriginalGraph": "f3a221c9cd6d89852d811229bc5649b201198b525cf3b87ed12b01672c5318ce",
+      "portedGraph": "f3a221c9cd6d89852d811229bc5649b201198b525cf3b87ed12b01672c5318ce",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+      "method": "save",
+      "descriptor": "(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;",
+      "mappedOriginalGraph": "f4e1f5c720444649404b49e966bfb5f3a11d2d8820d9120f1db441e29d8a2de5",
+      "portedGraph": "231020c4508376dd2bdcfe65fb42b9735e31cce9f20558c2df057ed46872acb5",
+      "adapter": "saved-provider"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+      "method": "lambda$prune$0",
+      "descriptor": "(Lnet/farmingtales/ftboss/boss/ManorFightData;Lnet/farmingtales/ftboss/boss/SparrowAppearanceData$Entry;)Z",
+      "mappedOriginalGraph": "959b22ca4f5c1627c11a020a104e9a01bce1a61b1e53fc74ccdc9e42ef9ddf44",
+      "portedGraph": "959b22ca4f5c1627c11a020a104e9a01bce1a61b1e53fc74ccdc9e42ef9ddf44",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowAppearanceData$Entry",
+      "method": "\u003cinit\u003e",
+      "descriptor": "(Ljava/util/UUID;IZ)V",
+      "mappedOriginalGraph": "dda22a053de7b21a63b30f56bae3ff396fdd71af9b003235d9d0c4f614d1668b",
+      "portedGraph": "dda22a053de7b21a63b30f56bae3ff396fdd71af9b003235d9d0c4f614d1668b",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowAppearanceData$Entry",
+      "method": "observe",
+      "descriptor": "(I)Z",
+      "mappedOriginalGraph": "31270c3d94ebd6ebf640ce49629dacaa3613038eb9abf6d80c2298fe1d5de4ad",
+      "portedGraph": "31270c3d94ebd6ebf640ce49629dacaa3613038eb9abf6d80c2298fe1d5de4ad",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowAppearanceData$Entry",
+      "method": "record",
+      "descriptor": "(Ljava/util/UUID;Z)Z",
+      "mappedOriginalGraph": "16890901d0baebae9ed1358d9e85b7ee5ff61c166e2ecbd4015b5e97dedc9676",
+      "portedGraph": "16890901d0baebae9ed1358d9e85b7ee5ff61c166e2ecbd4015b5e97dedc9676",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/util/SparrowMultiplayerRules",
+      "method": "\u003cinit\u003e",
+      "descriptor": "()V",
+      "mappedOriginalGraph": "234916121c1fefb136de4c0fa4e001576bb9fb923257e3b7c202d6642e9a5f7c",
+      "portedGraph": "234916121c1fefb136de4c0fa4e001576bb9fb923257e3b7c202d6642e9a5f7c",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/util/SparrowMultiplayerRules",
+      "method": "quota",
+      "descriptor": "(I)I",
+      "mappedOriginalGraph": "2b910e4b8a4620a81280b61e953cca786ff26ab91ddde9bc43ee2b0ae4198efd",
+      "portedGraph": "2b910e4b8a4620a81280b61e953cca786ff26ab91ddde9bc43ee2b0ae4198efd",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/util/SparrowMultiplayerRules",
+      "method": "standaloneChance",
+      "descriptor": "(I)D",
+      "mappedOriginalGraph": "5d9644d41a210ac5afd02aa80e4ea394841c192fcaccd0d1b13d3903dc5378b4",
+      "portedGraph": "5d9644d41a210ac5afd02aa80e4ea394841c192fcaccd0d1b13d3903dc5378b4",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/util/SparrowMultiplayerRules",
+      "method": "additionalStageChance",
+      "descriptor": "(I)D",
+      "mappedOriginalGraph": "30d911f819e42b61be8939289f9aefa9eea9e6b230d7885a62ac2299b6051c9d",
+      "portedGraph": "30d911f819e42b61be8939289f9aefa9eea9e6b230d7885a62ac2299b6051c9d",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/util/SparrowMultiplayerRules",
+      "method": "planned",
+      "descriptor": "(Ljava/util/UUID;IZI)Z",
+      "mappedOriginalGraph": "e3564938d2ab50bb02d9581131ae0c2540a313abbef7e83a8928bb1ad5415125",
+      "portedGraph": "e3564938d2ab50bb02d9581131ae0c2540a313abbef7e83a8928bb1ad5415125",
+      "adapter": "official-members-platform"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/util/SparrowMultiplayerRules",
+      "method": "canAppear",
+      "descriptor": "(II)Z",
+      "mappedOriginalGraph": "3cfe92eab362e903fbbcd401670996bf79c72a152411e0cc9da15e181b194a15",
+      "portedGraph": "3cfe92eab362e903fbbcd401670996bf79c72a152411e0cc9da15e181b194a15",
+      "adapter": "official-members-platform"
+    }
+  ],
+  "nativeRuntimeAccepted": false,
+  "actualMultiplayerGameplayAccepted": false,
+  "installable": false
+}
