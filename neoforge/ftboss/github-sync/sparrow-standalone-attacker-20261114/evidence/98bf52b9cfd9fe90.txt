@@ -1,0 +1,365 @@
+Compiled from "FTCreativeTabs.java"
+public final class net.farmingtales.ftboss.item.FTCreativeTabs {
+  public static final net.neoforged.neoforge.registries.DeferredRegister<net.minecraft.world.item.CreativeModeTab> TABS;
+
+  private static final net.minecraft.resources.ResourceKey<net.minecraft.world.item.CreativeModeTab> SPAWN_EGGS;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.CreativeModeTab, net.minecraft.world.item.CreativeModeTab> MAIN;
+
+  private net.farmingtales.ftboss.item.FTCreativeTabs();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void register(net.neoforged.bus.api.IEventBus);
+    Code:
+       0: getstatic     #7                  // Field TABS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+       3: aload_0
+       4: invokevirtual #13                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Lnet/neoforged/bus/api/IEventBus;)V
+       7: return
+
+  private static net.minecraft.world.item.CreativeModeTab lambda$static$2();
+    Code:
+       0: invokestatic  #19                 // Method net/minecraft/world/item/CreativeModeTab.builder:()Lnet/minecraft/world/item/CreativeModeTab$Builder;
+       3: ldc           #25                 // String itemGroup.ftboss.main
+       5: invokestatic  #27                 // InterfaceMethod net/minecraft/network/chat/Component.translatable:(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;
+       8: invokevirtual #33                 // Method net/minecraft/world/item/CreativeModeTab$Builder.title:(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/item/CreativeModeTab$Builder;
+      11: invokedynamic #39,  0             // InvokeDynamic #0:get:()Ljava/util/function/Supplier;
+      16: invokevirtual #43                 // Method net/minecraft/world/item/CreativeModeTab$Builder.icon:(Ljava/util/function/Supplier;)Lnet/minecraft/world/item/CreativeModeTab$Builder;
+      19: iconst_1
+      20: anewarray     #47                 // class net/minecraft/resources/ResourceKey
+      23: dup
+      24: iconst_0
+      25: getstatic     #49                 // Field SPAWN_EGGS:Lnet/minecraft/resources/ResourceKey;
+      28: aastore
+      29: invokevirtual #53                 // Method net/minecraft/world/item/CreativeModeTab$Builder.withTabsBefore:([Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/item/CreativeModeTab$Builder;
+      32: invokevirtual #57                 // Method net/minecraft/world/item/CreativeModeTab$Builder.withSearchBar:()Lnet/minecraft/world/item/CreativeModeTab$Builder;
+      35: invokedynamic #60,  0             // InvokeDynamic #1:accept:()Lnet/minecraft/world/item/CreativeModeTab$DisplayItemsGenerator;
+      40: invokevirtual #64                 // Method net/minecraft/world/item/CreativeModeTab$Builder.displayItems:(Lnet/minecraft/world/item/CreativeModeTab$DisplayItemsGenerator;)Lnet/minecraft/world/item/CreativeModeTab$Builder;
+      43: invokevirtual #68                 // Method net/minecraft/world/item/CreativeModeTab$Builder.build:()Lnet/minecraft/world/item/CreativeModeTab;
+      46: areturn
+
+  private static void lambda$static$1(net.minecraft.world.item.CreativeModeTab$ItemDisplayParameters, net.minecraft.world.item.CreativeModeTab$Output);
+    Code:
+       0: aload_1
+       1: getstatic     #72                 // Field net/farmingtales/ftboss/item/FTBossItems.MANOR_STOP_TOKEN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+       4: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+       7: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+      10: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+      15: aload_1
+      16: getstatic     #90                 // Field net/farmingtales/ftboss/item/FTBossItems.SUGAR_QUEEN_CRYSTAL:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      19: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+      22: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+      25: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+      30: aload_1
+      31: getstatic     #93                 // Field net/farmingtales/ftboss/item/FTBossItems.TIDE_BANQUET:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      34: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+      37: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+      40: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+      45: aload_1
+      46: getstatic     #96                 // Field net/farmingtales/ftboss/item/FTBossItems.MEAT_HEART:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      49: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+      52: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+      55: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+      60: aload_1
+      61: getstatic     #99                 // Field net/farmingtales/ftboss/item/FTBossItems.TEA_SEED:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      64: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+      67: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+      70: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+      75: aload_1
+      76: getstatic     #102                // Field net/farmingtales/ftboss/item/FTBossItems.WINE_CHARM:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      79: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+      82: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+      85: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+      90: aload_1
+      91: getstatic     #105                // Field net/farmingtales/ftboss/item/FTBossItems.RAT_BAIT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      94: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+      97: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     100: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     105: aload_1
+     106: getstatic     #108                // Field net/farmingtales/ftboss/item/FTBossItems.DEFECT_CORE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     109: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     112: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     115: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     120: aload_1
+     121: getstatic     #111                // Field net/farmingtales/ftboss/item/FTBossItems.COMPOST_SUMMON:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     124: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     127: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     130: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     135: aload_1
+     136: getstatic     #114                // Field net/farmingtales/ftboss/item/FTBossItems.FORBIDDEN_APPLE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     139: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     142: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     145: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     150: aload_1
+     151: getstatic     #117                // Field net/farmingtales/ftboss/item/FTBossItems.BENGER_WHISTLE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     154: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     157: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     160: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     165: aload_1
+     166: getstatic     #120                // Field net/farmingtales/ftboss/item/FTBossItems.GOURMET_BLANK_BLADE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     169: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     172: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     175: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     180: aload_1
+     181: getstatic     #123                // Field net/farmingtales/ftboss/item/FTBossItems.DEFECT_CLAW:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     184: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     187: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     190: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     195: aload_1
+     196: getstatic     #126                // Field net/farmingtales/ftboss/item/FTBossItems.TURKEY_LEGS:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     199: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     202: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     205: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     210: aload_1
+     211: getstatic     #129                // Field net/farmingtales/ftboss/item/FTBossItems.WINE_BOTTLE_MACE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     214: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     217: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     220: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     225: aload_1
+     226: getstatic     #132                // Field net/farmingtales/ftboss/item/FTBossItems.CHEESE_WHEEL_MACE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     229: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     232: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     235: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     240: aload_1
+     241: getstatic     #135                // Field net/farmingtales/ftboss/item/FTBossItems.COMPOST_CROWN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     244: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     247: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     250: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     255: aload_1
+     256: getstatic     #138                // Field net/farmingtales/ftboss/item/FTBossItems.CANDY_CANE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     259: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     262: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     265: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     270: aload_1
+     271: getstatic     #141                // Field net/farmingtales/ftboss/item/FTBossItems.BLOOMING_THORNS:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     274: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     277: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     280: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     285: aload_1
+     286: getstatic     #144                // Field net/farmingtales/ftboss/item/FTBossItems.THORN_CROWN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     289: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     292: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     295: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     300: aload_1
+     301: getstatic     #147                // Field net/farmingtales/ftboss/item/FTBossItems.THORN_CHESTPLATE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     304: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     307: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     310: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     315: aload_1
+     316: getstatic     #150                // Field net/farmingtales/ftboss/item/FTBossItems.THORN_LEGGINGS:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     319: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     322: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     325: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     330: aload_1
+     331: getstatic     #153                // Field net/farmingtales/ftboss/item/FTBossItems.THORN_BOOTS:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     334: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     337: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     340: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     345: aload_1
+     346: getstatic     #156                // Field net/farmingtales/ftboss/item/FTBossItems.SILVER_KEY:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     349: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     352: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     355: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     360: aload_1
+     361: getstatic     #159                // Field net/farmingtales/ftboss/item/FTBossItems.FOOD_APPRAISAL_MONOCLE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     364: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     367: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     370: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     375: aload_1
+     376: getstatic     #162                // Field net/farmingtales/ftboss/item/FTBossItems.APPLE_STEM:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     379: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     382: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     385: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     390: aload_1
+     391: getstatic     #165                // Field net/farmingtales/ftboss/item/FTBossItems.TIDE_TRIDENT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     394: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     397: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     400: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     405: aload_1
+     406: invokestatic  #168                // Method net/farmingtales/ftboss/item/BossRelicItems.addTo:(Lnet/minecraft/world/item/CreativeModeTab$Output;)V
+     409: aload_1
+     410: getstatic     #174                // Field net/farmingtales/ftboss/item/FTBossItems.DOG_BEATING_STICK:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     413: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     416: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     419: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     424: aload_1
+     425: invokestatic  #177                // Method net/farmingtales/ftboss/item/ManorWeaponCatalog.addTo:(Lnet/minecraft/world/item/CreativeModeTab$Output;)V
+     428: aload_1
+     429: getstatic     #180                // Field net/farmingtales/ftboss/item/FTBossItems.QINGYI_CONFLUENCE_TRIDENT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     432: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     435: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     438: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     443: aload_1
+     444: getstatic     #183                // Field net/farmingtales/ftboss/block/FTBlocks.MANOR_LOOT_ITEM:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     447: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     450: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     453: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     458: aload_1
+     459: getstatic     #188                // Field net/farmingtales/ftboss/item/FTBossItems.BARREL_CROSSBOW:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     462: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     465: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     468: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     473: aload_1
+     474: getstatic     #191                // Field net/farmingtales/ftboss/item/FTBossItems.BARREL_CROSSBOW_READY:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     477: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     480: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     483: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     488: aload_1
+     489: getstatic     #194                // Field net/farmingtales/ftboss/block/FTBlocks.STATUE_SUGAR_QUEEN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     492: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     495: checkcast     #197                // class net/minecraft/world/level/block/Block
+     498: invokevirtual #199                // Method net/minecraft/world/level/block/Block.asItem:()Lnet/minecraft/world/item/Item;
+     501: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     506: aload_1
+     507: getstatic     #203                // Field net/farmingtales/ftboss/block/FTBlocks.STATUE_BUTCHER:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     510: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     513: checkcast     #197                // class net/minecraft/world/level/block/Block
+     516: invokevirtual #199                // Method net/minecraft/world/level/block/Block.asItem:()Lnet/minecraft/world/item/Item;
+     519: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     524: aload_1
+     525: getstatic     #206                // Field net/farmingtales/ftboss/block/FTBlocks.STATUE_SAYA:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     528: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     531: checkcast     #197                // class net/minecraft/world/level/block/Block
+     534: invokevirtual #199                // Method net/minecraft/world/level/block/Block.asItem:()Lnet/minecraft/world/item/Item;
+     537: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     542: aload_1
+     543: getstatic     #209                // Field net/farmingtales/ftboss/block/FTBlocks.STATUE_WINE_BARREL:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     546: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     549: checkcast     #197                // class net/minecraft/world/level/block/Block
+     552: invokevirtual #199                // Method net/minecraft/world/level/block/Block.asItem:()Lnet/minecraft/world/item/Item;
+     555: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     560: aload_1
+     561: getstatic     #212                // Field net/farmingtales/ftboss/block/FTBlocks.STATUE_RAT_SWARM:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     564: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     567: checkcast     #197                // class net/minecraft/world/level/block/Block
+     570: invokevirtual #199                // Method net/minecraft/world/level/block/Block.asItem:()Lnet/minecraft/world/item/Item;
+     573: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     578: aload_1
+     579: getstatic     #215                // Field net/farmingtales/ftboss/block/FTBlocks.STATUE_DEFECT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     582: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     585: checkcast     #197                // class net/minecraft/world/level/block/Block
+     588: invokevirtual #199                // Method net/minecraft/world/level/block/Block.asItem:()Lnet/minecraft/world/item/Item;
+     591: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     596: aload_1
+     597: getstatic     #218                // Field net/farmingtales/ftboss/block/FTBlocks.STATUE_COMPOST:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     600: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     603: checkcast     #197                // class net/minecraft/world/level/block/Block
+     606: invokevirtual #199                // Method net/minecraft/world/level/block/Block.asItem:()Lnet/minecraft/world/item/Item;
+     609: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     614: aload_1
+     615: getstatic     #221                // Field net/farmingtales/ftboss/block/FTBlocks.STATUE_APPLE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     618: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     621: checkcast     #197                // class net/minecraft/world/level/block/Block
+     624: invokevirtual #199                // Method net/minecraft/world/level/block/Block.asItem:()Lnet/minecraft/world/item/Item;
+     627: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     632: aload_1
+     633: getstatic     #224                // Field net/farmingtales/ftboss/block/FTBlocks.STATUE_TIDE_FISH:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     636: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     639: checkcast     #197                // class net/minecraft/world/level/block/Block
+     642: invokevirtual #199                // Method net/minecraft/world/level/block/Block.asItem:()Lnet/minecraft/world/item/Item;
+     645: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     650: aload_1
+     651: getstatic     #227                // Field net/farmingtales/ftboss/block/FTBlocks.STATUE_BENGER:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     654: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     657: checkcast     #197                // class net/minecraft/world/level/block/Block
+     660: invokevirtual #199                // Method net/minecraft/world/level/block/Block.asItem:()Lnet/minecraft/world/item/Item;
+     663: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     668: aload_1
+     669: getstatic     #230                // Field net/farmingtales/ftboss/item/FTBossItems.TIDE_PEARL:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     672: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     675: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     678: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     683: aload_1
+     684: getstatic     #233                // Field net/farmingtales/ftboss/item/FTBossItems.BENGER_SPAWN_EGG:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     687: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     690: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     693: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     698: getstatic     #236                // Field net/farmingtales/ftboss/item/FTBossItems.EASTER_EGGS:Ljava/util/List;
+     701: invokeinterface #240,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+     706: astore_2
+     707: aload_2
+     708: invokeinterface #246,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+     713: ifeq          742
+     716: aload_2
+     717: invokeinterface #252,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     722: checkcast     #79                 // class net/neoforged/neoforge/registries/DeferredHolder
+     725: astore_3
+     726: aload_1
+     727: aload_3
+     728: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     731: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     734: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     739: goto          707
+     742: aload_1
+     743: getstatic     #255                // Field net/farmingtales/ftboss/item/FTBossItems.MUSIC_DISC_MANOR_CUE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     746: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     749: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     752: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     757: aload_1
+     758: getstatic     #258                // Field net/farmingtales/ftboss/item/FTBossItems.MUSIC_DISC_MANOR_BATTLE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     761: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     764: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     767: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     772: aload_1
+     773: getstatic     #261                // Field net/farmingtales/ftboss/item/FTBossItems.MUSIC_DISC_MANOR_DUAL:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     776: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     779: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     782: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     787: aload_1
+     788: getstatic     #264                // Field net/farmingtales/ftboss/item/FTBossItems.MUSIC_DISC_MANOR_GUIGNOL:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     791: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     794: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     797: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     802: aload_1
+     803: getstatic     #267                // Field net/farmingtales/ftboss/item/FTBossItems.MUSIC_DISC_BENGER:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     806: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     809: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     812: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     817: getstatic     #270                // Field net/farmingtales/ftboss/item/FTBossItems.FOOD_MUSIC_DISCS:Ljava/util/List;
+     820: invokeinterface #240,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+     825: astore_2
+     826: aload_2
+     827: invokeinterface #246,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z
+     832: ifeq          861
+     835: aload_2
+     836: invokeinterface #252,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+     841: checkcast     #79                 // class net/neoforged/neoforge/registries/DeferredHolder
+     844: astore_3
+     845: aload_1
+     846: aload_3
+     847: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     850: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+     853: invokeinterface #85,  2           // InterfaceMethod net/minecraft/world/item/CreativeModeTab$Output.accept:(Lnet/minecraft/world/level/ItemLike;)V
+     858: goto          826
+     861: return
+
+  private static net.minecraft.world.item.ItemStack lambda$static$0();
+    Code:
+       0: new           #273                // class net/minecraft/world/item/ItemStack
+       3: dup
+       4: getstatic     #90                 // Field net/farmingtales/ftboss/item/FTBossItems.SUGAR_QUEEN_CRYSTAL:Lnet/neoforged/neoforge/registries/DeferredHolder;
+       7: invokevirtual #78                 // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+      10: checkcast     #83                 // class net/minecraft/world/level/ItemLike
+      13: invokespecial #275                // Method net/minecraft/world/item/ItemStack."<init>":(Lnet/minecraft/world/level/ItemLike;)V
+      16: areturn
+
+  static {};
+    Code:
+       0: getstatic     #277                // Field net/minecraft/core/registries/Registries.CREATIVE_MODE_TAB:Lnet/minecraft/resources/ResourceKey;
+       3: ldc_w         #282                // String ftboss
+       6: invokestatic  #284                // Method net/neoforged/neoforge/registries/DeferredRegister.create:(Lnet/minecraft/resources/ResourceKey;Ljava/lang/String;)Lnet/neoforged/neoforge/registries/DeferredRegister;
+       9: putstatic     #7                  // Field TABS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+      12: getstatic     #277                // Field net/minecraft/core/registries/Registries.CREATIVE_MODE_TAB:Lnet/minecraft/resources/ResourceKey;
+      15: ldc_w         #288                // String spawn_eggs
+      18: invokestatic  #290                // Method net/minecraft/resources/ResourceLocation.withDefaultNamespace:(Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+      21: invokestatic  #296                // Method net/minecraft/resources/ResourceKey.create:(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/resources/ResourceKey;
+      24: putstatic     #49                 // Field SPAWN_EGGS:Lnet/minecraft/resources/ResourceKey;
+      27: getstatic     #7                  // Field TABS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+      30: ldc_w         #299                // String main
+      33: invokedynamic #301,  0            // InvokeDynamic #2:get:()Ljava/util/function/Supplier;
+      38: invokevirtual #302                // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+      41: putstatic     #305                // Field MAIN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      44: return
+}

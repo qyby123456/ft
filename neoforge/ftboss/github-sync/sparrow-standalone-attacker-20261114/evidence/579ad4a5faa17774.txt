@@ -1,0 +1,296 @@
+Compiled from "BossRelicDrops.java"
+public final class net.farmingtales.ftboss.skill.BossRelicDrops {
+  private static final java.lang.String REWARDED;
+
+  private net.farmingtales.ftboss.skill.BossRelicDrops();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void scriptedDeath(net.neoforged.neoforge.event.entity.living.LivingDeathEvent);
+    Code:
+       0: aload_0
+       1: invokevirtual #7                  // Method net/neoforged/neoforge/event/entity/living/LivingDeathEvent.getEntity:()Lnet/minecraft/world/entity/LivingEntity;
+       4: astore_1
+       5: aload_1
+       6: instanceof    #13                 // class net/farmingtales/ftboss/entity/SugarQueenEntity
+       9: ifne          19
+      12: aload_1
+      13: instanceof    #15                 // class net/farmingtales/ftboss/entity/MeatMountainEntity
+      16: ifeq          33
+      19: aload_1
+      20: aload_0
+      21: invokevirtual #17                 // Method net/neoforged/neoforge/event/entity/living/LivingDeathEvent.getSource:()Lnet/minecraft/world/damagesource/DamageSource;
+      24: aload_1
+      25: invokedynamic #21,  0             // InvokeDynamic #0:accept:(Lnet/minecraft/world/entity/LivingEntity;)Ljava/util/function/Consumer;
+      30: invokestatic  #25                 // Method reward:(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;Ljava/util/function/Consumer;)V
+      33: return
+
+  public static void normalDrops(net.neoforged.neoforge.event.entity.living.LivingDropsEvent);
+    Code:
+       0: aload_0
+       1: invokevirtual #31                 // Method net/neoforged/neoforge/event/entity/living/LivingDropsEvent.getEntity:()Lnet/minecraft/world/entity/LivingEntity;
+       4: astore_1
+       5: aload_1
+       6: instanceof    #13                 // class net/farmingtales/ftboss/entity/SugarQueenEntity
+       9: ifne          34
+      12: aload_1
+      13: instanceof    #15                 // class net/farmingtales/ftboss/entity/MeatMountainEntity
+      16: ifne          34
+      19: aload_1
+      20: aload_0
+      21: invokevirtual #34                 // Method net/neoforged/neoforge/event/entity/living/LivingDropsEvent.getSource:()Lnet/minecraft/world/damagesource/DamageSource;
+      24: aload_1
+      25: aload_0
+      26: invokedynamic #35,  0             // InvokeDynamic #1:accept:(Lnet/minecraft/world/entity/LivingEntity;Lnet/neoforged/neoforge/event/entity/living/LivingDropsEvent;)Ljava/util/function/Consumer;
+      31: invokestatic  #25                 // Method reward:(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;Ljava/util/function/Consumer;)V
+      34: return
+
+  private static void reward(net.minecraft.world.entity.LivingEntity, net.minecraft.world.damagesource.DamageSource, java.util.function.Consumer<net.minecraft.world.item.ItemStack>);
+    Code:
+       0: aload_0
+       1: invokestatic  #38                 // Method net/farmingtales/ftboss/boss/ai/LemonSummonRewards.suppressed:(Lnet/minecraft/world/entity/Entity;)Z
+       4: ifne          405
+       7: aload_0
+       8: invokevirtual #44                 // Method net/minecraft/world/entity/LivingEntity.getType:()Lnet/minecraft/world/entity/EntityType;
+      11: invokestatic  #50                 // Method net/minecraft/world/entity/EntityType.getKey:(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/resources/ResourceLocation;
+      14: invokevirtual #56                 // Method net/minecraft/resources/ResourceLocation.toString:()Ljava/lang/String;
+      17: astore_3
+      18: aload_0
+      19: invokevirtual #62                 // Method net/minecraft/world/entity/LivingEntity.level:()Lnet/minecraft/world/level/Level;
+      22: astore        5
+      24: aload         5
+      26: instanceof    #66                 // class net/minecraft/server/level/ServerLevel
+      29: ifeq          405
+      32: aload         5
+      34: checkcast     #66                 // class net/minecraft/server/level/ServerLevel
+      37: astore        4
+      39: aload         4
+      41: invokevirtual #68                 // Method net/minecraft/server/level/ServerLevel.getGameRules:()Lnet/minecraft/world/level/GameRules;
+      44: getstatic     #72                 // Field net/minecraft/world/level/GameRules.RULE_DOMOBLOOT:Lnet/minecraft/world/level/GameRules$Key;
+      47: invokevirtual #78                 // Method net/minecraft/world/level/GameRules.getBoolean:(Lnet/minecraft/world/level/GameRules$Key;)Z
+      50: ifne          67
+      53: getstatic     #82                 // Field net/farmingtales/ftboss/FTBossMod.LOGGER:Lorg/slf4j/Logger;
+      56: ldc           #88                 // String [FTBoss] 遗物跳过: {} —— mobLoot 游戏规则关闭
+      58: aload_3
+      59: invokeinterface #90,  3           // InterfaceMethod org/slf4j/Logger.info:(Ljava/lang/String;Ljava/lang/Object;)V
+      64: goto          405
+      67: aload_0
+      68: invokevirtual #96                 // Method net/minecraft/world/entity/LivingEntity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;
+      71: ldc           #100                // String ftboss:boss_relic_rewarded
+      73: invokevirtual #102                // Method net/minecraft/nbt/CompoundTag.getBoolean:(Ljava/lang/String;)Z
+      76: ifeq          93
+      79: getstatic     #82                 // Field net/farmingtales/ftboss/FTBossMod.LOGGER:Lorg/slf4j/Logger;
+      82: ldc           #107                // String [FTBoss] 遗物跳过: {} —— 这只已经结算过(REWARDED)
+      84: aload_3
+      85: invokeinterface #90,  3           // InterfaceMethod org/slf4j/Logger.info:(Ljava/lang/String;Ljava/lang/Object;)V
+      90: goto          405
+      93: aload_1
+      94: invokevirtual #109                // Method net/minecraft/world/damagesource/DamageSource.getEntity:()Lnet/minecraft/world/entity/Entity;
+      97: instanceof    #114                // class net/minecraft/server/level/ServerPlayer
+     100: ifne          148
+     103: aload_0
+     104: invokevirtual #116                // Method net/minecraft/world/entity/LivingEntity.getKillCredit:()Lnet/minecraft/world/entity/LivingEntity;
+     107: instanceof    #114                // class net/minecraft/server/level/ServerPlayer
+     110: ifne          148
+     113: getstatic     #82                 // Field net/farmingtales/ftboss/FTBossMod.LOGGER:Lorg/slf4j/Logger;
+     116: ldc           #119                // String [FTBoss] 遗物跳过: {} —— 击杀者不是玩家（source={}, killCredit={}）
+     118: iconst_3
+     119: anewarray     #2                  // class java/lang/Object
+     122: dup
+     123: iconst_0
+     124: aload_3
+     125: aastore
+     126: dup
+     127: iconst_1
+     128: aload_1
+     129: invokevirtual #109                // Method net/minecraft/world/damagesource/DamageSource.getEntity:()Lnet/minecraft/world/entity/Entity;
+     132: aastore
+     133: dup
+     134: iconst_2
+     135: aload_0
+     136: invokevirtual #116                // Method net/minecraft/world/entity/LivingEntity.getKillCredit:()Lnet/minecraft/world/entity/LivingEntity;
+     139: aastore
+     140: invokeinterface #121,  3          // InterfaceMethod org/slf4j/Logger.info:(Ljava/lang/String;[Ljava/lang/Object;)V
+     145: goto          405
+     148: aload_0
+     149: instanceof    #124                // class net/farmingtales/ftboss/entity/RatBossEntity
+     152: ifeq          175
+     155: aload_0
+     156: checkcast     #124                // class net/farmingtales/ftboss/entity/RatBossEntity
+     159: astore        6
+     161: aload         6
+     163: invokevirtual #126                // Method net/farmingtales/ftboss/entity/RatBossEntity.isMinion:()Z
+     166: ifeq          175
+     169: iconst_1
+     170: istore        5
+     172: goto          178
+     175: iconst_0
+     176: istore        5
+     178: aload_3
+     179: iload         5
+     181: invokestatic  #130                // Method net/farmingtales/ftboss/util/BossRelicRules.forEntity:(Ljava/lang/String;Z)Lnet/farmingtales/ftboss/util/BossRelicRules$Kind;
+     184: astore        6
+     186: aload         6
+     188: ifnull        405
+     191: aload_0
+     192: invokevirtual #96                 // Method net/minecraft/world/entity/LivingEntity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;
+     195: ldc           #100                // String ftboss:boss_relic_rewarded
+     197: iconst_1
+     198: invokevirtual #136                // Method net/minecraft/nbt/CompoundTag.putBoolean:(Ljava/lang/String;Z)V
+     201: aload         6
+     203: aload_2
+     204: invokestatic  #140                // Method net/farmingtales/ftboss/api/OptionalWeaponModule.reward:(Lnet/farmingtales/ftboss/util/BossRelicRules$Kind;Ljava/util/function/Consumer;)V
+     207: aload_0
+     208: invokevirtual #145                // Method net/minecraft/world/entity/LivingEntity.getRandom:()Lnet/minecraft/util/RandomSource;
+     211: invokeinterface #149,  1          // InterfaceMethod net/minecraft/util/RandomSource.nextFloat:()F
+     216: fstore        7
+     218: fload         7
+     220: invokestatic  #155                // Method net/farmingtales/ftboss/util/BossRelicRules.drops:(F)Z
+     223: ifeq          322
+     226: aload         6
+     228: invokestatic  #159                // Method net/farmingtales/ftboss/item/BossRelicItems.get:(Lnet/farmingtales/ftboss/util/BossRelicRules$Kind;)Lnet/minecraft/world/item/Item;
+     231: aload_0
+     232: invokevirtual #145                // Method net/minecraft/world/entity/LivingEntity.getRandom:()Lnet/minecraft/util/RandomSource;
+     235: invokestatic  #165                // Method net/farmingtales/ftboss/item/BossRelicItem.roll:(Lnet/minecraft/world/item/Item;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/ItemStack;
+     238: astore        8
+     240: aload_2
+     241: aload         8
+     243: invokeinterface #171,  2          // InterfaceMethod java/util/function/Consumer.accept:(Ljava/lang/Object;)V
+     248: getstatic     #82                 // Field net/farmingtales/ftboss/FTBossMod.LOGGER:Lorg/slf4j/Logger;
+     251: ldc           #176                // String [FTBoss] 遗物掉落: {}（{}，掷点 {}=命中 {}%）
+     253: iconst_4
+     254: anewarray     #2                  // class java/lang/Object
+     257: dup
+     258: iconst_0
+     259: aload         8
+     261: invokevirtual #178                // Method net/minecraft/world/item/ItemStack.getHoverName:()Lnet/minecraft/network/chat/Component;
+     264: invokeinterface #184,  1          // InterfaceMethod net/minecraft/network/chat/Component.getString:()Ljava/lang/String;
+     269: aastore
+     270: dup
+     271: iconst_1
+     272: aload_3
+     273: aastore
+     274: dup
+     275: iconst_2
+     276: ldc           #189                // String %.3f
+     278: iconst_1
+     279: anewarray     #2                  // class java/lang/Object
+     282: dup
+     283: iconst_0
+     284: fload         7
+     286: invokestatic  #191                // Method java/lang/Float.valueOf:(F)Ljava/lang/Float;
+     289: aastore
+     290: invokestatic  #197                // Method java/lang/String.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+     293: aastore
+     294: dup
+     295: iconst_3
+     296: ldc           #203                // String %.0f
+     298: iconst_1
+     299: anewarray     #2                  // class java/lang/Object
+     302: dup
+     303: iconst_0
+     304: ldc           #205                // float 100.0f
+     306: invokestatic  #191                // Method java/lang/Float.valueOf:(F)Ljava/lang/Float;
+     309: aastore
+     310: invokestatic  #197                // Method java/lang/String.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+     313: aastore
+     314: invokeinterface #121,  3          // InterfaceMethod org/slf4j/Logger.info:(Ljava/lang/String;[Ljava/lang/Object;)V
+     319: goto          375
+     322: getstatic     #82                 // Field net/farmingtales/ftboss/FTBossMod.LOGGER:Lorg/slf4j/Logger;
+     325: ldc           #206                // String [FTBoss] 遗物未掉: {}（{}，掷点 {}≥{}，本次没中）
+     327: iconst_4
+     328: anewarray     #2                  // class java/lang/Object
+     331: dup
+     332: iconst_0
+     333: aload         6
+     335: getfield      #208                // Field net/farmingtales/ftboss/util/BossRelicRules$Kind.item:Ljava/lang/String;
+     338: aastore
+     339: dup
+     340: iconst_1
+     341: aload_3
+     342: aastore
+     343: dup
+     344: iconst_2
+     345: ldc           #189                // String %.3f
+     347: iconst_1
+     348: anewarray     #2                  // class java/lang/Object
+     351: dup
+     352: iconst_0
+     353: fload         7
+     355: invokestatic  #191                // Method java/lang/Float.valueOf:(F)Ljava/lang/Float;
+     358: aastore
+     359: invokestatic  #197                // Method java/lang/String.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+     362: aastore
+     363: dup
+     364: iconst_3
+     365: fconst_1
+     366: invokestatic  #191                // Method java/lang/Float.valueOf:(F)Ljava/lang/Float;
+     369: aastore
+     370: invokeinterface #121,  3          // InterfaceMethod org/slf4j/Logger.info:(Ljava/lang/String;[Ljava/lang/Object;)V
+     375: aload         6
+     377: getstatic     #214                // Field net/farmingtales/ftboss/util/BossRelicRules$Kind.FROST:Lnet/farmingtales/ftboss/util/BossRelicRules$Kind;
+     380: if_acmpne     405
+     383: aload_2
+     384: new           #179                // class net/minecraft/world/item/ItemStack
+     387: dup
+     388: getstatic     #218                // Field net/farmingtales/ftboss/item/BossRelicItems.FROST_QUEEN_STAFF:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     391: invokevirtual #222                // Method net/neoforged/neoforge/registries/DeferredHolder.get:()Ljava/lang/Object;
+     394: checkcast     #227                // class net/minecraft/world/level/ItemLike
+     397: invokespecial #229                // Method net/minecraft/world/item/ItemStack."<init>":(Lnet/minecraft/world/level/ItemLike;)V
+     400: invokeinterface #171,  2          // InterfaceMethod java/util/function/Consumer.accept:(Ljava/lang/Object;)V
+     405: return
+
+  private static void lambda$normalDrops$1(net.minecraft.world.entity.LivingEntity, net.neoforged.neoforge.event.entity.living.LivingDropsEvent, net.minecraft.world.item.ItemStack);
+    Code:
+       0: new           #232                // class net/minecraft/world/entity/item/ItemEntity
+       3: dup
+       4: aload_0
+       5: invokevirtual #62                 // Method net/minecraft/world/entity/LivingEntity.level:()Lnet/minecraft/world/level/Level;
+       8: aload_0
+       9: invokevirtual #234                // Method net/minecraft/world/entity/LivingEntity.getX:()D
+      12: aload_0
+      13: invokevirtual #238                // Method net/minecraft/world/entity/LivingEntity.getY:()D
+      16: ldc2_w        #241                // double 0.5d
+      19: dadd
+      20: aload_0
+      21: invokevirtual #243                // Method net/minecraft/world/entity/LivingEntity.getZ:()D
+      24: aload_2
+      25: invokespecial #246                // Method net/minecraft/world/entity/item/ItemEntity."<init>":(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemStack;)V
+      28: astore_3
+      29: aload_3
+      30: invokevirtual #249                // Method net/minecraft/world/entity/item/ItemEntity.setDefaultPickUpDelay:()V
+      33: aload_1
+      34: invokevirtual #252                // Method net/neoforged/neoforge/event/entity/living/LivingDropsEvent.getDrops:()Ljava/util/Collection;
+      37: aload_3
+      38: invokeinterface #256,  2          // InterfaceMethod java/util/Collection.add:(Ljava/lang/Object;)Z
+      43: pop
+      44: return
+
+  private static void lambda$scriptedDeath$0(net.minecraft.world.entity.LivingEntity, net.minecraft.world.item.ItemStack);
+    Code:
+       0: new           #232                // class net/minecraft/world/entity/item/ItemEntity
+       3: dup
+       4: aload_0
+       5: invokevirtual #62                 // Method net/minecraft/world/entity/LivingEntity.level:()Lnet/minecraft/world/level/Level;
+       8: aload_0
+       9: invokevirtual #234                // Method net/minecraft/world/entity/LivingEntity.getX:()D
+      12: aload_0
+      13: invokevirtual #238                // Method net/minecraft/world/entity/LivingEntity.getY:()D
+      16: ldc2_w        #241                // double 0.5d
+      19: dadd
+      20: aload_0
+      21: invokevirtual #243                // Method net/minecraft/world/entity/LivingEntity.getZ:()D
+      24: aload_1
+      25: invokespecial #246                // Method net/minecraft/world/entity/item/ItemEntity."<init>":(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemStack;)V
+      28: astore_2
+      29: aload_2
+      30: invokevirtual #249                // Method net/minecraft/world/entity/item/ItemEntity.setDefaultPickUpDelay:()V
+      33: aload_0
+      34: invokevirtual #62                 // Method net/minecraft/world/entity/LivingEntity.level:()Lnet/minecraft/world/level/Level;
+      37: aload_2
+      38: invokevirtual #262                // Method net/minecraft/world/level/Level.addFreshEntity:(Lnet/minecraft/world/entity/Entity;)Z
+      41: pop
+      42: return
+}

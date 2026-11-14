@@ -1,0 +1,676 @@
+{
+  "attempt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3",
+  "probe": {
+    "pendingVanillaSummon": {
+      "discoveryDeferredToNaturalTicks": true,
+      "issuedAt": 114,
+      "dimension": "minecraft:the_nether",
+      "command": "summon ftboss:easter_boss 2.5 80.1 0.5"
+    },
+    "standaloneIngress": {
+      "publicEntry": "Commands.performPrefixedCommand",
+      "command": "summon ftboss:easter_boss 2.5 80.1 0.5",
+      "consoleCommandFixture": true,
+      "state": {
+        "attackers": [],
+        "health": 1024.0,
+        "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+        "time": 116,
+        "dimension": "minecraft:the_nether",
+        "managed": false,
+        "variant": 0
+      },
+      "nbtOverrides": false
+    },
+    "lastObservedCaseBeforeAssertions": {
+      "mode": "managed-pre-zero",
+      "before": {
+        "attackers": [],
+        "health": 1008.0,
+        "entity": "1ec1a26a-14d7-4ad9-b9a3-b3cf1558930f",
+        "time": 1517,
+        "dimension": "minecraft:overworld",
+        "managed": true,
+        "variant": 0
+      },
+      "after": {
+        "attackers": [],
+        "health": 1008.0,
+        "entity": "1ec1a26a-14d7-4ad9-b9a3-b3cf1558930f",
+        "time": 1517,
+        "dimension": "minecraft:overworld",
+        "managed": true,
+        "variant": 0
+      },
+      "actualPlayerAttackEvents": 1,
+      "nativePreEvents": 1,
+      "nativePreAmount": 0.0,
+      "nativePostEvents": 0,
+      "nativePostAmount": 0.0
+    },
+    "retentionBeforeExpiry": {
+      "participants": 1,
+      "state": {
+        "attackers": [
+          {
+            "id": "00000000-0000-0000-0000-000000b05513",
+            "at": 236
+          }
+        ],
+        "health": 1024.0,
+        "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+        "time": 1436,
+        "dimension": "minecraft:the_nether",
+        "managed": false,
+        "variant": 0
+      },
+      "age": 1200
+    },
+    "retentionAfterExpiry": {
+      "participants": 1,
+      "state": {
+        "attackers": [],
+        "health": 1024.0,
+        "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+        "time": 1437,
+        "dimension": "minecraft:the_nether",
+        "managed": false,
+        "variant": 0
+      },
+      "age": 1201
+    },
+    "managedIngress": {
+      "state": {
+        "attackers": [],
+        "health": 1024.0,
+        "entity": "1ec1a26a-14d7-4ad9-b9a3-b3cf1558930f",
+        "time": 1437,
+        "dimension": "minecraft:overworld",
+        "managed": true,
+        "variant": 0
+      },
+      "registeredItem": "ftboss:easter_egg_youzi",
+      "fight": "1938a16d-e2d9-4e81-a2a7-afd0aaf927f5"
+    },
+    "retiredAppearanceBeforePeriodicPrune": {
+      "used": 0,
+      "stage": 0,
+      "retiredAt": 1518,
+      "fight": "1938a16d-e2d9-4e81-a2a7-afd0aaf927f5",
+      "players": 1,
+      "expectedNaturalPruneBoundary": 2400
+    },
+    "periodicPrune": {
+      "actualRetiredFight": "1938a16d-e2d9-4e81-a2a7-afd0aaf927f5",
+      "expectedBoundary": 2400,
+      "observedAt": 2401,
+      "pruneOrTickCallbackInvokedByObserver": false,
+      "recordAbsent": true
+    },
+    "standaloneNativeAttackerEventAccepted": true,
+    "nativePeriodicAppearancePruneAccepted": true,
+    "naturalRetentionBoundaryAccepted": true,
+    "checks": 7227,
+    "failures": 0,
+    "completedModes": 7,
+    "requiredModes": [
+      "standalone-pre-zero-first",
+      "standalone-positive-first",
+      "standalone-positive-repeat",
+      "standalone-incoming-cancel",
+      "standalone-pre-zero-after",
+      "managed-positive",
+      "managed-pre-zero"
+    ],
+    "cases": [
+      {
+        "mode": "standalone-pre-zero-first",
+        "before": {
+          "attackers": [],
+          "health": 1024.0,
+          "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+          "time": 156,
+          "dimension": "minecraft:the_nether",
+          "managed": false,
+          "variant": 0
+        },
+        "after": {
+          "attackers": [],
+          "health": 1024.0,
+          "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+          "time": 156,
+          "dimension": "minecraft:the_nether",
+          "managed": false,
+          "variant": 0
+        },
+        "actualPlayerAttackEvents": 1,
+        "nativePreEvents": 1,
+        "nativePreAmount": 0.0,
+        "nativePostEvents": 1,
+        "nativePostAmount": 0.0
+      },
+      {
+        "mode": "standalone-positive-first",
+        "before": {
+          "attackers": [],
+          "health": 1024.0,
+          "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+          "time": 196,
+          "dimension": "minecraft:the_nether",
+          "managed": false,
+          "variant": 0
+        },
+        "after": {
+          "attackers": [
+            {
+              "id": "00000000-0000-0000-0000-000000b05513",
+              "at": 196
+            }
+          ],
+          "health": 1008.0,
+          "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+          "time": 196,
+          "dimension": "minecraft:the_nether",
+          "managed": false,
+          "variant": 0
+        },
+        "actualPlayerAttackEvents": 1,
+        "nativePreEvents": 1,
+        "nativePreAmount": 16.0,
+        "nativePostEvents": 1,
+        "nativePostAmount": 16.0
+      },
+      {
+        "mode": "standalone-positive-repeat",
+        "before": {
+          "attackers": [
+            {
+              "id": "00000000-0000-0000-0000-000000b05513",
+              "at": 196
+            }
+          ],
+          "health": 1010.0,
+          "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+          "time": 236,
+          "dimension": "minecraft:the_nether",
+          "managed": false,
+          "variant": 0
+        },
+        "after": {
+          "attackers": [
+            {
+              "id": "00000000-0000-0000-0000-000000b05513",
+              "at": 236
+            }
+          ],
+          "health": 994.0,
+          "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+          "time": 236,
+          "dimension": "minecraft:the_nether",
+          "managed": false,
+          "variant": 0
+        },
+        "actualPlayerAttackEvents": 1,
+        "nativePreEvents": 1,
+        "nativePreAmount": 16.0,
+        "nativePostEvents": 1,
+        "nativePostAmount": 16.0
+      },
+      {
+        "mode": "standalone-incoming-cancel",
+        "before": {
+          "attackers": [
+            {
+              "id": "00000000-0000-0000-0000-000000b05513",
+              "at": 236
+            }
+          ],
+          "health": 1003.12,
+          "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+          "time": 276,
+          "dimension": "minecraft:the_nether",
+          "managed": false,
+          "variant": 0
+        },
+        "after": {
+          "attackers": [
+            {
+              "id": "00000000-0000-0000-0000-000000b05513",
+              "at": 236
+            }
+          ],
+          "health": 1003.12,
+          "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+          "time": 276,
+          "dimension": "minecraft:the_nether",
+          "managed": false,
+          "variant": 0
+        },
+        "actualPlayerAttackEvents": 1,
+        "nativePreEvents": 0,
+        "nativePreAmount": 0.0,
+        "nativePostEvents": 0,
+        "nativePostAmount": 0.0
+      },
+      {
+        "mode": "standalone-pre-zero-after",
+        "before": {
+          "attackers": [
+            {
+              "id": "00000000-0000-0000-0000-000000b05513",
+              "at": 236
+            }
+          ],
+          "health": 1006.12,
+          "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+          "time": 316,
+          "dimension": "minecraft:the_nether",
+          "managed": false,
+          "variant": 0
+        },
+        "after": {
+          "attackers": [
+            {
+              "id": "00000000-0000-0000-0000-000000b05513",
+              "at": 236
+            }
+          ],
+          "health": 1006.12,
+          "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+          "time": 316,
+          "dimension": "minecraft:the_nether",
+          "managed": false,
+          "variant": 0
+        },
+        "actualPlayerAttackEvents": 1,
+        "nativePreEvents": 1,
+        "nativePreAmount": 0.0,
+        "nativePostEvents": 1,
+        "nativePostAmount": 0.0
+      },
+      {
+        "mode": "managed-positive",
+        "before": {
+          "attackers": [],
+          "health": 1024.0,
+          "entity": "1ec1a26a-14d7-4ad9-b9a3-b3cf1558930f",
+          "time": 1477,
+          "dimension": "minecraft:overworld",
+          "managed": true,
+          "variant": 0
+        },
+        "after": {
+          "attackers": [],
+          "health": 1008.0,
+          "entity": "1ec1a26a-14d7-4ad9-b9a3-b3cf1558930f",
+          "time": 1477,
+          "dimension": "minecraft:overworld",
+          "managed": true,
+          "variant": 0
+        },
+        "actualPlayerAttackEvents": 1,
+        "nativePreEvents": 1,
+        "nativePreAmount": 16.0,
+        "nativePostEvents": 1,
+        "nativePostAmount": 16.0
+      },
+      {
+        "mode": "managed-pre-zero",
+        "before": {
+          "attackers": [],
+          "health": 1008.0,
+          "entity": "1ec1a26a-14d7-4ad9-b9a3-b3cf1558930f",
+          "time": 1517,
+          "dimension": "minecraft:overworld",
+          "managed": true,
+          "variant": 0
+        },
+        "after": {
+          "attackers": [],
+          "health": 1008.0,
+          "entity": "1ec1a26a-14d7-4ad9-b9a3-b3cf1558930f",
+          "time": 1517,
+          "dimension": "minecraft:overworld",
+          "managed": true,
+          "variant": 0
+        },
+        "actualPlayerAttackEvents": 1,
+        "nativePreEvents": 1,
+        "nativePreAmount": 0.0,
+        "nativePostEvents": 0,
+        "nativePostAmount": 0.0
+      }
+    ],
+    "events": [
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "40ee4bcb-5104-46bb-a030-9e7025ff93ec",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "910092df-1b30-4075-b7bb-58975c03ae6e",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "c2428af5-205f-4be9-836d-d04977b86b54",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "mode": "standalone-pre-zero-first",
+        "phase": "nativePre",
+        "amount": 0.0,
+        "actualPlayerSource": true,
+        "time": 156
+      },
+      {
+        "amount": 0.0,
+        "time": 156,
+        "phase": "nativePost",
+        "mode": "standalone-pre-zero-first"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "8264571e-517a-42d8-97e5-d625b7713ab1",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "38624300-1d41-4e04-a065-47dfae85197a",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "mode": "standalone-positive-first",
+        "phase": "nativePre",
+        "amount": 16.0,
+        "actualPlayerSource": true,
+        "time": 196
+      },
+      {
+        "amount": 16.0,
+        "time": 196,
+        "phase": "nativePost",
+        "mode": "standalone-positive-first"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 9,
+        "canceled": false,
+        "entity": "6b7e4d12-9d66-447e-9a37-f5d4bcfcb27d",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "a28cddb8-9fdf-4dc6-8c4d-9398a022a361",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "bfc82fcf-5567-4d1b-b957-2dde9b3bc611",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "mode": "standalone-positive-repeat",
+        "phase": "nativePre",
+        "amount": 16.0,
+        "actualPlayerSource": true,
+        "time": 236
+      },
+      {
+        "amount": 16.0,
+        "time": 236,
+        "phase": "nativePost",
+        "mode": "standalone-positive-repeat"
+      },
+      {
+        "mode": "standalone-pre-zero-after",
+        "phase": "nativePre",
+        "amount": 0.0,
+        "actualPlayerSource": true,
+        "time": 316
+      },
+      {
+        "amount": 0.0,
+        "time": 316,
+        "phase": "nativePost",
+        "mode": "standalone-pre-zero-after"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "10869cb1-da31-4dfd-81b4-4ad7bbab5ea3",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "e9a28c64-f8be-486f-9260-c8e32e64d783",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "286655e8-5fd8-41a5-8f0c-216e2c185202",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "f71e31f3-de98-41af-967a-9867958034a0",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "4e0d3e24-71c7-4405-abdd-b4f78cbb89ec",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "2cba10d1-ae68-4408-a35e-5824b21ffa35",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "1ec1a26a-14d7-4ad9-b9a3-b3cf1558930f",
+        "dimension": "minecraft:overworld"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "83cb770f-9b91-478e-9a8f-e257593598b2",
+        "dimension": "minecraft:overworld"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "627a4cbd-beab-4157-a15a-ecad96ad7254",
+        "dimension": "minecraft:overworld"
+      },
+      {
+        "mode": "managed-positive",
+        "phase": "nativePre",
+        "amount": 16.0,
+        "actualPlayerSource": true,
+        "time": 1477
+      },
+      {
+        "amount": 16.0,
+        "time": 1477,
+        "phase": "nativePost",
+        "mode": "managed-positive"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "39d58791-cff9-46ca-8c3d-dec493dd7990",
+        "dimension": "minecraft:overworld"
+      },
+      {
+        "phase": "actualEntityJoin",
+        "variant": 0,
+        "canceled": false,
+        "entity": "399f6b4e-9365-446c-8094-3ccce600b4b7",
+        "dimension": "minecraft:overworld"
+      },
+      {
+        "mode": "managed-pre-zero",
+        "phase": "nativePre",
+        "amount": 0.0,
+        "actualPlayerSource": true,
+        "time": 1517
+      }
+    ],
+    "naturalServerTicks": 2288,
+    "naturalPrimaryEntityTicks": 1402,
+    "playerFixtureProtection": {
+      "cappedHits": 263,
+      "positiveTargetPreModifier": 16.0,
+      "nativePreDamageCap": 0.01,
+      "survivabilityAcceptanceClaimed": false,
+      "creative": false
+    },
+    "directEntityCreationByObserver": false,
+    "publicVanillaConsoleSummonFixture": true,
+    "directBossOrHelperHealthWritesByObserver": false,
+    "publicPlayerFixtureHealthInitialized": true,
+    "attackerFightOwnerOrAppearanceFieldsWrittenByObserver": false,
+    "privateGameplayCallbacksInvoked": false,
+    "manualEntityTicksInvoked": false,
+    "worldTimeOverridden": false,
+    "fakePlayerUsed": false,
+    "actualClientAndIntegratedServer": true,
+    "authenticated": false,
+    "actualMultiplayerGameplayAccepted": false,
+    "nativeWorldRestartAccepted": false,
+    "productChanged": false,
+    "fullBossMigrationComplete": false,
+    "installable": false,
+    "deployed": false
+  },
+  "terminal": {
+    "exitCode": 0,
+    "clientProcessReaped": true,
+    "integratedWorldCompleteSave": true,
+    "inputHashesUnchanged": true,
+    "missingInputs": [],
+    "finalDefinedClassesCaptured": true,
+    "observerRequestedNormalStop": true
+  },
+  "inputHashes": {
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tools\\run_boss_sparrow_standalone_attacker_native_v4.py": "c6622a660b5fba8147c3c6e1df6657b51c2f783f87af2255321316fa2b4ab958",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\SparrowStandaloneAttackerNativeV4.java": "c7101ae54fb4add703f65d061c0d5b09de95dc67b0fea98e7c4514e6cc306930",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\LoadedBossClassCaptureV7.java": "dc5341bded71e5a92e6337d8ce1415955511fcaa2cd9b36ddc7f8ebc66bb65be",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-original-entry-closeout-20261114.json": "87325b39f6b4e4df66487fd37881e9ecc63be733cfc958e7639fc8cae22d9a46",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-sparrow-original-multiplayer-v1-20261114\\candidate-build-receipt.json": "67cbd5be78d88f7aa6b1f8877905e752e0a2e039a01fdba95d8babc488259d4b",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-sparrow-original-multiplayer-v1-20261114\\ftboss-boss-core-1.21.1-stage35-sparrow-original-multiplayer-NOT-INSTALLABLE.jar": "9d713622cc8c8aa3d2e5b5fa340053a7eb45f8128247346c3152a14c975b886e",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\zicai-curio-client-v13-candidate-6559f481.json": "2520617ce3f9200d8615ce180ffcc9188822c0d4b02ec2af1a7674015a7c8bcd",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\expanded-runtime-command.json": "4de448f747c43debd93c3bf877cb8652a34b4dde488c2cd2df31f48939509421",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\actual-client-dev.args": "4cb27c89d84fa86b4c19fdbf98df4457a098dee3123d52c3f53e465c5953a541",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-flight-ban-v1\\compile-context.json": "44348efc741830ef23097d1576bb038537567f4cf8c35d03a145d7d27bd10b00",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\loaded-boss-capture.jar": "c56505c2a3d8a07f6e43c134eff84009a7041c7d86acfe5f57768fce9e50efb9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\observer-resources\\META-INF\\neoforge.mods.toml": "f387c417486636f290ab192099afa59ac904faf0ec1c0e75d9946604630a3629",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\full-client-launch.args": "ce0d00cb1879eeb0373f9c7b4b7411d6fbd048d8ad5fe08c6f07807a33217267",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\options-template.txt": "50a335d7dc47169410415766505384271840c67504b76ea97ab6504574edabd9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[Iron的法术与魔法书] irons_spellbooks-1.21.1-3.16.3.jar": "13d644474ddba4f8478b4ce68294687fd509c994b3f344a224142b102dbe6f73",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[前置]architectury-13.0.8-neoforge.jar": "5ec578f814e8cca87aeffa6e424032e78d9ea5ea6b603dd834c2dc13c31141ee",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[机械动力] create-1.21.1-6.0.10.jar": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[机械动力：创想附加] createaddition-1.6.0.jar": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[森罗厨房：国味] kaleidoscope_chinesefood-1.1.5-neoforge+1.21.1.jar": "1788911fe665d3ce998cf6a6173de1d02f70d2c2937ebc9bce54f581e34a6196",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[森罗物语：厨房] kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar": "04dd114f975df57fb8bb3f09e8c96d6de18587838ab5a019271b51a2aec24f74",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[沉浸农艺] letsdo-farm_and_charm-neoforge-1.1.22.jar": "2fe62301c96883689bee28a7eac4b05ea026990c26b51d06a124a4bd3a1b5293",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[灾变] L_Ender's Cataclysm 1.21.1-3.33.jar": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[犀牛] rhino-2101.2.7-build.85.jar": "95df92ce578b2504cb16d8c9fc285303bf062eb15452246a18e57b7cf091c19a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[青青草甸] letsdo-meadow-neoforge-1.4.8.jar": "f5d4a870b46f2952b7a04dad663cc4bdf8faad75e8951ba1551e85fd72d14402",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[馥郁烘焙] letsdo-bakery-neoforge-2.1.6.jar": "bfe7f9b3ea104fb68303d49b7cda0876520a5504067b2ba0293965474aaef649",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\bountifulfares-neoforge-1.21.1-3.0.13.jar": "b6f45ebe3f57d34fdf35ce81267a9095f71de8be768622e8c8bded9b3cd4d3d0",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\BrewinAndChewin-neoforge-4.5.0+1.21.1.jar": "9f6581823c2449dde4ac1e9b4f5a7cc226c42e058e656741ab392f714f443971",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\CrockPot-source-target233-exp213-NOT-INSTALLABLE.jar": "c2ea26ee73315b2f670f5317fdd9de179f7300d4b5c317cf66e5092f58b1c830",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\curios-neoforge-9.5.1+1.21.1.jar": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\FarmersDelight-1.21.1-1.3.4.jar": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\ftboss-boss-core-1.21.1-stage28-zicai-curio-silence-NOT-INSTALLABLE.jar": "c45cc10ffb7b572d876e869b692a75496c88c337434ed7140225df298b7bb65e",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\geckolib-neoforge-1.21.1-4.9.3.jar": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\irons_lib-1.21.1-2.1.1.jar": "2c5f9abc3f785d90d870b64b9d3c5020cedacaf8f26d3a92784ceef32b8677f8",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\kaleidoscope_world_liquor-1.1.11-neoforge+1.21.1.jar": "e1f51736138bfe65ac1ce2aae2f2f3bd292dce71e2b8d2f18580a68bdea807cc",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar": "03f35e1e614953b22cd1f5e34345613f3a6a283bf1b1c99659b57d58970edeff",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\kubejs-neoforge-2101.7.2-build.368.jar": "01767bb677a9c4a8f318717c4c21bca7e7ef80995603403a551068a0e064e740",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\letsdo-brewery-neoforge-2.1.9.jar": "7abbc2bb43fa319d4893e84b145b2cc803e6e61f5e6f0c37ec4611567a07ed66",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\letsdo-herbalbrews-neoforge-1.1.4.jar": "c84a3479d520e7a3da3f87272176ac9f3b2308ccc81cac3c51a4aac81c91406a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\letsdo-vinery-neoforge-1.5.6.jar": "7e5e4e901a599a499bd510490ec12e72e8547e53b61790778fa7848852c451ec",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\lionfishapi-3.1.jar": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\nexuslib-neoforge-1.21.1-1.2.0.jar": "bc7c72932617fe7f0ba82f2d0df1fe149617229c9463ed36e5b4f52b4a66fe84",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\player-animation-lib-forge-2.0.4+1.21.1.jar": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\[Iron的法术与魔法书] irons_spellbooks-1.21.1-3.16.3.jar": "13d644474ddba4f8478b4ce68294687fd509c994b3f344a224142b102dbe6f73",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\[前置]architectury-13.0.8-neoforge.jar": "5ec578f814e8cca87aeffa6e424032e78d9ea5ea6b603dd834c2dc13c31141ee",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\[机械动力] create-1.21.1-6.0.10.jar": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\[机械动力：创想附加] createaddition-1.6.0.jar": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\[森罗厨房：国味] kaleidoscope_chinesefood-1.1.5-neoforge+1.21.1.jar": "1788911fe665d3ce998cf6a6173de1d02f70d2c2937ebc9bce54f581e34a6196",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\[森罗物语：厨房] kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar": "04dd114f975df57fb8bb3f09e8c96d6de18587838ab5a019271b51a2aec24f74",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\[沉浸农艺] letsdo-farm_and_charm-neoforge-1.1.22.jar": "2fe62301c96883689bee28a7eac4b05ea026990c26b51d06a124a4bd3a1b5293",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\[灾变] L_Ender's Cataclysm 1.21.1-3.33.jar": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\[犀牛] rhino-2101.2.7-build.85.jar": "95df92ce578b2504cb16d8c9fc285303bf062eb15452246a18e57b7cf091c19a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\[青青草甸] letsdo-meadow-neoforge-1.4.8.jar": "f5d4a870b46f2952b7a04dad663cc4bdf8faad75e8951ba1551e85fd72d14402",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\[馥郁烘焙] letsdo-bakery-neoforge-2.1.6.jar": "bfe7f9b3ea104fb68303d49b7cda0876520a5504067b2ba0293965474aaef649",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\bountifulfares-neoforge-1.21.1-3.0.13.jar": "b6f45ebe3f57d34fdf35ce81267a9095f71de8be768622e8c8bded9b3cd4d3d0",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\BrewinAndChewin-neoforge-4.5.0+1.21.1.jar": "9f6581823c2449dde4ac1e9b4f5a7cc226c42e058e656741ab392f714f443971",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\CrockPot-source-target233-exp213-NOT-INSTALLABLE.jar": "c2ea26ee73315b2f670f5317fdd9de179f7300d4b5c317cf66e5092f58b1c830",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\curios-neoforge-9.5.1+1.21.1.jar": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\FarmersDelight-1.21.1-1.3.4.jar": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\ftboss-boss-core-1.21.1-stage28-zicai-curio-silence-NOT-INSTALLABLE.jar": "9d713622cc8c8aa3d2e5b5fa340053a7eb45f8128247346c3152a14c975b886e",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\geckolib-neoforge-1.21.1-4.9.3.jar": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\irons_lib-1.21.1-2.1.1.jar": "2c5f9abc3f785d90d870b64b9d3c5020cedacaf8f26d3a92784ceef32b8677f8",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\kaleidoscope_world_liquor-1.1.11-neoforge+1.21.1.jar": "e1f51736138bfe65ac1ce2aae2f2f3bd292dce71e2b8d2f18580a68bdea807cc",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar": "03f35e1e614953b22cd1f5e34345613f3a6a283bf1b1c99659b57d58970edeff",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\kubejs-neoforge-2101.7.2-build.368.jar": "01767bb677a9c4a8f318717c4c21bca7e7ef80995603403a551068a0e064e740",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\letsdo-brewery-neoforge-2.1.9.jar": "7abbc2bb43fa319d4893e84b145b2cc803e6e61f5e6f0c37ec4611567a07ed66",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\letsdo-herbalbrews-neoforge-1.1.4.jar": "c84a3479d520e7a3da3f87272176ac9f3b2308ccc81cac3c51a4aac81c91406a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\letsdo-vinery-neoforge-1.5.6.jar": "7e5e4e901a599a499bd510490ec12e72e8547e53b61790778fa7848852c451ec",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\lionfishapi-3.1.jar": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\nexuslib-neoforge-1.21.1-1.2.0.jar": "bc7c72932617fe7f0ba82f2d0df1fe149617229c9463ed36e5b4f52b4a66fe84",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\game\\mods\\player-animation-lib-forge-2.0.4+1.21.1.jar": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\observer-classes\\ftboss\\clientfxprobe\\SparrowStandaloneAttackerNativeV4.class": "0ebd90b5ec72cc1941a106016d720ef9263b6f76b17128dcf45fe8e7815a8afb",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\agent-classes\\ftboss\\nativeprobe\\LoadedBossClassCaptureV7$1.class": "dc0d2c8503df4be2bf597e46a156293e38b1fed25f16ac233b09aa3d108c958f",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\agent-classes\\ftboss\\nativeprobe\\LoadedBossClassCaptureV7.class": "e1e796511455968417bb44d72103921c0c6f10f2ca22b2a139a73ecbad63fffa",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\natives\\freetype.dll": "c0b73302f4d4f7ea372be946011daa77521304c00d96936742fd65fb18c34fc4",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\natives\\glfw.dll": "affa7e54eb0dedce4a5721c327c1a16035edbbd039cd402e08107d6d2d55eb1a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\natives\\jemalloc.dll": "9abf0095066ebab37b78968e11370a8078313e48cb5be8eda01f67623c6a6248",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\natives\\lwjgl.dll": "a39adf52947fafd954c2a86ce031abb8c59825f7ee50337ac8c41e4280abe82d",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\natives\\lwjgl_opengl.dll": "fe200dc96ab31237a52facd6345d31f9740ef16dd411e5f9be014eaa30f89fb6",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\natives\\lwjgl_stb.dll": "de03f38f8c7471b4924aa8bdf8724c181d1a7c20428dbce2ed301877e1d387e4",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\natives\\lwjgl_tinyfd.dll": "ec7d76e6ef7a99628ef6f8b6e544294b700108c341837779e6e2c01c0bc3da9c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-standalone-attacker-native-v4-3bec13f3\\natives\\OpenAL.dll": "0630aa42492f78126da1c4d99769632e03c55b2e63b050efe7e3005e07e3e6fc"
+  },
+  "standaloneNativeAttackerAndPeriodicPruneAccepted": true,
+  "authenticated": false,
+  "productChanged": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}

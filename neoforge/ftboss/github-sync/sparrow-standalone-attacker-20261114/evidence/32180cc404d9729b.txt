@@ -1,0 +1,1381 @@
+Compiled from "FTBossItems.java"
+public final class net.farmingtales.ftboss.item.FTBossItems {
+  public static final net.neoforged.neoforge.registries.DeferredRegister<net.minecraft.world.item.Item> ITEMS;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> TIDE_BANQUET;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> TIDE_TRIDENT;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> TIDE_PEARL;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_TIDE_FISH;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_TIDE_FISH_P2;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> DORA_NOVA_LAUNCHER;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> DORA_PULSE_GUN;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> DORA_LANCE;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MAQUE_BLESSING_FEATHER;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> SUGAR_QUEEN_CRYSTAL;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MANOR_STOP_TOKEN;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MEAT_HEART;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> DEFECT_CORE;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> DEFECT_CLAW;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> TEA_SEED;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> THORN_CROWN;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> THORN_CHESTPLATE;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> THORN_LEGGINGS;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> THORN_BOOTS;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> SILVER_KEY;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> FOOD_APPRAISAL_MONOCLE;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> WINE_CHARM;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> RAT_BAIT;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> WINE_BOTTLE_MACE;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> CHEESE_WHEEL_MACE;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> COMPOST_CROWN;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> LEMONCAT_SKILLET;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> LEMONCAT_SPATULA;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> COMPOST_SUMMON;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> BLACK_CLEAVER;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> TURKEY_LEGS;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> DANDAN_SCYTHE;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> QINGYI_CONFLUENCE_TRIDENT;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> TRIDENT_STORMSEEKER;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> TRIDENT_THE_DESECRATOR;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> TRIDENT_ECHO_OF_THE_DEEP;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> TRIDENT_STELLARIS;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> SANGUINE_BOND;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> SLUMBERING_TRIDENT;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> FRENZIED_TRIDENT;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> ANCIENT_TRIDENT;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> OCEANIC_TRIDENT;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> HOLY_TRIDENT;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> FARSHOT_TRIDENT;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> WOODEN_SPEAR;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> STONE_SPEAR;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> IRON_SPEAR;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> GOLDEN_SPEAR;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> DIAMOND_SPEAR;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> NETHERITE_SPEAR;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> SHADOW_SWORD;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> DOG_BEATING_STICK;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> BENGER_WHISTLE;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> BENGER_SPAWN_EGG;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> PUFFER_BAT;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> FORBIDDEN_APPLE;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> APPLE_STEM;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> CANDY_CANE;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> STATUE_YOUZI;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> WENXUANLAN_FLYWHEEL;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> BLOOMING_THORNS;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> BARREL_CROSSBOW;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> BARREL_CROSSBOW_READY;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> EASTER_EGG_YOUZI;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> EASTER_EGG_DANDAN;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> EASTER_EGG_DUOLA;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> EASTER_EGG_GONGDI;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> EASTER_EGG_NINGMENGMAO;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> EASTER_EGG_QINGYI;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> EASTER_EGG_WENXUANLAN;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> EASTER_EGG_ZHEERGEN;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> EASTER_EGG_ZICAI;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> EASTER_EGG_XUELI;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> EASTER_EGG_QIZAI;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> QIZAI_PRAYER_STAFF;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> GOURMET_BLANK_BLADE;
+
+  public static final java.util.List<net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item>> EASTER_EGGS;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_MANOR_CUE;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_MANOR_BATTLE;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_MANOR_DUAL;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_MANOR_GUIGNOL;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_BENGER;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_APPLE;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_APPLE_P2;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_GINGERBREAD;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_BUTCHER;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_SAYA;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_TAVERN;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_RAT;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_DEFECT;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_COMPOST;
+
+  public static final net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> MUSIC_DISC_COMPOST_P2;
+
+  public static final java.util.List<net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item>> FOOD_MUSIC_DISCS;
+
+  private static net.minecraft.world.item.Item musicDisc(java.lang.String, net.minecraft.world.item.Rarity);
+    Code:
+       0: new           #1                  // class net/minecraft/world/item/Item
+       3: dup
+       4: new           #3                  // class net/minecraft/world/item/Item$Properties
+       7: dup
+       8: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      11: iconst_1
+      12: invokevirtual #9                  // Method net/minecraft/world/item/Item$Properties.stacksTo:(I)Lnet/minecraft/world/item/Item$Properties;
+      15: aload_1
+      16: invokevirtual #13                 // Method net/minecraft/world/item/Item$Properties.rarity:(Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item$Properties;
+      19: getstatic     #17                 // Field net/minecraft/core/registries/Registries.JUKEBOX_SONG:Lnet/minecraft/resources/ResourceKey;
+      22: ldc           #23                 // String ftboss
+      24: aload_0
+      25: invokestatic  #25                 // Method net/minecraft/resources/ResourceLocation.fromNamespaceAndPath:(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+      28: invokestatic  #31                 // Method net/minecraft/resources/ResourceKey.create:(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/resources/ResourceKey;
+      31: invokevirtual #37                 // Method net/minecraft/world/item/Item$Properties.jukeboxPlayable:(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/item/Item$Properties;
+      34: invokespecial #41                 // Method net/minecraft/world/item/Item."<init>":(Lnet/minecraft/world/item/Item$Properties;)V
+      37: areturn
+
+  private static net.neoforged.neoforge.registries.DeferredHolder<net.minecraft.world.item.Item, net.minecraft.world.item.Item> easterEgg(java.lang.String, int, int, int);
+    Code:
+       0: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+       3: aload_0
+       4: iload_1
+       5: iload_2
+       6: iload_3
+       7: invokedynamic #50,  0             // InvokeDynamic #0:get:(III)Ljava/util/function/Supplier;
+      12: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+      15: areturn
+
+  private net.farmingtales.ftboss.item.FTBossItems();
+    Code:
+       0: aload_0
+       1: invokespecial #60                 // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void register(net.neoforged.bus.api.IEventBus);
+    Code:
+       0: invokestatic  #63                 // Method net/farmingtales/ftboss/item/BossRelicItems.init:()V
+       3: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+       6: aload_0
+       7: invokevirtual #68                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Lnet/neoforged/bus/api/IEventBus;)V
+      10: getstatic     #71                 // Field net/farmingtales/ftboss/item/FTRecipeSerializers.RECIPE_SERIALIZERS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+      13: aload_0
+      14: invokevirtual #68                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Lnet/neoforged/bus/api/IEventBus;)V
+      17: return
+
+  private static net.minecraft.world.item.Item lambda$easterEgg$54(int, int, int);
+    Code:
+       0: new           #76                 // class net/farmingtales/ftboss/item/EasterSpawnEggItem
+       3: dup
+       4: iload_0
+       5: iload_1
+       6: iload_2
+       7: invokespecial #78                 // Method net/farmingtales/ftboss/item/EasterSpawnEggItem."<init>":(III)V
+      10: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$53();
+    Code:
+       0: ldc           #81                 // String music_disc_compost_p2
+       2: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$52();
+    Code:
+       0: ldc           #93                 // String music_disc_compost
+       2: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$51();
+    Code:
+       0: ldc           #95                 // String music_disc_defect
+       2: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$50();
+    Code:
+       0: ldc           #97                 // String music_disc_rat
+       2: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$49();
+    Code:
+       0: ldc           #99                 // String music_disc_tavern
+       2: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$48();
+    Code:
+       0: ldc           #101                // String music_disc_saya
+       2: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$47();
+    Code:
+       0: ldc           #103                // String music_disc_butcher
+       2: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$46();
+    Code:
+       0: ldc           #105                // String music_disc_gingerbread
+       2: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$45();
+    Code:
+       0: ldc           #107                // String music_disc_apple_p2
+       2: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$44();
+    Code:
+       0: ldc           #109                // String music_disc_apple
+       2: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$43();
+    Code:
+       0: ldc           #111                // String music_disc_benger
+       2: getstatic     #113                // Field net/minecraft/world/item/Rarity.EPIC:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$42();
+    Code:
+       0: ldc           #116                // String music_disc_manor_guignol
+       2: getstatic     #113                // Field net/minecraft/world/item/Rarity.EPIC:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$41();
+    Code:
+       0: ldc           #118                // String music_disc_manor_dual
+       2: getstatic     #113                // Field net/minecraft/world/item/Rarity.EPIC:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$40();
+    Code:
+       0: ldc           #120                // String music_disc_manor_battle
+       2: getstatic     #113                // Field net/minecraft/world/item/Rarity.EPIC:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$39();
+    Code:
+       0: ldc           #122                // String music_disc_manor_cue
+       2: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+       5: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$38();
+    Code:
+       0: new           #1                  // class net/minecraft/world/item/Item
+       3: dup
+       4: new           #3                  // class net/minecraft/world/item/Item$Properties
+       7: dup
+       8: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      11: invokespecial #41                 // Method net/minecraft/world/item/Item."<init>":(Lnet/minecraft/world/item/Item$Properties;)V
+      14: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$37();
+    Code:
+       0: new           #124                // class net/farmingtales/ftboss/item/BarrelCrossbowItem
+       3: dup
+       4: new           #3                  // class net/minecraft/world/item/Item$Properties
+       7: dup
+       8: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      11: iconst_1
+      12: invokevirtual #9                  // Method net/minecraft/world/item/Item$Properties.stacksTo:(I)Lnet/minecraft/world/item/Item$Properties;
+      15: sipush        384
+      18: invokevirtual #126                // Method net/minecraft/world/item/Item$Properties.durability:(I)Lnet/minecraft/world/item/Item$Properties;
+      21: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+      24: invokevirtual #13                 // Method net/minecraft/world/item/Item$Properties.rarity:(Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item$Properties;
+      27: invokespecial #129                // Method net/farmingtales/ftboss/item/BarrelCrossbowItem."<init>":(Lnet/minecraft/world/item/Item$Properties;)V
+      30: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$36();
+    Code:
+       0: new           #130                // class net/minecraft/world/item/SwordItem
+       3: dup
+       4: getstatic     #132                // Field net/minecraft/world/item/Tiers.NETHERITE:Lnet/minecraft/world/item/Tiers;
+       7: new           #3                  // class net/minecraft/world/item/Item$Properties
+      10: dup
+      11: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      14: getstatic     #132                // Field net/minecraft/world/item/Tiers.NETHERITE:Lnet/minecraft/world/item/Tiers;
+      17: iconst_4
+      18: ldc           #138                // float -2.4f
+      20: invokestatic  #139                // Method net/minecraft/world/item/SwordItem.createAttributes:(Lnet/minecraft/world/item/Tier;IF)Lnet/minecraft/world/item/component/ItemAttributeModifiers;
+      23: invokevirtual #143                // Method net/minecraft/world/item/Item$Properties.attributes:(Lnet/minecraft/world/item/component/ItemAttributeModifiers;)Lnet/minecraft/world/item/Item$Properties;
+      26: invokespecial #147                // Method net/minecraft/world/item/SwordItem."<init>":(Lnet/minecraft/world/item/Tier;Lnet/minecraft/world/item/Item$Properties;)V
+      29: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$35();
+    Code:
+       0: new           #150                // class net/farmingtales/ftboss/item/CandyCaneItem
+       3: dup
+       4: new           #3                  // class net/minecraft/world/item/Item$Properties
+       7: dup
+       8: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      11: invokespecial #152                // Method net/farmingtales/ftboss/item/CandyCaneItem."<init>":(Lnet/minecraft/world/item/Item$Properties;)V
+      14: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$34();
+    Code:
+       0: new           #130                // class net/minecraft/world/item/SwordItem
+       3: dup
+       4: getstatic     #132                // Field net/minecraft/world/item/Tiers.NETHERITE:Lnet/minecraft/world/item/Tiers;
+       7: new           #3                  // class net/minecraft/world/item/Item$Properties
+      10: dup
+      11: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      14: getstatic     #132                // Field net/minecraft/world/item/Tiers.NETHERITE:Lnet/minecraft/world/item/Tiers;
+      17: iconst_3
+      18: ldc           #153                // float -2.2f
+      20: invokestatic  #139                // Method net/minecraft/world/item/SwordItem.createAttributes:(Lnet/minecraft/world/item/Tier;IF)Lnet/minecraft/world/item/component/ItemAttributeModifiers;
+      23: invokevirtual #143                // Method net/minecraft/world/item/Item$Properties.attributes:(Lnet/minecraft/world/item/component/ItemAttributeModifiers;)Lnet/minecraft/world/item/Item$Properties;
+      26: invokespecial #147                // Method net/minecraft/world/item/SwordItem."<init>":(Lnet/minecraft/world/item/Tier;Lnet/minecraft/world/item/Item$Properties;)V
+      29: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$33();
+    Code:
+       0: new           #154                // class net/farmingtales/ftboss/item/ForbiddenAppleItem
+       3: dup
+       4: new           #3                  // class net/minecraft/world/item/Item$Properties
+       7: dup
+       8: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      11: iconst_1
+      12: invokevirtual #9                  // Method net/minecraft/world/item/Item$Properties.stacksTo:(I)Lnet/minecraft/world/item/Item$Properties;
+      15: invokespecial #156                // Method net/farmingtales/ftboss/item/ForbiddenAppleItem."<init>":(Lnet/minecraft/world/item/Item$Properties;)V
+      18: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$32();
+    Code:
+       0: new           #157                // class net/farmingtales/ftboss/item/OverworldBossSpawnEggItem
+       3: dup
+       4: getstatic     #159                // Field net/farmingtales/ftboss/entity/FTEntities.BENGER:Lnet/neoforged/neoforge/registries/DeferredHolder;
+       7: ldc           #165                // int 2763310
+       9: ldc           #166                // int 15592162
+      11: new           #3                  // class net/minecraft/world/item/Item$Properties
+      14: dup
+      15: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      18: invokespecial #167                // Method net/farmingtales/ftboss/item/OverworldBossSpawnEggItem."<init>":(Ljava/util/function/Supplier;IILnet/minecraft/world/item/Item$Properties;)V
+      21: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$31();
+    Code:
+       0: new           #170                // class net/farmingtales/ftboss/item/BengerWhistleItem
+       3: dup
+       4: new           #3                  // class net/minecraft/world/item/Item$Properties
+       7: dup
+       8: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      11: iconst_1
+      12: invokevirtual #9                  // Method net/minecraft/world/item/Item$Properties.stacksTo:(I)Lnet/minecraft/world/item/Item$Properties;
+      15: invokespecial #172                // Method net/farmingtales/ftboss/item/BengerWhistleItem."<init>":(Lnet/minecraft/world/item/Item$Properties;)V
+      18: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$30();
+    Code:
+       0: new           #173                // class net/farmingtales/ftboss/item/weapons/ManorSpearItem
+       3: dup
+       4: ldc           #175                // String netherite_spear
+       6: getstatic     #132                // Field net/minecraft/world/item/Tiers.NETHERITE:Lnet/minecraft/world/item/Tiers;
+       9: invokespecial #177                // Method net/farmingtales/ftboss/item/weapons/ManorSpearItem."<init>":(Ljava/lang/String;Lnet/minecraft/world/item/Tier;)V
+      12: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$29();
+    Code:
+       0: new           #173                // class net/farmingtales/ftboss/item/weapons/ManorSpearItem
+       3: dup
+       4: ldc           #180                // String diamond_spear
+       6: getstatic     #182                // Field net/minecraft/world/item/Tiers.DIAMOND:Lnet/minecraft/world/item/Tiers;
+       9: invokespecial #177                // Method net/farmingtales/ftboss/item/weapons/ManorSpearItem."<init>":(Ljava/lang/String;Lnet/minecraft/world/item/Tier;)V
+      12: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$28();
+    Code:
+       0: new           #173                // class net/farmingtales/ftboss/item/weapons/ManorSpearItem
+       3: dup
+       4: ldc           #185                // String golden_spear
+       6: getstatic     #187                // Field net/minecraft/world/item/Tiers.GOLD:Lnet/minecraft/world/item/Tiers;
+       9: invokespecial #177                // Method net/farmingtales/ftboss/item/weapons/ManorSpearItem."<init>":(Ljava/lang/String;Lnet/minecraft/world/item/Tier;)V
+      12: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$27();
+    Code:
+       0: new           #173                // class net/farmingtales/ftboss/item/weapons/ManorSpearItem
+       3: dup
+       4: ldc           #190                // String iron_spear
+       6: getstatic     #192                // Field net/minecraft/world/item/Tiers.IRON:Lnet/minecraft/world/item/Tiers;
+       9: invokespecial #177                // Method net/farmingtales/ftboss/item/weapons/ManorSpearItem."<init>":(Ljava/lang/String;Lnet/minecraft/world/item/Tier;)V
+      12: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$26();
+    Code:
+       0: new           #173                // class net/farmingtales/ftboss/item/weapons/ManorSpearItem
+       3: dup
+       4: ldc           #195                // String stone_spear
+       6: getstatic     #197                // Field net/minecraft/world/item/Tiers.STONE:Lnet/minecraft/world/item/Tiers;
+       9: invokespecial #177                // Method net/farmingtales/ftboss/item/weapons/ManorSpearItem."<init>":(Ljava/lang/String;Lnet/minecraft/world/item/Tier;)V
+      12: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$25();
+    Code:
+       0: new           #173                // class net/farmingtales/ftboss/item/weapons/ManorSpearItem
+       3: dup
+       4: ldc           #200                // String wooden_spear
+       6: getstatic     #202                // Field net/minecraft/world/item/Tiers.WOOD:Lnet/minecraft/world/item/Tiers;
+       9: invokespecial #177                // Method net/farmingtales/ftboss/item/weapons/ManorSpearItem."<init>":(Ljava/lang/String;Lnet/minecraft/world/item/Tier;)V
+      12: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$24();
+    Code:
+       0: new           #205                // class net/farmingtales/ftboss/item/weapons/ManorTridentItem
+       3: dup
+       4: ldc           #207                // String farshot_trident
+       6: ldc           #209                // String textures/trident/farshot_trident.png
+       8: sipush        350
+      11: ldc           #211                // float 9.0f
+      13: getstatic     #212                // Field net/minecraft/world/item/Rarity.UNCOMMON:Lnet/minecraft/world/item/Rarity;
+      16: getstatic     #215                // Field net/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect.NONE:Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;
+      19: iconst_1
+      20: invokespecial #221                // Method net/farmingtales/ftboss/item/weapons/ManorTridentItem."<init>":(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/world/item/Rarity;Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;Z)V
+      23: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$23();
+    Code:
+       0: new           #205                // class net/farmingtales/ftboss/item/weapons/ManorTridentItem
+       3: dup
+       4: ldc           #224                // String holy_trident
+       6: ldc           #226                // String textures/trident/holy_trident.png
+       8: sipush        350
+      11: ldc           #211                // float 9.0f
+      13: getstatic     #212                // Field net/minecraft/world/item/Rarity.UNCOMMON:Lnet/minecraft/world/item/Rarity;
+      16: getstatic     #228                // Field net/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect.HOLY:Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;
+      19: iconst_0
+      20: invokespecial #221                // Method net/farmingtales/ftboss/item/weapons/ManorTridentItem."<init>":(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/world/item/Rarity;Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;Z)V
+      23: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$22();
+    Code:
+       0: new           #205                // class net/farmingtales/ftboss/item/weapons/ManorTridentItem
+       3: dup
+       4: ldc           #231                // String oceanic_trident
+       6: ldc           #233                // String textures/trident/oceanic_trident.png
+       8: sipush        350
+      11: ldc           #211                // float 9.0f
+      13: getstatic     #212                // Field net/minecraft/world/item/Rarity.UNCOMMON:Lnet/minecraft/world/item/Rarity;
+      16: getstatic     #235                // Field net/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect.OCEANIC:Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;
+      19: iconst_0
+      20: invokespecial #221                // Method net/farmingtales/ftboss/item/weapons/ManorTridentItem."<init>":(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/world/item/Rarity;Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;Z)V
+      23: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$21();
+    Code:
+       0: new           #205                // class net/farmingtales/ftboss/item/weapons/ManorTridentItem
+       3: dup
+       4: ldc           #238                // String ancient_trident
+       6: ldc           #240                // String textures/trident/ancient_trident.png
+       8: sipush        2031
+      11: ldc           #242                // float 11.0f
+      13: getstatic     #212                // Field net/minecraft/world/item/Rarity.UNCOMMON:Lnet/minecraft/world/item/Rarity;
+      16: getstatic     #215                // Field net/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect.NONE:Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;
+      19: iconst_0
+      20: invokespecial #221                // Method net/farmingtales/ftboss/item/weapons/ManorTridentItem."<init>":(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/world/item/Rarity;Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;Z)V
+      23: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$20();
+    Code:
+       0: new           #205                // class net/farmingtales/ftboss/item/weapons/ManorTridentItem
+       3: dup
+       4: ldc           #243                // String frenzied_trident
+       6: ldc           #245                // String textures/trident/frenzied_trident.png
+       8: sipush        350
+      11: ldc           #247                // float 6.0f
+      13: getstatic     #212                // Field net/minecraft/world/item/Rarity.UNCOMMON:Lnet/minecraft/world/item/Rarity;
+      16: getstatic     #215                // Field net/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect.NONE:Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;
+      19: iconst_0
+      20: invokespecial #221                // Method net/farmingtales/ftboss/item/weapons/ManorTridentItem."<init>":(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/world/item/Rarity;Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;Z)V
+      23: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$19();
+    Code:
+       0: new           #205                // class net/farmingtales/ftboss/item/weapons/ManorTridentItem
+       3: dup
+       4: ldc           #248                // String slumbering_trident
+       6: ldc           #250                // String textures/trident/slumbering_trident.png
+       8: sipush        650
+      11: ldc           #211                // float 9.0f
+      13: getstatic     #212                // Field net/minecraft/world/item/Rarity.UNCOMMON:Lnet/minecraft/world/item/Rarity;
+      16: getstatic     #215                // Field net/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect.NONE:Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;
+      19: iconst_0
+      20: invokespecial #221                // Method net/farmingtales/ftboss/item/weapons/ManorTridentItem."<init>":(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/world/item/Rarity;Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;Z)V
+      23: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$18();
+    Code:
+       0: new           #205                // class net/farmingtales/ftboss/item/weapons/ManorTridentItem
+       3: dup
+       4: ldc           #252                // String stellaris
+       6: ldc           #254                // String textures/trident/trident_stellaris.png
+       8: sipush        2250
+      11: ldc           #242                // float 11.0f
+      13: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+      16: getstatic     #256                // Field net/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect.STELLAR:Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;
+      19: iconst_0
+      20: invokespecial #221                // Method net/farmingtales/ftboss/item/weapons/ManorTridentItem."<init>":(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/world/item/Rarity;Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;Z)V
+      23: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$17();
+    Code:
+       0: new           #205                // class net/farmingtales/ftboss/item/weapons/ManorTridentItem
+       3: dup
+       4: ldc_w         #259                // String echo_of_the_deep
+       7: ldc_w         #261                // String textures/trident/trident_echo_of_the_deep.png
+      10: sipush        2250
+      13: ldc           #211                // float 9.0f
+      15: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+      18: getstatic     #263                // Field net/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect.ECHOING:Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;
+      21: iconst_0
+      22: invokespecial #221                // Method net/farmingtales/ftboss/item/weapons/ManorTridentItem."<init>":(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/world/item/Rarity;Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;Z)V
+      25: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$16();
+    Code:
+       0: new           #205                // class net/farmingtales/ftboss/item/weapons/ManorTridentItem
+       3: dup
+       4: ldc_w         #266                // String the_desecrator
+       7: ldc_w         #268                // String textures/trident/trident_the_desecrator.png
+      10: sipush        2250
+      13: ldc_w         #270                // float 13.0f
+      16: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+      19: getstatic     #271                // Field net/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect.VILE:Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;
+      22: iconst_0
+      23: invokespecial #221                // Method net/farmingtales/ftboss/item/weapons/ManorTridentItem."<init>":(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/world/item/Rarity;Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;Z)V
+      26: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$15();
+    Code:
+       0: new           #205                // class net/farmingtales/ftboss/item/weapons/ManorTridentItem
+       3: dup
+       4: ldc_w         #274                // String stormseeker
+       7: ldc_w         #276                // String textures/trident/trident_stormseeker.png
+      10: sipush        2250
+      13: ldc           #242                // float 11.0f
+      15: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+      18: getstatic     #278                // Field net/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect.STORM_BLESSED:Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;
+      21: iconst_0
+      22: invokespecial #221                // Method net/farmingtales/ftboss/item/weapons/ManorTridentItem."<init>":(Ljava/lang/String;Ljava/lang/String;IFLnet/minecraft/world/item/Rarity;Lnet/farmingtales/ftboss/item/weapons/ManorTridentItem$LegacyEffect;Z)V
+      25: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$14();
+    Code:
+       0: new           #130                // class net/minecraft/world/item/SwordItem
+       3: dup
+       4: getstatic     #281                // Field net/farmingtales/ftboss/item/FTWeaponTier.INSTANCE:Lnet/farmingtales/ftboss/item/FTWeaponTier;
+       7: new           #3                  // class net/minecraft/world/item/Item$Properties
+      10: dup
+      11: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      14: getstatic     #281                // Field net/farmingtales/ftboss/item/FTWeaponTier.INSTANCE:Lnet/farmingtales/ftboss/item/FTWeaponTier;
+      17: bipush        6
+      19: ldc_w         #287                // float -2.8f
+      22: invokestatic  #139                // Method net/minecraft/world/item/SwordItem.createAttributes:(Lnet/minecraft/world/item/Tier;IF)Lnet/minecraft/world/item/component/ItemAttributeModifiers;
+      25: invokevirtual #143                // Method net/minecraft/world/item/Item$Properties.attributes:(Lnet/minecraft/world/item/component/ItemAttributeModifiers;)Lnet/minecraft/world/item/Item$Properties;
+      28: invokespecial #147                // Method net/minecraft/world/item/SwordItem."<init>":(Lnet/minecraft/world/item/Tier;Lnet/minecraft/world/item/Item$Properties;)V
+      31: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$13();
+    Code:
+       0: new           #288                // class net/farmingtales/ftboss/item/CompostSummonItem
+       3: dup
+       4: new           #3                  // class net/minecraft/world/item/Item$Properties
+       7: dup
+       8: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      11: iconst_1
+      12: invokevirtual #9                  // Method net/minecraft/world/item/Item$Properties.stacksTo:(I)Lnet/minecraft/world/item/Item$Properties;
+      15: invokespecial #290                // Method net/farmingtales/ftboss/item/CompostSummonItem."<init>":(Lnet/minecraft/world/item/Item$Properties;)V
+      18: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$12();
+    Code:
+       0: new           #291                // class net/farmingtales/ftboss/item/weapons/LemonCatWeaponItem
+       3: dup
+       4: getstatic     #293                // Field net/farmingtales/ftboss/item/weapons/LemonCatWeaponItem$Kind.SPATULA:Lnet/farmingtales/ftboss/item/weapons/LemonCatWeaponItem$Kind;
+       7: invokespecial #299                // Method net/farmingtales/ftboss/item/weapons/LemonCatWeaponItem."<init>":(Lnet/farmingtales/ftboss/item/weapons/LemonCatWeaponItem$Kind;)V
+      10: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$11();
+    Code:
+       0: new           #291                // class net/farmingtales/ftboss/item/weapons/LemonCatWeaponItem
+       3: dup
+       4: getstatic     #302                // Field net/farmingtales/ftboss/item/weapons/LemonCatWeaponItem$Kind.SKILLET:Lnet/farmingtales/ftboss/item/weapons/LemonCatWeaponItem$Kind;
+       7: invokespecial #299                // Method net/farmingtales/ftboss/item/weapons/LemonCatWeaponItem."<init>":(Lnet/farmingtales/ftboss/item/weapons/LemonCatWeaponItem$Kind;)V
+      10: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$10();
+    Code:
+       0: new           #305                // class net/farmingtales/ftboss/item/ThornArmorItem
+       3: dup
+       4: getstatic     #307                // Field net/minecraft/world/item/ArmorItem$Type.BOOTS:Lnet/minecraft/world/item/ArmorItem$Type;
+       7: invokespecial #313                // Method net/farmingtales/ftboss/item/ThornArmorItem."<init>":(Lnet/minecraft/world/item/ArmorItem$Type;)V
+      10: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$9();
+    Code:
+       0: new           #305                // class net/farmingtales/ftboss/item/ThornArmorItem
+       3: dup
+       4: getstatic     #316                // Field net/minecraft/world/item/ArmorItem$Type.LEGGINGS:Lnet/minecraft/world/item/ArmorItem$Type;
+       7: invokespecial #313                // Method net/farmingtales/ftboss/item/ThornArmorItem."<init>":(Lnet/minecraft/world/item/ArmorItem$Type;)V
+      10: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$8();
+    Code:
+       0: new           #305                // class net/farmingtales/ftboss/item/ThornArmorItem
+       3: dup
+       4: getstatic     #319                // Field net/minecraft/world/item/ArmorItem$Type.CHESTPLATE:Lnet/minecraft/world/item/ArmorItem$Type;
+       7: invokespecial #313                // Method net/farmingtales/ftboss/item/ThornArmorItem."<init>":(Lnet/minecraft/world/item/ArmorItem$Type;)V
+      10: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$7();
+    Code:
+       0: new           #130                // class net/minecraft/world/item/SwordItem
+       3: dup
+       4: getstatic     #182                // Field net/minecraft/world/item/Tiers.DIAMOND:Lnet/minecraft/world/item/Tiers;
+       7: new           #3                  // class net/minecraft/world/item/Item$Properties
+      10: dup
+      11: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      14: getstatic     #113                // Field net/minecraft/world/item/Rarity.EPIC:Lnet/minecraft/world/item/Rarity;
+      17: invokevirtual #13                 // Method net/minecraft/world/item/Item$Properties.rarity:(Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item$Properties;
+      20: getstatic     #182                // Field net/minecraft/world/item/Tiers.DIAMOND:Lnet/minecraft/world/item/Tiers;
+      23: iconst_3
+      24: ldc           #138                // float -2.4f
+      26: invokestatic  #139                // Method net/minecraft/world/item/SwordItem.createAttributes:(Lnet/minecraft/world/item/Tier;IF)Lnet/minecraft/world/item/component/ItemAttributeModifiers;
+      29: invokevirtual #143                // Method net/minecraft/world/item/Item$Properties.attributes:(Lnet/minecraft/world/item/component/ItemAttributeModifiers;)Lnet/minecraft/world/item/Item$Properties;
+      32: invokespecial #147                // Method net/minecraft/world/item/SwordItem."<init>":(Lnet/minecraft/world/item/Tier;Lnet/minecraft/world/item/Item$Properties;)V
+      35: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$6();
+    Code:
+       0: new           #322                // class net/farmingtales/ftboss/item/weapons/DoraWeaponItem
+       3: dup
+       4: iconst_1
+       5: invokespecial #324                // Method net/farmingtales/ftboss/item/weapons/DoraWeaponItem."<init>":(Z)V
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$5();
+    Code:
+       0: new           #322                // class net/farmingtales/ftboss/item/weapons/DoraWeaponItem
+       3: dup
+       4: iconst_0
+       5: invokespecial #324                // Method net/farmingtales/ftboss/item/weapons/DoraWeaponItem."<init>":(Z)V
+       8: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$4();
+    Code:
+       0: ldc_w         #327                // String music_disc_tide_fish_p2
+       3: getstatic     #113                // Field net/minecraft/world/item/Rarity.EPIC:Lnet/minecraft/world/item/Rarity;
+       6: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       9: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$3();
+    Code:
+       0: ldc_w         #329                // String music_disc_tide_fish
+       3: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+       6: invokestatic  #89                 // Method musicDisc:(Ljava/lang/String;Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item;
+       9: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$2();
+    Code:
+       0: new           #1                  // class net/minecraft/world/item/Item
+       3: dup
+       4: new           #3                  // class net/minecraft/world/item/Item$Properties
+       7: dup
+       8: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      11: getstatic     #83                 // Field net/minecraft/world/item/Rarity.RARE:Lnet/minecraft/world/item/Rarity;
+      14: invokevirtual #13                 // Method net/minecraft/world/item/Item$Properties.rarity:(Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item$Properties;
+      17: invokespecial #41                 // Method net/minecraft/world/item/Item."<init>":(Lnet/minecraft/world/item/Item$Properties;)V
+      20: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$1();
+    Code:
+       0: new           #331                // class net/farmingtales/ftboss/item/TideTridentItem
+       3: dup
+       4: new           #3                  // class net/minecraft/world/item/Item$Properties
+       7: dup
+       8: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      11: getstatic     #113                // Field net/minecraft/world/item/Rarity.EPIC:Lnet/minecraft/world/item/Rarity;
+      14: invokevirtual #13                 // Method net/minecraft/world/item/Item$Properties.rarity:(Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item$Properties;
+      17: invokevirtual #333                // Method net/minecraft/world/item/Item$Properties.fireResistant:()Lnet/minecraft/world/item/Item$Properties;
+      20: invokespecial #337                // Method net/farmingtales/ftboss/item/TideTridentItem."<init>":(Lnet/minecraft/world/item/Item$Properties;)V
+      23: areturn
+
+  private static net.minecraft.world.item.Item lambda$static$0();
+    Code:
+       0: new           #338                // class net/farmingtales/ftboss/item/TideBanquetItem
+       3: dup
+       4: new           #3                  // class net/minecraft/world/item/Item$Properties
+       7: dup
+       8: invokespecial #5                  // Method net/minecraft/world/item/Item$Properties."<init>":()V
+      11: iconst_1
+      12: invokevirtual #9                  // Method net/minecraft/world/item/Item$Properties.stacksTo:(I)Lnet/minecraft/world/item/Item$Properties;
+      15: getstatic     #113                // Field net/minecraft/world/item/Rarity.EPIC:Lnet/minecraft/world/item/Rarity;
+      18: invokevirtual #13                 // Method net/minecraft/world/item/Item$Properties.rarity:(Lnet/minecraft/world/item/Rarity;)Lnet/minecraft/world/item/Item$Properties;
+      21: invokespecial #340                // Method net/farmingtales/ftboss/item/TideBanquetItem."<init>":(Lnet/minecraft/world/item/Item$Properties;)V
+      24: areturn
+
+  static {};
+    Code:
+       0: getstatic     #341                // Field net/minecraft/core/registries/BuiltInRegistries.ITEM:Lnet/minecraft/core/DefaultedRegistry;
+       3: ldc           #23                 // String ftboss
+       5: invokestatic  #347                // Method net/neoforged/neoforge/registries/DeferredRegister.create:(Lnet/minecraft/core/Registry;Ljava/lang/String;)Lnet/neoforged/neoforge/registries/DeferredRegister;
+       8: putstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+      11: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+      14: ldc_w         #350                // String tide_banquet
+      17: invokedynamic #352,  0            // InvokeDynamic #1:get:()Ljava/util/function/Supplier;
+      22: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+      25: putstatic     #355                // Field TIDE_BANQUET:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      28: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+      31: ldc_w         #358                // String tide_trident
+      34: invokedynamic #360,  0            // InvokeDynamic #2:get:()Ljava/util/function/Supplier;
+      39: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+      42: putstatic     #361                // Field TIDE_TRIDENT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      45: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+      48: ldc_w         #364                // String tide_pearl
+      51: invokedynamic #366,  0            // InvokeDynamic #3:get:()Ljava/util/function/Supplier;
+      56: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+      59: putstatic     #367                // Field TIDE_PEARL:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      62: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+      65: ldc_w         #329                // String music_disc_tide_fish
+      68: invokedynamic #370,  0            // InvokeDynamic #4:get:()Ljava/util/function/Supplier;
+      73: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+      76: putstatic     #371                // Field MUSIC_DISC_TIDE_FISH:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      79: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+      82: ldc_w         #327                // String music_disc_tide_fish_p2
+      85: invokedynamic #374,  0            // InvokeDynamic #5:get:()Ljava/util/function/Supplier;
+      90: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+      93: putstatic     #375                // Field MUSIC_DISC_TIDE_FISH_P2:Lnet/neoforged/neoforge/registries/DeferredHolder;
+      96: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+      99: ldc_w         #378                // String dora_nova_launcher
+     102: invokedynamic #380,  0            // InvokeDynamic #6:get:()Ljava/util/function/Supplier;
+     107: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     110: putstatic     #381                // Field DORA_NOVA_LAUNCHER:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     113: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     116: ldc_w         #384                // String dora_pulse_gun
+     119: invokedynamic #386,  0            // InvokeDynamic #7:get:()Ljava/util/function/Supplier;
+     124: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     127: putstatic     #387                // Field DORA_PULSE_GUN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     130: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     133: ldc_w         #390                // String dora_lance
+     136: invokedynamic #392,  0            // InvokeDynamic #8:get:()Ljava/util/function/Supplier;
+     141: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     144: putstatic     #393                // Field DORA_LANCE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     147: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     150: ldc_w         #396                // String maque_blessing_feather
+     153: invokedynamic #398,  0            // InvokeDynamic #9:get:()Ljava/util/function/Supplier;
+     158: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     161: putstatic     #399                // Field MAQUE_BLESSING_FEATHER:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     164: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     167: ldc_w         #402                // String sugar_queen_crystal
+     170: invokedynamic #404,  0            // InvokeDynamic #10:get:()Ljava/util/function/Supplier;
+     175: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     178: putstatic     #405                // Field SUGAR_QUEEN_CRYSTAL:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     181: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     184: ldc_w         #408                // String manor_stop_token
+     187: invokedynamic #410,  0            // InvokeDynamic #11:get:()Ljava/util/function/Supplier;
+     192: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     195: putstatic     #411                // Field MANOR_STOP_TOKEN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     198: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     201: ldc_w         #414                // String meat_heart
+     204: invokedynamic #416,  0            // InvokeDynamic #12:get:()Ljava/util/function/Supplier;
+     209: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     212: putstatic     #417                // Field MEAT_HEART:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     215: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     218: ldc_w         #420                // String defect_core
+     221: invokedynamic #422,  0            // InvokeDynamic #13:get:()Ljava/util/function/Supplier;
+     226: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     229: putstatic     #423                // Field DEFECT_CORE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     232: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     235: ldc_w         #426                // String defect_claw
+     238: invokedynamic #428,  0            // InvokeDynamic #14:get:()Ljava/util/function/Supplier;
+     243: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     246: putstatic     #429                // Field DEFECT_CLAW:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     249: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     252: ldc_w         #432                // String tea_seed
+     255: invokedynamic #434,  0            // InvokeDynamic #15:get:()Ljava/util/function/Supplier;
+     260: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     263: putstatic     #435                // Field TEA_SEED:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     266: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     269: ldc_w         #438                // String thorn_crown
+     272: invokedynamic #440,  0            // InvokeDynamic #16:get:()Ljava/util/function/Supplier;
+     277: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     280: putstatic     #441                // Field THORN_CROWN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     283: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     286: ldc_w         #444                // String thorn_chestplate
+     289: invokedynamic #446,  0            // InvokeDynamic #17:get:()Ljava/util/function/Supplier;
+     294: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     297: putstatic     #447                // Field THORN_CHESTPLATE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     300: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     303: ldc_w         #450                // String thorn_leggings
+     306: invokedynamic #452,  0            // InvokeDynamic #18:get:()Ljava/util/function/Supplier;
+     311: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     314: putstatic     #453                // Field THORN_LEGGINGS:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     317: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     320: ldc_w         #456                // String thorn_boots
+     323: invokedynamic #458,  0            // InvokeDynamic #19:get:()Ljava/util/function/Supplier;
+     328: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     331: putstatic     #459                // Field THORN_BOOTS:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     334: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     337: ldc_w         #462                // String silver_key
+     340: invokedynamic #464,  0            // InvokeDynamic #20:get:()Ljava/util/function/Supplier;
+     345: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     348: putstatic     #465                // Field SILVER_KEY:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     351: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     354: ldc_w         #468                // String food_appraisal_monocle
+     357: invokedynamic #470,  0            // InvokeDynamic #21:get:()Ljava/util/function/Supplier;
+     362: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     365: putstatic     #471                // Field FOOD_APPRAISAL_MONOCLE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     368: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     371: ldc_w         #474                // String wine_charm
+     374: invokedynamic #476,  0            // InvokeDynamic #22:get:()Ljava/util/function/Supplier;
+     379: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     382: putstatic     #477                // Field WINE_CHARM:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     385: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     388: ldc_w         #480                // String rat_bait
+     391: invokedynamic #482,  0            // InvokeDynamic #23:get:()Ljava/util/function/Supplier;
+     396: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     399: putstatic     #483                // Field RAT_BAIT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     402: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     405: ldc_w         #486                // String wine_bottle_mace
+     408: invokedynamic #488,  0            // InvokeDynamic #24:get:()Ljava/util/function/Supplier;
+     413: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     416: putstatic     #489                // Field WINE_BOTTLE_MACE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     419: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     422: ldc_w         #492                // String cheese_wheel_mace
+     425: invokedynamic #494,  0            // InvokeDynamic #25:get:()Ljava/util/function/Supplier;
+     430: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     433: putstatic     #495                // Field CHEESE_WHEEL_MACE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     436: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     439: ldc_w         #498                // String compost_crown
+     442: invokedynamic #500,  0            // InvokeDynamic #26:get:()Ljava/util/function/Supplier;
+     447: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     450: putstatic     #501                // Field COMPOST_CROWN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     453: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     456: ldc_w         #504                // String lemoncat_skillet
+     459: invokedynamic #506,  0            // InvokeDynamic #27:get:()Ljava/util/function/Supplier;
+     464: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     467: putstatic     #507                // Field LEMONCAT_SKILLET:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     470: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     473: ldc_w         #510                // String lemoncat_spatula
+     476: invokedynamic #512,  0            // InvokeDynamic #28:get:()Ljava/util/function/Supplier;
+     481: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     484: putstatic     #513                // Field LEMONCAT_SPATULA:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     487: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     490: ldc_w         #516                // String compost_summon
+     493: invokedynamic #518,  0            // InvokeDynamic #29:get:()Ljava/util/function/Supplier;
+     498: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     501: putstatic     #519                // Field COMPOST_SUMMON:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     504: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     507: ldc_w         #522                // String black_cleaver
+     510: invokedynamic #524,  0            // InvokeDynamic #30:get:()Ljava/util/function/Supplier;
+     515: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     518: putstatic     #525                // Field BLACK_CLEAVER:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     521: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     524: ldc_w         #528                // String turkey_legs
+     527: invokedynamic #530,  0            // InvokeDynamic #31:get:()Ljava/util/function/Supplier;
+     532: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     535: putstatic     #531                // Field TURKEY_LEGS:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     538: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     541: ldc_w         #534                // String dandan_scythe
+     544: invokedynamic #536,  0            // InvokeDynamic #32:get:()Ljava/util/function/Supplier;
+     549: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     552: putstatic     #537                // Field DANDAN_SCYTHE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     555: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     558: ldc_w         #540                // String qingyi_confluence_trident
+     561: invokedynamic #542,  0            // InvokeDynamic #33:get:()Ljava/util/function/Supplier;
+     566: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     569: putstatic     #543                // Field QINGYI_CONFLUENCE_TRIDENT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     572: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     575: ldc_w         #546                // String trident_stormseeker
+     578: invokedynamic #548,  0            // InvokeDynamic #34:get:()Ljava/util/function/Supplier;
+     583: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     586: putstatic     #549                // Field TRIDENT_STORMSEEKER:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     589: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     592: ldc_w         #552                // String trident_the_desecrator
+     595: invokedynamic #554,  0            // InvokeDynamic #35:get:()Ljava/util/function/Supplier;
+     600: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     603: putstatic     #555                // Field TRIDENT_THE_DESECRATOR:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     606: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     609: ldc_w         #558                // String trident_echo_of_the_deep
+     612: invokedynamic #560,  0            // InvokeDynamic #36:get:()Ljava/util/function/Supplier;
+     617: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     620: putstatic     #561                // Field TRIDENT_ECHO_OF_THE_DEEP:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     623: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     626: ldc_w         #564                // String trident_stellaris
+     629: invokedynamic #566,  0            // InvokeDynamic #37:get:()Ljava/util/function/Supplier;
+     634: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     637: putstatic     #567                // Field TRIDENT_STELLARIS:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     640: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     643: ldc_w         #570                // String sanguine_bond
+     646: invokedynamic #572,  0            // InvokeDynamic #38:get:()Ljava/util/function/Supplier;
+     651: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     654: putstatic     #573                // Field SANGUINE_BOND:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     657: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     660: ldc           #248                // String slumbering_trident
+     662: invokedynamic #576,  0            // InvokeDynamic #39:get:()Ljava/util/function/Supplier;
+     667: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     670: putstatic     #577                // Field SLUMBERING_TRIDENT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     673: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     676: ldc           #243                // String frenzied_trident
+     678: invokedynamic #580,  0            // InvokeDynamic #40:get:()Ljava/util/function/Supplier;
+     683: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     686: putstatic     #581                // Field FRENZIED_TRIDENT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     689: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     692: ldc           #238                // String ancient_trident
+     694: invokedynamic #584,  0            // InvokeDynamic #41:get:()Ljava/util/function/Supplier;
+     699: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     702: putstatic     #585                // Field ANCIENT_TRIDENT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     705: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     708: ldc           #231                // String oceanic_trident
+     710: invokedynamic #588,  0            // InvokeDynamic #42:get:()Ljava/util/function/Supplier;
+     715: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     718: putstatic     #589                // Field OCEANIC_TRIDENT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     721: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     724: ldc           #224                // String holy_trident
+     726: invokedynamic #592,  0            // InvokeDynamic #43:get:()Ljava/util/function/Supplier;
+     731: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     734: putstatic     #593                // Field HOLY_TRIDENT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     737: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     740: ldc           #207                // String farshot_trident
+     742: invokedynamic #596,  0            // InvokeDynamic #44:get:()Ljava/util/function/Supplier;
+     747: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     750: putstatic     #597                // Field FARSHOT_TRIDENT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     753: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     756: ldc           #200                // String wooden_spear
+     758: invokedynamic #600,  0            // InvokeDynamic #45:get:()Ljava/util/function/Supplier;
+     763: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     766: putstatic     #601                // Field WOODEN_SPEAR:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     769: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     772: ldc           #195                // String stone_spear
+     774: invokedynamic #604,  0            // InvokeDynamic #46:get:()Ljava/util/function/Supplier;
+     779: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     782: putstatic     #605                // Field STONE_SPEAR:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     785: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     788: ldc           #190                // String iron_spear
+     790: invokedynamic #608,  0            // InvokeDynamic #47:get:()Ljava/util/function/Supplier;
+     795: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     798: putstatic     #609                // Field IRON_SPEAR:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     801: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     804: ldc           #185                // String golden_spear
+     806: invokedynamic #612,  0            // InvokeDynamic #48:get:()Ljava/util/function/Supplier;
+     811: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     814: putstatic     #613                // Field GOLDEN_SPEAR:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     817: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     820: ldc           #180                // String diamond_spear
+     822: invokedynamic #616,  0            // InvokeDynamic #49:get:()Ljava/util/function/Supplier;
+     827: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     830: putstatic     #617                // Field DIAMOND_SPEAR:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     833: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     836: ldc           #175                // String netherite_spear
+     838: invokedynamic #620,  0            // InvokeDynamic #50:get:()Ljava/util/function/Supplier;
+     843: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     846: putstatic     #621                // Field NETHERITE_SPEAR:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     849: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     852: ldc_w         #624                // String shadow_sword
+     855: invokedynamic #626,  0            // InvokeDynamic #51:get:()Ljava/util/function/Supplier;
+     860: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     863: putstatic     #627                // Field SHADOW_SWORD:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     866: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     869: ldc_w         #630                // String dog_beating_stick
+     872: invokedynamic #632,  0            // InvokeDynamic #52:get:()Ljava/util/function/Supplier;
+     877: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     880: putstatic     #633                // Field DOG_BEATING_STICK:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     883: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     886: ldc_w         #636                // String benger_whistle
+     889: invokedynamic #638,  0            // InvokeDynamic #53:get:()Ljava/util/function/Supplier;
+     894: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     897: putstatic     #639                // Field BENGER_WHISTLE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     900: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     903: ldc_w         #642                // String benger_spawn_egg
+     906: invokedynamic #644,  0            // InvokeDynamic #54:get:()Ljava/util/function/Supplier;
+     911: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     914: putstatic     #645                // Field BENGER_SPAWN_EGG:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     917: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     920: ldc_w         #648                // String puffer_bat
+     923: invokedynamic #650,  0            // InvokeDynamic #55:get:()Ljava/util/function/Supplier;
+     928: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     931: putstatic     #651                // Field PUFFER_BAT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     934: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     937: ldc_w         #654                // String forbidden_apple
+     940: invokedynamic #656,  0            // InvokeDynamic #56:get:()Ljava/util/function/Supplier;
+     945: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     948: putstatic     #657                // Field FORBIDDEN_APPLE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     951: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     954: ldc_w         #660                // String apple_stem
+     957: invokedynamic #662,  0            // InvokeDynamic #57:get:()Ljava/util/function/Supplier;
+     962: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     965: putstatic     #663                // Field APPLE_STEM:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     968: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     971: ldc_w         #666                // String candy_cane
+     974: invokedynamic #668,  0            // InvokeDynamic #58:get:()Ljava/util/function/Supplier;
+     979: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     982: putstatic     #669                // Field CANDY_CANE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+     985: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+     988: ldc_w         #672                // String statue_youzi
+     991: invokedynamic #674,  0            // InvokeDynamic #59:get:()Ljava/util/function/Supplier;
+     996: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+     999: putstatic     #675                // Field STATUE_YOUZI:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1002: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1005: ldc_w         #678                // String wenxuanlan_flywheel
+    1008: invokedynamic #680,  0            // InvokeDynamic #60:get:()Ljava/util/function/Supplier;
+    1013: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1016: putstatic     #681                // Field WENXUANLAN_FLYWHEEL:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1019: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1022: ldc_w         #684                // String blooming_thorns
+    1025: invokedynamic #686,  0            // InvokeDynamic #61:get:()Ljava/util/function/Supplier;
+    1030: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1033: putstatic     #687                // Field BLOOMING_THORNS:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1036: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1039: ldc_w         #690                // String barrel_crossbow
+    1042: invokedynamic #692,  0            // InvokeDynamic #62:get:()Ljava/util/function/Supplier;
+    1047: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1050: putstatic     #693                // Field BARREL_CROSSBOW:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1053: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1056: ldc_w         #696                // String barrel_crossbow_ready
+    1059: invokedynamic #698,  0            // InvokeDynamic #63:get:()Ljava/util/function/Supplier;
+    1064: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1067: putstatic     #699                // Field BARREL_CROSSBOW_READY:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1070: ldc_w         #702                // String easter_egg_youzi
+    1073: iconst_0
+    1074: ldc_w         #704                // int 15254858
+    1077: ldc_w         #705                // int 7248718
+    1080: invokestatic  #706                // Method easterEgg:(Ljava/lang/String;III)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1083: putstatic     #710                // Field EASTER_EGG_YOUZI:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1086: ldc_w         #713                // String easter_egg_dandan
+    1089: iconst_1
+    1090: ldc_w         #715                // int 15919576
+    1093: ldc_w         #716                // int 14721852
+    1096: invokestatic  #706                // Method easterEgg:(Ljava/lang/String;III)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1099: putstatic     #717                // Field EASTER_EGG_DANDAN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1102: ldc_w         #720                // String easter_egg_duola
+    1105: iconst_2
+    1106: ldc_w         #722                // int 15232936
+    1109: ldc_w         #723                // int 16773299
+    1112: invokestatic  #706                // Method easterEgg:(Ljava/lang/String;III)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1115: putstatic     #724                // Field EASTER_EGG_DUOLA:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1118: ldc_w         #727                // String easter_egg_gongdi
+    1121: iconst_3
+    1122: ldc_w         #729                // int 9182236
+    1125: ldc_w         #730                // int 2829099
+    1128: invokestatic  #706                // Method easterEgg:(Ljava/lang/String;III)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1131: putstatic     #731                // Field EASTER_EGG_GONGDI:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1134: ldc_w         #734                // String easter_egg_ningmengmao
+    1137: iconst_4
+    1138: ldc_w         #736                // int 16245323
+    1141: ldc_w         #737                // int 4868682
+    1144: invokestatic  #706                // Method easterEgg:(Ljava/lang/String;III)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1147: putstatic     #738                // Field EASTER_EGG_NINGMENGMAO:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1150: ldc_w         #741                // String easter_egg_qingyi
+    1153: iconst_5
+    1154: ldc_w         #743                // int 3046794
+    1157: ldc_w         #744                // int 12577000
+    1160: invokestatic  #706                // Method easterEgg:(Ljava/lang/String;III)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1163: putstatic     #745                // Field EASTER_EGG_QINGYI:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1166: ldc_w         #748                // String easter_egg_wenxuanlan
+    1169: bipush        6
+    1171: ldc_w         #750                // int 2837659
+    1174: ldc_w         #751                // int 10467048
+    1177: invokestatic  #706                // Method easterEgg:(Ljava/lang/String;III)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1180: putstatic     #752                // Field EASTER_EGG_WENXUANLAN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1183: ldc_w         #755                // String easter_egg_zheergen
+    1186: bipush        7
+    1188: ldc_w         #757                // int 5143098
+    1191: ldc_w         #758                // int 14275232
+    1194: invokestatic  #706                // Method easterEgg:(Ljava/lang/String;III)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1197: putstatic     #759                // Field EASTER_EGG_ZHEERGEN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1200: ldc_w         #762                // String easter_egg_zicai
+    1203: bipush        8
+    1205: ldc_w         #764                // int 6958702
+    1208: ldc_w         #765                // int 12733290
+    1211: invokestatic  #706                // Method easterEgg:(Ljava/lang/String;III)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1214: putstatic     #766                // Field EASTER_EGG_ZICAI:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1217: ldc_w         #769                // String easter_egg_xueli
+    1220: bipush        10
+    1222: ldc_w         #771                // int 12575733
+    1225: ldc_w         #772                // int 3037816
+    1228: invokestatic  #706                // Method easterEgg:(Ljava/lang/String;III)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1231: putstatic     #773                // Field EASTER_EGG_XUELI:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1234: ldc_w         #776                // String easter_egg_qizai
+    1237: bipush        11
+    1239: ldc_w         #778                // int 16774134
+    1242: ldc_w         #779                // int 15565486
+    1245: invokestatic  #706                // Method easterEgg:(Ljava/lang/String;III)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1248: putstatic     #780                // Field EASTER_EGG_QIZAI:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1251: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1254: ldc_w         #783                // String qizai_prayer_staff
+    1257: invokedynamic #785,  0            // InvokeDynamic #64:get:()Ljava/util/function/Supplier;
+    1262: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1265: putstatic     #786                // Field QIZAI_PRAYER_STAFF:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1268: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1271: ldc_w         #789                // String gourmet_blank_blade
+    1274: invokedynamic #791,  0            // InvokeDynamic #65:get:()Ljava/util/function/Supplier;
+    1279: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1282: putstatic     #792                // Field GOURMET_BLANK_BLADE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1285: bipush        11
+    1287: anewarray     #795                // class net/neoforged/neoforge/registries/DeferredHolder
+    1290: dup
+    1291: iconst_0
+    1292: getstatic     #710                // Field EASTER_EGG_YOUZI:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1295: aastore
+    1296: dup
+    1297: iconst_1
+    1298: getstatic     #717                // Field EASTER_EGG_DANDAN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1301: aastore
+    1302: dup
+    1303: iconst_2
+    1304: getstatic     #724                // Field EASTER_EGG_DUOLA:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1307: aastore
+    1308: dup
+    1309: iconst_3
+    1310: getstatic     #731                // Field EASTER_EGG_GONGDI:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1313: aastore
+    1314: dup
+    1315: iconst_4
+    1316: getstatic     #738                // Field EASTER_EGG_NINGMENGMAO:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1319: aastore
+    1320: dup
+    1321: iconst_5
+    1322: getstatic     #745                // Field EASTER_EGG_QINGYI:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1325: aastore
+    1326: dup
+    1327: bipush        6
+    1329: getstatic     #752                // Field EASTER_EGG_WENXUANLAN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1332: aastore
+    1333: dup
+    1334: bipush        7
+    1336: getstatic     #759                // Field EASTER_EGG_ZHEERGEN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1339: aastore
+    1340: dup
+    1341: bipush        8
+    1343: getstatic     #766                // Field EASTER_EGG_ZICAI:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1346: aastore
+    1347: dup
+    1348: bipush        9
+    1350: getstatic     #773                // Field EASTER_EGG_XUELI:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1353: aastore
+    1354: dup
+    1355: bipush        10
+    1357: getstatic     #780                // Field EASTER_EGG_QIZAI:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1360: aastore
+    1361: invokestatic  #797                // InterfaceMethod java/util/List.of:([Ljava/lang/Object;)Ljava/util/List;
+    1364: putstatic     #803                // Field EASTER_EGGS:Ljava/util/List;
+    1367: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1370: ldc           #122                // String music_disc_manor_cue
+    1372: invokedynamic #807,  0            // InvokeDynamic #66:get:()Ljava/util/function/Supplier;
+    1377: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1380: putstatic     #808                // Field MUSIC_DISC_MANOR_CUE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1383: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1386: ldc           #120                // String music_disc_manor_battle
+    1388: invokedynamic #811,  0            // InvokeDynamic #67:get:()Ljava/util/function/Supplier;
+    1393: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1396: putstatic     #812                // Field MUSIC_DISC_MANOR_BATTLE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1399: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1402: ldc           #118                // String music_disc_manor_dual
+    1404: invokedynamic #815,  0            // InvokeDynamic #68:get:()Ljava/util/function/Supplier;
+    1409: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1412: putstatic     #816                // Field MUSIC_DISC_MANOR_DUAL:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1415: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1418: ldc           #116                // String music_disc_manor_guignol
+    1420: invokedynamic #819,  0            // InvokeDynamic #69:get:()Ljava/util/function/Supplier;
+    1425: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1428: putstatic     #820                // Field MUSIC_DISC_MANOR_GUIGNOL:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1431: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1434: ldc           #111                // String music_disc_benger
+    1436: invokedynamic #823,  0            // InvokeDynamic #70:get:()Ljava/util/function/Supplier;
+    1441: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1444: putstatic     #824                // Field MUSIC_DISC_BENGER:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1447: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1450: ldc           #109                // String music_disc_apple
+    1452: invokedynamic #827,  0            // InvokeDynamic #71:get:()Ljava/util/function/Supplier;
+    1457: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1460: putstatic     #828                // Field MUSIC_DISC_APPLE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1463: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1466: ldc           #107                // String music_disc_apple_p2
+    1468: invokedynamic #831,  0            // InvokeDynamic #72:get:()Ljava/util/function/Supplier;
+    1473: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1476: putstatic     #832                // Field MUSIC_DISC_APPLE_P2:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1479: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1482: ldc           #105                // String music_disc_gingerbread
+    1484: invokedynamic #835,  0            // InvokeDynamic #73:get:()Ljava/util/function/Supplier;
+    1489: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1492: putstatic     #836                // Field MUSIC_DISC_GINGERBREAD:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1495: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1498: ldc           #103                // String music_disc_butcher
+    1500: invokedynamic #839,  0            // InvokeDynamic #74:get:()Ljava/util/function/Supplier;
+    1505: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1508: putstatic     #840                // Field MUSIC_DISC_BUTCHER:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1511: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1514: ldc           #101                // String music_disc_saya
+    1516: invokedynamic #843,  0            // InvokeDynamic #75:get:()Ljava/util/function/Supplier;
+    1521: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1524: putstatic     #844                // Field MUSIC_DISC_SAYA:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1527: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1530: ldc           #99                 // String music_disc_tavern
+    1532: invokedynamic #847,  0            // InvokeDynamic #76:get:()Ljava/util/function/Supplier;
+    1537: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1540: putstatic     #848                // Field MUSIC_DISC_TAVERN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1543: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1546: ldc           #97                 // String music_disc_rat
+    1548: invokedynamic #851,  0            // InvokeDynamic #77:get:()Ljava/util/function/Supplier;
+    1553: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1556: putstatic     #852                // Field MUSIC_DISC_RAT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1559: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1562: ldc           #95                 // String music_disc_defect
+    1564: invokedynamic #855,  0            // InvokeDynamic #78:get:()Ljava/util/function/Supplier;
+    1569: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1572: putstatic     #856                // Field MUSIC_DISC_DEFECT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1575: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1578: ldc           #93                 // String music_disc_compost
+    1580: invokedynamic #859,  0            // InvokeDynamic #79:get:()Ljava/util/function/Supplier;
+    1585: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1588: putstatic     #860                // Field MUSIC_DISC_COMPOST:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1591: getstatic     #44                 // Field ITEMS:Lnet/neoforged/neoforge/registries/DeferredRegister;
+    1594: ldc           #81                 // String music_disc_compost_p2
+    1596: invokedynamic #863,  0            // InvokeDynamic #80:get:()Ljava/util/function/Supplier;
+    1601: invokevirtual #54                 // Method net/neoforged/neoforge/registries/DeferredRegister.register:(Ljava/lang/String;Ljava/util/function/Supplier;)Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1604: putstatic     #864                // Field MUSIC_DISC_COMPOST_P2:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1607: bipush        12
+    1609: anewarray     #795                // class net/neoforged/neoforge/registries/DeferredHolder
+    1612: dup
+    1613: iconst_0
+    1614: getstatic     #828                // Field MUSIC_DISC_APPLE:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1617: aastore
+    1618: dup
+    1619: iconst_1
+    1620: getstatic     #832                // Field MUSIC_DISC_APPLE_P2:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1623: aastore
+    1624: dup
+    1625: iconst_2
+    1626: getstatic     #836                // Field MUSIC_DISC_GINGERBREAD:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1629: aastore
+    1630: dup
+    1631: iconst_3
+    1632: getstatic     #840                // Field MUSIC_DISC_BUTCHER:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1635: aastore
+    1636: dup
+    1637: iconst_4
+    1638: getstatic     #844                // Field MUSIC_DISC_SAYA:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1641: aastore
+    1642: dup
+    1643: iconst_5
+    1644: getstatic     #848                // Field MUSIC_DISC_TAVERN:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1647: aastore
+    1648: dup
+    1649: bipush        6
+    1651: getstatic     #852                // Field MUSIC_DISC_RAT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1654: aastore
+    1655: dup
+    1656: bipush        7
+    1658: getstatic     #856                // Field MUSIC_DISC_DEFECT:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1661: aastore
+    1662: dup
+    1663: bipush        8
+    1665: getstatic     #860                // Field MUSIC_DISC_COMPOST:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1668: aastore
+    1669: dup
+    1670: bipush        9
+    1672: getstatic     #864                // Field MUSIC_DISC_COMPOST_P2:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1675: aastore
+    1676: dup
+    1677: bipush        10
+    1679: getstatic     #371                // Field MUSIC_DISC_TIDE_FISH:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1682: aastore
+    1683: dup
+    1684: bipush        11
+    1686: getstatic     #375                // Field MUSIC_DISC_TIDE_FISH_P2:Lnet/neoforged/neoforge/registries/DeferredHolder;
+    1689: aastore
+    1690: invokestatic  #797                // InterfaceMethod java/util/List.of:([Ljava/lang/Object;)Ljava/util/List;
+    1693: putstatic     #867                // Field FOOD_MUSIC_DISCS:Ljava/util/List;
+    1696: return
+}

@@ -1,0 +1,93 @@
+{
+  "candidate": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-sparrow-original-multiplayer-v1-20261114\\ftboss-boss-core-1.21.1-stage35-sparrow-original-multiplayer-NOT-INSTALLABLE.jar",
+  "candidateJarSha256": "9d713622cc8c8aa3d2e5b5fa340053a7eb45f8128247346c3152a14c975b886e",
+  "productChanged": false,
+  "nativeReport": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\sparrow-standalone-attacker-native-v4-3bec13f3.json",
+  "loadedReceipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\sparrow-standalone-attacker-loaded-audit-v4-20261114\\receipt.json",
+  "nativeCases": 7,
+  "nativeChecks": 7227,
+  "actualOriginalAttackerEventAccepted": true,
+  "actualStandaloneDedupTimestampAndGuardsAccepted": true,
+  "actualManagedExclusionAccepted": true,
+  "naturalOriginalRetentionAges": [
+    1200,
+    1201
+  ],
+  "nativePeriodicPrune": {
+    "actualRetiredFight": "1938a16d-e2d9-4e81-a2a7-afd0aaf927f5",
+    "expectedBoundary": 2400,
+    "observedAt": 2401,
+    "pruneOrTickCallbackInvokedByObserver": false,
+    "recordAbsent": true
+  },
+  "nativePeriodicPruneAndSavedRetirementAccepted": true,
+  "actualRequiredHelperBytesExactlyCandidate": 6,
+  "all342ActualBossGraphsEqualPriorProvenComposition": true,
+  "publicVanillaConsoleSummonFixture": true,
+  "actualStandaloneDimension": "minecraft:the_nether",
+  "originalOverworldOnlyAdoptionGuardPreserved": true,
+  "originalRegisteredManagedEggControl": true,
+  "ordinaryNativeZeroEmitsZeroValuedPost": true,
+  "managedZeroDoesNotEmitPost": true,
+  "fixture": {
+    "cappedHits": 263,
+    "positiveTargetPreModifier": 16.0,
+    "nativePreDamageCap": 0.01,
+    "survivabilityAcceptanceClaimed": false,
+    "creative": false
+  },
+  "noPrivateGameplayManualTicksOrIdentityStateWrites": true,
+  "failedAttemptsPreserved": [
+    {
+      "report": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\sparrow-standalone-attacker-native-v1-e167edec.json",
+      "completedModes": 1,
+      "failure": "java.lang.AssertionError: Original native subscriber records exactly actual player and deduplicates repeats [standalone-positive-first]",
+      "normalSaveExitZeroReapedAndInputsUnchanged": true
+    },
+    {
+      "report": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\sparrow-standalone-attacker-native-v2-b61b4678.json",
+      "completedModes": 0,
+      "failure": "java.lang.AssertionError: Actual registered vanilla summon command creates exactly one Boss without NBT overrides [setup]",
+      "normalSaveExitZeroReapedAndInputsUnchanged": true
+    },
+    {
+      "report": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\sparrow-standalone-attacker-native-v3-4389e67a.json",
+      "completedModes": 0,
+      "failure": "java.lang.AssertionError: Canceled or native zero causes no target health write [standalone-pre-zero-first]",
+      "normalSaveExitZeroReapedAndInputsUnchanged": true
+    }
+  ],
+  "failedAttemptExplanations": [
+    "V1 vanilla command default Boss naturally auto-adopted in Overworld before attack; observer wrong standalone assumption, product correct",
+    "V2 same-tick Nether entity lookup preceded natural chunk admission; not product failure",
+    "V3 ordinary native zero damage still emits zero-valued Post; observer incorrectly assumed managed path suppression; product retained"
+  ],
+  "closedRuntimeDedupReceipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\sparrow-standalone-attacker-closed-runtime-dedup-v1-20261114\\receipt.json",
+  "closedRuntimeJarPathsPreserved": 112,
+  "materialIntegrationGapReceipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\cumulative-boss-material-boundary-gap-20261114.json",
+  "materialGapDisassemblyEvidence": [
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\cumulative-boss-material-BossRelicDrops-20261114.txt",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\cumulative-boss-material-OptionalWeaponModule-Service-20261114.txt",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\cumulative-boss-material-FTBossItems-20261114.txt",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\cumulative-boss-material-FTCreativeTabs-20261114.txt"
+  ],
+  "formalExpectedHashesVerified": {
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_NeoForge 机械动力/mods/qys-bosses-1.21.1.jar": "6563f431dca1871eb7870653b74550ba2f5c0f66c104eea90ce58a99ca30f7c0",
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_ForgeⅡ v1.5.2/mods/qys-bosses.jar": "7c88b9e51ccdc6616cd2f70d6fa3c195772fc3f083f848085053d40cfe2015a3"
+  },
+  "modelOrMusicUploaded": false,
+  "allExcludedResourcePayloadsRemainLocalOnly": true,
+  "authenticated": false,
+  "actualMultiplayerGameplayAccepted": false,
+  "nativeWorldRestartAccepted": false,
+  "completeFightOrSurvivabilityClaimed": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false,
+  "remaining": [
+    "Integrate frozen Stage03 independent Boss materials into cumulative candidate: three classes, initialization/tab and original reward callback; keep weapon service paused",
+    "Authenticated real multiple players, scaled quotas/additional plans/repeat appearances and original full Boss combat/rewards/death/cancel",
+    "World restart/dimensions and original action/visual fidelity; Curios new JVM remains attended and not auto-retried",
+    "Final cumulative installable artifact, explicit formal-write authorization and verified deployment/rollback; source-only remote archive; weapons and Session paused"
+  ]
+}
