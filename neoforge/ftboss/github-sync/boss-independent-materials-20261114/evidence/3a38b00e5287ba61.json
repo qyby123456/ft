@@ -1,0 +1,372 @@
+{
+  "attempt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab",
+  "probe": {
+    "actualOriginalMaterialRegistryAndCreativeTabAccepted": true,
+    "failure": "java.lang.AssertionError: Real original death eventually settles reward [BUTCHER]\r\n\tat TRANSFORMER/ftboss_clientfxprobe@1.0/ftboss.clientfxprobe.BossIndependentMaterialsNativeV1.require(BossIndependentMaterialsNativeV1.java:67)\r\n\tat TRANSFORMER/ftboss_clientfxprobe@1.0/ftboss.clientfxprobe.BossIndependentMaterialsNativeV1.serverTick(BossIndependentMaterialsNativeV1.java:87)\r\n\tat MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27)\r\n\tat MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360)\r\n\tat MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328)\r\n\tat TRANSFORMER/neoforge@21.1.233/net.neoforged.neoforge.event.EventHooks.fireServerTickPost(EventHooks.java:1020)\r\n\tat TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:943)\r\n\tat TRANSFORMER/minecraft@1.21.1/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:110)\r\n\tat TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707)\r\n\tat TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1583)\r\n",
+    "checks": 8650,
+    "failures": 1,
+    "completedKinds": 1,
+    "registryChecks": [
+      {
+        "id": "ftboss:frost_material",
+        "codecRoundtrip": true,
+        "kind": "FROST",
+        "count": 1,
+        "tooltipLines": 3
+      },
+      {
+        "id": "ftboss:butcher_material",
+        "codecRoundtrip": true,
+        "kind": "BUTCHER",
+        "count": 1,
+        "tooltipLines": 3
+      },
+      {
+        "id": "ftboss:tea_material",
+        "codecRoundtrip": true,
+        "kind": "TEA",
+        "count": 1,
+        "tooltipLines": 3
+      },
+      {
+        "id": "ftboss:wine_material",
+        "codecRoundtrip": true,
+        "kind": "WINE",
+        "count": 1,
+        "tooltipLines": 3
+      },
+      {
+        "id": "ftboss:cheese_material",
+        "codecRoundtrip": true,
+        "kind": "RAT",
+        "count": 1,
+        "tooltipLines": 3
+      },
+      {
+        "id": "ftboss:capacitor_material",
+        "codecRoundtrip": true,
+        "kind": "DEFECT",
+        "count": 1,
+        "tooltipLines": 3
+      },
+      {
+        "id": "ftboss:spore_material",
+        "codecRoundtrip": true,
+        "kind": "COMPOST",
+        "count": 1,
+        "tooltipLines": 3
+      },
+      {
+        "id": "ftboss:apple_material",
+        "codecRoundtrip": true,
+        "kind": "APPLE",
+        "count": 1,
+        "tooltipLines": 3
+      },
+      {
+        "id": "ftboss:shepherd_material",
+        "codecRoundtrip": true,
+        "kind": "BENGER",
+        "count": 1,
+        "tooltipLines": 3
+      },
+      {
+        "id": "ftboss:tide_material",
+        "codecRoundtrip": true,
+        "kind": "TIDE",
+        "count": 1,
+        "tooltipLines": 3
+      }
+    ],
+    "kills": [
+      {
+        "material": "ftboss:frost_material",
+        "kind": "FROST",
+        "actualItemEntities": 1,
+        "state": {
+          "removed": true,
+          "time": 232,
+          "alive": false,
+          "absorption": 0.0,
+          "rewarded": true,
+          "type": "ftboss:sugar_queen",
+          "health": 0.0,
+          "maxHealth": 360.0,
+          "entity": "545c80f1-8afd-407d-8802-c5df7340b696"
+        },
+        "count": 1,
+        "positiveNativeHits": 2,
+        "actualLivingDeathEvents": 1
+      }
+    ],
+    "attacks": [
+      {
+        "kind": "FROST",
+        "before": {
+          "removed": false,
+          "time": 151,
+          "alive": true,
+          "absorption": 0.0,
+          "rewarded": false,
+          "type": "ftboss:sugar_queen",
+          "health": 360.0,
+          "maxHealth": 360.0,
+          "entity": "545c80f1-8afd-407d-8802-c5df7340b696"
+        },
+        "after": {
+          "removed": false,
+          "time": 151,
+          "alive": true,
+          "absorption": 0.0,
+          "rewarded": false,
+          "type": "ftboss:sugar_queen",
+          "health": 110.0,
+          "maxHealth": 360.0,
+          "entity": "545c80f1-8afd-407d-8802-c5df7340b696"
+        },
+        "preEvents": 1,
+        "postEvents": 1,
+        "actualAttackEvents": 1
+      },
+      {
+        "kind": "FROST",
+        "before": {
+          "removed": false,
+          "time": 191,
+          "alive": true,
+          "absorption": 0.0,
+          "rewarded": false,
+          "type": "ftboss:sugar_queen",
+          "health": 110.0,
+          "maxHealth": 360.0,
+          "entity": "545c80f1-8afd-407d-8802-c5df7340b696"
+        },
+        "after": {
+          "removed": false,
+          "time": 191,
+          "alive": false,
+          "absorption": 0.0,
+          "rewarded": true,
+          "type": "ftboss:sugar_queen",
+          "health": 0.0,
+          "maxHealth": 360.0,
+          "entity": "545c80f1-8afd-407d-8802-c5df7340b696"
+        },
+        "preEvents": 1,
+        "postEvents": 1,
+        "actualAttackEvents": 1
+      }
+    ],
+    "events": [
+      {
+        "kind": "FROST",
+        "command": "summon ftboss:sugar_queen 2.5 -59.9 0.5",
+        "state": {
+          "removed": false,
+          "time": 111,
+          "alive": true,
+          "absorption": 0.0,
+          "rewarded": false,
+          "type": "ftboss:sugar_queen",
+          "health": 360.0,
+          "maxHealth": 360.0,
+          "entity": "545c80f1-8afd-407d-8802-c5df7340b696"
+        },
+        "phase": "actualBossIngress"
+      },
+      {
+        "phase": "nativePost",
+        "time": 151,
+        "kind": "FROST",
+        "entity": "545c80f1-8afd-407d-8802-c5df7340b696",
+        "amount": 250.0
+      },
+      {
+        "phase": "nativePost",
+        "time": 191,
+        "kind": "FROST",
+        "entity": "545c80f1-8afd-407d-8802-c5df7340b696",
+        "amount": 250.0
+      },
+      {
+        "phase": "actualMaterialItemEntityJoin",
+        "kind": "FROST",
+        "count": 1,
+        "entity": "f08f09fa-d8a8-4fee-9107-007b72fed53c",
+        "stack": [
+          "net.farmingtales.ftboss.skill.BossRelicDrops.lambda$scriptedDeath$0",
+          "net.farmingtales.ftboss.item.BossMaterialDrops.reward",
+          "net.farmingtales.ftboss.skill.BossRelicDrops.reward",
+          "net.farmingtales.ftboss.skill.BossRelicDrops.scriptedDeath",
+          "net.farmingtales.ftboss.entity.SugarQueenEntity.hurt"
+        ],
+        "time": 191
+      },
+      {
+        "realPlayerSource": true,
+        "phase": "actualLivingDeath",
+        "kind": "FROST",
+        "canceled": false,
+        "realPlayerKillCredit": true,
+        "state": {
+          "removed": false,
+          "time": 191,
+          "alive": false,
+          "absorption": 0.0,
+          "rewarded": true,
+          "type": "ftboss:sugar_queen",
+          "health": 0.0,
+          "maxHealth": 360.0,
+          "entity": "545c80f1-8afd-407d-8802-c5df7340b696"
+        }
+      },
+      {
+        "canceled": false,
+        "phase": "actualLivingDrops",
+        "kind": "FROST",
+        "drops": [],
+        "realPlayerSource": true
+      },
+      {
+        "kind": "BUTCHER",
+        "command": "summon ftboss:meat_mountain 2.5 -59.9 0.5",
+        "state": {
+          "removed": true,
+          "time": 233,
+          "alive": false,
+          "absorption": 0.0,
+          "rewarded": false,
+          "type": "ftboss:meat_mountain",
+          "health": 380.0,
+          "maxHealth": 380.0,
+          "entity": "54dcc127-b0b5-40e9-bbba-55777497f160"
+        },
+        "phase": "actualBossIngress"
+      }
+    ],
+    "naturalServerTicks": 1723,
+    "naturalPrimaryEntityTicks": 100,
+    "playerFixtureProtection": {
+      "nativePreDamageCap": 0.01,
+      "targetPreDamageFixture": 250.0,
+      "cappedHits": 0,
+      "actualRawAttackAttribute": 128.0,
+      "survivabilityAcceptanceClaimed": false
+    },
+    "directEntityCreationByObserver": false,
+    "publicVanillaConsoleSummonFixture": true,
+    "directBossOrHelperHealthWritesByObserver": false,
+    "bossRewardIdentityOrEligibilityFieldsWrittenByObserver": false,
+    "privateGameplayOrRewardCallbacksInvoked": false,
+    "manualEntityTicksInvoked": false,
+    "worldTimeOverridden": false,
+    "fakePlayerUsed": false,
+    "actualClientAndIntegratedServer": true,
+    "authenticated": false,
+    "authenticatedKillAccepted": false,
+    "actualMultiplayerGameplayAccepted": false,
+    "nativeWorldRestartAccepted": false,
+    "productChanged": true,
+    "fullBossMigrationComplete": false,
+    "installable": false,
+    "deployed": false
+  },
+  "terminal": {
+    "exitCode": 0,
+    "clientProcessReaped": true,
+    "integratedWorldCompleteSave": true,
+    "inputHashesUnchanged": true,
+    "missingInputs": [],
+    "finalDefinedClassesCaptured": true,
+    "observerRequestedNormalStop": true
+  },
+  "inputHashes": {
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tools\\run_boss_independent_materials_native_v1.py": "edf524630327f81687b912460e0538c4461fa22d3d6a2eb24466056ddc7c7127",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\BossIndependentMaterialsNativeV1.java": "7313d4df824deec8fd8cd3bbf2a334612a0f5e68bb7de295e21b56e3f34a2302",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\LoadedBossClassCaptureV8.java": "ec5e5852be7ec160f9ae105e3f98443a89da16a8b50d4aa764af9f8d34cac41e",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-original-entry-closeout-20261114.json": "87325b39f6b4e4df66487fd37881e9ecc63be733cfc958e7639fc8cae22d9a46",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-material-cumulative-v1-20261114\\candidate-build-receipt.json": "73abe29bf0dbfb5f4eb5773da20a0dc10048a4fd965abb0be00d59acbba51c77",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-material-cumulative-v1-20261114\\ftboss-boss-core-1.21.1-stage37-independent-materials-NOT-INSTALLABLE.jar": "6c0acbcdda6fdecba9db9cc512ebdaceff36f84dd52ddf09b2879563716f54d9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\zicai-curio-client-v13-candidate-6559f481.json": "2520617ce3f9200d8615ce180ffcc9188822c0d4b02ec2af1a7674015a7c8bcd",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\expanded-runtime-command.json": "4de448f747c43debd93c3bf877cb8652a34b4dde488c2cd2df31f48939509421",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\actual-client-dev.args": "4cb27c89d84fa86b4c19fdbf98df4457a098dee3123d52c3f53e465c5953a541",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-flight-ban-v1\\compile-context.json": "44348efc741830ef23097d1576bb038537567f4cf8c35d03a145d7d27bd10b00",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\loaded-boss-capture.jar": "559492524582c16ba7860a75f053807222f8148d8a1cddfb8943c4e7dd5ac4c4",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\observer-resources\\META-INF\\neoforge.mods.toml": "f387c417486636f290ab192099afa59ac904faf0ec1c0e75d9946604630a3629",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\full-client-launch.args": "30910c1e09d0274a8bc190850388852a58b5865544beeecd1548398e81fe758b",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\options-template.txt": "50a335d7dc47169410415766505384271840c67504b76ea97ab6504574edabd9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[Iron的法术与魔法书] irons_spellbooks-1.21.1-3.16.3.jar": "13d644474ddba4f8478b4ce68294687fd509c994b3f344a224142b102dbe6f73",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[前置]architectury-13.0.8-neoforge.jar": "5ec578f814e8cca87aeffa6e424032e78d9ea5ea6b603dd834c2dc13c31141ee",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[机械动力] create-1.21.1-6.0.10.jar": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[机械动力：创想附加] createaddition-1.6.0.jar": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[森罗厨房：国味] kaleidoscope_chinesefood-1.1.5-neoforge+1.21.1.jar": "1788911fe665d3ce998cf6a6173de1d02f70d2c2937ebc9bce54f581e34a6196",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[森罗物语：厨房] kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar": "04dd114f975df57fb8bb3f09e8c96d6de18587838ab5a019271b51a2aec24f74",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[沉浸农艺] letsdo-farm_and_charm-neoforge-1.1.22.jar": "2fe62301c96883689bee28a7eac4b05ea026990c26b51d06a124a4bd3a1b5293",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[灾变] L_Ender's Cataclysm 1.21.1-3.33.jar": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[犀牛] rhino-2101.2.7-build.85.jar": "95df92ce578b2504cb16d8c9fc285303bf062eb15452246a18e57b7cf091c19a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[青青草甸] letsdo-meadow-neoforge-1.4.8.jar": "f5d4a870b46f2952b7a04dad663cc4bdf8faad75e8951ba1551e85fd72d14402",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[馥郁烘焙] letsdo-bakery-neoforge-2.1.6.jar": "bfe7f9b3ea104fb68303d49b7cda0876520a5504067b2ba0293965474aaef649",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\bountifulfares-neoforge-1.21.1-3.0.13.jar": "b6f45ebe3f57d34fdf35ce81267a9095f71de8be768622e8c8bded9b3cd4d3d0",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\BrewinAndChewin-neoforge-4.5.0+1.21.1.jar": "9f6581823c2449dde4ac1e9b4f5a7cc226c42e058e656741ab392f714f443971",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\CrockPot-source-target233-exp213-NOT-INSTALLABLE.jar": "c2ea26ee73315b2f670f5317fdd9de179f7300d4b5c317cf66e5092f58b1c830",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\curios-neoforge-9.5.1+1.21.1.jar": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\FarmersDelight-1.21.1-1.3.4.jar": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\ftboss-boss-core-1.21.1-stage28-zicai-curio-silence-NOT-INSTALLABLE.jar": "c45cc10ffb7b572d876e869b692a75496c88c337434ed7140225df298b7bb65e",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\geckolib-neoforge-1.21.1-4.9.3.jar": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\irons_lib-1.21.1-2.1.1.jar": "2c5f9abc3f785d90d870b64b9d3c5020cedacaf8f26d3a92784ceef32b8677f8",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\kaleidoscope_world_liquor-1.1.11-neoforge+1.21.1.jar": "e1f51736138bfe65ac1ce2aae2f2f3bd292dce71e2b8d2f18580a68bdea807cc",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar": "03f35e1e614953b22cd1f5e34345613f3a6a283bf1b1c99659b57d58970edeff",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\kubejs-neoforge-2101.7.2-build.368.jar": "01767bb677a9c4a8f318717c4c21bca7e7ef80995603403a551068a0e064e740",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\letsdo-brewery-neoforge-2.1.9.jar": "7abbc2bb43fa319d4893e84b145b2cc803e6e61f5e6f0c37ec4611567a07ed66",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\letsdo-herbalbrews-neoforge-1.1.4.jar": "c84a3479d520e7a3da3f87272176ac9f3b2308ccc81cac3c51a4aac81c91406a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\letsdo-vinery-neoforge-1.5.6.jar": "7e5e4e901a599a499bd510490ec12e72e8547e53b61790778fa7848852c451ec",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\lionfishapi-3.1.jar": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\nexuslib-neoforge-1.21.1-1.2.0.jar": "bc7c72932617fe7f0ba82f2d0df1fe149617229c9463ed36e5b4f52b4a66fe84",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\player-animation-lib-forge-2.0.4+1.21.1.jar": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\[Iron的法术与魔法书] irons_spellbooks-1.21.1-3.16.3.jar": "13d644474ddba4f8478b4ce68294687fd509c994b3f344a224142b102dbe6f73",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\[前置]architectury-13.0.8-neoforge.jar": "5ec578f814e8cca87aeffa6e424032e78d9ea5ea6b603dd834c2dc13c31141ee",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\[机械动力] create-1.21.1-6.0.10.jar": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\[机械动力：创想附加] createaddition-1.6.0.jar": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\[森罗厨房：国味] kaleidoscope_chinesefood-1.1.5-neoforge+1.21.1.jar": "1788911fe665d3ce998cf6a6173de1d02f70d2c2937ebc9bce54f581e34a6196",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\[森罗物语：厨房] kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar": "04dd114f975df57fb8bb3f09e8c96d6de18587838ab5a019271b51a2aec24f74",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\[沉浸农艺] letsdo-farm_and_charm-neoforge-1.1.22.jar": "2fe62301c96883689bee28a7eac4b05ea026990c26b51d06a124a4bd3a1b5293",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\[灾变] L_Ender's Cataclysm 1.21.1-3.33.jar": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\[犀牛] rhino-2101.2.7-build.85.jar": "95df92ce578b2504cb16d8c9fc285303bf062eb15452246a18e57b7cf091c19a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\[青青草甸] letsdo-meadow-neoforge-1.4.8.jar": "f5d4a870b46f2952b7a04dad663cc4bdf8faad75e8951ba1551e85fd72d14402",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\[馥郁烘焙] letsdo-bakery-neoforge-2.1.6.jar": "bfe7f9b3ea104fb68303d49b7cda0876520a5504067b2ba0293965474aaef649",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\bountifulfares-neoforge-1.21.1-3.0.13.jar": "b6f45ebe3f57d34fdf35ce81267a9095f71de8be768622e8c8bded9b3cd4d3d0",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\BrewinAndChewin-neoforge-4.5.0+1.21.1.jar": "9f6581823c2449dde4ac1e9b4f5a7cc226c42e058e656741ab392f714f443971",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\CrockPot-source-target233-exp213-NOT-INSTALLABLE.jar": "c2ea26ee73315b2f670f5317fdd9de179f7300d4b5c317cf66e5092f58b1c830",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\curios-neoforge-9.5.1+1.21.1.jar": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\FarmersDelight-1.21.1-1.3.4.jar": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\ftboss-boss-core-1.21.1-stage28-zicai-curio-silence-NOT-INSTALLABLE.jar": "6c0acbcdda6fdecba9db9cc512ebdaceff36f84dd52ddf09b2879563716f54d9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\geckolib-neoforge-1.21.1-4.9.3.jar": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\irons_lib-1.21.1-2.1.1.jar": "2c5f9abc3f785d90d870b64b9d3c5020cedacaf8f26d3a92784ceef32b8677f8",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\kaleidoscope_world_liquor-1.1.11-neoforge+1.21.1.jar": "e1f51736138bfe65ac1ce2aae2f2f3bd292dce71e2b8d2f18580a68bdea807cc",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar": "03f35e1e614953b22cd1f5e34345613f3a6a283bf1b1c99659b57d58970edeff",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\kubejs-neoforge-2101.7.2-build.368.jar": "01767bb677a9c4a8f318717c4c21bca7e7ef80995603403a551068a0e064e740",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\letsdo-brewery-neoforge-2.1.9.jar": "7abbc2bb43fa319d4893e84b145b2cc803e6e61f5e6f0c37ec4611567a07ed66",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\letsdo-herbalbrews-neoforge-1.1.4.jar": "c84a3479d520e7a3da3f87272176ac9f3b2308ccc81cac3c51a4aac81c91406a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\letsdo-vinery-neoforge-1.5.6.jar": "7e5e4e901a599a499bd510490ec12e72e8547e53b61790778fa7848852c451ec",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\lionfishapi-3.1.jar": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\nexuslib-neoforge-1.21.1-1.2.0.jar": "bc7c72932617fe7f0ba82f2d0df1fe149617229c9463ed36e5b4f52b4a66fe84",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\game\\mods\\player-animation-lib-forge-2.0.4+1.21.1.jar": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\observer-classes\\ftboss\\clientfxprobe\\BossIndependentMaterialsNativeV1.class": "d4a198ecc163e46f638244429e96642c0b730f4ae976121bc5059b9ec3eba8ef",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\agent-classes\\ftboss\\nativeprobe\\LoadedBossClassCaptureV8$1.class": "79cd72a554d234f040838a4892f3e67228f19d38a4f63d819ee3017372edc7ea",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\agent-classes\\ftboss\\nativeprobe\\LoadedBossClassCaptureV8.class": "da80313ce9915d86f116a096379f386bd88ba243cc414471ec870df9901bea66",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\natives\\freetype.dll": "c0b73302f4d4f7ea372be946011daa77521304c00d96936742fd65fb18c34fc4",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\natives\\glfw.dll": "affa7e54eb0dedce4a5721c327c1a16035edbbd039cd402e08107d6d2d55eb1a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\natives\\jemalloc.dll": "9abf0095066ebab37b78968e11370a8078313e48cb5be8eda01f67623c6a6248",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\natives\\lwjgl.dll": "a39adf52947fafd954c2a86ce031abb8c59825f7ee50337ac8c41e4280abe82d",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\natives\\lwjgl_opengl.dll": "fe200dc96ab31237a52facd6345d31f9740ef16dd411e5f9be014eaa30f89fb6",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\natives\\lwjgl_stb.dll": "de03f38f8c7471b4924aa8bdf8724c181d1a7c20428dbce2ed301877e1d387e4",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\natives\\lwjgl_tinyfd.dll": "ec7d76e6ef7a99628ef6f8b6e544294b700108c341837779e6e2c01c0bc3da9c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-materials-native-v1-25e4afab\\natives\\OpenAL.dll": "0630aa42492f78126da1c4d99769632e03c55b2e63b050efe7e3005e07e3e6fc"
+  },
+  "actualIndependentBossMaterialIntegrationAccepted": false,
+  "authenticated": false,
+  "productChanged": true,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}

@@ -1,0 +1,71 @@
+{
+  "candidate": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-material-cumulative-v1-20261114\\ftboss-boss-core-1.21.1-stage37-independent-materials-NOT-INSTALLABLE.jar",
+  "candidateJarSha256": "6c0acbcdda6fdecba9db9cc512ebdaceff36f84dd52ddf09b2879563716f54d9",
+  "candidateBuildReceipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-independent-material-cumulative-v1-20261114\\candidate-build-receipt.json",
+  "productChanged": true,
+  "nativeReport": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\boss-independent-materials-native-v3-fc6cca5b.json",
+  "loadedReceipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\boss-independent-materials-loaded-audit-v5-20261114\\receipt.json",
+  "nativeChecks": 6324,
+  "actualTenRegisteredMaterialsAndCreativeEntriesAccepted": true,
+  "actualTenPlayerAttributedKillsAndOneMaterialEachAccepted": true,
+  "actualOriginalMeatHeartItemAndTwoCanceledRevivalPhasesAccepted": true,
+  "actualOriginalTeaGuardBudMechanicAccepted": true,
+  "naturalGuardBudAttacks": 5,
+  "actualGuardBudDeaths": 5,
+  "actualOriginalItemCodecRoundtripsAccepted": true,
+  "requiredActualDefinedClassesExactlyCandidate": 6,
+  "all342ActualBossGraphsEqualPriorProvenComposition": true,
+  "compositionProof": "checks=442;memberAndLambdaLinkageChecks=94;changedExistingMethods=3;allOtherExistingMethodGraphsRetained=69;asmVerifiedMethods=87;negativeControls=6;",
+  "otherExistingJarEntriesPreserved": 2997,
+  "localResourceClosure": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\boss-independent-material-local-resource-closure-v3-20261114.json",
+  "localOnlyModels": 30,
+  "localOnlyTextures": 20,
+  "failedAttemptsPreserved": [
+    {
+      "report": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\boss-independent-materials-native-v1-25e4afab.json",
+      "completedKinds": 1,
+      "failure": "java.lang.AssertionError: Real original death eventually settles reward [BUTCHER]",
+      "normalSaveExitZeroReapedAndInputsUnchanged": true
+    },
+    {
+      "report": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\boss-independent-materials-native-v2-a45d03f7.json",
+      "completedKinds": 2,
+      "failure": "java.lang.AssertionError: Original Boss material kill completes within natural ninety seconds per kind [TEA]",
+      "normalSaveExitZeroReapedAndInputsUnchanged": true
+    }
+  ],
+  "failedAttemptExplanations": [
+    "V1 unowned command Butcher removed by original purgeStrays; replaced fixture with real registered MeatHeartItem use",
+    "V2 original Tea guard-bud shield correctly rejects direct Boss attacks; V3 actual player defeats naturally created original buds before Boss",
+    "V4 loaded audit incorrectly disallowed original Butcher canceled revival deaths; V5 requires two alive/unrewarded cancellations and one final uncanceled attributed death",
+    "Resource V2 assumed ten textures; V3 proves exact original thirty-model/twenty-texture dependency closure"
+  ],
+  "fixture": {
+    "nativePreDamageCap": 0.01,
+    "targetPreDamageFixture": 250.0,
+    "cappedHits": 72,
+    "actualRawAttackAttribute": 128.0,
+    "survivabilityAcceptanceClaimed": false
+  },
+  "noPrivateGameplayManualTicksOrIdentityStateWrites": true,
+  "formalExpectedHashesVerified": {
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_NeoForge 机械动力/mods/qys-bosses-1.21.1.jar": "6563f431dca1871eb7870653b74550ba2f5c0f66c104eea90ce58a99ca30f7c0",
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_ForgeⅡ v1.5.2/mods/qys-bosses.jar": "7c88b9e51ccdc6616cd2f70d6fa3c195772fc3f083f848085053d40cfe2015a3"
+  },
+  "closedRuntimeDedupReceipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\boss-independent-materials-closed-runtime-dedup-v1-20261114\\receipt.json",
+  "localResourcePayloadsOnly": true,
+  "modelOrMusicUploaded": false,
+  "authenticatedKillAccepted": false,
+  "actualMultiplayerGameplayAccepted": false,
+  "nativeWorldRestartAccepted": false,
+  "nativeNoPlayerOrMobLootRejectionAccepted": false,
+  "fullBossCombatAcceptanceClaimed": false,
+  "remaining": [
+    "Authenticated real multiple players and original full Boss combat/rewards/death/cancel, Sparrow scaled quotas/additional plans/repeat appearances",
+    "Native no-player/mob-loot rejection integration, world restart/dimensions and original action/visual fidelity; Curios new JVM remains attended and not auto-retried",
+    "Final cumulative installable artifact and authorized formal deployment/rollback; source-only remote archive; weapons and Session paused"
+  ],
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}

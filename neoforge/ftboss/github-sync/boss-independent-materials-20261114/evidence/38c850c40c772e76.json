@@ -1,0 +1,30 @@
+{
+  "checks": 442,
+  "memberAndLambdaLinkageChecks": 94,
+  "changedExistingMethods": 3,
+  "allOtherExistingMethodGraphsRetained": 69,
+  "asmVerifiedMethods": 87,
+  "negativeControls": 6,
+  "originalRewardBranchesRandomnessAndDuplicateGuardPreserved": true,
+  "pausedWeaponServiceModified": false,
+  "changes": [
+    {
+      "class": "net/farmingtales/ftboss/item/FTBossItems",
+      "method": "register(Lnet/neoforged/bus/api/IEventBus;)V",
+      "beforeGraph": "a529c4eb90e11f2e014da714b602eca21c18209d7f531f5b5288942b34ad0cef",
+      "afterGraph": "98501c0f91d0bd98578d4330102f14830fe42496ea851f02807632b8dcd3b178"
+    },
+    {
+      "class": "net/farmingtales/ftboss/item/FTCreativeTabs",
+      "method": "lambda$static$1(Lnet/minecraft/world/item/CreativeModeTab$ItemDisplayParameters;Lnet/minecraft/world/item/CreativeModeTab$Output;)V",
+      "beforeGraph": "a78caffd8b9a168e5806d3bcdae6bad2bbb933e5ba90f47879e49b77530dcb8e",
+      "afterGraph": "32f7ba4703e812e80a6c791834bf976f0d657dac07ba4d5d66ba90bb3923ca5f"
+    },
+    {
+      "class": "net/farmingtales/ftboss/skill/BossRelicDrops",
+      "method": "reward(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;Ljava/util/function/Consumer;)V",
+      "beforeGraph": "07e1bbb4099dfe5b782c12fec99b6849005af45042ef75c351b90a850253da9b",
+      "afterGraph": "77c1a71175994efe63295cf27c35b99c3eff093972c15679625dba66be0bbe20"
+    }
+  ]
+}
