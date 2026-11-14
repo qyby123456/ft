@@ -1,0 +1,57 @@
+{
+  "proof": "checks=17;selectedCompleteMethods=11;exactCompleteMethods=6;allSelectedMethodsExact=false;negativeControls=2;",
+  "selectedCompleteGameplayMethods": 11,
+  "exactAfterOfficialMappingsAndHolderApi": 6,
+  "differingCompleteMethods": [
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowSupport",
+      "method": "tick",
+      "descriptor": "(Lnet/minecraft/server/MinecraftServer;)V"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowSupport",
+      "method": "hasVisited",
+      "descriptor": "(Lnet/minecraft/world/entity/LivingEntity;)Z"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowSupport",
+      "method": "noteFightMember",
+      "descriptor": "(Lnet/minecraft/world/entity/Entity;)V"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowSupport",
+      "method": "beginStage",
+      "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)V"
+    },
+    {
+      "owner": "net/farmingtales/ftboss/boss/SparrowSupport",
+      "method": "spawnSparrow",
+      "descriptor": "(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)V"
+    }
+  ],
+  "missingOriginalHelperClasses": [
+    "net/farmingtales/ftboss/boss/SparrowMultiplayerSupport",
+    "net/farmingtales/ftboss/boss/SparrowAppearanceData",
+    "net/farmingtales/ftboss/boss/SparrowAppearanceData$Entry",
+    "net/farmingtales/ftboss/util/SparrowMultiplayerRules"
+  ],
+  "nativeLifecycleEntrypointsExplicitlyExcludedFromOriginalGraphComparison": [
+    "onServerTick",
+    "onServerStopped"
+  ],
+  "nativeLifecycleEntrypointsNotClaimedBroken": true,
+  "strictExpectedDifferencePreserved": true,
+  "fullSparrowMultiplayerRestored": false,
+  "productChanged": false,
+  "inputHashes": {
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tools\\audit_boss_sparrow_original_full_support_v2.py": "ced391ca9e80d8700b6c1ee5b9d6ee959502e1e03444b76b525c83c3237da421",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-youzi-original-summon-v4-20261114\\ftboss-boss-core-1.21.1-stage33-youzi-original-summon-NOT-INSTALLABLE.jar": "d691bdb1a2b5f540d9bcd8149e6d04baa5c2e1df1a6c01578b4b32b75cfdb69c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\reference\\forge-current.jar": "c1734a148606397f8b2c79fbcc5c45961a5ffb1923ea051756fd45d03dc7a942",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-original-helpers-platform-audit-v1-20261114\\mapping-proof.json": "a0961d6189bbdca50712de606635c39de3db6eaab68dc071b6987741bb4cbfa3",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\SparrowOriginalSupportMappedAuditV1.java": "4cdb9b9e7e9d178b913eb541d32fd5e59de76dab85aac25bdd9c91c5e3a48475"
+  },
+  "modelOrMusicUploaded": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}

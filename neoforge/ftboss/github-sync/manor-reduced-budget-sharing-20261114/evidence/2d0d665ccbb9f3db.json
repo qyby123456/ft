@@ -1,0 +1,494 @@
+{
+  "nativeReport": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-reduced-budget-sharing-native-v8-dd85abc5.json",
+  "loadedReceipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-reduced-budget-sharing-loaded-audit-v2-20261114\\receipt.json",
+  "originalContractReceipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-original-sharing-budget-proof-v2-20261114\\receipt.json",
+  "candidate": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-youzi-original-summon-v4-20261114\\ftboss-boss-core-1.21.1-stage33-youzi-original-summon-NOT-INSTALLABLE.jar",
+  "candidateJarSha256": "d691bdb1a2b5f540d9bcd8149e6d04baa5c2e1df1a6c01578b4b32b75cfdb69c",
+  "productChanged": false,
+  "cases": 18,
+  "nativeChecks": 13000,
+  "nativeMatrixAccepted": true,
+  "legitimateManagedSharingScopedAccepted": true,
+  "naturalOriginalMiniJoins": 13,
+  "naturalSupportAcquisitions": [
+    {
+      "supportNaturallyPresent": true,
+      "attempt": 1,
+      "ingress": {
+        "duplicateResult": "FAIL",
+        "originalFightId": "5fc7eadc-307c-43ef-86f5-2b2d44a70907",
+        "noFightOrOwnerFieldsWrittenByObserver": true,
+        "result": "CONSUME",
+        "support": {
+          "uuid": "1a60f846-d43e-4667-9458-849dc8f6ffe2",
+          "variant": 9,
+          "mini": false,
+          "health": 500.0,
+          "maxHealth": 500.0,
+          "absorption": 0.0,
+          "alive": true,
+          "removed": false,
+          "invulnerable": false,
+          "introActing": false,
+          "finale": false,
+          "managed": false,
+          "fightId": "5fc7eadc-307c-43ef-86f5-2b2d44a70907",
+          "summonerId": "00000000-0000-0000-0000-000000b05513",
+          "tickCount": 0,
+          "noAI": false,
+          "position": [
+            0.0851784139593037,
+            -54.0,
+            5.992598356660706
+          ]
+        },
+        "publicVanillaEntry": "ServerPlayerGameMode.useItemOn",
+        "primary": {
+          "uuid": "e2883b46-2169-485a-9bad-3bd24f8f1de2",
+          "variant": 0,
+          "mini": false,
+          "health": 1024.0,
+          "maxHealth": 1024.0,
+          "absorption": 0.0,
+          "alive": true,
+          "removed": false,
+          "invulnerable": false,
+          "introActing": false,
+          "finale": false,
+          "managed": true,
+          "fightId": "5fc7eadc-307c-43ef-86f5-2b2d44a70907",
+          "summonerId": "00000000-0000-0000-0000-000000b05513",
+          "tickCount": 0,
+          "noAI": false,
+          "position": [
+            2.5,
+            -60.0,
+            0.5
+          ]
+        },
+        "registeredItem": "ftboss:easter_egg_youzi"
+      },
+      "fight": "5fc7eadc-307c-43ef-86f5-2b2d44a70907"
+    }
+  ],
+  "playerFixtureProtection": {
+    "cappedHits": 214,
+    "largestPreCapDamage": 155.9444,
+    "nativePreDamageCap": 0.01,
+    "invulnerableFlag": false,
+    "survivabilityAcceptanceClaimed": false,
+    "sourceCounts": {
+      "mob": 113,
+      "thorns": 72,
+      "evocation_magic": 23,
+      "magic": 3,
+      "wither": 2,
+      "onFire": 1
+    },
+    "creative": false
+  },
+  "completeCombatOrSurvivabilityClaimed": false,
+  "originalBudgetAcceptedBeforeMitigationLessNativeArmorAndMagicReductions": true,
+  "originalFullyAbsorbedZeroStillShares": true,
+  "nativePreZeroDoesNotImplyNoHelperShare": true,
+  "originalPositiveToZeroMutableGuardDistinct": true,
+  "all342ActualMethodGraphsBound": true,
+  "actualDefinedClassesCaptured": 18,
+  "actualHelpersExactlyCandidate": 10,
+  "loadedProof": "checks=1374;actualDefinedMethods=342;allActualGraphsEqualComposition=true;exactEmitterIdempotent=true;negativeControls=2;originalHurtUnchanged=true;",
+  "originalSixMethodProof": "method=ftboss$shareManorDamage;mappedOriginalAndActualGraph=c4c72a8708603db2e46efd4c32d92f780e56f7797e7e493669870315e02b49f4\r\nmethod=sparrowShare;mappedOriginalAndActualGraph=1b7e36c8a2da907266d48ee5c3d04f33bdc6830a3cc5a1b90c71315938fea501\r\nmethod=youziMinionShare;mappedOriginalAndActualGraph=5bce2853353512a86a612ddf35e915387a5192afe05129f4d53425091550fd51\r\nmethod=nearbySparrow;mappedOriginalAndActualGraph=76c2798716745c276ab4f96a7ea112c832be726d84110a1984d490af30b1d20c\r\nmethod=blocksCombatDamage;mappedOriginalAndActualGraph=4920a9e4c9e02740b2d012377102b6b50b40f1887f199a08e69d574e8fc53c00\r\nmethod=m_6469_;mappedOriginalAndActualGraph=7b5cc70744f2dea2e8287d8f575fe592c20e3cc6446c75e5fe60da93b63fbcb6\r\nfailures=0;checks=32;completeMappedOriginalMethods=6;actualDefinedAsmMethods=6;originalShareOrderVerified=true;provenExistingEquivalentStackSites=3;negativeControls=2;",
+  "originalContractProof": "checks=8228;originalBudgetLocal=4;originalPureRulesAndZeroAbsorptionGuardVerified=true;negativeControls=2;",
+  "failedAttemptsPreserved": [
+    {
+      "report": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-reduced-budget-sharing-native-v1-3ec4760d.json",
+      "checks": 30659,
+      "completedModes": 0,
+      "failure": "java.lang.AssertionError: Original helper health matches exact raw sharing or exclusion [warmup-one]",
+      "normalSaveExitReapedInputsUnchanged": true
+    },
+    {
+      "report": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-reduced-budget-sharing-native-v3-f87c860e.json",
+      "checks": 10533,
+      "completedModes": 2,
+      "failure": "java.lang.AssertionError: Original helper health matches exact raw sharing or exclusion [warmup-three]",
+      "normalSaveExitReapedInputsUnchanged": true
+    },
+    {
+      "report": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-reduced-budget-sharing-native-v4-052710d4.json",
+      "checks": 10655,
+      "completedModes": 3,
+      "failure": "java.lang.AssertionError: Actual player remains alive [warmup-three]",
+      "normalSaveExitReapedInputsUnchanged": true
+    },
+    {
+      "report": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-reduced-budget-sharing-native-v6-9c1b1c81.json",
+      "checks": 12567,
+      "completedModes": 15,
+      "failure": "java.lang.AssertionError: Original accepted raw less native armor/magic reductions gives finite sharing budget [prepare-mini]",
+      "normalSaveExitReapedInputsUnchanged": true
+    },
+    {
+      "report": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-reduced-budget-sharing-native-v7-cd31af2e.json",
+      "checks": 12674,
+      "completedModes": 16,
+      "failure": "java.lang.AssertionError: Prepared original natural mini actually dies from original sharing [mini-lethal]",
+      "normalSaveExitReapedInputsUnchanged": true
+    }
+  ],
+  "compileOnlyFailedAttemptsLocalDedup": [
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-reduced-budget-prelaunch-cache-dedup-manor-reduced-budget-sharing-native-v2-9e9f840f-20261114\\receipt.json",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-reduced-budget-prelaunch-cache-dedup-manor-reduced-budget-sharing-native-v5-30aa114e-20261114\\receipt.json"
+  ],
+  "closedRuntimeLocalDedup": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-reduced-budget-sharing-closed-runtime-dedup-v1-20261114\\receipt.json",
+  "formalExpectedHashesVerified": {
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_NeoForge 机械动力/mods/qys-bosses-1.21.1.jar": "6563f431dca1871eb7870653b74550ba2f5c0f66c104eea90ce58a99ca30f7c0",
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_ForgeⅡ v1.5.2/mods/qys-bosses.jar": "7c88b9e51ccdc6616cd2f70d6fa3c195772fc3f083f848085053d40cfe2015a3"
+  },
+  "modelOrMusicUploaded": false,
+  "allExcludedResourcesRemainLocalOnly": true,
+  "authenticated": false,
+  "actualMultiplayerGameplayAccepted": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false,
+  "caseSummary": [
+    {
+      "mode": "warmup-one",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1,
+        "post": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": 230.4,
+      "originalReducedBudget": 35.020798,
+      "beforeHealthAmount": 15.759359,
+      "postAmount": 15.759359,
+      "helperComparisons": 3,
+      "actualPrimaryHealthLoss": 15.759339999999952
+    },
+    {
+      "mode": "warmup-two",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1,
+        "post": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": 230.4,
+      "originalReducedBudget": 35.020798,
+      "beforeHealthAmount": 15.759359,
+      "postAmount": 15.759359,
+      "helperComparisons": 5,
+      "actualPrimaryHealthLoss": 15.759360000000015
+    },
+    {
+      "mode": "warmup-three",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1,
+        "post": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": 230.4,
+      "originalReducedBudget": 14.008316,
+      "beforeHealthAmount": 6.3037424,
+      "postAmount": 6.3037424,
+      "helperComparisons": 7,
+      "actualPrimaryHealthLoss": 6.303760000000011
+    },
+    {
+      "mode": "incoming-cancel",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": 0.0,
+      "originalReducedBudget": 0.0,
+      "beforeHealthAmount": 0.0,
+      "postAmount": 0.0,
+      "helperComparisons": 7,
+      "actualPrimaryHealthLoss": 0.0
+    },
+    {
+      "mode": "incoming-half",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1,
+        "post": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 128.0,
+      "acceptedBeforeMitigation": 115.2,
+      "originalReducedBudget": 5.234688,
+      "beforeHealthAmount": 2.3556094,
+      "postAmount": 2.3556094,
+      "helperComparisons": 7,
+      "actualPrimaryHealthLoss": 2.3555900000000065
+    },
+    {
+      "mode": "native-pre-zero",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": 230.4,
+      "originalReducedBudget": 14.008316,
+      "beforeHealthAmount": 0.0,
+      "postAmount": 0.0,
+      "helperComparisons": 7,
+      "actualPrimaryHealthLoss": 0.0
+    },
+    {
+      "mode": "before-health-cancel",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": 230.4,
+      "originalReducedBudget": 14.008316,
+      "beforeHealthAmount": 0.0,
+      "postAmount": 0.0,
+      "helperComparisons": 7,
+      "actualPrimaryHealthLoss": 0.0
+    },
+    {
+      "mode": "before-health-half",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1,
+        "post": 1
+      },
+      "rawIncoming": 1024.0,
+      "acceptedIncoming": 1024.0,
+      "acceptedBeforeMitigation": 921.6,
+      "originalReducedBudget": 56.033264,
+      "beforeHealthAmount": 6.607485,
+      "postAmount": 6.607485,
+      "helperComparisons": 7,
+      "actualPrimaryHealthLoss": 6.607499999999959
+    },
+    {
+      "mode": "sparrow-at48-excluded",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1,
+        "post": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": 230.4,
+      "originalReducedBudget": 14.008316,
+      "beforeHealthAmount": 0.6074848,
+      "postAmount": 0.6074848,
+      "helperComparisons": 7,
+      "actualPrimaryHealthLoss": 0.6074999999999591
+    },
+    {
+      "mode": "sparrow-inside48",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": 230.4,
+      "originalReducedBudget": 14.008316,
+      "beforeHealthAmount": 0.0,
+      "postAmount": 0.0,
+      "helperComparisons": 7,
+      "actualPrimaryHealthLoss": 0.0
+    },
+    {
+      "mode": "minis-outside64",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1,
+        "post": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": 230.4,
+      "originalReducedBudget": 14.008316,
+      "beforeHealthAmount": 0.6074848,
+      "postAmount": 0.6074848,
+      "helperComparisons": 3,
+      "actualPrimaryHealthLoss": 0.6074999999999591
+    },
+    {
+      "mode": "minis-invulnerable",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": 230.4,
+      "originalReducedBudget": 14.008316,
+      "beforeHealthAmount": 0.0,
+      "postAmount": 0.0,
+      "helperComparisons": 7,
+      "actualPrimaryHealthLoss": 0.0
+    },
+    {
+      "mode": "sparrow-invulnerable",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1,
+        "post": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": 230.4,
+      "originalReducedBudget": 14.008316,
+      "beforeHealthAmount": 6.210811,
+      "postAmount": 6.210811,
+      "helperComparisons": 7,
+      "actualPrimaryHealthLoss": 6.210799999999949
+    },
+    {
+      "mode": "prepare-sparrow",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1,
+        "post": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": null,
+      "originalReducedBudget": null,
+      "beforeHealthAmount": 189.07446,
+      "postAmount": 189.07446,
+      "helperComparisons": 0,
+      "actualPrimaryHealthLoss": 189.07446
+    },
+    {
+      "mode": "sparrow-lethal",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": 230.4,
+      "originalReducedBudget": 14.008316,
+      "beforeHealthAmount": 0.0,
+      "postAmount": 0.0,
+      "helperComparisons": 7,
+      "actualPrimaryHealthLoss": 0.0
+    },
+    {
+      "mode": "prepare-mini",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "pre": 1,
+        "post": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": null,
+      "originalReducedBudget": null,
+      "beforeHealthAmount": 0.0,
+      "postAmount": 13.0,
+      "helperComparisons": 0,
+      "actualPrimaryHealthLoss": 13.0
+    },
+    {
+      "mode": "mini-lethal",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1,
+        "post": 1
+      },
+      "rawIncoming": 2048.0,
+      "acceptedIncoming": 2048.0,
+      "acceptedBeforeMitigation": 1843.2,
+      "originalReducedBudget": 112.06653,
+      "beforeHealthAmount": 95.16362,
+      "postAmount": 95.16362,
+      "helperComparisons": 6,
+      "actualPrimaryHealthLoss": 95.16363999999999
+    },
+    {
+      "mode": "post-sparrow-death",
+      "counts": {
+        "actualPlayerAttack": 1,
+        "incoming": 1,
+        "beforeMitigation": 1,
+        "pre": 1,
+        "beforeHealth": 1,
+        "post": 1
+      },
+      "rawIncoming": 256.0,
+      "acceptedIncoming": 256.0,
+      "acceptedBeforeMitigation": 230.4,
+      "originalReducedBudget": 14.008316,
+      "beforeHealthAmount": 12.607485,
+      "postAmount": 12.607485,
+      "helperComparisons": 4,
+      "actualPrimaryHealthLoss": 12.60746000000006
+    }
+  ],
+  "remaining": [
+    "Restore original Sparrow multiplayer/appearance-data helper closure and full gameplay methods with exact native event and SavedData adapters",
+    "Real multiplayer participants/quota/appearance persistence and original action/visual fidelity",
+    "Authenticated complete normal/impossible Boss fights, positive material/reward kill integration, death/cancel/reward",
+    "Dimensions, persistence, restart and attended Curios new-JVM gate; no automatic V18 retry",
+    "Final cumulative installable artifact and authorized formal deployment/rollback/archive; weapon and Session remain paused"
+  ]
+}
