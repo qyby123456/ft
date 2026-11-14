@@ -35,7 +35,7 @@ def load(path):
     return json.loads(Path(path).read_text(encoding='utf-8-sig'))
 
 def save(path, value):
-    temporary = Path(path).with_suffix(Path(path).suffix + '.writing')
+    temporary = Path(path).with_name(Path(path).name + '.' + str(os.getpid()) + '.writing')
     temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     temporary.replace(path)
 
