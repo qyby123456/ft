@@ -1,3 +1,9 @@
+## 原生伤害事件真实兼容缺口基线，2026-11-14
+
+Stage30 产品字节不变，新增真实玩家对 Boss/普通牛的两次空手正伤害对照。353 项诊断检查通过：Boss 1024→1023.72，仅原自定义 BeforeMitigation/BeforeHealth 各 1 次，原生 Incoming/Pre/Post 都为 0；相同监听器在牛 10→3 上原生三个事件各 1 次。原始 incoming amount 为 7。已正常完整保存/退出 0、进程回收、最终定义捕获和冻结输入哈希不变。实际定义的 ManorFinalDamage 与候选字节相同；原版/当前调用和本地官方 API 审查确证兼容缺口，不代表已经修复。详见 work/session-boss/MANOR_NATIVE_DAMAGE_EVENT_BASELINE_20261114.md 与 reports/manor-native-damage-event-baseline-closeout-20261114.json。
+
+下一段必须采用 Boss 独立、同一调用完整 DamageContainer 生命周期，保留原事件可变/取消语义、护甲/吸收/分摊顺序、减伤修饰、无敌帧及嵌套/异常清理；不能只补发通知凑回调。暂停的武器源码树及 Independent Event 不动。另对已关闭的三次通过范围运行本地去重，84 个 JAR 路径/字节全部保留、84 个已有只读硬链接，约再释放 618 MiB，无任何资源上传。原生事件契约仍未接受，完整 Boss 未完成，NOT-INSTALLABLE、不部署、正式实例及 D 只读、武器/Session 暂停。
+
 ## Stage30 麻雀原版受击闪避限定验收，2026-11-14
 
 原版 SparrowHitEvasion/State 的 25 个映射方法图及 25 个 ASM 检查通过，规则类字节原样保留，接入原版三处钩子。真实离线玩家空手攻击基础场景 971 项、原同伴掩护场景 772 项通过；分别观察到 22/16 个自然 tick 的原版自有路径，同伴控制保护 16 tick。原 60 tick 到期、no-AI 拒绝、实际实体离开清理通过，正常完整保存/退出 0，冻结输入未变。最终定义 EasterBoss 类 351 项检查限定复用，339 个方法不变，仅 hitFeedback/sparrowTick 改变；五个 Boss 定义字节一致，LivingEntity 不同且不在该复用证明范围。

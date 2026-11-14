@@ -1,0 +1,53 @@
+{
+  "scope": "Verified unchanged-Stage30 Manor native damage-event compatibility gap with same-listener vanilla positive control. Diagnostic baseline only, not implementation acceptance.",
+  "candidateSha256": "877309d1ff2332ab6d407cd1b456d39987109d17e8f6a8e98184abe55703c25b",
+  "nativeReport": {
+    "path": "work/session-boss/reports/manor-native-damage-event-baseline-v1-552e8f09.json",
+    "sha256": "2a4cb65f0913f5b36d9d47f93d5aac2812f425533a3f6dafb2d7e31345ad63dd",
+    "bytes": 24430
+  },
+  "originalAndPublicNativeContractAudit": {
+    "path": "work/session-boss/reports/manor-native-damage-event-contract-audit-v1-20261114.json",
+    "sha256": "f694a911246cd227c1f8425be558c51104ba7d825703e4beabfb466b8477bdfe",
+    "bytes": 22332
+  },
+  "checks": 353,
+  "twoActualPositiveEmptyHandAttacks": true,
+  "bossHealth": [
+    1024.0,
+    1023.72
+  ],
+  "vanillaCowHealth": [
+    10.0,
+    3.0
+  ],
+  "actualIncomingRawAmount": 7.0,
+  "eventCounts": {
+    "boss.originalBeforeMitigation": 1,
+    "boss.originalBeforeHealth": 1,
+    "vanilla.incoming": 1,
+    "vanilla.pre": 1,
+    "vanilla.post": 1
+  },
+  "sameListenerVanillaNativeIncomingPrePostAccepted": true,
+  "actualBossNativeIncomingPrePostAbsent": true,
+  "originalBeforeMitigationAndBeforeHealthEachExactlyOnce": true,
+  "diagnosticBaselineAccepted": true,
+  "nativeCompatibilityImplemented": false,
+  "nativeLivingDamagePostContractAccepted": false,
+  "readOnlyLocalDedup": {
+    "path": "work/session-boss/reports/closed-accepted-boss-runtime-jar-dedup-v2-20261114/receipt.json",
+    "sha256": "bc3129fef1dc93515f1ae7a697d7365e863c77fd0f4008b001e7e2b69078a862",
+    "bytes": 412
+  },
+  "additionalLocalResourceBytesReclaimedAtMeasurement": 648130560,
+  "all84RuntimeJarPathsAndInputHashesRetained": true,
+  "worldsRetainedAndNotReusedAsSeeds": true,
+  "modelOrMusicUploaded": false,
+  "productChanged": false,
+  "authenticated": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false,
+  "next": "Implement a Boss-only coherent native DamageContainer lifecycle and real event phases; preserve original amount/cancellation/reduction/invulnerability order and nested/exception cleanup. Do not add callbacks only to make counters pass."
+}

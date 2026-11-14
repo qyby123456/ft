@@ -1,3 +1,9 @@
+## 原生伤害事件真实兼容缺口基线，2026-11-14
+
+Stage30 产品字节不变，新增真实玩家对 Boss/普通牛的两次空手正伤害对照。353 项诊断检查通过：Boss 1024→1023.72，仅原自定义 BeforeMitigation/BeforeHealth 各 1 次，原生 Incoming/Pre/Post 都为 0；相同监听器在牛 10→3 上原生三个事件各 1 次。原始 incoming amount 为 7。已正常完整保存/退出 0、进程回收、最终定义捕获和冻结输入哈希不变。实际定义的 ManorFinalDamage 与候选字节相同；原版/当前调用和本地官方 API 审查确证兼容缺口，不代表已经修复。详见 work/session-boss/MANOR_NATIVE_DAMAGE_EVENT_BASELINE_20261114.md 与 reports/manor-native-damage-event-baseline-closeout-20261114.json。
+
+下一段必须采用 Boss 独立、同一调用完整 DamageContainer 生命周期，保留原事件可变/取消语义、护甲/吸收/分摊顺序、减伤修饰、无敌帧及嵌套/异常清理；不能只补发通知凑回调。暂停的武器源码树及 Independent Event 不动。另对已关闭的三次通过范围运行本地去重，84 个 JAR 路径/字节全部保留、84 个已有只读硬链接，约再释放 618 MiB，无任何资源上传。原生事件契约仍未接受，完整 Boss 未完成，NOT-INSTALLABLE、不部署、正式实例及 D 只读、武器/Session 暂停。
+
 ## Stage30 麻雀原版受击闪避限定验收，2026-11-14
 
 源码及限定文字证据已推送 70ead9b29fdca72e924c8afc352058ebcafc50fc，44 个文件经独立远端 fetch/blob 大小与 SHA256 核验，完整 4425 文件树资源检查通过。核验后仅删除 Git 工作副本中 24 份重复 Java/Python 缓存（248040 字节），逐路径 skip-worktree，canonical 编译/运行输入、世界及所有资源保留。恢复入口 github-sync/checkpoint-sparrow-hit-evasion-20261114.json，清理持久化索引 github-sync/checkpoint-sparrow-hit-evasion-cleanup-20261114.json；必须按索引按需恢复，不重跑要求已清理源码全在场的旧发布器。

@@ -1,0 +1,221 @@
+{
+  "scope": "Static original/public API audit bound to actual unchanged Stage30 native positive/vanilla-control baseline; no product modification.",
+  "candidateSha256": "877309d1ff2332ab6d407cd1b456d39987109d17e8f6a8e98184abe55703c25b",
+  "classHashes": {
+    "original:net.farmingtales.ftboss.boss.ai.ManorFinalDamage": "09910fc952ab8c2b8dde06a059422e33f15eaf82380f11df2902e91db94a10b8",
+    "current:net.farmingtales.ftboss.boss.ai.ManorFinalDamage": "95990c158386705dde931118e87301da9d9b417238e57b9740173cd99ab090a8",
+    "current:net.farmingtales.ftboss.event.NativeManorDamageEvents": "5854adde479442a21285e02264dc08a828ef1c9e7d5f900ce2deb7fb7973c981",
+    "current:net.farmingtales.ftboss.event.NativeWeaponDamagePhases": "d3f1c1622eac8088ff8fcb8dd399c109abadcea6a65d4e48157f7673bf7c6148"
+  },
+  "originalSettleCalls": [
+    "public static float[] settle(net.farmingtales.ftboss.entity.EasterBossEntity, net.minecraft.world.damagesource.DamageSource, float);",
+    "3: invokestatic  #39                 // Method net/minecraftforge/common/ForgeHooks.onLivingHurt:(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;F)F",
+    "8: invokestatic  #45                 // Method java/lang/Float.isFinite:(F)Z",
+    "25: invokevirtual #49                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.ftboss$reduceManorDamage:(Lnet/minecraft/world/damagesource/DamageSource;F)F",
+    "34: invokestatic  #55                 // Method net/farmingtales/ftboss/util/ManorSpellRules.cap:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/world/damagesource/DamageSource;F)F",
+    "41: invokestatic  #45                 // Method java/lang/Float.isFinite:(F)Z",
+    "57: invokevirtual #59                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.ftboss$manorSparrow:()Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+    "63: invokevirtual #17                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.isMini:()Z",
+    "70: invokevirtual #27                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.getVariant:()I",
+    "85: invokevirtual #62                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.ftboss$blocksManorDamage:()Z",
+    "102: invokevirtual #17                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.isMini:()Z",
+    "109: invokevirtual #27                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.getVariant:()I",
+    "116: invokevirtual #66                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_9236_:()Lnet/minecraft/world/level/Level;",
+    "141: invokevirtual #72                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_20191_:()Lnet/minecraft/world/phys/AABB;",
+    "147: invokevirtual #80                 // Method net/minecraft/world/phys/AABB.m_82400_:(D)Lnet/minecraft/world/phys/AABB;",
+    "150: invokevirtual #84                 // Method net/minecraft/server/level/ServerLevel.m_45976_:(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;",
+    "153: invokeinterface #90,  1           // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;",
+    "162: invokeinterface #97,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z",
+    "172: invokeinterface #101,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;",
+    "190: invokevirtual #17                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.isMini:()Z",
+    "198: invokevirtual #27                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.getVariant:()I",
+    "206: invokevirtual #104                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_6084_:()Z",
+    "214: invokevirtual #107                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_21224_:()Z",
+    "222: invokevirtual #62                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.ftboss$blocksManorDamage:()Z",
+    "243: invokestatic  #113                // Method net/farmingtales/ftboss/util/ManorDamageRules.remainingDamage:(FZZ)F",
+    "249: invokevirtual #27                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.getVariant:()I",
+    "257: invokevirtual #17                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.isMini:()Z",
+    "277: invokestatic  #120                // Method net/farmingtales/ftboss/boss/ai/ManorAdaptiveShield.reduce:(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;F)F",
+    "286: invokestatic  #124                // Method net/farmingtales/ftboss/boss/ai/ManorDefense.reduce:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/world/damagesource/DamageSource;F)F",
+    "293: invokevirtual #128                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_6103_:()F",
+    "296: invokestatic  #134                // Method java/lang/Math.max:(FF)F",
+    "305: invokestatic  #137                // Method java/lang/Math.min:(FF)F",
+    "316: invokestatic  #134                // Method java/lang/Math.max:(FF)F",
+    "321: new           #139                // class net/minecraftforge/event/entity/living/LivingDamageEvent",
+    "329: invokespecial #142                // Method net/minecraftforge/event/entity/living/LivingDamageEvent.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;F)V",
+    "334: getstatic     #148                // Field net/minecraftforge/common/MinecraftForge.EVENT_BUS:Lnet/minecraftforge/eventbus/api/IEventBus;",
+    "339: invokeinterface #154,  2          // InterfaceMethod net/minecraftforge/eventbus/api/IEventBus.post:(Lnet/minecraftforge/eventbus/api/Event;)Z",
+    "351: invokevirtual #157                // Method net/minecraftforge/event/entity/living/LivingDamageEvent.getAmount:()F",
+    "358: invokestatic  #160                // Method net/farmingtales/ftboss/util/ManorDamageRules.ignored:(F)Z",
+    "384: invokevirtual #164                // Method net/farmingtales/ftboss/entity/EasterBossEntity.ftboss$shareManorDamage:(FLnet/minecraft/world/damagesource/DamageSource;)F",
+    "401: invokevirtual #168                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_7911_:(F)V",
+    "412: invokestatic  #134                // Method java/lang/Math.max:(FF)F"
+  ],
+  "currentSettleCalls": [
+    "public static float[] settle(net.farmingtales.ftboss.entity.EasterBossEntity, net.minecraft.world.damagesource.DamageSource, float);",
+    "3: invokestatic  #29                 // Method net/farmingtales/ftboss/event/NativeManorDamageEvents.onLivingHurt:(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;F)F",
+    "8: invokestatic  #34                 // Method java/lang/Float.isFinite:(F)Z",
+    "26: invokeinterface #42,  3           // InterfaceMethod net/farmingtales/ftboss/boss/ai/NativeManorFinalDamageAccess.ftboss$reduceManorDamage:(Lnet/minecraft/world/damagesource/DamageSource;F)F",
+    "37: invokestatic  #46                 // Method net/farmingtales/ftboss/util/ManorSpellRules.cap:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/world/damagesource/DamageSource;F)F",
+    "44: invokestatic  #34                 // Method java/lang/Float.isFinite:(F)Z",
+    "61: invokeinterface #52,  1           // InterfaceMethod net/farmingtales/ftboss/boss/ai/NativeManorFinalDamageAccess.ftboss$manorSparrow:()Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+    "69: invokevirtual #9                  // Method net/farmingtales/ftboss/entity/EasterBossEntity.isMini:()Z",
+    "76: invokevirtual #19                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.getVariant:()I",
+    "94: invokeinterface #56,  1           // InterfaceMethod net/farmingtales/ftboss/boss/ai/NativeManorFinalDamageAccess.ftboss$blocksManorDamage:()Z",
+    "113: invokevirtual #9                  // Method net/farmingtales/ftboss/entity/EasterBossEntity.isMini:()Z",
+    "120: invokevirtual #19                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.getVariant:()I",
+    "127: invokevirtual #59                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.level:()Lnet/minecraft/world/level/Level;",
+    "152: invokevirtual #65                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.getBoundingBox:()Lnet/minecraft/world/phys/AABB;",
+    "158: invokevirtual #71                 // Method net/minecraft/world/phys/AABB.inflate:(D)Lnet/minecraft/world/phys/AABB;",
+    "161: invokevirtual #77                 // Method net/minecraft/server/level/ServerLevel.getEntitiesOfClass:(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;",
+    "164: invokeinterface #81,  1           // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;",
+    "173: invokeinterface #87,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z",
+    "183: invokeinterface #92,  1           // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;",
+    "201: invokevirtual #9                  // Method net/farmingtales/ftboss/entity/EasterBossEntity.isMini:()Z",
+    "209: invokevirtual #19                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.getVariant:()I",
+    "217: invokevirtual #96                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.isAlive:()Z",
+    "225: invokevirtual #99                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.isDeadOrDying:()Z",
+    "236: invokeinterface #56,  1           // InterfaceMethod net/farmingtales/ftboss/boss/ai/NativeManorFinalDamageAccess.ftboss$blocksManorDamage:()Z",
+    "259: invokestatic  #102                // Method net/farmingtales/ftboss/util/ManorDamageRules.remainingDamage:(FZZ)F",
+    "265: invokevirtual #19                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.getVariant:()I",
+    "273: invokevirtual #9                  // Method net/farmingtales/ftboss/entity/EasterBossEntity.isMini:()Z",
+    "293: invokestatic  #110                // Method net/farmingtales/ftboss/boss/ai/ManorAdaptiveShield.reduce:(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;F)F",
+    "302: invokestatic  #115                // Method net/farmingtales/ftboss/boss/ai/ManorDefense.reduce:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/world/damagesource/DamageSource;F)F",
+    "309: invokevirtual #119                // Method net/farmingtales/ftboss/entity/EasterBossEntity.getAbsorptionAmount:()F",
+    "312: invokestatic  #123                // Method java/lang/Math.max:(FF)F",
+    "321: invokestatic  #129                // Method java/lang/Math.min:(FF)F",
+    "332: invokestatic  #123                // Method java/lang/Math.max:(FF)F",
+    "341: invokestatic  #132                // Method net/farmingtales/ftboss/event/NativeManorDamageEvents.damageEvent:(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;F)Lnet/farmingtales/ftboss/event/NativeWeaponDamageEvent$BeforeHealth;",
+    "348: invokestatic  #136                // Method net/farmingtales/ftboss/event/NativeManorDamageEvents.post:(Lnet/farmingtales/ftboss/event/NativeWeaponDamageEvent$BeforeHealth;)Z",
+    "358: invokevirtual #140                // Method net/farmingtales/ftboss/event/NativeWeaponDamageEvent$BeforeHealth.getAmount:()F",
+    "365: invokestatic  #145                // Method net/farmingtales/ftboss/util/ManorDamageRules.ignored:(F)Z",
+    "392: invokeinterface #148,  3          // InterfaceMethod net/farmingtales/ftboss/boss/ai/NativeManorFinalDamageAccess.ftboss$shareManorDamage:(FLnet/minecraft/world/damagesource/DamageSource;)F",
+    "411: invokevirtual #152                // Method net/farmingtales/ftboss/entity/EasterBossEntity.setAbsorptionAmount:(F)V",
+    "422: invokestatic  #123                // Method java/lang/Math.max:(FF)F"
+  ],
+  "currentBridgeCalls": {
+    "onLivingHurt": [
+      "public static float onLivingHurt(net.minecraft.world.entity.LivingEntity, net.minecraft.world.damagesource.DamageSource, float);",
+      "0: new           #7                  // class net/neoforged/neoforge/common/damagesource/DamageContainer",
+      "6: invokespecial #9                  // Method net/neoforged/neoforge/common/damagesource/DamageContainer.\"<init>\":(Lnet/minecraft/world/damagesource/DamageSource;F)V",
+      "12: invokestatic  #12                 // Method net/farmingtales/ftboss/event/NativeWeaponDamagePhases.beforeMitigation:(Lnet/minecraft/world/entity/LivingEntity;Lnet/neoforged/neoforge/common/damagesource/DamageContainer;)Z",
+      "17: invokevirtual #18                 // Method net/neoforged/neoforge/common/damagesource/DamageContainer.getNewDamage:()F"
+    ],
+    "damageEvent": [
+      "public static net.farmingtales.ftboss.event.NativeWeaponDamageEvent$BeforeHealth damageEvent(net.minecraft.world.entity.LivingEntity, net.minecraft.world.damagesource.DamageSource, float);",
+      "0: new           #22                 // class net/farmingtales/ftboss/event/NativeWeaponDamageEvent$BeforeHealth",
+      "5: new           #7                  // class net/neoforged/neoforge/common/damagesource/DamageContainer",
+      "11: invokespecial #9                  // Method net/neoforged/neoforge/common/damagesource/DamageContainer.\"<init>\":(Lnet/minecraft/world/damagesource/DamageSource;F)V",
+      "14: invokespecial #24                 // Method net/farmingtales/ftboss/event/NativeWeaponDamageEvent$BeforeHealth.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/neoforged/neoforge/common/damagesource/DamageContainer;)V"
+    ],
+    "post": [
+      "public static boolean post(net.farmingtales.ftboss.event.NativeWeaponDamageEvent$BeforeHealth);",
+      "0: getstatic     #27                 // Field net/neoforged/neoforge/common/NeoForge.EVENT_BUS:Lnet/neoforged/bus/api/IEventBus;",
+      "4: invokeinterface #33,  2           // InterfaceMethod net/neoforged/bus/api/IEventBus.post:(Lnet/neoforged/bus/api/Event;)Lnet/neoforged/bus/api/Event;",
+      "11: invokevirtual #39                 // Method net/farmingtales/ftboss/event/NativeWeaponDamageEvent$BeforeHealth.isCanceled:()Z"
+    ]
+  },
+  "currentCustomPhaseCalls": {
+    "beforeMitigation": [
+      "public static boolean beforeMitigation(net.minecraft.world.entity.LivingEntity, net.neoforged.neoforge.common.damagesource.DamageContainer);",
+      "0: new           #7                  // class net/farmingtales/ftboss/event/NativeWeaponDamageEvent$BeforeMitigation",
+      "6: invokespecial #9                  // Method net/farmingtales/ftboss/event/NativeWeaponDamageEvent$BeforeMitigation.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/neoforged/neoforge/common/damagesource/DamageContainer;)V",
+      "10: getstatic     #12                 // Field net/neoforged/neoforge/common/NeoForge.EVENT_BUS:Lnet/neoforged/bus/api/IEventBus;",
+      "14: invokeinterface #18,  2           // InterfaceMethod net/neoforged/bus/api/IEventBus.post:(Lnet/neoforged/bus/api/Event;)Lnet/neoforged/bus/api/Event;",
+      "21: invokevirtual #24                 // Method net/farmingtales/ftboss/event/NativeWeaponDamageEvent$BeforeMitigation.isCanceled:()Z",
+      "29: invokevirtual #28                 // Method net/neoforged/neoforge/common/damagesource/DamageContainer.setNewDamage:(F)V",
+      "33: invokevirtual #24                 // Method net/farmingtales/ftboss/event/NativeWeaponDamageEvent$BeforeMitigation.isCanceled:()Z",
+      "40: invokevirtual #34                 // Method net/neoforged/neoforge/common/damagesource/DamageContainer.getNewDamage:()F"
+    ],
+    "beforeHealth": [
+      "public static float beforeHealth(net.neoforged.neoforge.common.damagesource.DamageContainer, net.minecraft.world.entity.LivingEntity);",
+      "0: new           #38                 // class net/farmingtales/ftboss/event/NativeWeaponDamageEvent$BeforeHealth",
+      "6: invokespecial #40                 // Method net/farmingtales/ftboss/event/NativeWeaponDamageEvent$BeforeHealth.\"<init>\":(Lnet/minecraft/world/entity/LivingEntity;Lnet/neoforged/neoforge/common/damagesource/DamageContainer;)V",
+      "10: getstatic     #12                 // Field net/neoforged/neoforge/common/NeoForge.EVENT_BUS:Lnet/neoforged/bus/api/IEventBus;",
+      "14: invokeinterface #18,  2           // InterfaceMethod net/neoforged/bus/api/IEventBus.post:(Lnet/neoforged/bus/api/Event;)Lnet/neoforged/bus/api/Event;",
+      "21: invokevirtual #41                 // Method net/farmingtales/ftboss/event/NativeWeaponDamageEvent$BeforeHealth.isCanceled:()Z",
+      "29: invokevirtual #28                 // Method net/neoforged/neoforge/common/damagesource/DamageContainer.setNewDamage:(F)V",
+      "33: invokevirtual #34                 // Method net/neoforged/neoforge/common/damagesource/DamageContainer.getNewDamage:()F"
+    ]
+  },
+  "actualDefinedSettlementMatchesCandidateBytes": true,
+  "officialLocalNativeApi": [
+    {
+      "class": "net.neoforged.neoforge.event.entity.living.LivingIncomingDamageEvent",
+      "classSha256": "0f13dcd0307f561141a4f1883c1cad2d345efbad52953396a50ef8baba626d87",
+      "publicSignatures": [
+        "public net.neoforged.neoforge.event.entity.living.LivingIncomingDamageEvent(net.minecraft.world.entity.LivingEntity, net.neoforged.neoforge.common.damagesource.DamageContainer);",
+        "public net.neoforged.neoforge.common.damagesource.DamageContainer getContainer();",
+        "public net.minecraft.world.damagesource.DamageSource getSource();",
+        "public float getAmount();",
+        "public float getOriginalAmount();",
+        "public void setAmount(float);",
+        "public void addReductionModifier(net.neoforged.neoforge.common.damagesource.DamageContainer$Reduction, net.neoforged.neoforge.common.damagesource.IReductionFunction);",
+        "public void setInvulnerabilityTicks(int);"
+      ]
+    },
+    {
+      "class": "net.neoforged.neoforge.event.entity.living.LivingDamageEvent$Pre",
+      "classSha256": "334c37bea8cb1fdfe6a1a27a01fb9eba6c8ce43e30d3ec13706367be75f18cac",
+      "publicSignatures": [
+        "public net.neoforged.neoforge.event.entity.living.LivingDamageEvent$Pre(net.minecraft.world.entity.LivingEntity, net.neoforged.neoforge.common.damagesource.DamageContainer);",
+        "public net.neoforged.neoforge.common.damagesource.DamageContainer getContainer();",
+        "public net.minecraft.world.damagesource.DamageSource getSource();",
+        "public float getNewDamage();",
+        "public float getOriginalDamage();",
+        "public void setNewDamage(float);"
+      ]
+    },
+    {
+      "class": "net.neoforged.neoforge.event.entity.living.LivingDamageEvent$Post",
+      "classSha256": "b060bb9c2dd61be9ca3947c12cb020e25adf1afb8767f9d4fa967a61a04c4ed4",
+      "publicSignatures": [
+        "public net.neoforged.neoforge.event.entity.living.LivingDamageEvent$Post(net.minecraft.world.entity.LivingEntity, net.neoforged.neoforge.common.damagesource.DamageContainer);",
+        "public float getOriginalDamage();",
+        "public net.minecraft.world.damagesource.DamageSource getSource();",
+        "public float getNewDamage();",
+        "public float getBlockedDamage();",
+        "public float getShieldDamage();",
+        "public int getPostAttackInvulnerabilityTicks();",
+        "public float getReduction(net.neoforged.neoforge.common.damagesource.DamageContainer$Reduction);"
+      ]
+    },
+    {
+      "class": "net.neoforged.neoforge.common.damagesource.DamageContainer",
+      "classSha256": "4fb68682a4c67f884e775cfc45727bb3c893e8d42d5e7427442dcd5007dc07fe",
+      "publicSignatures": [
+        "public net.neoforged.neoforge.common.damagesource.DamageContainer(net.minecraft.world.damagesource.DamageSource, float);",
+        "public float getOriginalDamage();",
+        "public net.minecraft.world.damagesource.DamageSource getSource();",
+        "public void setNewDamage(float);",
+        "public float getNewDamage();",
+        "public void addModifier(net.neoforged.neoforge.common.damagesource.DamageContainer$Reduction, net.neoforged.neoforge.common.damagesource.IReductionFunction);",
+        "public float getBlockedDamage();",
+        "public float getShieldDamage();",
+        "public void setPostAttackInvulnerabilityTicks(int);",
+        "public int getPostAttackInvulnerabilityTicks();",
+        "public float getReduction(net.neoforged.neoforge.common.damagesource.DamageContainer$Reduction);",
+        "public void setBlockedDamage(net.neoforged.neoforge.event.entity.living.LivingShieldBlockEvent);",
+        "public void setReduction(net.neoforged.neoforge.common.damagesource.DamageContainer$Reduction, float);"
+      ]
+    }
+  ],
+  "nativeBaselineReport": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-native-damage-event-baseline-v1-552e8f09.json",
+  "nativeBaselineSha256": "2a4cb65f0913f5b36d9d47f93d5aac2812f425533a3f6dafb2d7e31345ad63dd",
+  "nativeBaselineChecks": 353,
+  "nativeEventGapProven": true,
+  "apiCompatibilityNotAccepted": true,
+  "implementationRequirements": [
+    "Preserve original event mutability/cancellation, amount order and exact before-health settlement semantics.",
+    "Use a coherent per-invocation original-damage/reduction container with nested caller/exception restoration.",
+    "Honor incoming cancellation, amount changes, reduction modifiers and invulnerability semantics; do not merely emit synthetic notifications.",
+    "Emit native Pre at the real pre-health phase and Post only after actual settled health application, never on rejected/canceled paths.",
+    "Keep original custom phases and accepted Stage29/Sparrow behavior; verify listener ordering, nested/throwing observers and no duplicate callbacks.",
+    "Do not modify the paused weapon source tree or independent-event product."
+  ],
+  "modelOrMusicUploaded": false,
+  "productChanged": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}
