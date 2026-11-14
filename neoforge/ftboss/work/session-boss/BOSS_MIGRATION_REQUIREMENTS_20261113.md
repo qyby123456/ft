@@ -1,3 +1,7 @@
+## Stage29 庄园减伤上下文限定验收，2026-11-14
+
+真实空手玩家攻击已复现并修复 NeoForge damageContainers 空栈异常；仅修改 NativeManorFinalDamageInstaller，一个候选类变化。72 项合成生命周期检查、701 项真实玩家/原自定义 BeforeHealth/生命变化与自然 tick 检查、22 项最终定义类检查通过，完整保存/退出 0，冻结输入不变。采集中文选项编码事故的 11 个自有文件已按 SHA256 迁回，原失败回执保留，后续使用 Base64URL UTF-8 选项。详见 work/session-boss/MANOR_DAMAGE_CONTEXT_20261114.md 与 reports/manor-damage-context-v1-closeout-20261114.json。原生 LivingDamage.Post 契约尚未完成（本轮 0 回调）；麻雀闪避未移植，现有真实正向基线可用。NOT-INSTALLABLE，不部署；模型/音乐等资源禁止上传，武器/Session 暂停，两个正式实例只读。
+
 ## 新 JVM 有人值守工具与 V18 超时证据，2026-11-14
 
 V18 仅延长真实确认页等待至 180 秒并记录页面状态，保留原严格登录/物品/120 自然 tick 断言。已从接受的 V6 正常存档创建全新副本，启动前及实际页面出现时通知用户立即点击 Create Backup and Load；本次到期未确认，严格失败、正常退出且无服务端或玩家登录，不能宣称持久化验收通过。当前没有等待窗口或残留进程。下次须先由用户确认已在电脑前，再启动准备好的工具；不得自动重试、复用失败世界、猜测点击、调用私有确认回调或修改警告标志。见 work/session-boss/CURIO_ATTENDED_RELOAD_RECOVERY_20261114.md 和对应检查点。

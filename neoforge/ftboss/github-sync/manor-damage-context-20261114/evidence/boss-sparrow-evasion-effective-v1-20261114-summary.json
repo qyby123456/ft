@@ -1,0 +1,333 @@
+{
+  "originalEvasionCallsites": [
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "playerOwner(Lnet/minecraft/world/entity/Entity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/minecraft/server/level/ServerPlayer;",
+      "instructionIndex": 25,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.validPlayer(Lnet/minecraft/server/level/ServerPlayer;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "confirmedHit(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/world/damagesource/DamageSource;)V",
+      "instructionIndex": 1,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.eligible(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "confirmedHit(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/world/damagesource/DamageSource;)V",
+      "instructionIndex": 19,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.playerOwner(Lnet/minecraft/world/entity/Entity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/minecraft/server/level/ServerPlayer;"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "confirmedHit(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/world/damagesource/DamageSource;)V",
+      "instructionIndex": 26,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.playerOwner(Lnet/minecraft/world/entity/Entity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/minecraft/server/level/ServerPlayer;"
+    },
+    {
+      "label": "original",
+      "kind": "bootstrap-handle",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "confirmedHit(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/world/damagesource/DamageSource;)V",
+      "instructionIndex": 46,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.lambda$confirmedHit$0(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/boss/ai/SparrowHitEvasion$State;"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "ally(Lnet/minecraft/server/level/ServerLevel;Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 26,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.validAlly(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "ally(Lnet/minecraft/server/level/ServerLevel;Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 33,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.validAlly(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z"
+    },
+    {
+      "label": "original",
+      "kind": "bootstrap-handle",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "ally(Lnet/minecraft/server/level/ServerLevel;Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 45,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.lambda$ally$1(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "nearest(Lnet/minecraft/world/phys/Vec3;Ljava/util/List;)D",
+      "instructionIndex": 17,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.horizontal(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)D"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "safe(Lnet/minecraft/world/level/pathfinder/Path;Lnet/minecraft/server/level/ServerLevel;Lnet/farmingtales/ftboss/entity/EasterBossEntity;Ljava/util/List;D)Z",
+      "instructionIndex": 72,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.nearest(Lnet/minecraft/world/phys/Vec3;Ljava/util/List;)D"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 15,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.eligible(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 30,
+      "target": "net/farmingtales/ftboss/util/SparrowHitEvasionRules.active(JJJ)Z"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 34,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.clear(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)V"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 56,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.stopOwnedPath(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/boss/ai/SparrowHitEvasion$State;)V"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 77,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.validPlayer(Lnet/minecraft/server/level/ServerPlayer;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 87,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.clear(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)V"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 116,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.validPlayer(Lnet/minecraft/server/level/ServerPlayer;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 134,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.ally(Lnet/minecraft/server/level/ServerLevel;Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 139,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.nearest(Lnet/minecraft/world/phys/Vec3;Ljava/util/List;)D"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 150,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.horizontal(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)D"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 162,
+      "target": "net/farmingtales/ftboss/util/SparrowHitEvasionRules.settled(DZD)Z"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 165,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.clear(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)V"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 249,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.rotated(Lnet/minecraft/world/phys/Vec3;D)Lnet/minecraft/world/phys/Vec3;"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 336,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.rotated(Lnet/minecraft/world/phys/Vec3;D)Lnet/minecraft/world/phys/Vec3;"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 353,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.horizontal(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)D"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 369,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.horizontal(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)D"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 392,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.safe(Lnet/minecraft/world/level/pathfinder/Path;Lnet/minecraft/server/level/ServerLevel;Lnet/farmingtales/ftboss/entity/EasterBossEntity;Ljava/util/List;D)Z"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 429,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.horizontal(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)D"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 432,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.nearest(Lnet/minecraft/world/phys/Vec3;Ljava/util/List;)D"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 441,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.horizontal(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)D"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 446,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.horizontal(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)D"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 447,
+      "target": "net/farmingtales/ftboss/util/SparrowHitEvasionRules.score(ZDDDDDDD)D"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;",
+      "instructionIndex": 480,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.stopOwnedPath(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/boss/ai/SparrowHitEvasion$State;)V"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "clear(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)V",
+      "instructionIndex": 9,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.stopOwnedPath(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/boss/ai/SparrowHitEvasion$State;)V"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "leave(Lnet/minecraftforge/event/entity/EntityLeaveLevelEvent;)V",
+      "instructionIndex": 14,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.clear(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)V"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "lambda$ally$1(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z",
+      "instructionIndex": 2,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.validAlly(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion",
+      "method": "lambda$confirmedHit$0(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/boss/ai/SparrowHitEvasion$State;",
+      "instructionIndex": 2,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion$State.<init>()V"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/entity/EasterBossEntity",
+      "method": "hitFeedback(Lnet/minecraft/world/damagesource/DamageSource;)V",
+      "instructionIndex": 2,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.confirmedHit(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/world/damagesource/DamageSource;)V"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/entity/EasterBossEntity",
+      "method": "sparrowTick()V",
+      "instructionIndex": 94,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.prepare(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/farmingtales/ftboss/entity/EasterBossEntity;"
+    },
+    {
+      "label": "original",
+      "kind": "direct",
+      "class": "net/farmingtales/ftboss/entity/EasterBossEntity",
+      "method": "sparrowTick()V",
+      "instructionIndex": 115,
+      "target": "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.evadeSupport(Lnet/farmingtales/ftboss/boss/ai/ManorKiting;Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z"
+    }
+  ],
+  "currentEvasionCallsites": [],
+  "mixinDeclarations": 470,
+  "unresolvedMixinDeclarations": 0,
+  "staticEvidenceOnly": true,
+  "effectiveEquivalentBehaviorOrRuntimeDefectNotYetProven": true,
+  "productChanged": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}

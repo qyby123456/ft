@@ -1,0 +1,207 @@
+{
+  "sourceOnly": true,
+  "noModelTextureAnimationOrMusicPayloads": true,
+  "rawCandidateAndWorldResourcesLocalOnly": true,
+  "previousCommit": "58f19d05b0a2a5b3c9075608d4e200ab3865592c",
+  "acceptedScope": "Per-invocation NeoForge damage context for original Manor armor and magic reductions; actual player attack lowers real Boss health without empty-stack failure",
+  "candidateSha256": "78caa46ef163c4f3ee9cc3d1a90d5ee58e1bbf4d791f213fca390986f987692f",
+  "nativeChecks": 701,
+  "loadedClassChecks": 22,
+  "syntheticLifecycleChecks": 72,
+  "sourceFiles": [
+    {
+      "sourcePath": "AGENTS.md",
+      "gitPath": "neoforge/ftboss/AGENTS.md",
+      "bytes": 66275,
+      "sha256": "ea8a2c9e1954fab81f6a165f45efdf04a3722f6b008845384b332374e1161812"
+    },
+    {
+      "sourcePath": "work/session-boss/BOSS_MIGRATION_REQUIREMENTS_20261113.md",
+      "gitPath": "neoforge/ftboss/work/session-boss/BOSS_MIGRATION_REQUIREMENTS_20261113.md",
+      "bytes": 39336,
+      "sha256": "6362caeb11e68eb49851f5e2a9cd0bd92af256f20654f0e1879504d091c16842"
+    },
+    {
+      "sourcePath": "work/session-boss/MANOR_DAMAGE_CONTEXT_20261114.md",
+      "gitPath": "neoforge/ftboss/work/session-boss/MANOR_DAMAGE_CONTEXT_20261114.md",
+      "bytes": 3573,
+      "sha256": "21f3618274b3be715647019e938fe5d666b355fc9227af02167851b4d08064c1"
+    },
+    {
+      "sourcePath": "work/session-boss/src/manor-damage-context-v1/net/farmingtales/ftboss/boss/ai/NativeManorFinalDamageInstaller.java",
+      "gitPath": "neoforge/ftboss/work/session-boss/src/manor-damage-context-v1/net/farmingtales/ftboss/boss/ai/NativeManorFinalDamageInstaller.java",
+      "bytes": 19473,
+      "sha256": "ff0c434d793a91ce569f202a8198ae36b53f3c9429d15bb71ea36a4226f57889"
+    },
+    {
+      "sourcePath": "work/session-boss/tests/SparrowEvasionCallsitesV1.java",
+      "gitPath": "neoforge/ftboss/work/session-boss/tests/SparrowEvasionCallsitesV1.java",
+      "bytes": 9316,
+      "sha256": "3de3a057539b8cc0559e6f09f88a396d0f1c644737703495747110a4d42a103f"
+    },
+    {
+      "sourcePath": "work/session-boss/tests/SparrowEvasionNativeBaselineV1.java",
+      "gitPath": "neoforge/ftboss/work/session-boss/tests/SparrowEvasionNativeBaselineV1.java",
+      "bytes": 12394,
+      "sha256": "a08b8f20e623f549001693fdb2bbae8720ac4ce6e6936cb4d865a922c55defa3"
+    },
+    {
+      "sourcePath": "work/session-boss/tests/ManorDamageContextNativeV1.java",
+      "gitPath": "neoforge/ftboss/work/session-boss/tests/ManorDamageContextNativeV1.java",
+      "bytes": 12894,
+      "sha256": "c492313976d949855db4de6d223c61566df5d64038b4b18d544615b80c57e3dd"
+    },
+    {
+      "sourcePath": "work/session-boss/tests/ManorDamageContextWrapperProofV1.java",
+      "gitPath": "neoforge/ftboss/work/session-boss/tests/ManorDamageContextWrapperProofV1.java",
+      "bytes": 8873,
+      "sha256": "d5d2ae32566d95d47d3c08a95ac892d8a773a2c846c53259032fe3a8bf17b01b"
+    },
+    {
+      "sourcePath": "work/session-boss/tests/ManorDamageLoadedClassAuditV1.java",
+      "gitPath": "neoforge/ftboss/work/session-boss/tests/ManorDamageLoadedClassAuditV1.java",
+      "bytes": 3776,
+      "sha256": "981d2e680bcc129ce6c0cf7e6397194162d926d4db8893ee03062383e40c6cec"
+    },
+    {
+      "sourcePath": "work/session-boss/tests/LoadedBossClassCaptureV1.java",
+      "gitPath": "neoforge/ftboss/work/session-boss/tests/LoadedBossClassCaptureV1.java",
+      "bytes": 1309,
+      "sha256": "b32a379316f7d802b60c273cf0995b5185d247357c7ccda535c09878c8fb2912"
+    },
+    {
+      "sourcePath": "work/session-boss/tests/LoadedBossClassCaptureV2.java",
+      "gitPath": "neoforge/ftboss/work/session-boss/tests/LoadedBossClassCaptureV2.java",
+      "bytes": 3139,
+      "sha256": "760899587e630ff60550271ee67645556330f0b9e766cb1a87f9a0cf8bb0b5f6"
+    },
+    {
+      "sourcePath": "work/session-boss/tests/LoadedBossClassCaptureV3.java",
+      "gitPath": "neoforge/ftboss/work/session-boss/tests/LoadedBossClassCaptureV3.java",
+      "bytes": 3449,
+      "sha256": "9efc84d01e059f956cc0fd5a05e31fa8178fcdae7c478b5506c2147343d518d9"
+    },
+    {
+      "sourcePath": "work/session-boss/tools/audit_boss_sparrow_evasion_effective_v1.py",
+      "gitPath": "neoforge/ftboss/work/session-boss/tools/audit_boss_sparrow_evasion_effective_v1.py",
+      "bytes": 4367,
+      "sha256": "b4a552895ff679d34542683e9c4b96392299d3441eb3aad655205ae9830adf2d"
+    },
+    {
+      "sourcePath": "work/session-boss/tools/run_boss_sparrow_evasion_native_baseline_v1.py",
+      "gitPath": "neoforge/ftboss/work/session-boss/tools/run_boss_sparrow_evasion_native_baseline_v1.py",
+      "bytes": 11191,
+      "sha256": "2d5a9e33f62b71046a3d47cfa1d140a84f6073aaf014bc46cc20f20e42d444ee"
+    },
+    {
+      "sourcePath": "work/session-boss/tools/run_boss_sparrow_evasion_native_baseline_v2.py",
+      "gitPath": "neoforge/ftboss/work/session-boss/tools/run_boss_sparrow_evasion_native_baseline_v2.py",
+      "bytes": 12019,
+      "sha256": "1b936c2d219aa54326b80574d59a82634555b2e0dcb082a10f30030cd4d9c429"
+    },
+    {
+      "sourcePath": "work/session-boss/tools/audit_boss_manor_damage_context_v1.py",
+      "gitPath": "neoforge/ftboss/work/session-boss/tools/audit_boss_manor_damage_context_v1.py",
+      "bytes": 3108,
+      "sha256": "6233ce2386456489b9c37b6380a48cb1711730b4318ecff102290cd1975aabc8"
+    },
+    {
+      "sourcePath": "work/session-boss/tools/build_boss_manor_damage_context_v1.py",
+      "gitPath": "neoforge/ftboss/work/session-boss/tools/build_boss_manor_damage_context_v1.py",
+      "bytes": 4881,
+      "sha256": "ffd4dd342d5a0c02c3deb00d103f71ce382e8aef5b09ac2a417256a90ef70de6"
+    },
+    {
+      "sourcePath": "work/session-boss/tools/run_boss_manor_damage_context_native_v1.py",
+      "gitPath": "neoforge/ftboss/work/session-boss/tools/run_boss_manor_damage_context_native_v1.py",
+      "bytes": 11877,
+      "sha256": "730b94e696ce07c7074b542c94112654cf247e88c0593b34cc18239f5f6a96a0"
+    },
+    {
+      "sourcePath": "work/session-boss/tools/verify_loaded_class_capture_utf8_v1.py",
+      "gitPath": "neoforge/ftboss/work/session-boss/tools/verify_loaded_class_capture_utf8_v1.py",
+      "bytes": 2537,
+      "sha256": "b50a2c922112a8d3be7e11d61a86ca3d31fdc39d269e7a622ea304f6c84ec502"
+    },
+    {
+      "sourcePath": "work/session-boss/tools/verify_source_only_upload_v1.py",
+      "gitPath": "neoforge/ftboss/work/session-boss/tools/verify_source_only_upload_v1.py",
+      "bytes": 4126,
+      "sha256": "4f9226724ae6473701c9490d4118a7f0f910a964b9c0b95444553e3c6d56fa7f"
+    },
+    {
+      "sourcePath": "work/session-boss/tools/publish_boss_manor_damage_context_v1.py",
+      "gitPath": "neoforge/ftboss/work/session-boss/tools/publish_boss_manor_damage_context_v1.py",
+      "bytes": 8299,
+      "sha256": "08d7118813eaa3066d02fb1de135a0d54788204399490f93e9057d61e944fd6d"
+    },
+    {
+      "sourcePath": "work/session-boss/tools/publish_boss_manor_damage_context_v2.py",
+      "gitPath": "neoforge/ftboss/work/session-boss/tools/publish_boss_manor_damage_context_v2.py",
+      "bytes": 8899,
+      "sha256": "341967ec9e20878f559bbce650b7e458fa85d6236720bceb383d1759d241446f"
+    },
+    {
+      "sourcePath": "work/session-boss/reports/manor-damage-context-v1-closeout-20261114.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-damage-context-20261114/evidence/manor-damage-context-v1-closeout-20261114.json",
+      "bytes": 5949,
+      "sha256": "5a284028bc499e96961746bfc357740c064562afce5fd13a5a27604d76c44de1"
+    },
+    {
+      "sourcePath": "work/session-boss/reports/sparrow-evasion-native-baseline-v2-39125bde.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-damage-context-20261114/evidence/sparrow-evasion-native-baseline-v2-39125bde.json",
+      "bytes": 26580,
+      "sha256": "ff9b2d1b6cb31ef27abb5c48dd36bdcef4a6853ae02a52e47953e9d0cd2315ec"
+    },
+    {
+      "sourcePath": "work/session-boss/reports/manor-damage-context-native-v1-820f458d.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-damage-context-20261114/evidence/manor-damage-context-native-v1-820f458d.json",
+      "bytes": 27418,
+      "sha256": "caa9e18e218c2fb0af18bf6843bc66ca065cc5332535dcf7bfe98e0ae2b629dd"
+    },
+    {
+      "sourcePath": "work/session-boss/reports/boss-agent-path-encoding-incident-20261114.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-damage-context-20261114/evidence/boss-agent-path-encoding-incident-20261114.json",
+      "bytes": 315,
+      "sha256": "31ce2202293387d3e03450712c222e6c655df89b52a1830a9da8e1d2e41ad9f9"
+    },
+    {
+      "sourcePath": "work/session-boss/reports/boss-agent-path-encoding-recovery-plan-20261114.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-damage-context-20261114/evidence/boss-agent-path-encoding-recovery-plan-20261114.json",
+      "bytes": 6699,
+      "sha256": "95d8b4b09f9b4ec4db777a1dd100bbfe438d66a3ed47e34564f19ba977fe0c57"
+    },
+    {
+      "sourcePath": "work/session-boss/build/boss-manor-damage-context-v1-20261114/candidate-build-receipt.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-damage-context-20261114/evidence/boss-manor-damage-context-v1-20261114-candidate-build-receipt.json",
+      "bytes": 3033,
+      "sha256": "3bba9f6aba62041db15bd4194446be83eb7945689f6dbab32b455d29b56f7301"
+    },
+    {
+      "sourcePath": "work/session-boss/build/boss-manor-damage-context-audit-v1-20261114/audit-inputs.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-damage-context-20261114/evidence/boss-manor-damage-context-audit-v1-20261114-audit-inputs.json",
+      "bytes": 2370,
+      "sha256": "9e50df7201ccddbf4ae26467faff9f62b5e1033f5df938884ed7bea02bc34a1d"
+    },
+    {
+      "sourcePath": "work/session-boss/build/loaded-class-capture-utf8-v1-20261114/verification.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-damage-context-20261114/evidence/loaded-class-capture-utf8-v1-20261114-verification.json",
+      "bytes": 472,
+      "sha256": "583182ab2a617ed0842ea5110d67ab721dc3bd68bf5b18802b195026129920b6"
+    },
+    {
+      "sourcePath": "work/session-boss/build/boss-sparrow-evasion-effective-v1-20261114/summary.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-damage-context-20261114/evidence/boss-sparrow-evasion-effective-v1-20261114-summary.json",
+      "bytes": 19656,
+      "sha256": "c1f6ae8fda32bb9e59dc668422692f3793036bb3933b02838c2b25279727797c"
+    }
+  ],
+  "stage29ScopedAccepted": true,
+  "nativeLivingDamagePostContractAccepted": false,
+  "sparrowEvasionPortAccepted": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false,
+  "weaponsAndSessionPaused": true,
+  "next": "Complete original Sparrow evasion and native damage event compatibility, then remaining Boss client/authenticated battle/reward/lifecycle requirements. No deployment or formal overwrites."
+}
