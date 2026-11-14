@@ -1,5 +1,7 @@
 ## Stage30 麻雀原版受击闪避限定验收，2026-11-14
 
+源码及限定文字证据已推送 70ead9b29fdca72e924c8afc352058ebcafc50fc，44 个文件经独立远端 fetch/blob 大小与 SHA256 核验，完整 4425 文件树资源检查通过。核验后仅删除 Git 工作副本中 24 份重复 Java/Python 缓存（248040 字节），逐路径 skip-worktree，canonical 编译/运行输入、世界及所有资源保留。恢复入口 github-sync/checkpoint-sparrow-hit-evasion-20261114.json，清理持久化索引 github-sync/checkpoint-sparrow-hit-evasion-cleanup-20261114.json；必须按索引按需恢复，不重跑要求已清理源码全在场的旧发布器。
+
 原版 SparrowHitEvasion/State 的 25 个映射方法图及 25 个 ASM 检查通过，规则类字节原样保留，接入原版三处钩子。真实离线玩家空手攻击基础场景 971 项、原同伴掩护场景 772 项通过；分别观察到 22/16 个自然 tick 的原版自有路径，同伴控制保护 16 tick。原 60 tick 到期、no-AI 拒绝、实际实体离开清理通过，正常完整保存/退出 0，冻结输入未变。最终定义 EasterBoss 类 351 项检查限定复用，339 个方法不变，仅 hitFeedback/sparrowTick 改变；五个 Boss 定义字节一致，LivingEntity 不同且不在该复用证明范围。
 
 候选 SHA256 877309d1ff2332ab6d407cd1b456d39987109d17e8f6a8e98184abe55703c25b。原始 bootstrap、两次正向寻路失败和首次六类绑定错误均保留；原寻路安全阈值未放宽。同伴夹具自然空 fight/summoner ID 相等，仅证明该分支，不声称认证管理战斗；冻结同伴回执的 noAllyFixture=true 属继承标签错误，在限定收口中更正解释，不改写原证据。详见 work/session-boss/SPARROW_HIT_EVASION_20261114.md 与 reports/sparrow-hit-evasion-v2-closeout-20261114.json。

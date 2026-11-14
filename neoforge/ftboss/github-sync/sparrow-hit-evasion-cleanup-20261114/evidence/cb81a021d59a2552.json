@@ -1,0 +1,40 @@
+{
+  "operation": "V1 cleanup-metadata checkpoint prepare",
+  "accepted": false,
+  "failure": "Windows path length overflow on flattened nested verification.json target. No staging/commit/push occurred.",
+  "gitHeadUnchanged": "70ead9b29fdca72e924c8afc352058ebcafc50fc",
+  "partialTrackedFiles": [
+    "neoforge/ftboss/AGENTS.md",
+    "neoforge/ftboss/work/session-boss/SPARROW_HIT_EVASION_20261114.md"
+  ],
+  "partialUntrackedDuplicateCopies": [
+    {
+      "gitPath": "neoforge/ftboss/github-sync/sparrow-hit-evasion-cleanup-20261114/evidence/work__session-boss__reports__boss-sparrow-hit-evasion-source-checkpoint-v1-20261114__cleanup-plan.json",
+      "bytes": 5327,
+      "sha256": "37de4131223fa229b140fed06fd980acf5f24455ea620ce0934623a2c6d771ab"
+    },
+    {
+      "gitPath": "neoforge/ftboss/github-sync/sparrow-hit-evasion-cleanup-20261114/evidence/work__session-boss__reports__boss-sparrow-hit-evasion-source-checkpoint-v1-20261114__cleanup-result.json",
+      "bytes": 5374,
+      "sha256": "f2f575d2f927cb6db5527d8702a58723581d0e4f07e5b7ca19996d06cc51f562"
+    },
+    {
+      "gitPath": "neoforge/ftboss/github-sync/sparrow-hit-evasion-cleanup-20261114/evidence/work__session-boss__reports__boss-sparrow-hit-evasion-source-checkpoint-v1-20261114__remote-proof.json",
+      "bytes": 378,
+      "sha256": "d6a3bfe6d94d65185ad55368d95ab67111245e3140da382f6437e059d26d924f"
+    },
+    {
+      "gitPath": "neoforge/ftboss/github-sync/sparrow-hit-evasion-cleanup-20261114/evidence/work__session-boss__reports__boss-sparrow-hit-evasion-source-checkpoint-v1-20261114__source-only-audit.json",
+      "bytes": 448,
+      "sha256": "512de65bd5401346d8f29482a6ebc4e017320340a7c34c26e44abad7f8c83f90"
+    },
+    {
+      "gitPath": "neoforge/ftboss/github-sync/sparrow-hit-evasion-cleanup-20261114/evidence/work__session-boss__reports__sparrow-hit-evasion-source-cache-closeout-20261114.json",
+      "bytes": 5884,
+      "sha256": "1d244834ba2d422d145488ae613ac8274661308f5f152fc6ce2a943d45c7124c"
+    }
+  ],
+  "originalCanonicalTextAndEvidenceRetained": true,
+  "resolution": "V2 uses stable SHA256-based short evidence names, records original paths in the manifest, and allows only byte-exact selected unstaged copies from the failed preparation.",
+  "modelOrMusicUploaded": false
+}

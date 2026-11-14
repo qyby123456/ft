@@ -44,3 +44,7 @@ Restore absent duplicate Git source paths with `work/session-boss/tools/restore_
 Native LivingDamage.Post compatibility remains unaccepted (both native trials observe zero callbacks). Authenticated summon/managed-fight entry, complete normal/impossible battles, materials/rewards integration, multiplayer, full original visual/action fidelity and persistence/restart/dimension gates remain. Attended Curios reload must wait for the user's explicit presence; do not automate its confirmation or reuse failed worlds. Keep the full Boss goal active and do not deploy under the current formal-write prohibition.
 
 Primary receipt: `work/session-boss/reports/sparrow-hit-evasion-v2-closeout-20261114.json`.
+
+## Verified source checkpoint and cache eviction
+
+Feature commit `70ead9b29fdca72e924c8afc352058ebcafc50fc` is pushed on the existing source branch. Independent public fetch, object-ID blob reads, all 44 file byte/size/SHA256 comparisons and Git fsck pass. The full 4425-file Git tree passes resource exclusion and the staged source scan passes all 13 detector controls with no findings. Weapons/archive-storage/root README remain unchanged. After verification, exactly 24 duplicate Java/Python files (248040 bytes) were removed from the Git worktree, with skip-worktree recorded; canonical build/runtime inputs and every resource remain. Checkpoint manifests identify every expected absent path for on-demand restoration.
