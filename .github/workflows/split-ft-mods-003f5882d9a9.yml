@@ -1,0 +1,246 @@
+name: Split Forge mods into independent repositories
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      FT_SPLIT_TOKEN: ${{ secrets.FT_MOD_SPLIT_PUSH_20261114_003F5882 }}
+    steps:
+      - name: Split, independently clone, and verify each mod
+        shell: python
+        run: |
+          import base64
+          import gzip
+          import hashlib
+          import http.client
+          import io
+          import json
+          import os
+          import subprocess
+          import tempfile
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+          import zipfile
+          from pathlib import Path
+          
+          manifest = {'owner': 'qyby123456', 'source_commit': '003f5882d9a93b8383b8d3b571851184e176857d', 'metadata_asset': {'id': 745947073, 'name': 'independent-repository-metadata.zip', 'url': 'https://api.github.com/repos/qyby123456/ft/releases/assets/745947073', 'bytes': 5866521, 'sha256': 'c1f538d47c1395c5a1852c6cd0072ab2ee5d0bc8d1295ba8b6d190b5df64f17a'}, 'dungeon_asset': {'id': 745947253, 'name': 'ftdungeon-large-source-assets-20261114.zip', 'url': 'https://api.github.com/repos/qyby123456/ft/releases/assets/745947253', 'bytes': 11438013, 'sha256': '8746312261b0e3da42561d629cb1c3892e247c9da8f20faf4cf2d9490d217236'}, 'transport_release_id': 444939298, 'repositories': [{'name': 'FTBoss', 'prefix': 'FTBoss/Forge/projects/D/FT-SugarQueen-Boss-Mod', 'source_tree': '39662684476f0565a04cd1be8b162c211d834e6b', 'files': 6392, 'git_files': 6392, 'release_files': 0, 'metadata': [{'path': 'backup-index/SOURCE_INDEX.jsonl.gz', 'bytes': 372309, 'sha256': '419a21018f3313f5f3e755a7201721bdae70656bb3d511a13ec48e29ddf488f2', 'git_object': 'ebf0cb623ee9e6fa90d7a0b3ad33d371571d7106'}, {'path': 'backup-index/DEPENDENCIES.json', 'bytes': 501, 'sha256': '58362738163504d44fecd9d341cfef10a59054b271b6d908e66f1f01504a0d84', 'git_object': '184c545723beaa8540e243f0afd45a001d6dea68'}, {'path': 'REPOSITORY.md', 'bytes': 1162, 'sha256': 'aad578b44bb15bbed4aa3164e5ad4ed82f706c88f155cc0c152e6eeb796cc14c', 'git_object': '6bac510c6bc2ff7a7047bb3c567021f895ebb701'}, {'path': 'RESTORE.md', 'bytes': 500, 'sha256': '0bd6245dc580a08ed7e5a6479f87de40d1b2ae49b66d2284451cb16b22fbfe05', 'git_object': '271bebcc9d0e0d855c974d7c930fda069ee103d1'}], 'release': None, 'expected_tree': '816e9173bb14d8357e6790c5deb2424890c71354', 'local_cache': 'D:\\ft工程文件\\GitHub同步\\独立模组\\FTBoss.git', 'repository_id': 1457290844}, {'name': 'FTEvent', 'prefix': 'FTEvent/Forge', 'source_tree': '4daf038ca3d69bbdaf60a9341a906cf90af01909', 'files': 1061, 'git_files': 1061, 'release_files': 0, 'metadata': [{'path': 'backup-index/SOURCE_INDEX.jsonl.gz', 'bytes': 64514, 'sha256': 'f55ab53ff53c192a7ed1067747f6a5662bfc36e9b25b93dafb8eed03c078de90', 'git_object': '30919381164b80d91eb66fb79ed570c4b3e6fded'}, {'path': 'REPOSITORY.md', 'bytes': 879, 'sha256': '3391bb3f4df252658f4955ad26257de83139edec219208ad1d61df84cb916dc1', 'git_object': '3ba3d2b6374f1d59dab33fa987fd66b22b3022b6'}, {'path': 'RESTORE.md', 'bytes': 501, 'sha256': '3bd67ba69e2519ea9c69c094f157d010ba773be7baeafd1f16273b9ba6f994d8', 'git_object': 'd7824f932baafe6cd34494cd724d760672ef4340'}, {'path': 'README.md', 'bytes': 879, 'sha256': '3391bb3f4df252658f4955ad26257de83139edec219208ad1d61df84cb916dc1', 'git_object': '3ba3d2b6374f1d59dab33fa987fd66b22b3022b6'}, {'path': '.gitattributes', 'bytes': 8, 'sha256': '705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da', 'git_object': 'fa1385d99a319b43c06f5309d1aae9fdd3adea46'}, {'path': '.gitignore', 'bytes': 66, 'sha256': 'a3c16b373a71c4a0ae39e6de05460b7c5d00e013a0d93a5016f6fb766ed07740', 'git_object': '87f89fa666e5ddf0a46fa8df26b27e7ccf41da9d'}], 'release': None, 'expected_tree': '3127cdacb078e3e4e8facea19f5b396930f9c258', 'local_cache': 'D:\\ft工程文件\\GitHub同步\\独立模组\\FTEvent.git', 'repository_id': 1457290922}, {'name': 'FTDungeon', 'prefix': 'FTDungeon', 'source_tree': '300d14199a686cc54ab35ef4d1e40ea5127b51f4', 'files': 110174, 'git_files': 110149, 'release_files': 25, 'metadata': [{'path': 'backup-index/SOURCE_INDEX.jsonl.gz', 'bytes': 5503337, 'sha256': '79124a216c4855e1f77de8d02ef002dfe7ff75c47b7086cc7614a6bcf9d3d128', 'git_object': '0e19b3cfe602800f45b0ea83e412aef7c66104e7'}, {'path': 'backup-index/RELEASE_ASSETS.json', 'bytes': 215, 'sha256': '48915aa5be71f8166478f7719ec1079294ec5be22a0afa33d14bcbf69b0d08b2', 'git_object': '56f933841a50c61e2ad85dd7e35441c1140593fa'}, {'path': 'REPOSITORY.md', 'bytes': 937, 'sha256': '93a9b87c119abb376052facb48307d3a1cfb292e675bda8f978b80a56798f2b0', 'git_object': '440349bd22415932d3fdc23997b00773482e6f2e'}, {'path': 'RESTORE.md', 'bytes': 861, 'sha256': 'edfd3f41c45e2033594d8672eb0390b9b2176ec24eeeb25f193f463a14470cf0', 'git_object': 'c9fedefbbb4a0eb936228c55eccd7417d3b01240'}, {'path': 'README.md', 'bytes': 937, 'sha256': '93a9b87c119abb376052facb48307d3a1cfb292e675bda8f978b80a56798f2b0', 'git_object': '440349bd22415932d3fdc23997b00773482e6f2e'}, {'path': '.gitattributes', 'bytes': 8, 'sha256': '705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da', 'git_object': 'fa1385d99a319b43c06f5309d1aae9fdd3adea46'}, {'path': '.gitignore', 'bytes': 66, 'sha256': 'a3c16b373a71c4a0ae39e6de05460b7c5d00e013a0d93a5016f6fb766ed07740', 'git_object': '87f89fa666e5ddf0a46fa8df26b27e7ccf41da9d'}], 'release': {'tag': 'forge-source-assets-20261114', 'name': 'ftdungeon-large-source-assets-20261114.zip', 'bytes': 11438013, 'sha256': '8746312261b0e3da42561d629cb1c3892e247c9da8f20faf4cf2d9490d217236', 'files': 25}, 'expected_tree': '1f178116794570dd996406ba6f7900b8a476f5b1', 'local_cache': 'D:\\ft工程文件\\GitHub同步\\独立模组\\FTDungeon.git', 'repository_id': 1457290960}], 'committer_name': 'qyby123456', 'committer_email': '240961930+qyby123456@users.noreply.github.com'}
+          token = os.environ['FT_SPLIT_TOKEN']
+          owner = 'qyby123456'
+          if os.environ['GITHUB_REPOSITORY'] != owner + '/ft' or manifest['owner'] != owner:
+              raise RuntimeError('Unauthorized source or destination owner')
+          temporary = Path(tempfile.mkdtemp(prefix='ft-mod-split-'))
+          authorization = base64.b64encode(('x-access-token:' + token).encode()).decode()
+          environment = os.environ.copy()
+          environment.update(GIT_CONFIG_COUNT='1', GIT_CONFIG_KEY_0='http.https://github.com/.extraheader', GIT_CONFIG_VALUE_0='AUTHORIZATION: basic ' + authorization, GIT_TERMINAL_PROMPT='0')
+          
+          def api(path, payload=None, method=None):
+              headers = {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'User-Agent': 'FT-per-mod-split'}
+              data = None if payload is None else json.dumps(payload).encode()
+              if data is not None:
+                  headers['Content-Type'] = 'application/json'
+              request = urllib.request.Request('https://api.github.com' + path, data=data, headers=headers, method=method)
+              with urllib.request.urlopen(request, timeout=90) as response:
+                  content = response.read()
+              return json.loads(content) if content else None
+          
+          class SafeRedirect(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self, request, pointer, code, message, headers, url):
+                  redirected = super().redirect_request(request, pointer, code, message, headers, url)
+                  if redirected and urllib.parse.urlparse(request.full_url).hostname != urllib.parse.urlparse(url).hostname:
+                      redirected.remove_header('Authorization')
+                  return redirected
+          
+          def download(asset):
+              request = urllib.request.Request(asset['url'], headers={'Authorization': 'Bearer ' + token, 'Accept': 'application/octet-stream', 'User-Agent': 'FT-per-mod-split'})
+              with urllib.request.build_opener(SafeRedirect()).open(request, timeout=300) as response:
+                  data = response.read()
+              if len(data) != asset['bytes'] or hashlib.sha256(data).hexdigest() != asset['sha256']:
+                  raise RuntimeError('Input asset failed size/SHA256 verification')
+              return data
+          
+          def git(directory, *arguments, data=None, custom=None):
+              env = environment.copy()
+              if custom:
+                  env.update(custom)
+              result = subprocess.run(['git', '-c', 'gc.auto=0', '-C', str(directory), *arguments], input=data, capture_output=True, env=env)
+              if result.returncode:
+                  text = result.stderr.decode(errors='replace').replace(token, '[redacted]').replace(authorization, '[redacted]')
+                  raise RuntimeError('Git ' + arguments[0] + ' failed: ' + text[-4000:])
+              return result.stdout
+          
+          def upload(repo, release_id, name, data):
+              digest = hashlib.sha256(data).hexdigest()
+              connection = http.client.HTTPSConnection('uploads.github.com', timeout=300)
+              connection.putrequest('POST', '/repos/' + owner + '/' + repo + '/releases/' + str(release_id) + '/assets?name=' + urllib.parse.quote(name))
+              connection.putheader('Authorization', 'Bearer ' + token)
+              connection.putheader('User-Agent', 'FT-per-mod-split')
+              connection.putheader('Content-Type', 'application/octet-stream')
+              connection.putheader('Content-Length', str(len(data)))
+              connection.endheaders()
+              for offset in range(0, len(data), 1024 * 1024):
+                  connection.send(data[offset:offset + 1024 * 1024])
+              response = connection.getresponse()
+              body = response.read()
+              if response.status != 201:
+                  raise RuntimeError('Output asset upload HTTP ' + str(response.status))
+              asset = json.loads(body)
+              connection.close()
+              if asset.get('digest') != 'sha256:' + digest:
+                  raise RuntimeError('Uploaded output asset digest mismatch')
+              return {'id': asset['id'], 'name': asset['name'], 'url': asset['url'], 'bytes': len(data), 'sha256': digest}
+          
+          metadata = zipfile.ZipFile(io.BytesIO(download(manifest['metadata_asset'])))
+          source = temporary / 'combined'
+          git(temporary, 'clone', '--no-checkout', 'https://github.com/' + owner + '/ft.git', str(source))
+          git(source, 'merge-base', '--is-ancestor', manifest['source_commit'], 'origin/main')
+          source_objects = {line.split()[0] for line in git(source, 'rev-list', '--objects', manifest['source_commit']).splitlines()}
+          results = []
+          for config in manifest['repositories']:
+              name = config['name']
+              destination = '/repos/' + owner + '/' + name
+              repository = api(destination)
+              if repository['id'] != config['repository_id'] or repository['owner']['login'].lower() != owner:
+                  raise RuntimeError('Destination repository identity changed')
+              if repository['fork'] or git(source, 'ls-remote', 'https://github.com/' + owner + '/' + name + '.git').strip():
+                  raise RuntimeError('Destination is no longer empty; refusing to overwrite existing history')
+              index_data = metadata.read(name + '/backup-index/SOURCE_INDEX.jsonl.gz')
+              rows = [json.loads(line) for line in gzip.decompress(index_data).splitlines() if line]
+              expected = {row['path']: {'bytes': row['bytes'], 'sha256': row['sha256']} for row in rows if row['storage'] == 'git'}
+              original = git(source, 'rev-list', '--reverse', '--topo-order', '--full-history', manifest['source_commit'], '--', config['prefix']).decode().splitlines()
+              previous = None
+              previous_tree = None
+              last_pushed = None
+              rewritten = []
+              remote = 'https://github.com/' + owner + '/' + name + '.git'
+              def push(commit):
+                  advertised = git(source, 'ls-remote', remote, 'refs/heads/main').decode().strip()
+                  actual = advertised.split()[0] if advertised else None
+                  if actual != last_pushed:
+                      raise RuntimeError('Destination main changed concurrently; no force push will be used')
+                  git(source, 'push', remote, commit + ':refs/heads/main')
+              for original_commit in original:
+                  found = subprocess.run(['git', '-C', str(source), 'rev-parse', '--verify', original_commit + ':' + config['prefix']], capture_output=True, env=environment)
+                  if found.returncode:
+                      continue
+                  tree = found.stdout.decode().strip()
+                  if tree == previous_tree:
+                      continue
+                  record = git(source, 'show', '-s', '--format=%an%x00%ae%x00%aI%x00%cn%x00%ce%x00%cI%x00%B', original_commit).decode().split(chr(0), 6)
+                  author_name, author_email, author_date, committer_name, committer_email, committer_date, message = record
+                  env = {'GIT_AUTHOR_NAME': author_name, 'GIT_AUTHOR_EMAIL': author_email, 'GIT_AUTHOR_DATE': author_date, 'GIT_COMMITTER_NAME': committer_name, 'GIT_COMMITTER_EMAIL': committer_email, 'GIT_COMMITTER_DATE': committer_date}
+                  arguments = ['commit-tree', tree]
+                  if previous:
+                      arguments += ['-p', previous]
+                  text = message.rstrip() + chr(10) * 2 + 'Original combined commit: ' + original_commit + chr(10) + 'Filtered path: ' + config['prefix'] + chr(10)
+                  previous = git(source, *arguments, data=text.encode(), custom=env).decode().strip()
+                  previous_tree = tree
+                  rewritten.append({'original_commit': original_commit, 'commit': previous, 'tree': tree})
+                  arguments = ['rev-list', '--disk-usage', '--objects', previous]
+                  if last_pushed:
+                      arguments.append('^' + last_pushed)
+                  pending = int(git(source, *arguments).decode().strip())
+                  if pending >= 96 * 1024 * 1024:
+                      push(previous)
+                      last_pushed = previous
+                      print(json.dumps({'repository': name, 'history_checkpoints_pushed': len(rewritten)}), flush=True)
+              if not previous or previous_tree != config['source_tree']:
+                  raise RuntimeError('Filtered history does not end at the exact reviewed source tree')
+              cache_index = temporary / (name + '.index')
+              env = {'GIT_INDEX_FILE': str(cache_index)}
+              git(source, 'read-tree', previous_tree, custom=env)
+              for entry in config['metadata']:
+                  data = metadata.read(name + '/' + entry['path'])
+                  if len(data) != entry['bytes'] or hashlib.sha256(data).hexdigest() != entry['sha256']:
+                      raise RuntimeError('Independent repository metadata changed')
+                  oid = git(source, 'hash-object', '-w', '--stdin', data=data).decode().strip()
+                  if oid != entry['git_object']:
+                      raise RuntimeError('Metadata Git object differs from reviewed local object')
+                  git(source, 'update-index', '--add', '--cacheinfo', '100644,' + oid + ',' + entry['path'], custom=env)
+                  expected[entry['path']] = {'bytes': len(data), 'sha256': entry['sha256']}
+              final_tree = git(source, 'write-tree', custom=env).decode().strip()
+              if final_tree != config['expected_tree']:
+                  raise RuntimeError('Final independent repository root tree differs from the reviewed tree')
+              env = {'GIT_AUTHOR_NAME': manifest['committer_name'], 'GIT_AUTHOR_EMAIL': manifest['committer_email'], 'GIT_COMMITTER_NAME': manifest['committer_name'], 'GIT_COMMITTER_EMAIL': manifest['committer_email']}
+              head = git(source, 'commit-tree', final_tree, '-p', previous, data=('docs: add independent ' + name + ' source index and restoration guide' + chr(10)).encode(), custom=env).decode().strip()
+              push(head)
+              last_pushed = head
+              api(destination, {'default_branch': 'main'}, method='PATCH')
+              restored = temporary / (name + '-remote.git')
+              git(temporary, 'clone', '--bare', remote, str(restored))
+              if git(restored, 'rev-parse', 'HEAD').decode().strip() != head:
+                  raise RuntimeError('Independent GitHub clone differs from newly published main')
+              git(restored, 'fsck', '--full')
+              listing = git(restored, 'ls-tree', '-r', '-l', '-z', head)
+              actual = {}
+              for record in listing.split(bytes([0])):
+                  if record:
+                      properties, filename = record.split(bytes([9]), 1)
+                      mode, kind, oid, size = properties.split()
+                      if mode not in {b'100644', b'100755'} or kind != b'blob':
+                          raise RuntimeError('Unexpected source tree entry type')
+                      actual[filename.decode()] = {'oid': oid.decode(), 'bytes': int(size)}
+              if set(actual) != set(expected):
+                  raise RuntimeError('Independent repository contains missing or cross-mod file paths')
+              process = subprocess.Popen(['git', '-C', str(restored), 'cat-file', '--batch'], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=environment)
+              hashes = {}
+              verified = []
+              for filename, item in expected.items():
+                  oid = actual[filename]['oid']
+                  if oid not in hashes:
+                      process.stdin.write(oid.encode() + bytes([10]))
+                      process.stdin.flush()
+                      header = process.stdout.readline().split()
+                      if len(header) != 3 or header[1] != b'blob':
+                          raise RuntimeError('Remote Git object reader failed')
+                      size = int(header[2])
+                      remaining = size
+                      digest = hashlib.sha256()
+                      while remaining:
+                          chunk = process.stdout.read(min(1024 * 1024, remaining))
+                          if not chunk:
+                              raise RuntimeError('Truncated remote Git object')
+                          remaining -= len(chunk)
+                          digest.update(chunk)
+                      if process.stdout.read(1) != bytes([10]):
+                          raise RuntimeError('Git object framing failed')
+                      hashes[oid] = {'bytes': size, 'sha256': digest.hexdigest()}
+                  if hashes[oid] != item or actual[filename]['bytes'] != item['bytes']:
+                      raise RuntimeError('Independent remote file size/SHA256 mismatch: ' + filename)
+                  verified.append({'path': filename, 'git_object': oid, **item})
+              process.stdin.close()
+              process.wait(timeout=30)
+              if process.returncode:
+                  raise RuntimeError('Independent Git object reader exited with an error')
+              asset_receipt = None
+              if config['release']:
+                  data = download(manifest['dungeon_asset'])
+                  release_rows = [row for row in rows if row['storage'] != 'git']
+                  with zipfile.ZipFile(io.BytesIO(data)) as archive:
+                      if set(archive.namelist()) != {row['path'] for row in release_rows}:
+                          raise RuntimeError('Dungeon asset archive contains unrelated or missing files')
+                      for row in release_rows:
+                          content = archive.read(row['path'])
+                          if len(content) != row['bytes'] or hashlib.sha256(content).hexdigest() != row['sha256']:
+                              raise RuntimeError('Dungeon release source asset mismatch')
+                  release = api(destination + '/releases', {'tag_name': config['release']['tag'], 'target_commitish': head, 'name': 'Forge source assets 2026-11-14', 'body': 'Independent FTDungeon editable source assets. Restore into this repository using RESTORE.md and verify SHA256 against backup-index/SOURCE_INDEX.jsonl.gz. Contains no FTMods, FTEvent or FTBoss files.', 'draft': False, 'prerelease': True}, method='POST')
+                  asset_receipt = upload(name, release['id'], config['release']['name'], data)
+                  asset_receipt.update(release_id=release['id'], tag=config['release']['tag'], release_url=release['html_url'])
+              new_objects = []
+              for line in git(restored, 'rev-list', '--objects', head).splitlines():
+                  oid = line.split()[0]
+                  if oid not in source_objects:
+                      new_objects.append(oid)
+              pack = git(restored, 'pack-objects', '--stdout', data=bytes([10]).join(new_objects) + bytes([10]))
+              recovery_pack = upload('ft', manifest['transport_release_id'], name + '-independent-new-objects.pack', pack)
+              result = {'name': name, 'repository_id': repository['id'], 'repository': repository['html_url'], 'branch': 'main', 'commit': head, 'tree': final_tree, 'source_prefix': config['prefix'], 'source_commit': manifest['source_commit'], 'filtered_history': rewritten, 'git_files': config['git_files'], 'release_files': config['release_files'], 'git_fsck_passed': True, 'independent_github_clone': True, 'verified_files': verified, 'release': asset_receipt, 'recovery_pack': recovery_pack}
+              results.append(result)
+              print(json.dumps({'repository': name, 'commit': head, 'independent_remote_files_verified': len(verified), 'filtered_history_commits': len(rewritten)}), flush=True)
+          report = {'verified': True, 'source_repository_preserved': True, 'source_commit': manifest['source_commit'], 'repositories': results, 'run_id': os.environ['GITHUB_RUN_ID'], 'new_object_packs_require_previously_independently_verified_source_objects': True}
+          payload = gzip.compress(json.dumps(report, ensure_ascii=False).encode(), compresslevel=9, mtime=0)
+          receipt = upload('ft', manifest['transport_release_id'], 'independent-mod-split-report.json.gz', payload)
+          print(json.dumps({'complete': True, 'report_asset': receipt}), flush=True)
