@@ -1,0 +1,8 @@
+Exception in thread "main" java.lang.IllegalStateException: Missing or duplicate exact emitter block: summonMiniClones
+	at net.farmingtales.ftboss.boss.ai.NativeAnimationEmitterInstaller.require(NativeAnimationEmitterInstaller.java:180)
+	at net.farmingtales.ftboss.boss.ai.NativeAnimationEmitterInstaller.find(NativeAnimationEmitterInstaller.java:166)
+	at net.farmingtales.ftboss.boss.ai.NativeAnimationEmitterInstaller.unpatch(NativeAnimationEmitterInstaller.java:113)
+	at net.farmingtales.ftboss.boss.ai.NativeAnimationEmitterInstaller.verifyInstalled(NativeAnimationEmitterInstaller.java:51)
+	at net.farmingtales.ftboss.boss.ai.NativeAnimationEmitterInstaller.install(NativeAnimationEmitterInstaller.java:41)
+	at net.farmingtales.ftboss.boss.ai.NativeManorMixinPlugin.postApply(NativeManorMixinPlugin.java:95)
+	at ManorYouziOriginalSummonComposerV3.main(ManorYouziOriginalSummonComposerV3.java:46)

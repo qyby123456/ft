@@ -1,0 +1,33 @@
+import com.google.gson.*;
+import java.nio.file.*;
+import java.util.*;
+import java.util.zip.*;
+import org.objectweb.asm.*;
+import org.objectweb.asm.commons.*;
+import org.objectweb.asm.tree.*;
+import org.objectweb.asm.tree.analysis.*;
+import net.farmingtales.ftboss.boss.ai.NativeManorDamageBridgeInstaller;
+public final class ManorLegitimateIngressMappedAuditV1 {
+    private static int checks;
+    private static void require(boolean value,String label){checks++;if(!value)throw new AssertionError(label);}
+    private static ClassNode read(ZipFile jar,String name)throws Exception{ClassNode node=new ClassNode();var entry=jar.getEntry(name+".class");require(entry!=null,"Selected original/current class exists: "+name);new ClassReader(jar.getInputStream(entry).readAllBytes()).accept(node,ClassReader.SKIP_DEBUG);return node;}
+    private static String graph(MethodNode method){return NativeManorDamageBridgeInstaller.graph(method);}
+    private static MethodNode copy(MethodNode source){MethodNode result=new MethodNode(source.access,source.name,source.desc,source.signature,source.exceptions.toArray(String[]::new));source.accept(result);return result;}
+    private static List<String> code(MethodNode method){List<String> output=new ArrayList<>();for(AbstractInsnNode node:method.instructions)if(node.getOpcode()>=0){String text=Integer.toString(node.getOpcode());if(node instanceof VarInsnNode value)text+=" var="+value.var;if(node instanceof MethodInsnNode value)text+=" "+value.owner+"."+value.name+value.desc+" interface="+value.itf;if(node instanceof FieldInsnNode value)text+=" "+value.owner+"."+value.name+" "+value.desc;if(node instanceof LdcInsnNode value)text+=" "+value.cst;if(node instanceof TypeInsnNode value)text+=" "+value.desc;if(node instanceof IntInsnNode value)text+=" "+value.operand;if(node instanceof JumpInsnNode value){int target=0;for(AbstractInsnNode current:method.instructions){if(current==value.label)break;if(current.getOpcode()>=0)target++;}text+=" ->"+target;}output.add(text);}return output;}
+    public static void main(String[] args)throws Exception{
+        JsonObject mapping=JsonParser.parseString(Files.readString(Path.of(args[2]))).getAsJsonObject(),members=mapping.getAsJsonObject("memberNames"),types=mapping.getAsJsonObject("classNames");
+        Remapper mapper=new Remapper(){public String map(String name){if(types.has(name))return types.get(name).getAsString();if(name.startsWith("net/minecraftforge/eventbus/api/"))return name.replace("net/minecraftforge/eventbus/api/","net/neoforged/bus/api/");if(name.startsWith("net/minecraftforge/fml/"))return name.replace("net/minecraftforge/fml/","net/neoforged/fml/");return name.replace("net/minecraftforge/","net/neoforged/neoforge/");}public String mapMethodName(String owner,String name,String descriptor){return members.has(name)?members.get(name).getAsString():name;}public String mapFieldName(String owner,String name,String descriptor){return members.has(name)?members.get(name).getAsString():name;}};
+        JsonArray methods=new JsonArray(),differences=new JsonArray();int exact=0,total=0;MethodNode negative=null;
+        try(ZipFile original=new ZipFile(args[0]);ZipFile current=new ZipFile(args[1])){
+            for(var selection:mapping.getAsJsonObject("methodSelectionsByClass").entrySet()){
+                String owner=selection.getKey();ClassNode before=read(original,owner),after=read(current,owner);Set<String> names=new HashSet<>();for(var name:selection.getValue().getAsJsonArray())names.add(name.getAsString());Set<String> found=new HashSet<>();
+                for(MethodNode source:before.methods)if(names.contains(source.name)){
+                    total++;found.add(source.name);String name=mapper.mapMethodName(owner,source.name,source.desc),descriptor=mapper.mapMethodDesc(source.desc);MethodNode expected=new MethodNode(source.access,name,descriptor,source.signature,source.exceptions.toArray(String[]::new));source.accept(new MethodRemapper(expected,mapper));List<MethodNode> matches=after.methods.stream().filter(method->method.name.equals(name)&&method.desc.equals(descriptor)).toList();require(matches.size()==1,"Unique target method signature: "+owner+"."+name+descriptor);MethodNode actual=matches.getFirst();new Analyzer<BasicValue>(new BasicVerifier()).analyze(after.name,actual);boolean equals=graph(expected).equals(graph(actual));JsonObject row=new JsonObject();row.addProperty("owner",owner);row.addProperty("method",name);row.addProperty("descriptor",descriptor);row.addProperty("mappedOriginalGraph",graph(expected));row.addProperty("currentGraph",graph(actual));row.addProperty("entireMethodGraphExactAfterOnlyOfficialMemberAndPlatformTypeMapping",equals);methods.add(row);if(equals){exact++;if(negative==null)negative=expected;}else{JsonObject difference=row.deepCopy();difference.add("mappedOriginalInstructions",new Gson().toJsonTree(code(expected)));difference.add("currentInstructions",new Gson().toJsonTree(code(actual)));differences.add(difference);}
+                }
+                require(found.equals(names),"Every selected original method found: "+owner);
+            }
+        }
+        require(negative!=null,"At least one exact complete method available for negative controls");MethodNode bad=copy(negative);AbstractInsnNode first=Arrays.stream(bad.instructions.toArray()).filter(node->node.getOpcode()>=0).findFirst().orElseThrow();bad.instructions.insertBefore(first,new InsnNode(Opcodes.NOP));require(!graph(bad).equals(graph(negative)),"Negative control catches extra real opcode");MethodNode badConstant=copy(negative);LdcInsnNode constant=Arrays.stream(badConstant.instructions.toArray()).filter(node->node instanceof LdcInsnNode).map(node->(LdcInsnNode)node).findFirst().orElseThrow();constant.cst="changed-original-constant";require(!graph(badConstant).equals(graph(negative)),"Negative control catches changed original constant");
+        JsonObject receipt=new JsonObject();receipt.addProperty("checks",checks);receipt.addProperty("selectedCompleteMethods",total);receipt.addProperty("exactCompleteMethods",exact);receipt.addProperty("allSelectedMethodsExact",exact==total);receipt.addProperty("negativeControls",2);receipt.addProperty("arbitrarySemanticNormalizationApplied",false);receipt.add("methods",methods);receipt.add("differences",differences);Files.writeString(Path.of(args[3]),new GsonBuilder().setPrettyPrinting().create().toJson(receipt));System.out.println("checks="+checks+";selectedCompleteMethods="+total+";exactCompleteMethods="+exact+";allSelectedMethodsExact="+(exact==total)+";negativeControls=2;");require(exact==total,"Complete original legitimate ingress/summon/authorization method fidelity");
+    }
+}

@@ -1,0 +1,10 @@
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 636 out of bounds for length 415
+	at org.objectweb.asm.ClassReader.readLabel(ClassReader.java:2692)
+	at org.objectweb.asm.ClassReader.createLabel(ClassReader.java:2708)
+	at org.objectweb.asm.ClassReader.readStackMapFrame(ClassReader.java:3367)
+	at org.objectweb.asm.ClassReader.readCode(ClassReader.java:2087)
+	at org.objectweb.asm.ClassReader.readMethod(ClassReader.java:1512)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:745)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:425)
+	at YouziOriginalSummonLoadedAuditV1.read(YouziOriginalSummonLoadedAuditV1.java:11)
+	at YouziOriginalSummonLoadedAuditV1.main(YouziOriginalSummonLoadedAuditV1.java:15)
