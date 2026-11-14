@@ -1,0 +1,11 @@
+{
+  "accepted": false,
+  "phase": "strict-original-mapped-method-graph-audit",
+  "tool": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tools\\audit_boss_manor_original_sharing_mapped_v1.py",
+  "toolSha256": "8c5d4ae1f42507c5bc645bff6020fd64942bcb1a863f10c0a8b14acee0b0cfd9",
+  "sourceSha256": "b2e2cf4732d80a4b5fe9efd32a679e05f8256df20956f4fdff4067362bf03478",
+  "output": "method=ftboss$shareManorDamage;mappedOriginalAndActualGraph=c4c72a8708603db2e46efd4c32d92f780e56f7797e7e493669870315e02b49f4\nmethod=sparrowShare;mappedOriginalAndActualGraph=1b7e36c8a2da907266d48ee5c3d04f33bdc6830a3cc5a1b90c71315938fea501\nException in thread \"main\" java.lang.AssertionError: Exact entire mapped original sharing method youziMinionShare\n\tat ManorOriginalSharingMappedAuditV1.require(ManorOriginalSharingMappedAuditV1.java:12)\n\tat ManorOriginalSharingMappedAuditV1.main(ManorOriginalSharingMappedAuditV1.java:23)\n",
+  "exactDifferenceReceipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-original-sharing-mapped-audit-v1-20261114\\method-differences.json",
+  "difference": "Three pre-existing Youzi health-write stack forms use owner0/recipient8 reloads instead of original DUP2/POP/owner0/SWAP. Four other sharing helpers are already exact after member mapping.",
+  "resolution": "V2 proves category-one stack equivalence, accepts only these exact three local instruction forms and then compares the complete reconstructed original method graph. Wrong-recipient and changed-ratio controls remain rejected. No product code changed."
+}
