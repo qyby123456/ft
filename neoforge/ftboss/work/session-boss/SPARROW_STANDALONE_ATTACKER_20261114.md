@@ -1,5 +1,7 @@
 ## Stage36 麻雀原生攻击者与周期持久记录，2026-11-14
 
+Stage36 源码与限定文字证据已推送 2d9e617a098818aadf2dd498977a45d7529ab17f；64 文件独立远端逐 blob 恢复，4877 文件整树资源排除检查通过。确认无进程/句柄引用后，仅清理 Git 工作副本 14 份重复 Java/Python（182074 字节），skip-worktree；canonical 冻结输入保留。112 个关闭依赖 JAR 原路径与字节完整本地保留，只读同哈希去重约释放 824 MiB。源码恢复入口 github-sync/checkpoint-sparrow-standalone-attacker-20261114.json；预期缺失及清理入口 github-sync/checkpoint-sparrow-standalone-attacker-cleanup-20261114.json。模型/贴图/动画/音乐/音频及嵌套或编码资源、JAR、世界禁止上传，远端不提供这些资源恢复；完整移植/真实多人/认证奖励/重启仍未完成，正式实例未部署。
+
 产品保持 Stage35 9d713622cc8c8aa3d2e5b5fa340053a7eb45f8128247346c3152a14c975b886e、NOT-INSTALLABLE。真实离线客户端/集成服 7 场景 7227 检查通过：下界公开 vanilla summon 无 NBT 注入，实际生存 ServerPlayer.attack 正伤害写入真实玩家 UUID 和自然时刻，同玩家再击只刷新唯一记录；Incoming 取消、native Pre 零均不记录，原注册蛋建立主世界真实托管战斗后正/零伤害均不进入 standalone 表。原版主世界自动收编和维度门完整保留，没有为测试关掉。实际 natural tick 到 1200 保留、1201 由公开原 participants 清理，未改时间、身份或记录。
 
 实际召唤者原公开投降及 40 自然 tick 清理后，退休记录在下一个真实 2400 tick 的 ServerTick.Post 原订阅中清理；2401 只读观察已消失。正常存盘后实际 NBT 及公开原 load/save 再核对退休记录缺席，5 项存储检查通过。六个实际助手类字节等于候选，342 个实际 Boss 方法图等于前段已证图、1374 检查及两负控保持。未手动调用 onDamage/onTick/prune，不私调玩法、不创建 FakePlayer、不写 fight/owner/attackers/appearance、不手动 tick 或改时间。公开夹具玩家 Pre 承伤限 0.01、目标正 Pre 设 16；这是事件与清理验证，不是完整实战、认证多人或世界重启验收。
