@@ -1,5 +1,7 @@
 ## Stage34 原版合法战斗分摊矩阵，2026-11-14
 
+Stage34 源码与限定文字证据已推送 db5dedeea1c2bfddab798f5671a158b641675c1c；61 文件独立远端逐 blob 恢复、4750 文件整树资源排除检查通过。核验并确认无进程/句柄引用后，仅清理 Git 工作副本 28 份重复 Java/Python 缓存（461467 字节），skip-worktree，canonical 冻结输入保留。源码恢复入口 github-sync/checkpoint-manor-reduced-budget-sharing-20261114.json；预期缺失与清理入口 github-sync/checkpoint-manor-reduced-budget-sharing-cleanup-20261114.json。模型/贴图/动画/音乐/音频及 JAR/世界不上传；远端不提供排除资源恢复。18 场景 13000 检查为实际离线单人分摊夹具范围，非完整实战/多人/持久化完成，正式实例未部署。
+
 麻雀后续完整玩法审查：11 个原方法经官方映射及明确 Holder API 适配后 6 个相同，tick、hasVisited(LivingEntity)、noteFightMember、beginStage、spawnSparrow 五个仍有真实玩法差异；缺少 SparrowMultiplayerSupport、SparrowAppearanceData、其 Entry、SparrowMultiplayerRules 四类。两个原生生命周期事件入口单独保留，不把跨版本事件签名误判为玩法缺失。严格原图对照按预期失败并保留全部差异和两个负控；审查不是多人功能已恢复的证明。证据 reports/sparrow-original-support-full-surface-audit-v2-20261114/receipt.json。
 
 本段产品 JAR 未变，仍为 Stage33 d691bdb1a2b5f540d9bcd8149e6d04baa5c2e1df1a6c01578b4b32b75cfdb69c、NOT-INSTALLABLE。真实原注册 Youzi 蛋建立原版 fight/owner 并拒绝重复；自然支持缺席时由实际召唤者公开投降、40 自然 tick 清理后重新合法召唤，最多八场，同一新世界、不伪造身份/随机计划。原三次命中与 40 tick 冷却自然生成分身。18 场景通过：三次正例、Incoming 取消/减半、原生 Pre 置零、BeforeHealth 取消/减半、麻雀严格距离 48 排除及 47.5 内部、分身 64 范围外/保护排除、麻雀保护排除、真实攻击准备低血、麻雀/分身分摊致死、麻雀死后继续，实际召唤者原版公开投降及 40 自然 tick 清理。正例均为真实生存空手满蓄力 ServerPlayer.attack，保留修饰，仅暂时校准公开 base；无私有玩法、手动 tick、FakePlayer、fight/owner 写入、直接实体生成或 Boss/助手血量写入。
