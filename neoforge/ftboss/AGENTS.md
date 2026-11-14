@@ -1,5 +1,7 @@
 ## Stage43 原版终结基础属性缩放与真实保存，2026-11-14
 
+Stage43 源码与限定文字证据已推送 3b6ebaf005c476a9672825f6236dea9b4c814abb，59 文件独立远端逐 blob 恢复，5467 文件整树资源排除检查通过。零引用进程/句柄核验后，仅清理 Git 工作副本 20 份重复 Java/Python（213187 字节），skip-worktree；canonical 冻结输入和排除资源保留。源码恢复入口 github-sync/checkpoint-nonmanor-finale-base-attributes-20261114.json；预期缺失入口 github-sync/checkpoint-nonmanor-finale-base-attributes-cleanup-20261114.json。全部模型/贴图/动画/音乐/音频、JAR、世界、嵌套/编码资源不上传；Git 不能恢复排除资源。本段合法终结入口的基础属性翻倍、修饰符保持及保存验证通过，完整 Boss 仍未完成，正式实例未部署。
+
 候选 c63b17a20bc699ffdfb7b8ca3d985d0a2d3c4a53a2da769ea8fa54abac45f370，NOT-INSTALLABLE。仅将 NonManorFinale.applyAttributes 替换为新原版基础属性助手调用，27 个其他方法和入口、施法、奖励结构原样保持；新增助手与记录类。1530 个资源条目及其他既有 JAR entry 逐字节不变。原版 NonManorFinaleDifficulty 三方法和 19 项官方/MCP 成员映射绑定：明确 MAX_HEALTH 加 getSyncableAttributes；先保存原基础值，再 sanitize(base*2)，其余修饰符保持；原准备键与 base/ 记录幂等，最大生命修复保留比例及 ftboss_base_hp 回退。首次准备只移除旧实现自身 ftboss:non_manor_finale_double。实际类首轮审查沿用旧“全部助手不变”断言，因本段有意修改 NonManorFinale 而失败，失败保留；修订审查对真实 NonManorFinale 精确验证唯一委托变化、其余 27 图原样及两行为负控，并未把该类排除不验。实际旧世界迁移、重启后修复尚未验收，不以实现存在代替运行证明。Tea 专属设置、并行与施法时序本段未改，仍需对照审查。
 
 新真实离线客户端/集成服从原注册宫地蛋、真实玩家公开攻击及猪腻入口自然完成 11 主阶段普通胜利，原胜利数据实际保存征服玩家一次。原门槛在胜利前拒绝 IMPOSSIBLE，胜利后真实公开偏好入场。六组普通/终结属性，包含原有加成、ADD_VALUE +5、额外 ADD_MULTIPLIED_BASE 0.25、ADD_MULTIPLIED_TOTAL 0.4 与生命 ADD_VALUE 125；所有实际修饰符参与独立原生 AttributeInstance 和 Python 三操作复算。六组全部符合原基础值翻倍，原生 26263 检查零失败；18 个原始选中属性行逐项检查，40 自然 tick 不重复翻倍，原始修饰符保持。独立缺加成四负控、旧全值翻倍三负控、混合操作四负控通过；原生额外四负控。完整保存后只找到最后一只 case5 真实终结 Boss，其基础值和原准备/基础快照键只读核验通过，改基础值/改准备标志两负控拒绝；征服数据两负控保持。首轮错误假定六只都会留到最终存档，严格失败保留；前五只未找到，不推断消失原因、不宣称六只持久化或重载通过。
