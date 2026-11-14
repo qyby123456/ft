@@ -1,0 +1,703 @@
+{
+  "stage": 41,
+  "candidate": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-death-cancel-v5-20261114\\ftboss-boss-core-1.21.1-stage41-native-death-cancel-NOT-INSTALLABLE.jar",
+  "candidateJarSha256": "b751ae8fbf5552342ae5e887cc5d7675b7fcdf995fcde1773dcc0dc32e691345",
+  "productChanged": true,
+  "nativeReport": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-death-cancel-native-v2-8449e49e.json",
+  "loadedAudit": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-death-cancel-actual-loaded-audit-v3-20261114\\receipt.json",
+  "boundaryProof": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-death-cancel-boundary-v2-20261114\\boundary-proof.json",
+  "compositionChecks": 2875,
+  "compositionNegativeControls": 4,
+  "actualDefinedBossMethods": 342,
+  "changedExistingBossMethods": 2,
+  "unchangedOtherBossMethodGraphs": 340,
+  "nativeFinalDeathGates": 3,
+  "allOriginalBossGraphsRecoveredExactly": true,
+  "allPriorNativeInstallersAndOrderRetained": true,
+  "originalDamageRebirthAndRewardAlgorithmsRetained": true,
+  "noEngineOrThirdPartyProductClassChanges": true,
+  "allOtherExistingJarEntriesAndResourcesIdentical": true,
+  "unchangedResourceEntries": 1530,
+  "nativeChecks": 28297,
+  "actualNativeCanceledDeathSurvivalAndNextStageAccepted": true,
+  "actualNativeCataclysmCursiumGhostRebirthObserved": true,
+  "actualNativeDeathBoundary": [
+    {
+      "priority": "HIGHEST",
+      "state": {
+        "uuid": "76cfad3d-f735-4217-be75-ff7e98370833",
+        "variant": 3,
+        "mini": false,
+        "health": 0.0,
+        "maxHealth": 1024.0,
+        "alive": false,
+        "removed": false,
+        "invulnerable": false,
+        "introActing": false,
+        "managed": true,
+        "fightId": "72878520-ae17-4c8a-a917-44d063a07181",
+        "summoner": "00000000-0000-0000-0000-000000b05513",
+        "naturalEntityTicks": 2240,
+        "time": 2367
+      },
+      "equipment": {
+        "chest": "cataclysm:cursium_chestplate",
+        "effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:haste",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:regeneration",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:strength",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:speed",
+            "duration": 26
+          },
+          {
+            "id": "minecraft:resistance",
+            "duration": 160
+          },
+          {
+            "id": "ftboss:blood_rage",
+            "duration": 796
+          },
+          {
+            "id": "minecraft:absorption",
+            "duration": 2360
+          }
+        ],
+        "dead": false
+      },
+      "canceled": false
+    },
+    {
+      "priority": "LOWEST",
+      "state": {
+        "uuid": "76cfad3d-f735-4217-be75-ff7e98370833",
+        "variant": 3,
+        "mini": false,
+        "health": 5.0,
+        "maxHealth": 1024.0,
+        "alive": true,
+        "removed": false,
+        "invulnerable": false,
+        "introActing": false,
+        "managed": true,
+        "fightId": "72878520-ae17-4c8a-a917-44d063a07181",
+        "summoner": "00000000-0000-0000-0000-000000b05513",
+        "naturalEntityTicks": 2240,
+        "time": 2367
+      },
+      "equipment": {
+        "chest": "cataclysm:cursium_chestplate",
+        "effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:haste",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:regeneration",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:strength",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:fire_resistance",
+            "duration": 200
+          },
+          {
+            "id": "minecraft:speed",
+            "duration": 26
+          },
+          {
+            "id": "minecraft:resistance",
+            "duration": 160
+          },
+          {
+            "id": "ftboss:blood_rage",
+            "duration": 796
+          },
+          {
+            "id": "cataclysm:ghost_form",
+            "duration": 100
+          },
+          {
+            "id": "minecraft:absorption",
+            "duration": 2360
+          }
+        ],
+        "dead": false
+      },
+      "canceled": true
+    },
+    {
+      "state": {
+        "uuid": "76cfad3d-f735-4217-be75-ff7e98370833",
+        "variant": 3,
+        "mini": false,
+        "health": 7.003003,
+        "maxHealth": 1024.0,
+        "alive": true,
+        "removed": false,
+        "invulnerable": false,
+        "introActing": false,
+        "managed": true,
+        "fightId": "72878520-ae17-4c8a-a917-44d063a07181",
+        "summoner": "00000000-0000-0000-0000-000000b05513",
+        "naturalEntityTicks": 2280,
+        "time": 2407
+      },
+      "phase": "retainedAfter40NaturalTicks",
+      "equipment": {
+        "chest": "cataclysm:cursium_chestplate",
+        "effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 1120
+          },
+          {
+            "id": "minecraft:haste",
+            "duration": 1120
+          },
+          {
+            "id": "minecraft:regeneration",
+            "duration": 1120
+          },
+          {
+            "id": "minecraft:strength",
+            "duration": 1120
+          },
+          {
+            "id": "minecraft:fire_resistance",
+            "duration": 160
+          },
+          {
+            "id": "minecraft:speed",
+            "duration": 26
+          },
+          {
+            "id": "minecraft:resistance",
+            "duration": 120
+          },
+          {
+            "id": "ftboss:blood_rage",
+            "duration": 796
+          },
+          {
+            "id": "cataclysm:ghost_form",
+            "duration": 60
+          }
+        ],
+        "dead": false
+      }
+    },
+    {
+      "state": {
+        "uuid": "76cfad3d-f735-4217-be75-ff7e98370833",
+        "variant": 3,
+        "mini": false,
+        "health": 11.0105095,
+        "maxHealth": 1024.0,
+        "alive": true,
+        "removed": false,
+        "invulnerable": false,
+        "introActing": false,
+        "managed": true,
+        "fightId": "72878520-ae17-4c8a-a917-44d063a07181",
+        "summoner": "00000000-0000-0000-0000-000000b05513",
+        "naturalEntityTicks": 2380,
+        "time": 2507
+      },
+      "phase": "retainedAfter140NaturalTicks",
+      "equipment": {
+        "chest": "cataclysm:cursium_chestplate",
+        "effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 1020
+          },
+          {
+            "id": "minecraft:haste",
+            "duration": 1020
+          },
+          {
+            "id": "minecraft:regeneration",
+            "duration": 1020
+          },
+          {
+            "id": "minecraft:strength",
+            "duration": 1020
+          },
+          {
+            "id": "minecraft:fire_resistance",
+            "duration": 60
+          },
+          {
+            "id": "cataclysm:ghost_sickness",
+            "duration": 7160
+          },
+          {
+            "id": "minecraft:speed",
+            "duration": 26
+          },
+          {
+            "id": "minecraft:resistance",
+            "duration": 120
+          },
+          {
+            "id": "ftboss:blood_rage",
+            "duration": 796
+          },
+          {
+            "id": "minecraft:absorption",
+            "duration": 121
+          }
+        ],
+        "dead": false
+      }
+    },
+    {
+      "priority": "HIGHEST",
+      "state": {
+        "uuid": "76cfad3d-f735-4217-be75-ff7e98370833",
+        "variant": 3,
+        "mini": false,
+        "health": 0.0,
+        "maxHealth": 1024.0,
+        "alive": false,
+        "removed": false,
+        "invulnerable": false,
+        "introActing": false,
+        "managed": true,
+        "fightId": "72878520-ae17-4c8a-a917-44d063a07181",
+        "summoner": "00000000-0000-0000-0000-000000b05513",
+        "naturalEntityTicks": 2380,
+        "time": 2507
+      },
+      "equipment": {
+        "chest": "cataclysm:cursium_chestplate",
+        "effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 1020
+          },
+          {
+            "id": "minecraft:haste",
+            "duration": 1020
+          },
+          {
+            "id": "minecraft:regeneration",
+            "duration": 1020
+          },
+          {
+            "id": "minecraft:strength",
+            "duration": 1020
+          },
+          {
+            "id": "minecraft:fire_resistance",
+            "duration": 60
+          },
+          {
+            "id": "cataclysm:ghost_sickness",
+            "duration": 7160
+          },
+          {
+            "id": "minecraft:speed",
+            "duration": 26
+          },
+          {
+            "id": "minecraft:resistance",
+            "duration": 120
+          },
+          {
+            "id": "ftboss:blood_rage",
+            "duration": 796
+          },
+          {
+            "id": "minecraft:absorption",
+            "duration": 121
+          }
+        ],
+        "dead": false
+      },
+      "canceled": false
+    },
+    {
+      "priority": "LOWEST",
+      "state": {
+        "uuid": "76cfad3d-f735-4217-be75-ff7e98370833",
+        "variant": 3,
+        "mini": false,
+        "health": 0.0,
+        "maxHealth": 1024.0,
+        "alive": false,
+        "removed": false,
+        "invulnerable": false,
+        "introActing": false,
+        "managed": true,
+        "fightId": "72878520-ae17-4c8a-a917-44d063a07181",
+        "summoner": "00000000-0000-0000-0000-000000b05513",
+        "naturalEntityTicks": 2380,
+        "time": 2507
+      },
+      "equipment": {
+        "chest": "cataclysm:cursium_chestplate",
+        "effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 1020
+          },
+          {
+            "id": "minecraft:haste",
+            "duration": 1020
+          },
+          {
+            "id": "minecraft:regeneration",
+            "duration": 1020
+          },
+          {
+            "id": "minecraft:strength",
+            "duration": 1020
+          },
+          {
+            "id": "minecraft:fire_resistance",
+            "duration": 60
+          },
+          {
+            "id": "cataclysm:ghost_sickness",
+            "duration": 7160
+          },
+          {
+            "id": "minecraft:speed",
+            "duration": 26
+          },
+          {
+            "id": "minecraft:resistance",
+            "duration": 120
+          },
+          {
+            "id": "ftboss:blood_rage",
+            "duration": 796
+          },
+          {
+            "id": "minecraft:absorption",
+            "duration": 121
+          }
+        ],
+        "dead": false
+      },
+      "canceled": false
+    },
+    {
+      "time": 2507,
+      "dead": true,
+      "phase": "committedUncanceledNativeDeath",
+      "state": {
+        "uuid": "76cfad3d-f735-4217-be75-ff7e98370833",
+        "variant": 3,
+        "mini": false,
+        "health": 0.0,
+        "maxHealth": 1024.0,
+        "alive": false,
+        "removed": true,
+        "invulnerable": false,
+        "introActing": false,
+        "managed": true,
+        "fightId": "72878520-ae17-4c8a-a917-44d063a07181",
+        "summoner": "00000000-0000-0000-0000-000000b05513",
+        "naturalEntityTicks": 2380,
+        "time": 2507
+      }
+    },
+    {
+      "state": {
+        "uuid": "89936645-23f3-4139-b1de-0148b8691d46",
+        "variant": 0,
+        "mini": false,
+        "health": 1024.0,
+        "maxHealth": 1024.0,
+        "alive": true,
+        "removed": false,
+        "invulnerable": false,
+        "introActing": false,
+        "managed": true,
+        "fightId": "72878520-ae17-4c8a-a917-44d063a07181",
+        "summoner": "00000000-0000-0000-0000-000000b05513",
+        "naturalEntityTicks": 1,
+        "time": 2569
+      },
+      "phase": "originalNaturalNextStage",
+      "time": 2569
+    },
+    {
+      "priority": "HIGHEST",
+      "state": {
+        "uuid": "89936645-23f3-4139-b1de-0148b8691d46",
+        "variant": 0,
+        "mini": false,
+        "health": 0.0,
+        "maxHealth": 1024.0,
+        "alive": false,
+        "removed": false,
+        "invulnerable": false,
+        "introActing": false,
+        "managed": true,
+        "fightId": "72878520-ae17-4c8a-a917-44d063a07181",
+        "summoner": "00000000-0000-0000-0000-000000b05513",
+        "naturalEntityTicks": 320,
+        "time": 2888
+      },
+      "equipment": {
+        "chest": "cataclysm:ignitium_chestplate",
+        "effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:haste",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:regeneration",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:speed",
+            "duration": 25
+          },
+          {
+            "id": "minecraft:strength",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:resistance",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:absorption",
+            "duration": 2360
+          }
+        ],
+        "dead": false
+      },
+      "canceled": false
+    },
+    {
+      "priority": "LOWEST",
+      "state": {
+        "uuid": "89936645-23f3-4139-b1de-0148b8691d46",
+        "variant": 0,
+        "mini": false,
+        "health": 0.0,
+        "maxHealth": 1024.0,
+        "alive": false,
+        "removed": false,
+        "invulnerable": false,
+        "introActing": false,
+        "managed": true,
+        "fightId": "72878520-ae17-4c8a-a917-44d063a07181",
+        "summoner": "00000000-0000-0000-0000-000000b05513",
+        "naturalEntityTicks": 320,
+        "time": 2888
+      },
+      "equipment": {
+        "chest": "cataclysm:ignitium_chestplate",
+        "effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:haste",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:regeneration",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:speed",
+            "duration": 25
+          },
+          {
+            "id": "minecraft:strength",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:resistance",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:absorption",
+            "duration": 2360
+          }
+        ],
+        "dead": false
+      },
+      "canceled": false
+    },
+    {
+      "priority": "HIGHEST",
+      "state": {
+        "uuid": "3b0d8d6f-ccd5-4c1b-90bd-afa6ec0a4f97",
+        "variant": 1,
+        "mini": false,
+        "health": 0.0,
+        "maxHealth": 1024.0,
+        "alive": false,
+        "removed": false,
+        "invulnerable": false,
+        "introActing": false,
+        "managed": true,
+        "fightId": "72878520-ae17-4c8a-a917-44d063a07181",
+        "summoner": "00000000-0000-0000-0000-000000b05513",
+        "naturalEntityTicks": 320,
+        "time": 3269
+      },
+      "equipment": {
+        "chest": "cataclysm:ignitium_chestplate",
+        "effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:haste",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:regeneration",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:speed",
+            "duration": 23
+          },
+          {
+            "id": "minecraft:strength",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:resistance",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:absorption",
+            "duration": 2360
+          }
+        ],
+        "dead": false
+      },
+      "canceled": false
+    },
+    {
+      "priority": "LOWEST",
+      "state": {
+        "uuid": "3b0d8d6f-ccd5-4c1b-90bd-afa6ec0a4f97",
+        "variant": 1,
+        "mini": false,
+        "health": 0.0,
+        "maxHealth": 1024.0,
+        "alive": false,
+        "removed": false,
+        "invulnerable": false,
+        "introActing": false,
+        "managed": true,
+        "fightId": "72878520-ae17-4c8a-a917-44d063a07181",
+        "summoner": "00000000-0000-0000-0000-000000b05513",
+        "naturalEntityTicks": 320,
+        "time": 3269
+      },
+      "equipment": {
+        "chest": "cataclysm:ignitium_chestplate",
+        "effects": [
+          {
+            "id": "minecraft:jump_boost",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:haste",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:regeneration",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:speed",
+            "duration": 23
+          },
+          {
+            "id": "minecraft:strength",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:resistance",
+            "duration": 1160
+          },
+          {
+            "id": "minecraft:absorption",
+            "duration": 2360
+          }
+        ],
+        "dead": false
+      },
+      "canceled": false
+    }
+  ],
+  "actualBossProof": "checks=4881;actualDefinedMethods=342;changedActualMethods=2;unchangedBossMethods=340;allOriginalGraphsRecoveredExactly=true;actualLoadedInstallerIdempotent=true;otherCapturedClassesUnchanged=34;engineOnlyUniquePrivateSessionLambdaNameMapped=true;engineDeathExactWithoutNormalization=true;engineNormalizationNegativeControls=1;asmVerifiedMethods=342;",
+  "originalCallbackProof": "checks=1374;actualDefinedMethods=342;allActualGraphsEqualComposition=true;exactEmitterIdempotent=true;negativeControls=2;originalHurtUnchanged=true;",
+  "actualNormalVictoryEarnedUnlock": false,
+  "actualEligibleFinaleAttributeBaselineAccepted": false,
+  "fullProbeFailures": 1,
+  "fullProbeFailure": "java.lang.AssertionError: Each original stage must advance within two natural minutes [phase=1,stage=6,baseline=0]\r\n\tat TRANSFORMER/ftboss_clientfxprobe@1.0/ftboss.clientfxprobe.ManorDeathCancelNativeV2.require(ManorDeathCancelNativeV2.java:100)\r\n\tat TRANSFORMER/ftboss_clientfxprobe@1.0/ftboss.clientfxprobe.ManorDeathCancelNativeV2.serverTick(ManorDeathCancelNativeV2.java:137)\r\n\tat MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27)\r\n\tat MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360)\r\n\tat MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328)\r\n\tat TRANSFORMER/neoforge@21.1.233/net.neoforged.neoforge.event.EventHooks.fireServerTickPost(EventHooks.java:1020)\r\n\tat TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:943)\r\n\tat TRANSFORMER/minecraft@1.21.1/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:110)\r\n\tat TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707)\r\n\tat TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1583)\r\n",
+  "normalFightNativeDeathCancellationRemovalGapRemains": false,
+  "originalGapAlsoPresentInInstalledForgeScript": true,
+  "nativeGenericKillPathAccepted": false,
+  "arbitraryCancelWithoutHealthRestorationSurvivalClaimed": false,
+  "fixture": {
+    "targetPreDamageFixture": 250.0,
+    "nativePreDamageCap": 0.01,
+    "survivabilityAcceptanceClaimed": false,
+    "actualRawAttackAttribute": 128.0,
+    "cappedHits": 557
+  },
+  "observerNoPrivateGameplayManualTickOrVictoryIdentityWrites": true,
+  "formalExpectedHashesVerified": {
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_NeoForge 机械动力/mods/qys-bosses-1.21.1.jar": "6563f431dca1871eb7870653b74550ba2f5c0f66c104eea90ce58a99ca30f7c0",
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_ForgeⅡ v1.5.2/mods/qys-bosses.jar": "7c88b9e51ccdc6616cd2f70d6fa3c195772fc3f083f848085053d40cfe2015a3"
+  },
+  "modelOrMusicUploaded": false,
+  "authenticated": false,
+  "actualMultiplayerGameplayAccepted": false,
+  "curiosReloadAcceptanceClaimed": false,
+  "allBossWorldRestartAcceptanceClaimed": false,
+  "fullBossCombatAcceptanceClaimed": false,
+  "remaining": [
+    "Investigate actual original stage6 remaining invulnerable for 2400 natural ticks despite 56 actual public player attacks and zero native Pre admissions; preserve original phase rules and establish original/port boundary before changing product.",
+    "Earn actual original NORMAL Manor victory via registered egg, real player attacks and all natural stages, then original gated IMPOSSIBLE regular Boss attributes/cast/Tea baseline; prior arithmetic-only checks are not eligible runtime acceptance.",
+    "Complete original Non-Manor finale difficulty and summon/progression/attribute/cast baseline; original action/visual fidelity and remaining original combat handlers",
+    "Authenticated real multiple players and full normal/impossible Boss combat/rewards; Sparrow scaled quotas/additional plans/repeat appearances; all Boss persistence/dimensions",
+    "Curios V18 attended new-JVM reload remains separate and not auto-retried; final cumulative installable artifact and authorized deployment/rollback; weapons/Session paused"
+  ],
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}
