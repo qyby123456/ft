@@ -37,3 +37,7 @@ Primary closeout: work/session-boss/reports/manor-native-events-v1-closeout-2026
 ## Remaining acceptance
 
 Actual original sharing paths, authenticated summon/managed fights, every normal/impossible Boss phase and reward/death/cancel, multiplayer, dimension and persistence remain. Curios new-JVM acceptance requires the user present for Create Backup and Load; do not automatically retry the attended fixture. Full audiovisual/action fidelity and final cumulative installation/deployment gates also remain. Both formal JAR hashes were read-only rechecked unchanged; D is read-only, weapons and Session development/validation remain paused. Full Boss goal remains active.
+
+## Verified source recovery and cache cleanup
+
+Source commit 326ba107bcc13d82b3fed589904bb304ae941828 is pushed to the existing source branch. Independent remote fetch/blob recovery verifies all 50 selected files and the complete 4505-file tree passes resource exclusion. Exactly 20 duplicate Git worktree Java/Python files (190502 bytes) were evicted after handle checks and marked skip-worktree. Canonical compilation/runtime inputs, worlds and every excluded resource remain local. Exact expected absent paths and hashes are persisted in checkpoint-manor-native-events-cleanup-20261114.json and its cleanup-result evidence; the primary source recovery index is checkpoint-manor-native-events-20261114.json. Weapons, archive-storage and root README are unchanged.
