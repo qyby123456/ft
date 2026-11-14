@@ -1,5 +1,7 @@
 ## Stage40 原生镇印共享绘制缓冲修复，2026-11-14
 
+Stage40 源码与限定文字证据已推送 940d92ff3b341c0004f24d480c8e6eace84d6d43，127 文件独立远端逐 blob 恢复，5191 文件整树资源排除检查通过。核验零进程/句柄引用后，仅清理 Git 工作副本 32 份重复 Java/Python（312002 字节），skip-worktree；canonical 冻结输入保留。112 个关闭依赖 JAR 原路径、世界和资源字节本地保留，只读同哈希去重。源码恢复入口 github-sync/checkpoint-shadow-sigil-render-20261114.json；预期缺失与清理入口 github-sync/checkpoint-shadow-sigil-render-cleanup-20261114.json。全部模型/贴图/动画/音乐/音频、JAR、世界和嵌套/编码资源不上传，Git 不提供排除资源恢复。实际镇印可见绘制通过，普通通关/终结属性基线仍未通过，完整 Boss 未完成、正式实例未部署。
+
 候选 95e29f9f6986d58d4f55238776088d82e7782b0e0ece5c2d2f72e25f98ba4215，NOT-INSTALLABLE，仅替换 ShadowSigilVisual 一个方法。实际客户端 V1 的 Not building 崩溃定位为提前获取两个 eyes RenderType 使共享 BufferBuilder 在写入前已被结束；现在在每次原几何调用前获取对应 consumer。353 组合检查、152 成员链接、12 方法 ASM、三负控通过，反向还原旧图及其余 11 方法图保持，全部其他 JAR entry 及资源字节与 Stage37 不变。V1 组合器遇到旧 StackMap 的失败原样保留；V2 按完整类型层次重算 frames。
 
 实际离线客户端/集成服由原注册奋斗蛋建立真实普通庄园战斗，原 Boss 自然生成镇印；实际客户端通过公开朝向接口观察，原 AFTER_PARTICLES 绘制正常返回 46 帧、GL 无错误，柱体实际观察帧数 46。柱体是否实际观察为 True，不把静态几何保持冒充未观察的实际特效验收。实际捕获九个助手定义类逐字节等于候选；缩放类按既有 Raid→Multiplayer 安装器和 Mixin 签名生成规则严格重算，元数据及全部五个方法图吻合，幂等和两负控通过，342 Easter 方法图、1374 检查和两负控保持。原真实召唤者公开投降，40 自然 tick 后权属和实体清理通过；正常完整保存、退出 0、进程回收、冻结输入不变。
