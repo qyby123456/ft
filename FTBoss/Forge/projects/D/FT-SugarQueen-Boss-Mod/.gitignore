@@ -1,0 +1,28 @@
+build/
+logs/
+_work/
+_backup/
+*.log
+build_err.txt
+_buildlog*.txt
+.gradle/
+run/
+*.bak
+tools/model3d/out_*/
+tools/**/node_modules/
+.ftboss-model3d/
+
+# 开发资源清场的目标目录: 从 src/main/resources 搬出来的开发备份落在
+# _dev_backup/resources-<日期>/ 下 (保留原相对路径, 便于随时搬回)
+_dev_backup/
+
+# 整理/校验工具留下的备份兜底 (正常应由 tools/model3d/dev_resource_cleanup.cjs 搬走)
+*.reorder.bak
+*.keyorder.bak
+*.tilted-bak
+
+# 任务导出与生成音频输出 (可再生成, 不进入版本历史)
+_exports/
+tools/music/out/
+tools/audio_tools/out*/
+*.lock

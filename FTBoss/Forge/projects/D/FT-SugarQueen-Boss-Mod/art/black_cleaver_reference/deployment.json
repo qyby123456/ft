@@ -1,0 +1,55 @@
+{
+  "status": "deployed",
+  "verified_at": "2026-09-17T13:46:08.3421092+08:00",
+  "model_revision": "07_palm_and_cutting_plane",
+  "jar_sha256": "da3e499691898e3bd7110bfca8b52e23cae79a7f81d4a481d27f3cf93b57eee5",
+  "jar_bytes": 40240469,
+  "installed_paths": [
+    "C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\.minecraft\\versions\\FarmingTales Forge\\mods\\qys-bosses.jar",
+    "C:\\Users\\YOUR_USERNAME\\Desktop\\qys-bosses.jar",
+    "C:\\Users\\YOUR_USERNAME\\Desktop\\FT经济-波动mod成品\\qys-bosses.jar",
+    "C:\\Users\\YOUR_USERNAME\\OneDrive\\桌面\\FT经济-波动mod成品\\qys-bosses.jar"
+  ],
+  "artifact": "C:\\Users\\YOUR_USERNAME\\Desktop\\FT-SugarQueen-Boss-Mod\\_backup\\black_cleaver_palm_plane_20260917_130057\\release\\qys-bosses.jar",
+  "packaging": {
+    "method": "single resource patch on latest installed jar",
+    "base_sha256": "eac9ca3d35aed4d44df9d7619efd3f5f8d1402335f1125f6530d7401d6852c31",
+    "artifact": "C:\\Users\\YOUR_USERNAME\\Desktop\\FT-SugarQueen-Boss-Mod\\_backup\\black_cleaver_palm_plane_20260917_130057\\release\\qys-bosses.jar",
+    "artifact_sha256": "da3e499691898e3bd7110bfca8b52e23cae79a7f81d4a481d27f3cf93b57eee5",
+    "replaced_entry": "assets/ftboss/models/item/black_cleaver.json",
+    "unchanged_entries": 984,
+    "runtime_class_changes": 0,
+    "full_source_build": "not run: display-only change; preserve concurrent Java work",
+    "created_at": "2026-09-17T13:43:16.9423355+08:00"
+  },
+  "native_validation": {
+    "status": "PASS",
+    "native_geckolib": "4.8.4",
+    "vertices": 325584,
+    "maximum_error_model_units": 1.0322462467808522E-05,
+    "uv_vertices": 8568,
+    "native_item_transforms_checked": true,
+    "upright_shaft_contexts": 4,
+    "shaft_axis_tolerance": 1E-05,
+    "native_player_hand_samples": 36,
+    "palm_error_tolerance_model_units": 0.06,
+    "cutting_edge_forward_checked": true,
+    "first_person_viewport_samples": 44,
+    "game_tested": false
+  },
+  "neutral_clearance_validation": {
+    "status": "PASS",
+    "neutral_poses": 8,
+    "conservative_aabb_pairs": 5712,
+    "maximum_grip_target_error_model_units": 0.049979642,
+    "scope": "Native classic/slim player neutral ITEM arm pose, both hands, closed/blood-open head and torso clearance",
+    "dynamic_character_collision_tested": false,
+    "game_tested": false
+  },
+  "negative_regression": "Revision 06 fails the full native player arm/palm/cutting-plane check",
+  "source_change": "Four hand display contexts only; native player-chain and neutral clearance tests added",
+  "geometry_texture_animation_files_unchanged": 10,
+  "game_tested": false,
+  "backup": "C:\\Users\\YOUR_USERNAME\\Desktop\\FT-SugarQueen-Boss-Mod\\_backup\\black_cleaver_palm_plane_20260917_130057",
+  "export_directory": "C:\\Users\\YOUR_USERNAME\\OneDrive\\桌面\\ft工程文件\\黑切_手绘重制"
+}

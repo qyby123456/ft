@@ -1,0 +1,1082 @@
+{
+  "generator": "tools/model3d/gen_sugar_queen.cjs",
+  "bones": 33,
+  "cubes": 209,
+  "atlas": [
+    256,
+    256
+  ],
+  "atlasRowsUsed": 106,
+  "animationNames": [
+    "animation.king.idle",
+    "animation.king.walk",
+    "animation.king.scepter_raise",
+    "animation.king.scepter_slam",
+    "animation.king.hurt",
+    "animation.king.death",
+    "animation.king.roar",
+    "spell_cast",
+    "long_cast",
+    "long_cast_finish",
+    "instant_self",
+    "instant_projectile",
+    "charged_throw",
+    "charge_spit_finish",
+    "cast_t_pose",
+    "self_cast_two_hands",
+    "throw_item",
+    "blank"
+  ],
+  "collisionBox": [
+    1.2,
+    2.7
+  ],
+  "textureDensity": "1.5 texels/model-unit; ceil to whole pixels",
+  "parts": [
+    {
+      "name": "corset",
+      "bone": "waist",
+      "material": "rose"
+    },
+    {
+      "name": "bodice",
+      "bone": "chest",
+      "material": "cream"
+    },
+    {
+      "name": "waist_belt",
+      "bone": "waist",
+      "material": "gold"
+    },
+    {
+      "name": "belt_ribbon",
+      "bone": "waist",
+      "material": "jam"
+    },
+    {
+      "name": "belt_jewel_setting",
+      "bone": "waist",
+      "material": "gold"
+    },
+    {
+      "name": "belt_jewel",
+      "bone": "waist",
+      "material": "ruby"
+    },
+    {
+      "name": "neck",
+      "bone": "chest",
+      "material": "skin"
+    },
+    {
+      "name": "ruff_-1",
+      "bone": "chest",
+      "material": "icing"
+    },
+    {
+      "name": "lapel_-1",
+      "bone": "chest",
+      "material": "gold"
+    },
+    {
+      "name": "ruff_1",
+      "bone": "chest",
+      "material": "icing"
+    },
+    {
+      "name": "lapel_1",
+      "bone": "chest",
+      "material": "gold"
+    },
+    {
+      "name": "sugar_heart_setting",
+      "bone": "chest",
+      "material": "gold"
+    },
+    {
+      "name": "sugar_heart",
+      "bone": "chest",
+      "material": "ruby"
+    },
+    {
+      "name": "face",
+      "bone": "head",
+      "material": "skin"
+    },
+    {
+      "name": "hair_cap",
+      "bone": "head",
+      "material": "icing"
+    },
+    {
+      "name": "hair_back",
+      "bone": "head",
+      "material": "vanilla"
+    },
+    {
+      "name": "fringe_-1",
+      "bone": "head",
+      "material": "cream"
+    },
+    {
+      "name": "brow_-1",
+      "bone": "head",
+      "material": "jam"
+    },
+    {
+      "name": "eye_-1",
+      "bone": "head",
+      "material": "jam"
+    },
+    {
+      "name": "iris_-1",
+      "bone": "head",
+      "material": "ruby"
+    },
+    {
+      "name": "eye_glint_-1",
+      "bone": "head",
+      "material": "icing"
+    },
+    {
+      "name": "cheek_-1",
+      "bone": "head",
+      "material": "blush"
+    },
+    {
+      "name": "temple",
+      "bone": "curl_l",
+      "material": "cream"
+    },
+    {
+      "name": "frosting_curl",
+      "bone": "curl_tip_l",
+      "material": "icing"
+    },
+    {
+      "name": "curl_rose",
+      "bone": "curl_tip_l",
+      "material": "petal"
+    },
+    {
+      "name": "curl_pearl",
+      "bone": "curl_tip_l",
+      "material": "gold"
+    },
+    {
+      "name": "fringe_1",
+      "bone": "head",
+      "material": "cream"
+    },
+    {
+      "name": "brow_1",
+      "bone": "head",
+      "material": "jam"
+    },
+    {
+      "name": "eye_1",
+      "bone": "head",
+      "material": "jam"
+    },
+    {
+      "name": "iris_1",
+      "bone": "head",
+      "material": "ruby"
+    },
+    {
+      "name": "eye_glint_1",
+      "bone": "head",
+      "material": "icing"
+    },
+    {
+      "name": "cheek_1",
+      "bone": "head",
+      "material": "blush"
+    },
+    {
+      "name": "temple",
+      "bone": "curl_r",
+      "material": "cream"
+    },
+    {
+      "name": "frosting_curl",
+      "bone": "curl_tip_r",
+      "material": "icing"
+    },
+    {
+      "name": "curl_rose",
+      "bone": "curl_tip_r",
+      "material": "petal"
+    },
+    {
+      "name": "curl_pearl",
+      "bone": "curl_tip_r",
+      "material": "gold"
+    },
+    {
+      "name": "mouth",
+      "bone": "head",
+      "material": "rose"
+    },
+    {
+      "name": "crown_band",
+      "bone": "crown",
+      "material": "gold"
+    },
+    {
+      "name": "crown_inlay",
+      "bone": "crown",
+      "material": "jam"
+    },
+    {
+      "name": "sugar_prong_-2",
+      "bone": "crown",
+      "material": "gold"
+    },
+    {
+      "name": "crown_crystal_-2",
+      "bone": "crown",
+      "material": "crystal"
+    },
+    {
+      "name": "sugar_prong_-1",
+      "bone": "crown",
+      "material": "gold"
+    },
+    {
+      "name": "crown_crystal_-1",
+      "bone": "crown",
+      "material": "crystal"
+    },
+    {
+      "name": "sugar_prong_0",
+      "bone": "crown",
+      "material": "gold"
+    },
+    {
+      "name": "crown_crystal_0",
+      "bone": "crown",
+      "material": "crystal"
+    },
+    {
+      "name": "sugar_prong_1",
+      "bone": "crown",
+      "material": "gold"
+    },
+    {
+      "name": "crown_crystal_1",
+      "bone": "crown",
+      "material": "crystal"
+    },
+    {
+      "name": "sugar_prong_2",
+      "bone": "crown",
+      "material": "gold"
+    },
+    {
+      "name": "crown_crystal_2",
+      "bone": "crown",
+      "material": "crystal"
+    },
+    {
+      "name": "royal_ruby_setting",
+      "bone": "crown",
+      "material": "gold"
+    },
+    {
+      "name": "royal_ruby",
+      "bone": "crown",
+      "material": "ruby"
+    },
+    {
+      "name": "upper_core",
+      "bone": "skirt_upper",
+      "material": "petal"
+    },
+    {
+      "name": "panel_0",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "hem_0",
+      "bone": "skirt_upper",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_0_-0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_0_0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "panel_1",
+      "bone": "skirt_upper",
+      "material": "petal"
+    },
+    {
+      "name": "hem_1",
+      "bone": "skirt_upper",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_1_-0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_1_0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "panel_2",
+      "bone": "skirt_upper",
+      "material": "petal"
+    },
+    {
+      "name": "hem_2",
+      "bone": "skirt_upper",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_2_-0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_2_0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "panel_3",
+      "bone": "skirt_upper",
+      "material": "petal"
+    },
+    {
+      "name": "hem_3",
+      "bone": "skirt_upper",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_3_-0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_3_0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "panel_4",
+      "bone": "skirt_upper",
+      "material": "petal"
+    },
+    {
+      "name": "hem_4",
+      "bone": "skirt_upper",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_4_-0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_4_0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "panel_5",
+      "bone": "skirt_upper",
+      "material": "petal"
+    },
+    {
+      "name": "hem_5",
+      "bone": "skirt_upper",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_5_-0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_5_0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "panel_6",
+      "bone": "skirt_upper",
+      "material": "petal"
+    },
+    {
+      "name": "hem_6",
+      "bone": "skirt_upper",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_6_-0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_6_0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "panel_7",
+      "bone": "skirt_upper",
+      "material": "petal"
+    },
+    {
+      "name": "hem_7",
+      "bone": "skirt_upper",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_7_-0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_7_0.3",
+      "bone": "skirt_upper",
+      "material": "cream"
+    },
+    {
+      "name": "middle_core",
+      "bone": "skirt_middle",
+      "material": "rose"
+    },
+    {
+      "name": "panel_0",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "hem_0",
+      "bone": "skirt_middle",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_0_-0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_0_0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "candied_pearl_0",
+      "bone": "skirt_middle",
+      "material": "ruby"
+    },
+    {
+      "name": "panel_1",
+      "bone": "skirt_middle",
+      "material": "rose"
+    },
+    {
+      "name": "hem_1",
+      "bone": "skirt_middle",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_1_-0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_1_0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "panel_2",
+      "bone": "skirt_middle",
+      "material": "rose"
+    },
+    {
+      "name": "hem_2",
+      "bone": "skirt_middle",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_2_-0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_2_0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "candied_pearl_2",
+      "bone": "skirt_middle",
+      "material": "gold"
+    },
+    {
+      "name": "panel_3",
+      "bone": "skirt_middle",
+      "material": "rose"
+    },
+    {
+      "name": "hem_3",
+      "bone": "skirt_middle",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_3_-0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_3_0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "panel_4",
+      "bone": "skirt_middle",
+      "material": "rose"
+    },
+    {
+      "name": "hem_4",
+      "bone": "skirt_middle",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_4_-0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_4_0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "candied_pearl_4",
+      "bone": "skirt_middle",
+      "material": "gold"
+    },
+    {
+      "name": "panel_5",
+      "bone": "skirt_middle",
+      "material": "rose"
+    },
+    {
+      "name": "hem_5",
+      "bone": "skirt_middle",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_5_-0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_5_0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "panel_6",
+      "bone": "skirt_middle",
+      "material": "rose"
+    },
+    {
+      "name": "hem_6",
+      "bone": "skirt_middle",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_6_-0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_6_0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "candied_pearl_6",
+      "bone": "skirt_middle",
+      "material": "gold"
+    },
+    {
+      "name": "panel_7",
+      "bone": "skirt_middle",
+      "material": "rose"
+    },
+    {
+      "name": "hem_7",
+      "bone": "skirt_middle",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_7_-0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_7_0.3",
+      "bone": "skirt_middle",
+      "material": "cream"
+    },
+    {
+      "name": "lower_core",
+      "bone": "skirt_lower",
+      "material": "jam"
+    },
+    {
+      "name": "panel_0",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "hem_0",
+      "bone": "skirt_lower",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_0_-0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_0_0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "candied_pearl_0",
+      "bone": "skirt_lower",
+      "material": "ruby"
+    },
+    {
+      "name": "panel_1",
+      "bone": "skirt_lower",
+      "material": "jam"
+    },
+    {
+      "name": "hem_1",
+      "bone": "skirt_lower",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_1_-0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_1_0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "panel_2",
+      "bone": "skirt_lower",
+      "material": "jam"
+    },
+    {
+      "name": "hem_2",
+      "bone": "skirt_lower",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_2_-0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_2_0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "candied_pearl_2",
+      "bone": "skirt_lower",
+      "material": "gold"
+    },
+    {
+      "name": "panel_3",
+      "bone": "skirt_lower",
+      "material": "jam"
+    },
+    {
+      "name": "hem_3",
+      "bone": "skirt_lower",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_3_-0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_3_0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "panel_4",
+      "bone": "skirt_lower",
+      "material": "jam"
+    },
+    {
+      "name": "hem_4",
+      "bone": "skirt_lower",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_4_-0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_4_0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "candied_pearl_4",
+      "bone": "skirt_lower",
+      "material": "gold"
+    },
+    {
+      "name": "panel_5",
+      "bone": "skirt_lower",
+      "material": "jam"
+    },
+    {
+      "name": "hem_5",
+      "bone": "skirt_lower",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_5_-0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_5_0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "panel_6",
+      "bone": "skirt_lower",
+      "material": "jam"
+    },
+    {
+      "name": "hem_6",
+      "bone": "skirt_lower",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_6_-0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_6_0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "candied_pearl_6",
+      "bone": "skirt_lower",
+      "material": "gold"
+    },
+    {
+      "name": "panel_7",
+      "bone": "skirt_lower",
+      "material": "jam"
+    },
+    {
+      "name": "hem_7",
+      "bone": "skirt_lower",
+      "material": "icing"
+    },
+    {
+      "name": "piped_icing_7_-0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "piped_icing_7_0.3",
+      "bone": "skirt_lower",
+      "material": "cream"
+    },
+    {
+      "name": "stocking",
+      "bone": "leg_l",
+      "material": "cream"
+    },
+    {
+      "name": "boot",
+      "bone": "shin_l",
+      "material": "rose"
+    },
+    {
+      "name": "slipper",
+      "bone": "foot_l",
+      "material": "jam"
+    },
+    {
+      "name": "slipper_buckle",
+      "bone": "foot_l",
+      "material": "gold"
+    },
+    {
+      "name": "puff_sleeve",
+      "bone": "arm_l",
+      "material": "petal"
+    },
+    {
+      "name": "upper_arm",
+      "bone": "arm_l",
+      "material": "skin"
+    },
+    {
+      "name": "sleeve_trim",
+      "bone": "arm_l",
+      "material": "icing"
+    },
+    {
+      "name": "glove",
+      "bone": "forearm_l",
+      "material": "cream"
+    },
+    {
+      "name": "cuff",
+      "bone": "forearm_l",
+      "material": "gold"
+    },
+    {
+      "name": "hand",
+      "bone": "hand_l",
+      "material": "icing"
+    },
+    {
+      "name": "thumb",
+      "bone": "hand_l",
+      "material": "cream"
+    },
+    {
+      "name": "wrist_jewel_setting",
+      "bone": "forearm_l",
+      "material": "gold"
+    },
+    {
+      "name": "wrist_jewel",
+      "bone": "forearm_l",
+      "material": "crystal"
+    },
+    {
+      "name": "stocking",
+      "bone": "leg_r",
+      "material": "cream"
+    },
+    {
+      "name": "boot",
+      "bone": "shin_r",
+      "material": "rose"
+    },
+    {
+      "name": "slipper",
+      "bone": "foot_r",
+      "material": "jam"
+    },
+    {
+      "name": "slipper_buckle",
+      "bone": "foot_r",
+      "material": "gold"
+    },
+    {
+      "name": "puff_sleeve",
+      "bone": "arm_r",
+      "material": "petal"
+    },
+    {
+      "name": "upper_arm",
+      "bone": "arm_r",
+      "material": "skin"
+    },
+    {
+      "name": "sleeve_trim",
+      "bone": "arm_r",
+      "material": "icing"
+    },
+    {
+      "name": "glove",
+      "bone": "forearm_r",
+      "material": "cream"
+    },
+    {
+      "name": "cuff",
+      "bone": "forearm_r",
+      "material": "gold"
+    },
+    {
+      "name": "hand",
+      "bone": "hand_r",
+      "material": "icing"
+    },
+    {
+      "name": "thumb",
+      "bone": "hand_r",
+      "material": "cream"
+    },
+    {
+      "name": "wrist_jewel_setting",
+      "bone": "forearm_r",
+      "material": "gold"
+    },
+    {
+      "name": "wrist_jewel",
+      "bone": "forearm_r",
+      "material": "crystal"
+    },
+    {
+      "name": "candy_shaft",
+      "bone": "scepter",
+      "material": "icing"
+    },
+    {
+      "name": "scepter_band_5.3",
+      "bone": "scepter",
+      "material": "gold"
+    },
+    {
+      "name": "scepter_band_17.5",
+      "bone": "scepter",
+      "material": "gold"
+    },
+    {
+      "name": "scepter_band_21",
+      "bone": "scepter",
+      "material": "gold"
+    },
+    {
+      "name": "scepter_band_30.5",
+      "bone": "scepter",
+      "material": "gold"
+    },
+    {
+      "name": "scepter_band_33.1",
+      "bone": "scepter",
+      "material": "gold"
+    },
+    {
+      "name": "pommel",
+      "bone": "scepter",
+      "material": "ruby"
+    },
+    {
+      "name": "sugar_orb",
+      "bone": "scepter_head",
+      "material": "crystal"
+    },
+    {
+      "name": "orb_inner",
+      "bone": "scepter_head",
+      "material": "glint"
+    },
+    {
+      "name": "cage_-1",
+      "bone": "scepter_head",
+      "material": "gold"
+    },
+    {
+      "name": "cage_tip_-1",
+      "bone": "scepter_head",
+      "material": "cream"
+    },
+    {
+      "name": "bow_-1",
+      "bone": "scepter",
+      "material": "rose"
+    },
+    {
+      "name": "cage_1",
+      "bone": "scepter_head",
+      "material": "gold"
+    },
+    {
+      "name": "cage_tip_1",
+      "bone": "scepter_head",
+      "material": "cream"
+    },
+    {
+      "name": "bow_1",
+      "bone": "scepter",
+      "material": "rose"
+    },
+    {
+      "name": "bow_knot_setting",
+      "bone": "scepter",
+      "material": "gold"
+    },
+    {
+      "name": "bow_knot",
+      "bone": "scepter",
+      "material": "ruby"
+    },
+    {
+      "name": "mantle",
+      "bone": "cape",
+      "material": "velvet"
+    },
+    {
+      "name": "mantle_fur",
+      "bone": "cape",
+      "material": "icing"
+    },
+    {
+      "name": "cape_middle",
+      "bone": "cape_l",
+      "material": "velvet"
+    },
+    {
+      "name": "cape_tail",
+      "bone": "cape_tip_l",
+      "material": "jam"
+    },
+    {
+      "name": "tail_hem",
+      "bone": "cape_tip_l",
+      "material": "gold"
+    },
+    {
+      "name": "cape_middle",
+      "bone": "cape_r",
+      "material": "velvet"
+    },
+    {
+      "name": "cape_tail",
+      "bone": "cape_tip_r",
+      "material": "jam"
+    },
+    {
+      "name": "tail_hem",
+      "bone": "cape_tip_r",
+      "material": "gold"
+    }
+  ]
+}

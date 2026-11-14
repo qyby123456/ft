@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:item/handheld",
+  "gui_light": "front",
+  "textures": {
+    "particle": "minecraft:block/redstone_block",
+    "frame": "minecraft:block/iron_block",
+    "stop": "minecraft:block/redstone_block",
+    "handle": "minecraft:block/obsidian"
+  },
+  "display": {
+    "gui": { "rotation": [0, 0, 0], "translation": [0, 0, 0], "scale": [0.9, 0.9, 0.9] }
+  },
+  "elements": [
+    {
+      "from": [7, 1, 7], "to": [9, 7, 9],
+      "faces": {
+        "north": { "texture": "#handle" }, "south": { "texture": "#handle" },
+        "east": { "texture": "#handle" }, "west": { "texture": "#handle" },
+        "up": { "texture": "#handle" }, "down": { "texture": "#handle" }
+      }
+    },
+    {
+      "from": [3, 5, 7], "to": [13, 15, 9],
+      "faces": {
+        "north": { "texture": "#frame" }, "south": { "texture": "#frame" },
+        "east": { "texture": "#frame" }, "west": { "texture": "#frame" },
+        "up": { "texture": "#frame" }, "down": { "texture": "#frame" }
+      }
+    },
+    {
+      "from": [4, 6, 6.8], "to": [12, 14, 9.2],
+      "faces": {
+        "north": { "texture": "#stop" }, "south": { "texture": "#stop" },
+        "east": { "texture": "#stop" }, "west": { "texture": "#stop" },
+        "up": { "texture": "#stop" }, "down": { "texture": "#stop" }
+      }
+    },
+    {
+      "from": [5, 9, 6.6], "to": [11, 11, 9.4],
+      "faces": {
+        "north": { "texture": "#frame" }, "south": { "texture": "#frame" },
+        "east": { "texture": "#frame" }, "west": { "texture": "#frame" },
+        "up": { "texture": "#frame" }, "down": { "texture": "#frame" }
+      }
+    }
+  ]
+}

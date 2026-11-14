@@ -1,0 +1,38 @@
+allprojects {
+    afterEvaluate {
+        sourceSets.main.java.setIncludes([
+            'net/farmingtales/ftboss/entity/EasterBossEntity.java',
+            'net/farmingtales/ftboss/client/model/EasterBossModel.java',
+            'net/farmingtales/ftboss/effect/FTEffects.java',
+            'net/farmingtales/ftboss/effect/LethalTempoEffect.java',
+            'net/farmingtales/ftboss/util/DoraCombatTempo.java',
+            'net/farmingtales/ftboss/boss/ai/GongdiSkills.java',
+            'net/farmingtales/ftboss/util/GongdiCombatRules.java',
+            'net/farmingtales/ftboss/util/HiddenBossCastRules.java',
+            'net/farmingtales/ftboss/client/render/EasterSkillVisual.java'
+        ])
+        sourceSets.main.resources.setIncludes([
+            'assets/ftboss/lang/zh_cn.json',
+            'assets/ftboss/lang/en_us.json',
+            'assets/ftboss/textures/mob_effect/lethal_tempo.png',
+            'data/ftboss/damage_type/gongdi_guillotine.json',
+            'data/minecraft/tags/damage_type/bypasses_armor.json',
+            'data/minecraft/tags/damage_type/bypasses_shield.json',
+            'data/minecraft/tags/damage_type/bypasses_enchantments.json',
+            'data/minecraft/tags/damage_type/bypasses_resistance.json'
+        ])
+        dependencies.add('compileOnly', project.files(project.property('doraBaseline')))
+        tasks.named('compileJava') {
+            destinationDirectory = layout.buildDirectory.dir('dora-overlay/classes')
+            options.compilerArgs += ['-implicit:none']
+        }
+        sourceSets.main.output.classesDirs.setFrom(layout.buildDirectory.dir('dora-overlay/classes'))
+        tasks.named('processResources') {
+            destinationDir = layout.buildDirectory.dir('dora-overlay/resources').get().asFile
+        }
+        sourceSets.main.output.resourcesDir = layout.buildDirectory.dir('dora-overlay/resources').get().asFile
+        tasks.named('jar') {
+            archiveFileName = 'dora-tempo-overlay.jar'
+        }
+    }
+}

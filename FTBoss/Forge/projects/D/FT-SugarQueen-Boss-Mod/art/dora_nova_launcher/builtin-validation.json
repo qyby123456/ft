@@ -1,0 +1,28 @@
+{
+  "valid": true,
+  "cubes": 133,
+  "groups": 9,
+  "resources": {
+    "models/item/dora_nova_launcher_v1.json": "1c77c0f86c835aedfb1b5754bd84e23f20285f27b6b19718bc8ef08aec12dd8f",
+    "textures/item/dora_nova_launcher_v1.png": "1385f758d7bc82737a68e63d7b8fa0a5576ceaafa297b7485add176d74b0dc55",
+    "textures/item/dora_nova_particle_v1.png": "1ada01e5466f40c47ac8175b6defd97c0a69d871bc81162a30390ae331fac1b1"
+  },
+  "scope": "Dora (EasterBossEntity variant 2) holding bren:machine_gun; all other holders delegate to the original model",
+  "mainFaceDensity": {
+    "min": 1.212121212121212,
+    "max": 2
+  },
+  "thinFacesAboveThreePixelsPerUnit": 144,
+  "checks": [
+    "Blockbench geometry, rotations, UV, texture and display match",
+    "All face UVs opaque",
+    "Main face density 1-2 px/unit",
+    "Separate opaque particle texture",
+    "No generated parent",
+    "Existing Dora weapon ID retained"
+  ],
+  "notVerified": [
+    "Minecraft render, arm pose, first-person behavior and resource reload",
+    "Interactive Blockbench import"
+  ]
+}

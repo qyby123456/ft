@@ -1,0 +1,2127 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "故障机器人",
+  "model_identifier": "defect_core",
+  "resolution": {
+    "width": 64,
+    "height": 64
+  },
+  "ambientocclusion": false,
+  "front_gui_light": true,
+  "display": {
+    "gui": {
+      "rotation": [
+        18,
+        -30,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.48,
+        0.48,
+        0.48
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        10,
+        4
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -35,
+        8
+      ],
+      "translation": [
+        0.5,
+        1.4,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        35,
+        -8
+      ],
+      "translation": [
+        0.5,
+        1.4,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    }
+  },
+  "elements": [
+    {
+      "name": "机芯外壳_0",
+      "uuid": "a58f0f4a-4055-4955-adf6-fdd6c75ae944",
+      "type": "cube",
+      "from": [
+        4.5,
+        3,
+        4.5
+      ],
+      "to": [
+        11.5,
+        13,
+        11.5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "机芯外壳_1",
+      "uuid": "dcf4530d-bed3-4d78-ab37-870e1f762113",
+      "type": "cube",
+      "from": [
+        3.5,
+        3,
+        5.5
+      ],
+      "to": [
+        4.5,
+        13,
+        10.5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "机芯外壳_2",
+      "uuid": "3bb51f8f-5918-40c3-a93c-e77fa09cf0bb",
+      "type": "cube",
+      "from": [
+        11.5,
+        3,
+        5.5
+      ],
+      "to": [
+        12.5,
+        13,
+        10.5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "机芯上下框_3",
+      "uuid": "bf168df9-4340-43e8-a2ce-e37468030223",
+      "type": "cube",
+      "from": [
+        3.2,
+        3,
+        4.2
+      ],
+      "to": [
+        12.8,
+        4,
+        4.75
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "机芯上下框_4",
+      "uuid": "daa30955-e4ba-4165-a9f9-684062acd2f1",
+      "type": "cube",
+      "from": [
+        3.2,
+        3,
+        11.25
+      ],
+      "to": [
+        12.8,
+        4,
+        11.8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "机芯上下框_5",
+      "uuid": "cf8bf9fa-66cc-436a-a5a5-f0f82abe568d",
+      "type": "cube",
+      "from": [
+        3.2,
+        3,
+        4.75
+      ],
+      "to": [
+        3.75,
+        4,
+        11.25
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "机芯上下框_6",
+      "uuid": "039602b3-15ea-44a1-a296-41745299da9b",
+      "type": "cube",
+      "from": [
+        12.25,
+        3,
+        4.75
+      ],
+      "to": [
+        12.8,
+        4,
+        11.25
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "机芯上下框_7",
+      "uuid": "f101041c-3e7d-4532-abdb-70712b88bda6",
+      "type": "cube",
+      "from": [
+        3.2,
+        12,
+        4.2
+      ],
+      "to": [
+        12.8,
+        13,
+        4.75
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "机芯上下框_8",
+      "uuid": "e70d6602-a1ae-48a5-a41e-6690e78eb5da",
+      "type": "cube",
+      "from": [
+        3.2,
+        12,
+        11.25
+      ],
+      "to": [
+        12.8,
+        13,
+        11.8
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "机芯上下框_9",
+      "uuid": "4ad3dc6b-9f0b-4cea-a330-f42ea7633fce",
+      "type": "cube",
+      "from": [
+        3.2,
+        12,
+        4.75
+      ],
+      "to": [
+        3.75,
+        13,
+        11.25
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "机芯上下框_10",
+      "uuid": "20565b73-2a30-4288-abd6-2e53e2233787",
+      "type": "cube",
+      "from": [
+        12.25,
+        12,
+        4.75
+      ],
+      "to": [
+        12.8,
+        13,
+        11.25
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            1,
+            31,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "机芯侧柱_11",
+      "uuid": "71ae5e77-91ef-4beb-a768-bbb00484a023",
+      "type": "cube",
+      "from": [
+        3.4,
+        4,
+        4.3
+      ],
+      "to": [
+        4.5,
+        12,
+        11.7
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "机芯侧柱_12",
+      "uuid": "203c0d32-ed4e-428f-a8a4-6cf01acf627e",
+      "type": "cube",
+      "from": [
+        11.5,
+        4,
+        4.3
+      ],
+      "to": [
+        12.6,
+        12,
+        11.7
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "反应窗底_13",
+      "uuid": "5e1ad34d-ca10-43f8-a2b0-9dc233b73f8d",
+      "type": "cube",
+      "from": [
+        5,
+        5,
+        4.35
+      ],
+      "to": [
+        11,
+        11,
+        4.55
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            25,
+            15,
+            31
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            25,
+            15,
+            31
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            25,
+            15,
+            31
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            25,
+            15,
+            31
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            25,
+            15,
+            31
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            25,
+            15,
+            31
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "离子晶体_14",
+      "uuid": "af076edb-83ac-4c35-ae37-6575ec044216",
+      "type": "cube",
+      "from": [
+        6,
+        6,
+        3.5
+      ],
+      "to": [
+        10,
+        10,
+        4.3
+      ],
+      "origin": [
+        8,
+        8,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        45
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            25,
+            25,
+            31,
+            31
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            25,
+            31,
+            31
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            25,
+            31,
+            31
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            25,
+            31,
+            31
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            25,
+            31,
+            31
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            25,
+            31,
+            31
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "离子晶核_15",
+      "uuid": "f39fee12-febd-4246-a56f-6e97b53932fc",
+      "type": "cube",
+      "from": [
+        7,
+        7,
+        3.23
+      ],
+      "to": [
+        9,
+        9,
+        3.55
+      ],
+      "origin": [
+        8,
+        8,
+        4
+      ],
+      "rotation": [
+        0,
+        0,
+        45
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            25,
+            39,
+            31
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            25,
+            39,
+            31
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            25,
+            39,
+            31
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            25,
+            39,
+            31
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            25,
+            39,
+            31
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            25,
+            39,
+            31
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "框架铆钉_16",
+      "uuid": "2442c195-b9a8-46a9-a63f-6ea553746221",
+      "type": "cube",
+      "from": [
+        4,
+        3.3,
+        4.1
+      ],
+      "to": [
+        4.6,
+        3.75,
+        4.27
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "框架铆钉_17",
+      "uuid": "8b3ed880-1de3-4be9-aae1-e409b302b6fb",
+      "type": "cube",
+      "from": [
+        4,
+        12.3,
+        4.1
+      ],
+      "to": [
+        4.6,
+        12.75,
+        4.27
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "框架铆钉_18",
+      "uuid": "1ebbca52-20e2-4eab-a021-7ce83ac556e9",
+      "type": "cube",
+      "from": [
+        11.4,
+        3.3,
+        4.1
+      ],
+      "to": [
+        12,
+        3.75,
+        4.27
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "框架铆钉_19",
+      "uuid": "2be52323-5484-4c43-a705-860c6b0ecd31",
+      "type": "cube",
+      "from": [
+        11.4,
+        12.3,
+        4.1
+      ],
+      "to": [
+        12,
+        12.75,
+        4.27
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            1,
+            9,
+            7,
+            15
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "故障端子_20",
+      "uuid": "136dfa0e-5587-4709-ae42-817c1ea9739f",
+      "type": "cube",
+      "from": [
+        6,
+        13,
+        7.1
+      ],
+      "to": [
+        6.7,
+        14.5,
+        8.2
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            41,
+            9,
+            47,
+            15
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            41,
+            9,
+            47,
+            15
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            41,
+            9,
+            47,
+            15
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            41,
+            9,
+            47,
+            15
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            41,
+            9,
+            47,
+            15
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            41,
+            9,
+            47,
+            15
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "故障端子_21",
+      "uuid": "a9b5e78e-a898-4ab4-adc6-b917a163e097",
+      "type": "cube",
+      "from": [
+        9.6,
+        13,
+        7.1
+      ],
+      "to": [
+        10.299999999999999,
+        14.5,
+        8.2
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            25,
+            25,
+            31,
+            31
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            25,
+            31,
+            31
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            25,
+            31,
+            31
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            25,
+            31,
+            31
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            25,
+            31,
+            31
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            25,
+            31,
+            31
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "后盖散热片_22",
+      "uuid": "0f7979ca-704c-43ba-a48d-6a8849041624",
+      "type": "cube",
+      "from": [
+        5.5,
+        6,
+        11.05
+      ],
+      "to": [
+        10.5,
+        10,
+        11.5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            17,
+            1,
+            23,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "a58f0f4a-4055-4955-adf6-fdd6c75ae944",
+    "dcf4530d-bed3-4d78-ab37-870e1f762113",
+    "3bb51f8f-5918-40c3-a93c-e77fa09cf0bb",
+    "bf168df9-4340-43e8-a2ce-e37468030223",
+    "daa30955-e4ba-4165-a9f9-684062acd2f1",
+    "cf8bf9fa-66cc-436a-a5a5-f0f82abe568d",
+    "039602b3-15ea-44a1-a296-41745299da9b",
+    "f101041c-3e7d-4532-abdb-70712b88bda6",
+    "e70d6602-a1ae-48a5-a41e-6690e78eb5da",
+    "4ad3dc6b-9f0b-4cea-a330-f42ea7633fce",
+    "20565b73-2a30-4288-abd6-2e53e2233787",
+    "71ae5e77-91ef-4beb-a768-bbb00484a023",
+    "203c0d32-ed4e-428f-a8a4-6cf01acf627e",
+    "5e1ad34d-ca10-43f8-a2b0-9dc233b73f8d",
+    "af076edb-83ac-4c35-ae37-6575ec044216",
+    "f39fee12-febd-4246-a56f-6e97b53932fc",
+    "2442c195-b9a8-46a9-a63f-6ea553746221",
+    "8b3ed880-1de3-4be9-aae1-e409b302b6fb",
+    "1ebbca52-20e2-4eab-a021-7ce83ac556e9",
+    "2be52323-5484-4c43-a705-860c6b0ecd31",
+    "136dfa0e-5587-4709-ae42-817c1ea9739f",
+    "a9b5e78e-a898-4ab4-adc6-b917a163e097",
+    "0f7979ca-704c-43ba-a48d-6a8849041624"
+  ],
+  "textures": [
+    {
+      "name": "atlas.png",
+      "id": "atlas",
+      "uuid": "69b56c83-bf4d-4300-ab4f-516c3ee66a40",
+      "namespace": "ftboss",
+      "folder": "item/summons_redraw",
+      "width": 64,
+      "height": 64,
+      "uv_width": 64,
+      "uv_height": 64,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAE10lEQVR4Ae3BP6ulVxnG4d9sXu/D8zTHYiQh+AfUjIKJ4KAYFAxIQDDNINoZG6uAY5HK0kas/QPa+QUs/Ap+ADs7R9LaaDgS1sLblcQs8Y2bzX4fSNwHZvC9rjvPfPT5dySx5e5Tz1D5xLOfY4ttXvz2AybbSOLUV+9/lsoLd/9O5Rc/fIVjtpHE6qWXnqayXF9fU4kIKhHBloggIpgignMiglL8k0pEcCwiOBYRVJbeO8dsI4lV751K751K751zbCOJ3ju2kcRZvVPpvVPpvbOyjSSOHTghick2K9tcmiRWkphsc5skMdlmdWCDJFaSmGxzmyQx2WZlm0uTxGSbA++DJCbbrGxzaZKYbCOJyTaXJomltUaltcY5YwymMQZjDLa01qi01qi01liNMTjVWqPSWqOyZCaVzKSSmRyzjSRWmUklM6lkDs6xjSQyE9tI4pzMpLK8/vuHVL754FecYxtJfPHNN7GNJN5j3vP5P/6Fym9ee0Tlb3c/wso2kjj2yhe+DMGmD3/8ZSoLEVQignMigikiiAi2RASViKASEawiglMRQSmCykLvVHrvVHq/wynbSGK6ublBElt671R672yxTe+dyTaSOHXVO5WDbS5NEpNtJDHZ5tIksZLEZJv34yCJyTaXJomVJCbb3CZJTLZZ2WbLgf+QxGSb2ySJyTYr21yaJFaSmGxzammtcWqMwaq1RqU1Sq01towxaK0xjTE4p7VGpbVGRa1xbIzBsSUzqWQmK9tI4lhmUslMKpnJKdtIYlqWBUlsyUwqmckW2yy//P4fOGUbSUy//s6PkMSWp7/1ApVPP/weW2xz79XnmGwjiVN/+toVlafufYXKvUc/55htJPFvH4IlIjgVEayur68pRVCJCLZEBBHBFBGcE3FFJSKoRATHIoJjS++dSu+dY7aRxOq6dyq9dyq9d86xjSR6fxvbSOKc3juV3juVA++TJCbbrGxzaZJYSWKyzaUd+IAksZLEZJvbJInJNivb/C8OXJAkJtusbHNpkphsI4nJNh/E0lqj0lqj0lrjnDEG0xiDMQZbWmtUWnuLSmuN1RiDU601KktmMtlGEqcyk0pmUslMjtlGEqvMpJJ5RSUzOcc2kshMbCOJc5Yf/PYzVD758u+ofOxR5xzbSOLeaz/BNpI45+H9T1H58Ze+S+Wvzz/HyjaS+K/O11/8GZWFCCoRQSUiOCcimCKCiGBLRFCJCCoRwSoiOBURVBZ6Z2UbSRzrvVPpvVM59M4p20hiurm5QRJbeu9Ueu9ssU3vnck2kjh14IgkJtusbHNpkphsI4nJNpcmiZUkJtscO3CGJCbbSGKyzaVJYiWJyTa3SRKTbaYDBUmsJDHZ5jZJYrLNyjaXJolpaa1Raa1xaozBqrVG5U5rVFprbBlj0FpjGmNwTmuNSmuNypKZVDKTSmayso0kjmUmlcykkpmcso0kpmVZkMSWzKRy5/WffuMdClcPHnLKNpKYnr3/KpLY8sbNn+/wGFsigspVBKcigtX19TWVN254rC29dypv906l984x20jiSXHgwiQx2eZJcOBdtrk0STwJDrxLEpNt/t8srTWOjTE49lZrVFprPMmWzGSLbTKTyTaSOJWZVP5xw2632+12u91ut9vtdrvdbrfb7Xa73WPhX3MzOycnKYyRAAAAAElFTkSuQmCC"
+    }
+  ]
+}

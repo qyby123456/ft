@@ -1,0 +1,24 @@
+# FTBoss 模组统一代码规范(2026-09-12 按用户要求统一格式方便管理)
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+max_line_length = 160
+
+[*.json]
+indent_size = 2
+
+[*.{cjs,js}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+# Windows PowerShell 5.1 needs a BOM when this compatibility script contains Chinese diagnostics.
+[tools/merge_jar_extras.ps1]
+charset = utf-8-bom

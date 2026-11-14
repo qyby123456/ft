@@ -1,0 +1,81 @@
+=== 暗影剑位置审计 ===
+geo  : src\main\resources\assets\ftboss\geo\shadow_sword.geo.json
+item : src\main\resources\assets\ftboss\models\item\shadow_sword.json
+
+--- A. 握点几何（geo 单位，1 格 = 16 单位）---
+  握柄 handle   x -1.482,1.673 y -2.67,3.37 z -1.07,1.07
+  柄首 pommel   x -1.3,1.3 y -4.5,-2.05 z -1.35,1.35
+  护手 guard    x -2.32,2.32 y 3.23,5.12 z -1.32,1.32
+  剑身 blade    x -2,2.726 y 5.08,20.15 z -1.14,1.14
+  原点落在握柄的 y 区间 [-2.67, 3.37] 内：是 ✓
+  grip_anchor pivot = [0,0,0]（GeckoLib 武器约定：手抓处 = 原点）
+  柄的几何中心 y = 0.35（相对原点偏移 0.35 单位 = 0.022 格）
+
+--- B. 挂接稳定性：动画有没有动握持链 ---
+  ⚠ crystal 被动过：animation.ftboss.shadow_sword.idle:position+rotation, animation.ftboss.shadow_sword.charge:rotation+position, animation.ftboss.shadow_sword.release:rotation+position, animation.ftboss.shadow_sword.recover:rotation+position, animation.ftboss.shadow_sword.cast:rotation, animation.ftboss.shadow_sword.cooldown_ready:scale+rotation, animation.ftboss.shadow_sword.ready_idle:rotation
+
+--- C. display 把剑放到哪里（离线两种读法）---
+  读法1 = geo 轴当渲染轴用（Y 向上，平移取原符号）
+  读法2 = 换到 Java 轴（Y 向下、Z 向前，平移 y/z 取反）
+
+  【thirdperson_righthand】rot [0,-90,28] trans [1,3.5,0.2] scale [0.78,0.78,0.78]
+    读法1：
+      原点(握点)    = [0.063, 0.219, 0.013]
+      柄下端       = [0.165, 0.025, 0.013]
+      护手        = [-0.011, 0.358, 0.013]
+      刃尖        = [-0.399, 1.086, 0.013]
+    读法2：
+      原点(握点)    = [0.063, 0.219, 0.013]
+      柄下端       = [-0.04, 0.412, 0.013]
+      护手        = [0.136, 0.08, 0.013]
+      刃尖        = [0.524, -0.649, 0.013]
+
+  【thirdperson_lefthand】rot [0,90,-28] trans [-1,3.5,0.2] scale [0.78,0.78,0.78]
+    读法1：
+      原点(握点)    = [-0.062, 0.219, 0.013]
+      柄下端       = [-0.165, 0.025, 0.013]
+      护手        = [0.011, 0.358, 0.013]
+      刃尖        = [0.399, 1.086, 0.013]
+    读法2：
+      原点(握点)    = [-0.062, 0.219, 0.013]
+      柄下端       = [0.04, 0.412, 0.013]
+      护手        = [-0.136, 0.08, 0.013]
+      刃尖        = [-0.524, -0.649, 0.013]
+
+--- 结论边界 ---
+  A/B 两项是**确定**的：原点在握柄区间内，且没有任何动画动握持链。
+  C 项离线只能给候选：物品 display 的旋转/平移作用在"手部局部空间"，
+  该空间的轴指向由渲染管线的基变换决定，必须实机画坐标轴才能定论。
+  D 项用**旧静态版**（实机验证过的前身）反推手部基准，是当前最强的离线旁证。
+
+--- D. 用旧静态版反推手部基准（最强离线旁证）---
+  旧版 display trans = [0,4,0.5] rot = [0,-90,55] scale = [0.85,0.85,0.85]
+  旧版几何 y 从 0 起（柄尾即原点）→ 原点约定 = 柄尾
+  新版原点约定 = 握柄中部，比柄尾高 2.67 单位
+
+  【同一物理点对照：柄尾】
+    旧版柄尾落在 [0, 0.25, 0.031]
+    新版柄尾落在 [0.165, 0.025, 0.013]
+    差值 = [0.165, -0.225, -0.019]
+    其中 轴向 -0.225 格 / 横向 0.167 格
+
+  ⚠ 横向也有 0.167 格偏差，trans 的 x/z 也要一起看。
+
+  注：旧版 rot.z=55、新版 rot.z=28，刃口倾角是**有意重调**的，
+  数值不同不算问题；上面只比"柄尾"这个两版共有的物理点。
+
+--- E. 实机标定步骤（一次截图就能闭环）---
+  已内置调试层：net.farmingtales.ftboss.client.render.SwordAxisDebugLayer
+  ① 加 JVM 参数（启动器/IDE 的 VM options，不必改代码）：
+       -Dftboss.debugSwordAxes=true
+  ② 进游戏手持暗影剑，按 F5 切第三人称，截图。
+     画面上会出现：白色十字(display 原点=握点)、
+     红=+X / 绿=+Y(指向剑尖) / 蓝=+Z 三根一格长的轴、
+     以及沿 +Y 每 8 模型单位一个的白刻度。
+  ③ 读数：手心相对白色十字落在哪一格、哪个刻度上。
+     · 手心在十字上方 N 格 ⇒ 剑偏低，把 trans.y 减小约 N×16 单位
+     · 手心在十字下方 N 格 ⇒ 剑偏高，把 trans.y 增大约 N×16 单位
+     · 三根轴的方向顺便确认了 C 项那两种读法谁是对的：
+       绿轴若指向剑尖 ⇒ 读法1（Y 向上）成立；
+       绿轴若指向柄尾 ⇒ 读法2（Y 向下）成立。
+  ④ 白刻度间距 8 单位 = 半格，用来估 N 的小数部分。

@@ -1,0 +1,43 @@
+tasks.register('verifyMergedTridents') {
+    dependsOn 'verifyJar'
+    doLast {
+        def embeddedPath = 'META-INF/jarjar/tridents_n_stuff-0.2.0-forge-bleed-nerf.jar'
+        def originalHash = '9c39717dede7e31fe7176627126063bd9f4706c217d92781e7d2cd6b2bc5747a'
+        def icons = ['storms', 'evil', 'depths', 'stars', 'blood'].collect { "tridents_n_stuff:icon_of_${it}".toString() }
+        def json = new groovy.json.JsonSlurper()
+        new java.util.zip.ZipFile(tasks.named('jar').get().archiveFile.get().asFile).withCloseable { packed ->
+            def metadata = json.parse(packed.getInputStream(packed.getEntry('META-INF/jarjar/metadata.json')))
+            if (metadata.jars.size() != 1 || metadata.jars[0].path != embeddedPath) {
+                throw new GradleException('Missing or duplicate bundled Tridents dependency')
+            }
+            def bytes = packed.getInputStream(packed.getEntry(embeddedPath)).bytes
+            def hash = java.security.MessageDigest.getInstance('SHA-256').digest(bytes).encodeHex().toString()
+            if (hash != originalHash) throw new GradleException('Bundled Tridents differs from the tested bleed-nerf version')
+            def names = [] as Set
+            new java.util.zip.ZipInputStream(new ByteArrayInputStream(bytes)).withCloseable { nested ->
+                def entry
+                while ((entry = nested.nextEntry) != null) {
+                    names.add(entry.name)
+                    if (entry.name.startsWith('data/') && entry.name.contains('/recipes/') && entry.name.endsWith('.json')) {
+                        def recipe = json.parseText(new String(nested.readAllBytes(), 'UTF-8'))
+                        def result = recipe.result instanceof Map ? recipe.result.item : recipe.result
+                        if (icons.contains(result)) throw new GradleException("Icon acquisition recipe: ${entry.name}")
+                    }
+                }
+            }
+            ['META-INF/mods.toml', 'me/fzzyhmstrs/tridents_n_stuff/TNS.class',
+             'me/fzzyhmstrs/tridents_n_stuff/BleedingEffect.class'].each {
+                if (!names.contains(it)) throw new GradleException("Missing bundled entry: ${it}")
+            }
+            icons.each {
+                def path = it.split(':')[1]
+                if (!names.contains("assets/tridents_n_stuff/models/item/${path}.json".toString())) {
+                    throw new GradleException("Existing icon save compatibility broken: ${it}")
+                }
+            }
+        }
+        logger.lifecycle('Verified embedded Tridents, original bleed nerf, five retained icon models and no icon crafting outputs')
+    }
+}
+
+tasks.named('build') { dependsOn 'verifyMergedTridents' }

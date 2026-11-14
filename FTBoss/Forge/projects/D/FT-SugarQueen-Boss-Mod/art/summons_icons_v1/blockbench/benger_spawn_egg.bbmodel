@@ -1,0 +1,4762 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "benger 刷怪蛋",
+  "model_identifier": "benger_spawn_egg",
+  "resolution": {
+    "width": 64,
+    "height": 64
+  },
+  "ambientocclusion": false,
+  "front_gui_light": true,
+  "display": {
+    "gui": {
+      "rotation": [
+        18,
+        -30,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.48,
+        0.48,
+        0.48
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        10,
+        4
+      ],
+      "scale": [
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -35,
+        8
+      ],
+      "translation": [
+        0.5,
+        1.4,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        35,
+        -8
+      ],
+      "translation": [
+        0.5,
+        1.4,
+        0
+      ],
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    }
+  },
+  "elements": [
+    {
+      "name": "灵蛋外壳_0",
+      "uuid": "8a356ef1-9710-4bef-aec5-e7e883476114",
+      "type": "cube",
+      "from": [
+        6,
+        2.5,
+        5.5
+      ],
+      "to": [
+        10,
+        3.5,
+        10.5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_1",
+      "uuid": "d9752dc3-de3f-485a-af03-3de16505f482",
+      "type": "cube",
+      "from": [
+        5,
+        2.5,
+        6.5
+      ],
+      "to": [
+        6,
+        3.5,
+        9.5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_2",
+      "uuid": "10ad9949-6d9b-4118-a37a-8b378d40637e",
+      "type": "cube",
+      "from": [
+        10,
+        2.5,
+        6.5
+      ],
+      "to": [
+        11,
+        3.5,
+        9.5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_3",
+      "uuid": "e91cb4d3-7ff6-4ca2-a288-9ce2d9f83e7d",
+      "type": "cube",
+      "from": [
+        4.75,
+        3.5,
+        4.5
+      ],
+      "to": [
+        11.25,
+        5,
+        11.5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_4",
+      "uuid": "ae6f300f-4aea-46f4-ac52-8bb3c388c8be",
+      "type": "cube",
+      "from": [
+        3.75,
+        3.5,
+        5.5
+      ],
+      "to": [
+        4.75,
+        5,
+        10.5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_5",
+      "uuid": "c503dbad-22d9-4824-a006-66b4c3a8f6a0",
+      "type": "cube",
+      "from": [
+        11.25,
+        3.5,
+        5.5
+      ],
+      "to": [
+        12.25,
+        5,
+        10.5
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_6",
+      "uuid": "06172c51-73f5-4e07-ade8-b4ef8cc3968c",
+      "type": "cube",
+      "from": [
+        4,
+        5,
+        4
+      ],
+      "to": [
+        12,
+        8,
+        12
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_7",
+      "uuid": "fa15b8bf-88ee-4835-a101-0958e3d25541",
+      "type": "cube",
+      "from": [
+        3,
+        5,
+        5
+      ],
+      "to": [
+        4,
+        8,
+        11
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_8",
+      "uuid": "d0c8f096-9522-4f1e-a297-8bc65dae366e",
+      "type": "cube",
+      "from": [
+        12,
+        5,
+        5
+      ],
+      "to": [
+        13,
+        8,
+        11
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_9",
+      "uuid": "cc59066b-7150-464d-af5a-5ca54b5c6d2b",
+      "type": "cube",
+      "from": [
+        4.5,
+        8,
+        4.25
+      ],
+      "to": [
+        11.5,
+        10,
+        11.75
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_10",
+      "uuid": "8025dce6-085b-454d-ac8a-741e7a601934",
+      "type": "cube",
+      "from": [
+        3.5,
+        8,
+        5.25
+      ],
+      "to": [
+        4.5,
+        10,
+        10.75
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_11",
+      "uuid": "a06a6c58-b541-43f5-a6d3-2c0a61bd515c",
+      "type": "cube",
+      "from": [
+        11.5,
+        8,
+        5.25
+      ],
+      "to": [
+        12.5,
+        10,
+        10.75
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_12",
+      "uuid": "fa1a86fc-765c-4c81-a5d5-92a5afd44341",
+      "type": "cube",
+      "from": [
+        5.5,
+        10,
+        5
+      ],
+      "to": [
+        10.5,
+        12,
+        11
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_13",
+      "uuid": "e7019175-0ee3-4f7f-ac89-f2541c4e07e7",
+      "type": "cube",
+      "from": [
+        4.5,
+        10,
+        6
+      ],
+      "to": [
+        5.5,
+        12,
+        10
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_14",
+      "uuid": "f4949050-5974-45b1-a2d8-70ffd86aa4f5",
+      "type": "cube",
+      "from": [
+        10.5,
+        10,
+        6
+      ],
+      "to": [
+        11.5,
+        12,
+        10
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_15",
+      "uuid": "847ce24e-a29b-4bf4-a083-cfeab64beec9",
+      "type": "cube",
+      "from": [
+        6.55,
+        12,
+        6
+      ],
+      "to": [
+        9.45,
+        13,
+        10
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_16",
+      "uuid": "ab2a0c3d-7c99-4ec7-a5fb-3937e055c3dc",
+      "type": "cube",
+      "from": [
+        5.75,
+        12,
+        6.8
+      ],
+      "to": [
+        6.55,
+        13,
+        9.2
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "灵蛋外壳_17",
+      "uuid": "e87ec6eb-73c2-44f1-ab09-8b0a274438bd",
+      "type": "cube",
+      "from": [
+        9.45,
+        12,
+        6.8
+      ],
+      "to": [
+        10.25,
+        13,
+        9.2
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            9,
+            1,
+            15,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "纹章束环_18",
+      "uuid": "fec58fac-fed2-495a-a7d7-4b89ec94f3b8",
+      "type": "cube",
+      "from": [
+        3.6500000000000004,
+        4.1,
+        4.4
+      ],
+      "to": [
+        12.35,
+        4.85,
+        4.95
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "纹章束环_19",
+      "uuid": "85b4fafb-505b-45b0-a3c6-74b8ed1ea8d1",
+      "type": "cube",
+      "from": [
+        3.6500000000000004,
+        4.1,
+        11.049999999999999
+      ],
+      "to": [
+        12.35,
+        4.85,
+        11.6
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "纹章束环_20",
+      "uuid": "2ac4349a-8198-4d6f-a22b-56320ef1c89b",
+      "type": "cube",
+      "from": [
+        3.6500000000000004,
+        4.1,
+        4.95
+      ],
+      "to": [
+        4.2,
+        4.85,
+        11.049999999999999
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "纹章束环_21",
+      "uuid": "96890c6e-ef7a-4b63-a4ae-9d784c681f63",
+      "type": "cube",
+      "from": [
+        11.799999999999999,
+        4.1,
+        4.95
+      ],
+      "to": [
+        12.35,
+        4.85,
+        11.049999999999999
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽章底_22",
+      "uuid": "6496999d-2ffd-4f50-afc3-c797543ecd82",
+      "type": "cube",
+      "from": [
+        5.5,
+        5.4,
+        3.76
+      ],
+      "to": [
+        10.5,
+        9.5,
+        3.97
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_23",
+      "uuid": "961b3df7-e7a7-416c-a48b-3fddffe38dd3",
+      "type": "cube",
+      "from": [
+        6.6,
+        9.06,
+        3.5900000000000003
+      ],
+      "to": [
+        7.16,
+        9.620000000000001,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_24",
+      "uuid": "cb0a8eb2-add3-4f33-ae68-3deaec9b519d",
+      "type": "cube",
+      "from": [
+        8.84,
+        9.06,
+        3.5900000000000003
+      ],
+      "to": [
+        9.4,
+        9.620000000000001,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_25",
+      "uuid": "e3af4c73-3054-4389-a25c-53a96a03818f",
+      "type": "cube",
+      "from": [
+        6.04,
+        8.5,
+        3.5900000000000003
+      ],
+      "to": [
+        6.6,
+        9.06,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_26",
+      "uuid": "f14ef091-d9d4-428d-a945-e813b57138d3",
+      "type": "cube",
+      "from": [
+        6.6,
+        8.5,
+        3.5900000000000003
+      ],
+      "to": [
+        7.16,
+        9.06,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_27",
+      "uuid": "227e1bbf-da5e-4008-a043-410815e44de9",
+      "type": "cube",
+      "from": [
+        7.16,
+        8.5,
+        3.5900000000000003
+      ],
+      "to": [
+        7.720000000000001,
+        9.06,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_28",
+      "uuid": "8280d4a8-3216-46d0-ac03-ebf8f8d90898",
+      "type": "cube",
+      "from": [
+        8.28,
+        8.5,
+        3.5900000000000003
+      ],
+      "to": [
+        8.84,
+        9.06,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_29",
+      "uuid": "2a9f0cc5-45f2-46db-a1d7-0bc376d25def",
+      "type": "cube",
+      "from": [
+        8.84,
+        8.5,
+        3.5900000000000003
+      ],
+      "to": [
+        9.4,
+        9.06,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_30",
+      "uuid": "debcae2d-677c-438e-a931-2098966c7277",
+      "type": "cube",
+      "from": [
+        9.4,
+        8.5,
+        3.5900000000000003
+      ],
+      "to": [
+        9.96,
+        9.06,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_31",
+      "uuid": "40a9beeb-d0b5-46de-a917-f3bf951c99c2",
+      "type": "cube",
+      "from": [
+        6.6,
+        7.94,
+        3.5900000000000003
+      ],
+      "to": [
+        7.16,
+        8.5,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_32",
+      "uuid": "7d2e93f1-0c7a-42b7-aaf0-b0175ae42753",
+      "type": "cube",
+      "from": [
+        7.72,
+        7.94,
+        3.5900000000000003
+      ],
+      "to": [
+        8.28,
+        8.5,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_33",
+      "uuid": "a2e42038-7c1b-4c48-ae54-2d5f1460de71",
+      "type": "cube",
+      "from": [
+        8.84,
+        7.94,
+        3.5900000000000003
+      ],
+      "to": [
+        9.4,
+        8.5,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_34",
+      "uuid": "7283693b-3764-44cc-a08a-7b4c93112fd9",
+      "type": "cube",
+      "from": [
+        7.16,
+        7.380000000000001,
+        3.5900000000000003
+      ],
+      "to": [
+        7.720000000000001,
+        7.940000000000001,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_35",
+      "uuid": "a01cb724-6d77-48b3-a9b0-fac58279763c",
+      "type": "cube",
+      "from": [
+        7.72,
+        7.380000000000001,
+        3.5900000000000003
+      ],
+      "to": [
+        8.28,
+        7.940000000000001,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_36",
+      "uuid": "0af9d7d7-6015-4ebc-aaa7-e72093559e1c",
+      "type": "cube",
+      "from": [
+        8.28,
+        7.380000000000001,
+        3.5900000000000003
+      ],
+      "to": [
+        8.84,
+        7.940000000000001,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_37",
+      "uuid": "fd021bc2-f55f-4107-a99d-b0de89f1b892",
+      "type": "cube",
+      "from": [
+        6.6,
+        6.82,
+        3.5900000000000003
+      ],
+      "to": [
+        7.16,
+        7.380000000000001,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_38",
+      "uuid": "7c3a5116-7c0b-4171-ae3a-c076b636bb61",
+      "type": "cube",
+      "from": [
+        7.16,
+        6.82,
+        3.5900000000000003
+      ],
+      "to": [
+        7.720000000000001,
+        7.380000000000001,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_39",
+      "uuid": "1cfc96f7-4f9f-4cbd-aaa8-f6fe086243b1",
+      "type": "cube",
+      "from": [
+        7.72,
+        6.82,
+        3.5900000000000003
+      ],
+      "to": [
+        8.28,
+        7.380000000000001,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_40",
+      "uuid": "bb9dd1ad-1c54-49b5-a662-f13974789bad",
+      "type": "cube",
+      "from": [
+        8.28,
+        6.82,
+        3.5900000000000003
+      ],
+      "to": [
+        8.84,
+        7.380000000000001,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_41",
+      "uuid": "a01738c5-8103-462c-a5c6-5a5d7026d481",
+      "type": "cube",
+      "from": [
+        8.84,
+        6.82,
+        3.5900000000000003
+      ],
+      "to": [
+        9.4,
+        7.380000000000001,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_42",
+      "uuid": "fa3c7d54-b1d7-4fcd-a65f-fb8c0f89a8f4",
+      "type": "cube",
+      "from": [
+        6.6,
+        6.26,
+        3.5900000000000003
+      ],
+      "to": [
+        7.16,
+        6.82,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_43",
+      "uuid": "221467c0-29e9-471d-ac7c-a4759ab59baf",
+      "type": "cube",
+      "from": [
+        7.16,
+        6.26,
+        3.5900000000000003
+      ],
+      "to": [
+        7.720000000000001,
+        6.82,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_44",
+      "uuid": "f26de9e4-2fc9-4310-aab7-1a8d52506049",
+      "type": "cube",
+      "from": [
+        7.72,
+        6.26,
+        3.5900000000000003
+      ],
+      "to": [
+        8.28,
+        6.82,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_45",
+      "uuid": "57fea6fa-aa05-4d77-a03c-8e493887419c",
+      "type": "cube",
+      "from": [
+        8.28,
+        6.26,
+        3.5900000000000003
+      ],
+      "to": [
+        8.84,
+        6.82,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_46",
+      "uuid": "8c4a0a0e-6243-4157-a330-156681d3e77d",
+      "type": "cube",
+      "from": [
+        8.84,
+        6.26,
+        3.5900000000000003
+      ],
+      "to": [
+        9.4,
+        6.82,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_47",
+      "uuid": "bbc27e53-6649-4622-ad29-369f0cf06a24",
+      "type": "cube",
+      "from": [
+        7.16,
+        5.7,
+        3.5900000000000003
+      ],
+      "to": [
+        7.720000000000001,
+        6.26,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "徽记_paw_48",
+      "uuid": "8568b7d9-d922-4d2a-a61c-fbcd18715573",
+      "type": "cube",
+      "from": [
+        8.28,
+        5.7,
+        3.5900000000000003
+      ],
+      "to": [
+        8.84,
+        6.26,
+        3.74
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "釉面高光_49",
+      "uuid": "b11f7f56-c82a-48f3-a039-659d76012d05",
+      "type": "cube",
+      "from": [
+        4,
+        6.3,
+        3.92
+      ],
+      "to": [
+        4.4,
+        7.65,
+        4.04
+      ],
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "兽耳_50",
+      "uuid": "6db72def-f16d-4daf-a299-d4fef0529af0",
+      "type": "cube",
+      "from": [
+        4,
+        11.2,
+        6.2
+      ],
+      "to": [
+        6,
+        14,
+        8.4
+      ],
+      "origin": [
+        5,
+        11.2,
+        7.3
+      ],
+      "rotation": [
+        0,
+        0,
+        22.5
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "内耳_51",
+      "uuid": "9cf2fd4e-5fa8-48ae-af3b-53699d15ffa7",
+      "type": "cube",
+      "from": [
+        4.5,
+        11.9,
+        6.05
+      ],
+      "to": [
+        5.5,
+        13.3,
+        6.3
+      ],
+      "origin": [
+        5,
+        11.2,
+        7.3
+      ],
+      "rotation": [
+        0,
+        0,
+        22.5
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "兽耳_52",
+      "uuid": "b5593d87-1ad5-441d-ac45-99894834055f",
+      "type": "cube",
+      "from": [
+        10,
+        11.2,
+        6.2
+      ],
+      "to": [
+        12,
+        14,
+        8.4
+      ],
+      "origin": [
+        11,
+        11.2,
+        7.3
+      ],
+      "rotation": [
+        0,
+        0,
+        -22.5
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            57,
+            1,
+            63,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "内耳_53",
+      "uuid": "27f21217-eaad-412f-aa82-22cab74e4c54",
+      "type": "cube",
+      "from": [
+        10.5,
+        11.9,
+        6.05
+      ],
+      "to": [
+        11.5,
+        13.3,
+        6.3
+      ],
+      "origin": [
+        11,
+        11.2,
+        7.3
+      ],
+      "rotation": [
+        0,
+        0,
+        -22.5
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            39,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "8a356ef1-9710-4bef-aec5-e7e883476114",
+    "d9752dc3-de3f-485a-af03-3de16505f482",
+    "10ad9949-6d9b-4118-a37a-8b378d40637e",
+    "e91cb4d3-7ff6-4ca2-a288-9ce2d9f83e7d",
+    "ae6f300f-4aea-46f4-ac52-8bb3c388c8be",
+    "c503dbad-22d9-4824-a006-66b4c3a8f6a0",
+    "06172c51-73f5-4e07-ade8-b4ef8cc3968c",
+    "fa15b8bf-88ee-4835-a101-0958e3d25541",
+    "d0c8f096-9522-4f1e-a297-8bc65dae366e",
+    "cc59066b-7150-464d-af5a-5ca54b5c6d2b",
+    "8025dce6-085b-454d-ac8a-741e7a601934",
+    "a06a6c58-b541-43f5-a6d3-2c0a61bd515c",
+    "fa1a86fc-765c-4c81-a5d5-92a5afd44341",
+    "e7019175-0ee3-4f7f-ac89-f2541c4e07e7",
+    "f4949050-5974-45b1-a2d8-70ffd86aa4f5",
+    "847ce24e-a29b-4bf4-a083-cfeab64beec9",
+    "ab2a0c3d-7c99-4ec7-a5fb-3937e055c3dc",
+    "e87ec6eb-73c2-44f1-ab09-8b0a274438bd",
+    "fec58fac-fed2-495a-a7d7-4b89ec94f3b8",
+    "85b4fafb-505b-45b0-a3c6-74b8ed1ea8d1",
+    "2ac4349a-8198-4d6f-a22b-56320ef1c89b",
+    "96890c6e-ef7a-4b63-a4ae-9d784c681f63",
+    "6496999d-2ffd-4f50-afc3-c797543ecd82",
+    "961b3df7-e7a7-416c-a48b-3fddffe38dd3",
+    "cb0a8eb2-add3-4f33-ae68-3deaec9b519d",
+    "e3af4c73-3054-4389-a25c-53a96a03818f",
+    "f14ef091-d9d4-428d-a945-e813b57138d3",
+    "227e1bbf-da5e-4008-a043-410815e44de9",
+    "8280d4a8-3216-46d0-ac03-ebf8f8d90898",
+    "2a9f0cc5-45f2-46db-a1d7-0bc376d25def",
+    "debcae2d-677c-438e-a931-2098966c7277",
+    "40a9beeb-d0b5-46de-a917-f3bf951c99c2",
+    "7d2e93f1-0c7a-42b7-aaf0-b0175ae42753",
+    "a2e42038-7c1b-4c48-ae54-2d5f1460de71",
+    "7283693b-3764-44cc-a08a-7b4c93112fd9",
+    "a01cb724-6d77-48b3-a9b0-fac58279763c",
+    "0af9d7d7-6015-4ebc-aaa7-e72093559e1c",
+    "fd021bc2-f55f-4107-a99d-b0de89f1b892",
+    "7c3a5116-7c0b-4171-ae3a-c076b636bb61",
+    "1cfc96f7-4f9f-4cbd-aaa8-f6fe086243b1",
+    "bb9dd1ad-1c54-49b5-a662-f13974789bad",
+    "a01738c5-8103-462c-a5c6-5a5d7026d481",
+    "fa3c7d54-b1d7-4fcd-a65f-fb8c0f89a8f4",
+    "221467c0-29e9-471d-ac7c-a4759ab59baf",
+    "f26de9e4-2fc9-4310-aab7-1a8d52506049",
+    "57fea6fa-aa05-4d77-a03c-8e493887419c",
+    "8c4a0a0e-6243-4157-a330-156681d3e77d",
+    "bbc27e53-6649-4622-ad29-369f0cf06a24",
+    "8568b7d9-d922-4d2a-a61c-fbcd18715573",
+    "b11f7f56-c82a-48f3-a039-659d76012d05",
+    "6db72def-f16d-4daf-a299-d4fef0529af0",
+    "9cf2fd4e-5fa8-48ae-af3b-53699d15ffa7",
+    "b5593d87-1ad5-441d-ac45-99894834055f",
+    "27f21217-eaad-412f-aa82-22cab74e4c54"
+  ],
+  "textures": [
+    {
+      "name": "atlas.png",
+      "id": "atlas",
+      "uuid": "69b56c83-bf4d-4300-ab4f-516c3ee66a40",
+      "namespace": "ftboss",
+      "folder": "item/summons_redraw",
+      "width": 64,
+      "height": 64,
+      "uv_width": 64,
+      "uv_height": 64,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAE10lEQVR4Ae3BP6ulVxnG4d9sXu/D8zTHYiQh+AfUjIKJ4KAYFAxIQDDNINoZG6uAY5HK0kas/QPa+QUs/Ap+ADs7R9LaaDgS1sLblcQs8Y2bzX4fSNwHZvC9rjvPfPT5dySx5e5Tz1D5xLOfY4ttXvz2AybbSOLUV+9/lsoLd/9O5Rc/fIVjtpHE6qWXnqayXF9fU4kIKhHBloggIpgignMiglL8k0pEcCwiOBYRVJbeO8dsI4lV751K751K751zbCOJ3ju2kcRZvVPpvVPpvbOyjSSOHTghick2K9tcmiRWkphsc5skMdlmdWCDJFaSmGxzmyQx2WZlm0uTxGSbA++DJCbbrGxzaZKYbCOJyTaXJomltUaltcY5YwymMQZjDLa01qi01qi01liNMTjVWqPSWqOyZCaVzKSSmRyzjSRWmUklM6lkDs6xjSQyE9tI4pzMpLK8/vuHVL754FecYxtJfPHNN7GNJN5j3vP5P/6Fym9ee0Tlb3c/wso2kjj2yhe+DMGmD3/8ZSoLEVQignMigikiiAi2RASViKASEawiglMRQSmCykLvVHrvVHq/wynbSGK6ublBElt671R672yxTe+dyTaSOHXVO5WDbS5NEpNtJDHZ5tIksZLEZJv34yCJyTaXJomVJCbb3CZJTLZZ2WbLgf+QxGSb2ySJyTYr21yaJFaSmGxzammtcWqMwaq1RqU1Sq01towxaK0xjTE4p7VGpbVGRa1xbIzBsSUzqWQmK9tI4lhmUslMKpnJKdtIYlqWBUlsyUwqmckW2yy//P4fOGUbSUy//s6PkMSWp7/1ApVPP/weW2xz79XnmGwjiVN/+toVlafufYXKvUc/55htJPFvH4IlIjgVEayur68pRVCJCLZEBBHBFBGcE3FFJSKoRATHIoJjS++dSu+dY7aRxOq6dyq9dyq9d86xjSR6fxvbSOKc3juV3juVA++TJCbbrGxzaZJYSWKyzaUd+IAksZLEZJvbJInJNivb/C8OXJAkJtusbHNpkphsI4nJNh/E0lqj0lqj0lrjnDEG0xiDMQZbWmtUWnuLSmuN1RiDU601KktmMtlGEqcyk0pmUslMjtlGEqvMpJJ5RSUzOcc2kshMbCOJc5Yf/PYzVD758u+ofOxR5xzbSOLeaz/BNpI45+H9T1H58Ze+S+Wvzz/HyjaS+K/O11/8GZWFCCoRQSUiOCcimCKCiGBLRFCJCCoRwSoiOBURVBZ6Z2UbSRzrvVPpvVM59M4p20hiurm5QRJbeu9Ueu9ssU3vnck2kjh14IgkJtusbHNpkphsI4nJNpcmiZUkJtscO3CGJCbbSGKyzaVJYiWJyTa3SRKTbaYDBUmsJDHZ5jZJYrLNyjaXJolpaa1Raa1xaozBqrVG5U5rVFprbBlj0FpjGmNwTmuNSmuNypKZVDKTSmayso0kjmUmlcykkpmcso0kpmVZkMSWzKRy5/WffuMdClcPHnLKNpKYnr3/KpLY8sbNn+/wGFsigspVBKcigtX19TWVN254rC29dypv906l984x20jiSXHgwiQx2eZJcOBdtrk0STwJDrxLEpNt/t8srTWOjTE49lZrVFprPMmWzGSLbTKTyTaSOJWZVP5xw2632+12u91ut9vtdrvdbrfb7Xa73WPhX3MzOycnKYyRAAAAAElFTkSuQmCC"
+    }
+  ]
+}

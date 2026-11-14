@@ -1,0 +1,35 @@
+package net.farmingtales.ftboss.item;
+
+import net.farmingtales.ftboss.FTBossMod;
+import net.farmingtales.ftboss.item.weapons.XueliWeaponItem;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegisterEvent;
+
+import java.util.Objects;
+
+@Mod.EventBusSubscriber(modid = FTBossMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+public final class XueliWeaponItems {
+    public static final ResourceLocation SKILLET = new ResourceLocation(FTBossMod.MOD_ID, "xueli_skillet");
+    public static final ResourceLocation ROLLING_PIN = new ResourceLocation(FTBossMod.MOD_ID, "xueli_rolling_pin");
+
+    private XueliWeaponItems() {}
+
+    @SubscribeEvent
+    public static void register(RegisterEvent event) {
+        event.register(ForgeRegistries.Keys.ITEMS, SKILLET, () -> new XueliWeaponItem(true));
+        event.register(ForgeRegistries.Keys.ITEMS, ROLLING_PIN, () -> new XueliWeaponItem(false));
+    }
+
+    public static Item skillet() {
+        return Objects.requireNonNull(ForgeRegistries.ITEMS.getValue(SKILLET));
+    }
+
+    public static Item rollingPin() {
+        return Objects.requireNonNull(ForgeRegistries.ITEMS.getValue(ROLLING_PIN));
+    }
+
+}

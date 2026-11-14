@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "method": "25 regular samples plus every keyframe time per animation; triangle SAT tests for independent accessories vs effigy bodies; conservative placement/eye-lane envelopes",
+  "boundary": "Offline proxy tests only. Target effects need the documented camera cutout during integration. No installed renderer or live gameplay was changed or verified.",
+  "inGameVerified": false,
+  "models": [
+    {
+      "id": "effigy_volley",
+      "clipsChecked": [
+        "sustain",
+        "release",
+        "charge"
+      ],
+      "samples": 158,
+      "externalPartIntersections": 0,
+      "intersectionExamples": [],
+      "worldScale": 1.3325936576656794,
+      "suggestedOffsetForProxyTest": [
+        2.2409643063323035,
+        0.36410032540927006,
+        -2.428621284218634
+      ],
+      "animationEnvelopeMinimum": [
+        1.2999999999999998,
+        0.5425088816752274,
+        -5.673486840634563
+      ],
+      "animationEnvelopeMaximum": [
+        2.878833645213288,
+        2.557491118324773,
+        -1.4000000000000001
+      ],
+      "centralEyeLaneClearFromGeometry": true,
+      "cameraCutoutRequiredForTargetEffects": false,
+      "casterAndHeldWeaponEnvelopeGap": 0.24999999999999978,
+      "unweldedVertices": 1900,
+      "weldedVertices": 602,
+      "vertexReductionPercent": 68.32
+    },
+    {
+      "id": "effigy_ward",
+      "clipsChecked": [
+        "sustain",
+        "release",
+        "charge"
+      ],
+      "samples": 171,
+      "externalPartIntersections": 0,
+      "intersectionExamples": [],
+      "worldScale": 1.3990103770142912,
+      "suggestedOffsetForProxyTest": [
+        2.534087971267417,
+        0.4290505634521946,
+        -1.8732844783989109
+      ],
+      "animationEnvelopeMinimum": [
+        1.3,
+        0.2,
+        -3.048176261615151
+      ],
+      "animationEnvelopeMaximum": [
+        3.5241800073483587,
+        3.0926139117062954,
+        -1.4
+      ],
+      "centralEyeLaneClearFromGeometry": true,
+      "cameraCutoutRequiredForTargetEffects": false,
+      "casterAndHeldWeaponEnvelopeGap": 0.25,
+      "unweldedVertices": 2380,
+      "weldedVertices": 768,
+      "vertexReductionPercent": 67.73
+    },
+    {
+      "id": "effigy_procession",
+      "clipsChecked": [
+        "sustain",
+        "release",
+        "charge"
+      ],
+      "samples": 172,
+      "externalPartIntersections": 0,
+      "intersectionExamples": [],
+      "worldScale": 1.600644904782585,
+      "suggestedOffsetForProxyTest": [
+        0.0,
+        0.3,
+        -4.5
+      ],
+      "animationEnvelopeMinimum": [
+        -2.4686868015474572,
+        0.38650493310508904,
+        -5.685524235819205
+      ],
+      "animationEnvelopeMaximum": [
+        2.522753958515371,
+        4.733423840176827,
+        -3.844265119717744
+      ],
+      "centralEyeLaneClearFromGeometry": true,
+      "cameraCutoutRequiredForTargetEffects": true,
+      "casterAndHeldWeaponEnvelopeGap": "target_space_not_attached_to_caster",
+      "unweldedVertices": 4324,
+      "weldedVertices": 1358,
+      "vertexReductionPercent": 68.59
+    }
+  ]
+}

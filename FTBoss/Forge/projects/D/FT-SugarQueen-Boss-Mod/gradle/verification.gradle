@@ -1,0 +1,10 @@
+// Verification is grouped by domain so new checks do not keep growing one monolithic script.
+[
+        'core.gradle',
+        'boss-content.gradle',
+        'qizai-and-spells.gradle',
+        'weapons-and-regressions.gradle',
+        'world-events.gradle'
+].each { script ->
+    apply from: rootProject.file("gradle/verification/${script}")
+}

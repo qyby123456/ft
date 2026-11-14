@@ -1,0 +1,9 @@
+allprojects {
+    afterEvaluate {
+        tasks.register('writeBossHurtCompileClasspath') {
+            doLast {
+                file(project.property('bossHurtClasspath')).setText(sourceSets.main.compileClasspath.asPath, 'UTF-8')
+            }
+        }
+    }
+}

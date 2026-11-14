@@ -1,0 +1,142 @@
+{
+  "bones": 27,
+  "cubes": 122,
+  "uvFaces": 732,
+  "opaqueSamples": 159162,
+  "animations": 9,
+  "posesChecked": 211,
+  "animationValuesPreserved": true,
+  "jointAabbSeparationWarnings": [],
+  "restBounds": {
+    "min": [
+      -13.2,
+      0,
+      -35
+    ],
+    "max": [
+      13.2,
+      56.26406180354951,
+      45.699999999999996
+    ]
+  },
+  "animationBounds": {
+    "animation.benger.idle": {
+      "min": [
+        -18.1152008658221,
+        -0.33759376812798164,
+        -35.29401521810328
+      ],
+      "max": [
+        17.169765784764092,
+        56.792860399321526,
+        49.59586093699354
+      ]
+    },
+    "animation.benger.walk": {
+      "min": [
+        -14.689016178583916,
+        -0.3688274215069335,
+        -35.05053163902791
+      ],
+      "max": [
+        14.591509426248265,
+        57.21539347733234,
+        49.576928093909345
+      ]
+    },
+    "animation.benger.run": {
+      "min": [
+        -13.2,
+        1.4473340336574612,
+        -35.52737231606744
+      ],
+      "max": [
+        13.2,
+        56.83981196794269,
+        58.22854701067183
+      ]
+    },
+    "animation.benger.bite": {
+      "min": [
+        -13.234083819364656,
+        -2.443140495614218,
+        -37.905565921136365
+      ],
+      "max": [
+        13.234083819364656,
+        57.88558308355638,
+        49.8667291337333
+      ]
+    },
+    "animation.benger.pounce": {
+      "min": [
+        -13.2,
+        -6.38713073785569,
+        -52.47308132687104
+      ],
+      "max": [
+        13.2,
+        66.54901309469159,
+        54.19217009409308
+      ]
+    },
+    "animation.benger.roar": {
+      "min": [
+        -18.912639292147027,
+        0.05334484401889128,
+        -36.1179813474699
+      ],
+      "max": [
+        20.163713938290137,
+        56.26406180354951,
+        54.6300812702491
+      ]
+    },
+    "animation.benger.hurt": {
+      "min": [
+        -14.314473869978036,
+        -5.62615267067293,
+        -35.335010055493626
+      ],
+      "max": [
+        15.454746242855704,
+        59.44428805109631,
+        48.88136472303723
+      ]
+    },
+    "animation.benger.death": {
+      "min": [
+        -55.88494495767288,
+        -2.0501724613519325,
+        -36.595040611434825
+      ],
+      "max": [
+        21.40959084603368,
+        58.929390315459905,
+        50.45740363072309
+      ]
+    },
+    "animation.benger.sweep": {
+      "min": [
+        -31.386469818484123,
+        0.07317621680293485,
+        -36.91504136100447
+      ],
+      "max": [
+        34.67886169106697,
+        56.95321383262939,
+        45.699999999999996
+      ]
+    }
+  },
+  "sha256": {
+    "benger.geo.json": "036c2d208931fac1098878c6e8650d7ec40a28adb48bac82d3143fd2d623dfb3",
+    "benger.png": "9edd7856f1b6245b7851cfd785be595c1a0d857b610ab2873fa038c0c3ab178a",
+    "benger.animation.json": "b08f4500edc054e47a7adccf2b300ab70f819db108f2a28a3b447cb44bf8365e"
+  },
+  "limitations": [
+    "Offline geometry/UV/animation checks, not an in-game acceptance test.",
+    "Joint AABB contact is a coarse check, not a surface intersection proof.",
+    "Four existing idle shin tracks contain a single constant key; animation values are preserved."
+  ]
+}

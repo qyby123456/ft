@@ -1,0 +1,9 @@
+#!/bin/sh
+# Documentation write gate: only the docs-writer role may commit changes under docs/.
+# Enable once per clone with: git config core.hooksPath .githooks
+# A docs-writer commit must set FTBOSS_DOCS_WRITER=1.
+if ! command -v node >/dev/null 2>&1; then
+  echo "pre-commit: node is required for tools/check_docs_policy.cjs" >&2
+  exit 1
+fi
+node tools/check_docs_policy.cjs --staged || exit 1

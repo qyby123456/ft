@@ -1,0 +1,1549 @@
+{
+  "schema": "youzi-character-motion/v1",
+  "modelUnit": "Minecraft ModelPart pixel; 16 pixels per block",
+  "rotationUnit": "degrees; ModelPart ZYX",
+  "interpolation": "Monotone cubic Hermite; nonzero impact tangents; zero tangent only at direction reversal or clip endpoints",
+  "blendPolicy": "Right arm blends to a small original-weapon ready stance, not a torso-intersecting straight arm. Legs retain native locomotion.",
+  "reference": "Original six Alex bones, original Youzi skin and original four held items. No new elbow or knee bone is invented.",
+  "phasePolicy": "Melee begins at real damage impact. Summon starts only after a clone was actually added. Three spells map authoritative CHARGE progress to chargeEnd and RELEASE to world-time recovery; PULSE never replays the release.",
+  "neutral": {
+    "body": [
+      0,
+      0,
+      0
+    ],
+    "rightArm": [
+      -26,
+      0,
+      5
+    ],
+    "leftArm": [
+      -5,
+      0,
+      -5
+    ],
+    "head": [
+      0,
+      0,
+      0
+    ]
+  },
+  "clips": [
+    {
+      "id": "statue_push",
+      "title": "本体 · 灵偶短击",
+      "weapon": "ftboss:statue_youzi",
+      "duration": 1.0,
+      "impactPhase": 0.47,
+      "keys": [
+        {
+          "phase": 0,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "phase": 0.22,
+          "body": [
+            -5,
+            -14,
+            -3
+          ],
+          "rightArm": [
+            -58,
+            -12,
+            20
+          ],
+          "leftArm": [
+            -36,
+            10,
+            -18
+          ],
+          "head": [
+            1,
+            8,
+            0
+          ]
+        },
+        {
+          "phase": 0.35,
+          "body": [
+            -4,
+            -18,
+            -4
+          ],
+          "rightArm": [
+            -70,
+            -8,
+            15
+          ],
+          "leftArm": [
+            -44,
+            12,
+            -16
+          ],
+          "head": [
+            0,
+            10,
+            0
+          ]
+        },
+        {
+          "phase": 0.47,
+          "body": [
+            9,
+            14,
+            3
+          ],
+          "rightArm": [
+            -84,
+            4,
+            -2
+          ],
+          "leftArm": [
+            -32,
+            0,
+            -20
+          ],
+          "head": [
+            -4,
+            -7,
+            0
+          ]
+        },
+        {
+          "phase": 0.57,
+          "body": [
+            11,
+            17,
+            4
+          ],
+          "rightArm": [
+            -76,
+            12,
+            -6
+          ],
+          "leftArm": [
+            -24,
+            -5,
+            -12
+          ],
+          "head": [
+            -5,
+            -10,
+            0
+          ]
+        },
+        {
+          "phase": 0.75,
+          "body": [
+            4,
+            6,
+            1
+          ],
+          "rightArm": [
+            -46,
+            2,
+            4
+          ],
+          "leftArm": [
+            -13,
+            0,
+            -8
+          ],
+          "head": [
+            -1,
+            -3,
+            0
+          ]
+        },
+        {
+          "phase": 1,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "category": "melee"
+    },
+    {
+      "id": "dragonslayer_cut",
+      "title": "斩龙剑 · 侧蓄斜斩",
+      "weapon": "armamentarium:dragonslayer",
+      "duration": 1.1,
+      "impactPhase": 0.48,
+      "keys": [
+        {
+          "phase": 0,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "phase": 0.18,
+          "body": [
+            -4,
+            -18,
+            -4
+          ],
+          "rightArm": [
+            -78,
+            -12,
+            0
+          ],
+          "leftArm": [
+            -46,
+            10,
+            -18
+          ],
+          "head": [
+            1,
+            10,
+            0
+          ]
+        },
+        {
+          "phase": 0.32,
+          "body": [
+            -7,
+            -27,
+            -6
+          ],
+          "rightArm": [
+            -96,
+            -18,
+            -18
+          ],
+          "leftArm": [
+            -58,
+            16,
+            -20
+          ],
+          "head": [
+            2,
+            16,
+            0
+          ]
+        },
+        {
+          "phase": 0.48,
+          "body": [
+            8,
+            18,
+            5
+          ],
+          "rightArm": [
+            -4,
+            -18,
+            8
+          ],
+          "leftArm": [
+            -40,
+            -10,
+            -25
+          ],
+          "head": [
+            -4,
+            -10,
+            0
+          ]
+        },
+        {
+          "phase": 0.59,
+          "body": [
+            11,
+            27,
+            7
+          ],
+          "rightArm": [
+            4,
+            -5,
+            14
+          ],
+          "leftArm": [
+            -23,
+            -8,
+            -20
+          ],
+          "head": [
+            -5,
+            -17,
+            0
+          ]
+        },
+        {
+          "phase": 0.76,
+          "body": [
+            5,
+            12,
+            3
+          ],
+          "rightArm": [
+            -14,
+            12,
+            5
+          ],
+          "leftArm": [
+            -14,
+            -3,
+            -10
+          ],
+          "head": [
+            -2,
+            -7,
+            0
+          ]
+        },
+        {
+          "phase": 1,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "category": "melee"
+    },
+    {
+      "id": "icebreaker_chop",
+      "title": "冰斧 · 外举重落",
+      "weapon": "armamentarium:icebreaker",
+      "duration": 1.18,
+      "impactPhase": 0.5,
+      "keys": [
+        {
+          "phase": 0,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "phase": 0.19,
+          "body": [
+            -5,
+            -9,
+            -3
+          ],
+          "rightArm": [
+            -90,
+            -6,
+            0
+          ],
+          "leftArm": [
+            -44,
+            8,
+            -15
+          ],
+          "head": [
+            2,
+            5,
+            0
+          ]
+        },
+        {
+          "phase": 0.34,
+          "body": [
+            -9,
+            -16,
+            -4
+          ],
+          "rightArm": [
+            -161,
+            -4,
+            0
+          ],
+          "leftArm": [
+            -74,
+            9,
+            -21
+          ],
+          "head": [
+            4,
+            10,
+            0
+          ]
+        },
+        {
+          "phase": 0.5,
+          "body": [
+            12,
+            12,
+            3
+          ],
+          "rightArm": [
+            -74,
+            3,
+            0
+          ],
+          "leftArm": [
+            -43,
+            -8,
+            -19
+          ],
+          "head": [
+            -6,
+            -7,
+            0
+          ]
+        },
+        {
+          "phase": 0.62,
+          "body": [
+            14,
+            18,
+            5
+          ],
+          "rightArm": [
+            -40,
+            8,
+            13
+          ],
+          "leftArm": [
+            -20,
+            -6,
+            -12
+          ],
+          "head": [
+            -7,
+            -10,
+            0
+          ]
+        },
+        {
+          "phase": 0.8,
+          "body": [
+            5,
+            6,
+            2
+          ],
+          "rightArm": [
+            -34,
+            2,
+            9
+          ],
+          "leftArm": [
+            -10,
+            0,
+            -7
+          ],
+          "head": [
+            -2,
+            -3,
+            0
+          ]
+        },
+        {
+          "phase": 1,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "category": "melee"
+    },
+    {
+      "id": "glory_sweep",
+      "title": "荣耀金斧 · 拧腰横断",
+      "weapon": "armamentarium:greataxe_of_glory",
+      "duration": 1.06,
+      "impactPhase": 0.47,
+      "keys": [
+        {
+          "phase": 0,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "phase": 0.19,
+          "body": [
+            -3,
+            -24,
+            -5
+          ],
+          "rightArm": [
+            -85,
+            -32,
+            25
+          ],
+          "leftArm": [
+            -39,
+            18,
+            -18
+          ],
+          "head": [
+            0,
+            14,
+            0
+          ]
+        },
+        {
+          "phase": 0.31,
+          "body": [
+            -4,
+            -32,
+            -6
+          ],
+          "rightArm": [
+            -83,
+            -39,
+            25
+          ],
+          "leftArm": [
+            -48,
+            19,
+            -22
+          ],
+          "head": [
+            1,
+            18,
+            0
+          ]
+        },
+        {
+          "phase": 0.47,
+          "body": [
+            6,
+            21,
+            4
+          ],
+          "rightArm": [
+            -83,
+            30,
+            -12
+          ],
+          "leftArm": [
+            -33,
+            -15,
+            -26
+          ],
+          "head": [
+            -3,
+            -12,
+            0
+          ]
+        },
+        {
+          "phase": 0.61,
+          "body": [
+            9,
+            32,
+            6
+          ],
+          "rightArm": [
+            -61,
+            42,
+            -18
+          ],
+          "leftArm": [
+            -18,
+            -12,
+            -20
+          ],
+          "head": [
+            -4,
+            -18,
+            0
+          ]
+        },
+        {
+          "phase": 0.8,
+          "body": [
+            3,
+            12,
+            2
+          ],
+          "rightArm": [
+            -39,
+            15,
+            -3
+          ],
+          "leftArm": [
+            -10,
+            -3,
+            -9
+          ],
+          "head": [
+            -1,
+            -7,
+            0
+          ]
+        },
+        {
+          "phase": 1,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "category": "melee"
+    },
+    {
+      "id": "clone_summon",
+      "title": "叠影召唤 · 开掌分星",
+      "weapon": "ftboss:statue_youzi",
+      "category": "summon",
+      "duration": 0.9,
+      "impactPhase": 0.01,
+      "chargeEnd": 0.01,
+      "keys": [
+        {
+          "phase": 0,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "phase": 0.13,
+          "body": [
+            -2,
+            -8,
+            -2
+          ],
+          "rightArm": [
+            -42,
+            -14,
+            18
+          ],
+          "leftArm": [
+            -32,
+            10,
+            -20
+          ],
+          "head": [
+            1,
+            5,
+            0
+          ]
+        },
+        {
+          "phase": 0.34,
+          "body": [
+            -5,
+            -14,
+            -3
+          ],
+          "rightArm": [
+            -54,
+            -18,
+            28
+          ],
+          "leftArm": [
+            -67,
+            18,
+            -32
+          ],
+          "head": [
+            2,
+            7,
+            0
+          ]
+        },
+        {
+          "phase": 0.54,
+          "body": [
+            3,
+            8,
+            2
+          ],
+          "rightArm": [
+            -54,
+            -6,
+            14
+          ],
+          "leftArm": [
+            -82,
+            8,
+            -23
+          ],
+          "head": [
+            -2,
+            -5,
+            0
+          ]
+        },
+        {
+          "phase": 0.68,
+          "body": [
+            5,
+            12,
+            3
+          ],
+          "rightArm": [
+            -54,
+            7,
+            8
+          ],
+          "leftArm": [
+            -58,
+            -6,
+            -20
+          ],
+          "head": [
+            -3,
+            -7,
+            0
+          ]
+        },
+        {
+          "phase": 0.85,
+          "body": [
+            2,
+            4,
+            1
+          ],
+          "rightArm": [
+            -40,
+            3,
+            7
+          ],
+          "leftArm": [
+            -24,
+            0,
+            -12
+          ],
+          "head": [
+            -1,
+            -2,
+            0
+          ]
+        },
+        {
+          "phase": 1,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effigy_volley_cast",
+      "title": "偶像连星 · 引星三送",
+      "weapon": "ftboss:statue_youzi",
+      "category": "spell",
+      "duration": 2.8,
+      "impactPhase": 0.42857142857142855,
+      "chargeEnd": 0.42857142857142855,
+      "keys": [
+        {
+          "phase": 0,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "phase": 0.12,
+          "body": [
+            -3,
+            -9,
+            -2
+          ],
+          "rightArm": [
+            -42,
+            -12,
+            15
+          ],
+          "leftArm": [
+            -30,
+            12,
+            -18
+          ],
+          "head": [
+            1,
+            5,
+            0
+          ]
+        },
+        {
+          "phase": 0.3,
+          "body": [
+            -5,
+            -17,
+            -3
+          ],
+          "rightArm": [
+            -54,
+            -14,
+            12
+          ],
+          "leftArm": [
+            -57,
+            16,
+            -24
+          ],
+          "head": [
+            2,
+            9,
+            0
+          ]
+        },
+        {
+          "phase": 0.42857142857142855,
+          "body": [
+            -3,
+            -13,
+            -2
+          ],
+          "rightArm": [
+            -54,
+            -9,
+            10
+          ],
+          "leftArm": [
+            -68,
+            12,
+            -22
+          ],
+          "head": [
+            1,
+            7,
+            0
+          ]
+        },
+        {
+          "phase": 0.47,
+          "body": [
+            5,
+            12,
+            2
+          ],
+          "rightArm": [
+            -54,
+            4,
+            2
+          ],
+          "leftArm": [
+            -53,
+            -4,
+            -20
+          ],
+          "head": [
+            -3,
+            -6,
+            0
+          ]
+        },
+        {
+          "phase": 0.56,
+          "body": [
+            1,
+            -4,
+            -1
+          ],
+          "rightArm": [
+            -54,
+            -9,
+            13
+          ],
+          "leftArm": [
+            -46,
+            10,
+            -21
+          ],
+          "head": [
+            0,
+            2,
+            0
+          ]
+        },
+        {
+          "phase": 0.6428571428571429,
+          "body": [
+            5,
+            11,
+            2
+          ],
+          "rightArm": [
+            -54,
+            6,
+            3
+          ],
+          "leftArm": [
+            -55,
+            -3,
+            -18
+          ],
+          "head": [
+            -3,
+            -5,
+            0
+          ]
+        },
+        {
+          "phase": 0.75,
+          "body": [
+            1,
+            -6,
+            -1
+          ],
+          "rightArm": [
+            -54,
+            -8,
+            12
+          ],
+          "leftArm": [
+            -47,
+            9,
+            -20
+          ],
+          "head": [
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "phase": 0.8571428571428571,
+          "body": [
+            6,
+            15,
+            3
+          ],
+          "rightArm": [
+            -54,
+            7,
+            1
+          ],
+          "leftArm": [
+            -60,
+            -6,
+            -23
+          ],
+          "head": [
+            -3,
+            -8,
+            0
+          ]
+        },
+        {
+          "phase": 0.93,
+          "body": [
+            3,
+            5,
+            1
+          ],
+          "rightArm": [
+            -48,
+            4,
+            8
+          ],
+          "leftArm": [
+            -24,
+            0,
+            -12
+          ],
+          "head": [
+            -1,
+            -3,
+            0
+          ]
+        },
+        {
+          "phase": 1,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effigy_ward_cast",
+      "title": "灵偶守御 · 收叶展护",
+      "weapon": "ftboss:statue_youzi",
+      "category": "spell",
+      "duration": 2.2,
+      "impactPhase": 0.6363636363636364,
+      "chargeEnd": 0.6363636363636364,
+      "keys": [
+        {
+          "phase": 0,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "phase": 0.16,
+          "body": [
+            -2,
+            -4,
+            -1
+          ],
+          "rightArm": [
+            -43,
+            -13,
+            17
+          ],
+          "leftArm": [
+            -39,
+            16,
+            -28
+          ],
+          "head": [
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "phase": 0.4,
+          "body": [
+            -5,
+            -7,
+            -2
+          ],
+          "rightArm": [
+            -54,
+            -16,
+            21
+          ],
+          "leftArm": [
+            -71,
+            18,
+            -31
+          ],
+          "head": [
+            2,
+            4,
+            0
+          ]
+        },
+        {
+          "phase": 0.6363636363636364,
+          "body": [
+            -3,
+            -5,
+            -1
+          ],
+          "rightArm": [
+            -54,
+            -9,
+            13
+          ],
+          "leftArm": [
+            -82,
+            12,
+            -23
+          ],
+          "head": [
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "phase": 0.72,
+          "body": [
+            2,
+            6,
+            1
+          ],
+          "rightArm": [
+            -54,
+            -18,
+            29
+          ],
+          "leftArm": [
+            -72,
+            22,
+            -36
+          ],
+          "head": [
+            -1,
+            -4,
+            0
+          ]
+        },
+        {
+          "phase": 0.83,
+          "body": [
+            3,
+            8,
+            2
+          ],
+          "rightArm": [
+            -54,
+            -15,
+            26
+          ],
+          "leftArm": [
+            -66,
+            18,
+            -31
+          ],
+          "head": [
+            -2,
+            -5,
+            0
+          ]
+        },
+        {
+          "phase": 0.93,
+          "body": [
+            1,
+            3,
+            0
+          ],
+          "rightArm": [
+            -39,
+            -5,
+            13
+          ],
+          "leftArm": [
+            -27,
+            7,
+            -15
+          ],
+          "head": [
+            0,
+            -1,
+            0
+          ]
+        },
+        {
+          "phase": 1,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effigy_procession_cast",
+      "title": "星偶巡礼 · 举引落阵",
+      "weapon": "ftboss:statue_youzi",
+      "category": "spell",
+      "duration": 2.8,
+      "impactPhase": 0.5714285714285714,
+      "chargeEnd": 0.5714285714285714,
+      "keys": [
+        {
+          "phase": 0,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "phase": 0.13,
+          "body": [
+            -2,
+            -8,
+            -2
+          ],
+          "rightArm": [
+            -45,
+            -16,
+            18
+          ],
+          "leftArm": [
+            -32,
+            14,
+            -24
+          ],
+          "head": [
+            1,
+            5,
+            0
+          ]
+        },
+        {
+          "phase": 0.37,
+          "body": [
+            -5,
+            -13,
+            -3
+          ],
+          "rightArm": [
+            -54,
+            -17,
+            14
+          ],
+          "leftArm": [
+            -84,
+            20,
+            -28
+          ],
+          "head": [
+            3,
+            8,
+            0
+          ]
+        },
+        {
+          "phase": 0.5714285714285714,
+          "body": [
+            -4,
+            -9,
+            -2
+          ],
+          "rightArm": [
+            -54,
+            -9,
+            11
+          ],
+          "leftArm": [
+            -94,
+            13,
+            -24
+          ],
+          "head": [
+            2,
+            5,
+            0
+          ]
+        },
+        {
+          "phase": 0.65,
+          "body": [
+            5,
+            9,
+            2
+          ],
+          "rightArm": [
+            -54,
+            3,
+            11
+          ],
+          "leftArm": [
+            -73,
+            -8,
+            -31
+          ],
+          "head": [
+            -3,
+            -5,
+            0
+          ]
+        },
+        {
+          "phase": 0.76,
+          "body": [
+            8,
+            13,
+            3
+          ],
+          "rightArm": [
+            -50,
+            10,
+            7
+          ],
+          "leftArm": [
+            -54,
+            -5,
+            -23
+          ],
+          "head": [
+            -4,
+            -7,
+            0
+          ]
+        },
+        {
+          "phase": 0.89,
+          "body": [
+            4,
+            5,
+            1
+          ],
+          "rightArm": [
+            -38,
+            4,
+            8
+          ],
+          "leftArm": [
+            -26,
+            0,
+            -13
+          ],
+          "head": [
+            -2,
+            -3,
+            0
+          ]
+        },
+        {
+          "phase": 1,
+          "body": [
+            0,
+            0,
+            0
+          ],
+          "rightArm": [
+            -26,
+            0,
+            5
+          ],
+          "leftArm": [
+            -5,
+            0,
+            -5
+          ],
+          "head": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": {
+    "variant": 0,
+    "otherCharactersTouched": false,
+    "serverDamageChanged": false,
+    "inGameVerified": false
+  }
+}
