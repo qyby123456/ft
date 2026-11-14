@@ -1,0 +1,229 @@
+{
+  "stage": 42,
+  "candidate": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-death-cancel-v5-20261114\\ftboss-boss-core-1.21.1-stage41-native-death-cancel-NOT-INSTALLABLE.jar",
+  "candidateJarSha256": "b751ae8fbf5552342ae5e887cc5d7675b7fcdf995fcde1773dcc0dc32e691345",
+  "productChanged": false,
+  "nativeReport": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\earned-finale-with-zhuni-native-v2-4bf54f5a.json",
+  "loadedAudit": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\earned-finale-with-zhuni-loaded-audit-v1-20261114\\receipt.json",
+  "savedConquestProof": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\earned-normal-saved-conquest-v2-4bf54f5a-20261114\\receipt.json",
+  "priorStage41Closeout": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-death-cancel-closeout-20261114.json",
+  "nativeChecks": 34584,
+  "actualOriginalNormalPrimaryStages": 11,
+  "originalNormalVariantSet": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11
+  ],
+  "actualNormalVictoryEarnedUnlock": true,
+  "actualNativeOriginalConquestSavedOnce": true,
+  "actualPublicZhuniRevealAccepted": true,
+  "priorInvulnerabilityTimeoutWasWrongCombatTargetNotPortedSkySkillGap": true,
+  "actualEligibleFinaleAttributeBaselineAccepted": true,
+  "attributeBaselineUsesAllActualModifiers": true,
+  "attributeReconstructionNativeNegativeControls": 2,
+  "independentAttributeReconstructionControls": 2,
+  "savedConquestNegativeControls": 2,
+  "actualEligibleAttributeCases": [
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.3
+        },
+        {
+          "id": "minecraft:effect.strength",
+          "operation": "ADD_VALUE",
+          "amount": 6.0
+        }
+      ],
+      "reconstructedActualValue": 13.65,
+      "currentBaseWithoutFinaleModifierValue": 13.65,
+      "case": 0,
+      "uuid": "59a17f50-db6c-4b17-8254-0e786e1b2497",
+      "finale": false,
+      "preexistingAddValue": false,
+      "base": 4.5,
+      "actualValue": 13.65,
+      "originalBaseDoublingExpectedValue": 13.65,
+      "matchesOriginalBaseDoubling": true,
+      "health": 300.0,
+      "maximumHealth": 300.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 1,
+      "acceleratedTicks99": 99
+    },
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss_probe:earned_finale_add_five",
+          "operation": "ADD_VALUE",
+          "amount": 5.0
+        },
+        {
+          "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.3
+        },
+        {
+          "id": "minecraft:effect.strength",
+          "operation": "ADD_VALUE",
+          "amount": 6.0
+        }
+      ],
+      "reconstructedActualValue": 20.150000000000002,
+      "currentBaseWithoutFinaleModifierValue": 20.150000000000002,
+      "case": 1,
+      "uuid": "55bd7458-990c-4650-8996-afc81ab3f2d3",
+      "finale": false,
+      "preexistingAddValue": true,
+      "base": 4.5,
+      "actualValue": 20.150000000000002,
+      "originalBaseDoublingExpectedValue": 20.150000000000002,
+      "matchesOriginalBaseDoubling": true,
+      "health": 300.0,
+      "maximumHealth": 300.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 1,
+      "acceleratedTicks99": 99
+    },
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss:non_manor_finale_double",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 1.0
+        },
+        {
+          "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.3
+        },
+        {
+          "id": "minecraft:effect.strength",
+          "operation": "ADD_VALUE",
+          "amount": 6.0
+        }
+      ],
+      "reconstructedActualValue": 27.3,
+      "currentBaseWithoutFinaleModifierValue": 13.65,
+      "case": 2,
+      "uuid": "c00fffae-ecc4-49ec-a21f-1fc63ed05956",
+      "finale": true,
+      "preexistingAddValue": false,
+      "base": 4.5,
+      "actualValue": 27.3,
+      "originalBaseDoublingExpectedValue": 19.5,
+      "matchesOriginalBaseDoubling": false,
+      "health": 600.0,
+      "maximumHealth": 600.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 2,
+      "acceleratedTicks99": 50
+    },
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss_probe:earned_finale_add_five",
+          "operation": "ADD_VALUE",
+          "amount": 5.0
+        },
+        {
+          "id": "ftboss:non_manor_finale_double",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 1.0
+        },
+        {
+          "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.3
+        },
+        {
+          "id": "minecraft:effect.strength",
+          "operation": "ADD_VALUE",
+          "amount": 6.0
+        }
+      ],
+      "reconstructedActualValue": 40.300000000000004,
+      "currentBaseWithoutFinaleModifierValue": 20.150000000000002,
+      "case": 3,
+      "uuid": "35b3b58f-cd1b-4238-b219-d801243cf4cb",
+      "finale": true,
+      "preexistingAddValue": true,
+      "base": 4.5,
+      "actualValue": 40.300000000000004,
+      "originalBaseDoublingExpectedValue": 26.0,
+      "matchesOriginalBaseDoubling": false,
+      "health": 600.0,
+      "maximumHealth": 600.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 2,
+      "acceleratedTicks99": 50
+    }
+  ],
+  "actualOriginalBaseOnlyParityGaps": [
+    {
+      "case": 2,
+      "actual": 27.3,
+      "originalBaseOnlyWithAllOtherModifiers": 19.5,
+      "difference": 7.800000000000001
+    },
+    {
+      "case": 3,
+      "actual": 40.300000000000004,
+      "originalBaseOnlyWithAllOtherModifiers": 26.0,
+      "difference": 14.300000000000004
+    }
+  ],
+  "actualBossProof": "checks=4884;actualDefinedMethods=342;changedActualMethods=2;unchangedBossMethods=340;allOriginalGraphsRecoveredExactly=true;actualLoadedInstallerIdempotent=true;otherCapturedClassesUnchanged=35;engineOnlyUniquePrivateSessionLambdaNameMapped=true;engineDeathExactWithoutNormalization=true;engineNormalizationNegativeControls=1;asmVerifiedMethods=342;",
+  "originalCallbackProof": "checks=1374;actualDefinedMethods=342;allActualGraphsEqualComposition=true;exactEmitterIdempotent=true;negativeControls=2;originalHurtUnchanged=true;",
+  "actualDefinedHelpersExactlyCandidate": 19,
+  "firstFullProbeArithmeticOracleFailurePreserved": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\earned-finale-with-zhuni-native-v1-164103d0.json",
+  "firstFullProbeActualNormalConquestSavedProof": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\earned-normal-saved-conquest-v2-164103d0-20261114\\receipt.json",
+  "strictEightMethodOriginalWholeGraphComparison": {
+    "path": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-zhuni-original-contract-v2-20261114\\method-comparison.json",
+    "exactMethods": 3,
+    "comparedMethods": 8,
+    "wholeEightGraphAcceptanceClaimed": false,
+    "remainingDifferences": "Five whole method graphs differ in compiled local/control flow; retained honestly, not arbitrarily normalized or asserted equal."
+  },
+  "originalZhuniRevealPathRealNativePositiveAccepted": true,
+  "candidateAndAllExistingResourcesExactlyPriorStage41": true,
+  "unchangedResourceEntries": 1530,
+  "normalConquestFixtureOnly": true,
+  "fixture": {
+    "survivabilityAcceptanceClaimed": false,
+    "actualRawAttackAttribute": 128.0,
+    "cappedHits": 1918,
+    "targetPreDamageFixture": 250.0,
+    "nativePreDamageCap": 0.01
+  },
+  "formalExpectedHashesVerified": {
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_NeoForge 机械动力/mods/qys-bosses-1.21.1.jar": "6563f431dca1871eb7870653b74550ba2f5c0f66c104eea90ce58a99ca30f7c0",
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_ForgeⅡ v1.5.2/mods/qys-bosses.jar": "7c88b9e51ccdc6616cd2f70d6fa3c195772fc3f083f848085053d40cfe2015a3"
+  },
+  "modelOrMusicUploaded": false,
+  "authenticated": false,
+  "actualMultiplayerGameplayAccepted": false,
+  "nativeWorldRestartAccepted": false,
+  "curiosReloadAcceptanceClaimed": false,
+  "fullCombatOrSurvivabilityAcceptanceClaimed": false,
+  "remaining": [
+    "Correct original regular-Boss finale base-attack scaling with every actual native modifier preserved; current eligible gated baseline shows exact parity gaps.",
+    "Complete original regular-Boss finale spell/cast/Tea baselines and all remaining action/visual, combat/reward, authenticated multiplayer and lifecycle requirements.",
+    "Complete original Non-Manor finale difficulty and summon/progression/attribute/cast baseline; original action/visual fidelity and remaining original combat handlers",
+    "Authenticated real multiple players and full normal/impossible Boss combat/rewards; Sparrow scaled quotas/additional plans/repeat appearances; all Boss persistence/dimensions",
+    "Curios V18 attended new-JVM reload remains separate and not auto-retried; final cumulative installable artifact and authorized deployment/rollback; weapons/Session paused"
+  ],
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}

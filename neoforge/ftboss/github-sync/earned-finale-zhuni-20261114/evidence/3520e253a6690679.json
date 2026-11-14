@@ -1,0 +1,286 @@
+{
+  "nativeReport": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\earned-finale-with-zhuni-native-v2-4bf54f5a.json",
+  "candidate": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-death-cancel-v5-20261114\\ftboss-boss-core-1.21.1-stage41-native-death-cancel-NOT-INSTALLABLE.jar",
+  "candidateJarSha256": "b751ae8fbf5552342ae5e887cc5d7675b7fcdf995fcde1773dcc0dc32e691345",
+  "productChanged": false,
+  "nativeChecks": 34584,
+  "actualOriginalNormalPrimaryStages": 11,
+  "actualOriginalNormalVictoryEarnedUnlockAccepted": true,
+  "actualOriginalConquestSavedOnce": true,
+  "savedConquestProof": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\earned-normal-saved-conquest-v2-4bf54f5a-20261114\\receipt.json",
+  "actualPublicZhuniRevealAccepted": true,
+  "actualZhuniAction": {
+    "before": {
+      "uuid": "b38750b8-8b7c-4f18-b4d3-fdd2559f80b0",
+      "variant": 6,
+      "mini": false,
+      "health": 1024.0,
+      "maxHealth": 1024.0,
+      "alive": true,
+      "removed": false,
+      "invulnerable": true,
+      "introActing": false,
+      "managed": true,
+      "fightId": "8d885a68-ed14-4fd0-bdb7-69f988878f3f",
+      "summoner": "00000000-0000-0000-0000-000000b05513",
+      "naturalEntityTicks": 160,
+      "time": 5270
+    },
+    "actualZhuni": {
+      "type": "ftboss:zhuni",
+      "fight": "8d885a68-ed14-4fd0-bdb7-69f988878f3f",
+      "owner": "b38750b8-8b7c-4f18-b4d3-fdd2559f80b0",
+      "uuid": "94ea5111-2b09-4617-8a03-e102c12e863c"
+    },
+    "targetUuid": "94ea5111-2b09-4617-8a03-e102c12e863c",
+    "waitingBefore": true,
+    "after": {
+      "uuid": "b38750b8-8b7c-4f18-b4d3-fdd2559f80b0",
+      "variant": 6,
+      "mini": false,
+      "health": 774.0,
+      "maxHealth": 1024.0,
+      "alive": true,
+      "removed": false,
+      "invulnerable": false,
+      "introActing": false,
+      "managed": true,
+      "fightId": "8d885a68-ed14-4fd0-bdb7-69f988878f3f",
+      "summoner": "00000000-0000-0000-0000-000000b05513",
+      "naturalEntityTicks": 160,
+      "time": 5270
+    }
+  },
+  "actualEligibleFinaleAttributeBaselineAccepted": true,
+  "attributeBaselineUsesAllActualModifiers": true,
+  "attributeReconstructionNativeNegativeControls": 2,
+  "independentPythonAttributeControls": 2,
+  "actualEligibleAttributeCases": [
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.3
+        },
+        {
+          "id": "minecraft:effect.strength",
+          "operation": "ADD_VALUE",
+          "amount": 6.0
+        }
+      ],
+      "reconstructedActualValue": 13.65,
+      "currentBaseWithoutFinaleModifierValue": 13.65,
+      "case": 0,
+      "uuid": "59a17f50-db6c-4b17-8254-0e786e1b2497",
+      "finale": false,
+      "preexistingAddValue": false,
+      "base": 4.5,
+      "actualValue": 13.65,
+      "originalBaseDoublingExpectedValue": 13.65,
+      "matchesOriginalBaseDoubling": true,
+      "health": 300.0,
+      "maximumHealth": 300.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 1,
+      "acceleratedTicks99": 99
+    },
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss_probe:earned_finale_add_five",
+          "operation": "ADD_VALUE",
+          "amount": 5.0
+        },
+        {
+          "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.3
+        },
+        {
+          "id": "minecraft:effect.strength",
+          "operation": "ADD_VALUE",
+          "amount": 6.0
+        }
+      ],
+      "reconstructedActualValue": 20.150000000000002,
+      "currentBaseWithoutFinaleModifierValue": 20.150000000000002,
+      "case": 1,
+      "uuid": "55bd7458-990c-4650-8996-afc81ab3f2d3",
+      "finale": false,
+      "preexistingAddValue": true,
+      "base": 4.5,
+      "actualValue": 20.150000000000002,
+      "originalBaseDoublingExpectedValue": 20.150000000000002,
+      "matchesOriginalBaseDoubling": true,
+      "health": 300.0,
+      "maximumHealth": 300.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 1,
+      "acceleratedTicks99": 99
+    },
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss:non_manor_finale_double",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 1.0
+        },
+        {
+          "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.3
+        },
+        {
+          "id": "minecraft:effect.strength",
+          "operation": "ADD_VALUE",
+          "amount": 6.0
+        }
+      ],
+      "reconstructedActualValue": 27.3,
+      "currentBaseWithoutFinaleModifierValue": 13.65,
+      "case": 2,
+      "uuid": "c00fffae-ecc4-49ec-a21f-1fc63ed05956",
+      "finale": true,
+      "preexistingAddValue": false,
+      "base": 4.5,
+      "actualValue": 27.3,
+      "originalBaseDoublingExpectedValue": 19.5,
+      "matchesOriginalBaseDoubling": false,
+      "health": 600.0,
+      "maximumHealth": 600.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 2,
+      "acceleratedTicks99": 50
+    },
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss_probe:earned_finale_add_five",
+          "operation": "ADD_VALUE",
+          "amount": 5.0
+        },
+        {
+          "id": "ftboss:non_manor_finale_double",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 1.0
+        },
+        {
+          "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.3
+        },
+        {
+          "id": "minecraft:effect.strength",
+          "operation": "ADD_VALUE",
+          "amount": 6.0
+        }
+      ],
+      "reconstructedActualValue": 40.300000000000004,
+      "currentBaseWithoutFinaleModifierValue": 20.150000000000002,
+      "case": 3,
+      "uuid": "35b3b58f-cd1b-4238-b219-d801243cf4cb",
+      "finale": true,
+      "preexistingAddValue": true,
+      "base": 4.5,
+      "actualValue": 40.300000000000004,
+      "originalBaseDoublingExpectedValue": 26.0,
+      "matchesOriginalBaseDoubling": false,
+      "health": 600.0,
+      "maximumHealth": 600.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 2,
+      "acceleratedTicks99": 50
+    }
+  ],
+  "actualOriginalBaseOnlyParityGaps": [
+    {
+      "case": 2,
+      "actual": 27.3,
+      "originalBaseOnlyWithAllOtherModifiers": 19.5,
+      "difference": 7.800000000000001
+    },
+    {
+      "case": 3,
+      "actual": 40.300000000000004,
+      "originalBaseOnlyWithAllOtherModifiers": 26.0,
+      "difference": 14.300000000000004
+    }
+  ],
+  "actualDefinedHelpersExactlyCandidate": {
+    "net/farmingtales/ftboss/boss/NonManorFinale": "09c3453af41b5eb00f5c84cd5b25ca4f3f9c24cca305f9d6bfdd833e44c29a14",
+    "net/farmingtales/ftboss/boss/BossChallengePreference": "a9555fdec47f1fdbd83b4af2e93ff2ee4a39186923941e189dd4599899def538",
+    "net/farmingtales/ftboss/boss/ManorDifficulty": "7aade0faaec86bcab875fb7d7d6a92be7eca8c726c392823adffeb8d5c8accd1",
+    "net/farmingtales/ftboss/boss/ManorFight": "37380b2cd2060c0b98f55b9569269be56e3c9de2229afeae4f6e2289245833a4",
+    "net/farmingtales/ftboss/boss/ManorFightData": "4c3b77071cbbd7471ebf122b5356a8787c13807bc9af466d8ac2b8cb666347c9",
+    "net/farmingtales/ftboss/boss/ManorVictoryData": "963121851a7f8fe62c53e4241ad15c3dfca552d3b3337a13738eadcc10329dfb",
+    "net/farmingtales/ftboss/boss/BossHandler": "3a2875125d42cacb7e727abee214d299a81211afc19f081bb558acfaae7efcdb",
+    "net/farmingtales/ftboss/entity/RatBossEntity": "7a60cc3f8c1d9cc815b03034ea6a646abeec57eb80b78804bf3a0d3a144fc501",
+    "net/farmingtales/ftboss/turret/ZhuniStage": "6e05409a8c6cd3d2d1f989eedbc54b03b36e9ceaaae7a5133c51313ae62a9b1e",
+    "net/farmingtales/ftboss/turret/ZhuniEntity": "704a38453b6bf6ee5cf361ead9af9e25b0ee5c50a4bb147a3bdcf57b77b501d8",
+    "net/farmingtales/ftboss/turret/ZhuniOpeningMovement": "267fd69f72ed37d7d203ccd48192c58922d6b9e06d53bef7b06f27e49c06d6dc",
+    "net/farmingtales/ftboss/turret/ZhuniTurretDrops": "e509199263273e13f4830963192a5b2e3dfa43cd7effa9d040ee9a4f1b0319da",
+    "net/farmingtales/ftboss/turret/XuanlanTurretEntity": "3987a8aa3e1f7b0c7963a5c202c78c87328cee0a8f64036e8539592337f2fc0a",
+    "net/farmingtales/ftboss/turret/XuanlanTurrets": "b6d169026a251998236d51e355d3ab307e98460701a4cac9a34c38b12fce8fe7",
+    "net/farmingtales/ftboss/boss/ai/XuanlanSkyStrike": "4f5c1726b00e0f2e182657e1db150c4f74de66c7fb0a5253587ba878e9987b01",
+    "net/farmingtales/ftboss/util/XuanlanSkyRules": "dfa0a1f12898bae5407b7cb47953608a86b76685786a3baaa883f84d9e3e60ef",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDeathCancelInstaller": "53c0921595f03ce722ade6d9ef83e6075f36f51b82fef9a5dd2be66aefd2f65f",
+    "net/farmingtales/ftboss/boss/ai/NativeManorMixinPlugin": "ad77dde13d7a778f4c56ccf72a3a62478dc19fd54e3ee4f9109a84db9eef442b",
+    "net/farmingtales/ftboss/client/render/ShadowSigilVisual": "00e1ae700d24b52aaf6d03687acada13a4049e4041280de44f2c5d515085ae9f"
+  },
+  "actualBossProof": "checks=4884;actualDefinedMethods=342;changedActualMethods=2;unchangedBossMethods=340;allOriginalGraphsRecoveredExactly=true;actualLoadedInstallerIdempotent=true;otherCapturedClassesUnchanged=35;engineOnlyUniquePrivateSessionLambdaNameMapped=true;engineDeathExactWithoutNormalization=true;engineNormalizationNegativeControls=1;asmVerifiedMethods=342;",
+  "originalCallbackProof": "checks=1374;actualDefinedMethods=342;allActualGraphsEqualComposition=true;exactEmitterIdempotent=true;negativeControls=2;originalHurtUnchanged=true;",
+  "actualClientRenderAcceptanceClaimed": false,
+  "fixture": {
+    "survivabilityAcceptanceClaimed": false,
+    "actualRawAttackAttribute": 128.0,
+    "cappedHits": 1918,
+    "targetPreDamageFixture": 250.0,
+    "nativePreDamageCap": 0.01
+  },
+  "formalExpectedHashesVerified": {
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_NeoForge 机械动力/mods/qys-bosses-1.21.1.jar": "6563f431dca1871eb7870653b74550ba2f5c0f66c104eea90ce58a99ca30f7c0",
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_ForgeⅡ v1.5.2/mods/qys-bosses.jar": "7c88b9e51ccdc6616cd2f70d6fa3c195772fc3f083f848085053d40cfe2015a3"
+  },
+  "authenticated": false,
+  "actualMultiplayerGameplayAccepted": false,
+  "curiosReloadAcceptanceClaimed": false,
+  "nativeWorldRestartAccepted": false,
+  "fullCombatOrSurvivabilityAcceptanceClaimed": false,
+  "modelOrMusicUploaded": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false,
+  "inputHashes": {
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tools\\audit_earned_finale_with_zhuni_loaded_v1.py": "0a5b1c838e96abdedb1b24b124a6d13eff8d14019048f078199129187cda081d",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\earned-finale-with-zhuni-native-v2-4bf54f5a.json": "1ea5e5ffe514715c6c1d025615511d7d848d5851b66aef740a46c6560c5fdb6f",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\ManorEarnedFinaleWithZhuniNativeV2.java": "c7a5cba43079c4a84ca91010925a0ff01c50ec61b1e66797fa487043790f36c4",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-death-cancel-closeout-20261114.json": "07b7180ce8ef90d349547b1dad382a4f308263e04a6c7d511a4f5e2ade05e661",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-death-cancel-v5-20261114\\ftboss-boss-core-1.21.1-stage41-native-death-cancel-NOT-INSTALLABLE.jar": "b751ae8fbf5552342ae5e887cc5d7675b7fcdf995fcde1773dcc0dc32e691345",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\earned-normal-saved-conquest-v2-4bf54f5a-20261114\\receipt.json": "061b32c38ac7cfeb22905d0fbd270ee167bb5f52f642fb32a62c6d1306db5f04",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-damage-context-v1-20261114\\compile-proof-command.json": "47f6bf0b9eccc6847159cc00306c7e62781aea82bcd811e01b52a9f4f0861e7e",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\ManorDeathCancelActualLoadedAuditV2.java": "4534f7412853f59afd3f7253960788fabe147b7903df9e1e4a6a8e867f194835",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\YouziOriginalSummonLoadedAuditV2.java": "d4eeff8be3d7ae43c0be5597f741e3fcb35e78164eefd0acff162fb2aa25c7bb",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\shadow-sigil-actual-native-v2-085dc9c7\\captured-defined-classes\\net_farmingtales_ftboss_entity_EasterBossEntity.class": "87ebb403532475da503ccc41f0c6ed6ffa6a25f92e1c430fabb7d8debbc1b025",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_entity_EasterBossEntity.class": "d04fb0b9fc58b5478bc7d0e8feb5a02f15fc3e4760119c1b0a39fff0f0fe6e91",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_boss_NonManorFinale.class": "09c3453af41b5eb00f5c84cd5b25ca4f3f9c24cca305f9d6bfdd833e44c29a14",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_boss_BossChallengePreference.class": "a9555fdec47f1fdbd83b4af2e93ff2ee4a39186923941e189dd4599899def538",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_boss_ManorDifficulty.class": "7aade0faaec86bcab875fb7d7d6a92be7eca8c726c392823adffeb8d5c8accd1",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_boss_ManorFight.class": "37380b2cd2060c0b98f55b9569269be56e3c9de2229afeae4f6e2289245833a4",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_boss_ManorFightData.class": "4c3b77071cbbd7471ebf122b5356a8787c13807bc9af466d8ac2b8cb666347c9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_boss_ManorVictoryData.class": "963121851a7f8fe62c53e4241ad15c3dfca552d3b3337a13738eadcc10329dfb",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_boss_BossHandler.class": "3a2875125d42cacb7e727abee214d299a81211afc19f081bb558acfaae7efcdb",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_entity_RatBossEntity.class": "7a60cc3f8c1d9cc815b03034ea6a646abeec57eb80b78804bf3a0d3a144fc501",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_turret_ZhuniStage.class": "6e05409a8c6cd3d2d1f989eedbc54b03b36e9ceaaae7a5133c51313ae62a9b1e",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_turret_ZhuniEntity.class": "704a38453b6bf6ee5cf361ead9af9e25b0ee5c50a4bb147a3bdcf57b77b501d8",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_turret_ZhuniOpeningMovement.class": "267fd69f72ed37d7d203ccd48192c58922d6b9e06d53bef7b06f27e49c06d6dc",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_turret_ZhuniTurretDrops.class": "e509199263273e13f4830963192a5b2e3dfa43cd7effa9d040ee9a4f1b0319da",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_turret_XuanlanTurretEntity.class": "3987a8aa3e1f7b0c7963a5c202c78c87328cee0a8f64036e8539592337f2fc0a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_turret_XuanlanTurrets.class": "b6d169026a251998236d51e355d3ab307e98460701a4cac9a34c38b12fce8fe7",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_boss_ai_XuanlanSkyStrike.class": "4f5c1726b00e0f2e182657e1db150c4f74de66c7fb0a5253587ba878e9987b01",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_util_XuanlanSkyRules.class": "dfa0a1f12898bae5407b7cb47953608a86b76685786a3baaa883f84d9e3e60ef",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_boss_ai_NativeManorDeathCancelInstaller.class": "53c0921595f03ce722ade6d9ef83e6075f36f51b82fef9a5dd2be66aefd2f65f",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_boss_ai_NativeManorMixinPlugin.class": "ad77dde13d7a778f4c56ccf72a3a62478dc19fd54e3ee4f9109a84db9eef442b",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\earned-finale-with-zhuni-native-v2-4bf54f5a\\captured-defined-classes\\net_farmingtales_ftboss_client_render_ShadowSigilVisual.class": "00e1ae700d24b52aaf6d03687acada13a4049e4041280de44f2c5d515085ae9f"
+  }
+}

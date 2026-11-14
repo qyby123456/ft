@@ -1,0 +1,1778 @@
+{
+  "originalArchiveSha256": "c1734a148606397f8b2c79fbcc5c45961a5ffb1923ea051756fd45d03dc7a942",
+  "originalClassHashes": {
+    "net/farmingtales/ftboss/turret/ZhuniStage.class": "b71c25b8f444754f350e97056db74f48d8a82088d5ba75a6a0024f115b06c3ba",
+    "net/farmingtales/ftboss/turret/ZhuniEntity.class": "ca22f2bb77de9b27f04c27b9cf8540e158798378028fae41fef3a88cd1742eb1"
+  },
+  "mcpConfigSha256": "f46d1050d8bed9046886b90a0d2fb80b4c6b5120fc35d32e5d37498dbe0a6d2a",
+  "officialMappingSha256": "67bfc33ef0c7103f002d6ac134f8eddd3d67e2ce45d266e83816d1a2e2c9b01d",
+  "memberNames": {
+    "f_82478_": "ZERO",
+    "f_82479_": "x",
+    "f_82481_": "z",
+    "m_128342_": "getUUID",
+    "m_128362_": "putUUID",
+    "m_128379_": "putBoolean",
+    "m_128403_": "hasUUID",
+    "m_128405_": "putInt",
+    "m_128451_": "getInt",
+    "m_128471_": "getBoolean",
+    "m_142711_": "setProgress",
+    "m_146870_": "discard",
+    "m_146908_": "getYRot",
+    "m_146922_": "setYRot",
+    "m_20145_": "isInvisible",
+    "m_20147_": "isInvulnerable",
+    "m_20148_": "getUUID",
+    "m_20182_": "position",
+    "m_20185_": "getX",
+    "m_20186_": "getY",
+    "m_20189_": "getZ",
+    "m_20256_": "setDeltaMovement",
+    "m_20331_": "setInvulnerable",
+    "m_21153_": "setHealth",
+    "m_21223_": "getHealth",
+    "m_21233_": "getMaxHealth",
+    "m_213846_": "sendSystemMessage",
+    "m_213877_": "isRemoved",
+    "m_21525_": "isNoAi",
+    "m_21557_": "setNoAi",
+    "m_237113_": "literal",
+    "m_46467_": "getGameTime",
+    "m_6084_": "isAlive",
+    "m_6456_": "setName",
+    "m_6469_": "hurt",
+    "m_6478_": "move",
+    "m_6539_": "removePlayer",
+    "m_6543_": "addPlayer",
+    "m_6842_": "setInvisible",
+    "m_7639_": "getEntity",
+    "m_7678_": "moveTo",
+    "m_7967_": "addFreshEntity",
+    "m_8119_": "tick",
+    "m_82490_": "scale",
+    "m_82520_": "add",
+    "m_82546_": "subtract",
+    "m_8321_": "setVisible",
+    "m_8324_": "getPlayers",
+    "m_8791_": "getEntity",
+    "m_9236_": "level"
+  },
+  "subsetMappingProof": {
+    "m_6543_": [
+      {
+        "declaredObfuscatedOwner": "adn",
+        "mcpMemberLine": "a (Laig;)V m_6543_ 136266",
+        "officialResolvedName": "addPlayer"
+      },
+      {
+        "declaredObfuscatedOwner": "aic",
+        "mcpMemberLine": "a (Laig;)V m_6543_ 6543",
+        "officialResolvedName": "addPlayer"
+      }
+    ],
+    "m_6539_": [
+      {
+        "declaredObfuscatedOwner": "adn",
+        "mcpMemberLine": "b (Laig;)V m_6539_ 136280",
+        "officialResolvedName": "removePlayer"
+      },
+      {
+        "declaredObfuscatedOwner": "aic",
+        "mcpMemberLine": "b (Laig;)V m_6539_ 6539",
+        "officialResolvedName": "removePlayer"
+      }
+    ],
+    "m_213846_": [
+      {
+        "declaredObfuscatedOwner": "aef$a",
+        "mcpMemberLine": "a (Lsw;)V m_213846_ 214426",
+        "officialResolvedName": "sendSystemMessage"
+      },
+      {
+        "declaredObfuscatedOwner": "aig",
+        "mcpMemberLine": "a (Lsw;)V m_213846_ 215096",
+        "officialResolvedName": "sendSystemMessage"
+      },
+      {
+        "declaredObfuscatedOwner": "alx",
+        "mcpMemberLine": "a (Lsw;)V m_213846_ 215652",
+        "officialResolvedName": "sendSystemMessage"
+      },
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "a (Lsw;)V m_213846_ 216997",
+        "officialResolvedName": "sendSystemMessage"
+      },
+      {
+        "declaredObfuscatedOwner": "cln",
+        "mcpMemberLine": "a (Lsw;)V m_213846_ 220329",
+        "officialResolvedName": "sendSystemMessage"
+      },
+      {
+        "declaredObfuscatedOwner": "dr",
+        "mcpMemberLine": "a (Lsw;)V m_213846_ 213846",
+        "officialResolvedName": "sendSystemMessage"
+      },
+      {
+        "declaredObfuscatedOwner": "dr$1",
+        "mcpMemberLine": "a (Lsw;)V m_213846_ 230798",
+        "officialResolvedName": "sendSystemMessage"
+      },
+      {
+        "declaredObfuscatedOwner": "fiy",
+        "mcpMemberLine": "a (Lsw;)V m_213846_ 234128",
+        "officialResolvedName": "sendSystemMessage"
+      },
+      {
+        "declaredObfuscatedOwner": "fiz",
+        "mcpMemberLine": "a (Lsw;)V m_213846_ 234162",
+        "officialResolvedName": "sendSystemMessage"
+      },
+      {
+        "declaredObfuscatedOwner": "net/minecraft/server/MinecraftServer",
+        "mcpMemberLine": "a (Lsw;)V m_213846_ 236735",
+        "officialResolvedName": "sendSystemMessage"
+      }
+    ],
+    "m_142711_": [
+      {
+        "declaredObfuscatedOwner": "aic",
+        "mcpMemberLine": "a (F)V m_142711_ 143222",
+        "officialResolvedName": "setProgress"
+      },
+      {
+        "declaredObfuscatedOwner": "bdn",
+        "mcpMemberLine": "a (F)V m_142711_ 142711",
+        "officialResolvedName": "setProgress"
+      },
+      {
+        "declaredObfuscatedOwner": "epv",
+        "mcpMemberLine": "a (F)V m_142711_ 169029",
+        "officialResolvedName": "setProgress"
+      }
+    ],
+    "m_6456_": [
+      {
+        "declaredObfuscatedOwner": "aic",
+        "mcpMemberLine": "a (Lsw;)V m_6456_ 8310",
+        "officialResolvedName": "setName"
+      },
+      {
+        "declaredObfuscatedOwner": "bdn",
+        "mcpMemberLine": "a (Lsw;)V m_6456_ 6456",
+        "officialResolvedName": "setName"
+      }
+    ],
+    "m_8321_": [
+      {
+        "declaredObfuscatedOwner": "aic",
+        "mcpMemberLine": "d (Z)V m_8321_ 8321",
+        "officialResolvedName": "setVisible"
+      }
+    ],
+    "m_8324_": [
+      {
+        "declaredObfuscatedOwner": "aic",
+        "mcpMemberLine": "h ()Ljava/util/Collection; m_8324_ 8324",
+        "officialResolvedName": "getPlayers"
+      }
+    ],
+    "m_8791_": [
+      {
+        "declaredObfuscatedOwner": "aif",
+        "mcpMemberLine": "a (Ljava/util/UUID;)Lbfj; m_8791_ 8791",
+        "officialResolvedName": "getEntity"
+      }
+    ],
+    "m_7967_": [
+      {
+        "declaredObfuscatedOwner": "aif",
+        "mcpMemberLine": "b (Lbfj;)Z m_7967_ 8836",
+        "officialResolvedName": "addFreshEntity"
+      },
+      {
+        "declaredObfuscatedOwner": "aim",
+        "mcpMemberLine": "b (Lbfj;)Z m_7967_ 9579",
+        "officialResolvedName": "addFreshEntity"
+      },
+      {
+        "declaredObfuscatedOwner": "cmu",
+        "mcpMemberLine": "b (Lbfj;)Z m_7967_ 7967",
+        "officialResolvedName": "addFreshEntity"
+      }
+    ],
+    "m_6469_": [
+      {
+        "declaredObfuscatedOwner": "aig",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 9036",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 6469",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bfp",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 20784",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bfr",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 147113",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 21015",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "brg",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 27423",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "brl",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 27566",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "brm",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 27761",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "brx",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 28847",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bsa",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 29096",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bsb",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 29377",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bsk",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 29962",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bso",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 30385",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bsp",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 218338",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bss",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 149114",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "btk",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 245859",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "btz",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31019",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bua",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31049",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bub",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31112",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "buv",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31460",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bux",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31578",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "buz",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31714",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bva",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31775",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bvh",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 32012",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bvs",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 32493",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bvw",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 32729",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bvy",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 32819",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bwi",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 33420",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bwj",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 33526",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bwu",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 34213",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bwv",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 34287",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bwy",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 34502",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bxe",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 34693",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bxh",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 35054",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bxs",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 219380",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "byo",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 36153",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "byv",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 36838",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "byx",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 36909",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bzi",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 37337",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bzj",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 37380",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bzt",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 37615",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bzw",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 37848",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "caf",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 38116",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "cah",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 38318",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "car",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 38665",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "fiy",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 108661",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "fiz",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 108771",
+        "officialResolvedName": "hurt"
+      }
+    ],
+    "m_8119_": [
+      {
+        "declaredObfuscatedOwner": "aig",
+        "mcpMemberLine": "l ()V m_8119_ 9226",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bfg",
+        "mcpMemberLine": "l ()V m_8119_ 19746",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bfi",
+        "mcpMemberLine": "l ()V m_8119_ 269461",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "l ()V m_8119_ 8119",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bfp",
+        "mcpMemberLine": "l ()V m_8119_ 20804",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bfu",
+        "mcpMemberLine": "l ()V m_8119_ 272151",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bfy",
+        "mcpMemberLine": "l ()V m_8119_ 20882",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "l ()V m_8119_ 21299",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bga",
+        "mcpMemberLine": "l ()V m_8119_ 147258",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bgb",
+        "mcpMemberLine": "l ()V m_8119_ 21547",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "brg",
+        "mcpMemberLine": "l ()V m_8119_ 27454",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "brk",
+        "mcpMemberLine": "l ()V m_8119_ 27549",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "brm",
+        "mcpMemberLine": "l ()V m_8119_ 27886",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bro",
+        "mcpMemberLine": "l ()V m_8119_ 28175",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "brt",
+        "mcpMemberLine": "l ()V m_8119_ 28386",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "brv",
+        "mcpMemberLine": "l ()V m_8119_ 28583",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bsa",
+        "mcpMemberLine": "l ()V m_8119_ 29186",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bsd",
+        "mcpMemberLine": "l ()V m_8119_ 29563",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bse",
+        "mcpMemberLine": "l ()V m_8119_ 29635",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bsi",
+        "mcpMemberLine": "l ()V m_8119_ 29898",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bso",
+        "mcpMemberLine": "l ()V m_8119_ 30435",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bsp",
+        "mcpMemberLine": "l ()V m_8119_ 218385",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bsx",
+        "mcpMemberLine": "l ()V m_8119_ 246467",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bta",
+        "mcpMemberLine": "l ()V m_8119_ 218531",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "btk",
+        "mcpMemberLine": "l ()V m_8119_ 30639",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "btx",
+        "mcpMemberLine": "l ()V m_8119_ 271965",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bua",
+        "mcpMemberLine": "l ()V m_8119_ 31066",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bux",
+        "mcpMemberLine": "l ()V m_8119_ 31661",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "buz",
+        "mcpMemberLine": "l ()V m_8119_ 31747",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bvg",
+        "mcpMemberLine": "l ()V m_8119_ 31981",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bvh",
+        "mcpMemberLine": "l ()V m_8119_ 32058",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bvi",
+        "mcpMemberLine": "l ()V m_8119_ 32102",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bvo",
+        "mcpMemberLine": "l ()V m_8119_ 32317",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bvt",
+        "mcpMemberLine": "l ()V m_8119_ 32617",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bwe",
+        "mcpMemberLine": "l ()V m_8119_ 33164",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bwi",
+        "mcpMemberLine": "l ()V m_8119_ 33475",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bwj",
+        "mcpMemberLine": "l ()V m_8119_ 33550",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bwk",
+        "mcpMemberLine": "l ()V m_8119_ 149841",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bwl",
+        "mcpMemberLine": "l ()V m_8119_ 33639",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bwm",
+        "mcpMemberLine": "l ()V m_8119_ 33739",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bwn",
+        "mcpMemberLine": "l ()V m_8119_ 33817",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bwp",
+        "mcpMemberLine": "l ()V m_8119_ 33944",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bwq",
+        "mcpMemberLine": "l ()V m_8119_ 34039",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bwv",
+        "mcpMemberLine": "l ()V m_8119_ 34333",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bww",
+        "mcpMemberLine": "l ()V m_8119_ 34415",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bxs",
+        "mcpMemberLine": "l ()V m_8119_ 219458",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "byb",
+        "mcpMemberLine": "l ()V m_8119_ 35544",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "byo",
+        "mcpMemberLine": "l ()V m_8119_ 36366",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "byu",
+        "mcpMemberLine": "l ()V m_8119_ 36783",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "byv",
+        "mcpMemberLine": "l ()V m_8119_ 36851",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "byw",
+        "mcpMemberLine": "l ()V m_8119_ 36887",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "byy",
+        "mcpMemberLine": "l ()V m_8119_ 36948",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "byz",
+        "mcpMemberLine": "l ()V m_8119_ 36982",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bzb",
+        "mcpMemberLine": "l ()V m_8119_ 37081",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bzc",
+        "mcpMemberLine": "l ()V m_8119_ 37169",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bzf",
+        "mcpMemberLine": "l ()V m_8119_ 37243",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bzg",
+        "mcpMemberLine": "l ()V m_8119_ 37277",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bzi",
+        "mcpMemberLine": "l ()V m_8119_ 37362",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bzl",
+        "mcpMemberLine": "l ()V m_8119_ 37427",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bzn",
+        "mcpMemberLine": "l ()V m_8119_ 37471",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bzp",
+        "mcpMemberLine": "l ()V m_8119_ 37508",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "bzs",
+        "mcpMemberLine": "l ()V m_8119_ 37586",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "caf",
+        "mcpMemberLine": "l ()V m_8119_ 38166",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "cah",
+        "mcpMemberLine": "l ()V m_8119_ 38374",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "cao",
+        "mcpMemberLine": "l ()V m_8119_ 38574",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "cap",
+        "mcpMemberLine": "l ()V m_8119_ 38609",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "caq",
+        "mcpMemberLine": "l ()V m_8119_ 38637",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "car",
+        "mcpMemberLine": "l ()V m_8119_ 38690",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "fiv",
+        "mcpMemberLine": "l ()V m_8119_ 272104",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "fiy",
+        "mcpMemberLine": "l ()V m_8119_ 108754",
+        "officialResolvedName": "tick"
+      },
+      {
+        "declaredObfuscatedOwner": "fiz",
+        "mcpMemberLine": "l ()V m_8119_ 108778",
+        "officialResolvedName": "tick"
+      }
+    ],
+    "m_7639_": [
+      {
+        "declaredObfuscatedOwner": "ben",
+        "mcpMemberLine": "d ()Lbfj; m_7639_ 7639",
+        "officialResolvedName": "getEntity"
+      }
+    ],
+    "m_146922_": [
+      {
+        "declaredObfuscatedOwner": "bfi",
+        "mcpMemberLine": "a_ (F)V m_146922_ 269347",
+        "officialResolvedName": "setYRot"
+      },
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "a_ (F)V m_146922_ 146922",
+        "officialResolvedName": "setYRot"
+      }
+    ],
+    "m_6478_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "a (Lbgf;Leei;)V m_6478_ 6478",
+        "officialResolvedName": "move"
+      },
+      {
+        "declaredObfuscatedOwner": "buz",
+        "mcpMemberLine": "a (Lbgf;Leei;)V m_6478_ 31718",
+        "officialResolvedName": "move"
+      },
+      {
+        "declaredObfuscatedOwner": "bva",
+        "mcpMemberLine": "a (Lbgf;Leei;)V m_6478_ 31780",
+        "officialResolvedName": "move"
+      },
+      {
+        "declaredObfuscatedOwner": "bwi",
+        "mcpMemberLine": "a (Lbgf;Leei;)V m_6478_ 33423",
+        "officialResolvedName": "move"
+      },
+      {
+        "declaredObfuscatedOwner": "bwq",
+        "mcpMemberLine": "a (Lbgf;Leei;)V m_6478_ 33996",
+        "officialResolvedName": "move"
+      },
+      {
+        "declaredObfuscatedOwner": "byu",
+        "mcpMemberLine": "a (Lbgf;Leei;)V m_6478_ 36748",
+        "officialResolvedName": "move"
+      },
+      {
+        "declaredObfuscatedOwner": "fiy",
+        "mcpMemberLine": "a (Lbgf;Leei;)V m_6478_ 108669",
+        "officialResolvedName": "move"
+      }
+    ],
+    "m_146870_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "ai ()V m_146870_ 146870",
+        "officialResolvedName": "discard"
+      }
+    ],
+    "m_7678_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "b (DDDFF)V m_7678_ 7678",
+        "officialResolvedName": "moveTo"
+      },
+      {
+        "declaredObfuscatedOwner": "bvc",
+        "mcpMemberLine": "b (DDDFF)V m_7678_ 31928",
+        "officialResolvedName": "moveTo"
+      }
+    ],
+    "m_6084_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "bs ()Z m_6084_ 6084",
+        "officialResolvedName": "isAlive"
+      },
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "bs ()Z m_6084_ 21110",
+        "officialResolvedName": "isAlive"
+      }
+    ],
+    "m_20145_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "cb ()Z m_20145_ 20145",
+        "officialResolvedName": "isInvisible"
+      }
+    ],
+    "m_20147_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "co ()Z m_20147_ 20147",
+        "officialResolvedName": "isInvulnerable"
+      }
+    ],
+    "m_20148_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "ct ()Ljava/util/UUID; m_20148_ 20148",
+        "officialResolvedName": "getUUID"
+      },
+      {
+        "declaredObfuscatedOwner": "dfs",
+        "mcpMemberLine": "ct ()Ljava/util/UUID; m_20148_ 142081",
+        "officialResolvedName": "getUUID"
+      }
+    ],
+    "m_213877_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dD ()Z m_213877_ 146910",
+        "officialResolvedName": "isRemoved"
+      },
+      {
+        "declaredObfuscatedOwner": "caj",
+        "mcpMemberLine": "dD ()Z m_213877_ 213877",
+        "officialResolvedName": "isRemoved"
+      }
+    ],
+    "m_9236_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dI ()Lcmm; m_9236_ 183503",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "bgh",
+        "mcpMemberLine": "e ()Lcmd; m_9236_ 9236",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "bgv",
+        "mcpMemberLine": "e ()Lcmd; m_9236_ 284545",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "btk",
+        "mcpMemberLine": "e ()Lcmd; m_9236_ 284527",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "caj",
+        "mcpMemberLine": "dI ()Lcmm; m_9236_ 214157",
+        "officialResolvedName": "level"
+      }
+    ],
+    "m_20182_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dg ()Leei; m_20182_ 20182",
+        "officialResolvedName": "position"
+      },
+      {
+        "declaredObfuscatedOwner": "caj",
+        "mcpMemberLine": "dg ()Leei; m_20182_ 213821",
+        "officialResolvedName": "position"
+      }
+    ],
+    "m_20185_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dn ()D m_20185_ 20185",
+        "officialResolvedName": "getX"
+      }
+    ],
+    "m_20186_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dp ()D m_20186_ 20186",
+        "officialResolvedName": "getY"
+      }
+    ],
+    "m_20189_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dt ()D m_20189_ 20189",
+        "officialResolvedName": "getZ"
+      }
+    ],
+    "m_146908_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dy ()F m_146908_ 146908",
+        "officialResolvedName": "getYRot"
+      }
+    ],
+    "m_20256_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "f (Leei;)V m_20256_ 20256",
+        "officialResolvedName": "setDeltaMovement"
+      },
+      {
+        "declaredObfuscatedOwner": "bwi",
+        "mcpMemberLine": "f (Leei;)V m_20256_ 149803",
+        "officialResolvedName": "setDeltaMovement"
+      }
+    ],
+    "m_6842_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "j (Z)V m_6842_ 6842",
+        "officialResolvedName": "setInvisible"
+      },
+      {
+        "declaredObfuscatedOwner": "bux",
+        "mcpMemberLine": "j (Z)V m_6842_ 31662",
+        "officialResolvedName": "setInvisible"
+      }
+    ],
+    "m_20331_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "m (Z)V m_20331_ 20331",
+        "officialResolvedName": "setInvulnerable"
+      }
+    ],
+    "m_21233_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "eI ()F m_21233_ 21233",
+        "officialResolvedName": "getMaxHealth"
+      }
+    ],
+    "m_21223_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "er ()F m_21223_ 21223",
+        "officialResolvedName": "getHealth"
+      }
+    ],
+    "m_21153_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "t (F)V m_21153_ 21153",
+        "officialResolvedName": "setHealth"
+      }
+    ],
+    "m_21525_": [
+      {
+        "declaredObfuscatedOwner": "bgb",
+        "mcpMemberLine": "fQ ()Z m_21525_ 21525",
+        "officialResolvedName": "isNoAi"
+      }
+    ],
+    "m_21557_": [
+      {
+        "declaredObfuscatedOwner": "bgb",
+        "mcpMemberLine": "t (Z)V m_21557_ 21557",
+        "officialResolvedName": "setNoAi"
+      }
+    ],
+    "m_46467_": [
+      {
+        "declaredObfuscatedOwner": "cmm",
+        "mcpMemberLine": "V ()J m_46467_ 46467",
+        "officialResolvedName": "getGameTime"
+      }
+    ],
+    "f_82478_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "b f_82478_ 82478",
+        "officialResolvedName": "ZERO"
+      }
+    ],
+    "f_82479_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "c f_82479_ 82479",
+        "officialResolvedName": "x"
+      }
+    ],
+    "f_82481_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "e f_82481_ 82481",
+        "officialResolvedName": "z"
+      }
+    ],
+    "m_82490_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "a (D)Leei; m_82490_ 82490",
+        "officialResolvedName": "scale"
+      }
+    ],
+    "m_82520_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "b (DDD)Leei; m_82520_ 82520",
+        "officialResolvedName": "add"
+      }
+    ],
+    "m_82546_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "d (Leei;)Leei; m_82546_ 82546",
+        "officialResolvedName": "subtract"
+      }
+    ],
+    "m_128379_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "a (Ljava/lang/String;Z)V m_128379_ 128379",
+        "officialResolvedName": "putBoolean"
+      }
+    ],
+    "m_128362_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "a (Ljava/lang/String;Ljava/util/UUID;)V m_128362_ 128362",
+        "officialResolvedName": "putUUID"
+      }
+    ],
+    "m_128405_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "a (Ljava/lang/String;I)V m_128405_ 128405",
+        "officialResolvedName": "putInt"
+      }
+    ],
+    "m_128342_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "a (Ljava/lang/String;)Ljava/util/UUID; m_128342_ 128342",
+        "officialResolvedName": "getUUID"
+      }
+    ],
+    "m_128403_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "b (Ljava/lang/String;)Z m_128403_ 128403",
+        "officialResolvedName": "hasUUID"
+      }
+    ],
+    "m_128451_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "h (Ljava/lang/String;)I m_128451_ 128451",
+        "officialResolvedName": "getInt"
+      }
+    ],
+    "m_128471_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "q (Ljava/lang/String;)Z m_128471_ 128471",
+        "officialResolvedName": "getBoolean"
+      }
+    ],
+    "m_237113_": [
+      {
+        "declaredObfuscatedOwner": "sw",
+        "mcpMemberLine": "b (Ljava/lang/String;)Ltj; m_237113_ 237113",
+        "officialResolvedName": "literal"
+      }
+    ]
+  },
+  "classNames": {
+    "net/minecraftforge/registries/RegistryObject": "net/neoforged/neoforge/registries/DeferredHolder",
+    "net/minecraft/world/level/pathfinder/BlockPathTypes": "net/minecraft/world/level/pathfinder/PathType"
+  },
+  "methodSelectionsByClass": {
+    "net/farmingtales/ftboss/turret/ZhuniStage": [
+      "reveal",
+      "waiting",
+      "hide",
+      "hold",
+      "syncBossBar"
+    ],
+    "net/farmingtales/ftboss/turret/ZhuniEntity": [
+      "m_6469_",
+      "ownerId",
+      "m_8119_"
+    ]
+  },
+  "originalSharingMethodInstructions": {
+    "net/farmingtales/ftboss/turret/ZhuniStage#reveal": [
+      "  public static void reveal(net.farmingtales.ftboss.entity.EasterBossEntity, net.farmingtales.ftboss.turret.ZhuniEntity);",
+      "    Code:",
+      "       0: aload_0",
+      "       1: invokestatic  #133                // Method waiting:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z",
+      "       4: ifeq          14",
+      "       7: aload_0",
+      "       8: invokevirtual #136                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_6084_:()Z",
+      "      11: ifne          15",
+      "      14: return",
+      "      15: aload_0",
+      "      16: invokevirtual #70                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;",
+      "      19: astore_2",
+      "      20: aload_2",
+      "      21: ldc           #16                 // String ftboss.zhuniStage",
+      "      23: iconst_2",
+      "      24: invokevirtual #80                 // Method net/minecraft/nbt/CompoundTag.m_128405_:(Ljava/lang/String;I)V",
+      "      27: aload_0",
+      "      28: aload_2",
+      "      29: ldc           #82                 // String ftboss.zhuniOriginalAi",
+      "      31: invokevirtual #139                // Method net/minecraft/nbt/CompoundTag.m_128471_:(Ljava/lang/String;)Z",
+      "      34: invokevirtual #116                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_21557_:(Z)V",
+      "      37: aload_0",
+      "      38: aload_2",
+      "      39: ldc           #91                 // String ftboss.zhuniOriginalInvulnerable",
+      "      41: invokevirtual #139                // Method net/minecraft/nbt/CompoundTag.m_128471_:(Ljava/lang/String;)Z",
+      "      44: invokevirtual #119                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_20331_:(Z)V",
+      "      47: aload_0",
+      "      48: aload_2",
+      "      49: ldc           #96                 // String ftboss.zhuniOriginalInvisible",
+      "      51: invokevirtual #139                // Method net/minecraft/nbt/CompoundTag.m_128471_:(Ljava/lang/String;)Z",
+      "      54: invokevirtual #122                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_6842_:(Z)V",
+      "      57: aload_0",
+      "      58: aload_2",
+      "      59: ldc           #101                // String ftboss.zhuniOriginalHidden",
+      "      61: invokevirtual #139                // Method net/minecraft/nbt/CompoundTag.m_128471_:(Ljava/lang/String;)Z",
+      "      64: invokevirtual #125                // Method net/farmingtales/ftboss/entity/EasterBossEntity.setManorIntroHidden:(Z)V",
+      "      67: aload_0",
+      "      68: invokevirtual #143                // Method net/farmingtales/ftboss/entity/EasterBossEntity.getBossBar:()Lnet/minecraft/server/level/ServerBossEvent;",
+      "      71: iconst_1",
+      "      72: invokevirtual #148                // Method net/minecraft/server/level/ServerBossEvent.m_8321_:(Z)V",
+      "      75: aload_1",
+      "      76: aload_0",
+      "      77: invokevirtual #151                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_9236_:()Lnet/minecraft/world/level/Level;",
+      "      80: invokevirtual #155                // Method net/minecraft/world/level/Level.m_46467_:()J",
+      "      83: invokevirtual #161                // Method net/farmingtales/ftboss/turret/ZhuniEntity.revealedAt:(J)V",
+      "      86: aload_0",
+      "      87: invokevirtual #151                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_9236_:()Lnet/minecraft/world/level/Level;",
+      "      90: astore        4",
+      "      92: aload         4",
+      "      94: instanceof    #163                // class net/minecraft/server/level/ServerLevel",
+      "      97: ifeq          153",
+      "     100: aload         4",
+      "     102: checkcast     #163                // class net/minecraft/server/level/ServerLevel",
+      "     105: astore_3",
+      "     106: aload_0",
+      "     107: aload_3",
+      "     108: invokestatic  #167                // Method net/farmingtales/ftboss/balance/ManorBalanceHooks.players:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/server/level/ServerLevel;)Ljava/util/List;",
+      "     111: invokeinterface #173,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;",
+      "     116: astore        4",
+      "     118: aload         4",
+      "     120: invokeinterface #178,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z",
+      "     125: ifeq          153",
+      "     128: aload         4",
+      "     130: invokeinterface #182,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;",
+      "     135: checkcast     #184                // class net/minecraft/server/level/ServerPlayer",
+      "     138: astore        5",
+      "     140: aload         5",
+      "     142: ldc           #186                // String §a竹鸟振翅！§b玄蓝登场。",
+      "     144: invokestatic  #192                // InterfaceMethod net/minecraft/network/chat/Component.m_237113_:(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;",
+      "     147: invokevirtual #196                // Method net/minecraft/server/level/ServerPlayer.m_213846_:(Lnet/minecraft/network/chat/Component;)V",
+      "     150: goto          118",
+      "     153: return",
+      ""
+    ],
+    "net/farmingtales/ftboss/turret/ZhuniStage#waiting": [
+      "  public static boolean waiting(net.farmingtales.ftboss.entity.EasterBossEntity);",
+      "    Code:",
+      "       0: aload_0",
+      "       1: invokevirtual #70                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;",
+      "       4: ldc           #16                 // String ftboss.zhuniStage",
+      "       6: invokevirtual #108                // Method net/minecraft/nbt/CompoundTag.m_128451_:(Ljava/lang/String;)I",
+      "       9: iconst_1",
+      "      10: if_icmpne     17",
+      "      13: iconst_1",
+      "      14: goto          18",
+      "      17: iconst_0",
+      "      18: ireturn",
+      ""
+    ],
+    "net/farmingtales/ftboss/turret/ZhuniStage#hide": [
+      "  private static void hide(net.farmingtales.ftboss.entity.EasterBossEntity);",
+      "    Code:",
+      "       0: aload_0",
+      "       1: iconst_1",
+      "       2: invokevirtual #116                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_21557_:(Z)V",
+      "       5: aload_0",
+      "       6: iconst_1",
+      "       7: invokevirtual #119                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_20331_:(Z)V",
+      "      10: aload_0",
+      "      11: iconst_1",
+      "      12: invokevirtual #122                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_6842_:(Z)V",
+      "      15: aload_0",
+      "      16: iconst_1",
+      "      17: invokevirtual #125                // Method net/farmingtales/ftboss/entity/EasterBossEntity.setManorIntroHidden:(Z)V",
+      "      20: aload_0",
+      "      21: invokestatic  #128                // Method syncBossBar:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)V",
+      "      24: return",
+      ""
+    ],
+    "net/farmingtales/ftboss/turret/ZhuniStage#hold": [
+      "  public static boolean hold(net.farmingtales.ftboss.entity.EasterBossEntity);",
+      "    Code:",
+      "       0: aload_0",
+      "       1: invokevirtual #151                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_9236_:()Lnet/minecraft/world/level/Level;",
+      "       4: astore_2",
+      "       5: aload_2",
+      "       6: instanceof    #163                // class net/minecraft/server/level/ServerLevel",
+      "       9: ifeq          47",
+      "      12: aload_2",
+      "      13: checkcast     #163                // class net/minecraft/server/level/ServerLevel",
+      "      16: astore_1",
+      "      17: aload_0",
+      "      18: invokevirtual #51                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.getVariant:()I",
+      "      21: bipush        6",
+      "      23: if_icmpne     47",
+      "      26: aload_0",
+      "      27: invokestatic  #57                 // Method net/farmingtales/ftboss/balance/ManorBalanceHooks.mainBoss:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z",
+      "      30: ifeq          47",
+      "      33: aload_0",
+      "      34: invokevirtual #136                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_6084_:()Z",
+      "      37: ifeq          47",
+      "      40: aload_0",
+      "      41: invokestatic  #66                 // Method net/farmingtales/ftboss/boss/ManorFightMembers.ownerId:(Lnet/minecraft/world/entity/Entity;)Ljava/util/UUID;",
+      "      44: ifnull        49",
+      "      47: iconst_0",
+      "      48: ireturn",
+      "      49: aload_0",
+      "      50: invokevirtual #70                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;",
+      "      53: astore_2",
+      "      54: aload_2",
+      "      55: ldc           #16                 // String ftboss.zhuniStage",
+      "      57: invokevirtual #108                // Method net/minecraft/nbt/CompoundTag.m_128451_:(Ljava/lang/String;)I",
+      "      60: istore_3",
+      "      61: iload_3",
+      "      62: ifne          141",
+      "      65: aload_0",
+      "      66: invokestatic  #63                 // Method net/farmingtales/ftboss/boss/ManorFightMembers.fightId:(Lnet/minecraft/world/entity/Entity;)Ljava/util/UUID;",
+      "      69: ifnull        141",
+      "      72: aload_0",
+      "      73: invokestatic  #63                 // Method net/farmingtales/ftboss/boss/ManorFightMembers.fightId:(Lnet/minecraft/world/entity/Entity;)Ljava/util/UUID;",
+      "      76: invokestatic  #203                // Method net/farmingtales/ftboss/boss/ManorFight.hasActive:(Ljava/util/UUID;)Z",
+      "      79: ifeq          141",
+      "      82: aload_0",
+      "      83: invokevirtual #207                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_20148_:()Ljava/util/UUID;",
+      "      86: invokestatic  #212                // Method net/farmingtales/ftboss/boss/HiddenBossIntro.isActing:(Ljava/util/UUID;)Z",
+      "      89: ifne          141",
+      "      92: aload_2",
+      "      93: ldc           #16                 // String ftboss.zhuniStage",
+      "      95: iconst_1",
+      "      96: invokevirtual #80                 // Method net/minecraft/nbt/CompoundTag.m_128405_:(Ljava/lang/String;I)V",
+      "      99: aload_2",
+      "     100: ldc           #82                 // String ftboss.zhuniOriginalAi",
+      "     102: aload_0",
+      "     103: invokevirtual #85                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_21525_:()Z",
+      "     106: invokevirtual #89                 // Method net/minecraft/nbt/CompoundTag.m_128379_:(Ljava/lang/String;Z)V",
+      "     109: aload_2",
+      "     110: ldc           #91                 // String ftboss.zhuniOriginalInvulnerable",
+      "     112: aload_0",
+      "     113: invokevirtual #94                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_20147_:()Z",
+      "     116: invokevirtual #89                 // Method net/minecraft/nbt/CompoundTag.m_128379_:(Ljava/lang/String;Z)V",
+      "     119: aload_2",
+      "     120: ldc           #96                 // String ftboss.zhuniOriginalInvisible",
+      "     122: aload_0",
+      "     123: invokevirtual #99                 // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_20145_:()Z",
+      "     126: invokevirtual #89                 // Method net/minecraft/nbt/CompoundTag.m_128379_:(Ljava/lang/String;Z)V",
+      "     129: aload_2",
+      "     130: ldc           #101                // String ftboss.zhuniOriginalHidden",
+      "     132: aload_0",
+      "     133: invokevirtual #104                // Method net/farmingtales/ftboss/entity/EasterBossEntity.isManorIntroHidden:()Z",
+      "     136: invokevirtual #89                 // Method net/minecraft/nbt/CompoundTag.m_128379_:(Ljava/lang/String;Z)V",
+      "     139: iconst_1",
+      "     140: istore_3",
+      "     141: iload_3",
+      "     142: iconst_1",
+      "     143: if_icmpeq     153",
+      "     146: iload_3",
+      "     147: iconst_2",
+      "     148: if_icmpeq     153",
+      "     151: iconst_0",
+      "     152: ireturn",
+      "     153: aload_0",
+      "     154: invokestatic  #63                 // Method net/farmingtales/ftboss/boss/ManorFightMembers.fightId:(Lnet/minecraft/world/entity/Entity;)Ljava/util/UUID;",
+      "     157: astore        4",
+      "     159: aload         4",
+      "     161: ifnull        172",
+      "     164: aload         4",
+      "     166: invokestatic  #203                // Method net/farmingtales/ftboss/boss/ManorFight.hasActive:(Ljava/util/UUID;)Z",
+      "     169: ifne          174",
+      "     172: iconst_0",
+      "     173: ireturn",
+      "     174: aload_2",
+      "     175: ldc           #19                 // String ftboss.zhuniId",
+      "     177: invokevirtual #217                // Method net/minecraft/nbt/CompoundTag.m_128403_:(Ljava/lang/String;)Z",
+      "     180: ifeq          196",
+      "     183: aload_1",
+      "     184: aload_2",
+      "     185: ldc           #19                 // String ftboss.zhuniId",
+      "     187: invokevirtual #221                // Method net/minecraft/nbt/CompoundTag.m_128342_:(Ljava/lang/String;)Ljava/util/UUID;",
+      "     190: invokevirtual #225                // Method net/minecraft/server/level/ServerLevel.m_8791_:(Ljava/util/UUID;)Lnet/minecraft/world/entity/Entity;",
+      "     193: goto          197",
+      "     196: aconst_null",
+      "     197: astore        5",
+      "     199: aload         5",
+      "     201: instanceof    #157                // class net/farmingtales/ftboss/turret/ZhuniEntity",
+      "     204: ifeq          225",
+      "     207: aload_0",
+      "     208: invokevirtual #207                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_20148_:()Ljava/util/UUID;",
+      "     211: aload         5",
+      "     213: checkcast     #157                // class net/farmingtales/ftboss/turret/ZhuniEntity",
+      "     216: invokevirtual #229                // Method net/farmingtales/ftboss/turret/ZhuniEntity.ownerId:()Ljava/util/UUID;",
+      "     219: invokevirtual #233                // Method java/util/UUID.equals:(Ljava/lang/Object;)Z",
+      "     222: ifne          305",
+      "     225: new           #157                // class net/farmingtales/ftboss/turret/ZhuniEntity",
+      "     228: dup",
+      "     229: getstatic     #238                // Field net/farmingtales/ftboss/turret/XuanlanTurrets.BIRD:Lnet/minecraft/world/entity/EntityType;",
+      "     232: aload_1",
+      "     233: invokespecial #241                // Method net/farmingtales/ftboss/turret/ZhuniEntity.\"<init>\":(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V",
+      "     236: astore        6",
+      "     238: aload         6",
+      "     240: aload_0",
+      "     241: invokevirtual #244                // Method net/farmingtales/ftboss/turret/ZhuniEntity.setOwner:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)V",
+      "     244: aload         6",
+      "     246: aload_0",
+      "     247: invokevirtual #248                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_20185_:()D",
+      "     250: aload_0",
+      "     251: invokevirtual #251                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_20186_:()D",
+      "     254: ldc2_w        #252                // double 0.65d",
+      "     257: dadd",
+      "     258: aload_0",
+      "     259: invokevirtual #256                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_20189_:()D",
+      "     262: aload_0",
+      "     263: invokevirtual #260                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_146908_:()F",
+      "     266: fconst_0",
+      "     267: invokevirtual #264                // Method net/farmingtales/ftboss/turret/ZhuniEntity.m_7678_:(DDDFF)V",
+      "     270: aload         6",
+      "     272: aload_1",
+      "     273: invokevirtual #265                // Method net/minecraft/server/level/ServerLevel.m_46467_:()J",
+      "     276: invokevirtual #161                // Method net/farmingtales/ftboss/turret/ZhuniEntity.revealedAt:(J)V",
+      "     279: aload_0",
+      "     280: aload         6",
+      "     282: invokestatic  #269                // Method net/farmingtales/ftboss/boss/ManorFightMembers.inherit:(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V",
+      "     285: aload_1",
+      "     286: aload         6",
+      "     288: invokevirtual #273                // Method net/minecraft/server/level/ServerLevel.m_7967_:(Lnet/minecraft/world/entity/Entity;)Z",
+      "     291: ifeq          305",
+      "     294: aload_2",
+      "     295: ldc           #19                 // String ftboss.zhuniId",
+      "     297: aload         6",
+      "     299: invokevirtual #274                // Method net/farmingtales/ftboss/turret/ZhuniEntity.m_20148_:()Ljava/util/UUID;",
+      "     302: invokevirtual #278                // Method net/minecraft/nbt/CompoundTag.m_128362_:(Ljava/lang/String;Ljava/util/UUID;)V",
+      "     305: iload_3",
+      "     306: iconst_1",
+      "     307: if_icmpeq     312",
+      "     310: iconst_0",
+      "     311: ireturn",
+      "     312: aload_0",
+      "     313: invokestatic  #112                // Method hide:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)V",
+      "     316: iconst_1",
+      "     317: ireturn",
+      ""
+    ],
+    "net/farmingtales/ftboss/turret/ZhuniStage#syncBossBar": [
+      "  public static void syncBossBar(net.farmingtales.ftboss.entity.EasterBossEntity);",
+      "    Code:",
+      "       0: aload_0",
+      "       1: invokevirtual #151                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_9236_:()Lnet/minecraft/world/level/Level;",
+      "       4: astore_2",
+      "       5: aload_2",
+      "       6: instanceof    #163                // class net/minecraft/server/level/ServerLevel",
+      "       9: ifeq          34",
+      "      12: aload_2",
+      "      13: checkcast     #163                // class net/minecraft/server/level/ServerLevel",
+      "      16: astore_1",
+      "      17: aload_0",
+      "      18: invokevirtual #136                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_6084_:()Z",
+      "      21: ifeq          34",
+      "      24: aload_0",
+      "      25: invokevirtual #207                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_20148_:()Ljava/util/UUID;",
+      "      28: invokestatic  #212                // Method net/farmingtales/ftboss/boss/HiddenBossIntro.isActing:(Ljava/util/UUID;)Z",
+      "      31: ifeq          35",
+      "      34: return",
+      "      35: aload_0",
+      "      36: invokevirtual #143                // Method net/farmingtales/ftboss/entity/EasterBossEntity.getBossBar:()Lnet/minecraft/server/level/ServerBossEvent;",
+      "      39: astore_2",
+      "      40: aload_0",
+      "      41: aload_1",
+      "      42: invokestatic  #167                // Method net/farmingtales/ftboss/balance/ManorBalanceHooks.players:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/server/level/ServerLevel;)Ljava/util/List;",
+      "      45: astore_3",
+      "      46: aload_2",
+      "      47: ldc_w         #280                // String 竹鸟 · 玄蓝",
+      "      50: invokestatic  #192                // InterfaceMethod net/minecraft/network/chat/Component.m_237113_:(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;",
+      "      53: invokevirtual #283                // Method net/minecraft/server/level/ServerBossEvent.m_6456_:(Lnet/minecraft/network/chat/Component;)V",
+      "      56: aload_0",
+      "      57: invokevirtual #286                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_21233_:()F",
+      "      60: fstore        4",
+      "      62: aload_2",
+      "      63: fload         4",
+      "      65: fconst_0",
+      "      66: fcmpl",
+      "      67: ifle          88",
+      "      70: fconst_0",
+      "      71: fconst_1",
+      "      72: aload_0",
+      "      73: invokevirtual #289                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_21223_:()F",
+      "      76: fload         4",
+      "      78: fdiv",
+      "      79: invokestatic  #295                // Method java/lang/Math.min:(FF)F",
+      "      82: invokestatic  #298                // Method java/lang/Math.max:(FF)F",
+      "      85: goto          89",
+      "      88: fconst_0",
+      "      89: invokevirtual #302                // Method net/minecraft/server/level/ServerBossEvent.m_142711_:(F)V",
+      "      92: aload_2",
+      "      93: invokevirtual #306                // Method net/minecraft/server/level/ServerBossEvent.m_8324_:()Ljava/util/Collection;",
+      "      96: invokestatic  #310                // InterfaceMethod java/util/List.copyOf:(Ljava/util/Collection;)Ljava/util/List;",
+      "      99: invokeinterface #173,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;",
+      "     104: astore        5",
+      "     106: aload         5",
+      "     108: invokeinterface #178,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z",
+      "     113: ifeq          148",
+      "     116: aload         5",
+      "     118: invokeinterface #182,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;",
+      "     123: checkcast     #184                // class net/minecraft/server/level/ServerPlayer",
+      "     126: astore        6",
+      "     128: aload_3",
+      "     129: aload         6",
+      "     131: invokeinterface #313,  2          // InterfaceMethod java/util/List.contains:(Ljava/lang/Object;)Z",
+      "     136: ifne          145",
+      "     139: aload_2",
+      "     140: aload         6",
+      "     142: invokevirtual #317                // Method net/minecraft/server/level/ServerBossEvent.m_6539_:(Lnet/minecraft/server/level/ServerPlayer;)V",
+      "     145: goto          106",
+      "     148: aload_3",
+      "     149: invokeinterface #173,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;",
+      "     154: astore        5",
+      "     156: aload         5",
+      "     158: invokeinterface #178,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z",
+      "     163: ifeq          187",
+      "     166: aload         5",
+      "     168: invokeinterface #182,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;",
+      "     173: checkcast     #184                // class net/minecraft/server/level/ServerPlayer",
+      "     176: astore        6",
+      "     178: aload_2",
+      "     179: aload         6",
+      "     181: invokevirtual #320                // Method net/minecraft/server/level/ServerBossEvent.m_6543_:(Lnet/minecraft/server/level/ServerPlayer;)V",
+      "     184: goto          156",
+      "     187: aload_2",
+      "     188: iconst_1",
+      "     189: invokevirtual #148                // Method net/minecraft/server/level/ServerBossEvent.m_8321_:(Z)V",
+      "     192: return",
+      "}"
+    ],
+    "net/farmingtales/ftboss/turret/ZhuniEntity#m_6469_": [
+      "  public boolean m_6469_(net.minecraft.world.damagesource.DamageSource, float);",
+      "    Code:",
+      "       0: aload_0",
+      "       1: invokevirtual #92                 // Method m_9236_:()Lnet/minecraft/world/level/Level;",
+      "       4: astore        6",
+      "       6: aload         6",
+      "       8: instanceof    #94                 // class net/minecraft/server/level/ServerLevel",
+      "      11: ifeq          102",
+      "      14: aload         6",
+      "      16: checkcast     #94                 // class net/minecraft/server/level/ServerLevel",
+      "      19: astore_3",
+      "      20: fload_2",
+      "      21: invokestatic  #244                // Method java/lang/Float.isFinite:(F)Z",
+      "      24: ifeq          102",
+      "      27: fload_2",
+      "      28: fconst_0",
+      "      29: fcmpg",
+      "      30: ifle          102",
+      "      33: aload_0",
+      "      34: getfield      #74                 // Field owner:Ljava/util/UUID;",
+      "      37: ifnull        102",
+      "      40: aload_3",
+      "      41: aload_0",
+      "      42: getfield      #74                 // Field owner:Ljava/util/UUID;",
+      "      45: invokevirtual #98                 // Method net/minecraft/server/level/ServerLevel.m_8791_:(Ljava/util/UUID;)Lnet/minecraft/world/entity/Entity;",
+      "      48: astore        6",
+      "      50: aload         6",
+      "      52: instanceof    #78                 // class net/farmingtales/ftboss/entity/EasterBossEntity",
+      "      55: ifeq          102",
+      "      58: aload         6",
+      "      60: checkcast     #78                 // class net/farmingtales/ftboss/entity/EasterBossEntity",
+      "      63: astore        4",
+      "      65: aload_1",
+      "      66: invokevirtual #250                // Method net/minecraft/world/damagesource/DamageSource.m_7639_:()Lnet/minecraft/world/entity/Entity;",
+      "      69: astore        6",
+      "      71: aload         6",
+      "      73: instanceof    #252                // class net/minecraft/server/level/ServerPlayer",
+      "      76: ifeq          102",
+      "      79: aload         6",
+      "      81: checkcast     #252                // class net/minecraft/server/level/ServerPlayer",
+      "      84: astore        5",
+      "      86: aload         4",
+      "      88: aload_3",
+      "      89: invokestatic  #256                // Method net/farmingtales/ftboss/balance/ManorBalanceHooks.players:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/server/level/ServerLevel;)Ljava/util/List;",
+      "      92: aload         5",
+      "      94: invokeinterface #262,  2          // InterfaceMethod java/util/List.contains:(Ljava/lang/Object;)Z",
+      "      99: ifne          104",
+      "     102: iconst_0",
+      "     103: ireturn",
+      "     104: aload         4",
+      "     106: invokestatic  #142                // Method net/farmingtales/ftboss/turret/ZhuniStage.waiting:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z",
+      "     109: istore        6",
+      "     111: aload         4",
+      "     113: aload_0",
+      "     114: invokestatic  #266                // Method net/farmingtales/ftboss/turret/ZhuniStage.reveal:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/farmingtales/ftboss/turret/ZhuniEntity;)V",
+      "     117: aload_0",
+      "     118: fconst_1",
+      "     119: invokevirtual #134                // Method m_21153_:(F)V",
+      "     122: aload         4",
+      "     124: aload_1",
+      "     125: fload_2",
+      "     126: invokevirtual #268                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_6469_:(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+      "     129: istore        7",
+      "     131: aload         4",
+      "     133: invokevirtual #102                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_6084_:()Z",
+      "     136: ifeq          147",
+      "     139: aload         4",
+      "     141: invokestatic  #139                // Method net/farmingtales/ftboss/turret/ZhuniStage.syncBossBar:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)V",
+      "     144: goto          151",
+      "     147: aload_0",
+      "     148: invokevirtual #130                // Method m_146870_:()V",
+      "     151: iload         7",
+      "     153: ifne          161",
+      "     156: iload         6",
+      "     158: ifeq          165",
+      "     161: iconst_1",
+      "     162: goto          166",
+      "     165: iconst_0",
+      "     166: ireturn",
+      ""
+    ],
+    "net/farmingtales/ftboss/turret/ZhuniEntity#ownerId": [
+      "  public java.util.UUID ownerId();",
+      "    Code:",
+      "       0: aload_0",
+      "       1: getfield      #74                 // Field owner:Ljava/util/UUID;",
+      "       4: areturn",
+      ""
+    ],
+    "net/farmingtales/ftboss/turret/ZhuniEntity#m_8119_": [
+      "  public void m_8119_();",
+      "    Code:",
+      "       0: aload_0",
+      "       1: invokespecial #88                 // Method net/minecraft/world/entity/Mob.m_8119_:()V",
+      "       4: aload_0",
+      "       5: invokevirtual #92                 // Method m_9236_:()Lnet/minecraft/world/level/Level;",
+      "       8: astore_2",
+      "       9: aload_2",
+      "      10: instanceof    #94                 // class net/minecraft/server/level/ServerLevel",
+      "      13: ifeq          24",
+      "      16: aload_2",
+      "      17: checkcast     #94                 // class net/minecraft/server/level/ServerLevel",
+      "      20: astore_1",
+      "      21: goto          25",
+      "      24: return",
+      "      25: aload_0",
+      "      26: getfield      #74                 // Field owner:Ljava/util/UUID;",
+      "      29: ifnull        100",
+      "      32: aload_1",
+      "      33: aload_0",
+      "      34: getfield      #74                 // Field owner:Ljava/util/UUID;",
+      "      37: invokevirtual #98                 // Method net/minecraft/server/level/ServerLevel.m_8791_:(Ljava/util/UUID;)Lnet/minecraft/world/entity/Entity;",
+      "      40: astore_3",
+      "      41: aload_3",
+      "      42: instanceof    #78                 // class net/farmingtales/ftboss/entity/EasterBossEntity",
+      "      45: ifeq          100",
+      "      48: aload_3",
+      "      49: checkcast     #78                 // class net/farmingtales/ftboss/entity/EasterBossEntity",
+      "      52: astore_2",
+      "      53: aload_2",
+      "      54: invokevirtual #102                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_6084_:()Z",
+      "      57: ifeq          100",
+      "      60: aload_2",
+      "      61: invokevirtual #105                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_213877_:()Z",
+      "      64: ifne          100",
+      "      67: aload_2",
+      "      68: invokevirtual #109                // Method net/farmingtales/ftboss/entity/EasterBossEntity.getVariant:()I",
+      "      71: bipush        6",
+      "      73: if_icmpne     100",
+      "      76: aload_2",
+      "      77: invokestatic  #115                // Method net/farmingtales/ftboss/balance/ManorBalanceHooks.mainBoss:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z",
+      "      80: ifeq          100",
+      "      83: aload_2",
+      "      84: invokestatic  #121                // Method net/farmingtales/ftboss/boss/ManorFightMembers.fightId:(Lnet/minecraft/world/entity/Entity;)Ljava/util/UUID;",
+      "      87: ifnull        100",
+      "      90: aload_2",
+      "      91: invokestatic  #121                // Method net/farmingtales/ftboss/boss/ManorFightMembers.fightId:(Lnet/minecraft/world/entity/Entity;)Ljava/util/UUID;",
+      "      94: invokestatic  #127                // Method net/farmingtales/ftboss/boss/ManorFight.hasActive:(Ljava/util/UUID;)Z",
+      "      97: ifne          105",
+      "     100: aload_0",
+      "     101: invokevirtual #130                // Method m_146870_:()V",
+      "     104: return",
+      "     105: aload_0",
+      "     106: fconst_1",
+      "     107: invokevirtual #134                // Method m_21153_:(F)V",
+      "     110: aload_2",
+      "     111: invokestatic  #139                // Method net/farmingtales/ftboss/turret/ZhuniStage.syncBossBar:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)V",
+      "     114: aload_2",
+      "     115: invokestatic  #142                // Method net/farmingtales/ftboss/turret/ZhuniStage.waiting:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Z",
+      "     118: istore_3",
+      "     119: aload_1",
+      "     120: invokevirtual #146                // Method net/minecraft/server/level/ServerLevel.m_46467_:()J",
+      "     123: l2d",
+      "     124: ldc2_w        #147                // double 0.04d",
+      "     127: dmul",
+      "     128: dstore        4",
+      "     130: iload_3",
+      "     131: ifeq          141",
+      "     134: aload_2",
+      "     135: invokestatic  #154                // Method net/farmingtales/ftboss/turret/ZhuniOpeningMovement.preferred:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;)Lnet/minecraft/world/phys/Vec3;",
+      "     138: goto          169",
+      "     141: aload_2",
+      "     142: invokevirtual #158                // Method net/farmingtales/ftboss/entity/EasterBossEntity.m_20182_:()Lnet/minecraft/world/phys/Vec3;",
+      "     145: dload         4",
+      "     147: invokestatic  #164                // Method java/lang/Math.cos:(D)D",
+      "     150: ldc2_w        #165                // double 1.8d",
+      "     153: dmul",
+      "     154: ldc2_w        #167                // double 2.8d",
+      "     157: dload         4",
+      "     159: invokestatic  #171                // Method java/lang/Math.sin:(D)D",
+      "     162: ldc2_w        #165                // double 1.8d",
+      "     165: dmul",
+      "     166: invokevirtual #177                // Method net/minecraft/world/phys/Vec3.m_82520_:(DDD)Lnet/minecraft/world/phys/Vec3;",
+      "     169: astore        6",
+      "     171: aload         6",
+      "     173: aload_0",
+      "     174: invokevirtual #178                // Method m_20182_:()Lnet/minecraft/world/phys/Vec3;",
+      "     177: invokevirtual #182                // Method net/minecraft/world/phys/Vec3.m_82546_:(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;",
+      "     180: ldc2_w        #183                // double 0.2d",
+      "     183: invokevirtual #188                // Method net/minecraft/world/phys/Vec3.m_82490_:(D)Lnet/minecraft/world/phys/Vec3;",
+      "     186: astore        7",
+      "     188: aload_0",
+      "     189: getstatic     #192                // Field net/minecraft/world/phys/Vec3.f_82478_:Lnet/minecraft/world/phys/Vec3;",
+      "     192: invokevirtual #196                // Method m_20256_:(Lnet/minecraft/world/phys/Vec3;)V",
+      "     195: aload_0",
+      "     196: getstatic     #202                // Field net/minecraft/world/entity/MoverType.SELF:Lnet/minecraft/world/entity/MoverType;",
+      "     199: aload         7",
+      "     201: invokevirtual #206                // Method m_6478_:(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V",
+      "     204: aload_0",
+      "     205: aload         7",
+      "     207: getfield      #210                // Field net/minecraft/world/phys/Vec3.f_82479_:D",
+      "     210: dneg",
+      "     211: aload         7",
+      "     213: getfield      #213                // Field net/minecraft/world/phys/Vec3.f_82481_:D",
+      "     216: invokestatic  #217                // Method java/lang/Math.atan2:(DD)D",
+      "     219: invokestatic  #220                // Method java/lang/Math.toDegrees:(D)D",
+      "     222: d2f",
+      "     223: invokevirtual #223                // Method m_146922_:(F)V",
+      "     226: iload_3",
+      "     227: ifne          237",
+      "     230: aload_2",
+      "     231: invokevirtual #226                // Method net/farmingtales/ftboss/entity/EasterBossEntity.isManorIntroHidden:()Z",
+      "     234: ifeq          246",
+      "     237: aload_0",
+      "     238: aload_1",
+      "     239: invokevirtual #146                // Method net/minecraft/server/level/ServerLevel.m_46467_:()J",
+      "     242: invokevirtual #227                // Method revealedAt:(J)V",
+      "     245: return",
+      "     246: aload_0",
+      "     247: getfield      #27                 // Field turretDrops:Lnet/farmingtales/ftboss/turret/ZhuniTurretDrops;",
+      "     250: aload_2",
+      "     251: aload_1",
+      "     252: invokevirtual #231                // Method net/farmingtales/ftboss/turret/ZhuniTurretDrops.tick:(Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/server/level/ServerLevel;)V",
+      "     255: aload_0",
+      "     256: aload_2",
+      "     257: aload_1",
+      "     258: invokestatic  #236                // Method net/farmingtales/ftboss/boss/ai/ZhuniBlackwallDisruption.tick:(Lnet/farmingtales/ftboss/turret/ZhuniEntity;Lnet/farmingtales/ftboss/entity/EasterBossEntity;Lnet/minecraft/server/level/ServerLevel;)V",
+      "     261: return",
+      ""
+    ]
+  },
+  "selectedOriginalMethods": [
+    "net/farmingtales/ftboss/turret/ZhuniStage#reveal",
+    "net/farmingtales/ftboss/turret/ZhuniStage#waiting",
+    "net/farmingtales/ftboss/turret/ZhuniStage#hide",
+    "net/farmingtales/ftboss/turret/ZhuniStage#hold",
+    "net/farmingtales/ftboss/turret/ZhuniStage#syncBossBar",
+    "net/farmingtales/ftboss/turret/ZhuniEntity#m_6469_",
+    "net/farmingtales/ftboss/turret/ZhuniEntity#ownerId",
+    "net/farmingtales/ftboss/turret/ZhuniEntity#m_8119_"
+  ],
+  "completeUnmodifiedMappingsNotExported": true,
+  "resourceFilesNotExported": true
+}
