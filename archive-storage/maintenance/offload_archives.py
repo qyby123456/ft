@@ -225,6 +225,7 @@ def run(limit):
         with zipfile.ZipFile(path) as bundle:
             assert bundle.infolist()
         asset_name = 'sha256-' + expected['sha256'] + path.suffix.lower()
+        available = assets(opener, headers, release)
         asset = available.get(asset_name)
         print(json.dumps({'starting': relative, 'bytes': item['bytes'], 'existingRemoteAsset': bool(asset)}), flush=True)
         if asset is None:
@@ -238,7 +239,15 @@ def run(limit):
         assert asset['state'] == 'uploaded' and asset['size'] == item['bytes']
         if asset.get('digest'):
             assert asset['digest'] == 'sha256:' + expected['sha256']
-        verified = verify_asset(headers, asset, expected, relative)
+        preverified_path = OUT / 'parallel-preverified-assets' / (expected['sha256'] + '.json')
+        if preverified_path.exists():
+            preverified = load(preverified_path)
+            assert preverified['assetId'] == asset['id'] and preverified['releaseId'] == release['id']
+            assert preverified['bytes'] == expected['bytes'] and preverified['sha256'] == expected['sha256']
+            assert preverified['independentRemoteDownloadVerified'] and preverified['downloadSha256'] == expected['sha256'] and preverified['downloadedBytes'] == expected['bytes']
+            verified = {key: preverified[key] for key in ['downloadedBytes', 'downloadSha256', 'independentRemoteDownloadVerified', 'verifiedAt']}
+        else:
+            verified = verify_asset(headers, asset, expected, relative)
         assert sha(path) == expected['sha256']
         row = {'bytes': item['bytes'], 'sha256': expected['sha256'], 'assetId': asset['id'], 'assetName': asset_name, 'apiUrl': API + '/releases/assets/' + str(asset['id']), 'remoteVerified': True, **verified, 'localCacheRemoved': False, 'activeCacheRetained': relative in KEEP}
         index['archives'][relative] = row
