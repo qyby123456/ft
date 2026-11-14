@@ -1,0 +1,708 @@
+{
+  "stage": 43,
+  "candidate": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-nonmanor-finale-attributes-v1-20261114\\ftboss-boss-core-1.21.1-stage43-base-only-finale-NOT-INSTALLABLE.jar",
+  "candidateJarSha256": "c63b17a20bc699ffdfb7b8ca3d985d0a2d3c4a53a2da769ea8fa54abac45f370",
+  "productChanged": true,
+  "priorStage42Closeout": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\earned-finale-zhuni-closeout-20261114.json",
+  "nativeReport": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\nonmanor-finale-attributes-native-v1-bb9ce4cf.json",
+  "loadedAudit": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\nonmanor-finale-attributes-loaded-audit-v2-20261114\\receipt.json",
+  "savedConquestProof": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\nonmanor-finale-earned-conquest-v1-bb9ce4cf-20261114\\receipt.json",
+  "savedAttributeProof": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\nonmanor-finale-attributes-saved-v2-bb9ce4cf-20261114\\receipt.json",
+  "candidateBuildProof": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-nonmanor-finale-attributes-v1-20261114\\candidate-build-receipt.json",
+  "nativeChecks": 26263,
+  "actualOriginalNormalPrimaryStages": 11,
+  "actualNormalVictoryEarnedUnlock": true,
+  "actualNativeOriginalConquestSavedOnce": true,
+  "actualPublicZhuniRevealAccepted": true,
+  "actualEligibleFinaleAttributeBaselineAccepted": true,
+  "actualOriginalFinaleBaseAttributesAccepted": true,
+  "sixActualLegitimateAdmissionCasesAccepted": true,
+  "allThreeModifierOperationsAndHealthAdditionAccepted": true,
+  "originalSelectedBaseValuesPersisted": true,
+  "actualLastFinaleBossSavedExactlyOnce": true,
+  "actualAllSixBossPersistenceAccepted": false,
+  "strictSixEntityPersistenceExpectationFailure": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\nonmanor-finale-attributes-saved-v1-bb9ce4cf-20261114\\failure.json",
+  "fortyNaturalTickPreparationIdempotenceAccepted": true,
+  "actualEligibleAttributeCases": [
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.3
+        },
+        {
+          "id": "minecraft:effect.strength",
+          "operation": "ADD_VALUE",
+          "amount": 6.0
+        }
+      ],
+      "reconstructedActualValue": 13.65,
+      "case": 0,
+      "uuid": "29780f7f-6b71-4763-a05a-de290d47ec96",
+      "finale": false,
+      "preexistingAddValue": false,
+      "allThreeOperationsFixture": false,
+      "admittedAttackBase": 4.5,
+      "base": 4.5,
+      "actualValue": 13.65,
+      "originalBaseDoublingExpectedValue": 13.65,
+      "previousTotalDoublingValue": 13.65,
+      "matchesOriginalBaseDoubling": true,
+      "selectedAttributes": [
+        {
+          "id": "minecraft:generic.max_health",
+          "admittedBase": 300.0,
+          "base": 300.0,
+          "expectedBase": 300.0,
+          "actualValue": 300.0,
+          "modifiers": [],
+          "admittedModifiers": []
+        },
+        {
+          "id": "minecraft:generic.attack_damage",
+          "admittedBase": 4.5,
+          "base": 4.5,
+          "expectedBase": 4.5,
+          "actualValue": 13.65,
+          "modifiers": [
+            {
+              "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.3
+            },
+            {
+              "id": "minecraft:effect.strength",
+              "operation": "ADD_VALUE",
+              "amount": 6.0
+            }
+          ],
+          "admittedModifiers": []
+        },
+        {
+          "id": "minecraft:generic.movement_speed",
+          "admittedBase": 0.1,
+          "base": 0.1,
+          "expectedBase": 0.1,
+          "actualValue": 0.15000000037252903,
+          "modifiers": [
+            {
+              "id": "ftboss:a1b2c3d4-0001-4a01-9001-000000000001",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.25
+            },
+            {
+              "id": "minecraft:effect.speed",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.20000000298023224
+            }
+          ],
+          "admittedModifiers": []
+        }
+      ],
+      "health": 300.0,
+      "maximumHealth": 300.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 1,
+      "acceleratedTicks99": 99
+    },
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss_probe:earned_finale_add_five",
+          "operation": "ADD_VALUE",
+          "amount": 5.0
+        },
+        {
+          "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.3
+        },
+        {
+          "id": "minecraft:effect.strength",
+          "operation": "ADD_VALUE",
+          "amount": 6.0
+        }
+      ],
+      "reconstructedActualValue": 20.150000000000002,
+      "case": 1,
+      "uuid": "d28d5189-bdc0-4276-bcd2-05612b63df37",
+      "finale": false,
+      "preexistingAddValue": true,
+      "allThreeOperationsFixture": false,
+      "admittedAttackBase": 4.5,
+      "base": 4.5,
+      "actualValue": 20.150000000000002,
+      "originalBaseDoublingExpectedValue": 20.150000000000002,
+      "previousTotalDoublingValue": 20.150000000000002,
+      "matchesOriginalBaseDoubling": true,
+      "selectedAttributes": [
+        {
+          "id": "minecraft:generic.max_health",
+          "admittedBase": 300.0,
+          "base": 300.0,
+          "expectedBase": 300.0,
+          "actualValue": 300.0,
+          "modifiers": [],
+          "admittedModifiers": []
+        },
+        {
+          "id": "minecraft:generic.attack_damage",
+          "admittedBase": 4.5,
+          "base": 4.5,
+          "expectedBase": 4.5,
+          "actualValue": 20.150000000000002,
+          "modifiers": [
+            {
+              "id": "ftboss_probe:earned_finale_add_five",
+              "operation": "ADD_VALUE",
+              "amount": 5.0
+            },
+            {
+              "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.3
+            },
+            {
+              "id": "minecraft:effect.strength",
+              "operation": "ADD_VALUE",
+              "amount": 6.0
+            }
+          ],
+          "admittedModifiers": [
+            {
+              "id": "ftboss_probe:earned_finale_add_five",
+              "operation": "ADD_VALUE",
+              "amount": 5.0
+            }
+          ]
+        },
+        {
+          "id": "minecraft:generic.movement_speed",
+          "admittedBase": 0.1,
+          "base": 0.1,
+          "expectedBase": 0.1,
+          "actualValue": 0.15000000037252903,
+          "modifiers": [
+            {
+              "id": "ftboss:a1b2c3d4-0001-4a01-9001-000000000001",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.25
+            },
+            {
+              "id": "minecraft:effect.speed",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.20000000298023224
+            }
+          ],
+          "admittedModifiers": []
+        }
+      ],
+      "health": 300.0,
+      "maximumHealth": 300.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 1,
+      "acceleratedTicks99": 99
+    },
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.3
+        },
+        {
+          "id": "minecraft:effect.strength",
+          "operation": "ADD_VALUE",
+          "amount": 6.0
+        }
+      ],
+      "reconstructedActualValue": 19.5,
+      "case": 2,
+      "uuid": "b733ffb2-0b15-4fd0-b37f-7c63dda81cab",
+      "finale": true,
+      "preexistingAddValue": false,
+      "allThreeOperationsFixture": false,
+      "admittedAttackBase": 4.5,
+      "base": 9.0,
+      "actualValue": 19.5,
+      "originalBaseDoublingExpectedValue": 19.5,
+      "previousTotalDoublingValue": 27.3,
+      "matchesOriginalBaseDoubling": true,
+      "selectedAttributes": [
+        {
+          "id": "minecraft:generic.max_health",
+          "admittedBase": 300.0,
+          "base": 600.0,
+          "expectedBase": 600.0,
+          "actualValue": 600.0,
+          "modifiers": [],
+          "admittedModifiers": [],
+          "savedOriginalBase": 300.0
+        },
+        {
+          "id": "minecraft:generic.attack_damage",
+          "admittedBase": 4.5,
+          "base": 9.0,
+          "expectedBase": 9.0,
+          "actualValue": 19.5,
+          "modifiers": [
+            {
+              "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.3
+            },
+            {
+              "id": "minecraft:effect.strength",
+              "operation": "ADD_VALUE",
+              "amount": 6.0
+            }
+          ],
+          "admittedModifiers": [],
+          "savedOriginalBase": 4.5
+        },
+        {
+          "id": "minecraft:generic.movement_speed",
+          "admittedBase": 0.1,
+          "base": 0.2,
+          "expectedBase": 0.2,
+          "actualValue": 0.30000000074505806,
+          "modifiers": [
+            {
+              "id": "ftboss:a1b2c3d4-0001-4a01-9001-000000000001",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.25
+            },
+            {
+              "id": "minecraft:effect.speed",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.20000000298023224
+            }
+          ],
+          "admittedModifiers": [],
+          "savedOriginalBase": 0.1
+        }
+      ],
+      "health": 600.0,
+      "maximumHealth": 600.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 2,
+      "acceleratedTicks99": 50
+    },
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss_probe:earned_finale_add_five",
+          "operation": "ADD_VALUE",
+          "amount": 5.0
+        },
+        {
+          "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.3
+        },
+        {
+          "id": "minecraft:effect.strength",
+          "operation": "ADD_VALUE",
+          "amount": 6.0
+        }
+      ],
+      "reconstructedActualValue": 26.0,
+      "case": 3,
+      "uuid": "e5caf6df-dc07-48ec-a512-5f120907713b",
+      "finale": true,
+      "preexistingAddValue": true,
+      "allThreeOperationsFixture": false,
+      "admittedAttackBase": 4.5,
+      "base": 9.0,
+      "actualValue": 26.0,
+      "originalBaseDoublingExpectedValue": 26.0,
+      "previousTotalDoublingValue": 40.300000000000004,
+      "matchesOriginalBaseDoubling": true,
+      "selectedAttributes": [
+        {
+          "id": "minecraft:generic.max_health",
+          "admittedBase": 300.0,
+          "base": 600.0,
+          "expectedBase": 600.0,
+          "actualValue": 600.0,
+          "modifiers": [],
+          "admittedModifiers": [],
+          "savedOriginalBase": 300.0
+        },
+        {
+          "id": "minecraft:generic.attack_damage",
+          "admittedBase": 4.5,
+          "base": 9.0,
+          "expectedBase": 9.0,
+          "actualValue": 26.0,
+          "modifiers": [
+            {
+              "id": "ftboss_probe:earned_finale_add_five",
+              "operation": "ADD_VALUE",
+              "amount": 5.0
+            },
+            {
+              "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.3
+            },
+            {
+              "id": "minecraft:effect.strength",
+              "operation": "ADD_VALUE",
+              "amount": 6.0
+            }
+          ],
+          "admittedModifiers": [
+            {
+              "id": "ftboss_probe:earned_finale_add_five",
+              "operation": "ADD_VALUE",
+              "amount": 5.0
+            }
+          ],
+          "savedOriginalBase": 4.5
+        },
+        {
+          "id": "minecraft:generic.movement_speed",
+          "admittedBase": 0.1,
+          "base": 0.2,
+          "expectedBase": 0.2,
+          "actualValue": 0.30000000074505806,
+          "modifiers": [
+            {
+              "id": "ftboss:a1b2c3d4-0001-4a01-9001-000000000001",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.25
+            },
+            {
+              "id": "minecraft:effect.speed",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.20000000298023224
+            }
+          ],
+          "admittedModifiers": [],
+          "savedOriginalBase": 0.1
+        }
+      ],
+      "health": 600.0,
+      "maximumHealth": 600.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 2,
+      "acceleratedTicks99": 50
+    },
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss_probe:earned_finale_add_five",
+          "operation": "ADD_VALUE",
+          "amount": 5.0
+        },
+        {
+          "id": "ftboss_probe:earned_finale_multiplied_base",
+          "operation": "ADD_MULTIPLIED_BASE",
+          "amount": 0.25
+        },
+        {
+          "id": "ftboss_probe:earned_finale_multiplied_total",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.4
+        }
+      ],
+      "reconstructedActualValue": 16.625,
+      "case": 4,
+      "uuid": "7b34423e-303f-496c-86c7-9b9b13139750",
+      "finale": false,
+      "preexistingAddValue": true,
+      "allThreeOperationsFixture": true,
+      "admittedAttackBase": 4.5,
+      "base": 4.5,
+      "actualValue": 16.625,
+      "originalBaseDoublingExpectedValue": 16.625,
+      "previousTotalDoublingValue": 16.625,
+      "matchesOriginalBaseDoubling": true,
+      "selectedAttributes": [
+        {
+          "id": "minecraft:generic.max_health",
+          "admittedBase": 300.0,
+          "base": 300.0,
+          "expectedBase": 300.0,
+          "actualValue": 425.0,
+          "modifiers": [
+            {
+              "id": "ftboss_probe:earned_finale_health_addition",
+              "operation": "ADD_VALUE",
+              "amount": 125.0
+            }
+          ],
+          "admittedModifiers": [
+            {
+              "id": "ftboss_probe:earned_finale_health_addition",
+              "operation": "ADD_VALUE",
+              "amount": 125.0
+            }
+          ]
+        },
+        {
+          "id": "minecraft:generic.attack_damage",
+          "admittedBase": 4.5,
+          "base": 4.5,
+          "expectedBase": 4.5,
+          "actualValue": 16.625,
+          "modifiers": [
+            {
+              "id": "ftboss_probe:earned_finale_add_five",
+              "operation": "ADD_VALUE",
+              "amount": 5.0
+            },
+            {
+              "id": "ftboss_probe:earned_finale_multiplied_base",
+              "operation": "ADD_MULTIPLIED_BASE",
+              "amount": 0.25
+            },
+            {
+              "id": "ftboss_probe:earned_finale_multiplied_total",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.4
+            }
+          ],
+          "admittedModifiers": [
+            {
+              "id": "ftboss_probe:earned_finale_add_five",
+              "operation": "ADD_VALUE",
+              "amount": 5.0
+            },
+            {
+              "id": "ftboss_probe:earned_finale_multiplied_base",
+              "operation": "ADD_MULTIPLIED_BASE",
+              "amount": 0.25
+            },
+            {
+              "id": "ftboss_probe:earned_finale_multiplied_total",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.4
+            }
+          ]
+        },
+        {
+          "id": "minecraft:generic.movement_speed",
+          "admittedBase": 0.1,
+          "base": 0.1,
+          "expectedBase": 0.1,
+          "actualValue": 0.1,
+          "modifiers": [],
+          "admittedModifiers": []
+        }
+      ],
+      "health": 0.0,
+      "maximumHealth": 425.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 1,
+      "acceleratedTicks99": 99
+    },
+    {
+      "modifierSnapshot": [
+        {
+          "id": "ftboss_probe:earned_finale_add_five",
+          "operation": "ADD_VALUE",
+          "amount": 5.0
+        },
+        {
+          "id": "ftboss_probe:earned_finale_multiplied_base",
+          "operation": "ADD_MULTIPLIED_BASE",
+          "amount": 0.25
+        },
+        {
+          "id": "ftboss_probe:earned_finale_multiplied_total",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.4
+        },
+        {
+          "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+          "operation": "ADD_MULTIPLIED_TOTAL",
+          "amount": 0.3
+        },
+        {
+          "id": "minecraft:effect.strength",
+          "operation": "ADD_VALUE",
+          "amount": 6.0
+        }
+      ],
+      "reconstructedActualValue": 45.5,
+      "case": 5,
+      "uuid": "a68d5a75-4b5e-4edc-9216-4d78e86a6665",
+      "finale": true,
+      "preexistingAddValue": true,
+      "allThreeOperationsFixture": true,
+      "admittedAttackBase": 4.5,
+      "base": 9.0,
+      "actualValue": 45.5,
+      "originalBaseDoublingExpectedValue": 45.5,
+      "previousTotalDoublingValue": 70.52499999999999,
+      "matchesOriginalBaseDoubling": true,
+      "selectedAttributes": [
+        {
+          "id": "minecraft:generic.max_health",
+          "admittedBase": 300.0,
+          "base": 600.0,
+          "expectedBase": 600.0,
+          "actualValue": 725.0,
+          "modifiers": [
+            {
+              "id": "ftboss_probe:earned_finale_health_addition",
+              "operation": "ADD_VALUE",
+              "amount": 125.0
+            }
+          ],
+          "admittedModifiers": [
+            {
+              "id": "ftboss_probe:earned_finale_health_addition",
+              "operation": "ADD_VALUE",
+              "amount": 125.0
+            }
+          ],
+          "savedOriginalBase": 300.0
+        },
+        {
+          "id": "minecraft:generic.attack_damage",
+          "admittedBase": 4.5,
+          "base": 9.0,
+          "expectedBase": 9.0,
+          "actualValue": 45.5,
+          "modifiers": [
+            {
+              "id": "ftboss_probe:earned_finale_add_five",
+              "operation": "ADD_VALUE",
+              "amount": 5.0
+            },
+            {
+              "id": "ftboss_probe:earned_finale_multiplied_base",
+              "operation": "ADD_MULTIPLIED_BASE",
+              "amount": 0.25
+            },
+            {
+              "id": "ftboss_probe:earned_finale_multiplied_total",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.4
+            },
+            {
+              "id": "ftboss:a1b2c3d4-0002-4a01-9001-000000000002",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.3
+            },
+            {
+              "id": "minecraft:effect.strength",
+              "operation": "ADD_VALUE",
+              "amount": 6.0
+            }
+          ],
+          "admittedModifiers": [
+            {
+              "id": "ftboss_probe:earned_finale_add_five",
+              "operation": "ADD_VALUE",
+              "amount": 5.0
+            },
+            {
+              "id": "ftboss_probe:earned_finale_multiplied_base",
+              "operation": "ADD_MULTIPLIED_BASE",
+              "amount": 0.25
+            },
+            {
+              "id": "ftboss_probe:earned_finale_multiplied_total",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.4
+            }
+          ],
+          "savedOriginalBase": 4.5
+        },
+        {
+          "id": "minecraft:generic.movement_speed",
+          "admittedBase": 0.1,
+          "base": 0.2,
+          "expectedBase": 0.2,
+          "actualValue": 0.30000000074505806,
+          "modifiers": [
+            {
+              "id": "ftboss:a1b2c3d4-0001-4a01-9001-000000000001",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.25
+            },
+            {
+              "id": "minecraft:effect.speed",
+              "operation": "ADD_MULTIPLIED_TOTAL",
+              "amount": 0.20000000298023224
+            }
+          ],
+          "admittedModifiers": [],
+          "savedOriginalBase": 0.1
+        }
+      ],
+      "health": 725.0,
+      "maximumHealth": 725.0,
+      "naturalTicksObserved": 40,
+      "parallelSpells": 2,
+      "acceleratedTicks99": 50
+    }
+  ],
+  "actualOriginalBaseOnlyParityGaps": [],
+  "selectedAttributeRowsChecked": 18,
+  "attributeNativeMissingAdditionControls": 4,
+  "independentPythonAttributeControls": 4,
+  "independentOldTotalAlgorithmControls": 3,
+  "independentMixedOperationControls": 4,
+  "savedConquestNegativeControls": 2,
+  "savedAttributeNegativeControls": 2,
+  "compositionProof": {
+    "checks": 109,
+    "negativeControls": 2,
+    "unchangedOtherMethods": 27,
+    "verifiedHelperAndDelegateMethods": 12,
+    "changedExistingMethods": [
+      "applyAttributes(Lnet/minecraft/world/entity/LivingEntity;Z)V"
+    ],
+    "allIngressTickCastingRewardAndOtherMethodsUnchanged": true,
+    "newFinaleTotalMultipliersAdded": false
+  },
+  "changedJarEntries": [
+    "net/farmingtales/ftboss/boss/NonManorFinale.class"
+  ],
+  "addedJarEntries": [
+    "net/farmingtales/ftboss/boss/NonManorFinaleAttributes$AttributeBase.class",
+    "net/farmingtales/ftboss/boss/NonManorFinaleAttributes.class"
+  ],
+  "actualBossProof": "checks=5015;actualDefinedMethods=342;changedActualMethods=2;unchangedBossMethods=340;allOriginalGraphsRecoveredExactly=true;actualLoadedInstallerIdempotent=true;otherCapturedClassesChecked=35;actualFinaleOtherMethodsUnchanged=27;actualFinaleDelegateExact=true;actualFinaleNegativeControls=2;engineOnlyUniquePrivateSessionLambdaNameMapped=true;engineDeathExactWithoutNormalization=true;engineNormalizationNegativeControls=1;asmVerifiedMethods=342;",
+  "originalCallbackProof": "checks=1374;actualDefinedMethods=342;allActualGraphsEqualComposition=true;exactEmitterIdempotent=true;negativeControls=2;originalHurtUnchanged=true;",
+  "actualDefinedHelpersExactlyCandidate": 21,
+  "allOtherExistingEntriesIdentical": true,
+  "allResourcesByteIdentical": true,
+  "unchangedResourceEntries": 1530,
+  "legacyOwnTotalModifierRemovalImplemented": true,
+  "actualLegacySavedWorldMigrationAccepted": false,
+  "fixture": {
+    "actualRawAttackAttribute": 128.0,
+    "cappedHits": 1511,
+    "targetPreDamageFixture": 250.0,
+    "nativePreDamageCap": 0.01,
+    "survivabilityAcceptanceClaimed": false
+  },
+  "formalExpectedHashesVerified": {
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_NeoForge 机械动力/mods/qys-bosses-1.21.1.jar": "6563f431dca1871eb7870653b74550ba2f5c0f66c104eea90ce58a99ca30f7c0",
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_ForgeⅡ v1.5.2/mods/qys-bosses.jar": "7c88b9e51ccdc6616cd2f70d6fa3c195772fc3f083f848085053d40cfe2015a3"
+  },
+  "modelOrMusicUploaded": false,
+  "authenticated": false,
+  "actualMultiplayerGameplayAccepted": false,
+  "nativeWorldRestartAccepted": false,
+  "curiosReloadAcceptanceClaimed": false,
+  "fullCombatOrSurvivabilityAcceptanceClaimed": false,
+  "remaining": [
+    "Audit original regular-Boss finale Tea-specific setup and spell/cast/parallel timing and all ingress/progression boundaries; those methods remain unchanged in this scoped attribute fix.",
+    "Actual legacy saved-world migration and maximum-health repair after new JVM reload remain unaccepted; no attended reload gate is bypassed.",
+    "Complete original regular-Boss finale spell/cast/Tea baselines and all remaining action/visual, combat/reward, authenticated multiplayer and lifecycle requirements.",
+    "Complete original Non-Manor finale difficulty and summon/progression/attribute/cast baseline; original action/visual fidelity and remaining original combat handlers",
+    "Authenticated real multiple players and full normal/impossible Boss combat/rewards; Sparrow scaled quotas/additional plans/repeat appearances; all Boss persistence/dimensions",
+    "Curios V18 attended new-JVM reload remains separate and not auto-retried; final cumulative installable artifact and authorized deployment/rollback; weapons/Session paused"
+  ],
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}
