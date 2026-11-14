@@ -1,3 +1,13 @@
+## Stage31 原生伤害上下文限定验收，2026-11-14
+
+Boss 独立桥接 Incoming/Pre/Post，同一次真实攻击共用实际 DamageContainer，保留原自定义阶段、减伤与吸收顺序。17 个真实离线场景 2498 项检查通过：实际伤害/取消、零值/非有限值、护甲/吸收修饰、27 tick 无敌帧、嵌套攻击和四类监听器原异常身份/清理。原版麻雀回归 1005 项通过，3 次正伤害/原生 Post、22 个原路径自然 tick、60 tick 到期、no-AI 与离开清理保留。两次接受运行均正常完整保存/退出 0，冻结输入不变。
+
+349 项结构检查与 344 项实际定义审查通过，完整精确还原 341 个原方法，12 个目标定义已捕获，6 个新增/集成助手与候选完全相同，矩阵相关三个实际定义相同；不声称 LivingEntity 跨 JVM 字节相等。候选 SHA256 e63617ebd89d5e78055fef649db3392304a678abcafa4d74996a025d93f79c6c，原 JAR 仅两项变化、五项新增，其余资源/原条目字节不变。冻结探针的历史广义 false 标签在收口中解释，不改写证据。
+
+两次构建失败、吸收上限夹具失败、第三方 BountifulFares/Fastutil 启动失败均保留。关闭运行 112 个 JAR 路径及全部字节/世界保留，111 处只读同内容硬链接本地去重。全部模型、贴图、动画、音乐/音频及嵌套资源禁止上传，只归档源码、配置和文字证据。详见 work/session-boss/MANOR_NATIVE_DAMAGE_EVENTS_20261114.md 与 reports/manor-native-events-v1-closeout-20261114.json。
+
+原生直接攻击契约仅在上述范围接受；真实原版分摊/认证管理战斗、多人/持久化/完整 Boss 仍未完成，NOT-INSTALLABLE，不部署，正式实例/D 只读、武器和 Session 暂停。Curios 新 JVM 需用户确认在场点击，不能自动重试 V18。以下缺口/Stage30 记录是历史基线，当前 Stage31 限定结论优先。
+
 ## 原生伤害事件真实兼容缺口基线，2026-11-14
 
 Stage30 产品字节不变，新增真实玩家对 Boss/普通牛的两次空手正伤害对照。353 项诊断检查通过：Boss 1024→1023.72，仅原自定义 BeforeMitigation/BeforeHealth 各 1 次，原生 Incoming/Pre/Post 都为 0；相同监听器在牛 10→3 上原生三个事件各 1 次。原始 incoming amount 为 7。已正常完整保存/退出 0、进程回收、最终定义捕获和冻结输入哈希不变。实际定义的 ManorFinalDamage 与候选字节相同；原版/当前调用和本地官方 API 审查确证兼容缺口，不代表已经修复。详见 work/session-boss/MANOR_NATIVE_DAMAGE_EVENT_BASELINE_20261114.md 与 reports/manor-native-damage-event-baseline-closeout-20261114.json。

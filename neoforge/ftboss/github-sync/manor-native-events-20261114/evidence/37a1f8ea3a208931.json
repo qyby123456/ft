@@ -1,0 +1,919 @@
+{
+  "attempt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83",
+  "probe": {
+    "lastObservedScenarioBeforeAssertions": {
+      "mode": "nested",
+      "beforeHealth": 1024.0,
+      "afterHealth": 1023.72,
+      "beforeAbsorption": 0.0,
+      "afterAbsorption": 0.0,
+      "postAbsorption": 0.0,
+      "postAmount": 0.27999997,
+      "counts": {
+        "outer.incoming": 1,
+        "outer.originalMitigation": 1,
+        "outer.pre": 1,
+        "inner.incoming": 1,
+        "inner.originalMitigation": 1,
+        "inner.pre": 1,
+        "inner.originalHealth": 1,
+        "inner.post": 1,
+        "outer.originalHealth": 1,
+        "outer.post": 1
+      }
+    },
+    "actualNativeManorDamageEventMatrixAccepted": true,
+    "allScenarioCasesAccepted": true,
+    "checks": 2498,
+    "failures": 0,
+    "cases": [
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "plain",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1,
+          "outer.pre": 1,
+          "outer.originalHealth": 1,
+          "outer.post": 1
+        },
+        "exceptionIdentityAccepted": false,
+        "afterHealth": 1023.72,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "incoming-cancel",
+        "counts": {
+          "outer.incoming": 1
+        },
+        "exceptionIdentityAccepted": false,
+        "afterHealth": 1024.0,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "incoming-zero",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1
+        },
+        "exceptionIdentityAccepted": false,
+        "afterHealth": 1024.0,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "incoming-small",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1,
+          "outer.pre": 1,
+          "outer.originalHealth": 1,
+          "outer.post": 1
+        },
+        "exceptionIdentityAccepted": false,
+        "afterHealth": 1023.998,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "incoming-nan",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1
+        },
+        "exceptionIdentityAccepted": false,
+        "afterHealth": 1024.0,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "pre-half",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1,
+          "outer.pre": 1,
+          "outer.originalHealth": 1,
+          "outer.post": 1
+        },
+        "exceptionIdentityAccepted": false,
+        "afterHealth": 1023.86,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "pre-nan",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1,
+          "outer.pre": 1,
+          "outer.originalHealth": 1
+        },
+        "exceptionIdentityAccepted": false,
+        "afterHealth": 1024.0,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.1,
+        "beforeAbsorption": 0.1,
+        "mode": "custom-cancel",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1,
+          "outer.pre": 1,
+          "outer.originalHealth": 1
+        },
+        "exceptionIdentityAccepted": false,
+        "afterHealth": 1024.0,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "custom-half",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1,
+          "outer.pre": 1,
+          "outer.originalHealth": 1,
+          "outer.post": 1
+        },
+        "exceptionIdentityAccepted": false,
+        "afterHealth": 1023.86,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "armor-modifier",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1,
+          "outer.pre": 1,
+          "outer.originalHealth": 1,
+          "outer.post": 1
+        },
+        "exceptionIdentityAccepted": false,
+        "afterHealth": 1023.98,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.1,
+        "beforeAbsorption": 0.2,
+        "mode": "absorption-modifier",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1,
+          "outer.pre": 1,
+          "outer.originalHealth": 1,
+          "outer.post": 1
+        },
+        "exceptionIdentityAccepted": false,
+        "afterHealth": 1023.82,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "invulnerability",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1,
+          "outer.pre": 1,
+          "outer.originalHealth": 1,
+          "outer.post": 1
+        },
+        "exceptionIdentityAccepted": false,
+        "afterHealth": 1023.72,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "throw-incoming",
+        "counts": {
+          "outer.incoming": 1
+        },
+        "exceptionIdentityAccepted": true,
+        "afterHealth": 1024.0,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "throw-pre",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1,
+          "outer.pre": 1
+        },
+        "exceptionIdentityAccepted": true,
+        "afterHealth": 1024.0,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "throw-custom",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1,
+          "outer.pre": 1,
+          "outer.originalHealth": 1
+        },
+        "exceptionIdentityAccepted": true,
+        "afterHealth": 1024.0,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "throw-post",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1,
+          "outer.pre": 1,
+          "outer.originalHealth": 1,
+          "outer.post": 1
+        },
+        "exceptionIdentityAccepted": true,
+        "afterHealth": 1023.72,
+        "callerContextRestored": true
+      },
+      {
+        "beforeHealth": 1024.0,
+        "afterAbsorption": 0.0,
+        "beforeAbsorption": 0.0,
+        "mode": "nested",
+        "counts": {
+          "outer.incoming": 1,
+          "outer.originalMitigation": 1,
+          "outer.pre": 1,
+          "inner.incoming": 1,
+          "inner.originalMitigation": 1,
+          "inner.pre": 1,
+          "inner.originalHealth": 1,
+          "inner.post": 1,
+          "outer.originalHealth": 1,
+          "outer.post": 1
+        },
+        "exceptionIdentityAccepted": false,
+        "afterHealth": 1023.72,
+        "callerContextRestored": true
+      }
+    ],
+    "events": [
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "eeb131b1-53ea-4d40-95f2-07fe71058b2c",
+        "mode": "plain",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "eeb131b1-53ea-4d40-95f2-07fe71058b2c",
+        "mode": "plain",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.pre",
+        "uuid": "eeb131b1-53ea-4d40-95f2-07fe71058b2c",
+        "mode": "plain",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalHealth",
+        "uuid": "eeb131b1-53ea-4d40-95f2-07fe71058b2c",
+        "mode": "plain",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1023.72,
+        "phase": "outer.post",
+        "uuid": "eeb131b1-53ea-4d40-95f2-07fe71058b2c",
+        "mode": "plain",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "1f1450b3-c8cf-4665-a5fe-937c175e15db",
+        "mode": "incoming-cancel",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "ad1df918-3263-4e5e-8e9e-345012696d2e",
+        "mode": "incoming-zero",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "ad1df918-3263-4e5e-8e9e-345012696d2e",
+        "mode": "incoming-zero",
+        "amount": 0.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "f796c651-326f-4d8b-be56-f26f80892fee",
+        "mode": "incoming-small",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "f796c651-326f-4d8b-be56-f26f80892fee",
+        "mode": "incoming-small",
+        "amount": 0.05
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.pre",
+        "uuid": "f796c651-326f-4d8b-be56-f26f80892fee",
+        "mode": "incoming-small",
+        "amount": 0.0020000003
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalHealth",
+        "uuid": "f796c651-326f-4d8b-be56-f26f80892fee",
+        "mode": "incoming-small",
+        "amount": 0.0020000003
+      },
+      {
+        "healthAtEvent": 1023.998,
+        "phase": "outer.post",
+        "uuid": "f796c651-326f-4d8b-be56-f26f80892fee",
+        "mode": "incoming-small",
+        "amount": 0.0020000003
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "282d744e-3bf1-41da-8ea3-3ab517f2c721",
+        "mode": "incoming-nan",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "282d744e-3bf1-41da-8ea3-3ab517f2c721",
+        "mode": "incoming-nan",
+        "amount": "NaN"
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "4b763a59-bda0-4a7b-b914-67a97616929f",
+        "mode": "pre-half",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "4b763a59-bda0-4a7b-b914-67a97616929f",
+        "mode": "pre-half",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.pre",
+        "uuid": "4b763a59-bda0-4a7b-b914-67a97616929f",
+        "mode": "pre-half",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalHealth",
+        "uuid": "4b763a59-bda0-4a7b-b914-67a97616929f",
+        "mode": "pre-half",
+        "amount": 0.13999999
+      },
+      {
+        "healthAtEvent": 1023.86,
+        "phase": "outer.post",
+        "uuid": "4b763a59-bda0-4a7b-b914-67a97616929f",
+        "mode": "pre-half",
+        "amount": 0.13999999
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "953d8389-5bef-4472-8395-160d4e10a8cb",
+        "mode": "pre-nan",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "953d8389-5bef-4472-8395-160d4e10a8cb",
+        "mode": "pre-nan",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.pre",
+        "uuid": "953d8389-5bef-4472-8395-160d4e10a8cb",
+        "mode": "pre-nan",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalHealth",
+        "uuid": "953d8389-5bef-4472-8395-160d4e10a8cb",
+        "mode": "pre-nan",
+        "amount": "NaN"
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "8273a94e-bf4a-4038-81df-a55e605350cd",
+        "mode": "custom-cancel",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "8273a94e-bf4a-4038-81df-a55e605350cd",
+        "mode": "custom-cancel",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.pre",
+        "uuid": "8273a94e-bf4a-4038-81df-a55e605350cd",
+        "mode": "custom-cancel",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalHealth",
+        "uuid": "8273a94e-bf4a-4038-81df-a55e605350cd",
+        "mode": "custom-cancel",
+        "amount": 0.17999998
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "4ca93886-592b-4488-936d-8119ec162df6",
+        "mode": "custom-half",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "4ca93886-592b-4488-936d-8119ec162df6",
+        "mode": "custom-half",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.pre",
+        "uuid": "4ca93886-592b-4488-936d-8119ec162df6",
+        "mode": "custom-half",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalHealth",
+        "uuid": "4ca93886-592b-4488-936d-8119ec162df6",
+        "mode": "custom-half",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1023.86,
+        "phase": "outer.post",
+        "uuid": "4ca93886-592b-4488-936d-8119ec162df6",
+        "mode": "custom-half",
+        "amount": 0.13999999
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "0f2e51d4-d5e7-4870-9a75-f31d88ca04c2",
+        "mode": "armor-modifier",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "0f2e51d4-d5e7-4870-9a75-f31d88ca04c2",
+        "mode": "armor-modifier",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.pre",
+        "uuid": "0f2e51d4-d5e7-4870-9a75-f31d88ca04c2",
+        "mode": "armor-modifier",
+        "amount": 0.01999998
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalHealth",
+        "uuid": "0f2e51d4-d5e7-4870-9a75-f31d88ca04c2",
+        "mode": "armor-modifier",
+        "amount": 0.01999998
+      },
+      {
+        "healthAtEvent": 1023.98,
+        "phase": "outer.post",
+        "uuid": "0f2e51d4-d5e7-4870-9a75-f31d88ca04c2",
+        "mode": "armor-modifier",
+        "amount": 0.01999998
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "e6366a51-8181-48cf-8ef8-8ab1b4023dc1",
+        "mode": "absorption-modifier",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "e6366a51-8181-48cf-8ef8-8ab1b4023dc1",
+        "mode": "absorption-modifier",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.pre",
+        "uuid": "e6366a51-8181-48cf-8ef8-8ab1b4023dc1",
+        "mode": "absorption-modifier",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalHealth",
+        "uuid": "e6366a51-8181-48cf-8ef8-8ab1b4023dc1",
+        "mode": "absorption-modifier",
+        "amount": 0.17999998
+      },
+      {
+        "healthAtEvent": 1023.82,
+        "phase": "outer.post",
+        "uuid": "e6366a51-8181-48cf-8ef8-8ab1b4023dc1",
+        "mode": "absorption-modifier",
+        "amount": 0.17999998
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "7421c45f-a2ad-4d59-93e4-4d60ef647b81",
+        "mode": "invulnerability",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "7421c45f-a2ad-4d59-93e4-4d60ef647b81",
+        "mode": "invulnerability",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.pre",
+        "uuid": "7421c45f-a2ad-4d59-93e4-4d60ef647b81",
+        "mode": "invulnerability",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalHealth",
+        "uuid": "7421c45f-a2ad-4d59-93e4-4d60ef647b81",
+        "mode": "invulnerability",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1023.72,
+        "phase": "outer.post",
+        "uuid": "7421c45f-a2ad-4d59-93e4-4d60ef647b81",
+        "mode": "invulnerability",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "a2781489-89e2-4585-973a-05eab5a92d51",
+        "mode": "throw-incoming",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "52f6f04e-250c-4b61-9e8c-75ef6b9435f7",
+        "mode": "throw-pre",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "52f6f04e-250c-4b61-9e8c-75ef6b9435f7",
+        "mode": "throw-pre",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.pre",
+        "uuid": "52f6f04e-250c-4b61-9e8c-75ef6b9435f7",
+        "mode": "throw-pre",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "08c5a3a9-5a9e-40be-9477-4ddee6b40529",
+        "mode": "throw-custom",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "08c5a3a9-5a9e-40be-9477-4ddee6b40529",
+        "mode": "throw-custom",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.pre",
+        "uuid": "08c5a3a9-5a9e-40be-9477-4ddee6b40529",
+        "mode": "throw-custom",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalHealth",
+        "uuid": "08c5a3a9-5a9e-40be-9477-4ddee6b40529",
+        "mode": "throw-custom",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "1b6286b6-a81b-4ab1-bb65-6c1ad4e1721f",
+        "mode": "throw-post",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "1b6286b6-a81b-4ab1-bb65-6c1ad4e1721f",
+        "mode": "throw-post",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.pre",
+        "uuid": "1b6286b6-a81b-4ab1-bb65-6c1ad4e1721f",
+        "mode": "throw-post",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalHealth",
+        "uuid": "1b6286b6-a81b-4ab1-bb65-6c1ad4e1721f",
+        "mode": "throw-post",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1023.72,
+        "phase": "outer.post",
+        "uuid": "1b6286b6-a81b-4ab1-bb65-6c1ad4e1721f",
+        "mode": "throw-post",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.incoming",
+        "uuid": "fa1c66cd-81c2-433d-a075-8496ea62f8c2",
+        "mode": "nested",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalMitigation",
+        "uuid": "fa1c66cd-81c2-433d-a075-8496ea62f8c2",
+        "mode": "nested",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.pre",
+        "uuid": "fa1c66cd-81c2-433d-a075-8496ea62f8c2",
+        "mode": "nested",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "inner.incoming",
+        "uuid": "316db57b-3047-436e-8733-abb49fdd26a4",
+        "mode": "nested",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "inner.originalMitigation",
+        "uuid": "316db57b-3047-436e-8733-abb49fdd26a4",
+        "mode": "nested",
+        "amount": 7.0
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "inner.pre",
+        "uuid": "316db57b-3047-436e-8733-abb49fdd26a4",
+        "mode": "nested",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "inner.originalHealth",
+        "uuid": "316db57b-3047-436e-8733-abb49fdd26a4",
+        "mode": "nested",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1023.72,
+        "phase": "inner.post",
+        "uuid": "316db57b-3047-436e-8733-abb49fdd26a4",
+        "mode": "nested",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1024.0,
+        "phase": "outer.originalHealth",
+        "uuid": "fa1c66cd-81c2-433d-a075-8496ea62f8c2",
+        "mode": "nested",
+        "amount": 0.27999997
+      },
+      {
+        "healthAtEvent": 1023.72,
+        "phase": "outer.post",
+        "uuid": "fa1c66cd-81c2-433d-a075-8496ea62f8c2",
+        "mode": "nested",
+        "amount": 0.27999997
+      }
+    ],
+    "completedModes": 17,
+    "requiredModes": [
+      "plain",
+      "incoming-cancel",
+      "incoming-zero",
+      "incoming-small",
+      "incoming-nan",
+      "pre-half",
+      "pre-nan",
+      "custom-cancel",
+      "custom-half",
+      "armor-modifier",
+      "absorption-modifier",
+      "invulnerability",
+      "throw-incoming",
+      "throw-pre",
+      "throw-custom",
+      "throw-post",
+      "nested"
+    ],
+    "naturalPlayerPostTicks": 680,
+    "naturalBossPostTicks": 680,
+    "actualClientAndIntegratedServer": true,
+    "authenticated": false,
+    "fakePlayerUsed": false,
+    "privateGameplayCallbacksInvoked": false,
+    "manualEntityTicksInvoked": false,
+    "readOnlyPrivateContextObservation": true,
+    "productChanged": true,
+    "fullBossMigrationComplete": false,
+    "installable": false,
+    "deployed": false
+  },
+  "terminal": {
+    "exitCode": 0,
+    "clientProcessReaped": true,
+    "integratedWorldCompleteSave": true,
+    "inputHashesUnchanged": true,
+    "missingInputs": [],
+    "finalDefinedClassesCaptured": true,
+    "observerRequestedNormalStop": true
+  },
+  "inputHashes": {
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tools\\run_boss_manor_native_damage_events_native_v2.py": "ef943296f0d1c8f88f6b7ae56ef562a7261a858c79862540c9f5582a33abdf65",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\ManorNativeDamageEventsNativeV2.java": "7065c95b09e44943ffc36aa6ceb42fd85607db77499d19f301db3278f90b850d",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\LoadedBossClassCaptureV3.java": "9efc84d01e059f956cc0fd5a05e31fa8178fcdae7c478b5506c2147343d518d9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-native-events-v3-20261114\\candidate-build-receipt.json": "edb896b2581da13adadab81d86d19713d342220c75243f56bb26cee7abae6378",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-native-events-v3-20261114\\ftboss-boss-core-1.21.1-stage31-manor-native-events-NOT-INSTALLABLE.jar": "e63617ebd89d5e78055fef649db3392304a678abcafa4d74996a025d93f79c6c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\zicai-curio-client-v13-candidate-6559f481.json": "2520617ce3f9200d8615ce180ffcc9188822c0d4b02ec2af1a7674015a7c8bcd",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\expanded-runtime-command.json": "4de448f747c43debd93c3bf877cb8652a34b4dde488c2cd2df31f48939509421",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\actual-client-dev.args": "4cb27c89d84fa86b4c19fdbf98df4457a098dee3123d52c3f53e465c5953a541",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-flight-ban-v1\\compile-context.json": "44348efc741830ef23097d1576bb038537567f4cf8c35d03a145d7d27bd10b00",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\loaded-boss-capture.jar": "45c56878524814023a3647840a7a7a720457a0a33b47c467942875be52196f66",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\observer-resources\\META-INF\\neoforge.mods.toml": "b7b8d4e24df0d94f01decd81ba43b233f848d36f3205ef6701eae94485cf62f3",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\full-client-launch.args": "3cc45e60c9e94f460c8801d315742e35a300779d9cb48e84d499a276c5f6e047",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\options-template.txt": "50a335d7dc47169410415766505384271840c67504b76ea97ab6504574edabd9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[Iron的法术与魔法书] irons_spellbooks-1.21.1-3.16.3.jar": "13d644474ddba4f8478b4ce68294687fd509c994b3f344a224142b102dbe6f73",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[前置]architectury-13.0.8-neoforge.jar": "5ec578f814e8cca87aeffa6e424032e78d9ea5ea6b603dd834c2dc13c31141ee",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[机械动力] create-1.21.1-6.0.10.jar": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[机械动力：创想附加] createaddition-1.6.0.jar": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[森罗厨房：国味] kaleidoscope_chinesefood-1.1.5-neoforge+1.21.1.jar": "1788911fe665d3ce998cf6a6173de1d02f70d2c2937ebc9bce54f581e34a6196",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[森罗物语：厨房] kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar": "04dd114f975df57fb8bb3f09e8c96d6de18587838ab5a019271b51a2aec24f74",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[沉浸农艺] letsdo-farm_and_charm-neoforge-1.1.22.jar": "2fe62301c96883689bee28a7eac4b05ea026990c26b51d06a124a4bd3a1b5293",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[灾变] L_Ender's Cataclysm 1.21.1-3.33.jar": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[犀牛] rhino-2101.2.7-build.85.jar": "95df92ce578b2504cb16d8c9fc285303bf062eb15452246a18e57b7cf091c19a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[青青草甸] letsdo-meadow-neoforge-1.4.8.jar": "f5d4a870b46f2952b7a04dad663cc4bdf8faad75e8951ba1551e85fd72d14402",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\[馥郁烘焙] letsdo-bakery-neoforge-2.1.6.jar": "bfe7f9b3ea104fb68303d49b7cda0876520a5504067b2ba0293965474aaef649",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\bountifulfares-neoforge-1.21.1-3.0.13.jar": "b6f45ebe3f57d34fdf35ce81267a9095f71de8be768622e8c8bded9b3cd4d3d0",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\BrewinAndChewin-neoforge-4.5.0+1.21.1.jar": "9f6581823c2449dde4ac1e9b4f5a7cc226c42e058e656741ab392f714f443971",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\CrockPot-source-target233-exp213-NOT-INSTALLABLE.jar": "c2ea26ee73315b2f670f5317fdd9de179f7300d4b5c317cf66e5092f58b1c830",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\curios-neoforge-9.5.1+1.21.1.jar": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\FarmersDelight-1.21.1-1.3.4.jar": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\ftboss-boss-core-1.21.1-stage28-zicai-curio-silence-NOT-INSTALLABLE.jar": "c45cc10ffb7b572d876e869b692a75496c88c337434ed7140225df298b7bb65e",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\geckolib-neoforge-1.21.1-4.9.3.jar": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\irons_lib-1.21.1-2.1.1.jar": "2c5f9abc3f785d90d870b64b9d3c5020cedacaf8f26d3a92784ceef32b8677f8",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\kaleidoscope_world_liquor-1.1.11-neoforge+1.21.1.jar": "e1f51736138bfe65ac1ce2aae2f2f3bd292dce71e2b8d2f18580a68bdea807cc",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar": "03f35e1e614953b22cd1f5e34345613f3a6a283bf1b1c99659b57d58970edeff",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\kubejs-neoforge-2101.7.2-build.368.jar": "01767bb677a9c4a8f318717c4c21bca7e7ef80995603403a551068a0e064e740",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\letsdo-brewery-neoforge-2.1.9.jar": "7abbc2bb43fa319d4893e84b145b2cc803e6e61f5e6f0c37ec4611567a07ed66",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\letsdo-herbalbrews-neoforge-1.1.4.jar": "c84a3479d520e7a3da3f87272176ac9f3b2308ccc81cac3c51a4aac81c91406a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\letsdo-vinery-neoforge-1.5.6.jar": "7e5e4e901a599a499bd510490ec12e72e8547e53b61790778fa7848852c451ec",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\lionfishapi-3.1.jar": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\nexuslib-neoforge-1.21.1-1.2.0.jar": "bc7c72932617fe7f0ba82f2d0df1fe149617229c9463ed36e5b4f52b4a66fe84",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\zicai-curio-client-v13-candidate-6559f481\\game\\mods\\player-animation-lib-forge-2.0.4+1.21.1.jar": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\[Iron的法术与魔法书] irons_spellbooks-1.21.1-3.16.3.jar": "13d644474ddba4f8478b4ce68294687fd509c994b3f344a224142b102dbe6f73",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\[前置]architectury-13.0.8-neoforge.jar": "5ec578f814e8cca87aeffa6e424032e78d9ea5ea6b603dd834c2dc13c31141ee",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\[机械动力] create-1.21.1-6.0.10.jar": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\[机械动力：创想附加] createaddition-1.6.0.jar": "41876c3780b70365a1848994d146a73423cc19fbe86485885795d9e7d855e7e9",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\[森罗厨房：国味] kaleidoscope_chinesefood-1.1.5-neoforge+1.21.1.jar": "1788911fe665d3ce998cf6a6173de1d02f70d2c2937ebc9bce54f581e34a6196",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\[森罗物语：厨房] kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar": "04dd114f975df57fb8bb3f09e8c96d6de18587838ab5a019271b51a2aec24f74",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\[沉浸农艺] letsdo-farm_and_charm-neoforge-1.1.22.jar": "2fe62301c96883689bee28a7eac4b05ea026990c26b51d06a124a4bd3a1b5293",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\[灾变] L_Ender's Cataclysm 1.21.1-3.33.jar": "371956d0c2e3b56729ee93b955e936875d210e372fe734cdb74326d89ef79875",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\[犀牛] rhino-2101.2.7-build.85.jar": "95df92ce578b2504cb16d8c9fc285303bf062eb15452246a18e57b7cf091c19a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\[青青草甸] letsdo-meadow-neoforge-1.4.8.jar": "f5d4a870b46f2952b7a04dad663cc4bdf8faad75e8951ba1551e85fd72d14402",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\[馥郁烘焙] letsdo-bakery-neoforge-2.1.6.jar": "bfe7f9b3ea104fb68303d49b7cda0876520a5504067b2ba0293965474aaef649",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\bountifulfares-neoforge-1.21.1-3.0.13.jar": "b6f45ebe3f57d34fdf35ce81267a9095f71de8be768622e8c8bded9b3cd4d3d0",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\BrewinAndChewin-neoforge-4.5.0+1.21.1.jar": "9f6581823c2449dde4ac1e9b4f5a7cc226c42e058e656741ab392f714f443971",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\CrockPot-source-target233-exp213-NOT-INSTALLABLE.jar": "c2ea26ee73315b2f670f5317fdd9de179f7300d4b5c317cf66e5092f58b1c830",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\curios-neoforge-9.5.1+1.21.1.jar": "a45df2125c26219974aba7507ffc9afe7b83acc941a386af3faacb1cc0056fde",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\FarmersDelight-1.21.1-1.3.4.jar": "139ad7696462c89c03eea463f805abffa552526c5dadaadae221dd9624cb197c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\ftboss-boss-core-1.21.1-stage28-zicai-curio-silence-NOT-INSTALLABLE.jar": "e63617ebd89d5e78055fef649db3392304a678abcafa4d74996a025d93f79c6c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\geckolib-neoforge-1.21.1-4.9.3.jar": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\irons_lib-1.21.1-2.1.1.jar": "2c5f9abc3f785d90d870b64b9d3c5020cedacaf8f26d3a92784ceef32b8677f8",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\kaleidoscope_world_liquor-1.1.11-neoforge+1.21.1.jar": "e1f51736138bfe65ac1ce2aae2f2f3bd292dce71e2b8d2f18580a68bdea807cc",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar": "03f35e1e614953b22cd1f5e34345613f3a6a283bf1b1c99659b57d58970edeff",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\kubejs-neoforge-2101.7.2-build.368.jar": "01767bb677a9c4a8f318717c4c21bca7e7ef80995603403a551068a0e064e740",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\letsdo-brewery-neoforge-2.1.9.jar": "7abbc2bb43fa319d4893e84b145b2cc803e6e61f5e6f0c37ec4611567a07ed66",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\letsdo-herbalbrews-neoforge-1.1.4.jar": "c84a3479d520e7a3da3f87272176ac9f3b2308ccc81cac3c51a4aac81c91406a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\letsdo-vinery-neoforge-1.5.6.jar": "7e5e4e901a599a499bd510490ec12e72e8547e53b61790778fa7848852c451ec",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\lionfishapi-3.1.jar": "aeebf0692650afbbc78259c0d4e3d5b7edf037707e8ae5d56045066d83a19cf6",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\nexuslib-neoforge-1.21.1-1.2.0.jar": "bc7c72932617fe7f0ba82f2d0df1fe149617229c9463ed36e5b4f52b4a66fe84",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\game\\mods\\player-animation-lib-forge-2.0.4+1.21.1.jar": "dbe5de45f5cd60c0e5e47af14e6d564534a98456e973cf670cb881f6938eee92",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\observer-classes\\ftboss\\clientfxprobe\\ManorNativeDamageEventsNativeV2.class": "e3e69722623394198858d2ae3832ac2d0e90179197c8ef9cd9a99682c6aa4db8",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\agent-classes\\ftboss\\nativeprobe\\LoadedBossClassCaptureV3$1.class": "f0f01bad48a05fae1e742a6ac29537bd444aca098aaa85d3985d2b95c580eaca",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\agent-classes\\ftboss\\nativeprobe\\LoadedBossClassCaptureV3.class": "5685b0ec66b8642a6a85bf590568837d646938516559bb7158ea53859d864a12",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\natives\\freetype.dll": "c0b73302f4d4f7ea372be946011daa77521304c00d96936742fd65fb18c34fc4",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\natives\\glfw.dll": "affa7e54eb0dedce4a5721c327c1a16035edbbd039cd402e08107d6d2d55eb1a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\natives\\jemalloc.dll": "9abf0095066ebab37b78968e11370a8078313e48cb5be8eda01f67623c6a6248",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\natives\\lwjgl.dll": "a39adf52947fafd954c2a86ce031abb8c59825f7ee50337ac8c41e4280abe82d",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\natives\\lwjgl_opengl.dll": "fe200dc96ab31237a52facd6345d31f9740ef16dd411e5f9be014eaa30f89fb6",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\natives\\lwjgl_stb.dll": "de03f38f8c7471b4924aa8bdf8724c181d1a7c20428dbce2ed301877e1d387e4",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\natives\\lwjgl_tinyfd.dll": "ec7d76e6ef7a99628ef6f8b6e544294b700108c341837779e6e2c01c0bc3da9c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-native-damage-events-native-v2-bccaec83\\natives\\OpenAL.dll": "0630aa42492f78126da1c4d99769632e03c55b2e63b050efe7e3005e07e3e6fc"
+  },
+  "actualNativeManorDamageEventMatrixAccepted": true,
+  "authenticated": false,
+  "nativeManorDamageEventMatrixScopedAccepted": true,
+  "productChanged": true,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}

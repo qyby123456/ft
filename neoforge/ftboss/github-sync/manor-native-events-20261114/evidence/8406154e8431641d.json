@@ -1,0 +1,45 @@
+{
+  "strictFailedRuntime": "manor-native-damage-events-native-v1-0a23761b",
+  "firstTenScenariosCompletedButFullMatrixNotAccepted": true,
+  "actualFailedEvents": [
+    {
+      "mode": "absorption-modifier",
+      "uuid": "26ff61b3-80c6-4b88-b4da-fa633be7dcb4",
+      "phase": "outer.incoming",
+      "healthAtEvent": 1024.0,
+      "amount": 7.0
+    },
+    {
+      "mode": "absorption-modifier",
+      "uuid": "26ff61b3-80c6-4b88-b4da-fa633be7dcb4",
+      "phase": "outer.originalMitigation",
+      "healthAtEvent": 1024.0,
+      "amount": 7.0
+    },
+    {
+      "mode": "absorption-modifier",
+      "uuid": "26ff61b3-80c6-4b88-b4da-fa633be7dcb4",
+      "phase": "outer.pre",
+      "healthAtEvent": 1024.0,
+      "amount": 0.27999997
+    },
+    {
+      "mode": "absorption-modifier",
+      "uuid": "26ff61b3-80c6-4b88-b4da-fa633be7dcb4",
+      "phase": "outer.originalHealth",
+      "healthAtEvent": 1024.0,
+      "amount": 0.27999997
+    },
+    {
+      "mode": "absorption-modifier",
+      "uuid": "26ff61b3-80c6-4b88-b4da-fa633be7dcb4",
+      "phase": "outer.post",
+      "healthAtEvent": 1023.72,
+      "amount": 0.27999997
+    }
+  ],
+  "officialLocalSdkAbsorptionImplementation": "  public final float getMaxAbsorption();\n    Code:\n       0: aload_0\n       1: getstatic     #314                // Field net/minecraft/world/entity/ai/attributes/Attributes.MAX_ABSORPTION:Lnet/minecraft/core/Holder;\n       4: invokevirtual #381                // Method getAttributeValue:(Lnet/minecraft/core/Holder;)D\n       7: d2f\n       8: freturn\n\n  public final void setAbsorptionAmount(float);\n    Code:\n       0: aload_0\n       1: fload_1\n       2: fconst_0\n       3: aload_0\n       4: invokevirtual #1511               // Method getMaxAbsorption:()F\n       7: invokestatic  #1524               // Method net/minecraft/util/Mth.clamp:(FFF)F\n      10: invokevirtual #1021               // Method internalSetAbsorptionAmount:(F)V\n      13: return\n",
+  "failureNotReclassifiedAsAccepted": true,
+  "candidateUnchanged": "e63617ebd89d5e78055fef649db3392304a678abcafa4d74996a025d93f79c6c",
+  "resolution": "Establish real MAX_ABSORPTION and actual absorption immediately before relevant attacks, assert exact fixture admission, and preserve live observations before any scenario assertion. Fresh separate world only."
+}

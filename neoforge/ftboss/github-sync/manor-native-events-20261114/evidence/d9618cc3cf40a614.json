@@ -1,0 +1,37 @@
+{
+  "jar": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-native-events-v3-20261114\\ftboss-boss-core-1.21.1-stage31-manor-native-events-NOT-INSTALLABLE.jar",
+  "jarSha256": "e63617ebd89d5e78055fef649db3392304a678abcafa4d74996a025d93f79c6c",
+  "baseJar": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-sparrow-evasion-v2-20261114\\ftboss-boss-core-1.21.1-stage30-sparrow-hit-evasion-NOT-INSTALLABLE.jar",
+  "baseJarSha256": "877309d1ff2332ab6d407cd1b456d39987109d17e8f6a8e98184abe55703c25b",
+  "changedEntries": [
+    "net/farmingtales/ftboss/boss/ai/ManorFinalDamage.class",
+    "net/farmingtales/ftboss/boss/ai/NativeManorFinalDamageInstaller.class"
+  ],
+  "addedEntries": [
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridge$Frame.class",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridge.class",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridgeInstaller.class",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageScopeAccess.class",
+    "net/farmingtales/ftboss/event/NativeManorDamageEventFactory.class"
+  ],
+  "allOtherBaseEntriesByteIdentical": true,
+  "proof": "failures=0;checks=349;originalMethodsPreserved=341;changedMethods=2;newAccessor=1;asmMethods=4;negativeControls=2;roundTripVerified=true;",
+  "inputHashes": {
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tools\\build_boss_manor_native_events_v3.py": "62a4c723642166c956ecd8dd8870c7471ee92541a266149eb8ddac3ea8463816",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\ManorNativeDamageBridgeComposerV1.java": "595bd20a35ae2cc4b7075b38d654a880c013cd1d8b85be0dcc8cf43b65d23837",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\sparrow-hit-evasion-native-v4-ba1eddca\\captured-defined-classes\\net_farmingtales_ftboss_entity_EasterBossEntity.class": "206f161f6298bab142d8a7634c61cf31959c1742025c3bfaca2e1bdc73a7a45e",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-sparrow-evasion-v2-20261114\\candidate-build-receipt.json": "e6f3ae24473f7e35aa1eddd423512ec3a8750c1a040c2f1ada93d2f59d0e4b53",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\src\\manor-native-events-v1\\net\\farmingtales\\ftboss\\boss\\ai\\NativeManorDamageBridge.java": "980410d80f3f507c16d81727dc7ad15beb3c7bd3f5adcf296ab709e053c1254a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\src\\manor-native-events-v1\\net\\farmingtales\\ftboss\\boss\\ai\\NativeManorDamageBridgeInstaller.java": "61af73e6e740c67c3b167a1938e61b355afbefad59659370789b37ac5bbd1b8a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\src\\manor-native-events-v1\\net\\farmingtales\\ftboss\\boss\\ai\\NativeManorDamageScopeAccess.java": "28b094de74b08dea8bc63976537c0c72601e3a09456a6490d3f5914601b496e8",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\src\\manor-native-events-v1\\net\\farmingtales\\ftboss\\boss\\ai\\NativeManorFinalDamageInstaller.java": "e5894d34cd4efbf15b33edb52a49bce669e11b7adf8e89eb4f354788b974d7f1",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\src\\manor-native-events-v1\\net\\farmingtales\\ftboss\\event\\NativeManorDamageEventFactory.java": "6e6e045f608d08d9856545ff79f98bce6c547d6ebdec412dadd0d740348ea7ec"
+  },
+  "scope": "Full Boss-only native Incoming/Pre/Post context bridge, original settlement and reversible exact Boss instrumentation. Native acceptance pending.",
+  "candidateNativeAccepted": false,
+  "nativeDamageCompatibilityAccepted": false,
+  "modelOrMusicUploaded": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}

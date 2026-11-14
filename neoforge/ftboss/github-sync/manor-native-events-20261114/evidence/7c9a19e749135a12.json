@@ -1,0 +1,122 @@
+{
+  "stage": 31,
+  "scope": "Boss-only shared native damage context and original Sparrow regression; offline actual integrated client only",
+  "candidateBuildReceipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-native-events-v3-20261114\\candidate-build-receipt.json",
+  "candidateSha256": "e63617ebd89d5e78055fef649db3392304a678abcafa4d74996a025d93f79c6c",
+  "changedExistingJarEntries": [
+    "net/farmingtales/ftboss/boss/ai/ManorFinalDamage.class",
+    "net/farmingtales/ftboss/boss/ai/NativeManorFinalDamageInstaller.class"
+  ],
+  "addedJarEntries": [
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridge$Frame.class",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridge.class",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageBridgeInstaller.class",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDamageScopeAccess.class",
+    "net/farmingtales/ftboss/event/NativeManorDamageEventFactory.class"
+  ],
+  "allOtherBaseEntriesByteIdentical": true,
+  "structuralProof": "failures=0;checks=349;originalMethodsPreserved=341;changedMethods=2;newAccessor=1;asmMethods=4;negativeControls=2;roundTripVerified=true;",
+  "structuralChecks": 349,
+  "all341OriginalBossMethodGraphsReconstructedExactly": true,
+  "nativeMatrixReceipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-native-damage-events-native-v2-bccaec83.json",
+  "nativeMatrixChecks": 2498,
+  "nativeMatrixScenarios": 17,
+  "nativeMatrixModes": [
+    "plain",
+    "incoming-cancel",
+    "incoming-zero",
+    "incoming-small",
+    "incoming-nan",
+    "pre-half",
+    "pre-nan",
+    "custom-cancel",
+    "custom-half",
+    "armor-modifier",
+    "absorption-modifier",
+    "invulnerability",
+    "throw-incoming",
+    "throw-pre",
+    "throw-custom",
+    "throw-post",
+    "nested"
+  ],
+  "actualSharedContainerIncomingPreCustomAndPost": true,
+  "actualAmountCancelArmorAbsorptionInvulnerabilityNestedAndExceptionEffectsAccepted": true,
+  "fourOriginalThrowableIdentitiesPreserved": true,
+  "allActualCallerContextAndThreadLocalFramesRestored": true,
+  "sparrowRegressionReceipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\sparrow-native-events-regression-v1-45d4271b.json",
+  "sparrowRegressionChecks": 1005,
+  "originalSparrowPositiveAttacks": 3,
+  "originalSparrowOwnedPathNaturalTicks": 22,
+  "originalSparrow60TickExpiryNoAiAndLeaveCleanupAccepted": true,
+  "originalSparrowNativePostCallbacks": 3,
+  "actualDefinedClassAuditReceipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-native-events-loaded-audit-v1-20261114\\receipt.json",
+  "actualDefinedClassAuditChecks": 344,
+  "selectedActualDefinitionsCaptured": 12,
+  "sixNewHelperDefinitionsExactlyMatchCandidate": true,
+  "threeRelevantActualBossDefinitionsMatchMatrix": true,
+  "livingEntityCrossJvmByteEqualityClaimed": false,
+  "allFrozenCandidateAndRuntimeInputsRehashedUnchanged": true,
+  "strictFailuresPreserved": [
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-native-events-build-v1-failure-20261114.json",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-native-events-build-v2-failure-20261114.json",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-native-damage-events-native-v1-0a23761b.json",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-native-events-absorption-fixture-diagnosis-20261114.json",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-native-damage-events-native-v2-87f2b0f8.json",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-native-events-v2-common-setup-failure-20261114.json"
+  ],
+  "metadataCorrections": {
+    "buildTimeCandidateNativeAcceptedFalse": "Frozen build-time state; this scoped closeout links subsequent actual native acceptance. Do not edit frozen inputs.",
+    "originalSparrowProbeNativeContractFalseAndProductChangedFalse": "Inherited labels in unchanged Stage30 observer, not current product acceptance flags. It observes three actual native Post callbacks; 17-scenario actual Stage31 matrix is native contract evidence.",
+    "originalSparrowProbeSparrowPortAcceptedFalse": "Inherited broad label; current runner and this closeout accept only its actual scoped behavioral assertions."
+  },
+  "formalInstances": [
+    {
+      "path": "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_NeoForge 机械动力/mods/qys-bosses-1.21.1.jar",
+      "sha256": "6563f431dca1871eb7870653b74550ba2f5c0f66c104eea90ce58a99ca30f7c0",
+      "readOnlyRechecked": true
+    },
+    {
+      "path": "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_ForgeⅡ v1.5.2/mods/qys-bosses.jar",
+      "sha256": "7c88b9e51ccdc6616cd2f70d6fa3c195772fc3f083f848085053d40cfe2015a3",
+      "readOnlyRechecked": true
+    }
+  ],
+  "closedRuntimeLocalDedup": [
+    {
+      "receipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-native-events-closed-runtime-dedup-v1-20261114\\receipt.json",
+      "jarPathsPreserved": 84,
+      "readonlyAliasesCreated": 83,
+      "newCanonicalLocalContents": 1,
+      "plannedJarLogicalBytes": 648048453,
+      "freeSpaceDeltaIsMeasurementNotExclusiveAttribution": true
+    },
+    {
+      "receipt": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\sparrow-native-events-regression-dedup-v1-20261114\\receipt.json",
+      "jarPathsPreserved": 28,
+      "readonlyAliasesCreated": 28,
+      "newCanonicalLocalContents": 0,
+      "plannedJarLogicalBytes": 216016151,
+      "freeSpaceDeltaIsMeasurementNotExclusiveAttribution": true
+    }
+  ],
+  "runtimeJarPathsPreserved": 112,
+  "readonlyLocalAliasesCreated": 111,
+  "allModelTextureAnimationMusicAudioResourcesLocalOnly": true,
+  "resourceRecoveryFromSourceGitClaimed": false,
+  "modelOrMusicUploaded": false,
+  "weaponDevelopmentAndValidationPaused": true,
+  "pausedWeaponSourceTreeChanged": false,
+  "nativeManorLivingDamagePostContractScopedAccepted": true,
+  "authenticated": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false,
+  "remaining": [
+    "Authenticated original summon and managed fight, every Boss phase/reward/death/cancel and normal/impossible mode",
+    "Multiplayer, dimension, persistence and attended new-JVM Curios reload; no automatic V18 retry",
+    "Actual original damage-sharing paths and full compatibility beyond the scoped direct-attack event matrix",
+    "Full original audiovisual/action fidelity; excluded resources stay local",
+    "Cumulative installable release and deployment require full gates and direct formal-write authorization"
+  ]
+}
