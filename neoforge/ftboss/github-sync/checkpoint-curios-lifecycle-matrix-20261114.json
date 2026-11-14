@@ -44,7 +44,13 @@
       "subscriber": "onLogin",
       "evidence": "V7/V8 newJVM attempts stopatactual BackupConfirmScreen beforeintegrated login",
       "accepted": false,
-      "requiresActualUserInteraction": true
+      "requiresActualUserInteraction": true,
+      "latestAttempt": "V18 attended bounded reload;actual BackupConfirmScreen observed,180second deadline without actualconfirmation,normalexit andno native login",
+      "latestNativeAccepted": false,
+      "latestReportRelativePath": "work/session-boss/reports/zicai-curio-client-v18-candidate-a56d7243.json",
+      "latestReportSha256": "5bce55ee6d4afc7938dfdc6e9e88b162a673558615c949be2d0dd199a8f288d5",
+      "noAutomaticRetryBeforeUserReady": true,
+      "currentWaitingWindowExists": false
     },
     {
       "subscriber": "onStopped",
@@ -60,7 +66,7 @@
     "actual supported new-JVM confirmation/login persistence: user must click Create Backup and Load in a prepared attended isolated acceptance window"
   ],
   "originalSourceRelativePath": "work/session-boss/build/boss-zicai-curio-contract-audit-v1-20261113/original-sources/net/farmingtales/ftboss/boss/ai/ZicaiCurioSilence.java",
-  "newJvmRequiredOperation": "When an isolated V6-world-copy reload acceptance window is launched for attended confirmation,click Create Backup and Load on Worlds using Experimental Settings are not supported. No window is presently leftwaiting;no formal worldmay beopened for this test. Current V8 bounded diagnostic exitsnormally,so a fresh attended observer withappropriate wait is needed.",
+  "newJvmRequiredOperation": "User confirms readiness atcomputer beforeanewattendedlaunch. Then toolcreatesafreshcopy ofacceptedV6world;useractuallyclicks Create Backup and Load within180seconds. Needactualnative login/120tick persistence/client sync afterwards. No current waitingwindow,no auto retry,no failedworldseed.",
   "computerUseSkill": "C:/Users/qyby/.codex/plugins/cache/openai-bundled/computer-use/26.1027.30824/skills/computer-use/SKILL.md",
   "unsupportedWorkaroundsUsed": false,
   "fullLifecycleAccepted": false,
@@ -110,5 +116,6 @@
     "Only original valid relic fixtures and native default/keepInventory policies are accepted; arbitrary mod-added drop policies are not claimed.",
     "Read-only private tracker field observation is disclosed; no private gameplay methods invoked or field/map writes.",
     "Natural portal collision, full authenticated multiplayer/full Boss battles remain outside this lifecycle checkpoint."
-  ]
+  ],
+  "preparedAttendedTool": "work/session-boss/tools/run_boss_zicai_curio_client_v18.py"
 }

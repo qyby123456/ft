@@ -1,0 +1,74 @@
+{
+  "format": "ftboss-attended-reload-diagnostic-source-checkpoint-v1",
+  "branch": "codex/neoforge-source-20261113",
+  "parentSourceCommit": "dc5593bcf9d0701e882c36bac6ae9a003230d56e",
+  "nativeReportRelativePath": "work/session-boss/reports/zicai-curio-client-v18-candidate-a56d7243.json",
+  "nativeReportSha256": "5bce55ee6d4afc7938dfdc6e9e88b162a673558615c949be2d0dd199a8f288d5",
+  "nativeAccepted": false,
+  "nativeFailure": "java.lang.AssertionError: ActualUserExperimentalConfirmationNotReceivedWithin180Seconds",
+  "attendedWaitSeconds": 180,
+  "actualExperimentalConfirmationPageObserved": true,
+  "actualIntegratedServerOrPlayerLoginObserved": false,
+  "nativeProcessNormalExitAndReaped": true,
+  "integratedWorldCompleteSave": false,
+  "worldNeverLoadedThereforeNoSaveAcceptanceClaimed": true,
+  "allFrozenInputHashesUnchanged": true,
+  "noAutomaticConfirmationOrWorldFlagChanges": true,
+  "allPreviousAcceptedControlsReusedWithoutRerun": true,
+  "waitingWindowExists": false,
+  "doNotAutoRetryBeforeUserReady": true,
+  "archive": {
+    "archiveRelativePath": "work/session-boss/archives/boss-curios-attended-reload-v18-diagnostic-v1-20261114.zip",
+    "archiveSha256": "e9ad991dabf833cef622e7f8184fc03d7b2c2dfa659642ecaad1c7c7f72fa1e0",
+    "archiveBytes": 6658261,
+    "baseArchiveRelativePath": "work/session-boss/archives/boss-core-stage28-zicai-curio-scoped-evidence-v3-20261113.zip",
+    "baseArchiveSha256": "aca9e96def7887e0cf52637152df8922174326d5970376918d42b08bee864929",
+    "paths": 1935,
+    "selfBlobs": 35,
+    "allReferencedPayloadHashesVerified": true,
+    "fullPhysicalRestoreClaimed": false,
+    "rawArtifactsRemoteRecoveryVerified": false,
+    "allOriginalsRetained": true
+  },
+  "sourceFiles": {
+    "work/session-boss/tests/zicai-curio-client-v18/ZicaiCurioClientProbeV18.java": {
+      "bytes": 11103,
+      "sha256": "81294d11185fe586285c4638aa42cb4053d57666693d15f8c871b06138577cee"
+    },
+    "work/session-boss/tools/run_boss_zicai_curio_client_v18.py": {
+      "bytes": 18381,
+      "sha256": "3ed64688204304ceb76017a60bfe870e76747ebddcd79c0c34dc6319e962ddd0"
+    },
+    "work/session-boss/tools/publish_curios_attended_diagnostic_v1.py": {
+      "bytes": 8850,
+      "sha256": "679d41fcff6343a61c3e97c4c8f331ac9ff221cf552adbd00f627d13f8890944"
+    },
+    "work/session-boss/CURIO_ATTENDED_RELOAD_RECOVERY_20261114.md": {
+      "bytes": 3145,
+      "sha256": "c5cd532dea01d0ce984487d2738b5d377553ad026cf43715e5a59ce170f6648f"
+    },
+    "github-sync/checkpoint-nonmanor-finale-contract-review-20261114.json": {
+      "bytes": 1596,
+      "sha256": "76b15e6c35918c955dc272fae504a47eedb577b44a26f0317a2fb1db491617eb"
+    },
+    "github-sync/checkpoint-curios-lifecycle-matrix-20261114.json": {
+      "bytes": 6770,
+      "sha256": "ab25b2398f2c08168ab039ac38a2e614c37fa6d16d4bf9dbe509ef5604febe45"
+    },
+    "AGENTS.md": {
+      "bytes": 60066,
+      "sha256": "3040ed7ceb656c857c36a8abcad00ff533d1320e1c99332cf4410ca63b30ba32"
+    },
+    "work/session-boss/BOSS_MIGRATION_REQUIREMENTS_20261113.md": {
+      "bytes": 38429,
+      "sha256": "74e2fe3b3a6054ecf1f5d159942fd41258645ead872f77682af989886792c4b9"
+    }
+  },
+  "remainingRequiredUserOperation": "User confirms readiness inthischat. Then launch a fresh attended copy ofacceptedV6world;userclicks Create Backup and Load before180seconddeadline. Muststill proveactualnewJVMlogin,exactoneoriginalrelic/no stalepending,120naturalticks/client sync. NeverseedfailedV18world.",
+  "nextBossContractReviewRuntimeDefectProven": false,
+  "fullLifecycleAccepted": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false,
+  "weaponsAndSessionPaused": true
+}

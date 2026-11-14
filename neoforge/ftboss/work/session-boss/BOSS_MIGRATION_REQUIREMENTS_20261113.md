@@ -1,3 +1,9 @@
+## 新 JVM 有人值守工具与 V18 超时证据，2026-11-14
+
+V18 仅延长真实确认页等待至 180 秒并记录页面状态，保留原严格登录/物品/120 自然 tick 断言。已从接受的 V6 正常存档创建全新副本，启动前及实际页面出现时通知用户立即点击 Create Backup and Load；本次到期未确认，严格失败、正常退出且无服务端或玩家登录，不能宣称持久化验收通过。当前没有等待窗口或残留进程。下次须先由用户确认已在电脑前，再启动准备好的工具；不得自动重试、复用失败世界、猜测点击、调用私有确认回调或修改警告标志。见 work/session-boss/CURIO_ATTENDED_RELOAD_RECOVERY_20261114.md 和对应检查点。
+
+此前所有通过的生命周期增量仅引用，未重跑。另对非庄园终结难度完成原/当前类字节绑定的初步契约审查；属性缩放范围及方式有静态差异，尚需真实有效基线，未判为已证明的运行时缺陷，未绕过挑战解锁。完整 Boss 及完整生命周期仍未完成。保持同一唯一写入者、NOT-INSTALLABLE、不部署、正式实例只读、武器及 Session 暂停。诊断源码和证据归档同步不代表接受失败功能；远端独立核验后只清理合格重复源码缓存，所有原件保留。
+
 ## Stage28 scoped Zicai Curios candidate checkpoint, 2026-11-13
 
 - The original Curios silence helper,rules andChoice are ported as three added classes;all1451existing classes andall resources stay byte-identical to Stage27. Candidate SHA256 c45cc10ffb7b572d876e869b692a75496c88c337434ed7140225df298b7bb65e. NOT-INSTALLABLE andnot deployed;both formal instances remain read-only.
