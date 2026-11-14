@@ -1,0 +1,660 @@
+{
+  "originalArchiveSha256": "c1734a148606397f8b2c79fbcc5c45961a5ffb1923ea051756fd45d03dc7a942",
+  "originalClassHashes": {
+    "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.class": "18ffe1c88f220aba935db39f8182939cf90f274781e98484c0b8342c0e561e26",
+    "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion$State.class": "3bf4fc9b7cd139c5620005d88d72bd55ebbd6568cd65c55badc2658b9fd8c5d3",
+    "net/farmingtales/ftboss/util/SparrowHitEvasionRules.class": "1e7ea4e1fd119258637b9fa04380dd1588274a7852983f2e4056fab98dc0ce1a"
+  },
+  "mcpConfigSha256": "f46d1050d8bed9046886b90a0d2fb80b4c6b5120fc35d32e5d37498dbe0a6d2a",
+  "officialMappingSha256": "67bfc33ef0c7103f002d6ac134f8eddd3d67e2ce45d266e83816d1a2e2c9b01d",
+  "memberNames": {
+    "f_268738_": "BYPASSES_INVULNERABILITY",
+    "f_286979_": "GENERIC_KILL",
+    "f_46443_": "isClientSide",
+    "f_77271_": "x",
+    "f_77272_": "y",
+    "f_77273_": "z",
+    "f_77282_": "type",
+    "f_82479_": "x",
+    "f_82481_": "z",
+    "m_135782_": "location",
+    "m_20145_": "isInvisible",
+    "m_20147_": "isInvulnerable",
+    "m_20148_": "getUUID",
+    "m_20182_": "position",
+    "m_20186_": "getY",
+    "m_20191_": "getBoundingBox",
+    "m_20280_": "distanceToSqr",
+    "m_213877_": "isRemoved",
+    "m_21525_": "isNoAi",
+    "m_21573_": "getNavigation",
+    "m_26536_": "moveTo",
+    "m_26570_": "getPath",
+    "m_26571_": "isDone",
+    "m_26573_": "stop",
+    "m_269533_": "is",
+    "m_274446_": "containing",
+    "m_274561_": "containing",
+    "m_276093_": "is",
+    "m_45756_": "noCollision",
+    "m_46467_": "getGameTime",
+    "m_46472_": "dimension",
+    "m_5833_": "isSpectator",
+    "m_6084_": "isAlive",
+    "m_61937_": "isWithinBounds",
+    "m_6425_": "getFluidState",
+    "m_6443_": "getEntitiesOfClass",
+    "m_6857_": "getWorldBorder",
+    "m_6907_": "players",
+    "m_7500_": "isCreative",
+    "m_76178_": "isEmpty",
+    "m_7639_": "getEntity",
+    "m_7640_": "getDirectEntity",
+    "m_77375_": "getNode",
+    "m_77395_": "getEndNode",
+    "m_77398_": "getNodeCount",
+    "m_77403_": "canReach",
+    "m_7864_": "createPath",
+    "m_82383_": "move",
+    "m_82400_": "inflate",
+    "m_82490_": "scale",
+    "m_82541_": "normalize",
+    "m_82542_": "multiply",
+    "m_82546_": "subtract",
+    "m_82549_": "add",
+    "m_82556_": "lengthSqr",
+    "m_8791_": "getEntity",
+    "m_9236_": "level"
+  },
+  "subsetMappingProof": {
+    "m_135782_": [
+      {
+        "declaredObfuscatedOwner": "acp",
+        "mcpMemberLine": "a ()Lacq; m_135782_ 135782",
+        "officialResolvedName": "location"
+      }
+    ],
+    "m_8791_": [
+      {
+        "declaredObfuscatedOwner": "aif",
+        "mcpMemberLine": "a (Ljava/util/UUID;)Lbfj; m_8791_ 8791",
+        "officialResolvedName": "getEntity"
+      }
+    ],
+    "m_6907_": [
+      {
+        "declaredObfuscatedOwner": "aif",
+        "mcpMemberLine": "v ()Ljava/util/List; m_6907_ 8903",
+        "officialResolvedName": "players"
+      },
+      {
+        "declaredObfuscatedOwner": "aim",
+        "mcpMemberLine": "v ()Ljava/util/List; m_6907_ 9602",
+        "officialResolvedName": "players"
+      },
+      {
+        "declaredObfuscatedOwner": "cmd",
+        "mcpMemberLine": "v ()Ljava/util/List; m_6907_ 6907",
+        "officialResolvedName": "players"
+      },
+      {
+        "declaredObfuscatedOwner": "few",
+        "mcpMemberLine": "v ()Ljava/util/List; m_6907_ 104825",
+        "officialResolvedName": "players"
+      }
+    ],
+    "m_5833_": [
+      {
+        "declaredObfuscatedOwner": "aig",
+        "mcpMemberLine": "G_ ()Z m_5833_ 9169",
+        "officialResolvedName": "isSpectator"
+      },
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "G_ ()Z m_5833_ 5833",
+        "officialResolvedName": "isSpectator"
+      },
+      {
+        "declaredObfuscatedOwner": "byo",
+        "mcpMemberLine": "G_ ()Z m_5833_ 36232",
+        "officialResolvedName": "isSpectator"
+      },
+      {
+        "declaredObfuscatedOwner": "fiv",
+        "mcpMemberLine": "G_ ()Z m_5833_ 108553",
+        "officialResolvedName": "isSpectator"
+      },
+      {
+        "declaredObfuscatedOwner": "pq$1",
+        "mcpMemberLine": "G_ ()Z m_5833_ 177467",
+        "officialResolvedName": "isSpectator"
+      },
+      {
+        "declaredObfuscatedOwner": "pq$2",
+        "mcpMemberLine": "G_ ()Z m_5833_ 246154",
+        "officialResolvedName": "isSpectator"
+      },
+      {
+        "declaredObfuscatedOwner": "pq$3",
+        "mcpMemberLine": "G_ ()Z m_5833_ 287146",
+        "officialResolvedName": "isSpectator"
+      }
+    ],
+    "m_7500_": [
+      {
+        "declaredObfuscatedOwner": "aig",
+        "mcpMemberLine": "f ()Z m_7500_ 9198",
+        "officialResolvedName": "isCreative"
+      },
+      {
+        "declaredObfuscatedOwner": "byo",
+        "mcpMemberLine": "f ()Z m_7500_ 7500",
+        "officialResolvedName": "isCreative"
+      },
+      {
+        "declaredObfuscatedOwner": "fiv",
+        "mcpMemberLine": "f ()Z m_7500_ 108554",
+        "officialResolvedName": "isCreative"
+      },
+      {
+        "declaredObfuscatedOwner": "pq$1",
+        "mcpMemberLine": "f ()Z m_7500_ 177468",
+        "officialResolvedName": "isCreative"
+      },
+      {
+        "declaredObfuscatedOwner": "pq$2",
+        "mcpMemberLine": "f ()Z m_7500_ 247277",
+        "officialResolvedName": "isCreative"
+      },
+      {
+        "declaredObfuscatedOwner": "pq$3",
+        "mcpMemberLine": "f ()Z m_7500_ 287241",
+        "officialResolvedName": "isCreative"
+      }
+    ],
+    "m_6425_": [
+      {
+        "declaredObfuscatedOwner": "aim",
+        "mcpMemberLine": "b_ (Lgu;)Ldxe; m_6425_ 9576",
+        "officialResolvedName": "getFluidState"
+      },
+      {
+        "declaredObfuscatedOwner": "cls",
+        "mcpMemberLine": "b_ (Lgu;)Ldxe; m_6425_ 6425",
+        "officialResolvedName": "getFluidState"
+      },
+      {
+        "declaredObfuscatedOwner": "cmb",
+        "mcpMemberLine": "b_ (Lgu;)Ldxe; m_6425_ 45864",
+        "officialResolvedName": "getFluidState"
+      },
+      {
+        "declaredObfuscatedOwner": "cmm",
+        "mcpMemberLine": "b_ (Lgu;)Ldxe; m_6425_ 46670",
+        "officialResolvedName": "getFluidState"
+      },
+      {
+        "declaredObfuscatedOwner": "cmz",
+        "mcpMemberLine": "b_ (Lgu;)Ldxe; m_6425_ 47170",
+        "officialResolvedName": "getFluidState"
+      },
+      {
+        "declaredObfuscatedOwner": "dee",
+        "mcpMemberLine": "b_ (Lgu;)Ldxe; m_6425_ 62620",
+        "officialResolvedName": "getFluidState"
+      },
+      {
+        "declaredObfuscatedOwner": "deh",
+        "mcpMemberLine": "b_ (Lgu;)Ldxe; m_6425_ 62735",
+        "officialResolvedName": "getFluidState"
+      },
+      {
+        "declaredObfuscatedOwner": "dei",
+        "mcpMemberLine": "b_ (Lgu;)Ldxe; m_6425_ 62894",
+        "officialResolvedName": "getFluidState"
+      },
+      {
+        "declaredObfuscatedOwner": "des",
+        "mcpMemberLine": "b_ (Lgu;)Ldxe; m_6425_ 63238",
+        "officialResolvedName": "getFluidState"
+      },
+      {
+        "declaredObfuscatedOwner": "fmr",
+        "mcpMemberLine": "b_ (Lgu;)Ldxe; m_6425_ 112942",
+        "officialResolvedName": "getFluidState"
+      }
+    ],
+    "m_6857_": [
+      {
+        "declaredObfuscatedOwner": "aim",
+        "mcpMemberLine": "w_ ()Ldds; m_6857_ 9589",
+        "officialResolvedName": "getWorldBorder"
+      },
+      {
+        "declaredObfuscatedOwner": "clw",
+        "mcpMemberLine": "w_ ()Ldds; m_6857_ 6857",
+        "officialResolvedName": "getWorldBorder"
+      },
+      {
+        "declaredObfuscatedOwner": "cmm",
+        "mcpMemberLine": "w_ ()Ldds; m_6857_ 46736",
+        "officialResolvedName": "getWorldBorder"
+      },
+      {
+        "declaredObfuscatedOwner": "cmz",
+        "mcpMemberLine": "w_ ()Ldds; m_6857_ 47189",
+        "officialResolvedName": "getWorldBorder"
+      }
+    ],
+    "f_268738_": [
+      {
+        "declaredObfuscatedOwner": "amy",
+        "mcpMemberLine": "d f_268738_ 268738",
+        "officialResolvedName": "BYPASSES_INVULNERABILITY"
+      }
+    ],
+    "m_276093_": [
+      {
+        "declaredObfuscatedOwner": "ben",
+        "mcpMemberLine": "a (Lacp;)Z m_276093_ 276093",
+        "officialResolvedName": "is"
+      }
+    ],
+    "m_269533_": [
+      {
+        "declaredObfuscatedOwner": "ben",
+        "mcpMemberLine": "a (Lanl;)Z m_269533_ 269533",
+        "officialResolvedName": "is"
+      }
+    ],
+    "m_7640_": [
+      {
+        "declaredObfuscatedOwner": "ben",
+        "mcpMemberLine": "c ()Lbfj; m_7640_ 7640",
+        "officialResolvedName": "getDirectEntity"
+      }
+    ],
+    "m_7639_": [
+      {
+        "declaredObfuscatedOwner": "ben",
+        "mcpMemberLine": "d ()Lbfj; m_7639_ 7639",
+        "officialResolvedName": "getEntity"
+      }
+    ],
+    "f_286979_": [
+      {
+        "declaredObfuscatedOwner": "beq",
+        "mcpMemberLine": "R f_286979_ 286979",
+        "officialResolvedName": "GENERIC_KILL"
+      }
+    ],
+    "m_6084_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "bs ()Z m_6084_ 6084",
+        "officialResolvedName": "isAlive"
+      },
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "bs ()Z m_6084_ 21110",
+        "officialResolvedName": "isAlive"
+      }
+    ],
+    "m_20191_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "cE ()Leed; m_20191_ 20191",
+        "officialResolvedName": "getBoundingBox"
+      },
+      {
+        "declaredObfuscatedOwner": "dfs",
+        "mcpMemberLine": "cE ()Leed; m_20191_ 142469",
+        "officialResolvedName": "getBoundingBox"
+      }
+    ],
+    "m_20145_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "cb ()Z m_20145_ 20145",
+        "officialResolvedName": "isInvisible"
+      }
+    ],
+    "m_20147_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "co ()Z m_20147_ 20147",
+        "officialResolvedName": "isInvulnerable"
+      }
+    ],
+    "m_20148_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "ct ()Ljava/util/UUID; m_20148_ 20148",
+        "officialResolvedName": "getUUID"
+      },
+      {
+        "declaredObfuscatedOwner": "dfs",
+        "mcpMemberLine": "ct ()Ljava/util/UUID; m_20148_ 142081",
+        "officialResolvedName": "getUUID"
+      }
+    ],
+    "m_213877_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dD ()Z m_213877_ 146910",
+        "officialResolvedName": "isRemoved"
+      },
+      {
+        "declaredObfuscatedOwner": "caj",
+        "mcpMemberLine": "dD ()Z m_213877_ 213877",
+        "officialResolvedName": "isRemoved"
+      }
+    ],
+    "m_9236_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dI ()Lcmm; m_9236_ 183503",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "bgh",
+        "mcpMemberLine": "e ()Lcmd; m_9236_ 9236",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "bgv",
+        "mcpMemberLine": "e ()Lcmd; m_9236_ 284545",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "btk",
+        "mcpMemberLine": "e ()Lcmd; m_9236_ 284527",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "caj",
+        "mcpMemberLine": "dI ()Lcmm; m_9236_ 214157",
+        "officialResolvedName": "level"
+      }
+    ],
+    "m_20182_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dg ()Leei; m_20182_ 20182",
+        "officialResolvedName": "position"
+      },
+      {
+        "declaredObfuscatedOwner": "caj",
+        "mcpMemberLine": "dg ()Leei; m_20182_ 213821",
+        "officialResolvedName": "position"
+      }
+    ],
+    "m_20186_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dp ()D m_20186_ 20186",
+        "officialResolvedName": "getY"
+      }
+    ],
+    "m_20280_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "f (Lbfj;)D m_20280_ 20280",
+        "officialResolvedName": "distanceToSqr"
+      }
+    ],
+    "m_21573_": [
+      {
+        "declaredObfuscatedOwner": "bgb",
+        "mcpMemberLine": "J ()Lbpj; m_21573_ 21573",
+        "officialResolvedName": "getNavigation"
+      }
+    ],
+    "m_21525_": [
+      {
+        "declaredObfuscatedOwner": "bgb",
+        "mcpMemberLine": "fQ ()Z m_21525_ 21525",
+        "officialResolvedName": "isNoAi"
+      }
+    ],
+    "m_7864_": [
+      {
+        "declaredObfuscatedOwner": "bpi",
+        "mcpMemberLine": "a (Lgu;I)Ldxt; m_7864_ 26474",
+        "officialResolvedName": "createPath"
+      },
+      {
+        "declaredObfuscatedOwner": "bpj",
+        "mcpMemberLine": "a (Lgu;I)Ldxt; m_7864_ 7864",
+        "officialResolvedName": "createPath"
+      },
+      {
+        "declaredObfuscatedOwner": "bpk",
+        "mcpMemberLine": "a (Lgu;I)Ldxt; m_7864_ 26588",
+        "officialResolvedName": "createPath"
+      }
+    ],
+    "m_26536_": [
+      {
+        "declaredObfuscatedOwner": "bpj",
+        "mcpMemberLine": "a (Ldxt;D)Z m_26536_ 26536",
+        "officialResolvedName": "moveTo"
+      }
+    ],
+    "m_26570_": [
+      {
+        "declaredObfuscatedOwner": "bpj",
+        "mcpMemberLine": "j ()Ldxt; m_26570_ 26570",
+        "officialResolvedName": "getPath"
+      }
+    ],
+    "m_26571_": [
+      {
+        "declaredObfuscatedOwner": "bpj",
+        "mcpMemberLine": "l ()Z m_26571_ 26571",
+        "officialResolvedName": "isDone"
+      }
+    ],
+    "m_26573_": [
+      {
+        "declaredObfuscatedOwner": "bpj",
+        "mcpMemberLine": "n ()V m_26573_ 26573",
+        "officialResolvedName": "stop"
+      }
+    ],
+    "m_45756_": [
+      {
+        "declaredObfuscatedOwner": "clw",
+        "mcpMemberLine": "a (Lbfj;Leed;)Z m_45756_ 45756",
+        "officialResolvedName": "noCollision"
+      }
+    ],
+    "m_6443_": [
+      {
+        "declaredObfuscatedOwner": "cmd",
+        "mcpMemberLine": "a (Ljava/lang/Class;Leed;Ljava/util/function/Predicate;)Ljava/util/List; m_6443_ 6443",
+        "officialResolvedName": "getEntitiesOfClass"
+      }
+    ],
+    "f_46443_": [
+      {
+        "declaredObfuscatedOwner": "cmm",
+        "mcpMemberLine": "B f_46443_ 46443",
+        "officialResolvedName": "isClientSide"
+      }
+    ],
+    "m_46467_": [
+      {
+        "declaredObfuscatedOwner": "cmm",
+        "mcpMemberLine": "V ()J m_46467_ 46467",
+        "officialResolvedName": "getGameTime"
+      }
+    ],
+    "m_46472_": [
+      {
+        "declaredObfuscatedOwner": "cmm",
+        "mcpMemberLine": "ac ()Lacp; m_46472_ 46472",
+        "officialResolvedName": "dimension"
+      }
+    ],
+    "m_61937_": [
+      {
+        "declaredObfuscatedOwner": "dds",
+        "mcpMemberLine": "a (Lgu;)Z m_61937_ 61937",
+        "officialResolvedName": "isWithinBounds"
+      }
+    ],
+    "m_76178_": [
+      {
+        "declaredObfuscatedOwner": "dxe",
+        "mcpMemberLine": "c ()Z m_76178_ 76178",
+        "officialResolvedName": "isEmpty"
+      }
+    ],
+    "f_77271_": [
+      {
+        "declaredObfuscatedOwner": "dxr",
+        "mcpMemberLine": "a f_77271_ 77271",
+        "officialResolvedName": "x"
+      }
+    ],
+    "f_77272_": [
+      {
+        "declaredObfuscatedOwner": "dxr",
+        "mcpMemberLine": "b f_77272_ 77272",
+        "officialResolvedName": "y"
+      }
+    ],
+    "f_77273_": [
+      {
+        "declaredObfuscatedOwner": "dxr",
+        "mcpMemberLine": "c f_77273_ 77273",
+        "officialResolvedName": "z"
+      }
+    ],
+    "f_77282_": [
+      {
+        "declaredObfuscatedOwner": "dxr",
+        "mcpMemberLine": "l f_77282_ 77282",
+        "officialResolvedName": "type"
+      }
+    ],
+    "m_77375_": [
+      {
+        "declaredObfuscatedOwner": "dxt",
+        "mcpMemberLine": "a (I)Ldxr; m_77375_ 77375",
+        "officialResolvedName": "getNode"
+      }
+    ],
+    "m_77395_": [
+      {
+        "declaredObfuscatedOwner": "dxt",
+        "mcpMemberLine": "d ()Ldxr; m_77395_ 77395",
+        "officialResolvedName": "getEndNode"
+      }
+    ],
+    "m_77398_": [
+      {
+        "declaredObfuscatedOwner": "dxt",
+        "mcpMemberLine": "e ()I m_77398_ 77398",
+        "officialResolvedName": "getNodeCount"
+      }
+    ],
+    "m_77403_": [
+      {
+        "declaredObfuscatedOwner": "dxt",
+        "mcpMemberLine": "j ()Z m_77403_ 77403",
+        "officialResolvedName": "canReach"
+      }
+    ],
+    "m_82383_": [
+      {
+        "declaredObfuscatedOwner": "eed",
+        "mcpMemberLine": "c (Leei;)Leed; m_82383_ 82383",
+        "officialResolvedName": "move"
+      }
+    ],
+    "m_82400_": [
+      {
+        "declaredObfuscatedOwner": "eed",
+        "mcpMemberLine": "g (D)Leed; m_82400_ 82400",
+        "officialResolvedName": "inflate"
+      }
+    ],
+    "f_82479_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "c f_82479_ 82479",
+        "officialResolvedName": "x"
+      }
+    ],
+    "f_82481_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "e f_82481_ 82481",
+        "officialResolvedName": "z"
+      }
+    ],
+    "m_82490_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "a (D)Leei; m_82490_ 82490",
+        "officialResolvedName": "scale"
+      }
+    ],
+    "m_82542_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "d (DDD)Leei; m_82542_ 82542",
+        "officialResolvedName": "multiply"
+      }
+    ],
+    "m_82541_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "d ()Leei; m_82541_ 82541",
+        "officialResolvedName": "normalize"
+      }
+    ],
+    "m_82546_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "d (Leei;)Leei; m_82546_ 82546",
+        "officialResolvedName": "subtract"
+      }
+    ],
+    "m_82549_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "e (Leei;)Leei; m_82549_ 82549",
+        "officialResolvedName": "add"
+      }
+    ],
+    "m_82556_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "g ()D m_82556_ 82556",
+        "officialResolvedName": "lengthSqr"
+      }
+    ],
+    "m_274446_": [
+      {
+        "declaredObfuscatedOwner": "gu",
+        "mcpMemberLine": "a (Lho;)Lgu; m_274446_ 274446",
+        "officialResolvedName": "containing"
+      }
+    ],
+    "m_274561_": [
+      {
+        "declaredObfuscatedOwner": "gu",
+        "mcpMemberLine": "a (DDD)Lgu; m_274561_ 274561",
+        "officialResolvedName": "containing"
+      }
+    ]
+  },
+  "classNames": {
+    "net/minecraft/world/level/pathfinder/BlockPathTypes": "net/minecraft/world/level/pathfinder/PathType"
+  },
+  "completeUnmodifiedMappingsNotExported": true,
+  "resourceFilesNotExported": true
+}

@@ -1,0 +1,11 @@
+{
+  "accepted": false,
+  "operation": "First closeout attempt, before binding/closeout/control-state writes",
+  "failure": "Wrong assumption that all six final-defined classes would be byte-identical across JVMs; LivingEntity differs.",
+  "easterBossAndOtherFourBossDefinitionsByteIdentical": true,
+  "scopedResolution": "351-check auditor reads EasterBossEntity only; reuse requires that exact definition to match. Record all other hashes, explicitly exclude LivingEntity from reused audit scope. Do not infer cause or bypass product assertions.",
+  "productChanged": false,
+  "runtimeReplayed": false,
+  "originalFailuresPreserved": true,
+  "fullBossMigrationComplete": false
+}

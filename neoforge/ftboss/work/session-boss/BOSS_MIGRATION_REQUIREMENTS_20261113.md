@@ -1,3 +1,11 @@
+## Stage30 麻雀原版受击闪避限定验收，2026-11-14
+
+原版 SparrowHitEvasion/State 的 25 个映射方法图及 25 个 ASM 检查通过，规则类字节原样保留，接入原版三处钩子。真实离线玩家空手攻击基础场景 971 项、原同伴掩护场景 772 项通过；分别观察到 22/16 个自然 tick 的原版自有路径，同伴控制保护 16 tick。原 60 tick 到期、no-AI 拒绝、实际实体离开清理通过，正常完整保存/退出 0，冻结输入未变。最终定义 EasterBoss 类 351 项检查限定复用，339 个方法不变，仅 hitFeedback/sparrowTick 改变；五个 Boss 定义字节一致，LivingEntity 不同且不在该复用证明范围。
+
+候选 SHA256 877309d1ff2332ab6d407cd1b456d39987109d17e8f6a8e98184abe55703c25b。原始 bootstrap、两次正向寻路失败和首次六类绑定错误均保留；原寻路安全阈值未放宽。同伴夹具自然空 fight/summoner ID 相等，仅证明该分支，不声称认证管理战斗；冻结同伴回执的 noAllyFixture=true 属继承标签错误，在限定收口中更正解释，不改写原证据。详见 work/session-boss/SPARROW_HIT_EVASION_20261114.md 与 reports/sparrow-hit-evasion-v2-closeout-20261114.json。
+
+关闭的三次失败运行 84 个 JAR 路径/全部字节保留，82 个只读同内容硬链接约释放 504 MiB，仅为本地去重；不声称资源远端可恢复。后续只上传审查过的源码及文字证据，必须先完整树资源/秘密扫描、独立远端逐 blob 恢复核验，才清理 Git 重复源码缓存。全部模型、贴图、动画、音乐/音频和嵌套资源禁止上传。完整 Boss 仍未完成，原生 LivingDamage.Post 尚缺（本轮 0 回调），NOT-INSTALLABLE、不部署、正式实例与 D 只读、武器/Session 暂停。旧 Stage29 的“闪避未移植”为当时历史状态。
+
 ## Stage29 庄园减伤上下文限定验收，2026-11-14
 
 真实空手玩家攻击已复现并修复 NeoForge damageContainers 空栈异常；仅修改 NativeManorFinalDamageInstaller，一个候选类变化。72 项合成生命周期检查、701 项真实玩家/原自定义 BeforeHealth/生命变化与自然 tick 检查、22 项最终定义类检查通过，完整保存/退出 0，冻结输入不变。采集中文选项编码事故的 11 个自有文件已按 SHA256 迁回，原失败回执保留，后续使用 Base64URL UTF-8 选项。详见 work/session-boss/MANOR_DAMAGE_CONTEXT_20261114.md 与 reports/manor-damage-context-v1-closeout-20261114.json。原生 LivingDamage.Post 契约尚未完成（本轮 0 回调）；麻雀闪避未移植，现有真实正向基线可用。NOT-INSTALLABLE，不部署；模型/音乐等资源禁止上传，武器/Session 暂停，两个正式实例只读。

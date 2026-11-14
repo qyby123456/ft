@@ -1,0 +1,38 @@
+{
+  "jar": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-sparrow-evasion-v1-20261114\\ftboss-boss-core-1.21.1-stage30-sparrow-hit-evasion-NOT-INSTALLABLE.jar",
+  "jarSha256": "b5dc6eef3e66519f7c4ac0ec97b1773c7da77c1b00b2bf48e7c046cfb6aee64b",
+  "baseJar": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-damage-context-v1-20261114\\ftboss-boss-core-1.21.1-stage29-manor-damage-context-NOT-INSTALLABLE.jar",
+  "baseJarSha256": "78caa46ef163c4f3ee9cc3d1a90d5ee58e1bbf4d791f213fca390986f987692f",
+  "changedEntries": [
+    "net/farmingtales/ftboss/boss/ai/NativeManorFinalDamageInstaller.class"
+  ],
+  "addedEntries": [
+    "net/farmingtales/ftboss/boss/ai/NativeSparrowHitEvasionInstaller.class",
+    "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion$State.class",
+    "net/farmingtales/ftboss/boss/ai/SparrowHitEvasion.class",
+    "net/farmingtales/ftboss/util/SparrowHitEvasionRules.class"
+  ],
+  "originalRulesByteIdentical": true,
+  "allOtherBaseEntriesByteIdentical": true,
+  "proof": "failures=0;originalClasses=3;mappedOriginalMethodGraphs=25;asmVerifiedOriginalMethods=25;pureRulesByteIdentical=true;integrationHooks=3;changedLoadedMethods=2;idempotent=true;negativeControls=1;",
+  "inputHashes": {
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tools\\build_boss_sparrow_evasion_v1.py": "e8cc21a7d79f557d667a292f8094c6dda9013b54104ad9ecb34ece319d7c39cd",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\src\\sparrow-evasion-v1\\net\\farmingtales\\ftboss\\boss\\ai\\NativeManorFinalDamageInstaller.java": "2e14cb22cd20c90d2f720c03032d12a141d683bff575350d8ac3ddb59419897c",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\src\\sparrow-evasion-v1\\net\\farmingtales\\ftboss\\boss\\ai\\NativeSparrowHitEvasionInstaller.java": "adea96dd95ce5aaa84b56afbb15ccc5cb86c3c4ca75ffc3d2bebe226d4d05489",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\SparrowHitEvasionComposerV1.java": "2d15a5fff4cab2990393d30634207bdf189f24df0fa3ac00643747459cdb213a",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-sparrow-evasion-platform-audit-v1-20261114\\mapping-proof.json": "394f1c7143ea91a4300cf3880bca26821b8e7057e6463a25200b95a55bdb331b",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\reference\\forge-current.jar": "c1734a148606397f8b2c79fbcc5c45961a5ffb1923ea051756fd45d03dc7a942",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-damage-context-v1-20261114\\ftboss-boss-core-1.21.1-stage29-manor-damage-context-NOT-INSTALLABLE.jar": "78caa46ef163c4f3ee9cc3d1a90d5ee58e1bbf4d791f213fca390986f987692f",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-damage-context-v1-20261114\\candidate-build-receipt.json": "3bba9f6aba62041db15bd4194446be83eb7945689f6dbab32b455d29b56f7301",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\manor-damage-context-v1-closeout-20261114.json": "5a284028bc499e96961746bfc357740c064562afce5fd13a5a27604d76c44de1",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\manor-damage-context-native-v1-820f458d\\captured-defined-classes\\net_farmingtales_ftboss_entity_EasterBossEntity.class": "d40210e53c010cd2a0fe0f64f9a4977b485884d6858afc2f1901eb97465bb965"
+  },
+  "scope": "Complete mapped original SparrowHitEvasion helper/state/rules and three original integration hooks installed after existing Manor defense adaptation. No algorithm simplification.",
+  "nativeAcceptanceRequired": true,
+  "candidateNativeAccepted": false,
+  "sparrowEvasionPortAccepted": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false,
+  "modelsAndMusicLocalOnly": true
+}

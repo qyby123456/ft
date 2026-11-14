@@ -1,0 +1,114 @@
+{
+  "stage": 30,
+  "scope": "Original Sparrow confirmed-hit evasion algorithm and three original integration hooks; original ally cover under naturally null same-fight/summoner fixture scope.",
+  "candidateBuildReceipt": {
+    "path": "work/session-boss/build/boss-sparrow-evasion-v2-20261114/candidate-build-receipt.json",
+    "bytes": 4398,
+    "sha256": "e6f3ae24473f7e35aa1eddd423512ec3a8750c1a040c2f1ada93d2f59d0e4b53"
+  },
+  "candidateSha256": "877309d1ff2332ab6d407cd1b456d39987109d17e8f6a8e98184abe55703c25b",
+  "mappedOriginalMethodGraphs": 25,
+  "asmVerifiedOriginalMethods": 25,
+  "pureRulesByteIdentical": true,
+  "basicNativeChecks": 971,
+  "basicActualPositiveAttacks": 3,
+  "basicOwnedNavigationNaturalTicks": 22,
+  "original60TickExpiryAccepted": true,
+  "noAiGuardAccepted": true,
+  "actualEntityLeaveCleanupAccepted": true,
+  "allyNativeChecks": 772,
+  "allyOwnedNavigationNaturalTicks": 16,
+  "allyOriginalKitingControlledTicks": 16,
+  "allyFixtureActualFightAndSummonerIdsEqualWithoutFabrication": true,
+  "authenticatedManagedFightNotClaimed": true,
+  "nativeReports": [
+    {
+      "path": "work/session-boss/reports/sparrow-hit-evasion-native-v4-ba1eddca.json",
+      "bytes": 44333,
+      "sha256": "8d3a689a22515f47cadcb4dba0e270c097ea83f14b16ba70bb47c383d73cf171"
+    },
+    {
+      "path": "work/session-boss/reports/sparrow-hit-evasion-ally-native-v1-ad0360ee.json",
+      "bytes": 29973,
+      "sha256": "7bffe4795c6cb84aebde974fedab377926e11468dda920a404149fa0679ab4b5"
+    }
+  ],
+  "loadedDefinitionBinding": {
+    "path": "work/session-boss/reports/sparrow-evasion-accepted-loaded-class-binding-20261114.json",
+    "bytes": 5061,
+    "sha256": "645b13a1d615c7afeae1962b124abc6055721d6ba33f1720acccbd66aa1daf3b"
+  },
+  "actualDefinedClassAuditChecks": 351,
+  "unchangedActualBossMethods": 339,
+  "changedActualBossMethods": [
+    "hitFeedback",
+    "sparrowTick"
+  ],
+  "stage29DamageContextPreserved": true,
+  "originalDefenseVerifierAndNegativeControlPreserved": true,
+  "metadataCorrections": [
+    {
+      "report": "work/session-boss/reports/sparrow-hit-evasion-ally-native-v1-ad0360ee.json",
+      "frozenField": "probe.noAllyFixture",
+      "frozenValue": true,
+      "correctMeaning": "Inherited label is stale: this run admits an actual distinct registered ally UUID and verifies all original ally guards, same-scope equality, range, owned path and kiting branch. Frozen report and observer are preserved. Broad probe.sparrowEvasionPortAccepted=false is an unupdated template label; scoped actualOriginalSparrowAllyEvasionAccepted=true is the asserted outer acceptance."
+    }
+  ],
+  "strictFailedTrialsPreserved": [
+    {
+      "path": "work/session-boss/reports/sparrow-hit-evasion-native-v1-64287f18.json",
+      "bytes": 20929,
+      "sha256": "99bcf9bff5158a29a9f5ea2701daaa5cebc4ff918cedd633e8cbd4a1abf2bebd"
+    },
+    {
+      "path": "work/session-boss/reports/sparrow-hit-evasion-native-v2-3b5422b7.json",
+      "bytes": 29125,
+      "sha256": "74f215bae7e9b7fbac66d28e6c28699df81bdc0e7baf596652a16debc0c34a66"
+    },
+    {
+      "path": "work/session-boss/reports/sparrow-hit-evasion-native-v3-6fe5328f.json",
+      "bytes": 41850,
+      "sha256": "fce98dff8bc19fca20ff1cacf97992d99a5cabab7bb7f9154a64168e13b8900f"
+    }
+  ],
+  "unchangedOriginalSafetyRejectionCounterexample": {
+    "path": "work/session-boss/reports/sparrow-original-path-safety-rejection-20261114.json",
+    "bytes": 2317,
+    "sha256": "422b9c47181f291a8af60f925fac4e035beb2a66f383adca6a28439d2a96d0f0"
+  },
+  "allRuntimeAndCandidateInputsRehashedUnchanged": true,
+  "formalInstances": [
+    {
+      "path": "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_NeoForge 机械动力/mods/qys-bosses-1.21.1.jar",
+      "sha256": "6563f431dca1871eb7870653b74550ba2f5c0f66c104eea90ce58a99ca30f7c0",
+      "readOnlyUnchanged": true
+    },
+    {
+      "path": "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_ForgeⅡ v1.5.2/mods/qys-bosses.jar",
+      "sha256": "7c88b9e51ccdc6616cd2f70d6fa3c195772fc3f083f848085053d40cfe2015a3",
+      "readOnlyUnchanged": true
+    }
+  ],
+  "localDedupReceipt": {
+    "path": "work/session-boss/reports/closed-sparrow-runtime-jar-dedup-v1-20261114/receipt.json",
+    "bytes": 410,
+    "sha256": "3373273bbde1de2970bd8e358e2cbaf2490731eba4b100ecd4f2e733ca6b3b07"
+  },
+  "localDedupReclaimedBytesAtMeasurement": 528252928,
+  "allModelAndMusicResourcesLocalOnly": true,
+  "modelOrMusicUploaded": false,
+  "weaponDevelopmentAndValidationPaused": true,
+  "nativeLivingDamagePostContractAccepted": false,
+  "authenticated": false,
+  "newJvmAuthenticatedReloadAccepted": false,
+  "fullBossMigrationComplete": false,
+  "sparrowEvasionPortScopedAccepted": true,
+  "installable": false,
+  "deployed": false,
+  "remaining": [
+    "Native damage-event compatibility including LivingDamage.Post remains unaccepted.",
+    "Authenticated summons, managed fights, all complete battles, rewards, multiplayer and persistence gates remain.",
+    "Do not start attended Curios reload until user confirms they are present; no private confirmation bypass.",
+    "Keep formal instances and D history read-only; no deployment under current instruction."
+  ]
+}
