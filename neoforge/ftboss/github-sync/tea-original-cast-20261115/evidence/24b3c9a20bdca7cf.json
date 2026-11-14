@@ -1,0 +1,103 @@
+{
+  "jar": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-tea-original-cast-v2-20261114\\ftboss-boss-core-1.21.1-stage45-original-tea-cast-NOT-INSTALLABLE.jar",
+  "jarSha256": "3493ee60f51c1309f127f4dfb4a2d9bbc0ec1a75fbc048bd89e6678b99ba69ba",
+  "baseJarSha256": "6692bb992a9a169008487c66ccd668a14c06282bdf88ca116886fe0e54b119c1",
+  "originalJarSha256": "c1734a148606397f8b2c79fbcc5c45961a5ffb1923ea051756fd45d03dc7a942",
+  "changedJarEntries": [
+    "net/farmingtales/ftboss/client/model/SayaPlayerModel.class",
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity.class",
+    "net/farmingtales/ftboss/integ/spells/BossSpellCombat.class"
+  ],
+  "addedJarEntries": [
+    "net/farmingtales/ftboss/client/saya/SayaCastingPose$Memory.class",
+    "net/farmingtales/ftboss/client/saya/SayaCastingPose.class",
+    "net/farmingtales/ftboss/saya/SayaCastCancellation.class",
+    "net/farmingtales/ftboss/saya/SayaCastData.class",
+    "net/farmingtales/ftboss/saya/SayaCastLifecycle.class",
+    "net/farmingtales/ftboss/saya/SayaCastMotion.class",
+    "net/farmingtales/ftboss/saya/SayaCastSync.class"
+  ],
+  "allOtherExistingEntriesIdentical": true,
+  "allPreexistingResourceEntriesByteIdentical": true,
+  "unchangedResourceEntries": 1530,
+  "compositionProof": {
+    "checks": 2925,
+    "sdkMethodAndFieldLinksResolved": 1009,
+    "negativeControls": 4,
+    "unchangedOtherTeaMethods": 40,
+    "unchangedOtherModelMethods": 7,
+    "originalCompleteCombatMethodCount": 5,
+    "originalThreeAcceleratedCallsites": 3,
+    "parallelSpellCalls": 0,
+    "addedOriginalHelpers": [
+      "saya/SayaCastData",
+      "saya/SayaCastMotion",
+      "saya/SayaCastSync",
+      "saya/SayaCastLifecycle",
+      "saya/SayaCastCancellation",
+      "client/saya/SayaCastingPose",
+      "client/saya/SayaCastingPose$Memory"
+    ],
+    "platformBridges": [
+      {
+        "kind": "NeoForge Pre event getEntity return Entity",
+        "method": "net/farmingtales/ftboss/integ/spells/BossSpellCombat#tick"
+      },
+      {
+        "kind": "NeoForge Pre event getEntity return Entity",
+        "method": "net/farmingtales/ftboss/saya/SayaCastCancellation#tick"
+      },
+      {
+        "class": "net/farmingtales/ftboss/saya/SayaCastCancellation",
+        "kind": "Forge FORGE subscriber bus to NeoForge GAME"
+      }
+    ],
+    "classSha256": {
+      "net/farmingtales/ftboss/client/model/SayaPlayerModel": "02aa5ecf5a1415c3113f7aa122ef5f410e47c0190227bee3d86f21cf5ec709fd",
+      "net/farmingtales/ftboss/client/saya/SayaCastingPose": "4b667e9fd2a6c7f1b99250b892d89a2418fa107ea0cda7285310c35ad287d1a0",
+      "net/farmingtales/ftboss/client/saya/SayaCastingPose$Memory": "c1b640f7cb8a87aaee05e15fb3e44fcd1460f0a6683a9793027724fb9413c7b2",
+      "net/farmingtales/ftboss/entity/TeaTreeBossEntity": "70800834fcb60befc342937ee0c8c82decc4f0d402f53d790a65f6c5a37e7c49",
+      "net/farmingtales/ftboss/integ/spells/BossSpellCombat": "5ee05a32e935bb00c6ee0306b693ce28c2fa698aafa043d4edcedb6763017c92",
+      "net/farmingtales/ftboss/saya/SayaCastCancellation": "ec344223a2c49cfc482c37c65e43be698731e2e507e96f9524d4659cebd91a75",
+      "net/farmingtales/ftboss/saya/SayaCastData": "5c344f7e0bbbc2531bdb9cf00aac2735d5176a2a783b38c98fbbe46391bbc761",
+      "net/farmingtales/ftboss/saya/SayaCastLifecycle": "f3a7cf3c6346103e2414cda3c60bf0bba42898b5071bbb301eb5508e2359147f",
+      "net/farmingtales/ftboss/saya/SayaCastMotion": "87e126340a5ac6ba645945d3ec01a31b345ec2ae89498548b17d129e253a0b30",
+      "net/farmingtales/ftboss/saya/SayaCastSync": "0e5c340ee5e5f72b47c65abbd59e7876dca8c8d9d49a6d8616b2a79825f2ad3c"
+    },
+    "originalHelperClassSha256": {
+      "net/farmingtales/ftboss/saya/SayaCastData": "5c344f7e0bbbc2531bdb9cf00aac2735d5176a2a783b38c98fbbe46391bbc761",
+      "net/farmingtales/ftboss/saya/SayaCastMotion": "87e126340a5ac6ba645945d3ec01a31b345ec2ae89498548b17d129e253a0b30",
+      "net/farmingtales/ftboss/saya/SayaCastSync": "0e5c340ee5e5f72b47c65abbd59e7876dca8c8d9d49a6d8616b2a79825f2ad3c",
+      "net/farmingtales/ftboss/saya/SayaCastLifecycle": "f3a7cf3c6346103e2414cda3c60bf0bba42898b5071bbb301eb5508e2359147f",
+      "net/farmingtales/ftboss/saya/SayaCastCancellation": "d234114220b61a965846cec32dbbf6f74eefa85241443ca3a7d7877d631ea4fa",
+      "net/farmingtales/ftboss/client/saya/SayaCastingPose": "cbdd63fe6ced79208e8f11233a085dcdedb989fb9a71c9fec1f8f16247292eed",
+      "net/farmingtales/ftboss/client/saya/SayaCastingPose$Memory": "34dd2e95a97eab99563a3f69a1ec65a4f717e7e3b9471d61bbec4400a8d93107"
+    },
+    "localOnlyOriginalAnimationDataByteIdentical": true,
+    "allSelectedOriginalGraphsExact": true,
+    "animationOrModelPayloadIncludedInReceipt": false,
+    "modelOrMusicUploaded": false
+  },
+  "localOnlyEmbeddedOriginalAnimationDataAdded": true,
+  "embeddedAnimationDataUploaded": false,
+  "frozenInputsUnchanged": true,
+  "inputHashes": {
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tools\\build_boss_tea_original_cast_v2.py": "995ccbb1c199cdff454ef675fe363614e2fb5d6b766162fd5cb4e418994a6fbe",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\tea-original-finale-closeout-20261114.json": "aa5060e280acb9226538bb757ad6ae66044c6b322f9c07ffbd8fb881a461c4c3",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-tea-original-finale-v1-20261114\\ftboss-boss-core-1.21.1-stage44-original-tea-finale-NOT-INSTALLABLE.jar": "6692bb992a9a169008487c66ccd668a14c06282bdf88ca116886fe0e54b119c1",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\reference\\forge-current.jar": "c1734a148606397f8b2c79fbcc5c45961a5ffb1923ea051756fd45d03dc7a942",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\original-tea-cast-surface-v1-20261114\\receipt.json": "7e3edefbf1f4535cfdc619f343027122ed5c2c0050603b3658c7f5d900432062",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-tea-cast-map-v1-20261114\\mapping-proof.json": "582e5ef16168e2d323ba6c40a642a72f5a6836b367f9d601db0f86e86880204e",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\tea-cast-local-embedded-resource-policy-v1-20261114.json": "39e5bd39890f03367d82befd347c8903e82783bbd7d3cf58265baeb0cdf9ef74",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\TeaOriginalCastComposerV2.java": "e901cefe6d5803d4d65033f6853aaa7195a4c9c18d2160114972a8cd461e1a5b",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-damage-context-v1-20261114\\compile-proof-command.json": "47f6bf0b9eccc6847159cc00306c7e62781aea82bcd811e01b52a9f4f0861e7e"
+  },
+  "actualNativeTeaOriginalCastAccepted": false,
+  "actualGlobalOriginalSingleCastSchedulingAccepted": false,
+  "scope": "Restore original Tea cast synchronization, pose, cancellation and complete original single-spell global scheduling, with original local-only curve class. Full Tea spell geometry/render lifecycle, multiplayer/reload and final deployment remain separate gates.",
+  "modelOrMusicUploaded": false,
+  "weaponModuleOrSessionModified": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}

@@ -1,0 +1,19 @@
+import hashlib,json,subprocess,zipfile
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[3];WORK=ROOT/'work/session-boss';OUT=WORK/'reports/original-tea-cast-surface-v1-20261114';JAVA=Path('C:/Program Files/Zulu/zulu-21/bin')
+def load(path):return json.loads(Path(path).read_text(encoding='utf-8-sig'))
+def sha(path):
+    with Path(path).open('rb') as stream:return hashlib.file_digest(stream,'sha256').hexdigest()
+owner=load(ROOT/'WRITE_OWNER.json');assert owner['activeWriterThreadId']==load(ROOT/'WRITE_OWNER.claim')['threadId']=='01a1c43e-ae80-7390-b604-b43b4ab53f2f' and not owner['activeRuntimePids'] and owner['noFurtherFormalWritesOrDeployment'] and owner['weaponValidationPaused'];prior_path=WORK/'reports/tea-original-finale-closeout-20261114.json';prior=load(prior_path);candidate=Path(prior['candidate']);original=ROOT/'reference/forge-current.jar';assert sha(candidate)==prior['candidateJarSha256']=='6692bb992a9a169008487c66ccd668a14c06282bdf88ca116886fe0e54b119c1' and sha(original)=='c1734a148606397f8b2c79fbcc5c45961a5ffb1923ea051756fd45d03dc7a942';assert load(WORK/'reports/tea-original-finale-final-remote-proof-20261114.json')['independentRemoteExactCommitAndBlobRecoveryVerified'];decompiler=WORK/'tools/vineflower-1.10.1.jar';assert not OUT.exists();OUT.mkdir();inputs={str(path):sha(path) for path in [Path(__file__),prior_path,candidate,original,decompiler]};class_hashes={}
+roots=['entity/TeaTreeBossEntity','integ/spells/RegularBossCastHost','integ/spells/BossSpellCombat','integ/spells/BossSpellTuning','client/model/SayaPlayerModel','client/render/TeaTreeRenderer']
+for label,path in [('original',original),('current',candidate)]:
+    packed=OUT/(label+'-selected-code.jar');destination=OUT/(label+'-sources');destination.mkdir();class_hashes[label]={}
+    with zipfile.ZipFile(path) as archive,zipfile.ZipFile(packed,'x') as selected:
+        names=[name for name in archive.namelist() if name.endswith('.class') and name.startswith('net/farmingtales/ftboss/') and (any(name=='net/farmingtales/ftboss/'+entry+'.class' or name.startswith('net/farmingtales/ftboss/'+entry+'$') for entry in roots) or name.startswith(('net/farmingtales/ftboss/saya/','net/farmingtales/ftboss/client/saya/')))]
+        for name in names:
+            payload=archive.read(name);selected.writestr(name,payload);class_hashes[label][name]=hashlib.sha256(payload).hexdigest()
+    command=[str(JAVA/'java.exe'),'-Dfile.encoding=UTF-8','-Xmx384m','-jar',str(decompiler),'-thr=1',str(packed),str(destination)];result=subprocess.run(command,capture_output=True,timeout=120,creationflags=subprocess.CREATE_NO_WINDOW);raw=result.stdout+result.stderr;(OUT/(label+'-console.raw-local.log')).write_bytes(raw)
+    try:decoded=raw.decode('utf-8');encoding='utf-8'
+    except UnicodeDecodeError:decoded=raw.decode('gb18030');encoding='gb18030'
+    (OUT/(label+'-decompiler.txt')).write_text(decoded,encoding='utf-8');(OUT/(label+'-terminal.json')).write_text(json.dumps({'exitCode':result.returncode,'rawOutputBytes':len(raw),'rawOutputSha256':hashlib.sha256(raw).hexdigest(),'decodedAs':encoding,'rawConsoleContentUploaded':False},indent=2)+'\n',encoding='utf-8');assert result.returncode==0
+receipt={'candidateJarSha256':sha(candidate),'classHashes':class_hashes,'inputHashes':inputs,'allFrozenInputsUnchanged':all(sha(path)==digest for path,digest in inputs.items()),'selectedCodeOnly':True,'modelResourceFilesExtracted':False,'productChanged':False,'modelOrMusicUploaded':False,'installable':False,'deployed':False};assert receipt['allFrozenInputsUnchanged'];(OUT/'receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');print(json.dumps({'originalClasses':len(class_hashes['original']),'currentClasses':len(class_hashes['current']),'codeOnly':True,'resourcesExtracted':False}),flush=True)

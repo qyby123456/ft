@@ -1,0 +1,1255 @@
+{
+  "originalArchiveSha256": "c1734a148606397f8b2c79fbcc5c45961a5ffb1923ea051756fd45d03dc7a942",
+  "originalClassHashes": {
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity.class": "f7b8c28b1abdbb800dc8ea7317605f7da83e9779bca768f5c8e14f83d50c4df8",
+    "net/farmingtales/ftboss/client/model/SayaPlayerModel.class": "e6371ea130a846b2480761b23ce61e4e88e4da7bd27f9923b2623b30da23f252",
+    "net/farmingtales/ftboss/integ/spells/BossSpellCombat.class": "1d40bb9ec519ad668ff40bbaeb834ed1533d4a6d3ccbe9e20cc70ebc46b8a0b2",
+    "net/farmingtales/ftboss/saya/SayaCastCancellation.class": "d234114220b61a965846cec32dbbf6f74eefa85241443ca3a7d7877d631ea4fa",
+    "net/farmingtales/ftboss/client/saya/SayaCastingPose.class": "cbdd63fe6ced79208e8f11233a085dcdedb989fb9a71c9fec1f8f16247292eed",
+    "net/farmingtales/ftboss/client/saya/SayaCastingPose$Memory.class": "34dd2e95a97eab99563a3f69a1ec65a4f717e7e3b9471d61bbec4400a8d93107"
+  },
+  "memberNames": {
+    "f_102808_": "head",
+    "f_102809_": "hat",
+    "f_102810_": "body",
+    "f_102811_": "rightArm",
+    "f_102812_": "leftArm",
+    "f_102813_": "rightLeg",
+    "f_102814_": "leftLeg",
+    "f_103374_": "leftSleeve",
+    "f_103375_": "rightSleeve",
+    "f_103376_": "leftPants",
+    "f_103377_": "rightPants",
+    "f_103378_": "jacket",
+    "f_104203_": "xRot",
+    "f_104204_": "yRot",
+    "f_104205_": "zRot",
+    "f_19797_": "tickCount",
+    "f_46443_": "isClientSide",
+    "f_82479_": "x",
+    "f_82480_": "y",
+    "f_82481_": "z",
+    "m_104315_": "copyFrom",
+    "m_128342_": "getUUID",
+    "m_128347_": "putDouble",
+    "m_128356_": "putLong",
+    "m_128359_": "putString",
+    "m_128362_": "putUUID",
+    "m_128365_": "put",
+    "m_128403_": "hasUUID",
+    "m_128405_": "putInt",
+    "m_128425_": "contains",
+    "m_128451_": "getInt",
+    "m_128454_": "getLong",
+    "m_128459_": "getDouble",
+    "m_128461_": "getString",
+    "m_128469_": "getCompound",
+    "m_128473_": "remove",
+    "m_14036_": "clamp",
+    "m_142582_": "hasLineOfSight",
+    "m_19879_": "getId",
+    "m_20147_": "isInvulnerable",
+    "m_20148_": "getUUID",
+    "m_20182_": "position",
+    "m_20280_": "distanceToSqr",
+    "m_20613_": "getKey",
+    "m_213877_": "isRemoved",
+    "m_21525_": "isNoAi",
+    "m_46467_": "getGameTime",
+    "m_5448_": "getTarget",
+    "m_6084_": "isAlive",
+    "m_6095_": "getType",
+    "m_6973_": "setupAnim",
+    "m_7755_": "getName",
+    "m_9236_": "level"
+  },
+  "subsetMappingProof": {
+    "m_14036_": [
+      {
+        "declaredObfuscatedOwner": "apa",
+        "mcpMemberLine": "a (FFF)F m_14036_ 14036",
+        "officialResolvedName": "clamp"
+      }
+    ],
+    "m_7755_": [
+      {
+        "declaredObfuscatedOwner": "beb",
+        "mcpMemberLine": "Z ()Lsw; m_7755_ 7755",
+        "officialResolvedName": "getName"
+      },
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "Z ()Lsw; m_7755_ 19872",
+        "officialResolvedName": "getName"
+      },
+      {
+        "declaredObfuscatedOwner": "bvh",
+        "mcpMemberLine": "Z ()Lsw; m_7755_ 32007",
+        "officialResolvedName": "getName"
+      },
+      {
+        "declaredObfuscatedOwner": "byn",
+        "mcpMemberLine": "Z ()Lsw; m_7755_ 35984",
+        "officialResolvedName": "getName"
+      },
+      {
+        "declaredObfuscatedOwner": "byo",
+        "mcpMemberLine": "Z ()Lsw; m_7755_ 36118",
+        "officialResolvedName": "getName"
+      },
+      {
+        "declaredObfuscatedOwner": "czd",
+        "mcpMemberLine": "Z ()Lsw; m_7755_ 58481",
+        "officialResolvedName": "getName"
+      },
+      {
+        "declaredObfuscatedOwner": "czh",
+        "mcpMemberLine": "Z ()Lsw; m_7755_ 58625",
+        "officialResolvedName": "getName"
+      },
+      {
+        "declaredObfuscatedOwner": "czi",
+        "mcpMemberLine": "Z ()Lsw; m_7755_ 247729",
+        "officialResolvedName": "getName"
+      },
+      {
+        "declaredObfuscatedOwner": "dag",
+        "mcpMemberLine": "Z ()Lsw; m_7755_ 59265",
+        "officialResolvedName": "getName"
+      }
+    ],
+    "f_19797_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "ag f_19797_ 19797",
+        "officialResolvedName": "tickCount"
+      }
+    ],
+    "m_6095_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "ae ()Lbfn; m_6095_ 6095",
+        "officialResolvedName": "getType"
+      },
+      {
+        "declaredObfuscatedOwner": "bwl",
+        "mcpMemberLine": "ae ()Lbfn; m_6095_ 33593",
+        "officialResolvedName": "getType"
+      }
+    ],
+    "m_19879_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "af ()I m_19879_ 19879",
+        "officialResolvedName": "getId"
+      },
+      {
+        "declaredObfuscatedOwner": "dfs",
+        "mcpMemberLine": "af ()I m_19879_ 142049",
+        "officialResolvedName": "getId"
+      }
+    ],
+    "m_6084_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "bs ()Z m_6084_ 6084",
+        "officialResolvedName": "isAlive"
+      },
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "bs ()Z m_6084_ 21110",
+        "officialResolvedName": "isAlive"
+      }
+    ],
+    "m_20147_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "co ()Z m_20147_ 20147",
+        "officialResolvedName": "isInvulnerable"
+      }
+    ],
+    "m_20148_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "ct ()Ljava/util/UUID; m_20148_ 20148",
+        "officialResolvedName": "getUUID"
+      },
+      {
+        "declaredObfuscatedOwner": "dfs",
+        "mcpMemberLine": "ct ()Ljava/util/UUID; m_20148_ 142081",
+        "officialResolvedName": "getUUID"
+      }
+    ],
+    "m_213877_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dD ()Z m_213877_ 146910",
+        "officialResolvedName": "isRemoved"
+      },
+      {
+        "declaredObfuscatedOwner": "caj",
+        "mcpMemberLine": "dD ()Z m_213877_ 213877",
+        "officialResolvedName": "isRemoved"
+      }
+    ],
+    "m_9236_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dI ()Lcmm; m_9236_ 183503",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "bgh",
+        "mcpMemberLine": "e ()Lcmd; m_9236_ 9236",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "bgv",
+        "mcpMemberLine": "e ()Lcmd; m_9236_ 284545",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "btk",
+        "mcpMemberLine": "e ()Lcmd; m_9236_ 284527",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "caj",
+        "mcpMemberLine": "dI ()Lcmm; m_9236_ 214157",
+        "officialResolvedName": "level"
+      }
+    ],
+    "m_20182_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dg ()Leei; m_20182_ 20182",
+        "officialResolvedName": "position"
+      },
+      {
+        "declaredObfuscatedOwner": "caj",
+        "mcpMemberLine": "dg ()Leei; m_20182_ 213821",
+        "officialResolvedName": "position"
+      }
+    ],
+    "m_20280_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "f (Lbfj;)D m_20280_ 20280",
+        "officialResolvedName": "distanceToSqr"
+      }
+    ],
+    "m_20613_": [
+      {
+        "declaredObfuscatedOwner": "bfn",
+        "mcpMemberLine": "a (Lbfn;)Lacq; m_20613_ 20613",
+        "officialResolvedName": "getKey"
+      }
+    ],
+    "m_5448_": [
+      {
+        "declaredObfuscatedOwner": "bfu",
+        "mcpMemberLine": "j ()Lbfz; m_5448_ 271968",
+        "officialResolvedName": "getTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bgb",
+        "mcpMemberLine": "j ()Lbfz; m_5448_ 21370",
+        "officialResolvedName": "getTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bgg",
+        "mcpMemberLine": "j ()Lbfz; m_5448_ 5449",
+        "officialResolvedName": "getTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bgw",
+        "mcpMemberLine": "j ()Lbfz; m_5448_ 271736",
+        "officialResolvedName": "getTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bvp",
+        "mcpMemberLine": "j ()Lbfz; m_5448_ 5448",
+        "officialResolvedName": "getTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bxd",
+        "mcpMemberLine": "j ()Lbfz; m_5448_ 34654",
+        "officialResolvedName": "getTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bxs",
+        "mcpMemberLine": "j ()Lbfz; m_5448_ 219354",
+        "officialResolvedName": "getTarget"
+      }
+    ],
+    "m_142582_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "B (Lbfj;)Z m_142582_ 142582",
+        "officialResolvedName": "hasLineOfSight"
+      },
+      {
+        "declaredObfuscatedOwner": "bwh",
+        "mcpMemberLine": "B (Lbfj;)Z m_142582_ 149754",
+        "officialResolvedName": "hasLineOfSight"
+      }
+    ],
+    "m_21525_": [
+      {
+        "declaredObfuscatedOwner": "bgb",
+        "mcpMemberLine": "fQ ()Z m_21525_ 21525",
+        "officialResolvedName": "isNoAi"
+      }
+    ],
+    "f_46443_": [
+      {
+        "declaredObfuscatedOwner": "cmm",
+        "mcpMemberLine": "B f_46443_ 46443",
+        "officialResolvedName": "isClientSide"
+      }
+    ],
+    "m_46467_": [
+      {
+        "declaredObfuscatedOwner": "cmm",
+        "mcpMemberLine": "V ()J m_46467_ 46467",
+        "officialResolvedName": "getGameTime"
+      }
+    ],
+    "f_82479_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "c f_82479_ 82479",
+        "officialResolvedName": "x"
+      }
+    ],
+    "f_82480_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "d f_82480_ 82480",
+        "officialResolvedName": "y"
+      }
+    ],
+    "f_82481_": [
+      {
+        "declaredObfuscatedOwner": "eei",
+        "mcpMemberLine": "e f_82481_ 82481",
+        "officialResolvedName": "z"
+      }
+    ],
+    "m_6973_": [
+      {
+        "declaredObfuscatedOwner": "fab",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 101985",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fab",
+        "mcpMemberLine": "a (Lbfz;FFFFF)V m_6973_ 101992",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fab",
+        "mcpMemberLine": "a (Lbwc;FFFFF)V m_6973_ 102000",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fae",
+        "mcpMemberLine": "a (Lbsp;FFFFF)V m_6973_ 233324",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fae",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 233314",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fah",
+        "mcpMemberLine": "a (Lbux;FFFFF)V m_6973_ 102130",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fah",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102116",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fah",
+        "mcpMemberLine": "a (Lbfz;FFFFF)V m_6973_ 102123",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fai",
+        "mcpMemberLine": "a (Lbux;FFFFF)V m_6973_ 102176",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fai",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102149",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fai",
+        "mcpMemberLine": "a (Lbfz;FFFFF)V m_6973_ 102164",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "faj",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 170381",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "faj",
+        "mcpMemberLine": "a (Lbss;FFFFF)V m_6973_ 170394",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fak",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102192",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fak",
+        "mcpMemberLine": "a (Lbrg;FFFFF)V m_6973_ 102199",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fal",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102224",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fal",
+        "mcpMemberLine": "a (Lbrm;FFFFF)V m_6973_ 102236",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fam",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102249",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fan",
+        "mcpMemberLine": "a (Lcah;FFFFF)V m_6973_ 102268",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fan",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102261",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fap",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 247290",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fap",
+        "mcpMemberLine": "a (Lbsx;FFFFF)V m_6973_ 247410",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "faq",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102335",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "faq",
+        "mcpMemberLine": "a (Lbro;FFFFF)V m_6973_ 102347",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fat",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102358",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fat",
+        "mcpMemberLine": "a (Lbtk;FFFFF)V m_6973_ 102372",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fat",
+        "mcpMemberLine": "a (Lbtj;FFFFF)V m_6973_ 102365",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fau",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102391",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fav",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102408",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "faz",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102462",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fba",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102474",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbb",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102494",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbb",
+        "mcpMemberLine": "a (Lbwv;FFFFF)V m_6973_ 102525",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbb",
+        "mcpMemberLine": "a (Lbfz;FFFFF)V m_6973_ 102506",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbb",
+        "mcpMemberLine": "a (Lbwc;FFFFF)V m_6973_ 102513",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbc",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102536",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbc",
+        "mcpMemberLine": "a (Lbfz;FFFFF)V m_6973_ 102543",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbd",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102580",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbd",
+        "mcpMemberLine": "a (Lbfz;FFFFF)V m_6973_ 102587",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbe",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102601",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbf",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 6973",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbg",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102631",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbh",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102656",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbh",
+        "mcpMemberLine": "a (Lbrv;FFFFF)V m_6973_ 102668",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbi",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 233364",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbi",
+        "mcpMemberLine": "a (Lbta;FFFFF)V m_6973_ 233371",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbj",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102680",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbl",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 170579",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbl",
+        "mcpMemberLine": "a (Lbtg;FFFFF)V m_6973_ 170586",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbm",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102711",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbm",
+        "mcpMemberLine": "a (Lbvy;FFFFF)V m_6973_ 102718",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbp",
+        "mcpMemberLine": "a (Lbgb;FFFFF)V m_6973_ 102743",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbp",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102736",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbq",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102772",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbq",
+        "mcpMemberLine": "a (Lbtk;FFFFF)V m_6973_ 102784",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbs",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102844",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbs",
+        "mcpMemberLine": "a (Lbfz;FFFFF)V m_6973_ 102865",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbt",
+        "mcpMemberLine": "a (Lbvk;FFFFF)V m_6973_ 102927",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbt",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102915",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbu",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102949",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbu",
+        "mcpMemberLine": "a (Lbrx;FFFFF)V m_6973_ 102961",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbv",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 102979",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbv",
+        "mcpMemberLine": "a (Lbwl;FFFFF)V m_6973_ 102991",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbw",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103002",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fby",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103041",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fby",
+        "mcpMemberLine": "a (Lbtj;FFFFF)V m_6973_ 103048",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fbz",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103089",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fca",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103099",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcd",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103146",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fce",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103165",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fce",
+        "mcpMemberLine": "a (Lbsa;FFFFF)V m_6973_ 103177",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcf",
+        "mcpMemberLine": "a (Lbsb;FFFFF)V m_6973_ 103216",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcf",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103202",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcg",
+        "mcpMemberLine": "a (Lbwe;FFFFF)V m_6973_ 170790",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcg",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103323",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcj",
+        "mcpMemberLine": "a (Lbgb;FFFFF)V m_6973_ 103365",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcj",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103343",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcj",
+        "mcpMemberLine": "a (Lbfz;FFFFF)V m_6973_ 103353",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fck",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103384",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fck",
+        "mcpMemberLine": "a (Lbfz;FFFFF)V m_6973_ 103394",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcl",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103421",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcl",
+        "mcpMemberLine": "a (Lbsd;FFFFF)V m_6973_ 103428",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcm",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103450",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcn",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103470",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fco",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103485",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcp",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103508",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcq",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103535",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcq",
+        "mcpMemberLine": "a (Lbsf;FFFFF)V m_6973_ 103547",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcr",
+        "mcpMemberLine": "a (Lcah;FFFFF)V m_6973_ 247312",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcr",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 245619",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcs",
+        "mcpMemberLine": "a (Lbwh;FFFFF)V m_6973_ 103625",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcs",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103613",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fct",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103639",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcu",
+        "mcpMemberLine": "a (Lbsh;FFFFF)V m_6973_ 103665",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcu",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103653",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcv",
+        "mcpMemberLine": "a (Lbsh;FFFFF)V m_6973_ 103691",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcv",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103679",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcx",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103715",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcy",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103727",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcy",
+        "mcpMemberLine": "a (Lbwi;FFFFF)V m_6973_ 103734",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fcz",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103753",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fda",
+        "mcpMemberLine": "a (Lbgb;FFFFF)V m_6973_ 103797",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fda",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103770",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fda",
+        "mcpMemberLine": "a (Lbfz;FFFFF)V m_6973_ 103785",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdd",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103830",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fde",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 272183",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fde",
+        "mcpMemberLine": "a (Lbtx;FFFFF)V m_6973_ 272063",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdf",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103844",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdg",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103865",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdh",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103877",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdi",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103895",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdi",
+        "mcpMemberLine": "a (Lbwp;FFFFF)V m_6973_ 103902",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdj",
+        "mcpMemberLine": "a (Lbtd;FFFFF)V m_6973_ 233452",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdj",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 233445",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdl",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103960",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdm",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103976",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdn",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 103986",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdn",
+        "mcpMemberLine": "a (Lbsm;FFFFF)V m_6973_ 103993",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdo",
+        "mcpMemberLine": "a (Lbwq;FFFFF)V m_6973_ 104027",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdo",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 104013",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdq",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 104052",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdr",
+        "mcpMemberLine": "a (Lbxs;FFFFF)V m_6973_ 233530",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdr",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 233519",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdt",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 104066",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdu",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 104087",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdu",
+        "mcpMemberLine": "a (Lbuv;FFFFF)V m_6973_ 104099",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdv",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 104124",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdv",
+        "mcpMemberLine": "a (Lbso;FFFFF)V m_6973_ 104136",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdx",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 104160",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdx",
+        "mcpMemberLine": "a (Lbwv;FFFFF)V m_6973_ 104174",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fdx",
+        "mcpMemberLine": "a (Lbfz;FFFFF)V m_6973_ 104167",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fot$a",
+        "mcpMemberLine": "a (Lbfj;FFFFF)V m_6973_ 114261",
+        "officialResolvedName": "setupAnim"
+      },
+      {
+        "declaredObfuscatedOwner": "fot$a",
+        "mcpMemberLine": "a (Lbub;FFFFF)V m_6973_ 114273",
+        "officialResolvedName": "setupAnim"
+      }
+    ],
+    "f_102808_": [
+      {
+        "declaredObfuscatedOwner": "fbs",
+        "mcpMemberLine": "k f_102808_ 102808",
+        "officialResolvedName": "head"
+      }
+    ],
+    "f_102809_": [
+      {
+        "declaredObfuscatedOwner": "fbs",
+        "mcpMemberLine": "l f_102809_ 102809",
+        "officialResolvedName": "hat"
+      }
+    ],
+    "f_102810_": [
+      {
+        "declaredObfuscatedOwner": "fbs",
+        "mcpMemberLine": "m f_102810_ 102810",
+        "officialResolvedName": "body"
+      }
+    ],
+    "f_102811_": [
+      {
+        "declaredObfuscatedOwner": "fbs",
+        "mcpMemberLine": "n f_102811_ 102811",
+        "officialResolvedName": "rightArm"
+      }
+    ],
+    "f_102812_": [
+      {
+        "declaredObfuscatedOwner": "fbs",
+        "mcpMemberLine": "o f_102812_ 102812",
+        "officialResolvedName": "leftArm"
+      }
+    ],
+    "f_102813_": [
+      {
+        "declaredObfuscatedOwner": "fbs",
+        "mcpMemberLine": "p f_102813_ 102813",
+        "officialResolvedName": "rightLeg"
+      }
+    ],
+    "f_102814_": [
+      {
+        "declaredObfuscatedOwner": "fbs",
+        "mcpMemberLine": "q f_102814_ 102814",
+        "officialResolvedName": "leftLeg"
+      }
+    ],
+    "f_103374_": [
+      {
+        "declaredObfuscatedOwner": "fck",
+        "mcpMemberLine": "b f_103374_ 103374",
+        "officialResolvedName": "leftSleeve"
+      }
+    ],
+    "f_103375_": [
+      {
+        "declaredObfuscatedOwner": "fck",
+        "mcpMemberLine": "w f_103375_ 103375",
+        "officialResolvedName": "rightSleeve"
+      }
+    ],
+    "f_103376_": [
+      {
+        "declaredObfuscatedOwner": "fck",
+        "mcpMemberLine": "x f_103376_ 103376",
+        "officialResolvedName": "leftPants"
+      }
+    ],
+    "f_103377_": [
+      {
+        "declaredObfuscatedOwner": "fck",
+        "mcpMemberLine": "y f_103377_ 103377",
+        "officialResolvedName": "rightPants"
+      }
+    ],
+    "f_103378_": [
+      {
+        "declaredObfuscatedOwner": "fck",
+        "mcpMemberLine": "z f_103378_ 103378",
+        "officialResolvedName": "jacket"
+      }
+    ],
+    "f_104203_": [
+      {
+        "declaredObfuscatedOwner": "fee",
+        "mcpMemberLine": "e f_104203_ 104203",
+        "officialResolvedName": "xRot"
+      }
+    ],
+    "f_104204_": [
+      {
+        "declaredObfuscatedOwner": "fee",
+        "mcpMemberLine": "f f_104204_ 104204",
+        "officialResolvedName": "yRot"
+      }
+    ],
+    "f_104205_": [
+      {
+        "declaredObfuscatedOwner": "fee",
+        "mcpMemberLine": "g f_104205_ 104205",
+        "officialResolvedName": "zRot"
+      }
+    ],
+    "m_104315_": [
+      {
+        "declaredObfuscatedOwner": "fee",
+        "mcpMemberLine": "a (Lfee;)V m_104315_ 104315",
+        "officialResolvedName": "copyFrom"
+      }
+    ],
+    "m_128356_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "a (Ljava/lang/String;J)V m_128356_ 128356",
+        "officialResolvedName": "putLong"
+      }
+    ],
+    "m_128347_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "a (Ljava/lang/String;D)V m_128347_ 128347",
+        "officialResolvedName": "putDouble"
+      }
+    ],
+    "m_128362_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "a (Ljava/lang/String;Ljava/util/UUID;)V m_128362_ 128362",
+        "officialResolvedName": "putUUID"
+      }
+    ],
+    "m_128405_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "a (Ljava/lang/String;I)V m_128405_ 128405",
+        "officialResolvedName": "putInt"
+      }
+    ],
+    "m_128359_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "a (Ljava/lang/String;Ljava/lang/String;)V m_128359_ 128359",
+        "officialResolvedName": "putString"
+      }
+    ],
+    "m_128365_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "a (Ljava/lang/String;Lrk;)Lrk; m_128365_ 128365",
+        "officialResolvedName": "put"
+      }
+    ],
+    "m_128342_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "a (Ljava/lang/String;)Ljava/util/UUID; m_128342_ 128342",
+        "officialResolvedName": "getUUID"
+      }
+    ],
+    "m_128425_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "b (Ljava/lang/String;I)Z m_128425_ 128425",
+        "officialResolvedName": "contains"
+      }
+    ],
+    "m_128403_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "b (Ljava/lang/String;)Z m_128403_ 128403",
+        "officialResolvedName": "hasUUID"
+      }
+    ],
+    "m_128451_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "h (Ljava/lang/String;)I m_128451_ 128451",
+        "officialResolvedName": "getInt"
+      }
+    ],
+    "m_128454_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "i (Ljava/lang/String;)J m_128454_ 128454",
+        "officialResolvedName": "getLong"
+      }
+    ],
+    "m_128459_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "k (Ljava/lang/String;)D m_128459_ 128459",
+        "officialResolvedName": "getDouble"
+      }
+    ],
+    "m_128461_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "l (Ljava/lang/String;)Ljava/lang/String; m_128461_ 128461",
+        "officialResolvedName": "getString"
+      }
+    ],
+    "m_128469_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "p (Ljava/lang/String;)Lqr; m_128469_ 128469",
+        "officialResolvedName": "getCompound"
+      }
+    ],
+    "m_128473_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "r (Ljava/lang/String;)V m_128473_ 128473",
+        "officialResolvedName": "remove"
+      }
+    ]
+  },
+  "methodSelectionsByClass": {
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity": [
+      "startSignatureCast"
+    ],
+    "net/farmingtales/ftboss/client/model/SayaPlayerModel": [
+      "setupAnim"
+    ],
+    "net/farmingtales/ftboss/integ/spells/BossSpellCombat": [
+      "__ALL__"
+    ],
+    "net/farmingtales/ftboss/saya/SayaCastCancellation": [
+      "__ALL__"
+    ],
+    "net/farmingtales/ftboss/client/saya/SayaCastingPose": [
+      "__ALL__"
+    ],
+    "net/farmingtales/ftboss/client/saya/SayaCastingPose$Memory": [
+      "__ALL__"
+    ]
+  },
+  "selectedOriginalMethods": [
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#startSignatureCast",
+    "net/farmingtales/ftboss/client/model/SayaPlayerModel#setupAnim",
+    "net/farmingtales/ftboss/integ/spells/BossSpellCombat#__ALL__",
+    "net/farmingtales/ftboss/saya/SayaCastCancellation#__ALL__",
+    "net/farmingtales/ftboss/client/saya/SayaCastingPose#__ALL__",
+    "net/farmingtales/ftboss/client/saya/SayaCastingPose$Memory#__ALL__"
+  ],
+  "completeUnmodifiedMappingsNotExported": true,
+  "modelOrAnimationInstructionsOmitted": true,
+  "allRawMethodInstructionsOmitted": true
+}
