@@ -1,0 +1,102 @@
+{
+  "previousCommit": "40e146af5ad232988557178f6d7527049c8e6387",
+  "key": "manor-native-damage-baseline-cleanup-20261114",
+  "sourceFiles": [
+    {
+      "source": "AGENTS.md",
+      "gitPath": "neoforge/ftboss/AGENTS.md",
+      "bytes": 71455,
+      "sha256": "d04ed38e6788ebeda42d67340824fea434b19a7987b22fd9bf3c80e122822ace"
+    },
+    {
+      "source": "work/session-boss/MANOR_NATIVE_DAMAGE_EVENT_BASELINE_20261114.md",
+      "gitPath": "neoforge/ftboss/work/session-boss/MANOR_NATIVE_DAMAGE_EVENT_BASELINE_20261114.md",
+      "bytes": 5596,
+      "sha256": "5dda09abaf409fe9356fd727eab8da24bd0bf0e5faaf3f0532c5a1eb0d1d6f77"
+    },
+    {
+      "source": "work/session-boss/reports/manor-native-damage-baseline-source-cache-closeout-20261114.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-native-damage-baseline-cleanup-20261114/evidence/0def32e079f1d36a.json",
+      "bytes": 1690,
+      "sha256": "456dbd94f94e397c4f1bb82c6123d00295830ca195cb97903737e4fc33e69994"
+    },
+    {
+      "source": "work/session-boss/reports/boss-manor-native-damage-baseline-source-v1-20261114/remote-proof.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-native-damage-baseline-cleanup-20261114/evidence/e9f63048580f3a31.json",
+      "bytes": 378,
+      "sha256": "fa68f235e20003a9b6077b50203b159f4a6db36c2db603891ab484f53a056434"
+    },
+    {
+      "source": "work/session-boss/reports/boss-manor-native-damage-baseline-source-v1-20261114/cleanup-plan.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-native-damage-baseline-cleanup-20261114/evidence/9d6066e2fc8bd083.json",
+      "bytes": 1295,
+      "sha256": "62b888a76b37d42146973f27e758f4c2ca20adf8c32ff07a7850ae363a786e55"
+    },
+    {
+      "source": "work/session-boss/reports/boss-manor-native-damage-baseline-source-v1-20261114/cleanup-result.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-native-damage-baseline-cleanup-20261114/evidence/01b6d1e0069b5011.json",
+      "bytes": 1340,
+      "sha256": "3990bb42bf28171af38d856d579b00342a648620b8d28f2b936f4e23e5edbd6e"
+    },
+    {
+      "source": "work/session-boss/reports/boss-manor-native-damage-baseline-source-v1-20261114/source-only-audit.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-native-damage-baseline-cleanup-20261114/evidence/7dc993390befa829.json",
+      "bytes": 448,
+      "sha256": "05625e67933749a9c4194b4efad01665dcccb10bfff1d87336e63bf0a3e319f8"
+    },
+    {
+      "source": "work/session-boss/reports/boss-manor-native-damage-baseline-source-v1-20261114/source-scan/verification.json",
+      "gitPath": "neoforge/ftboss/github-sync/manor-native-damage-baseline-cleanup-20261114/evidence/c22dafb508e3c814.json",
+      "bytes": 1011,
+      "sha256": "222c9b6c38224c75f1cbd5a4a3149a38877e60c066b544aa7bb81fd4ab075ff4"
+    }
+  ],
+  "checkpointPath": "neoforge/ftboss/github-sync/checkpoint-manor-native-damage-baseline-cleanup-20261114.json",
+  "scope": "Persist independently verified native damage-event baseline source recovery and expected duplicate-cache absence; no product acceptance expansion.",
+  "acceptance": {
+    "sourceCommit": "40e146af5ad232988557178f6d7527049c8e6387",
+    "sourceFilesIndependentlyRecovered": 18,
+    "wholeTreeSourceOnlyFilesAudited": 4450,
+    "expectedAbsentDuplicateSourceFiles": {
+      "neoforge/ftboss/work/session-boss/tests/ManorNativeDamageEventBaselineV1.java": {
+        "bytes": 12483,
+        "sha256": "240fd99c5e72e9604be74ac1f6bdd1a7bde9fd7f2dbed62c8f6f8850a1a040e2"
+      },
+      "neoforge/ftboss/work/session-boss/tools/run_boss_manor_native_damage_event_baseline_v1.py": {
+        "bytes": 12058,
+        "sha256": "2444a900303285b406138c62225b82cf31d3cc99dd4fc587c40889e7aa7b04d5"
+      },
+      "neoforge/ftboss/work/session-boss/tools/audit_boss_manor_native_damage_contract_v1.py": {
+        "bytes": 6994,
+        "sha256": "0e541d6aeb38d9f84de66fcc8966bdcc60fb43f85ccd45d3794643ec205362ad"
+      },
+      "neoforge/ftboss/work/session-boss/tools/dedup_closed_accepted_boss_runtime_jars_v2.py": {
+        "bytes": 5032,
+        "sha256": "9cf146ca795bc38b41c4ee546098f2b74e2bf5044f4b367006df91506f26f891"
+      },
+      "neoforge/ftboss/work/session-boss/tools/checkpoint_boss_scoped_source_v2.py": {
+        "bytes": 10008,
+        "sha256": "e186e9e23ae7a8130a10c47d8525f53b8c270449b9fe4868714febd910285afe"
+      }
+    },
+    "deletedFileCount": 5,
+    "logicalBytes": 46575,
+    "canonicalInputsAndAllResourcesRetained": true,
+    "nativeCompatibilityImplemented": false,
+    "modelOrMusicUploaded": false,
+    "fullBossMigrationComplete": false,
+    "installable": false,
+    "deployed": false,
+    "restoreManifest": "neoforge/ftboss/github-sync/checkpoint-manor-native-damage-baseline-20261114.json",
+    "restoreTool": "work/session-boss/tools/restore_boss_git_blob_v1.py"
+  },
+  "remaining": [
+    "Implement complete Boss-only native damage event lifecycle and preserve original behavior.",
+    "All full Boss requirements and deployment prohibition remain."
+  ],
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false,
+  "modelAndMusicResourcesExcluded": true,
+  "rawResourcesRemainLocalOnly": true
+}

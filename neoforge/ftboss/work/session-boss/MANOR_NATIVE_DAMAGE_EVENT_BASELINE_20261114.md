@@ -36,3 +36,7 @@ After all three relevant runtimes were terminal, 84 independent closed-runtime J
 Models, textures, animations and music/audio are local-only. Raw JAR/class/world/binary resources and nested payloads are excluded from Git and Release uploads. Only reviewed source, text and path/hash evidence may be archived. Source recovery does not recover excluded resources.
 
 Primary receipt: `work/session-boss/reports/manor-native-damage-event-baseline-closeout-20261114.json`.
+
+## Verified source recovery and cache cleanup
+
+Commit `40e146af5ad232988557178f6d7527049c8e6387` is pushed to the existing source branch. Independent remote fetch/blob recovery verifies all 18 selected files, while the full 4450-file tree passes resource exclusion. Weapons, archive-storage and root README stay unchanged. Exactly five duplicate source worktree files (46575 bytes) were evicted after recovery and handle checks, with expected absent paths in the checkpoint/cleanup manifest. Canonical compilation/runtime inputs and every resource stay local. The same commit preserves the previous five failed-export duplicate text cleanup records. No native compatibility fix is claimed.
