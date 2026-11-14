@@ -129,6 +129,13 @@ def publish_and_prune(index, baseline):
     owner()
     target = REPO / PREFIX
     target.mkdir(exist_ok=True)
+    (target / '.gitattributes').write_bytes(b'* -text\n')
+    coverage_target = target / 'coverage'
+    coverage_target.mkdir(exist_ok=True)
+    for metadata in (OUT / 'archive-coverage').iterdir():
+        destination = coverage_target / metadata.name
+        if not destination.exists():
+            shutil.copyfile(metadata, destination)
     save(target / 'INDEX.json', index)
     note = '# FT archive storage\n\nSource and this index are stored in Git. Large immutable recovery archives are uploaded as content-addressed assets of the same repository draft release ft-cache-archive-20261114. Draft assets require repository write access and are intentionally not a public playable release. No deployment or installability is claimed. Each remoteVerified row records an independent streamed full download SHA256 and byte count.\n\nUse GitHub release asset API IDs with authenticated Accept: application/octet-stream requests. Do not print or save credentials or signed redirect URLs. Verify bytes and SHA256 before using a downloaded file. The original relative path is the key in INDEX.json. CAS increments still require their original hash-bound base archive. Native failed worlds remain failed evidence, never restart seeds.\n\nLocal archive copies are evictable caches after remote artifact verification plus independent Git index recovery verification. The active Stage28 base may remain cached while needed. Preserve the current Boss candidate, required compile/runtime inputs and formal instances.\n'
     (target / 'RESTORE.md').write_text(note, encoding='utf-8')
@@ -136,6 +143,7 @@ def publish_and_prune(index, baseline):
     source_target.parent.mkdir(exist_ok=True)
     source_target.write_bytes(Path(__file__).read_bytes())
     git(REPO, 'add', '--sparse', '-f', '--', PREFIX)
+    git(REPO, 'add', '--sparse', '--renormalize', '-f', '--', PREFIX)
     changed = [name for name in git(REPO, 'diff', '--cached', '--name-only', '-z').decode().split('\0') if name]
     assert changed and all(name.startswith(PREFIX) for name in changed)
     generation = index['generation']
@@ -196,6 +204,11 @@ def run(limit):
     assert release['draft']
     save(OUT / 'release.json', {'id': release['id'], 'tag': TAG, 'draft': True, 'repository': 'qyby123456/ft'})
     index = load(OUT / 'index-state.json') if (OUT / 'index-state.json').exists() else {'format': 'ft-remote-archive-cache-v1', 'repository': 'qyby123456/ft', 'releaseId': release['id'], 'releaseTag': TAG, 'draft': True, 'generation': 0, 'archives': {}}
+    prior_generations = [int(path.stem.rsplit('-', 1)[1]) for path in OUT.glob('git-local-commit-*.json')]
+    index['generation'] = max([index['generation'], *prior_generations])
+    if any(row['remoteVerified'] and not row.get('localCacheRemoved') and name not in KEEP and (ROOT / name).exists() for name, row in index['archives'].items()):
+        index['generation'] += 1
+        publish_and_prune(index, baseline)
     available = assets(opener, headers, release)
     inventory = load(OUT / 'archive-inventory.json')['files']
     priority = 'work/session-boss/archives/weapons-paused-cf217105-boss-priority-v2-20261113/weapons-source-evidence-and-recovery.zip'
