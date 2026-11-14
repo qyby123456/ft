@@ -1,0 +1,151 @@
+name: Import verified Forge FT three-part checkpoint
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import-checkpoint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Verify incremental bundle and import without rewriting history
+        env:
+          FT_GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64
+          import hashlib
+          import http.client
+          import json
+          import os
+          import subprocess
+          import tempfile
+          import urllib.parse
+          import urllib.request
+          from pathlib import Path
+          
+          manifest = {'repository': 'qyby123456/ft', 'source_commit': '314358410cdb5df38d5aecbc758b9eb6b3275bc2', 'base_commit': 'f7874409787d113232b606d3ac5a48e2a2c61678', 'release_id': 444924930, 'bundle_sha256': '496ed493770128e2879cd85fdad2cd944784b2bbf8212a2719d3267ebcdcc9c6', 'bundle_bytes': 158372132, 'parts': [{'id': 745895630, 'name': 'ft-forge-input-314358410cdb-0001.bundlepart', 'url': 'https://api.github.com/repos/qyby123456/ft/releases/assets/745895630', 'bytes': 67108864, 'sha256': 'bef9c7ad48135762abc09b532229da402c1302041ddad1f1360b0ffcbee368d1'}, {'id': 745896095, 'name': 'ft-forge-input-314358410cdb-0002.bundlepart', 'url': 'https://api.github.com/repos/qyby123456/ft/releases/assets/745896095', 'bytes': 67108864, 'sha256': '76b35d6a2656b372272423ebb793c3fa3095b6cbe3317258f1779f7f4b6fdcaa'}, {'id': 745896548, 'name': 'ft-forge-input-314358410cdb-0003.bundlepart', 'url': 'https://api.github.com/repos/qyby123456/ft/releases/assets/745896548', 'bytes': 24154404, 'sha256': 'a8326a5c0b752150b9d5a19fb07618489ca304594bdcd63be4b86b46a12a648a'}], 'workflow_path': '.github/workflows/import-ft-forge-314358410cdb.yml', 'checkpoints': ['314358410cdb5df38d5aecbc758b9eb6b3275bc2']}
+          token = os.environ['FT_GITHUB_TOKEN']
+          repository = os.environ['GITHUB_REPOSITORY']
+          if repository != 'qyby123456/ft' or manifest['repository'] != repository:
+              raise RuntimeError('Repository identity differs from the authorized destination')
+          
+          class SafeRedirect(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self, request, file_pointer, code, message, headers, new_url):
+                  redirected = super().redirect_request(request, file_pointer, code, message, headers, new_url)
+                  if redirected and urllib.parse.urlparse(request.full_url).hostname != urllib.parse.urlparse(new_url).hostname:
+                      redirected.remove_header('Authorization')
+                  return redirected
+          
+          opener = urllib.request.build_opener(SafeRedirect())
+          temporary = Path(tempfile.mkdtemp(prefix='ft-verified-import-'))
+          bundle = temporary / 'input.bundle'
+          whole = hashlib.sha256()
+          with bundle.open('wb') as output:
+              for part in manifest['parts']:
+                  request = urllib.request.Request(part['url'], headers={'Authorization': 'Bearer ' + token, 'Accept': 'application/octet-stream', 'User-Agent': 'FT-verified-import'})
+                  content_hash = hashlib.sha256()
+                  received = 0
+                  with opener.open(request, timeout=300) as response:
+                      while chunk := response.read(1024 * 1024):
+                          output.write(chunk)
+                          content_hash.update(chunk)
+                          whole.update(chunk)
+                          received += len(chunk)
+                  if content_hash.hexdigest() != part['sha256'] or received != part['bytes']:
+                      raise RuntimeError('Input bundle part failed integrity verification')
+          if whole.hexdigest() != manifest['bundle_sha256']:
+              raise RuntimeError('Input bundle failed SHA256 verification')
+          
+          environment = os.environ.copy()
+          authorization = base64.b64encode(('x-access-token:' + token).encode('utf-8')).decode('ascii')
+          environment.update(GIT_CONFIG_COUNT='1', GIT_CONFIG_KEY_0='http.https://github.com/.extraheader', GIT_CONFIG_VALUE_0='AUTHORIZATION: basic ' + authorization, GIT_TERMINAL_PROMPT='0')
+          repo = temporary / 'repository'
+          
+          def git(*arguments, cwd=None):
+              result = subprocess.run(['git', *arguments], cwd=cwd or repo, env=environment, capture_output=True, text=True)
+              if result.returncode:
+                  raise RuntimeError('Git ' + arguments[0] + ' failed: ' + result.stderr[-2000:])
+              return result.stdout.strip()
+          
+          git('clone', '--no-checkout', 'https://github.com/' + repository + '.git', str(repo), cwd=temporary)
+          head = git('rev-parse', 'HEAD')
+          if head != os.environ['GITHUB_SHA']:
+              raise RuntimeError('Main changed after workflow dispatch; refusing to overwrite concurrent work')
+          git('bundle', 'verify', str(bundle))
+          git('fetch', '--no-tags', str(bundle), 'refs/heads/main:refs/remotes/checkpoint/main')
+          if git('rev-parse', 'refs/remotes/checkpoint/main') != manifest['source_commit']:
+              raise RuntimeError('Imported source commit differs from verified checkpoint')
+          git('merge-base', '--is-ancestor', manifest['base_commit'], 'refs/remotes/checkpoint/main')
+          git('merge-base', '--is-ancestor', manifest['base_commit'], 'main')
+          git('config', 'user.name', 'github-actions[bot]')
+          git('config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com')
+          for index, checkpoint in enumerate(manifest['checkpoints'], 1):
+              git('merge-base', '--is-ancestor', checkpoint, manifest['source_commit'])
+              already = subprocess.run(['git', 'merge-base', '--is-ancestor', checkpoint, 'HEAD'], cwd=repo, env=environment).returncode == 0
+              if already:
+                  continue
+              previous = git('rev-parse', 'HEAD')
+              tree = git('merge-tree', '--write-tree', 'HEAD', checkpoint)
+              if len(tree) != 40 or any(character not in '0123456789abcdef' for character in tree):
+                  raise RuntimeError('Merge tree did not resolve to one exact tree object')
+              merged = git('commit-tree', tree, '-p', previous, '-p', checkpoint, '-m', 'Merge verified FT development checkpoint ' + str(index) + ' while preserving existing main history')
+              git('update-ref', 'refs/heads/main', merged, previous)
+              git('push', 'origin', 'HEAD:refs/heads/main')
+              print(json.dumps({'source_checkpoints_pushed': index, 'total_checkpoints': len(manifest['checkpoints'])}), flush=True)
+          git('merge-base', '--is-ancestor', manifest['source_commit'], 'HEAD')
+          head = git('rev-parse', 'HEAD')
+          git('fsck', '--full')
+          recovery = temporary / 'remote-main.bundle'
+          git('bundle', 'create', str(recovery), 'refs/heads/main', '^' + manifest['base_commit'])
+          
+          def file_hash(path):
+              with path.open('rb') as stream:
+                  return hashlib.file_digest(stream, 'sha256').hexdigest()
+          
+          def upload(name, path, offset, size, sha256):
+              connection = http.client.HTTPSConnection('uploads.github.com', timeout=300)
+              endpoint = '/repos/' + repository + '/releases/' + str(manifest['release_id']) + '/assets?name=' + urllib.parse.quote(name)
+              connection.putrequest('POST', endpoint)
+              connection.putheader('Authorization', 'Bearer ' + token)
+              connection.putheader('User-Agent', 'FT-verified-import')
+              connection.putheader('Content-Type', 'application/octet-stream')
+              connection.putheader('Content-Length', str(size))
+              connection.endheaders()
+              remaining = size
+              with path.open('rb') as stream:
+                  stream.seek(offset)
+                  while remaining:
+                      chunk = stream.read(min(remaining, 1024 * 1024))
+                      if not chunk:
+                          raise RuntimeError('Unexpected recovery upload EOF')
+                      connection.send(chunk)
+                      remaining -= len(chunk)
+              response = connection.getresponse()
+              data = response.read()
+              if response.status != 201:
+                  raise RuntimeError('Recovery upload HTTP ' + str(response.status))
+              asset = json.loads(data)
+              connection.close()
+              return {'id': asset['id'], 'name': asset['name'], 'url': asset['url'], 'bytes': size, 'sha256': sha256}
+          
+          run_id = os.environ['GITHUB_RUN_ID']
+          attempt = os.environ['GITHUB_RUN_ATTEMPT']
+          parts = []
+          size = recovery.stat().st_size
+          chunk_size = 64 * 1024 * 1024
+          with recovery.open('rb') as source:
+              for index, offset in enumerate(range(0, size, chunk_size), 1):
+                  data = source.read(min(chunk_size, size - offset))
+                  part_hash = hashlib.sha256(data).hexdigest()
+                  name = 'ft-remote-' + run_id + '-' + attempt + '-' + str(index).zfill(4) + '.bundlepart'
+                  parts.append(upload(name, recovery, offset, len(data), part_hash))
+                  print(json.dumps({'recovery_parts_uploaded': index}), flush=True)
+          receipt = {'commit': head, 'source_commit': manifest['source_commit'], 'bundle_bytes': size, 'bundle_sha256': file_hash(recovery), 'parts': parts, 'run_id': run_id, 'run_attempt': attempt, 'workflow_path': manifest['workflow_path']}
+          receipt_path = temporary / 'recovery.json'
+          receipt_path.write_text(json.dumps(receipt), encoding='utf-8')
+          name = 'ft-remote-recovery-' + run_id + '-' + attempt + '.json'
+          asset = upload(name, receipt_path, 0, receipt_path.stat().st_size, file_hash(receipt_path))
+          print(json.dumps({'remote_main': head, 'recovery_manifest_asset_id': asset['id'], 'recovery_manifest_name': name}), flush=True)
+          PY
