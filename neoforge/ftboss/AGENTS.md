@@ -1,5 +1,7 @@
 ## Stage38 Boss 原奖励限制原生验证，2026-11-14
 
+Stage38 源码与限定文字证据已推送 d7fbc93b63086ffcd628f1d5f1eebc84a8ff62ca，32 文件独立远端逐 blob 恢复，4999 文件整树资源排除检查通过。核验零进程/句柄引用后，仅清理 Git 工作副本 4 份重复 Java/Python（53391 字节），skip-worktree；canonical 冻结输入保留。28 个关闭依赖 JAR 原路径与字节本地保留，只读同哈希去重约释放 206 MiB。源码恢复入口 github-sync/checkpoint-boss-material-reward-guards-20261114.json；预期缺失与清理入口 github-sync/checkpoint-boss-material-reward-guards-cleanup-20261114.json。模型/贴图/动画/音乐/音频、JAR、世界和嵌套/编码资源一律不上传，Git 不提供排除资源恢复。正式实例未部署，完整 Boss 仍未完成。
+
 产品字节保持 Stage37 6c0acbcdda6fdecba9db9cc512ebdaceff36f84dd52ddf09b2879563716f54d9、NOT-INSTALLABLE。真实离线客户端/集成服十场景、5106 检查通过；范围为 FROST 原 scriptedDeath 与 WINE 原 normalDrops 两条原奖励入口。各自验证无玩家来源且无玩家 killCredit 拒绝、实际玩家击杀但 doMobLoot=false 拒绝、一次真实非致死玩家攻击建立原生 killCredit 后由公开无实体来源伤害命令终结仍正常给一份材料、原生死亡取消拒绝，以及原生普通掉落取消。
 
 保留原事件顺序差异：霜糖在更早 LivingDeath 中已生成材料，后来取消 LivingDrops 不撤回该材料；酒桶走 LivingDrops，取消后不生成材料。十场各观察终止后 40 自然 tick，原 rewarded 标志与实际 ItemEntity 数量一致，无重复；未手工调用奖励或事件处理函数、改时间、写身份/归属/奖励状态或 Boss 血量。无玩家来源由公开 vanilla damage 命令原生生成，不声称自然环境物理击杀。
