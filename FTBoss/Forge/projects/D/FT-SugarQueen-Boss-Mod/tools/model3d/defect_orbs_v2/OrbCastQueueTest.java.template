@@ -1,0 +1,94 @@
+import java.util.ArrayDeque;
+import java.util.UUID;
+
+public final class OrbCastQueueTest {
+    private enum OrbType { GLASS, LIGHTNING, DARK }
+    private record QueuedCast(OrbType type, int charge, UUID orbId) {}
+
+    private static final class Boss {
+        boolean locked;
+        int cancelled;
+        boolean isActionLocked() { return this.locked; }
+        void cancelOrbCastVisual() { this.cancelled++; }
+        void showOrbCue(String stage, OrbType type, int id, int duration) {}
+    }
+
+    private static final class ChargedOrbEntity {
+        final UUID id = UUID.randomUUID();
+        boolean reserved;
+        boolean available = true;
+        boolean owned = true;
+        boolean spent;
+        boolean isOrbAvailable() { return this.available; }
+        boolean isOwnedBy(Boss boss) { return this.owned; }
+        boolean isReservedForCast() { return this.reserved; }
+        boolean isSpentProjectile() { return this.spent; }
+        void reserveForCast() { this.reserved = true; }
+        OrbType getOrbType() { return OrbType.LIGHTNING; }
+        int getChargeTicks() { return 200; }
+        UUID getUUID() { return this.id; }
+        int getId() { return this.id.hashCode(); }
+    }
+
+    private static final class Harness {
+        final Boss boss = new Boss();
+        final ArrayDeque<QueuedCast> castBacklog = new ArrayDeque<>();
+        static final int SLOTS_MAX = 11;
+        OrbType pendingType;
+        UUID pendingOrbId;
+        int pendingTicks;
+        int started;
+        int punished;
+
+        void onOrbDestroyed(OrbType type) { this.punished++; }
+        void beginOrbCast(OrbType type, int charge, ChargedOrbEntity orb) {
+            this.pendingType = type;
+            this.pendingOrbId = orb.getUUID();
+            this.pendingTicks = 9;
+            this.started++;
+        }
+
+        PRODUCTION_METHODS
+    }
+
+    public static void main(String[] arguments) {
+        Harness harness = new Harness();
+        ChargedOrbEntity selected = new ChargedOrbEntity();
+        for (int tick = 0; tick < 100; tick++) harness.requestOrbCast(selected);
+        assert harness.started == 1;
+        assert harness.castBacklog.isEmpty();
+        assert selected.reserved;
+        ChargedOrbEntity queued = new ChargedOrbEntity();
+        for (int tick = 0; tick < 100; tick++) harness.requestOrbCast(queued);
+        assert harness.castBacklog.size() == 1;
+        harness.onOrbDestroyed(queued);
+        assert harness.castBacklog.isEmpty();
+        assert harness.pendingOrbId.equals(selected.id);
+        assert harness.boss.cancelled == 0;
+        harness.onOrbDestroyed(selected);
+        assert harness.pendingType == null;
+        assert harness.pendingOrbId == null;
+        assert harness.pendingTicks == 0;
+        assert harness.boss.cancelled == 1;
+        assert harness.punished == 2;
+        harness.boss.locked = true;
+        for (int index = 0; index < 30; index++) harness.requestOrbCast(new ChargedOrbEntity());
+        assert harness.castBacklog.size() == Harness.SLOTS_MAX;
+        ChargedOrbEntity excess = new ChargedOrbEntity();
+        harness.requestOrbCast(excess);
+        assert !excess.reserved;
+        Harness filtered = new Harness();
+        ChargedOrbEntity invalid = new ChargedOrbEntity();
+        invalid.owned = false;
+        filtered.requestOrbCast(invalid);
+        invalid.owned = true;
+        invalid.spent = true;
+        filtered.requestOrbCast(invalid);
+        invalid.spent = false;
+        invalid.available = false;
+        filtered.requestOrbCast(invalid);
+        assert filtered.started == 0;
+        assert filtered.castBacklog.isEmpty();
+        System.out.println("Orb queue production methods: deduplication, ownership, spent filtering, capacity and interrupt tests passed.");
+    }
+}

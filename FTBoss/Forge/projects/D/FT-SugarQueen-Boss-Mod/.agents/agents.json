@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "note": "Machine-readable write scopes for project-level agent configuration and plugins. Humans and harnesses should treat denyWrite as authoritative. The documentation gate is also enforced at commit time by .githooks/pre-commit and tools/check_docs_policy.cjs.",
+  "roles": {
+    "docs-writer": {
+      "description": "Sole writer of the documentation library docs/**.",
+      "write": ["docs/"],
+      "read": ["**"],
+      "denyWrite": [
+        "src/",
+        "tools/",
+        "libs/",
+        "gradle/",
+        "build/",
+        "run/",
+        "resources/",
+        "_work/",
+        ".agents/",
+        ".githooks/",
+        "AGENTS.md",
+        "README.md",
+        "CODE_STYLE.md"
+      ]
+    },
+    "implementation-agent": {
+      "description": "Implements source, resources and tooling; must never write docs/**.",
+      "write": ["src/", "tools/", "gradle/", "libs/", "_work/"],
+      "read": ["**"],
+      "denyWrite": [
+        "docs/",
+        ".agents/",
+        ".githooks/",
+        "AGENTS.md",
+        "README.md",
+        "CODE_STYLE.md"
+      ]
+    },
+    "lead": {
+      "description": "Triages documentation proposals, dispatches the docs-writer, reviews deliveries.",
+      "write": ["**"],
+      "read": ["**"],
+      "denyWrite": []
+    }
+  },
+  "enforcement": {
+    "commitHook": ".githooks/pre-commit",
+    "checkScript": "tools/check_docs_policy.cjs",
+    "docsWriterEnv": "FTBOSS_DOCS_WRITER=1",
+    "proposalChannel": "_work/docs-proposals/"
+  }
+}

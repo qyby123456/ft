@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [ { "type": "minecraft:item", "name": "ftboss:statue_apple" } ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "ftboss:statue_apple",
+          "properties": { "half": "lower" }
+        }
+      ]
+    }
+  ]
+}

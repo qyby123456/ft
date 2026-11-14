@@ -1,0 +1,63 @@
+{
+  "schema": "youzi-homing-flight/v1",
+  "spell": "effigy_volley",
+  "reference": {
+    "class": "io.redspace.ironsspellbooks.entity.spells.magic_arrow.MagicArrowProjectile",
+    "getSpeedBlocksPerTick": 2.7,
+    "ticksPerSecond": 20,
+    "policy": "Reference speed only; authored steering and mesh, no imported renderer or projectile class"
+  },
+  "motion": {
+    "initialSpeed": 12,
+    "maximumSpeed": 54,
+    "accelerationSeconds": 0.12,
+    "maximumTurnDegreesPerSecond": 540,
+    "predictionSeconds": 0.12,
+    "maximumDistance": 24,
+    "maximumLifetime": 1.2,
+    "fixedStepSeconds": 0.004166666666666667,
+    "projectileRadius": 0.1
+  },
+  "appearance": {
+    "trailSeconds": 0.075,
+    "trailFadeSeconds": 0.12,
+    "trailMaximumSamples": 24,
+    "trailWidth": 0.13,
+    "trailTexture": "effigy_flight_ribbon.png",
+    "impactSeconds": 0.18,
+    "impactRadius": 0.38,
+    "seedForward": [0, 0, -1],
+    "cameraAutoFadeEnabled": false,
+    "cameraPolicy": "2026-10-09 shared revision: preserve authored material alpha; no first-person proximity or crosshair auto fading/clipping"
+  },
+  "preview": {
+    "launchSeconds": [0, 0.6, 1.2],
+    "duration": 2.8,
+    "targetRadius": 0.35,
+    "targetBase": [2.6, 2.05, -14],
+    "targetAmplitude": [2.1, 0.3, 0.35],
+    "targetFrequency": 2.1,
+    "targetLossAfterLaunchSeconds": 0.12,
+    "launchDirections": [[-0.3, 0.1, -1], [0.24, 0.08, -1], [-0.16, -0.06, -1]],
+    "label": "离线移动靶；飞行演示不是游戏命中验证",
+    "launchPolicy": "Original server pulse ticks 0/12/24. Editable bolt bones remain the source of the three muzzle positions; held bolts are hidden after release and real entities own flight."
+  },
+  "runtimePolicy": {
+    "serverAuthoritative": true,
+    "preserveExistingPulseCadence": true,
+    "preserveProjectileCount": 3,
+    "preserveDamageCooldownManaAndRankScaling": true,
+    "oneHitPerProjectile": true,
+    "piercesBlocks": false,
+    "retargetAfterLoss": false,
+    "targetSelection": "Existing valid hostile target inside range and cone; never self, allied, spectator or dead targets",
+    "collision": "Swept collision per substep; resolve nearest block/entity intersection before movement, never endpoint-only",
+    "lossPolicy": "Keep last heading; continue at current speed, then expire at range/lifetime limit",
+    "clientPolicy": "Orient authored seed to authoritative velocity; history trail only, no cosmetic path used as damage authority"
+  },
+  "deployment": {
+    "gameAdapterImplemented": true,
+    "installedJarModified": false,
+    "inGameVerified": false
+  }
+}

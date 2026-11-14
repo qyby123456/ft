@@ -1,0 +1,21 @@
+allprojects {
+    afterEvaluate {
+        tasks.register('compileEasterCombat', JavaCompile) {
+            source = project.files([
+                'src/main/java/net/farmingtales/ftboss/entity/EasterBossEntity.java',
+                'src/main/java/net/farmingtales/ftboss/client/model/EasterBossModel.java',
+                'src/main/java/net/farmingtales/ftboss/client/render/EasterSkillVisual.java',
+                'src/main/java/net/farmingtales/ftboss/util/EasterCombatMath.java',
+                'src/main/java/net/farmingtales/ftboss/util/HiddenBossCastRules.java'
+            ].collect { project.file(it) })
+            classpath = tasks.named('compileJava').get().classpath + project.files(project.file('build/classes/java/main'))
+            destinationDirectory = project.layout.buildDirectory.dir('easter-combat/classes')
+            javaCompiler = tasks.named('compileJava').get().javaCompiler
+            options.encoding = 'UTF-8'
+            options.compilerArgs += ['-implicit:none']
+            doLast {
+                project.file('build/easter-combat/classpath.txt').text = classpath.asPath
+            }
+        }
+    }
+}

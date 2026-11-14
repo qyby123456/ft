@@ -1,0 +1,13 @@
+allprojects {
+    afterEvaluate {
+        tasks.register('doraArsenalClasspath') {
+            dependsOn 'classes'
+            doLast {
+                def directory = layout.buildDirectory.dir('dora-arsenal-check').get().asFile
+                directory.mkdirs()
+                new File(directory, 'classpath.txt').setText(sourceSets.main.compileClasspath.asPath
+                        + File.pathSeparator + sourceSets.main.output.classesDirs.asPath, 'UTF-8')
+            }
+        }
+    }
+}

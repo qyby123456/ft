@@ -1,0 +1,11 @@
+--- a/net/farmingtales/ftboss/item/OwnerRepairContinuation.java
++++ b/net/farmingtales/ftboss/item/OwnerRepairContinuation.java
+@@ -483,7 +483,7 @@
+     }
+ 
+     static boolean identityAlias(Object parent, Object child) {
+-        if (!caller(OwnerFullRepairGuard.class, "alias") || !(child instanceof int[] array)) return false;
++        if (!(child instanceof int[] array) || !caller(OwnerFullRepairGuard.class, "alias")) return false;
+         synchronized (OwnerFullRepairGuard.class) {
+             IdentityRead read = READS.get(parent);
+             if (read == null) return false;

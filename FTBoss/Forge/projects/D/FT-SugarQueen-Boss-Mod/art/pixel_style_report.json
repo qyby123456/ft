@@ -1,0 +1,39 @@
+{
+  "geo": "src\\main\\resources\\assets\\ftboss\\geo\\qingyi_confluence_trident.geo.json",
+  "texture": "src\\main\\resources\\assets\\ftboss\\textures\\item\\qingyi_confluence_trident.png",
+  "texture_size": [
+    256,
+    128
+  ],
+  "target_density": 2,
+  "screen_ppu": null,
+  "checked_faces": 0,
+  "flagged_faces": 0,
+  "high_density_area_ratio": 0,
+  "density_percentiles": {
+    "p50": 0,
+    "p75": 0,
+    "p90": 0,
+    "max": 0
+  },
+  "body_excluding_glow": {
+    "excluded_bones": [],
+    "faces": 0,
+    "median_density": 0,
+    "high_density_area_ratio": 0,
+    "verdict": "主体中位密度 0.00 px/单位，在目标范围内"
+  },
+  "by_bone": [],
+  "status": "未发现规则警告",
+  "limitations": [
+    "使用静态 cube 尺寸，不计骨骼动画、inflate 和游戏显示缩放",
+    "面积包含遮挡面和内部面，不代表实际屏幕可见面积",
+    "纹素密度不等于有效细节密度，最近邻放大的贴图也会被提示",
+    "相邻色差只用于定位纹理，不是像素美术质量评分",
+    "Box UV 或不完整 UV 会跳过；跳过项不代表通过",
+    "未验证游戏纹理过滤、Mipmaps 和运动中的闪烁",
+    "整模汇总值会被极小的光效种子块带偏，判断请看 body_excluding_glow 与 by_bone"
+  ],
+  "skipped": [],
+  "faces": []
+}

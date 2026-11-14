@@ -1,0 +1,236 @@
+{
+  "design": "hand-drawn reference remake, not the DS v4 geometry",
+  "revision": "07_palm_and_cutting_plane",
+  "animation_fps": 30,
+  "blade_thickness": {
+    "iron": 4.8,
+    "ironDark": 4,
+    "spine": 5.4,
+    "bevel": 3.65,
+    "silver": 2.2,
+    "edge": 0.8,
+    "blackEdge": 1.8
+  },
+  "coordinate_convention": "GeckoLib 4: reflected X, native rotations (-X,-Y,+Z); preview unreflects X",
+  "grip_origin": [
+    0,
+    0,
+    0
+  ],
+  "grip_rebase_units": 5.5,
+  "wing_surface_recess": 0.2,
+  "section_sizes": {
+    "grip_core": [
+      2.3,
+      14.2,
+      2.2
+    ],
+    "haft_core": [
+      2.1,
+      21,
+      2.05
+    ],
+    "compact_socket": [
+      3.3,
+      3.8,
+      5.2
+    ]
+  },
+  "source": "C:/Users/YOUR_USERNAME/OneDrive/桌面/自绘黑切.png",
+  "source_sha256": "15e4987a8193613a0a7ac8ffb501a8519e27975a305f33edf4c0b0a30f96dd6e",
+  "bones": 17,
+  "cubes": 357,
+  "faces": 2142,
+  "texture": [
+    256,
+    256
+  ],
+  "bounds": [
+    [
+      -13.435029274895797,
+      10.96015461096026
+    ],
+    [
+      -8.722792206135786,
+      29.552081528017133
+    ],
+    [
+      -3.3,
+      3.3
+    ]
+  ],
+  "size": [
+    24.395183885856056,
+    38.27487373415292,
+    6.6
+  ],
+  "uv_faces_with_opaque_centers": 2142,
+  "wings": {
+    "blade_upper_wing": 1,
+    "blade_lower_wing": -1,
+    "blade_right_upper_wing": -1,
+    "blade_right_lower_wing": 1
+  },
+  "poses": [
+    {
+      "progress": 0,
+      "angle": 0,
+      "bounds": [
+        [
+          -13.435029274895797,
+          10.96015461096026
+        ],
+        [
+          -8.722792206135786,
+          29.552081528017133
+        ],
+        [
+          -3.3,
+          3.3
+        ]
+      ]
+    },
+    {
+      "progress": 0.5,
+      "angle": 5.5,
+      "bounds": [
+        [
+          -13.435029274895797,
+          10.96015461096026
+        ],
+        [
+          -8.722792206135786,
+          29.552081528017133
+        ],
+        [
+          -3.3,
+          3.3
+        ]
+      ]
+    },
+    {
+      "progress": 1,
+      "angle": 11,
+      "bounds": [
+        [
+          -13.435029274895797,
+          10.96015461096026
+        ],
+        [
+          -8.722792206135786,
+          29.552081528017133
+        ],
+        [
+          -3.3,
+          3.3
+        ]
+      ]
+    }
+  ],
+  "animations": [
+    "animation.black_cleaver.idle",
+    "animation.black_cleaver.charge",
+    "animation.black_cleaver.slam",
+    "animation.black_cleaver.recover",
+    "animation.black_cleaver.ready",
+    "animation.black_cleaver.blood_pose",
+    "animation.black_cleaver.blood_enter",
+    "animation.black_cleaver.blood_idle",
+    "animation.black_cleaver.blood_slam",
+    "animation.black_cleaver.blood_recover",
+    "animation.black_cleaver.blood_exit",
+    "animation.black_cleaver.blood_showcase"
+  ],
+  "runtime_replaced": true,
+  "game_tested": false,
+  "per_bone": [
+    {
+      "name": "root",
+      "cubes": 0
+    },
+    {
+      "name": "grip_anchor",
+      "cubes": 0
+    },
+    {
+      "name": "weapon",
+      "cubes": 0
+    },
+    {
+      "name": "handle",
+      "cubes": 16
+    },
+    {
+      "name": "haft",
+      "cubes": 19
+    },
+    {
+      "name": "axe_head",
+      "cubes": 1
+    },
+    {
+      "name": "blade",
+      "cubes": 131
+    },
+    {
+      "name": "blade_right",
+      "cubes": 64
+    },
+    {
+      "name": "rear_hook",
+      "cubes": 0
+    },
+    {
+      "name": "fittings",
+      "cubes": 11
+    },
+    {
+      "name": "ember_core",
+      "cubes": 2
+    },
+    {
+      "name": "pommel",
+      "cubes": 4
+    },
+    {
+      "name": "impact_socket",
+      "cubes": 0
+    },
+    {
+      "name": "blade_upper_wing",
+      "cubes": 24
+    },
+    {
+      "name": "blade_lower_wing",
+      "cubes": 64
+    },
+    {
+      "name": "blade_right_upper_wing",
+      "cubes": 14
+    },
+    {
+      "name": "blade_right_lower_wing",
+      "cubes": 7
+    }
+  ],
+  "hand_pose": {
+    "native_player_samples": 36,
+    "third_person_translation": [
+      1.4,
+      -2,
+      2
+    ],
+    "game_tested": false,
+    "first_person_rotation": [
+      0,
+      125,
+      0
+    ],
+    "neutral_clearance_pairs": 5712,
+    "third_person_rotation": [
+      72,
+      90,
+      0
+    ]
+  }
+}

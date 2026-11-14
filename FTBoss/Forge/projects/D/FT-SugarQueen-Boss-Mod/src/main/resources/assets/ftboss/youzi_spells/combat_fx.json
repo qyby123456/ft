@@ -1,0 +1,55 @@
+{
+  "schema": "youzi-combat-fx/v1",
+  "unit": "block",
+  "effectClock": "world seconds, not multiplied by cast rate",
+  "palette": {"ivory": [0.95, 0.88, 0.74], "lilac": [0.64, 0.45, 0.85], "brass": [0.75, 0.55, 0.27], "core": [1, 0.94, 0.84]},
+  "maximumActiveEffects": 48,
+  "maximumQuadsPerEffect": 384,
+  "cameraFade": {"near": 0.55, "far": 0.85, "protectedConeDegrees": 12, "coneFadeDistance": 8},
+  "rulesReference": {"cloneSpawnCountMaximum": 2, "cloneCap": 6, "cloneLifetimeTicks": 300, "changesGameplay": false},
+  "effects": [
+    {"id": "clone_spawn", "title": "自我叠影 · 分身显形", "duration": 1.15, "anchor": "actual clone feet", "trigger": "server EntityJoinLevelEvent fresh mini variant 0; never loaded-from-disk", "size": 0.9, "primitives": [
+      {"shape": "arc", "start": 0, "end": 0.6, "position": [0, 0.025, 0], "radius": 0.65, "width": 0.035, "sweep": 360, "segments": 32, "spin": 28, "growth": 0.65, "color": "brass"},
+      {"shape": "arc", "start": 0.04, "end": 0.72, "position": [0, 0.055, 0], "radius": 0.46, "width": 0.025, "sweep": 305, "segments": 28, "spin": -85, "growth": 0.65, "color": "lilac"},
+      {"shape": "helix", "start": 0.08, "end": 0.86, "position": [0, 0.08, 0], "radius": 0.34, "height": 0.92, "turns": 1.25, "strands": 2, "segments": 28, "width": 0.035, "spin": 95, "growth": 0.65, "color": "ivory"},
+      {"shape": "motes", "start": 0.1, "end": 1.1, "position": [0, 0.25, 0], "radius": 0.43, "height": 0.8, "count": 12, "size": 0.035, "rise": 0.48, "spin": 55, "color": "lilac"},
+      {"shape": "star", "start": 0.23, "end": 0.9, "position": [0, 0.91, 0], "size": 0.13, "spin": 75, "color": "core"}
+    ]},
+    {"id": "clone_depart", "title": "叠影回收 · 分身消散", "duration": 0.8, "anchor": "last authoritative clone feet", "trigger": "clone lifetime expires or dies; not chunk unload/dimension transition", "size": 0.9, "primitives": [
+      {"shape": "helix", "start": 0, "end": 0.58, "position": [0, 0.04, 0], "radius": 0.32, "height": 0.85, "turns": 1.1, "strands": 2, "segments": 24, "width": 0.03, "spin": -110, "collapse": true, "color": "lilac"},
+      {"shape": "motes", "start": 0, "end": 0.78, "position": [0, 0.22, 0], "radius": 0.34, "height": 0.62, "count": 12, "size": 0.03, "rise": 0.6, "spin": -40, "color": "ivory"},
+      {"shape": "arc", "start": 0.12, "end": 0.66, "position": [0, 0.035, 0], "radius": 0.55, "width": 0.026, "sweep": 280, "segments": 24, "spin": -80, "collapse": true, "color": "brass"}
+    ]},
+    {"id": "melee_swing", "title": "灵偶挥击 · 弧刃残光", "duration": 0.36, "anchor": "actual attacker torso and yaw", "trigger": "melee action begins; mini weapon model is not changed", "size": 1.2, "primitives": [
+      {"shape": "arc", "start": 0, "end": 0.31, "position": [0, 0.72, 0], "radius": 1.04, "width": 0.052, "sweep": 105, "segments": 24, "spin": 310, "angle": -145, "tilt": 24, "growth": 0.28, "color": "ivory"},
+      {"shape": "arc", "start": 0.025, "end": 0.35, "position": [0, 0.74, 0], "radius": 0.95, "width": 0.025, "sweep": 92, "segments": 22, "spin": 310, "angle": -145, "tilt": 24, "growth": 0.28, "color": "lilac"}
+    ]},
+    {"id": "hit_spark", "title": "棱星落击 · 命中反馈", "duration": 0.34, "anchor": "actual victim impact", "trigger": "positive server LivingDamageEvent by Youzi or clone", "size": 0.52, "primitives": [
+      {"shape": "star", "start": 0, "end": 0.22, "position": [0, 0, 0], "size": 0.16, "spin": 120, "color": "core"},
+      {"shape": "motes", "start": 0.025, "end": 0.33, "position": [0, 0, 0], "radius": 0.34, "height": 0.23, "count": 9, "size": 0.028, "rise": 0.18, "spin": 60, "color": "brass"}
+    ]},
+    {"id": "resonance_burst", "title": "三重叠影 · 共鸣爆发", "duration": 0.7, "anchor": "actual third-hit victim; caster fallback when no victim", "trigger": "explicit youziAddHit hook after confirmed cooldown and actual burst, never guessed from generic hits", "size": 1.1, "primitives": [
+      {"shape": "star", "start": 0, "end": 0.35, "position": [0, 0.45, 0], "size": 0.22, "spin": 80, "color": "core"},
+      {"shape": "arc", "start": 0.015, "end": 0.5, "position": [0, 0.05, 0], "radius": 0.85, "width": 0.035, "sweep": 330, "segments": 30, "growth": 0.8, "spin": 50, "color": "lilac"},
+      {"shape": "motes", "start": 0.08, "end": 0.68, "position": [0, 0.26, 0], "radius": 0.68, "height": 0.54, "count": 15, "size": 0.04, "rise": 0.43, "spin": 50, "color": "ivory"}
+    ]},
+    {"id": "share_thread", "title": "同命星线 · 分摊受伤", "duration": 0.52, "anchor": "actual parent to affected clone", "trigger": "explicit youziMinionShare hook for every real recipient", "size": 1, "primitives": [
+      {"shape": "link", "start": 0, "end": 0.48, "width": 0.022, "segments": 24, "curve": 0.42, "color": "lilac"},
+      {"shape": "star", "start": 0.06, "end": 0.5, "position": [0, 0.8, 0], "size": 0.09, "spin": 95, "atTarget": true, "color": "ivory"}
+    ]},
+    {"id": "cast_focus", "title": "星术聚焦 · 施法起势", "duration": 0.68, "anchor": "actual caster feet", "trigger": "server casting state rises; appearance only, no fabricated AoE warning", "size": 0.9, "primitives": [
+      {"shape": "arc", "start": 0, "end": 0.6, "position": [0, 0.035, 0], "radius": 0.57, "width": 0.027, "sweep": 235, "segments": 24, "spin": 75, "growth": 0.35, "color": "brass"},
+      {"shape": "motes", "start": 0.04, "end": 0.66, "position": [0, 0.24, 0], "radius": 0.39, "height": 0.58, "count": 8, "size": 0.027, "rise": 0.2, "spin": 38, "color": "lilac"}
+    ]},
+    {"id": "ward_react", "title": "灵偶护叶 · 格挡反馈", "duration": 0.48, "anchor": "actual protected entity impact", "trigger": "explicit confirmed guard/protection hook, not every incoming damage", "size": 0.8, "primitives": [
+      {"shape": "arc", "start": 0, "end": 0.4, "position": [0, 0.65, 0], "radius": 0.47, "width": 0.045, "sweep": 230, "segments": 24, "tilt": 90, "spin": 45, "growth": 0.42, "color": "ivory"},
+      {"shape": "star", "start": 0.025, "end": 0.35, "position": [0, 0.66, -0.06], "size": 0.12, "spin": 70, "color": "lilac"},
+      {"shape": "motes", "start": 0.08, "end": 0.46, "position": [0, 0.58, 0], "radius": 0.31, "height": 0.2, "count": 6, "size": 0.027, "rise": 0.18, "color": "brass"}
+    ]},
+    {"id": "echo_trace", "title": "石像回声 · 真实攻击轨迹", "duration": 0.4, "anchor": "authoritative origin to clipped end", "trigger": "explicit actual echo fire endpoint hook; no extra damage", "size": 1, "primitives": [
+      {"shape": "link", "start": 0, "end": 0.26, "width": 0.034, "segments": 20, "curve": 0, "color": "ivory"},
+      {"shape": "star", "start": 0.04, "end": 0.35, "position": [0, 0, 0], "size": 0.1, "atTarget": true, "spin": 100, "color": "lilac"}
+    ]}
+  ],
+  "integration": {"defaultEventAdapters": ["fresh clone birth", "clone killed/discard removal", "melee action edge", "confirmed damage impact", "casting state edge"], "explicitHooks": ["resonance_burst", "share_thread", "ward_react", "echo_trace"], "gameplayModified": false, "installedJarModified": false, "inGameVerified": false}
+}

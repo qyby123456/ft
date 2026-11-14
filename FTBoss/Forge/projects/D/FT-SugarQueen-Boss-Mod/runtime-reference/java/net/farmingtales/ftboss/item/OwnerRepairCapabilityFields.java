@@ -1,0 +1,9 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package net.farmingtales.ftboss.item;
+
+public interface OwnerRepairCapabilityFields {
+    public boolean ftboss$ownerRepairInitializedNoProviders();
+}
+

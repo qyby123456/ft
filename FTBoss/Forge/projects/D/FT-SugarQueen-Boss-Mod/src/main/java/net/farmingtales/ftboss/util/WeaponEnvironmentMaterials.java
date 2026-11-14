@@ -1,0 +1,101 @@
+package net.farmingtales.ftboss.util;
+
+import java.util.Map;
+import net.farmingtales.ftboss.util.FoodWeaponBuildRules.Material;
+import net.farmingtales.ftboss.util.SwordFunctionRules.Values;
+
+/** 环境和配方辅料的显式配件分类；2026-10-20 补齐铁魔法、灾变原材料，仍不开放成品武器与饰品。 */
+public final class WeaponEnvironmentMaterials {
+    private static final Map<String, Material> MATERIALS = Map.ofEntries(
+            Map.entry("irons_spellbooks:arcane_essence", Material.AMETHYST),
+            Map.entry("irons_spellbooks:arcane_ingot", Material.MITHRIL),
+            Map.entry("irons_spellbooks:weapon_parts", Material.IRON),
+            Map.entry("irons_spellbooks:ice_venom_vial", Material.QUARTZ),
+            Map.entry("irons_spellbooks:pyrium_ingot", Material.NETHERITE),
+            Map.entry("irons_spellbooks:frosted_helve", Material.WOOD),
+            Map.entry("irons_spellbooks:permafrost_shard", Material.QUARTZ),
+            Map.entry("irons_spellbooks:magic_cloth", Material.LEATHER),
+            Map.entry("irons_spellbooks:common_ink", Material.AMETHYST),
+            Map.entry("irons_spellbooks:uncommon_ink", Material.AMETHYST),
+            Map.entry("irons_spellbooks:rare_ink", Material.AMETHYST),
+            Map.entry("irons_spellbooks:epic_ink", Material.AMETHYST),
+            Map.entry("irons_spellbooks:legendary_ink", Material.AMETHYST),
+            Map.entry("irons_spellbooks:lightning_bottle", Material.REDSTONE),
+            Map.entry("irons_spellbooks:frozen_bone", Material.BONE),
+            Map.entry("irons_spellbooks:blood_vial", Material.AMETHYST),
+            Map.entry("irons_spellbooks:divine_pearl", Material.QUARTZ),
+            Map.entry("irons_spellbooks:hogskin", Material.LEATHER),
+            Map.entry("irons_spellbooks:dragonskin", Material.LEATHER),
+            Map.entry("irons_spellbooks:bloody_vellum", Material.LEATHER),
+            Map.entry("irons_spellbooks:cinder_essence", Material.BLAZE),
+            Map.entry("irons_spellbooks:timeless_slurry", Material.AMETHYST),
+            Map.entry("irons_spellbooks:mithril_scrap", Material.MITHRIL),
+            Map.entry("irons_spellbooks:raw_mithril", Material.MITHRIL),
+            Map.entry("irons_spellbooks:mithril_weave", Material.MITHRIL),
+            Map.entry("irons_spellbooks:divine_soulshard", Material.QUARTZ),
+            Map.entry("irons_spellbooks:icy_fang", Material.BONE),
+            Map.entry("irons_spellbooks:energized_core", Material.REDSTONE),
+            Map.entry("irons_spellbooks:dead_king_phylactery_shard", Material.AMETHYST),
+            Map.entry("irons_spellbooks:ancient_knowledge_fragment", Material.AMETHYST),
+            Map.entry("cataclysm:ancient_metal_nugget", Material.ANCIENT_METAL),
+            Map.entry("cataclysm:black_steel_nugget", Material.BLACK_STEEL),
+            Map.entry("cataclysm:void_shard", Material.ENDERITE),
+            Map.entry("cataclysm:void_jaw", Material.ENDERITE),
+            Map.entry("cataclysm:monstrous_horn", Material.BONE),
+            Map.entry("cataclysm:lava_power_cell", Material.BLAZE),
+            Map.entry("cataclysm:burning_ashes", Material.BLAZE),
+            Map.entry("cataclysm:dying_ember", Material.BLAZE),
+            Map.entry("cataclysm:crystallized_coral_fragments", Material.QUARTZ),
+            Map.entry("cataclysm:coral_chunk", Material.QUARTZ),
+            Map.entry("cataclysm:amethyst_crab_shell", Material.AMETHYST),
+            Map.entry("cataclysm:lionfish_spike", Material.BONE),
+            Map.entry("cataclysm:urchin_spike", Material.BONE),
+            Map.entry("armamentarium:greatalloy_ingot", Material.MITHRIL),
+            Map.entry("armamentarium:greatalloy_nugget", Material.IRON),
+            Map.entry("legendary_monsters:chorus_crystal", Material.AMETHYST),
+            Map.entry("legendary_monsters:infected_chorus_fruit", Material.WOOD),
+            Map.entry("legendary_monsters:void_gem", Material.ENDERITE),
+            Map.entry("legendary_monsters:enderitium_ingot", Material.NETHERITE),
+            Map.entry("legendary_monsters:knights_sword_blade_half", Material.IRON),
+            Map.entry("legendary_monsters:metal_debris", Material.IRON),
+            Map.entry("legendary_monsters:withered_bone", Material.BONE),
+            Map.entry("legendary_monsters:withered_horn", Material.BONE),
+            Map.entry("legendary_monsters:air_rune", Material.AMETHYST),
+            Map.entry("legendary_monsters:cloud_rod", Material.WOOD),
+            Map.entry("minecraft:grass", Material.WOOD),
+            Map.entry("minecraft:oak_leaves", Material.WOOD),
+            Map.entry("minecraft:kelp", Material.WOOD),
+            Map.entry("minecraft:slime_ball", Material.LEATHER),
+            Map.entry("minecraft:chain", Material.IRON),
+            Map.entry("minecraft:tripwire_hook", Material.IRON),
+            Map.entry("minecraft:iron_nugget", Material.IRON),
+            Map.entry("minecraft:feather", Material.LEATHER),
+            Map.entry("minecraft:phantom_membrane", Material.LEATHER),
+            Map.entry("minecraft:ghast_tear", Material.QUARTZ),
+            Map.entry("minecraft:ice", Material.QUARTZ),
+            Map.entry("minecraft:redstone_block", Material.REDSTONE),
+            Map.entry("tide:shooting_starfish", Material.QUARTZ));
+    private static final Map<String, Values> FUNCTIONS = Map.ofEntries(
+            Map.entry("minecraft:grass", new Values(0.10, 0.03, 0.02, 0.08, 0.02)),
+            Map.entry("minecraft:oak_leaves", new Values(0.15, 0.05, 0.03, 0.12, 0.03)),
+            Map.entry("minecraft:kelp", new Values(0.15, 0.05, 0.05, 0.15, 0.03)),
+            Map.entry("minecraft:slime_ball", new Values(0.20, 0.08, 0.10, 0.30, 0.03)),
+            Map.entry("minecraft:iron_nugget", new Values(0.04, 0.12, 0.08, 0.09, 0.10)),
+            Map.entry("minecraft:tripwire_hook", new Values(0.25, 0.50, 0.25, 0.60, 0.30)),
+            Map.entry("minecraft:feather", new Values(0.20, 0.05, 0.10, 0.25, 0.03)),
+            Map.entry("minecraft:phantom_membrane", new Values(0.25, 0.15, 0.30, 0.35, 0.05)),
+            Map.entry("minecraft:ghast_tear", new Values(0.10, 0.30, 0.90, 0.60, 0.10)),
+            Map.entry("minecraft:redstone_block", new Values(0.15, 0.80, 1.20, 0.70, 0.25)),
+            Map.entry("irons_spellbooks:frosted_helve", new Values(0.70, 0.30, 0.20, 0.50, 0.15)),
+            Map.entry("irons_spellbooks:permafrost_shard", new Values(0.15, 0.50, 1.20, 0.70, 0.50)),
+            Map.entry("irons_spellbooks:magic_cloth", new Values(0.30, 0.20, 0.50, 0.60, 0.05)),
+            Map.entry("legendary_monsters:air_rune", new Values(0.15, 0.30, 1.20, 0.70, 0.10)),
+            Map.entry("legendary_monsters:cloud_rod", new Values(0.70, 0.25, 0.50, 0.70, 0.15)),
+            Map.entry("tide:shooting_starfish", new Values(0.20, 0.30, 0.80, 0.50, 0.20)));
+
+    private WeaponEnvironmentMaterials() {}
+
+    public static Material material(String identifier) { return MATERIALS.getOrDefault(identifier, Material.ORIGINAL); }
+
+    public static Values functions(String identifier) { return FUNCTIONS.get(identifier); }
+}

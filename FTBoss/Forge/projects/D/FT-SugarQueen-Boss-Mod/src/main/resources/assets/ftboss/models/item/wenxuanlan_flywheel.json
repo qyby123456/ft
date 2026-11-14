@@ -1,0 +1,24 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "ftboss:item/xuanlan_particle_v2"
+  },
+  "base": {
+    "parent": "ftboss:item/xuanlan_calibrum_v2"
+  },
+  "perspectives": {
+    "ground": {
+      "parent": "ftboss:item/xuanlan_crescendum_v2"
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "ftboss:xuanlan_white": 1
+      },
+      "model": "ftboss:item/xuanlan_crescendum_v2"
+    }
+  ]
+}

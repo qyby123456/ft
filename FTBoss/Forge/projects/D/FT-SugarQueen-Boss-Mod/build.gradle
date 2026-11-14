@@ -1,0 +1,89 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
+}
+
+group = 'net.farmingtales'
+version = '1.0.0'
+
+base {
+    archivesName = 'qys-bosses'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    runs {
+        configureEach {
+            args '--mixin', 'ftboss.mixins.json'
+        }
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            mods {
+                ftboss { source sourceSets.main }
+            }
+        }
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            mods {
+                ftboss { source sourceSets.main }
+            }
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+// ★ 开发残留不得进 jar（2026-09-16 实测：上一版 qys-bosses.jar 里真的带着 8 个开发备份，
+//   共 61,724 B —— `.gitignore` 里的 `*.bak` 只挡 git，挡不住 processResources）。
+//   按"文件名后缀"排除，目录结构不变，正式资源一律不动。
+//   注意：*_e.png（发光层）与 *_glowmask.png 是**正式资源**，绝不能出现在排除表里。
+processResources {
+    exclude 'assets/ftboss/models/item/boss_scrolls/**'
+    exclude 'assets/ftboss/textures/item/boss_scrolls/**'
+    exclude '**/*.bak', '**/*.bak2', '**/*.reorder.bak', '**/*.keyorder.bak'
+    exclude '**/*.tilted-bak', '**/*.prev', '**/*.old', '**/*.orig'
+    exclude '**/*.dedens.bak', '**/*.lumfix.bak'
+    exclude '**/*.jsonc', '**/*~', '**/*.swp'
+    exclude '**/.DS_Store', '**/Thumbs.db'
+    ['tea_leaf_blade', 'sugar_scepter', 'butcher_cleaver', 'rainbow_fertilizer', 'defect_fragment'].each { itemId ->
+        exclude "assets/ftboss/models/item/${itemId}.json"
+        exclude "assets/ftboss/textures/item/${itemId}.png"
+        exclude "assets/ftboss/textures/item/${itemId}_*.png"
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'
+    // Iron's Spells 'n Spellbooks(编译期引用其 API; 运行期由整合包提供, 缺失时自动禁用施法)
+    compileOnly fileTree('libs') { include '*.jar' }
+}
+
+jar {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+    // 产物固定命名为 qys-bosses.jar(不带版本号)
+    archiveFileName = 'qys-bosses.jar'
+    manifest {
+        attributes 'Specification-Title': 'ftboss',
+                   'Specification-Version': project.version,
+                   'Implementation-Title': 'QYS Bosses',
+                   'Implementation-Version': project.version,
+                   'MixinConfigs': 'ftboss.mixins.json'
+    }
+}
+
+apply from: 'gradle/verification.gradle'
+apply from: 'gradle/tridents-verification.gradle'

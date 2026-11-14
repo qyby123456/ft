@@ -1,0 +1,310 @@
+{
+  "name": "black_cleaver_rebuild",
+  "bones": 17,
+  "cubes": 90,
+  "faces": 540,
+  "atlas": 256,
+  "arcs": [
+    {
+      "side": "main",
+      "center": [
+        -0.65,
+        12
+      ],
+      "radius": 9.8,
+      "sweep": 120,
+      "start": 120,
+      "segments": 9,
+      "layers": [
+        "root",
+        "body",
+        "bevel",
+        "edge"
+      ],
+      "part_split": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "side": "secondary",
+      "center": [
+        1.5,
+        8
+      ],
+      "radius": 5.9,
+      "sweep": 110,
+      "start": 49.4,
+      "segments": 9,
+      "layers": [
+        "root",
+        "body",
+        "bevel",
+        "edge"
+      ],
+      "part_split": [
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "invariants": {
+    "joint_safety": {
+      "rule": "枢轴到刃尖距离 × sin(展开角) ≤ 刃翼高度",
+      "max_angle": 11,
+      "rows": [
+        {
+          "wing": "blade_upper_wing",
+          "angle": -11,
+          "pivot": [
+            -3.8,
+            17.45596
+          ],
+          "pivot_to_tip": 5.056,
+          "wing_height": 6.922,
+          "rise": 0.965,
+          "margin": 5.957,
+          "ok": true
+        },
+        {
+          "wing": "blade_lower_wing",
+          "angle": 11,
+          "pivot": [
+            -3.8,
+            6.54404
+          ],
+          "pivot_to_tip": 7.898,
+          "wing_height": 6.787,
+          "rise": 1.507,
+          "margin": 5.28,
+          "ok": true
+        },
+        {
+          "wing": "blade_right_upper_wing",
+          "angle": 11,
+          "pivot": [
+            3.77771,
+            10.65745
+          ],
+          "pivot_to_tip": 3.861,
+          "wing_height": 3.879,
+          "rise": 0.737,
+          "margin": 3.142,
+          "ok": true
+        },
+        {
+          "wing": "blade_right_lower_wing",
+          "angle": -11,
+          "pivot": [
+            -1.776208,
+            9.231446
+          ],
+          "pivot_to_tip": 4.963,
+          "wing_height": 4.133,
+          "rise": 0.947,
+          "margin": 3.186,
+          "ok": true
+        }
+      ],
+      "all_ok": true
+    },
+    "backing_hidden_at_rest": {
+      "rule": "背板贴合接缝：切向半宽 ≤ 相邻段伸入量（合拢被盖住）且 ≥ 展开缝口张开量（展开不漏底），且 z 两面各缩进交集 ≥0.05",
+      "rows": [
+        {
+          "backing": "wing_main_upper_backing",
+          "wing": "blade_upper_wing",
+          "static_bone": "blade",
+          "seam_deg": 160,
+          "backing_z": [
+            -1.65,
+            -0.87
+          ],
+          "z_inset": [
+            0.1,
+            0.1
+          ],
+          "half_width": 0.881,
+          "max_half_width": 0.881,
+          "gap_at_tip": 0.668,
+          "z_ok": true,
+          "width_ok": true,
+          "covers_gap_ok": true,
+          "ok": true
+        },
+        {
+          "backing": "wing_main_lower_backing",
+          "wing": "blade_lower_wing",
+          "static_bone": "blade",
+          "seam_deg": 200,
+          "backing_z": [
+            -1.65,
+            -0.87
+          ],
+          "z_inset": [
+            0.1,
+            0.1
+          ],
+          "half_width": 0.881,
+          "max_half_width": 0.881,
+          "gap_at_tip": 0.668,
+          "z_ok": true,
+          "width_ok": true,
+          "covers_gap_ok": true,
+          "ok": true
+        },
+        {
+          "backing": "wing_right_upper_backing",
+          "wing": "blade_right_upper_wing",
+          "static_bone": "blade_right",
+          "seam_deg": 86.067,
+          "backing_z": [
+            -1.3,
+            -0.62
+          ],
+          "z_inset": [
+            0.1,
+            0.1
+          ],
+          "half_width": 0.487,
+          "max_half_width": 0.487,
+          "gap_at_tip": 0.458,
+          "z_ok": true,
+          "width_ok": true,
+          "covers_gap_ok": true,
+          "ok": true
+        },
+        {
+          "backing": "wing_right_lower_backing",
+          "wing": "blade_right_lower_wing",
+          "static_bone": "blade_right",
+          "seam_deg": 122.733,
+          "backing_z": [
+            -1.3,
+            -0.62
+          ],
+          "z_inset": [
+            0.1,
+            0.1
+          ],
+          "half_width": 0.487,
+          "max_half_width": 0.487,
+          "gap_at_tip": 0.458,
+          "z_ok": true,
+          "width_ok": true,
+          "covers_gap_ok": true,
+          "ok": true
+        }
+      ],
+      "all_ok": true
+    },
+    "wing_pivot_at_inner_edge": {
+      "rule": "枢轴贴朝内边缘（留 0.1）且落在中央体内",
+      "rows": [
+        {
+          "wing": "blade_upper_wing",
+          "pivot": [
+            -3.8,
+            17.45596
+          ],
+          "radius_from_arc_center": 6.3,
+          "gap_to_inner_edge": 0.1,
+          "inside_head_body": true,
+          "ok": true
+        },
+        {
+          "wing": "blade_lower_wing",
+          "pivot": [
+            -3.8,
+            6.54404
+          ],
+          "radius_from_arc_center": 6.3,
+          "gap_to_inner_edge": 0.1,
+          "inside_head_body": true,
+          "ok": true
+        },
+        {
+          "wing": "blade_right_upper_wing",
+          "pivot": [
+            3.77771,
+            10.65745
+          ],
+          "radius_from_arc_center": 3.5,
+          "gap_to_inner_edge": 0.1,
+          "inside_head_body": true,
+          "ok": true
+        },
+        {
+          "wing": "blade_right_lower_wing",
+          "pivot": [
+            -1.776208,
+            9.231446
+          ],
+          "radius_from_arc_center": 3.5,
+          "gap_to_inner_edge": 0.1,
+          "inside_head_body": true,
+          "ok": true
+        }
+      ],
+      "all_ok": true
+    },
+    "coplanar_gap": {
+      "rule": "任何两个同向可视面不得共面（z 面按旋转后真实相交面积判；x/y 面只判未旋转的 cube）",
+      "violations": [],
+      "all_ok": true
+    },
+    "z_face_separation": {
+      "rule": "同一骨骼内 x/y 重叠 >0.05 的 cube，两个 z 面都必须错开 ≥0.05",
+      "violations": [],
+      "all_ok": true
+    }
+  },
+  "geometry": {
+    "bounds_min": [
+      -10.202,
+      -14.5,
+      -3.16
+    ],
+    "bounds_max": [
+      6.117,
+      22.511,
+      3.16
+    ],
+    "size": [
+      16.318,
+      37.011,
+      6.32
+    ],
+    "main_blade_reach_from_axis": 10.202,
+    "secondary_blade_reach_from_axis": 6.117,
+    "secondary_over_main": 0.6,
+    "head_width_total": 16.318,
+    "head_height": 16.814,
+    "head_z_thickness": 6.32,
+    "main_x": [
+      -10.202,
+      -1.469
+    ],
+    "secondary_x": [
+      -3.43,
+      6.117
+    ],
+    "grip_length": 10.2,
+    "grip_section": [
+      3.4,
+      2.9
+    ],
+    "handle_total_length": 18.3,
+    "handle_top_y": 3.8,
+    "handle_bottom_y": -14.5,
+    "head_body": {
+      "x0": -4.9,
+      "x1": 3.95,
+      "y0": 3,
+      "y1": 19,
+      "z": 1.8
+    }
+  }
+}

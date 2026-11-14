@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Reference and embedded texture hashes match",
+    "Blockbench hierarchy and animation keyframes are internally consistent",
+    "26070 UV texels checked; no blank faces or out-of-bounds UVs",
+    "Five simultaneous four-wing poses checked using full cube/bone transforms and rectangle SAT",
+    "6952 exported bone keyframes match Blockbench; loops and eight clip transitions are continuous",
+    "Blood animation internal connectivity sampled at 60 fps; 39 interrupted-entry fade poses checked; rigid weapon swing preserves the grip pivot"
+  ],
+  "connectivity": [
+    {
+      "angle": 0,
+      "components": [
+        {
+          "size": 357,
+          "examples": [
+            "handle#0",
+            "handle#1",
+            "handle#2",
+            "handle#3",
+            "handle#4"
+          ]
+        }
+      ]
+    },
+    {
+      "angle": 2.75,
+      "components": [
+        {
+          "size": 357,
+          "examples": [
+            "handle#0",
+            "handle#1",
+            "handle#2",
+            "handle#3",
+            "handle#4"
+          ]
+        }
+      ]
+    },
+    {
+      "angle": 5.5,
+      "components": [
+        {
+          "size": 357,
+          "examples": [
+            "handle#0",
+            "handle#1",
+            "handle#2",
+            "handle#3",
+            "handle#4"
+          ]
+        }
+      ]
+    },
+    {
+      "angle": 8.25,
+      "components": [
+        {
+          "size": 357,
+          "examples": [
+            "handle#0",
+            "handle#1",
+            "handle#2",
+            "handle#3",
+            "handle#4"
+          ]
+        }
+      ]
+    },
+    {
+      "angle": 11,
+      "components": [
+        {
+          "size": 357,
+          "examples": [
+            "handle#0",
+            "handle#1",
+            "handle#2",
+            "handle#3",
+            "handle#4"
+          ]
+        }
+      ]
+    }
+  ],
+  "animation": {
+    "clips": 12,
+    "keyframes": 6952,
+    "transitions": 8,
+    "motion_samples": [
+      {
+        "clip": "blood_enter",
+        "samples": 85
+      },
+      {
+        "clip": "blood_idle",
+        "samples": 145
+      },
+      {
+        "clip": "blood_slam",
+        "samples": 40
+      },
+      {
+        "clip": "blood_recover",
+        "samples": 19
+      },
+      {
+        "clip": "blood_exit",
+        "samples": 85
+      }
+    ],
+    "interruption_samples": 39,
+    "errors": []
+  },
+  "game_tested": false
+}
