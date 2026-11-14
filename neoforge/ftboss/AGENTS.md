@@ -1,5 +1,7 @@
 ## Stage29 庄园减伤上下文限定验收，2026-11-14
 
+源码与限定证据已推送提交 c1092fd1dc70c49ed0a507e5a2a01233775984cd，32 个文件经独立远端 fetch/blob 对象核对原字节；资源排除守卫覆盖完整 4382 文件树。只清理了 Git 工作副本的 28 份重复文件（238419 字节，其中 19 个跟踪源码标记 skip-worktree），当前候选/编译输入、世界、模型与音乐原件均未删除。恢复索引见 github-sync/checkpoint-manor-damage-context-20261114.json；长路径恢复用 work/session-boss/tools/restore_boss_git_blob_v1.py，通过 ls-tree 对象 ID 与 cat-file 读取，禁止重跑要求全部旧 canonical 源码存在的发布器。修改已清理路径时应先按索引恢复并清除对应 skip-worktree 标记。
+
 真实空手玩家攻击已复现并修复 NeoForge damageContainers 空栈异常；仅修改 NativeManorFinalDamageInstaller，一个候选类变化。72 项合成生命周期检查、701 项真实玩家/原自定义 BeforeHealth/生命变化与自然 tick 检查、22 项最终定义类检查通过，完整保存/退出 0，冻结输入不变。采集中文选项编码事故的 11 个自有文件已按 SHA256 迁回，原失败回执保留，后续使用 Base64URL UTF-8 选项。详见 work/session-boss/MANOR_DAMAGE_CONTEXT_20261114.md 与 reports/manor-damage-context-v1-closeout-20261114.json。原生 LivingDamage.Post 契约尚未完成（本轮 0 回调）；麻雀闪避未移植，现有真实正向基线可用。NOT-INSTALLABLE，不部署；模型/音乐等资源禁止上传，武器/Session 暂停，两个正式实例只读。
 
 ## 模型资源与音乐禁止上传，2026-11-14 最新用户指令
