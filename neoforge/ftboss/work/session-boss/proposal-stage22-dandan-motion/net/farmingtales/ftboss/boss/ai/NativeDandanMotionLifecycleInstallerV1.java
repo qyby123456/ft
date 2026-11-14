@@ -1,0 +1,17 @@
+package net.farmingtales.ftboss.boss.ai;
+import java.util.*;
+import org.objectweb.asm.*;
+import org.objectweb.asm.tree.*;
+public final class NativeDandanMotionLifecycleInstallerV1 implements Opcodes {
+    private static final String BOSS="net/farmingtales/ftboss/entity/EasterBossEntity",MOTION="net/farmingtales/ftboss/dandanmotion/MotionServer";
+    private static final String BEFORE_SYNC="9312f1c6c55b11660466ad0361aa58ddf86ccffa58fddc7db50d4daabcd4725f",AFTER_SYNC="e01a476e27458b9e65b99d783a22ac6901bbd8ef7c7b54beb3ed6176224728a8",BEFORE_FINISH="664e8c6baf58e33fe12d6c80e1a682005012af0950891bd1ee05d14d1d989612",AFTER_FINISH="1935872bee11a3d34453651944fdce7b64432aa3e4510a850acb7cdd02ba23c8";
+    private NativeDandanMotionLifecycleInstallerV1(){}
+    private static void require(boolean value,String message){if(!value)throw new IllegalStateException(message);}
+    private static MethodNode method(ClassNode node,String name,String desc){List<MethodNode> values=node.methods.stream().filter(value->value.name.equals(name)&&value.desc.equals(desc)).toList();require(values.size()==1,"Exact native Dandan lifecycle method required:"+name);return values.getFirst();}
+    private static String fingerprint(MethodNode method){return NativeBossLivingComposerSupportV2.methodFingerprint(method);}
+    public static void install(ClassNode node){require(node.name.equals(BOSS),"Exact Boss lifecycle owner required");MethodNode sync=method(node,"syncCombatAnimation","(IZIZ)V"),finish=method(node,"finishManorFiveCast","(Lnet/minecraft/world/phys/Vec3;)V");String syncHash=fingerprint(sync),finishHash=fingerprint(finish);if(syncHash.equals(AFTER_SYNC)&&finishHash.equals(AFTER_FINISH)){verifyInstalled(node);return;}require(syncHash.equals(BEFORE_SYNC)&&finishHash.equals(BEFORE_FINISH),"Complete existing native postimages required before Dandan motion hooks");
+        InsnList first=new InsnList();first.add(new VarInsnNode(ALOAD,0));first.add(new MethodInsnNode(INVOKESTATIC,MOTION,"finish","(L"+BOSS+";)V",false));finish.instructions.insert(first);
+        List<MethodInsnNode> stores=Arrays.stream(sync.instructions.toArray()).filter(value->value instanceof MethodInsnNode call&&call.owner.equals("net/minecraft/network/syncher/SynchedEntityData")&&call.name.equals("set")&&call.desc.equals("(Lnet/minecraft/network/syncher/EntityDataAccessor;Ljava/lang/Object;)V")).map(value->(MethodInsnNode)value).toList();require(stores.size()==1,"Exact combat animation native store required");AbstractInsnNode firstStore=stores.getFirst();for(int count=0;count<4;){firstStore=firstStore.getPrevious();require(firstStore!=null,"Native combat store prefix missing");if(firstStore.getOpcode()>=0)count++;}require(firstStore instanceof VarInsnNode actor&&actor.getOpcode()==ALOAD&&actor.var==0,"Native combat store actor differs");InsnList carry=new InsnList();carry.add(new VarInsnNode(ALOAD,0));carry.add(new VarInsnNode(ALOAD,5));carry.add(new MethodInsnNode(INVOKESTATIC,MOTION,"carry","(L"+BOSS+";Lnet/minecraft/nbt/CompoundTag;)V",false));sync.instructions.insertBefore(firstStore,carry);verifyInstalled(node);
+    }
+    public static void verifyInstalled(ClassNode node){require(node.name.equals(BOSS),"Exact Boss lifecycle owner required");require(fingerprint(method(node,"syncCombatAnimation","(IZIZ)V")).equals(AFTER_SYNC)&&fingerprint(method(node,"finishManorFiveCast","(Lnet/minecraft/world/phys/Vec3;)V")).equals(AFTER_FINISH),"Complete native Dandan lifecycle postimages required");}
+}

@@ -1,0 +1,59 @@
+{
+  "format": "ftboss-scoped-lifecycle-increment-v1",
+  "branch": "codex/neoforge-source-20261113",
+  "parentSourceCommit": "5839cfd26b5dfc77f6d265f45469a8cbae7a06ce",
+  "nativeReportRelativePath": "work/session-boss/reports/zicai-curio-client-v16-candidate-16131959.json",
+  "nativeReportSha256": "2183efba3c3bf8de8a73af98c09091e7532a4077b32b065156c1fdbe570b2016",
+  "checks": 1528,
+  "failures": 0,
+  "acceptance": {
+    "multiItemLifecycleAccepted": true,
+    "twoNoncosmeticAndOneCosmeticOriginalValidRelics": true,
+    "eachHitExactlyOneChangedRecord": true,
+    "bothNewSelectionAndRefreshObserved": true,
+    "bothIndicesSelected": true,
+    "cosmeticExcluded": true,
+    "eachOriginalItemExactlyOne": true,
+    "actualClientBothSuppressedAndRestored": true,
+    "rngReset": false
+  },
+  "archive": {
+    "archiveRelativePath": "work/session-boss/archives/boss-curios-multi-item-increment-v1-20261114.zip",
+    "archiveSha256": "6b8e5aa0b92424882a496b69bae2eb428ee44f1d53334c5a6bc2715cd7876a40",
+    "archiveBytes": 7042166,
+    "baseArchiveRelativePath": "work/session-boss/archives/boss-core-stage28-zicai-curio-scoped-evidence-v3-20261113.zip",
+    "baseArchiveSha256": "aca9e96def7887e0cf52637152df8922174326d5970376918d42b08bee864929",
+    "paths": 1940,
+    "selfBlobs": 48,
+    "allReferencedPayloadHashesVerified": true,
+    "fullPhysicalRestoreClaimed": false,
+    "rawArtifactsRemoteRecoveryVerified": false,
+    "allOriginalsRetained": true
+  },
+  "sourceFiles": {
+    "work/session-boss/tests/zicai-curio-client-v16/ZicaiCurioClientProbeV16.java": {
+      "sha256": "0c60df1c8d37c4718f96c943222d6f5e60b306dbdf6972e6d0c3f12a7b69df24",
+      "bytes": 14238
+    },
+    "work/session-boss/tools/run_boss_zicai_curio_client_v16.py": {
+      "sha256": "38e17c3bba3cc843b48ee2c64c9b79cb63c0d29d2d437d2c38d4541c76dd5bfe",
+      "bytes": 16396
+    },
+    "github-sync/checkpoint-curios-lifecycle-matrix-20261114.json": {
+      "sha256": "390fbe0665357c8d786360159e19bcc953faa10ea292912900ac76ccbbf01cd4",
+      "bytes": 4075
+    },
+    "work/session-boss/CURIO_MULTI_ITEM_RECOVERY_20261114.md": {
+      "sha256": "23af1e319f88b83575ed03cb9eba413ed5be5940e38517bc9aafe8a4af2618b4",
+      "bytes": 1533
+    }
+  },
+  "priorAcceptedControlsRerun": false,
+  "newJvmActualUserConfirmationPending": true,
+  "waitingWindowExists": false,
+  "fullLifecycleAccepted": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false,
+  "weaponsAndSessionPaused": true
+}

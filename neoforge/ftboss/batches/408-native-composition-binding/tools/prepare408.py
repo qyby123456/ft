@@ -1,0 +1,47 @@
+from pathlib import Path
+
+ROOT = Path('D:/ft工程文件/FTBoss-NeoForge-1.21.1-移植-20261022')
+BATCH = Path(__file__).resolve().parents[1]
+LOCAL = BATCH.parents[1]
+prior = ROOT / 'batches/405-native-foundation-output-binding/tools'
+for folder in ['reports', 'tests', 'proposal', 'build']:
+    (BATCH / folder).mkdir(exist_ok=True)
+text = (prior / 'build405.py').read_text(encoding='utf-8')
+text = text.replace('ROOT = Path(__file__).resolve().parents[3]', 'ROOT = Path(' + repr(str(ROOT)) + ')')
+text = text.replace('batches/401-native-private-decode-binding/reports/actual-incremental401-experimental.json', 'batches/405-native-foundation-output-binding/reports/actual-incremental405-experimental.json')
+text = text.replace('batches/404-native-foundation-private-output/reports/actual-foundation404-compiled-not-adopted.json', 'batches/407-native-composition-private-output/reports/actual-composition407-compiled-not-adopted.json')
+text = text.replace('batches/404-native-foundation-private-output/reports/actual-foundation404-sealed-not-adopted.json', 'batches/407-native-composition-private-output/reports/actual-composition407-sealed-not-adopted.json')
+text = text.replace('batches/404-native-foundation-private-output/proposal/net/farmingtales/ftboss', 'batches/407-native-composition-private-output/proposal/net/farmingtales/ftboss')
+text = text.replace("('FoundationCanonicalDigest.java', 'util/foundations')", "('FourWeaponFoundationAdapter.java', 'item')")
+text = text.replace("additional_source = proposal_root / 'util/foundations/FoundationCanonicalDigest.java'", "additional_source = proposal_root / 'item/FourWeaponFoundationAdapter.java'")
+text = text.replace("new_guards = ['util/foundations/FoundationCanonicalDigest', 'util/foundations/FoundationCanonicalDigest$PrivateCompound']", "new_guards = ['FourWeaponFoundationAdapter', 'FourWeaponFoundationAdapter$PrivateSnapshot407']")
+text = text.replace("graph['net/farmingtales/ftboss/' + guard + '.class']", "graph['net/farmingtales/ftboss/item/' + guard + '.class']")
+start = text.index('        assert text.count(\'entry.getKey().startsWith')
+end = text.index('    if not replacements', start)
+text = text[:start] + text[end:]
+start = text.index(", 'guardRouteReplacement':")
+end = text.index('})', start)
+text = text[:start] + ", 'guardRouteReplacement': []" + text[end:]
+text = text.replace('len(old_guards) == 187', 'len(old_guards) == 189')
+text = text.replace('len(pins) == 189', 'len(pins) == 191')
+text = text.replace('len(graph) == 1373', 'len(graph) == 1374')
+text = text.replace("'classCount': 1373", "'classCount': 1374").replace("'guardCount': 189", "'guardCount': 191")
+text = text.replace('merge-binding405-', 'merge-binding408-').replace('actual-incremental405-experimental.json\', {', 'actual-incremental408-experimental.json\', {')
+text = text.replace("'previousGoalTurnClassification': 'progress: actual runtime moved first failure to read-only decode; private decode prototype passed parity'", "'previousGoalTurnClassification': 'progress: composition407 binary parity sealed; continuation moved to C with D historical inputs read-only'")
+text = text.replace('cwd=ROOT', 'cwd=BATCH')
+(BATCH / 'tools/build408.py').write_text(text, encoding='utf-8')
+text = (prior / 'check405.py').read_text(encoding='utf-8').replace('405', '408')
+text = text.replace('ROOT = Path(__file__).resolve().parents[3]', 'ROOT = Path(' + repr(str(ROOT)) + ')')
+text = text.replace('batches/401-native-private-decode-binding', 'batches/405-native-foundation-output-binding')
+text = text.replace('actual-incremental401-experimental.json', 'actual-incremental405-experimental.json')
+text = text.replace('len(before) == 187 and len(after) == 189', 'len(before) == 189 and len(after) == 191')
+text = text.replace("assert added == ['util/foundations/FoundationCanonicalDigest', 'util/foundations/FoundationCanonicalDigest$PrivateCompound']", "assert added == ['FourWeaponFoundationAdapter', 'FourWeaponFoundationAdapter$PrivateSnapshot407']")
+text = text.replace("'before.size() != 187'", "'before.size() != 189'")
+text = text.replace('after.size() != 189', 'after.size() != 191')
+text = text.replace("text = text.replace('rejected.size() != 374', 'rejected.size() != 378').replace('actual guards=187 rejected=374', 'actual guards=189 rejected=378')", "text = text.replace('rejected.size() != 374', 'rejected.size() != 382').replace('actual guards=187 rejected=374', 'actual guards=191 rejected=382')")
+text = text.replace('== 378', '== 382').replace('== 1373', '== 1374')
+text = text.replace("'allGraphAsmChecks': 1373", "'allGraphAsmChecks': 1374").replace("'guardCount': 189", "'guardCount': 191").replace("'guardMissingOrCorruptRejected': 378", "'guardMissingOrCorruptRejected': 382").replace("'oldGuardKeysPreserved': 187", "'oldGuardKeysPreserved': 189")
+text = text.replace("'asmClasses': 1373", "'asmClasses': 1374").replace("'guards': 189", "'guards': 191").replace("'counterexamplesRejected': 378", "'counterexamplesRejected': 382")
+text = text.replace('cwd=ROOT', 'cwd=BATCH')
+(BATCH / 'tools/check408.py').write_text(text, encoding='utf-8')
+print({'prepared': str(BATCH), 'historicalInputsReadOnly': str(ROOT)})

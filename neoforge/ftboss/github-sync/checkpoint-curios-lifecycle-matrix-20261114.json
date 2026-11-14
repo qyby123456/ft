@@ -1,0 +1,121 @@
+{
+  "format": "ftboss-original-curios-lifecycle-evidence-map-v1",
+  "acceptedIncrement": "V17 direct read-only native shutdown tracker end state; V13 default death, V15 native menu actions and V16 multi-item matrix accepted in separate published increments",
+  "originalSubscribers": [
+    {
+      "subscriber": "onDamage",
+      "evidence": "V3 accepted basic damage/refresh;V11 accepted18owner/eligibility controls",
+      "rerunThisBatch": false
+    },
+    {
+      "subscriber": "onTick",
+      "evidence": "V3 original expiry;V9scoped0/V10 threefallbacks;V12 newdimension-lifecycle context",
+      "newEvidenceOnly": "cross-dimension activepending anddestination expiry"
+    },
+    {
+      "subscriber": "onEquip",
+      "evidence": "V15 actual Curios screen via original payload;publicclientcontainerclick->realnetworkserverhandler->finalnativeequipdenial duringpending,exactcursorconservation;postexpiryunequipandnewequip/clientstate accepted",
+      "rerunThisBatch": false,
+      "actualContainerNetworkActionAccepted": true,
+      "humanPointerInteractionClaimed": false,
+      "v14StrictFailureRetained": "LOWESTobserverreadbeforeoriginalhandlerfinalresult;V15readsretainednativeeventafternaturalcompleteddispatch"
+    },
+    {
+      "subscriber": "onDeath",
+      "evidence": "V6 validoriginal relic native death withkeepInventory andglobal count1",
+      "rerunThisBatch": false,
+      "allDeathPoliciesClaimedAccepted": false,
+      "additionalEvidence": "V13 default keepInventory=false actual death->real ItemEntity drop->actual client respawn->natural pickup->120tickstable conservation;V6keepInventory=true reused without rerun",
+      "defaultDeathPolicyAccepted": true
+    },
+    {
+      "subscriber": "onRespawn",
+      "evidence": "V6 actualclient respawnpacket andnewServerPlayer restoredrelic",
+      "rerunThisBatch": false,
+      "additionalEvidence": "V13 default keepInventory=false actual death->real ItemEntity drop->actual client respawn->natural pickup->120tickstable conservation;V6keepInventory=true reused without rerun",
+      "defaultDeathPolicyAccepted": true
+    },
+    {
+      "subscriber": "onLogout",
+      "evidence": "V6 separate actual logout supplement beforeexpiry forcedrestore",
+      "rerunThisBatch": false
+    },
+    {
+      "subscriber": "onLogin",
+      "evidence": "V7/V8 newJVM attempts stopatactual BackupConfirmScreen beforeintegrated login",
+      "accepted": false,
+      "requiresActualUserInteraction": true,
+      "latestAttempt": "V18 attended bounded reload;actual BackupConfirmScreen observed,180second deadline without actualconfirmation,normalexit andno native login",
+      "latestNativeAccepted": false,
+      "latestReportRelativePath": "work/session-boss/reports/zicai-curio-client-v18-candidate-a56d7243.json",
+      "latestReportSha256": "5bce55ee6d4afc7938dfdc6e9e88b162a673558615c949be2d0dd199a8f288d5",
+      "noAutomaticRetryBeforeUserReady": true,
+      "currentWaitingWindowExists": false
+    },
+    {
+      "subscriber": "onStopped",
+      "evidence": "V17 actual positive Boss damage produces one real dedup owner entry. Read-only Field.get observes native ServerStopping and ServerStopped with empty tracker; actual players zero; normal complete save and exit. No private state writes or private gameplay invocation.",
+      "directNativeCleanupAcceptanceClaimed": true,
+      "acceptanceScope": "actual shutdown dedup end state with nonempty native positive control",
+      "isolatedOnStoppedClearCausalityClaimed": false,
+      "causalityLimit": "Logout or last natural player tick already clears before stopping. Isolated handler clear remains frozen original graph evidence; no manufactured stale entries.",
+      "readOnlyPrivateFieldObservation": true
+    }
+  ],
+  "remainingExplicitGaps": [
+    "actual supported new-JVM confirmation/login persistence: user must click Create Backup and Load in a prepared attended isolated acceptance window"
+  ],
+  "originalSourceRelativePath": "work/session-boss/build/boss-zicai-curio-contract-audit-v1-20261113/original-sources/net/farmingtales/ftboss/boss/ai/ZicaiCurioSilence.java",
+  "newJvmRequiredOperation": "User confirms readiness atcomputer beforeanewattendedlaunch. Then toolcreatesafreshcopy ofacceptedV6world;useractuallyclicks Create Backup and Load within180seconds. Needactualnative login/120tick persistence/client sync afterwards. No current waitingwindow,no auto retry,no failedworldseed.",
+  "computerUseSkill": "C:/Users/qyby/.codex/plugins/cache/openai-bundled/computer-use/26.1027.30824/skills/computer-use/SKILL.md",
+  "unsupportedWorkaroundsUsed": false,
+  "fullLifecycleAccepted": false,
+  "fullBossMigrationComplete": false,
+  "multiItemSelectionMatrix": {
+    "accepted": true,
+    "evidence": "V16 publicgrowboss_relic2slots,2validatednoncosmeticoriginalrelics+1validatedcosmetic;actualnaturallyspacedpositiveBossdamage;eachhitexactlyonechangedrecord,newandrefreshbranches,bothindicesobserved,cosmeticneverselected,originalexpiries/eachcount1/clientstates",
+    "randomDistributionExhaustivenessClaimed": false,
+    "rngResetOrPrivateSelectionInvocation": false,
+    "priorControlsRerun": false
+  },
+  "nonClickDependentListedGapsAccepted": true,
+  "scopedIndependentAcceptance": [
+    {
+      "gap": "default death policy conservation beyond prior keepInventory=true",
+      "probe": "V13",
+      "checks": 784,
+      "accepted": true
+    },
+    {
+      "gap": "real Curios container/network equip action",
+      "probe": "V15",
+      "checks": 515,
+      "accepted": true,
+      "strictFailedPredecessor": "V14 retained; event result ordering diagnosis corrected observer only"
+    },
+    {
+      "gap": "original multi-item choice and cosmetic exclusion",
+      "probe": "V16",
+      "checks": 1528,
+      "accepted": true
+    },
+    {
+      "gap": "direct native shutdown dedup state observation",
+      "probe": "V17",
+      "checks": 140,
+      "accepted": true,
+      "isolatedClearCausalityClaimed": false
+    }
+  ],
+  "priorDimensionFourFallbackEighteenControlsRerun": false,
+  "newJvmWindowLeftWaiting": false,
+  "installable": false,
+  "deployed": false,
+  "remainingScopeLimits": [
+    "No human-pointer claim for menu actions: actual public client container clicks and original network processing were observed.",
+    "Only original valid relic fixtures and native default/keepInventory policies are accepted; arbitrary mod-added drop policies are not claimed.",
+    "Read-only private tracker field observation is disclosed; no private gameplay methods invoked or field/map writes.",
+    "Natural portal collision, full authenticated multiplayer/full Boss battles remain outside this lifecycle checkpoint."
+  ],
+  "preparedAttendedTool": "work/session-boss/tools/run_boss_zicai_curio_client_v18.py"
+}

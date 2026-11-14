@@ -1,0 +1,85 @@
+{
+  "format": "ftboss-scoped-curios-fallback-owner-checkpoint-v1",
+  "date": "2026-11-14",
+  "parentSourceCommit": "f56f0778090c96aed4bb0cc55e12ab058c29799d",
+  "branch": "codex/neoforge-source-20261113",
+  "candidateSha256": "c45cc10ffb7b572d876e869b692a75496c88c337434ed7140225df298b7bb65e",
+  "candidateChanged": false,
+  "installable": false,
+  "deployed": false,
+  "formalInstancesReadOnly": true,
+  "weaponsAndSessionPaused": true,
+  "fullBossMigrationComplete": false,
+  "nativeChecks": {
+    "9": 1059,
+    "10": 1145,
+    "11": 2000
+  },
+  "acceptedFallbackCases": [
+    "missing original slot index (V9 scoped case0 only)",
+    "removed original slot identifier after actual empty-slot client sync (V10 case1)",
+    "occupied original slot; blocker preserved; inventory fallback (V10 case2)",
+    "full inventory retains serialized pending; next natural tick after capacity release restores exactly once (V10 case3)"
+  ],
+  "v9WholeRunFailedAndRetained": true,
+  "v9UnacceptedIdentifierSyncFailureCorrectedOnlyInV10FixtureOrdering": true,
+  "originalItemExactlyOneNoDrop": true,
+  "actualNativeClientItemSyncAccepted": true,
+  "actualClientSlotTypeMapRemovalClaimed": false,
+  "ownerProjectileEligibilityCasesAccepted": 18,
+  "actualRegisteredProjectilesAdmitted": 21,
+  "creativeAndSpectatorFinalPositiveExemptionExercised": true,
+  "naturalProjectileCollisionAccepted": false,
+  "archive": {
+    "archiveRelativePath": "work/session-boss/archives/boss-core-stage28-curio-fallback-owner-increment-v1-20261114.zip",
+    "archiveSha256": "5fd51db889f0ce447dad1bda6c8230857d83bbdf331b031d878b280d255e4480",
+    "archiveBytes": 21115413,
+    "baseArchiveRelativePath": "work/session-boss/archives/boss-core-stage28-zicai-curio-scoped-evidence-v3-20261113.zip",
+    "baseArchiveSha256": "aca9e96def7887e0cf52637152df8922174326d5970376918d42b08bee864929",
+    "pathCount": 5804,
+    "selfBlobs": 128,
+    "baseLayerPaths": 5667,
+    "logicalBytes": 737047392,
+    "completePathSizePayloadVerification": true,
+    "fullPhysicalRestoreClaimed": false,
+    "requiresBaseArchive": true,
+    "remotelyRecoverable": false,
+    "allOriginalsRetained": true,
+    "installable": false,
+    "deployed": false
+  },
+  "aggregateRelativePath": "work/session-boss/reports/zicai-curio-native-next-batch-v1-20261114/scoped-acceptance.json",
+  "aggregateSha256": "5a34787b6f5603a4d79df1e94582e18de42f443e742fa7f60a64ae9a45506da0",
+  "nativeSourceFiles": {
+    "work/session-boss/tests/zicai-curio-client-v9/ZicaiCurioClientProbeV9.java": {
+      "bytes": 16614,
+      "sha256": "4c2707cac4219fb147a44ddfb5ea53ec13a53f3b816482cbffc1a00ab9506459"
+    },
+    "work/session-boss/tools/run_boss_zicai_curio_client_v9.py": {
+      "bytes": 16465,
+      "sha256": "dd4fc731a121db771c99d05bf63820738acff182bdd64074b809736b62e9779f"
+    },
+    "work/session-boss/tests/zicai-curio-client-v10/ZicaiCurioClientProbeV10.java": {
+      "bytes": 17232,
+      "sha256": "db6ef16837acdac84fb633602eb67074ae86f26ee029a9f941de0d75e5c6992d"
+    },
+    "work/session-boss/tools/run_boss_zicai_curio_client_v10.py": {
+      "bytes": 16477,
+      "sha256": "9f606043b2e91492b22efdba1c40881c7560dff7bc6f0bf7fa7c832a115db8c5"
+    },
+    "work/session-boss/tests/zicai-curio-client-v11/ZicaiCurioClientProbeV11.java": {
+      "bytes": 15833,
+      "sha256": "ebea62169aed147dd4522835457bbee9eb322804d28be8fa3cfe8d8af1b9579a"
+    },
+    "work/session-boss/tools/run_boss_zicai_curio_client_v11.py": {
+      "bytes": 16432,
+      "sha256": "33e9c7ad509116abcdbff987c9a76fd542c98497f90a2eb1869c3edd4e03bc19"
+    }
+  },
+  "limitations": [
+    "new-JVM login not accepted: experimental-world BackupConfirmScreen requires actual supported confirmation; no guessed input",
+    "full original lifecycle matrix, authenticated multiplayer and full battle/reward acceptance incomplete",
+    "archive requires unchanged hash-bound Stage28 base; raw binary remote recovery unproven; all originals retained"
+  ],
+  "nextWork": "complete supported actual new-JVM login confirmation and remaining original lifecycle matrix; keep source-only publication and no deployment until acceptance"
+}

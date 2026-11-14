@@ -1,0 +1,34 @@
+import datetime
+import json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[3]
+WORK=ROOT/'work/session-boss'
+RELEASE=WORK/'releases/boss-core-stage17-gongdi-living-target-20261113'
+helper=WORK/'tools/finalize_boss_stage14_resources_v4.py';namespace={'__file__':str(helper)}
+exec(helper.read_text(encoding='utf-8').split('parser = argparse.ArgumentParser()')[0],namespace)
+load=namespace['load'];sha=namespace['sha'];save=namespace['save'];archive=namespace['archive'];processes=namespace['processes']
+process_audit=processes();deployed=load(RELEASE/'deployment-receipt.json');archived=load(RELEASE/'archive-receipt.json');feature=load(RELEASE/'feature-verification.json')
+assert sha(deployed['target'])==deployed['deployedSha256']=='021de8b498baf3d215220ca2399e68471864872a7be75b775bb6ba3e588d7162'
+assert sha(deployed['backup'])==deployed['backupSha256']=='cb7bf44402aa18b2d051e8d388352285d2c5015713774dcbf3b0644a19d2d30d'
+assert sha(archived['archive'])==archived['archiveSha256'] and archived['failures']==0 and archived['allFilesReadBackAndHashVerified']
+patcher_path=ROOT/'work/session-lease/tools/reactivate_goal_after_boss_stage12.py';patcher={'__file__':str(patcher_path)};exec(patcher_path.read_text(encoding='utf-8').split('assert not OUT.exists()')[0],patcher);patch=patcher['replace_file']
+next_action='Audit original shared Gongdi constants and actual entity melee/cleave Living-target paths before next native behavior increment. Authenticated ingress/rewards/multiplayer/full battles pending;weapons remain paused.'
+for path in [ROOT/'WRITE_OWNER.json',WORK/'CURRENT_BOSS_BATCH.json']:
+    before=path.read_text(encoding='utf-8');data=json.loads(before);data.update({'currentGoalStatus':'active','activeGoalObjective':'继续完成boss部分部署移植','currentSignedSessionGoalStatus':'paused_by_current_direct_user','weaponValidationPaused':True,'noNewWeaponRuns':True,'activeRuntimePid':None,'activeRuntimePids':[],'bossActiveRuntimePid':None,'activeRuntimeAttempt':None,'activeSupervisor':None,'ownedJavaPythonProcessesRemaining':False,'ownedJavaPythonRemaining':0,'status':'stage17_verified_deployed_archived_full_boss_active','currentBatch':'stage17 complete:original Gongdi Living target controller/bleed/ranges/rotation/cue cancellation;native entry baseline25/candidate28,skills and35 lifecycle regression;295 entity methods unchanged','latestFormalDeployment':'stage17 Gongdi Living target controller on stage16;stage13 excluded','latestBossDeploymentReceipt':str(RELEASE/'deployment-receipt.json'),'latestStageDeploymentReceipt':str(RELEASE/'deployment-receipt.json'),'latestBossArchiveReceipt':str(RELEASE/'archive-receipt.json'),'latestStageArchiveSha256':archived['archiveSha256'],'deployedSha256':deployed['deployedSha256'],'stage17DeploymentPerformed':True,'stage17ArchiveFiles':archived['files'],'stage17SkillCases':feature['skillCases'],'stage17NaturalPostCallbacks':feature['naturalPostCallbacks'],'stage13DeploymentPerformed':False,'stage13IncludedInCurrentDeployment':False,'fullBossInstallable':False,'fullBossMigrationComplete':False,'installable':False,'nextBossAction':next_action,'nextBossScope':next_action,'updatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat()});patch(path,before,json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+heading=f"## Latest deployed stage17 Gongdi Living target controller, 2026-11-13\n\n- Deployed SHA{deployed['deployedSha256']}. Original controller restores actual Living targets,bleed identity/ranges/rotation/cue cancellation and original cooldown helper. Two original Living hooks added;all295 existing entity methods unchanged;297 ASM verified. Three previous classes changed,one added;other entries identical.\n- Native entry baseline25/candidate28,skills{feature['skillCases']} checks/{feature['naturalPostCallbacks']} natural server Post callbacks and lifecycle regression35 pass. Actual original pure-rule method bodies16 equivalent. No manual Entity.tick,reflection,fake player/authenticated encounter claimed. Prior failed pull fixtures preserved;no failed-world seeds.\n- Archive{archived['files']}files SHA{archived['archiveSha256']} fully readback/hash verified. Exact stage16 rollback preserved;stage13 excluded,weapons paused,recovery addon not installable. Shared legacy constants,entity melee/cleave Living paths and full authenticated/reward/multiplayer/battle gates remain. Full Boss goal active,same sole C writer;Forge/historical D read-only.\n\n"
+path=ROOT/'AGENTS.md';before=path.read_text(encoding='utf-8');assert '## Latest deployed stage17 Gongdi Living target controller' not in before;patch(path,before,before.replace('# NeoForge continuation on C\n','# NeoForge continuation on C\n\n'+heading,1))
+paragraph='\n\n'+heading+'Next: '+next_action+'\n'
+for name in ['DEPLOYED_PROGRESS.md','BOSS_MIGRATION_REQUIREMENTS_20261113.md']:
+    path=WORK/name;before=path.read_text(encoding='utf-8');after=before+paragraph
+    if name=='BOSS_MIGRATION_REQUIREMENTS_20261113.md':
+        previous='formal current stage12 SHA58002a729b48fba41bd4f4832b967760879114b214b93ff0729dfc8680483dc3'
+        assert previous in after
+        after=after.replace(previous,'formal current stage17 SHA'+deployed['deployedSha256'],1)
+    patch(path,before,after)
+path=WORK/'BOSS_DEPLOYMENT_STATUS_20261113.md';before=path.read_text(encoding='utf-8')
+paragraph=f"\n\n## 2026-11-13 Stage17：工地普通生物目标与技能控制器\n\n- 已恢复原版普通生物目标、三档距离选招、出血、原版技能轮转和中断清理。保留玩家兼容入口和提示；Boss原有295个方法保持不变，增加两处原版生物目标重载。\n- 原生入口基线25项/候选28项；技能{feature['skillCases']}项、{feature['naturalPostCallbacks']}次自然服务器回调及35项生命周期回归通过。实测断头台、重击伤害、拉回、减速、出血和目标失效中断；未把公开控制器定向测试表述成完整自然AI战斗。\n- 正式JAR SHA256：`{deployed['deployedSha256']}`；已保存Stage16精确回滚。归档{archived['files']}个文件，逐项读回并校验SHA256：`{archived['archiveSha256']}`。\n- 下一段继续原版共享常量和实体近战/大杀四方生物目标路径。真实登录、奖励、多人及完整战斗仍待完成；武器开发保持暂停，分离JAR仍为不可安装的恢复快照。\n"
+patch(path,before,before+paragraph)
+save(RELEASE/'closeout-terminal-audit.json',{'processes':process_audit,'ownedRuntimeOrSupervisorRemaining':0,'targetSha256':sha(deployed['target']),'backupSha256':sha(deployed['backup']),'fullBossGoalStatus':'active','weaponsPaused':True,'next':next_action})
+files={Path(__file__),ROOT/'AGENTS.md',ROOT/'WRITE_OWNER.json',ROOT/'WRITE_OWNER.claim',WORK/'CURRENT_BOSS_BATCH.json',WORK/'DEPLOYED_PROGRESS.md',WORK/'BOSS_MIGRATION_REQUIREMENTS_20261113.md',WORK/'BOSS_DEPLOYMENT_STATUS_20261113.md',RELEASE/'deployment-receipt.json',RELEASE/'archive-receipt.json',RELEASE/'feature-verification.json',RELEASE/'terminal-audit.json',RELEASE/'RESTORE.md',RELEASE/'closeout-terminal-audit.json'}
+receipt=archive(WORK/'archives/boss-core-stage17-closeout-20261113.zip',files);save(RELEASE/'closeout-archive-receipt.json',receipt)
+assert sha(deployed['target'])==deployed['deployedSha256'];print(json.dumps({'stage17Closed':True,'closeoutArchive':receipt,'fullBossGoalStatus':'active','weaponWorkPaused':True}),flush=True)

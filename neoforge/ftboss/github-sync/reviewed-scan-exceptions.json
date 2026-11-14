@@ -1,0 +1,30 @@
+{
+  "exceptions": [
+    {
+      "path": "work/session-boss/tools/finalize_boss_blood_tide_stage10.py",
+      "sourceSha256": "b9249ae767ecc667dac7baf0eda43d29e1af89fca1a4fea655d727acf9cde619",
+      "line": 125,
+      "category": "quoted-sensitive-assignment",
+      "reason": "Exact AST-reviewed save(deployment-intent.json) authorization field is a narrative deployment approval label,not an authentication credential.",
+      "matchedSecretValuesIncluded": false
+    },
+    {
+      "path": "work/session-boss/tools/finalize_boss_cleaver_sweep_stage11.py",
+      "sourceSha256": "6819a353c3c7fcb26bd4754b4df88b3e9de98d5408c161c9516a195a85885403",
+      "line": 132,
+      "category": "quoted-sensitive-assignment",
+      "reason": "Exact AST-reviewed save(deployment-intent.json) authorization field is a narrative deployment approval label,not an authentication credential.",
+      "matchedSecretValuesIncluded": false
+    },
+    {
+      "path": "work/session-boss/tools/verify_github_source_snapshot_v1.py",
+      "sourceSha256": "bfc671baad023b446255c135b9491294c29bab8a3e4d694b384c88274f636903",
+      "line": 34,
+      "category": "quoted-sensitive-assignment",
+      "reason": "Exact AST-reviewed detector-control expression constructs synthetic dummy assignment only in memory;the source does not contain a complete credential.",
+      "matchedSecretValuesIncluded": false
+    }
+  ],
+  "scope": "Only exact path,source bytes,line andcategory;any changed file orline invalidates the review. No file-wide bypass.",
+  "allRawFirstRunFailuresPreserved": true
+}

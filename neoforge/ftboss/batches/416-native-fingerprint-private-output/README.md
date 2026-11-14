@@ -1,0 +1,7 @@
+# 416 私有指纹输出原型
+
+在414累计候选的有效源码上合并修复FoundationAuthorRuleSnapshots.fingerprint/capture、FoundationCanonicalDigest.fingerprint、FourWeaponFoundationAdapter.compositionFingerprint和FoodWeaponMaterialFingerprint.create，共五个既有方法。只将未发布临时NBT的构建改为私有有序字段构建器；保持CURRENT、业务数值、缓存同步/淘汰和原始摘要格式。
+
+check416验证640项序列化字节与负载别名、128项真实摘要对照、六项外部调用拒绝及22类ASM；其余既有方法保留。417完成累计绑定，419实际原生命中运行越过这些输出点，首个后续拒绝是FoodWeaponSourceLedger.socketFingerprint。
+
+随后主动安全审查复现了私有种子构建器被反射调用后修改外来种子的风险。420修复该边界并提供前后对照；417不作为最终安全候选，也不部署。完整signed Session仍未通过。

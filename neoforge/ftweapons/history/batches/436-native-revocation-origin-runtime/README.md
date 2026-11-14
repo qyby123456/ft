@@ -1,0 +1,11 @@
+# 436 首次撤销来源真实专服验证
+
+以435累计候选运行真实NeoForge 21.1.233 / Minecraft 1.21.1隔离专服，进程59588正常保存退出，终端与探针退出码0。1381产品类逐字节一致，74覆盖、原生8/9/60、43项父方法克隆与四项调用者反射拒绝、六类范围、十二种非保留物品旧数据拒绝和176次旧附魔拒绝均保持通过。6104条配方结果、160插槽指纹、五项基础规则指纹与192项组件编码对照继续通过。148份归档、121种内容的冻结哈希与CRC通过。
+
+新建原生计时器缓冲区绑定继续通过，正向非空组acquired/rooted/done均为true，四项原始步骤已关闭。生命10到11，计时器80L。未知投射物加入修改仍提前拒绝且没有新对象绑定。
+
+首次撤销堆栈现在明确：Session.revoke -> interferenceObserved -> FoodWeaponFinalDamage.revokeExtraAuthority -> publishListedProducer第2106行。对应分支是extraOwnerAuthorityLive成立后selectPublishingWriter返回false。撤销发生在计时器完成后向下一个生产者交接时，原有firstObservationFailure与firstFailedStep仍为空，诊断没有改变原拒绝行为。
+
+tools/seal_origin436.py断言首次阶段0及上述精确调用顺序，输出reports/actual-origin436-sealed-experimental.json。发布后快照的玩家DomainBefore已retired，但尚不能凭这个快照证明selectPublishingWriter具体哪个子条件最先失败；需继续核对ownerWriterPublicationContinuation、covered/unchanged和玩家字段变更来源。不能直接跳过生产者选择或恢复retired标志。
+
+tools/verify_frozen_handoff436.py另行核验195/196/197三份证据文件在固定299收据中的哈希，以及C/D两份baseline和四份参考快照，报告在工程reports/frozen-handoff436-audit.json。这不代表逐一重新核验三份历史证据引用的全部文件。完整signed Session、lease/repair/payment、opaque provider、真人多人、缺失外部配方和客户端GL等仍未完成。NOT-INSTALLABLE，不部署。

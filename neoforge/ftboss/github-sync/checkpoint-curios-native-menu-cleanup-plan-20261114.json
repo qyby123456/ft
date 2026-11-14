@@ -1,0 +1,81 @@
+{
+  "format": "ftboss-verified-source-cache-cleanup-plan-v3",
+  "branch": "codex/neoforge-source-20261113",
+  "targetRelativePath": "github-sync/repositories/ft",
+  "previousPlanRelativePaths": [
+    "github-sync/checkpoint-source-cache-cleanup-plan-20261113.json",
+    "github-sync/checkpoint-curios-cache-cleanup-plan-20261114.json",
+    "github-sync/checkpoint-curios-dimension-cache-cleanup-plan-20261114.json",
+    "github-sync/checkpoint-curios-default-death-cleanup-plan-20261114.json"
+  ],
+  "deleteFiles": {
+    "neoforge/ftboss/work/session-boss/tests/zicai-curio-client-v14/ZicaiCurioClientProbeV14.java": {
+      "sha256": "f98ee791b49301aa4f808026ca02c5c7a79bc9bdfbda2d91c3f0bd597f618441",
+      "bytes": 15840
+    },
+    "neoforge/ftboss/work/session-boss/tools/run_boss_zicai_curio_client_v14.py": {
+      "sha256": "cbe7ed0d23e9c782c1af29f8dcc0e028aaf37473cb8e67ca38fc8ec324dc4f88",
+      "bytes": 16417
+    },
+    "neoforge/ftboss/work/session-boss/tests/zicai-curio-client-v15/ZicaiCurioClientProbeV15.java": {
+      "sha256": "cda1e27eac516727214edc27d331190e516dd24cc66714a29f1c5ff5fff6c45b",
+      "bytes": 16519
+    },
+    "neoforge/ftboss/work/session-boss/tools/run_boss_zicai_curio_client_v15.py": {
+      "sha256": "4a5f1ba54f61f1ae92d2c9fec15d556087e89d3f1058c94112f64a8ab048f8f7",
+      "bytes": 16417
+    }
+  },
+  "mandatoryKeepFiles": [
+    "README.md",
+    "neoforge/ftboss/.gitattributes",
+    "neoforge/ftboss/.gitignore",
+    "neoforge/ftboss/AGENTS.md",
+    "neoforge/ftboss/github-sync/FT_IMPORT_PROGRESS_20261113.md",
+    "neoforge/ftboss/github-sync/GITHUB_RESTORE_AND_SYNC.md",
+    "neoforge/ftboss/github-sync/SOURCE_CACHE_RECOVERY_20261113.md",
+    "neoforge/ftboss/github-sync/checkpoint-20261113-final/local-safety-closeout.json",
+    "neoforge/ftboss/github-sync/checkpoint-20261113-final/local-source-archive-receipt.json",
+    "neoforge/ftboss/github-sync/checkpoint-20261113-final/source-inventory.json",
+    "neoforge/ftboss/github-sync/checkpoint-20261113-final/sync-readiness.json",
+    "neoforge/ftboss/github-sync/checkpoint-boss-curios-dimension-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-boss-curios-fallback-owner-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-boss-stage28-zicai-20261113.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-cache-cleanup-plan-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-cache-cleanup-result-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-default-death-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-default-death-cleanup-plan-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-default-death-cleanup-result-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-dimension-cache-cleanup-plan-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-dimension-cache-cleanup-result-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-lifecycle-matrix-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-native-menu-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-native-menu-cleanup-plan-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-first-push-20261113.json",
+    "neoforge/ftboss/github-sync/checkpoint-source-cache-cleanup-plan-20261113.json",
+    "neoforge/ftboss/github-sync/checkpoint-source-cache-cleanup-result-20261113.json",
+    "neoforge/ftboss/github-sync/current-target-ft.json",
+    "neoforge/ftboss/github-sync/import-manifest-ft-20261113.json",
+    "neoforge/ftboss/github-sync/reviewed-scan-exceptions.json",
+    "neoforge/ftboss/github-sync/source-inventory.json",
+    "neoforge/ftboss/github-sync/sync-readiness.json",
+    "neoforge/ftboss/work/session-boss/CURIO_DEFAULT_DEATH_RECOVERY_20261114.md",
+    "neoforge/ftboss/work/session-boss/CURIO_DIMENSION_RECOVERY_20261114.md",
+    "neoforge/ftboss/work/session-boss/CURIO_INCREMENT_RECOVERY_20261114.md",
+    "neoforge/ftboss/work/session-boss/CURIO_NATIVE_MENU_RECOVERY_20261114.md",
+    "neoforge/ftboss/work/session-boss/ZICAI_CURIO_ARCHIVE_RESTORE.md",
+    "neoforge/ftboss/work/session-boss/ZICAI_CURIO_SILENCE_STAGE28.md",
+    "neoforge/ftboss/work/session-boss/tools/check_github_source_cache_handles_v1.ps1",
+    "neoforge/ftboss/work/session-boss/tools/prune_github_verified_source_cache_v1.py",
+    "neoforge/ftboss/work/session-boss/tools/prune_github_verified_source_cache_v2.py",
+    "neoforge/ftboss/work/session-boss/tools/prune_github_verified_source_cache_v3.py",
+    "neoforge/ftboss/work/session-boss/tools/publish_curios_lifecycle_increment_v1.py",
+    "neoforge/ftboss/work/session-boss/tools/restore_boss_zicai_curio_archive_v1.py",
+    "neoforge/ftboss/work/session-boss/tools/restore_boss_zicai_curio_archive_v2.py",
+    "neoforge/ftboss/work/session-boss/tools/verify_github_source_snapshot_v1.py",
+    "neoforge/ftboss/work/session-boss/tools/verify_github_source_snapshot_v2.py",
+    "neoforge/ftboss/work/session-boss/tools/verify_github_source_snapshot_v3.py"
+  ],
+  "canonicalFrozenSourcesAndRawArtifactsExcluded": true,
+  "largeArtifactsRemoteRecoveryVerified": false
+}

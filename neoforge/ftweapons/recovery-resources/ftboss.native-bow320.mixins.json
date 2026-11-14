@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.farmingtales.ftboss.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "net.farmingtales.ftboss.mixin.NativeOptionalMixinPlugin",
+  "mixins": [
+    "FoodWeaponItemUseMixin",
+    "FoodWeaponBowMixin",
+    "NativeProjectileFactoryBoundaryMixin",
+    "NativeVanillaArrowImpactMixin",
+    "NativePaidWeaponCarrierMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

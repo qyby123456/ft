@@ -1,0 +1,78 @@
+{
+  "format": "ftboss-verified-source-cache-cleanup-plan-v2",
+  "branch": "codex/neoforge-source-20261113",
+  "parentSourceCommit": "f56f0778090c96aed4bb0cc55e12ab058c29799d",
+  "targetRelativePath": "github-sync/repositories/ft",
+  "previousPlanRelativePath": "github-sync/checkpoint-source-cache-cleanup-plan-20261113.json",
+  "deleteFiles": {
+    "neoforge/ftboss/work/session-boss/tests/zicai-curio-client-v9/ZicaiCurioClientProbeV9.java": {
+      "bytes": 16614,
+      "sha256": "4c2707cac4219fb147a44ddfb5ea53ec13a53f3b816482cbffc1a00ab9506459"
+    },
+    "neoforge/ftboss/work/session-boss/tools/run_boss_zicai_curio_client_v9.py": {
+      "bytes": 16465,
+      "sha256": "dd4fc731a121db771c99d05bf63820738acff182bdd64074b809736b62e9779f"
+    },
+    "neoforge/ftboss/work/session-boss/tests/zicai-curio-client-v10/ZicaiCurioClientProbeV10.java": {
+      "bytes": 17232,
+      "sha256": "db6ef16837acdac84fb633602eb67074ae86f26ee029a9f941de0d75e5c6992d"
+    },
+    "neoforge/ftboss/work/session-boss/tools/run_boss_zicai_curio_client_v10.py": {
+      "bytes": 16477,
+      "sha256": "9f606043b2e91492b22efdba1c40881c7560dff7bc6f0bf7fa7c832a115db8c5"
+    },
+    "neoforge/ftboss/work/session-boss/tests/zicai-curio-client-v11/ZicaiCurioClientProbeV11.java": {
+      "bytes": 15833,
+      "sha256": "ebea62169aed147dd4522835457bbee9eb322804d28be8fa3cfe8d8af1b9579a"
+    },
+    "neoforge/ftboss/work/session-boss/tools/run_boss_zicai_curio_client_v11.py": {
+      "bytes": 16432,
+      "sha256": "33e9c7ad509116abcdbff987c9a76fd542c98497f90a2eb1869c3edd4e03bc19"
+    }
+  },
+  "mandatoryKeepFiles": [
+    "README.md",
+    "neoforge/ftboss/.gitattributes",
+    "neoforge/ftboss/.gitignore",
+    "neoforge/ftboss/AGENTS.md",
+    "neoforge/ftboss/github-sync/FT_IMPORT_PROGRESS_20261113.md",
+    "neoforge/ftboss/github-sync/GITHUB_RESTORE_AND_SYNC.md",
+    "neoforge/ftboss/github-sync/SOURCE_CACHE_RECOVERY_20261113.md",
+    "neoforge/ftboss/github-sync/checkpoint-20261113-final/local-safety-closeout.json",
+    "neoforge/ftboss/github-sync/checkpoint-20261113-final/local-source-archive-receipt.json",
+    "neoforge/ftboss/github-sync/checkpoint-20261113-final/source-inventory.json",
+    "neoforge/ftboss/github-sync/checkpoint-20261113-final/sync-readiness.json",
+    "neoforge/ftboss/github-sync/checkpoint-boss-curios-fallback-owner-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-boss-stage28-zicai-20261113.json",
+    "neoforge/ftboss/github-sync/checkpoint-curios-cache-cleanup-plan-20261114.json",
+    "neoforge/ftboss/github-sync/checkpoint-first-push-20261113.json",
+    "neoforge/ftboss/github-sync/checkpoint-source-cache-cleanup-plan-20261113.json",
+    "neoforge/ftboss/github-sync/checkpoint-source-cache-cleanup-result-20261113.json",
+    "neoforge/ftboss/github-sync/current-target-ft.json",
+    "neoforge/ftboss/github-sync/import-manifest-ft-20261113.json",
+    "neoforge/ftboss/github-sync/reviewed-scan-exceptions.json",
+    "neoforge/ftboss/github-sync/source-inventory.json",
+    "neoforge/ftboss/github-sync/sync-readiness.json",
+    "neoforge/ftboss/work/session-boss/CURIO_INCREMENT_RECOVERY_20261114.md",
+    "neoforge/ftboss/work/session-boss/ZICAI_CURIO_ARCHIVE_RESTORE.md",
+    "neoforge/ftboss/work/session-boss/ZICAI_CURIO_SILENCE_STAGE28.md",
+    "neoforge/ftboss/work/session-boss/tools/check_github_source_cache_handles_v1.ps1",
+    "neoforge/ftboss/work/session-boss/tools/prune_github_verified_source_cache_v1.py",
+    "neoforge/ftboss/work/session-boss/tools/prune_github_verified_source_cache_v2.py",
+    "neoforge/ftboss/work/session-boss/tools/restore_boss_zicai_curio_archive_v1.py",
+    "neoforge/ftboss/work/session-boss/tools/restore_boss_zicai_curio_archive_v2.py",
+    "neoforge/ftboss/work/session-boss/tools/verify_github_source_snapshot_v1.py",
+    "neoforge/ftboss/work/session-boss/tools/verify_github_source_snapshot_v2.py",
+    "neoforge/ftboss/work/session-boss/tools/verify_github_source_snapshot_v3.py"
+  ],
+  "canonicalFrozenInputsAndRawEvidenceExcluded": true,
+  "largeArtifactsRemoteRecoveryVerified": false,
+  "gitMetadataDeleted": false,
+  "preconditions": [
+    "published plan andrestore notes independently fetched",
+    "all remote blob paths,size,SHA256 andcommit verified",
+    "no target-referring runtime/process/file handles",
+    "all six canonical source inputs retained"
+  ],
+  "restore": "fetch the exact binding commit recorded bythe subsequent cleanup receipt;restore only needed paths"
+}

@@ -1,0 +1,9 @@
+# 422 隔离后的真实混入运行
+
+使用421累计候选，保持419的3格目标和原生命中约束、箭矢轨迹记录。Java/探针退出0，stdin stop及全维度保存完成；全部1379类与候选哈希一致。74项有序覆盖、原生8/9/60、43项父方法克隆拒绝、四项调用者反射冒充拒绝通过。六类代表及12项旧数据拒绝、176次旧食物附魔请求无消费检查均保留。
+
+本次无JDWP、无调试器或额外线程转储。角色为测试构造的ServerPlayer，不代表认证真人多人。重用299依赖/CRC和375既有回归证据，没有重新执行完整56组或十项外部配方。
+
+血宴生命10到11，计时器LastSkillProc.blood_feast为80L；一项非空计时器组选择一条指令，但done=false、traceRevoked=true。首个拒绝仍为FoodWeaponSourceLedger.socketFingerprint第7725行临时根NBT写入。新私有种子隔离没有将首个拒绝退回旧的作者指纹链，但完整Session仍未成功。
+
+后续工作：修复socketFingerprint根/槽临时输出，并成组审查foundationContinuous→FoundationApprovedRules.fingerprint/nativeRecipeFingerprint/recipeEvidence的临时NBT；保持配方摘要、顺序、别名、异常和回调行为，提供行为差分、精确守卫和实际正向/负向证据。种子外来写入风险必须用420的前后复现保持封闭，不允许通过放宽所有未绑定映射写入解决。完整目标继续未完成，NOT-INSTALLABLE。

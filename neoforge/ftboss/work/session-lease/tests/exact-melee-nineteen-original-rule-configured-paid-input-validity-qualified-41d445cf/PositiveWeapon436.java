@@ -1,0 +1,509 @@
+package ftboss.storage308;
+
+import com.google.gson.GsonBuilder;
+import com.mojang.authlib.GameProfile;
+import java.lang.reflect.Field;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.NbtAccounter;
+import net.minecraft.nbt.NbtIo;
+import net.minecraft.server.level.ClientInformation;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.component.CustomData;
+import net.minecraft.world.level.storage.LevelResource;
+import net.minecraft.world.level.storage.PlayerDataStorage;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.event.server.ServerStartedEvent;
+
+@Mod("ftboss_storage308")
+public final class PositiveWeapon436 {
+    public PositiveWeapon436() { NeoForge.EVENT_BUS.addListener(PositiveWeapon436::started); }
+
+    private static Object read(Object instance, String name) throws Exception {
+        for (Class<?> type = instance.getClass(); type != null; type = type.getSuperclass()) {
+            try { Field field = type.getDeclaredField(name); field.setAccessible(true); return field.get(instance); }
+            catch (NoSuchFieldException missing) { }
+        }
+        throw new NoSuchFieldException(name);
+    }
+
+    private static Object readStatic(Class<?> type, String name) throws Exception {
+        Field field = type.getDeclaredField(name); field.setAccessible(true); return field.get(null);
+    }
+
+    private static void started(ServerStartedEvent event) {
+        Map<String, Object> report = new LinkedHashMap<>();
+        List<Map<String, Object>> cases = new ArrayList<>();
+        List<ServerPlayer> scratches = new ArrayList<>();
+        report.put("cases", cases);
+        try {
+            var server = event.getServer();
+            PlayerDataStorage storage = (PlayerDataStorage)read(server.getPlayerList(), "playerIo");
+            Class<?> guard = Class.forName("net.farmingtales.ftboss.item.OwnerFullRepairGuard");
+            var leaseMethod = guard.getDeclaredMethod("lease", Object.class); leaseMethod.setAccessible(true);
+            var generationMethod = guard.getDeclaredMethod("generation", Object.class); generationMethod.setAccessible(true);
+            Class<?> storeType = Class.forName("net.farmingtales.ftboss.item.OwnerLineageRevocationStore");
+            var open = storeType.getDeclaredMethod("open", net.minecraft.server.MinecraftServer.class); open.setAccessible(true);
+            Object store = open.invoke(null, server);
+            var readDocument = storeType.getDeclaredMethod("readRepairDocument", UUID.class, boolean.class); readDocument.setAccessible(true);
+            var recordPath = storeType.getDeclaredMethod("recordPath", UUID.class, UUID.class); recordPath.setAccessible(true);
+            var readRecord = storeType.getDeclaredMethod("read", Path.class, UUID.class, UUID.class); readRecord.setAccessible(true);
+            List<String> ids = List.of("minecraft:wooden_sword", "minecraft:wooden_axe", "minecraft:stone_sword", "minecraft:stone_axe", "minecraft:golden_sword", "minecraft:golden_axe", "minecraft:diamond_sword", "minecraft:diamond_axe", "minecraft:netherite_sword", "minecraft:netherite_axe", "cataclysm:khopesh", "cataclysm:black_steel_sword", "cataclysm:black_steel_axe", "ftboss:defect_claw", "ftboss:turkey_legs", "ftboss:apple_stem", "ftboss:blooming_thorns", "bakery:rolling_pin", "bakery:bread_knife");
+            for (int sample = 0; sample < 19; sample++) {
+                String id = ids.get(sample);
+                UUID owner = new UUID(690, sample + 1);
+                GameProfile profile = new GameProfile(owner, "ft_exact_" + sample);
+                ServerPlayer original = new ServerPlayer(server, server.overworld(), profile, ClientInformation.createDefault());
+                scratches.add(original);
+                var item = net.minecraft.core.registries.BuiltInRegistries.ITEM.getOptional(net.minecraft.resources.ResourceLocation.parse(id)).orElseThrow();
+                ItemStack weapon = new ItemStack(item);
+                Map<String, Object> row = new LinkedHashMap<>(); row.put("id", id); row.put("owner", owner.toString()); row.put("itemClass", item.getClass().getName()); cases.add(row);
+                CompoundTag data = new CompoundTag();
+                CompoundTag evolution = new CompoundTag();
+                evolution.putString("Profile", "butcher"); evolution.putString("EvolutionSkill", "blood_feast");
+                evolution.putInt("Level", 1); evolution.putInt("Experience", 0); evolution.putInt("ProgressionVersion", 2);
+                data.put("FTBossFoodEvolution", evolution);
+                weapon.set(DataComponents.CUSTOM_DATA, CustomData.of(data));
+                row.put("originalFoundationApplicable", net.farmingtales.ftboss.item.FourWeaponFoundationAdapter.applies(weapon));
+                if (net.farmingtales.ftboss.item.FourWeaponFoundationAdapter.applies(weapon)
+                    && !net.farmingtales.ftboss.item.FourWeaponFoundationAdapter.initializeForServerEdit(weapon))
+                    throw new AssertionError("Original native foundation initialization failed for " + id);
+                if (net.farmingtales.ftboss.item.SwordCavityBuild.applies(weapon)) {
+                    row.put("originalCavityMissingBeforeReferenceCapture", net.farmingtales.ftboss.item.SwordCavityBuild.missingRequired(weapon));
+                    net.farmingtales.ftboss.item.SwordNativeMaterials.capture(weapon, server.overworld());
+                    row.put("originalRecipeReferenceCaptureBeforeAnyRepairAuthority", true);
+                    row.put("originalCavityStatusAfterReferenceCapture", net.farmingtales.ftboss.item.SwordCavityBuild.functionStatus(weapon).toString());
+                    row.put("originalCavityMissingAfterReferenceCapture", net.farmingtales.ftboss.item.SwordCavityBuild.missingRequired(weapon));
+
+                }
+                original.getInventory().setItem(0, weapon);
+                installOriginalMaterials(original, weapon, row);
+                ((List<ServerPlayer>)read(server.getPlayerList(), "players")).add(original);
+                net.farmingtales.ftboss.item.NativeFoodWeaponWear.manage(original, weapon);
+                net.farmingtales.ftboss.item.FoodWeaponLifecycle.ensureTracked(weapon);
+                if (net.farmingtales.ftboss.item.FoodWeaponLifecycle.isBroken(weapon)) throw new AssertionError("Original pre-authority configured weapon is still broken: " + id);
+                row.put("originalConfiguredWeaponNotBrokenBeforeAnyPaidAuthority", true);
+                weapon.setDamageValue(10);
+                storage.save(original);
+                ((List<ServerPlayer>)read(server.getPlayerList(), "players")).remove(original);
+                ServerPlayer repairedPlayer = new ServerPlayer(server, server.overworld(), profile, ClientInformation.createDefault());
+                scratches.add(repairedPlayer);
+                if (storage.load(repairedPlayer).isEmpty()) throw new AssertionError("Original pre-repair player load did not run for " + id);
+                ItemStack actual = repairedPlayer.getInventory().getItem(0);
+                if (!actual.is(item) || !net.farmingtales.ftboss.item.NativeFoodWeaponWear.eligible(actual) || actual.getDamageValue() != 10)
+                    throw new AssertionError("Original native wear fixture is not eligible/coherent for " + id);
+                String expectedClass = List.of("net.minecraft.world.item.SwordItem", "net.minecraft.world.item.AxeItem", "net.minecraft.world.item.SwordItem", "net.minecraft.world.item.AxeItem", "net.minecraft.world.item.SwordItem", "net.minecraft.world.item.AxeItem", "net.minecraft.world.item.SwordItem", "net.minecraft.world.item.AxeItem", "net.minecraft.world.item.SwordItem", "net.minecraft.world.item.AxeItem", "net.minecraft.world.item.SwordItem", "net.minecraft.world.item.SwordItem", "net.minecraft.world.item.AxeItem", "net.minecraft.world.item.SwordItem", "net.minecraft.world.item.SwordItem", "net.minecraft.world.item.SwordItem", "net.minecraft.world.item.SwordItem", "net.minecraft.world.item.SwordItem", "net.minecraft.world.item.SwordItem").get(sample);
+                int expectedMaximum = new int[]{59, 59, 131, 131, 32, 32, 1561, 1561, 2031, 2031, 750, 750, 750, 1561, 1500, 2031, 2031, 59, 250}[sample];
+                if (!actual.getItem().getClass().getName().equals(expectedClass) || actual.getMaxDamage() != expectedMaximum
+                    || net.minecraft.core.registries.BuiltInRegistries.ITEM.get(net.minecraft.resources.ResourceLocation.parse(id)) != actual.getItem())
+                    throw new AssertionError("Original exact registered implementation/durability drift for " + id);
+                row.put("originalExactRegisteredClassAndDurabilityPreserved", true);
+                row.put("originalMaximumDamage", expectedMaximum);
+                runNativeRepair(event, repairedPlayer, actual, row);
+                Object predecessorLease = leaseMethod.invoke(null, actual);
+                Object predecessorGeneration = generationMethod.invoke(null, actual);
+                if (predecessorLease == null || predecessorGeneration == null) throw new AssertionError("Actual paid CLAIM did not publish physical authority for " + id);
+                Object predecessorEpoch = read(predecessorLease, "incarnation");
+                if (((Number)read(predecessorLease, "generation")).longValue() != 0L) throw new AssertionError("Actual original paid claim did not start at generation zero for " + id);
+                CompoundTag expected = net.farmingtales.ftboss.item.NativeFoundationItemData.image(actual);
+                storage.save(repairedPlayer);
+                UUID documentOwner = UUID.nameUUIDFromBytes(("ftboss/native-repair-continuation/v1/" + owner).getBytes(StandardCharsets.UTF_8));
+                CompoundTag committed = (CompoundTag)readDocument.invoke(store, documentOwner, false);
+                if (!committed.getString("Status").equals("COMMITTED_ORIGINAL_SAVE")) throw new AssertionError("Actual paid save did not commit for " + id);
+                ServerPlayer successorPlayer = new ServerPlayer(server, server.overworld(), profile, ClientInformation.createDefault());
+                scratches.add(successorPlayer);
+                if (storage.load(successorPlayer).isEmpty()) throw new AssertionError("Actual original paid reload did not run for " + id);
+                ItemStack successor = successorPlayer.getInventory().getItem(0);
+                Object successorLease = leaseMethod.invoke(null, successor);
+                Object successorGeneration = generationMethod.invoke(null, successor);
+                if (successorLease == null || successorGeneration == null || successorLease == predecessorLease || successorGeneration == predecessorGeneration
+                    || !expected.equals(net.farmingtales.ftboss.item.NativeFoundationItemData.image(successor)) || !Boolean.TRUE.equals(read(predecessorGeneration, "retired")))
+                    throw new AssertionError("Actual same-process paid reload failed to advance/revoke predecessor for " + id);
+                if (!predecessorEpoch.equals(read(successorLease, "incarnation")) || ((Number)read(successorLease, "generation")).longValue() != 1L)
+                    throw new AssertionError("Actual paid successor changed epoch or did not advance exactly once for " + id);
+                UUID weaponId = net.farmingtales.ftboss.item.FoodWeaponLifecycle.weaponId(successor);
+                Path lineagePath = (Path)recordPath.invoke(store, owner, weaponId);
+                Object lineage = readRecord.invoke(store, lineagePath, owner, weaponId);
+                if (!Boolean.TRUE.equals(read(lineage, "active")) || ((Number)read(lineage, "generation")).longValue() != 1L)
+                    throw new AssertionError("Original lineage did not reach generation one for " + id);
+                byte[] lineageBytes = Files.readAllBytes(lineagePath);
+                CompoundTag consumed = (CompoundTag)readDocument.invoke(store, documentOwner, false);
+                ServerPlayer replay = new ServerPlayer(server, server.overworld(), profile, ClientInformation.createDefault());
+                scratches.add(replay);
+                if (storage.load(replay).isEmpty()) throw new AssertionError("Original consumed replay did not run for " + id);
+                if (leaseMethod.invoke(null, replay.getInventory().getItem(0)) != null || generationMethod.invoke(null, replay.getInventory().getItem(0)) != null
+                    || leaseMethod.invoke(null, successor) != successorLease || generationMethod.invoke(null, successor) != successorGeneration
+                    || !Arrays.equals(lineageBytes, Files.readAllBytes(lineagePath)) || !consumed.equals(readDocument.invoke(store, documentOwner, false)))
+                    throw new AssertionError("Consumed save replay reissued or mutated genuine successor for " + id);
+                storage.save(successorPlayer);
+                CompoundTag saved = NbtIo.readCompressed(server.getWorldPath(LevelResource.PLAYER_DATA_DIR).resolve(owner + ".dat"), NbtAccounter.unlimitedHeap());
+                CompoundTag ticket = saved.getList("Inventory", 10).getCompound(0).getCompound("FTBossRepairContinuation");
+                CompoundTag finalDocument = (CompoundTag)readDocument.invoke(store, documentOwner, false);
+                if (ticket.getLong("LeaseGeneration") != 1L || !finalDocument.getString("Status").equals("COMMITTED_ORIGINAL_SAVE")
+                    || !ticket.equals(finalDocument.getCompound("Continuations").getCompound(weaponId.toString()).getCompound("Ticket")))
+                    throw new AssertionError("Original successor save lacks exact committed generation-one ticket for " + id);
+                row.put("actualPaidClaimAndThreeSupplyConsumptions", true); row.put("actualOriginalSaveCommitted", true);
+                row.put("actualOriginalLoadRestoredNonNullGenuineSuccessor", true); row.put("sameEpochGenerationZeroToOne", true);
+                row.put("oldPhysicalGenerationRetired", true); row.put("consumedReplayDeniedAndFirstSuccessorUnchanged", true);
+                row.put("actualSuccessorOriginalSaveCommitted", true); row.put("successorWholeItemImage", expected.toString());
+                ((List<ServerPlayer>)read(server.getPlayerList(), "players")).remove(repairedPlayer);
+                ((Map<UUID, ServerPlayer>)read(server.getPlayerList(), "playersByUUID")).remove(owner, repairedPlayer);
+            }
+            report.put("failures", 0); report.put("nineteenExactOriginalMeleeVariantsConfiguredPaidRepairAndSameProcessReload", true);
+        } catch (Throwable failure) {
+            report.put("failures", 1); report.put("failure", failure.toString());
+            java.io.StringWriter trace = new java.io.StringWriter(); failure.printStackTrace(new java.io.PrintWriter(trace)); report.put("trace", trace.toString());
+        } finally {
+            try {
+                var players = (List<ServerPlayer>)read(event.getServer().getPlayerList(), "players");
+                var byId = (Map<UUID, ServerPlayer>)read(event.getServer().getPlayerList(), "playersByUUID");
+                for (ServerPlayer scratch : scratches) { players.remove(scratch); byId.remove(scratch.getUUID(), scratch); }
+                report.put("scratchPlayersRemoved", scratches.stream().noneMatch(players::contains));
+            } catch (Exception failure) { report.put("failures", 1); report.put("cleanupFailure", failure.toString()); }
+        }
+        report.put("authorityWrittenByReflection", false); report.put("authenticatedMultiplayerAccepted", false);
+        report.put("fullSixFamilyRuntimeMatrixAccepted", false); report.put("fullSignedCombatSessionRunByThisFixture", false);
+        report.put("fullLifecycleAccepted", false); report.put("installable", false);
+        try { Files.writeString(Path.of("actual-storage-view308.json"), new GsonBuilder().setPrettyPrinting().create().toJson(report)); }
+        catch (Exception failure) { throw new IllegalStateException(failure); }
+    }
+
+    private static double readinessScore(net.farmingtales.ftboss.util.SwordFunctionRules.Status status) {
+        if (!status.valid()) return -1.0;
+        double total = 0.0;
+        for (var function : net.farmingtales.ftboss.util.SwordFunctionRules.Function.values()) {
+            double minimum = status.minimum().value(function);
+            total += minimum <= 0.0 ? 1.0 : Math.min(1.0, status.total().value(function) / minimum);
+        }
+        return total;
+    }
+
+    private static net.farmingtales.ftboss.util.SwordFunctionRules.Status originalPlannedStatus(
+        ItemStack weapon, List<net.farmingtales.ftboss.util.SwordFunctionRules.Input> inputs,
+        Map<String, net.farmingtales.ftboss.util.SwordFunctionRules.Values> values) {
+        var profile = net.farmingtales.ftboss.api.SwordCavityExtensions.functionProfile(weapon);
+        return net.farmingtales.ftboss.util.SwordFunctionRules.evaluateItems(
+            profile == null ? null : profile.withItemValues(values), inputs,
+            net.farmingtales.ftboss.item.FoodWeaponEvolution.evolutionLevel(weapon));
+    }
+
+    private static void requireSameOriginalStatus(net.farmingtales.ftboss.util.SwordFunctionRules.Status expected,
+        net.farmingtales.ftboss.util.SwordFunctionRules.Status actual) {
+        if (!expected.equals(actual)) throw new AssertionError("Read-only original rule plan differs from actual detached/installed status: " + expected + " / " + actual);
+    }
+
+    @SuppressWarnings("unchecked")
+    private static void preserveOriginalReturnedSupply(ServerPlayer player, Map<String, Object> row) {
+        ItemStack returned = player.getInventory().getItem(2);
+        if (returned.isEmpty()) return;
+        int destination = -1;
+        for (int index = 3; index < 36; index++) if (player.getInventory().getItem(index).isEmpty()) { destination = index; break; }
+        if (destination < 0) throw new AssertionError("No fixture inventory space for original returned cavity material");
+        String identity = net.minecraft.core.registries.BuiltInRegistries.ITEM.getKey(returned.getItem()).toString();
+        int count = returned.getCount();
+        ItemStack moved = player.getInventory().removeItemNoUpdate(2);
+        player.getInventory().setItem(destination, moved);
+        if (moved != returned || moved.getCount() != count || !player.getInventory().getItem(2).isEmpty())
+            throw new AssertionError("Original returned supply identity/count was not preserved");
+        List<Object> preserved = (List<Object>)row.computeIfAbsent("originalReturnedMaterialsPreservedInInventory", key -> new ArrayList<>());
+        preserved.add(Map.of("item", identity, "count", count, "inventorySlot", destination, "samePhysicalItemAndCountPreserved", true));
+    }
+
+    private static void installOriginalMaterials(ServerPlayer player, ItemStack weapon, Map<String, Object> row) throws Exception {
+        if (!net.farmingtales.ftboss.item.SwordCavityBuild.applies(weapon)) return;
+        Class<?> guard = Class.forName("net.farmingtales.ftboss.item.OwnerFullRepairGuard");
+        var lease = guard.getDeclaredMethod("lease", Object.class); lease.setAccessible(true);
+        var generation = guard.getDeclaredMethod("generation", Object.class); generation.setAccessible(true);
+        if (lease.invoke(null, weapon) != null || generation.invoke(null, weapon) != null) throw new AssertionError("Material installation must precede any repair authority");
+        var preview = net.farmingtales.ftboss.item.SwordCavityBuild.class.getDeclaredMethod("containerPreview", ItemStack.class, List.class); preview.setAccessible(true);
+        var validItemId = net.farmingtales.ftboss.util.SwordFunctionRules.class.getDeclaredMethod("validItemId", String.class); validItemId.setAccessible(true);
+        List<net.minecraft.world.item.Item> materials = new ArrayList<>();
+        for (var item : net.minecraft.core.registries.BuiltInRegistries.ITEM) {
+            ItemStack piece = new ItemStack(item);
+            if (net.farmingtales.ftboss.item.SwordCavityBuild.materialFor(piece) != net.farmingtales.ftboss.util.FoodWeaponBuildRules.Material.ORIGINAL
+                && net.farmingtales.ftboss.api.SwordMaterialExtensions.resolve(piece).isPresent()) materials.add(item);
+        }
+        materials.sort(java.util.Comparator.comparing(item -> net.minecraft.core.registries.BuiltInRegistries.ITEM.getKey(item).toString()));
+        Map<net.minecraft.world.item.Item, net.farmingtales.ftboss.api.SwordMaterialDefinition> definitions = new java.util.HashMap<>();
+        for (var item : materials) definitions.put(item, net.farmingtales.ftboss.api.SwordMaterialExtensions.resolve(new ItemStack(item)).orElseThrow());
+        for (var definition : definitions.values()) if (!Boolean.TRUE.equals(validItemId.invoke(null, definition.itemId().toString())))
+            throw new AssertionError("Original function rules reject an actual registered replacement item identifier");
+        row.put("readOnlyOriginalRuleCandidateCount", materials.size());
+        var connection = new net.minecraft.network.Connection(net.minecraft.network.protocol.PacketFlow.SERVERBOUND);
+        var channel = new io.netty.channel.embedded.EmbeddedChannel(connection);
+        player.connection = new net.minecraft.server.network.ServerGamePacketListenerImpl(player.getServer(), connection, player,
+            net.minecraft.server.network.CommonListenerCookie.createInitial(player.getGameProfile(), false));
+        List<Object> installed = new ArrayList<>(); row.put("originalConsumedMaterialInstallations", installed);
+        try {
+            for (int step = 0; step < 27 && net.farmingtales.ftboss.item.SwordCavityBuild.missingRequired(weapon); step++) {
+                double score = readinessScore(net.farmingtales.ftboss.item.SwordCavityBuild.functionStatus(weapon));
+                net.farmingtales.ftboss.util.SwordCavityRules.Slot bestSlot = null;
+                net.minecraft.world.item.Item bestMaterial = null;
+                List<net.farmingtales.ftboss.util.SwordFunctionRules.Input> originalInputs = new ArrayList<>();
+                Map<String, net.farmingtales.ftboss.util.SwordFunctionRules.Values> originalValues = new java.util.HashMap<>();
+                var nativeParts = net.farmingtales.ftboss.item.SwordNativeMaterials.parts(weapon);
+                var cells = net.farmingtales.ftboss.item.SwordCavityBuild.cells(weapon, nativeParts);
+                if (cells.size() != 27) throw new AssertionError("Original cavity cell count changed");
+                var nativeProfile = net.farmingtales.ftboss.api.SwordCavityExtensions.functionProfile(weapon);
+                boolean moddedReferences = !net.farmingtales.ftboss.util.SwordCompatibilityRules.upgradeReferenceBudget(
+                    net.minecraft.core.registries.BuiltInRegistries.ITEM.getKey(weapon.getItem()).toString(), List.of()).isEmpty();
+                for (var slot : net.farmingtales.ftboss.util.SwordCavityRules.Slot.values()) {
+                    var cell = cells.get(slot.ordinal());
+                    ItemStack piece = cell.state() == net.farmingtales.ftboss.util.SwordCavityRules.State.NATIVE
+                        && nativeParts.get(slot.ordinal()).count() == 1
+                        ? net.farmingtales.ftboss.item.SwordNativeMaterials.display(weapon, slot.ordinal(), nativeParts)
+                        : net.farmingtales.ftboss.item.SwordCavityBuild.storedItem(weapon, slot);
+                    var definition = net.farmingtales.ftboss.api.SwordMaterialExtensions.resolve(piece);
+                    String fallback = moddedReferences && !piece.isEmpty()
+                        ? net.minecraft.core.registries.BuiltInRegistries.ITEM.getKey(piece.getItem()).toString()
+                        : (cell.installed() ? "ftboss:legacy_" + cell.material().id() : "");
+                    String identity = definition.map(value -> value.itemId().toString()).orElse(fallback);
+                    String inputIdentity = identity;
+                    if (moddedReferences && cell.state() == net.farmingtales.ftboss.util.SwordCavityRules.State.NATIVE && nativeProfile != null) {
+                        inputIdentity = "ftboss:native_reference/" + slot.ordinal();
+                        var functions = nativeProfile.itemValues().get(identity);
+                        if (functions == null) functions = net.farmingtales.ftboss.util.SwordCompatibilityRules.materialFunctions(
+                            net.farmingtales.ftboss.util.SwordCompatibilityRules.material(identity));
+                        originalValues.put(inputIdentity, functions);
+                    } else if (definition.isPresent()) {
+                        var value = definition.get();
+                        if (net.farmingtales.ftboss.api.SwordMaterialExtensions.registered(value.itemId())
+                            || value.categories().contains(net.farmingtales.ftboss.api.SwordMaterialDefinition.Category.FOOD))
+                            originalValues.put(identity, value.functions());
+                    }
+                    originalInputs.add(new net.farmingtales.ftboss.util.SwordFunctionRules.Input(inputIdentity,
+                        definition.map(value -> value.baseMaterial()).orElse(cell.material()),
+                        cell.present() && (cell.state() != net.farmingtales.ftboss.util.SwordCavityRules.State.NATIVE || !piece.isEmpty())));
+                }
+                requireSameOriginalStatus(originalPlannedStatus(weapon, originalInputs, originalValues),
+                    net.farmingtales.ftboss.item.SwordCavityBuild.functionStatus(weapon));
+                java.util.Set<Integer> invalidOriginalInputs = new java.util.HashSet<>();
+                for (int inputIndex = 0; inputIndex < originalInputs.size(); inputIndex++) {
+                    var input = originalInputs.get(inputIndex);
+                    if (input == null || input.present() && (input.material() == null || !Boolean.TRUE.equals(validItemId.invoke(null, input.itemId()))))
+                        invalidOriginalInputs.add(inputIndex);
+                }
+                int invalidOriginalInputCount = invalidOriginalInputs.size();
+                row.put("lastActualOriginalInvalidPresentInputCount", invalidOriginalInputCount);
+                if (!net.farmingtales.ftboss.item.SwordCavityBuild.functionStatus(weapon).valid()) score = -1.0 - invalidOriginalInputCount;
+                net.farmingtales.ftboss.util.SwordFunctionRules.Status bestStatus = null;
+                record PlannedMaterial(net.farmingtales.ftboss.util.SwordCavityRules.Slot slot,
+                    net.minecraft.world.item.Item item, net.farmingtales.ftboss.util.SwordFunctionRules.Status status, double score) {}
+                List<PlannedMaterial> candidates = new ArrayList<>();
+                for (var slot : net.farmingtales.ftboss.util.SwordCavityRules.Slot.values()) {
+                    if (!net.farmingtales.ftboss.item.SwordCavityBuild.cellUnlocked(weapon, slot.ordinal())) continue;
+                    var cell = cells.get(slot.ordinal());
+                    for (var item : materials) {
+                        var definition = definitions.get(item);
+                        var material = definition.baseMaterial();
+                        if (!net.farmingtales.ftboss.util.SwordCavityRules.accepts(slot, material)
+                            || cell.installed() && cell.material() == material) continue;
+                        var proposedInputs = new ArrayList<>(originalInputs);
+                        var proposedValues = new java.util.HashMap<>(originalValues);
+                        String identity = definition.itemId().toString();
+                        proposedInputs.set(slot.ordinal(), new net.farmingtales.ftboss.util.SwordFunctionRules.Input(identity, material, true));
+                        if (net.farmingtales.ftboss.api.SwordMaterialExtensions.registered(definition.itemId())
+                            || definition.categories().contains(net.farmingtales.ftboss.api.SwordMaterialDefinition.Category.FOOD))
+                            proposedValues.put(identity, definition.functions());
+                        var status = originalPlannedStatus(weapon, proposedInputs, proposedValues);
+                        int invalidAfter = invalidOriginalInputCount - (invalidOriginalInputs.contains(slot.ordinal()) ? 1 : 0);
+                        double candidateScore = status.valid() ? readinessScore(status) : -1.0 - invalidAfter;
+                        if (candidateScore > score + 0.0000001) candidates.add(new PlannedMaterial(slot, item, status, candidateScore));
+                    }
+                }
+                candidates.sort(java.util.Comparator.comparingDouble(PlannedMaterial::score).reversed());
+                Map<net.farmingtales.ftboss.util.SwordCavityRules.Slot, Map<net.farmingtales.ftboss.util.FoodWeaponBuildRules.Material, Boolean>> originalLegality = new java.util.HashMap<>();
+                int originalLegalityChecks = 0;
+                for (var candidate : candidates) {
+                    var material = definitions.get(candidate.item()).baseMaterial();
+                    var byMaterial = originalLegality.computeIfAbsent(candidate.slot(), key -> new java.util.HashMap<>());
+                    Boolean legal = byMaterial.get(material);
+                    if (legal == null) {
+                        legal = net.farmingtales.ftboss.item.SwordCavityBuild.canReplace(weapon, candidate.slot(), material);
+                        byMaterial.put(material, legal); originalLegalityChecks++;
+                    }
+                    if (!legal) continue;
+                    bestSlot = candidate.slot(); bestMaterial = candidate.item(); bestStatus = candidate.status(); break;
+                }
+                row.put("lastReadOnlyRuleCandidateCount", candidates.size());
+                row.put("lastOriginalCanReplaceChecks", originalLegalityChecks);
+                if (bestSlot == null) throw new AssertionError("Original material rules have no improving legal installation: " + net.farmingtales.ftboss.item.SwordCavityBuild.functionStatus(weapon));
+                List<ItemStack> selectedContents = new ArrayList<>(net.farmingtales.ftboss.item.SwordCavityBuild.containerItems(weapon));
+                selectedContents.set(bestSlot.ordinal(), new ItemStack(bestMaterial));
+                ItemStack selectedPreview = (ItemStack)preview.invoke(null, weapon, selectedContents);
+                if (selectedPreview.isEmpty()) throw new AssertionError("Original selected detached preview refused");
+                requireSameOriginalStatus(bestStatus, net.farmingtales.ftboss.item.SwordCavityBuild.functionStatus(selectedPreview));
+                preserveOriginalReturnedSupply(player, row);
+                ItemStack exactSupply = new ItemStack(bestMaterial);
+                player.getInventory().setItem(2, exactSupply);
+                int revision = net.farmingtales.ftboss.item.SwordCavityBuild.revision(weapon);
+                boolean accepted = net.farmingtales.ftboss.item.SwordCavityBuild.replace(player, bestSlot, 2, revision);
+                if (!accepted || !exactSupply.isEmpty()) throw new AssertionError("Original material replacement did not accept/consume exact physical supply");
+                requireSameOriginalStatus(bestStatus, net.farmingtales.ftboss.item.SwordCavityBuild.functionStatus(weapon));
+                installed.add(Map.of("slot", bestSlot.name(), "item", net.minecraft.core.registries.BuiltInRegistries.ITEM.getKey(bestMaterial).toString(), "originalAccepted", true, "actualSupplyConsumed", true, "status", net.farmingtales.ftboss.item.SwordCavityBuild.functionStatus(weapon).toString()));
+                if (lease.invoke(null, weapon) != null || generation.invoke(null, weapon) != null) throw new AssertionError("Original material installation unexpectedly minted repair authority");
+            }
+            preserveOriginalReturnedSupply(player, row);
+            if (net.farmingtales.ftboss.item.SwordCavityBuild.missingRequired(weapon)) throw new AssertionError("Original material layout still incomplete");
+            row.put("originalMaterialInstallationBeforeAnyAuthorityAndFunctionReady", true);
+        } finally { channel.finishAndReleaseAll(); }
+    }
+
+    private static void runNativeRepair(ServerStartedEvent event, ServerPlayer player, ItemStack weapon, Map<String, Object> row) throws Exception {
+        var server = event.getServer();
+        player.moveTo(0.0, -59.0, 0.0, 0.0F, 0.0F);
+        var localConnection = new net.minecraft.network.Connection(net.minecraft.network.protocol.PacketFlow.SERVERBOUND);
+        var localChannel = new io.netty.channel.embedded.EmbeddedChannel(localConnection);
+        player.connection = new net.minecraft.server.network.ServerGamePacketListenerImpl(server,
+            localConnection, player,
+            net.minecraft.server.network.CommonListenerCookie.createInitial(player.getGameProfile(), false));
+        var advertised = java.util.Set.of(net.farmingtales.ftboss.network.StatueMenuNetwork.Open.TYPE.id(),
+            net.farmingtales.ftboss.network.NativeStatueCavityNetwork.Payload.TYPE.id());
+        for (var channel : advertised) if (player.connection.hasChannel(channel)) throw new AssertionError("Scratch channel unexpectedly pre-advertised");
+        net.neoforged.neoforge.network.registration.NetworkRegistry.onMinecraftRegister(localConnection, advertised);
+        for (var channel : advertised) if (!player.connection.hasChannel(channel)) throw new AssertionError("Original channel registration did not advertise exact fixture response channel");
+        row.put("syntheticLocalMinecraftRegisterAdvertisementNotAuthenticatedHandshake", true);
+        row.put("productionNetworkChecksRemainEnabled", true);
+        row.put("configureMockConnectionUsed", false);
+        ((List<ServerPlayer>)read(server.getPlayerList(), "players")).add(player);
+        ((Map<UUID, ServerPlayer>)read(server.getPlayerList(), "playersByUUID")).put(player.getUUID(), player);
+        row.put("scratchRegistrationNotAuthenticated", true);
+        var statuePos = new net.minecraft.core.BlockPos(1, -59, 0);
+        net.farmingtales.ftboss.block.CandyStatueBlock statue = null;
+        for (var block : net.minecraft.core.registries.BuiltInRegistries.BLOCK) {
+            if (block instanceof net.farmingtales.ftboss.block.CandyStatueBlock candidate && net.farmingtales.ftboss.item.FoodWeaponEvolution.profileId(candidate.ownTint()).equals(net.farmingtales.ftboss.item.FoodWeaponLifecycle.repairProfile(weapon))) { statue = candidate; break; }
+        }
+        if (statue == null) throw new AssertionError("Native repair statue missing");
+        int originalTint = statue.ownTint();
+        var originalView = net.farmingtales.ftboss.item.FoodWeaponRepair.view(weapon, originalTint);
+        if (!originalView.eligible() || !originalView.correctStatue()) throw new AssertionError("Original registered repair profile/statue mismatch");
+        row.put("originalRegisteredProfileMatchedStatueTint", originalTint);
+        row.put("originalRegisteredProfileStatueAndFoodRulesPreserved", true);
+        var half = net.minecraft.world.level.block.state.properties.BlockStateProperties.DOUBLE_BLOCK_HALF;
+        server.overworld().setBlock(statuePos.above(), net.minecraft.world.level.block.Blocks.AIR.defaultBlockState(), 3);
+        server.overworld().setBlock(statuePos, net.minecraft.world.level.block.Blocks.AIR.defaultBlockState(), 3);
+        if (!server.overworld().getBlockState(statuePos).isAir() || !server.overworld().getBlockState(statuePos.above()).isAir())
+            throw new AssertionError("Scratch original statue pair not cleared before rebuilding");
+        row.put("originalDoubleBlockPairClearedBeforeProfileReplacement", true);
+        server.overworld().setBlock(statuePos.below(), net.minecraft.world.level.block.Blocks.STONE.defaultBlockState(), 3);
+        server.overworld().setBlock(statuePos, statue.defaultBlockState().setValue(half, net.minecraft.world.level.block.state.properties.DoubleBlockHalf.LOWER), 2);
+        server.overworld().setBlock(statuePos.above(), statue.defaultBlockState().setValue(half, net.minecraft.world.level.block.state.properties.DoubleBlockHalf.UPPER), 2);
+        var authority = (net.farmingtales.ftboss.transaction.FourWeaponTransactions)readStatic(net.farmingtales.ftboss.transaction.FourWeaponTransactionRuntime.class, "authority");
+        if (authority == null) throw new AssertionError("Original runtime transaction authority absent");
+        var boundary = new net.farmingtales.ftboss.transaction.ExistingTransactionBoundary(java.util.Set.of(), new net.farmingtales.ftboss.transaction.FoundationApprovedRules());
+        row.put("statueLower", server.overworld().getBlockState(statuePos).toString());
+        row.put("statueUpper", server.overworld().getBlockState(statuePos.above()).toString());
+        if (boundary.statueIdentity(player, statuePos) == null) throw new AssertionError("Scratch statue pair invalid: " + row.get("statueLower") + "/" + row.get("statueUpper"));
+        var binding = new net.farmingtales.ftboss.transaction.FourWeaponTransactions.Binding(player.getUUID(), net.farmingtales.ftboss.item.FoodWeaponLifecycle.weaponId(weapon),
+            net.farmingtales.ftboss.item.FourWeaponFoundationAdapter.registryId(weapon), 0, 0, player.level().dimension().location().toString(), statuePos.asLong(), boundary.statueIdentity(player, statuePos));
+        List<Object> transactions = new ArrayList<>();
+        row.put("repairTransactions", transactions);
+        row.put("nativeWearEligibleBeforeStart", net.farmingtales.ftboss.item.NativeFoodWeaponWear.eligible(weapon));
+        row.put("repairDamageBeforeStart", weapon.getDamageValue());
+        row.put("repairProfileBeforeStart", net.farmingtales.ftboss.item.FoodWeaponLifecycle.repairProfile(weapon));
+        row.put("repairViewBeforeStart", net.farmingtales.ftboss.item.FoodWeaponRepair.view(weapon, originalTint).toString());
+        row.put("repairImageBeforeStart", net.farmingtales.ftboss.item.NativeFoundationItemData.image(weapon).toString());
+        row.put("repairStackClass", weapon.getClass().getName());
+        row.put("repairItemClass", weapon.getItem().getClass().getName());
+        row.put("repairCapabilityFields", (Object)weapon instanceof net.farmingtales.ftboss.item.OwnerRepairCapabilityFields);
+        List<Object> nativeCapabilities = new ArrayList<>();
+        row.put("nativeCapabilities", nativeCapabilities);
+        for (var capability : net.neoforged.neoforge.capabilities.ItemCapability.getAll()) {
+            Map<String, Object> detail = new LinkedHashMap<>();
+            detail.put("capability", capability.toString());
+            detail.put("physicalFields", (Object)capability instanceof net.farmingtales.ftboss.item.NativeItemCapabilityFields);
+            Object providers = read(capability, "providers");
+            Object values = providers instanceof Map<?, ?> providerMap ? providerMap.get(weapon.getItem()) : null;
+            detail.put("providers", values instanceof List<?> list ? list.stream().map(value -> value.getClass().getName()).toList() : String.valueOf(values));
+            nativeCapabilities.add(detail);
+        }
+        for (int action = 0; action < 5; action++) {
+            var operation = action == 0 ? net.farmingtales.ftboss.transaction.FourWeaponTransactions.Operation.START_REPAIR
+                : action == 4 ? net.farmingtales.ftboss.transaction.FourWeaponTransactions.Operation.CLAIM_REPAIR
+                : net.farmingtales.ftboss.transaction.FourWeaponTransactions.Operation.SUBMIT_REPAIR;
+            int index = action - 1;
+            int expectedPayment = 0;
+            int supplySlot = 2;
+            if (action > 0 && action < 4) {
+                expectedPayment = net.farmingtales.ftboss.util.FoodWeaponLifecycleRules.repairRequired(net.farmingtales.ftboss.item.FoodWeaponEvolution.evolutionLevel(weapon), index);
+                net.minecraft.world.item.Item supply = index == 1 ? Items.IRON_INGOT : Items.LAPIS_LAZULI;
+                if (index == 0) {
+                    supply = null;
+                    for (var item : net.minecraft.core.registries.BuiltInRegistries.ITEM) if (net.farmingtales.ftboss.item.FoodWeaponEvolution.matchesStatueFood(new ItemStack(item), originalTint)) { supply = item; break; }
+                }
+                if (supply == null) throw new AssertionError("Native task food supply missing");
+                player.getInventory().setItem(supplySlot, new ItemStack(supply, expectedPayment));
+            }
+            ((net.minecraft.world.level.storage.ServerLevelData)server.overworld().getLevelData()).setGameTime(server.overworld().getGameTime() + 5L);
+            if (!net.farmingtales.ftboss.item.FourWeaponFoundationAdapter.applies(weapon)) {
+                player.tickCount += 5;
+                int legacyAction = action == 0 ? 13 : action == 4 ? 15 : 14;
+                var legacy = new net.farmingtales.ftboss.network.StatueMenuNetwork.RepairAction(statuePos, legacyAction,
+                    action > 0 && action < 4 ? index : 0, net.farmingtales.ftboss.item.FoodWeaponLifecycle.weaponId(weapon),
+                    net.farmingtales.ftboss.item.FoodWeaponRepair.revision(weapon));
+                var execute = net.farmingtales.ftboss.network.StatueMenuNetwork.class.getDeclaredMethod("executeRepair", ServerPlayer.class,
+                    net.farmingtales.ftboss.network.StatueMenuNetwork.RepairAction.class);
+                execute.setAccessible(true);
+                var priorQuest = net.farmingtales.ftboss.item.FoodWeaponData.read(weapon, "FTBossWeaponLifecycle").getCompound("RepairQuest");
+                UUID priorTask = priorQuest.hasUUID("NativeTask") ? priorQuest.getUUID("NativeTask") : null;
+                execute.invoke(null, player, legacy);
+                var lifecycle = net.farmingtales.ftboss.item.FoodWeaponData.read(weapon, "FTBossWeaponLifecycle");
+                var quest = lifecycle.getCompound("RepairQuest");
+                UUID task;
+                if (quest.hasUUID("NativeTask")) task = quest.getUUID("NativeTask");
+                else if (action == 4 && priorTask != null) task = priorTask;
+                else throw new AssertionError("Original repair task identity absent before terminal claim for " + operation);
+                if (action == 4 && (priorTask == null || !priorTask.equals(task))) throw new AssertionError("Original CLAIM task identity drift");
+                if (action == 4) row.put("originalPreClaimTaskIdentityUsedForSignedTerminalCheck", true);
+                Class<?> storeType = Class.forName("net.farmingtales.ftboss.item.OwnerLineageRevocationStore");
+                var openStore = storeType.getDeclaredMethod("open", net.minecraft.server.MinecraftServer.class); openStore.setAccessible(true);
+                Object store = openStore.invoke(null, server);
+                var readDocument = storeType.getDeclaredMethod("readRepairDocument", UUID.class, boolean.class); readDocument.setAccessible(true);
+                UUID journalOwner = UUID.nameUUIDFromBytes(("ftboss/native-repair-journal/v1/" + player.getUUID()).getBytes(StandardCharsets.UTF_8));
+                CompoundTag journal = (CompoundTag)readDocument.invoke(store, journalOwner, false);
+                CompoundTag record = journal.getCompound("Tasks").getCompound(task.toString());
+                if (record.getLong("Sequence") != action + 1 || !record.getString("Status").equals(action == 4 ? "LEASE_ISSUED" : "COMMITTED"))
+                    throw new AssertionError("Actual original legacy transaction did not reach signed terminal: action=" + action + ", record=" + record);
+                if (action > 0 && action < 4 && !player.getInventory().getItem(supplySlot).isEmpty())
+                    throw new AssertionError("Actual original legacy payment did not consume exact supplied items");
+                transactions.add(Map.of("operation", operation.name(), "route", "original StatueMenuNetwork.executeRepair", "signedSequence", record.getLong("Sequence"),
+                    "signedStatus", record.getString("Status"), "expectedPayment", expectedPayment, "remainingSupply", player.getInventory().getItem(supplySlot).getCount()));
+                continue;
+            }
+            var opened = authority.open(player.getUUID(), new net.farmingtales.ftboss.transaction.FourWeaponTransactions.Open(UUID.randomUUID(), binding));
+            if (opened.code() != net.farmingtales.ftboss.transaction.FourWeaponTransactions.Code.OPENED || opened.snapshot() == null || !opened.snapshot().allowed().contains(operation)) throw new AssertionError("Original transaction open denied: " + opened);
+            var snapshot = opened.snapshot();
+            var request = new net.farmingtales.ftboss.transaction.FourWeaponTransactions.Request(UUID.randomUUID(), snapshot.session(), snapshot.credential(), binding,
+                snapshot.version(), operation, -1, action > 0 && action < 4 ? index : 0, "");
+            var reply = authority.submit(player.getUUID(), request);
+            Map<String, Object> transaction = new LinkedHashMap<>();
+            transaction.put("operation", operation.name()); transaction.put("accepted", reply.accepted()); transaction.put("code", reply.code().name());
+            transaction.put("expectedPayment", expectedPayment); transaction.put("remainingSupply", player.getInventory().getItem(supplySlot).getCount());
+            transactions.add(transaction);
+            if (!reply.accepted()) throw new AssertionError("Original native repair transaction failed: " + transaction);
+            if (action > 0 && action < 4 && !player.getInventory().getItem(supplySlot).isEmpty()) throw new AssertionError("Actual native payment did not consume supplies");
+            authority.close(player.getUUID(), snapshot.session());
+        }
+        Class<?> guard = Class.forName("net.farmingtales.ftboss.item.OwnerFullRepairGuard");
+        java.lang.reflect.Method leaseMethod = guard.getDeclaredMethod("lease", Object.class); leaseMethod.setAccessible(true);
+        java.lang.reflect.Method generationMethod = guard.getDeclaredMethod("generation", Object.class); generationMethod.setAccessible(true);
+        row.put("nonNullLease", leaseMethod.invoke(null, weapon) != null);
+        row.put("repairGenerationPresent", generationMethod.invoke(null, weapon) != null);
+        row.put("damageAfterRepair", weapon.getDamageValue());
+        if (!Boolean.TRUE.equals(row.get("nonNullLease")) || !Boolean.TRUE.equals(row.get("repairGenerationPresent")) || weapon.getDamageValue() != 0) throw new AssertionError("Native claim did not publish genuine lease/generation");
+        localChannel.finishAndReleaseAll();
+    }
+
+}
