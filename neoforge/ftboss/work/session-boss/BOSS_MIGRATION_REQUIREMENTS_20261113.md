@@ -1,5 +1,7 @@
 ## Stage42 原生普通通关、猪腻前置与合法终结属性基线，2026-11-14
 
+Stage42 源码与限定文字证据已推送 aa580fb54f009ca34f9b23af9b9ed4a3840e9568，100 文件独立远端逐 blob 恢复，5401 文件整树资源排除检查通过。零引用进程/句柄核验后，仅清理 Git 工作副本 59 份重复 Java/Python（707053 字节），skip-worktree；canonical 冻结输入和排除资源保留。源码恢复入口 github-sync/checkpoint-earned-finale-zhuni-20261114.json；预期缺失入口 github-sync/checkpoint-earned-finale-zhuni-cleanup-20261114.json。全部模型/贴图/动画/音乐/音频、JAR、世界、嵌套/编码资源不上传；Git 不能恢复排除资源。本段实际普通通关、猪腻入口和合法终结属性基线通过，完整 Boss 仍未完成，正式实例未部署。
+
 产品继续使用 Stage41 b751ae8fbf5552342ae5e887cc5d7675b7fcdf995fcde1773dcc0dc32e691345，所有产品/资源字节不改，NOT-INSTALLABLE。前次玄蓝 56 次攻击无伤的失败是攻击了原规则要求隐藏的主 Boss。只读原生存档显示 NoAI/Invulnerable 与 ftboss.zhuniStage=1，天穹技能 Active=0。新真实离线客户端/集成服对自然生成、同 owner/fight 的猪腻执行真实玩家公开攻击；原 reveal 解冻玄蓝并转发真实伤害，未直接调用 reveal/hold 或写阶段/身份/无敌。
 
 新世界从原注册宫地蛋出发，原状态机自然完成 11 主阶段 [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11]；麻雀 9 为原支持角色，未伪造第 12 主阶段。自然普通胜利产生合法 IMPOSSIBLE 解锁，实际保存征服玩家一次，错误 UUID/重复记录负控拒绝。原生探针 34584 检查零失败，正常保存/退出0/回收，冻结输入不变。新旧探针均实际通关；第一轮属性预期只计基础和夹具加成，漏掉其他实际修饰符而失败，原样保留；第二轮用独立 AttributeInstance 复制每项实际修饰符，并由 Python 独立按三种操作复算。两原生、两独立属性负控通过，实际四组属性快照与合法入场绑定。终结属性仍与原基础值翻倍有真实差异：[{"case": 2, "actual": 27.3, "originalBaseOnlyWithAllOtherModifiers": 19.5, "difference": 7.800000000000001}, {"case": 3, "actual": 40.300000000000004, "originalBaseOnlyWithAllOtherModifiers": 26.0, "difference": 14.300000000000004}]。本段建立有效基线，未修该产品算法。
