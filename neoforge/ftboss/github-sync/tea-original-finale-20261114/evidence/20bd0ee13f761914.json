@@ -1,0 +1,260 @@
+{
+  "candidate": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-tea-original-finale-v1-20261114\\ftboss-boss-core-1.21.1-stage44-original-tea-finale-NOT-INSTALLABLE.jar",
+  "candidateJarSha256": "6692bb992a9a169008487c66ccd668a14c06282bdf88ca116886fe0e54b119c1",
+  "productChanged": true,
+  "nativeReport": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\tea-original-finale-native-v2-61b39c85.json",
+  "nativeChecks": 36357,
+  "actualOriginalNormalPrimaryStages": 11,
+  "actualPublicZhuniRevealAccepted": true,
+  "actualOriginalTeaFinaleCombatAccepted": true,
+  "actualOriginalTeaTwoPhaseCooldownsAccepted": true,
+  "actualOriginalTeaPoisonDamageAccepted": true,
+  "actualTeaFinaleAliveForCompleteSave": true,
+  "actualTeaCases": [
+    {
+      "finale": false,
+      "originalZeroHealthRevivePredicateRetained": true,
+      "case": 0,
+      "experience": 150,
+      "actualRootsAndSpellsObserved": true,
+      "actualPoisonAmountsAccepted": true,
+      "silverKeys": 0,
+      "normalAndAwakenedCooldownsAccepted": true,
+      "actualPlayerKillAccepted": true,
+      "terminalState": {
+        "uuid": "0730e233-0882-4b3f-ad63-23ab8809d1ba",
+        "case": 0,
+        "finale": false,
+        "originalTeaFinale": false,
+        "phase2": true,
+        "health": 0.0,
+        "maximumHealth": 340.0,
+        "attackBase": 3.5,
+        "maximumHealthBase": 340.0,
+        "secondLifeUsed": false,
+        "alive": false,
+        "removed": true,
+        "time": 5778
+      }
+    },
+    {
+      "finale": true,
+      "originalZeroHealthRevivePredicateRetained": true,
+      "case": 1,
+      "experience": 300,
+      "actualRootsAndSpellsObserved": true,
+      "actualPoisonAmountsAccepted": true,
+      "silverKeys": 1,
+      "normalAndAwakenedCooldownsAccepted": true,
+      "actualPlayerKillAccepted": true,
+      "terminalState": {
+        "uuid": "172e4be4-a8ef-4e79-9645-70d70c5d49fb",
+        "case": 1,
+        "finale": true,
+        "originalTeaFinale": true,
+        "phase2": true,
+        "health": 0.0,
+        "maximumHealth": 680.0,
+        "attackBase": 7.0,
+        "maximumHealthBase": 680.0,
+        "secondLifeUsed": false,
+        "alive": false,
+        "removed": true,
+        "time": 6679
+      }
+    },
+    {
+      "uuid": "3f1c552a-48b1-4f7c-87e3-c2c483b0876b",
+      "case": 2,
+      "finale": true,
+      "originalTeaFinale": true,
+      "phase2": false,
+      "health": 680.0,
+      "maximumHealth": 680.0,
+      "attackBase": 7.0,
+      "maximumHealthBase": 680.0,
+      "secondLifeUsed": false,
+      "alive": true,
+      "removed": false,
+      "time": 6719,
+      "saveOnlyActualAdmission": true,
+      "actualPlayerKillAccepted": false,
+      "naturalTicksObserved": 40
+    }
+  ],
+  "actualCooldownResetRows": 64,
+  "independentOldNeoCooldownNegativeControls": 8,
+  "independentOldNeoPoisonNegativeControls": 2,
+  "actualDefinedHelpersExactlyCandidate": {
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity": "5671b83998d3ecb1bfa09b7c83b276e753445a34cbb47ad0d03403b667a3e7da",
+    "net/farmingtales/ftboss/integ/spells/BossSpellTuning": "66a3ebffa22624a772a5a84a57b9d8c849baaa4062d3c4ff913559cfc76952f4",
+    "net/farmingtales/ftboss/integ/spells/BossSpellCombat": "4200b988a9227f7a6b716e41711ce5e3663c9f2641b507112d1e5a91294008b8",
+    "net/farmingtales/ftboss/boss/ai/SayaBuds": "8cd5c747bc5e58b0adf6067659bbbccc4a5bcb720016c8d1645c91a104faf3da",
+    "net/farmingtales/ftboss/boss/ai/TeaTactics": "65fe0698562940e71270834bfe43b5e18530dc702bc76bc3b1b02b7b2a374d99",
+    "net/farmingtales/ftboss/boss/NonManorFinaleAttributes": "801f5e3926d02d7a709d194fb6d7e670da9df1d1813be3175ddbdb5ab118c5e6",
+    "net/farmingtales/ftboss/boss/NonManorFinaleAttributes$AttributeBase": "6b229d1dace458900af0dc01c8f6c06cf110c834339d88649adbd009cc6747d0",
+    "net/farmingtales/ftboss/boss/NonManorFinale": "8df4d65aae1da66658dffe48b6d12f971771585fa6db94c7fdb19f903b292b6b",
+    "net/farmingtales/ftboss/boss/BossChallengePreference": "a9555fdec47f1fdbd83b4af2e93ff2ee4a39186923941e189dd4599899def538",
+    "net/farmingtales/ftboss/boss/ManorDifficulty": "7aade0faaec86bcab875fb7d7d6a92be7eca8c726c392823adffeb8d5c8accd1",
+    "net/farmingtales/ftboss/boss/ManorFight": "37380b2cd2060c0b98f55b9569269be56e3c9de2229afeae4f6e2289245833a4",
+    "net/farmingtales/ftboss/boss/ManorFightData": "4c3b77071cbbd7471ebf122b5356a8787c13807bc9af466d8ac2b8cb666347c9",
+    "net/farmingtales/ftboss/boss/ManorVictoryData": "963121851a7f8fe62c53e4241ad15c3dfca552d3b3337a13738eadcc10329dfb",
+    "net/farmingtales/ftboss/boss/BossHandler": "3a2875125d42cacb7e727abee214d299a81211afc19f081bb558acfaae7efcdb",
+    "net/farmingtales/ftboss/entity/RatBossEntity": "7a60cc3f8c1d9cc815b03034ea6a646abeec57eb80b78804bf3a0d3a144fc501",
+    "net/farmingtales/ftboss/turret/ZhuniStage": "6e05409a8c6cd3d2d1f989eedbc54b03b36e9ceaaae7a5133c51313ae62a9b1e",
+    "net/farmingtales/ftboss/turret/ZhuniEntity": "704a38453b6bf6ee5cf361ead9af9e25b0ee5c50a4bb147a3bdcf57b77b501d8",
+    "net/farmingtales/ftboss/turret/ZhuniOpeningMovement": "267fd69f72ed37d7d203ccd48192c58922d6b9e06d53bef7b06f27e49c06d6dc",
+    "net/farmingtales/ftboss/turret/ZhuniTurretDrops": "e509199263273e13f4830963192a5b2e3dfa43cd7effa9d040ee9a4f1b0319da",
+    "net/farmingtales/ftboss/turret/XuanlanTurretEntity": "3987a8aa3e1f7b0c7963a5c202c78c87328cee0a8f64036e8539592337f2fc0a",
+    "net/farmingtales/ftboss/turret/XuanlanTurrets": "b6d169026a251998236d51e355d3ab307e98460701a4cac9a34c38b12fce8fe7",
+    "net/farmingtales/ftboss/boss/ai/XuanlanSkyStrike": "4f5c1726b00e0f2e182657e1db150c4f74de66c7fb0a5253587ba878e9987b01",
+    "net/farmingtales/ftboss/util/XuanlanSkyRules": "dfa0a1f12898bae5407b7cb47953608a86b76685786a3baaa883f84d9e3e60ef",
+    "net/farmingtales/ftboss/boss/ai/NativeManorDeathCancelInstaller": "53c0921595f03ce722ade6d9ef83e6075f36f51b82fef9a5dd2be66aefd2f65f",
+    "net/farmingtales/ftboss/boss/ai/NativeManorMixinPlugin": "ad77dde13d7a778f4c56ccf72a3a62478dc19fd54e3ee4f9109a84db9eef442b",
+    "net/farmingtales/ftboss/client/render/ShadowSigilVisual": "00e1ae700d24b52aaf6d03687acada13a4049e4041280de44f2c5d515085ae9f"
+  },
+  "actualBossProof": "checks=5196;actualDefinedMethods=342;changedActualMethods=2;unchangedBossMethods=340;allOriginalGraphsRecoveredExactly=true;actualLoadedInstallerIdempotent=true;otherCapturedClassesChecked=35;actualTeaAll41GraphsExact=true;actualTeaNegativeControls=2;actualFinaleOtherMethodsUnchanged=27;actualFinaleDelegateExact=true;actualFinaleNegativeControls=2;engineOnlyUniquePrivateSessionLambdaNameMapped=true;engineDeathExactWithoutNormalization=true;engineNormalizationNegativeControls=1;asmVerifiedMethods=342;",
+  "originalCallbackProof": "checks=1374;actualDefinedMethods=342;allActualGraphsEqualComposition=true;exactEmitterIdempotent=true;negativeControls=2;originalHurtUnchanged=true;",
+  "formalExpectedHashesVerified": {
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_NeoForge 机械动力/mods/qys-bosses-1.21.1.jar": "6563f431dca1871eb7870653b74550ba2f5c0f66c104eea90ce58a99ca30f7c0",
+    "C:/Users/qyby/AppData/Roaming/.minecraft/versions/FarmingTales_ForgeⅡ v1.5.2/mods/qys-bosses.jar": "7c88b9e51ccdc6616cd2f70d6fa3c195772fc3f083f848085053d40cfe2015a3"
+  },
+  "fixture": {
+    "survivabilityAcceptanceClaimed": false,
+    "nativePreDamageCap": 0.01,
+    "targetPreDamageFixture": 250.0,
+    "cappedHits": 1692,
+    "actualRawAttackAttribute": 128.0
+  },
+  "stage": 44,
+  "priorStage43Closeout": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\nonmanor-finale-base-attributes-closeout-20261114.json",
+  "loadedAudit": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\tea-original-finale-loaded-audit-v4-20261114\\receipt.json",
+  "savedConquestProof": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\earned-normal-saved-conquest-v2-61b39c85-20261114\\receipt.json",
+  "savedTeaProof": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\tea-original-finale-saved-v2-61b39c85-20261114\\receipt.json",
+  "candidateBuildProof": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-tea-original-finale-v1-20261114\\candidate-build-receipt.json",
+  "actualNormalVictoryEarnedUnlock": true,
+  "actualNativeOriginalConquestSavedOnce": true,
+  "actualAliveFinaleTeaSavedExactlyOnce": true,
+  "actualOriginalTeaNormalAndFinalePlayerRewardEmissionAccepted": true,
+  "teaDownstreamRewardAdmissionOrPickupAccepted": false,
+  "originalTryReviveGraphProof": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\tea-original-revive-predicate-v1-20261114\\receipt.json",
+  "originalZeroHealthRevivePredicateRetained": true,
+  "actualTeaResurrectionAccepted": false,
+  "strictFirstObserverFailurePreserved": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\tea-original-finale-native-v1-32e77ed2.json",
+  "compositionProof": {
+    "checks": 542,
+    "sdkMethodAndFieldLinksResolved": 112,
+    "completeOriginalMappedMethodsExact": [
+      "isFinaleChallenge",
+      "setFinaleChallenge",
+      "updateBossBarName",
+      "tickServer",
+      "tickIronMagic",
+      "spitTeaPoison"
+    ],
+    "platformHolderBridges": [
+      {
+        "kind": "registry holder field",
+        "after": "Lnet/minecraft/core/Holder;",
+        "before": "Lnet/minecraft/world/entity/ai/attributes/Attribute;",
+        "method": "setFinaleChallenge"
+      },
+      {
+        "kind": "platform holder descriptor",
+        "after": "(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;",
+        "before": "(Lnet/minecraft/world/entity/ai/attributes/Attribute;)Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;",
+        "method": "setFinaleChallenge"
+      },
+      {
+        "kind": "registry holder field",
+        "after": "Lnet/minecraft/core/Holder;",
+        "before": "Lnet/minecraft/world/entity/ai/attributes/Attribute;",
+        "method": "setFinaleChallenge"
+      },
+      {
+        "kind": "platform holder descriptor",
+        "after": "(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;",
+        "before": "(Lnet/minecraft/world/entity/ai/attributes/Attribute;)Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;",
+        "method": "setFinaleChallenge"
+      },
+      {
+        "kind": "platform holder descriptor",
+        "after": "()Lnet/minecraft/core/Holder;",
+        "before": "()Lnet/minecraft/world/effect/MobEffect;",
+        "method": "tickServer"
+      },
+      {
+        "kind": "unwrap effect for behavior",
+        "after": "Holder.value then CHECKCAST MobEffect",
+        "before": "Holder<MobEffect>",
+        "method": "tickServer"
+      },
+      {
+        "kind": "platform holder descriptor",
+        "after": "()Lnet/minecraft/core/Holder;",
+        "before": "()Lnet/minecraft/world/effect/MobEffect;",
+        "method": "tickServer"
+      },
+      {
+        "kind": "platform holder descriptor",
+        "after": "(Lnet/minecraft/core/Holder;)Z",
+        "before": "(Lnet/minecraft/world/effect/MobEffect;)Z",
+        "method": "tickServer"
+      },
+      {
+        "kind": "registry holder field",
+        "after": "Lnet/minecraft/core/Holder;",
+        "before": "Lnet/minecraft/world/effect/MobEffect;",
+        "method": "spitTeaPoison"
+      },
+      {
+        "kind": "platform holder descriptor",
+        "after": "(Lnet/minecraft/core/Holder;IIZZZ)V",
+        "before": "(Lnet/minecraft/world/effect/MobEffect;IIZZZ)V",
+        "method": "spitTeaPoison"
+      }
+    ],
+    "negativeControls": 3,
+    "existingTeaMethods": 38,
+    "candidateTeaMethods": 41,
+    "unchangedOtherTeaMethods": 33,
+    "fiveExistingMethodsChangedOnly": [
+      "tickBossBar",
+      "tickServer",
+      "dropRewards",
+      "tickIronMagic",
+      "spitTeaPoison"
+    ],
+    "originalBossBarAndExperiencePredicateOnlyAdditionsReversible": true,
+    "modelOrMusicUploaded": false
+  },
+  "changedJarEntries": [
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity.class",
+    "net/farmingtales/ftboss/boss/NonManorFinaleAttributes.class"
+  ],
+  "addedJarEntries": [],
+  "allOtherExistingEntriesIdentical": true,
+  "allResourcesByteIdentical": true,
+  "unchangedResourceEntries": 1530,
+  "modelOrMusicUploaded": false,
+  "authenticated": false,
+  "actualMultiplayerGameplayAccepted": false,
+  "nativeWorldRestartAccepted": false,
+  "curiosReloadAcceptanceClaimed": false,
+  "fullCombatOrSurvivabilityAcceptanceClaimed": false,
+  "remaining": [
+    "Restore original Tea SayaCastSync signature pose and lifecycle cancellation/motion.",
+    "Audit original global BossSpellCombat accelerated ticks and finale parallel scheduling; current parallelSpells is not accepted as original.",
+    "Tea rewards here prove original player-kill emission requests only: final admission/pickup/recipient and no-player/suppressed/canceled/multiplayer guards remain separate.",
+    "Original tryRevive requires isAlive at zero-health death; graph and native refusal retained, actual resurrection not accepted.",
+    "Legacy Tea worlds/new JVM reload remain unaccepted; Curios V18 attended gate cannot be automatically retried.",
+    "Actual legacy saved-world migration and maximum-health repair after new JVM reload remain unaccepted; no attended reload gate is bypassed.",
+    "Complete original regular-Boss finale spell/cast/Tea baselines and all remaining action/visual, combat/reward, authenticated multiplayer and lifecycle requirements.",
+    "Complete original Non-Manor finale difficulty and summon/progression/attribute/cast baseline; original action/visual fidelity and remaining original combat handlers",
+    "Authenticated real multiple players and full normal/impossible Boss combat/rewards; Sparrow scaled quotas/additional plans/repeat appearances; all Boss persistence/dimensions",
+    "Curios V18 attended new-JVM reload remains separate and not auto-retried; final cumulative installable artifact and authorized deployment/rollback; weapons/Session paused"
+  ],
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}

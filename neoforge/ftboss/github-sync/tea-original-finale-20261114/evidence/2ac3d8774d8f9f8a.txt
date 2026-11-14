@@ -1,0 +1,4 @@
+C:\ft工程文件C\FTBoss-NeoForge-1.21.1-移植-20261022\work\session-boss\tests\ManorDeathCancelActualLoadedAuditV4.java:42: 错误: 已在方法 main(String[])中定义了变量 changed
+            ClassNode wrong=read(current);boolean changed=false;for(AbstractInsnNode instruction:wrong.methods.stream().filter(value->value.name.equals("tickIronMagic")).findFirst().orElseThrow().instructions)if(instruction instanceof IntInsnNode constant&&constant.operand==44){constant.operand=45;changed=true;break;}
+                                                  ^
+1 个错误

@@ -1,0 +1,54 @@
+import java.nio.file.*;
+import java.util.*;
+import org.objectweb.asm.*;
+import org.objectweb.asm.tree.*;
+import org.objectweb.asm.commons.*;
+import org.objectweb.asm.tree.analysis.*;
+import net.farmingtales.ftboss.boss.ai.NativeManorDamageBridgeInstaller;
+import net.farmingtales.ftboss.boss.ai.NativeManorDeathCancelInstaller;
+public final class ManorDeathCancelActualLoadedAuditV6 {
+    private static int checks;
+    private static void require(boolean value,String message){checks++;if(!value)throw new AssertionError(message);}
+    private static ClassNode read(Path path)throws Exception{ClassNode node=new ClassNode();new ClassReader(Files.readAllBytes(path)).accept(node,ClassReader.SKIP_FRAMES);return node;}
+    private static Map<String,String> graphs(ClassNode node){Map<String,String> result=new LinkedHashMap<>();for(MethodNode method:node.methods)require(result.put(method.name+method.desc,NativeManorDamageBridgeInstaller.graph(method))==null,"Unique full method signature");return result;}
+    private static ClassNode engineView(ClassNode before,ClassNode actual){
+        require(before.name.equals("net/minecraft/world/entity/LivingEntity")&&actual.name.equals(before.name),"Exact engine owner");Map<String,String> old=graphs(before),now=graphs(actual);Set<String> removed=new HashSet<>(old.keySet());removed.removeAll(now.keySet());Set<String> added=new HashSet<>(now.keySet());added.removeAll(old.keySet());require(removed.size()==1&&added.size()==1,"Exactly one session-generated private lambda method name differs");MethodNode oldMethod=before.methods.stream().filter(method->removed.contains(method.name+method.desc)).findFirst().orElseThrow(),newMethod=actual.methods.stream().filter(method->added.contains(method.name+method.desc)).findFirst().orElseThrow();String suffix="$irons_spellbooks$lambda$filterApplicableAttributes$0$0";require(oldMethod.name.endsWith(suffix)&&newMethod.name.endsWith(suffix)&&oldMethod.name.substring(0,oldMethod.name.length()-suffix.length()).matches("md[0-9a-f]{6,8}")&&newMethod.name.substring(0,newMethod.name.length()-suffix.length()).matches("md[0-9a-f]{6,8}"),"Exact generated Iron Spellbooks attribute-filter lambda name only");int flags=Opcodes.ACC_PRIVATE|Opcodes.ACC_STATIC|Opcodes.ACC_SYNTHETIC;require(oldMethod.access==newMethod.access&&(newMethod.access&flags)==flags&&oldMethod.desc.equals(newMethod.desc)&&newMethod.desc.equals("(Lnet/minecraft/world/item/component/ItemAttributeModifiers$Entry;)Z"),"Exact private static synthetic lambda descriptor and flags");ClassNode result=new ClassNode();actual.accept(new ClassRemapper(result,new Remapper(){@Override public String mapMethodName(String owner,String name,String desc){return owner.equals(actual.name)&&name.equals(newMethod.name)&&desc.equals(newMethod.desc)?oldMethod.name:name;}}));require(graphs(result).equals(old),"Every engine method graph and bootstrap handle exact after unique private session-name mapping");require(NativeManorDamageBridgeInstaller.graph(NativeManorDamageBridgeInstaller.method(before,"die")).equals(NativeManorDamageBridgeInstaller.graph(NativeManorDamageBridgeInstaller.method(actual,"die"))),"Native engine death boundary exact without normalization");return result;
+    }
+    private static void finaleAttributeView(ClassNode before,ClassNode actual){
+        String signature="applyAttributes(Lnet/minecraft/world/entity/LivingEntity;Z)V";
+        Map<String,String> old=graphs(before),now=graphs(actual);
+        require(old.size()==28&&now.size()==28&&old.containsKey(signature)&&now.containsKey(signature),"Exact existing finale class and method set");
+        require(!old.remove(signature).equals(now.remove(signature)),"Actual finale implementation deliberately changes");
+        require(old.equals(now),"All 27 other actual finale method graphs unchanged");
+        MethodNode method=actual.methods.stream().filter(value->(value.name+value.desc).equals(signature)).findFirst().orElseThrow();
+        AbstractInsnNode[] code=Arrays.stream(method.instructions.toArray()).filter(value->value.getOpcode()>=0).toArray(AbstractInsnNode[]::new);
+        require(method.access==(Opcodes.ACC_PRIVATE|Opcodes.ACC_STATIC)&&code.length==4,"Exact private static delegate shape");
+        require(code[0] instanceof VarInsnNode value&&value.getOpcode()==Opcodes.ALOAD&&value.var==0,"Actual entity argument exact");
+        require(code[1] instanceof VarInsnNode value&&value.getOpcode()==Opcodes.ILOAD&&value.var==1,"Actual heal argument exact");
+        require(code[2] instanceof MethodInsnNode value&&value.getOpcode()==Opcodes.INVOKESTATIC&&!value.itf&&value.owner.equals("net/farmingtales/ftboss/boss/NonManorFinaleAttributes")&&value.name.equals("apply")&&value.desc.equals("(Lnet/minecraft/world/entity/LivingEntity;Z)V"),"Actual original-attribute helper call exact");
+        require(code[3].getOpcode()==Opcodes.RETURN,"Actual delegate returns directly");
+    }
+    private static void actualTeaView(ClassNode actual)throws Exception{
+        String name="net/farmingtales/ftboss/entity/TeaTreeBossEntity";
+        byte[] expected;try(var stream=ClassLoader.getSystemResourceAsStream(name+".class")){require(stream!=null,"Actual candidate Tea class resource");expected=stream.readAllBytes();}
+        ClassNode reference=new ClassNode();new ClassReader(expected).accept(reference,ClassReader.SKIP_FRAMES);
+        require(actual.name.equals(name)&&actual.methods.size()==41,"All 41 original restored Tea methods");
+        require(graphs(reference).equals(graphs(actual)),"Every actual Tea method graph equals independently composed original-contract candidate");
+    }
+    public static void main(String[] args)throws Exception{
+        ClassNode before=read(Path.of(args[0])),actual=read(Path.of(args[1]));Map<String,String> old=graphs(before),now=graphs(actual);require(before.methods.size()==342&&actual.methods.size()==342,"All original 342 methods retained");NativeManorDeathCancelInstaller.verifyInstalled(actual);ClassNode restored=NativeManorDeathCancelInstaller.originalView(actual);require(graphs(restored).equals(old),"All actual 342 graphs reverse exactly to frozen Stage40 runtime");long changed=old.entrySet().stream().filter(entry->!entry.getValue().equals(now.get(entry.getKey()))).count();require(changed==2,"Only actual manorHurt and die graphs change");for(MethodNode method:actual.methods)new Analyzer<BasicValue>(new BasicVerifier()).analyze(actual.name,method);require(NativeManorDeathCancelInstaller.install(actual)==0&&graphs(actual).equals(now),"Actual loaded adapter remains idempotent");ClassWriter writer=new ClassWriter(0);restored.accept(writer);Files.write(Path.of(args[2]),writer.toByteArray());int compared=0;
+        Path previous=Path.of(args[0]).getParent(),directory=Path.of(args[1]).getParent();try(var files=Files.list(previous)){for(Path prior:files.filter(path->path.getFileName().toString().endsWith(".class")).toList()){String name=prior.getFileName().toString();if(name.equals("net_farmingtales_ftboss_entity_EasterBossEntity.class"))continue;Path current=directory.resolve(name);if(!Files.exists(current))continue;if(name.equals("net_minecraft_world_entity_LivingEntity.class")){ClassNode oldEngine=read(prior),newEngine=read(current);engineView(oldEngine,newEngine);ClassNode damaged=read(current);MethodNode synthetic=damaged.methods.stream().filter(method->method.name.endsWith("$irons_spellbooks$lambda$filterApplicableAttributes$0$0")).findFirst().orElseThrow();boolean mutated=false;for(AbstractInsnNode node:synthetic.instructions)if(node instanceof FieldInsnNode field&&field.name.equals("MAINHAND")){field.name="OFFHAND";mutated=true;break;}require(mutated,"Engine private lambda negative-control precondition");boolean rejected=false;try{engineView(oldEngine,damaged);}catch(AssertionError expected){rejected=true;}require(rejected,"Session-name normalization rejects changed actual lambda behavior");}else if(name.equals("net_farmingtales_ftboss_entity_TeaTreeBossEntity.class")){
+            actualTeaView(read(current));
+            ClassNode wrong=read(current);boolean cooldownChanged=false;for(AbstractInsnNode instruction:wrong.methods.stream().filter(value->value.name.equals("tickIronMagic")).findFirst().orElseThrow().instructions)if(instruction instanceof IntInsnNode constant&&constant.operand==44){constant.operand=45;cooldownChanged=true;break;}
+            require(cooldownChanged,"Actual Tea cooldown fault precondition");boolean rejected=false;try{actualTeaView(wrong);}catch(AssertionError expected){rejected=true;}require(rejected,"Actual Tea changed cooldown rejected");
+            wrong=read(current);wrong.methods.stream().filter(value->value.name.equals("tryCastSpell")).findFirst().orElseThrow().instructions.insert(new InsnNode(Opcodes.NOP));rejected=false;try{actualTeaView(wrong);}catch(AssertionError expected){rejected=true;}require(rejected,"Actual Tea collateral casting change rejected");
+        }else if(name.equals("net_farmingtales_ftboss_boss_NonManorFinale.class")){
+            finaleAttributeView(read(prior),read(current));
+            ClassNode wrongCall=read(current);MethodNode apply=wrongCall.methods.stream().filter(value->value.name.equals("applyAttributes")).findFirst().orElseThrow();
+            MethodInsnNode call=Arrays.stream(apply.instructions.toArray()).filter(value->value instanceof MethodInsnNode).map(value->(MethodInsnNode)value).findFirst().orElseThrow();call.name="wrongApply";boolean rejected=false;
+            try{finaleAttributeView(read(prior),wrongCall);}catch(AssertionError expected){rejected=true;}require(rejected,"Actual finale wrong-helper negative control rejected");
+            ClassNode wrongOther=read(current);wrongOther.methods.stream().filter(value->value.name.equals("tick")).findFirst().orElseThrow().instructions.insert(new InsnNode(Opcodes.NOP));rejected=false;
+            try{finaleAttributeView(read(prior),wrongOther);}catch(AssertionError expected){rejected=true;}require(rejected,"Actual finale collateral tick mutation rejected");
+        }else require(graphs(read(prior)).equals(graphs(read(current))),"Unrelated captured actual method graphs unchanged: "+name);compared++;}}require(compared>=15,"Substantial actual helper and engine graph preservation checked");System.out.println("checks="+checks+";actualDefinedMethods=342;changedActualMethods=2;unchangedBossMethods=340;allOriginalGraphsRecoveredExactly=true;actualLoadedInstallerIdempotent=true;otherCapturedClassesChecked="+compared+";actualTeaAll41GraphsExact=true;actualTeaNegativeControls=2;actualFinaleOtherMethodsUnchanged=27;actualFinaleDelegateExact=true;actualFinaleNegativeControls=2;engineOnlyUniquePrivateSessionLambdaNameMapped=true;engineDeathExactWithoutNormalization=true;engineNormalizationNegativeControls=1;asmVerifiedMethods=342;");
+    }
+}

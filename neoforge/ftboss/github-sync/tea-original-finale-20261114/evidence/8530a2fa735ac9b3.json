@@ -1,0 +1,121 @@
+{
+  "jar": "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-tea-original-finale-v1-20261114\\ftboss-boss-core-1.21.1-stage44-original-tea-finale-NOT-INSTALLABLE.jar",
+  "jarSha256": "6692bb992a9a169008487c66ccd668a14c06282bdf88ca116886fe0e54b119c1",
+  "baseJarSha256": "c63b17a20bc699ffdfb7b8ca3d985d0a2d3c4a53a2da769ea8fa54abac45f370",
+  "originalJarSha256": "c1734a148606397f8b2c79fbcc5c45961a5ffb1923ea051756fd45d03dc7a942",
+  "changedJarEntries": [
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity.class",
+    "net/farmingtales/ftboss/boss/NonManorFinaleAttributes.class"
+  ],
+  "addedJarEntries": [],
+  "allOtherExistingEntriesIdentical": true,
+  "allResourcesByteIdentical": true,
+  "unchangedResourceEntries": 1530,
+  "compositionProof": {
+    "checks": 542,
+    "sdkMethodAndFieldLinksResolved": 112,
+    "completeOriginalMappedMethodsExact": [
+      "isFinaleChallenge",
+      "setFinaleChallenge",
+      "updateBossBarName",
+      "tickServer",
+      "tickIronMagic",
+      "spitTeaPoison"
+    ],
+    "platformHolderBridges": [
+      {
+        "kind": "registry holder field",
+        "after": "Lnet/minecraft/core/Holder;",
+        "before": "Lnet/minecraft/world/entity/ai/attributes/Attribute;",
+        "method": "setFinaleChallenge"
+      },
+      {
+        "kind": "platform holder descriptor",
+        "after": "(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;",
+        "before": "(Lnet/minecraft/world/entity/ai/attributes/Attribute;)Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;",
+        "method": "setFinaleChallenge"
+      },
+      {
+        "kind": "registry holder field",
+        "after": "Lnet/minecraft/core/Holder;",
+        "before": "Lnet/minecraft/world/entity/ai/attributes/Attribute;",
+        "method": "setFinaleChallenge"
+      },
+      {
+        "kind": "platform holder descriptor",
+        "after": "(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;",
+        "before": "(Lnet/minecraft/world/entity/ai/attributes/Attribute;)Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;",
+        "method": "setFinaleChallenge"
+      },
+      {
+        "kind": "platform holder descriptor",
+        "after": "()Lnet/minecraft/core/Holder;",
+        "before": "()Lnet/minecraft/world/effect/MobEffect;",
+        "method": "tickServer"
+      },
+      {
+        "kind": "unwrap effect for behavior",
+        "after": "Holder.value then CHECKCAST MobEffect",
+        "before": "Holder<MobEffect>",
+        "method": "tickServer"
+      },
+      {
+        "kind": "platform holder descriptor",
+        "after": "()Lnet/minecraft/core/Holder;",
+        "before": "()Lnet/minecraft/world/effect/MobEffect;",
+        "method": "tickServer"
+      },
+      {
+        "kind": "platform holder descriptor",
+        "after": "(Lnet/minecraft/core/Holder;)Z",
+        "before": "(Lnet/minecraft/world/effect/MobEffect;)Z",
+        "method": "tickServer"
+      },
+      {
+        "kind": "registry holder field",
+        "after": "Lnet/minecraft/core/Holder;",
+        "before": "Lnet/minecraft/world/effect/MobEffect;",
+        "method": "spitTeaPoison"
+      },
+      {
+        "kind": "platform holder descriptor",
+        "after": "(Lnet/minecraft/core/Holder;IIZZZ)V",
+        "before": "(Lnet/minecraft/world/effect/MobEffect;IIZZZ)V",
+        "method": "spitTeaPoison"
+      }
+    ],
+    "negativeControls": 3,
+    "existingTeaMethods": 38,
+    "candidateTeaMethods": 41,
+    "unchangedOtherTeaMethods": 33,
+    "fiveExistingMethodsChangedOnly": [
+      "tickBossBar",
+      "tickServer",
+      "dropRewards",
+      "tickIronMagic",
+      "spitTeaPoison"
+    ],
+    "originalBossBarAndExperiencePredicateOnlyAdditionsReversible": true,
+    "modelOrMusicUploaded": false
+  },
+  "frozenInputsUnchanged": true,
+  "inputHashes": {
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tools\\build_boss_tea_original_finale_v1.py": "314ae478a5107fcd163a010c501ccff8ebe0c60a56da8ed2c7d7b787a22e50b2",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\nonmanor-finale-base-attributes-closeout-20261114.json": "1f4414b1e6f4ae7b6dca185ca624bd09752d86fc4dcd357e8b7831d7df9e1031",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-nonmanor-finale-attributes-v1-20261114\\ftboss-boss-core-1.21.1-stage43-base-only-finale-NOT-INSTALLABLE.jar": "c63b17a20bc699ffdfb7b8ca3d985d0a2d3c4a53a2da769ea8fa54abac45f370",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\reference\\forge-current.jar": "c1734a148606397f8b2c79fbcc5c45961a5ffb1923ea051756fd45d03dc7a942",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\reports\\original-tea-finale-surface-v3-20261114\\receipt.json": "64ef86a47669481d6e7ae44c5d882475ff2a0fa265b4f25a31b9b3553e6d7429",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-tea-finale-map-v1-20261114\\mapping-proof.json": "6692bd7ddb1af84a9f38aeda94c5afe61b9cb61456be5724a8fb10333dda2190",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\TeaOriginalFinaleComposerV1.java": "b6e9387b0d5a0059b675ad5f6e54c490e766fbcd8389efbafac299bb2d0578c2",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\src\\nonmanor-finale-attributes-v2\\net\\farmingtales\\ftboss\\boss\\NonManorFinaleAttributes.java": "821bbad2f26f1f2cef8f6cb501476996f58faad384ae65122e94c9d8d1049039",
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-damage-context-v1-20261114\\compile-proof-command.json": "47f6bf0b9eccc6847159cc00306c7e62781aea82bcd811e01b52a9f4f0861e7e"
+  },
+  "actualNativeTeaFinaleCombatAccepted": false,
+  "actualLegacyTeaFinaleMigrationAccepted": false,
+  "scope": "Original Tea finale state, setup, native cooldowns, poison damage, boss-bar name and independent experience predicate restored; six complete original mapped graphs with explicit Holder API bridges. Other cast, signature pose, reward routing and global parallel behavior remain separate fidelity gates.",
+  "modelOrMusicUploaded": false,
+  "weaponModuleOrSessionModified": false,
+  "fullBossMigrationComplete": false,
+  "installable": false,
+  "deployed": false
+}

@@ -1,0 +1,1633 @@
+{
+  "originalArchiveSha256": "c1734a148606397f8b2c79fbcc5c45961a5ffb1923ea051756fd45d03dc7a942",
+  "originalClassHashes": {
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity.class": "f7b8c28b1abdbb800dc8ea7317605f7da83e9779bca768f5c8e14f83d50c4df8"
+  },
+  "mcpConfigSha256": "f46d1050d8bed9046886b90a0d2fb80b4c6b5120fc35d32e5d37498dbe0a6d2a",
+  "officialMappingSha256": "67bfc33ef0c7103f002d6ac134f8eddd3d67e2ce45d266e83816d1a2e2c9b01d",
+  "memberNames": {
+    "f_11736_": "BEACON_ACTIVATE",
+    "f_12513_": "TOTEM_USE",
+    "f_144088_": "CAVE_VINES_PICK_BERRIES",
+    "f_19614_": "POISON",
+    "f_19797_": "tickCount",
+    "f_22276_": "MAX_HEALTH",
+    "f_22281_": "ATTACK_DAMAGE",
+    "f_41896_": "OAK_LEAVES",
+    "f_42799_": "OAK_SAPLING",
+    "f_46443_": "isClientSide",
+    "m_128379_": "putBoolean",
+    "m_128471_": "getBoolean",
+    "m_142711_": "setProgress",
+    "m_19486_": "isBeneficial",
+    "m_19544_": "getEffect",
+    "m_20185_": "getX",
+    "m_20186_": "getY",
+    "m_20189_": "getZ",
+    "m_20191_": "getBoundingBox",
+    "m_20270_": "distanceTo",
+    "m_20280_": "distanceToSqr",
+    "m_21051_": "getAttribute",
+    "m_21153_": "setHealth",
+    "m_21195_": "removeEffect",
+    "m_21219_": "removeAllEffects",
+    "m_21220_": "getActiveEffects",
+    "m_21223_": "getHealth",
+    "m_21232_": "getKillCredit",
+    "m_21233_": "getMaxHealth",
+    "m_22100_": "setBaseValue",
+    "m_237113_": "literal",
+    "m_237115_": "translatable",
+    "m_237119_": "empty",
+    "m_269104_": "indirectMagic",
+    "m_269291_": "damageSources",
+    "m_45976_": "getEntitiesOfClass",
+    "m_6084_": "isAlive",
+    "m_6263_": "playSound",
+    "m_6456_": "setName",
+    "m_6469_": "hurt",
+    "m_6539_": "removePlayer",
+    "m_6710_": "setTarget",
+    "m_7220_": "append",
+    "m_7292_": "addEffect",
+    "m_7327_": "doHurtTarget",
+    "m_82400_": "inflate",
+    "m_8323_": "isVisible",
+    "m_9236_": "level"
+  },
+  "subsetMappingProof": {
+    "m_6539_": [
+      {
+        "declaredObfuscatedOwner": "adn",
+        "mcpMemberLine": "b (Laig;)V m_6539_ 136280",
+        "officialResolvedName": "removePlayer"
+      },
+      {
+        "declaredObfuscatedOwner": "aic",
+        "mcpMemberLine": "b (Laig;)V m_6539_ 6539",
+        "officialResolvedName": "removePlayer"
+      }
+    ],
+    "m_142711_": [
+      {
+        "declaredObfuscatedOwner": "aic",
+        "mcpMemberLine": "a (F)V m_142711_ 143222",
+        "officialResolvedName": "setProgress"
+      },
+      {
+        "declaredObfuscatedOwner": "bdn",
+        "mcpMemberLine": "a (F)V m_142711_ 142711",
+        "officialResolvedName": "setProgress"
+      },
+      {
+        "declaredObfuscatedOwner": "epv",
+        "mcpMemberLine": "a (F)V m_142711_ 169029",
+        "officialResolvedName": "setProgress"
+      }
+    ],
+    "m_6456_": [
+      {
+        "declaredObfuscatedOwner": "aic",
+        "mcpMemberLine": "a (Lsw;)V m_6456_ 8310",
+        "officialResolvedName": "setName"
+      },
+      {
+        "declaredObfuscatedOwner": "bdn",
+        "mcpMemberLine": "a (Lsw;)V m_6456_ 6456",
+        "officialResolvedName": "setName"
+      }
+    ],
+    "m_8323_": [
+      {
+        "declaredObfuscatedOwner": "aic",
+        "mcpMemberLine": "g ()Z m_8323_ 8323",
+        "officialResolvedName": "isVisible"
+      }
+    ],
+    "m_6469_": [
+      {
+        "declaredObfuscatedOwner": "aig",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 9036",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 6469",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bfp",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 20784",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bfr",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 147113",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 21015",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "brg",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 27423",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "brl",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 27566",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "brm",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 27761",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "brx",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 28847",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bsa",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 29096",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bsb",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 29377",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bsk",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 29962",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bso",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 30385",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bsp",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 218338",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bss",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 149114",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "btk",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 245859",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "btz",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31019",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bua",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31049",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bub",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31112",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "buv",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31460",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bux",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31578",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "buz",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31714",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bva",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 31775",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bvh",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 32012",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bvs",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 32493",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bvw",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 32729",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bvy",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 32819",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bwi",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 33420",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bwj",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 33526",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bwu",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 34213",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bwv",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 34287",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bwy",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 34502",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bxe",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 34693",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bxh",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 35054",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bxs",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 219380",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "byo",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 36153",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "byv",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 36838",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "byx",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 36909",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bzi",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 37337",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bzj",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 37380",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bzt",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 37615",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "bzw",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 37848",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "caf",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 38116",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "cah",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 38318",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "car",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 38665",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "fiy",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 108661",
+        "officialResolvedName": "hurt"
+      },
+      {
+        "declaredObfuscatedOwner": "fiz",
+        "mcpMemberLine": "a (Lben;F)Z m_6469_ 108771",
+        "officialResolvedName": "hurt"
+      }
+    ],
+    "f_11736_": [
+      {
+        "declaredObfuscatedOwner": "amh",
+        "mcpMemberLine": "bv f_11736_ 11736",
+        "officialResolvedName": "BEACON_ACTIVATE"
+      }
+    ],
+    "f_144088_": [
+      {
+        "declaredObfuscatedOwner": "amh",
+        "mcpMemberLine": "dx f_144088_ 144088",
+        "officialResolvedName": "CAVE_VINES_PICK_BERRIES"
+      }
+    ],
+    "f_12513_": [
+      {
+        "declaredObfuscatedOwner": "amh",
+        "mcpMemberLine": "xG f_12513_ 12513",
+        "officialResolvedName": "TOTEM_USE"
+      }
+    ],
+    "m_269104_": [
+      {
+        "declaredObfuscatedOwner": "beo",
+        "mcpMemberLine": "c (Lbfj;Lbfj;)Lben; m_269104_ 269104",
+        "officialResolvedName": "indirectMagic"
+      }
+    ],
+    "m_19486_": [
+      {
+        "declaredObfuscatedOwner": "bey",
+        "mcpMemberLine": "i ()Z m_19486_ 19486",
+        "officialResolvedName": "isBeneficial"
+      }
+    ],
+    "m_19544_": [
+      {
+        "declaredObfuscatedOwner": "bfa",
+        "mcpMemberLine": "c ()Lbey; m_19544_ 19544",
+        "officialResolvedName": "getEffect"
+      }
+    ],
+    "f_19614_": [
+      {
+        "declaredObfuscatedOwner": "bfc",
+        "mcpMemberLine": "s f_19614_ 19614",
+        "officialResolvedName": "POISON"
+      }
+    ],
+    "f_19797_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "ag f_19797_ 19797",
+        "officialResolvedName": "tickCount"
+      }
+    ],
+    "m_6084_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "bs ()Z m_6084_ 6084",
+        "officialResolvedName": "isAlive"
+      },
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "bs ()Z m_6084_ 21110",
+        "officialResolvedName": "isAlive"
+      }
+    ],
+    "m_20191_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "cE ()Leed; m_20191_ 20191",
+        "officialResolvedName": "getBoundingBox"
+      },
+      {
+        "declaredObfuscatedOwner": "dfs",
+        "mcpMemberLine": "cE ()Leed; m_20191_ 142469",
+        "officialResolvedName": "getBoundingBox"
+      }
+    ],
+    "m_9236_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dI ()Lcmm; m_9236_ 183503",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "bgh",
+        "mcpMemberLine": "e ()Lcmd; m_9236_ 9236",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "bgv",
+        "mcpMemberLine": "e ()Lcmd; m_9236_ 284545",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "btk",
+        "mcpMemberLine": "e ()Lcmd; m_9236_ 284527",
+        "officialResolvedName": "level"
+      },
+      {
+        "declaredObfuscatedOwner": "caj",
+        "mcpMemberLine": "dI ()Lcmm; m_9236_ 214157",
+        "officialResolvedName": "level"
+      }
+    ],
+    "m_269291_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dJ ()Lbeo; m_269291_ 269291",
+        "officialResolvedName": "damageSources"
+      }
+    ],
+    "m_20185_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dn ()D m_20185_ 20185",
+        "officialResolvedName": "getX"
+      }
+    ],
+    "m_20186_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dp ()D m_20186_ 20186",
+        "officialResolvedName": "getY"
+      }
+    ],
+    "m_20189_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "dt ()D m_20189_ 20189",
+        "officialResolvedName": "getZ"
+      }
+    ],
+    "m_20270_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "e (Lbfj;)F m_20270_ 20270",
+        "officialResolvedName": "distanceTo"
+      }
+    ],
+    "m_20280_": [
+      {
+        "declaredObfuscatedOwner": "bfj",
+        "mcpMemberLine": "f (Lbfj;)D m_20280_ 20280",
+        "officialResolvedName": "distanceToSqr"
+      }
+    ],
+    "m_21051_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "a (Lbhb;)Lbhc; m_21051_ 21051",
+        "officialResolvedName": "getAttribute"
+      }
+    ],
+    "m_7292_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "b (Lbfa;)Z m_7292_ 7292",
+        "officialResolvedName": "addEffect"
+      }
+    ],
+    "m_21195_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "d (Lbey;)Z m_21195_ 21195",
+        "officialResolvedName": "removeEffect"
+      }
+    ],
+    "m_21232_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "eH ()Lbfz; m_21232_ 21232",
+        "officialResolvedName": "getKillCredit"
+      }
+    ],
+    "m_21233_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "eI ()F m_21233_ 21233",
+        "officialResolvedName": "getMaxHealth"
+      }
+    ],
+    "m_21219_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "en ()Z m_21219_ 21219",
+        "officialResolvedName": "removeAllEffects"
+      }
+    ],
+    "m_21220_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "eo ()Ljava/util/Collection; m_21220_ 21220",
+        "officialResolvedName": "getActiveEffects"
+      }
+    ],
+    "m_21223_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "er ()F m_21223_ 21223",
+        "officialResolvedName": "getHealth"
+      }
+    ],
+    "m_21153_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "t (F)V m_21153_ 21153",
+        "officialResolvedName": "setHealth"
+      }
+    ],
+    "m_7327_": [
+      {
+        "declaredObfuscatedOwner": "bfz",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 7327",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bgb",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 21371",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "brm",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 27721",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bro",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 28118",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "brt",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 28318",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "brx",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 28836",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "brz",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 28989",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bsa",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 29090",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bsb",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 29364",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bsd",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 29521",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bsf",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 29658",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bso",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 30371",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bss",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 149200",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bvn",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 32256",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bvo",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 32280",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bvz",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 32891",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bwh",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 33327",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bwt",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 34168",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bwu",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 34206",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bwv",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 34275",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bwy",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 34490",
+        "officialResolvedName": "doHurtTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bxs",
+        "mcpMemberLine": "z (Lbfj;)Z m_7327_ 219471",
+        "officialResolvedName": "doHurtTarget"
+      }
+    ],
+    "m_6710_": [
+      {
+        "declaredObfuscatedOwner": "bgb",
+        "mcpMemberLine": "h (Lbfz;)V m_6710_ 21543",
+        "officialResolvedName": "setTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bgg",
+        "mcpMemberLine": "h (Lbfz;)V m_6710_ 6710",
+        "officialResolvedName": "setTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "brv",
+        "mcpMemberLine": "h (Lbfz;)V m_6710_ 28573",
+        "officialResolvedName": "setTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bvo",
+        "mcpMemberLine": "h (Lbfz;)V m_6710_ 149690",
+        "officialResolvedName": "setTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bvs",
+        "mcpMemberLine": "h (Lbfz;)V m_6710_ 32536",
+        "officialResolvedName": "setTarget"
+      },
+      {
+        "declaredObfuscatedOwner": "bwx",
+        "mcpMemberLine": "h (Lbfz;)V m_6710_ 34477",
+        "officialResolvedName": "setTarget"
+      }
+    ],
+    "m_22100_": [
+      {
+        "declaredObfuscatedOwner": "bhc",
+        "mcpMemberLine": "a (D)V m_22100_ 22100",
+        "officialResolvedName": "setBaseValue"
+      }
+    ],
+    "f_22276_": [
+      {
+        "declaredObfuscatedOwner": "bhg",
+        "mcpMemberLine": "a f_22276_ 22276",
+        "officialResolvedName": "MAX_HEALTH"
+      }
+    ],
+    "f_22281_": [
+      {
+        "declaredObfuscatedOwner": "bhg",
+        "mcpMemberLine": "f f_22281_ 22281",
+        "officialResolvedName": "ATTACK_DAMAGE"
+      }
+    ],
+    "f_42799_": [
+      {
+        "declaredObfuscatedOwner": "cgc",
+        "mcpMemberLine": "J f_42799_ 42799",
+        "officialResolvedName": "OAK_SAPLING"
+      }
+    ],
+    "f_41896_": [
+      {
+        "declaredObfuscatedOwner": "cgc",
+        "mcpMemberLine": "bY f_41896_ 41896",
+        "officialResolvedName": "OAK_LEAVES"
+      }
+    ],
+    "m_45976_": [
+      {
+        "declaredObfuscatedOwner": "cmd",
+        "mcpMemberLine": "a (Ljava/lang/Class;Leed;)Ljava/util/List; m_45976_ 45976",
+        "officialResolvedName": "getEntitiesOfClass"
+      }
+    ],
+    "f_46443_": [
+      {
+        "declaredObfuscatedOwner": "cmm",
+        "mcpMemberLine": "B f_46443_ 46443",
+        "officialResolvedName": "isClientSide"
+      }
+    ],
+    "m_6263_": [
+      {
+        "declaredObfuscatedOwner": "cmm",
+        "mcpMemberLine": "a (Lbyo;DDDLamg;Lami;FF)V m_6263_ 6263",
+        "officialResolvedName": "playSound"
+      }
+    ],
+    "m_82400_": [
+      {
+        "declaredObfuscatedOwner": "eed",
+        "mcpMemberLine": "g (D)Leed; m_82400_ 82400",
+        "officialResolvedName": "inflate"
+      }
+    ],
+    "m_128379_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "a (Ljava/lang/String;Z)V m_128379_ 128379",
+        "officialResolvedName": "putBoolean"
+      }
+    ],
+    "m_128471_": [
+      {
+        "declaredObfuscatedOwner": "qr",
+        "mcpMemberLine": "q (Ljava/lang/String;)Z m_128471_ 128471",
+        "officialResolvedName": "getBoolean"
+      }
+    ],
+    "m_237113_": [
+      {
+        "declaredObfuscatedOwner": "sw",
+        "mcpMemberLine": "b (Ljava/lang/String;)Ltj; m_237113_ 237113",
+        "officialResolvedName": "literal"
+      }
+    ],
+    "m_237115_": [
+      {
+        "declaredObfuscatedOwner": "sw",
+        "mcpMemberLine": "c (Ljava/lang/String;)Ltj; m_237115_ 237115",
+        "officialResolvedName": "translatable"
+      }
+    ],
+    "m_237119_": [
+      {
+        "declaredObfuscatedOwner": "sw",
+        "mcpMemberLine": "h ()Ltj; m_237119_ 237119",
+        "officialResolvedName": "empty"
+      }
+    ],
+    "m_7220_": [
+      {
+        "declaredObfuscatedOwner": "tj",
+        "mcpMemberLine": "b (Lsw;)Ltj; m_7220_ 7220",
+        "officialResolvedName": "append"
+      }
+    ]
+  },
+  "classNames": {
+    "net/minecraftforge/registries/RegistryObject": "net/neoforged/neoforge/registries/DeferredHolder",
+    "net/minecraft/world/level/pathfinder/BlockPathTypes": "net/minecraft/world/level/pathfinder/PathType"
+  },
+  "methodSelectionsByClass": {
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity": [
+      "isFinaleChallenge",
+      "setFinaleChallenge",
+      "updateBossBarName",
+      "tickServer",
+      "tickIronMagic",
+      "spitTeaPoison",
+      "tickBossBar",
+      "dropRewards",
+      "tryRevive"
+    ]
+  },
+  "originalSharingMethodInstructions": {
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#isFinaleChallenge": [
+      "  public boolean isFinaleChallenge();",
+      "    Code:",
+      "       0: aload_0",
+      "       1: invokevirtual #413                // Method getPersistentData:()Lnet/minecraft/nbt/CompoundTag;",
+      "       4: ldc           #67                 // String ftboss:saya_finale",
+      "       6: invokevirtual #417                // Method net/minecraft/nbt/CompoundTag.m_128471_:(Ljava/lang/String;)Z",
+      "       9: ireturn",
+      ""
+    ],
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#setFinaleChallenge": [
+      "  public void setFinaleChallenge(boolean);",
+      "    Code:",
+      "       0: aload_0",
+      "       1: invokevirtual #413                // Method getPersistentData:()Lnet/minecraft/nbt/CompoundTag;",
+      "       4: ldc           #67                 // String ftboss:saya_finale",
+      "       6: iload_1",
+      "       7: invokevirtual #423                // Method net/minecraft/nbt/CompoundTag.m_128379_:(Ljava/lang/String;Z)V",
+      "      10: aload_0",
+      "      11: invokevirtual #265                // Method m_9236_:()Lnet/minecraft/world/level/Level;",
+      "      14: getfield      #429                // Field net/minecraft/world/level/Level.f_46443_:Z",
+      "      17: ifeq          21",
+      "      20: return",
+      "      21: aload_0",
+      "      22: getstatic     #435                // Field net/minecraft/world/entity/ai/attributes/Attributes.f_22276_:Lnet/minecraft/world/entity/ai/attributes/Attribute;",
+      "      25: invokevirtual #439                // Method m_21051_:(Lnet/minecraft/world/entity/ai/attributes/Attribute;)Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;",
+      "      28: astore_2",
+      "      29: aload_0",
+      "      30: getstatic     #442                // Field net/minecraft/world/entity/ai/attributes/Attributes.f_22281_:Lnet/minecraft/world/entity/ai/attributes/Attribute;",
+      "      33: invokevirtual #439                // Method m_21051_:(Lnet/minecraft/world/entity/ai/attributes/Attribute;)Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;",
+      "      36: astore_3",
+      "      37: aload_2",
+      "      38: ifnull        60",
+      "      41: aload_2",
+      "      42: ldc2_w        #62                 // double 340.0d",
+      "      45: iload_1",
+      "      46: ifeq          55",
+      "      49: ldc2_w        #69                 // double 2.0d",
+      "      52: goto          56",
+      "      55: dconst_1",
+      "      56: dmul",
+      "      57: invokevirtual #448                // Method net/minecraft/world/entity/ai/attributes/AttributeInstance.m_22100_:(D)V",
+      "      60: aload_3",
+      "      61: ifnull        83",
+      "      64: aload_3",
+      "      65: ldc2_w        #449                // double 3.5d",
+      "      68: iload_1",
+      "      69: ifeq          78",
+      "      72: ldc2_w        #69                 // double 2.0d",
+      "      75: goto          79",
+      "      78: dconst_1",
+      "      79: dmul",
+      "      80: invokevirtual #448                // Method net/minecraft/world/entity/ai/attributes/AttributeInstance.m_22100_:(D)V",
+      "      83: aload_0",
+      "      84: aload_0",
+      "      85: invokevirtual #454                // Method m_21233_:()F",
+      "      88: invokevirtual #458                // Method m_21153_:(F)V",
+      "      91: aload_0",
+      "      92: invokevirtual #461                // Method updateBossBarName:()V",
+      "      95: return",
+      ""
+    ],
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#updateBossBarName": [
+      "  private void updateBossBarName();",
+      "    Code:",
+      "       0: aload_0",
+      "       1: getfield      #467                // Field bossBar:Lnet/minecraft/server/level/ServerBossEvent;",
+      "       4: ldc_w         #469                // String boss.ftboss.saya",
+      "       7: invokestatic  #475                // InterfaceMethod net/minecraft/network/chat/Component.m_237115_:(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;",
+      "      10: aload_0",
+      "      11: invokevirtual #477                // Method isFinaleChallenge:()Z",
+      "      14: ifeq          26",
+      "      17: ldc_w         #479                // String  §4[终结]",
+      "      20: invokestatic  #482                // InterfaceMethod net/minecraft/network/chat/Component.m_237113_:(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;",
+      "      23: goto          29",
+      "      26: invokestatic  #490                // InterfaceMethod net/minecraft/network/chat/Component.m_237119_:()Lnet/minecraft/network/chat/MutableComponent;",
+      "      29: invokevirtual #494                // Method net/minecraft/network/chat/MutableComponent.m_7220_:(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;",
+      "      32: invokevirtual #498                // Method net/minecraft/server/level/ServerBossEvent.m_6456_:(Lnet/minecraft/network/chat/Component;)V",
+      "      35: return",
+      ""
+    ],
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#tickServer": [
+      "  private void tickServer();",
+      "    Code:",
+      "       0: aload_0",
+      "       1: invokevirtual #668                // Method m_6084_:()Z",
+      "       4: ifne          13",
+      "       7: aload_0",
+      "       8: iconst_0",
+      "       9: putfield      #228                // Field nativePending:Z",
+      "      12: return",
+      "      13: aload_0",
+      "      14: invokevirtual #680                // Method tickNativeSkill:()V",
+      "      17: aload_0",
+      "      18: getfield      #282                // Field f_19797_:I",
+      "      21: bipush        20",
+      "      23: irem",
+      "      24: ifne          83",
+      "      27: new           #541                // class java/util/ArrayList",
+      "      30: dup",
+      "      31: aload_0",
+      "      32: invokevirtual #684                // Method m_21220_:()Ljava/util/Collection;",
+      "      35: invokespecial #687                // Method java/util/ArrayList.\"<init>\":(Ljava/util/Collection;)V",
+      "      38: invokevirtual #691                // Method java/util/ArrayList.iterator:()Ljava/util/Iterator;",
+      "      41: astore_1",
+      "      42: aload_1",
+      "      43: invokeinterface #696,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z",
+      "      48: ifeq          83",
+      "      51: aload_1",
+      "      52: invokeinterface #700,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;",
+      "      57: checkcast     #702                // class net/minecraft/world/effect/MobEffectInstance",
+      "      60: astore_2",
+      "      61: aload_2",
+      "      62: invokevirtual #706                // Method net/minecraft/world/effect/MobEffectInstance.m_19544_:()Lnet/minecraft/world/effect/MobEffect;",
+      "      65: invokevirtual #711                // Method net/minecraft/world/effect/MobEffect.m_19486_:()Z",
+      "      68: ifne          80",
+      "      71: aload_0",
+      "      72: aload_2",
+      "      73: invokevirtual #706                // Method net/minecraft/world/effect/MobEffectInstance.m_19544_:()Lnet/minecraft/world/effect/MobEffect;",
+      "      76: invokevirtual #715                // Method m_21195_:(Lnet/minecraft/world/effect/MobEffect;)Z",
+      "      79: pop",
+      "      80: goto          42",
+      "      83: aload_0",
+      "      84: invokevirtual #718                // Method tickTeaAura:()V",
+      "      87: aload_0",
+      "      88: invokevirtual #721                // Method tickBuffWheel:()V",
+      "      91: aload_0",
+      "      92: invokevirtual #724                // Method tickLifeGrowth:()V",
+      "      95: aload_0",
+      "      96: getfield      #539                // Field tactics:Lnet/farmingtales/ftboss/boss/ai/TeaTactics;",
+      "      99: invokevirtual #727                // Method net/farmingtales/ftboss/boss/ai/TeaTactics.absorb:()V",
+      "     102: aload_0",
+      "     103: ldc2_w        #728                // double 20.0d",
+      "     106: invokevirtual #733                // Method nearestTarget:(D)Lnet/minecraft/world/entity/LivingEntity;",
+      "     109: astore_1",
+      "     110: aload_1",
+      "     111: ifnonnull     115",
+      "     114: return",
+      "     115: aload_0",
+      "     116: aload_1",
+      "     117: invokevirtual #736                // Method m_6710_:(Lnet/minecraft/world/entity/LivingEntity;)V",
+      "     120: aload_0",
+      "     121: aload_1",
+      "     122: invokevirtual #739                // Method faceTarget:(Lnet/minecraft/world/entity/LivingEntity;)V",
+      "     125: aload_0",
+      "     126: aload_1",
+      "     127: invokevirtual #741                // Method tickMusic:(Lnet/minecraft/world/entity/LivingEntity;)V",
+      "     130: aload_0",
+      "     131: getfield      #546                // Field phase2:Z",
+      "     134: ifne          221",
+      "     137: aload_0",
+      "     138: invokevirtual #744                // Method m_21223_:()F",
+      "     141: aload_0",
+      "     142: invokevirtual #454                // Method m_21233_:()F",
+      "     145: fdiv",
+      "     146: f2d",
+      "     147: ldc2_w        #745                // double 0.5d",
+      "     150: dcmpg",
+      "     151: ifge          221",
+      "     154: aload_0",
+      "     155: iconst_1",
+      "     156: putfield      #546                // Field phase2:Z",
+      "     159: getstatic     #752                // Field net/farmingtales/ftboss/FTBossMod.LOGGER:Lorg/slf4j/Logger;",
+      "     162: ldc_w         #754                // String [FTBoss] 茶树古树 茶心觉醒: 根刺与茶毒提速",
+      "     165: invokeinterface #760,  2          // InterfaceMethod org/slf4j/Logger.info:(Ljava/lang/String;)V",
+      "     170: aload_0",
+      "     171: invokevirtual #265                // Method m_9236_:()Lnet/minecraft/world/level/Level;",
+      "     174: astore_3",
+      "     175: aload_3",
+      "     176: instanceof    #267                // class net/minecraft/server/level/ServerLevel",
+      "     179: ifeq          214",
+      "     182: aload_3",
+      "     183: checkcast     #267                // class net/minecraft/server/level/ServerLevel",
+      "     186: astore_2",
+      "     187: aload_2",
+      "     188: aconst_null",
+      "     189: aload_0",
+      "     190: invokevirtual #286                // Method m_20185_:()D",
+      "     193: aload_0",
+      "     194: invokevirtual #331                // Method m_20186_:()D",
+      "     197: aload_0",
+      "     198: invokevirtual #292                // Method m_20189_:()D",
+      "     201: getstatic     #766                // Field net/minecraft/sounds/SoundEvents.f_11736_:Lnet/minecraft/sounds/SoundEvent;",
+      "     204: getstatic     #772                // Field net/minecraft/sounds/SoundSource.HOSTILE:Lnet/minecraft/sounds/SoundSource;",
+      "     207: fconst_1",
+      "     208: ldc_w         #773                // float 0.6f",
+      "     211: invokevirtual #777                // Method net/minecraft/server/level/ServerLevel.m_6263_:(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V",
+      "     214: aload_0",
+      "     215: getfield      #532                // Field buds:Lnet/farmingtales/ftboss/boss/ai/SayaBuds;",
+      "     218: invokevirtual #780                // Method net/farmingtales/ftboss/boss/ai/SayaBuds.trigger:()V",
+      "     221: aload_0",
+      "     222: getfield      #546                // Field phase2:Z",
+      "     225: ifeq          233",
+      "     228: bipush        62",
+      "     230: goto          235",
+      "     233: bipush        100",
+      "     235: istore_2",
+      "     236: aload_0",
+      "     237: getfield      #546                // Field phase2:Z",
+      "     240: ifeq          248",
+      "     243: bipush        100",
+      "     245: goto          251",
+      "     248: sipush        160",
+      "     251: istore_3",
+      "     252: aload_0",
+      "     253: invokevirtual #477                // Method isFinaleChallenge:()Z",
+      "     256: ifeq          271",
+      "     259: iload_2",
+      "     260: iconst_1",
+      "     261: iadd",
+      "     262: iconst_2",
+      "     263: idiv",
+      "     264: istore_2",
+      "     265: iload_3",
+      "     266: iconst_1",
+      "     267: iadd",
+      "     268: iconst_2",
+      "     269: idiv",
+      "     270: istore_3",
+      "     271: aload_0",
+      "     272: aload_1",
+      "     273: invokevirtual #784                // Method m_20270_:(Lnet/minecraft/world/entity/Entity;)F",
+      "     276: f2d",
+      "     277: dstore        4",
+      "     279: aload_0",
+      "     280: aload_1",
+      "     281: invokevirtual #787                // Method tickIronMagic:(Lnet/minecraft/world/entity/LivingEntity;)V",
+      "     284: aload_0",
+      "     285: getfield      #171                // Field actionState:Lnet/farmingtales/ftboss/boss/ai/BossActionState;",
+      "     288: invokevirtual #272                // Method net/farmingtales/ftboss/boss/ai/BossActionState.active:()Z",
+      "     291: ifeq          295",
+      "     294: return",
+      "     295: aload_0",
+      "     296: dup",
+      "     297: getfield      #517                // Field fangCd:I",
+      "     300: iconst_1",
+      "     301: isub",
+      "     302: putfield      #517                // Field fangCd:I",
+      "     305: aload_0",
+      "     306: getfield      #517                // Field fangCd:I",
+      "     309: ifgt          343",
+      "     312: aload_0",
+      "     313: iload_2",
+      "     314: putfield      #517                // Field fangCd:I",
+      "     317: dload         4",
+      "     319: ldc2_w        #354                // double 16.0d",
+      "     322: dcmpg",
+      "     323: ifge          343",
+      "     326: dload         4",
+      "     328: ldc2_w        #788                // double 1.5d",
+      "     331: dcmpl",
+      "     332: ifle          343",
+      "     335: aload_0",
+      "     336: ldc           #230                // String roots",
+      "     338: aload_1",
+      "     339: invokevirtual #791                // Method startNativeSkill:(Ljava/lang/String;Lnet/minecraft/world/entity/LivingEntity;)V",
+      "     342: return",
+      "     343: aload_0",
+      "     344: dup",
+      "     345: getfield      #519                // Field spitCd:I",
+      "     348: iconst_1",
+      "     349: isub",
+      "     350: putfield      #519                // Field spitCd:I",
+      "     353: aload_0",
+      "     354: getfield      #519                // Field spitCd:I",
+      "     357: ifgt          383",
+      "     360: aload_0",
+      "     361: iload_3",
+      "     362: putfield      #519                // Field spitCd:I",
+      "     365: dload         4",
+      "     367: ldc2_w        #354                // double 16.0d",
+      "     370: dcmpg",
+      "     371: ifge          383",
+      "     374: aload_0",
+      "     375: ldc_w         #793                // String poison",
+      "     378: aload_1",
+      "     379: invokevirtual #791                // Method startNativeSkill:(Ljava/lang/String;Lnet/minecraft/world/entity/LivingEntity;)V",
+      "     382: return",
+      "     383: aload_0",
+      "     384: dup",
+      "     385: getfield      #521                // Field contactCd:I",
+      "     388: iconst_1",
+      "     389: isub",
+      "     390: putfield      #521                // Field contactCd:I",
+      "     393: aload_0",
+      "     394: getfield      #521                // Field contactCd:I",
+      "     397: ifgt          433",
+      "     400: dload         4",
+      "     402: ldc2_w        #506                // double 3.0d",
+      "     405: dcmpg",
+      "     406: ifge          433",
+      "     409: aload_0",
+      "     410: aload_0",
+      "     411: invokevirtual #477                // Method isFinaleChallenge:()Z",
+      "     414: ifeq          422",
+      "     417: bipush        15",
+      "     419: goto          424",
+      "     422: bipush        30",
+      "     424: putfield      #521                // Field contactCd:I",
+      "     427: aload_0",
+      "     428: aload_1",
+      "     429: invokevirtual #795                // Method m_7327_:(Lnet/minecraft/world/entity/Entity;)Z",
+      "     432: pop",
+      "     433: return",
+      ""
+    ],
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#tickIronMagic": [
+      "  private void tickIronMagic(net.minecraft.world.entity.LivingEntity);",
+      "    Code:",
+      "       0: aload_0",
+      "       1: invokevirtual #119                // Method isCasting:()Z",
+      "       4: ifeq          8",
+      "       7: return",
+      "       8: aload_0",
+      "       9: dup",
+      "      10: getfield      #523                // Field castCd:I",
+      "      13: iconst_1",
+      "      14: isub",
+      "      15: putfield      #523                // Field castCd:I",
+      "      18: aload_0",
+      "      19: getfield      #523                // Field castCd:I",
+      "      22: ifgt          106",
+      "      25: aload_0",
+      "      26: getfield      #546                // Field phase2:Z",
+      "      29: ifeq          37",
+      "      32: bipush        44",
+      "      34: goto          39",
+      "      37: bipush        62",
+      "      39: istore_2",
+      "      40: aload_0",
+      "      41: aload_0",
+      "      42: invokevirtual #477                // Method isFinaleChallenge:()Z",
+      "      45: ifeq          56",
+      "      48: iload_2",
+      "      49: iconst_1",
+      "      50: iadd",
+      "      51: iconst_2",
+      "      52: idiv",
+      "      53: goto          57",
+      "      56: iload_2",
+      "      57: putfield      #523                // Field castCd:I",
+      "      60: aload_0",
+      "      61: getfield      #544                // Field castQueue:Ljava/util/List;",
+      "      64: invokeinterface #805,  1          // InterfaceMethod java/util/List.isEmpty:()Z",
+      "      69: ifeq          76",
+      "      72: aload_0",
+      "      73: invokevirtual #808                // Method fillCastQueue:()V",
+      "      76: aload_0",
+      "      77: getfield      #544                // Field castQueue:Ljava/util/List;",
+      "      80: invokeinterface #805,  1          // InterfaceMethod java/util/List.isEmpty:()Z",
+      "      85: ifne          106",
+      "      88: aload_0",
+      "      89: aload_1",
+      "      90: aload_0",
+      "      91: getfield      #544                // Field castQueue:Ljava/util/List;",
+      "      94: iconst_0",
+      "      95: invokeinterface #812,  2          // InterfaceMethod java/util/List.remove:(I)Ljava/lang/Object;",
+      "     100: checkcast     #814                // class io/redspace/ironsspellbooks/api/spells/AbstractSpell",
+      "     103: invokevirtual #818                // Method tryCastSpell:(Lnet/minecraft/world/entity/LivingEntity;Lio/redspace/ironsspellbooks/api/spells/AbstractSpell;)V",
+      "     106: return",
+      ""
+    ],
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#spitTeaPoison": [
+      "  private void spitTeaPoison(net.minecraft.world.entity.LivingEntity);",
+      "    Code:",
+      "       0: aload_1",
+      "       1: new           #702                // class net/minecraft/world/effect/MobEffectInstance",
+      "       4: dup",
+      "       5: getstatic     #1042               // Field net/minecraft/world/effect/MobEffects.f_19614_:Lnet/minecraft/world/effect/MobEffect;",
+      "       8: sipush        220",
+      "      11: iconst_2",
+      "      12: iconst_0",
+      "      13: iconst_0",
+      "      14: iconst_1",
+      "      15: invokespecial #1045               // Method net/minecraft/world/effect/MobEffectInstance.\"<init>\":(Lnet/minecraft/world/effect/MobEffect;IIZZZ)V",
+      "      18: invokevirtual #1049               // Method net/minecraft/world/entity/LivingEntity.m_7292_:(Lnet/minecraft/world/effect/MobEffectInstance;)Z",
+      "      21: pop",
+      "      22: aload_1",
+      "      23: aload_0",
+      "      24: invokevirtual #1053               // Method m_269291_:()Lnet/minecraft/world/damagesource/DamageSources;",
+      "      27: aload_0",
+      "      28: aload_0",
+      "      29: invokevirtual #1059               // Method net/minecraft/world/damagesource/DamageSources.m_269104_:(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;",
+      "      32: aload_0",
+      "      33: invokevirtual #477                // Method isFinaleChallenge:()Z",
+      "      36: ifeq          45",
+      "      39: ldc_w         #1060               // float 5.0f",
+      "      42: goto          48",
+      "      45: ldc_w         #1063               // float 2.5f",
+      "      48: invokevirtual #1064               // Method net/minecraft/world/entity/LivingEntity.m_6469_:(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+      "      51: pop",
+      "      52: aload_0",
+      "      53: invokevirtual #265                // Method m_9236_:()Lnet/minecraft/world/level/Level;",
+      "      56: astore_3",
+      "      57: aload_3",
+      "      58: instanceof    #267                // class net/minecraft/server/level/ServerLevel",
+      "      61: ifeq          96",
+      "      64: aload_3",
+      "      65: checkcast     #267                // class net/minecraft/server/level/ServerLevel",
+      "      68: astore_2",
+      "      69: aload_2",
+      "      70: aconst_null",
+      "      71: aload_1",
+      "      72: invokevirtual #1065               // Method net/minecraft/world/entity/LivingEntity.m_20185_:()D",
+      "      75: aload_1",
+      "      76: invokevirtual #1066               // Method net/minecraft/world/entity/LivingEntity.m_20186_:()D",
+      "      79: aload_1",
+      "      80: invokevirtual #1067               // Method net/minecraft/world/entity/LivingEntity.m_20189_:()D",
+      "      83: getstatic     #1070               // Field net/minecraft/sounds/SoundEvents.f_144088_:Lnet/minecraft/sounds/SoundEvent;",
+      "      86: getstatic     #772                // Field net/minecraft/sounds/SoundSource.HOSTILE:Lnet/minecraft/sounds/SoundSource;",
+      "      89: fconst_1",
+      "      90: ldc_w         #1071               // float 1.3f",
+      "      93: invokevirtual #777                // Method net/minecraft/server/level/ServerLevel.m_6263_:(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V",
+      "      96: return",
+      ""
+    ],
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#tickBossBar": [
+      "  private void tickBossBar();",
+      "    Code:",
+      "       0: aload_0",
+      "       1: invokevirtual #668                // Method m_6084_:()Z",
+      "       4: ifne          16",
+      "       7: aload_0",
+      "       8: aload_0",
+      "       9: getfield      #467                // Field bossBar:Lnet/minecraft/server/level/ServerBossEvent;",
+      "      12: invokestatic  #1335               // Method net/farmingtales/ftboss/boss/BossBars.untrack:(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerBossEvent;)V",
+      "      15: return",
+      "      16: aload_0",
+      "      17: invokevirtual #607                // Method isTeaMinion:()Z",
+      "      20: ifeq          28",
+      "      23: aload_0",
+      "      24: invokevirtual #1338               // Method hideBossBar:()V",
+      "      27: return",
+      "      28: aload_0",
+      "      29: invokevirtual #461                // Method updateBossBarName:()V",
+      "      32: aload_0",
+      "      33: getfield      #467                // Field bossBar:Lnet/minecraft/server/level/ServerBossEvent;",
+      "      36: aload_0",
+      "      37: invokevirtual #744                // Method m_21223_:()F",
+      "      40: aload_0",
+      "      41: invokevirtual #454                // Method m_21233_:()F",
+      "      44: fdiv",
+      "      45: invokevirtual #1341               // Method net/minecraft/server/level/ServerBossEvent.m_142711_:(F)V",
+      "      48: iconst_0",
+      "      49: istore_1",
+      "      50: aload_0",
+      "      51: invokevirtual #265                // Method m_9236_:()Lnet/minecraft/world/level/Level;",
+      "      54: ldc_w         #1139               // class net/minecraft/server/level/ServerPlayer",
+      "      57: aload_0",
+      "      58: invokevirtual #1342               // Method m_20191_:()Lnet/minecraft/world/phys/AABB;",
+      "      61: ldc2_w        #59                 // double 48.0d",
+      "      64: invokevirtual #379                // Method net/minecraft/world/phys/AABB.m_82400_:(D)Lnet/minecraft/world/phys/AABB;",
+      "      67: invokevirtual #1346               // Method net/minecraft/world/level/Level.m_45976_:(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;",
+      "      70: invokeinterface #1137,  1         // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;",
+      "      75: astore_2",
+      "      76: aload_2",
+      "      77: invokeinterface #696,  1          // InterfaceMethod java/util/Iterator.hasNext:()Z",
+      "      82: ifeq          131",
+      "      85: aload_2",
+      "      86: invokeinterface #700,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;",
+      "      91: checkcast     #1139               // class net/minecraft/server/level/ServerPlayer",
+      "      94: astore_3",
+      "      95: aload_0",
+      "      96: aload_3",
+      "      97: invokevirtual #390                // Method m_20280_:(Lnet/minecraft/world/entity/Entity;)D",
+      "     100: ldc2_w        #1141               // double 2304.0d",
+      "     103: dcmpg",
+      "     104: ifge          120",
+      "     107: aload_0",
+      "     108: getfield      #467                // Field bossBar:Lnet/minecraft/server/level/ServerBossEvent;",
+      "     111: aload_3",
+      "     112: invokestatic  #1350               // Method net/farmingtales/ftboss/boss/BossBarVisibility.addPlayer:(Lnet/minecraft/server/level/ServerBossEvent;Lnet/minecraft/server/level/ServerPlayer;)V",
+      "     115: iconst_1",
+      "     116: istore_1",
+      "     117: goto          128",
+      "     120: aload_0",
+      "     121: getfield      #467                // Field bossBar:Lnet/minecraft/server/level/ServerBossEvent;",
+      "     124: aload_3",
+      "     125: invokevirtual #1354               // Method net/minecraft/server/level/ServerBossEvent.m_6539_:(Lnet/minecraft/server/level/ServerPlayer;)V",
+      "     128: goto          76",
+      "     131: aload_0",
+      "     132: getfield      #467                // Field bossBar:Lnet/minecraft/server/level/ServerBossEvent;",
+      "     135: invokevirtual #1357               // Method net/minecraft/server/level/ServerBossEvent.m_8323_:()Z",
+      "     138: iload_1",
+      "     139: if_icmpeq     150",
+      "     142: aload_0",
+      "     143: getfield      #467                // Field bossBar:Lnet/minecraft/server/level/ServerBossEvent;",
+      "     146: iload_1",
+      "     147: invokestatic  #631                // Method net/farmingtales/ftboss/boss/BossBarVisibility.visible:(Lnet/minecraft/server/level/ServerBossEvent;Z)V",
+      "     150: return",
+      ""
+    ],
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#dropRewards": [
+      "  public void dropRewards();",
+      "    Code:",
+      "       0: aload_0",
+      "       1: getfield      #532                // Field buds:Lnet/farmingtales/ftboss/boss/ai/SayaBuds;",
+      "       4: invokevirtual #1228               // Method net/farmingtales/ftboss/boss/ai/SayaBuds.reset:()V",
+      "       7: aload_0",
+      "       8: ldc2_w        #1235               // double 80.0d",
+      "      11: iconst_1",
+      "      12: anewarray     #895                // class java/lang/Class",
+      "      15: dup",
+      "      16: iconst_0",
+      "      17: ldc_w         #1238               // class net/farmingtales/ftboss/entity/TeaMinionEntity",
+      "      20: aastore",
+      "      21: invokestatic  #1244               // Method net/farmingtales/ftboss/boss/ai/SummonSweep.clear:(Lnet/minecraft/world/entity/LivingEntity;D[Ljava/lang/Class;)I",
+      "      24: pop",
+      "      25: aload_0",
+      "      26: invokevirtual #1246               // Method stopMusic:()V",
+      "      29: aload_0",
+      "      30: invokestatic  #1251               // Method net/farmingtales/ftboss/boss/ai/LemonSummonRewards.suppressed:(Lnet/minecraft/world/entity/Entity;)Z",
+      "      33: ifeq          48",
+      "      36: getstatic     #752                // Field net/farmingtales/ftboss/FTBossMod.LOGGER:Lorg/slf4j/Logger;",
+      "      39: ldc_w         #1253               // String [FTBoss][Lemon] summoned Tea Tree defeated: rewards suppressed",
+      "      42: invokeinterface #760,  2          // InterfaceMethod org/slf4j/Logger.info:(Ljava/lang/String;)V",
+      "      47: return",
+      "      48: aload_0",
+      "      49: invokevirtual #265                // Method m_9236_:()Lnet/minecraft/world/level/Level;",
+      "      52: astore_2",
+      "      53: aload_2",
+      "      54: instanceof    #267                // class net/minecraft/server/level/ServerLevel",
+      "      57: ifeq          68",
+      "      60: aload_2",
+      "      61: checkcast     #267                // class net/minecraft/server/level/ServerLevel",
+      "      64: astore_1",
+      "      65: goto          69",
+      "      68: return",
+      "      69: aload_0",
+      "      70: invokevirtual #286                // Method m_20185_:()D",
+      "      73: dstore_2",
+      "      74: aload_0",
+      "      75: invokevirtual #331                // Method m_20186_:()D",
+      "      78: dstore        4",
+      "      80: aload_0",
+      "      81: invokevirtual #292                // Method m_20189_:()D",
+      "      84: dstore        6",
+      "      86: aload_1",
+      "      87: new           #1255               // class net/minecraft/world/entity/item/ItemEntity",
+      "      90: dup",
+      "      91: aload_1",
+      "      92: dload_2",
+      "      93: dload         4",
+      "      95: dload         6",
+      "      97: new           #1257               // class net/minecraft/world/item/ItemStack",
+      "     100: dup",
+      "     101: getstatic     #1263               // Field net/minecraft/world/item/Items.f_41896_:Lnet/minecraft/world/item/Item;",
+      "     104: bipush        24",
+      "     106: invokespecial #1266               // Method net/minecraft/world/item/ItemStack.\"<init>\":(Lnet/minecraft/world/level/ItemLike;I)V",
+      "     109: invokespecial #1269               // Method net/minecraft/world/entity/item/ItemEntity.\"<init>\":(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemStack;)V",
+      "     112: aload_0",
+      "     113: invokestatic  #1403               // Method net/farmingtales/ftboss/boss/ai/NonManorBossLootRouter.spawn:(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+      "     116: pop",
+      "     117: aload_1",
+      "     118: new           #1255               // class net/minecraft/world/entity/item/ItemEntity",
+      "     121: dup",
+      "     122: aload_1",
+      "     123: dload_2",
+      "     124: dload         4",
+      "     126: ldc2_w        #1270               // double 0.4d",
+      "     129: dadd",
+      "     130: dload         6",
+      "     132: new           #1257               // class net/minecraft/world/item/ItemStack",
+      "     135: dup",
+      "     136: getstatic     #1274               // Field net/minecraft/world/item/Items.f_42799_:Lnet/minecraft/world/item/Item;",
+      "     139: bipush        8",
+      "     141: invokespecial #1266               // Method net/minecraft/world/item/ItemStack.\"<init>\":(Lnet/minecraft/world/level/ItemLike;I)V",
+      "     144: invokespecial #1269               // Method net/minecraft/world/entity/item/ItemEntity.\"<init>\":(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemStack;)V",
+      "     147: aload_0",
+      "     148: invokestatic  #1403               // Method net/farmingtales/ftboss/boss/ai/NonManorBossLootRouter.spawn:(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+      "     151: pop",
+      "     152: aload_1",
+      "     153: new           #1255               // class net/minecraft/world/entity/item/ItemEntity",
+      "     156: dup",
+      "     157: aload_1",
+      "     158: dload_2",
+      "     159: dload         4",
+      "     161: ldc2_w        #1275               // double 0.8d",
+      "     164: dadd",
+      "     165: dload         6",
+      "     167: new           #1257               // class net/minecraft/world/item/ItemStack",
+      "     170: dup",
+      "     171: getstatic     #1282               // Field net/farmingtales/ftboss/item/FTBossItems.BLOOMING_THORNS:Lnet/minecraftforge/registries/RegistryObject;",
+      "     174: invokevirtual #1286               // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;",
+      "     177: checkcast     #1288               // class net/minecraft/world/level/ItemLike",
+      "     180: invokespecial #1291               // Method net/minecraft/world/item/ItemStack.\"<init>\":(Lnet/minecraft/world/level/ItemLike;)V",
+      "     183: invokespecial #1269               // Method net/minecraft/world/entity/item/ItemEntity.\"<init>\":(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemStack;)V",
+      "     186: aload_0",
+      "     187: invokestatic  #1403               // Method net/farmingtales/ftboss/boss/ai/NonManorBossLootRouter.spawn:(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+      "     190: pop",
+      "     191: aload_1",
+      "     192: new           #1255               // class net/minecraft/world/entity/item/ItemEntity",
+      "     195: dup",
+      "     196: aload_1",
+      "     197: dload_2",
+      "     198: dload         4",
+      "     200: dconst_1",
+      "     201: dadd",
+      "     202: dload         6",
+      "     204: new           #1257               // class net/minecraft/world/item/ItemStack",
+      "     207: dup",
+      "     208: getstatic     #1294               // Field net/farmingtales/ftboss/item/FTBossItems.THORN_CROWN:Lnet/minecraftforge/registries/RegistryObject;",
+      "     211: invokevirtual #1286               // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;",
+      "     214: checkcast     #1288               // class net/minecraft/world/level/ItemLike",
+      "     217: invokespecial #1291               // Method net/minecraft/world/item/ItemStack.\"<init>\":(Lnet/minecraft/world/level/ItemLike;)V",
+      "     220: invokespecial #1269               // Method net/minecraft/world/entity/item/ItemEntity.\"<init>\":(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemStack;)V",
+      "     223: aload_0",
+      "     224: invokestatic  #1403               // Method net/farmingtales/ftboss/boss/ai/NonManorBossLootRouter.spawn:(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+      "     227: pop",
+      "     228: aload_1",
+      "     229: new           #1255               // class net/minecraft/world/entity/item/ItemEntity",
+      "     232: dup",
+      "     233: aload_1",
+      "     234: dload_2",
+      "     235: ldc2_w        #1295               // double 0.25d",
+      "     238: dadd",
+      "     239: dload         4",
+      "     241: dconst_1",
+      "     242: dadd",
+      "     243: dload         6",
+      "     245: new           #1257               // class net/minecraft/world/item/ItemStack",
+      "     248: dup",
+      "     249: getstatic     #1299               // Field net/farmingtales/ftboss/item/FTBossItems.THORN_CHESTPLATE:Lnet/minecraftforge/registries/RegistryObject;",
+      "     252: invokevirtual #1286               // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;",
+      "     255: checkcast     #1288               // class net/minecraft/world/level/ItemLike",
+      "     258: invokespecial #1291               // Method net/minecraft/world/item/ItemStack.\"<init>\":(Lnet/minecraft/world/level/ItemLike;)V",
+      "     261: invokespecial #1269               // Method net/minecraft/world/entity/item/ItemEntity.\"<init>\":(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemStack;)V",
+      "     264: aload_0",
+      "     265: invokestatic  #1403               // Method net/farmingtales/ftboss/boss/ai/NonManorBossLootRouter.spawn:(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+      "     268: pop",
+      "     269: aload_1",
+      "     270: new           #1255               // class net/minecraft/world/entity/item/ItemEntity",
+      "     273: dup",
+      "     274: aload_1",
+      "     275: dload_2",
+      "     276: ldc2_w        #1295               // double 0.25d",
+      "     279: dsub",
+      "     280: dload         4",
+      "     282: dconst_1",
+      "     283: dadd",
+      "     284: dload         6",
+      "     286: new           #1257               // class net/minecraft/world/item/ItemStack",
+      "     289: dup",
+      "     290: getstatic     #1302               // Field net/farmingtales/ftboss/item/FTBossItems.THORN_LEGGINGS:Lnet/minecraftforge/registries/RegistryObject;",
+      "     293: invokevirtual #1286               // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;",
+      "     296: checkcast     #1288               // class net/minecraft/world/level/ItemLike",
+      "     299: invokespecial #1291               // Method net/minecraft/world/item/ItemStack.\"<init>\":(Lnet/minecraft/world/level/ItemLike;)V",
+      "     302: invokespecial #1269               // Method net/minecraft/world/entity/item/ItemEntity.\"<init>\":(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemStack;)V",
+      "     305: aload_0",
+      "     306: invokestatic  #1403               // Method net/farmingtales/ftboss/boss/ai/NonManorBossLootRouter.spawn:(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+      "     309: pop",
+      "     310: aload_1",
+      "     311: new           #1255               // class net/minecraft/world/entity/item/ItemEntity",
+      "     314: dup",
+      "     315: aload_1",
+      "     316: dload_2",
+      "     317: dload         4",
+      "     319: dconst_1",
+      "     320: dadd",
+      "     321: dload         6",
+      "     323: ldc2_w        #1295               // double 0.25d",
+      "     326: dadd",
+      "     327: new           #1257               // class net/minecraft/world/item/ItemStack",
+      "     330: dup",
+      "     331: getstatic     #1305               // Field net/farmingtales/ftboss/item/FTBossItems.THORN_BOOTS:Lnet/minecraftforge/registries/RegistryObject;",
+      "     334: invokevirtual #1286               // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;",
+      "     337: checkcast     #1288               // class net/minecraft/world/level/ItemLike",
+      "     340: invokespecial #1291               // Method net/minecraft/world/item/ItemStack.\"<init>\":(Lnet/minecraft/world/level/ItemLike;)V",
+      "     343: invokespecial #1269               // Method net/minecraft/world/entity/item/ItemEntity.\"<init>\":(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemStack;)V",
+      "     346: aload_0",
+      "     347: invokestatic  #1403               // Method net/farmingtales/ftboss/boss/ai/NonManorBossLootRouter.spawn:(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+      "     350: pop",
+      "     351: aload_0",
+      "     352: invokevirtual #477                // Method isFinaleChallenge:()Z",
+      "     355: ifeq          372",
+      "     358: aload_0",
+      "     359: invokevirtual #1309               // Method m_21232_:()Lnet/minecraft/world/entity/LivingEntity;",
+      "     362: instanceof    #1139               // class net/minecraft/server/level/ServerPlayer",
+      "     365: ifeq          372",
+      "     368: iconst_1",
+      "     369: goto          373",
+      "     372: iconst_0",
+      "     373: istore        8",
+      "     375: iload         8",
+      "     377: ifeq          419",
+      "     380: aload_1",
+      "     381: new           #1255               // class net/minecraft/world/entity/item/ItemEntity",
+      "     384: dup",
+      "     385: aload_1",
+      "     386: dload_2",
+      "     387: dload         4",
+      "     389: ldc2_w        #1310               // double 1.35d",
+      "     392: dadd",
+      "     393: dload         6",
+      "     395: new           #1257               // class net/minecraft/world/item/ItemStack",
+      "     398: dup",
+      "     399: getstatic     #1314               // Field net/farmingtales/ftboss/item/FTBossItems.SILVER_KEY:Lnet/minecraftforge/registries/RegistryObject;",
+      "     402: invokevirtual #1286               // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;",
+      "     405: checkcast     #1288               // class net/minecraft/world/level/ItemLike",
+      "     408: invokespecial #1291               // Method net/minecraft/world/item/ItemStack.\"<init>\":(Lnet/minecraft/world/level/ItemLike;)V",
+      "     411: invokespecial #1269               // Method net/minecraft/world/entity/item/ItemEntity.\"<init>\":(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemStack;)V",
+      "     414: aload_0",
+      "     415: invokestatic  #1403               // Method net/farmingtales/ftboss/boss/ai/NonManorBossLootRouter.spawn:(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+      "     418: pop",
+      "     419: aload_1",
+      "     420: new           #1316               // class net/minecraft/world/entity/ExperienceOrb",
+      "     423: dup",
+      "     424: aload_1",
+      "     425: dload_2",
+      "     426: dload         4",
+      "     428: dload         6",
+      "     430: aload_0",
+      "     431: invokevirtual #477                // Method isFinaleChallenge:()Z",
+      "     434: ifeq          443",
+      "     437: sipush        300",
+      "     440: goto          446",
+      "     443: sipush        150",
+      "     446: invokespecial #1319               // Method net/minecraft/world/entity/ExperienceOrb.\"<init>\":(Lnet/minecraft/world/level/Level;DDDI)V",
+      "     449: aload_0",
+      "     450: invokestatic  #1403               // Method net/farmingtales/ftboss/boss/ai/NonManorBossLootRouter.spawn:(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Z",
+      "     453: pop",
+      "     454: getstatic     #752                // Field net/farmingtales/ftboss/FTBossMod.LOGGER:Lorg/slf4j/Logger;",
+      "     457: ldc_w         #1321               // String [FTBoss] 沙耶被击败：荆棘全套已掉落，终结难度银之钥={}",
+      "     460: iload         8",
+      "     462: invokestatic  #1326               // Method java/lang/Boolean.valueOf:(Z)Ljava/lang/Boolean;",
+      "     465: invokeinterface #1328,  3         // InterfaceMethod org/slf4j/Logger.info:(Ljava/lang/String;Ljava/lang/Object;)V",
+      "     470: return",
+      ""
+    ],
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#tryRevive": [
+      "  public boolean tryRevive();",
+      "    Code:",
+      "       0: aload_0",
+      "       1: getfield      #548                // Field secondLifeUsed:Z",
+      "       4: ifne          14",
+      "       7: aload_0",
+      "       8: invokevirtual #668                // Method m_6084_:()Z",
+      "      11: ifne          16",
+      "      14: iconst_0",
+      "      15: ireturn",
+      "      16: aload_0",
+      "      17: iconst_1",
+      "      18: putfield      #548                // Field secondLifeUsed:Z",
+      "      21: aload_0",
+      "      22: aload_0",
+      "      23: invokevirtual #454                // Method m_21233_:()F",
+      "      26: f2d",
+      "      27: ldc2_w        #1221               // double 0.3d",
+      "      30: dmul",
+      "      31: d2f",
+      "      32: invokevirtual #458                // Method m_21153_:(F)V",
+      "      35: aload_0",
+      "      36: invokevirtual #1225               // Method m_21219_:()Z",
+      "      39: pop",
+      "      40: aload_0",
+      "      41: bipush        40",
+      "      43: putfield      #517                // Field fangCd:I",
+      "      46: aload_0",
+      "      47: bipush        70",
+      "      49: putfield      #519                // Field spitCd:I",
+      "      52: aload_0",
+      "      53: getfield      #532                // Field buds:Lnet/farmingtales/ftboss/boss/ai/SayaBuds;",
+      "      56: invokevirtual #1228               // Method net/farmingtales/ftboss/boss/ai/SayaBuds.reset:()V",
+      "      59: aload_0",
+      "      60: getfield      #532                // Field buds:Lnet/farmingtales/ftboss/boss/ai/SayaBuds;",
+      "      63: invokevirtual #780                // Method net/farmingtales/ftboss/boss/ai/SayaBuds.trigger:()V",
+      "      66: aload_0",
+      "      67: invokevirtual #265                // Method m_9236_:()Lnet/minecraft/world/level/Level;",
+      "      70: astore_2",
+      "      71: aload_2",
+      "      72: instanceof    #267                // class net/minecraft/server/level/ServerLevel",
+      "      75: ifeq          108",
+      "      78: aload_2",
+      "      79: checkcast     #267                // class net/minecraft/server/level/ServerLevel",
+      "      82: astore_1",
+      "      83: aload_1",
+      "      84: aconst_null",
+      "      85: aload_0",
+      "      86: invokevirtual #286                // Method m_20185_:()D",
+      "      89: aload_0",
+      "      90: invokevirtual #331                // Method m_20186_:()D",
+      "      93: aload_0",
+      "      94: invokevirtual #292                // Method m_20189_:()D",
+      "      97: getstatic     #1231               // Field net/minecraft/sounds/SoundEvents.f_12513_:Lnet/minecraft/sounds/SoundEvent;",
+      "     100: getstatic     #772                // Field net/minecraft/sounds/SoundSource.HOSTILE:Lnet/minecraft/sounds/SoundSource;",
+      "     103: fconst_1",
+      "     104: fconst_1",
+      "     105: invokevirtual #777                // Method net/minecraft/server/level/ServerLevel.m_6263_:(Lnet/minecraft/world/entity/player/Player;DDDLnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;FF)V",
+      "     108: getstatic     #752                // Field net/farmingtales/ftboss/FTBossMod.LOGGER:Lorg/slf4j/Logger;",
+      "     111: ldc_w         #1233               // String [FTBoss] 茶树古树 茶根再生, 进入第二阶段",
+      "     114: invokeinterface #760,  2          // InterfaceMethod org/slf4j/Logger.info:(Ljava/lang/String;)V",
+      "     119: iconst_1",
+      "     120: ireturn",
+      ""
+    ]
+  },
+  "selectedOriginalMethods": [
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#isFinaleChallenge",
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#setFinaleChallenge",
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#updateBossBarName",
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#tickServer",
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#tickIronMagic",
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#spitTeaPoison",
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#tickBossBar",
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#dropRewards",
+    "net/farmingtales/ftboss/entity/TeaTreeBossEntity#tryRevive"
+  ],
+  "completeUnmodifiedMappingsNotExported": true,
+  "resourceFilesNotExported": true
+}
