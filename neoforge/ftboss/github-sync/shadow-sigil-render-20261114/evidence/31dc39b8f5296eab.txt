@@ -1,0 +1,9 @@
+Exception in thread "main" java.lang.IllegalArgumentException
+	at org.objectweb.asm.ClassReader.readVerificationTypeInfo(ClassReader.java:3424)
+	at org.objectweb.asm.ClassReader.readStackMapFrame(ClassReader.java:3351)
+	at org.objectweb.asm.ClassReader.readCode(ClassReader.java:2087)
+	at org.objectweb.asm.ClassReader.readMethod(ClassReader.java:1512)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:745)
+	at org.objectweb.asm.ClassReader.accept(ClassReader.java:425)
+	at ShadowSigilBufferComposerV1.read(ShadowSigilBufferComposerV1.java:18)
+	at ShadowSigilBufferComposerV1.main(ShadowSigilBufferComposerV1.java:72)
