@@ -1,0 +1,1851 @@
+{
+  "expectation": "baseline",
+  "lastObservedCaseBeforeAssertions": {
+    "mode": "final-positive7",
+    "requestedRaw": 7.0,
+    "ingress": "actual-survival-ServerPlayer.attack",
+    "beforeHealth": 1024.0,
+    "originalAttackBase": 1.0,
+    "originalAttackValue": 7.0,
+    "actualAttributeSlope": 1.0,
+    "beforeGuards": {
+      "playerAttackDamage": 7.0,
+      "playerAttackStrength": 1.0,
+      "playerCreative": false,
+      "playerSpectator": false,
+      "playerGameMode": "survival",
+      "playerEffects": [
+        {
+          "amplifier": 1,
+          "duration": 211,
+          "effect": "minecraft:regeneration"
+        },
+        {
+          "amplifier": 1,
+          "duration": 211,
+          "effect": "minecraft:jump_boost"
+        },
+        {
+          "amplifier": 1,
+          "duration": 211,
+          "effect": "minecraft:strength"
+        },
+        {
+          "amplifier": 1,
+          "duration": 211,
+          "effect": "minecraft:haste"
+        },
+        {
+          "amplifier": 1,
+          "duration": 211,
+          "effect": "minecraft:speed"
+        },
+        {
+          "amplifier": 1,
+          "duration": 211,
+          "effect": "minecraft:resistance"
+        }
+      ],
+      "health": 1024.0,
+      "invulnerable": false,
+      "invulnerableTime": 0,
+      "alive": true,
+      "removed": false,
+      "noAI": true,
+      "hasTarget": false,
+      "variant": 9,
+      "mini": false,
+      "managed": false,
+      "finaleMember": false,
+      "hiddenIntroActing": false,
+      "introHidden": false,
+      "impossible": false
+    },
+    "afterHealth": 1023.72,
+    "incomingAmount": 7.0,
+    "postAmount": 0.27999997,
+    "counts": {
+      "actualPlayerAttackEvent": 1,
+      "incoming": 1,
+      "originalMitigation": 1,
+      "pre": 1,
+      "originalHealth": 1,
+      "post": 1
+    },
+    "afterGuards": {
+      "playerAttackDamage": 7.0,
+      "playerAttackStrength": 0.120000005,
+      "playerCreative": false,
+      "playerSpectator": false,
+      "playerGameMode": "survival",
+      "playerEffects": [
+        {
+          "amplifier": 1,
+          "duration": 211,
+          "effect": "minecraft:regeneration"
+        },
+        {
+          "amplifier": 1,
+          "duration": 211,
+          "effect": "minecraft:jump_boost"
+        },
+        {
+          "amplifier": 1,
+          "duration": 211,
+          "effect": "minecraft:strength"
+        },
+        {
+          "amplifier": 1,
+          "duration": 211,
+          "effect": "minecraft:haste"
+        },
+        {
+          "amplifier": 1,
+          "duration": 211,
+          "effect": "minecraft:speed"
+        },
+        {
+          "amplifier": 1,
+          "duration": 211,
+          "effect": "minecraft:resistance"
+        },
+        {
+          "amplifier": 0,
+          "duration": 100,
+          "effect": "cataclysm:blazing_brand"
+        }
+      ],
+      "health": 1023.72,
+      "invulnerable": false,
+      "invulnerableTime": 10,
+      "alive": true,
+      "removed": false,
+      "noAI": true,
+      "hasTarget": false,
+      "variant": 9,
+      "mini": false,
+      "managed": false,
+      "finaleMember": false,
+      "hiddenIntroActing": false,
+      "introHidden": false,
+      "impossible": false
+    }
+  },
+  "actualRawGuardBoundaryCasesAccepted": true,
+  "originalNegativeProtectionControlsAccepted": true,
+  "baselineOver500RejectionReproduced": true,
+  "fixedOver500PositiveAttacksAccepted": false,
+  "checks": 2072,
+  "failures": 0,
+  "cases": [
+    {
+      "mode": "ordinary7",
+      "requestedRaw": 7.0,
+      "ingress": "actual-survival-ServerPlayer.attack",
+      "beforeHealth": 1024.0,
+      "originalAttackBase": 1.0,
+      "originalAttackValue": 7.0,
+      "actualAttributeSlope": 1.0,
+      "beforeGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 201,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 201,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 201,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 201,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 201,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 201,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "afterHealth": 1023.72,
+      "incomingAmount": 7.0,
+      "postAmount": 0.27999997,
+      "counts": {
+        "actualPlayerAttackEvent": 1,
+        "incoming": 1,
+        "originalMitigation": 1,
+        "pre": 1,
+        "originalHealth": 1,
+        "post": 1
+      },
+      "afterGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 0.120000005,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 201,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 201,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 201,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 201,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 201,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 201,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1023.72,
+        "invulnerable": false,
+        "invulnerableTime": 10,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      }
+    },
+    {
+      "mode": "below499.5",
+      "requestedRaw": 499.5,
+      "ingress": "actual-survival-ServerPlayer.attack",
+      "beforeHealth": 1024.0,
+      "originalAttackBase": 1.0,
+      "originalAttackValue": 7.0,
+      "actualAttributeSlope": 1.0,
+      "beforeGuards": {
+        "playerAttackDamage": 499.5,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 161,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 161,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 161,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 161,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 161,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 161,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "afterHealth": 948.076,
+      "incomingAmount": 499.5,
+      "postAmount": 75.92401,
+      "counts": {
+        "actualPlayerAttackEvent": 1,
+        "incoming": 1,
+        "originalMitigation": 1,
+        "pre": 1,
+        "originalHealth": 1,
+        "post": 1
+      },
+      "afterGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 0.120000005,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 161,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 161,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 161,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 161,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 161,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 161,
+            "effect": "minecraft:resistance"
+          },
+          {
+            "amplifier": 0,
+            "duration": 100,
+            "effect": "cataclysm:blazing_brand"
+          }
+        ],
+        "health": 948.076,
+        "invulnerable": false,
+        "invulnerableTime": 10,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      }
+    },
+    {
+      "mode": "at500",
+      "requestedRaw": 500.0,
+      "ingress": "actual-survival-ServerPlayer.attack",
+      "beforeHealth": 1024.0,
+      "originalAttackBase": 1.0,
+      "originalAttackValue": 7.0,
+      "actualAttributeSlope": 1.0,
+      "beforeGuards": {
+        "playerAttackDamage": 500.0,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 121,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 121,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 121,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 121,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 121,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 121,
+            "effect": "minecraft:resistance"
+          },
+          {
+            "amplifier": 0,
+            "duration": 60,
+            "effect": "cataclysm:blazing_brand"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "afterHealth": 948.0,
+      "incomingAmount": 500.0,
+      "postAmount": 76.0,
+      "counts": {
+        "actualPlayerAttackEvent": 1,
+        "incoming": 1,
+        "originalMitigation": 1,
+        "pre": 1,
+        "originalHealth": 1,
+        "post": 1
+      },
+      "afterGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 0.120000005,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 121,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 121,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 121,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 121,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 121,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 121,
+            "effect": "minecraft:resistance"
+          },
+          {
+            "amplifier": 0,
+            "duration": 100,
+            "effect": "cataclysm:blazing_brand"
+          }
+        ],
+        "health": 948.0,
+        "invulnerable": false,
+        "invulnerableTime": 10,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      }
+    },
+    {
+      "mode": "above500.5",
+      "requestedRaw": 500.5,
+      "ingress": "actual-survival-ServerPlayer.attack",
+      "beforeHealth": 1024.0,
+      "originalAttackBase": 1.0,
+      "originalAttackValue": 7.0,
+      "actualAttributeSlope": 1.0,
+      "beforeGuards": {
+        "playerAttackDamage": 500.5,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 81,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 81,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 81,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 81,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 81,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 81,
+            "effect": "minecraft:resistance"
+          },
+          {
+            "amplifier": 0,
+            "duration": 60,
+            "effect": "cataclysm:blazing_brand"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "afterHealth": 1024.0,
+      "incomingAmount": 0.0,
+      "postAmount": 0.0,
+      "counts": {
+        "actualPlayerAttackEvent": 1
+      },
+      "afterGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 0.120000005,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 81,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 81,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 81,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 81,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 81,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 81,
+            "effect": "minecraft:resistance"
+          },
+          {
+            "amplifier": 0,
+            "duration": 60,
+            "effect": "cataclysm:blazing_brand"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      }
+    },
+    {
+      "mode": "above501",
+      "requestedRaw": 501.0,
+      "ingress": "actual-survival-ServerPlayer.attack",
+      "beforeHealth": 1024.0,
+      "originalAttackBase": 1.0,
+      "originalAttackValue": 7.0,
+      "actualAttributeSlope": 1.0,
+      "beforeGuards": {
+        "playerAttackDamage": 501.0,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 231,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 231,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 231,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 231,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 231,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 231,
+            "effect": "minecraft:resistance"
+          },
+          {
+            "amplifier": 0,
+            "duration": 20,
+            "effect": "cataclysm:blazing_brand"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "afterHealth": 1024.0,
+      "incomingAmount": 0.0,
+      "postAmount": 0.0,
+      "counts": {
+        "actualPlayerAttackEvent": 1
+      },
+      "afterGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 0.120000005,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 231,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 231,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 231,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 231,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 231,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 231,
+            "effect": "minecraft:resistance"
+          },
+          {
+            "amplifier": 0,
+            "duration": 20,
+            "effect": "cataclysm:blazing_brand"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      }
+    },
+    {
+      "mode": "above1024",
+      "requestedRaw": 1024.0,
+      "ingress": "actual-survival-ServerPlayer.attack",
+      "beforeHealth": 1024.0,
+      "originalAttackBase": 1.0,
+      "originalAttackValue": 7.0,
+      "actualAttributeSlope": 1.0,
+      "beforeGuards": {
+        "playerAttackDamage": 1024.0,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 191,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 191,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 191,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 191,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 191,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 191,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "afterHealth": 1024.0,
+      "incomingAmount": 0.0,
+      "postAmount": 0.0,
+      "counts": {
+        "actualPlayerAttackEvent": 1
+      },
+      "afterGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 0.120000005,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 191,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 191,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 191,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 191,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 191,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 191,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      }
+    },
+    {
+      "mode": "cancel600",
+      "requestedRaw": 600.0,
+      "ingress": "actual-survival-ServerPlayer.attack",
+      "beforeHealth": 1024.0,
+      "originalAttackBase": 1.0,
+      "originalAttackValue": 7.0,
+      "actualAttributeSlope": 1.0,
+      "beforeGuards": {
+        "playerAttackDamage": 600.0,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 151,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 151,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 151,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 151,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 151,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 151,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "afterHealth": 1024.0,
+      "incomingAmount": 0.0,
+      "postAmount": 0.0,
+      "counts": {
+        "actualPlayerAttackEvent": 1
+      },
+      "afterGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 0.120000005,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 151,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 151,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 151,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 151,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 151,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 151,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      }
+    },
+    {
+      "mode": "zero",
+      "requestedRaw": 0.0,
+      "ingress": "public-damage-api-negative-control",
+      "beforeHealth": 1024.0,
+      "beforeGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 111,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 111,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 111,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 111,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 111,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 111,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "returned": false,
+      "afterHealth": 1024.0,
+      "counts": {}
+    },
+    {
+      "mode": "negative",
+      "requestedRaw": -1.0,
+      "ingress": "public-damage-api-negative-control",
+      "beforeHealth": 1024.0,
+      "beforeGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 71,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 71,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 71,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 71,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 71,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 71,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "returned": false,
+      "afterHealth": 1024.0,
+      "counts": {}
+    },
+    {
+      "mode": "nan",
+      "requestedRaw": "NaN",
+      "ingress": "public-damage-api-negative-control",
+      "beforeHealth": 1024.0,
+      "beforeGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 221,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 221,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 221,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 221,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 221,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 221,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "returned": false,
+      "afterHealth": 1024.0,
+      "counts": {}
+    },
+    {
+      "mode": "positive-infinity",
+      "requestedRaw": "Infinity",
+      "ingress": "public-damage-api-negative-control",
+      "beforeHealth": 1024.0,
+      "beforeGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 181,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 181,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 181,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 181,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 181,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 181,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "returned": false,
+      "afterHealth": 1024.0,
+      "counts": {}
+    },
+    {
+      "mode": "negative-infinity",
+      "requestedRaw": "-Infinity",
+      "ingress": "public-damage-api-negative-control",
+      "beforeHealth": 1024.0,
+      "beforeGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 141,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 141,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 141,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 141,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 141,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 141,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "returned": false,
+      "afterHealth": 1024.0,
+      "counts": {}
+    },
+    {
+      "mode": "non-player-source",
+      "requestedRaw": 7.0,
+      "ingress": "public-damage-api-negative-control",
+      "beforeHealth": 1024.0,
+      "beforeGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 101,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 101,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 101,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 101,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 101,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 101,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "returned": false,
+      "afterHealth": 1024.0,
+      "counts": {}
+    },
+    {
+      "mode": "invulnerable-target",
+      "requestedRaw": 7.0,
+      "ingress": "public-damage-api-negative-control",
+      "beforeHealth": 1024.0,
+      "beforeGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 61,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 61,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 61,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 61,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 61,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 61,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": true,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "returned": false,
+      "afterHealth": 1024.0,
+      "counts": {}
+    },
+    {
+      "mode": "final-positive7",
+      "requestedRaw": 7.0,
+      "ingress": "actual-survival-ServerPlayer.attack",
+      "beforeHealth": 1024.0,
+      "originalAttackBase": 1.0,
+      "originalAttackValue": 7.0,
+      "actualAttributeSlope": 1.0,
+      "beforeGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 1.0,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 211,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 211,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 211,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 211,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 211,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 211,
+            "effect": "minecraft:resistance"
+          }
+        ],
+        "health": 1024.0,
+        "invulnerable": false,
+        "invulnerableTime": 0,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      },
+      "afterHealth": 1023.72,
+      "incomingAmount": 7.0,
+      "postAmount": 0.27999997,
+      "counts": {
+        "actualPlayerAttackEvent": 1,
+        "incoming": 1,
+        "originalMitigation": 1,
+        "pre": 1,
+        "originalHealth": 1,
+        "post": 1
+      },
+      "afterGuards": {
+        "playerAttackDamage": 7.0,
+        "playerAttackStrength": 0.120000005,
+        "playerCreative": false,
+        "playerSpectator": false,
+        "playerGameMode": "survival",
+        "playerEffects": [
+          {
+            "amplifier": 1,
+            "duration": 211,
+            "effect": "minecraft:regeneration"
+          },
+          {
+            "amplifier": 1,
+            "duration": 211,
+            "effect": "minecraft:jump_boost"
+          },
+          {
+            "amplifier": 1,
+            "duration": 211,
+            "effect": "minecraft:strength"
+          },
+          {
+            "amplifier": 1,
+            "duration": 211,
+            "effect": "minecraft:haste"
+          },
+          {
+            "amplifier": 1,
+            "duration": 211,
+            "effect": "minecraft:speed"
+          },
+          {
+            "amplifier": 1,
+            "duration": 211,
+            "effect": "minecraft:resistance"
+          },
+          {
+            "amplifier": 0,
+            "duration": 100,
+            "effect": "cataclysm:blazing_brand"
+          }
+        ],
+        "health": 1023.72,
+        "invulnerable": false,
+        "invulnerableTime": 10,
+        "alive": true,
+        "removed": false,
+        "noAI": true,
+        "hasTarget": false,
+        "variant": 9,
+        "mini": false,
+        "managed": false,
+        "finaleMember": false,
+        "hiddenIntroActing": false,
+        "introHidden": false,
+        "impossible": false
+      }
+    }
+  ],
+  "events": [
+    {
+      "actualStrength": 1.0,
+      "mode": "ordinary7",
+      "phase": "actualPlayerAttackEvent",
+      "actualAttackDamage": 7.0,
+      "canceled": false
+    },
+    {
+      "mode": "ordinary7",
+      "phase": "incoming",
+      "amount": 7.0,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "ordinary7",
+      "phase": "originalMitigation",
+      "amount": 7.0,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "ordinary7",
+      "phase": "pre",
+      "amount": 0.27999997,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "ordinary7",
+      "phase": "originalHealth",
+      "amount": 0.27999997,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "ordinary7",
+      "phase": "post",
+      "amount": 0.27999997,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1023.72
+    },
+    {
+      "actualStrength": 1.0,
+      "mode": "below499.5",
+      "phase": "actualPlayerAttackEvent",
+      "actualAttackDamage": 499.5,
+      "canceled": false
+    },
+    {
+      "mode": "below499.5",
+      "phase": "incoming",
+      "amount": 499.5,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "below499.5",
+      "phase": "originalMitigation",
+      "amount": 499.5,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "below499.5",
+      "phase": "pre",
+      "amount": 75.92401,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "below499.5",
+      "phase": "originalHealth",
+      "amount": 75.92401,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "below499.5",
+      "phase": "post",
+      "amount": 75.92401,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 948.076
+    },
+    {
+      "actualStrength": 1.0,
+      "mode": "at500",
+      "phase": "actualPlayerAttackEvent",
+      "actualAttackDamage": 500.0,
+      "canceled": false
+    },
+    {
+      "mode": "at500",
+      "phase": "incoming",
+      "amount": 500.0,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "at500",
+      "phase": "originalMitigation",
+      "amount": 500.0,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "at500",
+      "phase": "pre",
+      "amount": 76.0,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "at500",
+      "phase": "originalHealth",
+      "amount": 76.0,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "at500",
+      "phase": "post",
+      "amount": 76.0,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 948.0
+    },
+    {
+      "actualStrength": 1.0,
+      "mode": "above500.5",
+      "phase": "actualPlayerAttackEvent",
+      "actualAttackDamage": 500.5,
+      "canceled": false
+    },
+    {
+      "actualStrength": 1.0,
+      "mode": "above501",
+      "phase": "actualPlayerAttackEvent",
+      "actualAttackDamage": 501.0,
+      "canceled": false
+    },
+    {
+      "actualStrength": 1.0,
+      "mode": "above1024",
+      "phase": "actualPlayerAttackEvent",
+      "actualAttackDamage": 1024.0,
+      "canceled": false
+    },
+    {
+      "actualStrength": 1.0,
+      "mode": "cancel600",
+      "phase": "actualPlayerAttackEvent",
+      "actualAttackDamage": 600.0,
+      "canceled": false
+    },
+    {
+      "actualStrength": 1.0,
+      "mode": "final-positive7",
+      "phase": "actualPlayerAttackEvent",
+      "actualAttackDamage": 7.0,
+      "canceled": false
+    },
+    {
+      "mode": "final-positive7",
+      "phase": "incoming",
+      "amount": 7.0,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "final-positive7",
+      "phase": "originalMitigation",
+      "amount": 7.0,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "final-positive7",
+      "phase": "pre",
+      "amount": 0.27999997,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "final-positive7",
+      "phase": "originalHealth",
+      "amount": 0.27999997,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1024.0
+    },
+    {
+      "mode": "final-positive7",
+      "phase": "post",
+      "amount": 0.27999997,
+      "canceled": false,
+      "actualDamageStackDepth": 1,
+      "targetHealth": 1023.72
+    }
+  ],
+  "completedModes": 15,
+  "requiredModes": [
+    "ordinary7",
+    "below499.5",
+    "at500",
+    "above500.5",
+    "above501",
+    "above1024",
+    "cancel600",
+    "zero",
+    "negative",
+    "nan",
+    "positive-infinity",
+    "negative-infinity",
+    "non-player-source",
+    "invulnerable-target",
+    "final-positive7"
+  ],
+  "naturalPlayerPostTicks": 600,
+  "naturalPrimaryPostTicks": 600,
+  "originalEffectsAndModifiersRetained": true,
+  "authenticated": false,
+  "actualClientAndIntegratedServer": true,
+  "fakePlayerUsed": false,
+  "privateGameplayCallbacksInvoked": false,
+  "manualEntityTicksInvoked": false,
+  "installable": false,
+  "deployed": false,
+  "fullBossMigrationComplete": false
+}

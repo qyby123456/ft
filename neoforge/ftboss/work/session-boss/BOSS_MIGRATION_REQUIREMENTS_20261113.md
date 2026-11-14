@@ -1,3 +1,11 @@
+## Stage32 原版 hurt 入口上限修正与真实边界，2026-11-14
+
+仅改变 Stage31 原 JAR 的 EasterBossEntity.class 一项，移除 public hurt 多加的 raw >500 拒绝五条指令并恢复原版正数分支；有限正数、来源、无敌等原始入口图完整保留，其他原版上限未动。Stage32 NOT-INSTALLABLE 候选 SHA256 a49f1772a60d72a4240eb3f293b29fb38629a2112ad326120e81377eeeeca1ec。2624 项结构证明与完整六个原方法 32 项对照通过；实际加载的 342 个方法全部与证明组合相同，除 hurt 外 341 个方法不变。两个独立 JVM 各实际捕获 13 类，11 个其他 Boss 实际定义相同，8 个助手与候选完全相同；不声称 LivingEntity 跨 JVM 相等。
+
+同一观察器、独立新世界各 15 场景：旧版 2072 项检查复现 500.5、501、1024 及 600 被入口拒绝；修正版 2050 项通过，真实生存玩家空手满蓄力的 500.5、501、1024 均触发原生阶段并实际扣血，600 的 Incoming 取消无扣血。499.5/500、首尾 7 正控及七个单独 public API 非法值/非玩家来源/无敌负控通过。只临时校准玩家公开攻击属性基值，原增益和修饰未清除；正例未用直接 hurt 替代 ServerPlayer.attack。两次完整保存/退出 0、进程回收、冻结输入不变。边界范围未自然加载 MaqueSupportHooks，未为凑数强制加载；首轮实际定义审查错误要求全部 14 类的严格失败保留，V2 精确核对 13 类和唯一未加载项。V1 逆向证明锚点过宽的构建失败单独保存；V2 收窄精确有限值序列，不改产品变换。
+
+本段仅限定原始入口修正，并非认证完整 Boss 或完整管理分摊验收；Stage31 原生上下文和麻雀历史回归由未变方法与实际助手绑定保留，未伪称全部矩阵重跑。详见 work/session-boss/MANOR_ORIGINAL_ENTRY_BOUNDARY_20261114.md 与 reports/manor-original-entry-closeout-20261114.json。后续优先合法战斗入口的管理分摊/小柚子/取消/致死，再推进完整认证、多人与持久化。两个正式实例哈希不变；NOT-INSTALLABLE、不部署，D/正式实例只读、武器与 Session 暂停，Curios 不自动重试。模型/贴图/动画/音乐/音频及其嵌套内容禁止上传；JAR、世界与排除资源只保留本地，远端只含允许源码和文字证据。
+
 ## 原版分摊入口审查与额外 500 上限差异，2026-11-14
 
 本段源码及限定文字证据已推送 e2a35ff29e6d928022a253ea0be3cfa2110918cd，46 个文件经独立远端逐 blob 大小/SHA256 恢复核验，完整 4559 文件树资源排除检查通过。核验并检查句柄后，仅清理 Git 工作副本 18 份重复 Java/Python 缓存（155358 字节），逐路径 skip-worktree；canonical 冻结输入、世界和全部资源保留。源码恢复入口 github-sync/checkpoint-manor-sharing-route-audit-20261114.json，预期缺失与清理入口 github-sync/checkpoint-manor-sharing-route-cleanup-20261114.json。该归档不代表额外 500 上限已修复或完整管理分摊通过。

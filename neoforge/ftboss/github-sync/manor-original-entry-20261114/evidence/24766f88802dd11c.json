@@ -1,0 +1,40 @@
+{
+  "stage": "pre-candidate ASM reverse-proof selector",
+  "observedFailure": "Unique restored original positive entry branch",
+  "failurePreserved": true,
+  "candidateWritten": false,
+  "nativeRuntimeLaunched": false,
+  "cause": "Reverse proof initially matched other positive float guards; V2 anchors the preceding exact Float.isFinite sequence",
+  "productGuardTransformationUnchangedInV2": true,
+  "sourceHashesObservedAfterTerminalNotClaimedPreRun": true,
+  "inputsAndLogs": {
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tests\\ManorOriginalEntryGuardComposerV1.java": {
+      "sha256": "6cdc863f622bd5c7d77fafae80db5a921ed383a899d2b797c5ed09f04ac2f0b9",
+      "bytes": 9537
+    },
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\tools\\build_boss_manor_original_entry_v1.py": {
+      "sha256": "3941aade056d2a5ff35a1dbb307e4bdda2920ca368d56a1dbe06487d284345bf",
+      "bytes": 4461
+    },
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-original-entry-v1-20261114\\compile.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-original-entry-v1-20261114\\composition.log": {
+      "sha256": "c3e8b69704924f3cb53ec3ed6fd749732c8ed6976e9074cf97205b40c21547ce",
+      "bytes": 368
+    },
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-original-entry-v1-20261114\\compile-terminal.json": {
+      "sha256": "ea61d7736f0b7ecb9b35158f03de77013db6b100cf1d36c957e78e6c8817c5b6",
+      "bytes": 23
+    },
+    "C:\\ft工程文件C\\FTBoss-NeoForge-1.21.1-移植-20261022\\work\\session-boss\\build\\boss-manor-original-entry-v1-20261114\\composition-terminal.json": {
+      "sha256": "c34bc644b4dfc96082e294ccb49ac40bdf34a3c659c956ffef43981ed30b2234",
+      "bytes": 23
+    }
+  },
+  "failureLog": "Exception in thread \"main\" java.lang.AssertionError: Unique restored original positive entry branch\n\tat ManorOriginalEntryGuardComposerV1.require(ManorOriginalEntryGuardComposerV1.java:15)\n\tat ManorOriginalEntryGuardComposerV1.reverse(ManorOriginalEntryGuardComposerV1.java:39)\n\tat ManorOriginalEntryGuardComposerV1.main(ManorOriginalEntryGuardComposerV1.java:53)\n",
+  "modelOrMusicUploaded": false,
+  "installable": false,
+  "deployed": false
+}
