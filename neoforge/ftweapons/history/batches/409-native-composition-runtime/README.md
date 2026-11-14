@@ -1,0 +1,11 @@
+# 409：C盘真实非空计时器运行
+
+输入为408累计候选，SHA256为358c801472a73858cd0fa7df6b470d00b82b49b9b4203820e4446999dda6e197。真实NeoForge 21.1.233 / MC 1.21.1运行在本批UUID新目录，未使用调试器，依赖读取历史299。所有新运行输出、隔离home、tmp及世界位于C盘。旧D盘工程未作为写入目标。
+
+实际运行focused-storage308-09c4a794，PID29664已正常退出。exitCode=0，probe failures=0，stdin stop=true，completeSave=true。1374个运行类逐字节哈希核验通过。74项顺序覆盖、原生8/9/60、43个完整父证明克隆拒绝、4个反射伪造拒绝、未知join修改撤销检查通过。
+
+非空测试blood_feast在80tick触发，生命10变11，计时器LastSkillProc.blood_feast=80L。选中1条指令，但done=false、traceRevoked=true，正向signed Session尚未成功。
+
+本批首个真实拒绝点已从406的compositionSnapshot外层CompoundTag写入，前移到FoundationAuthorRuleSnapshots.fingerprint第60行的Profile临时CompoundTag.putString。此调用通过FourWeaponFoundationAdapter.rulesFingerprint第815行进入。不得用probe零失败冒充功能验收；下一步应在保持调用顺序、Tag别名、缓存和摘要语义的前提下修复此真实路径，不能放宽未知Map写入授权。
+
+封存回执actual-nonempty409-sealed-experimental.json的SHA256为15a6e01cd07ccebc776608011a872f0b25143d18b8063ea2c1f92e4094d9d679。完整客户端、真人多人、外部配方、四向GL、lease/repair/payment及实例验收未完成，状态NOT-INSTALLABLE，不部署。

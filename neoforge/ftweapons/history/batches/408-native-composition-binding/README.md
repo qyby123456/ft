@@ -1,0 +1,9 @@
+# 408：组合快照私有输出资源绑定
+
+本批是用户要求转到C盘后的第一份累计候选。D盘405及407为只读输入；未复制或改写历史回执路径，没有宣称历史工程全量搬迁。
+
+累计1374类、714有效源码路径、191守卫；405全部189守卫保留，新增FourWeaponFoundationAdapter及FourWeaponFoundationAdapter$PrivateSnapshot407两项。既有精确util路由不变；观察器、OwnerFieldInstallationProof和原生权限证明中的旧类哈希按实际字节更新，无陈旧有效源码哈希引用。前批全部类名保留。
+
+ASM检查1374类通过，191守卫各自缺失/损坏共382反例拒绝。两份权限源码去除新增绑定、恢复旧哈希后逐字等于父版本，重新编译的整类SKIP_DEBUG字节一致。407的128项快照字节/引用检查为继承证据，不能代替完整有效/无效基础快照或真实signed Session验收。
+
+当前NOT-INSTALLABLE，真实运行结果另见409，不部署、不改变玩法数值、不修改Independent Event。

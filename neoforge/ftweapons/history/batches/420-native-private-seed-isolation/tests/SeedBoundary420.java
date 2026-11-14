@@ -1,0 +1,39 @@
+import com.google.gson.GsonBuilder;
+import java.lang.reflect.*;
+import java.nio.file.*;
+import java.util.*;
+import net.minecraft.nbt.*;
+
+public final class SeedBoundary420 {
+    public static final class HostileCompound extends CompoundTag {
+        private boolean called;
+        @Override public CompoundTag copy() { called = true; return this; }
+    }
+
+    public static void main(String[] arguments) throws Exception {
+        boolean before = arguments[0].equals("before");
+        Class<?> type = Class.forName("net.farmingtales.ftboss.util.foundations.FoundationAuthorRuleSnapshots$PrivateFingerprint416");
+        Constructor<?> constructor = type.getDeclaredConstructor(CompoundTag.class); constructor.setAccessible(true);
+        Method string = type.getDeclaredMethod("putString", String.class, String.class); string.setAccessible(true);
+        Method finish = type.getDeclaredMethod("finish"); finish.setAccessible(true);
+        CompoundTag owner = new CompoundTag(); owner.putString("Profile", "owned-original");
+        Object draft = constructor.newInstance(owner);
+        string.invoke(draft, "Profile", "reflectively-staged");
+        CompoundTag result = (CompoundTag)finish.invoke(draft);
+        boolean mutated = owner.getString("Profile").equals("reflectively-staged");
+        if (mutated != before) throw new AssertionError("Private seed mutation boundary differs from expected phase");
+        if (!result.getString("Profile").equals("reflectively-staged")) throw new AssertionError("Private output did not retain staged value");
+        boolean subclassRejected = false;
+        if (!before) {
+            if (result == owner || !owner.getString("Profile").equals("owned-original")) throw new AssertionError("Foreign seed was reused");
+            HostileCompound hostile = new HostileCompound();
+            Object forged = constructor.newInstance(hostile);
+            try { finish.invoke(forged); throw new AssertionError("Subclass seed admitted"); }
+            catch (InvocationTargetException denied) { if (!(denied.getCause() instanceof IllegalStateException)) throw denied; subclassRejected = true; }
+            if (hostile.called) throw new AssertionError("Untrusted subclass copy callback executed");
+        }
+        Files.writeString(Path.of(arguments[1]), new GsonBuilder().setPrettyPrinting().create().toJson(Map.of(
+            "failures", 0, "phase", arguments[0], "reflectivePrivateSeedMutated", mutated,
+            "subclassSeedRejectedBeforeCallback", subclassRejected, "actualRuntimeTested", false, "installable", false)));
+    }
+}

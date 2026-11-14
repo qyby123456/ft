@@ -1,0 +1,7 @@
+# 434 首次Session撤销位置诊断
+
+433已经证明新对象绑定及非空计时器组完成，但Session最终traceRevoked=true且firstObservationFailure与firstFailedStep均为空。现有revoke允许传入空步骤与空异常，旧输出因此无法定位首次撤销来源。
+
+本批次仅在FoodWeaponOriginalSequence.Session新增firstRevocationSite434私有诊断字段，在第一次从未撤销状态进入revoke时记录调用堆栈和阶段。原有traceRevoked、firstFailedStep、firstObservationFailure及步骤处理逻辑保留，诊断异常不抛出，不赋予权限，不改变拒绝决定或玩法数值。
+
+tools/build_check434.py生成并检查七个类。只改变旧Session.revoke方法体、只新增诊断字段，其他旧方法体均保留；单份源码可精确反向还原，重新编译后七个完整类去除调试信息均与输入一致。实际ASM及-Xverify:all检查通过。原型不代表真实运行完成，累计绑定435、真实运行436另有证据。NOT-INSTALLABLE。
